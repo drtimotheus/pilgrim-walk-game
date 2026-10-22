@@ -12,14 +12,14 @@
 // ============================================================================
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { PainterlyEngine } from './painterly.js?v=44_3';
-import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_3';
-import { PainterlyPropBuilder } from './props.js?v=44_3';
-import { StepThroughSceneManager } from './scenes.js?v=44_3';
-import { GenesisDistrictBuilder } from './district.js?v=44_3';
-import { PilgrimAudio } from './audio.js?v=44_3';
-import { TripoRelicManager } from './tripo.js?v=44_3';
-import { DailyWalkManager } from './daily-walk.js?v=44_3';
+import { PainterlyEngine } from './painterly.js?v=44_5';
+import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_5';
+import { PainterlyPropBuilder } from './props.js?v=44_5';
+import { StepThroughSceneManager } from './scenes.js?v=44_5';
+import { GenesisDistrictBuilder } from './district.js?v=44_5';
+import { PilgrimAudio } from './audio.js?v=44_5';
+import { TripoRelicManager } from './tripo.js?v=44_5';
+import { DailyWalkManager } from './daily-walk.js?v=44_5';
 
 const SAVE_KEY = 'pilgrim_walk_save_v1';
 
@@ -855,12 +855,28 @@ class PilgrimWalkApp {
       stepBtn.classList.add('hidden');
     }
 
+    const seleneBtn = document.getElementById('poem-modal-selene-btn');
+    if (seleneBtn && this.dailyWalk) {
+      seleneBtn.textContent = '🔊 Listen (Selene Voice)';
+      seleneBtn.onclick = () => {
+        this.dailyWalk.speakPaintingWithSelene(paintingData, seleneBtn, '🔊 Listen (Selene Voice)');
+      };
+    }
+
+    const fishStudioBtn = document.getElementById('poem-modal-fish-studio-btn');
+    if (fishStudioBtn && this.dailyWalk) {
+      fishStudioBtn.onclick = () => {
+        this.dailyWalk.openFishStudioForPainting(paintingData);
+      };
+    }
+
     document.getElementById('poem-modal').classList.remove('hidden');
     if (document.pointerLockElement) document.exitPointerLock();
   }
 
   closePoemModal() {
     this.openPoemPainting = null;
+    if (this.dailyWalk) this.dailyWalk.stopActiveVoice();
     document.getElementById('poem-modal').classList.add('hidden');
   }
 
@@ -872,7 +888,10 @@ class PilgrimWalkApp {
 
   closeAllModals() {
     this.closePoemModal();
-    if (this.dailyWalk) this.dailyWalk.saveCurrentJournalNote();
+    if (this.dailyWalk) {
+      this.dailyWalk.saveCurrentJournalNote();
+      this.dailyWalk.stopActiveVoice();
+    }
     ['gatehouse-modal', 'scroll-modal', 'shelf-modal', 'amen-modal', 'tripo-modal', 'daily-walk-modal'].forEach((id) => {
       const el = document.getElementById(id);
       if (el) el.classList.add('hidden');

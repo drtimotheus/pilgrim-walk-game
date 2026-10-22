@@ -9,6 +9,10 @@
 //   - Optional personal reflection journal persisted in localStorage + Read Aloud + Share
 // ============================================================================
 
+const FISH_SELENE_MODEL_ID = 'b347db033a6549378b48d00acb0d06cd';
+const FISH_KEY_STORAGE = 'pilgrim_fish_audio_selene_key';
+const SELENE_DB_NAME = 'pilgrim_selene_voice_cache_v1';
+
 export class DailyWalkManager {
   constructor(app) {
     this.app = app;
@@ -18,6 +22,8 @@ export class DailyWalkManager {
     this.activeEntry = null;
     this.candleMarkerGroup = null;
     this.isSpeaking = false;
+    this.activeAudioEl = null;
+    this.fishApiKey = localStorage.getItem(FISH_KEY_STORAGE) || '';
   }
 
   async init() {
@@ -493,34 +499,212 @@ export class DailyWalkManager {
     }
   }
 
-  speakCurrentDevotional() {
-    if (!('speechSynthesis' in window) || !this.activeEntry) {
-      this.app.showToast('Read-aloud speech synthesis is not available on this browser.');
-      return;
+  // ==========================================================================
+  // FISH AUDIO "SELENE" (modelId: b347db033a6549378b48d00acb0d06cd) VOICE ENGINE
+  // ==========================================================================
+  formatNarrationText(painting) {
+    if (!painting) return '';
+    const parts = [
+      `${painting.title}.`,
+      `${painting.ref}.`,
+      painting.epigraph ? `${painting.epigraph.replace(/[“”"]/g, '')}.` : '',
+      painting.poem,
+      painting.reflectionPrompt
+        ? `Reflection for your walk: ${painting.reflectionPrompt}`
+        : ''
+    ].filter(Boolean);
+    return parts.join('\n\n');
+  }
+
+  getFishStudioSeleneUrl(painting) {
+    const text = this.formatNarrationText(painting);
+    const params = new URLSearchParams({
+      modelId: FISH_SELENE_MODEL_ID,
+      text,
+      from: 'discovery',
+      sec: 'default_voices'
+    });
+    return `https://fish.audio/app/text-to-speech/?${params.toString()}`;
+  }
+
+  openFishStudioForPainting(painting) {
+    if (!painting) return;
+    const url = this.getFishStudioSeleneUrl(painting);
+    window.open(url, '_blank', 'noopener,noreferrer');
+    this.app.showToast('🎙 Opened Fish Audio Studio with Selene pre-filled with this poem & reflection!');
+  }
+
+  openSeleneCacheDB() {
+    return new Promise((resolve, reject) => {
+      const req = indexedDB.open(SELENE_DB_NAME, 1);
+      req.onupgradeneeded = () => {
+        const db = req.result;
+        if (!db.objectStoreNames.contains('clips')) {
+          db.createObjectStore('clips');
+        }
+      };
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => reject(req.error);
+    });
+  }
+
+  async getCachedSeleneBlob(cacheKey) {
+    try {
+      const db = await this.openSeleneCacheDB();
+      return await new Promise((resolve) => {
+        const tx = db.transaction('clips', 'readonly');
+        const req = tx.objectStore('clips').get(cacheKey);
+        req.onsuccess = () => resolve(req.result || null);
+        req.onerror = () => resolve(null);
+      });
+    } catch (_) {
+      return null;
     }
-    const synth = window.speechSynthesis;
-    if (synth.speaking) {
-      synth.cancel();
-      this.isSpeaking = false;
-      const btn = document.getElementById('dw-btn-read-aloud');
-      if (btn) btn.textContent = '🔊 Read Aloud';
+  }
+
+  async setCachedSeleneBlob(cacheKey, blob) {
+    try {
+      const db = await this.openSeleneCacheDB();
+      await new Promise((resolve) => {
+        const tx = db.transaction('clips', 'readwrite');
+        tx.objectStore('clips').put(blob, cacheKey);
+        tx.oncomplete = () => resolve(true);
+        tx.onerror = () => resolve(false);
+      });
+    } catch (_) {
+      // Ignore storage quota errors
+    }
+  }
+
+  stopActiveVoice(btnEl = null, defaultLabel = '🔊 Listen (Selene)') {
+    if (this.activeAudioEl) {
+      this.activeAudioEl.pause();
+      this.activeAudioEl.currentTime = 0;
+      this.activeAudioEl = null;
+    }
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+    this.isSpeaking = false;
+    const b1 = document.getElementById('dw-btn-read-aloud');
+    const b2 = document.getElementById('poem-modal-selene-btn');
+    if (b1) b1.textContent = '🔊 Listen (Selene)';
+    if (b2) b2.textContent = '🔊 Listen (Selene Voice)';
+    if (btnEl) btnEl.textContent = defaultLabel;
+  }
+
+  async playAudioBlob(blobOrUrl, btnEl, defaultLabel) {
+    this.stopActiveVoice(btnEl, defaultLabel);
+    const url = typeof blobOrUrl === 'string' ? blobOrUrl : URL.createObjectURL(blobOrUrl);
+    const audio = new Audio(url);
+    this.activeAudioEl = audio;
+    this.isSpeaking = true;
+    if (btnEl) btnEl.textContent = '⏹ Stop Selene';
+    audio.onended = () => {
+      this.stopActiveVoice(btnEl, defaultLabel);
+    };
+    audio.onerror = () => {
+      this.stopActiveVoice(btnEl, defaultLabel);
+    };
+    await audio.play();
+  }
+
+  async speakPaintingWithSelene(painting, btnEl = null, defaultLabel = '🔊 Listen (Selene)') {
+    if (!painting) return;
+    if (this.isSpeaking) {
+      this.stopActiveVoice(btnEl, defaultLabel);
       return;
     }
 
-    const e = this.activeEntry;
-    const text = `${e.painting.title}. ${e.painting.ref}. ${e.painting.epigraph || ''}.\n\n${e.painting.poem}.\n\nReflection for today's walk: ${e.painting.reflectionPrompt}`;
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.rate = 0.88;
-    utter.pitch = 0.98;
-    utter.onend = () => {
-      this.isSpeaking = false;
-      const btn = document.getElementById('dw-btn-read-aloud');
-      if (btn) btn.textContent = '🔊 Read Aloud';
-    };
-    this.isSpeaking = true;
+    const dayNum = painting.dailyWalkDay || this.currentDay;
+    const cacheKey = `selene-day-${dayNum}`;
+
+    // 1. Check pre-saved file in assets/audio/selene/day-<N>.mp3
+    try {
+      const staticUrl = `assets/audio/selene/day-${dayNum}.mp3`;
+      const headRes = await fetch(staticUrl, { method: 'HEAD' });
+      if (headRes.ok && (headRes.headers.get('content-type') || '').includes('audio')) {
+        await this.playAudioBlob(staticUrl, btnEl, defaultLabel);
+        return;
+      }
+    } catch (_) {
+      // Continue to IndexedDB cache check
+    }
+
+    // 2. Check IndexedDB cached Selene MP3 (from Fish Audio API or attached .mp3)
+    const cachedBlob = await this.getCachedSeleneBlob(cacheKey);
+    if (cachedBlob) {
+      await this.playAudioBlob(cachedBlob, btnEl, defaultLabel);
+      return;
+    }
+
+    // 3. If Fish Audio API Key is set, synthesize live with Selene (b347db033a6549378b48d00acb0d06cd)
+    const apiKey = (this.fishApiKey || localStorage.getItem(FISH_KEY_STORAGE) || '').trim();
+    if (apiKey) {
+      try {
+        if (btnEl) btnEl.textContent = '⏳ Selene Speaking…';
+        const text = this.formatNarrationText(painting);
+        const res = await fetch('https://api.fish.audio/v1/tts', {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${apiKey}`,
+            'Content-Type': 'application/json',
+            model: 's1'
+          },
+          body: JSON.stringify({
+            text,
+            reference_id: FISH_SELENE_MODEL_ID,
+            format: 'mp3',
+            mp3_bitrate: 128
+          })
+        });
+        if (res.ok) {
+          const mp3Blob = await res.blob();
+          await this.setCachedSeleneBlob(cacheKey, mp3Blob);
+          await this.playAudioBlob(mp3Blob, btnEl, defaultLabel);
+          return;
+        } else {
+          console.warn('Fish Audio API status:', res.status);
+          this.app.showToast(
+            `Fish Audio API returned ${res.status}. Using calm browser voice (or click "🎙 Fish Audio (Selene)" to open Selene directly).`
+          );
+        }
+      } catch (err) {
+        console.warn('Fish Audio direct fetch note:', err);
+      }
+    }
+
+    // 4. Gentle serene female voice fallback + prompt to connect Selene API key or attach .mp3
+    if ('speechSynthesis' in window) {
+      const synth = window.speechSynthesis;
+      const text = this.formatNarrationText(painting);
+      const utter = new SpeechSynthesisUtterance(text);
+      const voices = synth.getVoices();
+      const sereneVoice =
+        voices.find((v) => /samantha|ava|allison|serena|victoria|karen|moira|natural/i.test(v.name) && /en/i.test(v.lang)) ||
+        voices.find((v) => /en/i.test(v.lang));
+      if (sereneVoice) utter.voice = sereneVoice;
+      utter.rate = 0.86;
+      utter.pitch = 0.96;
+      utter.onend = () => {
+        this.stopActiveVoice(btnEl, defaultLabel);
+      };
+      this.isSpeaking = true;
+      if (btnEl) btnEl.textContent = '⏹ Stop Reading';
+      synth.speak(utter);
+
+      if (!apiKey) {
+        this.app.showToast(
+          '🎙 Tip: Click "🔑 Selene API Key" or "⚡ Attach Selene .mp3" or "🎙 Fish Audio (Selene) ↗" to use your exact Fish Audio Selene voice!'
+        );
+      }
+    }
+  }
+
+  speakCurrentDevotional() {
+    if (!this.activeEntry) return;
     const btn = document.getElementById('dw-btn-read-aloud');
-    if (btn) btn.textContent = '⏹ Stop Reading';
-    synth.speak(utter);
+    this.speakPaintingWithSelene(this.activeEntry.painting, btn, '🔊 Listen (Selene)');
   }
 
   async copyCurrentDevotionalShareText() {
@@ -638,6 +822,58 @@ export class DailyWalkManager {
     const readAloudBtn = document.getElementById('dw-btn-read-aloud');
     if (readAloudBtn) {
       readAloudBtn.addEventListener('click', () => this.speakCurrentDevotional());
+    }
+
+    const fishStudioBtn = document.getElementById('dw-btn-fish-studio');
+    if (fishStudioBtn) {
+      fishStudioBtn.addEventListener('click', () => {
+        if (this.activeEntry?.painting) {
+          this.openFishStudioForPainting(this.activeEntry.painting);
+        }
+      });
+    }
+
+    const uploadMp3Input = document.getElementById('dw-upload-selene-mp3');
+    if (uploadMp3Input) {
+      uploadMp3Input.addEventListener('change', async (e) => {
+        const file = e.target.files?.[0];
+        if (!file || !this.activeEntry) return;
+        const dayNum = this.activeEntry.day;
+        await this.setCachedSeleneBlob(`selene-day-${dayNum}`, file);
+        this.app.showToast(
+          `✦ Saved Selene voice recording "${file.name}" for Day ${dayNum}! Playing now…`
+        );
+        const btn = document.getElementById('dw-btn-read-aloud');
+        await this.playAudioBlob(file, btn, '🔊 Listen (Selene)');
+      });
+    }
+
+    const keyToggleBtn = document.getElementById('dw-btn-selene-key');
+    const keyBar = document.getElementById('dw-selene-key-bar');
+    const keyInput = document.getElementById('dw-fish-api-key-input');
+    const keySaveBtn = document.getElementById('dw-fish-api-key-save');
+    if (keyInput && this.fishApiKey) {
+      keyInput.value = this.fishApiKey;
+    }
+    if (keyToggleBtn && keyBar) {
+      keyToggleBtn.addEventListener('click', () => {
+        keyBar.classList.toggle('hidden');
+      });
+    }
+    if (keySaveBtn && keyInput) {
+      keySaveBtn.addEventListener('click', () => {
+        this.fishApiKey = keyInput.value.trim();
+        if (this.fishApiKey) {
+          localStorage.setItem(FISH_KEY_STORAGE, this.fishApiKey);
+          this.app.showToast(
+            '✦ Saved Fish Audio API key! Clicking "🔊 Listen (Selene)" will now synthesize with Selene (b347db033a6549378b48d00acb0d06cd).'
+          );
+        } else {
+          localStorage.removeItem(FISH_KEY_STORAGE);
+          this.app.showToast('Cleared Fish Audio API key.');
+        }
+        if (keyBar) keyBar.classList.add('hidden');
+      });
     }
 
     const shareBtn = document.getElementById('dw-btn-share');

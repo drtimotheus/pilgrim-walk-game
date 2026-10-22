@@ -9,7 +9,7 @@
 //   - Floating river lanterns & glowing golden threshold rings
 // ============================================================================
 
-import { createKomorebiWaterMaterial } from './postprocess.js';
+import { createKomorebiWaterMaterial } from './postprocess.js?v=44_2';
 
 export class StepThroughSceneManager {
   constructor(THREE, painterly, propBuilder) {

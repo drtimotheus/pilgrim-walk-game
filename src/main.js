@@ -12,13 +12,13 @@
 // ============================================================================
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { PainterlyEngine } from './painterly.js';
-import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js';
-import { PainterlyPropBuilder } from './props.js';
-import { StepThroughSceneManager } from './scenes.js';
-import { GenesisDistrictBuilder } from './district.js';
-import { PilgrimAudio } from './audio.js';
-import { TripoRelicManager } from './tripo.js';
+import { PainterlyEngine } from './painterly.js?v=44_2';
+import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_2';
+import { PainterlyPropBuilder } from './props.js?v=44_2';
+import { StepThroughSceneManager } from './scenes.js?v=44_2';
+import { GenesisDistrictBuilder } from './district.js?v=44_2';
+import { PilgrimAudio } from './audio.js?v=44_2';
+import { TripoRelicManager } from './tripo.js?v=44_2';
 
 const SAVE_KEY = 'pilgrim_walk_save_v1';
 
@@ -354,24 +354,34 @@ class PilgrimWalkApp {
 
   updateActivePillHighlight() {
     const isGH = this.mode === 'GATEHOUSE';
-    const map = {
-      'btn-walk-gatehouse': isGH,
-      'btn-district-genesis': !isGH && this.currentDistrictSlug === 'genesis',
-      'btn-district-exodus': !isGH && this.currentDistrictSlug === 'exodus',
-      'btn-district-fire-by-night': !isGH && this.currentDistrictSlug === 'fire-by-night',
-      'btn-district-choose-life': !isGH && this.currentDistrictSlug === 'choose-life',
-      'btn-district-joshua-judges': !isGH && this.currentDistrictSlug === 'joshua-judges',
-      'btn-district-ruth': !isGH && this.currentDistrictSlug === 'ruth',
-      'btn-district-samuel': !isGH && this.currentDistrictSlug === 'samuel',
-      'btn-district-kings': !isGH && this.currentDistrictSlug === 'kings'
-    };
-    Object.entries(map).forEach(([id, active]) => {
-      const el = document.getElementById(id);
-      if (el) el.classList.toggle('active-pill', active);
-    });
+    const elGH = document.getElementById('btn-walk-gatehouse');
+    if (elGH) elGH.classList.toggle('active-pill', isGH);
+
     const sel = document.getElementById('hud-district-select');
-    if (sel && !isGH) {
-      sel.value = this.currentDistrictSlug;
+    if (sel) {
+      sel.classList.toggle('active-pill', !isGH);
+      if (!isGH) sel.value = this.currentDistrictSlug;
+    }
+
+    const ribbon = document.getElementById('all-44-ribbon');
+    if (ribbon) {
+      if (ribbon.children.length === 0) {
+        Object.entries(this.districtMeta).forEach(([slug, m], i) => {
+          const btn = document.createElement('button');
+          btn.className = 'hud-pill';
+          btn.dataset.districtPill = slug;
+          btn.textContent = `${m.num} · #${i + 1} ${m.shortName}`;
+          btn.addEventListener('click', () => this.switchDistrict(slug));
+          ribbon.appendChild(btn);
+        });
+      }
+      ribbon.querySelectorAll('[data-district-pill]').forEach((btn) => {
+        const active = !isGH && btn.dataset.districtPill === this.currentDistrictSlug;
+        btn.classList.toggle('active-pill', active);
+        if (active) {
+          btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        }
+      });
     }
   }
 
@@ -989,23 +999,25 @@ class PilgrimWalkApp {
     if (btnTripo) btnTripo.addEventListener('click', () => this.openModal('tripo-modal'));
 
     const btnWalkGH = document.getElementById('btn-walk-gatehouse');
-    const btnGen = document.getElementById('btn-district-genesis');
-    const btnExo = document.getElementById('btn-district-exodus');
-    const btnFbn = document.getElementById('btn-district-fire-by-night');
-    const btnCl = document.getElementById('btn-district-choose-life');
-    const btnJJ = document.getElementById('btn-district-joshua-judges');
-    const btnRuth = document.getElementById('btn-district-ruth');
-    const btnSam = document.getElementById('btn-district-samuel');
-    const btnKings = document.getElementById('btn-district-kings');
     if (btnWalkGH) btnWalkGH.addEventListener('click', () => this.enterGatehouse3DHub());
-    if (btnGen) btnGen.addEventListener('click', () => this.switchDistrict('genesis'));
-    if (btnExo) btnExo.addEventListener('click', () => this.switchDistrict('exodus'));
-    if (btnFbn) btnFbn.addEventListener('click', () => this.switchDistrict('fire-by-night'));
-    if (btnCl) btnCl.addEventListener('click', () => this.switchDistrict('choose-life'));
-    if (btnJJ) btnJJ.addEventListener('click', () => this.switchDistrict('joshua-judges'));
-    if (btnRuth) btnRuth.addEventListener('click', () => this.switchDistrict('ruth'));
-    if (btnSam) btnSam.addEventListener('click', () => this.switchDistrict('samuel'));
-    if (btnKings) btnKings.addEventListener('click', () => this.switchDistrict('kings'));
+
+    const allSlugs = Object.keys(this.districtMeta);
+    const btnPrev = document.getElementById('btn-prev-district');
+    const btnNext = document.getElementById('btn-next-district');
+    if (btnPrev) {
+      btnPrev.addEventListener('click', () => {
+        const idx = allSlugs.indexOf(this.currentDistrictSlug);
+        const prevIdx = idx <= 0 ? allSlugs.length - 1 : idx - 1;
+        this.switchDistrict(allSlugs[prevIdx]);
+      });
+    }
+    if (btnNext) {
+      btnNext.addEventListener('click', () => {
+        const idx = allSlugs.indexOf(this.currentDistrictSlug);
+        const nextIdx = idx < 0 || idx >= allSlugs.length - 1 ? 0 : idx + 1;
+        this.switchDistrict(allSlugs[nextIdx]);
+      });
+    }
 
     const hudSelect = document.getElementById('hud-district-select');
     if (hudSelect) {
@@ -1015,23 +1027,19 @@ class PilgrimWalkApp {
     }
 
     const ghBtnCourt = document.getElementById('gatehouse-btn-courtyard');
-    const ghBtnGen = document.getElementById('gatehouse-btn-genesis');
-    const ghBtnExo = document.getElementById('gatehouse-btn-exodus');
-    const ghBtnFbn = document.getElementById('gatehouse-btn-fire-by-night');
-    const ghBtnCl = document.getElementById('gatehouse-btn-choose-life');
-    const ghBtnJJ = document.getElementById('gatehouse-btn-joshua-judges');
-    const ghBtnRuth = document.getElementById('gatehouse-btn-ruth');
-    const ghBtnSam = document.getElementById('gatehouse-btn-samuel');
-    const ghBtnKings = document.getElementById('gatehouse-btn-kings');
     if (ghBtnCourt) ghBtnCourt.addEventListener('click', () => this.enterGatehouse3DHub());
-    if (ghBtnGen) ghBtnGen.addEventListener('click', () => this.switchDistrict('genesis'));
-    if (ghBtnExo) ghBtnExo.addEventListener('click', () => this.switchDistrict('exodus'));
-    if (ghBtnFbn) ghBtnFbn.addEventListener('click', () => this.switchDistrict('fire-by-night'));
-    if (ghBtnCl) ghBtnCl.addEventListener('click', () => this.switchDistrict('choose-life'));
-    if (ghBtnJJ) ghBtnJJ.addEventListener('click', () => this.switchDistrict('joshua-judges'));
-    if (ghBtnRuth) ghBtnRuth.addEventListener('click', () => this.switchDistrict('ruth'));
-    if (ghBtnSam) ghBtnSam.addEventListener('click', () => this.switchDistrict('samuel'));
-    if (ghBtnKings) ghBtnKings.addEventListener('click', () => this.switchDistrict('kings'));
+
+    const ghAllBtns = document.getElementById('gatehouse-all-44-buttons');
+    if (ghAllBtns) {
+      allSlugs.forEach((slug, i) => {
+        const m = this.districtMeta[slug];
+        const b = document.createElement('button');
+        b.className = 'gold-btn';
+        b.textContent = `${m.num} · #${i + 1}: ${m.shortName}`;
+        b.addEventListener('click', () => this.switchDistrict(slug));
+        ghAllBtns.appendChild(b);
+      });
+    }
 
     const amenNextBtn = document.getElementById('amen-next-district-btn');
     if (amenNextBtn) {

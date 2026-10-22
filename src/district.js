@@ -8,7 +8,7 @@
 //   - 40 paintings in book order across 4 parts + 4 hidden Lights + Amen Gate
 // ============================================================================
 
-import { createKomorebiWaterMaterial } from './postprocess.js';
+import { createKomorebiWaterMaterial } from './postprocess.js?v=44_2';
 
 export class GenesisDistrictBuilder {
   constructor(THREE, painterly, propBuilder) {

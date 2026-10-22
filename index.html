@@ -166,10 +166,28 @@
       color: var(--gold-bright);
     }
 
+    #all-44-ribbon {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      overflow-x: auto;
+      padding: 4px 2px 6px 2px;
+      pointer-events: auto;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(219, 184, 123, 0.5) transparent;
+    }
+    #all-44-ribbon .hud-pill {
+      flex: 0 0 auto;
+      white-space: nowrap;
+      padding: 5px 11px;
+      font-size: 0.81rem;
+    }
+
     /* Stage 1 Prototype Scene Quick-Test Strip */
     #prototype-scene-strip {
       position: fixed;
-      top: 62px;
+      top: 104px;
       left: 16px;
       z-index: 28;
       background: rgba(28, 22, 16, 0.84);
@@ -580,16 +598,9 @@
   <!-- Top HUD -->
   <header id="top-hud">
     <div class="hud-cluster">
-      <button id="btn-walk-gatehouse" class="hud-pill">⛩ 3D Gatehouse</button>
-      <button id="btn-district-genesis" class="hud-pill active-pill">🏛 I · Genesis</button>
-      <button id="btn-district-exodus" class="hud-pill">🔥 II · Exodus</button>
-      <button id="btn-district-fire-by-night" class="hud-pill">🕯 III · Fire by Night</button>
-      <button id="btn-district-choose-life" class="hud-pill">🌿 IV · Choose Life</button>
-      <button id="btn-district-joshua-judges" class="hud-pill">🎺 V · Joshua &amp; Judges</button>
-      <button id="btn-district-ruth" class="hud-pill">🌾 VI · Ruth</button>
-      <button id="btn-district-samuel" class="hud-pill">🪔 VII · 1–2 Samuel</button>
-      <button id="btn-district-kings" class="hud-pill">👑 VIII · 1 &amp; 2 Kings</button>
-      <select id="hud-district-select" class="hud-pill" aria-label="Jump to any of the 44 Books" style="max-width: 250px;">
+      <button id="btn-walk-gatehouse" class="hud-pill">⛩ 3D Gatehouse (44 Gates)</button>
+      <button id="btn-prev-district" class="hud-pill" title="Previous Book">◀ Prev</button>
+      <select id="hud-district-select" class="hud-pill active-pill" aria-label="Jump to any of the 44 Books" style="max-width: 280px;">
         <option value="genesis">I · #1 Genesis — In the Beginning</option>
         <option value="exodus">II · #2 Exodus — Let My People Go</option>
         <option value="fire-by-night">III · #3 Leviticus &amp; Numbers — Fire by Night</option>
@@ -635,10 +646,11 @@
         <option value="little-children">XLIII · #43 1–3 John — Little Children</option>
         <option value="all-things-new">XLIV · #44 Revelation — All Things New</option>
       </select>
-      <button id="btn-tripo-studio" class="hud-pill">🎨 Tripo3D</button>
+      <button id="btn-next-district" class="hud-pill" title="Next Book">Next ▶</button>
+      <button id="btn-long-scroll" class="hud-pill">📜 All 44 Books</button>
+      <button id="btn-cover-shelf" class="hud-pill">📚 44-Book Shelf</button>
       <button id="btn-gatehouse" class="hud-pill">📖 Intro</button>
-      <button id="btn-long-scroll" class="hud-pill">📜 44 Books</button>
-      <button id="btn-cover-shelf" class="hud-pill">📚 Shelf</button>
+      <button id="btn-tripo-studio" class="hud-pill">🎨 Tripo3D</button>
     </div>
     <div class="hud-cluster">
       <span id="lantern-glow-indicator" class="hud-pill hud-stat">✦ Lantern lit</span>
@@ -649,6 +661,8 @@
       <button id="btn-a11y-motion" class="hud-pill">Motion: Standard</button>
       <button id="btn-a11y-text" class="hud-pill">Text: Standard</button>
     </div>
+    <!-- Scrollable Pill Bar of All 44 Districts (I through XLIV) -->
+    <div id="all-44-ribbon" aria-label="All 44 Districts Ribbon"></div>
   </header>
 
   <!-- Step-Through Scene Quick-Jump Strip (dynamically updated for active district) -->
@@ -716,16 +730,8 @@
       <h2 id="gatehouse-modal-title" class="poem-title">In the Beginning — Genesis in Poems &amp; Pictures</h2>
       <p id="gatehouse-modal-sub" class="poem-ref">40 Paintings · 4 Parts · 4 Hidden Lights · Step-Through Scenes</p>
       <div id="gatehouse-modal-body" class="poem-body" style="margin-bottom:20px;"></div>
-      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+      <div id="gatehouse-all-44-buttons" style="display:flex;gap:8px;flex-wrap:wrap;max-height:260px;overflow-y:auto;padding:8px 0;">
         <button id="gatehouse-btn-courtyard" class="gold-btn">⛩ Walk 3D Gatehouse (44 Gates)</button>
-        <button id="gatehouse-btn-genesis" class="gold-btn">🏛 I: Genesis</button>
-        <button id="gatehouse-btn-exodus" class="gold-btn">🔥 II: Exodus</button>
-        <button id="gatehouse-btn-fire-by-night" class="gold-btn">🕯 III: Fire by Night</button>
-        <button id="gatehouse-btn-choose-life" class="gold-btn">🌿 IV: Choose Life</button>
-        <button id="gatehouse-btn-joshua-judges" class="gold-btn">🎺 V: Joshua &amp; Judges</button>
-        <button id="gatehouse-btn-ruth" class="gold-btn">🌾 VI: Ruth</button>
-        <button id="gatehouse-btn-samuel" class="gold-btn">🪔 VII: 1–2 Samuel</button>
-        <button id="gatehouse-btn-kings" class="gold-btn">👑 VIII: 1 &amp; 2 Kings</button>
         <button class="gold-btn" data-close-modal>Resume Current Walk</button>
       </div>
     </div>
@@ -784,6 +790,6 @@
     </div>
   </div>
 
-  <script type="module" src="src/main.js"></script>
+  <script type="module" src="src/main.js?v=44_2"></script>
 </body>
 </html>

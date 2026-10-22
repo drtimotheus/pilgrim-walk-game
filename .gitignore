@@ -1,5 +1,7 @@
 # Raw print-master PDFs & high-res masters (keep backed up in Google Drive / local disk, not GitHub)
 Pilgrim Walk Game Art/
+PilgrimWalkArt.zip
+*.zip
 
 # OS & Editor files
 .DS_Store

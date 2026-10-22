@@ -1,0 +1,814 @@
+{
+  "district": 8,
+  "slug": "kings",
+  "title": "A Still Small Voice",
+  "subtitle": "1 & 2 Kings in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/kings/web/k-008-000.jpg",
+  "beforeYouBegin": "The books of Kings begin with a young king asking for an understanding heart and end with an exiled king eating bread at a foreign table. In between: stones cut in silence at the quarry, a cloud of glory filling the temple, a cloak torn in twelve pieces, ravens at a brook, a widow's last handful of flour, fire on Carmel, a voice so quiet a prophet covered his face to hear it, a mantle dropped across a plowman's shoulders, a pot of oil that outlasted the jars, a river that made a proud captain clean, hills full of horses of fire, and a forgotten book found in the dust of the temple. This book walks through it in forty short poems, in five parts: Solomon and the temple, the kingdom torn in two, Elijah, Elisha, and the last kings to the fall of Jerusalem.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "A House for His Name",
+      "epigraph": "I will dwell among the children of Israel, and will not forsake my people Israel.",
+      "epigraphRef": "1 Kings 6:13",
+      "lightName": "Light of the Cedar Sanctuary",
+      "lightHint": "Where the luminous cloud of glory fills the quiet gold-and-cedar house"
+    },
+    {
+      "part": 2,
+      "title": "A Lamp in Jerusalem",
+      "epigraph": "That David my servant may have a lamp always before me in Jerusalem.",
+      "epigraphRef": "1 Kings 11:36",
+      "lightName": "Light of the Unextinguished Lamp",
+      "lightHint": "Beside the torn cloak where one tribe is kept for David’s sake"
+    },
+    {
+      "part": 3,
+      "title": "The God Who Answers",
+      "epigraph": "The God who answers by fire, let him be God.",
+      "epigraphRef": "1 Kings 18:24",
+      "lightName": "Light of Mount Horeb’s Cave",
+      "lightHint": "At the mouth of the mountain cave where the still small voice speaks after the fire"
+    },
+    {
+      "part": 4,
+      "title": "Open His Eyes",
+      "epigraph": "Yahweh, please open his eyes, that he may see.",
+      "epigraphRef": "2 Kings 6:17",
+      "lightName": "Light of the Hills of Dothan",
+      "lightHint": "Along the ridge blazing with unseen horses and chariots of fire"
+    },
+    {
+      "part": 5,
+      "title": "I Have Seen Your Tears",
+      "epigraph": "I have heard your prayer. I have seen your tears.",
+      "epigraphRef": "2 Kings 20:5",
+      "lightName": "Light of the Exiled Table",
+      "lightHint": "Near the dial steps and the final table of daily bread before the Finale Plaza"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "the way of all the earth",
+      "ref": "1 Kings 2:1–3",
+      "epigraph": "“I am going the way of all the earth. You be strong therefore, and show yourself a man”",
+      "poem": "an old king,\ngoing the way of all the earth,\ndoesn't talk about swords\nor borders.\n\nhe talks about walking.\n\nkeep his ways.\nkeep his word.\nwalk before him\nwith all your heart.\n\nthat's the strength\nhe means.\n\nnot the grip\nof a hand on a throne,\nbut the steadiness\nof feet on a path.",
+      "webSrc": "assets/kings/web/k-008-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c3b4a0",
+        "horizon": "#79674e",
+        "ground": "#6f5b43",
+        "overall": "#87755e",
+        "accent": "#f6ead6"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "an understanding heart",
+      "ref": "1 Kings 3:5–10",
+      "epigraph": "“Give your servant therefore an understanding heart”",
+      "poem": "ask, God said,\nand the whole night waited.\n\na young king\nwith everything to want\nsaid,\nI am just a little child.\nI don't know how\nto go out or come in.\n\nthen he asked,\nnot for long life,\nnot for riches,\nbut for a heart\nthat could hear.\n\nand God was pleased.\n\nsometimes the wisest thing\nyou can say\nis how little you know,\nand then ask\nto be taught.",
+      "webSrc": "assets/kings/web/k-008-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#43403a",
+        "horizon": "#4d4840",
+        "ground": "#514539",
+        "overall": "#4c463d",
+        "accent": "#cfb284"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "the living child",
+      "ref": "1 Kings 3:16–28",
+      "epigraph": "“Give her the living child, and definitely do not kill him. She is his mother.”",
+      "poem": "two women,\none baby,\nno witnesses.\n\nthe king didn't search\nfor evidence.\nhe searched\nfor love.\n\nand he found it\nin the one\nwho would rather lose her son\nthan see him hurt.\n\ngive her the child,\nshe said.\nonly let him live.\n\nthat was how he knew.\n\nlove will let go\nbefore it lets\nharm come.",
+      "webSrc": "assets/kings/web/k-008-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#91826c",
+        "horizon": "#857663",
+        "ground": "#7c7163",
+        "overall": "#887a69",
+        "accent": "#fdf5df"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "cedar and hyssop",
+      "ref": "1 Kings 4:29–34",
+      "epigraph": "“He spoke of trees, from the cedar that is in Lebanon even to the hyssop that grows out of the wall”",
+      "poem": "the tall cedar of Lebanon\nand the little hyssop\nin a crack of the wall.\n\nhe had words for both.\n\nwisdom notices\nthe small things too.",
+      "webSrc": "assets/kings/web/k-008-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ded3b5",
+        "horizon": "#c1b89c",
+        "ground": "#a09377",
+        "overall": "#bcb194",
+        "accent": "#e3d8ba"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "no hammer heard",
+      "ref": "1 Kings 6:7",
+      "epigraph": "“The house, when it was under construction, was built of stone prepared at the quarry”",
+      "poem": "the stones were cut\nsomewhere else,\nfar off, at the quarry,\nwhere the noise was.\n\nby the time they reached the hill\nthey only had to be\nset in place.\n\na house for God\nrising\nin silence.\n\nmaybe that's how he builds\nin us too:\nthe hard shaping done\nin places we'd rather forget,\nso that when we arrive,\nwe fit.",
+      "webSrc": "assets/kings/web/k-008-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6cdb6",
+        "horizon": "#8e8978",
+        "ground": "#76684d",
+        "overall": "#988e77",
+        "accent": "#f5ecd3"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "the cloud",
+      "ref": "1 Kings 8:6–11",
+      "epigraph": "“the cloud filled Yahweh’s house, so that the priests could not stand to minister by reason of the cloud”",
+      "poem": "the priests set the ark\nin its place\nand stepped out,\n\nand a cloud came in\nbehind them\nand filled the house,\n\nso thick with glory\nthat no one\ncould stand to work.\n\nall that cedar,\nall that gold,\nall that careful building,\n\nand the best moment\nwas the one\nwhen nobody could do\nanything at all.",
+      "webSrc": "assets/kings/web/k-008-006.jpg",
+      "heroSrc": "assets/kings/hero/k-008-006-hero.jpg",
+      "isScene": true,
+      "sceneType": "temple_cloud",
+      "palette": {
+        "top": "#967e59",
+        "horizon": "#b0a17f",
+        "ground": "#a29373",
+        "overall": "#a39270",
+        "accent": "#f4e7bb"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "how much less this house",
+      "ref": "1 Kings 8:22–30",
+      "epigraph": "“heaven and the heaven of heavens can’t contain you; how much less this house that I have built!”",
+      "poem": "he built the finest house\nthe land had ever seen,\nthen stood in front of it\nwith open hands\nand said,\nit can't hold you.\n\nheaven can't hold you.\n\nbut hear us\nwhen we pray toward this place.\nand when you hear,\nforgive.\n\nnot a house to keep God in.\na place to turn toward\nwhen we need\nto be found.",
+      "webSrc": "assets/kings/web/k-008-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bfb19a",
+        "horizon": "#8e7e79",
+        "ground": "#5c4e3d",
+        "overall": "#847667",
+        "accent": "#d9c8a6"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "not even half",
+      "ref": "1 Kings 10:1–9",
+      "epigraph": "“Behold, not even half was told me!”",
+      "poem": "she came a long way\nwith camels and spices and gold\nand all her hardest questions.\n\nshe'd heard the stories.\nshe didn't believe them.\n\nthen she saw\nthe table,\nthe house,\nthe way up to the house of God,\nand she had nothing left\nto say.\n\nnot even half, she said at last.\nnot even half was told me.\n\nsome things you only know\nby going to see.",
+      "webSrc": "assets/kings/web/k-008-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2b394",
+        "horizon": "#6a6352",
+        "ground": "#645c4a",
+        "overall": "#807660",
+        "accent": "#f2d8a6"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "a little at a time",
+      "ref": "1 Kings 11:1–8",
+      "epigraph": "“his heart was not perfect with Yahweh his God, as the heart of David his father was.”",
+      "poem": "it didn't happen in a day.\n\nthe man who asked for wisdom,\nwho prayed at the altar\nwith open hands,\n\ngrew old,\nand his heart turned\na little,\nand then a little more,\n\nuntil there were altars\non the hill across the valley\nto gods with other names.\n\nnobody wakes up\nfar from God.\n\nyou drift\none small turn\nat a time.",
+      "webSrc": "assets/kings/web/k-008-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6b38e",
+        "horizon": "#ad9a7a",
+        "ground": "#444134",
+        "overall": "#887c64",
+        "accent": "#ebc592"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "twelve pieces",
+      "ref": "1 Kings 11:29–36",
+      "epigraph": "“Ahijah took the new garment that was on him, and tore it in twelve pieces.”",
+      "poem": "a prophet in a field\ntook off his new cloak\nand tore it\ninto twelve pieces.\n\ntake ten, he told Jeroboam.\nthe kingdom would break.\n\nbut not all of it.\none tribe kept,\nfor David's sake,\nfor Jerusalem's sake,\n\nso there would always be\na lamp.\n\neven when God\nlets things tear,\nhe leaves a light\nburning.",
+      "webSrc": "assets/kings/web/k-008-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b997",
+        "horizon": "#9b8b66",
+        "ground": "#958766",
+        "overall": "#a59774",
+        "accent": "#e3c481"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "good words",
+      "ref": "1 Kings 12:1–16",
+      "epigraph": "“If you will be a servant to this people today, and will serve them, and answer them with good words, then they will be your servants forever.”",
+      "poem": "the old men said,\nbe their servant today\nand they'll serve you forever.\n\nthe young men said,\nmake the yoke heavier.\n\nhe listened\nto the young men.\n\nand a kingdom\nthat had held together\nthrough three kings\ncame apart\nover one answer.\n\nthe gentle word\nwould have cost him\nnothing.",
+      "webSrc": "assets/kings/web/k-008-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbbfa5",
+        "horizon": "#bdaf95",
+        "ground": "#af9d7e",
+        "overall": "#b8a98e",
+        "accent": "#f2e1bf"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "too far to go",
+      "ref": "1 Kings 12:26–30",
+      "epigraph": "“It is too much for you to go up to Jerusalem.”",
+      "poem": "it's too far, the king said.\ntoo much for you.\nstay here.\nhere is a god you can reach.\n\ntwo gold calves,\none at each end of the land,\nso no one would have\nto make the climb.\n\nit sounded like kindness.\n\nbut the easy road\nled the people\naway from the house\nwhere God had put his name.\n\nnot every shortcut\nis a mercy.",
+      "webSrc": "assets/kings/web/k-008-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ebdfbb",
+        "horizon": "#a89c81",
+        "ground": "#756a54",
+        "overall": "#a4997e",
+        "accent": "#f2deac"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "the hand restored",
+      "ref": "1 Kings 13:1–6",
+      "epigraph": "“pray for me, that my hand may be restored me again.”",
+      "poem": "the king stretched out his hand\nto seize the man of God,\nand it dried\nand would not come back.\n\nthen the king said,\npray for me.\n\nand the man he had just tried\nto arrest\nprayed,\nand the hand came back\nas it was before.\n\nof all the signs that day,\nmaybe this was the clearest:\na prayer\nfor the one who was against him.",
+      "webSrc": "assets/kings/web/k-008-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a59b86",
+        "horizon": "#5c503e",
+        "ground": "#5e5241",
+        "overall": "#736855",
+        "accent": "#e4cba9"
+      }
+    },
+    {
+      "n": 14,
+      "part": 3,
+      "title": "ravens",
+      "ref": "1 Kings 17:1–6",
+      "epigraph": "“The ravens brought him bread and meat in the morning, and bread and meat in the evening; and he drank from the brook.”",
+      "poem": "hide by the brook, God said.\nthe ravens will feed you.\n\nof all the messengers,\nbirds that take,\nnot birds that give.\n\nand yet:\nbread in the morning,\nbread in the evening,\nand water running over stones.\n\nhe didn't get a storehouse.\nhe got a morning,\nand then an evening,\nand then another morning.\n\nenough,\ntwice a day,\non black wings.",
+      "webSrc": "assets/kings/web/k-008-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6bca4",
+        "horizon": "#77705f",
+        "ground": "#7d7564",
+        "overall": "#8f8773",
+        "accent": "#e1d5ba"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "a handful of flour",
+      "ref": "1 Kings 17:8–16",
+      "epigraph": "“The jar of meal didn’t run out, and the jar of oil didn’t fail”",
+      "poem": "a widow gathering two sticks\nat the city gate\nfor one last meal.\n\na handful of flour,\na little oil.\nthat was everything.\n\na stranger asked her\nto make his bread first,\nand she did.\n\nand the next morning\nthere was flour in the jar,\nand the next.\n\nnever full.\nnever empty.\njust enough,\nevery time she reached in.",
+      "webSrc": "assets/kings/web/k-008-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dacfa9",
+        "horizon": "#c4b995",
+        "ground": "#80755c",
+        "overall": "#ada283",
+        "accent": "#efe4c9"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "your son lives",
+      "ref": "1 Kings 17:17–24",
+      "epigraph": "“Behold, your son lives.”",
+      "poem": "the boy stopped breathing,\nand his mother\nhad only questions.\n\nElijah didn't argue.\nhe said, give me your son,\nand carried him upstairs\nand cried out to God.\n\nthree times he stretched out\nover the child.\n\nand God listened.\n\nthen down the stairs\nwith the boy in his arms:\nsee, your son lives.\n\nsome prayers\nare carried up the stairs\nin grief\nand come back down\nbreathing.",
+      "webSrc": "assets/kings/web/k-008-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8c795e",
+        "horizon": "#8b7b61",
+        "ground": "#675d4a",
+        "overall": "#7d6e57",
+        "accent": "#fadeb4"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "how long",
+      "ref": "1 Kings 18:20–21",
+      "epigraph": "“How long will you waver between the two sides?”",
+      "poem": "how long, he asked them,\nwill you stand there\nbetween two roads?\n\nand the people\ndidn't say a word.\n\nsilence\nis an answer too.",
+      "webSrc": "assets/kings/web/k-008-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dfd3b8",
+        "horizon": "#aca18b",
+        "ground": "#776b53",
+        "overall": "#a39880",
+        "accent": "#eadec4"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "fire on Carmel",
+      "ref": "1 Kings 18:30–39",
+      "epigraph": "“Yahweh, he is God! Yahweh, he is God!”",
+      "poem": "all day they shouted,\nand no one answered.\n\nthen Elijah rebuilt\nthe broken altar,\ntwelve stones,\none for each tribe,\n\nand poured water on it\nthree times,\ntill the trench was full.\n\none short prayer\nat the evening offering:\nlet them know\nyou have turned their hearts back.\n\nand the fire fell\nand licked up\neven the water.",
+      "webSrc": "assets/kings/web/k-008-018.jpg",
+      "heroSrc": "assets/kings/hero/k-008-018-hero.jpg",
+      "isScene": true,
+      "sceneType": "carmel_fire",
+      "palette": {
+        "top": "#bfae8d",
+        "horizon": "#c7b591",
+        "ground": "#574d3c",
+        "overall": "#97886d",
+        "accent": "#f0cd91"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "a cloud like a hand",
+      "ref": "1 Kings 18:41–45",
+      "epigraph": "“Behold, a small cloud, like a man’s hand, is rising out of the sea.”",
+      "poem": "years without rain.\n\nhe bent down to the ground,\nhis face between his knees,\nand sent his servant\nto look at the sea.\n\nnothing.\ngo again.\nnothing.\ngo again.\n\nseven times.\n\nand then\na cloud no bigger\nthan a hand.\n\nthat was all he needed\nto send word to the king:\nhurry home,\nbefore the rain.",
+      "webSrc": "assets/kings/web/k-008-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c5a7",
+        "horizon": "#d6c8a9",
+        "ground": "#706754",
+        "overall": "#aba087",
+        "accent": "#f4e8c9"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "under the broom tree",
+      "ref": "1 Kings 19:3–8",
+      "epigraph": "“Arise and eat, because the journey is too great for you.”",
+      "poem": "after the fire,\nhe ran,\na day into the desert,\nand lay down under a bush.\nit is enough, he said.\ntake my life.\n\nheaven didn't lecture him.\nan angel touched him,\nand there was bread\nbaking on the coals\nand a jar of water.\n\neat, and sleep.\nthen eat again.\nthe journey is too much for you.\n\nsometimes the holiest thing\nis a warm loaf\nand a little more sleep.",
+      "webSrc": "assets/kings/web/k-008-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a49980",
+        "horizon": "#9c9076",
+        "ground": "#8c806d",
+        "overall": "#978b74",
+        "accent": "#e7d5b7"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "a still small voice",
+      "ref": "1 Kings 19:9–13",
+      "epigraph": "“After the fire, there was a still small voice.”",
+      "poem": "a wind that broke the rocks.\nnot there.\n\nan earthquake.\nnot there.\n\na fire.\nnot there either.\n\nthen something\nso quiet\nhe had to cover his face\nand step outside\nto hear it.\n\nwhat are you doing here, Elijah?\n\nGod doesn't always shout.\nsometimes he asks\na gentle question,\nand waits.",
+      "webSrc": "assets/kings/web/k-008-021.jpg",
+      "heroSrc": "assets/kings/hero/k-008-021-hero.jpg",
+      "isScene": true,
+      "sceneType": "still_small_voice",
+      "palette": {
+        "top": "#ada490",
+        "horizon": "#8b8474",
+        "ground": "#6a6351",
+        "overall": "#867f6d",
+        "accent": "#f3e7cc"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "the mantle",
+      "ref": "1 Kings 19:19–21",
+      "epigraph": "“Elijah went over to him, and put his mantle on him.”",
+      "poem": "a young man plowing\nbehind twelve yoke of oxen,\nthe last in the line.\n\na prophet crossed the field\nand threw his cloak\nacross his shoulders.\n\nthat was the whole invitation.\n\nand Elisha\nboiled the oxen\nover the wood of his own yoke,\nfed the people,\nand followed.\n\nno plow left\nto go back to.",
+      "webSrc": "assets/kings/web/k-008-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ded2b8",
+        "horizon": "#9a907b",
+        "ground": "#71624e",
+        "overall": "#a1957d",
+        "accent": "#ecdfc2"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "I will not leave you",
+      "ref": "2 Kings 2:1–11",
+      "epigraph": "“Elijah went up by a whirlwind into heaven.”",
+      "poem": "wait here, Elijah said.\nat Gilgal. at Bethel. at Jericho.\n\nI will not leave you,\nElisha said,\nevery time.\n\nso they walked\nand talked\nall the way to the river,\nand across it,\n\nuntil fire came between them\nand the old prophet\nwent up\nin a whirlwind.\n\nthe last thing\nthey did together\nwas walk.",
+      "webSrc": "assets/kings/web/k-008-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b29973",
+        "horizon": "#a68e69",
+        "ground": "#5f5442",
+        "overall": "#89785b",
+        "accent": "#f3b25c"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "a double portion",
+      "ref": "2 Kings 2:9–12",
+      "epigraph": "“Please let a double portion of your spirit be on me.”",
+      "poem": "ask, Elijah said,\nbefore I am taken.\n\nand Elisha\ndidn't ask for land,\nor safety,\nor a name.\n\nhe asked for more\nof what he'd seen\nin the man he'd followed.\n\nthat's a hard thing,\nElijah said.\nif you see me go,\nit will be yours.\n\nso he kept his eyes on him\nto the very end.",
+      "webSrc": "assets/kings/web/k-008-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b9ae8e",
+        "horizon": "#776c51",
+        "ground": "#927f5e",
+        "overall": "#958668",
+        "accent": "#eee1c0"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "where is the God of Elijah",
+      "ref": "2 Kings 2:13–15",
+      "epigraph": "“Where is Yahweh, the God of Elijah?”",
+      "poem": "he picked up the cloak\nthat had fallen\nand walked back to the river\nalone.\n\nthe same water.\nthe same cloak.\nno Elijah.\n\nwhere is the God of Elijah?\nhe asked,\nand struck the water.\n\nand the river opened.\n\nthe prophet was gone.\nGod was not.",
+      "webSrc": "assets/kings/web/k-008-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c9aa",
+        "horizon": "#989683",
+        "ground": "#726a58",
+        "overall": "#97907a",
+        "accent": "#fbf0cf"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "another jar",
+      "ref": "2 Kings 4:1–7",
+      "epigraph": "“Bring me another container.”",
+      "poem": "a widow with debts,\ntwo sons,\nand one small pot of oil.\n\ngo borrow jars, Elisha said.\nnot just a few.\n\nshe shut the door\nand poured,\nand poured,\nuntil her son said,\nthere isn't another one.\n\nthen it stopped.\n\nthe oil didn't run out.\nthe jars did.\n\nbring more\nthan you think.",
+      "webSrc": "assets/kings/web/k-008-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b1a383",
+        "horizon": "#84785d",
+        "ground": "#968b6f",
+        "overall": "#998c6f",
+        "accent": "#e3dbc3"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "a little room on the roof",
+      "ref": "2 Kings 4:8–13",
+      "epigraph": "“Please let’s make a little room on the roof.”",
+      "poem": "a bed.\na table.\na chair.\na lamp.\n\nthat's all she gave him:\na small room on the roof\nfor a man who kept\npassing by.\n\nand when he asked\nwhat he could do for her,\nshe said,\nI live among my own people.\n\nshe wasn't trading.\nshe was only\nmaking room.",
+      "webSrc": "assets/kings/web/k-008-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d2b0",
+        "horizon": "#c7b796",
+        "ground": "#948870",
+        "overall": "#bbad8f",
+        "accent": "#fadca0"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "it is well",
+      "ref": "2 Kings 4:18–37",
+      "epigraph": "“It is well.”",
+      "poem": "the promised son,\ngrown into a boy,\ndied on her knees at noon.\n\nshe laid him on the prophet's bed,\nshut the door,\nand rode.\n\nis it well? they asked.\nit is well, she said,\nand kept riding.\n\nshe caught hold of his feet.\nI will not leave you, she said,\nthe words he once said\nto his own master.\n\nand in the little room on the roof\nthe child grew warm,\nsneezed seven times,\nand opened his eyes.",
+      "webSrc": "assets/kings/web/k-008-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b391",
+        "horizon": "#a59a82",
+        "ground": "#95876b",
+        "overall": "#a7997c",
+        "accent": "#f5e3ba"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "the girl from Israel",
+      "ref": "2 Kings 5:1–4",
+      "epigraph": "“I wish that my lord were with the prophet who is in Samaria!”",
+      "poem": "she was taken\nfrom her home,\na little girl\nserving in a foreign house.\n\nshe had every reason\nto stay quiet.\n\nbut when she saw\nthe great captain's sickness,\nshe said,\nI wish he could see the prophet.\nhe would heal him.\n\nthe whole story turns\non one small voice\nthat could have said nothing,\nand didn't.",
+      "webSrc": "assets/kings/web/k-008-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a0967f",
+        "horizon": "#83765f",
+        "ground": "#746b58",
+        "overall": "#857a65",
+        "accent": "#e3d9c6"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "wash, and be clean",
+      "ref": "2 Kings 5:9–15",
+      "epigraph": "“his flesh was restored like the flesh of a little child, and he was clean.”",
+      "poem": "he came with horses and chariots,\nsilver and gold,\nand the prophet\ndidn't even come to the door.\n\ngo wash in the Jordan.\nseven times.\n\nhe was furious.\nhe had pictured something grand.\n\nbut his servants said,\nif he'd asked some great thing,\nwouldn't you have done it?\n\nso he went down\ninto the plain little river.\nonce. twice.\nseven times.\n\nand came up\nwith the skin of a child.",
+      "webSrc": "assets/kings/web/k-008-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7b99e",
+        "horizon": "#b1a48d",
+        "ground": "#827969",
+        "overall": "#a29782",
+        "accent": "#f3e7cd"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "it was borrowed",
+      "ref": "2 Kings 6:1–7",
+      "epigraph": "“He cut down a stick, threw it in there, and made the iron float.”",
+      "poem": "it was borrowed,\nhe cried,\nas the iron sank.\n\nand God\nlifted it from the river\nfor a man worried\nabout what he owed.\n\nno loss\nis too small\nto bring him.",
+      "webSrc": "assets/kings/web/k-008-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dccfaa",
+        "horizon": "#a79b78",
+        "ground": "#9e9d7f",
+        "overall": "#b3ab8a",
+        "accent": "#f1e5c3"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "more with us",
+      "ref": "2 Kings 6:15–17",
+      "epigraph": "“Don’t be afraid; for those who are with us are more than those who are with them.”",
+      "poem": "the servant got up early\nand saw the army\nall around the city.\n\nwhat shall we do?\n\nand Elisha didn't say\nrun,\nor hide,\nor it isn't as bad as it looks.\n\nhe prayed,\nopen his eyes.\n\nand the hills\nwere full of horses\nand chariots of fire.\n\nthe danger was real.\nso was everything\nhe couldn't see.",
+      "webSrc": "assets/kings/web/k-008-032.jpg",
+      "heroSrc": "assets/kings/hero/k-008-032-hero.jpg",
+      "isScene": true,
+      "sceneType": "chariots_of_fire",
+      "palette": {
+        "top": "#c6b187",
+        "horizon": "#968972",
+        "ground": "#484437",
+        "overall": "#867b62",
+        "accent": "#f9d58f"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "a day of good news",
+      "ref": "2 Kings 7:3–9",
+      "epigraph": "“Today is a day of good news, and we keep silent.”",
+      "poem": "four lepers at the gate\nof a starving city,\nnothing left to lose,\n\nwalked into the enemy camp\nat twilight\nand found it empty.\n\ntents. bread. silver.\nthey ate and drank.\nthey hid what they could.\n\nthen one of them said,\nthis isn't right.\ntoday is a day of good news,\nand we keep silent.\n\nso the outsiders\nwent back to the city\nthat had shut them out\nto tell it\nthere was bread.",
+      "webSrc": "assets/kings/web/k-008-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cec1ab",
+        "horizon": "#897d77",
+        "ground": "#6d6255",
+        "overall": "#8e8376",
+        "accent": "#dfd2b4"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "by every prophet",
+      "ref": "2 Kings 17:6–18",
+      "epigraph": "“Yet Yahweh testified to Israel, and to Judah, by every prophet, and every seer”",
+      "poem": "turn back, he said,\nby every prophet,\nby every seer,\nyear after year.\n\nElijah on the mountain.\nElisha by the river.\nvoice after voice.\n\nthey would not listen.\n\nand one day\nthe towers of Samaria\nstood empty,\nand the road east\nwas full of the people\nwho had lived there.\n\nit wasn't that God\nstopped speaking.\n\nit was that no one\nturned around.",
+      "webSrc": "assets/kings/web/k-008-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddd0b6",
+        "horizon": "#bcaf98",
+        "ground": "#776e5f",
+        "overall": "#a89d89",
+        "accent": "#f2e2c1"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "spread before the Lord",
+      "ref": "2 Kings 19:14–19",
+      "epigraph": "“Then Hezekiah went up to Yahweh’s house, and spread it before Yahweh.”",
+      "poem": "the letter was full of threats.\nthe empire at the door\nhad swallowed\nnation after nation.\n\nHezekiah read it,\nthen carried it up\nto the house of God\nand spread it open.\n\nhere, Lord.\nread this.\nopen your eyes and see.\n\nyou don't have to know\nwhat to do\nwith the letter\nin your hands.\n\nyou can lay it open\nbefore him.",
+      "webSrc": "assets/kings/web/k-008-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6caae",
+        "horizon": "#625c51",
+        "ground": "#857967",
+        "overall": "#8f8573",
+        "accent": "#ecdebe"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "the shadow on the steps",
+      "ref": "2 Kings 20:1–11",
+      "epigraph": "“Then he turned his face to the wall, and prayed to Yahweh”",
+      "poem": "set your house in order,\nthe prophet said.\nyou will die.\n\nand the king\nturned his face to the wall\nand wept.\n\nthe prophet was not yet\nout of the middle of the city\nwhen God sent him back:\n\nI have heard your prayer.\nI have seen your tears.\n\nand for a sign,\nthe shadow on the steps\nwent back ten steps.\n\nno tear falls\nanywhere\nhe isn't looking.",
+      "webSrc": "assets/kings/web/k-008-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9c5a8",
+        "horizon": "#95866d",
+        "ground": "#716754",
+        "overall": "#988a73",
+        "accent": "#f0a972"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "found in the house",
+      "ref": "2 Kings 22:3–11",
+      "epigraph": "“I have found the book of the law in Yahweh’s house.”",
+      "poem": "they were only\nfixing the building.\n\ncounting the money,\npaying the masons,\nbuying timber and stone.\n\nand somewhere in the dust\nof God's own house\nlay God's own word,\nforgotten.\n\nwhen they read it to the king\nhe tore his clothes.\n\nnot because the book was new.\nbecause it was old,\nand no one\nhad listened.",
+      "webSrc": "assets/kings/web/k-008-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#685f49",
+        "horizon": "#6d644f",
+        "ground": "#69604e",
+        "overall": "#69604d",
+        "accent": "#ecddbd"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "a tender heart",
+      "ref": "2 Kings 22:14–20",
+      "epigraph": "“because your heart was tender, and you humbled yourself before Yahweh”",
+      "poem": "the word was hard.\nthe city would fall.\nwhat was written\nwould come true.\n\nbut to the king,\nthis:\n\nbecause your heart was tender,\nbecause you wept,\nI have heard you.\n\nhe couldn't change\nwhat was coming.\nhe could still\nbe soft before God.\n\nso he called everyone,\nsmall and great,\nup to the house of God\nand read them every word.",
+      "webSrc": "assets/kings/web/k-008-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbc0ab",
+        "horizon": "#a69884",
+        "ground": "#7d7063",
+        "overall": "#a29584",
+        "accent": "#f6eddc"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "bronze pomegranates",
+      "ref": "2 Kings 25:8–17",
+      "epigraph": "“He burned Yahweh’s house, the king’s house, and all the houses of Jerusalem”",
+      "poem": "the house that was too small\nto hold God\nburned.\n\nthe cedar Solomon cut,\nthe stones shaped in silence,\nthe bronze pomegranates,\nbroken up and carried off.\n\nthe walls came down.\nthe people were led away.\n\nand the heaviest thing\nin the story\nis not the fire.\n\nit's how long\nGod kept calling\nbefore it came.",
+      "webSrc": "assets/kings/web/k-008-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2a58c",
+        "horizon": "#6c6657",
+        "ground": "#7f796b",
+        "overall": "#877e6c",
+        "accent": "#d8bf94"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "bread all his days",
+      "ref": "2 Kings 25:27–30",
+      "epigraph": "“Jehoiachin ate bread before him continually all the days of his life”",
+      "poem": "thirty-seven years\na captive in Babylon.\n\nthen a new king\nlifted his head,\nspoke kindly to him,\nchanged his prison clothes,\n\nand set bread before him\nevery day\nfor the rest of his life.\n\nthat's where the story ends.\nnot with the fire,\nbut with a son of David\nat a table,\neating.\n\na lamp,\nstill burning\nin a far country.",
+      "webSrc": "assets/kings/web/k-008-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ada795",
+        "horizon": "#89826c",
+        "ground": "#7e7157",
+        "overall": "#90876f",
+        "accent": "#ebdec0"
+      }
+    }
+  ]
+}

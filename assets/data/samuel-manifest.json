@@ -1,0 +1,814 @@
+{
+  "district": 7,
+  "slug": "samuel",
+  "title": "The Lamp Had Not Gone Out",
+  "subtitle": "1–2 Samuel in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/samuel/web/s-007-000.jpg",
+  "beforeYouBegin": "The books of Samuel begin with a woman weeping at a festival table and a boy lying down near a lamp that had not yet gone out. Then come a king hiding among the baggage, a shepherd called in from the field, five smooth stones from a brook, two friends and an arrow shot past the mark, a lame man given a place at the king's table, a prophet's story about one little ewe lamb, and a father weeping in the room over a gate. This book walks through it in forty short poems, in five parts: twenty-four from 1 Samuel and sixteen from 2 Samuel. Each poem sits beside a picture and under a single line of Scripture.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "My Heart Exults",
+      "epigraph": "My heart exults in Yahweh!",
+      "epigraphRef": "1 Samuel 2:1",
+      "lightName": "Light of the Tabernacle Lamp",
+      "lightHint": "Beside the clay lamp that had not yet gone out in the quiet Shiloh sanctuary"
+    },
+    {
+      "part": 2,
+      "title": "A King Like All the Nations",
+      "epigraph": "Make us a king to judge us like all the nations.",
+      "epigraphRef": "1 Samuel 8:5",
+      "lightName": "Light of the Stone of Help",
+      "lightHint": "Near the upright Ebenezer witness stone in the hill pasture"
+    },
+    {
+      "part": 3,
+      "title": "A Man After His Own Heart",
+      "epigraph": "Yahweh has sought for himself a man after his own heart.",
+      "epigraphRef": "1 Samuel 13:14",
+      "lightName": "Light of the Elah Brook",
+      "lightHint": "Where five smooth river stones glisten in the clear valley stream"
+    },
+    {
+      "part": 4,
+      "title": "Shepherd of My People",
+      "epigraph": "I took you from the sheep pen, from following the sheep, to be prince over my people.",
+      "epigraphRef": "2 Samuel 7:8",
+      "lightName": "Light of the King’s Table",
+      "lightHint": "Beside the place kept continually for Jonathan’s lame son"
+    },
+    {
+      "part": 5,
+      "title": "My Son, My Son",
+      "epigraph": "Yahweh is my rock, my fortress, and my deliverer.",
+      "epigraphRef": "2 Samuel 22:2",
+      "lightName": "Light of the Threshing Floor Altar",
+      "lightHint": "Near Araunah’s threshing floor on the hill before the Finale Plaza"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "ten sons",
+      "ref": "1 Samuel 1:3–8",
+      "epigraph": "“Hannah, why do you weep? Why don’t you eat? Why is your heart grieved?”",
+      "poem": "every year the same road\nup to Shiloh.\n\nevery year the same table,\nthe double portion\nset in front of her,\nand the same voice across the room\nreminding her what she didn't have.\n\nso she didn't eat.\n\nher husband loved her.\nam I not better to you\nthan ten sons? he asked.\n\nhe meant it kindly.\n\nbut some aches\naren't answered at the table.\n\nthey have to be carried\nup the hill\nto God.",
+      "webSrc": "assets/samuel/web/s-007-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c4a4",
+        "horizon": "#6e6252",
+        "ground": "#514030",
+        "overall": "#83735d",
+        "accent": "#dcb179"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "only her lips moved",
+      "ref": "1 Samuel 1:12–18",
+      "epigraph": "“I poured out my soul before Yahweh.”",
+      "poem": "no words came out.\nonly her lips moved.\n\nthe old priest watching\nthought she was drunk.\n\nshe wasn't.\nshe was pouring.\n\nthe whole jar of it:\nthe years, the rival,\nthe empty arms,\nthe promise she was ready to make.\n\nand when she stood up\nshe went and ate,\nand her face\nwasn't sad anymore.\n\nnothing had changed yet.\n\nexcept where\nshe had put it.",
+      "webSrc": "assets/samuel/web/s-007-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#584b51",
+        "horizon": "#725e5e",
+        "ground": "#413934",
+        "overall": "#564948",
+        "accent": "#cc9a92"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "asked of the Lord",
+      "ref": "1 Samuel 1:20–28",
+      "epigraph": "“I prayed for this child, and Yahweh has given me my petition which I asked of him.”",
+      "poem": "she named him Samuel:\nI asked him of the Lord.\n\nshe nursed him.\nshe weaned him.\n\nthen she carried him up the hill\nwith flour and wine\nand brought him to the old priest\nat the same door\nwhere she had prayed.\n\nwhat she asked for,\nshe gave back.\n\nnot because God took it.\n\nbecause she knew\nwhose it was\nbefore it was ever hers.",
+      "webSrc": "assets/samuel/web/s-007-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c3b48d",
+        "horizon": "#9e8f67",
+        "ground": "#88754e",
+        "overall": "#a2926a",
+        "accent": "#f7e8be"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "no rock like our God",
+      "ref": "1 Samuel 2:1–8",
+      "epigraph": "“He raises up the poor out of the dust.”",
+      "poem": "she didn't sing about herself.\n\nshe sang about bows\nbreaking in strong hands,\nthe full going out to work for bread,\nthe hungry sitting down to eat.\n\nshe sang about a God\nwho stoops to the dust\nand lifts the poor out of it\nand gives them a seat\nwith princes.\n\nthe barren one was singing.\n\nshe knew\nwhich way\nhis hands move.",
+      "webSrc": "assets/samuel/web/s-007-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6bea9",
+        "horizon": "#817b67",
+        "ground": "#8d8269",
+        "overall": "#9b927b",
+        "accent": "#e5dabc"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "a little robe",
+      "ref": "1 Samuel 2:18–21",
+      "epigraph": "“his mother made him a little robe, and brought it to him from year to year”",
+      "poem": "every year\na little bigger.\n\nshe measured him in her mind\nall year long,\nguessing how much he'd grown.\n\nthen up the road to Shiloh\nwith the robe folded in her arms.\n\nshe gave him away\nand never stopped\nmaking him things.\n\nthat's what giving to God\nlooks like sometimes:\n\nopen hands,\nand a needle\nstill moving.",
+      "webSrc": "assets/samuel/web/s-007-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#978c77",
+        "horizon": "#837862",
+        "ground": "#5d5546",
+        "overall": "#7f7461",
+        "accent": "#ebddc3"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "speak",
+      "ref": "1 Samuel 3:1–10",
+      "epigraph": "“Speak; for your servant hears.”",
+      "poem": "the word of the Lord was rare\nin those days.\n\nthe lamp hadn't gone out yet,\nand a boy lay down\nnear the ark.\n\nthree times a voice called his name.\nthree times he ran\nto the wrong room.\n\nthat's all right.\nmost of us do.\n\nthen he learned the sentence:\nspeak,\nfor your servant hears.\n\nGod wasn't waiting\nfor him to be older.\n\nonly to be listening.",
+      "webSrc": "assets/samuel/web/s-007-006.jpg",
+      "heroSrc": "assets/samuel/hero/s-007-006-hero.jpg",
+      "isScene": true,
+      "sceneType": "samuel_lamp",
+      "palette": {
+        "top": "#4b412d",
+        "horizon": "#4c422e",
+        "ground": "#67563a",
+        "overall": "#574a33",
+        "accent": "#e1ba6c"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the straight way",
+      "ref": "1 Samuel 6:7–13",
+      "epigraph": "“The cows took the straight way by the way to Beth Shemesh.”",
+      "poem": "the ark had been taken,\nand no one who took it\ncould keep it.\n\nso they sent it home\non a new cart\nbehind two cows\nthat had never worn a yoke.\n\nthe cows went lowing\nall the way\nand didn't turn\nto the right or the left.\n\ndown in the valley\nthe reapers looked up\nfrom the wheat\n\nand saw what they thought\nthey had lost for good\n\ncoming up the road.",
+      "webSrc": "assets/samuel/web/s-007-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d6bd",
+        "horizon": "#aa9c7f",
+        "ground": "#9f8e6e",
+        "overall": "#b6a78a",
+        "accent": "#e1c183"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "stone of help",
+      "ref": "1 Samuel 7:3–12",
+      "epigraph": "“Yahweh helped us until now.”",
+      "poem": "Samuel set a stone\nin a field\nand gave it a name:\nstone of help.\n\nnot every stone\nis meant for a wall.\n\nsome are there\nto be looked at,\n\nso that on the day\nyou're afraid again\nyou can walk out to the field\nand put your hand on it\nand remember.\n\nhe helped us\nthis far.\n\nhe doesn't plan\nto stop\nhere.",
+      "webSrc": "assets/samuel/web/s-007-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dcd1af",
+        "horizon": "#b6ab8a",
+        "ground": "#978d69",
+        "overall": "#b4a987",
+        "accent": "#ece5c9"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "like everyone else",
+      "ref": "1 Samuel 8:4–9",
+      "epigraph": "“they have not rejected you, but they have rejected me as the king over them.”",
+      "poem": "Samuel was old.\nhis sons took bribes.\n\ngive us a king, the elders said,\nlike all the nations.\n\nit hurt him.\nhe took it to God.\n\nand God said,\nit isn't you they're refusing.\nit's me.\n\nthen, strangely:\nlisten to them.\n\nhe lets us choose.\nhe tells us plainly\nwhat it will cost.\n\nand he doesn't leave\nwhen we choose wrong.",
+      "webSrc": "assets/samuel/web/s-007-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8a88f",
+        "horizon": "#655a4f",
+        "ground": "#544b3c",
+        "overall": "#746959",
+        "accent": "#d9c8a8"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "the lost donkeys",
+      "ref": "1 Samuel 9:3–24",
+      "epigraph": "“don’t set your mind on them; for they have been found.”",
+      "poem": "Saul went out\nlooking for donkeys.\n\nthree days of hills.\nbread gone from the sacks.\nnothing to show.\n\nhe was ready to turn back.\n\nand in the town\nan old seer was already waiting,\nwith a seat kept at the table\nand a portion set aside.\n\nyour donkeys are found, he said.\ndon't set your mind on them.\n\nyou went out\nlooking for something small,\n\nand someone\nhad been looking\nfor you.",
+      "webSrc": "assets/samuel/web/s-007-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ebd4a7",
+        "horizon": "#938972",
+        "ground": "#958567",
+        "overall": "#ac9c7d",
+        "accent": "#f2dcaa"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "among the baggage",
+      "ref": "1 Samuel 10:20–24",
+      "epigraph": "“Behold, he has hidden himself among the baggage.”",
+      "poem": "the lot fell on his tribe,\nthen his family,\nthen his name.\n\nand they couldn't find him.\n\nthe tallest man in Israel\nwas hiding\namong the bags.\n\nI understand him.\n\nit's one thing\nto be chosen.\n\nit's another\nto stand up\nin front of everyone\nand let it be true.",
+      "webSrc": "assets/samuel/web/s-007-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dfd2b0",
+        "horizon": "#a59a7f",
+        "ground": "#aca082",
+        "overall": "#b8ad8e",
+        "accent": "#e9ddba"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "seven days",
+      "ref": "1 Samuel 13:8–14",
+      "epigraph": "“I forced myself therefore, and offered the burnt offering.”",
+      "poem": "he waited seven days.\n\nthe enemy gathered.\nthe people slipped away,\na few more every morning.\n\nand the prophet didn't come.\n\nso he did it himself.\njust this once.\nhe had good reasons.\n\nthe smoke was still rising\nwhen Samuel arrived.\n\nwaiting is hardest\nat the very end,\n\nright before\nthe one you're waiting for\ncomes over the hill.",
+      "webSrc": "assets/samuel/web/s-007-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d7b2",
+        "horizon": "#beb593",
+        "ground": "#8f815e",
+        "overall": "#b3a885",
+        "accent": "#f0e5b9"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "the bleating of the sheep",
+      "ref": "1 Samuel 15:13–22",
+      "epigraph": "“to obey is better than sacrifice, and to listen than the fat of rams.”",
+      "poem": "I have done\nwhat the Lord commanded,\nSaul said.\n\nand the old man said,\nthen what is this bleating\nin my ears?\n\nyou can bring God\nthe best of the flock\n\nand still not bring him\nwhat he asked for.\n\nhe isn't counting sheep.\n\nhe's listening\nfor whether\nwe heard him.",
+      "webSrc": "assets/samuel/web/s-007-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8c8b6",
+        "horizon": "#7c7366",
+        "ground": "#64594e",
+        "overall": "#8e8274",
+        "accent": "#fde8ca"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "Samuel mourned",
+      "ref": "1 Samuel 15:27–35",
+      "epigraph": "“Samuel mourned for Saul”",
+      "poem": "as Samuel turned to go,\nSaul caught the edge of his robe,\nand it tore.\n\nthe kingdom is torn from you\nlike this, Samuel said.\n\nthen he went home to Ramah\nand never went to see Saul again.\n\nbut he mourned for him.\n\nand the Lord\nwas grieved too.\n\na verdict\ncan be true\nand still be wept over.\n\nthis one was.",
+      "webSrc": "assets/samuel/web/s-007-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#978c74",
+        "horizon": "#877a64",
+        "ground": "#6a5e4b",
+        "overall": "#7e725d",
+        "accent": "#f9f6e7"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "the youngest",
+      "ref": "1 Samuel 16:6–13",
+      "epigraph": "“man looks at the outward appearance, but Yahweh looks at the heart.”",
+      "poem": "seven sons walked past the prophet.\n\nthe tall one.\nthe strong one.\nthe one who looked like a king.\n\nnot this one.\nnot this one either.\n\nare these all?\n\nwell, there's the youngest.\nhe's out with the sheep.\n\nnobody had thought\nto call him in.\n\nso the whole feast stood waiting\nuntil a boy came in from the field,\n\nand God said,\nthis is he.",
+      "webSrc": "assets/samuel/web/s-007-015.jpg",
+      "heroSrc": "assets/samuel/hero/s-007-015-hero.jpg",
+      "isScene": true,
+      "sceneType": "anointing_horn",
+      "palette": {
+        "top": "#e8debf",
+        "horizon": "#998a6a",
+        "ground": "#736347",
+        "overall": "#a59676",
+        "accent": "#f6dfb2"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "the harp",
+      "ref": "1 Samuel 16:14–23",
+      "epigraph": "“David took the harp, and played with his hand; so Saul was refreshed”",
+      "poem": "a king who couldn't rest.\na shepherd boy\nwith a harp.\n\nno sermon.\nno argument.\njust his hand on the strings,\n\nand the dark\nlifting\nfor a while.\n\ndon't underestimate\nwhat a song can do\nin a troubled room.\n\nsometimes the kindest thing\nyou can bring\nis music,\nand the patience\nto keep playing.",
+      "webSrc": "assets/samuel/web/s-007-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6d5d45",
+        "horizon": "#4e3f2e",
+        "ground": "#4e3e2c",
+        "overall": "#544533",
+        "accent": "#e9b267"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "untested",
+      "ref": "1 Samuel 17:38–40",
+      "epigraph": "“I can’t go with these; for I have not tested them.”",
+      "poem": "the king dressed him\nin his own armor.\n\nbronze helmet.\ncoat of mail.\na sword at his side.\n\nhe tried to walk\nand stopped.\n\nI can't go in these.\n\nhe took them off\nand went down to the brook\nwith his staff in his hand.\n\nyou can't fight\nin someone else's faith.\n\nuse what God\nhas already taught\nyour hands.",
+      "webSrc": "assets/samuel/web/s-007-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d7b4",
+        "horizon": "#a69a7b",
+        "ground": "#978b6f",
+        "overall": "#b3a787",
+        "accent": "#e9ddbb"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "five smooth stones",
+      "ref": "1 Samuel 17:40–50",
+      "epigraph": "“chose for himself five smooth stones out of the brook”",
+      "poem": "he bent down at the brook\nand chose five.\n\nsmooth ones.\nstones the water\nhad been shaping\nfor years,\n\nlike the boy\nchoosing them.\n\nacross the valley\nstood a man in bronze\nwith a spear like a weaver's beam.\n\nyou come to me with a sword, David said.\nI come to you\nin the name of the Lord.\n\nthe battle is his.\n\none stone\nwas enough.",
+      "webSrc": "assets/samuel/web/s-007-018.jpg",
+      "heroSrc": "assets/samuel/hero/s-007-018-hero.jpg",
+      "isScene": true,
+      "sceneType": "five_smooth_stones",
+      "palette": {
+        "top": "#91876f",
+        "horizon": "#847a61",
+        "ground": "#897a5e",
+        "overall": "#8b7f64",
+        "accent": "#d3b792"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "knit",
+      "ref": "1 Samuel 18:1–4",
+      "epigraph": "“the soul of Jonathan was knit with the soul of David”",
+      "poem": "the king's son\ntook off his robe\nand put it on the shepherd.\n\nthen his sword.\nhis bow.\nhis sash.\n\neverything that said\nthis will be mine someday,\ngiven away.\n\nJonathan could have seen\na rival.\n\nhe saw a friend,\nand loved him\nas his own soul.\n\nthere are people like this.\n\nif you have one,\nyou are rich.",
+      "webSrc": "assets/samuel/web/s-007-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#90846f",
+        "horizon": "#867762",
+        "ground": "#635444",
+        "overall": "#766855",
+        "accent": "#e5dac5"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "the arrow",
+      "ref": "1 Samuel 20:35–42",
+      "epigraph": "“Isn’t the arrow beyond you?”",
+      "poem": "they had agreed on a sign.\nif the arrow falls short, come home.\nif it flies past, go.\n\nthe arrow flew past.\n\na boy gathered it up\nand knew nothing.\n\nbut out in the field\ntwo friends held each other\nand wept,\nDavid the most.\n\ngo in peace, Jonathan said.\nthe Lord is between you and me\nforever.\n\nsome goodbyes\nare not an ending.\n\nthey are a promise\nwith a long road in it.",
+      "webSrc": "assets/samuel/web/s-007-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#eaddba",
+        "horizon": "#8b8676",
+        "ground": "#565642",
+        "overall": "#938d75",
+        "accent": "#fbf0c4"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "the edge of his robe",
+      "ref": "1 Samuel 24:1–12",
+      "epigraph": "“I will not stretch out my hand against my lord; for he is Yahweh’s anointed.”",
+      "poem": "the man hunting him\nwalked into the cave\nwhere he was hiding.\n\nthis is your day,\nhis men whispered.\n\nhe crept close\nand cut a corner\nfrom the king's robe.\n\nthat was all.\neven that troubled his heart.\n\noutside, he held up the scrap:\nsee? I could have.\nI didn't.\n\nmercy isn't weakness.\n\nit's strength\nthat has decided\nto keep its hands open.",
+      "webSrc": "assets/samuel/web/s-007-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7c6c4f",
+        "horizon": "#73644b",
+        "ground": "#695c48",
+        "overall": "#73654c",
+        "accent": "#f8ebcc"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "bread on the road",
+      "ref": "1 Samuel 25:14–33",
+      "epigraph": "“Blessed is your discretion, and blessed are you, who have kept me today from blood guiltiness”",
+      "poem": "her husband had insulted David's men,\nand four hundred of them\nwere coming with swords.\n\nshe didn't argue.\nshe didn't wait.\n\nshe loaded the donkeys\nwith bread and raisins\nand cakes of figs\nand rode out to meet them.\n\non me be the blame, she said,\nand talked an angry man\nback from the edge.\n\nsome peacemakers\ncome with speeches.\n\nsome come with bread,\nat the right hour,\non the right road.",
+      "webSrc": "assets/samuel/web/s-007-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#caba9b",
+        "horizon": "#807866",
+        "ground": "#8c7f69",
+        "overall": "#968a74",
+        "accent": "#fbe5b2"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "strength in God",
+      "ref": "1 Samuel 30:1–8",
+      "epigraph": "“David strengthened himself in Yahweh his God.”",
+      "poem": "they came home\nto smoke.\n\nthe town burned.\nwives and children taken.\nthey wept\nuntil they had no strength to weep.\n\nthen his own men\ntalked of stoning him.\n\nno one was left\nto comfort David,\nso he went\nto the one who was.\n\nhe didn't feel strong first.\nhe went to God\nand found strength there.\n\nthen he asked, shall I go?\nand went,\nand brought them all back.",
+      "webSrc": "assets/samuel/web/s-007-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4cab2",
+        "horizon": "#7c7669",
+        "ground": "#484744",
+        "overall": "#837d6f",
+        "accent": "#f3e8c6"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "under the tamarisk",
+      "ref": "1 Samuel 31:1–13",
+      "epigraph": "“They took their bones and buried them under the tamarisk tree in Jabesh, and fasted seven days.”",
+      "poem": "Saul fell on Mount Gilboa,\nand his sons with him.\n\nlong before,\nwhen Jabesh was surrounded\nand helpless,\nSaul had come for them.\n\nthey remembered.\n\nall night\nthe brave men of Jabesh walked,\nand carried their king away,\nand buried him under a tamarisk,\nand fasted seven days.\n\nwhatever else\nwas true of Saul,\n\nsomeone remembered\nthe day he came.",
+      "webSrc": "assets/samuel/web/s-007-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c1a2",
+        "horizon": "#bca88b",
+        "ground": "#7b705e",
+        "overall": "#a99a81",
+        "accent": "#f5d5a4"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "how the mighty have fallen",
+      "ref": "2 Samuel 1:11–27",
+      "epigraph": "“I am distressed for you, my brother Jonathan.”",
+      "poem": "the man who brought the news\nthought it would please him.\n\nit didn't.\n\nDavid tore his clothes\nand fasted until evening,\nfor Saul,\nwho had hunted him,\nand for Jonathan,\nwho had loved him.\n\nthen he made a song:\nhow the mighty have fallen.\n\nand in the middle of it,\none line\nthat wasn't about kings at all:\n\nmy brother Jonathan.\nyou were very pleasant to me.",
+      "webSrc": "assets/samuel/web/s-007-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cabca5",
+        "horizon": "#978b79",
+        "ground": "#7d705f",
+        "overall": "#9c907c",
+        "accent": "#e8dac1"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "bone and flesh",
+      "ref": "2 Samuel 5:1–3",
+      "epigraph": "“You will be shepherd of my people Israel”",
+      "poem": "all the tribes came to Hebron\nand said,\nwe are your bone and your flesh.\n\nyears of running\nended at a gate.\n\nthey didn't ask him\nto be a warrior.\nhe was already that.\n\nthey reminded him\nwhat God had said:\nyou will shepherd my people.\n\nthe crown\nwas a bigger field.\n\nthe work\nwas the same.",
+      "webSrc": "assets/samuel/web/s-007-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aea588",
+        "horizon": "#a99d7d",
+        "ground": "#968c6f",
+        "overall": "#a49a7c",
+        "accent": "#f3e6c4"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "the sound in the treetops",
+      "ref": "2 Samuel 5:22–25",
+      "epigraph": "“When you hear the sound of marching in the tops of the mulberry trees, then stir yourself up”",
+      "poem": "the same enemy.\nthe same valley.\n\nlast time God said,\ngo up.\n\nthis time he said,\ncircle around.\nwait by the trees.\nwhen you hear marching\nin the tops of the leaves,\nmove.\n\nDavid asked again.\nhe didn't assume.\n\nyesterday's answer\nisn't always\ntoday's.\n\nso he listened\nfor the wind.",
+      "webSrc": "assets/samuel/web/s-007-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b1ab91",
+        "horizon": "#afa78f",
+        "ground": "#847b68",
+        "overall": "#9e9781",
+        "accent": "#f0e3c5"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "with all his might",
+      "ref": "2 Samuel 6:12–22",
+      "epigraph": "“David danced before Yahweh with all his might”",
+      "poem": "the ark came up the road,\nand the king\ncouldn't keep still.\n\na linen ephod,\nnothing grand,\nleaping and dancing\nin front of everyone.\n\nfrom her window\nMichal looked down\nand despised him.\n\nit was before the Lord, he said.\nI'll be humbler still.\n\nthen he gave bread\nand dates and raisins\nto every person there.\n\njoy that is real\nspills over\ninto everyone's hands.",
+      "webSrc": "assets/samuel/web/s-007-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddcfa7",
+        "horizon": "#948866",
+        "ground": "#7e7454",
+        "overall": "#9f9370",
+        "accent": "#f2e1b1"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "who am I",
+      "ref": "2 Samuel 7:1–18",
+      "epigraph": "“Who am I, Lord Yahweh, and what is my house, that you have brought me this far?”",
+      "poem": "I live in cedar, the king said,\nand God lives in a tent.\nlet me build him a house.\n\nthat night the answer came:\nI never asked for one.\n\nI took you\nfrom following the sheep.\nI have been with you\nwherever you went.\n\nyou won't build me a house.\nI will build you one.\n\nand David went in\nand sat before the Lord\nand could only say,\n\nwho am I,\nthat you have brought me\nthis far?",
+      "webSrc": "assets/samuel/web/s-007-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#656259",
+        "horizon": "#514a3f",
+        "ground": "#484138",
+        "overall": "#554f44",
+        "accent": "#e7bf91"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "at the king's table",
+      "ref": "2 Samuel 9:1–13",
+      "epigraph": "“You will eat bread at my table continually.”",
+      "poem": "is there anyone left\nof Saul's house,\nthat I may show him kindness\nfor Jonathan's sake?\n\nthere was.\na son,\nlame in both feet,\nliving far away in Lo Debar.\n\nhe bowed to the ground\nand called himself a dead dog.\n\nDavid called him by name.\ndon't be afraid.\nyou will eat at my table.\n\na place set every day\nfor a promise\nmade to a friend\n\nlong after\nthe friend was gone.",
+      "webSrc": "assets/samuel/web/s-007-030.jpg",
+      "heroSrc": "assets/samuel/hero/s-007-030-hero.jpg",
+      "isScene": true,
+      "sceneType": "kings_table",
+      "palette": {
+        "top": "#cfbc97",
+        "horizon": "#978360",
+        "ground": "#827357",
+        "overall": "#9d8c6b",
+        "accent": "#e8d8b4"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "until your beards have grown",
+      "ref": "2 Samuel 10:1–5",
+      "epigraph": "“Wait at Jericho until your beards have grown, and then return.”",
+      "poem": "he sent them\nto comfort a grieving king.\n\nthey came back shamed,\nhalf their beards shaved away,\ntheir robes cut short.\n\nDavid didn't make them\nwalk through Jerusalem\nlike that.\n\nstay at Jericho, he said.\ncome home\nwhen your beards have grown.\n\nthere is a kind of mercy\nthat asks no questions,\n\njust gives you time,\nand a place to wait,\nuntil you feel\nlike yourself again.",
+      "webSrc": "assets/samuel/web/s-007-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bea5",
+        "horizon": "#bdb198",
+        "ground": "#827b6c",
+        "overall": "#a39b87",
+        "accent": "#f5deac"
+      }
+    },
+    {
+      "n": 32,
+      "part": 5,
+      "title": "when kings go out",
+      "ref": "2 Samuel 11:1–17",
+      "epigraph": "“But David stayed at Jerusalem.”",
+      "poem": "it was the season\nwhen kings went out to war.\n\nDavid stayed home.\n\none evening, restless,\nhe walked on the roof,\nand saw,\nand asked,\nand sent.\n\nnot one great fall,\nbut small steps,\neach one easier\nthan it should have been,\n\nuntil a faithful soldier\ncarried a letter\nto his own death.\n\nthe worst thing David ever did\nbegan on a quiet evening\nwith nothing to do.",
+      "webSrc": "assets/samuel/web/s-007-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#718397",
+        "horizon": "#5f6572",
+        "ground": "#3e3a38",
+        "overall": "#575c64",
+        "accent": "#f3d5ad"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "you are the man",
+      "ref": "2 Samuel 12:1–13",
+      "epigraph": "“You are the man.”",
+      "poem": "Nathan told a story.\n\na poor man.\none little ewe lamb.\nit ate his food\nand drank from his cup\nand slept in his arms\nlike a daughter.\n\nand a rich man\nwith flocks and herds\nwho took it anyway.\n\nthat man deserves to die! the king said.\n\nand the prophet said,\nyou are the man.\n\nno more hiding then.\nI have sinned against the Lord.\n\nand the answer came just as quickly:\nthe Lord has put away your sin.",
+      "webSrc": "assets/samuel/web/s-007-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a39982",
+        "horizon": "#8e836c",
+        "ground": "#92866f",
+        "overall": "#998e76",
+        "accent": "#eae1cc"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "I will go to him",
+      "ref": "2 Samuel 12:15–23",
+      "epigraph": "“I will go to him, but he will not return to me.”",
+      "poem": "seven days on the ground, fasting.\n\nthen whispering in the hall,\nand he knew.\n\nhe got up.\nhe washed.\nhe changed his clothes,\nwent to worship,\nand ate.\n\nwhile he was alive, I hoped, he said.\nnow,\ncan I bring him back?\n\nI will go to him.\nhe will not come to me.\n\nthe grief didn't end there.\n\nbut now\nit had somewhere\nto go.",
+      "webSrc": "assets/samuel/web/s-007-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bbaa92",
+        "horizon": "#8f836f",
+        "ground": "#8e816a",
+        "overall": "#9b8e78",
+        "accent": "#fde6cc"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "here I am",
+      "ref": "2 Samuel 15:23–30",
+      "epigraph": "“behold, here I am. Let him do to me as seems good to him.”",
+      "poem": "his own son\nhad stolen the hearts of Israel.\n\nthe priests came out\ncarrying the ark,\nand David sent it back.\n\nif God is pleased with me,\nhe'll bring me home to see it.\nif not,\nhere I am.\n\nthen he climbed the Mount of Olives\nbarefoot,\nweeping as he went.\n\nhe didn't carry God along\nlike a charm.\n\nhe put himself\nin God's hands\nand walked.",
+      "webSrc": "assets/samuel/web/s-007-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8cba9",
+        "horizon": "#97917e",
+        "ground": "#8b7f67",
+        "overall": "#a29980",
+        "accent": "#eaddbe"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "deal gently",
+      "ref": "2 Samuel 18:1–5",
+      "epigraph": "“Deal gently for my sake with the young man, even with Absalom.”",
+      "poem": "the son had come against the father\nwith an army.\n\nand the father\nstood by the gate\nas his men marched out\nand said to every captain,\nwhere all could hear:\n\ndeal gently\nwith the young man.\nfor my sake.\n\nnot the rebel.\nnot the enemy.\nthe young man.\n\nhe was fighting\nfor his life,\n\nand still trying to save\nthe one\nwho had come to take it.",
+      "webSrc": "assets/samuel/web/s-007-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#54513f",
+        "horizon": "#a29a84",
+        "ground": "#776c53",
+        "overall": "#7a735d",
+        "accent": "#efe3cd"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "my son, my son",
+      "ref": "2 Samuel 18:24–33",
+      "epigraph": "“My son, my son Absalom!”",
+      "poem": "two runners came.\n\nthe king asked each one\nthe same question:\nis it well with the young man?\n\nand when he understood,\nhe climbed to the room over the gate\nand wept.\n\nmy son, my son.\nI wish I had died\ninstead of you.\n\nthe battle was won.\nit didn't reach that room.\n\nno one grieves like that\nfor an enemy.\n\nonly for a child\nthey never stopped\nwaiting for.",
+      "webSrc": "assets/samuel/web/s-007-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a48f67",
+        "horizon": "#756147",
+        "ground": "#423f36",
+        "overall": "#6d6049",
+        "accent": "#e39e56"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "my lamp",
+      "ref": "2 Samuel 22:1–29",
+      "epigraph": "“For you are my lamp, Yahweh. Yahweh will light up my darkness.”",
+      "poem": "long ago in Shiloh\na boy named Samuel\nslept near a lamp\nthat hadn't gone out yet.\n\nnow David,\nlooking back\nover caves and wars\nand his own worst days,\n\nsings:\n\nyou are my lamp, Lord.\nyou light up my darkness.\n\nnot, you took the darkness away.\n\nyou lit it.\n\nand that was enough\nto walk by.",
+      "webSrc": "assets/samuel/web/s-007-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7c735e",
+        "horizon": "#625740",
+        "ground": "#585142",
+        "overall": "#695f4b",
+        "accent": "#d2af3e"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "water from Bethlehem",
+      "ref": "2 Samuel 23:13–17",
+      "epigraph": "“he would not drink of it, but poured it out to Yahweh.”",
+      "poem": "hiding in a cave,\nhe said it almost to himself:\nif only someone would bring me water\nfrom the well by the gate\nin Bethlehem.\n\nthree of his men heard.\nthey broke through the enemy camp\nand brought it back.\n\nand he couldn't drink it.\n\nhe poured it out\non the ground\nbefore the Lord.\n\nthese men risked their lives.\nit isn't mine to drink.\n\nsome gifts are too holy to keep.\n\nyou give them\nback to God.",
+      "webSrc": "assets/samuel/web/s-007-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#837a65",
+        "horizon": "#7c715b",
+        "ground": "#5f5b4d",
+        "overall": "#716957",
+        "accent": "#f6ebd0"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "nothing",
+      "ref": "2 Samuel 24:18–25",
+      "epigraph": "“I will not offer burnt offerings to Yahweh my God which cost me nothing.”",
+      "poem": "the plague stopped\nat a farmer's threshing floor.\n\ntake it, the farmer said.\nthe oxen too.\nthe yokes for wood.\nall of it, free.\n\nno, said the king.\nI'll pay.\n\nI will not give the Lord\nwhat cost me nothing.\n\nhe counted out the silver\nand built his altar there,\non the hill\nwhere one day\nhis son would build\na house for God.\n\nand the plague was lifted\nfrom the land.",
+      "webSrc": "assets/samuel/web/s-007-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c7a6",
+        "horizon": "#ac9a78",
+        "ground": "#8e8169",
+        "overall": "#a6987b",
+        "accent": "#fbde7e"
+      }
+    }
+  ]
+}

@@ -24,7 +24,7 @@ export class StepThroughSceneManager {
     const group = new THREE.Group();
     const n = paintingData.n;
     const pal = paintingData.palette || {};
-    const kind = paintingData.sceneKind || (n === 1 ? 'light' : n === 4 ? 'garden' : 'bow');
+    const kind = paintingData.sceneKind || paintingData.sceneType || (n === 1 ? 'light' : n === 4 ? 'garden' : 'bow');
 
     // Derive depth map, 360° outpainted surround texture, ground texture, and prop texture from the painting image
     const img = rawTexture.image;
@@ -189,6 +189,22 @@ export class StepThroughSceneManager {
       signatureState = this.populateRuthThreshingCloakScene(group, derived, pal, getTerrainHeight);
     } else if (kind === 'kinsman_sandal') {
       signatureState = this.populateRuthKinsmanSandalScene(group, derived, pal, getTerrainHeight);
+    } else if (kind === 'samuel_lamp') {
+      signatureState = this.populateSamuelLampScene(group, derived, pal, getTerrainHeight);
+    } else if (kind === 'anointing_horn') {
+      signatureState = this.populateSamuelAnointingHornScene(group, derived, pal, getTerrainHeight);
+    } else if (kind === 'five_smooth_stones') {
+      signatureState = this.populateSamuelSmoothStonesScene(group, derived, pal, getTerrainHeight);
+    } else if (kind === 'kings_table') {
+      signatureState = this.populateSamuelKingsTableScene(group, derived, pal, getTerrainHeight);
+    } else if (kind === 'temple_cloud') {
+      signatureState = this.populateKingsTempleCloudScene(group, derived, pal, getTerrainHeight);
+    } else if (kind === 'carmel_fire') {
+      signatureState = this.populateKingsCarmelFireScene(group, derived, pal, getTerrainHeight);
+    } else if (kind === 'still_small_voice') {
+      signatureState = this.populateKingsStillSmallVoiceScene(group, derived, pal, getTerrainHeight);
+    } else if (kind === 'chariots_of_fire') {
+      signatureState = this.populateKingsChariotsOfFireScene(group, derived, pal, getTerrainHeight);
     }
 
     return {
@@ -1638,6 +1654,323 @@ export class StepThroughSceneManager {
         if (near) this._ruthSandalLatched = Math.min(1.0, (this._ruthSandalLatched || 0) + dt * 0.5);
         gateSandal.sandalLight.intensity = 1.8 + (this._ruthSandalLatched || 0) * 2.8;
         return near || (this._ruthSandalLatched || 0) > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT VII (1–2 SAMUEL) SCENE 1: No. 6 — "speak" (1 Samuel 3:1–10)
+  // ==========================================================================
+  populateSamuelLampScene(group, derived, pal) {
+    const THREE = this.THREE;
+    const lampPos = new THREE.Vector3(0.0, 0.0, -5.4);
+    const lampRig = this.propBuilder.createSamuelLampAndMat();
+    lampRig.group.position.copy(lampPos);
+    group.add(lampRig.group);
+
+    // Hannah's little linen robe table nearby in Shiloh sanctuary
+    const robeTable = this.propBuilder.createLinenRobeTable();
+    robeTable.position.set(2.8, 0, -6.4);
+    robeTable.rotation.y = -0.35;
+    group.add(robeTable);
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.72, 2.8, '#ffda85');
+    shaft.position.set(0.2, 6.2, -5.4);
+    group.add(shaft);
+
+    return {
+      signatureTarget: lampPos,
+      signatureRadius: 4.0,
+      signatureLabel: 'Kneel Beside the Lamp That Had Not Gone Out',
+      signatureActivatedText: '“Speak; for your servant hears.” — The lamp had not yet gone out, and God was not waiting for him to be older, only to be listening.',
+      updateScene: (dt, time, distToSignature, skyDome) => {
+        const near = distToSignature < 4.0;
+        if (near) this._samuelLampLatched = Math.min(1.0, (this._samuelLampLatched || 0) + dt * 0.5);
+        const val = this._samuelLampLatched || 0;
+        const pulse = 1.0 + Math.sin(time * 5.2) * 0.12;
+        lampRig.lampLight.intensity = (2.2 + val * 3.0) * pulse;
+        lampRig.flameMesh.scale.set(1.0 + val * 0.3, (1.0 + val * 0.45) * pulse, 1.0 + val * 0.3);
+        if (skyDome && skyDome.material.uniforms.uStarIntensity) {
+          skyDome.material.uniforms.uStarIntensity.value = 0.65 + val * 0.25;
+        }
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT VII (1–2 SAMUEL) SCENE 2: No. 15 — "the youngest" (1 Samuel 16:6–13)
+  // ==========================================================================
+  populateSamuelAnointingHornScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const hornPos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const hornRig = this.propBuilder.createAnointingHornPedestal();
+    hornRig.group.position.copy(hornPos);
+    group.add(hornRig.group);
+
+    // David's harp leaning near an olive tree on the Bethlehem pasture ridge
+    const harp = this.propBuilder.createDavidHarp(1.1);
+    harp.position.set(-2.4, 0, -5.2);
+    harp.rotation.y = 0.4;
+    group.add(harp);
+
+    const olive = this.propBuilder.createGreatPainterlyTree(derived.propTex, pal, 1.05);
+    olive.position.set(3.9, 0, -7.2);
+    group.add(olive);
+
+    const pastureGrass = this.propBuilder.createInstancedMeadowGrass(
+      800,
+      () => {
+        const ang = Math.random() * Math.PI * 2;
+        const rad = 2.2 + Math.random() * 14.0;
+        const x = Math.cos(ang) * rad;
+        const z = Math.sin(ang) * rad - 4.0;
+        return { x, y: getTerrainHeight ? getTerrainHeight(x, z) : 0, z, scale: 0.85 + Math.random() * 0.45 };
+      },
+      pal
+    );
+    group.add(pastureGrass);
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.78, 3.1, '#ffe28c');
+    shaft.position.set(0, 6.2, -5.6);
+    group.add(shaft);
+
+    return {
+      signatureTarget: hornPos,
+      signatureRadius: 4.0,
+      signatureLabel: 'Lift the Horn of Anointing Oil in the Shepherd’s Field',
+      signatureActivatedText: '“Man looks at the outward appearance, but Yahweh looks at the heart.” — The whole feast stood waiting until the youngest came in from the sheep.',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.0;
+        if (near) this._samuelHornLatched = Math.min(1.0, (this._samuelHornLatched || 0) + dt * 0.5);
+        const val = this._samuelHornLatched || 0;
+        hornRig.hornLight.intensity = 2.1 + val * 2.8;
+        hornRig.hornGroup.position.y = 0.84 + Math.sin(time * 2.2) * 0.03 * (1 + val);
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT VII (1–2 SAMUEL) SCENE 3: No. 18 — "five smooth stones" (1 Samuel 17:40–50)
+  // ==========================================================================
+  populateSamuelSmoothStonesScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const brookPos = new THREE.Vector3(0.0, 0.0, -5.5);
+    const brookRig = this.propBuilder.createSmoothStonesBrook();
+    brookRig.group.position.copy(brookPos);
+    group.add(brookRig.group);
+
+    const valleyGrass = this.propBuilder.createInstancedMeadowGrass(
+      760,
+      () => {
+        const ang = Math.random() * Math.PI * 2;
+        const rad = 2.8 + Math.random() * 14.0;
+        const x = Math.cos(ang) * rad;
+        const z = Math.sin(ang) * rad - 4.0;
+        return { x, y: getTerrainHeight ? getTerrainHeight(x, z) : 0, z, scale: 0.8 + Math.random() * 0.5 };
+      },
+      pal
+    );
+    group.add(valleyGrass);
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.8, 3.2, '#ffe89e');
+    shaft.position.set(0, 6.2, -5.5);
+    group.add(shaft);
+
+    return {
+      signatureTarget: brookPos,
+      signatureRadius: 4.0,
+      signatureLabel: 'Reach into the Brook for the Five Smooth Stones',
+      signatureActivatedText: '“Chose for himself five smooth stones out of the brook.” — Stones the water had been shaping for years, like the boy choosing them. One stone was enough.',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.0;
+        if (near) this._samuelStonesLatched = Math.min(1.0, (this._samuelStonesLatched || 0) + dt * 0.5);
+        const val = this._samuelStonesLatched || 0;
+        brookRig.brookLight.intensity = 2.2 + val * 2.8;
+        brookRig.stones.forEach((st, idx) => {
+          st.position.y = 0.13 + Math.sin(time * 2.6 + idx * 0.9) * 0.025 * val;
+        });
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT VII (1–2 SAMUEL) SCENE 4: No. 30 — "at the king's table" (2 Samuel 9:1–13)
+  // ==========================================================================
+  populateSamuelKingsTableScene(group, derived, pal) {
+    const THREE = this.THREE;
+    const tablePos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const tableRig = this.propBuilder.createKingsTablePlace();
+    tableRig.group.position.copy(tablePos);
+    group.add(tableRig.group);
+
+    // David's harp standing beside the banquet hall column
+    const harp = this.propBuilder.createDavidHarp(1.15);
+    harp.position.set(2.4, 0, -5.8);
+    harp.rotation.y = -0.45;
+    group.add(harp);
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.75, 3.0, '#ffde8a');
+    shaft.position.set(0, 6.2, -5.6);
+    group.add(shaft);
+
+    return {
+      signatureTarget: tablePos,
+      signatureRadius: 4.0,
+      signatureLabel: 'Sit at the Place Kept Continually for Jonathan’s Son',
+      signatureActivatedText: '“You will eat bread at my table continually.” — A place set every day for a promise made to a friend long after the friend was gone.',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.0;
+        if (near) this._samuelTableLatched = Math.min(1.0, (this._samuelTableLatched || 0) + dt * 0.5);
+        const val = this._samuelTableLatched || 0;
+        tableRig.tableLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT VIII (1 & 2 KINGS) SCENE 1: No. 6 — "the cloud" (1 Kings 8:6–11)
+  // ==========================================================================
+  populateKingsTempleCloudScene(group, derived, pal) {
+    const THREE = this.THREE;
+    const templePos = new THREE.Vector3(0.0, 0.0, -5.8);
+    const sanctuary = this.propBuilder.createCedarTempleSanctuary();
+    sanctuary.group.position.copy(templePos);
+    group.add(sanctuary.group);
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.9, 3.6, '#ffea9c');
+    shaft.position.set(0, 6.4, -5.8);
+    group.add(shaft);
+
+    return {
+      signatureTarget: templePos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Stand Before the Cloud of Glory Filling the House',
+      signatureActivatedText: '“The cloud filled Yahweh’s house, so that the priests could not stand to minister.” — All that cedar, all that gold, and the best moment was when nobody could do anything at all.',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._kingsCloudLatched = Math.min(1.0, (this._kingsCloudLatched || 0) + dt * 0.5);
+        const val = this._kingsCloudLatched || 0;
+        sanctuary.gloryLight.intensity = 2.8 + val * 3.4;
+        sanctuary.cloudSprites.forEach((sp, i) => {
+          sp.material.opacity = (0.38 + val * 0.28) * (0.85 + 0.15 * Math.sin(time * 1.6 + i));
+          sp.position.y = 1.45 + (i % 3) * 0.55 + Math.sin(time * 0.9 + i) * 0.15;
+        });
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT VIII (1 & 2 KINGS) SCENE 2: No. 18 — "fire on Carmel" (1 Kings 18:30–39)
+  // ==========================================================================
+  populateKingsCarmelFireScene(group, derived, pal) {
+    const THREE = this.THREE;
+    const altarPos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const carmel = this.propBuilder.createCarmelAltar();
+    carmel.group.position.copy(altarPos);
+    group.add(carmel.group);
+
+    const fireShaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.65, 2.6, '#ff9c38');
+    fireShaft.position.set(0, 6.2, -5.6);
+    group.add(fireShaft);
+
+    return {
+      signatureTarget: altarPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Approach the Twelve-Stone Altar & Water-Filled Trench',
+      signatureActivatedText: '“Yahweh, he is God! Yahweh, he is God!” — One short prayer at the evening offering, and the fire fell and licked up even the water.',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._kingsCarmelLatched = Math.min(1.0, (this._kingsCarmelLatched || 0) + dt * 0.5);
+        const val = this._kingsCarmelLatched || 0;
+        const flicker = 1.0 + Math.sin(time * 7.5) * 0.15;
+        carmel.fireLight.intensity = (2.8 + val * 3.8) * flicker;
+        carmel.fireSprites.forEach((sp, idx) => {
+          sp.scale.x = (2.4 - idx * 0.18 + val * 0.6) * flicker;
+          sp.position.y = 1.25 + idx * 0.55 + Math.sin(time * 4.5 + idx) * 0.12;
+        });
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT VIII (1 & 2 KINGS) SCENE 3: No. 21 — "a still small voice" (1 Kings 19:9–13)
+  // ==========================================================================
+  populateKingsStillSmallVoiceScene(group, derived, pal) {
+    const THREE = this.THREE;
+    const cavePos = new THREE.Vector3(0.0, 0.0, -5.8);
+    const caveRig = this.propBuilder.createHorebCaveArch();
+    caveRig.group.position.copy(cavePos);
+    group.add(caveRig.group);
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.8, 3.2, '#ffefd1');
+    shaft.position.set(0, 6.2, -5.4);
+    group.add(shaft);
+
+    return {
+      signatureTarget: cavePos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Stand at the Mouth of Horeb’s Cave in the Stillness',
+      signatureActivatedText: '“After the fire, there was a still small voice.” — God doesn’t always shout. Sometimes he asks a gentle question, and waits.',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._kingsVoiceLatched = Math.min(1.0, (this._kingsVoiceLatched || 0) + dt * 0.5);
+        const val = this._kingsVoiceLatched || 0;
+        const breathe = 0.9 + 0.1 * Math.sin(time * 1.8);
+        caveRig.caveLight.intensity = (2.0 + val * 2.6) * breathe;
+        caveRig.whisperHalo.scale.setScalar((3.2 + val * 1.4) * breathe);
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT VIII (1 & 2 KINGS) SCENE 4: No. 32 — "more with us" (2 Kings 6:15–17)
+  // ==========================================================================
+  populateKingsChariotsOfFireScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const chariotPos = new THREE.Vector3(0.0, 0.0, -5.8);
+    const fieryRig = this.propBuilder.createChariotOfFireCluster();
+    fieryRig.group.position.copy(chariotPos);
+    group.add(fieryRig.group);
+
+    const hillGrass = this.propBuilder.createInstancedMeadowGrass(
+      780,
+      () => {
+        const ang = Math.random() * Math.PI * 2;
+        const rad = 2.4 + Math.random() * 14.5;
+        const x = Math.cos(ang) * rad;
+        const z = Math.sin(ang) * rad - 4.0;
+        return { x, y: getTerrainHeight ? getTerrainHeight(x, z) : 0, z, scale: 0.85 + Math.random() * 0.45 };
+      },
+      pal
+    );
+    group.add(hillGrass);
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.85, 3.5, '#ffbe59');
+    shaft.position.set(0, 6.2, -5.8);
+    group.add(shaft);
+
+    return {
+      signatureTarget: chariotPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Open Your Eyes to the Hills Full of Chariots of Fire',
+      signatureActivatedText: '“Don’t be afraid; for those who are with us are more than those who are with them.” — The danger was real; so was everything he couldn’t see.',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._kingsChariotsLatched = Math.min(1.0, (this._kingsChariotsLatched || 0) + dt * 0.5);
+        const val = this._kingsChariotsLatched || 0;
+        fieryRig.chariotLight.intensity = 2.8 + val * 3.6;
+        fieryRig.chariots.forEach((ch, idx) => {
+          ch.cGroup.position.y += Math.sin(time * 2.5 + idx) * 0.002;
+          ch.halo.scale.set((2.8 + val * 1.1), (2.2 + val * 0.9), 1);
+        });
+        return near || val > 0.85;
       }
     };
   }

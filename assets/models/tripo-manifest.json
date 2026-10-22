@@ -146,6 +146,39 @@
       "targetScale": 1.25,
       "imageTo3DTip": "Upload r-006-020.jpg directly into Tripo3D Image-to-3D—the leather sandal on the stone step is an ideal single-object 3D model.",
       "textPrompt": "Ancient biblical hand-stitched brown leather sandal with untied strap resting on a carved limestone step at the Bethlehem gate, warm oil painting texture"
+    },
+    {
+      "slot": 14,
+      "id": "samuel-clay-lamp",
+      "file": "assets/models/samuel-clay-lamp.glb",
+      "title": "The Clay Oil Lamp That Had Not Gone Out",
+      "district": "District VII · 1–2 Samuel (No. 6 “speak”)",
+      "paintingRef": "assets/samuel/web/s-007-006.jpg",
+      "targetScale": 1.15,
+      "imageTo3DTip": "Upload s-007-006.jpg directly into Tripo3D Image-to-3D—the clay oil lamp on the sanctuary stone floor is a clean still-life relic.",
+      "textPrompt": "Ancient biblical pinched-spout terracotta clay oil lamp resting on a weathered limestone block, warm golden oil flame at wick, painterly oil-on-linen texture"
+    },
+    {
+      "slot": 15,
+      "id": "samuel-anointing-horn",
+      "file": "assets/models/samuel-anointing-horn.glb",
+      "title": "Samuel’s Carved Horn of Anointing Oil",
+      "district": "District VII · 1–2 Samuel (No. 15 “the youngest”)",
+      "paintingRef": "assets/samuel/web/s-007-015.jpg",
+      "targetScale": 1.35,
+      "imageTo3DTip": "Upload s-007-015.jpg directly into Tripo3D Image-to-3D—the carved horn of golden olive oil on the stone ledge is an isolated single object.",
+      "textPrompt": "Ancient carved ram's horn vessel filled with glistening golden olive oil resting on a fieldstone ledge, warm brass collar band, painterly impasto texture"
+    },
+    {
+      "slot": 16,
+      "id": "elijah-folded-mantle",
+      "file": "assets/models/elijah-folded-mantle.glb",
+      "title": "Elijah’s Woven Prophet’s Mantle",
+      "district": "District VIII · 1 & 2 Kings (No. 21 “a still small voice” & No. 22 “the mantle”)",
+      "paintingRef": "assets/kings/web/k-008-022.jpg",
+      "targetScale": 1.4,
+      "imageTo3DTip": "Upload k-008-022.jpg into Tripo3D Image-to-3D for the woven wool prophet's cloak.",
+      "textPrompt": "Ancient coarse-woven brown and ochre wool prophet's mantle cloak draped over weathered rock, tactile hand-spun fabric folds, painterly oil brushwork"
     }
   ]
 }

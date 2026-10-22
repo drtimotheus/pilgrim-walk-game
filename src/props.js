@@ -2277,4 +2277,806 @@ export class PainterlyPropBuilder {
 
     return { group, sandalGroup, sandalLight };
   }
+
+  // 1 Samuel 2:18–21: Hannah's Little Woven Linen Robe on a Cedar Table with Bone Needle & Red Thread
+  createLinenRobeTable() {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#664930',
+      accentColor: '#9b734e',
+      roughness: 0.86
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9cbb3',
+      accentColor: '#f5ead6',
+      roughness: 0.88
+    });
+    const crimsonMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c2822',
+      accentColor: '#c9453c',
+      roughness: 0.8
+    });
+
+    const tableTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.5, 0.09, 1.0, 6, 2, 4), 0.015, 4.0),
+      woodMat
+    );
+    tableTop.position.set(0, 0.78, 0);
+    group.add(tableTop);
+
+    for (const [lx, lz] of [[-0.62, -0.38], [0.62, -0.38], [-0.62, 0.38], [0.62, 0.38]]) {
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.045, 0.78, 8), woodMat);
+      leg.position.set(lx, 0.39, lz);
+      group.add(leg);
+    }
+
+    // Folded little linen robe with sleeves
+    const robeBody = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.62, 0.08, 0.52, 6, 2, 6), 0.012, 5.0),
+      linenMat
+    );
+    robeBody.position.set(-0.08, 0.86, 0);
+    group.add(robeBody);
+
+    for (const sx of [-0.42, 0.26]) {
+      const sleeve = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.22, 0.06, 0.26, 4, 2, 4), 0.01, 5.0),
+        linenMat
+      );
+      sleeve.position.set(sx, 0.85, -0.06);
+      sleeve.rotation.y = sx < 0 ? 0.28 : -0.28;
+      group.add(sleeve);
+    }
+
+    // Crimson stitched collar border & spool of thread
+    const hem = new THREE.Mesh(new THREE.BoxGeometry(0.58, 0.02, 0.06), crimsonMat);
+    hem.position.set(-0.08, 0.905, 0.22);
+    group.add(hem);
+
+    const spool = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, 0.11, 12), crimsonMat);
+    spool.position.set(0.42, 0.88, 0.18);
+    group.add(spool);
+
+    return group;
+  }
+
+  // 1 Samuel 3:1–10: The Clay Lamp That Had Not Yet Gone Out & Young Samuel's Sleeping Mat
+  createSamuelLampAndMat() {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c5044',
+      accentColor: '#8c7a67',
+      roughness: 0.9
+    });
+    const matMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a88d67',
+      accentColor: '#d9be96',
+      roughness: 0.92
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c5338',
+      accentColor: '#c77d57',
+      roughness: 0.78
+    });
+
+    // Low stone pedestal beside the woven reed sleeping mat
+    const lampStone = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.45, 0.52, 0.34, 14), 0.02, 4.0),
+      stoneMat
+    );
+    lampStone.position.set(0, 0.17, 0);
+    group.add(lampStone);
+
+    // Woven sleeping mat & folded linen blanket beside the lamp
+    const sleepMat = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.45, 0.04, 2.25, 8, 1, 10), 0.015, 4.5),
+      matMat
+    );
+    sleepMat.position.set(-1.35, 0.03, 0.35);
+    sleepMat.rotation.y = 0.15;
+    group.add(sleepMat);
+
+    // Sculpted terracotta oil lamp body with pinched spout
+    const lampGroup = new THREE.Group();
+    lampGroup.position.set(0, 0.35, 0);
+
+    const bowl = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.22, 16, 12), 0.01, 6.0),
+      clayMat
+    );
+    bowl.scale.set(1.25, 0.52, 0.95);
+    lampGroup.add(bowl);
+
+    const spout = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.045, 0.08, 0.18, 10),
+      clayMat
+    );
+    spout.rotation.z = -Math.PI / 2.6;
+    spout.position.set(0.24, 0.04, 0);
+    lampGroup.add(spout);
+
+    if (this.tripo) {
+      this.tripo.mountRelic(lampGroup, 'samuel-clay-lamp', { scale: 1.0, yOffset: 0 });
+    }
+    group.add(lampGroup);
+
+    // Living golden flame on the wick
+    const flameMat = new THREE.MeshBasicMaterial({
+      color: '#ffdf80',
+      transparent: true,
+      opacity: 0.95
+    });
+    const flameMesh = new THREE.Mesh(new THREE.ConeGeometry(0.075, 0.26, 12), flameMat);
+    flameMesh.position.set(0.30, 0.52, 0);
+    group.add(flameMesh);
+
+    const glowTex = this.painterly.createGlowSpriteTexture('#ffcf6e');
+    const halo = new THREE.Sprite(
+      new THREE.SpriteMaterial({
+        map: glowTex,
+        color: '#ffd275',
+        transparent: true,
+        opacity: 0.85,
+        blending: THREE.AdditiveBlending
+      })
+    );
+    halo.position.set(0.30, 0.56, 0);
+    halo.scale.set(1.65, 1.65, 1);
+    group.add(halo);
+
+    const lampLight = new THREE.PointLight('#ffcb6b', 2.4, 14);
+    lampLight.position.set(0.30, 0.72, 0);
+    group.add(lampLight);
+
+    return { group, flameMesh, halo, lampLight };
+  }
+
+  // 1 Samuel 7:12: Ebenezer — The Upright "Stone of Help"
+  createEbenezerStone(scale = 1.0) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a7265',
+      accentColor: '#b8ac99',
+      roughness: 0.89
+    });
+
+    const monolith = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.95, 2.35, 0.58, 6, 12, 5), 0.06, 2.6),
+      stoneMat
+    );
+    monolith.position.set(0, 1.15, 0);
+    monolith.rotation.z = 0.03;
+    group.add(monolith);
+
+    for (let i = 0; i < 4; i++) {
+      const a = (i / 4) * Math.PI * 2 + 0.4;
+      const baseRock = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(0.32, 1), 0.04, 3.5),
+        stoneMat
+      );
+      baseRock.position.set(Math.cos(a) * 0.58, 0.18, Math.sin(a) * 0.45);
+      group.add(baseRock);
+    }
+
+    group.scale.setScalar(scale);
+    return group;
+  }
+
+  // 1 Samuel 16:1–13: Samuel's Carved Horn of Anointing Oil on a Bethlehem Field Stone
+  createAnointingHornPedestal() {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#85755e',
+      accentColor: '#baa688',
+      roughness: 0.88
+    });
+    const hornMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d4be94',
+      accentColor: '#f5e4bf',
+      roughness: 0.62
+    });
+    const goldMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c99738',
+      accentColor: '#ffda75',
+      roughness: 0.38
+    });
+
+    // Pasture stone ledge
+    const ledge = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.92, 1.15, 0.72, 14), 0.045, 3.0),
+      stoneMat
+    );
+    ledge.position.set(0, 0.36, 0);
+    group.add(ledge);
+
+    // Curved carved ram's horn of oil
+    const hornGroup = new THREE.Group();
+    hornGroup.position.set(0, 0.84, 0);
+
+    const hornArch = new THREE.Mesh(
+      new THREE.TorusGeometry(0.38, 0.095, 12, 24, Math.PI * 0.82),
+      hornMat
+    );
+    hornArch.rotation.z = Math.PI * 0.12;
+    hornGroup.add(hornArch);
+
+    const brassBand = new THREE.Mesh(
+      new THREE.TorusGeometry(0.105, 0.018, 8, 16),
+      goldMat
+    );
+    brassBand.position.set(0.36, 0.08, 0);
+    brassBand.rotation.x = Math.PI / 2;
+    hornGroup.add(brassBand);
+
+    // Glistening golden olive oil pool at the mouth of the horn
+    const oilDrop = new THREE.Mesh(
+      new THREE.SphereGeometry(0.085, 14, 14),
+      new THREE.MeshBasicMaterial({ color: '#ffcf5c' })
+    );
+    oilDrop.position.set(0.37, 0.11, 0);
+    hornGroup.add(oilDrop);
+
+    if (this.tripo) {
+      this.tripo.mountRelic(hornGroup, 'samuel-anointing-horn', { scale: 1.0, yOffset: 0 });
+    }
+    group.add(hornGroup);
+
+    const hornLight = new THREE.PointLight('#ffd670', 2.1, 11);
+    hornLight.position.set(0.2, 1.45, 0.3);
+    group.add(hornLight);
+
+    return { group, hornGroup, oilDrop, hornLight };
+  }
+
+  // 1 Samuel 16:23: David's Wooden Harp (Kinnor) Leaning Beside an Oil Lamp
+  createDavidHarp(scale = 1.0) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e4726',
+      accentColor: '#b07846',
+      roughness: 0.78
+    });
+    const stringMat = new THREE.MeshBasicMaterial({ color: '#f5deb3' });
+
+    const soundbox = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.56, 0.38, 0.14, 4, 4, 2), 0.01, 5.0),
+      woodMat
+    );
+    soundbox.position.set(0, 0.22, 0);
+    group.add(soundbox);
+
+    for (const sx of [-0.24, 0.24]) {
+      const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.028, 0.032, 0.72, 8), woodMat);
+      arm.position.set(sx, 0.68, 0);
+      arm.rotation.z = sx < 0 ? 0.14 : -0.14;
+      group.add(arm);
+    }
+
+    const crossbar = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.68, 8), woodMat);
+    crossbar.rotation.z = Math.PI / 2;
+    crossbar.position.set(0, 1.02, 0);
+    group.add(crossbar);
+
+    for (let i = -3; i <= 3; i++) {
+      const str = new THREE.Mesh(new THREE.CylinderGeometry(0.004, 0.004, 0.65, 4), stringMat);
+      str.position.set(i * 0.055, 0.68, 0);
+      group.add(str);
+    }
+
+    group.scale.setScalar(scale);
+    return group;
+  }
+
+  // 1 Samuel 17:40: Five Smooth Stones in the Brook of Elah with Leather Sling & Shepherd's Pouch
+  createSmoothStonesBrook() {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a69c8a',
+      accentColor: '#e6dfd1',
+      roughness: 0.52
+    });
+    const leatherMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#694425',
+      accentColor: '#a36e40',
+      roughness: 0.82
+    });
+    const waterMat = new THREE.MeshStandardMaterial({
+      color: '#3f7687',
+      emissive: '#173842',
+      roughness: 0.22,
+      metalness: 0.15,
+      transparent: true,
+      opacity: 0.82
+    });
+
+    // Clear brook water surface
+    const brookBed = new THREE.Mesh(
+      new THREE.CylinderGeometry(2.3, 2.4, 0.08, 24),
+      waterMat
+    );
+    brookBed.position.set(0, 0.04, 0);
+    group.add(brookBed);
+
+    // Five smooth river stones arranged in a gentle arc in the shallow brook
+    const stones = [];
+    const coords = [
+      [-0.52, 0.12, 0.18],
+      [-0.26, 0.13, -0.05],
+      [0.02, 0.14, -0.14],
+      [0.30, 0.13, -0.03],
+      [0.54, 0.12, 0.20]
+    ];
+    for (let i = 0; i < 5; i++) {
+      const [sx, sy, sz] = coords[i];
+      const pebble = new THREE.Mesh(
+        this.displaceGeometry(new THREE.SphereGeometry(0.135, 16, 12), 0.008, 5.0),
+        stoneMat.clone()
+      );
+      pebble.scale.set(1.25, 0.62, 1.05);
+      pebble.position.set(sx, sy, sz);
+      pebble.rotation.y = i * 0.55;
+      group.add(pebble);
+      stones.push(pebble);
+    }
+
+    // Shepherd's leather pouch & woven sling on the mossy bank rock
+    const bankRock = new THREE.Mesh(
+      this.displaceGeometry(new THREE.DodecahedronGeometry(0.55, 1), 0.04, 3.0),
+      this.painterly.createPainterlyMaterial({ baseColor: '#6e6454', accentColor: '#9c8f79', roughness: 0.9 })
+    );
+    bankRock.scale.set(1.3, 0.55, 1.1);
+    bankRock.position.set(-1.15, 0.22, 0.65);
+    group.add(bankRock);
+
+    const pouch = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.24, 12, 10), 0.02, 4.0),
+      leatherMat
+    );
+    pouch.position.set(-1.12, 0.48, 0.62);
+    group.add(pouch);
+
+    const slingLoop = new THREE.Mesh(
+      new THREE.TorusGeometry(0.28, 0.022, 8, 20, Math.PI * 1.45),
+      leatherMat
+    );
+    slingLoop.rotation.x = Math.PI / 2;
+    slingLoop.position.set(-0.78, 0.36, 0.74);
+    group.add(slingLoop);
+
+    const brookLight = new THREE.PointLight('#ffe59e', 2.2, 11);
+    brookLight.position.set(0, 1.35, 0.2);
+    group.add(brookLight);
+
+    return { group, stones, brookBed, brookLight };
+  }
+
+  // 2 Samuel 9:1–13: At the King's Table — Mephibosheth's Place Set Continually & Wooden Crutch
+  createKingsTablePlace() {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const cedarMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5e3a20',
+      accentColor: '#96613b',
+      roughness: 0.78
+    });
+    const runnerMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9c8a9',
+      accentColor: '#f5ead4',
+      roughness: 0.86
+    });
+    const goldMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c79332',
+      accentColor: '#ffda73',
+      roughness: 0.35
+    });
+    const breadMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b57b3b',
+      accentColor: '#e3a862',
+      roughness: 0.84
+    });
+
+    // Long royal cedar table
+    const tabletop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.6, 0.12, 1.25, 8, 2, 4), 0.015, 4.0),
+      cedarMat
+    );
+    tabletop.position.set(0, 0.86, 0);
+    group.add(tabletop);
+
+    for (const [lx, lz] of [[-1.08, -0.46], [1.08, -0.46], [-1.08, 0.46], [1.08, 0.46]]) {
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.065, 0.86, 10), cedarMat);
+      leg.position.set(lx, 0.43, lz);
+      group.add(leg);
+    }
+
+    // Woven linen table runner
+    const runner = new THREE.Mesh(new THREE.BoxGeometry(2.64, 0.02, 0.48), runnerMat);
+    runner.position.set(0, 0.925, 0);
+    group.add(runner);
+
+    // Warm round loaves of bread, brass goblet, and pomegranate bowl
+    for (const [bx, bz] of [[-0.38, 0.08], [0.25, -0.06]]) {
+      const loaf = new THREE.Mesh(
+        this.displaceGeometry(new THREE.SphereGeometry(0.18, 14, 10), 0.012, 5.0),
+        breadMat
+      );
+      loaf.scale.set(1.2, 0.58, 1.0);
+      loaf.position.set(bx, 0.99, bz);
+      group.add(loaf);
+    }
+
+    const goblet = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.05, 0.24, 12), goldMat);
+    goblet.position.set(0.02, 1.05, 0.24);
+    group.add(goblet);
+
+    // Carved wooden armchair at the place of honor & Mephibosheth's wooden crutch leaning against it
+    const chairSeat = new THREE.Mesh(new THREE.BoxGeometry(0.62, 0.07, 0.58), cedarMat);
+    chairSeat.position.set(0, 0.52, 0.82);
+    group.add(chairSeat);
+
+    const chairBack = new THREE.Mesh(new THREE.BoxGeometry(0.62, 0.68, 0.07), cedarMat);
+    chairBack.position.set(0, 0.88, 1.08);
+    group.add(chairBack);
+
+    const crutchShaft = new THREE.Mesh(new THREE.CylinderGeometry(0.028, 0.022, 1.28, 8), cedarMat);
+    crutchShaft.position.set(0.46, 0.62, 0.92);
+    crutchShaft.rotation.z = -0.24;
+    group.add(crutchShaft);
+
+    const crutchRest = new THREE.Mesh(new THREE.BoxGeometry(0.28, 0.055, 0.07), cedarMat);
+    crutchRest.position.set(0.32, 1.22, 0.92);
+    crutchRest.rotation.z = -0.24;
+    group.add(crutchRest);
+
+    const tableLight = new THREE.PointLight('#ffd478', 2.4, 12);
+    tableLight.position.set(0, 1.65, 0.15);
+    group.add(tableLight);
+
+    return { group, goblet, tableLight };
+  }
+
+  // 1 Kings 8:6–11: Solomon's Gold-and-Cedar Sanctuary & The Cloud of Glory
+  createCedarTempleSanctuary() {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const goldMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c9932e',
+      accentColor: '#ffe07d',
+      roughness: 0.34
+    });
+    const cedarMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#633c1e',
+      accentColor: '#9e6638',
+      roughness: 0.76
+    });
+
+    // Gold-overlaid Ark of the Covenant at the center of the Inner Sanctuary
+    const arkChest = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.45, 0.82, 0.88, 6, 4, 4), 0.012, 4.0),
+      goldMat
+    );
+    arkChest.position.set(0, 0.62, 0);
+    group.add(arkChest);
+
+    // Carrying poles extending forward
+    for (const sx of [-0.52, 0.52]) {
+      const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.032, 0.032, 2.8, 10), goldMat);
+      pole.rotation.x = Math.PI / 2;
+      pole.position.set(sx, 0.55, 0.15);
+      group.add(pole);
+    }
+
+    // Two tall olive-wood-and-gold Cherubim wings arching overhead (1 Kings 6:23–28)
+    for (const sx of [-0.85, 0.85]) {
+      const wing = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(1.15, 1.65, 0.12, 6, 8, 2), 0.025, 3.5),
+        goldMat
+      );
+      wing.position.set(sx * 0.55, 1.75, -0.15);
+      wing.rotation.z = sx < 0 ? -0.38 : 0.38;
+      group.add(wing);
+    }
+
+    // Tall carved cedar columns framing the sanctuary
+    for (const [cx, cz] of [[-2.8, -1.8], [2.8, -1.8], [-2.8, 1.8], [2.8, 1.8]]) {
+      const col = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.36, 4.8, 14), cedarMat);
+      col.position.set(cx, 2.4, cz);
+      group.add(col);
+    }
+
+    // Volumetric luminous Cloud of Glory billboards
+    const glowTex = this.painterly.createGlowSpriteTexture('#fff0b8');
+    const cloudSprites = [];
+    for (let i = 0; i < 9; i++) {
+      const sp = new THREE.Sprite(
+        new THREE.SpriteMaterial({
+          map: glowTex,
+          color: i % 2 === 0 ? '#ffe89e' : '#fff7d6',
+          transparent: true,
+          opacity: 0.42,
+          blending: THREE.AdditiveBlending
+        })
+      );
+      const a = (i / 9) * Math.PI * 2;
+      sp.position.set(Math.cos(a) * 1.4, 1.45 + (i % 3) * 0.55, Math.sin(a) * 1.1);
+      sp.scale.set(3.8, 2.9, 1);
+      group.add(sp);
+      cloudSprites.push(sp);
+    }
+
+    const gloryLight = new THREE.PointLight('#ffe494', 2.8, 16);
+    gloryLight.position.set(0, 2.2, 0.4);
+    group.add(gloryLight);
+
+    return { group, cloudSprites, gloryLight };
+  }
+
+  // 1 Kings 18:30–39: Elijah's Twelve-Stone Altar on Mount Carmel & Water-Filled Trench
+  createCarmelAltar() {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e6559',
+      accentColor: '#a69986',
+      roughness: 0.9
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4f3522',
+      accentColor: '#875c3d',
+      roughness: 0.88
+    });
+    const waterMat = new THREE.MeshStandardMaterial({
+      color: '#3b6e82',
+      emissive: '#294854',
+      roughness: 0.2,
+      metalness: 0.25,
+      transparent: true,
+      opacity: 0.85
+    });
+
+    // Circular water-filled trench around the altar (1 Kings 18:32–35)
+    const trenchWater = new THREE.Mesh(
+      new THREE.RingGeometry(1.35, 2.15, 28),
+      waterMat
+    );
+    trenchWater.rotation.x = -Math.PI / 2;
+    trenchWater.position.y = 0.04;
+    group.add(trenchWater);
+
+    // Twelve unhewn stones stacked in two rings (one for each tribe of Jacob)
+    for (let i = 0; i < 12; i++) {
+      const ring = i < 7 ? 0 : 1;
+      const count = ring === 0 ? 7 : 5;
+      const idx = ring === 0 ? i : i - 7;
+      const ang = (idx / count) * Math.PI * 2 + ring * 0.35;
+      const rad = ring === 0 ? 0.82 : 0.48;
+      const stone = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(0.38, 1), 0.045, 3.2),
+        stoneMat
+      );
+      stone.scale.set(1.15, 0.78, 1.0);
+      stone.position.set(Math.cos(ang) * rad, 0.28 + ring * 0.42, Math.sin(ang) * rad);
+      group.add(stone);
+    }
+
+    // Split wood laid in order on top of the twelve stones
+    for (let w = 0; w < 5; w++) {
+      const log = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.09, 1.25, 8), woodMat);
+      log.rotation.z = Math.PI / 2;
+      log.rotation.y = (w / 5) * Math.PI;
+      log.position.set(0, 0.96 + (w % 2) * 0.1, 0);
+      group.add(log);
+    }
+
+    // Descending Fire from Heaven column & golden-orange blaze
+    const glowTex = this.painterly.createGlowSpriteTexture('#ff9d3b');
+    const fireSprites = [];
+    for (let f = 0; f < 6; f++) {
+      const sp = new THREE.Sprite(
+        new THREE.SpriteMaterial({
+          map: glowTex,
+          color: f < 2 ? '#fff2b2' : '#ff7b24',
+          transparent: true,
+          opacity: 0.78,
+          blending: THREE.AdditiveBlending
+        })
+      );
+      sp.position.set(0, 1.25 + f * 0.55, 0);
+      sp.scale.set(2.4 - f * 0.18, 2.6, 1);
+      group.add(sp);
+      fireSprites.push(sp);
+    }
+
+    const fireLight = new THREE.PointLight('#ff9436', 2.8, 16);
+    fireLight.position.set(0, 2.1, 0);
+    group.add(fireLight);
+
+    return { group, trenchWater, fireSprites, fireLight };
+  }
+
+  // 1 Kings 19:9–13: Mouth of Mount Horeb's Cave & Elijah's Mantle at the Threshold
+  createHorebCaveArch() {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const rockMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#594e45',
+      accentColor: '#8c7b6b',
+      roughness: 0.92
+    });
+    const mantleMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#785a3c',
+      accentColor: '#ad855d',
+      roughness: 0.88
+    });
+
+    // Sculpted granite cave arch framing the quiet morning valley beyond
+    for (let i = 0; i < 9; i++) {
+      const t = i / 8;
+      const ang = t * Math.PI;
+      const rx = Math.cos(ang) * 2.35;
+      const ry = Math.sin(ang) * 2.65 + 0.5;
+      const boulder = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(0.85, 1), 0.08, 2.4),
+        rockMat
+      );
+      boulder.scale.set(1.2, 1.1, 1.35);
+      boulder.position.set(rx, ry, -0.5);
+      group.add(boulder);
+    }
+
+    // Flat threshold stone where Elijah stood wrapped in his mantle
+    const threshold = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.6, 0.24, 1.5, 8, 2, 6), 0.03, 3.5),
+      rockMat
+    );
+    threshold.position.set(0, 0.12, 0.35);
+    group.add(threshold);
+
+    // Folded prophet's wool mantle resting on the threshold rock
+    const mantle = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.78, 0.14, 0.55, 6, 2, 6), 0.02, 4.5),
+      mantleMat
+    );
+    mantle.position.set(0.35, 0.28, 0.42);
+    mantle.rotation.y = -0.25;
+    group.add(mantle);
+
+    if (this.tripo) {
+      this.tripo.mountRelic(group, 'elijah-folded-mantle', { scale: 1.0, yOffset: 0.25 });
+    }
+
+    // Soft silver-gold whisper halo at the mouth of the cave
+    const glowTex = this.painterly.createGlowSpriteTexture('#ffeac2');
+    const whisperHalo = new THREE.Sprite(
+      new THREE.SpriteMaterial({
+        map: glowTex,
+        color: '#ffefd1',
+        transparent: true,
+        opacity: 0.65,
+        blending: THREE.AdditiveBlending
+      })
+    );
+    whisperHalo.position.set(0, 1.65, 0.2);
+    whisperHalo.scale.set(3.2, 3.2, 1);
+    group.add(whisperHalo);
+
+    const caveLight = new THREE.PointLight('#ffebd1', 2.0, 14);
+    caveLight.position.set(0, 1.85, 0.6);
+    group.add(caveLight);
+
+    return { group, whisperHalo, caveLight };
+  }
+
+  // 2 Kings 6:15–17: Luminous Horses and Chariots of Fire on the Hills of Dothan
+  createChariotOfFireCluster() {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const fireGoldMat = new THREE.MeshStandardMaterial({
+      color: '#ffcf66',
+      emissive: '#ff7b1c',
+      emissiveIntensity: 1.35,
+      roughness: 0.3,
+      metalness: 0.4
+    });
+
+    const glowTex = this.painterly.createGlowSpriteTexture('#ffae42');
+    const chariots = [];
+
+    for (let c = 0; c < 5; c++) {
+      const cGroup = new THREE.Group();
+      const ang = ((c - 2) / 4) * 1.35;
+      const dist = c === 2 ? 0 : 3.2 + Math.abs(c - 2) * 1.4;
+      cGroup.position.set(Math.sin(ang) * dist, (c === 2 ? 0.35 : 0.75 + Math.abs(c - 2) * 0.45), -Math.cos(ang) * (dist * 0.45));
+      cGroup.rotation.y = -ang * 0.5;
+
+      // Chariot body & blazing spoked wheels
+      const body = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.48, 0.42, 0.65, 12, 1, true, 0, Math.PI),
+        fireGoldMat
+      );
+      body.rotation.y = Math.PI / 2;
+      body.position.set(0, 0.48, 0);
+      cGroup.add(body);
+
+      for (const wx of [-0.52, 0.52]) {
+        const wheel = new THREE.Mesh(new THREE.TorusGeometry(0.32, 0.04, 8, 18), fireGoldMat);
+        wheel.rotation.y = Math.PI / 2;
+        wheel.position.set(wx, 0.34, 0);
+        cGroup.add(wheel);
+      }
+
+      // Stylized rearing fiery steed silhouette in front of chariot
+      const steedBody = new THREE.Mesh(new THREE.CapsuleGeometry(0.18, 0.52, 6, 10), fireGoldMat);
+      steedBody.rotation.x = Math.PI / 3;
+      steedBody.position.set(0, 0.62, 0.78);
+      cGroup.add(steedBody);
+
+      const halo = new THREE.Sprite(
+        new THREE.SpriteMaterial({
+          map: glowTex,
+          color: '#ffb84d',
+          transparent: true,
+          opacity: 0.82,
+          blending: THREE.AdditiveBlending
+        })
+      );
+      halo.position.set(0, 0.65, 0.35);
+      halo.scale.set(2.8, 2.2, 1);
+      cGroup.add(halo);
+
+      group.add(cGroup);
+      chariots.push({ cGroup, halo });
+    }
+
+    const chariotLight = new THREE.PointLight('#ffaa3b', 2.8, 18);
+    chariotLight.position.set(0, 2.0, 0.8);
+    group.add(chariotLight);
+
+    return { group, chariots, chariotLight };
+  }
+
+  // 2 Kings 20:9–11: The Sundial Steps of Ahaz Where the Shadow Went Back Ten Steps
+  createSundialSteps(scale = 1.0) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b59d7e',
+      accentColor: '#e3cca8',
+      roughness: 0.86
+    });
+
+    for (let s = 0; s < 10; s++) {
+      const step = new THREE.Mesh(
+        new THREE.BoxGeometry(1.6, 0.14, 0.28),
+        stoneMat
+      );
+      step.position.set(0, 0.07 + s * 0.14, -s * 0.24);
+      group.add(step);
+    }
+
+    const gnomon = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.09, 1.35, 10), stoneMat);
+    gnomon.position.set(0.65, 1.85, -2.1);
+    group.add(gnomon);
+
+    group.scale.setScalar(scale);
+    return group;
+  }
 }

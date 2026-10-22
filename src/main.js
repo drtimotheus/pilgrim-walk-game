@@ -118,9 +118,27 @@ class PilgrimWalkApp {
         shortName: 'Ruth',
         fullLabel: 'Where You Go (Ruth)',
         loadingSub: 'District VI: Where You Go — Ruth in Poems & Pictures',
+        nextSlug: 'samuel',
+        nextLabel: 'District VII: The Lamp Had Not Gone Out (1–2 Samuel)',
+        amenQuote: '“Blessed be Yahweh, who has not left you today without a near kinsman.”'
+      },
+      samuel: {
+        num: 'VII',
+        shortName: '1–2 Samuel',
+        fullLabel: 'The Lamp Had Not Gone Out (1–2 Samuel)',
+        loadingSub: 'District VII: The Lamp Had Not Gone Out — 1–2 Samuel in Poems & Pictures',
+        nextSlug: 'kings',
+        nextLabel: 'District VIII: A Still Small Voice (1 & 2 Kings)',
+        amenQuote: '“For you are my lamp, Yahweh. Yahweh will light up my darkness.”'
+      },
+      kings: {
+        num: 'VIII',
+        shortName: '1 & 2 Kings',
+        fullLabel: 'A Still Small Voice (1 & 2 Kings)',
+        loadingSub: 'District VIII: A Still Small Voice — 1 & 2 Kings in Poems & Pictures',
         nextSlug: 'genesis',
         nextLabel: '3D Gatehouse Courtyard (All 44 Books)',
-        amenQuote: '“Blessed be Yahweh, who has not left you today without a near kinsman.”'
+        amenQuote: '“After the fire, there was a still small voice… a lamp still burning in a far country.”'
       }
     };
 
@@ -230,13 +248,15 @@ class PilgrimWalkApp {
   }
 
   async bootstrap() {
-    const [genRes, exoRes, fbnRes, clRes, jjRes, ruthRes, routeRes, coversRes] = await Promise.all([
+    const [genRes, exoRes, fbnRes, clRes, jjRes, ruthRes, samRes, kingsRes, routeRes, coversRes] = await Promise.all([
       fetch('assets/data/genesis-manifest.json'),
       fetch('assets/data/exodus-manifest.json'),
       fetch('assets/data/fire-by-night-manifest.json'),
       fetch('assets/data/choose-life-manifest.json'),
       fetch('assets/data/joshua-judges-manifest.json'),
       fetch('assets/data/ruth-manifest.json'),
+      fetch('assets/data/samuel-manifest.json'),
+      fetch('assets/data/kings-manifest.json'),
       fetch('assets/data/route.json'),
       fetch('assets/data/covers.json'),
       this.tripoManager.init()
@@ -248,6 +268,8 @@ class PilgrimWalkApp {
     this.manifests['choose-life'] = await clRes.json();
     this.manifests['joshua-judges'] = await jjRes.json();
     this.manifests['ruth'] = await ruthRes.json();
+    this.manifests['samuel'] = await samRes.json();
+    this.manifests['kings'] = await kingsRes.json();
     this.routeData = await routeRes.json();
     this.coversData = await coversRes.json();
 
@@ -277,7 +299,9 @@ class PilgrimWalkApp {
       'btn-district-fire-by-night': !isGH && this.currentDistrictSlug === 'fire-by-night',
       'btn-district-choose-life': !isGH && this.currentDistrictSlug === 'choose-life',
       'btn-district-joshua-judges': !isGH && this.currentDistrictSlug === 'joshua-judges',
-      'btn-district-ruth': !isGH && this.currentDistrictSlug === 'ruth'
+      'btn-district-ruth': !isGH && this.currentDistrictSlug === 'ruth',
+      'btn-district-samuel': !isGH && this.currentDistrictSlug === 'samuel',
+      'btn-district-kings': !isGH && this.currentDistrictSlug === 'kings'
     };
     Object.entries(map).forEach(([id, active]) => {
       const el = document.getElementById(id);
@@ -285,7 +309,7 @@ class PilgrimWalkApp {
     });
   }
 
-  enterGatehouse3DHub() {
+  async enterGatehouse3DHub() {
     this.closeAllModals();
     if (this.mode === 'SCENE') {
       this.exitStepThroughSceneToStreet();
@@ -304,10 +328,12 @@ class PilgrimWalkApp {
       'fire-by-night': 'fire-by-night',
       'choose-life': 'choose-life',
       'be-strong-and-courageous': 'joshua-judges',
-      'where-you-go': 'ruth'
+      'where-you-go': 'ruth',
+      'the-lamp-had-not-gone-out': 'samuel',
+      'a-still-small-voice': 'kings'
     };
 
-    this.gatehouseHubWorld = this.districtBuilder.buildGatehouseHubWorld(
+    this.gatehouseHubWorld = await this.districtBuilder.buildGatehouseHubWorld(
       this.routeData,
       this.coversData,
       this.saveData,
@@ -460,6 +486,18 @@ class PilgrimWalkApp {
         { n: 8, label: '8 · “the edges” (Gleaning Barley)' },
         { n: 15, label: '15 · “the corner of the cloak” (Threshing Floor)' },
         { n: 20, label: '20 · “the sandal” (Bethlehem Gate & Sandal)' }
+      ],
+      samuel: [
+        { n: 6, label: '6 · “speak” (Tabernacle Lamp & Mat)' },
+        { n: 15, label: '15 · “the youngest” (Anointing Horn)' },
+        { n: 18, label: '18 · “five smooth stones” (Brook of Elah)' },
+        { n: 30, label: '30 · “at the king’s table” (Mephibosheth’s Place)' }
+      ],
+      kings: [
+        { n: 6, label: '6 · “the cloud” (Cedar Temple & Cloud)' },
+        { n: 18, label: '18 · “fire on Carmel” (12-Stone Altar)' },
+        { n: 21, label: '21 · “a still small voice” (Horeb Cave)' },
+        { n: 32, label: '32 · “more with us” (Chariots of Fire)' }
       ]
     };
 
@@ -872,6 +910,8 @@ class PilgrimWalkApp {
     const btnCl = document.getElementById('btn-district-choose-life');
     const btnJJ = document.getElementById('btn-district-joshua-judges');
     const btnRuth = document.getElementById('btn-district-ruth');
+    const btnSam = document.getElementById('btn-district-samuel');
+    const btnKings = document.getElementById('btn-district-kings');
     if (btnWalkGH) btnWalkGH.addEventListener('click', () => this.enterGatehouse3DHub());
     if (btnGen) btnGen.addEventListener('click', () => this.switchDistrict('genesis'));
     if (btnExo) btnExo.addEventListener('click', () => this.switchDistrict('exodus'));
@@ -879,6 +919,8 @@ class PilgrimWalkApp {
     if (btnCl) btnCl.addEventListener('click', () => this.switchDistrict('choose-life'));
     if (btnJJ) btnJJ.addEventListener('click', () => this.switchDistrict('joshua-judges'));
     if (btnRuth) btnRuth.addEventListener('click', () => this.switchDistrict('ruth'));
+    if (btnSam) btnSam.addEventListener('click', () => this.switchDistrict('samuel'));
+    if (btnKings) btnKings.addEventListener('click', () => this.switchDistrict('kings'));
 
     const ghBtnCourt = document.getElementById('gatehouse-btn-courtyard');
     const ghBtnGen = document.getElementById('gatehouse-btn-genesis');
@@ -887,6 +929,8 @@ class PilgrimWalkApp {
     const ghBtnCl = document.getElementById('gatehouse-btn-choose-life');
     const ghBtnJJ = document.getElementById('gatehouse-btn-joshua-judges');
     const ghBtnRuth = document.getElementById('gatehouse-btn-ruth');
+    const ghBtnSam = document.getElementById('gatehouse-btn-samuel');
+    const ghBtnKings = document.getElementById('gatehouse-btn-kings');
     if (ghBtnCourt) ghBtnCourt.addEventListener('click', () => this.enterGatehouse3DHub());
     if (ghBtnGen) ghBtnGen.addEventListener('click', () => this.switchDistrict('genesis'));
     if (ghBtnExo) ghBtnExo.addEventListener('click', () => this.switchDistrict('exodus'));
@@ -894,11 +938,13 @@ class PilgrimWalkApp {
     if (ghBtnCl) ghBtnCl.addEventListener('click', () => this.switchDistrict('choose-life'));
     if (ghBtnJJ) ghBtnJJ.addEventListener('click', () => this.switchDistrict('joshua-judges'));
     if (ghBtnRuth) ghBtnRuth.addEventListener('click', () => this.switchDistrict('ruth'));
+    if (ghBtnSam) ghBtnSam.addEventListener('click', () => this.switchDistrict('samuel'));
+    if (ghBtnKings) ghBtnKings.addEventListener('click', () => this.switchDistrict('kings'));
 
     const amenNextBtn = document.getElementById('amen-next-district-btn');
     if (amenNextBtn) {
       amenNextBtn.addEventListener('click', () => {
-        if (this.currentDistrictSlug === 'ruth') {
+        if (this.currentDistrictSlug === 'kings') {
           this.enterGatehouse3DHub();
         } else {
           const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
@@ -968,7 +1014,7 @@ class PilgrimWalkApp {
 
     if (this.mode === 'GATEHOUSE') {
       if (elLights) elLights.textContent = `${this.saveData.lightsKindled.length} Total Lights`;
-      if (elSeen) elSeen.textContent = `6 / 44 Gates Open`;
+      if (elSeen) elSeen.textContent = `8 / 44 Gates Open`;
       return;
     }
 
@@ -1005,14 +1051,16 @@ class PilgrimWalkApp {
       ghBody.textContent = this.manifest.beforeYouBegin;
     }
 
-    // 1. Long Scroll Modal (All 44 districts in storyline order; Books #1-#6 are interactive!)
+    // 1. Long Scroll Modal (All 44 districts in storyline order; Books #1-#8 are interactive!)
     const routeToSlug = {
       1: 'genesis',
       2: 'exodus',
       3: 'fire-by-night',
       4: 'choose-life',
       5: 'joshua-judges',
-      6: 'ruth'
+      6: 'ruth',
+      7: 'samuel',
+      8: 'kings'
     };
     const scrollGrid = document.getElementById('scroll-districts-list');
     if (scrollGrid) {
@@ -1103,6 +1151,22 @@ class PilgrimWalkApp {
           title: 'Where You Go',
           sub: 'Ruth in Poems & Pictures · By Timothy Holt',
           desc: '24 paintings and poems walking from the road to Bethlehem and the barley fields of Boaz to the starlit threshing floor and the kinsman’s sandal at the gate.'
+        },
+        {
+          slug: 'samuel',
+          coverKey: 'the-lamp-had-not-gone-out',
+          fallbackCover: 'assets/samuel/web/s-007-000.jpg',
+          title: 'The Lamp Had Not Gone Out',
+          sub: '1–2 Samuel in Poems & Pictures · By Timothy Holt',
+          desc: '40 paintings and poems walking from Hannah’s prayer and the boy Samuel beside the Tabernacle lamp to five smooth stones in the brook and Mephibosheth at the king’s table.'
+        },
+        {
+          slug: 'kings',
+          coverKey: 'a-still-small-voice',
+          fallbackCover: 'assets/kings/web/k-008-000.jpg',
+          title: 'A Still Small Voice',
+          sub: '1 & 2 Kings in Poems & Pictures · By Timothy Holt',
+          desc: '40 paintings and poems walking from Solomon’s cloud-filled Temple and fire on Mount Carmel to the still small voice at Horeb and hills blazing with chariots of fire.'
         }
       ];
 

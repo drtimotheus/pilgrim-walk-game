@@ -387,6 +387,32 @@ export class GenesisDistrictBuilder {
         streetGroup.add(sheaf);
         return;
       }
+    } else if (slug === 'samuel') {
+      if (pData.n === 5) {
+        const robeTable = this.propBuilder.createLinenRobeTable();
+        robeTable.position.set(wx + side * 2.4, wy, wz - 0.6);
+        streetGroup.add(robeTable);
+        return;
+      }
+      if (pData.n === 8) {
+        const ebenezer = this.propBuilder.createEbenezerStone(1.0);
+        ebenezer.position.set(wx + side * 2.5, wy, wz - 0.6);
+        streetGroup.add(ebenezer);
+        return;
+      }
+      if (pData.n === 16) {
+        const harp = this.propBuilder.createDavidHarp(1.1);
+        harp.position.set(wx + side * 2.3, wy, wz - 0.5);
+        streetGroup.add(harp);
+        return;
+      }
+    } else if (slug === 'kings') {
+      if (pData.n === 36) {
+        const steps = this.propBuilder.createSundialSteps(0.95);
+        steps.position.set(wx + side * 2.6, wy, wz - 0.5);
+        streetGroup.add(steps);
+        return;
+      }
     }
 
     const tree = this.propBuilder.createGreatPainterlyTree(null, pal, 0.72 + (pData.n % 3) * 0.16);
@@ -432,7 +458,9 @@ export class GenesisDistrictBuilder {
       'fire-by-night': 'DISTRICT III · FIRE BY NIGHT — LEVITICUS & NUMBERS',
       'choose-life': 'DISTRICT IV · CHOOSE LIFE — DEUTERONOMY',
       'joshua-judges': 'DISTRICT V · BE STRONG AND COURAGEOUS — JOSHUA & JUDGES',
-      ruth: 'DISTRICT VI · WHERE YOU GO — RUTH'
+      ruth: 'DISTRICT VI · WHERE YOU GO — RUTH',
+      samuel: 'DISTRICT VII · THE LAMP HAD NOT GONE OUT — 1–2 SAMUEL',
+      kings: 'DISTRICT VIII · A STILL SMALL VOICE — 1 & 2 KINGS'
     };
 
     const gatePt = this.getPathPoint(6);
@@ -794,6 +822,110 @@ export class GenesisDistrictBuilder {
           height: 1.65,
           veilZ: -258.0
         }
+      ],
+      samuel: [
+        {
+          part: 1,
+          id: 'samuel-light-1',
+          name: 'The Light of the Tabernacle Lamp',
+          hint: 'Beside the clay lamp that had not yet gone out near “speak” & “stone of help” (Part One)',
+          z: -62.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -86.0
+        },
+        {
+          part: 2,
+          id: 'samuel-light-2',
+          name: 'The Light of the Stone of Help',
+          hint: 'Near “among the baggage” & “Samuel mourned” (Part Two)',
+          z: -136.0,
+          lateral: -6.2,
+          height: 1.55,
+          veilZ: -154.0
+        },
+        {
+          part: 3,
+          id: 'samuel-light-3',
+          name: 'The Light of the Elah Brook',
+          hint: 'Where five smooth stones glisten near “the youngest” & “five smooth stones” (Part Three)',
+          z: -222.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -258.0
+        },
+        {
+          part: 4,
+          id: 'samuel-light-4',
+          name: 'The Light of the King’s Table',
+          hint: 'Beside the place kept continually near “who am I” & “at the king’s table” (Part Four)',
+          z: -312.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -335.0
+        },
+        {
+          part: 5,
+          id: 'samuel-light-5',
+          name: 'The Light of the Threshing Floor Altar',
+          hint: 'Glowing near “my lamp” & “nothing” before the Amen Gate (Part Five)',
+          z: -398.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -426.0
+        }
+      ],
+      kings: [
+        {
+          part: 1,
+          id: 'kings-light-1',
+          name: 'The Light of the Cedar Sanctuary',
+          hint: 'Where the cloud of glory fills the house near “the cloud” & “how much less this house” (Part One)',
+          z: -62.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -86.0
+        },
+        {
+          part: 2,
+          id: 'kings-light-2',
+          name: 'The Light of the Unextinguished Lamp',
+          hint: 'Beside the torn cloak near “twelve pieces” & “the hand restored” (Part Two)',
+          z: -126.0,
+          lateral: -6.2,
+          height: 1.55,
+          veilZ: -144.0
+        },
+        {
+          part: 3,
+          id: 'kings-light-3',
+          name: 'The Light of Mount Horeb’s Cave',
+          hint: 'Near “fire on Carmel” & “a still small voice” (Part Three)',
+          z: -218.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -248.0
+        },
+        {
+          part: 4,
+          id: 'kings-light-4',
+          name: 'The Light of the Hills of Dothan',
+          hint: 'Along the ridge blazing with chariots of fire near “more with us” (Part Four)',
+          z: -324.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -354.0
+        },
+        {
+          part: 5,
+          id: 'kings-light-5',
+          name: 'The Light of the Exiled Table',
+          hint: 'Glowing near “a tender heart” & “bread all his days” before the Amen Gate (Part Five)',
+          z: -398.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -426.0
+        }
       ]
     };
 
@@ -942,6 +1074,14 @@ export class GenesisDistrictBuilder {
       const sandal = this.propBuilder.createBethlehemGateAndSandal();
       sandal.group.position.set(0, 0.1, -4.0);
       group.add(sandal.group);
+    } else if (slug === 'samuel') {
+      const lampRig = this.propBuilder.createSamuelLampAndMat();
+      lampRig.group.position.set(0, 0.1, -4.0);
+      group.add(lampRig.group);
+    } else if (slug === 'kings') {
+      const sanctuary = this.propBuilder.createCedarTempleSanctuary();
+      sanctuary.group.position.set(0, 0.1, -4.4);
+      group.add(sanctuary.group);
     } else {
       const treeOfLife = this.propBuilder.createGreatPainterlyTree(
         null,
@@ -988,7 +1128,17 @@ export class GenesisDistrictBuilder {
       ruth: {
         title: 'AMEN GATE · WHERE YOU GO COMPLETED',
         epigraph: 'Blessed be Yahweh, who has not left you today without a near kinsman',
-        epigraphRef: 'APPROACH & PRESS [E] TO COMPLETE RUTH & RETURN TO THE GATEHOUSE'
+        epigraphRef: 'APPROACH & PRESS [E] TO CONTINUE TO DISTRICT VII: THE LAMP HAD NOT GONE OUT'
+      },
+      samuel: {
+        title: 'AMEN GATE · THE LAMP HAD NOT GONE OUT COMPLETED',
+        epigraph: 'For you are my lamp, Yahweh. Yahweh will light up my darkness',
+        epigraphRef: 'APPROACH & PRESS [E] TO CONTINUE TO DISTRICT VIII: A STILL SMALL VOICE'
+      },
+      kings: {
+        title: 'AMEN GATE · A STILL SMALL VOICE COMPLETED',
+        epigraph: 'After the fire, there was a still small voice — a lamp still burning',
+        epigraphRef: 'APPROACH & PRESS [E] TO COMPLETE 1 & 2 KINGS & RETURN TO THE GATEHOUSE'
       }
     };
 
@@ -1101,7 +1251,9 @@ export class GenesisDistrictBuilder {
 
       gateNodes.push({
         routeItem: d,
+        bookData: d,
         internalSlug,
+        playableSlug: internalSlug,
         isPlayable,
         isCompleted,
         position: new THREE.Vector3(gx, 0, gz)
@@ -1131,9 +1283,13 @@ export class GenesisDistrictBuilder {
     hubGroup.add(hubGrass);
 
     return {
+      group: hubGroup,
       hubGroup,
       gateNodes,
-      poolMat
+      riverMat: poolMat,
+      poolMat,
+      minZ: -112,
+      maxZ: 14
     };
   }
 

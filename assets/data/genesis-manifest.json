@@ -61,7 +61,9 @@
         "overall": "#584d3e",
         "accent": "#dbb87b",
         "kind": "light"
-      }
+      },
+      "dailyWalkDay": 1,
+      "reflectionPrompt": "As you linger with “let there be” (Genesis 1:1-3)—where the poem notes, “and has been doing it every morning since”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 2,
@@ -80,7 +82,9 @@
         "ground": "#8a7d61",
         "overall": "#a89b7d",
         "accent": "#f6e9b4"
-      }
+      },
+      "dailyWalkDay": 2,
+      "reflectionPrompt": "As you linger with “very good” (Genesis 1:31)—where the poem notes, “on the days you forget it”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 3,
@@ -99,7 +103,9 @@
         "ground": "#8c7a5d",
         "overall": "#a29479",
         "accent": "#f9e6bc"
-      }
+      },
+      "dailyWalkDay": 3,
+      "reflectionPrompt": "As you linger with “the gallery” (Genesis 1:27)—where the poem notes, “through a gallery of his image”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 4,
@@ -119,7 +125,9 @@
         "overall": "#948067",
         "accent": "#d9b08b",
         "kind": "garden"
-      }
+      },
+      "dailyWalkDay": 4,
+      "reflectionPrompt": "Where is God inviting you to set down your work today and rest in what He has already finished (Genesis 2:1-3)?"
     },
     {
       "n": 5,
@@ -138,7 +146,9 @@
         "ground": "#856541",
         "overall": "#b39a76",
         "accent": "#e6d1a6"
-      }
+      },
+      "dailyWalkDay": 5,
+      "reflectionPrompt": "As you linger with “dust and breath” (Genesis 2:7)—where the poem notes, “and be amazed— you're breathed”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 6,
@@ -157,7 +167,9 @@
         "ground": "#a69470",
         "overall": "#bbac88",
         "accent": "#fae8ba"
-      }
+      },
+      "dailyWalkDay": 6,
+      "reflectionPrompt": "As you linger with “not good” (Genesis 2:18)—where the poem notes, “God took it seriously. so should we”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 7,
@@ -176,7 +188,9 @@
         "ground": "#696152",
         "overall": "#6f695a",
         "accent": "#e6c9a4"
-      }
+      },
+      "dailyWalkDay": 7,
+      "reflectionPrompt": "As you linger with “where are you?” (Genesis 3:8-9)—where the poem notes, “walking the garden the way he always did”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 8,
@@ -195,7 +209,9 @@
         "ground": "#9b896a",
         "overall": "#beae8e",
         "accent": "#f1e4c3"
-      }
+      },
+      "dailyWalkDay": 8,
+      "reflectionPrompt": "As you linger with “clothed” (Genesis 3:21)—where the poem notes, “his mercy was”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 9,
@@ -214,7 +230,9 @@
         "ground": "#5f503f",
         "overall": "#9f8f73",
         "accent": "#f4dcaf"
-      }
+      },
+      "dailyWalkDay": 9,
+      "reflectionPrompt": "As you linger with “keeper” (Genesis 4:9-10)—where the poem notes, “and the ground itself would not stay quiet”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 10,
@@ -233,7 +251,9 @@
         "ground": "#706550",
         "overall": "#a19274",
         "accent": "#f0d292"
-      }
+      },
+      "dailyWalkDay": 10,
+      "reflectionPrompt": "As you linger with “one green leaf” (Genesis 8:6-11)—where the poem notes, “is one small green thing carried a long way”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 11,
@@ -253,7 +273,9 @@
         "overall": "#aa9f89",
         "accent": "#efe3cb",
         "kind": "bow"
-      }
+      },
+      "dailyWalkDay": 11,
+      "reflectionPrompt": "As you linger with “the bow in the cloud” (Genesis 9:13-15)—where the poem notes, “on your memory. it hangs on his”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 12,
@@ -272,7 +294,9 @@
         "ground": "#897552",
         "overall": "#ad9a77",
         "accent": "#f4e3bc"
-      }
+      },
+      "dailyWalkDay": 12,
+      "reflectionPrompt": "As you linger with “a name for ourselves” (Genesis 11:1-9)—where the poem notes, “the name you're given stands”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 13,
@@ -291,7 +315,9 @@
         "ground": "#756649",
         "overall": "#9d8d6b",
         "accent": "#f4d893"
-      }
+      },
+      "dailyWalkDay": 13,
+      "reflectionPrompt": "As you linger with “go” (Genesis 12:1-4)—where the poem notes, “with not knowing where”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 14,
@@ -310,7 +336,9 @@
         "ground": "#564c39",
         "overall": "#605a4b",
         "accent": "#a4977e"
-      }
+      },
+      "dailyWalkDay": 14,
+      "reflectionPrompt": "As you linger with “count them” (Genesis 15:5-6)—where the poem notes, “is step outside and look up”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 15,
@@ -329,7 +357,9 @@
         "ground": "#756d59",
         "overall": "#8f836a",
         "accent": "#f1e4c5"
-      }
+      },
+      "dailyWalkDay": 15,
+      "reflectionPrompt": "As you linger with “the God who sees” (Genesis 16:7-13)—where the poem notes, “no one had given him before: the God who sees”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 16,
@@ -348,7 +378,9 @@
         "ground": "#937f63",
         "overall": "#917f64",
         "accent": "#ead1ac"
-      }
+      },
+      "dailyWalkDay": 16,
+      "reflectionPrompt": "As you linger with “too hard” (Genesis 18:10-14)—where the poem notes, “of every tent where someone stopped hoping”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 17,
@@ -367,7 +399,9 @@
         "ground": "#715f47",
         "overall": "#978466",
         "accent": "#f7dc97"
-      }
+      },
+      "dailyWalkDay": 17,
+      "reflectionPrompt": "As you linger with “laughter” (Genesis 21:1-7)—where the poem notes, “and a better reason to laugh”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 18,
@@ -386,7 +420,9 @@
         "ground": "#a09378",
         "overall": "#ab9d7f",
         "accent": "#f3da9d"
-      }
+      },
+      "dailyWalkDay": 18,
+      "reflectionPrompt": "As you linger with “the Lord will provide” (Genesis 22:7-14)—where the poem notes, “and a new name for the mountain: the Lord will provide”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 19,
@@ -405,7 +441,9 @@
         "ground": "#6a5b43",
         "overall": "#8d7b5b",
         "accent": "#f4d494"
-      }
+      },
+      "dailyWalkDay": 19,
+      "reflectionPrompt": "Where does your soul feel dry today, and how can you sink your roots deeper into the living water of Genesis 24:15-20?"
     },
     {
       "n": 20,
@@ -424,7 +462,9 @@
         "ground": "#786a51",
         "overall": "#88785c",
         "accent": "#f1b857"
-      }
+      },
+      "dailyWalkDay": 20,
+      "reflectionPrompt": "As you linger with “full of years” (Genesis 25:7-8)—where the poem notes, “not empty. full”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 21,
@@ -443,7 +483,9 @@
         "ground": "#ab9b78",
         "overall": "#bfae8c",
         "accent": "#f2e7ca"
-      }
+      },
+      "dailyWalkDay": 21,
+      "reflectionPrompt": "As you linger with “red stew” (Genesis 25:29-34)—where the poem notes, “we'd sell tomorrow for tonight”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 22,
@@ -462,7 +504,9 @@
         "ground": "#504637",
         "overall": "#56534a",
         "accent": "#e8d9b5"
-      }
+      },
+      "dailyWalkDay": 22,
+      "reflectionPrompt": "In the quiet after the noise, what gentle truth from Genesis 28:10-15 (“and does not wait for us to deserve it”) is asking for your unhurried attention today?"
     },
     {
       "n": 23,
@@ -481,7 +525,9 @@
         "ground": "#8e7f62",
         "overall": "#a89a7c",
         "accent": "#ebdbaf"
-      }
+      },
+      "dailyWalkDay": 23,
+      "reflectionPrompt": "As you linger with “I didn't know it” (Genesis 28:16-18)—where the poem notes, “the night I ran— God was here”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 24,
@@ -500,7 +546,9 @@
         "ground": "#716751",
         "overall": "#a6967d",
         "accent": "#f5ecd8"
-      }
+      },
+      "dailyWalkDay": 24,
+      "reflectionPrompt": "As you linger with “a few days” (Genesis 29:18-20)—where the poem notes, “but this line is true”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 25,
@@ -519,7 +567,9 @@
         "ground": "#776c5e",
         "overall": "#918676",
         "accent": "#eec7ae"
-      }
+      },
+      "dailyWalkDay": 25,
+      "reflectionPrompt": "What anxious weight can you place into the hands of the One who says, “Be still” and walks beside you in Genesis 32:24-26?"
     },
     {
       "n": 26,
@@ -538,7 +588,9 @@
         "ground": "#706453",
         "overall": "#aa9b7d",
         "accent": "#fce5a4"
-      }
+      },
+      "dailyWalkDay": 26,
+      "reflectionPrompt": "As you linger with “the limp” (Genesis 32:30-31)—where the poem notes, “who you met by the river”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 27,
@@ -557,7 +609,9 @@
         "ground": "#756955",
         "overall": "#a3967e",
         "accent": "#f5e1b4"
-      }
+      },
+      "dailyWalkDay": 27,
+      "reflectionPrompt": "What anxious weight can you place into the hands of the One who says, “Be still” and walks beside you in Genesis 33:1-4?"
     },
     {
       "n": 28,
@@ -576,7 +630,9 @@
         "ground": "#958165",
         "overall": "#9a896f",
         "accent": "#decfab"
-      }
+      },
+      "dailyWalkDay": 28,
+      "reflectionPrompt": "As you linger with “the coat” (Genesis 37:3-4)—where the poem notes, “tears a family like cloth”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 29,
@@ -595,7 +651,9 @@
         "ground": "#474036",
         "overall": "#655e51",
         "accent": "#eee7d6"
-      }
+      },
+      "dailyWalkDay": 29,
+      "reflectionPrompt": "As you linger with “the empty pit” (Genesis 37:23-25)—where the poem notes, “it is going down the way seeds go down”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 30,
@@ -614,7 +672,9 @@
         "ground": "#958466",
         "overall": "#a69577",
         "accent": "#d7c09a"
-      }
+      },
+      "dailyWalkDay": 30,
+      "reflectionPrompt": "As you linger with “the refrain” (Genesis 39:2-23)—where the poem notes, “the refrain doesn't”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 31,
@@ -633,7 +693,9 @@
         "ground": "#5d5345",
         "overall": "#544b3e",
         "accent": "#f0e0c0"
-      }
+      },
+      "dailyWalkDay": 31,
+      "reflectionPrompt": "As you linger with “forgotten” (Genesis 40:14-23)—where the poem notes, “you are not forgotten by the One who did”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 32,
@@ -652,7 +714,9 @@
         "ground": "#857f70",
         "overall": "#938975",
         "accent": "#f1e3c9"
-      }
+      },
+      "dailyWalkDay": 32,
+      "reflectionPrompt": "As you linger with “not in me” (Genesis 41:14-16)—where the poem notes, “who know where the gift came from”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 33,
@@ -671,7 +735,9 @@
         "ground": "#655846",
         "overall": "#786a57",
         "accent": "#f7efe0"
-      }
+      },
+      "dailyWalkDay": 33,
+      "reflectionPrompt": "As you linger with “faces to the earth” (Genesis 42:6-8)—where the poem notes, “in a way nobody wanted anymore”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 34,
@@ -690,7 +756,9 @@
         "ground": "#b2a385",
         "overall": "#aa9d81",
         "accent": "#dacdaf"
-      }
+      },
+      "dailyWalkDay": 34,
+      "reflectionPrompt": "As you linger with “instead of the boy” (Genesis 44:30-34)—where the poem notes, “now offers himself for one”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 35,
@@ -709,7 +777,9 @@
         "ground": "#827455",
         "overall": "#7b6e54",
         "accent": "#fcd880"
-      }
+      },
+      "dailyWalkDay": 35,
+      "reflectionPrompt": "As you linger with “come near” (Genesis 45:1-4)—where the poem notes, “come near to me. please”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 36,
@@ -728,7 +798,9 @@
         "ground": "#8d7d5d",
         "overall": "#a0906f",
         "accent": "#e5c277"
-      }
+      },
+      "dailyWalkDay": 36,
+      "reflectionPrompt": "As you linger with “sent” (Genesis 45:5-8)—where the poem notes, “to let it be the whole story”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 37,
@@ -747,7 +819,9 @@
         "ground": "#6a604b",
         "overall": "#90856d",
         "accent": "#eed9a9"
-      }
+      },
+      "dailyWalkDay": 37,
+      "reflectionPrompt": "As you linger with “the wagons” (Genesis 45:25-28)—where the poem notes, “that someone is coming to carry you”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 38,
@@ -766,7 +840,9 @@
         "ground": "#8b7e5d",
         "overall": "#a99d7a",
         "accent": "#f8ecc4"
-      }
+      },
+      "dailyWalkDay": 38,
+      "reflectionPrompt": "As you linger with “a good while” (Genesis 46:28-30)—where the poem notes, “some reunions you don't hurry”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 39,
@@ -785,7 +861,9 @@
         "ground": "#97815f",
         "overall": "#c2b397",
         "accent": "#f1e4c2"
-      }
+      },
+      "dailyWalkDay": 39,
+      "reflectionPrompt": "As you linger with “underneath” (Genesis 50:15-21)—where the poem notes, “was working the whole time”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 40,
@@ -804,7 +882,9 @@
         "ground": "#6b6757",
         "overall": "#a7977a",
         "accent": "#facd93"
-      }
+      },
+      "dailyWalkDay": 40,
+      "reflectionPrompt": "As you linger with “the road home” (Genesis 50:24-26)—where the poem notes, “and bones ready for the road home”—where do you recognize this same moment on your own walk today?"
     }
   ]
 }

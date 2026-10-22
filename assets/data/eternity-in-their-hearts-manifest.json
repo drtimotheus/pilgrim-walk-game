@@ -67,7 +67,9 @@
         "ground": "#7c715e",
         "overall": "#a2947b",
         "accent": "#e7cf9e"
-      }
+      },
+      "dailyWalkDay": 638,
+      "reflectionPrompt": "As you linger with “the preacher” (Ecclesiastes 1:1)—where the poem notes, “it may also be the most honest”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 2,
@@ -86,7 +88,9 @@
         "ground": "#87785e",
         "overall": "#c3b599",
         "accent": "#f2e5c8"
-      }
+      },
+      "dailyWalkDay": 639,
+      "reflectionPrompt": "As you linger with “breath” (Ecclesiastes 1:2)—where the poem notes, “so notice it while it's warm”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 3,
@@ -105,7 +109,9 @@
         "ground": "#666154",
         "overall": "#91866a",
         "accent": "#fcd975"
-      }
+      },
+      "dailyWalkDay": 640,
+      "reflectionPrompt": "As you linger with “the earth remains” (Ecclesiastes 1:4–5)—where the poem notes, “there's a strange comfort in being small”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 4,
@@ -124,7 +130,9 @@
         "ground": "#7b7764",
         "overall": "#a19d8c",
         "accent": "#f0e7d8"
-      }
+      },
+      "dailyWalkDay": 641,
+      "reflectionPrompt": "As you linger with “the wind and the sea” (Ecclesiastes 1:6–7)—where the poem notes, “nothing under the sun was made to fill”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 5,
@@ -143,7 +151,9 @@
         "ground": "#856f52",
         "overall": "#a18d6e",
         "accent": "#dfb78c"
-      }
+      },
+      "dailyWalkDay": 642,
+      "reflectionPrompt": "As you linger with “nothing new” (Ecclesiastes 1:9–10)—where the poem notes, “and left a path”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 6,
@@ -162,7 +172,9 @@
         "ground": "#7f6945",
         "overall": "#a28e68",
         "accent": "#f9da8e"
-      }
+      },
+      "dailyWalkDay": 643,
+      "reflectionPrompt": "As you linger with “chasing after wind” (Ecclesiastes 1:14)—where the poem notes, “it's for feeling on your face”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 7,
@@ -181,7 +193,9 @@
         "ground": "#7f7b6c",
         "overall": "#9d9988",
         "accent": "#f4ecd8"
-      }
+      },
+      "dailyWalkDay": 644,
+      "reflectionPrompt": "As you linger with “great works” (Ecclesiastes 2:4–11)—where the poem notes, “standing in the middle, hungry”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 8,
@@ -200,7 +214,9 @@
         "ground": "#a69370",
         "overall": "#bdad8b",
         "accent": "#ddb573"
-      }
+      },
+      "dailyWalkDay": 645,
+      "reflectionPrompt": "As you linger with “from the hand of God” (Ecclesiastes 2:24)—where the poem notes, “hold it in yours”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 9,
@@ -219,7 +235,9 @@
         "ground": "#76634a",
         "overall": "#97886e",
         "accent": "#eee2c7"
-      }
+      },
+      "dailyWalkDay": 646,
+      "reflectionPrompt": "In the quiet after the noise, what gentle truth from Ecclesiastes 3:1–2 (“in a different month than you wanted”) is asking for your unhurried attention today?"
     },
     {
       "n": 10,
@@ -238,7 +256,9 @@
         "ground": "#887958",
         "overall": "#9d8d6a",
         "accent": "#e6d7ae"
-      }
+      },
+      "dailyWalkDay": 647,
+      "reflectionPrompt": "As you linger with “weep and dance” (Ecclesiastes 3:4)—where the poem notes, “gets the last word forever”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 11,
@@ -257,7 +277,9 @@
         "ground": "#8c7e66",
         "overall": "#a09175",
         "accent": "#e5d4ad"
-      }
+      },
+      "dailyWalkDay": 648,
+      "reflectionPrompt": "If you were to set down one stone of remembrance today for how God has helped you thus far (Ecclesiastes 3:5), what would you name it?"
     },
     {
       "n": 12,
@@ -276,7 +298,9 @@
         "ground": "#7c6e5a",
         "overall": "#9b8e77",
         "accent": "#dcd0b6"
-      }
+      },
+      "dailyWalkDay": 649,
+      "reflectionPrompt": "As you linger with “tear and sew” (Ecclesiastes 3:7)—where the poem notes, “which day this is”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 13,
@@ -295,7 +319,9 @@
         "ground": "#473b2b",
         "overall": "#3e3a33",
         "accent": "#bd9c6b"
-      }
+      },
+      "dailyWalkDay": 650,
+      "reflectionPrompt": "In the quiet after the noise, what gentle truth from Ecclesiastes 3:11 (“it's a compass”) is asking for your unhurried attention today?"
     },
     {
       "n": 14,
@@ -314,7 +340,9 @@
         "ground": "#444137",
         "overall": "#524d40",
         "accent": "#c99a51"
-      }
+      },
+      "dailyWalkDay": 651,
+      "reflectionPrompt": "As you linger with “no comforter” (Ecclesiastes 4:1)—where the poem notes, “to be the comforter they didn't have”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 15,
@@ -333,7 +361,9 @@
         "ground": "#a89478",
         "overall": "#b9ab93",
         "accent": "#f5edda"
-      }
+      },
+      "dailyWalkDay": 652,
+      "reflectionPrompt": "As you linger with “a handful” (Ecclesiastes 4:6)—where the poem notes, “he did the math for you”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 16,
@@ -352,7 +382,9 @@
         "ground": "#988d77",
         "overall": "#938770",
         "accent": "#f7efd7"
-      }
+      },
+      "dailyWalkDay": 653,
+      "reflectionPrompt": "As you linger with “a threefold cord” (Ecclesiastes 4:9–12)—where the poem notes, “you can't see, holding”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 17,
@@ -371,7 +403,9 @@
         "ground": "#68624d",
         "overall": "#83795c",
         "accent": "#f7dc95"
-      }
+      },
+      "dailyWalkDay": 654,
+      "reflectionPrompt": "In the quiet after the noise, what gentle truth from Ecclesiastes 5:1–2 (“you'll forget by noon”) is asking for your unhurried attention today?"
     },
     {
       "n": 18,
@@ -390,7 +424,9 @@
         "ground": "#84765c",
         "overall": "#7c725c",
         "accent": "#d1be98"
-      }
+      },
+      "dailyWalkDay": 655,
+      "reflectionPrompt": "As you linger with “sweet sleep” (Ecclesiastes 5:12)—where the poem notes, “you can only lie down and receive”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 19,
@@ -409,7 +445,9 @@
         "ground": "#40372e",
         "overall": "#584d43",
         "accent": "#f3ccae"
-      }
+      },
+      "dailyWalkDay": 656,
+      "reflectionPrompt": "As you linger with “the house of mourning” (Ecclesiastes 7:2)—where the poem notes, “a little longer at the door”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 20,
@@ -428,7 +466,9 @@
         "ground": "#9b8c71",
         "overall": "#b5a687",
         "accent": "#eadab5"
-      }
+      },
+      "dailyWalkDay": 657,
+      "reflectionPrompt": "As you linger with “crackling thorns” (Ecclesiastes 7:6)—where the poem notes, “and the water never boils”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 21,
@@ -447,7 +487,9 @@
         "ground": "#635643",
         "overall": "#917e62",
         "accent": "#facf8d"
-      }
+      },
+      "dailyWalkDay": 658,
+      "reflectionPrompt": "What anxious weight can you place into the hands of the One who says, “Be still” and walks beside you in Ecclesiastes 7:10?"
     },
     {
       "n": 22,
@@ -466,7 +508,9 @@
         "ground": "#756649",
         "overall": "#958768",
         "accent": "#f5d385"
-      }
+      },
+      "dailyWalkDay": 659,
+      "reflectionPrompt": "As you linger with “side by side” (Ecclesiastes 7:14)—where the poem notes, “tells you the whole story”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 23,
@@ -485,7 +529,9 @@
         "ground": "#9f9578",
         "overall": "#bdb292",
         "accent": "#e0d4ad"
-      }
+      },
+      "dailyWalkDay": 660,
+      "reflectionPrompt": "As you linger with “upright” (Ecclesiastes 7:29)—where the poem notes, “there's still something to come back to”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 24,
@@ -504,7 +550,9 @@
         "ground": "#ac9875",
         "overall": "#bbaa89",
         "accent": "#f4e9cd"
-      }
+      },
+      "dailyWalkDay": 661,
+      "reflectionPrompt": "How has God quietly provided enough for today’s road, and who might you welcome to your table in kindness (Ecclesiastes 9:7–8)?"
     },
     {
       "n": 25,
@@ -523,7 +571,9 @@
         "ground": "#665140",
         "overall": "#837563",
         "accent": "#e6d8bb"
-      }
+      },
+      "dailyWalkDay": 662,
+      "reflectionPrompt": "As you linger with “with your might” (Ecclesiastes 9:10)—where the poem notes, “it does”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 26,
@@ -542,7 +592,9 @@
         "ground": "#9b896e",
         "overall": "#ac9e84",
         "accent": "#f2e2bd"
-      }
+      },
+      "dailyWalkDay": 663,
+      "reflectionPrompt": "As you linger with “time and chance” (Ecclesiastes 9:11)—where the poem notes, “just hold the finish line a little looser”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 27,
@@ -561,7 +613,9 @@
         "ground": "#7f7460",
         "overall": "#aa9e88",
         "accent": "#f7ebd0"
-      }
+      },
+      "dailyWalkDay": 664,
+      "reflectionPrompt": "As you linger with “the poor wise man” (Ecclesiastes 9:14–15)—where the poem notes, “a man no one remembered”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 28,
@@ -580,7 +634,9 @@
         "ground": "#766952",
         "overall": "#9a8c70",
         "accent": "#efe2c4"
-      }
+      },
+      "dailyWalkDay": 665,
+      "reflectionPrompt": "As you linger with “sharpen the edge” (Ecclesiastes 10:10)—where the poem notes, “calls that wasted time”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 29,
@@ -599,7 +655,9 @@
         "ground": "#666f5e",
         "overall": "#9e9a80",
         "accent": "#fbefbf"
-      }
+      },
+      "dailyWalkDay": 666,
+      "reflectionPrompt": "How has God quietly provided enough for today’s road, and who might you welcome to your table in kindness (Ecclesiastes 11:1)?"
     },
     {
       "n": 30,
@@ -618,7 +676,9 @@
         "ground": "#827865",
         "overall": "#aea796",
         "accent": "#e2d5bd"
-      }
+      },
+      "dailyWalkDay": 667,
+      "reflectionPrompt": "What single step right in front of you is already lit by His word today, even if the far horizon remains unseen (Ecclesiastes 11:4–6)?"
     },
     {
       "n": 31,
@@ -637,7 +697,9 @@
         "ground": "#4f4736",
         "overall": "#675b44",
         "accent": "#f0dbac"
-      }
+      },
+      "dailyWalkDay": 668,
+      "reflectionPrompt": "What single step right in front of you is already lit by His word today, even if the far horizon remains unseen (Ecclesiastes 11:7–8)?"
     },
     {
       "n": 32,
@@ -656,7 +718,9 @@
         "ground": "#9a8b6d",
         "overall": "#b39f7d",
         "accent": "#f8d497"
-      }
+      },
+      "dailyWalkDay": 669,
+      "reflectionPrompt": "As you linger with “rejoice in your youth” (Ecclesiastes 11:9–10)—where the poem notes, “you'll still be glad of later”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 33,
@@ -675,7 +739,9 @@
         "ground": "#7c6e54",
         "overall": "#a1957a",
         "accent": "#fcf4da"
-      }
+      },
+      "dailyWalkDay": 670,
+      "reflectionPrompt": "As you linger with “remember” (Ecclesiastes 12:1–2)—where the poem notes, “before the lights begin to dim”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 34,
@@ -694,7 +760,9 @@
         "ground": "#928465",
         "overall": "#a59777",
         "accent": "#e3d4af"
-      }
+      },
+      "dailyWalkDay": 671,
+      "reflectionPrompt": "As you linger with “the almond tree” (Ecclesiastes 12:3–5)—where the poem notes, “the tree still blooms”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 35,
@@ -713,7 +781,9 @@
         "ground": "#9d8f72",
         "overall": "#bcaf8f",
         "accent": "#ede0bd"
-      }
+      },
+      "dailyWalkDay": 672,
+      "reflectionPrompt": "As you linger with “the silver cord” (Ecclesiastes 12:6–7)—where the poem notes, “you were lent. you are expected”—where do you recognize this same moment on your own walk today?"
     },
     {
       "n": 36,
@@ -732,7 +802,9 @@
         "ground": "#65543c",
         "overall": "#94876e",
         "accent": "#fff4c0"
-      }
+      },
+      "dailyWalkDay": 673,
+      "reflectionPrompt": "What anxious weight can you place into the hands of the One who says, “Be still” and walks beside you in Ecclesiastes 12:12–13?"
     }
   ]
 }

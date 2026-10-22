@@ -1,0 +1,446 @@
+{
+  "totalDays": 1633,
+  "totalWeeks": 234,
+  "books": [
+    {
+      "bookNum": 1,
+      "slug": "genesis",
+      "routeSlug": "genesis",
+      "title": "In the Beginning",
+      "subtitle": "Genesis in Poems & Pictures",
+      "count": 40,
+      "startDay": 1,
+      "endDay": 40
+    },
+    {
+      "bookNum": 2,
+      "slug": "exodus",
+      "routeSlug": "let-my-people-go",
+      "title": "Let My People Go",
+      "subtitle": "Exodus in Poems & Pictures",
+      "count": 40,
+      "startDay": 41,
+      "endDay": 80
+    },
+    {
+      "bookNum": 3,
+      "slug": "fire-by-night",
+      "routeSlug": "fire-by-night",
+      "title": "Fire by Night",
+      "subtitle": "Leviticus & Numbers in Poems & Pictures",
+      "count": 40,
+      "startDay": 81,
+      "endDay": 120
+    },
+    {
+      "bookNum": 4,
+      "slug": "choose-life",
+      "routeSlug": "choose-life",
+      "title": "Choose Life",
+      "subtitle": "Deuteronomy in Poems & Pictures",
+      "count": 36,
+      "startDay": 121,
+      "endDay": 156
+    },
+    {
+      "bookNum": 5,
+      "slug": "joshua-judges",
+      "routeSlug": "be-strong-and-courageous",
+      "title": "Be Strong and Courageous",
+      "subtitle": "Joshua & Judges in Poems & Pictures",
+      "count": 40,
+      "startDay": 157,
+      "endDay": 196
+    },
+    {
+      "bookNum": 6,
+      "slug": "ruth",
+      "routeSlug": "where-you-go",
+      "title": "Where You Go",
+      "subtitle": "Ruth in Poems & Pictures",
+      "count": 24,
+      "startDay": 197,
+      "endDay": 220
+    },
+    {
+      "bookNum": 7,
+      "slug": "samuel",
+      "routeSlug": "the-lamp-had-not-gone-out",
+      "title": "The Lamp Had Not Gone Out",
+      "subtitle": "1–2 Samuel in Poems & Pictures",
+      "count": 40,
+      "startDay": 221,
+      "endDay": 260
+    },
+    {
+      "bookNum": 8,
+      "slug": "kings",
+      "routeSlug": "a-still-small-voice",
+      "title": "A Still Small Voice",
+      "subtitle": "1 & 2 Kings in Poems & Pictures",
+      "count": 40,
+      "startDay": 261,
+      "endDay": 300
+    },
+    {
+      "bookNum": 9,
+      "slug": "our-eyes-are-on-you",
+      "routeSlug": "our-eyes-are-on-you",
+      "title": "Our Eyes Are on You",
+      "subtitle": "1 & 2 Chronicles in Poems & Pictures",
+      "count": 36,
+      "startDay": 301,
+      "endDay": 336
+    },
+    {
+      "bookNum": 10,
+      "slug": "rise-up-and-build",
+      "routeSlug": "rise-up-and-build",
+      "title": "Rise Up and Build",
+      "subtitle": "Ezra & Nehemiah in Poems & Pictures",
+      "count": 40,
+      "startDay": 337,
+      "endDay": 376
+    },
+    {
+      "bookNum": 11,
+      "slug": "for-such-a-time-as-this",
+      "routeSlug": "for-such-a-time-as-this",
+      "title": "For Such a Time as This",
+      "subtitle": "Esther in Poems & Pictures",
+      "count": 32,
+      "startDay": 377,
+      "endDay": 408
+    },
+    {
+      "bookNum": 12,
+      "slug": "out-of-the-whirlwind",
+      "routeSlug": "out-of-the-whirlwind",
+      "title": "Out of the Whirlwind",
+      "subtitle": "Job in Poems & Pictures",
+      "count": 40,
+      "startDay": 409,
+      "endDay": 448
+    },
+    {
+      "bookNum": 13,
+      "slug": "psalms-1",
+      "routeSlug": "psalms-1",
+      "title": "Planted by the Water",
+      "subtitle": "Psalms 1–41 in Poems & Pictures",
+      "count": 40,
+      "startDay": 449,
+      "endDay": 488
+    },
+    {
+      "bookNum": 14,
+      "slug": "psalms-2",
+      "routeSlug": "psalms-2",
+      "title": "As the Deer",
+      "subtitle": "Psalms 42–72 in Poems & Pictures",
+      "count": 31,
+      "startDay": 489,
+      "endDay": 519
+    },
+    {
+      "bookNum": 15,
+      "slug": "psalms-3",
+      "routeSlug": "psalms-3",
+      "title": "A Day in Your Courts",
+      "subtitle": "Psalms 73–106 in Poems & Pictures",
+      "count": 34,
+      "startDay": 520,
+      "endDay": 553
+    },
+    {
+      "bookNum": 16,
+      "slug": "psalms-4",
+      "routeSlug": "psalms-4",
+      "title": "Everything That Has Breath",
+      "subtitle": "Psalms 107–150 in Poems & Pictures",
+      "count": 44,
+      "startDay": 554,
+      "endDay": 597
+    },
+    {
+      "bookNum": 17,
+      "slug": "the-beginning-of-wisdom",
+      "routeSlug": "the-beginning-of-wisdom",
+      "title": "The Beginning of Wisdom",
+      "subtitle": "Proverbs in Poems & Pictures",
+      "count": 40,
+      "startDay": 598,
+      "endDay": 637
+    },
+    {
+      "bookNum": 18,
+      "slug": "eternity-in-their-hearts",
+      "routeSlug": "eternity-in-their-hearts",
+      "title": "Eternity in Their Hearts",
+      "subtitle": "Ecclesiastes in Poems & Pictures",
+      "count": 36,
+      "startDay": 638,
+      "endDay": 673
+    },
+    {
+      "bookNum": 19,
+      "slug": "many-waters",
+      "routeSlug": "many-waters",
+      "title": "Many Waters",
+      "subtitle": "The Song of Songs in Poems & Pictures",
+      "count": 32,
+      "startDay": 674,
+      "endDay": 705
+    },
+    {
+      "bookNum": 20,
+      "slug": "arise-shine",
+      "routeSlug": "arise-shine",
+      "title": "Arise, Shine",
+      "subtitle": "Isaiah in Poems & Pictures",
+      "count": 40,
+      "startDay": 706,
+      "endDay": 745
+    },
+    {
+      "bookNum": 21,
+      "slug": "a-future-and-a-hope",
+      "routeSlug": "a-future-and-a-hope",
+      "title": "A Future and a Hope",
+      "subtitle": "Jeremiah in Poems & Pictures",
+      "count": 40,
+      "startDay": 746,
+      "endDay": 785
+    },
+    {
+      "bookNum": 22,
+      "slug": "new-every-morning",
+      "routeSlug": "new-every-morning",
+      "title": "New Every Morning",
+      "subtitle": "Lamentations in Poems & Pictures",
+      "count": 30,
+      "startDay": 786,
+      "endDay": 815
+    },
+    {
+      "bookNum": 23,
+      "slug": "can-these-bones-live",
+      "routeSlug": "can-these-bones-live",
+      "title": "Can These Bones Live?",
+      "subtitle": "Ezekiel in Poems & Pictures",
+      "count": 40,
+      "startDay": 816,
+      "endDay": 855
+    },
+    {
+      "bookNum": 24,
+      "slug": "greatly-beloved",
+      "routeSlug": "greatly-beloved",
+      "title": "Greatly Beloved",
+      "subtitle": "Daniel in Poems & Pictures",
+      "count": 40,
+      "startDay": 856,
+      "endDay": 895
+    },
+    {
+      "bookNum": 25,
+      "slug": "a-door-of-hope",
+      "routeSlug": "a-door-of-hope",
+      "title": "A Door of Hope",
+      "subtitle": "Hosea, Joel, Amos & Obadiah in Poems & Pictures",
+      "count": 40,
+      "startDay": 896,
+      "endDay": 935
+    },
+    {
+      "bookNum": 26,
+      "slug": "out-of-the-deep",
+      "routeSlug": "out-of-the-deep",
+      "title": "Out of the Deep",
+      "subtitle": "Jonah in Poems & Pictures",
+      "count": 24,
+      "startDay": 936,
+      "endDay": 959
+    },
+    {
+      "bookNum": 27,
+      "slug": "the-day-of-small-things",
+      "routeSlug": "the-day-of-small-things",
+      "title": "The Day of Small Things",
+      "subtitle": "Micah to Malachi in Poems & Pictures",
+      "count": 40,
+      "startDay": 960,
+      "endDay": 999
+    },
+    {
+      "bookNum": 28,
+      "slug": "good-news-of-great-joy",
+      "routeSlug": "good-news-of-great-joy",
+      "title": "Good News of Great Joy",
+      "subtitle": "Luke in Poems & Pictures",
+      "count": 40,
+      "startDay": 1000,
+      "endDay": 1039
+    },
+    {
+      "bookNum": 29,
+      "slug": "i-am-with-you-always",
+      "routeSlug": "i-am-with-you-always",
+      "title": "I Am With You Always",
+      "subtitle": "Matthew in Poems & Pictures",
+      "count": 40,
+      "startDay": 1040,
+      "endDay": 1079
+    },
+    {
+      "bookNum": 30,
+      "slug": "peace-be-still",
+      "routeSlug": "peace-be-still",
+      "title": "Peace, Be Still",
+      "subtitle": "Mark in Poems & Pictures",
+      "count": 36,
+      "startDay": 1080,
+      "endDay": 1115
+    },
+    {
+      "bookNum": 31,
+      "slug": "come-and-see",
+      "routeSlug": "come-and-see",
+      "title": "Come and See",
+      "subtitle": "John in Poems & Pictures",
+      "count": 40,
+      "startDay": 1116,
+      "endDay": 1155
+    },
+    {
+      "bookNum": 32,
+      "slug": "to-the-ends-of-the-earth",
+      "routeSlug": "to-the-ends-of-the-earth",
+      "title": "To the Ends of the Earth",
+      "subtitle": "Acts in Poems & Pictures",
+      "count": 40,
+      "startDay": 1156,
+      "endDay": 1195
+    },
+    {
+      "bookNum": 33,
+      "slug": "nothing-can-separate",
+      "routeSlug": "nothing-can-separate",
+      "title": "Nothing Can Separate",
+      "subtitle": "Romans in Poems & Pictures",
+      "count": 40,
+      "startDay": 1196,
+      "endDay": 1235
+    },
+    {
+      "bookNum": 34,
+      "slug": "treasure-in-clay-jars",
+      "routeSlug": "treasure-in-clay-jars",
+      "title": "Treasure in Clay Jars",
+      "subtitle": "1 & 2 Corinthians in Poems & Pictures",
+      "count": 40,
+      "startDay": 1236,
+      "endDay": 1275
+    },
+    {
+      "bookNum": 35,
+      "slug": "rooted-and-free",
+      "routeSlug": "rooted-and-free",
+      "title": "Rooted and Free",
+      "subtitle": "Galatians & Ephesians in Poems & Pictures",
+      "count": 40,
+      "startDay": 1276,
+      "endDay": 1315
+    },
+    {
+      "bookNum": 36,
+      "slug": "joy-in-chains",
+      "routeSlug": "joy-in-chains",
+      "title": "Joy in Chains",
+      "subtitle": "Philippians in Poems & Pictures",
+      "count": 24,
+      "startDay": 1316,
+      "endDay": 1339
+    },
+    {
+      "bookNum": 37,
+      "slug": "held-together",
+      "routeSlug": "held-together",
+      "title": "Held Together",
+      "subtitle": "Colossians & Philemon in Poems & Pictures",
+      "count": 32,
+      "startDay": 1340,
+      "endDay": 1371
+    },
+    {
+      "bookNum": 38,
+      "slug": "children-of-the-day",
+      "routeSlug": "children-of-the-day",
+      "title": "Children of the Day",
+      "subtitle": "1 & 2 Thessalonians in Poems & Pictures",
+      "count": 36,
+      "startDay": 1372,
+      "endDay": 1407
+    },
+    {
+      "bookNum": 39,
+      "slug": "grace-mercy-and-peace",
+      "routeSlug": "grace-mercy-and-peace",
+      "title": "Grace, Mercy, and Peace",
+      "subtitle": "1–2 Timothy & Titus in Poems & Pictures",
+      "count": 40,
+      "startDay": 1408,
+      "endDay": 1447
+    },
+    {
+      "bookNum": 40,
+      "slug": "anchor-of-the-soul",
+      "routeSlug": "anchor-of-the-soul",
+      "title": "Anchor of the Soul",
+      "subtitle": "Hebrews in Poems & Pictures",
+      "count": 40,
+      "startDay": 1448,
+      "endDay": 1487
+    },
+    {
+      "bookNum": 41,
+      "slug": "doers-of-the-word",
+      "routeSlug": "doers-of-the-word",
+      "title": "Doers of the Word",
+      "subtitle": "James in Poems & Pictures",
+      "count": 30,
+      "startDay": 1488,
+      "endDay": 1517
+    },
+    {
+      "bookNum": 42,
+      "slug": "a-living-hope",
+      "routeSlug": "a-living-hope",
+      "title": "A Living Hope",
+      "subtitle": "1–2 Peter & Jude in Poems & Pictures",
+      "count": 40,
+      "startDay": 1518,
+      "endDay": 1557
+    },
+    {
+      "bookNum": 43,
+      "slug": "little-children",
+      "routeSlug": "little-children",
+      "title": "Little Children",
+      "subtitle": "The Letters of John in Poems & Pictures",
+      "count": 36,
+      "startDay": 1558,
+      "endDay": 1593
+    },
+    {
+      "bookNum": 44,
+      "slug": "all-things-new",
+      "routeSlug": "all-things-new",
+      "title": "All Things New",
+      "subtitle": "Revelation in Poems & Pictures",
+      "count": 40,
+      "startDay": 1594,
+      "endDay": 1633
+    }
+  ]
+}

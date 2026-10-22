@@ -568,6 +568,196 @@
       margin-bottom: 14px;
       line-height: 1.5;
     }
+
+    /* Phase 4: Daily Walk Devotional Mode & Reflection Prompts */
+    #daily-walk-hud-banner {
+      position: fixed;
+      top: 150px;
+      left: 16px;
+      z-index: 27;
+      max-width: min(680px, 92vw);
+      background: rgba(28, 22, 16, 0.90);
+      border: 1.5px solid rgba(245, 215, 156, 0.65);
+      border-radius: 14px;
+      padding: 10px 14px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 26px rgba(0, 0, 0, 0.45);
+    }
+    .dw-banner-eyebrow {
+      display: block;
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold-bright);
+      margin-bottom: 2px;
+    }
+    .dw-banner-book {
+      display: block;
+      font-size: 0.94rem;
+      font-weight: bold;
+      color: #fff6e3;
+      margin-bottom: 5px;
+    }
+    .dw-banner-prompt {
+      font-size: 0.86rem;
+      font-style: italic;
+      color: #f3e2c3;
+      line-height: 1.42;
+      margin-bottom: 8px;
+      padding-left: 8px;
+      border-left: 2px solid var(--gold);
+    }
+    .dw-banner-actions {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+    }
+    .dw-gold-pill {
+      background: linear-gradient(135deg, rgba(219, 184, 123, 0.42), rgba(166, 118, 42, 0.62)) !important;
+      border-color: var(--gold-bright) !important;
+      font-weight: bold;
+    }
+
+    .dw-candle-banner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      background: linear-gradient(135deg, #efe3cc 0%, #e4d2b2 100%);
+      border: 1px solid #c2a06b;
+      border-radius: 10px;
+      padding: 10px 14px;
+      margin: 10px 0 12px;
+      color: #382917;
+      font-size: 0.9rem;
+    }
+    .dw-flame-icon {
+      font-size: 1.25rem;
+      margin-right: 6px;
+      filter: drop-shadow(0 0 6px rgba(245, 175, 56, 0.75));
+    }
+    .dw-nav-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .dw-select, .dw-day-num-input {
+      background: #faf3e6;
+      border: 1px solid #b3915c;
+      color: #2c2013;
+      padding: 5px 9px;
+      border-radius: 7px;
+      font-family: var(--font-serif);
+      font-size: 0.85rem;
+    }
+    .dw-day-num-input {
+      width: 74px;
+      text-align: center;
+      user-select: text;
+      -webkit-user-select: text;
+    }
+
+    #dw-week-strip {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+      padding: 8px 10px;
+      background: rgba(58, 43, 24, 0.08);
+      border-radius: 10px;
+      border: 1px solid rgba(156, 122, 70, 0.35);
+    }
+    .dw-week-day-btn {
+      flex: 1 1 82px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 6px 8px;
+      border-radius: 8px;
+      border: 1px solid #bfa06f;
+      background: #f6eedf;
+      color: #3b2b18;
+      font-family: var(--font-serif);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .dw-week-day-btn:hover {
+      background: #efe0c4;
+      border-color: #8f6930;
+    }
+    .dw-week-day-btn.active-day {
+      background: linear-gradient(135deg, #d7ab61 0%, #b58338 100%);
+      color: #1c1309;
+      border-color: #6b4917;
+      font-weight: bold;
+      box-shadow: 0 2px 8px rgba(143, 105, 48, 0.35);
+    }
+    .dw-week-day-btn.completed-day:not(.active-day) {
+      background: #e9dec7;
+      border-color: #96723c;
+    }
+    .dw-wd-top {
+      font-size: 0.78rem;
+      font-weight: bold;
+    }
+    .dw-wd-sub {
+      font-size: 0.71rem;
+      opacity: 0.85;
+    }
+
+    .reflection-callout {
+      background: linear-gradient(135deg, #efe2c8 0%, #e6d3af 100%);
+      border-left: 4px solid #9c6e27;
+      border-radius: 8px;
+      padding: 12px 15px;
+      margin: 12px 0 14px;
+      color: #2b1f11;
+    }
+    .reflection-callout-label {
+      font-size: 0.73rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #7d561b;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .reflection-callout-text {
+      font-style: italic;
+      font-size: 1.02rem;
+      line-height: 1.52;
+      color: #23180c;
+    }
+
+    .dw-journal-box {
+      margin: 10px 0 14px;
+    }
+    .dw-journal-box label {
+      display: block;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #6b5230;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    #daily-journal-input {
+      width: 100%;
+      min-height: 68px;
+      padding: 9px 12px;
+      border-radius: 8px;
+      border: 1px solid #bfa06f;
+      background: #fbf6ec;
+      color: #261b0e;
+      font-family: var(--font-serif);
+      font-size: 0.94rem;
+      line-height: 1.45;
+      resize: vertical;
+      user-select: text;
+      -webkit-user-select: text;
+    }
   </style>
 </head>
 <body>
@@ -647,6 +837,7 @@
         <option value="all-things-new">XLIV · #44 Revelation — All Things New</option>
       </select>
       <button id="btn-next-district" class="hud-pill" title="Next Book">Next ▶</button>
+      <button id="btn-daily-walk" class="hud-pill">🕯 Daily Walk · Day 1</button>
       <button id="btn-long-scroll" class="hud-pill">📜 All 44 Books</button>
       <button id="btn-cover-shelf" class="hud-pill">📚 44-Book Shelf</button>
       <button id="btn-gatehouse" class="hud-pill">📖 Intro</button>
@@ -667,6 +858,9 @@
 
   <!-- Step-Through Scene Quick-Jump Strip (dynamically updated for active district) -->
   <nav id="prototype-scene-strip" aria-label="Step-Through Scenes"></nav>
+
+  <!-- Phase 4: Floating 3D Daily Walk Devotional Banner (visible while walking in Daily Walk mode) -->
+  <div id="daily-walk-hud-banner" class="hidden" aria-live="polite"></div>
 
   <!-- HARD UX REQUIREMENT (§5a): Always-on-screen "Back to the street" control while inside any scene -->
   <button id="back-to-street-btn" class="hidden" aria-label="Back to the street">
@@ -711,6 +905,10 @@
           <h2 id="poem-modal-title" class="poem-title"></h2>
           <div id="poem-modal-ref" class="poem-ref"></div>
           <div id="poem-modal-body" class="poem-body"></div>
+          <div id="poem-modal-reflection-box" class="reflection-callout hidden">
+            <div class="reflection-callout-label">✦ Reflection Prompt</div>
+            <div id="poem-modal-reflection-text" class="reflection-callout-text"></div>
+          </div>
           <div style="display:flex;gap:10px;flex-wrap:wrap;">
             <button id="poem-modal-step-btn" class="gold-btn hidden">
               ✦ Step Through Frame into this Painting
@@ -772,6 +970,71 @@
     </div>
   </div>
 
+  <!-- PHASE 4: DAILY WALK (DEVOTIONAL MODE + REFLECTION PROMPTS) MODAL -->
+  <div id="daily-walk-modal" class="modal-backdrop hidden">
+    <div class="modal-card" style="max-width:980px;">
+      <button class="modal-close" data-close-modal>Close [Esc]</button>
+      <div id="dw-modal-eyebrow" class="poem-eyebrow">THE DAILY WALK · DAY 1 OF 1,633 · WEEK 1 (DAY 1 OF 7)</div>
+      <h2 class="poem-title" style="margin-bottom:4px;">Daily Walk Devotional &amp; Reflection</h2>
+      <p class="poem-ref" style="margin-bottom:8px;">
+        One painting, poem, Scripture, and reflection prompt a day across all 44 books in storyline order.
+      </p>
+
+      <!-- Candle Banner & Book/Day Jump Controls -->
+      <div class="dw-candle-banner">
+        <div id="dw-candle-status">
+          <span class="dw-flame-icon">🕯</span>
+          <span><strong>0 Days Kindled</strong> · The candle never goes out—it quietly waits for you</span>
+        </div>
+        <div class="dw-nav-controls">
+          <label for="dw-book-select" style="font-size:0.8rem;font-weight:bold;">Book:</label>
+          <select id="dw-book-select" class="dw-select" aria-label="Jump to Book in Daily Walk"></select>
+          <label for="dw-day-input" style="font-size:0.8rem;font-weight:bold;">Day (1–1633):</label>
+          <input id="dw-day-input" type="number" min="1" max="1633" value="1" class="dw-day-num-input" />
+          <button id="dw-day-go-btn" class="gold-btn" style="padding:5px 11px;font-size:0.82rem;">Go</button>
+        </div>
+      </div>
+
+      <!-- 7-Day Week Progression Strip (Run a full week of Daily Walks end-to-end) -->
+      <div id="dw-week-strip" aria-label="7-Day Week Devotional Strip"></div>
+
+      <!-- Main Devotional Painting + Poem + Reflection Prompt Layout -->
+      <div class="poem-layout">
+        <div class="poem-art-frame">
+          <img id="dw-painting-img" src="assets/genesis/web/g-010-001.jpg" alt="Daily Walk Painting by Timothy Holt" />
+        </div>
+        <div class="poem-text-col">
+          <div id="dw-painting-book-badge" class="poem-eyebrow">BOOK #1: GENESIS · POEM NO. 1 OF 40</div>
+          <h3 id="dw-painting-title" class="poem-title">let there be</h3>
+          <div id="dw-painting-ref" class="poem-ref">Genesis 1:1-3</div>
+          <div id="dw-painting-epigraph" class="poem-ref hidden" style="font-style:italic;margin-top:-6px;"></div>
+          <div id="dw-painting-poem" class="poem-body" style="max-height:220px;overflow-y:auto;"></div>
+
+          <!-- One-Line Reflection Prompt -->
+          <div class="reflection-callout">
+            <div class="reflection-callout-label">✦ Today’s Reflection Prompt</div>
+            <div id="dw-reflection-prompt-text" class="reflection-callout-text"></div>
+          </div>
+
+          <!-- Optional Personal Reflection Journal (Saved in localStorage) -->
+          <div class="dw-journal-box">
+            <label for="daily-journal-input">Personal Reflection / Prayer Note (Saved in Your Browser):</label>
+            <textarea id="daily-journal-input" placeholder="Write a quiet line of reflection or prayer for today’s walk…"></textarea>
+          </div>
+
+          <div style="display:flex;gap:9px;flex-wrap:wrap;align-items:center;">
+            <button id="dw-btn-prev-day" class="gold-btn">◀ Prev Day</button>
+            <button id="dw-btn-complete-day" class="gold-btn">🕯 Light Day 1’s Candle &amp; Continue to Day 2 →</button>
+            <button id="dw-btn-next-day" class="gold-btn">Next Day ▶</button>
+            <button id="dw-btn-walk-3d" class="gold-btn">✦ Stand Before This Painting in 3D</button>
+            <button id="dw-btn-read-aloud" class="gold-btn">🔊 Read Aloud</button>
+            <button id="dw-btn-share" class="gold-btn">📋 Copy Devotional</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- AMEN GATE CEREMONY MODAL -->
   <div id="amen-modal" class="modal-backdrop hidden">
     <div class="modal-card" style="text-align:center;">
@@ -790,6 +1053,6 @@
     </div>
   </div>
 
-  <script type="module" src="src/main.js?v=44_2"></script>
+  <script type="module" src="src/main.js?v=44_3"></script>
 </body>
 </html>

@@ -12,13 +12,14 @@
 // ============================================================================
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { PainterlyEngine } from './painterly.js?v=44_2';
-import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_2';
-import { PainterlyPropBuilder } from './props.js?v=44_2';
-import { StepThroughSceneManager } from './scenes.js?v=44_2';
-import { GenesisDistrictBuilder } from './district.js?v=44_2';
-import { PilgrimAudio } from './audio.js?v=44_2';
-import { TripoRelicManager } from './tripo.js?v=44_2';
+import { PainterlyEngine } from './painterly.js?v=44_3';
+import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_3';
+import { PainterlyPropBuilder } from './props.js?v=44_3';
+import { StepThroughSceneManager } from './scenes.js?v=44_3';
+import { GenesisDistrictBuilder } from './district.js?v=44_3';
+import { PilgrimAudio } from './audio.js?v=44_3';
+import { TripoRelicManager } from './tripo.js?v=44_3';
+import { DailyWalkManager } from './daily-walk.js?v=44_3';
 
 const SAVE_KEY = 'pilgrim_walk_save_v1';
 
@@ -216,7 +217,13 @@ class PilgrimWalkApp {
           districtsCompleted: parsed.districtsCompleted || [],
           walkMode: parsed.walkMode || 'STORY',
           reducedMotion: !!parsed.reducedMotion,
-          largeText: !!parsed.largeText
+          largeText: !!parsed.largeText,
+          dailyWalk: parsed.dailyWalk || {
+            currentDay: 1,
+            completedDays: [],
+            journalNotes: {},
+            lastWalkedDate: null
+          }
         };
       }
     } catch (e) {
@@ -230,7 +237,13 @@ class PilgrimWalkApp {
       districtsCompleted: [],
       walkMode: 'STORY',
       reducedMotion: false,
-      largeText: false
+      largeText: false,
+      dailyWalk: {
+        currentDay: 1,
+        completedDays: [],
+        journalNotes: {},
+        lastWalkedDate: null
+      }
     };
   }
 
@@ -276,6 +289,7 @@ class PilgrimWalkApp {
     this.sceneManager = new StepThroughSceneManager(THREE, this.painterly, this.propBuilder);
     this.districtBuilder = new GenesisDistrictBuilder(THREE, this.painterly, this.propBuilder);
     this.postProcess = new PainterlyPostProcess(THREE, this.renderer, this.painterly);
+    this.dailyWalk = new DailyWalkManager(this);
 
     this.skyDome = createPainterlySkyDome(THREE, 280);
     this.scene.add(this.skyDome);
@@ -335,6 +349,7 @@ class PilgrimWalkApp {
       const initialSlug = this.districtMeta[this.currentDistrictSlug] ? this.currentDistrictSlug : 'genesis';
       await this.ensureManifestLoaded(initialSlug);
       await this.switchDistrict(initialSlug, true);
+      await this.dailyWalk.init();
 
       const loadingScreen = document.getElementById('loading-screen');
       if (loadingScreen) loadingScreen.classList.add('fade-out');
@@ -506,6 +521,7 @@ class PilgrimWalkApp {
     this.renderQuickSceneStrip();
     this.populateModals();
     this.persistSaveData();
+    if (this.dailyWalk) this.dailyWalk.updateHUDCandlePill();
 
     if (!isInitialBoot && loadScreen) {
       loadScreen.classList.add('fade-out');
@@ -817,6 +833,17 @@ class PilgrimWalkApp {
     document.getElementById('poem-modal-body').textContent = paintingData.poem;
     document.getElementById('poem-modal-img').src = paintingData.isScene ? paintingData.heroSrc : paintingData.webSrc;
 
+    const reflBox = document.getElementById('poem-modal-reflection-box');
+    const reflText = document.getElementById('poem-modal-reflection-text');
+    if (reflBox && reflText) {
+      if (paintingData.reflectionPrompt) {
+        reflText.textContent = paintingData.reflectionPrompt;
+        reflBox.classList.remove('hidden');
+      } else {
+        reflBox.classList.add('hidden');
+      }
+    }
+
     const stepBtn = document.getElementById('poem-modal-step-btn');
     if (stepThroughCallback && this.mode === 'STREET') {
       stepBtn.classList.remove('hidden');
@@ -845,7 +872,8 @@ class PilgrimWalkApp {
 
   closeAllModals() {
     this.closePoemModal();
-    ['gatehouse-modal', 'scroll-modal', 'shelf-modal', 'amen-modal', 'tripo-modal'].forEach((id) => {
+    if (this.dailyWalk) this.dailyWalk.saveCurrentJournalNote();
+    ['gatehouse-modal', 'scroll-modal', 'shelf-modal', 'amen-modal', 'tripo-modal', 'daily-walk-modal'].forEach((id) => {
       const el = document.getElementById(id);
       if (el) el.classList.add('hidden');
     });
@@ -856,6 +884,15 @@ class PilgrimWalkApp {
   // ==========================================================================
   bindUIAndControls() {
     window.addEventListener('keydown', (e) => {
+      if (
+        e.target &&
+        (e.target.tagName === 'INPUT' ||
+          e.target.tagName === 'TEXTAREA' ||
+          e.target.tagName === 'SELECT')
+      ) {
+        if (e.code === 'Escape') this.closeAllModals();
+        return;
+      }
       this.keys[e.code] = true;
       if (e.code === 'KeyE') {
         e.preventDefault();
@@ -1054,11 +1091,19 @@ class PilgrimWalkApp {
     }
 
     document.getElementById('btn-mode-toggle').addEventListener('click', () => {
-      this.walkMode = this.walkMode === 'STORY' ? 'FREE' : 'STORY';
+      const modes = ['STORY', 'FREE', 'DAILY'];
+      const nextIdx = (modes.indexOf(this.walkMode) + 1) % modes.length;
+      this.walkMode = modes[nextIdx];
       this.saveData.walkMode = this.walkMode;
+      this.applyAccessibilitySettings();
       this.persistSaveData();
-      document.getElementById('btn-mode-toggle').textContent =
-        this.walkMode === 'STORY' ? 'Mode: Story Walk' : 'Mode: Free Walk';
+      if (this.dailyWalk) {
+        this.dailyWalk.updateHUDCandlePill();
+        if (this.walkMode === 'DAILY') {
+          this.dailyWalk.walkCurrentDayIn3D(false);
+          return;
+        }
+      }
       this.showToast(
         this.walkMode === 'FREE'
           ? 'Free Walk active: all parts & gates open to wander freely.'
@@ -1098,11 +1143,18 @@ class PilgrimWalkApp {
     const tBtn = document.getElementById('btn-a11y-text');
     if (tBtn) tBtn.textContent = this.largeText ? 'Text: Large' : 'Text: Standard';
     const wBtn = document.getElementById('btn-mode-toggle');
-    if (wBtn) wBtn.textContent = this.walkMode === 'STORY' ? 'Mode: Story Walk' : 'Mode: Free Walk';
+    if (wBtn) {
+      wBtn.textContent =
+        this.walkMode === 'STORY'
+          ? 'Mode: Story Walk'
+          : this.walkMode === 'FREE'
+          ? 'Mode: Free Walk'
+          : 'Mode: Daily Walk 🕯';
+    }
   }
 
   isAnyModalOpen() {
-    return ['poem-modal', 'gatehouse-modal', 'scroll-modal', 'shelf-modal', 'amen-modal', 'tripo-modal'].some((id) => {
+    return ['poem-modal', 'gatehouse-modal', 'scroll-modal', 'shelf-modal', 'amen-modal', 'tripo-modal', 'daily-walk-modal'].some((id) => {
       const el = document.getElementById(id);
       return el && !el.classList.contains('hidden');
     });

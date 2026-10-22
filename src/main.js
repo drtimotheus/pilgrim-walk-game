@@ -315,47 +315,41 @@ class PilgrimWalkApp {
   }
 
   async bootstrap() {
-    const [genRes, exoRes, fbnRes, clRes, jjRes, ruthRes, samRes, kingsRes, routeRes, coversRes] = await Promise.all([
-      fetch('assets/data/genesis-manifest.json'),
-      fetch('assets/data/exodus-manifest.json'),
-      fetch('assets/data/fire-by-night-manifest.json'),
-      fetch('assets/data/choose-life-manifest.json'),
-      fetch('assets/data/joshua-judges-manifest.json'),
-      fetch('assets/data/ruth-manifest.json'),
-      fetch('assets/data/samuel-manifest.json'),
-      fetch('assets/data/kings-manifest.json'),
-      fetch('assets/data/route.json'),
-      fetch('assets/data/covers.json'),
-      this.tripoManager.init()
-    ]);
+    try {
+      const [genRes, routeRes, coversRes] = await Promise.all([
+        fetch('assets/data/genesis-manifest.json'),
+        fetch('assets/data/route.json'),
+        fetch('assets/data/covers.json'),
+        this.tripoManager.init()
+      ]);
 
-    this.manifests['genesis'] = await genRes.json();
-    this.manifests['exodus'] = await exoRes.json();
-    this.manifests['fire-by-night'] = await fbnRes.json();
-    this.manifests['choose-life'] = await clRes.json();
-    this.manifests['joshua-judges'] = await jjRes.json();
-    this.manifests['ruth'] = await ruthRes.json();
-    this.manifests['samuel'] = await samRes.json();
-    this.manifests['kings'] = await kingsRes.json();
-    this.routeData = await routeRes.json();
-    this.coversData = await coversRes.json();
+      this.manifests['genesis'] = await genRes.json();
+      this.routeData = await routeRes.json();
+      this.coversData = await coversRes.json();
 
-    this.walkMode = this.saveData.walkMode || 'STORY';
-    this.reducedMotion = !!this.saveData.reducedMotion;
-    this.largeText = !!this.saveData.largeText;
-    this.applyAccessibilitySettings();
+      this.walkMode = this.saveData.walkMode || 'STORY';
+      this.reducedMotion = !!this.saveData.reducedMotion;
+      this.largeText = !!this.saveData.largeText;
+      this.applyAccessibilitySettings();
 
-    const initialSlug = this.districtMeta[this.currentDistrictSlug] ? this.currentDistrictSlug : 'genesis';
-    await this.ensureManifestLoaded(initialSlug);
-    await this.switchDistrict(initialSlug, true);
+      const initialSlug = this.districtMeta[this.currentDistrictSlug] ? this.currentDistrictSlug : 'genesis';
+      await this.ensureManifestLoaded(initialSlug);
+      await this.switchDistrict(initialSlug, true);
 
-    const loadingScreen = document.getElementById('loading-screen');
-    if (loadingScreen) loadingScreen.classList.add('fade-out');
-    setTimeout(() => {
-      if (loadingScreen) loadingScreen.classList.add('hidden');
-    }, 650);
+      const loadingScreen = document.getElementById('loading-screen');
+      if (loadingScreen) loadingScreen.classList.add('fade-out');
+      setTimeout(() => {
+        if (loadingScreen) loadingScreen.classList.add('hidden');
+      }, 650);
 
-    this.animate();
+      this.animate();
+    } catch (err) {
+      console.error('Bootstrap error:', err);
+      const status = document.getElementById('loading-status');
+      if (status) {
+        status.textContent = `Loading note: ${err.message || err}. Please hard-refresh (Cmd+Shift+R).`;
+      }
+    }
   }
 
   updateActivePillHighlight() {

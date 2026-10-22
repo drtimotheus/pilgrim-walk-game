@@ -9,17 +9,26 @@
 //      https://studio.tripo3d.ai/ so Timothy can preview any model immediately!
 // ============================================================================
 
-import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/loaders/GLTFLoader.js';
-
 export class TripoRelicManager {
   constructor(THREE, painterly) {
     this.THREE = THREE;
     this.painterly = painterly;
-    this.loader = new GLTFLoader();
+    this.loader = null;
     this.manifest = null;
     this.modelCache = new Map(); // id -> THREE.Group template
     this.statusMap = new Map();  // id -> 'loaded' | 'procedural'
     this.activeMountPoints = new Map(); // id -> Set of { group, scale, yOffset }
+  }
+
+  async ensureLoader() {
+    if (this.loader) return this.loader;
+    try {
+      const mod = await import('https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/loaders/GLTFLoader.js');
+      this.loader = new mod.GLTFLoader();
+    } catch (e) {
+      console.warn('GLTFLoader fallback to procedural models:', e);
+    }
+    return this.loader;
   }
 
   async init() {
@@ -112,8 +121,13 @@ export class TripoRelicManager {
   }
 
   async loadGlbFromUrl(id, url, targetScale = 2.0) {
+    const loader = await this.ensureLoader();
+    if (!loader) {
+      this.statusMap.set(id, 'procedural');
+      return false;
+    }
     return new Promise((resolve) => {
-      this.loader.load(
+      loader.load(
         url,
         (gltf) => {
           const normalized = this.normalizeAndCenterModel(gltf.scene, targetScale);

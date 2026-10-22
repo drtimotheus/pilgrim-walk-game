@@ -16,7 +16,10 @@
       "epigraph": "The beginning of the Good News of Jesus Christ, the Son of God.",
       "epigraphRef": "Mark 1:1",
       "lightName": "Light of The Beginning",
-      "lightHint": "Near 'the voice' (Mark 1:3–7) in Part 1: The Beginning"
+      "lightHint": "Near 'the voice' (Mark 1:3–7) in Part 1: The Beginning",
+      "zh_title": "开始",
+      "zh_epigraph": "神的儿子耶稣基督好消息的开始。",
+      "zh_epigraphRef": "马可福音 1:1"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Who then is this, that even the wind and the sea obey him?",
       "epigraphRef": "Mark 4:41",
       "lightName": "Light of Who Then Is This?",
-      "lightHint": "Near 'while he sleeps' (Mark 4:26–28) in Part 2: Who Then Is This?"
+      "lightHint": "Near 'while he sleeps' (Mark 4:26–28) in Part 2: Who Then Is This?",
+      "zh_title": "那么这是谁呢？",
+      "zh_epigraph": "这到底是谁，连风和海都听从他呢？",
+      "zh_epigraphRef": "马可福音 4:41"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Having eyes, don’t you see? Having ears, don’t you hear?",
       "epigraphRef": "Mark 8:18",
       "lightName": "Light of Eyes to See",
-      "lightHint": "Near 'crumbs' (Mark 7:25–30) in Part 3: Eyes to See"
+      "lightHint": "Near 'crumbs' (Mark 7:25–30) in Part 3: Eyes to See",
+      "zh_title": "眼睛看",
+      "zh_epigraph": "有眼睛，难道你看不到吗？有耳朵，听不见吗？",
+      "zh_epigraphRef": "马可福音 8:18"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "go, tell his disciples and Peter",
       "epigraphRef": "Mark 16:7",
       "lightName": "Light of Go Tell Peter",
-      "lightHint": "Near 'the Lord needs him' (Mark 11:2–6) in Part 4: Go Tell Peter"
+      "lightHint": "Near 'the Lord needs him' (Mark 11:2–6) in Part 4: Go Tell Peter",
+      "zh_title": "去告诉彼得",
+      "zh_epigraph": "去告诉他的门徒和彼得",
+      "zh_epigraphRef": "马可福音 16:7"
     }
   ],
   "paintings": [
@@ -69,7 +81,12 @@
         "accent": "#fcebc0"
       },
       "dailyWalkDay": 1080,
-      "reflectionPrompt": "Imagine standing inside this frame beside the stone water trough by the well: what hurry or noise in your week begins to fade when you hear, “the good news begins with a voice that knew how to step aside”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the stone water trough by the well: what hurry or noise in your week begins to fade when you hear, “the good news begins with a voice that knew how to step aside”?",
+      "zh_title": "声音",
+      "zh_poem": "这里没有出生故事。\n没有星星，没有马槽。\n\n马克开始\n和一个骆驼毛的男人\n站在干旱的国度，\n吃蝗虫和野蜜，\n在河边喊叫。\n\n和他喊什么\n不是他自己的名字。\n\n有人来了，\n他说，\n我不值得\n弯下腰\n并解开他的凉鞋。\n\n好消息开始\n有声音\n知道如何退到一边。",
+      "zh_reflectionPrompt": "想象一下，站在井边石制水槽旁的这个框架内：当您听到“好消息始于一个知道如何退到一边的声音”时，您一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“荒野中哭泣的声音”",
+      "zh_ref": "马可福音 1:3–7"
     },
     {
       "n": 2,
@@ -90,7 +107,12 @@
         "accent": "#f1e7cd"
       },
       "dailyWalkDay": 1081,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “hadn't healed anyone. the pleasure came first.” What part of your heart feels most searched or comforted by Mark 1:10–11 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “hadn't healed anyone. the pleasure came first.” What part of your heart feels most searched or comforted by Mark 1:10–11 right now?",
+      "zh_title": "撕开",
+      "zh_poem": "他上来了\n从河里滴下来\n\n和天空\n分崩离析了。\n\n不像门一样打开。\n撕裂,\n像布一样。\n\n并透过泪水，\n一个声音：\n\n你是我心爱的儿子。\n我很高兴。\n\n他还没有讲道。\n没有治愈任何人。\n没有做过一件事\n值得写下来。\n\n乐趣\n首先。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“没有治愈任何人。快乐是第一位的。”马可福音 1 章 10-11 节现在最能触动你内心的哪一部分？",
+      "zh_epigraph": "“他看见天裂开，圣灵像鸽子一样降临在他身上。”",
+      "zh_ref": "马可福音 1:10–11"
     },
     {
       "n": 3,
@@ -111,7 +133,12 @@
         "accent": "#e5c6a2"
       },
       "dailyWalkDay": 1082,
-      "reflectionPrompt": "In Mark 1:12–13, grace meets us right beside the mended nets on the shore: how does the closing thought—“even the fastest story begins in the wilderness”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Mark 1:12–13, grace meets us right beside the mended nets on the shore: how does the closing thought—“even the fastest story begins in the wilderness”—steady your footing for the road ahead?",
+      "zh_title": "立即",
+      "zh_poem": "马克最喜欢的词\n是立即。\n\n立即从水中升起。\n立即进入沙漠。\n网落了，发烧退了，\n前方传来的消息，\n立即。\n\n福音书\n匆忙中。\n\n但看看哪里\n匆忙先行：\n\n四十天\n在野生动物之中，\n有天使侍奉他。\n\n即使是最快的故事\n始于旷野。",
+      "zh_reflectionPrompt": "在马可福音 1 章 12-13 节中，恩典就在岸上补好的网旁边与我们相遇：结尾的思想——“即使是最快的故事也是从旷野开始的”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“圣灵立刻把他赶到旷野去。”",
+      "zh_ref": "马可福音 1:12–13"
     },
     {
       "n": 4,
@@ -132,7 +159,12 @@
         "accent": "#ecdcb7"
       },
       "dailyWalkDay": 1083,
-      "reflectionPrompt": "If today’s painting of “fishers” (Mark 1:17–20) hung beside the door you walk out of this morning, how would its final line—“and the hands that let go of the nets would one day hand out bread to five thousand”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “fishers” (Mark 1:17–20) hung beside the door you walk out of this morning, how would its final line—“and the hands that let go of the nets would one day hand out bread to five thousand”—shape your choices?",
+      "zh_title": "渔民",
+      "zh_poem": "两兄弟撒网。\n又补了两个。\n\n来追我吧。\n\n和篮网\n在水面上变得松弛。\n\n他们的父亲留在船上\n和雇佣的人一起，\n看着他的儿子们\n走上岸。\n\n跟随要付出一些代价\n从第一页开始。\n\n和手\n放开网的\n有一天会\n分发面包\n到五千。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“渔夫”画（马可福音 1：17-20），那么它的最后一行——“有一天，放开网的手会把面包分给五千人”——会如何影响你的选择？",
+      "zh_epigraph": "“跟我来吧，我会让你成为人类的渔夫。”",
+      "zh_ref": "马可福音 1:17–20"
     },
     {
       "n": 5,
@@ -153,7 +185,12 @@
         "accent": "#fdedae"
       },
       "dailyWalkDay": 1084,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Mark 1:30–31)—where in your own home or work today does “it looks like a woman back on her feet in her own house, passing bread to her guests” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Mark 1:30–31)—where in your own home or work today does “it looks like a woman back on her feet in her own house, passing bread to her guests” ring true?",
+      "zh_title": "用手",
+      "zh_poem": "西蒙的岳母\n发烧了。\n\n他来了，\n拉着她的手，\n并把她扶起来。\n\n发烧退了\n立即，\n她为他们服务。\n\n治愈，在马可福音中，\n看起来不像烟花。\n\n它看起来像一个女人\n重新站起来\n在她自己的家里，\n把面包递给她的客人。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（马可福音 1:30-31）——今天在你自己的家中或工作的地方，“看起来像一个女人在自己家里站起来，给客人递饼”听起来是真的吗？",
+      "zh_epigraph": "“他过来拉着她的手，把她扶了起来。”",
+      "zh_ref": "马可福音 1:30–31"
     },
     {
       "n": 6,
@@ -174,7 +211,12 @@
         "accent": "#d6c5a6"
       },
       "dailyWalkDay": 1085,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “some mornings you have to be found by God before anyone else can find you.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “some mornings you have to be found by God before anyone else can find you.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "一个荒凉的地方",
+      "zh_poem": "整个城镇\n挤满了他的门\n前一天晚上。\n\n于是他站了起来\n天还黑的时候\n然后走了出去\n到没人的地方，\n\n并祈祷。\n\n他的朋友们去寻找他。\n每个人都在找你！\n\n他知道。\n这就是他离开的原因。\n\n一些早晨\n你必须被发现\n由上帝\n在其他人之前\n可以找到你。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“有些早晨，你必须先被上帝找到，然后别人才能找到你。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“一大早，天还黑着，他就起身出去了”",
+      "zh_ref": "马可福音 1:35–37"
     },
     {
       "n": 7,
@@ -195,7 +237,12 @@
         "accent": "#e3cfac"
       },
       "dailyWalkDay": 1086,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “if you want to, you can.” Looking through the lens of Mark 1:40–42, what does it mean to discover that “then he answered the real question: I want to”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “if you want to, you can.” Looking through the lens of Mark 1:40–42, what does it mean to discover that “then he answered the real question: I want to”?",
+      "zh_title": "我想要",
+      "zh_poem": "如果你愿意的话\n你可以。\n\n他没有问\n耶稣是否能够。\n\n他在问\n他是否被通缉。\n\n和耶稣，\n因慈悲而感动，\n做了一件事\n每个人都已经学会了\n不做。\n\n他碰了碰他。\n\n然后他回答\n真正的问题：\n\n我想要。",
+      "zh_reflectionPrompt": "回想一下某个季节，您体会到“如果您想，就可以”的感觉。从马可福音 1 章 40-42 节的角度来看，发现“然后他回答了真正的问题：我愿意”意味着什么？",
+      "zh_epigraph": "“他动了慈心，伸出手来摸他”",
+      "zh_ref": "马可福音 1:40–42"
     },
     {
       "n": 8,
@@ -216,7 +263,12 @@
         "accent": "#f1e4c3"
       },
       "dailyWalkDay": 1087,
-      "reflectionPrompt": "Look closely at the table set before you in this painting (Mark 2:14–17)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the table set before you in this painting (Mark 2:14–17)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "税务局",
+      "zh_poem": "利维·萨特\n每个人都能看到他的地方\n但没人愿意。\n\n跟我来。\n\n他站起来\n并将硬币留在桌子上。\n\n那天晚上他的房子挤满了人\n税吏和罪人，\n耶稣就在中间，\n吃。\n\n医生走了\n病人在哪里，\n然后坐下来，\n并留下来吃晚饭。",
+      "zh_reflectionPrompt": "仔细看看这幅画中摆在你面前的桌子（马可福音 2：14-17）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“健康的人不需要医生，有病的人才需要医生。”",
+      "zh_ref": "马可福音 2:14–17"
     },
     {
       "n": 9,
@@ -237,7 +289,12 @@
         "accent": "#eddeb7"
       },
       "dailyWalkDay": 1088,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “with him”: what quiet prayer rises in you when you read, “but the first job was never to be impressive. it was to stay close”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “with him”: what quiet prayer rises in you when you read, “but the first job was never to be impressive. it was to stay close”?",
+      "zh_title": "和他一起",
+      "zh_poem": "在讲道之前，\n在其中任何一个之前，\n他选择了十二个\n他们可能是\n和他在一起。\n\n渔民。\n税吏。\n一个狂热分子。\n和犹大，\n就在清单上。\n\n马克将向他们展示\n争论,\n睡着了，\n运行。\n\n但第一份工作\n从来都不会令人印象深刻。\n\n这是为了保持亲密。",
+      "zh_reflectionPrompt": "让你的目光停留在“和他在一起”安静的中心周围的笔触和光线上：当你读到“但首要任务永远不是令人印象深刻。而是保持亲密”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“他设立了十二个人，使他们可以和他在一起”",
+      "zh_ref": "马可福音 3:13–19"
     },
     {
       "n": 10,
@@ -258,7 +315,12 @@
         "accent": "#f3e6c7"
       },
       "dailyWalkDay": 1089,
-      "reflectionPrompt": "Linger with the movement in “while he sleeps” (Mark 4:26–28) from “a farmer scatters seed and goes to bed” to “the kingdom keeps growing in the dark, while you sleep”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “while he sleeps” (Mark 4:26–28) from “a farmer scatters seed and goes to bed” to “the kingdom keeps growing in the dark, while you sleep”—where do you find yourself along that arc today?",
+      "zh_title": "当他睡觉时",
+      "zh_poem": "一位农民撒下种子\n然后上床睡觉。\n\n站起来。\n去睡觉了。\n站起来。\n\n种子开始生长\n趁他不看的时候\n他不知道怎么办。\n\n首先是刀片。\n然后是耳朵。\n然后是全粒。\n\n你可以浇水。\n你可以等。\n你不能让它快点。\n\n王国\n不断增长\n在黑暗中，\n当你睡觉时。",
+      "zh_reflectionPrompt": "留心“当他睡着的时候”（马可福音 4：26-28）中的乐章，从“农夫撒种，然后上床睡觉”到“你睡觉的时候，天国在黑暗中不断生长”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“首先是刀片，然后是耳朵，然后是耳朵里的完整谷物。”",
+      "zh_ref": "马可福音 4:26–28"
     },
     {
       "n": 11,
@@ -279,7 +341,12 @@
         "accent": "#f9e9c8"
       },
       "dailyWalkDay": 1090,
-      "reflectionPrompt": "Notice how “the cushion” (Mark 4:37–41) arrives at: “and there was a great calm, and they were more afraid in the quiet than in the storm.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “the cushion” (Mark 4:37–41) arrives at: “and there was a great calm, and they were more afraid in the quiet than in the storm.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "坐垫",
+      "zh_poem": "马克记得那个垫子，\n在船尾，\n在熟睡的头下，\n当船装满了水时。\n\n老师,\n你不在乎吗\n我们快死了？\n\n他站起来\n并对大海说话\n就像你让房间安静下来的方式：\n\n和平。保持安静。\n\n一阵平静，\n他们更害怕\n在安静中\n比在暴风雨中。",
+      "zh_reflectionPrompt": "请注意“垫子”（马可福音 4：37-41）是如何出现的：“当时风平浪静，他们在安静中比在暴风雨中更害怕。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“安静！安静！”",
+      "zh_ref": "马可福音 4:37–41"
     },
     {
       "n": 12,
@@ -300,7 +367,12 @@
         "accent": "#fae992"
       },
       "dailyWalkDay": 1091,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Mark 5:15–20: “and he went through ten cities telling it”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Mark 5:15–20: “and he went through ten cities telling it”?",
+      "zh_title": "穿衣服的",
+      "zh_poem": "他住在坟墓中间。\n他们尝试过锁链。\n没有人能抓住他。\n\n然后一艘船进来了\n来自大洋彼岸。\n\n小镇出来了\n并找到了他\n坐着。\n穿衣服的。\n在他正确的头脑中。\n\n他们很害怕。\n\n回家吧，耶稣告诉他。\n告诉他们主怎样\n对你有怜悯。\n\n他走过十个城市\n告诉它。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是马可福音 5 章 15-20 节的安静教训：“他就走遍十城去讲述这事”，那又怎样呢？",
+      "zh_epigraph": "“坐着，穿好衣服，神志清醒”",
+      "zh_ref": "马可福音 5:15–20"
     },
     {
       "n": 13,
@@ -321,7 +393,12 @@
         "accent": "#f1dcbd"
       },
       "dailyWalkDay": 1092,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “all the truth”: what hurry or noise in your week begins to fade when you hear, “now he wanted the rest of her”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “all the truth”: what hurry or noise in your week begins to fade when you hear, “now he wanted the rest of her”?",
+      "zh_title": "所有的真相",
+      "zh_poem": "她已经痊愈了。\n她本来可以溜走的。\n\n但他阻止了人群：\n谁动了我的衣服？\n\n于是她挺身而出，\n摇晃，\n并告诉他\n所有的真相。\n\n十二年了。\n每个医生。\n每一枚硬币。\n\n他已经\n治愈了她的身体。\n\n现在他想要\n她的其余部分。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是“所有真相”的安静中心：当您听到“现在他想要她的其余部分”时，您一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“来到他面前，跪倒在他面前，将一切真相都告诉了他。”",
+      "zh_ref": "马可福音 5:30–34"
     },
     {
       "n": 14,
@@ -342,7 +419,12 @@
         "accent": "#f9e3b9"
       },
       "dailyWalkDay": 1093,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “when every other word is taken from you, this one is still small enough to carry home.” What part of your heart feels most searched or comforted by Mark 5:35–36 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “when every other word is taken from you, this one is still small enough to carry home.” What part of your heart feels most searched or comforted by Mark 5:35–36 right now?",
+      "zh_title": "只相信",
+      "zh_poem": "他已经等了\n当耶稣停下来时\n为了别人。\n\n然后他家里传来消息：\n你女儿死了。\n为什么要麻烦老师呢？\n\n耶稣转向他说：\n别害怕。\n只相信。\n\n不相信更难。\n不相信一切。\n仅有的。\n\n当每一个词\n被从你身上夺走，\n这个还是够小\n带回家。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“当你的每一个字都被夺走时，这个字仍然小到可以带回家。”马可福音 5 章 35-36 节现在最能触动你内心的哪一部分？",
+      "zh_epigraph": "“不要害怕，只要相信。”",
+      "zh_ref": "马可福音 5:35–36"
     },
     {
       "n": 15,
@@ -363,7 +445,12 @@
         "accent": "#dfc593"
       },
       "dailyWalkDay": 1094,
-      "reflectionPrompt": "In Mark 5:40–43, grace meets us right beside your own two hands: how does the closing thought—“then the Lord of life turned to her parents: give her something to eat”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Mark 5:40–43, grace meets us right beside your own two hands: how does the closing thought—“then the Lord of life turned to her parents: give her something to eat”—steady your footing for the road ahead?",
+      "zh_title": "吃的东西",
+      "zh_poem": "他们嘲笑他\n当他说她只是睡着了。\n\n他派他们出去，\n拉着她的手，\n并像叫醒孩子一样说\n早上：\n\n塔莉莎·库米。\n小姑娘，起来吧。\n\n她站起来走了。\n\n那么生命之主\n转向她的父母：\n\n给她一些吃的。",
+      "zh_reflectionPrompt": "在马可福音 5 章 40-43 节中，恩典就在你的两只手旁边与我们相遇：最后的思想——“生命的主转向她的父母，给她吃的”——如何为你前面的路站稳脚跟？",
+      "zh_epigraph": "“姑娘，我告诉你，起来吧！”",
+      "zh_ref": "马可福音 5:40–43"
     },
     {
       "n": 16,
@@ -384,7 +471,12 @@
         "accent": "#fadca6"
       },
       "dailyWalkDay": 1095,
-      "reflectionPrompt": "If today’s painting of “the carpenter” (Mark 6:3–6) hung beside the door you walk out of this morning, how would its final line—“sometimes the hardest place to be seen clearly is the place that watched you grow up”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the carpenter” (Mark 6:3–6) hung beside the door you walk out of this morning, how would its final line—“sometimes the hardest place to be seen clearly is the place that watched you grow up”—shape your choices?",
+      "zh_title": "木匠",
+      "zh_poem": "回家\n他们太了解他了。\n\n木匠。\n玛丽的儿子。\n我们认识他的兄弟。\n他的姐妹就住在这里。\n\n他们被冒犯了。\n\n马克说得直白：\n他在那里不能做任何伟大的工作，\n除了少数病人\n在他的手下痊愈了。\n\n他惊叹不已\n他们的不信。\n\n有时是最困难的地方\n看得清楚\n就是这个地方\n是看着你长大的。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁边挂着今天的“木匠”（马可福音 6:3-6）的画，那么它的最后一行——“有时最难看清的地方就是看着你长大的地方”——会如何影响你的选择？",
+      "zh_epigraph": "“这不是木匠吗，玛丽的儿子”",
+      "zh_ref": "马可福音 6:3–6"
     },
     {
       "n": 17,
@@ -405,7 +497,12 @@
         "accent": "#f0e5c6"
       },
       "dailyWalkDay": 1096,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Mark 6:31–34)—where in your own home or work today does “he knew what it was to be tired and give anyway” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Mark 6:31–34)—where in your own home or work today does “he knew what it was to be tired and give anyway” ring true?",
+      "zh_title": "休息一会儿",
+      "zh_poem": "这么多来来去去\n他们没有时间吃饭。\n\n走开，他说。\n休息一会儿。\n\n于是他们划到一个空旷的地方，\n人群绕着海岸奔跑\n并第一个到达那里。\n\n他看着他们，\n没有牧人的羊，\n并有慈悲心，\n并开始教学。\n\n他知道那是什么\n累了\n无论如何都要给予。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（马可福音 6:31-34）——今天在你自己的家里或工作场所，“他知道疲倦是什么，无论如何都要付出”听起来是真实的吗？",
+      "zh_epigraph": "“你到一个荒无人烟的地方去休息一下吧。”",
+      "zh_ref": "马可福音 6:31–34"
     },
     {
       "n": 18,
@@ -426,7 +523,12 @@
         "accent": "#f7eecb"
       },
       "dailyWalkDay": 1097,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “a strange thing to remember, the color of the grass— unless you were there, sitting in it, full.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “a strange thing to remember, the color of the grass— unless you were there, sitting in it, full.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "绿草",
+      "zh_poem": "你给他们一些吃的。\n与什么？\n去看看吧。\n\n五个面包。\n两条鱼。\n\n他让他们分组坐下\n绿色的草地上，\n就像花园里的床，\n\n他抬起头，祝福，破碎，\n并一直递下去。\n\n一件奇怪的事情要记住，\n草的颜色——\n\n除非你在场，\n坐在其中，\n满。",
+      "zh_reflectionPrompt": "慢慢地吸一口气，再读一遍最后一行：“草的颜色是一件奇怪的事情，除非你在那里，坐在里面，吃饱了。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“他命令他们，大家三五成群地坐在青草地上。”",
+      "zh_ref": "马可福音 6:37–42"
     },
     {
       "n": 19,
@@ -447,7 +549,12 @@
         "accent": "#fcf2dc"
       },
       "dailyWalkDay": 1098,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “she wasn't from Israel, and her little girl was suffering.” Looking through the lens of Mark 7:25–30, what does it mean to discover that “and she went home and found her daughter lying on the bed, free”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “she wasn't from Israel, and her little girl was suffering.” Looking through the lens of Mark 7:25–30, what does it mean to discover that “and she went home and found her daughter lying on the bed, free”?",
+      "zh_title": "面包屑",
+      "zh_poem": "她不是来自以色列，\n她的小女儿正在受苦。\n\n他的第一个答案\n听起来就像一扇关着的门。\n\n但她的手一直放在门闩上：\n是的，主啊。\n但即使是桌子底下的狗\n吃孩子们的面包屑。\n\n她不是要面包。\n她知道有多少面包\n从像他一样的桌子上掉下来。\n\n她回家了\n并找到了她的女儿\n躺在床上，\n免费。",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“她不是来自以色列，而她的小女儿正在受苦”的感觉。透过马可福音 7 章 25-30 节的视角，发现“她回家，发现女儿躺在床上，自由了”，这意味着什么？",
+      "zh_epigraph": "“然而，连桌子底下的狗也会吃孩子们的面包屑。”",
+      "zh_ref": "马可福音 7:25–30"
     },
     {
       "n": 20,
@@ -468,7 +575,12 @@
         "accent": "#d8cbaf"
       },
       "dailyWalkDay": 1099,
-      "reflectionPrompt": "Look closely at the quiet rhythm of your breath in this painting (Mark 7:32–35)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet rhythm of your breath in this painting (Mark 7:32–35)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "被打开",
+      "zh_poem": "他把那人拉到一边，\n远离人群。\n\n他仰望天堂\n并叹了口气。\n\n不是演讲。\n一声叹息，\n好像他感觉到\n所有沉默的重量。\n\n埃弗法塔。\n被打开。\n\n他听到，\n他说得很清楚。\n\n有时祈祷\n打开一切\n只是一个呼吸。",
+      "zh_reflectionPrompt": "仔细观察这幅画中你安静的呼吸节奏（马可福音7:32-35）——如果你今天可以在它旁边留下一个焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“他仰望天空，叹了口气”",
+      "zh_ref": "马可福音 7:32–35"
     },
     {
       "n": 21,
@@ -489,7 +601,12 @@
         "accent": "#f5ecdc"
       },
       "dailyWalkDay": 1100,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the deep roots of the tree: what quiet prayer rises in you when you read, “he doesn't mind touching you twice”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the deep roots of the tree: what quiet prayer rises in you when you read, “he doesn't mind touching you twice”?",
+      "zh_title": "树木行走",
+      "zh_poem": "你看到什么了吗？\n\n人们，那人说。\n但它们看起来像树，\n步行。\n\n半。\n\n耶稣没有责备他。\n他把手放在眼睛上\n再次，\n\n那人看上去很严肃，\n并且看清了所有人。\n\n如果你只看到\n至今仍处于模糊状态，\n这么说吧。\n\n他不介意\n触碰你两次。",
+      "zh_reflectionPrompt": "让你的目光停留在树根深处的笔触和光线上：当你读到“他不介意碰你两次”时，你内心会升起怎样的安静祈祷？",
+      "zh_epigraph": "“我看到了人；因为我看到他们就像行走的树木。”",
+      "zh_ref": "马可福音 8:23–25"
     },
     {
       "n": 22,
@@ -510,7 +627,12 @@
         "accent": "#ede5ce"
       },
       "dailyWalkDay": 1101,
-      "reflectionPrompt": "Linger with the movement in “who do you say” (Mark 8:29–34) from “Peter got it right” to “which is also, if you think about it, where followers walk”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “who do you say” (Mark 8:29–34) from “Peter got it right” to “which is also, if you think about it, where followers walk”—where do you find yourself along that arc today?",
+      "zh_title": "你说谁",
+      "zh_poem": "彼得说对了。\n你是基督。\n\n过了一会儿\n完全错了。\n\n当耶稣谈到苦难时，\n彼得把他拉到一边\n来纠正他。\n\n马克直接说：\n同一张嘴，\n同一条路，\n正确答案\n和错误的。\n\n到我身后，\n耶稣说。\n\n这也是\n如果你想一想\n追随者行走的地方。",
+      "zh_reflectionPrompt": "留心“你说谁”（马可福音 8：29-34）中从“彼得说得对”到“如果你想一想，这也是追随者行走的地方”的运动——今天你发现自己沿着这条弧线走在哪里？",
+      "zh_epigraph": "“但是你说我是谁？”",
+      "zh_ref": "马可福音 8:29–34"
     },
     {
       "n": 23,
@@ -531,7 +653,12 @@
         "accent": "#fcf2dc"
       },
       "dailyWalkDay": 1102,
-      "reflectionPrompt": "Notice how “help my unbelief” (Mark 9:22–27) arrives at: “a hand took the boy's, and he stood up.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “help my unbelief” (Mark 9:22–27) arrives at: “a hand took the boy's, and he stood up.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "帮助我的不信",
+      "zh_poem": "如果你能做任何事\n父亲说。\n\n如果可以的话？\n一切皆有可能\n给相信的人。\n\n父亲大声喊道\n含泪：\n我相信。\n帮助我的不信。\n\n一半信仰，一半恐惧，\n两人都大声说道。\n\n这就足够了。\n\n一只手握住了男孩的手，\n他站了起来。",
+      "zh_reflectionPrompt": "请注意“帮助我的不信”（马可福音 9：22-27）是如何实现的：“有一只手拉着男孩的手，他就站起来了。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“我相信。帮助我的不信！”",
+      "zh_ref": "马可福音 9:22–27"
     },
     {
       "n": 24,
@@ -552,7 +679,12 @@
         "accent": "#d4b78b"
       },
       "dailyWalkDay": 1103,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Mark 9:33–37: “if you want to be first, be last, be everyone's servant— and start with the smallest one in the room”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Mark 9:33–37: “if you want to be first, be last, be everyone's servant— and start with the smallest one in the room”?",
+      "zh_title": "在中间",
+      "zh_poem": "你们在争论什么\n在路上吗？\n\n沉默。\n他们一直在争论\n关于谁是最伟大的。\n\n他设置了一个小孩\n在他们中间，\n并将孩子抱在怀里。\n\n如果你想成为第一，\n成为最后一个，\n成为大家的仆人——\n\n并开始\n与最小的一个\n在房间里。",
+      "zh_reflectionPrompt": "如果今晚之前你记住的最重要的事情是马可福音 9 章 33-37 节的安静教训：“如果你想成为第一，就成为最后，成为每个人的仆人——从房间里最小的开始”，那又怎么样呢？",
+      "zh_epigraph": "“他带着一个小孩子，把他放在他们中间。”",
+      "zh_ref": "马可福音 9:33–37"
     },
     {
       "n": 25,
@@ -573,7 +705,12 @@
         "accent": "#f2e5bd"
       },
       "dailyWalkDay": 1104,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “loved him”: what hurry or noise in your week begins to fade when you hear, “the hard word was the love, speaking”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “loved him”: what hurry or noise in your week begins to fade when you hear, “the hard word was the love, speaking”?",
+      "zh_title": "爱他",
+      "zh_poem": "他跑了上去，\n跪在路边。\n我必须做什么？\n\n马克告诉我们，\n首先，\n耶稣看着他\n并爱他。\n\n然后是硬词：\n你缺少一件事。\n卖掉它。把它放弃。\n来，跟我来。\n\n他伤心地走了，\n因为他拥有这么多。\n\n爱是第一位的。\n很难的词\n是爱，在说话。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是“爱他”的安静中心：当你听到“最难的词是爱，说话”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“耶稣看着他就爱他”",
+      "zh_ref": "马可福音 10:17–22"
     },
     {
       "n": 26,
@@ -594,7 +731,12 @@
         "accent": "#ecdfc1"
       },
       "dailyWalkDay": 1105,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “when the time came, the places on his right and left were two crosses.” What part of your heart feels most searched or comforted by Mark 10:37–45 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “when the time came, the places on his right and left were two crosses.” What part of your heart feels most searched or comforted by Mark 10:37–45 right now?",
+      "zh_title": "右和左",
+      "zh_poem": "詹姆斯和约翰\n要求最好的座位，\n他右边的一个，\n他左边有一个。\n\n你能喝我的杯子吗？\n我们可以！\n\n人子告诉他们，\n没有得到服务\n但为了服务，\n并献出自己的生命\n对于很多人来说。\n\n他们想要这些地方\n宝座旁边。\n\n当时间到了，\n他右边和左边的地方\n有两个十字架。",
+      "zh_reflectionPrompt": "在寂静中大声念出结束语：“到了时候，他的左右各有两个十字架。”现在，马可福音 10 章 37-45 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“因为人子来，并不是要受人的服事，而是要服事人”",
+      "zh_ref": "马可福音 10:37–45"
     },
     {
       "n": 27,
@@ -615,7 +757,12 @@
         "accent": "#ebddbf"
       },
       "dailyWalkDay": 1106,
-      "reflectionPrompt": "In Mark 10:46–52, grace meets us right beside the warm cloak: how does the closing thought—“and the first road he saw, he followed him on”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Mark 10:46–52, grace meets us right beside the warm cloak: how does the closing thought—“and the first road he saw, he followed him on”—steady your footing for the road ahead?",
+      "zh_title": "斗篷",
+      "zh_poem": "大卫的儿子，\n怜悯我吧！\n\n安静点，他们说。\n他喊得更大声。\n\n耶稣站着不动。\n打电话给他。\n\n所以巴底买\n脱下了斗篷，\n也许他拥有的一切，\n并一跃而起，\n仍然盲目，\n朝着一个声音。\n\n你想要什么？\n再次见到。\n\n他看到的第一条路，\n他跟着他走。",
+      "zh_reflectionPrompt": "在马可福音 10 章 46-52 节中，恩典就在温暖的外衣旁边与我们相遇：最后的思想——“他看见第一条路，就跟着他走”——如何为你前面的路站稳脚跟？",
+      "zh_epigraph": "“他丢下外衣，跳起来，到耶稣那里去。”",
+      "zh_ref": "马可福音 10:46–52"
     },
     {
       "n": 28,
@@ -636,7 +783,12 @@
         "accent": "#ebe0c3"
       },
       "dailyWalkDay": 1107,
-      "reflectionPrompt": "If today’s painting of “the Lord needs him” (Mark 11:2–6) hung beside the door you walk out of this morning, how would its final line—“he knows the street. he knows the door”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the Lord needs him” (Mark 11:2–6) hung beside the door you walk out of this morning, how would its final line—“he knows the street. he knows the door”—shape your choices?",
+      "zh_title": "主需要他",
+      "zh_poem": "一匹年轻的小马驹\n被门拴着。\n从来没有人坐在他身上。\n\n你在干什么？\n主需要他。\n\n这就足够了。\n\n只是借来的动物，\n绑起来，等待，\n在故事中占有一席之地\n他对此一无所知。\n\n你可能被绑在门柱上\n某处，等待。\n\n他熟悉这条街。\n他认识那扇门。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“主需要他”（马可福音 11:2-6）的画，那么它的最后一行——“他认识那条街。他认识那扇门”——会如何影响你的选择？",
+      "zh_epigraph": "“主需要他”",
+      "zh_ref": "马可福音 11:2–6"
     },
     {
       "n": 29,
@@ -657,7 +809,12 @@
         "accent": "#e6cfa5"
       },
       "dailyWalkDay": 1108,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Mark 12:41–44)—where in your own home or work today does “not how much. how much is left” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Mark 12:41–44)—where in your own home or work today does “not how much. how much is left” ring true?",
+      "zh_title": "他坐着看着",
+      "zh_poem": "他坐下来\n奉献箱对面\n并观看了。\n\n有钱人。\n沉重的一把。\n\n一名寡妇。\n两个小硬币。\n\n他还在看着。\n\n不是多少。\n还剩下多少。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（马可福音 12:41-44）——今天在你自己的家里或工作场所，“不是有多少，还剩下多少”听起来是真实的吗？",
+      "zh_epigraph": "“她出于贫困，奉献了她赖以生存的一切。”",
+      "zh_ref": "马可福音 12:41–44"
     },
     {
       "n": 30,
@@ -678,7 +835,12 @@
         "accent": "#e5d8bc"
       },
       "dailyWalkDay": 1109,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “wherever the good news goes, he said, her story will go too. and here it is.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “wherever the good news goes, he said, her story will go too. and here it is.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "破开",
+      "zh_poem": "她没有倒一点\n并保存其余的。\n她打破了罐子。\n\n无法关闭它\n之后。\n\n多么浪费，\n有人嘀咕道。\n\n别管她了。\n她已经做了她能做的。\n她膏抹了我的身体\n为了埋葬。\n\n好消息传到哪里，\n他说，\n她的故事也会流传。\n\n就是这样。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“他说，无论好消息传到哪里，她的故事也会传到哪里。就是这里。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“她打破了罐子，把它倒在了他的头上。”",
+      "zh_ref": "马可福音 14:3–9"
     },
     {
       "n": 31,
@@ -699,7 +861,12 @@
         "accent": "#f6f6e5"
       },
       "dailyWalkDay": 1110,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “he had told a father, all things are possible.” Looking through the lens of Mark 14:35–38, what does it mean to discover that “he prayed the hardest prayer alone, and still called God by the closest name”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “he had told a father, all things are possible.” Looking through the lens of Mark 14:35–38, what does it mean to discover that “he prayed the hardest prayer alone, and still called God by the closest name”?",
+      "zh_title": "阿爸",
+      "zh_poem": "他曾告诉一位父亲，\n一切皆有可能。\n\n现在，倒在地上，\n他自己说：\n\n阿爸。\n对你来说一切皆有可能。\n把这个杯子从我身边拿走。\n\n然后，\n依然紧紧抓住阿爸，\n不是我想要的。\n你想要什么。\n\n有点远,\n他的朋友们正在睡觉。\n\n他独自做了最艰难的祈祷，\n并仍称上帝为上帝\n按最接近的名字。",
+      "zh_reflectionPrompt": "回想一下某个季节，你体会到“他告诉父亲，一切皆有可能”的感觉。透过马可福音 14 章 35-38 节的视角，我们会发现“他独自作了最难的祷告，却仍用最亲近的名称呼神”，这意味着什么？",
+      "zh_epigraph": "“阿爸，天父，在你凡事都能。”",
+      "zh_ref": "马可福音 14:35–38"
     },
     {
       "n": 32,
@@ -720,7 +887,12 @@
         "accent": "#e7dec9"
       },
       "dailyWalkDay": 1111,
-      "reflectionPrompt": "Look closely at the rolled-away stone at the garden tomb in this painting (Mark 14:50–52)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the rolled-away stone at the garden tomb in this painting (Mark 14:50–52)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "亚麻布",
+      "zh_poem": "他们都离开他逃跑了。\n马克说得直白。\n全部。\n\n然后还有一个：\n一个年轻人\n仅用亚麻布包裹，\n谁从中溜了出来\n当他们抓住他时\n然后跑进了黑暗。\n\n下次马克提到亚麻布时，\n它将缠绕耶稣。\n\n我们遇到的下一个年轻人\n将坐在坟墓里\n白色，\n根本不运行。",
+      "zh_reflectionPrompt": "仔细观察这幅画中花园坟墓中滚开的石头（马可福音 14：50-52）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“他丢下麻布就逃走了”",
+      "zh_ref": "马可福音 14:50–52"
     },
     {
       "n": 33,
@@ -741,7 +913,12 @@
         "accent": "#fcedca"
       },
       "dailyWalkDay": 1112,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the rolled-away stone at the garden tomb: what quiet prayer rises in you when you read, “you'll need it at the empty tomb”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the rolled-away stone at the garden tomb: what quiet prayer rises in you when you read, “you'll need it at the empty tomb”?",
+      "zh_title": "第二只乌鸦",
+      "zh_poem": "他远远地跟在后面，\n一直进入庭院——\n比其他人走得更远。\n\n一个女仆：\n你和他在一起。\n\n我不认识这个人。\n一次，两次，三次。\n\n公鸡第二次叫了，\n彼得想起来了。\n\n马克没有打扮：\n当他想到这一点时，\n他哭了。\n\n保留那张照片。\n你会需要它\n在空坟墓处。",
+      "zh_reflectionPrompt": "让你的目光停留在花园坟墓上滚石周围的笔触和光线上：当你读到“空坟墓时你会需要它”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“当他想到这一点时，他哭了。”",
+      "zh_ref": "马可福音 14:66–72"
     },
     {
       "n": 34,
@@ -762,7 +939,12 @@
         "accent": "#fdf1cd"
       },
       "dailyWalkDay": 1113,
-      "reflectionPrompt": "Linger with the movement in “truly” (Mark 15:37–39) from “at the beginning of the book the sky was torn open” to “it was the soldier standing opposite him, who watched how he died”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “truly” (Mark 15:37–39) from “at the beginning of the book the sky was torn open” to “it was the soldier standing opposite him, who watched how he died”—where do you find yourself along that arc today?",
+      "zh_title": "确实",
+      "zh_poem": "在书的开头\n天空被撕裂了。\n\n现在，\n当耶稣咽下最后一口气时，\n寺庙的帷幕\n撕成两半，\n从顶部\n到底部。\n\n从天堂的一侧撕裂。\n\n以及马克的第一个人类声音\n大声说出来——\n这个人是神的儿子——\n\n不是十二人之一。\n他们走了。\n\n是那个士兵\n站在他对面，\n谁看了\n他是怎么死的。",
+      "zh_reflectionPrompt": "留心“真正”（马可福音 15：37-39）中的动作，从“在书的开头，天被撕裂”到“站在他对面的士兵，看着他如何死去”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“这个人真是神的儿子！”",
+      "zh_ref": "马可福音 15:37–39"
     },
     {
       "n": 35,
@@ -783,7 +965,12 @@
         "accent": "#fddc8a"
       },
       "dailyWalkDay": 1114,
-      "reflectionPrompt": "Notice how “and Peter” (Mark 16:5–7) arrives at: “on purpose. there you will see him.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “and Peter” (Mark 16:5–7) arrives at: “on purpose. there you will see him.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "和彼得",
+      "zh_poem": "他已经站起来了。\n他不在这里。\n\n然后消息，\n用两个字\n没有其他人会添加：\n\n去告诉他的门徒——\n和彼得。\n\n发誓的人\n他不认识这个人。\n那个在火边哭泣的人。\n\n命名。\n故意。\n\n他走在你前面\n进入加利利。\n在那里你会看到他。",
+      "zh_reflectionPrompt": "请注意“和彼得”（马可福音 16：5-7）如何到达：“故意的。在那里你会见到他。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“去告诉他的门徒和彼得”",
+      "zh_ref": "马可福音 16:5–7"
     },
     {
       "n": 36,
@@ -804,7 +991,15 @@
         "accent": "#f2e2b1"
       },
       "dailyWalkDay": 1115,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Mark 16:8: “it ends with whoever tells it next”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Mark 16:8: “it ends with whoever tells it next”?",
+      "zh_title": "因为他们害怕",
+      "zh_poem": "许多最古老的马可福音副本\n就在这里结束：\n\n他们什么也没对任何人说，\n因为他们害怕了。\n\n上面没有弓。\n只有三个女人，\n心扑通扑通跳，\n掌握世界上最大的新闻\n在他们的嘴里。\n\n但你知道。\n你听说过。\n\n所以在某个地方，在颤抖之后，\n有人说话了。\n\n故事并没有结束\n随着沉默。\n无论谁都会结束\n接下来告诉它。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是马可福音 16 章 8 节的安静教训：“下一个讲述的人就结束了”怎么办？",
+      "zh_epigraph": "“他们什么也没对任何人说；因为他们害怕。”",
+      "zh_ref": "马可福音 16:8"
     }
-  ]
+  ],
+  "zh_title": "住了吧！静了吧！",
+  "zh_subtitle": "马可福音诗画集",
+  "zh_beforeYouBegin": "马克以荒野中的呼喊声和撕裂的天空开始，然后一切立即发生：海岸上撒下网，发烧消失，麻风病人被触摸，暴风雨平静下来，一个女孩被告知起床并给了一些东西吃。他的朋友们误解、争吵、睡着、然后逃跑。故事以一座空坟墓结束，向门徒和彼得以及三个害怕得一句话也说不出来的女人传达了信息。\n\n本书分为四部分，共三十六首短诗。每首诗都位于一幅画旁边和一行经文之下。这些图片与故事所涉及的事物保持一致——岸上的一张网、船上的垫子、一个破罐子、花园小路上的一块亚麻布——并将面孔留给你想象。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这本书旁边的《马可福音》，让真实的话语成为最后的话语。"
 }

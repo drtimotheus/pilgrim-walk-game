@@ -16,7 +16,10 @@
       "epigraph": "you turned to God from idols, to serve a living and true God",
       "epigraphRef": "1 Thessalonians 1:9",
       "lightName": "Light of Turned from Idols",
-      "lightHint": "Near 'three things remembered' (1 Thessalonians 1:2–3) in Part 1: Turned from Idols"
+      "lightHint": "Near 'three things remembered' (1 Thessalonians 1:2–3) in Part 1: Turned from Idols",
+      "zh_title": "离弃偶像归向神",
+      "zh_epigraph": "你们怎样离弃偶像，归向神，要服事那又真又活的神",
+      "zh_epigraphRef": "帖撒罗尼迦前书 1:9"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "For you are our glory and our joy.",
       "epigraphRef": "1 Thessalonians 2:20",
       "lightName": "Light of Our Glory and Our Joy",
-      "lightHint": "Near 'night and day' (1 Thessalonians 2:9) in Part 2: Our Glory and Our Joy"
+      "lightHint": "Near 'night and day' (1 Thessalonians 2:9) in Part 2: Our Glory and Our Joy",
+      "zh_title": "我们的荣耀和喜乐",
+      "zh_epigraph": "因为你们就是我们的荣耀，我们的喜乐。",
+      "zh_epigraphRef": "帖撒罗尼迦前书 2:20"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Y ou are all children of light and children of the day.",
       "epigraphRef": "1 Thessalonians 5:5",
       "lightName": "Light of Children of the Day",
-      "lightHint": "Near 'not like the rest' (1 Thessalonians 4:13) in Part 3: Children of the Day"
+      "lightHint": "Near 'not like the rest' (1 Thessalonians 4:13) in Part 3: Children of the Day",
+      "zh_title": "光明之子",
+      "zh_epigraph": "你们都是光明之子，都是白昼之子。",
+      "zh_epigraphRef": "帖撒罗尼迦前书 5:5"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "So then, brothers, stand firm and hold the traditions which you were taught by us",
       "epigraphRef": "2 Thessalonians 2:15",
       "lightName": "Light of Stand Firm",
-      "lightHint": "Near 'growing' (2 Thessalonians 1:3) in Part 4: Stand Firm"
+      "lightHint": "Near 'growing' (2 Thessalonians 1:3) in Part 4: Stand Firm",
+      "zh_title": "站立得稳",
+      "zh_epigraph": "弟兄们，你们要站立得稳，凡所领受的教训，都要坚守",
+      "zh_epigraphRef": "帖撒罗尼迦后书 2:15"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "But you, brothers, don’t be weary in doing what is right.",
       "epigraphRef": "2 Thessalonians 3:13",
       "lightName": "Light of Don't Grow Weary",
-      "lightHint": "Near 'that the word may run' (2 Thessalonians 3:1) in Part 5: Don't Grow Weary"
+      "lightHint": "Near 'that the word may run' (2 Thessalonians 3:1) in Part 5: Don't Grow Weary",
+      "zh_title": "行善不可丧志",
+      "zh_epigraph": "弟兄们，你们行善不可丧志。",
+      "zh_epigraphRef": "帖撒罗尼迦后书 3:13"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#e1aa5d"
       },
       "dailyWalkDay": 1372,
-      "reflectionPrompt": "Notice how “three things remembered” (1 Thessalonians 1:2–3) arrives at: “someone may be praying yours right now.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “three things remembered” (1 Thessalonians 1:2–3) arrives at: “someone may be praying yours right now.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "记念的三件事",
+      "zh_poem": "保罗最先记起的，\n并非他们的教义。\n\n他记起的是：\n他们的信心亲手做出的工夫，\n他们的爱心\n为何而疲惫，\n他们的盼望\n在重压下依然挺立。\n\n做工的信心。\n劳苦的爱心。\n坚忍的盼望。\n\n他把这一切化作祷告献回给神，\n如同数算一份份微小的礼物。\n\n也许此刻，\n正有人在为你这样祷告。",
+      "zh_reflectionPrompt": "留意《记念的三件事》（帖撒罗尼迦前书 1:2–3）如何落脚于：“也许此刻，正有人在为你这样祷告。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“因信心所做的工夫，因爱心所受的劳苦，因盼望所存的忍耐”",
+      "zh_ref": "帖撒罗尼迦前书 1:2–3"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#e6c47b"
       },
       "dailyWalkDay": 1373,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Thessalonians 1:5: “but something else came through the door with them, the way warmth comes in with bread, the way a room changes when the one you've waited for steps inside”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Thessalonians 1:5: “but something else came through the door with them, the way warmth comes in with bread, the way a room changes when the one you've waited for steps inside”?",
+      "zh_title": "不独在乎言语",
+      "zh_poem": "言语总是先到。\n向来如此。\n\n但另有一样东西\n随言语一同进门，\n\n就像温暖\n随新烤的饼一同进来，\n\n就像你久候的人\n迈步进屋时，\n整个房间都变了样。",
+      "zh_reflectionPrompt": "如果在今晚入睡前，你最需要记住的是帖撒罗尼迦前书 1:5 那安静的启示：“但另有一样东西随言语一同进门，就像温暖随新烤的饼一同进来，就像你久候的人迈步进屋时，整个房间都变了样”——这会带给你怎样的安慰？",
+      "zh_epigraph": "“因为我们的福音传到你们那里，不独在乎言语，也在乎权能”",
+      "zh_ref": "帖撒罗尼迦前书 1:5"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#f3beb6"
       },
       "dailyWalkDay": 1374,
-      "reflectionPrompt": "Imagine standing inside this frame beside the stones of the wall: what hurry or noise in your week begins to fade when you hear, “and still there was joy, not instead of the trouble but right there inside it, a flower in the crack of the wall that was supposed to keep it out”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the stones of the wall: what hurry or noise in your week begins to fade when you hear, “and still there was joy, not instead of the trouble but right there inside it, a flower in the crack of the wall that was supposed to keep it out”?",
+      "zh_title": "在大难中满有喜乐",
+      "zh_poem": "他们没有等到\n更好的时节\n才去相信。\n\n重压与好消息\n在同一个星期\n一同临到。\n\n然而\n仍有喜乐，\n不是取代了患难，\n而是就在患难之中，\n\n如同一朵小花，\n开在那堵本想将它拒之门外的\n墙缝里。",
+      "zh_reflectionPrompt": "想象自己站在这幅画框里、靠着石墙：当你听见“然而仍有喜乐，不是取代了患难，而是就在患难之中，如同一朵小花，开在那堵本想将它拒之门外的墙缝里”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“在大难之中，蒙了圣灵所赐的喜乐，领受真道”",
+      "zh_ref": "帖撒罗尼迦前书 1:6"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#fef3d5"
       },
       "dailyWalkDay": 1375,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “a changed life doesn't need a messenger.” What part of your heart feels most searched or comforted by 1 Thessalonians 1:8 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “a changed life doesn't need a messenger.” What part of your heart feels most searched or comforted by 1 Thessalonians 1:8 right now?",
+      "zh_title": "从你们那里传扬出去",
+      "zh_poem": "没有人策划过一场传道运动。\n\n一个水手告诉了一个商人。\n一个商人告诉了\n另一座城里的妻子。\n\n出城的道路\n运载着橄榄油与羊毛，\n也运载着一件新事。\n\n无论保罗下一站去哪里，\n那里的人早已听闻。\n\n被改变的生命，\n不需要\n信使。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“被改变的生命，不需要信使。”此刻，帖撒罗尼迦前书 1:8 最触动或最安慰你内心的是哪一部分？",
+      "zh_epigraph": "“因为主的道从你们那里已经传扬出来”",
+      "zh_ref": "帖撒罗尼迦前书 1:8"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#f7e9c3"
       },
       "dailyWalkDay": 1376,
-      "reflectionPrompt": "In 1 Thessalonians 1:9, grace meets us right beside the stones of the wall: how does the closing thought—“from things that stay where you set them to a God who is alive, and true, and moves toward you”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 1 Thessalonians 1:9, grace meets us right beside the stones of the wall: how does the closing thought—“from things that stay where you set them to a God who is alive, and true, and moves toward you”—steady your footing for the road ahead?",
+      "zh_title": "归向",
+      "zh_poem": "墙龛里的小神像\n什么也听不见。\n除了掸灰，\n它什么也不需要。\n\n他们转离了\n自己曾抬着的偶像，\n归向那位\n背负他们的主。\n\n离开那些\n放在哪里就停在哪里的死物，\n\n归向一位\n又活、\n又真、\n并且向你走来的神。",
+      "zh_reflectionPrompt": "在帖撒罗尼迦前书 1:9 中，恩典就在石墙旁与我们相遇：结尾的深思——“离开那些放在哪里就停在哪里的死物，归向一位又活、又真、并且向你走来的神”——如何为你前面的道路稳住脚步？",
+      "zh_epigraph": "“你们怎样离弃偶像，归向神，要服事那又真又活的神”",
+      "zh_ref": "帖撒罗尼迦前书 1:9"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#fbdabf"
       },
       "dailyWalkDay": 1377,
-      "reflectionPrompt": "If today’s painting of “and to wait” (1 Thessalonians 1:10) hung beside the door you walk out of this morning, how would its final line—“the waiting of someone who has heard footsteps on the road and knows whose they are”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “and to wait” (1 Thessalonians 1:10) hung beside the door you walk out of this morning, how would its final line—“the waiting of someone who has heard footsteps on the road and knows whose they are”—shape your choices?",
+      "zh_title": "并且等候",
+      "zh_poem": "回转，只是前半程。\n\n后半程，\n是等候。\n\n不是在车站里\n那种无聊的等待。\n\n而是听见路上\n传来脚步声，\n\n并且清楚知道\n那是谁的脚步。",
+      "zh_reflectionPrompt": "如果今天这幅《并且等候》（帖撒罗尼迦前书 1:10）就挂在你清晨出门的门旁，它最后那句——“而是听见路上传来脚步声，并且清楚知道那是谁的脚步”——会如何塑造你今天的选择？",
+      "zh_epigraph": "“等候他儿子从天降临，就是他从死里复活的”",
+      "zh_ref": "帖撒罗尼迦前书 1:10"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#e9bb65"
       },
       "dailyWalkDay": 1378,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 Thessalonians 2:2)—where in your own home or work today does “it was something they grew, in God, the way a bruise heals from the inside” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 Thessalonians 2:2)—where in your own home or work today does “it was something they grew, in God, the way a bruise heals from the inside” ring true?",
+      "zh_title": "腓立比之后的放胆",
+      "zh_poem": "他们进城时，\n身上还带着\n上一座城留下的\n伤痕。\n\n任何通情达理的人\n都会暂时\n保持沉默。\n\n但胆量\n不是他们自己\n拥有的东西。\n\n而是在神里面\n生长出来的，\n\n就像淤伤\n从内里渐渐愈合。",
+      "zh_reflectionPrompt": "天路同行的每一站都向我们显明，神如何在平凡之处与我们相遇（帖撒罗尼迦前书 2:2）——今天在你的家中或工作里，哪一处让你深感“而是在神里面生长出来的，就像淤伤从内里渐渐愈合”的真实？",
+      "zh_epigraph": "“在大争战中，靠着我们的神放开胆量，把神的福音传给你们”",
+      "zh_ref": "帖撒罗尼迦前书 2:2"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#f1af7d"
       },
       "dailyWalkDay": 1379,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “this is what the good news looked like in Thessalonica.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “this is what the good news looked like in Thessalonica.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "如同乳母",
+      "zh_poem": "他本可以带着头衔\n走进他们中间。\n\n但他却挑选了\n他所知道最温柔的画面：\n\n夜里的母亲，\n把所爱的孩子\n紧紧搂在温暖的怀中，\n\n从不追问\n这孩子将来能回报什么。\n\n这就是福音\n在帖撒罗尼迦\n呈现出的模样。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“这就是福音在帖撒罗尼迦呈现出的模样。”如果你带着这份真理走入接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“只在你们中间存心温柔，如同母亲乳养自己的孩子。”",
+      "zh_ref": "帖撒罗尼迦前书 2:7"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#eed5a8"
       },
       "dailyWalkDay": 1380,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “you can hand someone a message and keep your distance.” Looking through the lens of 1 Thessalonians 2:8, what does it mean to discover that “you sit down and break yours”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “you can hand someone a message and keep your distance.” Looking through the lens of 1 Thessalonians 2:8, what does it mean to discover that “you sit down and break yours”?",
+      "zh_title": "连自己的性命",
+      "zh_poem": "你可以只递给别人一封信，\n却保持距离。\n\n保罗没有这样。\n\n他传了福音，\n又把自己\n一同给了出去，\n\n就像你不会只告诉\n饥饿的朋友\n饼在哪里。\n\n你会坐下来，\n擘开自己手中的饼。",
+      "zh_reflectionPrompt": "回想一段你曾体会过“你可以只递给别人一封信，却保持距离”的时光。透过帖撒罗尼迦前书 2:8 的眼光，发现“你会坐下来，擘开自己手中的饼”对你意味着什么？",
+      "zh_epigraph": "“不单愿意将神的福音给你们，连自己的性命也愿意给你们”",
+      "zh_ref": "帖撒罗尼迦前书 2:8"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#e7c48a"
       },
       "dailyWalkDay": 1381,
-      "reflectionPrompt": "Look closely at the daily loaf broken in the hand in this painting (1 Thessalonians 2:9)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the daily loaf broken in the hand in this painting (1 Thessalonians 2:9)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "昼夜做工",
+      "zh_poem": "白日里，是穿针\n与厚重的粗布。\n\n灯光下，仍是穿针，\n仍是粗布。\n\n还有福音，\n传给每一个\n停下来交谈的人。\n\n他不愿任何人\n猜疑\n他究竟图谋什么。\n\n所以他自己挣钱\n买自己的饼，\n\n却把自己最好的，\n白白送给众人。",
+      "zh_reflectionPrompt": "细看这幅画中手中擘开的日用之饼（帖撒罗尼迦前书 2:9）——如果今天你可以把一件焦虑的重担放在它旁边，你会放下什么？",
+      "zh_epigraph": "“昼夜做工，免得叫你们一人受累”",
+      "zh_ref": "帖撒罗尼迦前书 2:9"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#f1d8b6"
       },
       "dailyWalkDay": 1382,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around your own two hands: what quiet prayer rises in you when you read, “a hand around your hand on the path, until one day you know the way yourself”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around your own two hands: what quiet prayer rises in you when you read, “a hand around your hand on the path, until one day you know the way yourself”?",
+      "zh_title": "如同父亲",
+      "zh_poem": "先是母亲，\n再是父亲。\n\n保罗需要这两个比喻\n才能把话说尽：\n\n温柔得足以怀抱，\n坚定得足以指明：\n当走这条路。\n\n劝勉，\n安慰，\n嘱咐。\n\n在路上\n握住你的手，\n直到有一天，\n你自己认得那条路。",
+      "zh_reflectionPrompt": "让目光停留在画中围绕着双手的笔触与光线：当你读到“在路上握住你的手，直到有一天，你自己认得那条路”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“待你们每一个人，好像父亲待自己的儿女一样”",
+      "zh_ref": "帖撒罗尼迦前书 2:11–12"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#e8decb"
       },
       "dailyWalkDay": 1383,
-      "reflectionPrompt": "Linger with the movement in “you are our joy” (1 Thessalonians 2:19–20) from “the athletes of his day ran for a crown of leaves” to “Paul looked at a room of workers and neighbors and former idol-keepers and said, there it is. that's my crown”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “you are our joy” (1 Thessalonians 2:19–20) from “the athletes of his day ran for a crown of leaves” to “Paul looked at a room of workers and neighbors and former idol-keepers and said, there it is. that's my crown”—where do you find yourself along that arc today?",
+      "zh_title": "你们就是我们的喜乐",
+      "zh_poem": "他那个年代的赛跑者，\n奔跑是为了赢取\n一顶树叶编的冠冕。\n\n保罗望着一屋子\n工匠、邻舍、\n和从前拜偶像的人，\n\n说道：\n就在这里了。\n\n这就是我的冠冕。",
+      "zh_reflectionPrompt": "在《你们就是我们的喜乐》（帖撒罗尼迦前书 2:19–20）中细细品味那份转折——从“他那个年代的赛跑者，奔跑是为了赢取一顶树叶编的冠冕”到“保罗望着一屋子工匠、邻舍、和从前拜偶像的人，说道：就在这里了。这就是我的冠冕”——今天你发现自己处在这段弧线的哪个位置？",
+      "zh_epigraph": "“因为你们就是我们的荣耀，我们的喜乐。”",
+      "zh_ref": "帖撒罗尼迦前书 2:19–20"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#e2dac2"
       },
       "dailyWalkDay": 1384,
-      "reflectionPrompt": "Notice how “alone at Athens” (1 Thessalonians 3:1–2) arrives at: “love sometimes looks like choosing to be the lonely one so someone else can be held.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “alone at Athens” (1 Thessalonians 3:1–2) arrives at: “love sometimes looks like choosing to be the lonely one so someone else can be held.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "独自留在雅典",
+      "zh_poem": "他本可以把提摩太留在身边，\n在陌生的城里\n作个伴。\n\n但他却打发他\n顺着大路回去，\n回到那些\n他自己无法抵达的人身边。\n\n爱，有时看起来\n就是选择\n作那个孤单留下的人，\n\n好让另一个人\n得着扶持。",
+      "zh_reflectionPrompt": "留意《独自留在雅典》（帖撒罗尼迦前书 3:1–2）如何落脚于：“爱，有时看起来就是选择作那个孤单留下的人，好让另一个人得着扶持。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“就愿意独自等在雅典”",
+      "zh_ref": "帖撒罗尼迦前书 3:1–2"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#fade8e"
       },
       "dailyWalkDay": 1385,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Thessalonians 3:6–8: “and the tired old apostle said the most honest thing: now we live”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Thessalonians 3:6–8: “and the tired old apostle said the most honest thing: now we live”?",
+      "zh_title": "如今我们就活了",
+      "zh_poem": "那好几个星期，\n保罗无从得知。\n\n患难是否已将他们\n磨垮？\n他们是否已经放手？\n\n随后提摩太\n满身风尘地从路上归来，\n带回好消息：\n\n他们站立得稳。\n他们想念你。\n\n这位疲惫的老使徒\n说出了最诚实的一句话：\n\n如今我们就活了。",
+      "zh_reflectionPrompt": "如果在今晚入睡前，你最需要记住的是帖撒罗尼迦前书 3:6–8 那安静的启示：“这位疲惫的老使徒说出了最诚实的一句话：如今我们就活了”——这会带给你怎样的看见？",
+      "zh_epigraph": "“你们若靠主站立得稳，我们就活了。”",
+      "zh_ref": "帖撒罗尼迦前书 3:6–8"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#ddcfad"
       },
       "dailyWalkDay": 1386,
-      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “a cup filled past the rim, spilling toward each other, and then out the door, toward all”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “a cup filled past the rim, spilling toward each other, and then out the door, toward all”?",
+      "zh_title": "满溢",
+      "zh_poem": "他没有只求\n他们的爱心\n够用就好。\n\n他祈求那爱\n满溢出来。\n\n像一只杯子\n注满越过杯沿，\n\n先流向彼此，\n再流出门外，\n\n流向众人。",
+      "zh_reflectionPrompt": "想象自己站在这幅画框里、守在敞开的门槛旁：当你听见“像一只杯子注满越过杯沿，先流向彼此，再流出门外，流向众人”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“愿主叫你们彼此相爱的心，并爱众人的心，都能增长、充足”",
+      "zh_ref": "帖撒罗尼迦前书 3:12"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#f3e6c9"
       },
       "dailyWalkDay": 1387,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “holiness can look like this.” What part of your heart feels most searched or comforted by 1 Thessalonians 4:11–12 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “holiness can look like this.” What part of your heart feels most searched or comforted by 1 Thessalonians 4:11–12 right now?",
+      "zh_title": "亲手做工",
+      "zh_poem": "不是最喧哗的生活，\n也不是最宏大的。\n\n只是安静的生活。\n\n把自己的事\n做好。\n让自己的双手\n带着踏实的疲惫。\n\n保罗说，要立志，\n但志向却落得很低、\n很近：\n\n一台织机，\n一张饭桌，\n一个从不怀疑你是否诚实的\n邻舍。\n\n圣洁，\n也可以是这般模样。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“圣洁，也可以是这般模样。”此刻，帖撒罗尼迦前书 4:11–12 最触动或最安慰你内心的是哪一部分？",
+      "zh_epigraph": "“又要立志作安静人，办自己的事，亲手做工”",
+      "zh_ref": "帖撒罗尼迦前书 4:11–12"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#f7dda2"
       },
       "dailyWalkDay": 1388,
-      "reflectionPrompt": "In 1 Thessalonians 4:13, grace meets us right beside the open threshold: how does the closing thought—“cry with the door left open”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 1 Thessalonians 4:13, grace meets us right beside the open threshold: how does the closing thought—“cry with the door left open”—steady your footing for the road ahead?",
+      "zh_title": "不像其余的人",
+      "zh_poem": "保罗并没有说：\n不要忧伤。\n\n他比谁都明白，\n眼泪是被允许的。\n\n他说的是：\n不要忧伤得\n仿佛再也没有清晨。\n\n流泪吧，\n但把门\n敞开着。",
+      "zh_reflectionPrompt": "在帖撒罗尼迦前书 4:13 中，恩典就在敞开的门槛旁与我们相遇：结尾的深思——“流泪吧，但把门敞开着”——如何为你前面的道路稳住脚步？",
+      "zh_epigraph": "“免得你们忧伤，像那些没有指望的人一样”",
+      "zh_ref": "帖撒罗尼迦前书 4:13"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#eff0ec"
       },
       "dailyWalkDay": 1389,
-      "reflectionPrompt": "If today’s painting of “fallen asleep” (1 Thessalonians 4:14) hung beside the door you walk out of this morning, how would its final line—“the word you use for someone you expect to see at breakfast”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “fallen asleep” (1 Thessalonians 4:14) hung beside the door you walk out of this morning, how would its final line—“the word you use for someone you expect to see at breakfast”—shape your choices?",
+      "zh_title": "睡了的人",
+      "zh_poem": "教会用一个词\n称呼他们所失去的人。\n\n不是走了。\n不是完了。\n\n而是睡了。\n\n那是你用来形容\n一个你深知明早早餐时\n还会再见之人的词。",
+      "zh_reflectionPrompt": "如果今天这幅《睡了的人》（帖撒罗尼迦前书 4:14）就挂在你清晨出门的门旁，它最后那句——“那是你用来形容一个你深知明早早餐时还会再见之人的词”——会如何塑造你今天的选择？",
+      "zh_epigraph": "“那已经在耶稣里睡了的人，神也必将他与耶稣一同带来”",
+      "zh_ref": "帖撒罗尼迦前书 4:14"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#f6ecd4"
       },
       "dailyWalkDay": 1390,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 Thessalonians 4:16–17)—where in your own home or work today does “with each other. not for a visit. forever” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 Thessalonians 4:16–17)—where in your own home or work today does “with each other. not for a visit. forever” ring true?",
+      "zh_title": "永远同在",
+      "zh_poem": "一声呼叫。\n一声号角。\n那睡了的人先起来，\n\n随后其余的人\n被一同\n招聚。\n\n我们不知道\n具体如何发生。\n保罗也没有假装知道。\n\n他只是告诉他们\n故事的结局在哪里：\n\n与主同在。\n彼此同在。\n\n不是短暂作客，\n\n乃是永远。",
+      "zh_reflectionPrompt": "天路同行的每一站都向我们显明，神如何在平凡之处与我们相遇（帖撒罗尼迦前书 4:16–17）——今天在你的家中或工作里，哪一处让你深感“彼此同在。不是短暂作客，乃是永远”的真实？",
+      "zh_epigraph": "“这样，我们就要和主永远同在。”",
+      "zh_ref": "帖撒罗尼迦前书 4:16–17"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#f0e5cb"
       },
       "dailyWalkDay": 1391,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “hold a hand. that's what it's for.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “hold a hand. that's what it's for.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "彼此劝慰",
+      "zh_poem": "他写下这些，\n不是为了赢一场\n关于末世的争论。\n\n他写下来，\n是为了让某个人\n能在墓旁轻声念出。\n\n读出声来吧。\n握住一双手。\n\n这些话，\n正是为此而写的。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“握住一双手。这些话，正是为此而写的。”如果你带着这份真理走入接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“所以，你们当用这些话彼此劝慰。”",
+      "zh_ref": "帖撒罗尼迦前书 4:18"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#e5b872"
       },
       "dailyWalkDay": 1392,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “a thief comes to people who are asleep with the lights out.” Looking through the lens of 1 Thessalonians 5:4–5, what does it mean to discover that “you're expecting someone you love”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “a thief comes to people who are asleep with the lights out.” Looking through the lens of 1 Thessalonians 5:4–5, what does it mean to discover that “you're expecting someone you love”?",
+      "zh_title": "夜间的贼",
+      "zh_poem": "贼临到，\n是趁人熄了灯、\n沉睡的时候。\n\n但保罗说，\n你们却是\n白昼之子。\n\n黑夜\n不是你们的住处。\n\n把灯留着吧。\n你正等候着\n你所爱的那一位。",
+      "zh_reflectionPrompt": "回想一段你曾体会过“贼临到，是趁人熄了灯、沉睡的时候”的时光。透过帖撒罗尼迦前书 5:4–5 的眼光，发现“你正等候着你所爱的那一位”对你意味着什么？",
+      "zh_epigraph": "“弟兄们，你们却不在黑暗里，叫那日子临到你们像贼一样。”",
+      "zh_ref": "帖撒罗尼迦前书 5:4–5"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#e3bd88"
       },
       "dailyWalkDay": 1393,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “breastplate and helmet” in this painting (1 Thessalonians 5:8)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “breastplate and helmet” in this painting (1 Thessalonians 5:8)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "护心镜与头盔",
+      "zh_poem": "一套士兵的装束，\n赐给了\n并非士兵的人。\n\n以信与爱\n护住心房。\n\n以盼望\n环绕额头——\n\n那是忧虑\n最爱起头的地方。\n\n保持清醒。\n穿戴整齐。\n\n不是为了争战，\n\n是为了迎接黎明。",
+      "zh_reflectionPrompt": "细看这幅画中《护心镜与头盔》那安静的画面中心（帖撒罗尼迦前书 5:8）——如果今天你可以把一件焦虑的重担放在它旁边，你会放下什么？",
+      "zh_epigraph": "“把信和爱当作护心镜遮胸，把得救的盼望当作头盔戴上”",
+      "zh_ref": "帖撒罗尼迦前书 5:8"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#f7ecd1"
       },
       "dailyWalkDay": 1394,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the stone well in the heat of the day: what quiet prayer rises in you when you read, “mending. walking to the well”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the stone well in the heat of the day: what quiet prayer rises in you when you read, “mending. walking to the well”?",
+      "zh_title": "常常、不住、凡事",
+      "zh_poem": "短短三行。\n全信里\n最短的经文。\n\n喜乐。\n祷告。\n谢恩。\n\n不是一张时间表，\n而是在你做一切事情时\n始终不灭的火苗。\n\n揉面时。\n缝补时。\n走向水井时。",
+      "zh_reflectionPrompt": "让目光停留在画中日头之下石井旁的笔触与光线：当你读到“缝补时。走向水井时”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“要常常喜乐，不住地祷告，凡事谢恩”",
+      "zh_ref": "帖撒罗尼迦前书 5:16–18"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#f8df97"
       },
       "dailyWalkDay": 1395,
-      "reflectionPrompt": "Linger with the movement in “faithful” (1 Thessalonians 5:23–24) from “spirit, soul and body, the whole of you, kept whole” to “he'll finish what he started”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “faithful” (1 Thessalonians 5:23–24) from “spirit, soul and body, the whole of you, kept whole” to “he'll finish what he started”—where do you find yourself along that arc today?",
+      "zh_title": "信实的",
+      "zh_poem": "灵、魂、体，\n全部的你，\n蒙保守全然完备。\n\n这听起来\n似乎奢求太多。\n\n确实如此。\n\n正因如此，\n最后一行\n并不在乎你。\n\n那召你们的\n本是信实的。\n\n他必成全\n他所开启的工。",
+      "zh_reflectionPrompt": "在《信实的》（帖撒罗尼迦前书 5:23–24）中细细品味那份转折——从“灵、魂、体，全部的你，蒙保守全然完备”到“他必成全他所开启的工”——今天你发现自己处在这段弧线的哪个位置？",
+      "zh_epigraph": "“那召你们的本是信实的，他必成就这事。”",
+      "zh_ref": "帖撒罗尼迦前书 5:23–24"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f6e6c1"
       },
       "dailyWalkDay": 1396,
-      "reflectionPrompt": "Notice how “growing” (2 Thessalonians 1:3) arrives at: “some trees put down the deepest roots in the rockiest ground.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “growing” (2 Thessalonians 1:3) arrives at: “some trees put down the deepest roots in the rockiest ground.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "格外增长",
+      "zh_poem": "患难\n并未止息。\n\n生长\n也未停止。\n\n当保罗再次提笔，\n他情不自禁地写道：\n\n你们的信心\n更高了。\n\n你们的爱心，\n在每一个人里面，\n更宽广了。\n\n有些树，\n偏偏在最多石的土地里，\n扎下最深的根。",
+      "zh_reflectionPrompt": "留意《格外增长》（帖撒罗尼迦后书 1:3）如何落脚于：“有些树，偏偏在最多石的土地里，扎下最深的根。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“因你们的信心格外增长，并且你们众人彼此相爱的心也都充足”",
+      "zh_ref": "帖撒罗尼迦后书 1:3"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#ccb395"
       },
       "dailyWalkDay": 1397,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 2 Thessalonians 1:6–7: “he tells them God sees, and God is fair, and when the Lord is revealed there will be relief, like cool water at the end of a long hot road”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 2 Thessalonians 1:6–7: “he tells them God sees, and God is fair, and when the Lord is revealed there will be relief, like cool water at the end of a long hot road”?",
+      "zh_title": "平安与舒解",
+      "zh_poem": "他们因行善受苦，\n已经疲惫不堪。\n\n保罗并没有对他们说\n这算不得什么。\n\n他告诉他们：\n神看见，\n神是公义的，\n\n当主显现的时候，\n必有舒解，\n\n就像漫长酷热的道路尽头，\n那一掬清凉的水。",
+      "zh_reflectionPrompt": "如果在今晚入睡前，你最需要记住的是帖撒罗尼迦后书 1:6–7 那安静的启示：“他告诉他们：神看见，神是公义的，当主显现的时候，必有舒解，就像漫长酷热的道路尽头，那一掬清凉的水”——这会带给你怎样的安慰？",
+      "zh_epigraph": "“也必使你们这受患难的人与我们同得平安”",
+      "zh_ref": "帖撒罗尼迦后书 1:6–7"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#f1d390"
       },
       "dailyWalkDay": 1398,
-      "reflectionPrompt": "Imagine standing inside this frame beside the name by which He calls you: what hurry or noise in your week begins to fade when you hear, “the light, and the one it shines through, both shining”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the name by which He calls you: what hurry or noise in your week begins to fade when you hear, “the light, and the one it shines through, both shining”?",
+      "zh_title": "在你们身上得荣耀",
+      "zh_poem": "玻璃并不\n制造光。\n\n它只是\n让光穿过，\n\n却不知为何，\n因着承接了光，\n连玻璃也变得格外美丽。\n\n他的名在你里面。\n你在他里面。\n\n那光，\n与那让光穿透的人，\n\n一同发光。",
+      "zh_reflectionPrompt": "想象自己站在这幅画框里、靠着他称呼你的名：当你听见“那光，与那让光穿透的人，一同发光”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“叫我们主耶稣的名在你们身上得荣耀，你们也在他身上得荣耀”",
+      "zh_ref": "帖撒罗尼迦后书 1:11–12"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f9ebc6"
       },
       "dailyWalkDay": 1399,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “every age has its alarm bells. he hasn't forgotten you.” What part of your heart feels most searched or comforted by 2 Thessalonians 2:1–2 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “every age has its alarm bells. he hasn't forgotten you.” What part of your heart feels most searched or comforted by 2 Thessalonians 2:1–2 right now?",
+      "zh_title": "不要轻易动心",
+      "zh_poem": "风声在教会里流传：\n一封信，\n一个声音，\n有人说\n一切已经结束，\n你们错过了。\n\n保罗回信说：\n\n不。\n不要动摇。\n记得我曾告诉你们的话。\n\n每个时代\n都有自己的警钟。\n\n他至今仍说\n同样的话：\n\n站稳了。\n他没有忘记你们。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“每个时代都有自己的警钟。他没有忘记你们。”此刻，帖撒罗尼迦后书 2:1–2 最触动或最安慰你内心的是哪一部分？",
+      "zh_epigraph": "“不要轻易动心，也不要惊慌”",
+      "zh_ref": "帖撒罗尼迦后书 2:1–2"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#fad09e"
       },
       "dailyWalkDay": 1400,
-      "reflectionPrompt": "In 2 Thessalonians 2:13, grace meets us right beside the stones of the wall: how does the closing thought—“and whatever loud voices said about the end, Paul pointed them back to the beginning”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 2 Thessalonians 2:13, grace meets us right beside the stones of the wall: how does the closing thought—“and whatever loud voices said about the end, Paul pointed them back to the beginning”—steady your footing for the road ahead?",
+      "zh_title": "从起初拣选",
+      "zh_poem": "在码头建成之前，\n在织机架起之前，\n在墙龛摆上偶像之前，\n\n在他们\n还没有任何东西\n可以献上之前，\n\n神已经拣选了他们。\n\n无论喧嚣的声音\n如何谈论终局，\n\n保罗都把他们的目光\n指回起初。",
+      "zh_reflectionPrompt": "在帖撒罗尼迦后书 2:13 中，恩典就在石墙旁与我们相遇：结尾的深思——“无论喧嚣的声音如何谈论终局，保罗都把他们的目光指回起初”——如何为你前面的道路稳住脚步？",
+      "zh_epigraph": "“因为他从起初拣选了你们，叫你们能以得救”",
+      "zh_ref": "帖撒罗尼迦后书 2:13"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#ddcead"
       },
       "dailyWalkDay": 1401,
-      "reflectionPrompt": "If today’s painting of “good hope” (2 Thessalonians 2:16–17) hung beside the door you walk out of this morning, how would its final line—“the kind that keeps you warm the way a banked fire does through the night, and is still there in the morning when you reach for it”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “good hope” (2 Thessalonians 2:16–17) hung beside the door you walk out of this morning, how would its final line—“the kind that keeps you warm the way a banked fire does through the night, and is still there in the morning when you reach for it”—shape your choices?",
+      "zh_title": "美好的盼望",
+      "zh_poem": "不是单薄的盼望，\n也不是一句“也许”。\n\n而是美好的盼望。\n\n像封在灰下的炉火，\n彻夜\n为你留住温暖，\n\n到了清晨，\n当你伸手去寻，\n它依然在那里。",
+      "zh_reflectionPrompt": "如果今天这幅《美好的盼望》（帖撒罗尼迦后书 2:16–17）就挂在你清晨出门的门旁，它最后那句——“像封在灰下的炉火，彻夜为你留住温暖，到了清晨，当你伸手去寻，它依然在那里”——会如何塑造你今天的选择？",
+      "zh_epigraph": "“开恩将永远的安慰并美好的盼望赐给我们”",
+      "zh_ref": "帖撒罗尼迦后书 2:16–17"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f5e7bb"
       },
       "dailyWalkDay": 1402,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (2 Thessalonians 3:1)—where in your own home or work today does “the way news runs down a road ahead of the runner” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (2 Thessalonians 3:1)—where in your own home or work today does “the way news runs down a road ahead of the runner” ring true?",
+      "zh_title": "叫主的道快快行开",
+      "zh_poem": "伟大的使徒\n请求小小的教会\n为他祷告。\n\n不是求安逸，\n而是求主的道\n快快奔跑。\n\n就像好消息\n顺着大路传开，\n跑在报信人的前头。",
+      "zh_reflectionPrompt": "天路同行的每一站都向我们显明，神如何在平凡之处与我们相遇（帖撒罗尼迦后书 3:1）——今天在你的家中或工作里，哪一处让你深感“就像好消息顺着大路传开，跑在报信人的前头”的真实？",
+      "zh_epigraph": "“请你们为我们祷告，好叫主的道理快快行开”",
+      "zh_ref": "帖撒罗尼迦后书 3:1"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#f4c87c"
       },
       "dailyWalkDay": 1403,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “the world can be unreliable. he isn't.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “the world can be unreliable. he isn't.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "主是信实的",
+      "zh_poem": "保罗说，\n人不都是有信心的。\n\n接着，\n几乎在同一口气里：\n\n但主\n是信实的。\n\n这世界\n或许靠不住。\n\n他却不改变。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“这世界或许靠不住。他却不改变。”如果你带着这份真理走入接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“但主是信实的，要坚固你们，保护你们脱离那恶者。”",
+      "zh_ref": "帖撒罗尼迦后书 3:3"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#f3e8ca"
       },
       "dailyWalkDay": 1404,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “a heart can wander off in any direction.” Looking through the lens of 2 Thessalonians 3:5, what does it mean to discover that “so he prays it will be steered, like water finding its way downhill into God's love, and into the patience of the One who never gave up on us”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “a heart can wander off in any direction.” Looking through the lens of 2 Thessalonians 3:5, what does it mean to discover that “so he prays it will be steered, like water finding its way downhill into God's love, and into the patience of the One who never gave up on us”?",
+      "zh_title": "引导你们的心进入神的爱",
+      "zh_poem": "一颗心\n很容易向四处\n漂流迷失。\n\n所以他祷告，\n求主引导这心，\n\n如同溪水\n顺着山坡\n寻路流淌，\n\n汇入神的爱，\n\n进入那位\n从未放弃我们的主\n所存的忍耐里。",
+      "zh_reflectionPrompt": "回想一段你曾体会过“一颗心很容易向四处漂流迷失”的时光。透过帖撒罗尼迦后书 3:5 的眼光，发现“所以他祷告，求主引导这心，如同溪水顺着山坡寻路流淌，汇入神的爱，进入那位从未放弃我们的主所存的忍耐里”对你意味着什么？",
+      "zh_epigraph": "“愿主引导你们的心，叫你们爱神，并学基督的忍耐。”",
+      "zh_ref": "帖撒罗尼迦后书 3:5"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#e1bf7c"
       },
       "dailyWalkDay": 1405,
-      "reflectionPrompt": "Look closely at the stone well in the heat of the day in this painting (2 Thessalonians 3:10–12)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the stone well in the heat of the day in this painting (2 Thessalonians 3:10–12)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "吃自己的饭",
+      "zh_poem": "有些人停下了手中的活。\n既然主快来了，\n何必再费力？\n\n保罗的回答\n简明实在：\n\n拿起你的工具。\n安静做工。\n吃自己的饭。\n\n美好的等候，\n看起来很像\n一个平凡的工作日，\n\n忠心地做完。",
+      "zh_reflectionPrompt": "细看这幅画中日头之下的石井与安静的饭桌（帖撒罗尼迦后书 3:10–12）——如果今天你可以把一件焦虑的重担放在它旁边，你会放下什么？",
+      "zh_epigraph": "“要安静做工，吃自己的饭”",
+      "zh_ref": "帖撒罗尼迦后书 3:10–12"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#e2bf6e"
       },
       "dailyWalkDay": 1406,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “don't grow weary”: what quiet prayer rises in you when you read, “and because the One you're doing it for is coming”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “don't grow weary”: what quiet prayer rises in you when you read, “and because the One you're doing it for is coming”?",
+      "zh_title": "行善不可丧志",
+      "zh_poem": "有些日子，\n行善显得格外沉重。\n\n同样的善意，\n同样的劳作，\n同样的祷告，\n却似乎毫无起色。\n\n他说，\n不可丧志。\n\n不是因为\n这很容易。\n\n而是因为这是善事。\n\n更是因为，\n你为之奔忙的那一位\n正在走来。",
+      "zh_reflectionPrompt": "让目光停留在画中《行善不可丧志》那安静的画面中心：当你读到“更是因为，你为之奔忙的那一位正在走来”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“弟兄们，你们行善不可丧志。”",
+      "zh_ref": "帖撒罗尼迦后书 3:13"
     },
     {
       "n": 36,
@@ -814,7 +1004,15 @@
         "accent": "#e4d7bf"
       },
       "dailyWalkDay": 1407,
-      "reflectionPrompt": "Linger with the movement in “in my own hand” (2 Thessalonians 3:16–17) from “at the end he takes the pen from the one writing for him, and adds a line in his own hand, so they'll know it's really him” to “at all times. the Lord be with you all”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “in my own hand” (2 Thessalonians 3:16–17) from “at the end he takes the pen from the one writing for him, and adds a line in his own hand, so they'll know it's really him” to “at all times. the Lord be with you all”—where do you find yourself along that arc today?",
+      "zh_title": "亲笔问安",
+      "zh_poem": "在书信末尾，\n他从代笔人手中\n接过笔来，\n\n亲手添上\n一行字，\n\n好叫他们认出\n这真是他写的。\n\n他写下：\n平安。\n\n随时。\n随事。\n\n愿主\n常与你们众人同在。",
+      "zh_reflectionPrompt": "在《亲笔问安》（帖撒罗尼迦后书 3:16–17）中细细品味那份转折——从“在书信末尾，他从代笔人手中接过笔来，亲手添上一行字，好叫他们认出这真是他写的”到“随时。愿主常与你们众人同在”——今天你发现自己处在这段弧线的哪个位置？",
+      "zh_epigraph": "“愿赐平安的主随时随事亲自给你们平安！”",
+      "zh_ref": "帖撒罗尼迦后书 3:16–17"
     }
-  ]
+  ],
+  "zh_title": "光明之子",
+  "zh_subtitle": "帖撒罗尼迦前后书诗画集",
+  "zh_beforeYouBegin": "保罗致帖撒罗尼迦人的书信，写给马其顿繁忙港口里一间刚建立数月的年轻教会。信中有一座空置的家神龛、一位怀抱婴孩的母亲、一位在灯下织帐棚免得累着众人的匠人、一位顺着大路带回消息的朋友、一座怀着盼望去探望的坟墓，以及一盏彻夜长明的油灯。\n\n本书以三十六首短诗走过这两卷书信，共分五部分：前三部分属前书，后两部分属后书。每首诗旁配有一幅画，上方引有一句经文。画面停留在这两封信所触及的器物上——一盏灯、一台织机、一块饼、一条黎明的道路——而将面容留给你去想象。\n\n这些诗并非圣经本身，只是一个读经的人对经文的回应。请翻开帖撒罗尼迦前后书与本书一同阅读，让神真实的话语作最终的定音。"
 }

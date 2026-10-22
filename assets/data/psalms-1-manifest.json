@@ -16,7 +16,10 @@
       "epigraph": "He will be like a tree planted by the streams of water",
       "epigraphRef": "Psalm 1:3",
       "lightName": "Light of Like a Tree",
-      "lightHint": "Near 'planted' (Psalm 1:1–3) in Part 1: Like a Tree"
+      "lightHint": "Near 'planted' (Psalm 1:1–3) in Part 1: Like a Tree",
+      "zh_title": "像一棵树",
+      "zh_epigraph": "他要像一棵树栽在溪水旁",
+      "zh_epigraphRef": "诗篇 1:3"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "How long, Yahweh? Will you forget me forever?",
       "epigraphRef": "Psalm 13:1",
       "lightName": "Light of How Long?",
-      "lightHint": "Near 'a high tower' (Psalm 9:9–10) in Part 2: How Long?"
+      "lightHint": "Near 'a high tower' (Psalm 9:9–10) in Part 2: How Long?",
+      "zh_title": "多长时间？",
+      "zh_epigraph": "耶和华啊，还要等多久？你会永远忘记我吗？",
+      "zh_epigraphRef": "诗篇 13:1"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Y ahweh is my shepherd: I shall lack nothing.",
       "epigraphRef": "Psalm 23:1",
       "lightName": "Light of The Shepherd",
-      "lightHint": "Near 'my lamp' (Psalm 18:1–28) in Part 3: The Shepherd"
+      "lightHint": "Near 'my lamp' (Psalm 18:1–28) in Part 3: The Shepherd",
+      "zh_title": "牧羊人",
+      "zh_epigraph": "耶和华是我的牧者：我一无所缺。",
+      "zh_epigraphRef": "诗篇 23:1"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "W ait for Y ahweh. Be strong, and let your heart take courage.",
       "epigraphRef": "Psalm 27:14",
       "lightName": "Light of Wait for the Lord",
-      "lightHint": "Near 'I love your house' (Psalm 26:8) in Part 4: Wait for the Lord"
+      "lightHint": "Near 'I love your house' (Psalm 26:8) in Part 4: Wait for the Lord",
+      "zh_title": "等候主",
+      "zh_epigraph": "等候耶和华。坚强起来，让你的心鼓起勇气。",
+      "zh_epigraphRef": "诗篇 27:14"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "Oh taste and see that Yahweh is good.",
       "epigraphRef": "Psalm 34:8",
       "lightName": "Light of Taste and See",
-      "lightHint": "Near 'near' (Psalm 34:8–18) in Part 5: Taste and See"
+      "lightHint": "Near 'near' (Psalm 34:8–18) in Part 5: Taste and See",
+      "zh_title": "品尝和观赏",
+      "zh_epigraph": "哦，你要尝尝，就知道耶和华是良善的。",
+      "zh_epigraphRef": "诗篇 34:8"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#fcf0d5"
       },
       "dailyWalkDay": 449,
-      "reflectionPrompt": "Between the opening line (“the Psalms open not with a song but with a tree”) and the closing thought (“that's the whole book in a picture: stay near the water”), what is Psalm 1:1–3 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“the Psalms open not with a song but with a tree”) and the closing thought (“that's the whole book in a picture: stay near the water”), what is Psalm 1:1–3 gently reframing in your own day?",
+      "zh_title": "种植的",
+      "zh_poem": "诗篇打开\n不是一首歌\n但有一棵树。\n\n根扎在溪流中。\n该到的时候就吃水果。\n保持绿色的叶子\n在干燥的月份里。\n\n不急。\n没有努力。\n刚刚种下\n水在哪里。\n\n这就是整本书\n在一张图片中：\n呆在靠近水的地方。",
+      "zh_reflectionPrompt": "在开场白（“诗篇不是以歌曲开始，而是以一棵树开始”）和结束思想（“这就是一幅画中的整本书：靠近水边”）之间，诗篇 1:1-3 在你自己的时代轻轻地重构了什么？",
+      "zh_epigraph": "“按时结出果子，叶子也不枯干”",
+      "zh_ref": "诗篇 1:1–3"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#e1dbc7"
       },
       "dailyWalkDay": 450,
-      "reflectionPrompt": "Along the road of Planted by the Water, “heaven laughs” (Psalm 2:1–12) slows us down at the open threshold to remind us: “the psalm's last word is a door left open: blessed are all who take refuge in him.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Planted by the Water, “heaven laughs” (Psalm 2:1–12) slows us down at the open threshold to remind us: “the psalm's last word is a door left open: blessed are all who take refuge in him.” Where are you being invited to trade control for trust today?",
+      "zh_title": "天堂笑了",
+      "zh_poem": "列国愤怒。\n国王的阴谋。\n头条新闻大喊。\n\n和天堂\n笑了。\n\n不是残酷的笑——\n某人的平静\n谁已经知道了\n结局如何。\n\n诗篇的最后一句话\n是一扇开着的门：\n所有人都受到祝福\n投靠他的人。",
+      "zh_reflectionPrompt": "沿着《水栽》的道路，“天堂的笑声”（诗篇2:1-12）在敞开的门槛前让我们放慢脚步，提醒我们：“诗篇的最后一句话是一扇敞开的门：凡投靠他的人都是有福的。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“凡投靠他的人都是有福的。”",
+      "zh_ref": "诗篇 2:1–12"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#fdefb2"
       },
       "dailyWalkDay": 451,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “I slept” (Psalm 3:1–5), what would you talk about after reading, “sometimes the bravest prayer is closing your eyes and trusting someone else to keep watch”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “I slept” (Psalm 3:1–5), what would you talk about after reading, “sometimes the bravest prayer is closing your eyes and trusting someone else to keep watch”?",
+      "zh_title": "我睡了",
+      "zh_poem": "大卫写了这个\n逃离自己的儿子。\n\n到处都是敌人。\n声音说\n老天爷不会帮他的。\n\n然后这一行：\n我躺下了。\n我睡了。\n我醒了。\n\n有时是最勇敢的祈祷\n正在闭上你的眼睛\n并信任别人\n保持警惕。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“我睡了”（诗篇 3:1-5）处停下来，读完“有时最勇敢的祈祷就是闭上眼睛，相信别人会看守”，你会谈论什么？",
+      "zh_epigraph": "“我躺下睡了。我醒了；因为耶和华支持我。”",
+      "zh_ref": "诗篇 3:1–5"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#fad89a"
       },
       "dailyWalkDay": 452,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “lie down anyway”: what changes in your posture today when you sit with the closing words of “lie down anyway”—“because you, Lord, alone, keep me safe”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “lie down anyway”: what changes in your posture today when you sit with the closing words of “lie down anyway”—“because you, Lord, alone, keep me safe”?",
+      "zh_title": "无论如何躺下",
+      "zh_poem": "又是一夜。\n\n忧虑排成一排\n在床脚\n像债权人一样。\n\n诗篇说：\n无论如何躺下。\n平静地。\n\n不是因为名单消失了。\n因为你，\n主啊，独自一人，\n确保我的安全。",
+      "zh_reflectionPrompt": "在“无论如何躺下”的安静核心之前暂停：今天，当你坐下来并以“无论如何躺下”结束语时，你的姿势有什么变化——“主啊，因为你，独自一人，保护我的安全”？",
+      "zh_epigraph": "“我会安静地躺下睡觉”",
+      "zh_ref": "诗篇 4:8"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#f7d378"
       },
       "dailyWalkDay": 453,
-      "reflectionPrompt": "Look at the stillness of the unhewn stones of the altar in Timothy’s painting: what striving can you lay down as you ponder, “it's setting them down and looking up to see what he'll do” (Psalm 5:1–3)?"
+      "reflectionPrompt": "Look at the stillness of the unhewn stones of the altar in Timothy’s painting: what striving can you lay down as you ponder, “it's setting them down and looking up to see what he'll do” (Psalm 5:1–3)?",
+      "zh_title": "手表",
+      "zh_poem": "早上\n我把它列出来——\n\n就像农夫播种一样，\n就像祭司将木头放在祭坛上一样——\n\n然后我就看。\n\n祈祷不是\n将言语抛向空中\n然后走开。\n\n它让他们失望\n并抬头看\n看看他会做什么。",
+      "zh_reflectionPrompt": "看看提摩太画中祭坛上未凿成的石头的寂静：当你沉思“把它们放下，仰望看他要做什么”（诗篇 5：1-3）时，你能放下什么努力？",
+      "zh_epigraph": "“早上我会向你提出我的要求，并会满怀期待地看着。”",
+      "zh_ref": "诗篇 5:1–3"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#f2e5d4"
       },
       "dailyWalkDay": 454,
-      "reflectionPrompt": "In Psalm 6:6–9, the story turns on the tears God keeps in His bottle—and ends with, “your tears are not too much for him.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Psalm 6:6–9, the story turns on the tears God keeps in His bottle—and ends with, “your tears are not too much for him.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "每天晚上",
+      "zh_poem": "这是圣经里的：\n一个成年男子\n每天晚上都哭\n直到枕头湿透。\n\n没有人告诉他\n振作起来。\n\n神保守祷告\n书中，\n\n几行之后，\n大卫 说：\n主已听见我的哭泣。\n\n你的眼泪\n不是太多\n为了他。",
+      "zh_reflectionPrompt": "在诗篇 6 章 6-9 节中，故事以上帝保存在瓶中的眼泪为中心，并以“你的眼泪对他来说不算太多”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“每天晚上我都会淹没我的床。我的泪水浸湿了我的沙发。”",
+      "zh_ref": "诗篇 6:6–9"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#f4eee0"
       },
       "dailyWalkDay": 455,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 7:10 points us to the quiet centerpiece of “my shield” and whispers, “and he didn't hide behind his reputation, or his own defense. let him take the hits.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 7:10 points us to the quiet centerpiece of “my shield” and whispers, “and he didn't hide behind his reputation, or his own defense. let him take the hits.” How can you practice that unhurried wisdom today?",
+      "zh_title": "我的盾牌",
+      "zh_poem": "他被指控，\n诽谤,\n被追赶。\n\n他并没有隐藏\n在他的声誉背后，\n或者他自己的辩护。\n\n我的盾牌\n与神同在。\n\n让他\n接受打击。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而诗篇 7:10 向我们指出了“我的盾牌”安静的核心，并低声说道：“他没有躲在他的名誉或他自己的防御后面。让他承受打击吧。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“上帝是我的盾牌，他拯救心里正直的人。”",
+      "zh_ref": "诗篇 7:10"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#c1b5a4"
       },
       "dailyWalkDay": 456,
-      "reflectionPrompt": "The poem closes with a quiet turn: “and the question that still undoes us: who are we, that you remember us? and yet he does.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “and the question that still undoes us: who are we, that you remember us? and yet he does.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "你手指的工作",
+      "zh_poem": "一个牧童\n夜晚的山坡上，\n抬头看。\n\n月亮。\n星星。\n上帝手指的杰作——\n甚至连他的手臂都没有，\n他的手指。\n\n和问题\n这仍然困扰着我们：\n\n我们是谁，\n你还记得我们吗？\n\n然而\n他做到了。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“还有一个问题仍然困扰着我们：我们是谁，你还记得我们？但他确实记得。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“当我想到你的天堂、你手指的作品、月亮和星星时”",
+      "zh_ref": "诗篇 8:3–4"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#fbe6ae"
       },
       "dailyWalkDay": 457,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “God builds his strongest places where the weakest people need them” (Psalm 9:9–10) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “God builds his strongest places where the weakest people need them” (Psalm 9:9–10) speak to a question you have been carrying lately?",
+      "zh_title": "一座高塔",
+      "zh_poem": "为受压迫者——\n不是强者，\n不是那些已经有墙的人——\n\n一座高塔。\n\n神建造他最坚固的地方\n最弱的人在哪里\n需要他们。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“神在最软弱的人需要的地方建造他最坚固的地方”（诗篇 9:9-10）如何回答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“耶和华也必成为受压迫者的高塔”",
+      "zh_ref": "诗篇 9:9–10"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#e1c79a"
       },
       "dailyWalkDay": 458,
-      "reflectionPrompt": "Hold your hands open for a moment before “far off” (Psalm 10:1–14): what are you gripping tightly that loosens when you hear, “the question and the trust”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “far off” (Psalm 10:1–14): what are you gripping tightly that loosens when you hear, “the question and the trust”?",
+      "zh_title": "遥远的地方",
+      "zh_poem": "你为什么这么远？\n你为什么要躲起来\n什么时候最难？\n\n圣经让我们这样问。\n大声说出来。\n在崇拜中。\n\n稍后还有同样的诗篇：\n但你确实看到了。\n你把它拿在手上。\n你帮助孤儿。\n\n这两行都是祈祷。\n问题\n和信任。",
+      "zh_reflectionPrompt": "在“远方”之前张开你的双手（诗篇 10:1-14）：当你听到“问题和信任”时，你紧握的是什么东西会松开？",
+      "zh_epigraph": "“耶和华啊，你为何站在远处？”",
+      "zh_ref": "诗篇 10:1–14"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#ebdebf"
       },
       "dailyWalkDay": 459,
-      "reflectionPrompt": "Scripture remembers this moment in Psalm 11:1–3 not to impress us, but to steady us: when have you seen the truth that “you have to know where you're standing” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Psalm 11:1–3 not to impress us, but to steady us: when have you seen the truth that “you have to know where you're standing” in your own story?",
+      "zh_title": "像鸟一样逃跑",
+      "zh_poem": "跑！他们说。\n飞到山上\n像一只鸟。\n地基正在破裂。\n\n大卫说：\n我已经避难了。\n\n不在山里。\n在主里。\n\n你不必跑\n为了安全起见。\n你必须知道\n你站的地方。",
+      "zh_reflectionPrompt": "圣经在诗篇 11:1-3 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“你必须知道自己站在哪里”的真理？",
+      "zh_epigraph": "“你怎么能对我的灵魂说：‘像小鸟一样逃到你的山上’？”",
+      "zh_ref": "诗篇 11:1–3"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#f0c169"
       },
       "dailyWalkDay": 460,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “seven times” (Psalm 12:1–6), what one honest sentence would you pray beside the still, unhurried voice after reading, “when everything is spin, there is one voice you can take at its word”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “seven times” (Psalm 12:1–6), what one honest sentence would you pray beside the still, unhurried voice after reading, “when everything is spin, there is one voice you can take at its word”?",
+      "zh_title": "七次",
+      "zh_poem": "每个人都撒谎，\n诗篇开始了。\n阿谀奉承。双语。\n光滑的嘴唇。\n\n并反对所有这些噪音：\n神的话——\n\n银，\n精炼七次，\n他们身上没有留下任何虚假的东西。\n\n当一切都旋转时\n有一个声音\n你可以采取\n言出必行。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼在“七次”停下来时（诗篇12:1-6），读完“当一切都在旋转时，有一个声音你可以接受它的话语”之后，除了平静、不紧不慢的声音之外，你还会祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“耶和华的话是完美的言语，如同在泥炉中炼过七次的银子一样。”",
+      "zh_ref": "诗篇 12:1–6"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#f9dca9"
       },
       "dailyWalkDay": 461,
-      "reflectionPrompt": "Between the opening line (“how long? four times in two verses”) and the closing thought (“and then, with nothing changed, the turn: but I trust in your loving kindness. it sings before it comes”), what is Psalm 13:1–6 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“how long? four times in two verses”) and the closing thought (“and then, with nothing changed, the turn: but I trust in your loving kindness. it sings before it comes”), what is Psalm 13:1–6 gently reframing in your own day?",
+      "zh_title": "多长时间？",
+      "zh_poem": "多长时间？\n两节经文中出现四次。\n\n你要忘记我多久？\n你要躲多久？\n这种疼痛多久了？\n多长时间？\n\n然后，在没有任何改变的情况下，\n回合：\n\n但我相信\n在你的慈爱中。\n\n有时信仰\n不等待答案。\n它唱歌\n在它到来之前。",
+      "zh_reflectionPrompt": "在开场白（“多长？两节经文四次”）和结束语（“然后，一切都没有改变，转折：但我信靠你的慈爱。它在来临之前就歌唱”）之间，诗篇 13:1-6 在你那个时代温柔地重构了什么？",
+      "zh_epigraph": "“你还要瞒着我多久？”",
+      "zh_ref": "诗篇 13:1–6"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#fbc195"
       },
       "dailyWalkDay": 462,
-      "reflectionPrompt": "Along the road of Planted by the Water, “good neighbor” (Psalm 15:1–5) slows us down at the quiet centerpiece of “good neighbor” to remind us: “holiness, it turns out, looks a lot like being a good neighbor.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Planted by the Water, “good neighbor” (Psalm 15:1–5) slows us down at the quiet centerpiece of “good neighbor” to remind us: “holiness, it turns out, looks a lot like being a good neighbor.” Where are you being invited to trade control for trust today?",
+      "zh_title": "好邻居",
+      "zh_poem": "谁能活下去\n靠近上帝？\n\n答案不是\n最虔诚的。\n\n就是那个人\n说实话，\n即使付出代价也遵守诺言，\n不诽谤邻舍，\n不接受贿赂。\n\n圣洁，\n事实证明，\n看起来很像\n做一个好邻居。",
+      "zh_reflectionPrompt": "沿着《水边栽种》的道路，“好邻居”（诗篇15:1-5）让我们在“好邻居”安静的中心放慢脚步，提醒我们：“事实证明，圣洁看起来很像做一个好邻居。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“谁能住在你的圣所？谁能住在你的圣山上？”",
+      "zh_ref": "诗篇 15:1–5"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#f2e6c3"
       },
       "dailyWalkDay": 463,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “pleasant places” (Psalm 16:5–11), what would you talk about after reading, “it's seeing that what you have was measured out by a kind hand”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “pleasant places” (Psalm 16:5–11), what would you talk about after reading, “it's seeing that what you have was measured out by a kind hand”?",
+      "zh_title": "令人愉快的地方",
+      "zh_poem": "测量员的线\n落在了良好的基础上。\n\n我的小情节。\n我的部分。\n我的杯子。\n\n不是以色列最大的油田。\n但它是我的\n神就在其中。\n\n知足\n没有更多了。\n它正在看到\n那是你所拥有的\n被测量出来\n由一只善良的手。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“喜乐的地方”停下来（诗篇16:5-11），读完“就是看见你所拥有的，是由仁慈的手量度出来的”，你会谈论什么？",
+      "zh_epigraph": "“在令人愉快的地方，线路都落到了我的头上。”",
+      "zh_ref": "诗篇 16:5–11"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#f4d59e"
       },
       "dailyWalkDay": 464,
-      "reflectionPrompt": "Pause before the cool shadow of the rock: what changes in your posture today when you sit with the closing words of “the apple of your eye”—“and hide me in the shadow of your wings, the way a small bird disappears under its mother when the hawk goes over”?"
+      "reflectionPrompt": "Pause before the cool shadow of the rock: what changes in your posture today when you sit with the closing words of “the apple of your eye”—“and hide me in the shadow of your wings, the way a small bird disappears under its mother when the hawk goes over”?",
+      "zh_title": "你的掌上明珠",
+      "zh_poem": "你的掌上明珠——\n古语中形容学生的词，\n你保护的部分\n不假思索。\n\n让我保持这样。\n\n并把我藏起来\n在你翅膀的阴影下，\n像一只小鸟一样\n消失在它的母亲之下\n当鹰飞过去时。",
+      "zh_reflectionPrompt": "在岩石凉爽的影子前停下来：今天，当你坐下来，带着“你的掌上明珠”的结束语——“把我藏在你翅膀的阴影里，就像鹰飞过去时，小鸟消失在母亲的身下”时，你的姿势有什么变化？",
+      "zh_epigraph": "“让我成为你的掌上明珠。把我隐藏在你翅膀的阴影下”",
+      "zh_ref": "诗篇 17:8"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#c79f62"
       },
       "dailyWalkDay": 465,
-      "reflectionPrompt": "Look at the stillness of the small oil lamp in the dark in Timothy’s painting: what striving can you lay down as you ponder, “enough light for the room I'm in” (Psalm 18:1–28)?"
+      "reflectionPrompt": "Look at the stillness of the small oil lamp in the dark in Timothy’s painting: what striving can you lay down as you ponder, “enough light for the room I'm in” (Psalm 18:1–28)?",
+      "zh_title": "我的灯",
+      "zh_poem": "摇滚。堡垒。送货员。\n盾。喇叭。高塔。\n\n大卫无话可说\n因为神对他所做的一切。\n\n然后是最小的一个：\n你点亮了我的灯。\n\n不是太阳。\n不是篝火。\n光线充足\n对于我所在的房间。",
+      "zh_reflectionPrompt": "看看提摩太画中黑暗中那盏小油灯的寂静：当你思考“让我所在的房间有足够的光”（诗篇18:1-28）时，你能付出什么努力呢？",
+      "zh_epigraph": "“耶和华啊，你必点亮我的灯。我的上帝必照亮我的黑暗。”",
+      "zh_ref": "诗篇 18:1–28"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#f2cf5f"
       },
       "dailyWalkDay": 466,
-      "reflectionPrompt": "In Psalm 19:1–6, the story turns on the still, unhurried voice—and ends with, “the sermon has already started.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Psalm 19:1–6, the story turns on the still, unhurried voice—and ends with, “the sermon has already started.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "天空在宣讲",
+      "zh_poem": "天空在说教。\n每天。\n没有言语，\n然而\n它的声音传遍整个地球。\n\n太阳升起\n像新郎一样\n从他的帐篷里。\n\n抬头。\n布道\n已经开始了。",
+      "zh_reflectionPrompt": "在诗篇 19:1-6 中，故事以平静、不紧不慢的声音展开——并以“讲道已经开始”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“诸天述说神的荣耀。”",
+      "zh_ref": "诗篇 19:1–6"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#f4e7c5"
       },
       "dailyWalkDay": 467,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 20:7–8 points us to the name by which He calls you and whispers, “the chariots rusted. the name still stands.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 20:7–8 points us to the name by which He calls you and whispers, “the chariots rusted. the name still stands.” How can you practice that unhurried wisdom today?",
+      "zh_title": "战车",
+      "zh_poem": "战车就是坦克\n古代世界的。\n\n和马。\n和军队。\n和金钱。\n\n而我们\n信任一个名字。\n\n战车生锈了。\n马不见了。\n名字\n仍然矗立。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而诗篇 20:7-8 却向我们指出了他呼唤你的名字，并轻声说道：“战车生锈了。这个名字仍然存在。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“有人信赖战车，有人信赖马匹，但我们信赖耶和华我们上帝的名。”",
+      "zh_ref": "诗篇 20:7–8"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#fde8a7"
       },
       "dailyWalkDay": 468,
-      "reflectionPrompt": "The poem closes with a quiet turn: “all the rest were gifts. this was the giver.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “all the rest were gifts. this was the giver.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "最好的礼物",
+      "zh_poem": "国王有一顶金冠，\n胜利，\n寿命长。\n\n和最好的线路\n在他的歌中：\n\n你让他高兴\n高兴地\n在你面前。\n\n其余的都是礼物。\n这个\n是给予者。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“其余的都是礼物。这就是送礼者。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“你让他在你面前感到高兴。”",
+      "zh_ref": "诗篇 21:1–6"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#f0c882"
       },
       "dailyWalkDay": 469,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “when he cried the first line, he knew the last one” (Psalm 22:1–24) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “when he cried the first line, he knew the last one” (Psalm 22:1–24) speak to a question you have been carrying lately?",
+      "zh_title": "被遗弃的",
+      "zh_poem": "耶稣这样祷告\n在十字架上。\n\n他引用的诗篇\n从黑暗中开始：\n你为什么抛弃我？\n\n但事情并没有就此结束。\n结束：\n他没有藐视受苦的人。\n他听到了。\n\n当他哭出第一句台词时\n他知道\n最后一张。",
+      "zh_reflectionPrompt": "有时一句话会在封闭的房间里打开一扇窗：“当他喊出第一句的时候，他知道最后一句”（诗篇22:1-24）如何解答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“我的上帝，我的上帝，你为什么抛弃我？”",
+      "zh_ref": "诗篇 22:1–24"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#f2d6a3"
       },
       "dailyWalkDay": 470,
-      "reflectionPrompt": "Hold your hands open for a moment before “through the valley” (Psalm 23:1–6): what are you gripping tightly that loosens when you hear, “and on the far side: a table, oil, a full cup, and goodness following me home”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “through the valley” (Psalm 23:1–6): what are you gripping tightly that loosens when you hear, “and on the far side: a table, oil, a full cup, and goodness following me home”?",
+      "zh_title": "穿过山谷",
+      "zh_poem": "不在山谷周围。\n通过它。\n\n他从未承诺过\n我们会跳过阴影。\n\n他答应了\n存在于他们之中——\n杆和杖，\n足够近，可以听到。\n\n在另一边：\n一张桌子，\n油，\n满杯，\n\n和善良\n跟着我回家。",
+      "zh_reflectionPrompt": "在“穿过山谷”之前（诗篇 23：1-6），请张开双手：当您听到“在那边：有桌子、有油、有满杯、有美善跟随我回家”时，您紧握的是什么东西就松开了？",
+      "zh_epigraph": "“即使我走过死荫的幽谷，我也不会惧怕邪恶，因为你与我同在。”",
+      "zh_ref": "诗篇 23:1–6"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#fde69b"
       },
       "dailyWalkDay": 471,
-      "reflectionPrompt": "Scripture remembers this moment in Psalm 24:1–10 not to impress us, but to steady us: when have you seen the truth that “every closed door in you— he's asking to be let in” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Psalm 24:1–10 not to impress us, but to steady us: when have you seen the truth that “every closed door in you— he's asking to be let in” in your own story?",
+      "zh_title": "抬起头",
+      "zh_poem": "整个地球\n是他的，\n以及其中的每个人。\n\n仍然\n他敲门。\n\n抬起你们的头。\n敞开。\n王者荣耀\n正在进来。\n\n你内心每扇紧闭的门——\n他在问\n被允许进来。",
+      "zh_reflectionPrompt": "圣经在诗篇 24:1-10 中记住这一刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“你里面每一扇紧闭的门——他都在要求让你进来”这一真理？",
+      "zh_epigraph": "“抬起头来，大门们！”",
+      "zh_ref": "诗篇 24:1–10"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#e5d2a3"
       },
       "dailyWalkDay": 472,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “teach me” (Psalm 25:4–5), what one honest sentence would you pray beside the quiet centerpiece of “teach me” after reading, “it's something you're taught, step by step, by someone walking beside you”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “teach me” (Psalm 25:4–5), what one honest sentence would you pray beside the quiet centerpiece of “teach me” after reading, “it's something you're taught, step by step, by someone walking beside you”?",
+      "zh_title": "教我",
+      "zh_poem": "不是地图。\n一位老师。\n\n给我看看。\n教我。\n引导我。\n\n我会等一整天\n诗篇说。\n\n路径不是\n你曾经找到过的东西。\n这是你被教导的东西，\n一步一步，\n由走在你旁边的人。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“教导我”（诗篇 25：4-5）处时，读完“这是你身边的人一步步教导你的事”，除了“教导我”这个安静的中心句之外，你还会祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“耶和华啊，请向我指示你的道路。请向我指示你的道路。”",
+      "zh_ref": "诗篇 25:4–5"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f4e8d2"
       },
       "dailyWalkDay": 473,
-      "reflectionPrompt": "Between the opening line (“some people go to God's house because they have to”) and the closing thought (“like a child who runs ahead to Grandma's door”), what is Psalm 26:8 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“some people go to God's house because they have to”) and the closing thought (“like a child who runs ahead to Grandma's door”), what is Psalm 26:8 gently reframing in your own day?",
+      "zh_title": "我爱你的房子",
+      "zh_poem": "有些人去神的家\n因为他们必须这样做。\n\n大卫去了\n因为他喜欢它：\n你的荣耀所在的地方。\n\n像个孩子一样\n谁跑在前面\n到了奶奶家门口。",
+      "zh_reflectionPrompt": "在开场白（“有些人去上帝的家，因为他们不得不去”）和结束语（“就像一个小孩子跑到奶奶家门口”）之间，诗篇 26:8 在你那个时代温和地重构了什么？",
+      "zh_epigraph": "“耶和华啊，我爱你的殿宇，就是你荣耀的居所。”",
+      "zh_ref": "诗篇 26:8"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#d6a23e"
       },
       "dailyWalkDay": 474,
-      "reflectionPrompt": "Along the road of Planted by the Water, “one thing” (Psalm 27:4) slows us down at the quiet centerpiece of “one thing” to remind us: “not the gift. the Giver's company.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Planted by the Water, “one thing” (Psalm 27:4) slows us down at the quiet centerpiece of “one thing” to remind us: “not the gift. the Giver's company.” Where are you being invited to trade control for trust today?",
+      "zh_title": "一件事",
+      "zh_poem": "如果你能问上帝\n一方面——\n只有一个——\n\n大卫已经选择了：\n\n住在你家\n我所有的日子，\n来欣赏你的美丽，\n和你坐在一起\n并提出问题。\n\n不是礼物。\n给予者的公司。",
+      "zh_reflectionPrompt": "沿着《水边栽种》的道路，“一件事”（诗篇 27:4）让我们在“一件事”安静的中心放慢脚步，提醒我们：“不是礼物。是给予者的陪伴。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“我向耶和华求了一件事”",
+      "zh_ref": "诗篇 27:4"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#ebdbb9"
       },
       "dailyWalkDay": 475,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “a song” (Psalm 28:6–7), what would you talk about after reading, “I trusted, and I was helped. gratitude wants a melody”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “a song” (Psalm 28:6–7), what would you talk about after reading, “I trusted, and I was helped. gratitude wants a melody”?",
+      "zh_title": "一首歌",
+      "zh_poem": "我的力量。\n我的盾牌。\n\n我相信，\n我得到了帮助。\n\n所以——\n接下来自然而然的事——\n一首歌。\n\n感恩\n想要一段旋律。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，停在“一首歌”处（诗篇 28:6-7），在读到“我信任，我得到帮助。感恩需要旋律”之后，你会谈论什么？",
+      "zh_epigraph": "“我的心信任他，我得到了帮助。”",
+      "zh_ref": "诗篇 28:6–7"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f9e7c1"
       },
       "dailyWalkDay": 476,
-      "reflectionPrompt": "Pause before the open wilderness road: what changes in your posture today when you sit with the closing words of “the voice on the waters”—“the voice that shakes the world speaks peace to you”?"
+      "reflectionPrompt": "Pause before the open wilderness road: what changes in your posture today when you sit with the closing words of “the voice on the waters”—“the voice that shakes the world speaks peace to you”?",
+      "zh_title": "水面上的声音",
+      "zh_poem": "海面上的雷声。\n雪松开裂。\n沙漠在颤抖。\n\n那是他的声音，\n诗篇说。\n\n在拥有所有这些力量之后，\n最后一行：\n\n主赐予他的子民力量。\n耶和华赐福给他的子民\n与和平。\n\n震撼世界的声音\n讲和平\n给你。",
+      "zh_reflectionPrompt": "在开阔的荒野道路前停下来：今天，当你坐在“水面上的声音”的结束语“震动世界的声音向你诉说和平”时，你的姿势有什么变化？",
+      "zh_epigraph": "“耶和华的声音在水面上。荣耀的神打雷”",
+      "zh_ref": "诗篇 29:3–11"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#fce6a8"
       },
       "dailyWalkDay": 477,
-      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “morning” in Timothy’s painting: what striving can you lay down as you ponder, “the night is real. so is the morning” (Psalm 30:5–11)?"
+      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “morning” in Timothy’s painting: what striving can you lay down as you ponder, “the night is real. so is the morning” (Psalm 30:5–11)?",
+      "zh_title": "早上",
+      "zh_poem": "哭泣可能会持续一夜——\n像客人一样\n谁不会离开。\n\n但这只是一个客人。\n\n喜悦\n早上来。\n\n你扭转了我的哀悼\n进入舞蹈领域，\n他说。\n\n夜晚是真实的。\n早上也是如此。",
+      "zh_reflectionPrompt": "看看提摩太画作中“早晨”的安静中心：当你思考“黑夜是真实的，早晨也是真实的”（诗篇30:5-11）时，你还能付出什么努力呢？",
+      "zh_epigraph": "“哭泣可能会持续一夜，但欢乐会在早晨到来。”",
+      "zh_ref": "诗篇 30:5–11"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#e6dec2"
       },
       "dailyWalkDay": 478,
-      "reflectionPrompt": "In Psalm 31:5–15, the story turns on your own two hands—and ends with, “into your hands I commit my spirit: Jesus prayed this psalm too.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Psalm 31:5–15, the story turns on your own two hands—and ends with, “into your hands I commit my spirit: Jesus prayed this psalm too.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "我的时代",
+      "zh_poem": "我的时代——\n我的日子，我的岁月，\n美好的季节和等待的季节，\n我的第一天和最后一天——\n\n在你的手中。\n\n不在敌人的。\n没有机会。\n甚至不在我的里面。\n\n到你手中\n我承诺我的精神：\n耶稣也祷告了这首诗篇。",
+      "zh_reflectionPrompt": "在诗篇 31:5-15 中，故事转向你自己的两只手，并以“我将我的灵魂交在你手里：耶稣也祷告了这首诗篇”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“我的时间掌握在你的手中。”",
+      "zh_ref": "诗篇 31:5–15"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#dac7a2"
       },
       "dailyWalkDay": 479,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 32:1–5 points us to the quiet centerpiece of “said out loud” and whispers, “the heaviest thing you carry might be the thing you haven't said yet.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 32:1–5 points us to the quiet centerpiece of “said out loud” and whispers, “the heaviest thing you carry might be the thing you haven't said yet.” How can you practice that unhurried wisdom today?",
+      "zh_title": "大声说",
+      "zh_poem": "当我保持沉默的时候\n我的骨头都消瘦了。\n\n它的重量\n一整天\n整个晚上。\n\n然后我说了——\n大声说出来，对上帝说。\n\n他原谅了。\n\n你携带的最重的东西\n可能是这样的\n你还没说呢。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而诗篇 32:1-5 向我们指出了“大声说出来”的安静核心，并低语道：“你所背负的最重的东西可能是你还没有说出来的东西。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“谁的悖逆得到宽恕，谁的罪孽得到遮盖，这人是有福的。”",
+      "zh_ref": "诗篇 32:1–5"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#e7d9c3"
       },
       "dailyWalkDay": 480,
-      "reflectionPrompt": "The poem closes with a quiet turn: “a new song— not because the old ones wore out, but because his mercies are new every morning, and new mercy deserves new music.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “a new song— not because the old ones wore out, but because his mercies are new every morning, and new mercy deserves new music.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "一首新歌",
+      "zh_poem": "一首新歌——\n\n不是因为旧的磨损了，\n但因为\n他的怜悯是新的\n每天早上，\n\n和新的怜悯\n应得的\n新音乐。",
+      "zh_reflectionPrompt": "这首诗以安静的转折结束：“一首新歌——不是因为旧歌已经磨损，而是因为他的怜悯每天早晨都是新的，新的怜悯值得新的音乐。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“给他唱一首新歌，熟练地弹奏，欢呼雀跃！”",
+      "zh_ref": "诗篇 33:1–3"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#f2ddba"
       },
       "dailyWalkDay": 481,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “and this: he is near the brokenhearted. not far from them. near” (Psalm 34:8–18) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “and this: he is near the brokenhearted. not far from them. near” (Psalm 34:8–18) speak to a question you have been carrying lately?",
+      "zh_title": "附近",
+      "zh_poem": "大卫写了这个\n假装生气后\n逃离国王。\n\n这不是他最好的时刻。\n\n仍然：\n尝尝看。\n主是良善的。\n\n还有这个：\n他就在附近\n伤心的人。\n\n离他们不远。\n靠近。",
+      "zh_reflectionPrompt": "有时，一句话可以为封闭的房间打开一扇窗：“还有这句话：他靠近伤心的人。离他们不远。很近”（诗篇 34：8-18）如何解答您最近一直在思考的问题？",
+      "zh_epigraph": "“耶和华靠近伤心的人”",
+      "zh_ref": "诗篇 34:8–18"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#ddc79f"
       },
       "dailyWalkDay": 482,
-      "reflectionPrompt": "Hold your hands open for a moment before “who is like you?” (Psalm 35:10): what are you gripping tightly that loosens when you hear, “every bully in history learns this eventually: the poor have a defender”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “who is like you?” (Psalm 35:10): what are you gripping tightly that loosens when you hear, “every bully in history learns this eventually: the poor have a defender”?",
+      "zh_title": "谁像你一样？",
+      "zh_poem": "我所有的骨头都会这么说：\n谁像你一样？\n\n你拯救弱者\n从一\n谁对他们来说太强大了。\n\n历史上的每一个恶霸\n学这个\n最终：\n\n穷人\n有一名后卫。",
+      "zh_reflectionPrompt": "在问“谁像你？”之前先张开双手。 （诗篇35:10）：当你听到“历史上的每一个恶霸最终都会明白：穷人有一个捍卫者”时，你紧握的是什么东西松开了？",
+      "zh_epigraph": "“谁救穷人脱离比他强大的人”",
+      "zh_ref": "诗篇 35:10"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#fbf5e8"
       },
       "dailyWalkDay": 483,
-      "reflectionPrompt": "Scripture remembers this moment in Psalm 36:7–9 not to impress us, but to steady us: when have you seen the truth that “he is the light we see everything else by” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Psalm 36:7–9 not to impress us, but to steady us: when have you seen the truth that “he is the light we see everything else by” in your own story?",
+      "zh_title": "在你的光下",
+      "zh_poem": "与你同在，就是生命的源泉。\n在你的光下\n我们看到了光。\n\n我们没有看到他\n借着光\n靠我们自己的聪明才智。\n\n他是光\n我们看到\n其他一切由。",
+      "zh_reflectionPrompt": "圣经在诗篇 36:7-9 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“他是我们看到其他一切事物的光”这一真理？",
+      "zh_epigraph": "“因为与你同在的是生命之泉。在你的光芒下，我们将看到光明。”",
+      "zh_ref": "诗篇 36:7–9"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f6ecce"
       },
       "dailyWalkDay": 484,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “don't fret” (Psalm 37:1–7), what one honest sentence would you pray beside the quiet centerpiece of “don't fret” after reading, “you're planted for something longer”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “don't fret” (Psalm 37:1–7), what one honest sentence would you pray beside the quiet centerpiece of “don't fret” after reading, “you're planted for something longer”?",
+      "zh_title": "别担心",
+      "zh_poem": "别担心，\n诗篇说，\n一次又一次。\n\n别烧死自己\n眼睁睁地看着恶人得逞。\n\n休息。\n等待。\n以主为乐。\n\n长得快的草\n枯萎得很快。\n你被栽种了\n为了更长的事情。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“不要烦恼”（诗篇37：1-7）处时，读完“你已经为更长久的事情做好了准备”之后，除了“不要烦恼”这句安静的核心内容之外，你还会祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“要在耶和华里面安息，耐心等候他。不要忧虑”",
+      "zh_ref": "诗篇 37:1–7"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#c59d5b"
       },
       "dailyWalkDay": 485,
-      "reflectionPrompt": "Between the opening line (“this is a sick man's prayer”) and the closing thought (“before you find the words, he knows”), what is Psalm 38:9–15 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“this is a sick man's prayer”) and the closing thought (“before you find the words, he knows”), what is Psalm 38:9–15 gently reframing in your own day?",
+      "zh_title": "不隐藏",
+      "zh_poem": "这是一个病人的祈祷。\n疼痛，\n朋友保持距离，\n他无法摆脱的愧疚。\n\n和一句话\n这支撑着他：\n\n我的渴望就在你面前。\n我的呻吟\n没有隐藏。\n\n他知道。\n在你找到词语之前，\n他知道。",
+      "zh_reflectionPrompt": "在开场白（“这是一个病人的祷告”）和结束语（“在你找到话语之前，他就知道”）之间，诗篇 38：9-15 在你那个时代温和地重新构建了什么？",
+      "zh_epigraph": "“主啊，我所有的愿望都在你面前。我的叹息不能向你隐瞒。”",
+      "zh_ref": "诗篇 38:9–15"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#e3c184"
       },
       "dailyWalkDay": 486,
-      "reflectionPrompt": "Along the road of Planted by the Water, “a handbreadth” (Psalm 39:4–12) slows us down at the cool shadow of the rock to remind us: “when life is short, you stop hoarding and start hoping in him.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Planted by the Water, “a handbreadth” (Psalm 39:4–12) slows us down at the cool shadow of the rock to remind us: “when life is short, you stop hoarding and start hoping in him.” Where are you being invited to trade control for trust today?",
+      "zh_title": "一掌宽",
+      "zh_poem": "你让我过得很开心\n几个手掌宽。\n\n一口气。\n一个影子。\n有客人路过。\n\n这不是病态的。\n它正在澄清。\n\n当生命短暂时，\n你停止囤积\n并开始\n对他抱有希望。",
+      "zh_reflectionPrompt": "沿着水边栽种的路，“一掌”（诗篇39:4-12）让我们在岩石凉爽的阴影下放慢脚步，提醒我们：“当生命短暂时，你就停止囤积，开始对他抱有希望。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“让我看看我的结局，我的日子有多长。让我知道我是多么脆弱。”",
+      "zh_ref": "诗篇 39:4–12"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#e1c687"
       },
       "dailyWalkDay": 487,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “out of the pit” (Psalm 40:1–3), what would you talk about after reading, “your rescue is someone else's reason to hope”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “out of the pit” (Psalm 40:1–3), what would you talk about after reading, “your rescue is someone else's reason to hope”?",
+      "zh_title": "出坑",
+      "zh_poem": "我等了又等，\n他弯下腰\n并听到了。\n\n他拉我\n从泥土里出来，\n把我的脚立在磐石上，\n\n并放一首新歌\n在我嘴里。\n\n许多人会看到，\n诗篇说，\n也相信他。\n\n你的救援\n是别人的原因\n希望。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走这条路，并在“出坑”处停下来（诗篇40:1-3），在读到“你的拯救是别人有希望的理由”之后，你会谈论什么？",
+      "zh_epigraph": "“他也把我从可怕的坑里，从泥泞中拉上来。他把我的脚放在磐石上”",
+      "zh_ref": "诗篇 40:1–3"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#fddb7d"
       },
       "dailyWalkDay": 488,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “amen and amen”: what changes in your posture today when you sit with the closing words of “amen and amen”—“and then, like a congregation standing up at the end: blessed be the Lord, forever and forever. amen and amen”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “amen and amen”: what changes in your posture today when you sit with the closing words of “amen and amen”—“and then, like a congregation standing up at the end: blessed be the Lord, forever and forever. amen and amen”?",
+      "zh_title": "阿门和阿门",
+      "zh_poem": "诗篇第一卷\n以祝福开始\n住在靠近水的人身上。\n\n结束了\n带着祝福\n落在注意到穷人的人身上。\n\n然后，\n就像会众站起来一样\n最后：\n\n愿主受颂赞，\n永远永远。\n阿门，阿门。",
+      "zh_reflectionPrompt": "在“阿门，阿门”这句安静的核心内容前停顿一下：今天，当你坐下来念着“阿门，阿门”的结束语时，你的姿势有什么变化——“然后，像一群会众在最后站起来：愿主颂赞，直到永远。阿门，阿门”？",
+      "zh_epigraph": "“耶和华以色列的神是应当称颂的，从亘古到永远！阿门，阿门。”",
+      "zh_ref": "诗篇 41:1–13"
     }
-  ]
+  ],
+  "zh_title": "栽在溪水旁",
+  "zh_subtitle": "诗篇 1–41 诗画集",
+  "zh_beforeYouBegin": "诗篇是圣经自己的祈祷书：为不眠之夜和明亮的早晨而写的歌曲，为逃离敌人和奔向上帝而写的歌曲。其中前四十一篇构成了《诗篇》第一卷，其中大部分由牧羊人和国王大卫撰写。\n\n这卷书一次回答一个问题，四十首短诗，分为五部分，每一部分旁边都有一张图画，并在它所回答的诗篇的一行下面。诚实的人始终保持诚实。多长时间？也是一种祈祷。\n\n这些诗不是圣经。它们是一位读者对此的回应。将诗篇与本书放在一起打开，让真正的话语成为最后的话语。"
 }

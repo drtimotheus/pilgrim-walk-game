@@ -16,7 +16,10 @@
       "epigraph": "But Daniel purposed in his heart that he would not defile himself",
       "epigraphRef": "Daniel 1:8",
       "lightName": "Light of The King's Table",
-      "lightHint": "Near 'the cups' (Daniel 1:1–2) in Part 1: The King's Table"
+      "lightHint": "Near 'the cups' (Daniel 1:1–2) in Part 1: The King's Table",
+      "zh_title": "国王的餐桌",
+      "zh_epigraph": "但但以理心里定意不玷污自己",
+      "zh_epigraphRef": "但以理书 1:8"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "His kingdom is an everlasting kingdom. His dominion is from generation to generation.",
       "epigraphRef": "Daniel 4:3",
       "lightName": "Light of The Statue and the Furnace",
-      "lightHint": "Near 'feet of clay' (Daniel 2:31–33) in Part 2: The Statue and the Furnace"
+      "lightHint": "Near 'feet of clay' (Daniel 2:31–33) in Part 2: The Statue and the Furnace",
+      "zh_title": "雕像和熔炉",
+      "zh_epigraph": "他的国度是永远的国度。他的统治代代相传。",
+      "zh_epigraphRef": "但以理书 4:3"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "for he is the living God, and steadfast forever.",
       "epigraphRef": "Daniel 6:26",
       "lightName": "Light of The Writing and the Lions",
-      "lightHint": "Near 'the cups again' (Daniel 5:2–4) in Part 3: The Writing and the Lions"
+      "lightHint": "Near 'the cups again' (Daniel 5:2–4) in Part 3: The Writing and the Lions",
+      "zh_title": "写作和狮子",
+      "zh_epigraph": "因为他是永生神，永远坚定。",
+      "zh_epigraphRef": "但以理书 6:26"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "But the saints of the Most High will receive the kingdom, and possess the kingdom forever, even forever and ever.",
       "epigraphRef": "Daniel 7:18",
       "lightName": "Light of Visions in the Night",
-      "lightHint": "Near 'the great sea' (Daniel 7:1–3) in Part 4: Visions in the Night"
+      "lightHint": "Near 'the great sea' (Daniel 7:1–3) in Part 4: Visions in the Night",
+      "zh_title": "夜间的异象",
+      "zh_epigraph": "但至高者的圣徒将接受国度，并永远拥有国度，甚至永永远远。",
+      "zh_epigraphRef": "但以理书 7:18"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "At that time your people will be delivered, everyone who is found written in the book.",
       "epigraphRef": "Daniel 12:1",
       "lightName": "Light of Until the End",
-      "lightHint": "Near 'plain bread' (Daniel 10:2–3) in Part 5: Until the End"
+      "lightHint": "Near 'plain bread' (Daniel 10:2–3) in Part 5: Until the End",
+      "zh_title": "直到最后",
+      "zh_epigraph": "到那时，你的人民将会被拯救，所有被发现的人都会被写在书上。",
+      "zh_epigraphRef": "但以理书 12:1"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#f7dd98"
       },
       "dailyWalkDay": 856,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Daniel 1:1–2)—where in your own home or work today does “even carried away, they were never out of his hands” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Daniel 1:1–2)—where in your own home or work today does “even carried away, they were never out of his hands” ring true?",
+      "zh_title": "杯子",
+      "zh_poem": "他们先拿走了杯子——\n寺庙里的碗，\n用稻草包裹，\n被带走\n到一个陌生人的宝库。\n\n然后他们带走了年轻人。\n\n故事开始了\n与每一件神圣的事物\n在错误的地方。\n\n但请再次阅读该行：\n是主赐给他们的。\n\n甚至得意忘形，\n他们从来都不是\n从他的手中。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（但以理书 1：1-2）——今天，在你自己的家里或工作中，哪里的“即使失了神，也从未脱离他的手”听起来是真实的？",
+      "zh_epigraph": "“耶和华将犹大王约雅敬和神殿中的器皿交在他手中”",
+      "zh_ref": "但以理书 1:1–2"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#dbcba6"
       },
       "dailyWalkDay": 857,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “it was never what God called them.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “it was never what God called them.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "新名字",
+      "zh_poem": "官方写下了\n新名字\n对于四个年轻人来说——\n伯提沙撒，\n沙得拉、米煞、\n阿贝德尼戈——\n属于的名字\n给别人的神。\n\n你可以给一个男孩重新命名。\n你可以教他\n一种新的语言\n和三年\n迦勒底教书籍。\n\n但一个名字\n只是他们这么称呼你。\n\n从来没有\n神如何称呼他们。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“这从来都不是上帝对他们的称呼。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“他给但以理起名叫伯提沙撒”",
+      "zh_ref": "但以理书 1:6–7"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#e9dcc7"
       },
       "dailyWalkDay": 858,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “it was only dinner.” Looking through the lens of Daniel 1:8, what does it mean to discover that “that's the quiet kind of courage: deciding who you are before the platter comes.12”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “it was only dinner.” Looking through the lens of Daniel 1:8, what does it mean to discover that “that's the quiet kind of courage: deciding who you are before the platter comes.12”?",
+      "zh_title": "不同的盘子",
+      "zh_poem": "这只是晚餐。\n帝国中最好的，\n从国王自己的餐桌上送来的。\n\n没有人会责怪他。\n离家很远，\n没有寺庙，没有家庭，\n一个年轻人在做\n他被告知的事情。\n\n但他内心的某个地方\n有一条线，\n他知道它在哪里。\n\n他没有大吵大闹。\n他问，\n礼貌地，\n对于不同的盘子。\n\n这就是一种安静的勇气：\n决定你是谁\n在拼盘上桌之前.12",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“这只是晚餐”的感觉。透过但以理书 1 章 8 节的视角来看，发现“这就是一种安静的勇气：在上菜之前决定自己是谁。12”是什么意思？",
+      "zh_epigraph": "“所以他请求太监王不要玷污自己。”",
+      "zh_ref": "但以理书 1:8"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#eedfb6"
       },
       "dailyWalkDay": 859,
-      "reflectionPrompt": "Look closely at the table set before you in this painting (Daniel 1:12–15)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the table set before you in this painting (Daniel 1:12–15)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "十天",
+      "zh_poem": "考验我们，\n他说。\n十天。\n\n一碗蔬菜。\n一杯水。\n\n和管家\n说是的。\n\n第十天\n他们看起来更好了\n并且更强\n比所有其他人。\n\n不是因为蔬菜有魔力。\n\n因为上帝\n尊重一点点的忠诚\n放在一张普通的桌子上\n没有人在看的地方\n但他。",
+      "zh_reflectionPrompt": "仔细看看这幅画中摆在你面前的桌子（但以理书 1：12-15）——如果你今天可以在它旁边留下一个焦虑的重物，你会放什么？",
+      "zh_epigraph": "“让他们给我们吃蔬菜，喝水。”",
+      "zh_ref": "但以理书 1:12–15"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#e3b372"
       },
       "dailyWalkDay": 860,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “the books of Babylon”: what quiet prayer rises in you when you read, “you can study everything in a strange land and keep your heart pointed home”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “the books of Babylon”: what quiet prayer rises in you when you read, “you can study everything in a strange land and keep your heart pointed home”?",
+      "zh_title": "巴比伦的书",
+      "zh_poem": "他们学习了巴比伦的书籍，\n药片，\n语言，\n外国法庭的整个图书馆。\n\n他们并不拒绝学习。\n他们拒绝鞠躬。\n\n和上帝\n给了他们更多\n比他们的老师有。\n\n你可以学习一切\n在一个陌生的地方\n\n并保持你的心\n指着家。",
+      "zh_reflectionPrompt": "让你的目光停留在《巴比伦之书》安静的中心部分周围的笔触和光线上：当你读到“你可以在陌生的土地上研究一切，并保持你的心指向家乡”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“上帝赐予他们一切学问和智慧的知识和技能”",
+      "zh_ref": "但以理书 1:17–20"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#ccae7f"
       },
       "dailyWalkDay": 861,
-      "reflectionPrompt": "Linger with the movement in “four around a lamp” (Daniel 2:17–18) from “the king wanted a dream no one could know” to “just friends who knew how to pray, and a God who knew the dream”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “four around a lamp” (Daniel 2:17–18) from “the king wanted a dream no one could know” to “just friends who knew how to pray, and a God who knew the dream”—where do you find yourself along that arc today?",
+      "zh_title": "四人围绕一盏灯",
+      "zh_poem": "国王想要一个梦想\n没有人知道。\n订单已出：\n所有的智者都会死去。\n\n和丹尼尔\n做了最明智的事\n一个聪明人能做到的。\n\n他回家了\n并告诉了他的朋友们。\n\n四个年轻人\n围绕着一盏小灯，\n祈求上天怜悯。\n\n不是一个策略。\n不是后备计划。\n\n只是朋友\n谁知道如何祈祷，\n和一个神\n谁知道这个梦。",
+      "zh_reflectionPrompt": "留心“四人围一盏灯”（但以理书 2：17-18）中的运动，从“王想要一个无人能知道的梦”到“只是知道如何祈祷的朋友，和知道梦的上帝”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“愿他们祈求天上的上帝怜悯这秘密”",
+      "zh_ref": "但以理书 2:17–18"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#f7e9b1"
       },
       "dailyWalkDay": 862,
-      "reflectionPrompt": "Notice how “the light lives with him” (Daniel 2:19–22) arrives at: “it's that nothing in it is hidden from him— and the light has always lived with him.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “the light lives with him” (Daniel 2:19–22) arrives at: “it's that nothing in it is hidden from him— and the light has always lived with him.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "光与他同在",
+      "zh_poem": "秘密来了\n在晚上。\n\n在他跑去见国王之前，\n在他拯救自己的生命之前，\n丹尼尔停了下来\n并称颂上帝。\n\n他改变了时代。\n他知道黑暗中隐藏着什么。\n\n这不是黑暗\n是空的。\n\n就是里面什么都没有\n对他隐藏——\n\n和光\n一直\n和他住在一起。",
+      "zh_reflectionPrompt": "请注意“光与他同住”（但以理书 2：19-22）如何得出这样的结论：“其中没有什么对他隐藏——光一直与他同住。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“他知道黑暗中的事物，光明与他同在。”",
+      "zh_ref": "但以理书 2:19–22"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#ece2cf"
       },
       "dailyWalkDay": 863,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Daniel 2:27–30: “the first thing Daniel told the king wasn't the dream. it was who gave it”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Daniel 2:27–30: “the first thing Daniel told the king wasn't the dream. it was who gave it”?",
+      "zh_title": "不是我",
+      "zh_poem": "他本可以把功劳占为己有。\n整个法庭都在等待。\n国王的眼睛注视着他。\n\n相反，他说：\n这不是我。\n\n天上有一位神\n谁泄露了秘密。\n\n但以理告诉国王的第一件事\n这不是梦。\n\n这是谁给的。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是但以理书 2 章 27-30 节的安静教训：“但以理告诉王的第一件事不是梦，而是是谁给的”，那又怎样呢？",
+      "zh_epigraph": "“这个秘密没有向我透露，因为我拥有比任何活着的智慧更多的智慧”",
+      "zh_ref": "但以理书 2:27–30"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#eadcaf"
       },
       "dailyWalkDay": 864,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “feet of clay”: what hurry or noise in your week begins to fade when you hear, “every empire looks like gold from the top. look lower”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “feet of clay”: what hurry or noise in your week begins to fade when you hear, “every empire looks like gold from the top. look lower”?",
+      "zh_title": "粘土脚",
+      "zh_poem": "头上有金子，\n然后是银，\n青铜,\n铁——\n每种金属都更坚硬，\n每一件都价值较低。\n\n在底部，\n把整个明亮的东西举起来，\n铁脚\n与粘土混合。\n\n每个帝国\n看起来像金子\n从顶部。\n\n看起来更低。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是“粘土脚”安静的中心：当您听到“每个帝国从顶部看起来都像金子。往下看”时，您一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“它的脚一部分是铁，一部分是粘土。”",
+      "zh_ref": "但以理书 2:31–33"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#e5d4af"
       },
       "dailyWalkDay": 865,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and the stone kept growing until it was a mountain and filled the whole earth. not stopped by anyone.” What part of your heart feels most searched or comforted by Daniel 2:34–35 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and the stone kept growing until it was a mountain and filled the whole earth. not stopped by anyone.” What part of your heart feels most searched or comforted by Daniel 2:34–35 right now?",
+      "zh_title": "无需手工切割的石头",
+      "zh_poem": "没有采石场。\n没有凿子。\n没有国王的名字\n刻在其侧面。\n\n只是一块石头\n没有人制作，\n\n撞击雕像\n在其最薄弱的地方。\n\n金、银、青铜、铁、粘土——\n像糠秕一样被吹走\n来自夏季的打谷场。\n\n和石头\n不断增长\n直到变成一座山\n并充满全地。\n\n他的王国就是这样来的：\n不是我们建造的。\n没有被任何人阻止。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“石头不断生长，直到成为一座山，充满整个地球。没有人阻止。”现在，但以理书 2 章 34-35 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“一块石头不是人手凿出来的”",
+      "zh_ref": "但以理书 2:34–35"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#f6e9cb"
       },
       "dailyWalkDay": 866,
-      "reflectionPrompt": "In Daniel 2:44, grace meets us right beside the stones of the wall: how does the closing thought—“it is still standing, and the door is still open”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Daniel 2:44, grace meets us right beside the stones of the wall: how does the closing thought—“it is still standing, and the door is still open”—steady your footing for the road ahead?",
+      "zh_title": "从未被摧毁",
+      "zh_poem": "巴比伦现在已是尘土。\n宫殿也是如此\n每个国王的\n谁来了。\n\n你可以步行\n墙壁矗立的地方\n并且不知道。\n\n但在那些国王的时代\n另一个王国开始了——\n静静地，\n无资本\n你可以指出。\n\n从来没有\n交给其他人。\n\n它仍然矗立着，\n和门\n仍然开放。",
+      "zh_reflectionPrompt": "在但以理书 2 章 44 节中，恩典就在城墙的石头旁边与我们相遇：最后的思想——“门仍然矗立着，门仍然开着”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“天上的神必另立一个永不败坏的国度”",
+      "zh_ref": "但以理书 2:44"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#dba560"
       },
       "dailyWalkDay": 867,
-      "reflectionPrompt": "If today’s painting of “able” (Daniel 3:16–17) hung beside the door you walk out of this morning, how would its final line—“that was the whole speech”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “able” (Daniel 3:16–17) hung beside the door you walk out of this morning, how would its final line—“that was the whole speech”—shape your choices?",
+      "zh_title": "能够",
+      "zh_poem": "音乐开始了，\n和一整片平原\n跪下。\n\n圆号、长笛、竖琴、竖琴——\n每个人都鞠躬\n到六十肘金子。\n\n三个年轻人\n一直站着。\n\n不骄傲。\n不大声。\n\n他们告诉国王：\n我们不需要争论这一点。\n\n我们的神有能力。\n\n这就是整个演讲。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁边挂着今天的“能干”（但以理书 3：16-17）的画，它的最后一行——“这就是整个演讲”——会如何影响你的选择？",
+      "zh_epigraph": "“我们所侍奉的上帝能够将我们从烈火的熔炉中拯救出来”",
+      "zh_ref": "但以理书 3:16–17"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#fccc79"
       },
       "dailyWalkDay": 868,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Daniel 3:18)—where in your own home or work today does “this is love that doesn't ask for a guarantee” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Daniel 3:18)—where in your own home or work today does “this is love that doesn't ask for a guarantee” ring true?",
+      "zh_title": "但如果没有",
+      "zh_poem": "他有能力。\n他会拯救我们。\n\n然后三个字\n支撑着一切：\n\n但如果没有。\n\n他们的信仰\n不依赖\n故事如何结束。\n\n他们不知道\n关于第四个人呢。\n他们只知道\n他们为谁服务。\n\n这就是爱\n那不问\n为了保证。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（但以理书 3:18）——今天，在你自己的家里或工作场所，“这就是不求保证的爱”听起来是真实的吗？",
+      "zh_epigraph": "“但如果没有，国王啊，请让您知道，我们不会侍奉您的神”",
+      "zh_ref": "但以理书 3:18"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#f6c83e"
       },
       "dailyWalkDay": 869,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “sometimes that's the rescue: not a door that keeps you out, but someone who walks in beside you.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “sometimes that's the rescue: not a door that keeps you out, but someone who walks in beside you.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "第四个在火中",
+      "zh_poem": "三人上界。\n\n国王向前倾身\n并数了数\n四.\n\n松动的。\n没有受伤。\n不运行——\n步行，\n仿佛这是一个花园。\n\n他们没有得到\n从火中出来。\n\n他们有伴\n在其中。\n\n有时这就是拯救：\n不是一扇将你拒之门外的门\n但有人\n谁走进你身边。",
+      "zh_reflectionPrompt": "慢慢地吸一口气，再读一遍最后一行：“有时这就是拯救：不是一扇将你拒之门外的门，而是有人走进你身边。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“看，我看到有四个人松了口气，在火中间行走，他们毫发无伤。”",
+      "zh_ref": "但以理书 3:24–25"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#f6ebd6"
       },
       "dailyWalkDay": 870,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “only the ropes were gone.” Looking through the lens of Daniel 3:26–27, what does it mean to discover that “may he do that for you: bring you through, and bring you out clean”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “only the ropes were gone.” Looking through the lens of Daniel 3:26–27, what does it mean to discover that “may he do that for you: bring you through, and bring you out clean”?",
+      "zh_title": "连气味都没有",
+      "zh_poem": "只有绳索\n都消失了。\n\n一根头发都没有烧焦。\n下摆没有任何变化。\n连烟味都闻不到\n在他们的衣服上。\n\n你摆脱了一些麻烦\n还带着——\n它的气味\n在一切事情上。\n\n这次\n上帝夺走了这一切。\n\n他可以为你这样做吗：\n带你渡过，\n带你出去\n干净。",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“只有绳索消失了”的感觉。透过但以理书 3 章 26-27 节的视角来看，发现“愿他为你做这事：带你渡过难关，带你洁净出来”意味着什么？",
+      "zh_epigraph": "“他们身上甚至没有火的味道。”",
+      "zh_ref": "但以理书 3:26–27"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#f4e9ca"
       },
       "dailyWalkDay": 871,
-      "reflectionPrompt": "Look closely at the deep roots of the tree in this painting (Daniel 4:14–15)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the deep roots of the tree in this painting (Daniel 4:14–15)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "树桩",
+      "zh_poem": "一棵触及天空的树，\n每一个枝头都有鸟儿，\n水果足够所有人吃。\n\n还有来自天上的声音：\n把它砍下来。\n\n但是——\n留下树桩。\n留根。\n让露水落在上面。\n\n就连判断\n有怜悯\n折叠在里面。\n\n神把国王打倒了\n并留下了一些东西\n重新长出来。",
+      "zh_reflectionPrompt": "仔细观察这幅画中树的深深根部（但以理书 4：14-15）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“尽管如此，还是要把它的根留在土里”",
+      "zh_ref": "但以理书 4:14–15"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#f8eabc"
       },
       "dailyWalkDay": 872,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “looking up”: what quiet prayer rises in you when you read, “pride looks down at what it built. healing looks up”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “looking up”: what quiet prayer rises in you when you read, “pride looks down at what it built. healing looks up”?",
+      "zh_title": "抬头看",
+      "zh_poem": "这不是伟大的巴比伦吗，\n我已经建造了哪些？\n\n他在他的宫殿里这么说的\n并失去了一切\n而这句话\n还在他嘴里。\n\n七次从他身边经过\n在潮湿的草地上。\n然后有一天，他抬起头来。\n\n他抬起眼睛，\n他的思绪回来了，\n他做的第一件事\n是赞美。\n\n骄傲看不起\n在它建造的地方。\n\n治愈\n抬起头来。",
+      "zh_reflectionPrompt": "让你的目光停留在“向上看”的安静中心周围的笔触和光线上：当你读到“骄傲俯视它所建造的东西。治愈向上看”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“我的理解又回来了”",
+      "zh_ref": "但以理书 4:30–34"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#e0d3b0"
       },
       "dailyWalkDay": 873,
-      "reflectionPrompt": "Linger with the movement in “the cups again” (Daniel 5:2–4) from “remember the cups from the first page?” to “he thought no one was keeping count”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the cups again” (Daniel 5:2–4) from “remember the cups from the first page?” to “he thought no one was keeping count”—where do you find yourself along that arc today?",
+      "zh_title": "再次杯子",
+      "zh_poem": "记住杯子\n从第一页开始？\n\n几年后\n有人把他们带出来\n宝库的\n为了一个聚会。\n\n圣物\n传下桌子，\n装满了酒，\n被提升为神\n木头和石头。\n\n伯沙撒认为\n它们只是杯子。\n\n他想\n没有人在数。",
+      "zh_reflectionPrompt": "停留在“还记得第一页的杯吗？”中的“再次杯”（但以理书 5：2-4）的乐章中。到“他认为没有人在统计”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“他父亲尼布甲尼撒从圣殿中掠夺的金银器皿”",
+      "zh_ref": "但以理书 5:2–4"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#fae2ac"
       },
       "dailyWalkDay": 874,
-      "reflectionPrompt": "Notice how “the plaster wall” (Daniel 5:5–8) arrives at: “all the wise men of Babylon came in and stared, and not one of them could read it.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “the plaster wall” (Daniel 5:5–8) arrives at: “all the wise men of Babylon came in and stared, and not one of them could read it.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "石膏墙",
+      "zh_poem": "在同一个小时内，\n当酒还在喝的时候，\n\n灯台附近，\n光线最亮的地方，\n手指在写字\n在石膏上。\n\n没有身体。\n没有声音。\n只需一只手，\n和一条消息。\n\n国王的膝盖\n敲在一起。\n\n巴比伦所有的智者\n进来盯着看，\n\n而其中没有一个\n可以读它。",
+      "zh_reflectionPrompt": "请注意“石膏墙”（但以理书 5：5-8）是如何出现的：“巴比伦所有的博士都进来观看，没有一个能读懂。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“一个男人的手指伸出来，在灯台附近的墙上的灰泥上写字”",
+      "zh_ref": "但以理书 5:5–8"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#eee0c0"
       },
       "dailyWalkDay": 875,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Daniel 5:16–17: “the truth was never his to put a price on”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Daniel 5:16–17: “the truth was never his to put a price on”?",
+      "zh_title": "保留你的礼物",
+      "zh_poem": "紫色长袍。\n一条金链。\n王国第三位。\n\n丹尼尔说：\n保留它们。\n无论如何我都会读它。\n\n他不能被收买\n因为他不卖。\n\n真相\n从来都不是他的\n定价。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是但以理书 5 章 16-17 节的安静教训：“真理从来不是他可以定价的”，那又怎么样呢？",
+      "zh_epigraph": "“把你的礼物送给自己，把你的回报送给别人。”",
+      "zh_ref": "但以理书 5:16–17"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#c6b595"
       },
       "dailyWalkDay": 876,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet rhythm of your breath: what hurry or noise in your week begins to fade when you hear, “but read it again, gently: every breath you've taken today was held by someone”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet rhythm of your breath: what hurry or noise in your week begins to fade when you hear, “but read it again, gently: every breath you've taken today was held by someone”?",
+      "zh_title": "你的呼吸",
+      "zh_poem": "你赞美金银诸神，\n但以理告诉王，\n由青铜和铁制成，\n木头和石头——\n\n看不见的神\n没听见，\n不知道。\n\n和上帝\n谁屏住了你的呼吸\n在他手里\n你从来没有感谢过。\n\n这是一个很难的词。\n但请轻轻地再读一遍：\n\n你的每一次呼吸\n今天\n举行了\n由某人。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是你安静的呼吸节奏：当你听到“但请轻轻地再读一遍：你今天的每一次呼吸都被某人屏住了”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“你的呼吸在他的手中，你的一切道路都在他的手中”",
+      "zh_ref": "但以理书 5:23"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#f2cf9e"
       },
       "dailyWalkDay": 877,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's that mercy has a thumb on the scale.” What part of your heart feels most searched or comforted by Daniel 5:26–28 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's that mercy has a thumb on the scale.” What part of your heart feels most searched or comforted by Daniel 5:26–28 right now?",
+      "zh_title": "称重",
+      "zh_poem": "算了。\n称重。\n划分。\n\n墙上三个字，\n那天晚上\n王国过去了\n给别人。\n\n太可怕了\n进行称重。\n\n我们每个人\n会亮起来。\n\n这就是为什么好消息\n从来没有\n我们足够重。\n\n就是这样的怜悯\n有一个拇指\n在规模上。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“怜悯在天平上有一根大拇指。”现在，但以理书 5 章 26-28 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“人们对你进行了权衡，发现你有不足之处。”",
+      "zh_ref": "但以理书 5:26–28"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#faeabd"
       },
       "dailyWalkDay": 878,
-      "reflectionPrompt": "In Daniel 6:4–5, grace meets us right beside the quiet centerpiece of “no fault”: how does the closing thought—“imagine a life so honest the only charge against you is that you love God”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Daniel 6:4–5, grace meets us right beside the quiet centerpiece of “no fault”: how does the closing thought—“imagine a life so honest the only charge against you is that you love God”—steady your footing for the road ahead?",
+      "zh_title": "没有过错",
+      "zh_poem": "他们经历了\n每个账本，\n每个账户，\n每一个决定\n他曾经签名过。\n\n他们在寻找\n为了一个错误。\n\n他们什么也没找到。\n\n所以他们去寻找\n相反，他的祈祷。\n\n想象一种生活\n如此诚实\n对你的唯一指控\n就是你爱神。",
+      "zh_reflectionPrompt": "在但以理书 6 章 4-5 节中，恩典就在“无过错”这一安静的核心内容旁边与我们相遇：最后的思想——“想象一下，你的生活如此诚实，唯一对你的指控就是你爱上帝”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“他们找不到任何理由或错误，因为他是忠诚的。”",
+      "zh_ref": "但以理书 6:4–5"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#fce7b6"
       },
       "dailyWalkDay": 879,
-      "reflectionPrompt": "If today’s painting of “windows open toward Jerusalem” (Daniel 6:10) hung beside the door you walk out of this morning, how would its final line—“he had been praying all along”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “windows open toward Jerusalem” (Daniel 6:10) hung beside the door you walk out of this morning, how would its final line—“he had been praying all along”—shape your choices?",
+      "zh_title": "窗户向耶路撒冷敞开",
+      "zh_poem": "他知道法律已经签署。\n他知道谁在看。\n\n他还是上楼了，\n打开窗户\n向着一座城市\n他没看到\n从他年轻的时候起，\n\n并跪下，\n一天三次，\n并表示感谢，\n正如他以前所做的那样。\n\n不是违抗。\n在习惯中。\n\n他没有开始祈祷\n因为狮子。\n\n他一直在祈祷\n一直以来。",
+      "zh_reflectionPrompt": "如果今天的“窗户向耶路撒冷敞开”（但以理书 6:10）的画挂在你今天早上走出的门旁边，它的最后一行——“他一直在祈祷”——会如何影响你的选择？",
+      "zh_epigraph": "“现在他房间里面向耶路撒冷的窗户开着”",
+      "zh_ref": "但以理书 6:10"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#b8a788"
       },
       "dailyWalkDay": 880,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Daniel 6:18–20)—where in your own home or work today does “the answer hasn't changed” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Daniel 6:18–20)—where in your own home or work today does “the answer hasn't changed” ring true?",
+      "zh_title": "国王的长夜",
+      "zh_poem": "签署该法律的人\n无法入睡。\n\n没有音乐。没有晚饭。\n一整夜的法令\n他无法收回。\n\n他很早就跑了\n到封印的石头\n并在黑暗中呼唤，\n他的声音颤抖着：\n\n是你的上帝\n能吗？\n\n这是同样的问题\n另一位国王问\n在熔炉处。\n\n答案\n没有改变。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（但以理书 6:18-20）——今天在你自己的家里或工作场所，“答案没有改变”听起来是真的吗？",
+      "zh_epigraph": "“他睡意全无。”",
+      "zh_ref": "但以理书 6:18–20"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#e8d6b0"
       },
       "dailyWalkDay": 881,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “and the lions, it seems, slept better than the king did.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “and the lions, it seems, slept better than the king did.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "狮子的巢穴",
+      "zh_poem": "整个晚上\n在黑暗中\n与狮子。\n\n没有人看到\n下面发生了什么。\n只有早上，\n和下面传来的声音：\n\n王啊，愿你永生。\n\n没有发现他受到任何伤害，\n书上说，\n因为他曾经信任过\n在他的神里。\n\n还有狮子，\n看来，\n睡得更好\n比国王做的还要多。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“看来，狮子睡得比国王好。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“我的上帝派出了他的天使，封住了狮子的嘴”",
+      "zh_ref": "但以理书 6:21–23"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#f7efd6"
       },
       "dailyWalkDay": 882,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “in the first year of Belshazzar— before the wall, before the lions— Daniel dreamed of the sea.” Looking through the lens of Daniel 7:1–3, what does it mean to discover that “and he kept watching, because the vision wasn't finished yet”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “in the first year of Belshazzar— before the wall, before the lions— Daniel dreamed of the sea.” Looking through the lens of Daniel 7:1–3, what does it mean to discover that “and he kept watching, because the vision wasn't finished yet”?",
+      "zh_title": "大海",
+      "zh_poem": "伯沙撒元年——\n墙前，\n在狮子面前——\n丹尼尔梦见\n海的。\n\n四风吹过它，\n并从深处\n可怕的事情来了，\n一个又一个。\n\n这就是世界的感受：\n风从四面八方吹来，\n水永远不会静止。\n\n他把它写下来。\n他说了大概的情况。\n\n他继续观察，\n因为愿景\n还没有完成。",
+      "zh_reflectionPrompt": "想象一下某个季节，你体会到“伯沙撒第一年——在城墙前，在狮子面前——但以理梦见大海”的感觉。从但以理书 7 章 1-3 节的角度来看，发现“他就观看，因为异象还没有完成”是什么意思？",
+      "zh_epigraph": "“大海上爆发出天上的四风。”",
+      "zh_ref": "但以理书 7:1–3"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f4e7c5"
       },
       "dailyWalkDay": 883,
-      "reflectionPrompt": "Look closely at the stream bank in this painting (Daniel 7:9–10)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the stream bank in this painting (Daniel 7:9–10)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "远古时代",
+      "zh_poem": "宝座已设立，\n一个人坐下来\n他比每个帝国都古老——\n\n衣服洁白如雪，\n头发如纯羊毛，\n一股火流\n在他面前流淌出来。\n\n书被打开了。\n\n在所有的咆哮之后\n这个：\n有人坐下。\n\n不着急。\n不害怕。\n\n法官已入座，\n和大海\n没什么可说的了。",
+      "zh_reflectionPrompt": "仔细观察这幅画中的河岸（但以理书 7：9-10）——如果今天你可以在它旁边留下一个焦虑的重物，你会放什么？",
+      "zh_epigraph": "“坐着一位自古以来的人。他的衣服洁白如雪”",
+      "zh_ref": "但以理书 7:9–10"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#fdddb0"
       },
       "dailyWalkDay": 884,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the guiding cloud: what quiet prayer rises in you when you read, “long after, standing before the high priest, Jesus would answer with these very words: the Son of Man, coming with the clouds”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the guiding cloud: what quiet prayer rises in you when you read, “long after, standing before the high priest, Jesus would answer with these very words: the Son of Man, coming with the clouds”?",
+      "zh_title": "像人子一样",
+      "zh_poem": "世界各国\n从海里上来。\n\n这个来了\n与云。\n\n一个像人子一样的人，\n靠近\n到远古时代，\n\n并赐予一个王国\n那不会消失。\n\n很久以后，\n站在大祭司面前，\n耶稣会回答\n用这些话：\n\n人子，\n随云而来。",
+      "zh_reflectionPrompt": "让你的目光停留在引导云彩周围的笔触和光线上：当你读到“很久以后，站在大祭司面前，耶稣会用这句话来回答：人子驾云降临”时，你内心会升起怎样的安静祈祷？",
+      "zh_epigraph": "“有一位像人子一样，随着天上的云而来”",
+      "zh_ref": "但以理书 7:13–14"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#e4bf80"
       },
       "dailyWalkDay": 885,
-      "reflectionPrompt": "Linger with the movement in “kept” (Daniel 7:28) from “he saw it. he didn't understand all of it” to “he kept it, the way you keep a letter you can't read yet— close, turning it over, trusting the one who wrote it”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “kept” (Daniel 7:28) from “he saw it. he didn't understand all of it” to “he kept it, the way you keep a letter you can't read yet— close, turning it over, trusting the one who wrote it”—where do you find yourself along that arc today?",
+      "zh_title": "保留",
+      "zh_poem": "他看到了。\n他不明白这一切。\n这让他很困扰。\n\n而他没有\n把它扔掉。\n\n他没有解释清楚，\n要么。\n\n他保留了它，\n你保持的方式\n一封你还看不懂的信——\n\n关闭,\n把它翻过来，\n信任\n写它的人。",
+      "zh_reflectionPrompt": "停留在“保留”（但以理书 7:28）的动作中，从“他看到了。他不明白这一切”到“他保留了它，就像你保存一封你还看不懂的信一样——关闭，翻过来，相信写这封信的人”——今天你发现自己在这条弧线上处于什么位置？",
+      "zh_epigraph": "“我的思绪万千，我的脸色也变了，但我把这件事记在心里。”",
+      "zh_ref": "但以理书 7:28"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f4dfaf"
       },
       "dailyWalkDay": 886,
-      "reflectionPrompt": "Notice how “Gabriel” (Daniel 8:15–18) arrives at: “that's still how it goes. it comes to stand you up.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “Gabriel” (Daniel 8:15–18) arrives at: “that's still how it goes. it comes to stand you up.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "加布里埃尔",
+      "zh_poem": "乌来河畔\n水对岸传来一个声音：\n加布里埃尔，\n让这个男人明白。\n\n和天堂\n派了一位老师。\n\n丹尼尔脸朝下摔倒了。\n他陷入了沉睡。\n\n和天使\n触动了他\n并把他扶正。\n\n事情仍然如此。\n真相没有到来\n压垮你。\n\n它来了\n让你站起来。",
+      "zh_reflectionPrompt": "请注意“加百列”（但以理书 8：15-18）是如何到达的：“事情仍然如此。它来让你站起来。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“加百列，让这个人明白这个异象。”",
+      "zh_ref": "但以理书 8:15–18"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#ebdbb5"
       },
       "dailyWalkDay": 887,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Daniel 9:2–3: “he prayed toward it— with fasting, with sackcloth and ashes. it made him pray more”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Daniel 9:2–3: “he prayed toward it— with fasting, with sackcloth and ashes. it made him pray more”?",
+      "zh_title": "七十年",
+      "zh_poem": "他在《耶利米书》中找到了这一点：\n七十年了。\n\n和丹尼尔，\n谁经历过\n他们中的大多数人，\n算了。\n\n一个承诺\n上面有一个数字。\n\n他不只是等待。\n他向它祈祷——\n禁食，\n用麻布和灰烬。\n\n阅读承诺\n并没有让他减少祈祷。\n\n这让他\n多祈祷。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是但以理书 9 章 2-3 节的静谧教训：“他禁食、披麻、撒灰，向这事祷告。这使他更加祷告”，那又怎样呢？",
+      "zh_epigraph": "“我，丹尼尔，通过书本了解了年数”",
+      "zh_ref": "但以理书 9:2–3"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#fde7b6"
       },
       "dailyWalkDay": 888,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “Lord, hear”: what hurry or noise in your week begins to fade when you hear, “that's the whole prayer of anyone who has ever come home”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “Lord, hear”: what hurry or noise in your week begins to fade when you hear, “that's the whole prayer of anyone who has ever come home”?",
+      "zh_title": "主啊，求你垂听",
+      "zh_poem": "我们犯了罪，\n他祈祷。\n\n我们。\n不是他们。\n\n巴比伦的一个人\n他们挑不出任何毛病\n排队\n与其他人。\n\n他没有问\n因为他们应得的。\n他问\n因为上帝是仁慈的。\n\n听到。原谅。听并做。\n\n这就是整个祈祷\n任何人的\n谁曾回家过。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是“主啊，请听”的安静中心：当您听到“这是任何回家的人的全部祈祷”时，您一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“主啊，请垂听。主啊，请宽恕。主啊，请聆听并遵行。”",
+      "zh_ref": "但以理书 9:18–19"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#f2ce81"
       },
       "dailyWalkDay": 889,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “he answers with the truth about you.” What part of your heart feels most searched or comforted by Daniel 9:21–23 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “he answers with the truth about you.” What part of your heart feels most searched or comforted by Daniel 9:21–23 right now?",
+      "zh_title": "晚上的时间",
+      "zh_poem": "他花了整个祈祷时间\n告诉上帝\n他的人民是什么：\n任性,\n羞愧，\n离家很远。\n\n加百列迅速赶来，\n大约在献晚祭的时候，\n并告诉丹尼尔\n他是什么：\n\n深受喜爱。\n\n你带来了上帝\n关于你自己的真相。\n\n他回答\n与真相\n关于你。",
+      "zh_reflectionPrompt": "在寂静中大声读出结束语：“他回答了关于你的真相。”现在，但以理书 9 章 21-23 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“因为你是深受欢迎的。”",
+      "zh_ref": "但以理书 9:21–23"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#d9c094"
       },
       "dailyWalkDay": 890,
-      "reflectionPrompt": "In Daniel 10:2–3, grace meets us right beside the table set before you: how does the closing thought—“some things you learn young and keep”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Daniel 10:2–3, grace meets us right beside the table set before you: how does the closing thought—“some things you learn young and keep”—steady your footing for the road ahead?",
+      "zh_title": "普通面包",
+      "zh_poem": "整整三个星期\n哀悼。\n\n普通面包。\n没有肉，\n没有酒，\n他的皮肤没有油。\n\n曾经问过的年轻人\n用于蔬菜和水\n还是同桌，\n仍在选择\n更朴素的盘子。\n\n有些事情\n你年轻时学习\n并保留。",
+      "zh_reflectionPrompt": "在但以理书 10 章 2-3 节中，恩典就在摆在你面前的桌子旁边与我们相遇：最后的思想——“有些事你年轻时就学会并保持着”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“我没有吃到美味的面包。没有肉或酒进入我的嘴。”",
+      "zh_ref": "但以理书 10:2–3"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f9e8c0"
       },
       "dailyWalkDay": 891,
-      "reflectionPrompt": "If today’s painting of “twenty-one days” (Daniel 10:10–13) hung beside the door you walk out of this morning, how would its final line—“it may be that someone is still on the way”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “twenty-one days” (Daniel 10:10–13) hung beside the door you walk out of this morning, how would its final line—“it may be that someone is still on the way”—shape your choices?",
+      "zh_title": "二十一天",
+      "zh_poem": "三个星期的禁食，\n什么也没有。\n\n然后，在大河边，\n一只手把他放在膝盖上：\n\n你的话被听到了\n从第一天开始。\n\n答复已发送。\n它遇到了阻力\n我们看不到——\n二十一天了。\n\n所以当天堂显得安静时，\n可能不是\n没有人听到。\n\n可能是\n有人还在\n在路上。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“二十一天”（但以理书10:10-13）的画，那么它的最后一行——“可能有人还在路上”——会如何影响你的选择？",
+      "zh_epigraph": "“从你用心去理解的第一天起”",
+      "zh_ref": "但以理书 10:10–13"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#ecdeb1"
       },
       "dailyWalkDay": 892,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Daniel 10:16–19)—where in your own home or work today does “greatly beloved— that's what he calls you, too, when you have nothing left” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Daniel 10:16–19)—where in your own home or work today does “greatly beloved— that's what he calls you, too, when you have nothing left” ring true?",
+      "zh_title": "噢，深爱的人",
+      "zh_poem": "没有力气了。\n没有呼吸了。\n他甚至无法说话。\n\n于是天堂触碰了他的嘴唇，\n然后再次触碰他，\n\n并说了最温柔的话\n在整本书中：\n\n别害怕。\n和平。\n坚强起来——\n是的，要坚强。\n\n他说了两遍\n好像他知道一样\n一次\n还不够。\n\n深受喜爱——\n他也这么称呼你\n当你一无所有的时候。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（但以理书 10:16-19）——今天在你自己的家里或工作中，“亲爱的弟兄，当你一无所有的时候，他也是这样称呼你的”听起来是真的吗？",
+      "zh_epigraph": "“亲爱的人，不要害怕。愿你平安。坚强起来。是的，坚强起来。”",
+      "zh_ref": "但以理书 10:16–19"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#e7ddc0"
       },
       "dailyWalkDay": 893,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “and when some of them fall, even that is to refine them, like silver, and make them white.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “and when some of them fall, even that is to refine them, like silver, and make them white.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "认识他们的上帝的人",
+      "zh_poem": "第十一章 王者长征，\n北和南，\n军队来来往往。\n\n但在这一切喧嚣之中，\n一条安静的线：\n\n认识他们的上帝的人\n会坚强。\n\n不是最响亮的。\n那些认识他的人。\n\n当其中一些跌倒时，\n甚至那是为了提炼它们，\n像银子一样，\n并使它们变白。",
+      "zh_reflectionPrompt": "缓缓吸一口气，再读一遍最后一行：“当它们中的一些掉落时，甚至是把它们提炼成银，使它们变白。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“认识上帝的人会变得坚强，并采取行动。”",
+      "zh_ref": "但以理书 11:32–35"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#ede1bb"
       },
       "dailyWalkDay": 894,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “many who sleep in the dust will wake.” Looking through the lens of Daniel 12:2–3, what does it mean to discover that “the ones who taught a neighbor, kept a promise, kept praying— they're the ones who will still be shining when every palace is dust.92”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “many who sleep in the dust will wake.” Looking through the lens of Daniel 12:2–3, what does it mean to discover that “the ones who taught a neighbor, kept a promise, kept praying— they're the ones who will still be shining when every palace is dust.92”?",
+      "zh_title": "像星星一样",
+      "zh_poem": "许多睡在尘土里的人\n会醒来。\n\n和智者\n将会像天空一样闪耀，\n以及那些转变很多的人\n朝着正确的方向，\n像星星一样，\n永远。\n\n不是第十一章中的列王。\n不是雕像。\n不是帝国。\n\n那些教导邻居的人，\n信守承诺，\n不断祈祷——\n\n他们就是那些\n谁仍将闪耀\n当每一个宫殿\n是灰尘.92",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“许多睡在尘土中的人会醒来”的感觉。透过但以理书 12:2-3 的视角，发现“那些教导邻舍、信守诺言、不断祈祷的人——即使每一座宫殿都化为尘土，他们仍然会闪闪发光。92”，这意味着什么？",
+      "zh_epigraph": "“有智慧的人，会像天空的光辉一样发光。”",
+      "zh_ref": "但以理书 12:2–3"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#fcdd70"
       },
       "dailyWalkDay": 895,
-      "reflectionPrompt": "Look closely at the open window facing home in this painting (Daniel 12:8–13)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the open window facing home in this painting (Daniel 12:8–13)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "走你的路",
+      "zh_poem": "多长时间？\n结局会怎样？\n\n他读过梦\n国王的。\n最后他说：\n我听说，\n但我不明白。\n\n答案不是地图。\n这是一种祝福：\n\n走你的路吧。你会休息的。\n你将继承你的遗产。\n\n你不必知道\n结局如何。\n\n走你的路吧\n你一贯的方式——\n\n窗户打开，\n走向家。",
+      "zh_reflectionPrompt": "仔细观察这幅画中面向家的敞开的窗户（但以理书12:8-13）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“但是走你的路直到最后；因为你会休息”",
+      "zh_ref": "但以理书 12:8–13"
     }
-  ]
+  ],
+  "zh_title": "大蒙眷爱的人",
+  "zh_subtitle": "但以理书诗画集",
+  "zh_beforeYouBegin": "但以理首先将圣殿圣杯运往巴比伦，还有一名年轻人索要蔬菜和水。然后出现了一个国王被遗忘的梦想，一尊粘土脚的雕像，一块没有人手切割的石头，三个朋友说“但如果不是”，第四个人在火中行走，一只手在灯火通明的墙上写字，在狮子袭击前一天晚上，一扇开着的窗户朝向耶路撒冷。最后几章转向大河边的异象，以智者如星辰般的光芒结束。\n\n本书分为五个部分，用四十首短诗来讲述它。每首诗都位于一幅画旁边和一行经文之下。这些图片与故事所涉及的事物保持一致——一个普通的碗、炉子的光芒、石膏墙、在晨光中熟睡的狮子——而幻象只以海洋、云彩、河流和光的形式呈现。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这本书旁边的但以理书，让真实的话语成为最终的结论。"
 }

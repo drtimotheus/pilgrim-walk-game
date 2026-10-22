@@ -16,7 +16,10 @@
       "epigraph": "The W ord became flesh, and lived among us.",
       "epigraphRef": "John 1:14",
       "lightName": "Light of The Word Became Flesh",
-      "lightHint": "Near 'the W ord' (John 1:1–3) in Part 1: The Word Became Flesh"
+      "lightHint": "Near 'the W ord' (John 1:1–3) in Part 1: The Word Became Flesh",
+      "zh_title": "道成肉身",
+      "zh_epigraph": "道成了肉身，住在我们中间。",
+      "zh_epigraphRef": "约翰福音 1:14"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "I am the bread of life.",
       "epigraphRef": "John 6:35",
       "lightName": "Light of Bread and Water",
-      "lightHint": "Near 'the jar left behind' (John 4:13–15) in Part 2: Bread and Water"
+      "lightHint": "Near 'the jar left behind' (John 4:13–15) in Part 2: Bread and Water",
+      "zh_title": "面包和水",
+      "zh_epigraph": "我是生命的粮。",
+      "zh_epigraphRef": "约翰福音 6:35"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "I am the resurrection and the life.",
       "epigraphRef": "John 11:25",
       "lightName": "Light of I Am",
-      "lightHint": "Near 'the key' (John 8:31–32) in Part 3: I Am"
+      "lightHint": "Near 'the key' (John 8:31–32) in Part 3: I Am",
+      "zh_title": "我是",
+      "zh_epigraph": "我是复活，我是生命。",
+      "zh_epigraphRef": "约翰福音 11:25"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "Just as I have loved you, you also love one another.",
       "epigraphRef": "John 13:34",
       "lightName": "Light of The Upper Room",
-      "lightHint": "Near 'twelve pairs' (John 13:3–5) in Part 4: The Upper Room"
+      "lightHint": "Near 'twelve pairs' (John 13:3–5) in Part 4: The Upper Room",
+      "zh_title": "楼上的房间",
+      "zh_epigraph": "正如我爱你一样，你们也彼此相爱。",
+      "zh_epigraphRef": "约翰福音 13:34"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "these are written, that you may believe that Jesus is the Christ, the Son of God",
       "epigraphRef": "John 20:31",
       "lightName": "Light of It Is Finished",
-      "lightHint": "Near 'what is truth?' (John 18:37–38) in Part 5: It Is Finished"
+      "lightHint": "Near 'what is truth?' (John 18:37–38) in Part 5: It Is Finished",
+      "zh_title": "已完成",
+      "zh_epigraph": "记下这些事是要叫你们相信耶稣是基督，是神的儿子",
+      "zh_epigraphRef": "约翰福音 20:31"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#d8c4a0"
       },
       "dailyWalkDay": 1116,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “John starts where Genesis starts: in the beginning.” Looking through the lens of John 1:1–3, what does it mean to discover that “and the sentence has a name”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “John starts where Genesis starts: in the beginning.” Looking through the lens of John 1:1–3, what does it mean to discover that “and the sentence has a name”?",
+      "zh_title": "道",
+      "zh_poem": "约翰从创世记开始的地方开始：\n一开始。\n\n但在光明来临之前，\n在这片土地之前，\n在做出任何事情之前——\n\n道。\n\n神一直\n一直在说话。\n和这句话\n有一个名字。",
+      "zh_reflectionPrompt": "想象一下你体会到“约翰从创世记开始的地方开始：从一开始”的感觉的一个季节。从约翰福音 1 章 1-3 节的角度来看，发现“这句话有名字”意味着什么？",
+      "zh_epigraph": "“太初有道，道与神同在，道就是神。”",
+      "zh_ref": "约翰福音 1:1–3"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#e8b15f"
       },
       "dailyWalkDay": 1117,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “not overcome” in this painting (John 1:4–5)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “not overcome” in this painting (John 1:4–5)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "没有克服",
+      "zh_poem": "黑暗\n已经有过一切机会了。\n\n战争。瘟疫。\n帝国。坟墓。\n你最糟糕的一年。\n\n和光\n依然闪耀。\n\n并不是因为黑暗很弱。\n因为光\n是他。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的中心“不胜”（约翰福音1：4-5）——如果你今天可以在它旁边留下一个焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“光明在黑暗中闪耀，但黑暗却无法战胜它。”",
+      "zh_ref": "约翰福音 1:4–5"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#f0d9b2"
       },
       "dailyWalkDay": 1118,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the dust on your sandals: what quiet prayer rises in you when you read, “grace and truth, walking around in sandals”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the dust on your sandals: what quiet prayer rises in you when you read, “grace and truth, walking around in sandals”?",
+      "zh_title": "我们中间",
+      "zh_poem": "道成了肉身——\n皮肤、饥饿、老茧、\n一个家乡，\n一笔交易。\n\n他搭起了帐篷\n我们当中，\n古话说，\n就像沙漠中的上帝一样——\n\n但更接近。\n足够接近\n触摸。\n\n恩典\n和真理，\n四处走动\n穿着凉鞋。",
+      "zh_reflectionPrompt": "让你的目光停留在凉鞋上灰尘周围的笔触和光线上：当你读到“恩典与真理，穿着凉鞋行走”时，你内心会升起怎样的安静祈祷？",
+      "zh_epigraph": "“充满恩典和真理。”",
+      "zh_ref": "约翰福音 1:14"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#f1e5bf"
       },
       "dailyWalkDay": 1119,
-      "reflectionPrompt": "Linger with the movement in “the Lamb” (John 1:29) from “John the Baptist saw his cousin walking up the riverbank and said the strangest thing: look— the Lamb” to “every lamb on every altar, every doorframe in Egypt, every Passover— they were all pointing at him”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the Lamb” (John 1:29) from “John the Baptist saw his cousin walking up the riverbank and said the strangest thing: look— the Lamb” to “every lamb on every altar, every doorframe in Egypt, every Passover— they were all pointing at him”—where do you find yourself along that arc today?",
+      "zh_title": "羔羊",
+      "zh_poem": "施洗者约翰\n看到他的表弟走上河岸\n并说了最奇怪的话：\n\n看——\n羔羊。\n\n每个祭坛上的每只羔羊，\n埃及的每一个门框，\n每个逾越节——\n\n他们都是\n指点\n对他。",
+      "zh_reflectionPrompt": "回味一下“羔羊”（约翰福音 1:29）中的乐章，从“施洗约翰看见他的表弟走上河岸，说了最奇怪的话：看——羔羊”到“每个祭坛上的每只羔羊，埃及的每个门框，每个逾越节——他们都在指着他”——今天你发现自己在这条弧线上的什么地方？",
+      "zh_epigraph": "“看哪，上帝的羔羊，除去世人罪孽的！”",
+      "zh_ref": "约翰福音 1:29"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#f6dea1"
       },
       "dailyWalkDay": 1120,
-      "reflectionPrompt": "Notice how “come and see” (John 1:35–39) arrives at: “and they spent the day with him, and one of them remembered the time: about four in the afternoon. you remember the hour.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “come and see” (John 1:35–39) arrives at: “and they spent the day with him, and one of them remembered the time: about four in the afternoon. you remember the hour.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "来看看",
+      "zh_poem": "他们问他\n他住的地方。\n\n他没有给他们地址\n或布道。\n\n来看看。\n\n他们和他一起度过了一天，\n和其中之一\n记得当时的时间：\n下午四点左右。\n\n这就是遇见耶稣所做的事。\n你记得时间。",
+      "zh_reflectionPrompt": "请注意“来看”（约翰福音 1：35-39）是如何表达的：“他们和他在一起度过了一天，其中一个还记得时间：大约下午四点。你还记得那个时间。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“过来看看。”",
+      "zh_ref": "约翰福音 1:35–39"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#f3e6ca"
       },
       "dailyWalkDay": 1121,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of John 2:1–10: “and he saves the best for last”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of John 2:1–10: “and he saves the best for last”?",
+      "zh_title": "好酒",
+      "zh_poem": "第一个标志\n不是一种治愈。\n这是一个聚会\n酒用完了。\n\n六个石缸水，\n和最好的酒\n任何人都曾尝过。\n\n他关心\n尴尬的主人，\n空杯子，\n你的喜悦。\n\n他拯救了\n最好的\n最后。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是约翰福音 2 章 1-10 节的静谧教训：“他把最好的留到最后”怎么办？",
+      "zh_epigraph": "“好酒你都留到现在了！”",
+      "zh_ref": "约翰福音 2:1–10"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#dfcfad"
       },
       "dailyWalkDay": 1122,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet rhythm of your breath: what hurry or noise in your week begins to fade when you hear, “a breath from God blowing where it wants— sometimes right through a teacher at night”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet rhythm of your breath: what hurry or noise in your week begins to fade when you hear, “a breath from God blowing where it wants— sometimes right through a teacher at night”?",
+      "zh_title": "风",
+      "zh_poem": "尼哥底母晚上来了，\n有问题的老师。\n\n耶稣指出\n在风中。\n\n你听到了。\n你看不到它。\n你无法驾驭它。\n\n这就是新生的运作方式：\n不是一个程序。\n来自上帝的气息\n随心所欲地吹——\n\n有时\n直接通过老师\n晚上。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是你安静的呼吸节奏：当你听到“上帝的呼吸吹到它想要的地方——有时在晚上直接通过老师”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“风随心所欲地吹”",
+      "zh_ref": "约翰福音 3:1–8"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#fbe99f"
       },
       "dailyWalkDay": 1123,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “not his leftovers. his Son.” What part of your heart feels most searched or comforted by John 3:16 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “not his leftovers. his Son.” What part of your heart feels most searched or comforted by John 3:16 right now?",
+      "zh_title": "所以",
+      "zh_poem": "最著名的诗句\n圣经中\n开启一个小字：\n所以。\n\n就这么多。\n迄今为止。\n如此彻底。\n\n神爱世人\n所以\n他给的。\n\n不是一点点。\n不是他的剩菜。\n他的儿子。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“不是他的剩菜，而是他的儿子。”现在，约翰福音 3 章 16 节最能触动你内心的哪个部分？",
+      "zh_epigraph": "“神爱世人，甚至赐下他独一的儿子”",
+      "zh_ref": "约翰福音 3:16"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#eedbb5"
       },
       "dailyWalkDay": 1124,
-      "reflectionPrompt": "In John 4:13–15, grace meets us right beside the stone well in the heat of the day: how does the closing thought—“when you find the spring, you stop carrying the bucket”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In John 4:13–15, grace meets us right beside the stone well in the heat of the day: how does the closing thought—“when you find the spring, you stop carrying the bucket”—steady your footing for the road ahead?",
+      "zh_title": "留下的罐子",
+      "zh_poem": "她中午来的，\n当没有其他人在那里的时候。\n\n和一个犹太人\n请她喝一杯。\n\n他给了她水\n你永远不必回来——\n一个春天\n在你里面。\n\n她留下了她的罐子\n在井边。\n\n当你找到春天的时候\n你停止携带\n水桶。",
+      "zh_reflectionPrompt": "在约翰福音 4 章 13-15 节中，在炎热的日子里，恩典就在石头井旁与我们相遇：结尾的思想——“当你找到泉源，你就不再提水桶了”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“我所赐给他的水，要在他里头成为泉源，直涌到永生。”",
+      "zh_ref": "约翰福音 4:13–15"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#ebd9b9"
       },
       "dailyWalkDay": 1125,
-      "reflectionPrompt": "If today’s painting of “everything I ever did” (John 4:28–30) hung beside the door you walk out of this morning, how would its final line—“that's the kind of news you run with”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “everything I ever did” (John 4:28–30) hung beside the door you walk out of this morning, how would its final line—“that's the kind of news you run with”—shape your choices?",
+      "zh_title": "我所做的一切",
+      "zh_poem": "他告诉我我做过的一切\n她说——\n\n她跑去告诉镇上的人。\n\n不羞耻。\n自由的。\n\n了解她一切的人\n并没有转身离开。\n\n就是这样的新闻\n你一起跑。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天“我所做过的一切”（约翰福音 4：28-30）的画，它的最后一行——“这就是你跑步时所听到的新闻”——会如何影响你的选择？",
+      "zh_epigraph": "“来吧，见见一个告诉我我做过的一切的人。”",
+      "zh_ref": "约翰福音 4:28–30"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#e6dbbc"
       },
       "dailyWalkDay": 1126,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (John 5:5–9)—where in your own home or work today does “get up, he said. pick up your mat. walk” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (John 5:5–9)—where in your own home or work today does “get up, he said. pick up your mat. walk” ring true?",
+      "zh_title": "你想好起来吗？",
+      "zh_poem": "池边三十八年。\n\n耶稣问\n这听起来像是一个奇怪的问题：\n你想好起来吗？\n\n因为有时\n我们一直躺在水边\n这么久了\n我们为等待创造了一个家。\n\n站起来，他说。\n拿起你的垫子。\n走。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（约翰福音 5:5-9）——今天在你自己家里或工作的地方，“他说，起来，拿起你的垫子，行走”听起来是真的吗？",
+      "zh_epigraph": "“你想痊愈吗？”",
+      "zh_ref": "约翰福音 5:5–9"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#daad71"
       },
       "dailyWalkDay": 1127,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “it was never the math that fed them.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “it was never the math that fed them.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "五和二",
+      "zh_poem": "五千人，\n和一个男孩的午餐。\n\n这是什么\n这么多之中？\n\n这是一个公平的问题。\n数学不行。\n\n但男孩还是给了，\n耶稣感谢了，\n\n已经足够了。\n\n带上你所拥有的。\n这从来都不是数学\n那养活了他们。",
+      "zh_reflectionPrompt": "慢慢地吸一口气，再读一遍最后一行：“他们从来都不是数学。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“这里有一个男孩，他有五个大麦饼和两条鱼，但这些是什么？”",
+      "zh_ref": "约翰福音 6:8–11"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#fadc8f"
       },
       "dailyWalkDay": 1128,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “everyone had eaten.” Looking through the lens of John 6:12–13, what does it mean to discover that “he's like that with broken pieces— of bread, and of people”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “everyone had eaten.” Looking through the lens of John 6:12–13, what does it mean to discover that “he's like that with broken pieces— of bread, and of people”?",
+      "zh_title": "没有失去任何东西",
+      "zh_poem": "每个人都吃过饭了。\n有很多。\n\n但他仍然说：\n收集碎片。\n不要让任何东西丢失。\n\n十二个篮子\n剩菜剩饭。\n\n他就是这样\n带着碎片——\n面包，\n和人。",
+      "zh_reflectionPrompt": "想象一个你体会过“每个人都吃过饭”的感觉的季节。从约翰福音 6 章 12-13 节的角度来看，发现“他就像那擘开的饼和人”意味着什么？",
+      "zh_epigraph": "“把剩下的碎片收集起来，免得有任何损失。”",
+      "zh_ref": "约翰福音 6:12–13"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#d9cba7"
       },
       "dailyWalkDay": 1129,
-      "reflectionPrompt": "Look closely at the still, unhurried voice in this painting (John 6:16–21)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the still, unhurried voice in this painting (John 6:16–21)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "是我",
+      "zh_poem": "黑暗。\n风。\n距离海岸数英里。\n\n有人朝他们走来\n在水面上。\n\n他们很害怕。\n\n然后是他们熟悉的声音：\n是我。\n别害怕。\n\n朝你走来的东西\n在暴风雨中\n可能是\n他。",
+      "zh_reflectionPrompt": "仔细观察这幅画中平静、从容的声音（约翰福音6:16-21）——如果你今天可以在它旁边留下一个焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“是我，别怕。”",
+      "zh_ref": "约翰福音 6:16–21"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#f4e7c8"
       },
       "dailyWalkDay": 1130,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “where else?”: what quiet prayer rises in you when you read, “sometimes faith is just knowing there's nowhere else”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “where else?”: what quiet prayer rises in you when you read, “sometimes faith is just knowing there's nowhere else”?",
+      "zh_title": "还有哪里？",
+      "zh_poem": "人群离开了。\n教学太难了。\n\n耶稣转向十二人：\n你也想离开吗？\n\n彼得说\n怀疑者能说的最诚实的话是：\n\n我们还能去哪里？\n\n你有\n生命之言。\n\n有时信仰\n只是知道\n没有其他地方了。",
+      "zh_reflectionPrompt": "让你的目光停留在“还有哪里？”安静的中心周围的笔触和光线上：当你读到“有时信仰就是知道没有其他地方”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“主啊，我们还归向谁呢？你有永生之道。”",
+      "zh_ref": "约翰福音 6:66–69"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#f8dd7a"
       },
       "dailyWalkDay": 1131,
-      "reflectionPrompt": "Linger with the movement in “the light of the world” (John 8:12) from “at the feast, the temple courts blazed with light” to “follow me, and you won't walk in the dark”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the light of the world” (John 8:12) from “at the feast, the temple courts blazed with light” to “follow me, and you won't walk in the dark”—where do you find yourself along that arc today?",
+      "zh_title": "世界之光",
+      "zh_poem": "宴会上，\n圣殿法庭\n闪耀着光芒。\n\n耶稣站在那里\n并说：\n我是世界之光。\n\n不是一盏灯。\n光。\n\n跟着我，\n你不会走路\n在黑暗中。",
+      "zh_reflectionPrompt": "徘徊在“世界之光”（约翰福音 8:12）的运动中，从“在节期，圣殿的院子都闪耀着光”到“跟从我，你就不会在黑暗中行走”——今天你发现自己沿着这条弧线走在哪里？",
+      "zh_epigraph": "“我是世界之光。”",
+      "zh_ref": "约翰福音 8:12"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#eadcac"
       },
       "dailyWalkDay": 1132,
-      "reflectionPrompt": "Notice how “the key” (John 8:31–32) arrives at: “stay with my word, he said, and you'll know the truth— and the truth isn't a lock. it's a key.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “the key” (John 8:31–32) arrives at: “stay with my word, he said, and you'll know the truth— and the truth isn't a lock. it's a key.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "关键",
+      "zh_poem": "不是一个想法\n这会让你自由。\n\n一个人。\n\n遵守我的诺言，他说，\n你就会知道真相——\n\n和真相\n不是锁。\n这是一把钥匙。",
+      "zh_reflectionPrompt": "请注意“钥匙”（约翰福音 8：31-32）是如何到达的：“他说，遵守我的话，你就会知道真理——而真理不是一把锁，而是一把钥匙。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“你会知道真相，真相会让你自由。”",
+      "zh_ref": "约翰福音 8:31–32"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#efe6c8"
       },
       "dailyWalkDay": 1133,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of John 9:24–25: “you don't need to win the argument to tell what he did”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of John 9:24–25: “you don't need to win the argument to tell what he did”?",
+      "zh_title": "我知道一件事",
+      "zh_poem": "专家们争论道。\n父母对冲。\n邻居们不确定。\n\n和生来瞎眼的人\n说：\n我不知道这一切。\n\n我知道一件事。\n我当时是瞎子。\n现在我明白了。\n\n你不需要赢得争论\n告诉\n他做了什么。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《约翰福音》9 章 24-25 节的安静教训：“你不需要赢得争论才能说出他做了什么”，那又怎样呢？",
+      "zh_epigraph": "“虽然我以前是瞎子，但现在我明白了。”",
+      "zh_ref": "约翰福音 9:24–25"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#f0d5ac"
       },
       "dailyWalkDay": 1134,
-      "reflectionPrompt": "Imagine standing inside this frame beside the still, unhurried voice: what hurry or noise in your week begins to fade when you hear, “listen. he's calling yours”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the still, unhurried voice: what hurry or noise in your week begins to fade when you hear, “listen. he's calling yours”?",
+      "zh_title": "按名字",
+      "zh_poem": "不是一个数字。\n不是一群。\n\n按名字。\n\n牧羊人\n认识一瘸一拐的人，\n那个流浪的人，\n总是最后的那个人。\n\n和羊\n认识他的声音\n来自其他人。\n\n听。\n他在打电话\n你的。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是安静、从容的声音：当您听到“听着。他在给您打电话”时，您一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“他叫出自己的羊的名字，然后把它们领出来。”",
+      "zh_ref": "约翰福音 10:2–4"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#b0a17d"
       },
       "dailyWalkDay": 1135,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's not his flock. and the sheep go free.” What part of your heart feels most searched or comforted by John 10:11–15 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's not his flock. and the sheep go free.” What part of your heart feels most searched or comforted by John 10:11–15 right now?",
+      "zh_title": "门",
+      "zh_poem": "雇工\n当狼来的时候就跑。\n\n这不是他的羊群。\n\n好牧人\n躺在门口\n并说：\n你必须通过我。\n\n和羊\n自由吧。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“这不是他的羊群。羊群自由了。”现在，约翰福音 10 章 11-15 节让你内心的哪一部分感到最感触或安慰？",
+      "zh_epigraph": "“好牧人为羊舍命。”",
+      "zh_ref": "约翰福音 10:11–15"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#f5db96"
       },
       "dailyWalkDay": 1136,
-      "reflectionPrompt": "In John 11:32–36, grace meets us right beside the quiet centerpiece of “Jesus wept”: how does the closing thought—“he stands at the grave and cries with you”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In John 11:32–36, grace meets us right beside the quiet centerpiece of “Jesus wept”: how does the closing thought—“he stands at the grave and cries with you”—steady your footing for the road ahead?",
+      "zh_title": "耶稣哭了",
+      "zh_poem": "最短的诗句。\n\n他知道\n他要做什么。\n几分钟后\n拉撒路会走出去。\n\n仍然\n他哭了。\n\n上帝不会忽略你的悲伤\n在通往奇迹的路上。\n\n他站在坟墓旁\n和哭泣\n和你在一起。",
+      "zh_reflectionPrompt": "在约翰福音 11 章 32-36 节中，恩典就在“耶稣哭了”这一安静的核心内容旁边与我们相遇：结尾的思想——“他站在坟墓旁，与你一同哭泣”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“耶稣哭了。”",
+      "zh_ref": "约翰福音 11:32–36"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#e3d1b1"
       },
       "dailyWalkDay": 1137,
-      "reflectionPrompt": "If today’s painting of “unbind him” (John 11:43–44) hung beside the door you walk out of this morning, how would its final line—“he lets us help with the wrappings”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “unbind him” (John 11:43–44) hung beside the door you walk out of this morning, how would its final line—“he lets us help with the wrappings”—shape your choices?",
+      "zh_title": "给他解绑",
+      "zh_poem": "拉撒路，出来吧！\n\n死者行走，\n仍然裹着丧服。\n\n耶稣转向人群说：\n给他解绑。\n让他走吧。\n\n他赐予生命。\n他让我们\n帮助包装。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“解开他”（约翰福音 11：43-44）的画，那么它的最后一行“他让我们帮忙包裹”会如何影响你的选择？",
+      "zh_epigraph": "“释放他，让他走。”",
+      "zh_ref": "约翰福音 11:43–44"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#e7d5a6"
       },
       "dailyWalkDay": 1138,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (John 12:1–5)—where in your own home or work today does “love that costs something can't be kept quiet. it fills the room” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (John 12:1–5)—where in your own home or work today does “love that costs something can't be kept quiet. it fills the room” ring true?",
+      "zh_title": "香水",
+      "zh_poem": "一年的工资，\n倒在他的脚上。\n\n犹大称之为浪费。\n\n但整个房子\n充满了它的气味。\n\n爱需要付出一些代价\n不能保持安静。\n它充满了整个房间。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（约翰福音 12:1-5）——今天，在你自己的家里或工作中，“付出代价的爱是无法保持沉默的。它充满整个房间”听起来是真的吗？",
+      "zh_epigraph": "“屋子里充满了药膏的香味。”",
+      "zh_ref": "约翰福音 12:1–5"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#ebdec7"
       },
       "dailyWalkDay": 1139,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “and he was talking about us.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “and he was talking about us.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "谷物",
+      "zh_poem": "安全保存在罐子里的种子\n留下一颗种子。\n\n埋掉它，\n它变成了一个领域。\n\n他在说话\n关于他自己。\n\n他正在说话\n关于我们。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“他在谈论我们。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“一粒麦子不落在地里死了，它就独自存在”",
+      "zh_ref": "约翰福音 12:24"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#e1d2af"
       },
       "dailyWalkDay": 1140,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “knowing he had all authority, knowing where he came from, knowing where he was going— he got up from supper, wrapped a towel around his waist, and knelt.” Looking through the lens of John 13:3–5, what does it mean to discover that “twelve pairs of dirty feet, including the ones that would walk out to betray him”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “knowing he had all authority, knowing where he came from, knowing where he was going— he got up from supper, wrapped a towel around his waist, and knelt.” Looking through the lens of John 13:3–5, what does it mean to discover that “twelve pairs of dirty feet, including the ones that would walk out to betray him”?",
+      "zh_title": "十二对",
+      "zh_poem": "知道他拥有一切权力，\n知道他从哪里来，\n知道他要去哪里——\n\n他吃完晚饭起床，\n腰上围着一条毛巾，\n然后跪下。\n\n十二双脏脚，\n包括那些\n那会走出去\n背叛他。",
+      "zh_reflectionPrompt": "回想一下某个季节，你体会到“知道他拥有所有权力，知道他从哪里来，知道他要去哪里——他吃完晚饭站起来，腰上围着一条毛巾，然后跪下”的感觉。从约翰福音 13:3-5 的角度来看，发现“十二双肮脏的脚，包括那些愿意出来出卖他的”意味着什么？",
+      "zh_epigraph": "“他把水倒进盆里，开始洗门徒的脚”",
+      "zh_ref": "约翰福音 13:3–5"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#f8d072"
       },
       "dailyWalkDay": 1141,
-      "reflectionPrompt": "Look closely at the table set before you in this painting (John 13:26–30)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the table set before you in this painting (John 13:26–30)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "那是晚上",
+      "zh_poem": "犹大拿走了面包\n然后出去了。\n\n约翰写道\n四个字：\n那是晚上。\n\n而且不仅是\n在天空中。\n\n最悲伤的事\n不是黑暗。\n它正在离开餐桌\n有光的地方。",
+      "zh_reflectionPrompt": "仔细看看这幅画中摆在你面前的桌子（约翰福音 13:26-30）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“他立刻出去了。当时是晚上。”",
+      "zh_ref": "约翰福音 13:26–30"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#dca960"
       },
       "dailyWalkDay": 1142,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “many rooms”: what quiet prayer rises in you when you read, “he's not the kind to leave you guessing”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “many rooms”: what quiet prayer rises in you when you read, “he's not the kind to leave you guessing”?",
+      "zh_title": "许多房间",
+      "zh_poem": "不要让你们的心忧愁。\n\n有空间\n在我父亲的家里。\n很多房间。\n\n我先走了\n准备好你的。\n\n如果这不是真的\n我会告诉你的。\n\n他不是那种人\n离开你\n猜测。",
+      "zh_reflectionPrompt": "让你的目光停留在“许多房间”安静的中心周围的笔触和光线上：当你读到“他不是那种让你猜测的人”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“在我父亲的家里有很多家庭。”",
+      "zh_ref": "约翰福音 14:1–3"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f6d79f"
       },
       "dailyWalkDay": 1143,
-      "reflectionPrompt": "Linger with the movement in “the way” (John 14:5–6) from “Thomas said: we don't know where you're going” to “I am the way. a person to walk with”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the way” (John 14:5–6) from “Thomas said: we don't know where you're going” to “I am the way. a person to walk with”—where do you find yourself along that arc today?",
+      "zh_title": "方式",
+      "zh_poem": "托马斯说：\n我们不知道你要去哪里。\n我们怎样才能认路呢？\n\n耶稣没有给他一张地图。\n\n我就是那条路。\n\n不是方向。\n一个人\n一起散步。",
+      "zh_reflectionPrompt": "徘徊在“道路”（约翰福音 14：5-6）的运动中，从“多马说：我们不知道你要去哪里”到“我就是道路，一个可以同行的人”——今天你发现自己沿着这条弧线走在哪里？",
+      "zh_epigraph": "“我就是道路、真理、生命。”",
+      "zh_ref": "约翰福音 14:5–6"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#e8d7b7"
       },
       "dailyWalkDay": 1144,
-      "reflectionPrompt": "Notice how “peace” (John 14:27) arrives at: “don't be troubled. don't be afraid.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “peace” (John 14:27) arrives at: “don't be troubled. don't be afraid.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "和平",
+      "zh_poem": "十字架前一天晚上，\n他给了他们\n他有什么：\n\n和平。\n\n不是世间的同类，\n没有麻烦。\n\n他的同类：\n一颗平静的心\n在它的中间。\n\n别担心。\n别害怕。",
+      "zh_reflectionPrompt": "请注意“平安”（约翰福音 14:27）是如何实现的：“不要忧愁，不要害怕。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“我把平安留给你。我把我的平安给你”",
+      "zh_ref": "约翰福音 14:27"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#e7dcbf"
       },
       "dailyWalkDay": 1145,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of John 15:4–5: “with me, more than you'd imagine”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of John 15:4–5: “with me, more than you'd imagine”?",
+      "zh_title": "葡萄树",
+      "zh_poem": "一个分支\n不努力\n来制作葡萄。\n\n它只是留下来\n连接。\n\n留在我心里，他说，\n果子就会来。\n\n除了我之外，\n什么也没有。\n\n和我一起，\n比你想象的还要多。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是约翰福音 15 章 4-5 节的安静教训：“与我同在，超乎你的想象”怎么办？",
+      "zh_epigraph": "“我是葡萄树，你们是枝子。”",
+      "zh_ref": "约翰福音 15:4–5"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#e6b36f"
       },
       "dailyWalkDay": 1146,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “friends”: what hurry or noise in your week begins to fade when you hear, “he was about to show them”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “friends”: what hurry or noise in your week begins to fade when you hear, “he was about to show them”?",
+      "zh_title": "朋友",
+      "zh_poem": "不是仆人。\n朋友们。\n\n仆人按照他吩咐的去做\n不知道为什么。\n\n一个朋友\n一切都被告知。\n\n和最伟大的爱，\n他说，\n正在放下你的生命\n为了你的朋友。\n\n他正要\n给他们看。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是“朋友”安静的中心：当您听到“他正要向他们展示”时，您一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“我已经称你们为朋友了”",
+      "zh_ref": "约翰福音 15:13–15"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#f9e5bd"
       },
       "dailyWalkDay": 1147,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “past tense, the night before the cross. he was that sure.” What part of your heart feels most searched or comforted by John 16:33 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “past tense, the night before the cross. he was that sure.” What part of your heart feels most searched or comforted by John 16:33 right now?",
+      "zh_title": "振作起来",
+      "zh_poem": "他没有承诺\n没问题。\n\n在世界上\n你会遇到麻烦的。\n保证。\n\n但是——\n振作起来。\n\n我已经胜过世界了。\n\n过去时,\n十字架前一天晚上。\n\n他很确定。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“过去时，十字架前一天晚上。他就是这么确定。”现在，约翰福音 16:33 给你心灵的哪一部分带来最大的探查或安慰？",
+      "zh_epigraph": "“在世上你有困难；但是加油！我已经胜过了世界。”",
+      "zh_ref": "约翰福音 16:33"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#f7e4b8"
       },
       "dailyWalkDay": 1148,
-      "reflectionPrompt": "In John 18:37–38, grace meets us right beside your own two hands: how does the closing thought—“truth was standing right in front of him, with bound hands”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In John 18:37–38, grace meets us right beside your own two hands: how does the closing thought—“truth was standing right in front of him, with bound hands”—steady your footing for the road ahead?",
+      "zh_title": "什么是真理？",
+      "zh_poem": "彼拉多问道\n正确的问题，\n\n给对的人，\n\n然后走了出去\n在回答之前。\n\n真理是站着的\n就在他面前，\n双手被绑。",
+      "zh_reflectionPrompt": "在约翰福音 18 章 37-38 节中，恩典就在你的两只手旁边与我们相遇：最后的思想——“真理双手被束缚，站在他面前”——如何为你前面的路站稳脚跟？",
+      "zh_epigraph": "“什么是真理？”",
+      "zh_ref": "约翰福音 18:37–38"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#f7cd95"
       },
       "dailyWalkDay": 1149,
-      "reflectionPrompt": "If today’s painting of “a family” (John 19:25–27) hung beside the door you walk out of this morning, how would its final line—“and from that hour the church began as a family”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “a family” (John 19:25–27) hung beside the door you walk out of this morning, how would its final line—“and from that hour the church began as a family”—shape your choices?",
+      "zh_title": "一个家庭",
+      "zh_poem": "垂死,\n他还在照顾人。\n\n他的母亲\n需要一个儿子。\n他的朋友\n需要一个母亲。\n\n这是你的儿子。\n这是你的母亲。\n\n从那一刻起\n教堂开始了\n作为一个家庭。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁边挂着今天的“一个家庭”（约翰福音 19:25-27）的画，那么它的最后一行——“从那时起，教会开始成为一个家庭”——会如何影响你的选择？",
+      "zh_epigraph": "“从那时起，弟子就把她接到了自己的家里。”",
+      "zh_ref": "约翰福音 19:25–27"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#ccbb9e"
       },
       "dailyWalkDay": 1150,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (John 19:28–30)—where in your own home or work today does “everything we couldn't. done” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (John 19:28–30)—where in your own home or work today does “everything we couldn't. done” ring true?",
+      "zh_title": "完成",
+      "zh_poem": "一个字：\n全额付款。\n完毕。\n完全的。\n\n不是“我完成了。”\n它完成了。\n\n他来要做的一切。\n羔羊所指的一切。\n我们做不到的一切。\n\n完毕。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（约翰福音 19:28-30）——今天在你自己的家里或工作场所，“我们所不能完成的一切”听起来是真实的吗？",
+      "zh_epigraph": "“结束了。”",
+      "zh_ref": "约翰福音 19:28–30"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f7c2a7"
       },
       "dailyWalkDay": 1151,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “sometimes the dawn comes while it's still dark, and we're the last to find out.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “sometimes the dawn comes while it's still dark, and we're the last to find out.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "天还黑的时候",
+      "zh_poem": "天还没黑她就走了——\n\n不期待任何事情。\n只是为了靠近他。\n\n和石头\n已经走了。\n\n有时黎明\n天还没黑的时候就来了\n我们是最后一个\n找出答案。",
+      "zh_reflectionPrompt": "慢慢地吸一口气，再读一遍最后一行：“有时黎明会在天还黑的时候到来，而我们是最后一个发现的。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“天还黑的时候，抹大拉的玛利亚很早就去了坟墓”",
+      "zh_ref": "约翰福音 20:1"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#fadfaa"
       },
       "dailyWalkDay": 1152,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “she thought he was the gardener.” Looking through the lens of John 20:11–16, what does it mean to discover that “that's how he finds us— not with an argument. with our name”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “she thought he was the gardener.” Looking through the lens of John 20:11–16, what does it mean to discover that “that's how he finds us— not with an argument. with our name”?",
+      "zh_title": "玛丽",
+      "zh_poem": "她以为他是园丁。\n\n她在哭，\n询问他们把他带到哪里。\n\n他说\n一个字：\n\n玛丽.\n\n她知道。\n\n这就是他找到我们的方式——\n没有争论。\n与我们的名字。",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“她以为他是园丁”的感觉。透过约翰福音 20 章 11-16 节的视角，发现“他就是这样找到我们的——不是通过争论，而是通过我们的名字”，这意味着什么？",
+      "zh_epigraph": "“耶稣对她说：‘马利亚。’”",
+      "zh_ref": "约翰福音 20:11–16"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#f2ce90"
       },
       "dailyWalkDay": 1153,
-      "reflectionPrompt": "Look closely at your own two hands in this painting (John 20:26–29)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at your own two hands in this painting (John 20:26–29)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "你",
+      "zh_poem": "托马斯想要证据。\n他明白了——\n伤疤，手。\n\n耶稣看着他，\n两千年前，\n\n并祝福你。\n\n你还没见过。\n无论如何你相信。\n\n他说\n你很幸运。",
+      "zh_reflectionPrompt": "仔细看看这幅画中你自己的两只手（约翰福音 20:26-29）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“那些没有看见就相信的人有福了。”",
+      "zh_ref": "约翰福音 20:26–29"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#eddbac"
       },
       "dailyWalkDay": 1154,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the daily loaf broken in the hand: what quiet prayer rises in you when you read, “he said, you must be hungry”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the daily loaf broken in the hand: what quiet prayer rises in you when you read, “he said, you must be hungry”?",
+      "zh_title": "早餐",
+      "zh_poem": "他们整晚都在钓鱼\n但什么也没抓到。\n\n而在岸边，\n火灾已经发生，\n煤上的鱼，\n面包,\n\n和复活的主\n说：\n来吃早餐吧。\n\n他可以说什么。\n他说，\n你一定饿了。",
+      "zh_reflectionPrompt": "让你的目光停留在手上每日敲碎的面包周围的笔触和光线上：当你读到“他说，你一定饿了”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“过来吃早餐吧！”",
+      "zh_ref": "约翰福音 21:9–12"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#fbdc9d"
       },
       "dailyWalkDay": 1155,
-      "reflectionPrompt": "Linger with the movement in “feed my sheep” (John 21:15–17) from “a charcoal fire— the same kind Peter stood beside when he denied him three times” to “he gives us something to do”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “feed my sheep” (John 21:15–17) from “a charcoal fire— the same kind Peter stood beside when he denied him three times” to “he gives us something to do”—where do you find yourself along that arc today?",
+      "zh_title": "喂我的羊",
+      "zh_poem": "炭火——\n同类\n彼得站在旁边\n当他三次拒绝他的时候。\n\n现在，又一场大火，\n三个问题：\n你爱我吗？\n\n三次，\n每否认一次。\n\n而每一次，\n不是责备。\n一份工作：\n\n喂我的羊。\n\n这就是他使我们恢复的方式。\n他给我们\n有事可做。",
+      "zh_reflectionPrompt": "徘徊在“喂养我的羊”（约翰福音 21：15-17）的运动中，从“炭火——彼得三次否认他时站在旁边的那种炭火”到“他给我们一些事情做”——今天你发现自己在这条弧线的哪个位置？",
+      "zh_epigraph": "“主啊，你什么都知道。你知道我对你有感情。”",
+      "zh_ref": "约翰福音 21:15–17"
     }
-  ]
+  ],
+  "zh_title": "你们来看",
+  "zh_subtitle": "约翰福音诗画集",
+  "zh_beforeYouBegin": "约翰福音从开始之前开始，以海滩上的早餐结束。其间：水变成了酒，井边的女人，五千人的面包，一个被点名的死者，一个盆和一条毛巾，一个十字架，以及花园里的一个空坟墓。\n\n本书分为五个部分，用四十首短诗来讲述它。每首诗都位于一幅画旁边和一行经文之下。这些图画与耶稣周围的事物在一起——罐子、一口井、一个盆、一个炭火——并让你想象他的脸。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这本书旁边的约翰福音，让真正的话语成为最后的话语。"
 }

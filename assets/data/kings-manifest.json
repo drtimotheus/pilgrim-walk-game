@@ -16,7 +16,10 @@
       "lightName": "Light of the Cedar Sanctuary",
       "lightHint": "Where the luminous cloud of glory fills the quiet gold-and-cedar house",
       "index": 1,
-      "startN": 1
+      "startN": 1,
+      "zh_title": "以他的名字命名的房子",
+      "zh_epigraph": "我必住在以色列人中间，并不离弃我的民以色列。",
+      "zh_epigraphRef": "列王纪上 6:13"
     },
     {
       "part": 2,
@@ -26,7 +29,10 @@
       "lightName": "Light of the Unextinguished Lamp",
       "lightHint": "Beside the torn cloak where one tribe is kept for David’s sake",
       "index": 2,
-      "startN": 9
+      "startN": 9,
+      "zh_title": "耶路撒冷的一盏灯",
+      "zh_epigraph": "使我仆人大卫在耶路撒冷我面前常有一盏灯。",
+      "zh_epigraphRef": "列王纪上 11:36"
     },
     {
       "part": 3,
@@ -36,7 +42,10 @@
       "lightName": "Light of Mount Horeb’s Cave",
       "lightHint": "At the mouth of the mountain cave where the still small voice speaks after the fire",
       "index": 3,
-      "startN": 14
+      "startN": 14,
+      "zh_title": "那位回应的神",
+      "zh_epigraph": "以火回应的神，就让他成为神吧。",
+      "zh_epigraphRef": "列王纪上 18:24"
     },
     {
       "part": 4,
@@ -46,7 +55,10 @@
       "lightName": "Light of the Hills of Dothan",
       "lightHint": "Along the ridge blazing with unseen horses and chariots of fire",
       "index": 4,
-      "startN": 24
+      "startN": 24,
+      "zh_title": "睁开他的眼睛",
+      "zh_epigraph": "耶和华啊，求你开他的眼睛，使他能看见。",
+      "zh_epigraphRef": "列王纪下 6:17"
     },
     {
       "part": 5,
@@ -56,7 +68,10 @@
       "lightName": "Light of the Exiled Table",
       "lightHint": "Near the dial steps and the final table of daily bread before the Finale Plaza",
       "index": 5,
-      "startN": 34
+      "startN": 34,
+      "zh_title": "我看见了你的眼泪",
+      "zh_epigraph": "我听到了你的祈祷。我看见了你的眼泪。",
+      "zh_epigraphRef": "列王纪下 20:5"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#f6ead6"
       },
       "dailyWalkDay": 261,
-      "reflectionPrompt": "Scripture remembers this moment in 1 Kings 2:1–3 not to impress us, but to steady us: when have you seen the truth that “not the grip of a hand on a throne, but the steadiness of feet on a path” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in 1 Kings 2:1–3 not to impress us, but to steady us: when have you seen the truth that “not the grip of a hand on a throne, but the steadiness of feet on a path” in your own story?",
+      "zh_title": "整个地球的道路",
+      "zh_poem": "一位老国王，\n走全地球的路，\n不谈论剑\n或边界。\n\n他谈到步行。\n\n保持他的方式。\n遵守诺言。\n走在他前面\n全心全意。\n\n这就是力量\n他的意思是。\n\n不是抓地力\n一只手放在王座上，\n但稳定性\n路径上的脚。",
+      "zh_reflectionPrompt": "圣经在列王纪上 2：1-3 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们坚定：你什么时候在你自己的故事中看到过这样的真理：“不是手紧握宝座，而是双脚在路上坚定”？",
+      "zh_epigraph": "“我要走全世界的路。所以你要坚强，展现出一个男人的样子”",
+      "zh_ref": "列王纪上 2:1–3"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#cfb284"
       },
       "dailyWalkDay": 262,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “an understanding heart” (1 Kings 3:5–10), what one honest sentence would you pray beside the quiet centerpiece of “an understanding heart” after reading, “sometimes the wisest thing you can say is how little you know, and then ask to be taught”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “an understanding heart” (1 Kings 3:5–10), what one honest sentence would you pray beside the quiet centerpiece of “an understanding heart” after reading, “sometimes the wisest thing you can say is how little you know, and then ask to be taught”?",
+      "zh_title": "一颗理解的心",
+      "zh_poem": "问，神说，\n整个晚上都在等待。\n\n一个年轻的国王\n拥有想要的一切\n说，\n我只是一个小孩子。\n我不知道怎么办\n出去或进来。\n\n然后他问，\n不是为了长寿，\n不为财富，\n但为了一颗心\n那个能听到。\n\n上帝很高兴。\n\n有时是最明智的事情\n你可以说\n就是你知道的太少，\n然后问\n被教导。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“一颗理解的心”（列王记上 3：5-10）时，读完“有时你能说的最明智的事情就是你知道得多么少，然后请求教导”，除了“一颗理解的心”安静的核心之外，你会祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“所以，请赐给你的仆人一颗理解的心”",
+      "zh_ref": "列王纪上 3:5–10"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#fdf5df"
       },
       "dailyWalkDay": 263,
-      "reflectionPrompt": "Between the opening line (“two women, one baby, no witnesses”) and the closing thought (“love will let go before it lets harm come”), what is 1 Kings 3:16–28 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“two women, one baby, no witnesses”) and the closing thought (“love will let go before it lets harm come”), what is 1 Kings 3:16–28 gently reframing in your own day?",
+      "zh_title": "活着的孩子",
+      "zh_poem": "两个女人，\n一个婴儿，\n没有证人。\n\n国王没有搜查\n为证据。\n他搜索了\n为了爱。\n\n他找到了\n在一个\n谁宁愿失去儿子\n而不是看到他受伤。\n\n把孩子给她，\n她说。\n只让他活着。\n\n他就是这么知道的。\n\n爱就会放手\n在它让之前\n伤害来了。",
+      "zh_reflectionPrompt": "在开场白（“两个女人，一个婴儿，没有目击者”）和结束语（“爱在伤害到来之前先放手”）之间，《列王记上》3：16-28在你那个时代温和地重构了什么？",
+      "zh_epigraph": "“把活孩子给她，绝对不要杀他，她是他的母亲。”",
+      "zh_ref": "列王纪上 3:16–28"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#e3d8ba"
       },
       "dailyWalkDay": 264,
-      "reflectionPrompt": "Along the road of A Still Small Voice, “cedar and hyssop” (1 Kings 4:29–34) slows us down at the stones of the wall to remind us: “wisdom notices the small things too.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of A Still Small Voice, “cedar and hyssop” (1 Kings 4:29–34) slows us down at the stones of the wall to remind us: “wisdom notices the small things too.” Where are you being invited to trade control for trust today?",
+      "zh_title": "雪松和牛膝草",
+      "zh_poem": "黎巴嫩的高大雪松\n和小牛膝草\n在墙壁的裂缝中。\n\n他对这两个人都有话要说。\n\n智慧通知\n小事也是如此。",
+      "zh_reflectionPrompt": "沿着《寂静的小声音》的道路，“香柏木和牛膝草”（列王记上 4：29-34）让我们在城墙的石头旁放慢脚步，提醒我们：“智慧也注意到小事。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“他谈到了树木，从黎巴嫩的雪松甚至从墙上长出来的牛膝草”",
+      "zh_ref": "列王纪上 4:29–34"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#f5ecd3"
       },
       "dailyWalkDay": 265,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “no hammer heard” (1 Kings 6:7), what would you talk about after reading, “maybe that's how he builds in us too: the hard shaping done in places we'd rather forget, so that when we arrive, we fit”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “no hammer heard” (1 Kings 6:7), what would you talk about after reading, “maybe that's how he builds in us too: the hard shaping done in places we'd rather forget, so that when we arrive, we fit”?",
+      "zh_title": "没有听到锤子的声音",
+      "zh_poem": "石头被切割了\n其他地方，\n很远的地方，在采石场，\n噪音在哪里。\n\n当他们到达山上时\n他们只需要是\n设置到位。\n\n为神的房子\n上升\n在沉默中。\n\n也许这就是他建造的方式\n我们也有：\n硬塑形完成\n在我们宁愿忘记的地方，\n这样当我们到达时\n我们适合。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“没有听到锤子的声音”（列王纪上 6:7）处停下来，读完后你会谈论什么，“也许这也是他在我们身上建造的方式：在我们宁愿忘记的地方进行了艰苦的塑造，这样当我们到达时，我们就适合了”？",
+      "zh_epigraph": "“这栋房子在建造时是用采石场准备的石头建造的”",
+      "zh_ref": "列王纪上 6:7"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#f4e7bb"
       },
       "dailyWalkDay": 266,
-      "reflectionPrompt": "Pause before the guiding cloud: what changes in your posture today when you sit with the closing words of “the cloud”—“all that cedar, all that gold, all that careful building, and the best moment was the one when nobody could do anything at all”?"
+      "reflectionPrompt": "Pause before the guiding cloud: what changes in your posture today when you sit with the closing words of “the cloud”—“all that cedar, all that gold, all that careful building, and the best moment was the one when nobody could do anything at all”?",
+      "zh_title": "云",
+      "zh_poem": "祭司们安置约柜\n在其位置\n然后走出去，\n\n一朵云进来了\n在他们身后\n并充满了房子，\n\n如此厚重的荣耀\n没有人\n可以忍受工作。\n\n所有的雪松，\n所有那些金子，\n所有那些精心建造的建筑，\n\n和最好的时刻\n就是那个\n当没人能做到的时候\n任何事情。",
+      "zh_reflectionPrompt": "在引导云朵前停下来：当你坐下来听着“云朵”的结束语——“所有的雪松，所有的黄金，所有的精心建造，最好的时刻是无人能做任何事的时候”时，你的姿势发生了什么变化？",
+      "zh_epigraph": "“云彩充满了耶和华的殿，以致祭司不能站立供职”",
+      "zh_ref": "列王纪上 8:6–11"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#d9c8a6"
       },
       "dailyWalkDay": 267,
-      "reflectionPrompt": "Look at the stillness of your own two hands in Timothy’s painting: what striving can you lay down as you ponder, “a place to turn toward when we need to be found” (1 Kings 8:22–30)?"
+      "reflectionPrompt": "Look at the stillness of your own two hands in Timothy’s painting: what striving can you lay down as you ponder, “a place to turn toward when we need to be found” (1 Kings 8:22–30)?",
+      "zh_title": "这房子少多少钱",
+      "zh_poem": "他建造了最好的房子\n这片土地从未见过，\n然后站在它面前\n张开双手\n并说，\n它无法容纳你。\n\n天堂容不下你。\n\n但请听我们说\n当我们向这个地方祈祷时。\n当你听到时，\n原谅。\n\n不是容纳上帝的房子。\n一个转向的地方\n当我们需要的时候\n被发现。",
+      "zh_reflectionPrompt": "看看提摩太画中你自己两只手的静止：当你沉思“当我们需要被发现时，我们可以转向一个地方”（列王记上 8：22-30）时，你可以放下什么努力？",
+      "zh_epigraph": "“天上天上的天都容不下你，更何况是我建造的这座房子呢！”",
+      "zh_ref": "列王纪上 8:22–30"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#f2d8a6"
       },
       "dailyWalkDay": 268,
-      "reflectionPrompt": "In 1 Kings 10:1–9, the story turns on the stone water trough by the well—and ends with, “some things you only know by going to see.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In 1 Kings 10:1–9, the story turns on the stone water trough by the well—and ends with, “some things you only know by going to see.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "连一半都没有",
+      "zh_poem": "她走了很长的路\n带着骆驼、香料和黄金\n以及她所有最难的问题。\n\n她听过这些故事。\n她不相信他们。\n\n然后她看到\n桌子，\n房子，\n通往神的殿的路，\n而她已经一无所有了\n说。\n\n连一半都没有，她最后说道。\n连一半都没有告诉我。\n\n有些事情只有你知道\n去看看。",
+      "zh_reflectionPrompt": "在列王记上 10:1-9 中，故事以井边的石水槽为起点，并以“有些事只有亲眼目睹才知道”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“看哪，连一半都没有告诉我！”",
+      "zh_ref": "列王纪上 10:1–9"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#ebc592"
       },
       "dailyWalkDay": 269,
-      "reflectionPrompt": "The world measures life by speed and noise, yet 1 Kings 11:1–8 points us to the unhewn stones of the altar and whispers, “you drift one small turn at a time.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet 1 Kings 11:1–8 points us to the unhewn stones of the altar and whispers, “you drift one small turn at a time.” How can you practice that unhurried wisdom today?",
+      "zh_title": "一次一点",
+      "zh_poem": "这不是一天发生的。\n\n那个寻求智慧的人，\n谁在祭坛上祈祷\n张开双手，\n\n变老了，\n他的心转了过来\n一点点，\n然后再多一点，\n\n直到有祭坛\n在山谷对面的山上\n给有其他名字的神。\n\n没有人醒来\n远离神。\n\n你随波逐流\n一个小转弯\n一次。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而《列王记上》11:1-8却向我们指出了祭坛上未经凿成的石头，并低声说道：“你一次只能漂流一小段。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“他的心不像他父亲大卫的心那样纯全地顺服耶和华他的神。”",
+      "zh_ref": "列王纪上 11:1–8"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#e3c481"
       },
       "dailyWalkDay": 270,
-      "reflectionPrompt": "The poem closes with a quiet turn: “even when God lets things tear, he leaves a light burning.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “even when God lets things tear, he leaves a light burning.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "十二块",
+      "zh_poem": "田野里的先知\n脱下他的新斗篷\n并撕碎它\n分成十二块。\n\n他告诉耶罗波安，拿十个。\n王国将会崩溃。\n\n但不是全部。\n一个部落保留着，\n为了大卫的缘故，\n为了耶路撒冷的缘故，\n\n所以总会有\n一盏灯。\n\n即使当上帝\n让事物撕裂，\n他留下一盏灯\n燃烧。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“即使上帝让事物撕裂，他也会留下一盏明灯。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“亚希雅拿起身上的新衣，撕成十二块。”",
+      "zh_ref": "列王纪上 11:29–36"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#f2e1bf"
       },
       "dailyWalkDay": 271,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “the gentle word would have cost him nothing” (1 Kings 12:1–16) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “the gentle word would have cost him nothing” (1 Kings 12:1–16) speak to a question you have been carrying lately?",
+      "zh_title": "好话",
+      "zh_poem": "老人们说，\n今天成为他们的仆人\n他们将永远为您服务。\n\n年轻人说，\n使轭更重。\n\n他听了\n给年轻人。\n\n和一个王国\n曾经团结在一起的\n通过三个国王\n分崩离析\n超过一个答案。\n\n温柔的话语\n会让他付出代价\n什么也没有。",
+      "zh_reflectionPrompt": "有时候，一句话就能为封闭的房间打开一扇窗：“温柔的话语，他并不需要付出任何代价”（列王记上 12：1-16），这如何解答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“如果你今天成为这人民的仆人，服事他们，用好话回答他们，那么他们将永远是你的仆人。”",
+      "zh_ref": "列王纪上 12:1–16"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#f2deac"
       },
       "dailyWalkDay": 272,
-      "reflectionPrompt": "Hold your hands open for a moment before “too far to go” (1 Kings 12:26–30): what are you gripping tightly that loosens when you hear, “not every shortcut is a mercy”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “too far to go” (1 Kings 12:26–30): what are you gripping tightly that loosens when you hear, “not every shortcut is a mercy”?",
+      "zh_title": "太远了",
+      "zh_poem": "太远了，国王说。\n对你来说太多了。\n留在这里。\n这是你可以接触到的神。\n\n两只金牛犊，\n土地的每一端各有一个，\n所以没有人会\n进行攀登。\n\n听起来像是善意的。\n\n但容易的路\n领导人民\n远离房子\n上帝把他的名字记在哪里。\n\n不是每一条捷径\n是一种怜悯。",
+      "zh_reflectionPrompt": "在“太远了”之前先张开双手（列王记上 12：26-30）：当你听到“并非所有捷径都是怜悯”时，你紧握的是什么东西就松开了？",
+      "zh_epigraph": "“你上耶路撒冷实在是太难了。”",
+      "zh_ref": "列王纪上 12:26–30"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#e4cba9"
       },
       "dailyWalkDay": 273,
-      "reflectionPrompt": "Scripture remembers this moment in 1 Kings 13:1–6 not to impress us, but to steady us: when have you seen the truth that “of all the signs that day, maybe this was the clearest: a prayer for the one who was against him” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in 1 Kings 13:1–6 not to impress us, but to steady us: when have you seen the truth that “of all the signs that day, maybe this was the clearest: a prayer for the one who was against him” in your own story?",
+      "zh_title": "手恢复了",
+      "zh_poem": "国王伸出手\n去夺取神人，\n它干了\n并且不会回来。\n\n然后国王说：\n为我祈祷。\n\n和他刚刚尝试过的那个人\n逮捕\n祈祷，\n然后手又回来了\n和以前一样。\n\n那天的所有迹象中，\n也许这是最清楚的：\n一个祈祷\n为了那个反对他的人。",
+      "zh_reflectionPrompt": "圣经在列王记上 13：1-6 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到了“那天所有迹象中，也许这是最清楚的：为反对他的人祈祷”这一事实？",
+      "zh_epigraph": "“为我祈祷，让我的手再次康复。”",
+      "zh_ref": "列王纪上 13:1–6"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#e1d5ba"
       },
       "dailyWalkDay": 274,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “ravens” (1 Kings 17:1–6), what one honest sentence would you pray beside the quiet brook after reading, “enough, twice a day, on black wings”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “ravens” (1 Kings 17:1–6), what one honest sentence would you pray beside the quiet brook after reading, “enough, twice a day, on black wings”?",
+      "zh_title": "乌鸦",
+      "zh_poem": "上帝说，躲在小溪边。\n乌鸦会喂你。\n\n在所有的使者中，\n带走的鸟儿，\n不是给予的鸟。\n\n然而：\n早上的面包，\n晚上吃面包，\n水流过石头。\n\n他没有得到仓库。\n他有一个早晨，\n然后一个晚上，\n然后又是一个早晨。\n\n够了，\n一天两次，\n黑色的翅膀上。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“乌鸦”处时（列王记上 17：1-6），当你读到“够了，一天两次，长着黑色的翅膀”后，你会在安静的小溪旁祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“乌鸦早上给他带来面包和肉，晚上给他带来面包和肉；他喝了小溪里的水。”",
+      "zh_ref": "列王纪上 17:1–6"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#efe4c9"
       },
       "dailyWalkDay": 275,
-      "reflectionPrompt": "Between the opening line (“a widow gathering two sticks at the city gate for one last meal”) and the closing thought (“just enough, every time she reached in”), what is 1 Kings 17:8–16 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“a widow gathering two sticks at the city gate for one last meal”) and the closing thought (“just enough, every time she reached in”), what is 1 Kings 17:8–16 gently reframing in your own day?",
+      "zh_title": "一把面粉",
+      "zh_poem": "寡妇捡起两根棍子\n在城门口\n最后一顿饭。\n\n一把面粉，\n一点油。\n这就是一切。\n\n一个陌生人问她\n先做面包，\n她做到了。\n\n和第二天早上\n罐子里有面粉，\n和下一个。\n\n永远不会满。\n永远不会空。\n就够了，\n每次她伸手进去。",
+      "zh_reflectionPrompt": "在开场白（“一个寡妇在城门口拾取两根棍子作为最后一顿饭”）和结束语（“每次她伸手进去就够了”）之间，《列王记上》17：8-16在你那个时代轻轻地重构了什么？",
+      "zh_epigraph": "“坛子里的饭没有用完，坛子里的油没有用完”",
+      "zh_ref": "列王纪上 17:8–16"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#fadeb4"
       },
       "dailyWalkDay": 276,
-      "reflectionPrompt": "Along the road of A Still Small Voice, “your son lives” (1 Kings 17:17–24) slows us down at the quiet centerpiece of “your son lives” to remind us: “some prayers are carried up the stairs in grief and come back down breathing.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of A Still Small Voice, “your son lives” (1 Kings 17:17–24) slows us down at the quiet centerpiece of “your son lives” to remind us: “some prayers are carried up the stairs in grief and come back down breathing.” Where are you being invited to trade control for trust today?",
+      "zh_title": "你儿子还活着",
+      "zh_poem": "男孩停止了呼吸，\n和他的母亲\n只有问题。\n\n以利亚没有争辩。\n他说，把你的儿子给我，\n并把他抱上楼\n并向上帝呼求。\n\n他伸了三下身\n在孩子身上。\n\n上帝垂听了。\n\n然后下楼梯\n怀里抱着男孩：\n看，你的儿子还活着。\n\n一些祈祷\n被抬上楼梯\n悲伤中\n然后回来\n呼吸。",
+      "zh_reflectionPrompt": "沿着《寂静的小声音》的道路，“你的儿子活着”（列王纪上 17：17-24）让我们在“你的儿子活着”的安静中心放慢速度，提醒我们：“有些祈祷在悲伤中被带到楼梯上，然后带着呼吸回来。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“看哪，你的儿子活了。”",
+      "zh_ref": "列王纪上 17:17–24"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#eadec4"
       },
       "dailyWalkDay": 277,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “how long” (1 Kings 18:20–21), what would you talk about after reading, “how long, he asked them, will you stand there between two roads? silence is an answer too”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “how long” (1 Kings 18:20–21), what would you talk about after reading, “how long, he asked them, will you stand there between two roads? silence is an answer too”?",
+      "zh_title": "多长时间",
+      "zh_poem": "他问他们要多久，\n你会站在那里吗\n两条路之间？\n\n和人民\n没有说一句话。\n\n沉默\n也是一个答案。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“要等多久”处停下来（列王记上 18：20-21），那么在读到“他问他们，你要站在两条路之间要多久？沉默也是一种答案”之后，你会谈论什么？",
+      "zh_epigraph": "“你会在两者之间摇摆多久？”",
+      "zh_ref": "列王纪上 18:20–21"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#f0cd91"
       },
       "dailyWalkDay": 278,
-      "reflectionPrompt": "Pause before the warmth of the fire: what changes in your posture today when you sit with the closing words of “fire on Carmel”—“and the fire fell and licked up even the water”?"
+      "reflectionPrompt": "Pause before the warmth of the fire: what changes in your posture today when you sit with the closing words of “fire on Carmel”—“and the fire fell and licked up even the water”?",
+      "zh_title": "卡梅尔之火",
+      "zh_poem": "他们整天喊叫：\n没有人回答。\n\n然后以利亚重建\n破碎的祭坛，\n十二块石头，\n每个部落一个，\n\n并在上面倒水\n三次，\n直到沟渠填满。\n\n一个简短的祈祷\n晚间奉献时：\n让他们知道\n你已经使他们的心回转了。\n\n火势降下来了\n并舔了\n甚至水。",
+      "zh_reflectionPrompt": "在温暖的火前停顿一下：今天，当你坐在“迦密山上的火”的结束语中时，你的姿势有什么变化——“火落下来，连水都被舔了”？",
+      "zh_epigraph": "“耶和华，他是神！耶和华，他是神！”",
+      "zh_ref": "列王纪上 18:30–39"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#f4e8c9"
       },
       "dailyWalkDay": 279,
-      "reflectionPrompt": "Look at the stillness of the guiding cloud in Timothy’s painting: what striving can you lay down as you ponder, “that was all he needed to send word to the king: hurry home, before the rain” (1 Kings 18:41–45)?"
+      "reflectionPrompt": "Look at the stillness of the guiding cloud in Timothy’s painting: what striving can you lay down as you ponder, “that was all he needed to send word to the king: hurry home, before the rain” (1 Kings 18:41–45)?",
+      "zh_title": "像手一样的云",
+      "zh_poem": "年无雨。\n\n他弯下腰伏在地上，\n他的脸埋在膝盖之间，\n并打发他的仆人\n看海。\n\n没有什么。\n再去吧。\n没有什么。\n再去吧。\n\n七次。\n\n然后\n没有更大的云\n比一只手。\n\n这就是他所需要的\n送话给国王：\n赶紧回家，\n下雨之前。",
+      "zh_reflectionPrompt": "看看提摩太画中引导云的寂静：当你沉思“这就是他向王传话所需要的一切：在下雨之前赶紧回家”（列王记上 18：41-45）时，你能放下什么努力？",
+      "zh_epigraph": "“看哪，一朵小云，就像人的手一样，从海中升起。”",
+      "zh_ref": "列王纪上 18:41–45"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#e7d5b7"
       },
       "dailyWalkDay": 280,
-      "reflectionPrompt": "In 1 Kings 19:3–8, the story turns on the daily loaf broken in the hand—and ends with, “sometimes the holiest thing is a warm loaf and a little more sleep.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In 1 Kings 19:3–8, the story turns on the daily loaf broken in the hand—and ends with, “sometimes the holiest thing is a warm loaf and a little more sleep.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "扫帚树下",
+      "zh_poem": "火灾发生后，\n他跑了，\n进入沙漠的一天，\n然后躺在灌木丛下。\n他说，这就足够了。\n夺走我的生命。\n\n老天并没有教训他。\n天使触摸了他，\n还有面包\n在煤上烘烤\n和一罐水。\n\n吃饭，睡觉。\n然后再吃。\n这段旅程对你来说太过分了。\n\n有时是最神圣的事情\n是一个温暖的面包\n多睡一点。",
+      "zh_reflectionPrompt": "在《列王纪上》19:3-8 中，故事以每天用手掰开的面包为中心，并以“有时最神圣的事情就是一块热乎乎的面包和多一点睡眠”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“起来吃饭吧，因为这趟旅程对你来说太漫长了。”",
+      "zh_ref": "列王纪上 19:3–8"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#f3e7cc"
       },
       "dailyWalkDay": 281,
-      "reflectionPrompt": "The world measures life by speed and noise, yet 1 Kings 19:9–13 points us to the warmth of the fire and whispers, “sometimes he asks a gentle question, and waits.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet 1 Kings 19:9–13 points us to the warmth of the fire and whispers, “sometimes he asks a gentle question, and waits.” How can you practice that unhurried wisdom today?",
+      "zh_title": "仍然很小的声音",
+      "zh_poem": "一阵风吹碎了岩石。\n不在那里。\n\n地震。\n不在那里。\n\n一场火灾。\n也不在那里。\n\n然后某事\n如此安静\n他不得不遮住脸\n然后走出去\n听到它。\n\n你在这里做什么，以利亚？\n\n上帝并不总是喊叫。\n有时他会问\n一个温柔的问题，\n并等待。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而《列王记上》19:9-13却向我们指出了火的温暖，并低声说道：“有时他会问一个温和的问题，然后等待。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“火灾发生后，仍然有轻微的声音。”",
+      "zh_ref": "列王纪上 19:9–13"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#ecdfc2"
       },
       "dailyWalkDay": 282,
-      "reflectionPrompt": "The poem closes with a quiet turn: “no plow left to go back to.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “no plow left to go back to.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "地幔",
+      "zh_poem": "一个正在犁地的年轻人\n在十二对牛的后面，\n队伍中的最后一个。\n\n一位先知穿过田野\n并扔下了他的斗篷\n越过他的肩膀。\n\n这就是整个邀请。\n\n和以利沙\n煮牛\n越过自己的轭木，\n养活了人民，\n并跟随。\n\n没有犁了\n回去。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“没有犁可返回。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“以利亚走到他那里，给他披上外衣。”",
+      "zh_ref": "列王纪上 19:19–21"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#f3b25c"
       },
       "dailyWalkDay": 283,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “the last thing they did together was walk” (2 Kings 2:1–11) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “the last thing they did together was walk” (2 Kings 2:1–11) speak to a question you have been carrying lately?",
+      "zh_title": "我不会离开你",
+      "zh_poem": "在这里等一下，伊利亚说。\n在吉甲。在伯特利。在耶利哥。\n\n我不会离开你，\n以利沙说，\n每次。\n\n所以他们走了\n并交谈\n一路走到河边，\n并越过它，\n\n直到火在他们之间蔓延\n和老先知\n上升了\n旋风中。\n\n最后一件事\n他们一起做的\n是步行。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“他们一起做的最后一件事就是走路”（列王记下 2：1-11）如何解答您最近一直在思考的问题？",
+      "zh_epigraph": "“以利亚乘旋风升天。”",
+      "zh_ref": "列王纪下 2:1–11"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#eee1c0"
       },
       "dailyWalkDay": 284,
-      "reflectionPrompt": "Hold your hands open for a moment before “a double portion” (2 Kings 2:9–12): what are you gripping tightly that loosens when you hear, “so he kept his eyes on him to the very end”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “a double portion” (2 Kings 2:9–12): what are you gripping tightly that loosens when you hear, “so he kept his eyes on him to the very end”?",
+      "zh_title": "双份",
+      "zh_poem": "问，以利亚说，\n在我被带走之前。\n\n和以利沙\n没有要求土地，\n或安全，\n或一个名字。\n\n他要求更多\n他所看到的\n在他跟踪的那个人身上。\n\n这是一件很难的事\n以利亚说。\n如果你看见我走\n它将是你的。\n\n所以他一直盯着他\n到最后。",
+      "zh_reflectionPrompt": "在“双倍的份”（王下 2：9-12）之前，请张开双手：当您听到“所以他一直注视着他直到最后”时，您紧握的是什么东西松开了？",
+      "zh_epigraph": "“请让你的双倍灵魂降临在我身上。”",
+      "zh_ref": "列王纪下 2:9–12"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#fbf0cf"
       },
       "dailyWalkDay": 285,
-      "reflectionPrompt": "Scripture remembers this moment in 2 Kings 2:13–15 not to impress us, but to steady us: when have you seen the truth that “the prophet was gone. God was not” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in 2 Kings 2:13–15 not to impress us, but to steady us: when have you seen the truth that “the prophet was gone. God was not” in your own story?",
+      "zh_title": "以利亚的神在哪里",
+      "zh_poem": "他拿起斗篷\n那个已经掉下来的\n然后走回河边\n独自一人。\n\n同样的水。\n同一件斗篷。\n没有以利亚。\n\n以利亚的神在哪里？\n他问，\n并击中水面。\n\n河水就开了。\n\n先知走了。\n上帝不是。",
+      "zh_reflectionPrompt": "圣经在列王纪下 2：13-15 中记住这一刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到“先知走了。上帝不存在”的事实？",
+      "zh_epigraph": "“以利亚的上帝耶和华在哪里？”",
+      "zh_ref": "列王纪下 2:13–15"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#e3dbc3"
       },
       "dailyWalkDay": 286,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “another jar” (2 Kings 4:1–7), what one honest sentence would you pray beside the open threshold after reading, “bring more than you think”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “another jar” (2 Kings 4:1–7), what one honest sentence would you pray beside the open threshold after reading, “bring more than you think”?",
+      "zh_title": "另一个罐子",
+      "zh_poem": "负债累累的寡妇，\n两个儿子，\n和一小锅油。\n\n去借罐子吧，以利沙说。\n不只是少数。\n\n她关上了门\n并倒出，\n并倒出，\n直到她儿子说，\n没有另一个了。\n\n然后它就停了。\n\n油并没有用完。\n罐子做到了。\n\n带更多\n比你想象的要多。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“另一个罐子”（列王纪下 4：1-7）时，读完“带来比你想象的更多的东西”后，你会在敞开的门槛旁祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“再给我一个容器。”",
+      "zh_ref": "列王纪下 4:1–7"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#fadca0"
       },
       "dailyWalkDay": 287,
-      "reflectionPrompt": "Between the opening line (“a bed. a table”) and the closing thought (“and when he asked what he could do for her, she said, I live among my own people. she was only making room”), what is 2 Kings 4:8–13 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“a bed. a table”) and the closing thought (“and when he asked what he could do for her, she said, I live among my own people. she was only making room”), what is 2 Kings 4:8–13 gently reframing in your own day?",
+      "zh_title": "屋顶上的一个小房间",
+      "zh_poem": "一张床。\n一张桌子。\n一把椅子。\n一盏灯。\n\n这就是她给他的一切：\n屋顶上的一个小房间\n对于一个坚持的人\n路过。\n\n当他问的时候\n他能为她做什么，\n她说，\n我生活在我自己的人民中间。\n\n她没有进行交易。\n她只是\n腾出空间。",
+      "zh_reflectionPrompt": "在开场白（“一张床、一张桌子”）和结束语（“当他问他能为她做什么时，她说，我住在我自己的人中间。她只是在腾出空间”），《列王记下》4:8-13 在你那个时代轻轻地重构了什么？",
+      "zh_epigraph": "“请让我们在屋顶上腾出一个小房间。”",
+      "zh_ref": "列王纪下 4:8–13"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f5e3ba"
       },
       "dailyWalkDay": 288,
-      "reflectionPrompt": "Along the road of A Still Small Voice, “it is well” (2 Kings 4:18–37) slows us down at the stone well in the heat of the day to remind us: “and in the little room on the roof the child grew warm, sneezed seven times, and opened his eyes.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of A Still Small Voice, “it is well” (2 Kings 4:18–37) slows us down at the stone well in the heat of the day to remind us: “and in the little room on the roof the child grew warm, sneezed seven times, and opened his eyes.” Where are you being invited to trade control for trust today?",
+      "zh_title": "很好",
+      "zh_poem": "所应许的儿子，\n长成了男孩，\n中午她跪倒在地。\n\n她把他放在先知的床上，\n关上门，\n并骑行。\n\n还好吗？他们问道。\n很好，她说，\n并继续骑行。\n\n她抓住了他的脚。\n我不会离开你，她说，\n他曾经说过的话\n给他自己的主人。\n\n在屋顶上的小房间里\n孩子渐渐变得温暖，\n打了七个喷嚏\n并睁开了眼睛。",
+      "zh_reflectionPrompt": "沿着《寂静的小声音》的道路，“很好”（列王记下 4：18-37）在炎热的天气里让我们在石井旁放慢脚步，提醒我们：“在屋顶的小房间里，孩子暖和起来，打了七个喷嚏，睁开了眼睛。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“很好。”",
+      "zh_ref": "列王纪下 4:18–37"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#e3d9c6"
       },
       "dailyWalkDay": 289,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the girl from Israel” (2 Kings 5:1–4), what would you talk about after reading, “the whole story turns on one small voice that could have said nothing, and didn't”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the girl from Israel” (2 Kings 5:1–4), what would you talk about after reading, “the whole story turns on one small voice that could have said nothing, and didn't”?",
+      "zh_title": "来自以色列的女孩",
+      "zh_poem": "她被带走了\n从她家，\n一个小女孩\n在外国人家里服务。\n\n她有充分的理由\n保持安静。\n\n但当她看到\n伟大的船长的病，\n她说，\n我希望他能见到先知。\n他会治愈他。\n\n整个故事发生了转折\n用一个小声音\n本来可以什么也没说，\n但没有。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“以色列的女孩”（列王纪下 5：1-4）处停下来，你会在读到“整个故事都围绕着一个原本可以什么也不说的细小声音展开，但却没有说什么”之后谈论什么？",
+      "zh_epigraph": "“我希望我的主与撒玛利亚的先知在一起！”",
+      "zh_ref": "列王纪下 5:1–4"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#f3e7cd"
       },
       "dailyWalkDay": 290,
-      "reflectionPrompt": "Pause before the moving water: what changes in your posture today when you sit with the closing words of “wash, and be clean”—“and came up with the skin of a child”?"
+      "reflectionPrompt": "Pause before the moving water: what changes in your posture today when you sit with the closing words of “wash, and be clean”—“and came up with the skin of a child”?",
+      "zh_title": "洗干净",
+      "zh_poem": "他带着马匹和战车而来，\n银和金，\n和先知\n甚至没有到门口。\n\n去约旦河洗澡。\n七次。\n\n他很生气。\n他想象出了一些伟大的事情。\n\n但他的仆人却说：\n如果他问了一些伟大的事情\n你不会这么做吗？\n\n所以他就下去了\n流入平原的小河里。\n一次。两次。\n七次。\n\n并出现了\n与孩子的皮肤。",
+      "zh_reflectionPrompt": "在流动的水流前停下来：今天，当你坐下来，以“洗净，干净”为结束语时，你的姿势有什么变化——“并且拿出了孩子的皮肤”？",
+      "zh_epigraph": "“他的肉复原了，如同小孩子的肉一样，他就洁净了。”",
+      "zh_ref": "列王纪下 5:9–15"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f1e5c3"
       },
       "dailyWalkDay": 291,
-      "reflectionPrompt": "Look at the stillness of the moving water in Timothy’s painting: what striving can you lay down as you ponder, “no loss is too small to bring him” (2 Kings 6:1–7)?"
+      "reflectionPrompt": "Look at the stillness of the moving water in Timothy’s painting: what striving can you lay down as you ponder, “no loss is too small to bring him” (2 Kings 6:1–7)?",
+      "zh_title": "它是借来的",
+      "zh_poem": "是借来的,\n他喊道，\n当铁沉没时。\n\n和上帝\n把它从河里捞起来\n对于一个担心的人\n关于他所欠的。\n\n没有损失\n太小了\n带他来。",
+      "zh_reflectionPrompt": "看看提摩太画中流水的静止：当你思考“没有什么损失是微不足道的”（列王记下 6：1-7）时，你能付出什么努力呢？",
+      "zh_epigraph": "“他砍下一根棍子，扔进去，让铁浮了起来。”",
+      "zh_ref": "列王纪下 6:1–7"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#f9d58f"
       },
       "dailyWalkDay": 292,
-      "reflectionPrompt": "In 2 Kings 6:15–17, the story turns on the warmth of the fire—and ends with, “so was everything he couldn't see.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In 2 Kings 6:15–17, the story turns on the warmth of the fire—and ends with, “so was everything he couldn't see.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "更多与我们一起",
+      "zh_poem": "仆人起得很早\n并看到了军队\n城市各处。\n\n我们该怎么办？\n\n以利沙没有说\n跑，\n或隐藏，\n或者它并不像看起来那么糟糕。\n\n他祈祷，\n睁开眼睛。\n\n和山丘\n满是马匹\n和火战车。\n\n危险是真实存在的。\n一切也是如此\n他看不见。",
+      "zh_reflectionPrompt": "在列王纪下 6：15-17 中，故事以火的温暖为中心，并以“他所看不见的一切”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“不要害怕，因为与我们在一起的人比与他们在一起的人更多。”",
+      "zh_ref": "列王纪下 6:15–17"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#dfd2b4"
       },
       "dailyWalkDay": 293,
-      "reflectionPrompt": "The world measures life by speed and noise, yet 2 Kings 7:3–9 points us to the daily loaf broken in the hand and whispers, “so the outsiders went back to the city that had shut them out to tell it there was bread.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet 2 Kings 7:3–9 points us to the daily loaf broken in the hand and whispers, “so the outsiders went back to the city that had shut them out to tell it there was bread.” How can you practice that unhurried wisdom today?",
+      "zh_title": "好消息的一天",
+      "zh_poem": "门口有四个麻风病人\n一座饥饿的城市，\n没有什么可失去的，\n\n走进敌营\n黄昏时\n并发现它是空的。\n\n帐篷。面包。银。\n他们又吃又喝。\n他们隐藏了他们能隐藏的一切。\n\n然后其中一个人说，\n这是不对的。\n今天是个好消息的一天\n我们保持沉默。\n\n所以外人\n回到了城市\n那把他们拒之门外\n告诉它\n有面包。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而《列王纪下》7:3-9却向我们指出了每天用手掰开的面包，并低声说道：“所以外人回到了将他们拒之门外的城里，告诉那里有面包。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“今天是好消息的一天，我们保持沉默。”",
+      "zh_ref": "列王纪下 7:3–9"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#f2e2c1"
       },
       "dailyWalkDay": 294,
-      "reflectionPrompt": "The poem closes with a quiet turn: “it was that no one turned around.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “it was that no one turned around.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "每一位先知",
+      "zh_poem": "回头，他说，\n每一位先知，\n每一个看见者，\n年复一年。\n\n以利亚在山上。\n以利沙在河边。\n一个又一个的声音。\n\n他们不听。\n\n有一天\n撒玛利亚的塔楼\n空荡荡地站着，\n和东边的路\n挤满了人\n谁住在那里。\n\n这不是上帝\n不再说话了。\n\n就是没有人\n转过身来。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“只是没有人转身。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“耶和华却借各先知、各先见向以色列和犹大作见证”",
+      "zh_ref": "列王纪下 17:6–18"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#ecdebe"
       },
       "dailyWalkDay": 295,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “you can lay it open before him” (2 Kings 19:14–19) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “you can lay it open before him” (2 Kings 19:14–19) speak to a question you have been carrying lately?",
+      "zh_title": "传在主面前",
+      "zh_poem": "这封信充满了威胁。\n帝国就在门口\n已经吞下\n一个又一个国家。\n\n希西家读过，\n然后把它拎起来\n到神的家\n并将其展开。\n\n在这里，主啊。\n读这个。\n睁开你的眼睛看看。\n\n你不必知道\n该怎么办\n与这封信\n在你手中。\n\n你可以把它打开\n在他面前。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗户：“你可以在他面前打开窗户”（列王记下 19：14-19）如何解答你最近一直在思考的问题？",
+      "zh_epigraph": "“希西家就上耶和华的殿，将这事铺在耶和华面前。”",
+      "zh_ref": "列王纪下 19:14–19"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f0a972"
       },
       "dailyWalkDay": 296,
-      "reflectionPrompt": "Hold your hands open for a moment before “the shadow on the steps” (2 Kings 20:1–11): what are you gripping tightly that loosens when you hear, “no tear falls anywhere he isn't looking”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “the shadow on the steps” (2 Kings 20:1–11): what are you gripping tightly that loosens when you hear, “no tear falls anywhere he isn't looking”?",
+      "zh_title": "台阶上的影子",
+      "zh_poem": "把你的房子收拾得井井有条，\n先知说。\n你会死的。\n\n和国王\n他把脸转向墙壁\n并哭了。\n\n先知还没有\n从城市中心出来\n当上帝送他回来时：\n\n我听到了你的祈祷。\n我看见了你的眼泪。\n\n并作为一个标志，\n台阶上的影子\n退了十步。\n\n没有眼泪落下\n任何地方\n他没有在寻找。",
+      "zh_reflectionPrompt": "在“台阶上的影子”（列王纪下 20：1-11）面前张开双手：当你听到“他不看的地方，眼泪就不会掉下来”时，你紧握的是什么东西就松开了？",
+      "zh_epigraph": "“然后他转脸向墙，向耶和华祷告”",
+      "zh_ref": "列王纪下 20:1–11"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#ecddbd"
       },
       "dailyWalkDay": 297,
-      "reflectionPrompt": "Scripture remembers this moment in 2 Kings 22:3–11 not to impress us, but to steady us: when have you seen the truth that “because it was old, and no one had listened” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in 2 Kings 22:3–11 not to impress us, but to steady us: when have you seen the truth that “because it was old, and no one had listened” in your own story?",
+      "zh_title": "在房子里发现",
+      "zh_poem": "他们只是\n修复建筑物。\n\n数着钱，\n付钱给泥瓦匠，\n购买木材和石头。\n\n和尘埃中的某个地方\n神自己的家\n说出神自己的话，\n忘记了。\n\n当他们把它读给国王听时\n他撕破了衣服。\n\n不是因为这本书是新书。\n因为它很旧，\n没有人\n听过。",
+      "zh_reflectionPrompt": "圣经在列王记下 22:3-11 中记住这一时刻，不是为了给我们留下深刻的印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“因为太老了，没有人听过”的真理？",
+      "zh_epigraph": "“我在耶和华的殿里找到了律法书。”",
+      "zh_ref": "列王纪下 22:3–11"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#f6eddc"
       },
       "dailyWalkDay": 298,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “a tender heart” (2 Kings 22:14–20), what one honest sentence would you pray beside the quiet centerpiece of “a tender heart” after reading, “so he called everyone, small and great, up to the house of God and read them every word”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “a tender heart” (2 Kings 22:14–20), what one honest sentence would you pray beside the quiet centerpiece of “a tender heart” after reading, “so he called everyone, small and great, up to the house of God and read them every word”?",
+      "zh_title": "一颗温柔的心",
+      "zh_poem": "这个词很难。\n这座城市将会陷落。\n写了什么\n会实现的。\n\n但对国王来说，\n这个：\n\n因为你的心很温柔，\n因为你哭了，\n我听到过你的声音。\n\n他无法改变\n即将发生什么。\n他仍然可以\n在神面前要温柔。\n\n于是他给大家打电话，\n小而伟大，\n直到神的殿\n并读出每一个字。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“温柔的心”（列王纪下 22：14-20）处时，在读完“所以他叫众人，无论大小，都到上帝的殿里，逐字念给他们”之后，除了“温柔的心”安静的核心之外，你还会祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“因为你的心温柔，在耶和华面前自卑”",
+      "zh_ref": "列王纪下 22:14–20"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#d8bf94"
       },
       "dailyWalkDay": 299,
-      "reflectionPrompt": "Between the opening line (“the house that was too small to hold God burned”) and the closing thought (“it's how long God kept calling before it came”), what is 2 Kings 25:8–17 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“the house that was too small to hold God burned”) and the closing thought (“it's how long God kept calling before it came”), what is 2 Kings 25:8–17 gently reframing in your own day?",
+      "zh_title": "青铜石榴",
+      "zh_poem": "房子太小了\n去拥抱上帝\n烧毁了。\n\n所罗门砍伐的雪松，\n石头在沉默中成形，\n青铜石榴，\n被打碎并带走。\n\n墙壁倒塌了。\n人们被带走了。\n\n和最重的东西\n故事里\n不是火。\n\n这是多长时间\n神不断呼唤\n在它到来之前。",
+      "zh_reflectionPrompt": "在开场白（“房子太小，无法容纳上帝被烧毁”）和结尾思想（“上帝在他到来之前不断呼唤了多久”）之间，《列王纪下》25：8-17在你那个时代温和地重新构建了什么？",
+      "zh_epigraph": "“他烧毁了耶和华的殿、王宫和耶路撒冷的一切房屋”",
+      "zh_ref": "列王纪下 25:8–17"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#ebdec0"
       },
       "dailyWalkDay": 300,
-      "reflectionPrompt": "Along the road of A Still Small Voice, “bread all his days” (2 Kings 25:27–30) slows us down at the table set before you to remind us: “a lamp, still burning in a far country.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of A Still Small Voice, “bread all his days” (2 Kings 25:27–30) slows us down at the table set before you to remind us: “a lamp, still burning in a far country.” Where are you being invited to trade control for trust today?",
+      "zh_title": "他一生的面包",
+      "zh_poem": "三十七年\n巴比伦的俘虏。\n\n然后是一个新国王\n抬起头，\n亲切地对他说话，\n换了囚服，\n\n把面包摆在他面前\n每天\n他的余生。\n\n故事到此结束。\n不与火，\n但与大卫的儿子\n在一张桌子上，\n吃。\n\n一盏灯，\n仍在燃烧\n在一个遥远的国家。",
+      "zh_reflectionPrompt": "沿着《寂静的声音》的道路，“一生的面包”（列王纪下25：27-30）让我们在摆在你面前的餐桌前放慢脚步，提醒我们：“一盏灯，在遥远的国家仍然燃烧着。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“约雅斤一生常在他面前吃饭”",
+      "zh_ref": "列王纪下 25:27–30"
     }
-  ]
+  ],
+  "zh_title": "微小的声音",
+  "zh_subtitle": "列王纪上下诗画集",
+  "zh_beforeYouBegin": "《列王记》以一位年轻的国王寻求一颗理解的心开始，以一位流亡的国王在异国餐桌上吃面包结束。其间：采石场静静地切割石头，圣殿里充满荣耀的云彩，一件被撕成十二块的斗篷，小溪边的乌鸦，寡妇最后一把面粉，卡梅尔的火，一个先知捂着脸才能听到的声音，一件斗篷落在农夫的肩膀上，一罐比罐子更耐用的油，一条让骄傲的船长干净的河流，充满火的马匹的山，以及在寺庙的灰尘。这本书用四十首短诗，分为五个部分来讲述：所罗门和圣殿、被撕成两半的王国、以利亚、以利沙，以及耶路撒冷陷落的最后几位国王。"
 }

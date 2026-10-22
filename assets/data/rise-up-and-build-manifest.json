@@ -16,7 +16,10 @@
       "epigraph": "For he is good, for his loving kindness endures forever toward Israel.",
       "epigraphRef": "Ezra 3:11",
       "lightName": "Light of For He Is Good",
-      "lightHint": "Near 'stirred' (Ezra 1:1–2) in Part 1: For He Is Good"
+      "lightHint": "Near 'stirred' (Ezra 1:1–2) in Part 1: For He Is Good",
+      "zh_title": "因为他是好的",
+      "zh_epigraph": "因为他本为善，他向以色列所施的慈爱永远长存。",
+      "zh_epigraphRef": "以斯拉记 3:11"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "The hand of our God was on us, and he delivered us from the hand of the enemy and the bandit by the way.",
       "epigraphRef": "Ezra 8:31",
       "lightName": "Light of The Good Hand of Our God",
-      "lightHint": "Near 'set his heart' (Ezra 7:10) in Part 2: The Good Hand of Our God"
+      "lightHint": "Near 'set his heart' (Ezra 7:10) in Part 2: The Good Hand of Our God",
+      "zh_title": "我们上帝的良善之手",
+      "zh_epigraph": "我们神的手临到我们身上，救我们脱离仇敌和路上强盗的手。",
+      "zh_epigraphRef": "以斯拉记 8:31"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "So I prayed to the God of heaven.",
       "epigraphRef": "Nehemiah 2:4",
       "lightName": "Light of A Sad Face Before the King",
-      "lightHint": "Near 'the wall is broken' (Nehemiah 1:2–4) in Part 3: A Sad Face Before the King"
+      "lightHint": "Near 'the wall is broken' (Nehemiah 1:2–4) in Part 3: A Sad Face Before the King",
+      "zh_title": "国王面前一张悲伤的脸",
+      "zh_epigraph": "于是我向天上的上帝祈祷。",
+      "zh_epigraphRef": "尼希米记 2:4"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "So we built the wall; and all the wall was joined together to half its height: for the people had a mind to work.",
       "epigraphRef": "Nehemiah 4:6",
       "lightName": "Light of A Mind to Work",
-      "lightHint": "Near 'across from his own house' (Nehemiah 3:28–32) in Part 4: A Mind to Work"
+      "lightHint": "Near 'across from his own house' (Nehemiah 3:28–32) in Part 4: A Mind to Work",
+      "zh_title": "工作之心",
+      "zh_epigraph": "所以我们建了墙；所有的墙都连接在一起，高度只有一半：因为人们都愿意工作。",
+      "zh_epigraphRef": "尼希米记 4:6"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "Go your way. Eat the fat, drink the sweet, and send portions to him for whom nothing is prepared, for today is holy to our Lord.",
       "epigraphRef": "Nehemiah 8:10",
       "lightName": "Light of The Joy of Yahweh",
-      "lightHint": "Near 'all the people stood' (Nehemiah 8:1–6) in Part 5: The Joy of Yahweh"
+      "lightHint": "Near 'all the people stood' (Nehemiah 8:1–6) in Part 5: The Joy of Yahweh",
+      "zh_title": "耶和华的喜乐",
+      "zh_epigraph": "走你的路吧。吃肥肉，喝甜食，分给没有预备的人，因为今天是我们主的圣日。",
+      "zh_epigraphRef": "尼希米记 8:10"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#eec984"
       },
       "dailyWalkDay": 337,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “the heart of a king is a small thing for God to stir” (Ezra 1:1–2) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “the heart of a king is a small thing for God to stir” (Ezra 1:1–2) speak to a question you have been carrying lately?",
+      "zh_title": "搅拌",
+      "zh_poem": "很长一段时间\n去别人的城市生活，\n挂你的竖琴\n在别人的树上。\n\n然后有一天早上\n世界上最有权势的人\n把他的名字命名为一个奇怪的想法：\n\n让他们回家吧。\n让他们建造。\n\n他可能认为\n这是他的主意。\n\n这是一个承诺\n神通过耶利米创造了\n很久以前。\n\n国王的心\n是一件小事\n等神来搅动。",
+      "zh_reflectionPrompt": "有时，一句话可以为封闭的房间打开一扇窗：“君王的心，对于神来说，是微不足道的”（以斯拉记1：1-2）如何解答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“耶和华激动波斯王居鲁士的心”",
+      "zh_ref": "以斯拉记 1:1–2"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#e0d1ab"
       },
       "dailyWalkDay": 338,
-      "reflectionPrompt": "Hold your hands open for a moment before “strengthened their hands” (Ezra 1:5–6): what are you gripping tightly that loosens when you hear, “both are how the house gets built”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “strengthened their hands” (Ezra 1:5–6): what are you gripping tightly that loosens when you hear, “both are how the house gets built”?",
+      "zh_title": "加强了他们的双手",
+      "zh_poem": "不是每个人都去了。\n\n也许有些太旧了\n为了道路。\n有些人在那里盖了房子，\n和种植的花园。\n\n但留下来的人\n所做的不仅仅是挥手。\n\n他们压银\n交到旅客手中，\n和黄金，和货物，\n和长途步行的动物。\n\n我们中的一些人被派遣。\n我们中的一些人发送。\n\n两者都是\n房子是如何建造的。",
+      "zh_reflectionPrompt": "在“坚固他们的手”（以斯拉记 1:5-6）之前，先张开你的手一会儿：当你听到“房子都是这样建造的”时，你紧握的是什么却松开了？",
+      "zh_epigraph": "“周围的人都加强了双手”",
+      "zh_ref": "以斯拉记 1:5–6"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#f4e2ae"
       },
       "dailyWalkDay": 339,
-      "reflectionPrompt": "Scripture remembers this moment in Ezra 1:7–11 not to impress us, but to steady us: when have you seen the truth that “nothing that belongs to God is ever lost to him” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Ezra 1:7–11 not to impress us, but to steady us: when have you seen the truth that “nothing that belongs to God is ever lost to him” in your own story?",
+      "zh_title": "算出",
+      "zh_poem": "金碗。\n银盘。\n\n被带到巴比伦\n并设置在房子里\n另一位神，\n\n他们坐了很多年的地方\n远离祭坛\n它们是为之而生的。\n\n然后有人带着一份清单来了\n并把它们数出来，\n一一——\n五千四百——\n并送他们回家。\n\n没有什么是属于神的\n曾经迷失过\n给他。",
+      "zh_reflectionPrompt": "圣经在以斯拉记 1 章 7-11 节中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们坚定：你什么时候在你自己的故事中看到过“凡是属神的，他都不会失去”的真理？",
+      "zh_epigraph": "“将他们算作犹大王子设巴萨。”",
+      "zh_ref": "以斯拉记 1:7–11"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#f8dda4"
       },
       "dailyWalkDay": 340,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “on its base” (Ezra 3:2–3), what one honest sentence would you pray beside the warmth of the fire after reading, “before the roof, before the doors, before anything was safe— worship”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “on its base” (Ezra 3:2–3), what one honest sentence would you pray beside the warmth of the fire after reading, “before the roof, before the doors, before anything was safe— worship”?",
+      "zh_title": "在其基础上",
+      "zh_poem": "还没有寺庙。\n没有墙壁。\n只有瓦砾和杂草\n和邻居们的注视。\n\n他们很害怕。\n文字是这样说的。\n\n无论如何，他们建造了祭坛，\n就在它所属的地方，\n并点燃了早晨的火，\n和晚上的一场。\n\n屋顶前，\n门前，\n在一切安全之前——\n\n崇拜。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“底座上”（以斯拉记 3：2-3）时，读完“在屋顶前，在门前，在一切安全之前——敬拜”之后，你会在火的温暖旁祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“他们把祭坛放在它的底座上”",
+      "zh_ref": "以斯拉记 3:2–3"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#f7ecc9"
       },
       "dailyWalkDay": 341,
-      "reflectionPrompt": "Between the opening line (“silver for the masons”) and the closing thought (“and the cedars came down from the mountains and out to sea, floated along the coast to Joppa, the way they came for Solomon. new work. old road”), what is Ezra 3:7 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“silver for the masons”) and the closing thought (“and the cedars came down from the mountains and out to sea, floated along the coast to Joppa, the way they came for Solomon. new work. old road”), what is Ezra 3:7 gently reframing in your own day?",
+      "zh_title": "雪松",
+      "zh_poem": "给石匠的银子。\n西顿和提尔的石油。\n\n雪松倒下了\n从山上\n并出海，\n沿着海岸漂浮\n前往约帕，\n\n他们来的路\n对于所罗门来说。\n\n新工作。\n老路。",
+      "zh_reflectionPrompt": "在开场白（“给泥瓦匠的银子”）和结束语（“香柏树从山上下来，出海，沿着海岸飘到约帕，这是他们为所罗门而来的方式。新工作。旧路”）之间，以斯拉记 3:7 在你那个时代轻轻地重构了什么？",
+      "zh_epigraph": "“将香柏树从黎巴嫩运到海边，带到约帕”",
+      "zh_ref": "以斯拉记 3:7"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#e5c895"
       },
       "dailyWalkDay": 342,
-      "reflectionPrompt": "Along the road of Rise Up and Build, “a great shout” (Ezra 3:10–11) slows us down at the clear note of the horn to remind us: “sometimes faith is just a lot of noise over a foundation.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Rise Up and Build, “a great shout” (Ezra 3:10–11) slows us down at the clear note of the horn to remind us: “sometimes faith is just a lot of noise over a foundation.” Where are you being invited to trade control for trust today?",
+      "zh_title": "一声大喊",
+      "zh_poem": "一块石头。\n就是这样。\n\n一行块\n在泥土中\n房子所在的地方。\n\n但祭司们却吹起了号角，\n利未人敲钹，\n他们来来回回地唱着这首歌\n整个网站：\n\n他很好。\n他的慈爱\n永远持续下去。\n\n人们喊道\n仿佛整个事情\n已经完成了。\n\n有时信仰\n只是有很多噪音\n在一个基础上。",
+      "zh_reflectionPrompt": "在奋起建设的道路上，“一声大呼喊”（以斯拉记 3:10-11）让我们在号角的清脆声调中放慢脚步，提醒我们：“有时，信心不过是盖在根基上的大量噪音。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“所有人都大声喊叫”",
+      "zh_ref": "以斯拉记 3:10–11"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#e6d8c1"
       },
       "dailyWalkDay": 343,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the old men wept” (Ezra 3:12–13), what would you talk about after reading, “most beginnings sound like that. let both be heard”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the old men wept” (Ezra 3:12–13), what would you talk about after reading, “most beginnings sound like that. let both be heard”?",
+      "zh_title": "老人们哭了",
+      "zh_poem": "年轻人喊道。\n\n但老人们\n见过第一栋房子。\n他们看了这个\n小开始\n并大声哭泣。\n\n和来自远方的\n没有人能告诉\n哪个是哪个——\n欢乐，悲伤，\n一个声音\n从山上升起。\n\n最开始\n听起来像那样。\n让两者都被听到。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“老人哭了”（以斯拉记 3:12-13）处停下来，读完“大多数的开始听起来都是如此。让两者都被听到”之后，你会谈论什么？",
+      "zh_epigraph": "“人们无法区分欢呼声和哭泣声”",
+      "zh_ref": "以斯拉记 3:12–13"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#f9f1d5"
       },
       "dailyWalkDay": 344,
-      "reflectionPrompt": "Pause before your own two hands: what changes in your posture today when you sit with the closing words of “work stopped”—“if your work has stopped, if the thing you began with joy sits in the weeds— it is not finished. it is waiting”?"
+      "reflectionPrompt": "Pause before your own two hands: what changes in your posture today when you sit with the closing words of “work stopped”—“if your work has stopped, if the thing you began with joy sits in the weeds— it is not finished. it is waiting”?",
+      "zh_title": "工作停止了",
+      "zh_poem": "聘请了顾问。\n写了信。\n手变得无力。\n\n工作就停止了。\n\n没有一个星期。\n多年来。\n\n草长大了\n石头之间\n他们已经喊过去了。\n\n如果你的工作\n已经停止，\n如果你高兴地开始这件事\n坐在杂草丛中——\n\n它还没有完成。\n它正在等待。",
+      "zh_reflectionPrompt": "停在你自己的两只手前：今天，当你坐下来，以“工作停止了”作为结束语时，你的姿势发生了什么变化——“如果你的工作已经停止，如果你高兴地开始的事情坐在杂草丛中——它还没有完成。它正在等待”？",
+      "zh_epigraph": "“于是，这地的人民削弱了犹大人民的力量，扰乱了他们的建筑。”",
+      "zh_ref": "以斯拉记 4:4–5"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#f4e4bf"
       },
       "dailyWalkDay": 345,
-      "reflectionPrompt": "Look at the stillness of the dust of the road in Timothy’s painting: what striving can you lay down as you ponder, “a word from God often shows up with dust on it” (Ezra 5:1–2)?"
+      "reflectionPrompt": "Look at the stillness of the dust of the road in Timothy’s painting: what striving can you lay down as you ponder, “a word from God often shows up with dust on it” (Ezra 5:1–2)?",
+      "zh_title": "帮助他们",
+      "zh_poem": "先知们没有站住\n在远处\n并指出。\n\n哈该和撒迦利亚\n以神的名义说话，\n\n所罗巴伯和耶书亚\n起来\n并重新开始，\n\n和先知们\n就在他们身边，\n帮助。\n\n来自上帝的一句话\n经常出现\n上面有灰尘。",
+      "zh_reflectionPrompt": "看看提摩太画中路上寂静的尘土：当你思考“神的话，常显出尘土”（以斯拉记 5：1-2）时，你能放下什么努力呢？",
+      "zh_epigraph": "“与他们在一起的有上帝的先知，帮助他们。”",
+      "zh_ref": "以斯拉记 5:1–2"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#f7efdb"
       },
       "dailyWalkDay": 346,
-      "reflectionPrompt": "In Ezra 5:3–5, the story turns on the name by which He calls you—and ends with, “someone was watching them more closely than the governor.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Ezra 5:3–5, the story turns on the name by which He calls you—and ends with, “someone was watching them more closely than the governor.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "他们神的眼睛",
+      "zh_poem": "州长骑马上来\n带着疑问。\n\n谁告诉你建造这个的？\n你叫什么名字？\n\n他们简单地回答：\n我们是仆人\n天地之神的。\n\n虽然这封信\n去见国王\n然后回来，\n\n没有人让他们停下来。\n\n有人在看着他们\n更密切地\n比州长。",
+      "zh_reflectionPrompt": "在以斯拉记 5 章 3-5 节中，故事以他称呼你的名字为中心，并以“有人比总督更密切地注视着他们”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“但他们的上帝的目光注视着犹太人的长老”",
+      "zh_ref": "以斯拉记 5:3–5"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#e7bc71"
       },
       "dailyWalkDay": 347,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Ezra 6:1–3 points us to the unrolled parchment and whispers, “let the king pay for it. they found the promise.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Ezra 6:1–3 points us to the unrolled parchment and whispers, “let the king pay for it. they found the promise.” How can you practice that unhurried wisdom today?",
+      "zh_title": "阿克梅萨的卷轴",
+      "zh_poem": "州长问\n进行搜索，\n看看这个故事是否属实。\n\n在媒体的某个地方，\n在宫殿档案馆中，\n在没人碰过的架子上\n多年来，\n\n一个卷轴正在等待着。\n\n居鲁士的法令。\n让房子建起来吧。\n让国王付出代价吧。\n\n他们去寻找\n为了一个问题。\n\n他们发现\n的承诺。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，但以斯拉记 6:1-3 向我们指出了展开的羊皮纸，并低声说道：“让国王为此付出代价。他们找到了应许。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“在阿克梅萨发现了一个卷轴”",
+      "zh_ref": "以斯拉记 6:1–3"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#caab7d"
       },
       "dailyWalkDay": 348,
-      "reflectionPrompt": "The poem closes with a quiet turn: “and the text is careful to say where the joy came from: Yahweh had made them joyful. he built the gladness.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “and the text is careful to say where the joy came from: Yahweh had made them joyful. he built the gladness.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "使快乐",
+      "zh_poem": "已经完成了\n亚达节第三日。\n\n石头房子\n多年来一直存在的地方\n只是一个基础。\n\n他们满怀喜悦地奉献了它。\n他们守逾越节\n和无酵节。\n\n而且文字很仔细\n说快乐在哪里\n来自：\n\n耶和华\n使他们感到高兴。\n\n他们建造了房子。\n他创造了快乐。",
+      "zh_reflectionPrompt": "这首诗以安静的转折结束：“经文小心翼翼地说明喜乐从何而来：耶和华使他们喜乐。他创造了喜乐。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“耶和华使他们喜乐”",
+      "zh_ref": "以斯拉记 6:15–22"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#dec090"
       },
       "dailyWalkDay": 349,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “he set his heart the way you set a stone— bent over the scroll by lamplight, far from Jerusalem, getting ready for a road he did not yet know he would walk” (Ezra 7:10) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “he set his heart the way you set a stone— bent over the scroll by lamplight, far from Jerusalem, getting ready for a road he did not yet know he would walk” (Ezra 7:10) speak to a question you have been carrying lately?",
+      "zh_title": "定下心来",
+      "zh_poem": "寻求。\n做。\n教。\n按这个顺序。\n\n他没有教书\n他没有尝试过的事情。\n他没有尝试\n他没有寻找过什么。\n\n他下定决心\n你放置石头的方式——\n弯腰在卷轴上\n借着灯光，\n远离耶路撒冷，\n\n准备好\n对于一条路\n他还不知道\n他会走路。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“他如何安置自己的心，就像你安置一块石头一样——在远离耶路撒冷的灯光下俯身在书卷上，准备走一条他还不知道自己会走的路”（以斯拉记7:10）如何回答你最近一直提出的一个问题？",
+      "zh_epigraph": "“以斯拉立志寻求耶和华的律法，并且遵行，又在以色列中教导律例、典章。”",
+      "zh_ref": "以斯拉记 7:10"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#f5e1a6"
       },
       "dailyWalkDay": 350,
-      "reflectionPrompt": "Hold your hands open for a moment before “the good hand” (Ezra 7:8–9): what are you gripping tightly that loosens when you hear, “for him that was the whole story of the trip”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “the good hand” (Ezra 7:8–9): what are you gripping tightly that loosens when you hear, “for him that was the whole story of the trip”?",
+      "zh_title": "好手",
+      "zh_poem": "正月初一，\n他们离开了巴比伦。\n\n五月初一，\n他们走进耶路撒冷。\n\n四个月的路。\n灰尘和热量\n还有小孩子问\n还有多远。\n\n以斯拉没有告诉我们\n关于水泡。\n\n他只是说，\n不止一次，\n好手\n他的上帝\n在他身上。\n\n为了他\n这就是整个故事\n旅行的。",
+      "zh_reflectionPrompt": "在“好手”（以斯拉记 7:8-9）面前张开你的双手：当你听到“这就是这次旅行的全部故事”时，你紧握的是什么松开了？",
+      "zh_epigraph": "“根据他的上帝对他施恩的手。”",
+      "zh_ref": "以斯拉记 7:8–9"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#edd195"
       },
       "dailyWalkDay": 351,
-      "reflectionPrompt": "Scripture remembers this moment in Ezra 8:21–23 not to impress us, but to steady us: when have you seen the truth that “sometimes faith means living inside what you already said out loud” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Ezra 8:21–23 not to impress us, but to steady us: when have you seen the truth that “sometimes faith means living inside what you already said out loud” in your own story?",
+      "zh_title": "羞于询问",
+      "zh_poem": "他告诉国王，\n我们的上帝之手在\n凡寻求他的人。\n\n那么他怎么能转身\n并要求士兵？\n\n他感到羞愧。\n\n所以他们在河边扎营\n和他们的小孩\n和他们的金银\n以及前方危险的道路，\n\n他们禁食，\n他们问道。\n\n上帝回答了。\n\n有时信仰\n意味着住在里面\n你已经说过的话\n大声说出来。",
+      "zh_reflectionPrompt": "圣经记住以斯拉记 8 章 21-23 节中的这一刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过这样的真理：“有时信心意味着活在你已经大声说出来的里面”？",
+      "zh_epigraph": "“所以我们禁食并向我们的上帝祈求：他答应了我们的请求。”",
+      "zh_ref": "以斯拉记 8:21–23"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#dabe8d"
       },
       "dailyWalkDay": 352,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “holy vessels” (Ezra 8:24–30), what one honest sentence would you pray beside the quiet centerpiece of “holy vessels” after reading, “he said it about the men first”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “holy vessels” (Ezra 8:24–30), what one honest sentence would you pray beside the quiet centerpiece of “holy vessels” after reading, “he said it about the men first”?",
+      "zh_title": "圣器",
+      "zh_poem": "他权衡了一下：\n银、金、\n碗，\n两件光亮的青铜器皿。\n\n然后他看了看\n在十二个祭司那里\n谁会携带它\n\n并说，\n你归耶和华为圣。\n器皿是圣的。\n\n看着他们。\n保留它们。\n\n他谈到了杯子。\n\n他是这样说关于男人的\n首先。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“圣器”前（以斯拉记 8：24-30）时，读到“他首先说的是男人”之后，你会在“圣器”安静的中心装饰品旁边祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“你归耶和华为圣，器皿也是圣。”",
+      "zh_ref": "以斯拉记 8:24–30"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#e1cca6"
       },
       "dailyWalkDay": 353,
-      "reflectionPrompt": "Between the opening line (“he tore his robe and sat stunned until the evening offering”) and the closing thought (“a remnant. enough to hang a life on”), what is Ezra 9:5–9 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“he tore his robe and sat stunned until the evening offering”) and the closing thought (“a remnant. enough to hang a life on”), what is Ezra 9:5–9 gently reframing in your own day?",
+      "zh_title": "钉在他的圣地",
+      "zh_poem": "他撕破了长袍\n目瞪口呆地坐着\n直到晚祭。\n\n然后他跪下，\n摊开双手，\n并说出了真相：\n我们的愧疚感与日俱增\n直到天堂。\n\n仍然，在它的中间：\n一点恩典。\n一个残余物。\n在他的圣地钉上一颗钉子——\n\n一些小东西，\n被逼入墙内\n所以它成立。\n\n足够挂\n一个生命。",
+      "zh_reflectionPrompt": "在开场白（“他撕裂外袍，惊愕地坐着，直到献晚祭”）和结束语（“剩下的，足以维持生命”）之间，《以斯拉记》9:5-9 在你那个时代轻轻地重构了什么？",
+      "zh_epigraph": "“暂时，我们的上帝耶和华显明了恩典”",
+      "zh_ref": "以斯拉记 9:5–9"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#e5e6e2"
       },
       "dailyWalkDay": 354,
-      "reflectionPrompt": "Along the road of Rise Up and Build, “in the great rain” (Ezra 10:9–13) slows us down at the name by which He calls you to remind us: “some pages are for grieving, and for trusting God with what we can't see.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Rise Up and Build, “in the great rain” (Ezra 10:9–13) slows us down at the name by which He calls you to remind us: “some pages are for grieving, and for trusting God with what we can't see.” Where are you being invited to trade control for trust today?",
+      "zh_title": "在大雨中",
+      "zh_poem": "第九个月。\n冷雨。\n每个人都坐在空旷的广场上\n在神的殿前，\n发抖。\n\n他们有一件很难面对的事情。\n这不是工作\n一两天的时间，\n他们说。\n\n以斯拉记\n以姓名列表结尾\n以及关于他们孩子的一句话。\n它没有告诉我们\n每个家庭过得怎么样。\n\n一些页面\n是为了悲伤，\n并因信靠神\n与我们看不到的东西。",
+      "zh_reflectionPrompt": "沿着奋起建设的道路，“在大雨中”（以斯拉记10：9-13）让我们放慢脚步，因为他用这个名字来呼唤我们，提醒我们：“有些书页是为了悲伤，为了把我们看不到的事情托付给上帝。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“因为这件事，也因为那场大雨而颤抖。”",
+      "zh_ref": "以斯拉记 10:9–13"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#f2ece1"
       },
       "dailyWalkDay": 355,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the wall is broken” (Nehemiah 1:2–4), what would you talk about after reading, “a calling often starts as an ache you can't put down”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the wall is broken” (Nehemiah 1:2–4), what would you talk about after reading, “a calling often starts as an ache you can't put down”?",
+      "zh_title": "墙坏了",
+      "zh_poem": "他有一个很好的职位\n苏萨王宫内。\n\n他的兄弟来自犹大，\n他问，\n这个城市怎么样？\n\n墙被拆毁了。\n城门被烧毁。\n\n他本可以说，那太糟糕了，\n然后回去工作了。\n相反，他坐下了\n哭了好几天。\n\n一个召唤\n经常开始\n作为一种疼痛\n你无法放下。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“墙被拆毁”（尼希米记 1：2-4）处停下来，读完“呼召常常以无法放下的疼痛开始”之后，你会谈论什么？",
+      "zh_epigraph": "“当我听到这些话时，我坐下来哭了”",
+      "zh_ref": "尼希米记 1:2–4"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#eecfa3"
       },
       "dailyWalkDay": 356,
-      "reflectionPrompt": "Pause before the open threshold: what changes in your posture today when you sit with the closing words of “day and night”—“he knew which door he was praying toward”?"
+      "reflectionPrompt": "Pause before the open threshold: what changes in your posture today when you sit with the closing words of “day and night”—“he knew which door he was praying toward”?",
+      "zh_title": "白天和黑夜",
+      "zh_poem": "他日夜祈祷。\n他说我们。\n我和我父亲的家人都犯了罪。\n\n他提醒上帝\n神自己的话：\n如果你回来的话\n我会聚集你，\n即使从最远的边缘\n天堂的。\n\n然后是一个小的、具体的请求：\n赐予我怜悯\n在这个男人的眼里。\n\n以及本章的最后一行：\n我是国王的酒政。\n\n他知道哪扇门\n他正在祈祷。",
+      "zh_reflectionPrompt": "在敞开的门槛前停顿一下：今天，当你坐下来，以“白天和黑夜”结束语——“他知道他正在向哪扇门祈祷”时，你的姿势有什么变化？",
+      "zh_epigraph": "“现在让你的耳朵集中注意力，睁开你的眼睛”",
+      "zh_ref": "尼希米记 1:5–11"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#dec69f"
       },
       "dailyWalkDay": 357,
-      "reflectionPrompt": "Look at the stillness of the open threshold in Timothy’s painting: what striving can you lay down as you ponder, “that is often where the door opens” (Nehemiah 2:1–2)?"
+      "reflectionPrompt": "Look at the stillness of the open threshold in Timothy’s painting: what striving can you lay down as you ponder, “that is often where the door opens” (Nehemiah 2:1–2)?",
+      "zh_title": "悲伤的脸",
+      "zh_poem": "几个月过去了。\n他倒了酒\n像他一贯做的那样，\n但这一次\n他无法隐藏它。\n\n他从来没有悲伤过\n在国王面前。\n或许，在那个法庭上，\n悲伤的表情是一件危险的事情。\n\n你的脸为什么悲伤？\n和尼希米\n非常害怕。\n\n你可以害怕\n并且仍然说实话。\n这常常是\n门打开的地方。",
+      "zh_reflectionPrompt": "看看提摩太画中敞开的门槛的寂静：当你思考“门常常在那里打开”（尼希米记 2：1-2）时，你能放下什么努力呢？",
+      "zh_epigraph": "“你没病，为什么脸上愁容满面？”",
+      "zh_ref": "尼希米记 2:1–2"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#f9eed0"
       },
       "dailyWalkDay": 358,
-      "reflectionPrompt": "In Nehemiah 2:4–5, the story turns on the quiet rhythm of your breath—and ends with, “God hears the short ones too.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Nehemiah 2:4–5, the story turns on the quiet rhythm of your breath—and ends with, “God hears the short ones too.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "在问题和答案之间",
+      "zh_poem": "国王问道：\n你想要什么？\n\n和问题之间\n和答案\n有一股呼吸声。\n\n所以我祈祷\n归向天上的上帝。\n\n没有跪下。\n没有时间。\n一个祈祷\n心跳的大小，\n\n然后他说话了。\n\n你并不总是\n闭上你的眼睛。\n\n神垂听\n短的也是如此。",
+      "zh_reflectionPrompt": "在尼希米记 2 章 4-5 节中，故事以你呼吸的安静节奏为中心，并以“神也听短的”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“然后国王对我说：‘你有什么要求？’”",
+      "zh_ref": "尼希米记 2:4–5"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#e6dac3"
       },
       "dailyWalkDay": 359,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Nehemiah 2:12–15 points us to the quiet brook and whispers, “before you build, you have to see the whole ruin and not look away.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Nehemiah 2:12–15 points us to the quiet brook and whispers, “before you build, you have to see the whole ruin and not look away.” How can you practice that unhurried wisdom today?",
+      "zh_title": "夜间骑行",
+      "zh_poem": "在城里三天。\n然后，在夜里，\n他出去了，\n不告诉任何人\n神把什么放在他心里。\n\n几个男人，\n一只动物，\n和月亮。\n\n出了谷门，\n过了豺狼井，\n沿着残破的城墙，\n直到没有空间\n让他的动物通过。\n于是他就到了小溪边\n并继续寻找。\n\n在你建造之前，\n你必须看到整个废墟\n并且不要移开目光。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而《尼希米记》2:12-15却向我们指出了那条安静的小溪，并低声说道：“在你建造之前，你必须看到整个废墟，而不是把目光移开。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“我在夜里起床，我和几个人也跟着我。”",
+      "zh_ref": "尼希米记 2:12–15"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#fbcea2"
       },
       "dailyWalkDay": 360,
-      "reflectionPrompt": "The poem closes with a quiet turn: “it takes everyone to say let's.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “it takes everyone to say let's.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "好的工作",
+      "zh_poem": "来吧，他说。\n你也看到了。\n让我们来建造吧。\n\n他们回答说：\n让我们起来建设吧。\n\n嘲笑者立刻就来了：\n你会叛逆吗？\n\n天上的神\n将使我们繁荣昌盛，\n他说。\n我们将崛起并建设。\n\n需要一个人\n去看废墟。\n这需要每个人\n说让我们吧。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“需要每个人都说让我们吧。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“所以他们为做好工作而加强了力量。”",
+      "zh_ref": "尼希米记 2:17–20"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#ded1b4"
       },
       "dailyWalkDay": 361,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “that's how a wall goes all the way around” (Nehemiah 3:28–32) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “that's how a wall goes all the way around” (Nehemiah 3:28–32) speak to a question you have been carrying lately?",
+      "zh_title": "在他自己家对面",
+      "zh_poem": "祭司们建造了羊门。\n金匠们建造了一段。\n调香师们建立了一个延伸。\n耶利哥人，\n提科亚人，\n半个区的统治者。\n\n以及这里和那里\n有人修了墙\n就在他自己家对面。\n\n无人重建\n整个城市。\n\n每个人都拿走了一块\n在他面前。\n\n墙就是这样\n一路走来。",
+      "zh_reflectionPrompt": "有时，一句话就能在封闭的房间里打开一扇窗：“围墙就是这样”（尼希米记 3：28-32）如何解答您最近一直在思考的问题？",
+      "zh_epigraph": "“祭司们都在自己房子对面修理。”",
+      "zh_ref": "尼希米记 3:28–32"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#e7dbb4"
       },
       "dailyWalkDay": 362,
-      "reflectionPrompt": "Hold your hands open for a moment before “and his daughters” (Nehemiah 3:12): what are you gripping tightly that loosens when you hear, “their stones are still in the wall”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “and his daughters” (Nehemiah 3:12): what are you gripping tightly that loosens when you hear, “their stones are still in the wall”?",
+      "zh_title": "和他的女儿们",
+      "zh_poem": "一长串清单\n父亲和儿子的，\n\n然后，\n夹在中间，\n\n沙龙，\n他和他的女儿们。\n\n他们的名字没有被透露。\n\n他们的石头\n仍然在墙上。",
+      "zh_reflectionPrompt": "在“和他的女儿们”面前张开你的双手（尼希米记 3:12）：当你听到“他们的石头还在墙上”时，你紧握的是什么松开了？",
+      "zh_epigraph": "“他和他的女儿们进行了修理。”",
+      "zh_ref": "尼希米记 3:12"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#f1d098"
       },
       "dailyWalkDay": 363,
-      "reflectionPrompt": "Scripture remembers this moment in Nehemiah 4:1–3 not to impress us, but to steady us: when have you seen the truth that “let the fox say what he likes” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Nehemiah 4:1–3 not to impress us, but to steady us: when have you seen the truth that “let the fox say what he likes” in your own story?",
+      "zh_title": "如果是一只狐狸",
+      "zh_poem": "这些软弱的犹太人在做什么？\n他们会在一天内完成吗？\n他们会让石头复活吗\n从烧毁的瓦砾中出来？\n\n他的朋友笑了：\n狐狸可以把它撞倒。\n\n他们没有错\n关于石头。\n烧焦、破裂、变小。\n\n他们错了\n关于建设者，\n以及关于“一”\n他们正在建造。\n\n继续建设。\n\n让狐狸\n说他喜欢什么。",
+      "zh_reflectionPrompt": "圣经在尼希米记 4:1-3 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“让狐狸说他爱说什么”的真理？",
+      "zh_epigraph": "“如果狐狸爬上去，他就会推倒他们的石墙。”",
+      "zh_ref": "尼希米记 4:1–3"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#e5d3a5"
       },
       "dailyWalkDay": 364,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “much rubble” (Nehemiah 4:10–15), what one honest sentence would you pray beside the stones of the wall after reading, “and they all went back to the wall, each one to his work”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “much rubble” (Nehemiah 4:10–15), what one honest sentence would you pray beside the stones of the wall after reading, “and they all went back to the wall, each one to his work”?",
+      "zh_title": "很多瓦砾",
+      "zh_poem": "爬到一半时，\n投诉来了。\n\n我们累了。\n瓦砾太多了。\n我们不能这样做。\n\n这是真的。\n半墙\n有很多墙\n还得走。\n\n尼希米没有争辩\n与疲倦。\n\n他设置了手表，\n并说，\n别害怕。\n记念主。\n\n他们都回去了\n到墙上，\n每个人都各司其职。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“多瓦砾”处时（尼希米记4:10-15），读完“他们都回到墙边，各人各做各的工作”之后，你会在墙边的石头旁祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“负重者的力量正在减弱，瓦砾很多”",
+      "zh_ref": "尼希米记 4:10–15"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#d9c9a9"
       },
       "dailyWalkDay": 365,
-      "reflectionPrompt": "Between the opening line (“a trowel in one hand”) and the closing thought (“and the wall still went up”), what is Nehemiah 4:16–18 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“a trowel in one hand”) and the closing thought (“and the wall still went up”), what is Nehemiah 4:16–18 gently reframing in your own day?",
+      "zh_title": "一只手",
+      "zh_poem": "一只手拿着一把抹子。\n对方的武器。\n两边各有一把剑。\n\n建筑物\n并观看\n同时。\n\n你可能知道这样的生活：\n工作和战斗\n同一天，\n在同一两只手中。\n\n没有人得到\n放下工作。\n没有人得到\n停止监视。\n\n和墙\n还是涨了。",
+      "zh_reflectionPrompt": "在开场白（“一只手拿着抹子”）和结束语（“墙仍然高高耸立”）之间，尼希米记 4 章 16-18 节在你那个时代温和地重构了什么？",
+      "zh_epigraph": "“每个人都用一只手完成工作，另一只手拿着武器。”",
+      "zh_ref": "尼希米记 4:16–18"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#e7cea8"
       },
       "dailyWalkDay": 366,
-      "reflectionPrompt": "Along the road of Rise Up and Build, “the trumpet” (Nehemiah 4:19–20) slows us down at the stones of the wall to remind us: “no one on the wall was meant to stand alone.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Rise Up and Build, “the trumpet” (Nehemiah 4:19–20) slows us down at the stones of the wall to remind us: “no one on the wall was meant to stand alone.” Where are you being invited to trade control for trust today?",
+      "zh_title": "喇叭",
+      "zh_poem": "墙很长，\n我们分散开来，\n彼此相距甚远。\n\n所以听喇叭声。\n\n无论它听起来\n跑到那里。\n\n墙上没有人\n是指\n独自站立。",
+      "zh_reflectionPrompt": "沿着奋起建造的道路，“号角”（尼希米记 4：19-20）让我们在城墙的石头处放慢脚步，提醒我们：“城墙上没有人是孤独站立的。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“我们的上帝会为我们而战。”",
+      "zh_ref": "尼希米记 4:19–20"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f6ebcf"
       },
       "dailyWalkDay": 367,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “even today” (Nehemiah 5:1–11), what would you talk about after reading, “the fields, the vineyards, the olive groves, the houses. and they said, we will”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “even today” (Nehemiah 5:1–11), what would you talk about after reading, “the fields, the vineyards, the olive groves, the houses. and they said, we will”?",
+      "zh_title": "即使在今天",
+      "zh_poem": "当墙升起时，\n也有人哭了起来。\n\n用来抵押粮食的田地。\n儿子和女儿\n被束缚\n给他们自己的人。\n\n尼希米非常生气。\n墙有什么好处\n如果在里面\n兄弟卖兄弟？\n\n把它还给我，他说。\n田野、葡萄园、\n橄榄园，房屋。\n即使在今天。\n\n他们说，\n我们会的。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“今天”停下来（尼希米记 5:1-11），那么在读到“田野、葡萄园、橄榄园、房屋。他们说，我们愿意”之后，你会谈论什么？",
+      "zh_epigraph": "“即使在今天，也请恢复它们”",
+      "zh_ref": "尼希米记 5:1–11"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#f1e5c3"
       },
       "dailyWalkDay": 368,
-      "reflectionPrompt": "Pause before the stone pillow at Bethel: what changes in your posture today when you sit with the closing words of “a great work”—“some are only a ladder down”?"
+      "reflectionPrompt": "Pause before the stone pillow at Bethel: what changes in your posture today when you sit with the closing words of “a great work”—“some are only a ladder down”?",
+      "zh_title": "伟大的作品",
+      "zh_poem": "下来，\n他们说。\n让我们在平原相遇吧。\n我们来谈谈吧。\n\n他们有意伤害他。\n\n他们问了四次。\n四次\n他给出了同样的答案：\n\n我正在做一件伟大的工作。\n我不能下来。\n\n不是每一个邀请\n是一扇门。\n\n有些只是\n一个梯子\n下来。",
+      "zh_reflectionPrompt": "在伯特利的石枕前停下来：今天，当你坐下来，以“伟大的工作”结束语——“有些只是梯子下来”时，你的姿势有什么变化？",
+      "zh_epigraph": "“我正在做一件伟大的工作，所以我不能倒下。”",
+      "zh_ref": "尼希米记 6:2–4"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#fad793"
       },
       "dailyWalkDay": 369,
-      "reflectionPrompt": "Look at the stillness of your own two hands in Timothy’s painting: what striving can you lay down as you ponder, “and the neighbors who had laughed lost their nerve, because they could see it as plainly as the stones: this work was done by our God” (Nehemiah 6:15–16)?"
+      "reflectionPrompt": "Look at the stillness of your own two hands in Timothy’s painting: what striving can you lay down as you ponder, “and the neighbors who had laughed lost their nerve, because they could see it as plainly as the stones: this work was done by our God” (Nehemiah 6:15–16)?",
+      "zh_title": "五十二天",
+      "zh_poem": "五十二天。\n\n疲惫的双手，\n烧焦的石头，\n四面八方都是嘲讽者，\n每把抹刀旁边都有一把剑。\n\n五十二天，\n并且没有一处间隙\n留在其中。\n\n和邻居们\n谁笑过\n失去了勇气，\n\n因为他们可以看到它\n就像石头一样简单：\n\n这项工作\n完成了\n由我们的上帝。",
+      "zh_reflectionPrompt": "看看提摩太画中你自己两只手的静止：当你沉思时，你能放下什么努力，“邻里的人都笑了，他们都惊慌了，因为他们看得像石头一样清楚：这工作是我们的神所做的”（尼希米记6：15-16）？",
+      "zh_epigraph": "“这样，城墙就在以禄月二十五日，五十二天内完工了。”",
+      "zh_ref": "尼希米记 6:15–16"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#f9eecc"
       },
       "dailyWalkDay": 370,
-      "reflectionPrompt": "In Nehemiah 8:1–6, the story turns on the stones of the wall—and ends with, “from early morning until midday, men and women and all who could understand, ears open to the God who had brought them home.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Nehemiah 8:1–6, the story turns on the stones of the wall—and ends with, “from early morning until midday, men and women and all who could understand, ears open to the God who had brought them home.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "所有人都站起来",
+      "zh_poem": "墙已经完工了。\n然后所有的人\n聚集在一起\n在水门旁的广场上\n并问以斯拉\n带书来。\n\n他爬上一个木头平台\n为当天而建，\n当他打开它时，\n每个人都站起来。\n\n从清晨开始\n直到中午，\n男人和女人\n以及所有能够理解的人，\n耳朵张开\n向上帝\n谁把他们带回家的。",
+      "zh_reflectionPrompt": "在尼希米记 8 章 1-6 节中，故事以城墙的石头为中心，结尾是：“从清晨到中午，男女和一切能明白的人都竖起耳朵，聆听那领他们回家的上帝。”神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“当他打开门时，所有的人都站了起来。”",
+      "zh_ref": "尼希米记 8:1–6"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#f4e9cf"
       },
       "dailyWalkDay": 371,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Nehemiah 8:7–9 points us to the quiet centerpiece of “gave the sense” and whispers, “it is another to hear it and know it is talking about you.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Nehemiah 8:7–9 points us to the quiet centerpiece of “gave the sense” and whispers, “it is another to hear it and know it is talking about you.” How can you practice that unhurried wisdom today?",
+      "zh_title": "给出了感觉",
+      "zh_poem": "利未人迁徙\n人民之中，\n\n读得很清楚，\n解释一下，\n直到这句话\n有道理。\n\n当他们明白后，\n他们哭了。\n\n这是一回事\n听法律。\n\n这是另一个\n听到它\n并知道\n它正在谈论你。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而《尼希米记》8:7-9 向我们指出了“给予意义”的安静核心，并低语道：“听到它并知道它在谈论你是另一回事。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“他们给出了意义，以便他们理解所读的内容。”",
+      "zh_ref": "尼希米记 8:7–9"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#eadabd"
       },
       "dailyWalkDay": 372,
-      "reflectionPrompt": "The poem closes with a quiet turn: “and maybe more: his gladness, holding you up on the days your own runs out.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “and maybe more: his gladness, holding you up on the days your own runs out.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "你的力量",
+      "zh_poem": "今天别哭。\n今天是神圣的。\n\n回家吧。\n吃丰富的食物。\n喝点甜的东西。\n发送一部分\n给一个\n谁什么都没有准备好。\n\n耶和华的喜乐\n是你的力量。\n\n你对他的喜悦，是的。\n也许还有更多：\n他的喜悦，\n支撑你\n在那些日子里\n你自己的用完了。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“也许还有更多：他的快乐，在你自己的快乐耗尽的日子里支撑着你。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“不要悲伤，因为靠耶和华而喜乐是你的力量。”",
+      "zh_ref": "尼希米记 8:9–12"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#ecdbb5"
       },
       "dailyWalkDay": 373,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “there was very great gladness” (Nehemiah 8:14–17) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “there was very great gladness” (Nehemiah 8:14–17) speak to a question you have been carrying lately?",
+      "zh_title": "屋顶上的摊位",
+      "zh_poem": "第二天\n他们读到有关展位的信息，\n\n所以他们去了山上\n对于橄榄枝，\n桃金娘、棕榈树、\n\n并修建了避难所\n在他们的屋顶上，\n在他们的庭院里，\n在空旷的广场上。\n\n整个城市\n睡在树叶下，\n想起荒野。\n\n没有人这样做过\n自约书亚时代以来。\n\n有\n非常高兴。",
+      "zh_reflectionPrompt": "有时候，一句话可以为一间封闭的房间打开一扇窗：“众人大大喜乐”（尼希米记 8：14-17）如何解答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“非常高兴。”",
+      "zh_ref": "尼希米记 8:14–17"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#e0c8a2"
       },
       "dailyWalkDay": 374,
-      "reflectionPrompt": "Hold your hands open for a moment before “their clothes did not wear out” (Nehemiah 9:16–21): what are you gripping tightly that loosens when you hear, “that's the only reason anyone was left to tell it”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “their clothes did not wear out” (Nehemiah 9:16–21): what are you gripping tightly that loosens when you hear, “that's the only reason anyone was left to tell it”?",
+      "zh_title": "他们的衣服没有破",
+      "zh_poem": "他们站着\n并讲述了整个故事，\n它不是\n讨人喜欢的一个。\n\n脖子僵硬。\n模制小牛\n回头，\n一次又一次。\n\n在每一次失败之间，\n同一条线：\n但你并没有抛弃他们。\n\n在旷野四十年，\n而且他们的衣服没有破，\n他们的脚也没有肿。\n\n准备赦免的上帝。\n这是唯一的原因\n留下任何人来讲述它。",
+      "zh_reflectionPrompt": "在“他们的衣服还没有穿破”（尼希米记 9：16-21）之前，请张开你的双手：当你听到“这是人们留下来讲述这件事的唯一原因”时，你紧握的是什么松开了？",
+      "zh_epigraph": "“他们什么都不缺。衣服不旧，脚不肿。”",
+      "zh_ref": "尼希米记 9:16–21"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#f9e7a1"
       },
       "dailyWalkDay": 375,
-      "reflectionPrompt": "Scripture remembers this moment in Nehemiah 12:31–43 not to impress us, but to steady us: when have you seen the truth that “this time it was joy, and it was heard far away” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Nehemiah 12:31–43 not to impress us, but to steady us: when have you seen the truth that “this time it was joy, and it was heard far away” in your own story?",
+      "zh_title": "远处听见",
+      "zh_poem": "两个伟大的合唱团\n挂在墙上\n并走过它\n在相反的方向，\n表示感谢，\n直到两人都站起来\n在神的殿中。\n\n小号、竖琴、铙钹。\n妇女们。\n孩子们。\n\n几年前，\n在第一个基础上，\n喊叫和哭泣\n无法区分。\n\n这次是喜悦，\n有人听到\n很远。",
+      "zh_reflectionPrompt": "圣经在尼希米记 12:31-43 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“这一次很喜乐，远方都听见”的真理？",
+      "zh_epigraph": "“耶路撒冷的欢乐声，从远处也能听见。”",
+      "zh_ref": "尼希米记 12:31–43"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#f9b487"
       },
       "dailyWalkDay": 376,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “remember me” (Nehemiah 13:7–31), what one honest sentence would you pray beside the stones of the wall after reading, “they're a man asking God, one more time, remember me for good”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “remember me” (Nehemiah 13:7–31), what one honest sentence would you pray beside the stones of the wall after reading, “they're a man asking God, one more time, remember me for good”?",
+      "zh_title": "记得我",
+      "zh_poem": "它没有结束\n与游行。\n\n尼希米回到王那里，\n当他回来时，\n事情已经滑落了：\n给敌人一个房间\n在神的殿中，\n歌手们去了他们的田地，\n安息日的销售就像任何一天一样。\n\n于是他又开始了。\n清空了房间。\n把利未人召回来。\n黄昏时关门。\n\n以及这本书的最后一句话\n与墙无关。\n他们是一个向上帝求问的人，\n再一次，\n永远记住我。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“求你记念我”（尼希米记 13:7-31）时，当你读到“他们是一个恳求上帝的人，请再一次记念我”之后，你会在墙边的石头旁祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“永远记住我，我的上帝。”",
+      "zh_ref": "尼希米记 13:7–31"
     }
-  ]
+  ],
+  "zh_title": "起来建造",
+  "zh_subtitle": "以斯拉记与尼希米记诗画集",
+  "zh_beforeYouBegin": "以斯拉和尼希米以国王的法令和漫长的回家路开始，以完成的墙和人们再次听到他们的故事被大声朗读而结束。其间：一一数出的金碗，为呼喊和哭泣奠定的基础，弯腰阅读卷轴的抄写员，无法掩饰悲伤的侍酒者，沿着断墙夜间骑行，手拿工具的建筑者，以及睡在屋顶树枝下的整座城市。\n\n本书用四十首短诗，分为五个部分，其中两部分是《以斯拉记》，三首是《尼希米记》。每首诗都位于一幅画旁边和一行经文之下。这些图片与故事所涉及的事物保持一致——未切割的石头祭坛、天平、酒杯、墙边的抹子——并将面孔留给你想象。\n\n这些诗不是圣经。它们是一位读者对此的回应。与这本书一起打开《以斯拉记》和《尼希米记》，让真实的话语成为最终的结论。"
 }

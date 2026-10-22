@@ -16,7 +16,10 @@
       "epigraph": "God is light, and in him is no darkness at all.",
       "epigraphRef": "1 John 1:5",
       "lightName": "Light of Walk in the Light",
-      "lightHint": "Near 'what our hands touched' (1 John 1:1) in Part 1: Walk in the Light"
+      "lightHint": "Near 'what our hands touched' (1 John 1:1) in Part 1: Walk in the Light",
+      "zh_title": "在光明中行",
+      "zh_epigraph": "神就是光，在他毫无黑暗。",
+      "zh_epigraphRef": "约翰一书 1:5"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Now, little children, remain in him",
       "epigraphRef": "1 John 2:28",
       "lightName": "Light of Little Children",
-      "lightHint": "Near 'walk as he walked' (1 John 2:4–6) in Part 2: Little Children"
+      "lightHint": "Near 'walk as he walked' (1 John 2:4–6) in Part 2: Little Children",
+      "zh_title": "小子们哪",
+      "zh_epigraph": "小子们哪，你们要住在主里面",
+      "zh_epigraphRef": "约翰一书 2:28"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "See how great a love the Father has given to us",
       "epigraphRef": "1 John 3:1",
       "lightName": "Light of See How Great a Love",
-      "lightHint": "Near 'called children' (1 John 3:1) in Part 3: See How Great a Love"
+      "lightHint": "Near 'called children' (1 John 3:1) in Part 3: See How Great a Love",
+      "zh_title": "你看父赐给我们何等的慈爱",
+      "zh_epigraph": "你看父赐给我们是何等的慈爱，使我们得称为神的儿女",
+      "zh_epigraphRef": "约翰一书 3:1"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "God is love, and he who remains in love remains in God, and God remains in him.",
       "epigraphRef": "1 John 4:16",
       "lightName": "Light of God Is Love",
-      "lightHint": "Near 'love is of God' (1 John 4:7–8) in Part 4: God Is Love"
+      "lightHint": "Near 'love is of God' (1 John 4:7–8) in Part 4: God Is Love",
+      "zh_title": "神就是爱",
+      "zh_epigraph": "神就是爱；住在爱里面的，就是住在神里面，神也住在他里面。",
+      "zh_epigraphRef": "约翰一书 4:16"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "I hope to come to you, and to speak face to face",
       "epigraphRef": "2 John 1:12",
       "lightName": "Light of Face to Face",
-      "lightHint": "Near 'to the chosen lady' (2 John 1:1–3) in Part 5: Face to Face"
+      "lightHint": "Near 'to the chosen lady' (2 John 1:1–3) in Part 5: Face to Face",
+      "zh_title": "当面谈论",
+      "zh_epigraph": "我盼望到你们那里，与你们当面谈论",
+      "zh_epigraphRef": "约翰二书 1:12"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#ead8ae"
       },
       "dailyWalkDay": 1558,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “life had a body. and he was there.” What part of your heart feels most searched or comforted by 1 John 1:1 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “life had a body. and he was there.” What part of your heart feels most searched or comforted by 1 John 1:1 right now?",
+      "zh_title": "亲手摸过的",
+      "zh_poem": "他开篇\n并非一场辩论。\n\n他从自己的双手说起。\n\n我们听见过他。\n我们看见过他。\n我们亲手摸过他。\n\n一位老人，\n回想起倚靠肩头时的分量，\n回想起递饼过来时\n掌心的温热。\n\n无论你心中还有什么疑惑，\n他都要你知道：\n这绝非道听途说。\n\n生命曾有血肉之躯，\n而他当时就在场。",
+      "zh_reflectionPrompt": "在寂静中轻声读出结尾的诗句：“生命曾有血肉之躯，而他当时就在场。”此刻，约翰一书 1:1 最触动或安慰你内心的是哪一部分？",
+      "zh_epigraph": "“论到从起初原有的生命之道，就是我们所听见、所看见、亲眼看过、亲手摸过的”",
+      "zh_ref": "约翰一书 1:1"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#e5cea0"
       },
       "dailyWalkDay": 1559,
-      "reflectionPrompt": "In 1 John 1:3–4, grace meets us right beside the table set before you: how does the closing thought—“his joy isn't finished until you're here”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 1 John 1:3–4, grace meets us right beside the table set before you: how does the closing thought—“his joy isn't finished until you're here”—steady your footing for the road ahead?",
+      "zh_title": "使我们的喜乐充足",
+      "zh_poem": "他提笔写信，\n是为了在席间\n给你留一个座位。\n\n不是一篇训话，\n而是一份邀请。\n\n接着他说了一句\n令人惊讶的话：\n\n我们将这些话写给你们，\n使我们的喜乐\n得以充足。\n\n若没有你同席，\n他的喜乐就不算完满。",
+      "zh_reflectionPrompt": "在约翰一书 1:3–4 中，恩典就在摆在你面前的席位旁与我们相遇：结尾的意念——“若没有你同席，他的喜乐就不算完满”——如何稳固你前行的脚步？",
+      "zh_epigraph": "“我们将所看见、所听见的传给你们，使你们与我们相交。”",
+      "zh_ref": "约翰一书 1:3–4"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#f1d9a1"
       },
       "dailyWalkDay": 1560,
-      "reflectionPrompt": "If today’s painting of “no darkness at all” (1 John 1:5) hung beside the door you walk out of this morning, how would its final line—“and it will be the kindest seeing you have ever known”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “no darkness at all” (1 John 1:5) hung beside the door you walk out of this morning, how would its final line—“and it will be the kindest seeing you have ever known”—shape your choices?",
+      "zh_title": "毫无黑暗",
+      "zh_poem": "不是大体光明，\n也不是光明中\n还藏着几个你不愿查看的暗角。\n\n神就是光，\n在他毫无黑暗。\n\n没有什么是向你隐瞒的，\n也没有阴晴不定的脾气\n需要你小心揣摩。\n\n无论你带什么\n走进那间屋子，\n都会被全然看见。\n\n而那将是你一生所经历过\n最慈怜的看见。",
+      "zh_reflectionPrompt": "如果今天这幅《毫无黑暗》（约翰一书 1:5）就挂在你清晨出门的门旁，它最后那句“而那将是你一生所经历过最慈怜的看见”会如何塑造你今日的抉择？",
+      "zh_epigraph": "“神就是光，在他毫无黑暗。这是我们从主所听见、又报给你们的信息。”",
+      "zh_ref": "约翰一书 1:5"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#f7ca95"
       },
       "dailyWalkDay": 1561,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 John 1:7)—where in your own home or work today does “we see each other clearly, scars and all, and keep walking side by side” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 John 1:7)—where in your own home or work today does “we see each other clearly, scars and all, and keep walking side by side” ring true?",
+      "zh_title": "在光明中同行",
+      "zh_poem": "你或许以为，\n在光明中行\n就是独自走路，\n\n各人提着各人的灯，\n守着自己那份无瑕的记录。\n\n但他说，\n光所做的却不止于此。\n\n光把我们带到\n同一条路上。\n\n我们清清楚楚地看见彼此，\n连同全身的伤痕，\n\n依然并肩\n往前走。",
+      "zh_reflectionPrompt": "天路同行的每一站，都显明神如何在平凡之处与我们相遇（约翰一书 1:7）——今天在你的家中或工作里，哪一处让你真切感受到“我们清清楚楚地看见彼此，连同全身的伤痕，依然并肩往前走”？",
+      "zh_epigraph": "“我们若在光明中行，如同神在光明中，就彼此相交”",
+      "zh_ref": "约翰一书 1:7"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#ebe0c2"
       },
       "dailyWalkDay": 1562,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “it is someone faithful, someone fair, already reaching for the water.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “it is someone faithful, someone fair, already reaching for the water.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "我们若认自己的罪",
+      "zh_poem": "假装无事是令人疲惫的。\n\n嘴上说着：\n我很好，\n我很洁净，\n这里什么问题也没有。\n\n认罪，\n就是把背上的行囊放下来。\n\n而在另一边迎着你的，\n并不是紧锁的眉头，\n\n乃是那位信实、\n公义的主，\n\n早已伸手\n取水为你洗净。",
+      "zh_reflectionPrompt": "缓缓深吸一口气，再读一遍最后那句话：“乃是那位信实、公义的主，早已伸手取水为你洗净。”如果带着这份真实走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“我们若认自己的罪，神是信实的，是公义的，必要赦免我们的罪”",
+      "zh_ref": "约翰一书 1:8–9"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#edddb7"
       },
       "dailyWalkDay": 1563,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “my little children, don't sin.” Looking through the lens of 1 John 2:1–2, what does it mean to discover that “it goes out the door, down the road, past the last village you can see. the whole world”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “my little children, don't sin.” Looking through the lens of 1 John 2:1–2, what does it mean to discover that “it goes out the door, down the road, past the last village you can see. the whole world”?",
+      "zh_title": "为普天下人的罪",
+      "zh_poem": "我小子们哪，\n不要犯罪。\n\n但若有人犯罪，\n\n有一位在父那里\n替你站出来说话。\n\n而他的怜悯，\n并非一间只留给少数完人的\n窄小房间。\n\n它走出门外，\n顺着长路延伸，\n越过你目力所及的\n最后一个村庄。\n\n直到普天下。",
+      "zh_reflectionPrompt": "回想你生命中曾体会过“我小子们哪，不要犯罪”的某个时节。借着约翰一书 2:1–2 的亮光，当你发现“它走出门外，顺着长路延伸，越过你目力所及的最后一个村庄。直到普天下”时，那对你意味着什么？",
+      "zh_epigraph": "“他为我们的罪作了挽回祭，不是单为我们的罪，也是为普天下人的罪。”",
+      "zh_ref": "约翰一书 2:1–2"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#f3e8be"
       },
       "dailyWalkDay": 1564,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “walk as he walked” in this painting (1 John 2:4–6)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “walk as he walked” in this painting (1 John 2:4–6)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "照主所行的去行",
+      "zh_poem": "说一句“我认识他”\n很容易。\n\n言语不费分毫。\n\n但真正认识一个人，\n会改变你走路的方式：\n\n他走过的道路，\n他停下脚步去顾念的人，\n他为了走得慢的人\n所放缓的步伐。\n\n你无需用嘴唇去证明，\n\n你用双脚\n去印证。",
+      "zh_reflectionPrompt": "凝视这幅画中《照主所行的去行》安静的画面中心（约翰一书 2:4–6）——如果今天你可以把一件焦虑的重担留在它旁边，你会放下什么？",
+      "zh_epigraph": "“人若说他住在主里面，就该自己照主所行的去行。”",
+      "zh_ref": "约翰一书 2:4–6"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#fbc99a"
       },
       "dailyWalkDay": 1565,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “already shines”: what quiet prayer rises in you when you read, “the true light already shines”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “already shines”: what quiet prayer rises in you when you read, “the true light already shines”?",
+      "zh_title": "真光已经照耀",
+      "zh_poem": "一条旧命令：\n你们要彼此相爱。\n\n一条新命令：\n你们要彼此相爱。\n\n它既旧又新，\n正如日出，\n是世上最古老的事，\n却又日日如新。\n\n黑夜尚未完全退去，\n\n但它正在消散。\n\n向东望去吧，\n真光\n已经照耀。",
+      "zh_reflectionPrompt": "让目光停留在《真光已经照耀》安静的笔触与光影之间：当你读到“真光已经照耀”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“因为黑暗渐渐过去，真光已经照耀。”",
+      "zh_ref": "约翰一书 2:7–8"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#f3cf90"
       },
       "dailyWalkDay": 1566,
-      "reflectionPrompt": "Linger with the movement in “nothing to trip on” (1 John 2:9–11) from “hate is walking a dark stairway you think you know” to “but you'll see the edge and the next one, and the one after that”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “nothing to trip on” (1 John 2:9–11) from “hate is walking a dark stairway you think you know” to “but you'll see the edge and the next one, and the one after that”—where do you find yourself along that arc today?",
+      "zh_title": "并没有绊跌的缘由",
+      "zh_poem": "怀恨，\n就像在黑暗中走一段\n自以为熟悉的台阶。\n\n其实你并不熟悉。\n你一脚踏空，\n甚至不知道\n自己正往哪里去。\n\n爱，\n则是石阶上的一盏灯。\n\n它不会替你走路，\n却能让你看清这一级的边缘，\n\n看清下一级，\n再看清更下一级。",
+      "zh_reflectionPrompt": "细细体会《并没有绊跌的缘由》（约翰一书 2:9–11）从“怀恨，就像在黑暗中走一段自以为熟悉的台阶”到“却能让你看清这一级的边缘，看清下一级，再看清更下一级”的流转——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“爱弟兄的，就是住在光明中，在他并没有绊跌的缘由。”",
+      "zh_ref": "约翰一书 2:9–11"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#f0dfc3"
       },
       "dailyWalkDay": 1567,
-      "reflectionPrompt": "Notice how “to every age” (1 John 2:12–14) arrives at: “he wrote to each of them where they were, by season, as if to say there's no stage of life the letter isn't addressed to.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “to every age” (1 John 2:12–14) arrives at: “he wrote to each of them where they were, by season, as if to say there's no stage of life the letter isn't addressed to.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "写给每一个年纪",
+      "zh_poem": "小子们哪，\n你们的罪得了赦免。\n\n少年人哪，\n你们是刚强的，\n神的道常存在你们心里。\n\n父老啊，\n你们认识那从起初原有的\n已经多时了。\n\n他按着他们生命的不同时节，\n向各人所在之处写信，\n\n仿佛在说：\n人生没有任何一个阶段，\n不在神这封信的\n收信人之中。",
+      "zh_reflectionPrompt": "留意《写给每一个年纪》（约翰一书 2:12–14）最终停留在：“他按着他们生命的不同时节，向各人所在之处写信，仿佛在说：人生没有任何一个阶段，不在神这封信的收信人之中。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“小子们哪，我写信给你们，因为你们的罪借着主名得了赦免。”",
+      "zh_ref": "约翰一书 2:12–14"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#f2e0b2"
       },
       "dailyWalkDay": 1568,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 John 2:15–17: “but the one who does the will of God, like the old olive in the middle of the square, stays”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 John 2:15–17: “but the one who does the will of God, like the old olive in the middle of the square, stays”?",
+      "zh_title": "这世界都要过去",
+      "zh_poem": "黄昏时分，\n集市的摊位纷纷收起。\n\n绸缎放回箱匣，\n人群各自归家，\n明日价码又会改换。\n\n一切耀眼夺目的事物，\n都已在退场的路上。\n\n惟独那遵行神旨意的人，\n\n如同广场中央\n那棵古老的橄榄树，\n\n永远常存。",
+      "zh_reflectionPrompt": "如果在今晚入睡之前，你最当铭记的一件事，正是约翰一书 2:15–17 那安静的教导：“惟独那遵行神旨意的人，如同广场中央那棵古老的橄榄树，永远常存”，你的心会如何安息？",
+      "zh_epigraph": "“这世界和其上的情欲都要过去，惟独遵行神旨意的，是永远常存。”",
+      "zh_ref": "约翰一书 2:15–17"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#f7efde"
       },
       "dailyWalkDay": 1569,
-      "reflectionPrompt": "Imagine standing inside this frame beside the still, unhurried voice: what hurry or noise in your week begins to fade when you hear, “what you heard from the beginning is still in you, like oil soaked into the grain of the wood. it doesn't wash out”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the still, unhurried voice: what hurry or noise in your week begins to fade when you hear, “what you heard from the beginning is still in you, like oil soaked into the grain of the wood. it doesn't wash out”?",
+      "zh_title": "恩膏常存在你们心里",
+      "zh_poem": "总会有各种声音\n对你说，\n你还漏掉了什么：\n\n某个奥秘，\n某个更高明的版本，\n或是一位更新奇的耶稣。\n\n但你并非\n两手空空。\n\n那从起初所听见的道\n仍住在你里面，\n\n如同膏油\n深深沁入木头的纹理，\n\n永不褪去。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在那安静从容的声音旁：当你听见“那从起初所听见的道仍住在你里面，如同膏油深深沁入木头的纹理，永不褪去”时，这周的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“你们从主所受的恩膏常存在你们心里”",
+      "zh_ref": "约翰一书 2:20–27"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#eab166"
       },
       "dailyWalkDay": 1570,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “so that when he comes up the path, you're not scrambling for the key. you're already home.” What part of your heart feels most searched or comforted by 1 John 2:28 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “so that when he comes up the path, you're not scrambling for the key. you're already home.” What part of your heart feels most searched or comforted by 1 John 2:28 right now?",
+      "zh_title": "住在主里面",
+      "zh_poem": "住在主里面。\n\n不是偶尔造访，\n也不是遇难时\n才匆匆投靠。\n\n乃是住下来，\n解开行囊，\n叫灯常燃。\n\n好叫他顺着小径\n走来的时候，\n\n你不必慌乱地\n摸索钥匙——\n\n你早就在家中了。",
+      "zh_reflectionPrompt": "在寂静中轻声读出结尾的诗句：“好叫他顺着小径走来的时候，你不必慌乱地摸索钥匙——你早就在家中了。”此刻，约翰一书 2:28 最触动或安慰你内心的是哪一部分？",
+      "zh_epigraph": "“小子们哪，你们要住在主里面。这样，他若显现，我们就可以坦然无惧”",
+      "zh_ref": "约翰一书 2:28"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#e9debd"
       },
       "dailyWalkDay": 1571,
-      "reflectionPrompt": "In 1 John 3:1, grace meets us right beside the quiet centerpiece of “called children”: how does the closing thought—“and then, as if he knew you'd shrug it off as a figure of speech, he adds: and we are”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 1 John 3:1, grace meets us right beside the quiet centerpiece of “called children”: how does the closing thought—“and then, as if he knew you'd shrug it off as a figure of speech, he adds: and we are”—steady your footing for the road ahead?",
+      "zh_title": "得称为神的儿女",
+      "zh_poem": "你看。\n\n他停下笔来，\n只为说出这一句：\n\n你看父赐给我们是何等的慈爱，\n\n使我们得称为\n神的儿女！\n\n接着，\n仿佛早知你会以为\n那不过是一句比喻，\n\n他又补上一句：\n\n我们也真是他的儿女。",
+      "zh_reflectionPrompt": "在约翰一书 3:1 中，恩典就在《得称为神的儿女》安静的画面中心与我们相遇：结尾的意念——“接着，仿佛早知你会以为那不过是一句比喻，他又补上一句：我们也真是他的儿女”——如何稳固你前行的脚步？",
+      "zh_epigraph": "“使我们得称为神的儿女；我们也真是他的儿女。”",
+      "zh_ref": "约翰一书 3:1"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#e4d8b5"
       },
       "dailyWalkDay": 1572,
-      "reflectionPrompt": "If today’s painting of “not yet” (1 John 3:2–3) hung beside the door you walk out of this morning, how would its final line—“and seeing him, we will be like him”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “not yet” (1 John 3:2–3) hung beside the door you walk out of this morning, how would its final line—“and seeing him, we will be like him”—shape your choices?",
+      "zh_title": "还未显明",
+      "zh_poem": "你尚未完工。\n\n还没有人能看出\n你将来会是什么模样，\n\n连你自己也看不出。\n\n但有一件事已经确定：\n主若显现，\n我们必得见他的真体；\n\n在看见他的那一刻，\n我们必要\n像他。",
+      "zh_reflectionPrompt": "如果今天这幅《还未显明》（约翰一书 3:2–3）就挂在你清晨出门的门旁，它最后那句“在看见他的那一刻，我们必要像他”会如何塑造你今日的抉择？",
+      "zh_epigraph": "“将来如何，还未显明；但我们知道，主若显现，我们必要像他”",
+      "zh_ref": "约翰一书 3:2–3"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#fbf4df"
       },
       "dailyWalkDay": 1573,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 John 3:11–14)—where in your own home or work today does “death behind you. life ahead” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 John 3:11–14)—where in your own home or work today does “death behind you. life ahead” ring true?",
+      "zh_title": "出死入生",
+      "zh_poem": "世上最古老的那对兄弟的故事，\n结局何等凄凉。\n\n该隐看着亚伯，\n容不下他里面的良善。\n\n但我们从起初所听见的信息，\n却截然相反：\n\n我们应当彼此相爱。\n\n当你去爱的时候，\n你便晓得\n自己已经渡过了那道深渊：\n\n死亡留在身后，\n生命就在前头。",
+      "zh_reflectionPrompt": "天路同行的每一站，都显明神如何在平凡之处与我们相遇（约翰一书 3:11–14）——今天在你的家中或工作里，哪一处让你真切感受到“死亡留在身后，生命就在前头”？",
+      "zh_epigraph": "“我们因为爱弟兄，就晓得是已经出死入生了。”",
+      "zh_ref": "约翰一书 3:11–14"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#f7f6eb"
       },
       "dailyWalkDay": 1574,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “and then John says, quietly: we can do that too.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “and then John says, quietly: we can do that too.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "为我们舍命",
+      "zh_poem": "若你想知道\n何为爱，\n不必去翻检辞书。\n\n只需仰望他。\n\n他将生命舍下，\n就像你脱下外衣，\n披在受冻的人肩上。\n\n不是被人夺去，\n乃是甘心舍下。\n\n接着，约翰轻声说：\n\n我们也当这样\n为弟兄舍命。",
+      "zh_reflectionPrompt": "缓缓深吸一口气，再读一遍最后那句话：“接着，约翰轻声说：我们也当这样为弟兄舍命。”如果带着这份真实走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“主为我们舍命，我们从此就知道何为爱”",
+      "zh_ref": "约翰一书 3:16"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#f3db9e"
       },
       "dailyWalkDay": 1575,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “it doesn't take much.” Looking through the lens of 1 John 3:17, what does it mean to discover that “but that's where the love of God comes in”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “it doesn't take much.” Looking through the lens of 1 John 3:17, what does it mean to discover that “but that's where the love of God comes in”?",
+      "zh_title": "塞住怜恤的心",
+      "zh_poem": "那并不需要多大的恶意。\n\n你看见他穷乏，\n你手中有余，\n可你里面有什么东西\n悄然关上了。\n\n没有争吵，\n也没有残忍，\n只是一扇门\n静静地合上。\n\n所以，把门敞开吧。\n\n放在台阶上的一块饼，\n只是一桩小事；\n\n但神的爱，\n正是由此进来的。",
+      "zh_reflectionPrompt": "回想你生命中曾体会过“那并不需要多大的恶意”的某个时节。借着约翰一书 3:17 的亮光，当你发现“但神的爱，正是由此进来的”时，那对你意味着什么？",
+      "zh_epigraph": "“看见弟兄穷乏，却塞住怜恤的心，爱神的心怎能存在他里面呢？”",
+      "zh_ref": "约翰一书 3:17"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#ebe0c9"
       },
       "dailyWalkDay": 1576,
-      "reflectionPrompt": "Look closely at the daily loaf broken in the hand in this painting (1 John 3:18)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the daily loaf broken in the hand in this painting (1 John 3:18)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "在行为和诚实上",
+      "zh_poem": "要用言语说出来，\n是的。\n\n然后，\n动手去揉面做饼吧。",
+      "zh_reflectionPrompt": "凝视这幅画中手中擘开的日用饮食（约翰一书 3:18）——如果今天你可以把一件焦虑的重担留在它旁边，你会放下什么？",
+      "zh_epigraph": "“我们相爱，不要只在言语和舌头上，总要在行为和诚实上。”",
+      "zh_ref": "约翰一书 3:18"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#c3a47d"
       },
       "dailyWalkDay": 1577,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “greater than our heart”: what quiet prayer rises in you when you read, “he knows everything your heart knows, and more, and he is still here”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “greater than our heart”: what quiet prayer rises in you when you read, “he knows everything your heart knows, and more, and he is still here”?",
+      "zh_title": "神比我们的心大",
+      "zh_poem": "有些夜晚，\n你的心像一位\n永不退庭的法官。\n\n它一条条数算过失，\n对你说：\n你本该做得更好。\n\n约翰没有与它争辩，\n他只是说：\n神比我们的心大。\n\n你心里知道的一切，\n他都知道，\n甚至知道得更多——\n\n而他依然在这里。",
+      "zh_reflectionPrompt": "让目光停留在《神比我们的心大》安静的笔触与光影之间：当你读到“你心里知道的一切，他都知道，甚至知道得更多——而他依然在这里”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“我们的心若责备我们，神比我们的心大，一切事没有不知道的。”",
+      "zh_ref": "约翰一书 3:19–20"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#f2c674"
       },
       "dailyWalkDay": 1578,
-      "reflectionPrompt": "Linger with the movement in “greater is he” (1 John 4:1–4) from “there are many voices, he says” to “the dark is wide. and the lamp is winning”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “greater is he” (1 John 4:1–4) from “there are many voices, he says” to “the dark is wide. and the lamp is winning”—where do you find yourself along that arc today?",
+      "zh_title": "那在你们里面的更大",
+      "zh_poem": "他说，\n世上有许多声音，\n你们总要试验。\n\n那声音是否认耶稣基督\n是成了肉身来的？\n若是，便可倾听。\n\n也不要害怕\n别的声音有多么喧嚣。\n\n屋子虽大，\n黑夜虽广，\n\n灯火虽小，\n\n但得胜的，\n却是这盏灯。",
+      "zh_reflectionPrompt": "细细体会《那在你们里面的更大》（约翰一书 4:1–4）从“他说，世上有许多声音”到“黑夜虽广……但得胜的，却是这盏灯”的流转——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“因为那在你们里面的，比那在世界上的更大。”",
+      "zh_ref": "约翰一书 4:1–4"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#efdfba"
       },
       "dailyWalkDay": 1579,
-      "reflectionPrompt": "Notice how “love is of God” (1 John 4:7–8) arrives at: “but whoever loves, has tasted the water.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “love is of God” (1 John 4:7–8) arrives at: “but whoever loves, has tasted the water.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "爱是从神来的",
+      "zh_poem": "我们应当彼此相爱，\n因为爱是从神来的。\n\n爱并非起源于\n我们自己。\n\n临到你生命的\n每一份恩慈，\n\n都涌自\n同一口深井。\n\n你尽可以懂得许多\n关于神的道理，\n却仍不认识他；\n\n惟有那去爱的人，\n\n才是真正尝过了\n那井中的活水。",
+      "zh_reflectionPrompt": "留意《爱是从神来的》（约翰一书 4:7–8）最终停留在：“惟有那去爱的人，才是真正尝过了那井中的活水。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“没有爱心的，就不认识神，因为神就是爱。”",
+      "zh_ref": "约翰一书 4:7–8"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#fff5b1"
       },
       "dailyWalkDay": 1580,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 John 4:9–10: “that's how you know it's love: it went first”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 John 4:9–10: “that's how you know it's love: it went first”?",
+      "zh_title": "不是我们爱神",
+      "zh_poem": "并非我们先去寻访，\n\n也并非我们\n一步步攀到了\n天门之前。\n\n是天门亲自\n来到了我们身旁。\n\n当我们还在转脸不看他的时候，\n他就差遣了自己的儿子。\n\n由此你便认出\n什么是真爱：\n\n它总是先迈出第一步。",
+      "zh_reflectionPrompt": "如果在今晚入睡之前，你最当铭记的一件事，正是约翰一书 4:9–10 那安静的教导：“由此你便认出什么是真爱：它总是先迈出第一步”，你的心会如何安息？",
+      "zh_epigraph": "“不是我们爱神，乃是神爱我们，差他的儿子为我们的罪作了挽回祭，这就是爱了。”",
+      "zh_ref": "约翰一书 4:9–10"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#c48838"
       },
       "dailyWalkDay": 1581,
-      "reflectionPrompt": "Imagine standing inside this frame beside the table set before you: what hurry or noise in your week begins to fade when you hear, “when we love one another, he stays with us, and the unseen God is almost in plain sight”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the table set before you: what hurry or noise in your week begins to fade when you hear, “when we love one another, he stays with us, and the unseen God is almost in plain sight”?",
+      "zh_title": "从来没有人见过神",
+      "zh_poem": "从来没有人见过神。\n\n一次也没有，\n从未全然见过。\n\n然而——\n\n餐桌上递过去的一只碗，\n\n落在疲惫肩头的一只手。\n\n当我们彼此相爱，\n神就住在我们里面，\n\n那位看不见的神，\n便仿佛近在眼前、\n清晰可见。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在摆在你面前的餐桌旁：当你听见“当我们彼此相爱，神就住在我们里面，那位看不见的神，便仿佛近在眼前、清晰可见”时，这周的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“从来没有人见过神，我们若彼此相爱，神就住在我们里面”",
+      "zh_ref": "约翰一书 4:12"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f6e9d1"
       },
       "dailyWalkDay": 1582,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and you can't be afraid of that and held by it at the same time.” What part of your heart feels most searched or comforted by 1 John 4:17–18 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and you can't be afraid of that and held by it at the same time.” What part of your heart feels most searched or comforted by 1 John 4:17–18 right now?",
+      "zh_title": "爱里没有惧怕",
+      "zh_poem": "惧怕，\n总是把窗扉紧闭。\n\n它提心吊胆地等着敲门声，\n一遍遍排练着\n该如何辩白。\n\n爱却推开窗扉。\n\n不是因为外面\n毫无风浪，\n\n乃是因为那正走近你的，\n就是那位\n深爱你的主。\n\n你不可能在被这爱怀抱的同时，\n还对它心怀恐惧。",
+      "zh_reflectionPrompt": "在寂静中轻声读出结尾的诗句：“你不可能在被这爱怀抱的同时，还对它心怀恐惧。”此刻，约翰一书 4:17–18 最触动或安慰你内心的是哪一部分？",
+      "zh_epigraph": "“爱里没有惧怕；爱既完全，就把惧怕除去。”",
+      "zh_ref": "约翰一书 4:17–18"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#f1e4d2"
       },
       "dailyWalkDay": 1583,
-      "reflectionPrompt": "In 1 John 4:19, grace meets us right beside the quiet centerpiece of “first”: how does the closing thought—“his came first. ours is the answer”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 1 John 4:19, grace meets us right beside the quiet centerpiece of “first”: how does the closing thought—“his came first. ours is the answer”—steady your footing for the road ahead?",
+      "zh_title": "他先爱我们",
+      "zh_poem": "杏花总在绿叶长出之前\n率先绽放。\n\n爱也是如此。\n\n他的爱先临到，\n我们的爱只是回应。",
+      "zh_reflectionPrompt": "在约翰一书 4:19 中，恩典就在《他先爱我们》安静的画面中心与我们相遇：结尾的意念——“他的爱先临到，我们的爱只是回应”——如何稳固你前行的脚步？",
+      "zh_epigraph": "“我们爱，因为神先爱我们。”",
+      "zh_ref": "约翰一书 4:19"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#ebd1a2"
       },
       "dailyWalkDay": 1584,
-      "reflectionPrompt": "If today’s painting of “the brother you have seen” (1 John 4:20–21) hung beside the door you walk out of this morning, how would its final line—“the one you can see is the test for the one you can't”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the brother you have seen” (1 John 4:20–21) hung beside the door you walk out of this morning, how would its final line—“the one you can see is the test for the one you can't”—shape your choices?",
+      "zh_title": "所看见的弟兄",
+      "zh_poem": "爱神，\n往往比爱邻舍容易。\n\n神吃饭不会太吵，\n神也从未借走你的工具不还。\n\n但约翰却不肯放过这一层：\n\n那看得见的弟兄，\n正是试验你是否爱那看不见之神的\n试金石。",
+      "zh_reflectionPrompt": "如果今天这幅《所看见的弟兄》（约翰一书 4:20–21）就挂在你清晨出门的门旁，它最后那句“那看得见的弟兄，正是试验你是否爱那看不见之神的试金石”会如何塑造你今日的抉择？",
+      "zh_epigraph": "“不爱他所看见的弟兄，就不能爱没有看见的神。”",
+      "zh_ref": "约翰一书 4:20–21"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f2c983"
       },
       "dailyWalkDay": 1585,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 John 5:13–21)—where in your own home or work today does “and then, like a father at the door, one last thing: little children, don't let anything take his place” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 John 5:13–21)—where in your own home or work today does “and then, like a father at the door, one last thing: little children, don't let anything take his place” ring true?",
+      "zh_title": "远避偶像",
+      "zh_poem": "他把这一切都写下来，\n要叫你们知道。\n\n不是侥幸盼望，\n不是模棱猜测，\n乃是确知：\n\n人有了神的儿子，\n就有生命。\n\n然后，\n像一位父亲\n站在门口，\n\n留下最后一句叮咛：\n\n小子们哪，\n不要让任何事物\n取代他的位置。",
+      "zh_reflectionPrompt": "天路同行的每一站，都显明神如何在平凡之处与我们相遇（约翰一书 5:13–21）——今天在你的家中或工作里，哪一处让你真切感受到“然后，像一位父亲站在门口，留下最后一句叮咛：小子们哪，不要让任何事物取代他的位置”？",
+      "zh_epigraph": "“小子们哪，你们要自守，远避偶像！”",
+      "zh_ref": "约翰一书 5:13–21"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#fdf7eb"
       },
       "dailyWalkDay": 1586,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “but he says grace, mercy, peace, and he says them as a promise, not a wish: they will be with us.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “but he says grace, mercy, peace, and he says them as a promise, not a wish: they will be with us.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "写给蒙拣选的太太",
+      "zh_poem": "作长老的，\n写信给蒙拣选的太太\n和她的儿女。\n\n一封简短的信，\n或许是写给一处家庭教会，\n或是一户人家。\n\n他着墨不多，\n\n却说出了\n恩惠、\n怜悯、\n平安——\n\n而且不是当作一句祝愿，\n乃是当作笃定的应许：\n\n必常与我们同在。",
+      "zh_reflectionPrompt": "缓缓深吸一口气，再读一遍最后那句话：“却说出了恩惠、怜悯、平安——而且不是当作一句祝愿，乃是当作笃定的应许：必常与我们同在。”如果带着这份真实走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“恩惠、怜悯、平安从父神和他儿子耶稣基督，在真理和爱心上必常与我们同在！”",
+      "zh_ref": "约翰二书 1:1–3"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#e8d8b4"
       },
       "dailyWalkDay": 1587,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “he heard about them.” Looking through the lens of 2 John 1:4–6, what does it mean to discover that “just the path you've always known, walked one more day”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “he heard about them.” Looking through the lens of 2 John 1:4–6, what does it mean to discover that “just the path you've always known, walked one more day”?",
+      "zh_title": "遵行真理",
+      "zh_poem": "他听见了他们的消息：\n她的儿女中，\n有人正遵行真理。\n\n这叫老人满心欢喜。\n\n接着，他又一次重提\n那最古老的劝勉：\n\n我们应当彼此相爱。\n\n并非什么新奇的事，\n只是那条你早已熟知的道路，\n\n今天\n再踏实地走上一天。",
+      "zh_reflectionPrompt": "回想你生命中曾体会过“他听见了他们的消息”的某个时节。借着约翰二书 1:4–6 的亮光，当你发现“只是那条你早已熟知的道路，今天再踏实地走上一天”时，那对你意味着什么？",
+      "zh_epigraph": "“我见你的儿女，有照我们从父所受之命令遵行真理的，就甚欢喜。”",
+      "zh_ref": "约翰二书 1:4–6"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#e3d2b2"
       },
       "dailyWalkDay": 1588,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “remain in the teaching” in this painting (2 John 1:7–9)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “remain in the teaching” in this painting (2 John 1:7–9)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "常守这教训",
+      "zh_poem": "有人自称走得更远，\n越过了基督的教训，\n\n越过了道成肉身的\n骨与血，\n\n去了更深奥的地方。\n\n但离弃了正路，\n路并不会越走越好。\n\n留在那些被前人踏平的石阶上吧。\n\n父在那里，\n子也在那里，\n\n你无需比那走得更远。",
+      "zh_reflectionPrompt": "凝视这幅画中《常守这教训》安静的画面中心（约翰二书 1:7–9）——如果今天你可以把一件焦虑的重担留在它旁边，你会放下什么？",
+      "zh_epigraph": "“常守这教训的，就有父又有子。”",
+      "zh_ref": "约翰二书 1:7–9"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#ede2d0"
       },
       "dailyWalkDay": 1589,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the table set before you: what quiet prayer rises in you when you read, “he would rather pick up his cloak”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the table set before you: what quiet prayer rises in you when you read, “he would rather pick up his cloak”?",
+      "zh_title": "纸与墨",
+      "zh_poem": "他心中还有许多事\n可以写下。\n\n他却放下了笔。\n\n有些话，\n是纸墨盛不下的；\n\n它们需要一间屋子、\n一张桌子、\n和面对面的目光。\n\n他宁可起身，\n披上外衣上路。",
+      "zh_reflectionPrompt": "让目光停留在摆在你面前的餐桌与光影之间：当你读到“他宁可起身，披上外衣上路”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“我还有许多事要写给你们，却不愿意用纸墨写出来”",
+      "zh_ref": "约翰二书 1:12–13"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#faeedc"
       },
       "dailyWalkDay": 1590,
-      "reflectionPrompt": "Linger with the movement in “as your soul prospers” (3 John 1:1–2) from “dear Gaius, i hope you're well” to “and there it is, in the Bible, telling you God cares about that too”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “as your soul prospers” (3 John 1:1–2) from “dear Gaius, i hope you're well” to “and there it is, in the Bible, telling you God cares about that too”—where do you find yourself along that arc today?",
+      "zh_title": "正如你的灵魂兴盛",
+      "zh_poem": "亲爱的该犹：\n\n愿你平安康泰，\n愿你的身体健壮，\n跟得上\n你兴盛的灵魂。\n\n多么朴素的一句祝祷，\n\n就像你会写给\n任何一个所爱之人的家常话。\n\n而它竟被收在圣经里，\n\n告诉你：\n神也同样挂念你的日常。",
+      "zh_reflectionPrompt": "细细体会《正如你的灵魂兴盛》（约翰三书 1:1–2）从“亲爱的该犹：愿你平安康泰”到“而它竟被收在圣经里，告诉你：神也同样挂念你的日常”的流转——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“我愿你凡事兴盛，身体健壮，正如你的灵魂兴盛一样。”",
+      "zh_ref": "约翰三书 1:1–2"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#ecce99"
       },
       "dailyWalkDay": 1591,
-      "reflectionPrompt": "Notice how “no greater joy” (3 John 1:3–4) arrives at: “there is no greater joy than that.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “no greater joy” (3 John 1:3–4) arrives at: “there is no greater joy than that.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "没有比这个大的喜乐",
+      "zh_poem": "不是宏大的殿堂，\n也不是显赫的名声，\n\n只是行路人带来的\n一则口信：\n\n他们仍在真理中同行。\n\n一位老人在灯下\n读着这消息。\n\n他的喜乐，\n没有比这个更大的了。",
+      "zh_reflectionPrompt": "留意《没有比这个大的喜乐》（约翰三书 1:3–4）最终停留在：“他的喜乐，没有比这个更大的了。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“我听见我的儿女们按真理而行，我的喜乐就没有比这个大的。”",
+      "zh_ref": "约翰三书 1:3–4"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#f5d59a"
       },
       "dailyWalkDay": 1592,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 3 John 1:5–11: “two gates. leave the gate open.84”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 3 John 1:5–11: “two gates. leave the gate open.84”?",
+      "zh_title": "门前的客旅",
+      "zh_poem": "该犹敞开了家门。\n\n那些素未谋面的行路人，\n为主的名外出，\n分文不取。\n\n他接待他们，\n妥善送他们前行。\n\n在同一处教会里，\n丢特腓却不肯接待他们，\n他好作头领。\n\n两座房屋，\n两扇院门。\n\n约翰说：\n不要效法恶，只要效法善。\n\n把门敞开吧。",
+      "zh_reflectionPrompt": "如果在今晚入睡之前，你最当铭记的一件事，正是约翰三书 1:5–11 那安静的教导：“两扇院门……把门敞开吧”，你的心会如何回应？",
+      "zh_epigraph": "“凡你向作客旅之弟兄所行的，都是忠心的。”",
+      "zh_ref": "约翰三书 1:5–11"
     },
     {
       "n": 36,
@@ -814,7 +1004,15 @@
         "accent": "#f7ce94"
       },
       "dailyWalkDay": 1593,
-      "reflectionPrompt": "Imagine standing inside this frame beside the name by which He calls you: what hurry or noise in your week begins to fade when you hear, “the way love always comes to you: face to face, and calling you by your name.86”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the name by which He calls you: what hurry or noise in your week begins to fade when you hear, “the way love always comes to you: face to face, and calling you by your name.86”?",
+      "zh_title": "按着名字",
+      "zh_poem": "愿你平安。\n\n众朋友都问你安。\n\n他写道：\n请你替我问他们安，\n\n按着姓名。\n\n不是笼统地问候教会，\n也不是泛泛地问候众人，\n\n乃是一个一个地提名。\n\n这几封书信正是如此作结，\n\n也正如爱每次临到你时的模样：\n\n面对面，\n按着你的名字\n呼唤你。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在他呼唤你名字的光影旁：当你听见“也正如爱每次临到你时的模样：面对面，按着你的名字呼唤你”时，这周的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“请你替我按着姓名问众朋友安。”",
+      "zh_ref": "约翰三书 1:13–14"
     }
-  ]
+  ],
+  "zh_title": "小子们哪",
+  "zh_subtitle": "约翰书信诗画集",
+  "zh_beforeYouBegin": "约翰的书信，是一位老人写给他称为“小子们”的读者的。信的开篇是亲手摸过的生命之道，以及一盏毫无黑暗的明灯；整卷书信反复回到同样几件事上：在光明中行，彼此相爱，常住在他里面。沿途可见：盛水认罪的铜盆、向困乏邻舍关上的门、将惧怕除去的爱、写给蒙拣选太太的短笺，以及写给该犹、劝他为客旅敞开家门的书信。\n\n本书以三十六首短诗，分五个部分走过这些书信：前四个部分属于约翰一书，最后一个部分属于随后两封简短的书信。每一首诗都配有一幅画，并置于一句经文之下。画作停留在书信所触及的事物上——一盏泥灯、门槛上的一块饼、为赶路而收起的墨水瓶——而将面容留给你的想象。\n\n这些诗并非圣经本身，只是一个读者对圣经的回应。请一面读这本书，一面翻开约翰的书信，让神真实的话语成为最终的定音。"
 }

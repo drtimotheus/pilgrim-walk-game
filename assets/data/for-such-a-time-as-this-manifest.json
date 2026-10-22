@@ -16,7 +16,10 @@
       "epigraph": "Mordecai took her for his own daughter.",
       "epigraphRef": "Esther 2:7",
       "lightName": "Light of Far from Home",
-      "lightHint": "Near 'one hundred eighty days' (Esther 1:4–7) in Part 1: Far from Home"
+      "lightHint": "Near 'one hundred eighty days' (Esther 1:4–7) in Part 1: Far from Home",
+      "zh_title": "远离家乡",
+      "zh_epigraph": "末底改把她当作自己的女儿。",
+      "zh_epigraphRef": "以斯帖记 2:7"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Who knows if you haven’t come to the kingdom for such a time as this?",
       "epigraphRef": "Esther 4:14",
       "lightName": "Light of Such a Time",
-      "lightHint": "Near 'he would not bow' (Esther 3:2–4) in Part 2: Such a Time"
+      "lightHint": "Near 'he would not bow' (Esther 3:2–4) in Part 2: Such a Time",
+      "zh_title": "这样的时刻",
+      "zh_epigraph": "谁知道你是不是为了这样的时刻来到天国呢？",
+      "zh_epigraphRef": "以斯帖记 4:14"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "On that night, the king couldn’t sleep.",
       "epigraphRef": "Esther 6:1",
       "lightName": "Light of The Night the King Couldn’t Sleep",
-      "lightHint": "Near 'the third day' (Esther 5:1) in Part 3: The Night the King Couldn’t Sleep"
+      "lightHint": "Near 'the third day' (Esther 5:1) in Part 3: The Night the King Couldn’t Sleep",
+      "zh_title": "国王无法入睡的夜晚",
+      "zh_epigraph": "当晚，国王无法入睡。",
+      "zh_epigraphRef": "以斯帖记 6:1"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "the month which was turned to them from sorrow to gladness, and from mourning into a good day",
       "epigraphRef": "Esther 9:22",
       "lightName": "Light of From Sorrow to Gladness",
-      "lightHint": "Near 'the ring again' (Esther 8:2) in Part 4: From Sorrow to Gladness"
+      "lightHint": "Near 'the ring again' (Esther 8:2) in Part 4: From Sorrow to Gladness",
+      "zh_title": "从悲伤到喜悦",
+      "zh_epigraph": "他们从悲伤转为欢乐，从哀悼转为美好的月份",
+      "zh_epigraphRef": "以斯帖记 9:22"
     }
   ],
   "paintings": [
@@ -69,7 +81,12 @@
         "accent": "#ede1bf"
       },
       "dailyWalkDay": 377,
-      "reflectionPrompt": "Between the opening line (“half a year of showing off”) and the closing thought (“keep reading anyway. he is there”), what is Esther 1:4–7 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“half a year of showing off”) and the closing thought (“keep reading anyway. he is there”), what is Esther 1:4–7 gently reframing in your own day?",
+      "zh_title": "一百八十天",
+      "zh_poem": "半年\n炫耀。\n\n白色和蓝色的帷幔，\n银戒指，\n黄金沙发\n在彩色石头的地板上，\n倒酒\n从杯子来看，没有两个是一样的。\n\n帝国中的每一个名字\n在那个花园里有人说过\n除了一个。\n\n故事从来没有说过。\n无论如何，继续阅读。\n他在那儿。",
+      "zh_reflectionPrompt": "在开场白（“半年的炫耀”）和结束语（“无论如何，继续读下去。他就在那里”）之间，以斯帖记 1:4-7 在你那个时代温和地重构了什么？",
+      "zh_epigraph": "“许多天他展示了他光荣王国的财富和他卓越陛下的荣耀”",
+      "zh_ref": "以斯帖记 1:4–7"
     },
     {
       "n": 2,
@@ -90,7 +107,12 @@
         "accent": "#e4d0a6"
       },
       "dailyWalkDay": 378,
-      "reflectionPrompt": "Along the road of For Such a Time as This, “the queen who would not come” (Esther 1:10–12) slows us down at the open threshold to remind us: “but a door has been left open in the palace, and someone no one has heard of yet is on her way.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of For Such a Time as This, “the queen who would not come” (Esther 1:10–12) slows us down at the open threshold to remind us: “but a door has been left open in the palace, and someone no one has heard of yet is on her way.” Where are you being invited to trade control for trust today?",
+      "zh_title": "不来的女王",
+      "zh_poem": "七日酒，\n国王派人去接她\n待观察。\n\n她说不。\n\n整个帝国\n制定了相关法律，\n她走出去\n故事的\n无需多言。\n\n但有一扇门\n已打开\n在宫殿里，\n\n和某人\n还没人听说过\n正在路上。",
+      "zh_reflectionPrompt": "在《今生今世》的路上，“不肯来的王后”（以斯帖记 1：10-12）在敞开的门槛处放慢了我们的速度，提醒我们：“但王宫里的一扇门一直开着，有一个还没有人听说过的人正在赶来的路上。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“但王后瓦阿什提拒绝遵照国王的命令前来”",
+      "zh_ref": "以斯帖记 1:10–12"
     },
     {
       "n": 3,
@@ -111,7 +133,12 @@
         "accent": "#f2e7c2"
       },
       "dailyWalkDay": 379,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “myrtle” (Esther 2:5–7), what would you talk about after reading, “God is like that in this book too: unnamed, and caring for her all the same”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “myrtle” (Esther 2:5–7), what would you talk about after reading, “God is like that in this book too: unnamed, and caring for her all the same”?",
+      "zh_title": "香桃木",
+      "zh_poem": "没有父亲。\n没有母亲。\n距离耶路撒冷很远。\n\n只是一个表弟\n谁收留了她\n并打电话给她的女儿。\n\n她有两个名字，\n为帝国而生的一员\n以及一份家用。\n\n神就是这样的\n也在这本书中：\n无名，\n并照顾她\n都一样。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，停在“桃金娘”处（以斯帖记 2:5-7），当你读到“神在这本书里也是如此，没有名字，却照样关心她”之后，你会谈论什么？",
+      "zh_epigraph": "“因为她既没有父亲，也没有母亲。”",
+      "zh_ref": "以斯帖记 2:5–7"
     },
     {
       "n": 4,
@@ -132,7 +159,12 @@
         "accent": "#fbd081"
       },
       "dailyWalkDay": 380,
-      "reflectionPrompt": "Pause before the stones of the wall: what changes in your posture today when you sit with the closing words of “every day by the court”—“some love can only stand outside and ask. it still counts”?"
+      "reflectionPrompt": "Pause before the stones of the wall: what changes in your posture today when you sit with the closing words of “every day by the court”—“some love can only stand outside and ask. it still counts”?",
+      "zh_title": "每天在法庭上",
+      "zh_poem": "他不能进去。\n他只能走过去。\n\n每天\n同一面墙，\n同一个门，\n同样的问题：\n她怎么样？\n\n一些爱\n只能站在外面\n并询问。\n\n它仍然很重要。",
+      "zh_reflectionPrompt": "驻足在墙石前：今天，当你坐在《天天朝庭旁》的结语——“有些爱只能站在外面问，还是算数”时，你的姿势有什么变化？",
+      "zh_epigraph": "“末底改每天都在女院门前行走，看看以斯帖过得怎么样”",
+      "zh_ref": "以斯帖记 2:11"
     },
     {
       "n": 5,
@@ -153,7 +185,12 @@
         "accent": "#f7e8c0"
       },
       "dailyWalkDay": 381,
-      "reflectionPrompt": "Look at the stillness of the weight of the crown in Timothy’s painting: what striving can you lay down as you ponder, “the long waiting is never only waiting” (Esther 2:12)?"
+      "reflectionPrompt": "Look at the stillness of the weight of the crown in Timothy’s painting: what striving can you lay down as you ponder, “the long waiting is never only waiting” (Esther 2:12)?",
+      "zh_title": "十二个月的没药",
+      "zh_poem": "整整一年\n油和香水\n一天晚上之前\n与国王。\n\n她正在做好准备\n为了一顶王冠。\n\n她不知道\n她也正在做好准备\n一天\n当她不得不\n不请自来地走进来。\n\n漫长的等待\n从来没有\n只能等待。",
+      "zh_reflectionPrompt": "看看提摩太画中王冠重量的静止：当你思考“长久的等待，绝不仅仅是等待”（以斯帖记 2:12）时，你还能放下什么努力呢？",
+      "zh_epigraph": "“六个月没药油，六个月甜香”",
+      "zh_ref": "以斯帖记 2:12"
     },
     {
       "n": 6,
@@ -174,7 +211,12 @@
         "accent": "#f5e7c5"
       },
       "dailyWalkDay": 382,
-      "reflectionPrompt": "In Esther 2:15–17, the story turns on the weight of the crown—and ends with, “and the girl who reached for nothing was handed a crown.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Esther 2:15–17, the story turns on the weight of the crown—and ends with, “and the girl who reached for nothing was handed a crown.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "她什么都不需要",
+      "zh_poem": "她本可以问\n随身携带的物品：\n珠宝、丝绸、黄金。\n\n她什么也没要求\n但很好的建议。\n\n和那个女孩\n谁一无所获\n被授予一顶王冠。",
+      "zh_reflectionPrompt": "在以斯帖记 2 章 15-17 节中，故事的重点是王冠的重量，并以“那无所求的女孩得到了王冠”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“她只需要国王的太监、妇女的守护者希该的建议。”",
+      "zh_ref": "以斯帖记 2:15–17"
     },
     {
       "n": 7,
@@ -195,7 +237,12 @@
         "accent": "#ddd0b2"
       },
       "dailyWalkDay": 383,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Esther 2:21–23 points us to the city gate and whispers, “it will be read aloud on exactly the right night.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Esther 2:21–23 points us to the city gate and whispers, “it will be read aloud on exactly the right night.” How can you practice that unhurried wisdom today?",
+      "zh_title": "书上写的",
+      "zh_poem": "门口传来一阵窃窃私语。\n反对国王的阴谋\n末底改听见了\n并告诉。\n\n事情已经解决了，\n一位抄写员把它写下来，\n卷轴被放在架子上。\n\n没有奖励。\n不，谢谢。\n\n只是一条线\n在一本没有人读的书中。\n\n坚持住那条线。\n它将被大声朗读\n在正确的夜晚。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，但《以斯帖记》2:21-23 却把我们引向城门，低声说道：“在正确的夜晚，人们会大声朗读它。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“这是在国王面前写在编年史上的。”",
+      "zh_ref": "以斯帖记 2:21–23"
     },
     {
       "n": 8,
@@ -216,7 +263,12 @@
         "accent": "#f4ecd1"
       },
       "dailyWalkDay": 384,
-      "reflectionPrompt": "The poem closes with a quiet turn: “some knees are already spoken for.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “some knees are already spoken for.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "他不会低头",
+      "zh_poem": "每个人都在门口\n低弯\n当哈曼走过时。\n\n一个人\n一直站着。\n\n他们问他为什么，\n日复一日。\n\n他的回答\n只是这样：\n我是犹太人。\n\n一些膝盖\n已经\n为之发言。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“有些膝盖已经被提及了。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“但末底改并没有跪拜或向他致敬。”",
+      "zh_ref": "以斯帖记 3:2–4"
     },
     {
       "n": 9,
@@ -237,7 +289,12 @@
         "accent": "#cea970"
       },
       "dailyWalkDay": 385,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “another book says the lot is cast into the lap, but the answer comes from the Lord” (Esther 3:7) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “another book says the lot is cast into the lap, but the answer comes from the Lord” (Esther 3:7) speak to a question you have been carrying lately?",
+      "zh_title": "该地段",
+      "zh_poem": "哈曼让机会\n选择日子。\n\n日复一日\n批次滚动，\n月复一月，\n\n直到他们停下来\n第十二个月，\n快一年了。\n\n他想\n他正在挑选一个日期。\n\n他正在给予\n另一边\n快一年了。\n\n另一本书说\n地块被抛在膝上，\n但答案\n来自主。",
+      "zh_reflectionPrompt": "有时候，一句话可以在封闭的房间里打开一扇窗：“又有一本书说，签放在怀里，但应允从耶和华而来”（以斯帖记 3:7）如何解答你最近一直困扰的一个问题？",
+      "zh_epigraph": "“他们投了 Pur，也就是抽签”",
+      "zh_ref": "以斯帖记 3:7"
     },
     {
       "n": 10,
@@ -258,7 +315,12 @@
         "accent": "#f3e4bf"
       },
       "dailyWalkDay": 386,
-      "reflectionPrompt": "Hold your hands open for a moment before “the ring” (Esther 3:10–11): what are you gripping tightly that loosens when you hear, “it only presses what it's told”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “the ring” (Esther 3:10–11): what are you gripping tightly that loosens when you hear, “it only presses what it's told”?",
+      "zh_title": "戒指",
+      "zh_poem": "一枚戒指从一根手指上滑落\n然后到另一个。\n\n就这样了。\n\n没有人问\n这些人是谁\n或者他们做了什么。\n\n一枚图章戒指\n没有良心。\n它只按\n它讲述了什么。",
+      "zh_reflectionPrompt": "在“指环”之前张开双手（以斯帖记 3：10-11）：当你听到“它只按所吩咐的”时，你紧握的是什么东西就松开了？",
+      "zh_epigraph": "“国王从他手上取下戒指，交给哈曼”",
+      "zh_ref": "以斯帖记 3:10–11"
     },
     {
       "n": 11,
@@ -279,7 +341,12 @@
         "accent": "#fae09d"
       },
       "dailyWalkDay": 387,
-      "reflectionPrompt": "Scripture remembers this moment in Esther 3:15 not to impress us, but to steady us: when have you seen the truth that “the city knew something was wrong. so did heaven” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Esther 3:15 not to impress us, but to steady us: when have you seen the truth that “the city knew something was wrong. so did heaven” in your own story?",
+      "zh_title": "这座城市感到困惑",
+      "zh_poem": "在宫殿里，\n两个人举起了杯子。\n\n在街道上，\n整个城市\n站着读通知\n并且无法理解它。\n\n有权有势的人\n经常\n最后注意到的\n他们做了什么。\n\n城市\n知道出了什么问题。\n\n天堂也是如此。",
+      "zh_reflectionPrompt": "圣经在以斯帖记 3 章 15 节中记住这一刻，不是为了给我们留下深刻印象，而是为了让我们坚定：你什么时候在你自己的故事中看到过“城知道出了问题，天也知道出了问题”的真理？",
+      "zh_epigraph": "“王与哈曼坐下喝酒；书珊城的人却都困惑不解。”",
+      "zh_ref": "以斯帖记 3:15"
     },
     {
       "n": 12,
@@ -300,7 +367,12 @@
         "accent": "#eedcb0"
       },
       "dailyWalkDay": 388,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “sackcloth” (Esther 4:1–3), what one honest sentence would you pray beside the open threshold after reading, “the book does not say who they were crying to. it doesn't have to”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “sackcloth” (Esther 4:1–3), what one honest sentence would you pray beside the open threshold after reading, “the book does not say who they were crying to. it doesn't have to”?",
+      "zh_title": "麻布",
+      "zh_poem": "他撕破了衣服\n走进城市的中心\n并大声喊叫。\n\n他们不让麻布\n通过国王的大门。\n\n但悲伤\n还有其他门。\n\n在每个省份\n信来的地方，\n人们躺在灰烬中\n并没有吃饭。\n\n书上没有说\n他们向谁哭泣。\n\n没必要。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“麻布”处时（以斯帖记 4：1-3），读完“书上没有说他们向谁哭泣。不必如此”之后，你会在敞开的门槛旁祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“末底改撕裂衣服，穿上撒满灰的麻布”",
+      "zh_ref": "以斯帖记 4:1–3"
     },
     {
       "n": 13,
@@ -321,7 +393,12 @@
         "accent": "#d8ba8a"
       },
       "dailyWalkDay": 389,
-      "reflectionPrompt": "Between the opening line (“queen, and still afraid of a door”) and the closing thought (“thirty days without a word from him”), what is Esther 4:11 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“queen, and still afraid of a door”) and the closing thought (“thirty days without a word from him”), what is Esther 4:11 gently reframing in your own day?",
+      "zh_title": "三十天",
+      "zh_poem": "女王,\n并且仍然害怕\n一扇门的。\n\n三十天\n他一言不发。",
+      "zh_reflectionPrompt": "在开场白（“王后，仍然害怕一扇门”）和结束语（“三十天没有他的消息”）之间，以斯帖记 4:11 在你那个时代温柔地重构了什么？",
+      "zh_epigraph": "“这三十天了，我没有被叫去见国王。”",
+      "zh_ref": "以斯帖记 4:11"
     },
     {
       "n": 14,
@@ -342,7 +419,12 @@
         "accent": "#f8d68a"
       },
       "dailyWalkDay": 390,
-      "reflectionPrompt": "Along the road of For Such a Time as This, “from another place” (Esther 4:13–14) slows us down at the quiet centerpiece of “from another place” to remind us: “maybe this is why you are where you are.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of For Such a Time as This, “from another place” (Esther 4:13–14) slows us down at the quiet centerpiece of “from another place” to remind us: “maybe this is why you are where you are.” Where are you being invited to trade control for trust today?",
+      "zh_title": "从另一个地方",
+      "zh_poem": "如果你保持安静\n末底改说，\n帮助仍然会来。\n从另一个地方。\n\n他没有说\n谁的位置。\n\n他不需要。\n\n救援\n从来没有\n骑在她身上。\n\n问题只是\n她是否会\n成为其中的一部分。\n\n谁知道？\n也许这就是为什么\n你就在你所在的地方。",
+      "zh_reflectionPrompt": "沿着《今生今世》的道路，“从别处来”（以斯帖记 4：13-14）让我们在“从别处来”的安静中心放慢脚步，提醒我们：“也许这就是你现在所在的原因。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“犹太人将从另一个地方得到解脱和拯救”",
+      "zh_ref": "以斯帖记 4:13–14"
     },
     {
       "n": 15,
@@ -363,7 +445,12 @@
         "accent": "#f4e3b9"
       },
       "dailyWalkDay": 391,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the fast” (Esther 4:16), what would you talk about after reading, “but an empty bowl is a kind of prayer, and so many empty bowls across one city make a sound heaven can hear”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the fast” (Esther 4:16), what would you talk about after reading, “but an empty bowl is a kind of prayer, and so many empty bowls across one city make a sound heaven can hear”?",
+      "zh_title": "快的",
+      "zh_poem": "在女王面前\n进到国王那里去，\n整个城市\n没有面包。\n\n三天。\n三个晚上。\n没有食物，没有水。\n\n还有宫里的宫女们\n也做了同样的事。\n\n没有人写下祈祷文。\n\n但一个空碗\n是一种祈祷，\n\n还有那么多空碗\n跨越一座城市\n发出声音\n天能听见。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“禁食”处停下来（以斯帖记 4:16），当你读到“但空碗也是一种祷告，而一座城里有那么多空碗发出天上能听见的声音”之后，你会谈论什么？",
+      "zh_epigraph": "“为我禁食，三天三夜，不吃不喝。”",
+      "zh_ref": "以斯帖记 4:16"
     },
     {
       "n": 16,
@@ -384,7 +471,12 @@
         "accent": "#f7efde"
       },
       "dailyWalkDay": 392,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “if I perish”: what changes in your posture today when you sit with the closing words of “if I perish”—“she said i am going in”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “if I perish”: what changes in your posture today when you sit with the closing words of “if I perish”—“she said i am going in”?",
+      "zh_title": "如果我死了",
+      "zh_poem": "她没有说\n我不会灭亡。\n\n她说\n我要进去了。",
+      "zh_reflectionPrompt": "在“如果我灭亡”的安静中心部分前停顿一下：今天，当你坐在“如果我灭亡”的结束语——“她说我要进去”时，你的姿势有什么变化？",
+      "zh_epigraph": "“如果我死了，我就死了。”",
+      "zh_ref": "以斯帖记 4:16"
     },
     {
       "n": 17,
@@ -405,7 +497,12 @@
         "accent": "#ebdfc4"
       },
       "dailyWalkDay": 393,
-      "reflectionPrompt": "Look at the stillness of the weight of the crown in Timothy’s painting: what striving can you lay down as you ponder, “she walked in as who she was, and let the fasting be the part no one could see” (Esther 5:1)?"
+      "reflectionPrompt": "Look at the stillness of the weight of the crown in Timothy’s painting: what striving can you lay down as you ponder, “she walked in as who she was, and let the fasting be the part no one could see” (Esther 5:1)?",
+      "zh_title": "第三天",
+      "zh_poem": "第三天\n她重新穿上长袍。\n\n饿了三天。\n三天祈祷。\n现在是紫色\n和王冠。\n\n她没有走进去\n作为一个乞丐。\n\n她走进来\n正如她是谁，\n\n并让禁食\n成为其中的一部分\n没有人能看到。",
+      "zh_reflectionPrompt": "看看提摩太画中王冠重量的静止：当你沉思“她按着自己的身份走进去，禁食成为无人能见的部分”（以斯帖记 5:1）时，你能放下什么努力呢？",
+      "zh_epigraph": "“第三天，以斯帖穿上她的王服”",
+      "zh_ref": "以斯帖记 5:1"
     },
     {
       "n": 18,
@@ -426,7 +523,12 @@
         "accent": "#d1c9b2"
       },
       "dailyWalkDay": 394,
-      "reflectionPrompt": "In Esther 5:2, the story turns on the extended golden scepter—and ends with, “you can build a whole faith on a moment like that.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Esther 5:2, the story turns on the extended golden scepter—and ends with, “you can build a whole faith on a moment like that.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "金色权杖",
+      "zh_poem": "法律说\n两件事之一\n会发生的。\n\n她站在法庭上\n并等待\n找出哪个。\n\n和国王\n拿出了金子。\n\n她走近了\n并触摸了尖端。\n\n仅此而已。\n伸出一只手，\n和另一只手\n回来。\n\n你可以建造\n整个信仰\n在那样的时刻。",
+      "zh_reflectionPrompt": "在以斯帖记 5 章 2 节中，故事以伸出的金权杖为中心，并以“你可以在这样的时刻建立完整的信仰”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“国王向以斯帖伸出了手中的金权杖。”",
+      "zh_ref": "以斯帖记 5:2"
     },
     {
       "n": 19,
@@ -447,7 +549,12 @@
         "accent": "#edd4ab"
       },
       "dailyWalkDay": 395,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Esther 5:4 points us to the table set before you and whispers, “they are served in their time.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Esther 5:4 points us to the table set before you and whispers, “they are served in their time.” How can you practice that unhurried wisdom today?",
+      "zh_title": "一张三人桌",
+      "zh_poem": "多达半个王国，\n他说。\n\n她要吃晚饭。\n\n晚餐时，\n再次要求吃饭。\n\n她不害怕\n慢一点。\n\n有些事情\n不着急\n进入公开状态。\n\n他们得到服务\n在他们的时代。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，但以斯帖记 5:4 却向我们指出摆在你面前的桌子，低声说道：“他们得着各时的服务。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“今天请王和哈曼来参加我为他准备的宴会。”",
+      "zh_ref": "以斯帖记 5:4"
     },
     {
       "n": 20,
@@ -468,7 +575,12 @@
         "accent": "#d0c3a5"
       },
       "dailyWalkDay": 396,
-      "reflectionPrompt": "The poem closes with a quiet turn: “a heart like that could own the whole empire and still be hungry.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “a heart like that could own the whole empire and still be hungry.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "这一切对我毫无帮助",
+      "zh_poem": "财富。\n儿子们。\n促销活动。\n与女王共进晚餐。\n\n他数了每一个\n大声说出来。\n\n然后说\n一切都不重要\n因为一个人\n不会站起来。\n\n一颗这样的心\n可以拥有整个帝国\n而且还是很饿。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“一颗这样的心可以拥有整个帝国，但仍然会感到饥饿。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“然而，只要我看到犹太人末底改坐在王门前，这一切就对我没有任何帮助。”",
+      "zh_ref": "以斯帖记 5:11–13"
     },
     {
       "n": 21,
@@ -489,7 +601,12 @@
         "accent": "#fadba0"
       },
       "dailyWalkDay": 397,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “it just leaves the lamp on” (Esther 6:1) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “it just leaves the lamp on” (Esther 6:1) speak to a question you have been carrying lately?",
+      "zh_title": "不眠之王",
+      "zh_poem": "那天晚上\n世界上最有权势的人\n睡不着。\n\n没什么不寻常的。\n国王们醒着。\n\n所以他做到了\n疲惫的男人会做什么\n并要求一些无聊的东西\n读给他听。\n\n故事没有说\n谁让他坚持下去的。\n\n它只是离开\n灯亮了。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“它只是让灯亮着”（以斯帖记 6:1）如何解答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“他命人将编年史的记录书带来，并向国王宣读。”",
+      "zh_ref": "以斯帖记 6:1"
     },
     {
       "n": 22,
@@ -510,7 +627,12 @@
         "accent": "#e6cfa5"
       },
       "dailyWalkDay": 398,
-      "reflectionPrompt": "Hold your hands open for a moment before “nothing has been done” (Esther 6:2–3): what are you gripping tightly that loosens when you hear, “it is waiting for the right night”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “nothing has been done” (Esther 6:2–3): what are you gripping tightly that loosens when you hear, “it is waiting for the right night”?",
+      "zh_title": "什么也没做",
+      "zh_poem": "从所有这些卷轴中，\n那些年，\n读者停了下来\n一行：\n\n末底改。\n门口的情节。\n\n国王问道：\n我们为他做了什么？\n\n没有什么。\n\n秘密做的好事\n可以放在架子上\n很长一段时间。\n\n它并没有丢失。\n它正在等待\n为正确的夜晚。",
+      "zh_reflectionPrompt": "在“什么都没有发生”之前（以斯帖记 6：2-3），请张开双手：当你听到“等待正确的夜晚”时，你紧握的是什么松开了？",
+      "zh_epigraph": "“我们没有为他做任何事。”",
+      "zh_ref": "以斯帖记 6:2–3"
     },
     {
       "n": 23,
@@ -531,7 +653,12 @@
         "accent": "#f4e5ba"
       },
       "dailyWalkDay": 399,
-      "reflectionPrompt": "Scripture remembers this moment in Esther 6:6–11 not to impress us, but to steady us: when have you seen the truth that “the one who had stayed standing rode” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Esther 6:6–11 not to impress us, but to steady us: when have you seen the truth that “the one who had stayed standing rode” in your own story?",
+      "zh_title": "国王乐意尊敬的人",
+      "zh_poem": "谁能成为国王\n想要荣誉\n比我还多？\n哈曼心想。\n\n所以他描述了\n长袍，\n马，\n皇冠,\n游行。\n\n然后被告知\n亲自牵马\n并喊出这些话\n\n为了末底改。\n\n他步行回家\n蒙着头。\n\n那个一直站着的人\n骑了。",
+      "zh_reflectionPrompt": "圣经在以斯帖记 6:6-11 中记住这一刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“那站着的人骑马了”的真理？",
+      "zh_epigraph": "“凡是国王所喜悦尊崇的人，都将如此！”",
+      "zh_ref": "以斯帖记 6:6–11"
     },
     {
       "n": 24,
@@ -552,7 +679,12 @@
         "accent": "#e3c7a1"
       },
       "dailyWalkDay": 400,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “my people” (Esther 7:3–4), what one honest sentence would you pray beside the quiet centerpiece of “my people” after reading, “telling the truth kept them alive”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “my people” (Esther 7:3–4), what one honest sentence would you pray beside the quiet centerpiece of “my people” after reading, “telling the truth kept them alive”?",
+      "zh_title": "我的人民",
+      "zh_poem": "第二次宴会。\n同样的问题。\n你想要什么？\n\n这次她说：\n我的生活，\n和我的人民。\n\n多年来\n她一直保持沉默\n关于她是谁。\n\n现在她说了\n在男人面前\n谁想要他们离开。\n\n躲藏保证了她的安全。\n说实话\n让他们活下去。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“我的百姓”（以斯帖记 7：3-4）处时，读完“说真话使他们活下去”之后，你会在“我的百姓”安静的核心内容旁边祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“应我的请求，赐予我生命；应我的请求，赐予我的人民。”",
+      "zh_ref": "以斯帖记 7:3–4"
     },
     {
       "n": 25,
@@ -573,7 +705,12 @@
         "accent": "#f0c99d"
       },
       "dailyWalkDay": 401,
-      "reflectionPrompt": "Between the opening line (“the thing Haman had built for Mordecai was the thing that ended him”) and the closing thought (“and the king's anger went quiet”), what is Esther 7:9–10 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“the thing Haman had built for Mordecai was the thing that ended him”) and the closing thought (“and the king's anger went quiet”), what is Esther 7:9–10 gently reframing in your own day?",
+      "zh_title": "他建造的那个",
+      "zh_poem": "哈曼建造的东西\n为了末底改\n就是这样\n那结束了他。\n\n故事说的是\n短短一行\n并且不会留下来观看。\n\n我们也不会。\n\n给别人挖的坑\n有办法\n保留其挖掘机。\n\n和国王的愤怒\n安静了。",
+      "zh_reflectionPrompt": "在开场白（“哈曼为末底改建造的东西却终结了他”）和结束语（“王的怒气就平息了”）之间，《以斯帖记》7:9-10 在你那个时代温和地重构了什么？",
+      "zh_epigraph": "“这样，国王的愤怒就平息了。”",
+      "zh_ref": "以斯帖记 7:9–10"
     },
     {
       "n": 26,
@@ -594,7 +731,12 @@
         "accent": "#e9dbb9"
       },
       "dailyWalkDay": 402,
-      "reflectionPrompt": "Along the road of For Such a Time as This, “the ring again” (Esther 8:2) slows us down at your own two hands to remind us: “so a new one was pressed beside it.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of For Such a Time as This, “the ring again” (Esther 8:2) slows us down at your own two hands to remind us: “so a new one was pressed beside it.” Where are you being invited to trade control for trust today?",
+      "zh_title": "再次响起戒指",
+      "zh_poem": "同一个戒指。\n同一个国王。\n\n几章前\n它宣告了死刑。\n\n现在它休息了\n在手上\n那个男人的\n它是为了擦除。\n\n旧印章\n无法被打破。\n\n所以一个新的\n被压\n在它旁边。",
+      "zh_reflectionPrompt": "在《为这样的时刻》的道路上，“戒指又响了”（以斯帖记 8:2），你的两只手使我们放慢了速度，提醒我们：“所以旁边又压了一个新的戒指。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“王摘下从哈曼那里夺来的戒指，交给末底改。”",
+      "zh_ref": "以斯帖记 8:2"
     },
     {
       "n": 27,
@@ -615,7 +757,12 @@
         "accent": "#ddcfb6"
       },
       "dailyWalkDay": 403,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “how can I endure” (Esther 8:3–6), what would you talk about after reading, “and the scepter came out a second time”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “how can I endure” (Esther 8:3–6), what would you talk about after reading, “and the scepter came out a second time”?",
+      "zh_title": "我怎么能忍受",
+      "zh_poem": "哈曼走了，\n而且她有一所房子，\n她很安全。\n\n本来很容易\n停在那里。\n\n她摔倒了\n再次拜倒在国王脚下\n并哭了。\n\n她不能\n一个人也要快乐。\n\n和权杖\n第二次出来了。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并停在“我怎能忍耐”（以斯帖记 8：3-6），那么在读到“权杖第二次出来”之后，你会谈论什么？",
+      "zh_epigraph": "“我怎么能忍受看到我的人民遭受不幸呢？”",
+      "zh_ref": "以斯帖记 8:3–6"
     },
     {
       "n": 28,
@@ -636,7 +783,12 @@
         "accent": "#f4deb9"
       },
       "dailyWalkDay": 404,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “swift horses”: what changes in your posture today when you sit with the closing words of “swift horses”—“it just wasn't the last word anymore”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “swift horses”: what changes in your posture today when you sit with the closing words of “swift horses”—“it just wasn't the last word anymore”?",
+      "zh_title": "快马",
+      "zh_poem": "第一个字母\n无法收回。\n波斯法。\n\n所以第二个字母\n之后就出去了，\n更快，\n骑着国王最好的马，\n\n每个省，\n每种语言，\n每条路：\n\n你可以站着\n并保卫你的生命。\n\n第一个词\n仍然写着。\n\n它只是不是\n最后一句话再说了。",
+      "zh_reflectionPrompt": "在安静的核心“千里马”前停顿一下：今天，当你坐在“千里马”的结束语——“这不再是最后一个词”时，你的姿势有什么变化？",
+      "zh_epigraph": "“信使骑马寄信，骑着由快马培育出来的皇家马匹。”",
+      "zh_ref": "以斯帖记 8:10–14"
     },
     {
       "n": 29,
@@ -657,7 +809,12 @@
         "accent": "#eddab1"
       },
       "dailyWalkDay": 405,
-      "reflectionPrompt": "Look at the stillness of the weight of the crown in Timothy’s painting: what striving can you lay down as you ponder, “four words where there had been ashes” (Esther 8:15–17)?"
+      "reflectionPrompt": "Look at the stillness of the weight of the crown in Timothy’s painting: what striving can you lay down as you ponder, “four words where there had been ashes” (Esther 8:15–17)?",
+      "zh_title": "光明与喜乐",
+      "zh_poem": "末底改走了出去\n蓝色和白色\n和一顶金冠。\n\n这座曾经困惑的城市\n开始大喊大叫。\n\n光，\n高兴，\n喜悦，\n荣誉。\n\n四个字\n曾经有过的地方\n灰烬。",
+      "zh_reflectionPrompt": "看看提摩太画中王冠重量的静止：当你沉思“已成灰的四个字”（以斯帖记 8：15-17）时，你能放下什么努力呢？",
+      "zh_epigraph": "“犹太人有光明、喜乐、喜乐和荣耀。”",
+      "zh_ref": "以斯帖记 8:15–17"
     },
     {
       "n": 30,
@@ -678,7 +835,12 @@
         "accent": "#e2d2af"
       },
       "dailyWalkDay": 406,
-      "reflectionPrompt": "In Esther 9:1, the story turns on the quiet centerpiece of “the other way”—and ends with, “this book lets us turn it over.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Esther 9:1, the story turns on the quiet centerpiece of “the other way”—and ends with, “this book lets us turn it over.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "另一种方式",
+      "zh_poem": "选定的日子\n结束他们\n来了。\n\n然后它变成了\n另一种方式。\n\n他们站在一起\n并且没有被摧毁。\n和书上的笔记\n他们把战利品留在原地。\n\n你可以看看后面\n一个编织的\n并且只看到结。\n\n这本书让我们\n把它翻过来。",
+      "zh_reflectionPrompt": "在以斯帖记 9 章 1 节中，故事转向了“另一条路”的安静核心，并以“这本书让我们把它翻过来”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“但事实证明相反的情况发生了”",
+      "zh_ref": "以斯帖记 9:1"
     },
     {
       "n": 31,
@@ -699,7 +861,12 @@
         "accent": "#ebe0ba"
       },
       "dailyWalkDay": 407,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Esther 9:19–22 points us to the open threshold and whispers, “that is how you know the sorrow has really turned.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Esther 9:19–22 points us to the open threshold and whispers, “that is how you know the sorrow has really turned.” How can you practice that unhurried wisdom today?",
+      "zh_title": "部分",
+      "zh_poem": "你怎么记得\n被救了？\n\n末底改写下它：\n\n盛宴。\n高兴吧。\n端着盘子里的食物\n到你邻居家门口。\n\n别忘了\n那些一无所有的人。\n\n一个曾经被卖掉的人\n现在把东西放弃。\n\n就是这样\n你知道\n悲伤\n真的变了。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，但以斯帖记 9:19-22 却向我们指出了敞开的门槛，并轻声说道：“这就是你知道悲伤真正转变的方式。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“互相赠送食物，并向有需要的人赠送礼物。”",
+      "zh_ref": "以斯帖记 9:19–22"
     },
     {
       "n": 32,
@@ -720,7 +887,15 @@
         "accent": "#ecd9ab"
       },
       "dailyWalkDay": 408,
-      "reflectionPrompt": "The poem closes with a quiet turn: “but every year they tell the story again, and every year someone notices whose hand was underneath.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “but every year they tell the story again, and every year someone notices whose hand was underneath.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "普珥节",
+      "zh_poem": "他们把这个节日命名为\n拍完后\n滚动选择\n他们结束的那一天。\n\n一个奇怪的名字\n为了庆祝，\n除非要点是：\n他们还在这里。\n\n他的名字\n本书中从未写过。\n\n但每年\n他们再次讲述这个故事，\n\n并且每年\n有人注意到\n谁的手\n在下面。",
+      "zh_reflectionPrompt": "这首诗以安静的转折结束：“但每年他们都会再次讲述这个故事，每年都会有人注意到谁的手在下面。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“因此，他们称这些日子为‘普珥节’，源自‘Pur’这个词。”",
+      "zh_ref": "以斯帖记 9:26–28"
     }
-  ]
+  ],
+  "zh_title": "焉知不为现今的机会",
+  "zh_subtitle": "以斯帖记诗画集",
+  "zh_beforeYouBegin": "以斯帖以一场持续半年的宴会开始，以邻居们端着盘子的食物到彼此家门口结束。其间：一个由表弟养大的孤女，一罐没药，一个不肯鞠躬的男人，为一日毁灭而抽签，三天斋戒，一根金权杖，一个无法入睡的国王，以及一本翻到正确页码的记录簿。\n\n本书分为四部分，用三十二首短诗来讲述它。每首诗都位于一幅画旁边和一行经文之下。以斯帖记中从未写过上帝的名字，而这些诗却试图注意到他的手藏在哪里。这些图片与故事所涉及的事物并存——一枚图章戒指、一盏不眠灯、一张三人桌——并将面孔留给你想象。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这本书旁边的以斯帖记，让真实的话语成为最后的话语。"
 }

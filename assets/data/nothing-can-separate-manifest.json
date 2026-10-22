@@ -16,7 +16,10 @@
       "epigraph": "For in it is revealed God’s righteousness from faith to faith.",
       "epigraphRef": "Romans 1:17",
       "lightName": "Light of Not Ashamed",
-      "lightHint": "Near 'beloved in Rome' (Romans 1:7–12) in Part 1: Not Ashamed"
+      "lightHint": "Near 'beloved in Rome' (Romans 1:7–12) in Part 1: Not Ashamed",
+      "zh_title": "不羞耻",
+      "zh_epigraph": "因为它显明了神的公义，是从信心到信心的。",
+      "zh_epigraphRef": "罗马书 1:17"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Being therefore justified by faith, we have peace with God through our Lord Jesus Christ",
       "epigraphRef": "Romans 5:1",
       "lightName": "Light of Peace with God",
-      "lightHint": "Near 'where we stand' (Romans 5:1–2) in Part 2: Peace with God"
+      "lightHint": "Near 'where we stand' (Romans 5:1–2) in Part 2: Peace with God",
+      "zh_title": "与神和好",
+      "zh_epigraph": "因此，我们因信称义，就可以借着我们的主耶稣基督与神和好",
+      "zh_epigraphRef": "罗马书 5:1"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "For the law of the Spirit of life in Christ Jesus made me free from the law of sin and of death.",
       "epigraphRef": "Romans 8:2",
       "lightName": "Light of No Condemnation",
-      "lightHint": "Near 'now' (Romans 8:1) in Part 3: No Condemnation"
+      "lightHint": "Near 'now' (Romans 8:1) in Part 3: No Condemnation",
+      "zh_title": "没有谴责",
+      "zh_epigraph": "因为生命圣灵的律在基督耶稣里使我脱离了罪和死的律。",
+      "zh_epigraphRef": "罗马书 8:2"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "For the gifts and the calling of God are irrevocable.",
       "epigraphRef": "Romans 11:29",
       "lightName": "Light of Grafted In",
-      "lightHint": "Near 'great sorrow' (Romans 9:1–5) in Part 4: Grafted In"
+      "lightHint": "Near 'great sorrow' (Romans 9:1–5) in Part 4: Grafted In",
+      "zh_title": "嫁接于",
+      "zh_epigraph": "因为神的恩赐和呼召是不可撤销的。",
+      "zh_epigraphRef": "罗马书 11:29"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "present your bodies a living sacrifice, holy, acceptable to God",
       "epigraphRef": "Romans 12:1",
       "lightName": "Light of A Living Sacrifice",
-      "lightHint": "Near 'living sacrifice' (Romans 12:1–2) in Part 5: A Living Sacrifice"
+      "lightHint": "Near 'living sacrifice' (Romans 12:1–2) in Part 5: A Living Sacrifice",
+      "zh_title": "活生生的牺牲",
+      "zh_epigraph": "将身体献上，当作活祭，是圣洁的，是神所喜悦的",
+      "zh_epigraphRef": "罗马书 12:1"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#f6d5a2"
       },
       "dailyWalkDay": 1196,
-      "reflectionPrompt": "In Romans 1:7–12, grace meets us right beside the table set before you: how does the closing thought—“it is a strange letter that begins by saying I need you too”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Romans 1:7–12, grace meets us right beside the table set before you: how does the closing thought—“it is a strange letter that begins by saying I need you too”—steady your footing for the road ahead?",
+      "zh_title": "罗马的挚爱",
+      "zh_poem": "他从未见过他们的脸。\n从未打破过的面包\n在他们的桌子上。\n\n尽管如此，他告诉他们的第一件事\n他们是谁：\n亲爱的。\n叫。\n\n第二件事：\n我渴望见到你，\n这样我们就可以\n互相举起。\n\n这是一封奇怪的信\n首先说\n我也需要你。",
+      "zh_reflectionPrompt": "在罗马书 1 章 7-12 节中，恩典就在摆在你面前的桌子旁与我们相遇：结尾的想法——“这是一封奇怪的信，开头说我也需要你”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“致所有在罗马、蒙上帝所爱、蒙召成为圣徒的人”",
+      "zh_ref": "罗马书 1:7–12"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#ffe8c0"
       },
       "dailyWalkDay": 1197,
-      "reflectionPrompt": "If today’s painting of “not ashamed” (Romans 1:16) hung beside the door you walk out of this morning, how would its final line—“not because the story was impressive, but because it worked: it had already turned him around on a road just like this one”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “not ashamed” (Romans 1:16) hung beside the door you walk out of this morning, how would its final line—“not because the story was impressive, but because it worked: it had already turned him around on a road just like this one”—shape your choices?",
+      "zh_title": "不感到羞耻",
+      "zh_poem": "罗马有大理石，\n它的道路\n到世界的边缘，\n每个角落都有它的神。\n\n保罗来了\n有一个关于\n一个被钉在十字架上的木匠\n\n他并不感到尴尬。\n\n不是因为故事\n令人印象深刻,\n但因为它有效：\n\n它已经\n把他转过来\n在路上\n就像这个一样。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“不羞耻”（罗马书1:16）的画，那么它的最后一句——“不是因为这个故事令人印象深刻，而是因为它有效：它已经让他转向了一条像这条路一样的道路”——会如何影响你的选择？",
+      "zh_epigraph": "“我不以基督的好消息为耻，因为这是神的大能，要拯救所有相信的人”",
+      "zh_ref": "罗马书 1:16"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#f7d579"
       },
       "dailyWalkDay": 1198,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Romans 1:20)—where in your own home or work today does “they just stand there being far too large and far too careful to have made themselves” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Romans 1:20)—where in your own home or work today does “they just stand there being far too large and far too careful to have made themselves” ring true?",
+      "zh_title": "所做的事情",
+      "zh_poem": "在没有卷轴之前，\n那里有天空。\n\n在一位先知说话之前，\n无花果树已经\n伸出它的叶子\n准时。\n\n山不说\n造物主的名字。\n\n他们只是站在那里\n太大了\n并且过于小心\n成为他们自己。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（罗马书 1:20）——今天在你自己的家里或工作场所，“他们只是站在那里，太大了，太小心了，以至于无法使自己变得真实”？",
+      "zh_epigraph": "“因为自创世以来，他看不见的事物都可以清晰可见，可以通过所创造的事物来感知”",
+      "zh_ref": "罗马书 1:20"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#f3ca6e"
       },
       "dailyWalkDay": 1199,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “most of us came home because someone was that good to us first.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “most of us came home because someone was that good to us first.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "仁慈",
+      "zh_poem": "你会认为\n这需要威胁\n扭转某人的局面。\n\n一声喊叫。\n一扇锁着的门。\n一个拳头。\n\n但这里说\n这是善意：\n\n等待的耐心\n比必须的时间更长，\n一盏灯一直亮着，\n一扇一直开着的门。\n\n我们大多数人都回家了\n因为有人\n这对我们有好处吗\n首先。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“我们大多数人回家是因为有人先对我们那么好。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“神的良善引导你悔改”",
+      "zh_ref": "罗马书 2:4"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#e1c79d"
       },
       "dailyWalkDay": 1200,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “the teacher and the thief.” Looking through the lens of Romans 3:22–23, what does it mean to discover that “it's the ground, level, so that when grace comes nobody has to climb to reach it”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “the teacher and the thief.” Looking through the lens of Romans 3:22–23, what does it mean to discover that “it's the ground, level, so that when grace comes nobody has to climb to reach it”?",
+      "zh_title": "全部",
+      "zh_poem": "老师和小偷。\n牧师和那个人\n从不靠近寺庙的人。\n\n把每一盏灯都排好\n在城市里\n而其中没有一个\n燃烧得一样明亮\n正如它所做的那样。\n\n这不是一个判决\n是为了压垮你。\n\n这是地面，\n水平，\n以便当恩典临到时\n没有人必须攀爬\n达到它。",
+      "zh_reflectionPrompt": "回想一下你体会过“师贼”感觉的一个季节。透过罗马书 3 章 22-23 节的视角来看，发现“它是地面、水平的，所以当恩典来临的时候，没有人必须爬上去才能到达”，这意味着什么？",
+      "zh_epigraph": "“没有什么分别，世人都犯了罪，亏缺了神的荣耀”",
+      "zh_ref": "罗马书 3:22–23"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#ebe1d5"
       },
       "dailyWalkDay": 1201,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “freely” in this painting (Romans 3:24)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “freely” in this painting (Romans 3:24)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "自由地",
+      "zh_poem": "赦免\n是一种奇怪的纸。\n\n它没有说\n你是无辜的。\n\n它没有说\n你赢得了出路。\n\n它说：\n你可以走了。\n债务得到了答复。\n有人付钱了。\n\n自由地，\n这句话说，\n太阳的方式\n落在田野上\n从来没有\n要求的。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的中心“自由”（罗马书3:24）——如果你今天可以在它旁边留下一个焦虑的重物，你会放什么？",
+      "zh_epigraph": "“借着他的恩典，借着基督耶稣的救赎，就白白地称义”",
+      "zh_ref": "罗马书 3:24"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#e1c89c"
       },
       "dailyWalkDay": 1202,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet stars overhead: what quiet prayer rises in you when you read, “that is the whole of what he brought: a yes under the stars”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet stars overhead: what quiet prayer rises in you when you read, “that is the whole of what he brought: a yes under the stars”?",
+      "zh_title": "数过的",
+      "zh_poem": "他还没有建造一座寺庙。\n没有遵守任何一条法律\n摩西后来携带\n下山了。\n\n他只站在帐篷外\n并抬起头来\n并相信\n告诉他的人\n来计数。\n\n上帝把它写下来\n在专栏中\n标记为正义。\n\n这就是全部\n他带来的东西：\n是的\n星空下。",
+      "zh_reflectionPrompt": "让你的目光停留在头顶安静星星周围的笔触和光线上：当你读到“这就是他带来的全部：星空下的一个‘是’”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“亚伯拉罕信神，这就算为他的义。”",
+      "zh_ref": "罗马书 4:3"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#fcdc9c"
       },
       "dailyWalkDay": 1203,
-      "reflectionPrompt": "Linger with the movement in “the things that are not” (Romans 4:17–21) from “about a hundred years old, the letter says, and Sarah long past the age for children” to “God calls the things that are not as though they were, the way a farmer talks about a harvest while holding a single seed”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the things that are not” (Romans 4:17–21) from “about a hundred years old, the letter says, and Sarah long past the age for children” to “God calls the things that are not as though they were, the way a farmer talks about a harvest while holding a single seed”—where do you find yourself along that arc today?",
+      "zh_title": "那些不存在的东西",
+      "zh_poem": "大约一百岁，\n信中说，\n莎拉早已过去\n儿童的年龄。\n\n他没有假装\n他的身体很年轻。\n他直视着它。\n\n然后他看着\n在承诺的时候，\n而且承诺更大。\n\n神称那些不存在的事物为\n就好像他们是，\n\n农民的方式\n谈论收获\n持有时\n一粒种子。",
+      "zh_reflectionPrompt": "留心“那些不存在的事”（罗马书 4：17-21）中的运动，从“信中说，撒拉大约一百岁了，而撒拉早已过了孩子的年龄”到“上帝称那些不存在的事，就好像它们存在一样，就像农夫拿着一粒种子谈论收成一样”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“把不存在的事物称为它们存在。”",
+      "zh_ref": "罗马书 4:17–21"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#d9b36f"
       },
       "dailyWalkDay": 1204,
-      "reflectionPrompt": "Notice how “where we stand” (Romans 5:1–2) arrives at: “this is the grace you stand in, like standing in the sun.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “where we stand” (Romans 5:1–2) arrives at: “this is the grace you stand in, like standing in the sun.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "我们的立场",
+      "zh_poem": "不是休战。\n不是停火\n与双方\n仍在观看。\n\n和平。\n\n和一扇门\n那不关闭\n在你身后。\n\n你不必\n赢得回来的路\n每天早上。\n\n这就是恩典\n你站在，\n喜欢站着\n在阳光下。",
+      "zh_reflectionPrompt": "请注意“我们所站的地方”（罗马书 5：1-2）是如何得出的：“这就是你所站的恩典，就像站在日光下一样。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“通过他，我们也可以凭信心进入我们所站的恩典中。”",
+      "zh_ref": "罗马书 5:1–2"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#e6d6b6"
       },
       "dailyWalkDay": 1205,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Romans 5:3–5: “it holds, because the love was already poured in”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Romans 5:3–5: “it holds, because the love was already poured in”?",
+      "zh_title": "希望不会让人失望",
+      "zh_poem": "受苦，然后\n留下来,\n然后是一个字符\n已经测试过的，\n然后希望。\n\n这是一条漫长的路\n没有人会选择它。\n\n但最后的希望\n不是那种\n那让你\n站在门口\n夜幕降临时\n没有人来。\n\n它成立，\n因为爱\n已经是\n倒入。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是罗马书 5 章 3-5 节的安静教训：“这话是成立的，因为爱已经倾注在心里”，那又怎样呢？",
+      "zh_epigraph": "“希望不会让我们失望，因为上帝的爱已经通过赐给我们的圣灵浇灌在我们心中。”",
+      "zh_ref": "罗马书 5:3–5"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#fcc354"
       },
       "dailyWalkDay": 1206,
-      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “but this love went first, and didn't wait to see if we'd be worth it”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “but this love went first, and didn't wait to see if we'd be worth it”?",
+      "zh_title": "当我们还是罪人的时候",
+      "zh_poem": "不是在我们清理干净之后。\n我们一次也没有说过对不起\n并且是认真的。\n\n尽管。\n\n当门关着的时候\n从我们这边。\n当我们在的时候\n仍然走另一条路。\n\n有人可能会死\n对于一个好男人来说，\n保罗说。\n或许。\n\n但这份爱\n先走，\n并没有等待\n去看\n如果我们值得的话。",
+      "zh_reflectionPrompt": "想象一下，站在敞开的门槛旁的这个框架内：当你听到“但这份爱是第一位的，并且没有等到看看我们是否值得”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“但神向我们显明了他自己的爱，因为当我们还是罪人时，基督就为我们而死。”",
+      "zh_ref": "罗马书 5:6–8"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#f6e0b2"
       },
       "dailyWalkDay": 1207,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “it just kept coming, wave on quiet wave, until you could not find where they had been.” What part of your heart feels most searched or comforted by Romans 5:20–21 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “it just kept coming, wave on quiet wave, until you could not find where they had been.” What part of your heart feels most searched or comforted by Romans 5:20–21 right now?",
+      "zh_title": "更多",
+      "zh_poem": "这些石头是真的。\n黑暗，还有很多，\n并堆得高高的。\n\n但潮水\n没有和他们争论。\n\n它就这样不断地出现，\n平静的波浪上的波浪，\n\n直到你找不到为止\n他们曾经去过的地方。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“它就这样不断地涌来，轻轻地一波又一波，直到你找不到它们去过的地方。”现在，罗马书 5 章 20-21 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“罪在哪里显多，恩典就更显多”",
+      "zh_ref": "罗马书 5:20–21"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#e9d9b8"
       },
       "dailyWalkDay": 1208,
-      "reflectionPrompt": "In Romans 6:3–4, grace meets us right beside the quiet centerpiece of “buried and raised”: how does the closing thought—“what comes up is dripping and new and not quite sure how to walk yet, and the first step on the bank is the first step of a different life”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Romans 6:3–4, grace meets us right beside the quiet centerpiece of “buried and raised”: how does the closing thought—“what comes up is dripping and new and not quite sure how to walk yet, and the first step on the bank is the first step of a different life”—steady your footing for the road ahead?",
+      "zh_title": "埋葬和抬升",
+      "zh_poem": "下到水里，\n就像被躺着一样\n在地下。\n\n旧的生活\n不会回来。\n\n这就是重点。\n\n发生了什么\n滴水而新\n并不太确定\n还怎么走路，\n\n和第一步\n在银行\n是第一步\n不同的生活。",
+      "zh_reflectionPrompt": "在《罗马书》6章3-4节中，恩典就在“埋葬和复活”的安静核心旁边与我们相遇：最后的思想——“出现的东西是滴水的，是新的，还不太确定如何行走，在岸上迈出的第一步是不同生活的第一步”——如何为你前面的路站稳脚跟？",
+      "zh_epigraph": "“这样我们也可以行走在新的生活中。”",
+      "zh_ref": "罗马书 6:3–4"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#f7e1bf"
       },
       "dailyWalkDay": 1209,
-      "reflectionPrompt": "If today’s painting of “the open lock” (Romans 6:17–18) hung beside the door you walk out of this morning, how would its final line—“you belong to someone else now, and he doesn't keep chains”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the open lock” (Romans 6:17–18) hung beside the door you walk out of this morning, how would its final line—“you belong to someone else now, and he doesn't keep chains”—shape your choices?",
+      "zh_title": "打开的锁",
+      "zh_poem": "链条还躺在那儿。\n你可以把它放回去。\n\n一些早晨\n老主人呼唤\n你的脚记得\n方式。\n\n但锁是开着的。\n\n你属于\n现在对别人来说\n\n他没有\n保持锁链。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁边挂着今天的“开着的锁”（罗马书 6:17-18）的画，那么它的最后一行——“你现在属于别人了，他不再锁链了”——会如何影响你的选择？",
+      "zh_epigraph": "“你们既然脱离了罪恶，就成为正义的奴仆。”",
+      "zh_ref": "罗马书 6:17–18"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#ece0cb"
       },
       "dailyWalkDay": 1210,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Romans 6:23)—where in your own home or work today does “and the second half is the one God wants to give” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Romans 6:23)—where in your own home or work today does “and the second half is the one God wants to give” ring true?",
+      "zh_title": "工资和礼物",
+      "zh_poem": "工资是你赚的钱。\n你工作，在日落时分\n他们把它算到你手里，\n正是如此。\n\n一份礼物\n你赚不到。\n你只能\n张开你的手。\n\n句子的一侧\n是一种付款。\n另一个\n是一份礼物。\n\n和下半场\n是那个\n神想要给予。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（罗马书 6:23）——今天在你自己的家里或工作中，“后半部分是神要赐予的”听起来是真的吗？",
+      "zh_epigraph": "“因为罪的工价就是死亡，但神的免费恩赐却是在我们的主基督耶稣里的永生。”",
+      "zh_ref": "罗马书 6:23"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#ddcaac"
       },
       "dailyWalkDay": 1211,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “if you have ever made the same promise to yourself for the hundredth time, you are not alone in this chapter.40.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “if you have ever made the same promise to yourself for the hundredth time, you are not alone in this chapter.40.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "我讨厌什么",
+      "zh_poem": "他没有隐藏它。\n伟大的使徒\n写下来\n对于一个他从未见过的教堂：\n\n我想做好事\n但我不这么认为。\n我不想做错事\n我确实这么做了。\n\n使蜡光滑，\n再写一遍，\n看着它弯曲\n在同一个地方。\n\n如果你曾经\n做出了同样的承诺\n对你自己\n第一百次，\n\n你并不孤单\n在本章中.40",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“如果你对自己做出了同样的承诺第一百次，那么在这一章中你并不孤单。40。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“因为我不做我想做的事；但我做我讨厌的事。”",
+      "zh_ref": "罗马书 7:15–19"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#eac89f"
       },
       "dailyWalkDay": 1212,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “not what. who.” Looking through the lens of Romans 7:24–25, what does it mean to discover that “and before the question has finished echoing, he's already saying thank you”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “not what. who.” Looking through the lens of Romans 7:24–25, what does it mean to discover that “and before the question has finished echoing, he's already saying thank you”?",
+      "zh_title": "谁来救救我",
+      "zh_poem": "不是什么。\nWHO。\n\n他没有问\n为了更好的方法，\n更严格的规则，\n再试一次。\n\n他要找一个人。\n\n在提问之前\n已经回响完毕，\n他已经在说\n谢谢。",
+      "zh_reflectionPrompt": "回想一下某个季节，您知道“不是什么。谁”的感觉。透过罗马书 7 章 24-25 节的镜头，我们会发现“问题还没有回答完，他就已经说了谢谢”，这意味着什么？",
+      "zh_epigraph": "“谁能救我脱离这取死的身体呢？我靠着我们的主耶稣基督感谢神！”",
+      "zh_ref": "罗马书 7:24–25"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#f4db9b"
       },
       "dailyWalkDay": 1213,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “now” in this painting (Romans 8:1)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “now” in this painting (Romans 8:1)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "现在",
+      "zh_poem": "因此现在有\n\n不是有一天，\n当你进步之后。\n\n不仅仅是在好日子。\n\n现在。\n\n座位是空的。\n没有人在朗读\n名单。\n\n你可以步行\n穿过广场\n在晨光中\n没有人\n会阻止你。",
+      "zh_reflectionPrompt": "仔细观察这幅画中“现在”的安静中心（罗马书8:1）——如果你今天可以在它旁边留下一个焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“如今那些在基督耶稣里的就不定罪了”",
+      "zh_ref": "罗马书 8:1"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#efe2c5"
       },
       "dailyWalkDay": 1214,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “Abba”: what quiet prayer rises in you when you read, “the Spirit inside you is the one who taught your mouth the word”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “Abba”: what quiet prayer rises in you when you read, “the Spirit inside you is the one who taught your mouth the word”?",
+      "zh_title": "阿爸",
+      "zh_poem": "一个仆人说\n大师\n并低下眼睛。\n\n一个孩子\n不敲门就跑进去\n并说\n阿爸。\n\n你没有被录用。\n你被收养了。\n\n你内在的灵\n是那个\n谁教你的嘴\n这个词。",
+      "zh_reflectionPrompt": "让你的目光停留在《阿爸》安静的中心周围的笔触和光线上：当你读到“你内在的圣灵是教导你说出这个词的那一位”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“你们领受了儿子的圣灵，借着他我们呼叫：“阿爸！父亲！””",
+      "zh_ref": "罗马书 8:15–16"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#eddcaa"
       },
       "dailyWalkDay": 1215,
-      "reflectionPrompt": "Linger with the movement in “labor” (Romans 8:19–22) from “the field is aching” to “the way a mother does when something new is almost here”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “labor” (Romans 8:19–22) from “the field is aching” to “the way a mother does when something new is almost here”—where do you find yourself along that arc today?",
+      "zh_title": "劳工",
+      "zh_poem": "田野正在疼痛。\n群山正在等待。\n甚至霜冻\n似乎屏住了呼吸。\n\n整个世界\n正在呻吟，\n\n但不是这样\n一个垂死的东西在呻吟。\n\n像母亲一样\n当有新事物时\n快到了。",
+      "zh_reflectionPrompt": "留心“临产”（罗马书 8：19-22）中的运动，从“田地疼痛”到“当新事物即将到来时母亲所做的那样”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“因为我们知道，直到现在，一切受造之物都在痛苦中一同叹息、劳苦。”",
+      "zh_ref": "罗马书 8:19–22"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#e2c48f"
       },
       "dailyWalkDay": 1216,
-      "reflectionPrompt": "Notice how “too deep for words” (Romans 8:26–27) arrives at: “someone else is praying underneath your prayer, and he knows exactly what you meant.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “too deep for words” (Romans 8:26–27) arrives at: “someone else is praying underneath your prayer, and he knows exactly what you meant.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "太深不可言",
+      "zh_poem": "有些晚上\n你没有这个词。\n\n你跪下\n以及所有的结果\n是一声叹息。\n\n这就足够了。\n\n别人\n在下面祈祷\n你的祈祷，\n\n他知道\n正是你的意思。",
+      "zh_reflectionPrompt": "请注意“高深莫测”（罗马书 8：26-27）是如何表达的：“别人在你的祷告之下祷告，他完全明白你的意思。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "「圣灵亲自用说不出来的叹息，替我们祈求。」",
+      "zh_ref": "罗马书 8:26–27"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#f3e7cd"
       },
       "dailyWalkDay": 1217,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Romans 8:28: “it says they are being worked together, by hands that know how to make bread”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Romans 8:28: “it says they are being worked together, by hands that know how to make bread”?",
+      "zh_title": "永远在一起",
+      "zh_poem": "单独加盐\n口苦。\n单独发酵\n是酸的。\n面粉本身就是灰尘，\n和火燃烧。\n\n它没有说\n一切都很好。\n\n它说\n他们正在工作\n在一起，\n\n用手\n知道如何制作\n面包。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是罗马书 8 章 28 节的安静教训：“经上说，这些东西是由懂得做饼的手一起做的”，那又怎样呢？",
+      "zh_epigraph": "“我们知道万事互相效力，叫爱神的人得益处”",
+      "zh_ref": "罗马书 8:28"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#ecc99d"
       },
       "dailyWalkDay": 1218,
-      "reflectionPrompt": "Imagine standing inside this frame beside the city gate: what hurry or noise in your week begins to fade when you hear, “he is standing at the gate”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the city gate: what hurry or noise in your week begins to fade when you hear, “he is standing at the gate”?",
+      "zh_title": "为了我们",
+      "zh_poem": "谁会指控你？\n称义的那一位？\n\n谁会谴责你呢？\n为你而死的那一位，\n和玫瑰，\n并为你祈祷\n现在？\n\n此案无人\n留下来带它。\n\n神不是\n就在你的房间对面。\n\n他站着\n在门口。",
+      "zh_reflectionPrompt": "想象一下站在城门旁边的这个框架内：当你听到“他站在城门口”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“如果上帝支持我们，谁能反对我们呢？”",
+      "zh_ref": "罗马书 8:31–34"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#fbeecc"
       },
       "dailyWalkDay": 1219,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and still the boat comes through, not because the sea was easy, but because of the one who loves the people in the boat.” What part of your heart feels most searched or comforted by Romans 8:35–37 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and still the boat comes through, not because the sea was easy, but because of the one who loves the people in the boat.” What part of your heart feels most searched or comforted by Romans 8:35–37 right now?",
+      "zh_title": "超过征服者",
+      "zh_poem": "不在附近\n这些事情。\n不高于他们。\n\n在他们之中。\n\n饥饿是真实的。\n风暴是真实的。\n危险并不\n礼貌地让到一边。\n\n仍然是船\n来了，\n\n不是因为\n海很容易，\n\n但因为一个\n谁爱人民\n在船上。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“船仍然渡过难关，不是因为大海安逸，而是因为爱船上的人们。”现在，罗马书 8 章 35-37 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“在这一切事情上，靠着爱我们的主，我们已经得胜有余了。”",
+      "zh_ref": "罗马书 8:35–37"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f4d387"
       },
       "dailyWalkDay": 1220,
-      "reflectionPrompt": "In Romans 8:38–39, grace meets us right beside the quiet centerpiece of “nothing”: how does the closing thought—“he comes back empty-handed and glad”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Romans 8:38–39, grace meets us right beside the quiet centerpiece of “nothing”: how does the closing thought—“he comes back empty-handed and glad”—steady your footing for the road ahead?",
+      "zh_title": "什么都没有",
+      "zh_poem": "不是死亡。\n不是生活。\n不是天使，\n不是统治者，\n不是今天，\n不是明天带来什么。\n\n不是高度\n天空的\n或深度\n海的。\n\n保罗去寻找\n通过所有的创造\n一方面\n足够强大。\n\n他回来了\n空手而归\n\n很高兴。",
+      "zh_reflectionPrompt": "在罗马书 8 章 38-39 节中，恩典就在“无”的安静核心旁边与我们相遇：最后的思想——“他空手而归”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“没有任何其他受造之物能够使我们与神的爱隔绝，这爱是在我们的主基督耶稣里的。”",
+      "zh_ref": "罗马书 8:38–39"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#f6ddb2"
       },
       "dailyWalkDay": 1221,
-      "reflectionPrompt": "If today’s painting of “great sorrow” (Romans 9:1–5) hung beside the door you walk out of this morning, how would its final line—“and you can tell from the grief how much he loves them”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “great sorrow” (Romans 9:1–5) hung beside the door you walk out of this morning, how would its final line—“and you can tell from the grief how much he loves them”—shape your choices?",
+      "zh_title": "巨大的悲伤",
+      "zh_poem": "在这里，在中间\n最快乐的一封信\n他曾经写道，\n他停了下来。\n\n他自己的人。\n他自己的家人。\n那些被给予的人\n契约，\n的承诺，\n父辈们。\n\n他不在这里争论。\n他很悲伤。\n\n你可以看出\n从悲伤中\n多少\n他爱他们。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“大悲痛”（罗马书 9:1-5）的画，那么它的最后一行——“你从悲痛中就知道他有多么爱他们”——会如何影响你的选择？",
+      "zh_epigraph": "“我心里非常悲伤，痛苦不断。”",
+      "zh_ref": "罗马书 9:1–5"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#e7a56c"
       },
       "dailyWalkDay": 1222,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Romans 9:20–23)—where in your own home or work today does “but see what he is making: not trophies, not tools, vessels of mercy, so there is something to carry the riches of his glory to everyone” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Romans 9:20–23)—where in your own home or work today does “but see what he is making: not trophies, not tools, vessels of mercy, so there is something to carry the riches of his glory to everyone” ring true?",
+      "zh_title": "怜悯的器皿",
+      "zh_poem": "粘土可以问\n为什么。\n\n和陶工\n对它有耐心，\n更有耐心\n比粘土\n可以理解。\n\n这里有东西\n对我们来说太深了。\n\n但看看他在做什么：\n不是奖杯，\n不是工具，\n\n怜悯的器皿，\n所以有一些东西\n携带\n他荣耀的丰富\n\n给大家。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（罗马书 9:20-23）——今天在你自己的家中或工作中，“但看他正在创造什么：不是战利品，不是工具，不是怜悯的器皿，所以有一些东西可以将他荣耀的丰富带给每个人”，这听起来是真的吗？",
+      "zh_epigraph": "“他丰富的荣耀在蒙怜悯的器皿上”",
+      "zh_ref": "罗马书 9:20–23"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#e6cc9c"
       },
       "dailyWalkDay": 1223,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “the word is near you, as near as your own breath, and whoever calls, Jew or Greek, anyone, will be saved.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “the word is near you, as near as your own breath, and whoever calls, Jew or Greek, anyone, will be saved.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "附近",
+      "zh_poem": "你不必攀爬\n进入天堂\n把他打倒。\n\n你不必挖掘\n进入深处\n抚养他。\n\n他已经下来了。\n他已经站起来了。\n\n这个词就在你身边，\n就如你自己的呼吸一样近，\n\n无论谁打电话来，\n犹太人或希腊人，\n任何人，\n将会被拯救。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“这个词离你很近，就像你自己的呼吸一样，无论谁呼唤，无论是犹太人还是希腊人，任何人，都会得救。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“这个词就在你身边，在你的嘴里，在你的心里”",
+      "zh_ref": "罗马书 10:8–13"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#e6d8ba"
       },
       "dailyWalkDay": 1224,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “nobody writes poems about feet.” Looking through the lens of Romans 10:14–15, what does it mean to discover that “someone had to open their mouth and say it, and every mile of that road is beautiful”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “nobody writes poems about feet.” Looking through the lens of Romans 10:14–15, what does it mean to discover that “someone had to open their mouth and say it, and every mile of that road is beautiful”?",
+      "zh_title": "美丽的脚",
+      "zh_poem": "没有人写诗\n关于脚。\n\n脚后跟干裂。\n脚趾间的灰尘。\n漫长的路\n仍然在他们身上。\n\n但必须有人步行\n到你所在的地方。\n\n必须有人打开\n他们的嘴\n并说出来，\n\n和每一英里\n那条路的\n很漂亮。",
+      "zh_reflectionPrompt": "想象一下你体会过“没有人写关于脚的诗”的感觉的一个季节。透过罗马书 10 章 14-15 节的视角，发现“必须有人开口说出来，那条路的每一英里都是美丽的”，这意味着什么？",
+      "zh_epigraph": "“传播和平福音的人的脚是多么美丽啊”",
+      "zh_ref": "罗马书 10:14–15"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#eee2c0"
       },
       "dailyWalkDay": 1225,
-      "reflectionPrompt": "Look closely at the deep roots of the tree in this painting (Romans 11:17–24)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the deep roots of the tree in this painting (Romans 11:17–24)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "橄榄树",
+      "zh_poem": "一根野枝，\n从山坡上切下来\n没有人照料的地方，\n\n绑在一棵老树上\n根深蒂固\n和长久的记忆。\n\n保罗说，不要自夸。\n你没有种下根。\n根抓住了你。\n\n神有能力\n嫁接老枝\n又回来了。\n\n他的礼物\n不要被收回。",
+      "zh_reflectionPrompt": "仔细观察这幅画中树的深深根部（罗马书11：17-24）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“不是你支撑着根，而是根支撑着你。”",
+      "zh_ref": "罗马书 11:17–24"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#edddba"
       },
       "dailyWalkDay": 1226,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the stone well in the heat of the day: what quiet prayer rises in you when you read, “sometimes worship is what you do at the bottom of your questions”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the stone well in the heat of the day: what quiet prayer rises in you when you read, “sometimes worship is what you do at the bottom of your questions”?",
+      "zh_title": "深度",
+      "zh_poem": "三章\n的难题，\n\n在它们的底部\n他没有找到\n一个简洁的答案。\n\n他找到一口井\n这么深\n他看不到结局。\n\n所以他停止争论\n并开始唱：\n来自他，通过他，\n对他来说，一切。\n\n有时崇拜\n就是你所做的\n在底部\n你的问题。",
+      "zh_reflectionPrompt": "在炎热的天气里，让你的眼睛停留在石头周围的笔触和光线上：当你读到“有时崇拜是你在问题的底部所做的事情”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“哦，上帝的智慧和知识多么丰富啊！”",
+      "zh_ref": "罗马书 11:33–36"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#fbd9b0"
       },
       "dailyWalkDay": 1227,
-      "reflectionPrompt": "Linger with the movement in “living sacrifice” (Romans 12:1–2) from “not a lamb this time” to “the rest of you will follow”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “living sacrifice” (Romans 12:1–2) from “not a lamb this time” to “the rest of you will follow”—where do you find yourself along that arc today?",
+      "zh_title": "活祭",
+      "zh_poem": "这次不是羔羊。\n不是公牛，\n不是一袋谷物。\n\n你。\n\n并没有死在祭坛上，\n但活着，\n早上起床，\n去上班，\n设置桌子。\n\n世界会压迫你\n成其形状\n如果你允许的话。\n\n让上帝\n首先改变主意。\n\n你们其余的人\n将会跟随。",
+      "zh_reflectionPrompt": "停留在“活祭”（罗马书 12：1-2）的运动中，从“这次不是羔羊”到“你们其余的人也要跟随”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“通过心意更新而改变”",
+      "zh_ref": "罗马书 12:1–2"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#faf4e9"
       },
       "dailyWalkDay": 1228,
-      "reflectionPrompt": "Notice how “without pretending” (Romans 12:9–10) arrives at: “just a plain cup, full, and all the way through the same clay.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “without pretending” (Romans 12:9–10) arrives at: “just a plain cup, full, and all the way through the same clay.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "不假装",
+      "zh_poem": "同样的爱\n在餐桌上\n就像在街上一样。\n\n同样的善意\n当没有人的时候\n正在观看。\n\n没有画任何东西。\n没有戴上脸\n对于公司。\n\n只是一个普通的杯子，\n满,\n\n并一路走来\n同样的粘土。",
+      "zh_reflectionPrompt": "请注意“不假装”（罗马书 12：9-10）如何达到：“只是一个普通的杯子，装满了，并且一直通过同一块泥土。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“让爱不虚伪。”",
+      "zh_ref": "罗马书 12:9–10"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#d9b985"
       },
       "dailyWalkDay": 1229,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Romans 12:15: “some days, the water. it's to be at the table”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Romans 12:15: “some days, the water. it's to be at the table”?",
+      "zh_title": "与",
+      "zh_poem": "有些日子，酒。\n有些日子，水。\n\n礼物不是\n得到答案。\n\n应该是\n在餐桌上。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《罗马书》12:15 中安静的教训：“有些日子，水。它是要放在餐桌上的”怎么办？",
+      "zh_epigraph": "“与喜乐的人同乐。与哭泣的人同哭。”",
+      "zh_ref": "罗马书 12:15"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#f6e9b0"
       },
       "dailyWalkDay": 1230,
-      "reflectionPrompt": "Imagine standing inside this frame beside the daily loaf broken in the hand: what hurry or noise in your week begins to fade when you hear, “bread on the doorstep is how you refuse”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the daily loaf broken in the hand: what hurry or noise in your week begins to fade when you hear, “bread on the doorstep is how you refuse”?",
+      "zh_title": "克服",
+      "zh_poem": "他冤枉了你。\n你记得\n每一个字。\n\n这是奇怪的\n说明：\n\n如果他饿了\n喂他。\n如果他渴了\n给他带水。\n\n留下算账\n给上帝。\n\n邪恶的愿望\n让你\n变成它自己的形状。\n\n门口的面包\n你就是这样\n拒绝。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是每天手上碎的面包：当你听到“门口的面包就是你拒绝的方式”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“不要被恶所胜，而要以善胜恶。”",
+      "zh_ref": "罗马书 12:17–21"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f9c186"
       },
       "dailyWalkDay": 1231,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “put on the light like a clean garment, and walk the way people walk when the day has already come.” What part of your heart feels most searched or comforted by Romans 13:11–12 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “put on the light like a clean garment, and walk the way people walk when the day has already come.” What part of your heart feels most searched or comforted by Romans 13:11–12 right now?",
+      "zh_title": "夜已远去",
+      "zh_poem": "你能感觉到\n在你看到它之前：\n\n黑暗渐渐变薄，\n某处有一只公鸡，\n空气在变化。\n\n醒来吧。\n\n起飞\n什么属于夜晚。\n\n把灯打开\n就像一件干净的衣服，\n\n并步行\n人们走路的方式\n当那一天\n已经来了。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“披上灯，如净衣，行人路，天已来。”现在，罗马书 13 章 11-12 节最能触动你内心的哪个部分？",
+      "zh_epigraph": "“黑夜已远去，白昼已近。”",
+      "zh_ref": "罗马书 13:11–12"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#ebdab9"
       },
       "dailyWalkDay": 1232,
-      "reflectionPrompt": "In Romans 15:7, grace meets us right beside the table set before you: how does the closing thought—“pull out a stool. make room”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Romans 15:7, grace meets us right beside the table set before you: how does the closing thought—“pull out a stool. make room”—steady your footing for the road ahead?",
+      "zh_title": "欢迎",
+      "zh_poem": "一个人吃肉。\n一个人只吃蔬菜。\n人们遵守圣日。\n一个人让他们都一样。\n\n他们可以争论\n直到灯熄灭。\n\n或者他们可以记得\n他们如何获得座位\n在这张桌子上\n首先：\n\n有人腾出空间\n对他们来说\n在他们之前\n一切都对。\n\n拉出一个凳子。\n腾出空间。",
+      "zh_reflectionPrompt": "在罗马书 15 章 7 节中，恩典就在摆在你面前的桌子旁边与我们相遇：最后的想法——“拉出凳子，让出地方”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“因此，为了荣耀上帝，请彼此接受，就像基督也接受了你们一样。”",
+      "zh_ref": "罗马书 15:7"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#fbebc6"
       },
       "dailyWalkDay": 1233,
-      "reflectionPrompt": "If today’s painting of “the Lord's” (Romans 14:7–8) hung beside the door you walk out of this morning, how would its final line—“on this side or the other, waking or sleeping, the vineyard still has the same owner”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the Lord's” (Romans 14:7–8) hung beside the door you walk out of this morning, how would its final line—“on this side or the other, waking or sleeping, the vineyard still has the same owner”—shape your choices?",
+      "zh_title": "主的",
+      "zh_poem": "我们没有人\n为自己而活。\n\n我们没有人会死\n对他自己也是如此。\n\n在这一边\n或其他，\n醒来或睡觉时，\n\n葡萄园\n仍然有\n同一个所有者。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“主的”（罗马书14：7-8）的画，那么它的最后一行——“在这一边或另一边，醒着或睡着，葡萄园仍然有同一个主人”——会如何影响你的选择？",
+      "zh_epigraph": "“因此，无论我们是生还是死，我们都是主的。”",
+      "zh_ref": "罗马书 14:7–8"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#e7dbb9"
       },
       "dailyWalkDay": 1234,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Romans 15:13)—where in your own home or work today does “he prays that God will fill them, like a jar set under the spring, until the joy runs over the rim and the ground around it gets wet too” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Romans 15:13)—where in your own home or work today does “he prays that God will fill them, like a jar set under the spring, until the joy runs over the rim and the ground around it gets wet too” ring true?",
+      "zh_title": "希望之神",
+      "zh_poem": "他不祈祷\n他们会更加努力\n在希望。\n\n他祈祷\n愿神充满他们，\n\n像一个罐子\n设置在弹簧下方，\n\n直到喜悦\n跑过篮筐\n\n和它周围的地面\n也会被淋湿。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方遇见我们（罗马书 15:13）——今天在你自己的家里或工作中，“他祈求神充满他们，就像放在泉水下的罐子一样，直到喜乐流过边缘，周围的地面也被湿润”，这听起来是真的吗？",
+      "zh_epigraph": "“愿赐人希望的神，因信使你们充满喜乐与平安，使你们大有盼望”",
+      "zh_ref": "罗马书 15:13"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#d8cbae"
       },
       "dailyWalkDay": 1235,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “the gospel, it turns out, has a lot of friends.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “the gospel, it turns out, has a lot of friends.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "问候他们所有人",
+      "zh_poem": "在所有伟大的章节之后，\n他以名字结尾。\n\n菲比，帮助了很多人。\n百基拉和亚居拉冒着生命危险，\n和他们家里的教堂。\n玛丽，工作很努力。\n安德洛尼克斯和朱尼亚，\n在基督之前就已经在基督里了。\n佩西斯，亲爱的。\n鲁弗斯和他的母亲，\n也是保罗的母亲。\n\n特蒂乌斯拿着笔，\n他自己打招呼。\n\n事实证明，福音\n有很多朋友。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“事实证明，福音有很多朋友。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“我向你推荐我们的妹妹菲比，她是坚革里议会的仆人”",
+      "zh_ref": "罗马书 16:1–16"
     }
-  ]
+  ],
+  "zh_title": "绝不能隔绝",
+  "zh_subtitle": "罗马书诗画集",
+  "zh_beforeYouBegin": "保罗写信给他从未见过的罗马信徒，在一封信中向他们传递了整个福音：一个在每一片叶子上都彰显造物主的世界，一排灯都熄灭了，自由地赦免，一个老人数着星星，一条河，旧的生命被埋葬，新的生命爬出来。然后，一个诚实地说他做了他所讨厌的事情的人，一个呼唤阿爸的孩子，一个像临产妇女一样呻吟的创造物，一根野橄榄枝嫁接在老树根上，以及一长串叫出名字的朋友。\n\n这本书用四十首短诗，分为五个部分来贯穿它：不羞耻的福音、与神和好、圣灵里的生命、临到每个人的怜悯，以及餐桌上的爱。每首诗都位于一幅画旁边和一行经文之下。这些图片与信件所接触到的东西在一起——一个破损的封条、一粒种子、一个陶罐、一根橄榄枝、一张有空间的桌子——把面孔留给你想象。\n\n这些诗不是圣经。它们是一位读者对此的回应。将保罗写给罗马人的信与这本书放在一起打开，让真实的话语成为最后的话语。"
 }

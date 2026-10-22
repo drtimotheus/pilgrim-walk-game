@@ -11,7 +11,10 @@
       "epigraphRef": "DEUTERONOMY 8:2",
       "startN": 1,
       "endN": 8,
-      "part": 1
+      "part": 1,
+      "zh_title": "第一部分·记住路",
+      "zh_epigraph": "你要记念耶和华你的神在旷野引导你这四十年",
+      "zh_epigraphRef": "DEUTERONOMY 8:2"
     },
     {
       "index": 2,
@@ -20,7 +23,10 @@
       "epigraphRef": "DEUTERONOMY 6:5",
       "startN": 9,
       "endN": 18,
-      "part": 2
+      "part": 2,
+      "zh_title": "第二部分·听，以色列",
+      "zh_epigraph": "你要尽心、尽性、尽力爱耶和华你的上帝。",
+      "zh_epigraphRef": "DEUTERONOMY 6:5"
     },
     {
       "index": 3,
@@ -29,7 +35,10 @@
       "epigraphRef": "DEUTERONOMY 15:8",
       "startN": 19,
       "endN": 26,
-      "part": 3
+      "part": 3,
+      "zh_title": "第三部分·张开双手",
+      "zh_epigraph": "你一定会向他张开你的手",
+      "zh_epigraphRef": "DEUTERONOMY 15:8"
     },
     {
       "index": 4,
@@ -38,7 +47,10 @@
       "epigraphRef": "DEUTERONOMY 30:19",
       "startN": 27,
       "endN": 36,
-      "part": 4
+      "part": 4,
+      "zh_title": "第四部分·选择生活",
+      "zh_epigraph": "因此，选择生命，以便你和你的子孙能够生存",
+      "zh_epigraphRef": "DEUTERONOMY 30:19"
     }
   ],
   "cover": "assets/choose-life/web/c-004-000.jpg",
@@ -62,7 +74,11 @@
         "accent": "#fde495"
       },
       "dailyWalkDay": 121,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “the road was where they would learn to live it” (Deuteronomy 1:6-8) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “the road was where they would learn to live it” (Deuteronomy 1:6-8) speak to a question you have been carrying lately?",
+      "zh_title": "足够长的时间",
+      "zh_poem": "有些地方是神圣的\n但还没到家。\n\n他们曾露营\n在山脚下\n神说话的地方，\n\n这本来很容易\n留下来。\n\n但声音\n在那里遇见了他们\n说：转。\n踏上你的旅程。\n\n山在哪里\n他发了言。\n\n路在哪里\n他们会学会如何生活。",
+      "zh_reflectionPrompt": "有时，一句话可以为封闭的房间打开一扇窗：“路是他们学习生活的地方”（申命记 1：6-8）如何解答您最近一直在思考的问题？",
+      "zh_ref": "申命记 1:6-8"
     },
     {
       "n": 2,
@@ -83,7 +99,11 @@
         "accent": "#f8e3b7"
       },
       "dailyWalkDay": 122,
-      "reflectionPrompt": "Hold your hands open for a moment before “carried” (Deuteronomy 1:31): what are you gripping tightly that loosens when you hear, “Moses remembers something else: a father with a tired child up on his shoulders, all the way you went, until you came to this place”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “carried” (Deuteronomy 1:31): what are you gripping tightly that loosens when you hear, “Moses remembers something else: a father with a tired child up on his shoulders, all the way you went, until you came to this place”?",
+      "zh_title": "携带",
+      "zh_poem": "你记得\n漫长的步行。\n\n热量，\n抱怨的人，\n那些你没想到的夜晚\n你会成功的。\n\n摩西记得\n其他的东西：\n\n一位父亲\n带着一个疲惫的孩子\n在他的肩膀上，\n\n一路走来\n你去了，\n直到你来\n到这个地方。",
+      "zh_reflectionPrompt": "在“被抬”之前，请张开你的双手（申命记 1:31）：当你听到“摩西想起一件事：一位父亲肩上扛着疲倦的孩子，一路走来，直到你来到这个地方”时，你紧握的是什么东西松开了？",
+      "zh_ref": "申命记 1:31"
     },
     {
       "n": 3,
@@ -104,7 +124,11 @@
         "accent": "#e2c896"
       },
       "dailyWalkDay": 123,
-      "reflectionPrompt": "Scripture remembers this moment in Deuteronomy 2:7 not to impress us, but to steady us: when have you seen the truth that “he knew your walking, every mile of it, and every morning there was enough” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Deuteronomy 2:7 not to impress us, but to steady us: when have you seen the truth that “he knew your walking, every mile of it, and every morning there was enough” in your own story?",
+      "zh_title": "你什么都不缺",
+      "zh_poem": "不是什么都没有\n想要。\n\n有四十年\n想要的。\n\n但什么也没有\n缺乏。\n\n他知道你的脚步，\n它的每一英里，\n\n和每个早晨\n已经够了。",
+      "zh_reflectionPrompt": "圣经在申命记 2 章 7 节中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过这样的真理：“他知道你所行的每一英里，每天早晨都够了”？",
+      "zh_ref": "申命记 2:7"
     },
     {
       "n": 4,
@@ -125,7 +149,11 @@
         "accent": "#fac08b"
       },
       "dailyWalkDay": 124,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “that is enough” (Deuteronomy 3:23-27), what one honest sentence would you pray beside the quiet centerpiece of “that is enough” after reading, “sometimes the answer is no, and it comes with a view”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “that is enough” (Deuteronomy 3:23-27), what one honest sentence would you pray beside the quiet centerpiece of “that is enough” after reading, “sometimes the answer is no, and it comes with a view”?",
+      "zh_title": "这就足够了",
+      "zh_poem": "摩西恳求道。\n\n只为穿越，\n只是站着\n在美地\n他走向\n四十年来。\n\n上帝说：\n够了。\n这个就不再多说了。\n\n但他并没有把他送走\n空的。\n\n上去吧，他说。\n抬起你的眼睛。\n向西、向北、向南、向东看。\n\n有时答案是否定的，\n它来了\n有风景。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“够了”（申命记 3:23-27）时，读完“有时答案是否定的，但它会带来一个风景”之后，除了“够了”这个安静的核心内容之外，你还会祈祷哪一句诚实的句子呢？",
+      "zh_ref": "申命记 3:23-27"
     },
     {
       "n": 5,
@@ -146,7 +174,11 @@
         "accent": "#f4dbaf"
       },
       "dailyWalkDay": 125,
-      "reflectionPrompt": "Between the opening line (“other nations had tall gods far away on mountaintops, in temples you could only enter if you were someone”) and the closing thought (“just your voice, whenever”), what is Deuteronomy 4:7 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“other nations had tall gods far away on mountaintops, in temples you could only enter if you were someone”) and the closing thought (“just your voice, whenever”), what is Deuteronomy 4:7 gently reframing in your own day?",
+      "zh_title": "这么近",
+      "zh_poem": "其他国家\n有高大的神\n远方\n\n在山顶上，\n在寺庙里\n你只能输入\n如果你是某人。\n\n以色列有\n一个可以触及的神\n通过调用。\n\n没有攀爬。\n没有预约。\n\n只是你的声音，\n每当。",
+      "zh_reflectionPrompt": "在开场白（“其他国家在遥远的山顶上有高大的神，只有你是某人才能进入的寺庙”）和结束语（“无论何时，只要你的声音”）之间，申命记 4:7 在你那个时代轻轻地重构了什么？",
+      "zh_ref": "申命记 4:7"
     },
     {
       "n": 6,
@@ -167,7 +199,11 @@
         "accent": "#bd8f5e"
       },
       "dailyWalkDay": 126,
-      "reflectionPrompt": "Along the road of Choose Life, “what your eyes saw” (Deuteronomy 4:9) slows us down at the daily loaf broken in the hand to remind us: “a story told is a story kept.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Choose Life, “what your eyes saw” (Deuteronomy 4:9) slows us down at the daily loaf broken in the hand to remind us: “a story told is a story kept.” Where are you being invited to trade control for trust today?",
+      "zh_title": "你的眼睛看到了什么",
+      "zh_poem": "记忆\n是一个漏水的罐子。\n\n你的眼睛看到了什么，\n火、声音、\n地上的面包，\n\n滴出\n每天一点\n如果你离开它\n站着。\n\n所以倒出来\n故意：\n\n告诉你的孩子。\n告诉他们的孩子。\n\n讲述了一个故事\n是一个保留的故事。",
+      "zh_reflectionPrompt": "在选择生命的道路上，“你亲眼所见的”（申命记 4:9）让我们放慢脚步，每天手中的面包都被打破，提醒我们：“讲述的故事就是保留的故事。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_ref": "申命记 4:9"
     },
     {
       "n": 7,
@@ -188,7 +224,11 @@
         "accent": "#edd29d"
       },
       "dailyWalkDay": 127,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “with all your heart” (Deuteronomy 4:29-31), what would you talk about after reading, “he doesn't forget what he promised just because you did”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “with all your heart” (Deuteronomy 4:29-31), what would you talk about after reading, “he doesn't forget what he promised just because you did”?",
+      "zh_title": "全心全意",
+      "zh_poem": "即使是从很远的地方。\n即使从那个地方\n你最终\n因为你流浪了。\n\n从那里开始，\n摩西说，\n你将寻求。\n\n从那里\n你会发现。\n\n他是一位仁慈的上帝。\n他不会忘记\n他所承诺的\n\n只是因为\n你做到了。",
+      "zh_reflectionPrompt": "如果你和一个亲密的朋友一起走在这条路上，并停在“全心全意”（申命记4:29-31）处，读完“他不会因为你忘记他所应许的”，你会谈论什么？",
+      "zh_ref": "申命记 4:29-31"
     },
     {
       "n": 8,
@@ -209,7 +249,11 @@
         "accent": "#fcc9ae"
       },
       "dailyWalkDay": 128,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “alive today”: what changes in your posture today when you sit with the closing words of “alive today”—“it is spoken to whoever is standing here, alive, today. that includes you”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “alive today”: what changes in your posture today when you sit with the closing words of “alive today”—“it is spoken to whoever is standing here, alive, today. that includes you”?",
+      "zh_title": "今天还活着",
+      "zh_poem": "大多数人在听\n曾是西奈山的孩子，\n或者还没有出生。\n\n摩西说：\n不和我们的父亲一起。\n和我们一起。\n\n承诺\n不是传家宝\n在一个盒子里。\n\n是说出来的\n无论是谁站在这里，\n活着，\n今天。\n\n其中包括你。",
+      "zh_reflectionPrompt": "在“今天活着”的安静核心前停顿一下：当你坐下来，以“今天活着”作为结束语时，你今天的姿势会发生什么变化——“这是对今天站在这里的人说的，包括你在内”？",
+      "zh_ref": "申命记 5:3"
     },
     {
       "n": 9,
@@ -230,7 +274,11 @@
         "accent": "#fdec97"
       },
       "dailyWalkDay": 129,
-      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “hear” in Timothy’s painting: what striving can you lay down as you ponder, “so one love, not divided: all your heart, all your soul, all your strength, given to the one who gave it all to you” (Deuteronomy 6:4-5)?"
+      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “hear” in Timothy’s painting: what striving can you lay down as you ponder, “so one love, not divided: all your heart, all your soul, all your strength, given to the one who gave it all to you” (Deuteronomy 6:4-5)?",
+      "zh_title": "听到",
+      "zh_poem": "在任何规则之前，\n一句话：\n\n听到。\n\n不做。\n不更加努力。\n\n停下来\n并听。\n\n一位神。\n\n所以一个人的爱，\n不分：\n\n你全心全意，\n你全部的灵魂，\n你所有的力量，\n\n给予一个人\n谁给了这一切\n给你。",
+      "zh_reflectionPrompt": "看看蒂莫西画中安静的中心“听”的宁静：当你沉思时，你能放下什么努力，“所以一个人爱，不分开：你的整个心，你的灵魂，你所有的力量，都给了那给你一切的人”（申命记6：4-5）？",
+      "zh_ref": "申命记 6:4-5"
     },
     {
       "n": 10,
@@ -252,7 +300,11 @@
         "kind": "mezuzah"
       },
       "dailyWalkDay": 130,
-      "reflectionPrompt": "In Deuteronomy 6:6-9, the story turns on the open threshold—and ends with, “it's the doorway to all of them.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Deuteronomy 6:6-9, the story turns on the open threshold—and ends with, “it's the doorway to all of them.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "门柱",
+      "zh_poem": "不在寺庙里。\n在门口。\n\n你累了进来的地方。\n你出去的地方\n去工作。\n\n孩子们跑过的地方\n每天一百次。\n\n谈论他们，他说，\n当你坐下时，\n当你走路时，\n当你躺下时，\n当你起床时。\n\n信仰不是一个房间\n在房子里。\n\n这是门口\n对他们所有人。",
+      "zh_reflectionPrompt": "在申命记 6:6-9 中，故事从敞开的门槛开始，并以“这是通往所有人的门口”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_ref": "申命记 6:6-9"
     },
     {
       "n": 11,
@@ -273,7 +325,11 @@
         "accent": "#eebf81"
       },
       "dailyWalkDay": 131,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Deuteronomy 6:20-21 points us to your own two hands and whispers, “and then tell him about the hand that brought us out.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Deuteronomy 6:20-21 points us to your own two hands and whispers, “and then tell him about the hand that brought us out.” How can you practice that unhurried wisdom today?",
+      "zh_title": "当你儿子问起时",
+      "zh_poem": "他不会问\n进行讲座。\n\n他会问\n这一切意味着什么。\n\n所以不要开始\n有规则。\n\n开始于：\n我们是奴隶。\n\n然后告诉他\n关于手\n那把我们带了出来。",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，但申命记 6:20-21 却将我们指向你自己的两只手，并低声说：“然后告诉他那只带我们出去的手。”今天你如何能修习这种从容的智慧呢？",
+      "zh_ref": "申命记 6:20-21"
     },
     {
       "n": 12,
@@ -294,7 +350,11 @@
         "accent": "#e6dbbc"
       },
       "dailyWalkDay": 132,
-      "reflectionPrompt": "The poem closes with a quiet turn: “it was never about the size of the flower.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “it was never about the size of the flower.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "最少的",
+      "zh_poem": "他没有选择他们\n因为他们很多。\n\n他们是最少的。\n\n他没有选择他们\n因为它们令人印象深刻。\n\n他选择了他们\n因为他爱。\n\n这就是全部原因。\n\n从来没有\n大约是花的大小。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“它从来都不是关于花的大小。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_ref": "申命记 7:7-8"
     },
     {
       "n": 13,
@@ -315,7 +375,11 @@
         "accent": "#eddeaa"
       },
       "dailyWalkDay": 133,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “you are fed by the one who speaks, not by what you can keep in a jar” (Deuteronomy 8:2-3) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “you are fed by the one who speaks, not by what you can keep in a jar” (Deuteronomy 8:2-3) speak to a question you have been carrying lately?",
+      "zh_title": "不只是靠面包",
+      "zh_poem": "他让他们\n饿了。\n\n然后喂他们\n配面包\n没有人见过，\n\n你无法储存的面包\n或赚取，\n\n只聚集，\n每天早上，\n和信任。\n\n你吃饱了\n说话的人，\n\n不是靠你能做的\n放在罐子里。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“你们得饱足的是说话的人，不是靠罐子里的东西”（申命记 8:2-3），如何解答您最近一直在思考的问题？",
+      "zh_ref": "申命记 8:2-3"
     },
     {
       "n": 14,
@@ -336,7 +400,11 @@
         "accent": "#eadcb7"
       },
       "dailyWalkDay": 134,
-      "reflectionPrompt": "Hold your hands open for a moment before “a good land” (Deuteronomy 8:7-10): what are you gripping tightly that loosens when you hear, “you shall eat and be full, and then, he says, bless him”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “a good land” (Deuteronomy 8:7-10): what are you gripping tightly that loosens when you hear, “you shall eat and be full, and then, he says, bless him”?",
+      "zh_title": "一块好土地",
+      "zh_poem": "四十年后\n沙子，\n\n摩西向他们宣读名单\n就像菜单一样：\n\n布鲁克斯和斯普林斯，\n小麦和大麦，\n葡萄树和无花果，\n石榴，\n橄榄和蜂蜜。\n\n你应该吃\n并且要充实，\n\n然后，\n他说，\n\n祝福他。",
+      "zh_reflectionPrompt": "在“美地”（申命记 8:7-10）面前张开你的双手：当你听到“你必吃饱，然后，他说，要给他祝福”时，你紧握的是什么松开了？",
+      "zh_ref": "申命记 8:7-10"
     },
     {
       "n": 15,
@@ -357,7 +425,11 @@
         "accent": "#e9d7b1"
       },
       "dailyWalkDay": 135,
-      "reflectionPrompt": "Scripture remembers this moment in Deuteronomy 8:11-14 not to impress us, but to steady us: when have you seen the truth that “remember in the plenty what you learned in the sand” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Deuteronomy 8:11-14 not to impress us, but to steady us: when have you seen the truth that “remember in the plenty what you learned in the sand” in your own story?",
+      "zh_title": "当你吃饱的时候",
+      "zh_poem": "荒野\n这不是危险的部分。\n\n饥饿让他们\n抬头看。\n\n危险\n稍后会来：\n\n精美的房子，\n不断增长的羊群，\n银子，\n满满一盘，\n\n和一颗心\n慢慢举起\n直到它忘记\n谁的手\n把它拿出来。\n\n记住在充足的情况下\n你学到了什么\n在沙子里。",
+      "zh_reflectionPrompt": "圣经在申命记 8:11-14 中记住这一刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“在丰盛的事上记念你在沙中所学的”这个真理？",
+      "zh_ref": "申命记 8:11-14"
     },
     {
       "n": 16,
@@ -378,7 +450,11 @@
         "accent": "#eed9a8"
       },
       "dailyWalkDay": 136,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “the heart's foreskin” (Deuteronomy 10:16), what one honest sentence would you pray beside the quiet centerpiece of “the heart's foreskin” after reading, “he was asking for the real you, uncovered”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “the heart's foreskin” (Deuteronomy 10:16), what one honest sentence would you pray beside the quiet centerpiece of “the heart's foreskin” after reading, “he was asking for the real you, uncovered”?",
+      "zh_title": "心脏的包皮",
+      "zh_poem": "身体上的标志\n从来没有意味着\n停在身体上。\n\n上帝想要\n覆盖物\n切掉\n发自内心，\n\n硬质层，\n脖子僵硬，\n不会的部分\n当他打电话时转身。\n\n他对你的要求并没有减少。\n\n他在问\n为了真实的你，\n未被覆盖。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“心的包皮”（申命记 10:16）时，在读到“他在要求真实的你，没有被遮盖”之后，你会在“心的包皮”安静的中心部分祈祷哪一句诚实的句子呢？",
+      "zh_ref": "申命记 10:16"
     },
     {
       "n": 17,
@@ -399,7 +475,11 @@
         "accent": "#f4e0ba"
       },
       "dailyWalkDay": 137,
-      "reflectionPrompt": "Between the opening line (“the great God, the mighty, the awesome, who takes no bribes, spends his time on the fatherless, the widow, and the stranger who needs bread and a coat”) and the closing thought (“you know how it feels. you were one”), what is Deuteronomy 10:17-19 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“the great God, the mighty, the awesome, who takes no bribes, spends his time on the fatherless, the widow, and the stranger who needs bread and a coat”) and the closing thought (“you know how it feels. you were one”), what is Deuteronomy 10:17-19 gently reframing in your own day?",
+      "zh_title": "外国人",
+      "zh_poem": "伟大的神，\n强大的，\n真棒，\n\n谁拿走\n没有贿赂，\n\n花费他的时间\n论到孤儿，\n寡妇，\n和陌生人\n谁需要面包\n和一件外套。\n\n所以爱陌生人。\n\n你知道\n感觉如何。\n\n你就是其中之一。",
+      "zh_reflectionPrompt": "在开场白（“伟大的神，大能的，可畏的，不受贿赂，把时间花在孤儿、寡妇和需要面包和外套的寄居者身上”）和结束语（“你知道那是什么感觉。你原是一体”）之间，申命记 10:17-19 在你那个时代温柔地重新构建了什么？",
+      "zh_ref": "申命记 10:17-19"
     },
     {
       "n": 18,
@@ -420,7 +500,11 @@
         "accent": "#f3e6c6"
       },
       "dailyWalkDay": 138,
-      "reflectionPrompt": "Along the road of Choose Life, “the rain of the sky” (Deuteronomy 11:10-12) slows us down at the moving water to remind us: “but it also meant someone was watching it, from the first day of the year to the last, every hillside, every valley.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Choose Life, “the rain of the sky” (Deuteronomy 11:10-12) slows us down at the moving water to remind us: “but it also meant someone was watching it, from the first day of the year to the last, every hillside, every valley.” Where are you being invited to trade control for trust today?",
+      "zh_title": "天空的雨",
+      "zh_poem": "埃及有一条河。\n你浇灌了你的田地\n用你的脚，\n转动渠道。\n\n新的土地\n有山丘，\n并喝了\n从天上来。\n\n这意味着\n你必须相信。\n\n但这也意味着\n有人在看它，\n\n从一年的第一天开始\n到最后，\n\n每一个山坡，\n每个山谷。",
+      "zh_reflectionPrompt": "在选择生命的路上，“天上的雨”（申命记 11:10-12）在流水处让我们放慢脚步，提醒我们：“但这也意味着有人在注视着它，从年初一到最后一天，每个山坡、每个山谷。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_ref": "申命记 11:10-12"
     },
     {
       "n": 19,
@@ -441,7 +525,11 @@
         "accent": "#e2bb83"
       },
       "dailyWalkDay": 139,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the tithe feast” (Deuteronomy 14:22-26), what would you talk about after reading, “the offering was a feast he was throwing for you”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the tithe feast” (Deuteronomy 14:22-26), what would you talk about after reading, “the offering was a feast he was throwing for you”?",
+      "zh_title": "什一税盛宴",
+      "zh_poem": "你会期望\n什一税\n被带走。\n\n相反，上帝说：\n带上它\n并吃掉它，\n在我面前。\n\n路太长？\n而是携带银子，\n并买你喜欢的东西\n当你到达那里时。\n\n然后坐下来，\n你们所有人，\n并感到高兴。\n\n奉献\n是一场盛宴\n他正在扔\n为了你。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“什一税的筵席”（申命记 14:22-26）处停下来，当你读到“这奉献是他为你举办的筵席”之后，你会谈论什么？",
+      "zh_ref": "申命记 14:22-26"
     },
     {
       "n": 20,
@@ -462,7 +550,11 @@
         "accent": "#deceaf"
       },
       "dailyWalkDay": 140,
-      "reflectionPrompt": "Pause before your own two hands: what changes in your posture today when you sit with the closing words of “open your hand”—“so don't wait for the problem to be solved. open your hand today”?"
+      "reflectionPrompt": "Pause before your own two hands: what changes in your posture today when you sit with the closing words of “open your hand”—“so don't wait for the problem to be solved. open your hand today”?",
+      "zh_title": "张开你的手",
+      "zh_poem": "一只紧握的手\n和一颗坚硬的心\n\n通常会聚在一起。\n\n也是如此\n张开手\n和一颗心\n那不悲伤\n当它给予时。\n\n摩西说，穷人，\n不会消失。\n\n所以不要等待\n对于问题\n待解决。\n\n张开你的手\n今天。",
+      "zh_reflectionPrompt": "在你自己的两只手前停顿一下：当你坐着并以“张开你的手”结束语时，你今天的姿势有什么变化——“所以不要等到问题解决了，今天张开你的手”？",
+      "zh_ref": "申命记 15:7-11"
     },
     {
       "n": 21,
@@ -483,7 +575,11 @@
         "accent": "#d7caa3"
       },
       "dailyWalkDay": 141,
-      "reflectionPrompt": "Look at the stillness of the open threshold in Timothy’s painting: what striving can you lay down as you ponder, “because you remember the morning you walked out of Egypt and did not leave with nothing” (Deuteronomy 15:12-15)?"
+      "reflectionPrompt": "Look at the stillness of the open threshold in Timothy’s painting: what striving can you lay down as you ponder, “because you remember the morning you walked out of Egypt and did not leave with nothing” (Deuteronomy 15:12-15)?",
+      "zh_title": "不为空",
+      "zh_poem": "这还不够\n打开门。\n\n当仆人\n自由地走出去，\n\n你要抱住他的怀抱：\n地板上的谷物，\n来自媒体的酒，\n来自羊群的东西。\n\n为什么？\n\n因为你记得\n早上\n你走出了埃及\n\n并且没有\n什么都没有离开。",
+      "zh_reflectionPrompt": "看看提摩太画中敞开的门槛的寂静：当你沉思时，你能放下什么努力，“因为你记得你走出埃及的那个早晨，并没有什么都没有离开”（申命记15:12-15）？",
+      "zh_ref": "申命记 15:12-15"
     },
     {
       "n": 22,
@@ -504,7 +600,11 @@
         "accent": "#e8d4af"
       },
       "dailyWalkDay": 142,
-      "reflectionPrompt": "In Deuteronomy 16:13-15, the story turns on the quiet centerpiece of “altogether joyful”—and ends with, “no one was supposed to celebrate alone.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Deuteronomy 16:13-15, the story turns on the quiet centerpiece of “altogether joyful”—and ends with, “no one was supposed to celebrate alone.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "完全快乐",
+      "zh_poem": "七日\n树枝下。\n\n谷物之后\n和葡萄\n都在。\n\n以及嘉宾名单\n一路向下：\n\n儿子、女儿、\n仆人，\n利未人，\n那个陌生人，\n孤儿，\n寡妇。\n\n没有人\n本来应该庆祝的\n独自一人。",
+      "zh_reflectionPrompt": "在申命记 16 章 13-15 节中，故事以“大喜乐”这个安静的核心为中心，并以“没有人应该单独庆祝”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_ref": "申命记 16:13-15"
     },
     {
       "n": 23,
@@ -525,7 +625,11 @@
         "accent": "#f8e6bc"
       },
       "dailyWalkDay": 143,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Deuteronomy 22:1-3 points us to the quiet centerpiece of “you may not hide yourself” and whispers, “bring it back. love is not looking away.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Deuteronomy 22:1-3 points us to the quiet centerpiece of “you may not hide yourself” and whispers, “bring it back. love is not looking away.” How can you practice that unhurried wisdom today?",
+      "zh_title": "你可能不会隐藏自己",
+      "zh_poem": "这很容易\n不去看\n一只流浪的羊。\n\n它不是你的。\n你很忙。\n\n但法律\n说：看到它。\n\n把它带回来。\n如果你不知道\n它是谁的，\n\n带它回家，\n喂它，\n保留它\n直到有人\n来找。\n\n爱\n没有移开目光。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而申命记 22:1-3 却向我们指出了“不可隐藏自己”的安静核心，并轻声说道：“把它带回来。爱不是把目光移开。”今天你如何能修习这种从容的智慧呢？",
+      "zh_ref": "申命记 22:1-3"
     },
     {
       "n": 24,
@@ -546,7 +650,11 @@
         "accent": "#dac7a6"
       },
       "dailyWalkDay": 144,
-      "reflectionPrompt": "The poem closes with a quiet turn: “he wanted you to notice her too.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “he wanted you to notice her too.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "鸟妈妈",
+      "zh_poem": "路边的一个小窝，\n一个母亲在她的鸡蛋上。\n\n甚至在这里，\n在一件小事上，\n法律规定：\n让她走吧。\n\n上帝注意到了\n那只鸟。\n\n他想要你\n也注意到她。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“他希望你也注意到她。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_ref": "申命记 22:6-7"
     },
     {
       "n": 25,
@@ -568,7 +676,11 @@
         "kind": "sheaf"
       },
       "dailyWalkDay": 145,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “what you forget is how God remembers them” (Deuteronomy 24:19-21) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “what you forget is how God remembers them” (Deuteronomy 24:19-21) speak to a question you have been carrying lately?",
+      "zh_title": "被遗忘的一捆",
+      "zh_poem": "你错过了一个。\n\n不要回去。\n\n留下橄榄\n在高高的树枝上。\n留下葡萄\n你没来得及。\n\n有人来了\n在你身后\n带着一个空篮子。\n\n你忘记了什么\n神就是这样\n记得他们。",
+      "zh_reflectionPrompt": "有时，一句话可以为封闭的房间打开一扇窗：“你所忘记的，神却记得他们”（申命记 24:19-21）如何解答你最近一直在思考的问题？",
+      "zh_ref": "申命记 24:19-21"
     },
     {
       "n": 26,
@@ -589,7 +701,11 @@
         "accent": "#e9e0d0"
       },
       "dailyWalkDay": 146,
-      "reflectionPrompt": "Hold your hands open for a moment before “the basket” (Deuteronomy 26:5-10): what are you gripping tightly that loosens when you hear, “every basket is a small testimony”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “the basket” (Deuteronomy 26:5-10): what are you gripping tightly that loosens when you hear, “every basket is a small testimony”?",
+      "zh_title": "篮子",
+      "zh_poem": "你把篮子放下\n并讲故事，\n大声说：\n\n我的父亲是一位流浪者\n准备灭亡了。\n\n我们去了埃及\n数量很少。\n\n我们是奴隶。\n我们喊道。\n他听到了。\n\n他把我们带到这里。\n\n在这里\n是第一个\n地面所给予的。\n\n每个篮子\n是一个小小的见证。",
+      "zh_reflectionPrompt": "在“篮子”前张开双手（申命记 26:5-10）：当你听到“每一个篮子都是一个小小的见证”时，你紧握的是什么东西就松开了？",
+      "zh_ref": "申命记 26:5-10"
     },
     {
       "n": 27,
@@ -610,7 +726,11 @@
         "accent": "#e6c89f"
       },
       "dailyWalkDay": 147,
-      "reflectionPrompt": "Scripture remembers this moment in Deuteronomy 29:5-6 not to impress us, but to steady us: when have you seen the truth that “the miracles you walk in are the easiest to miss” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Deuteronomy 29:5-6 not to impress us, but to steady us: when have you seen the truth that “the miracles you walk in are the easiest to miss” in your own story?",
+      "zh_title": "凉鞋",
+      "zh_poem": "四十年\n石头和沙子\n\n和你的凉鞋\n没有磨损。\n\n没有人写歌\n关于凉鞋。\n\n但想想每一步\n他们携带，\n每天早上\n他们举行了。\n\n奇迹\n你走进来\n是最简单的\n错过。",
+      "zh_reflectionPrompt": "圣经在申命记 29:5-6 中记住这一时刻，不是为了给我们留下深刻的印象，而是为了让我们稳定：你什么时候在你自己的故事中看到了“你所行的奇迹是最容易被错过的”这个真理？",
+      "zh_ref": "申命记 29:5-6"
     },
     {
       "n": 28,
@@ -631,7 +751,11 @@
         "accent": "#f6d28d"
       },
       "dailyWalkDay": 148,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “the secret things” (Deuteronomy 29:29), what one honest sentence would you pray beside the small oil lamp in the dark after reading, “don't spend your life at the locked box. live by the lamp”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “the secret things” (Deuteronomy 29:29), what one honest sentence would you pray beside the small oil lamp in the dark after reading, “don't spend your life at the locked box. live by the lamp”?",
+      "zh_title": "秘密的事情",
+      "zh_poem": "有些事情\n他保留了。\n\n为什么。\n当。\n即将发生什么。\n\n和一些事情\n他递给你，\n打开，\n平淡如白昼。\n\n不要度过你的一生\n在上锁的盒子里。\n\n直播\n通过灯。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“隐秘的事”（申命记29:29）上时，读完“不要在锁着的盒子里度过你的一生。靠着灯生活”后，你会在黑暗中的小油灯旁祈祷哪一句诚实的句子呢？",
+      "zh_ref": "申命记 29:29"
     },
     {
       "n": 29,
@@ -652,7 +776,11 @@
         "accent": "#e9dfbc"
       },
       "dailyWalkDay": 149,
-      "reflectionPrompt": "Between the opening line (“no one needs to climb to heaven for it”) and the closing thought (“it's already here, in your mouth, in your heart. close enough to do”), what is Deuteronomy 30:11-14 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“no one needs to climb to heaven for it”) and the closing thought (“it's already here, in your mouth, in your heart. close enough to do”), what is Deuteronomy 30:11-14 gently reframing in your own day?",
+      "zh_title": "非常近",
+      "zh_poem": "没有人需要攀登\n为之上天堂。\n\n没有人需要航行\n隔海相望。\n\n这并不太难。\n不太远。\n\n它已经在这里了，\n在你嘴里，\n在你心里。\n\n足够接近\n去做。",
+      "zh_reflectionPrompt": "在开场白（“没有人需要为此爬上天堂”）和结束语（“它已经在这里，在你的嘴里，在你的心里。近到可以做”）之间，申命记 30:11-14 在你自己的时代轻轻地重构了什么？",
+      "zh_ref": "申命记 30:11-14"
     },
     {
       "n": 30,
@@ -674,7 +802,11 @@
         "kind": "two_roads"
       },
       "dailyWalkDay": 150,
-      "reflectionPrompt": "Along the road of Choose Life, “choose” (Deuteronomy 30:19-20) slows us down at the quiet centerpiece of “choose” to remind us: “for he is your life, and the length of your days.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Choose Life, “choose” (Deuteronomy 30:19-20) slows us down at the quiet centerpiece of “choose” to remind us: “for he is your life, and the length of your days.” Where are you being invited to trade control for trust today?",
+      "zh_title": "选择",
+      "zh_poem": "两条路，\n布置简单。\n\n神不隐藏\n他想要哪一个。\n\n选择生活。\n\n然后他告诉你\n生活是什么：\n\n去爱他，\n听到他的声音，\n粘着他。\n\n因为他是\n你的生活，\n\n和长度\n你的日子。",
+      "zh_reflectionPrompt": "在选择生命的道路上，“选择”（申命记30:19-20）让我们在“选择”这个安静的核心部分放慢脚步，提醒我们：“因为他是你的生命，也是你日子的长度。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_ref": "申命记 30:19-20"
     },
     {
       "n": 31,
@@ -695,7 +827,11 @@
         "accent": "#fcf1d3"
       },
       "dailyWalkDay": 151,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “he goes before you” (Deuteronomy 31:6-8), what would you talk about after reading, “because the Lord is already on the other side of the river, going ahead, not leaving, not letting go”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “he goes before you” (Deuteronomy 31:6-8), what would you talk about after reading, “because the Lord is already on the other side of the river, going ahead, not leaving, not letting go”?",
+      "zh_title": "他走在你前面",
+      "zh_poem": "摩西没有去。\n\n所以他打电话给约书亚\n在所有人面前\n并说：\n\n要坚强。\n要有勇气。\n\n不是因为\n你是。\n\n因为主\n已经是\n在另一边\n河流的，\n\n继续前进，\n不离开，\n不放手。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并停在“他在你前面行”（申命记31:6-8），读完“因为耶和华已经在河对岸了，往前走，不离开，不放手”，你会谈论什么？",
+      "zh_ref": "申命记 31:6-8"
     },
     {
       "n": 32,
@@ -716,7 +852,11 @@
         "accent": "#e7ddc1"
       },
       "dailyWalkDay": 152,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “like rain”: what changes in your posture today when you sit with the closing words of “like rain”—“he wanted his words to fall like rain on new grass, like dew you don't hear arrive but find in the morning all over everything”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “like rain”: what changes in your posture today when you sit with the closing words of “like rain”—“he wanted his words to fall like rain on new grass, like dew you don't hear arrive but find in the morning all over everything”?",
+      "zh_title": "像雨一样",
+      "zh_poem": "他不想把它砸进去。\n\n他想要他的话\n跌倒\n像雨一样\n\n在新的草地上，\n像露水一样\n你没有听到到达\n\n但早上发现\n遍及一切。",
+      "zh_reflectionPrompt": "在“如雨”的安静中心部分前暂停：今天，当你坐在“如雨”的结束语中时，你的姿势有什么变化——“他希望他的话语像雨一样落在新草上，就像你没有听到到达但在早晨发现在一切事物上的露珠”？",
+      "zh_ref": "申命记 32:1-2"
     },
     {
       "n": 33,
@@ -737,7 +877,11 @@
         "accent": "#f3d482"
       },
       "dailyWalkDay": 153,
-      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “the eagle” in Timothy’s painting: what striving can you lay down as you ponder, “but the wings were already underneath, spread wide, and they were carried on his feathers the whole way home” (Deuteronomy 32:10-12)?"
+      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “the eagle” in Timothy’s painting: what striving can you lay down as you ponder, “but the wings were already underneath, spread wide, and they were carried on his feathers the whole way home” (Deuteronomy 32:10-12)?",
+      "zh_title": "老鹰",
+      "zh_poem": "他找到了他们\n在一片嚎叫的废墟中\n\n并保留它们\n作为他的掌上明珠。\n\n然后，\n像鹰一样，\n\n他搅动了巢穴。\n\n感觉就像\n坠落。\n\n但翅膀\n已经在下面了，\n\n传播广泛，\n\n他们被抬着\n在他的羽毛上\n一路回家。",
+      "zh_reflectionPrompt": "看看提摩太画中安静的中心“鹰”的静止：当你沉思时，你还能放下什么努力，“但翅膀已经在下面，张开了，在回家的路上，它们都在他的羽毛上”（申命记32:10-12）？",
+      "zh_ref": "申命记 32:10-12"
     },
     {
       "n": 34,
@@ -758,7 +902,11 @@
         "accent": "#f5da7a"
       },
       "dailyWalkDay": 154,
-      "reflectionPrompt": "In Deuteronomy 33:26-27, the story turns on the quiet centerpiece of “underneath”—and ends with, “and when you can't hold on, underneath: arms that don't get tired.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Deuteronomy 33:26-27, the story turns on the quiet centerpiece of “underneath”—and ends with, “and when you can't hold on, underneath: arms that don't get tired.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "在下面",
+      "zh_poem": "上面\n是天空\n他会骑上去帮助你。\n\n周围\n是家\n你住的，就是他。\n\n而当你坚持不下去的时候\n\n下面：\n武器\n这样就不会累。",
+      "zh_reflectionPrompt": "在申命记 33:26-27 中，故事的核心是“在下面”，并以“当你无法坚持时，在下面：永不疲倦的手臂”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_ref": "申命记 33:26-27"
     },
     {
       "n": 35,
@@ -780,7 +928,11 @@
         "kind": "nebo"
       },
       "dailyWalkDay": 155,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Deuteronomy 34:1-4 points us to the quiet centerpiece of “Nebo” and whispers, “and Moses looked the way you look at a promise you know will be kept.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Deuteronomy 34:1-4 points us to the quiet centerpiece of “Nebo” and whispers, “and Moses looked the way you look at a promise you know will be kept.” How can you practice that unhurried wisdom today?",
+      "zh_title": "尼波",
+      "zh_poem": "他爬了上去\n来自平原，\n\n和上帝\n向他展示了一切：\n\n基列对丹说：\n犹大到海，\n耶利哥的棕榈树。\n\n你将会看到它，\n神说，\n用你的眼睛。\n\n摩西看着\n你的样子\n在一个承诺\n你知道\n将被保留。",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，但申命记 34:1-4 却向我们指出了《尼波》安静的核心，并低声说道：“摩西的眼神就像你看待一个你知道会兑现的诺言一样。”今天你如何能修习这种从容的智慧呢？",
+      "zh_ref": "申命记 34:1-4"
     },
     {
       "n": 36,
@@ -801,7 +953,14 @@
         "accent": "#f7d8b0"
       },
       "dailyWalkDay": 156,
-      "reflectionPrompt": "The poem closes with a quiet turn: “only the words he left behind, and the people walking on without him, toward the land he'd seen.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “only the words he left behind, and the people walking on without him, toward the land he'd seen.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "没有人知道在哪里",
+      "zh_poem": "一百二十年，\n他的眼睛依然清澈。\n\n他死了\n根据这个词，\n在摩押那里。\n\n看来上帝本人\n埋葬了他。\n\n没有石头。\n没有神社。\n无处可去和站立。\n\n只有言语\n他留下了，\n\n和人民\n没有他，继续前行\n\n向着陆地\n他看到了。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“只有他留下的话语，以及没有他的人们，走向他所见过的土地。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_ref": "申命记 34:5-7"
     }
-  ]
+  ],
+  "zh_title": "拣选生命",
+  "zh_subtitle": "申命记诗画集",
+  "zh_beforeYouBegin": "申命记是摩西的告别书。人们在摩押平原扎营，后面是荒野，前面是约旦河，一位老人站起来提醒他们一切：四十年不穿的凉鞋，随露水而来的面包，像父亲抱着孩子一样抚养他们的上帝。他告诉他们将他的话写在门柱上，向穷人伸出援手，在田里留下一捆给寡妇，并选择生命。然后他爬上一座山，看到了土地，然后被埋在一个没人能找到的山谷里。\n\n本书分为四部分，共三十六首短诗。每首诗都位于一幅画旁边和一行经文之下。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这本书旁边的申命记，让真实的话语成为最后的话语。"
 }

@@ -16,7 +16,10 @@
       "epigraph": "the foolishness of God is wiser than men, and the weakness of God is stronger than men.",
       "epigraphRef": "1 Corinthians 1:25",
       "lightName": "Light of The Foolishness of God",
-      "lightHint": "Near 'the word of the cross' (1 Corinthians 1:18) in Part 1: The Foolishness of God"
+      "lightHint": "Near 'the word of the cross' (1 Corinthians 1:18) in Part 1: The Foolishness of God",
+      "zh_title": "神的愚拙",
+      "zh_epigraph": "因神的愚拙总比人智慧，神的软弱总比人强壮。",
+      "zh_epigraphRef": "哥林多前书 1:25"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Y ou were bought with a price.",
       "epigraphRef": "1 Corinthians 7:23",
       "lightName": "Light of Bought with a Price",
-      "lightHint": "Near 'the new loaf' (1 Corinthians 5:6–8) in Part 2: Bought with a Price"
+      "lightHint": "Near 'the new loaf' (1 Corinthians 5:6–8) in Part 2: Bought with a Price",
+      "zh_title": "重价买来",
+      "zh_epigraph": "你们是重价买来的。",
+      "zh_epigraphRef": "哥林多前书 7:23"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "I show a most excellent way to you.",
       "epigraphRef": "1 Corinthians 12:31",
       "lightName": "Light of A Most Excellent Way",
-      "lightHint": "Near 'wait for one another' (1 Corinthians 11:21–26) in Part 3: A Most Excellent Way"
+      "lightHint": "Near 'wait for one another' (1 Corinthians 11:21–26) in Part 3: A Most Excellent Way",
+      "zh_title": "最妙的道",
+      "zh_epigraph": "我现今把最妙的道指示你们。",
+      "zh_epigraphRef": "哥林多前书 12:31"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "But we have this treasure in clay vessels",
       "epigraphRef": "2 Corinthians 4:7",
       "lightName": "Light of Treasure in Clay Jars",
-      "lightHint": "Near 'the God of all comfort' (2 Corinthians 1:3–4) in Part 4: Treasure in Clay Jars"
+      "lightHint": "Near 'the God of all comfort' (2 Corinthians 1:3–4) in Part 4: Treasure in Clay Jars",
+      "zh_title": "瓦器里的宝贝",
+      "zh_epigraph": "我们有这宝贝放在瓦器里",
+      "zh_epigraphRef": "哥林多后书 4:7"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "My grace is sufficient for you, for my power is made perfect in weakness.",
       "epigraphRef": "2 Corinthians 12:9",
       "lightName": "Light of My Grace Is Sufficient",
-      "lightHint": "Near 'the tent and the house' (2 Corinthians 5:1–4) in Part 5: My Grace Is Sufficient"
+      "lightHint": "Near 'the tent and the house' (2 Corinthians 5:1–4) in Part 5: My Grace Is Sufficient",
+      "zh_title": "我的恩典够你用的",
+      "zh_epigraph": "我的恩典够你用的，因为我的能力是在人的软弱上显得完全。",
+      "zh_epigraphRef": "哥林多后书 12:9"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#f8dba5"
       },
       "dailyWalkDay": 1236,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “a city of speakers.” Looking through the lens of 1 Corinthians 1:18, what does it mean to discover that “power, to the ones being carried home”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “a city of speakers.” Looking through the lens of 1 Corinthians 1:18, what does it mean to discover that “power, to the ones being carried home”?",
+      "zh_title": "十字架的道理",
+      "zh_poem": "这是一座演说家的城。\n台阶上站满哲人，\n人人都有一番辩词。\n\n而保罗走来，\n带着一个故事，\n讲一个人\n被钉在木头上。\n\n听上去像一场惨败。\n\n但有些听见的人\n回到家里，\n却怎么也无法\n停止思想。\n\n愚拙——\n对那些转身离去的人。\n\n大能——\n对那些被怀抱归家的人。",
+      "zh_reflectionPrompt": "回想你生命中曾否有过置身于“一座演说家的城”的季节。透过哥林多前书 1:18 的眼光，体认到“大能——对那些被怀抱归家的人”，对你而言意味着什么？",
+      "zh_epigraph": "“因为十字架的道理，在那灭亡的人为愚拙；在我们得救的人，却为神的大能。”",
+      "zh_ref": "哥林多前书 1:18"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#e6dbbd"
       },
       "dailyWalkDay": 1237,
-      "reflectionPrompt": "Look closely at the dust on your sandals in this painting (1 Corinthians 1:26–28)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the dust on your sandals in this painting (1 Corinthians 1:26–28)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "世上软弱的",
+      "zh_poem": "环顾这间屋子吧，\n保罗说。\n\n没有多少博学之士。\n没有多少掌权之人。\n没有多少名字\n会被人刻在石碑上。\n\n一个码头工人。\n一个使女。\n一个修补草鞋的匠人。\n\n这正是神所拣选的人。\n\n并非因为\n强壮的人太好\n而不配被选上，\n\n乃是要叫所有人\n永不弄错——\n究竟是谁施行了拯救。",
+      "zh_reflectionPrompt": "细看这幅画中（哥林多前书 1:26–28）鞋履上的尘土——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“神却拣选了世上软弱的，叫那强壮的羞愧。”",
+      "zh_ref": "哥林多前书 1:26–28"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#c09565"
       },
       "dailyWalkDay": 1238,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around your own two hands: what quiet prayer rises in you when you read, “if you are afraid of the thing God is asking you to say, you are in good company”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around your own two hands: what quiet prayer rises in you when you read, “if you are afraid of the thing God is asking you to say, you are in good company”?",
+      "zh_title": "又惧怕又甚战兢",
+      "zh_poem": "他走进来时，\n并不像一个征服者。\n\n他走进来时，\n双手微颤。\n\n没有华丽的言辞。\n没有巧妙的论证。\n\n只有一件事，\n是他定意\n要知道的：\n\n耶稣基督，\n并他钉十字架。\n\n若你正为\n神托付你说出的话\n心怀畏惧，\n\n你并不孤单，\n有美好的同路人。",
+      "zh_reflectionPrompt": "让目光停留在你双手四周的笔触与光影上：当你读到“若你正为神托付你说出的话心怀畏惧，你并不孤单，有美好的同路人”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“我在你们那里，又软弱，又惧怕，又甚战兢。”",
+      "zh_ref": "哥林多前书 2:1–3"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#eee5d1"
       },
       "dailyWalkDay": 1239,
-      "reflectionPrompt": "Linger with the movement in “no eye has seen” (1 Corinthians 2:9–10) from “you have seen the sea at sunrise” to “no heart has pictured it: what he has made ready for those who love him. it is only the doorway”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “no eye has seen” (1 Corinthians 2:9–10) from “you have seen the sea at sunrise” to “no heart has pictured it: what he has made ready for those who love him. it is only the doorway”—where do you find yourself along that arc today?",
+      "zh_title": "眼睛未曾看见",
+      "zh_poem": "你见过日出时的\n大海。\n你听过隔壁房里\n孩童的欢笑。\n\n然而，\n\n眼睛未曾看见。\n耳朵未曾听见。\n人心也未曾描摹：\n\n他为爱他之人\n所预备的一切。\n\n握住你记忆中\n最美好的清晨吧。\n\n那不过是\n一扇门廊。",
+      "zh_reflectionPrompt": "在《眼睛未曾看见》（哥林多前书 2:9–10）中静心流连，从“你见过日出时的大海”到“人心也未曾描摹：他为爱他之人所预备的一切……那不过是一扇门廊”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“神为爱他的人所预备的，是眼睛未曾看见，耳朵未曾听见，人心也未曾想到的。”",
+      "zh_ref": "哥林多前书 2:9–10"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#e4d9c1"
       },
       "dailyWalkDay": 1240,
-      "reflectionPrompt": "Notice how “the increase” (1 Corinthians 3:5–7) arrives at: “the green was never ours to make.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “the increase” (1 Corinthians 3:5–7) arrives at: “the green was never ours to make.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "叫他生长",
+      "zh_poem": "他们正在分门别派。\n属保罗的。\n属亚波罗的。\n\n保罗指了指菜园。\n\n我埋下种子。\n他挑水浇灌。\n\n我们二人，\n谁也不能叫一物生长。\n\n有人栽种。\n有人浇灌。\n我们多半见不到\n收割的日子。\n\n那也无妨。\n\n那一抹新绿，\n原本就不是\n我们造得出的。",
+      "zh_reflectionPrompt": "留意《叫他生长》（哥林多前书 3:5–7）如何落脚于：“那一抹新绿，原本就不是我们造得出的。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“我栽种了，亚波罗浇灌了，惟有神叫他生长。”",
+      "zh_ref": "哥林多前书 3:5–7"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#f8e5be"
       },
       "dailyWalkDay": 1241,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Corinthians 3:10–13: “so build slowly, with what lasts, and remember the ground you stand on was never yours to lay”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Corinthians 3:10–13: “so build slowly, with what lasts, and remember the ground you stand on was never yours to lay”?",
+      "zh_title": "那根基",
+      "zh_poem": "根基\n早已立好。\n方正准直。\n永不动摇。\n\n在上面建造什么，\n全在于你：\n金银，或是草木。\n\n终有一日，火\n要穿行试验\n每一座房屋。\n\n所以，慢慢建造吧，\n用那存得住的材料，\n\n并且记得，\n你脚下所站的根基，\n从来不是\n你亲手立的。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是哥林多前书 3:10–13 那安静的教训：“所以，慢慢建造吧，用那存得住的材料，并且记得，你脚下所站的根基，从来不是你亲手立的”——这会带给你怎样的看见？",
+      "zh_epigraph": "“因为那已经立好的根基就是耶稣基督，此外没有人能立别的根基。”",
+      "zh_ref": "哥林多前书 3:10–13"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#dbc9ad"
       },
       "dailyWalkDay": 1242,
-      "reflectionPrompt": "Imagine standing inside this frame beside the small oil lamp in the dark: what hurry or noise in your week begins to fade when you hear, “just a needle, a lamp, and a curse answered with a blessing, one stitch at a time”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the small oil lamp in the dark: what hurry or noise in your week begins to fade when you hear, “just a needle, a lamp, and a curse answered with a blessing, one stitch at a time”?",
+      "zh_title": "亲手做工",
+      "zh_poem": "白日里，\n他缝补帐棚的粗布。\n\n夜深时，\n他用同一双\n疲惫的手写信。\n\n有时忍饥挨饿。\n居无定所。\n\n被人咒骂，\n他就祝福。\n\n没有人在旁观看。\n\n只有一枚针，\n一盏灯，\n和一句咒骂\n换来的一声祝福，\n一针，又一线。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在暗夜里那盏小小的油灯旁：当你听见“只有一枚针，一盏灯，和一句咒骂换来的一声祝福，一针，又一线”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“并且劳苦，亲手做工。被人咒骂，我们就祝福。”",
+      "zh_ref": "哥林多前书 4:11–13"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#e6cea4"
       },
       "dailyWalkDay": 1243,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “come with plain bread: nothing hidden in it, nothing puffed up, just true.” What part of your heart feels most searched or comforted by 1 Corinthians 5:6–8 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “come with plain bread: nothing hidden in it, nothing puffed up, just true.” What part of your heart feels most searched or comforted by 1 Corinthians 5:6–8 right now?",
+      "zh_title": "新团",
+      "zh_poem": "一点面酵，\n能全团\n发起来。\n\n你不能留着\n哪怕一撮\n旧日的习气。\n\n所以打扫屋宇吧。\n重新和一团新面。\n\n我们逾越节的羔羊基督，\n已经为我们被杀献祭。\n筵席已经摆设。\n\n带着纯净的无酵饼来吧：\n里面毫无掩藏，\n毫不虚浮自夸，\n惟有真诚。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“带着纯净的无酵饼来吧：里面毫无掩藏，毫不虚浮自夸，惟有真诚。”此刻，你的心哪一部分最被哥林多前书 5:6–8 鉴察，或得着安慰？",
+      "zh_epigraph": "“你们既是无酵的面，应当把旧酵除净，好使你们成为新团。”",
+      "zh_ref": "哥林多前书 5:6–8"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#e0d0ab"
       },
       "dailyWalkDay": 1244,
-      "reflectionPrompt": "In 1 Corinthians 6:11, grace meets us right beside the open threshold: how does the closing thought—“every one a door out of the old room”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 1 Corinthians 6:11, grace meets us right beside the open threshold: how does the closing thought—“every one a door out of the old room”—steady your footing for the road ahead?",
+      "zh_title": "但你们已经洗净了",
+      "zh_poem": "你们中间也有人\n从前是这样。\n\n保罗并不假装\n往事\n从未发生。\n\n但他没有\n把你留在那里。\n\n但你们已经洗净了。\n但你们已经成圣了。\n但你们已经称义了。\n\n三个“但如今”。\n\n每一个，\n都是一扇走出旧屋的\n门。",
+      "zh_reflectionPrompt": "在哥林多前书 6:11 中，恩典就在那敞开的门槛旁迎见我们：结尾的思索——“每一个，都是一扇走出旧屋的门”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“你们中间也有人从前是这样；但如今你们奉主耶稣基督的名，并借着我们神的灵，已经洗净，成圣，称义了。”",
+      "zh_ref": "哥林多前书 6:11"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#eabc68"
       },
       "dailyWalkDay": 1245,
-      "reflectionPrompt": "If today’s painting of “a temple” (1 Corinthians 6:19) hung beside the door you walk out of this morning, how would its final line—“you are not a rented room. you are a holy place”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “a temple” (1 Corinthians 6:19) hung beside the door you walk out of this morning, how would its final line—“you are not a rented room. you are a holy place”—shape your choices?",
+      "zh_title": "圣灵的殿",
+      "zh_poem": "哥林多城里庙宇林立。\n大理石。\n缭绕的香烟。\n守在门前的祭司。\n\n而保罗说：\n是你们。\n\n这双手。\n这双疲惫的脚。\n这具平凡的身躯。\n\n圣灵\n就住在这里。\n\n你不是\n一间租来的屋子。\n\n你是\n一处圣所。",
+      "zh_reflectionPrompt": "如果今天这幅《圣灵的殿》（哥林多前书 6:19）就挂在你清晨出门的门旁，它最后那句——“你不是一间租来的屋子。你是一处圣所”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“岂不知你们的身子就是圣灵的殿吗？这圣灵是从神而来，住在你们里头的。”",
+      "zh_ref": "哥林多前书 6:19"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#dcc38f"
       },
       "dailyWalkDay": 1246,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 Corinthians 6:19–20)—where in your own home or work today does “you belong now, not to the market, but to the one who walked in and bought you out of it” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 Corinthians 6:19–20)—where in your own home or work today does “you belong now, not to the market, but to the one who walked in and bought you out of it” ring true?",
+      "zh_title": "重价买来",
+      "zh_poem": "在市集广场上，\n人口被公开买卖。\n人人都懂得\n“身价”意味着什么。\n\n你们不是自己的人，\n保罗说，\n\n而这一次，\n这并非坏消息。\n\n有一位付上了一切。\n\n如今你有所归属——\n不再属于那市集，\n\n乃是属于那位\n走入市集、\n将你赎出的人。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（哥林多前书 6:19–20）——今天在你的家中或工作里，何处让你真切体会到“如今你有所归属——不再属于那市集，乃是属于那位走入市集、将你赎出的人”？",
+      "zh_epigraph": "“并且你们不是自己的人，因为你们是重价买来的。”",
+      "zh_ref": "哥林多前书 6:19–20"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#e1d1ae"
       },
       "dailyWalkDay": 1247,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “knowledge fills a room. love builds one.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “knowledge fills a room. love builds one.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "惟有爱心能造就人",
+      "zh_poem": "你或许是对的。\n\n你或许晓得\n偶像算不得什么，\n祭肉也不过是肉。\n\n然而单有知识，\n会让心膨胀，\n如同发过了头的面团。\n\n爱却发出\n另一个提问：\n\n不是“我对不对？”\n而是“当我说完之后，\n我的弟兄\n是否还能站立得住？”\n\n知识填满屋子。\n\n爱却建造屋子。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“知识填满屋子。爱却建造屋子。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“但知识是叫人自高自大，惟有爱心能造就人。”",
+      "zh_ref": "哥林多前书 8:1–3"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#f7edcf"
       },
       "dailyWalkDay": 1248,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “they trained for months for a crown of leaves that browned in a week.” Looking through the lens of 1 Corinthians 9:24–25, what does it mean to discover that “for a crown that never dries up”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “they trained for months for a crown of leaves that browned in a week.” Looking through the lens of 1 Corinthians 9:24–25, what does it mean to discover that “for a crown that never dries up”?",
+      "zh_title": "场上赛跑",
+      "zh_poem": "他们苦练数月，\n只为一顶树叶编成的冠冕——\n不出七日便枯黄凋零。\n\n保罗注视着他们。\n\n那些破晓的清晨。\n那些简朴的饮食。\n那些酸痛的双腿。\n\n你们也当这样跑，\n他说。\n\n却不是为了树叶。\n\n乃是为一顶\n永不枯干的\n冠冕。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“他们苦练数月，只为一顶树叶编成的冠冕——不出七日便枯黄凋零”的感受。透过哥林多前书 9:24–25 的眼光，发现自己奔跑是“为一顶永不枯干的冠冕”，意味着什么？",
+      "zh_epigraph": "“你们也当这样跑，好叫你们得着奖赏。”",
+      "zh_ref": "哥林多前书 9:24–25"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#f4e9cf"
       },
       "dailyWalkDay": 1249,
-      "reflectionPrompt": "Look closely at the city gate in this painting (1 Corinthians 10:13)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the city gate in this painting (1 Corinthians 10:13)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "一条出路",
+      "zh_poem": "你并非\n头一个。\n\n那拉扯你的，\n也曾拉扯别人。\n这原是寻常的，\n是人间常有的事。\n\n而神是信实的。\n\n他必不叫这重担\n超过\n你所能背负的。\n\n看哪。\n\n这条窄巷的尽头\n有一扇门。\n\n在你来到之前，\n它就已在那里。",
+      "zh_reflectionPrompt": "细看这幅画中（哥林多前书 10:13）的城门——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“神是信实的，必不叫你们受试探过于所能受的；在受试探的时候，总要给你们开一条出路，叫你们能忍受得住。”",
+      "zh_ref": "哥林多前书 10:13"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#e4c99a"
       },
       "dailyWalkDay": 1250,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the table set before you: what quiet prayer rises in you when you read, “remember him by leaving room”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the table set before you: what quiet prayer rises in you when you read, “remember him by leaving room”?",
+      "zh_title": "彼此等待",
+      "zh_poem": "有人早早来到，\n自己吃饱喝足。\n\n有人劳作晚来，\n却见碗盘\n早已空空。\n\n这是那位舍了自己、\n擘开身体之主的\n筵席。\n\n在这里，无人应当抢先。\n\n所以，把饼摆在\n桌子中央吧。\n\n等候\n最后一个\n进门的人。\n\n借着为彼此留座，\n来记念他。",
+      "zh_reflectionPrompt": "让目光停留在你面前筵席四周的笔触与光影上：当你读到“借着为彼此留座，来记念他”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“你们应当如此行，为的是记念我。”",
+      "zh_ref": "哥林多前书 11:21–26"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#eaddc1"
       },
       "dailyWalkDay": 1251,
-      "reflectionPrompt": "Linger with the movement in “many members” (1 Corinthians 12:14–21) from “the foot says, I'm not a hand, so I don't belong” to “the part of you you think doesn't matter is the part someone else is leaning on”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “many members” (1 Corinthians 12:14–21) from “the foot says, I'm not a hand, so I don't belong” to “the part of you you think doesn't matter is the part someone else is leaning on”—where do you find yourself along that arc today?",
+      "zh_title": "百体与一身",
+      "zh_poem": "脚说：\n我不是手，\n所以我不属于这里。\n\n眼低头\n看着手说：\n我们用不着你。\n\n两者都错了。\n\n身子\n并非同一样肢体\n喧哗独鸣。\n\n乃是百体\n相联相顾。\n\n你以为自己身上\n微不足道的那部分，\n\n偏偏正是别人\n正在倚靠的\n力量。",
+      "zh_reflectionPrompt": "在《百体与一身》（哥林多前书 12:14–21）中静心流连，从“脚说：我不是手，所以我不属于这里”到“你以为自己身上微不足道的那部分，偏偏正是别人正在倚靠的力量”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“眼不能对手说：‘我用不着你。’”",
+      "zh_ref": "哥林多前书 12:14–21"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#d2c5a6"
       },
       "dailyWalkDay": 1252,
-      "reflectionPrompt": "Notice how “love is patient” (1 Corinthians 13:1–7) arrives at: “more like bread than bells.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “love is patient” (1 Corinthians 13:1–7) arrives at: “more like bread than bells.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "爱是恒久忍耐",
+      "zh_poem": "哥林多城以铸铜闻名。\n站在街上，\n就能听见铿锵的声响。\n\n保罗说，\n若里面没有爱，\n那不过是一片嘈杂。\n\n爱是恒久忍耐。\n它等候那走得慢的人。\n\n爱又有恩慈。\n它把最后一块饼留给你。\n\n它不设账簿计算人恶。\n它不必争强好胜。\n它凡事包容，凡事相信，\n凡事盼望，凡事忍耐。\n\n多半是安静的工夫。\n\n更像日用的饼，\n而非喧闹的钟。",
+      "zh_reflectionPrompt": "留意《爱是恒久忍耐》（哥林多前书 13:1–7）如何落脚于：“更像日用的饼，而非喧闹的钟。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“爱是恒久忍耐，又有恩慈。”",
+      "zh_ref": "哥林多前书 13:1–7"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#ffe3af"
       },
       "dailyWalkDay": 1253,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Corinthians 13:12: “and I will know him the way he has always known me”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Corinthians 13:12: “and I will know him the way he has always known me”?",
+      "zh_title": "仿佛对着镜子观看",
+      "zh_poem": "那世代的镜子，\n是打磨过的青铜。\n\n即便是上好的铜镜，\n映出的\n也只是一片朦胧。\n\n我们如今所见的便是如此。\n\n一个轮廓。\n一丝暖意。\n足以知晓\n有一位在那里。\n\n但那日子将到，\n你我之间\n再无铜镜相隔。\n\n我必全知道他，\n正如他\n向来全知道我一样。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是哥林多前书 13:12 那安静的教训：“我必全知道他，正如他向来全知道我一样”——这会带给你怎样的看见？",
+      "zh_epigraph": "“我们如今仿佛对着镜子观看，模糊不清，到那时就要面对面了。”",
+      "zh_ref": "哥林多前书 13:12"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#ffeeaa"
       },
       "dailyWalkDay": 1254,
-      "reflectionPrompt": "Imagine standing inside this frame beside the name by which He calls you: what hurry or noise in your week begins to fade when you hear, “no better story to tell about yourself”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the name by which He calls you: what hurry or noise in your week begins to fade when you hear, “no better story to tell about yourself”?",
+      "zh_title": "我今日成了何等人",
+      "zh_poem": "末了，\n他说，\n他也显给我看。\n\n那个迟来的人。\n那个曾经\n逼迫抵挡他的人。\n\n原不配称为\n使徒的人。\n\n然而：\n\n我今日成了何等人，\n是蒙神的恩才成的。\n\n关于你自己，\n再没有比这\n更美的故事可讲了。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在他呼唤你的那个名字旁：当你听见“关于你自己，再没有比这更美的故事可讲了”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“然而，我今日成了何等人，是蒙神的恩才成的。”",
+      "zh_ref": "哥林多前书 15:8–10"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#ebd09e"
       },
       "dailyWalkDay": 1255,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “you don't expect a grain to come back. you expect a field.” What part of your heart feels most searched or comforted by 1 Corinthians 15:36–38 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “you don't expect a grain to come back. you expect a field.” What part of your heart feels most searched or comforted by 1 Corinthians 15:36–38 right now?",
+      "zh_title": "那粒麦种",
+      "zh_poem": "死人怎样复活呢？\n有人问。\n带着什么身体来呢？\n\n保罗举起\n一粒麦子。\n\n赤裸。\n干瘪。\n微小。\n\n你把它埋进土里。\n\n你指望收回来的，\n绝非仅仅一粒麦子。\n\n你指望的，\n是一整片麦田。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“你指望收回来的，绝非仅仅一粒麦子。你指望的，是一整片麦田。”此刻，你的心哪一部分最被哥林多前书 15:36–38 鉴察，或得着安慰？",
+      "zh_epigraph": "“你所种的，若不死就不能生。”",
+      "zh_ref": "哥林多前书 15:36–38"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#fadb8a"
       },
       "dailyWalkDay": 1256,
-      "reflectionPrompt": "In 1 Corinthians 15:54–57, grace meets us right beside the quiet centerpiece of “where is your sting”: how does the closing thought—“like a spark in the sea. thanks be to God”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 1 Corinthians 15:54–57, grace meets us right beside the quiet centerpiece of “where is your sting”: how does the closing thought—“like a spark in the sea. thanks be to God”—steady your footing for the road ahead?",
+      "zh_title": "你的毒钩在哪里",
+      "zh_poem": "死啊，\n你的毒钩在哪里？\n\n保罗向它夸胜，\n仿佛对着一只\n早已耗尽毒刺的\n蜜蜂。\n\n它依然能嗡嗡作响。\n依然能叫人惊惶。\n\n但那毒钩\n已经刺入基督身上，\n永远留在了那里。\n\n被吞灭了，\n他说。\n\n如同一星火花\n落入大海。\n\n感谢神。",
+      "zh_reflectionPrompt": "在哥林多前书 15:54–57 中，恩典就在《你的毒钩在哪里》那宁静的画面中心迎见我们：结尾的思索——“如同一星火花落入大海。感谢神”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“‘死啊！你得胜的权势在哪里？死啊！你的毒钩在哪里？’”",
+      "zh_ref": "哥林多前书 15:54–57"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#f6e3bd"
       },
       "dailyWalkDay": 1257,
-      "reflectionPrompt": "If today’s painting of “not in vain” (1 Corinthians 15:58) hung beside the door you walk out of this morning, how would its final line—“because the one who raised Christ from the dead wastes nothing”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “not in vain” (1 Corinthians 15:58) hung beside the door you walk out of this morning, how would its final line—“because the one who raised Christ from the dead wastes nothing”—shape your choices?",
+      "zh_title": "不是徒然的",
+      "zh_poem": "那些你亲手抟成、\n却无人向你道谢的陶碗。\n\n那些似乎\n杳无音信的祷告。\n\n那个漫长而\n无人留意的寻常日子。\n\n务要坚固，\n保罗说。\n常常竭力多做主工。\n\n因为那位\n叫基督从死里复活的主，\n\n绝不叫丝毫劳苦\n归于枉然。",
+      "zh_reflectionPrompt": "如果今天这幅《不是徒然的》（哥林多前书 15:58）就挂在你清晨出门的门旁，它最后那句——“因为那位叫基督从死里复活的主，绝不叫丝毫劳苦归于枉然”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“因为知道你们的劳苦，在主里面不是徒然的。”",
+      "zh_ref": "哥林多前书 15:58"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#dccdb1"
       },
       "dailyWalkDay": 1258,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (2 Corinthians 1:3–4)—where in your own home or work today does “nothing you've been held through is wasted” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (2 Corinthians 1:3–4)—where in your own home or work today does “nothing you've been held through is wasted” ring true?",
+      "zh_title": "赐各样安慰的神",
+      "zh_poem": "他没有说\n赐某些安慰的神。\n\n也没有说\n只为小患难赐安慰的神。\n\n乃是各样安慰。\n\n并且这安慰\n不止息于你。\n\n他在你最艰难的日子里\n倾倒给你的安慰，\n\n正是日后你将带给\n另一个受苦之人的安慰。\n\n他在患难中托住你走过的一切，\n没有一样\n会白白流逝。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（哥林多后书 1:3–4）——今天在你的家中或工作里，何处让你真切体会到“他在患难中托住你走过的一切，没有一样会白白流逝”？",
+      "zh_epigraph": "“发慈悲的父，赐各样安慰的神。”",
+      "zh_ref": "哥林多后书 1:3–4"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#efe6d6"
       },
       "dailyWalkDay": 1259,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “and all we add is the amen.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “and all we add is the amen.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "实在的",
+      "zh_poem": "他们说保罗\n心意反复不定。\n忽是忽非。\n\n好吧，他说。\n请看耶稣。\n\n神所立过的一切应许：\n\n都是是的。\n\n都在他里面。\n\n不是“或许”。\n不是“改日”。\n不是“又是又非”。\n\n而我们所要添上的，\n惟有一声“阿们”。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“而我们所要添上的，惟有一声‘阿们’。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“神的应许，不论有多少，在基督都是是的。”",
+      "zh_ref": "哥林多后书 1:19–20"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f0e7ce"
       },
       "dailyWalkDay": 1260,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “you can't see it. you can't hold it.” Looking through the lens of 2 Corinthians 2:14–15, what does it mean to discover that “more like someone opened a door somewhere warm”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “you can't see it. you can't hold it.” Looking through the lens of 2 Corinthians 2:14–15, what does it mean to discover that “more like someone opened a door somewhere warm”?",
+      "zh_title": "基督的馨香之气",
+      "zh_poem": "你看不见它。\n也握不住它。\n\n但当你走进一间\n正在烘烤面饼的屋子，\n\n你便立刻知晓。\n\n他说，我们就是\n这样：\n\n一缕基督的馨香，\n从一条街飘向另一条街。\n\n不是一篇高论。\n\n倒更像是\n在某个温暖的地方，\n有人轻轻推开了\n一扇门。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“你看不见它。也握不住它”的季节。透过哥林多后书 2:14–15 的眼光，体认到“倒更像是在某个温暖的地方，有人轻轻推开了一扇门”，对你而言意味着什么？",
+      "zh_epigraph": "“因为我们在神面前，无论在得救的人身上或灭亡的人身上，都有基督馨香之气。”",
+      "zh_ref": "哥林多后书 2:14–15"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#e5b85d"
       },
       "dailyWalkDay": 1261,
-      "reflectionPrompt": "Look closely at the table set before you in this painting (2 Corinthians 3:2–3)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the table set before you in this painting (2 Corinthians 3:2–3)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "一封信",
+      "zh_poem": "我们岂需要\n别人的荐信吗？\n保罗问。\n\n不。\n你们就是这封信。\n\n不是蒲草纸上的墨迹。\n不是石版上的凿痕。\n\n乃是永生神的灵\n写在心版上的字句。\n\n众人在不知不觉中\n念诵着你：\n在市集里，\n在码头上，\n在你的饭桌旁。\n\n愿他们在你身上\n认出他的亲笔。",
+      "zh_reflectionPrompt": "细看这幅画中（哥林多后书 3:2–3）摆在你面前的桌席——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“你们就是我们的荐信，写在我们的心里，被众人所知道所念诵的。”",
+      "zh_ref": "哥林多后书 3:2–3"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#faf1df"
       },
       "dailyWalkDay": 1262,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the long climb up the hill: what quiet prayer rises in you when you read, “we look at him with open faces, and slowly, from glory to glory, we start to shine the same”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the long climb up the hill: what quiet prayer rises in you when you read, “we look at him with open faces, and slowly, from glory to glory, we start to shine the same”?",
+      "zh_title": "敞着脸",
+      "zh_poem": "摩西下山时，\n面皮发光，\n便用帕子\n蒙上脸，\n\n免得百姓看见\n那渐渐退去的荣光。\n\n但人几时\n转向主，\n那帕子\n就除去了。\n\n我们敞着脸\n得以看见主的荣光，\n\n便在不知不觉间，\n荣上加荣，\n\n渐渐变成\n与他同样的荣形。",
+      "zh_reflectionPrompt": "让目光停留在那条蜿蜒上山之路四周的笔触与光影上：当你读到“我们敞着脸得以看见主的荣光，便在不知不觉间，荣上加荣，渐渐变成与他同样的荣形”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“但他们的心几时归向主，帕子就几时除去了。”",
+      "zh_ref": "哥林多后书 3:16–18"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f1cf85"
       },
       "dailyWalkDay": 1263,
-      "reflectionPrompt": "Linger with the movement in “out of darkness” (2 Corinthians 4:6) from “the same voice that said let there be light over the dark water at the beginning has said it again over the dark water in you” to “the same voice that said let there be light over the dark water at the beginning has said it again over the dark water in you”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “out of darkness” (2 Corinthians 4:6) from “the same voice that said let there be light over the dark water at the beginning has said it again over the dark water in you” to “the same voice that said let there be light over the dark water at the beginning has said it again over the dark water in you”—where do you find yourself along that arc today?",
+      "zh_title": "从黑暗里照出来",
+      "zh_poem": "起初，\n在幽暗的渊面上\n说\n“要有光”的\n同一个声音，\n\n如今，\n在你里面\n幽暗的深水之上，\n\n再一次\n发出了呼召。",
+      "zh_reflectionPrompt": "在《从黑暗里照出来》（哥林多后书 4:6）中静心流连，从“起初，在幽暗的渊面上说‘要有光’的同一个声音”到“如今，在你里面幽暗的深水之上，再一次发出了呼召”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“那吩咐光从黑暗里照出来的神，已经照在我们心里。”",
+      "zh_ref": "哥林多后书 4:6"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#e9cb8b"
       },
       "dailyWalkDay": 1264,
-      "reflectionPrompt": "Notice how “clay jars” (2 Corinthians 4:7) arrives at: “and if you're cracked, that's just where it gets out.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “clay jars” (2 Corinthians 4:7) arrives at: “and if you're cracked, that's just where it gets out.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "瓦器",
+      "zh_poem": "陶匠街上\n到处都是它们。\n廉价的罐子。\n寻常的泥土。\n\n我们就是这样，\n保罗说。\n\n而宝贝\n盛在里面：\n\n神荣耀的光，\n放在一个\n随时会破碎的器皿里。\n\n好叫人\n不会把瓦器\n错当成那光。\n\n若是你身上有了裂痕，\n\n那恰恰是\n光透出来的地方。",
+      "zh_reflectionPrompt": "留意《瓦器》（哥林多后书 4:7）如何落脚于：“若是你身上有了裂痕，那恰恰是光透出来的地方。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“要显明这莫大的能力是出于神，不是出于我们。”",
+      "zh_ref": "哥林多后书 4:7"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#e9d6af"
       },
       "dailyWalkDay": 1265,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 2 Corinthians 4:8–9: “read it one more time, slowly, and lean on the second half of every line”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 2 Corinthians 4:8–9: “read it one more time, slowly, and lean on the second half of every line”?",
+      "zh_title": "却不被困住",
+      "zh_poem": "四面受敌，\n却不被困住。\n\n心里作难，\n却不至失望。\n\n遭人逼迫，\n却不被丢弃。\n\n打倒在地，\n却不至死亡。\n\n请再读\n一遍，\n\n慢慢地读，\n\n把你的心\n安放在每一行的\n下半句上。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是哥林多后书 4:8–9 那安静的教训：“请再读一遍，慢慢地读，把你的心安放在每一行的下半句上”——这会带给你怎样的看见？",
+      "zh_epigraph": "“我们四面受敌，却不被困住；心里作难，却不至失望。”",
+      "zh_ref": "哥林多后书 4:8–9"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f0e0b9"
       },
       "dailyWalkDay": 1266,
-      "reflectionPrompt": "Imagine standing inside this frame beside the clay jar: what hurry or noise in your week begins to fade when you hear, “what you can't is forever”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the clay jar: what hurry or noise in your week begins to fade when you hear, “what you can't is forever”?",
+      "zh_title": "一天新似一天",
+      "zh_poem": "膝盖比从前更酸痛了。\n眼睛需要更亮的光。\n瓦器的边缘\n正渐渐磨薄。\n\n然而，\n每一个清晨，\n\n里面总有一处\n正被重新\n充满。\n\n不要单单紧盯着\n这具瓦器。\n\n所见的\n是暂时的。\n\n所不见的\n才是永远的。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在那只瓦器旁：当你听见“所不见的才是永远的”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“外体虽然毁坏，内心却一天新似一天。”",
+      "zh_ref": "哥林多后书 4:16–18"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#e9cea0"
       },
       "dailyWalkDay": 1267,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “but there's a house not made with hands, already built, waiting, with a light on.” What part of your heart feels most searched or comforted by 2 Corinthians 5:1–4 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “but there's a house not made with hands, already built, waiting, with a light on.” What part of your heart feels most searched or comforted by 2 Corinthians 5:1–4 right now?",
+      "zh_title": "帐棚与房屋",
+      "zh_poem": "织帐棚的匠人\n最懂帐棚。\n\n懂帆布如何磨薄。\n懂木橛如何松脱。\n懂风如何\n钻进每一个孔隙。\n\n他说，这具身体\n就是一座帐棚。\n\n我们在其中叹息。\n在其中困乏。\n\n但有一座房屋，\n不是人手所造，\n\n早已建好，\n正在守候，\n\n屋里还亮着一盏灯。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“但有一座房屋，不是人手所造，早已建好，正在守候，屋里还亮着一盏灯。”此刻，你的心哪一部分最被哥林多后书 5:1–4 鉴察，或得着安慰？",
+      "zh_epigraph": "“我们原知道，我们这地上的帐棚若拆毁了，必得神所造，不是人手所造，在天上永存的房屋。”",
+      "zh_ref": "哥林多后书 5:1–4"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#e1d2ad"
       },
       "dailyWalkDay": 1268,
-      "reflectionPrompt": "In 2 Corinthians 5:17, grace meets us right beside the quiet centerpiece of “new”: how does the closing thought—“everything has become new”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 2 Corinthians 5:17, grace meets us right beside the quiet centerpiece of “new”: how does the closing thought—“everything has become new”—steady your footing for the road ahead?",
+      "zh_title": "新造的人",
+      "zh_poem": "不是缝补。\n不是重涂油彩。\n不是修缮改良。\n\n乃是全新。\n\n旧事\n已过。\n\n看哪，\n\n他说，\n如同一人\n带你去看雨后的田野。\n\n一切\n都变成新的了。",
+      "zh_reflectionPrompt": "在哥林多后书 5:17 中，恩典就在《新造的人》那宁静的画面中心迎见我们：结尾的思索——“一切都变成新的了”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“若有人在基督里，他就是新造的人，旧事已过，都变成新的了。”",
+      "zh_ref": "哥林多后书 5:17"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#f3dfb9"
       },
       "dailyWalkDay": 1269,
-      "reflectionPrompt": "If today’s painting of “ambassadors” (2 Corinthians 5:18–20) hung beside the door you walk out of this morning, how would its final line—“he is not counting. he is asking”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “ambassadors” (2 Corinthians 5:18–20) hung beside the door you walk out of this morning, how would its final line—“he is not counting. he is asking”—shape your choices?",
+      "zh_title": "基督的使者",
+      "zh_poem": "使者\n从不为自己\n发言。\n\n他漂洋过海，\n传递的是\n另一位的口信。\n\n而那口信便是：\n\n神在基督里，\n叫世人与自己和好，\n不将他们的过犯归到他们身上。\n\n于是我们带着这口信，\n走到码头，\n走进作坊，\n来到饭桌旁：\n\n回家吧。\n\n他不在清算旧账。\n他正在发出邀请。",
+      "zh_reflectionPrompt": "如果今天这幅《基督的使者》（哥林多后书 5:18–20）就挂在你清晨出门的门旁，它最后那句——“他不在清算旧账。他正在发出邀请”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“所以我们作基督的使者，就好像神借我们劝你们一般。”",
+      "zh_ref": "哥林多后书 5:18–20"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#ebdfc4"
       },
       "dailyWalkDay": 1270,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (2 Corinthians 6:8–10)—where in your own home or work today does “empty-handed, and holding everything” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (2 Corinthians 6:8–10)—where in your own home or work today does “empty-handed, and holding everything” ring true?",
+      "zh_title": "似乎一无所有",
+      "zh_poem": "似乎不为人知，\n却是人所共知的。\n\n似乎要死，\n看哪，我们却是活着的。\n\n似乎忧愁，\n却是常常快乐的。\n\n似乎贫穷，\n却是叫许多人富足的。\n\n两手空空，\n\n却怀抱\n万有。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（哥林多后书 6:8–10）——今天在你的家中或工作里，何处让你真切体会到“两手空空，却怀抱万有”？",
+      "zh_epigraph": "“似乎忧愁，却是常常快乐的；似乎贫穷，却是叫许多人富足的；似乎一无所有，却是样样都有的。”",
+      "zh_ref": "哥林多后书 6:8–10"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#e4d9bc"
       },
       "dailyWalkDay": 1271,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “sometimes it grows best in the poorest soil.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “sometimes it grows best in the poorest soil.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "马其顿的众教会",
+      "zh_poem": "他们几乎一无所有。\n\n患难四围环绕。\n贫穷深如\n一口枯井。\n\n他们却再三恳求保罗，\n准他们在这供给的恩情上有份。\n\n过了力量。\n胜过任何人的所求。\n\n他们先把自己\n献给了主。\n\n那些钱币\n不过是随之而来的心意。\n\n喜乐\n实在奇妙。\n\n有时在最贫瘠的土里，\n它反倒生长得最茂盛。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“有时在最贫瘠的土里，它反倒生长得最茂盛。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“在极穷之间，还格外显出他们乐捐的厚恩。”",
+      "zh_ref": "哥林多后书 8:1–5"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#f4e09e"
       },
       "dailyWalkDay": 1272,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “a farmer who holds back seed for fear of losing it stands in a thin field.” Looking through the lens of 2 Corinthians 9:6–7, what does it mean to discover that “maybe even smiling, knowing who fills the sack”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “a farmer who holds back seed for fear of losing it stands in a thin field.” Looking through the lens of 2 Corinthians 9:6–7, what does it mean to discover that “maybe even smiling, knowing who fills the sack”?",
+      "zh_title": "捐得乐意的人",
+      "zh_poem": "农夫\n若怕失去种子而攥紧手心，\n终只能站在稀疏的田里。\n\n那舒展手臂广撒种子的，\n归家时却穿行在金黄的麦浪中。\n\n所以，像撒种那样\n施予吧：\n\n不是抠搜作难。\n不是勉强被逼。\n乃是张开双手。\n\n甚至带着微笑，\n\n因为深知\n是谁在装满你的粮袋。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“农夫若怕失去种子而攥紧手心，终只能站在稀疏的田里”的感受。透过哥林多后书 9:6–7 的眼光，发现自己可以“甚至带着微笑，因为深知是谁在装满你的粮袋”，意味着什么？",
+      "zh_epigraph": "“因为捐得乐意的人是神所喜爱的。”",
+      "zh_ref": "哥林多后书 9:6–7"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#e5cf9f"
       },
       "dailyWalkDay": 1273,
-      "reflectionPrompt": "Look closely at the stones of the wall in this painting (2 Corinthians 11:30–33)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the stones of the wall in this painting (2 Corinthians 11:30–33)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "筐子",
+      "zh_poem": "别人正夸耀\n自己的家世、\n异象、\n与资历。\n\n保罗却向他们讲起\n那只筐子。\n\n那个夜晚，他像一篮待洗的衣裳，\n被人从大马士革的城墙上\n缒下去，\n\n蜷缩着身子，\n藏在暗处，\n仓皇逃生。\n\n我若必须自夸，\n他说，\n\n我就夸\n那一夜的事吧。",
+      "zh_reflectionPrompt": "细看这幅画中（哥林多后书 11:30–33）城墙上的石头——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“我就从窗户中，在筐子里，从城墙上被人缒下去，脱离了他的手。”",
+      "zh_ref": "哥林多后书 11:30–33"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#e1d5b4"
       },
       "dailyWalkDay": 1274,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open threshold: what quiet prayer rises in you when you read, “maybe so each of us could lay our own beside it”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open threshold: what quiet prayer rises in you when you read, “maybe so each of us could lay our own beside it”?",
+      "zh_title": "那根刺",
+      "zh_poem": "他求过\n三次。\n\n叫它离开我吧。\n叫它离开我吧。\n叫它离开我吧。\n\n而天上\n并没有像关上门那样\n冷硬地拒绝。\n\n天上回答说：\n\n我的恩典\n够你用的。\n\n他始终没有告诉我们\n那根刺究竟是什么。\n\n或许，\n是为了让我们每个人\n都能把自己的刺\n轻轻放在它身旁。",
+      "zh_reflectionPrompt": "让目光停留在那敞开的门槛四周的笔触与光影上：当你读到“或许，是为了让我们每个人都能把自己的刺轻轻放在它身旁”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“为这事，我三次求过主，叫这刺离开我。”",
+      "zh_ref": "哥林多后书 12:7–9"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#e3bf77"
       },
       "dailyWalkDay": 1275,
-      "reflectionPrompt": "Linger with the movement in “when I am weak” (2 Corinthians 12:9–10) from “we pray to be strong so we won't need him” to “it is where his strength has room to live”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “when I am weak” (2 Corinthians 12:9–10) from “we pray to be strong so we won't need him” to “it is where his strength has room to live”—where do you find yourself along that arc today?",
+      "zh_title": "我什么时候软弱",
+      "zh_poem": "我们祈求刚强，\n好叫自己不必倚靠他。\n\n他却任凭我们软弱，\n好叫我们发觉\n他一直都在。\n\n能力\n覆庇在\n倒空之处。\n\n敞口的瓦器\n才得充满。\n\n所以，若软弱必须留下，\n就让它留下吧。\n\n那里，\n正是他的能力\n得以安居的\n地方。",
+      "zh_reflectionPrompt": "在《我什么时候软弱》（哥林多后书 12:9–10）中静心流连，从“我们祈求刚强，好叫自己不必倚靠他”到“那里，正是他的能力得以安居的地方”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“因我什么时候软弱，什么时候就刚强了。”",
+      "zh_ref": "哥林多后书 12:9–10"
     }
-  ]
+  ],
+  "zh_title": "瓦器里的宝贝",
+  "zh_subtitle": "哥林多前后书诗画集",
+  "zh_beforeYouBegin": "保罗致哥林多人的书信，写给一座繁忙港口城市里年轻却纷争不休的教会——那里遍布作坊、市集与庙宇。信中有一座看似愚拙的十字架，一片有人栽种、有人浇灌的田地，一块一次立定的根基，一张无人应当抢先独食的筵席，一个百体相联的身子，一份恒久忍耐的爱，一粒死而复生的麦种，一盏盛在瓦器里的荣耀之灯，一座等候天上居所的帐棚，一间在极穷中乐意施舍的教会，以及一根始终未曾挪去的刺。\n\n全书分为五卷、四十首短诗：前三卷取材于《哥林多前书》，后两卷取材于《哥林多后书》。每首诗皆配有一幅画作，并置于一句经文之下。画中留驻的尽是劳作之城里的寻常风物——陶轮、铜镜、面饼、织帐棚的针、黎明时分的港湾——而将面容留给你去想象。\n\n这些诗并非圣经本身，只是一个读经之人的心灵回响。请翻开保罗致哥林多人的书信，与本书一同阅读，让神真实的话语作最终的定音。"
 }

@@ -16,7 +16,10 @@
       "epigraph": "God is the strength of my heart and my portion forever.",
       "epigraphRef": "Psalm 73:26",
       "lightName": "Light of Until I Entered",
-      "lightHint": "Near 'until I walked in' (Psalm 73:13–26) in Part 1: Until I Entered"
+      "lightHint": "Near 'until I walked in' (Psalm 73:13–26) in Part 1: Until I Entered",
+      "zh_title": "直到我进入",
+      "zh_epigraph": "神是我内心的力量，也是我永远的福分。",
+      "zh_epigraphRef": "诗篇 73:26"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "For a day in your courts is better than a thousand.",
       "epigraphRef": "Psalm 84:10",
       "lightName": "Light of A Day in Your Courts",
-      "lightHint": "Near 'open wide' (Psalm 81:10–16) in Part 2: A Day in Your Courts"
+      "lightHint": "Near 'open wide' (Psalm 81:10–16) in Part 2: A Day in Your Courts",
+      "zh_title": "在你的法庭上度过一天",
+      "zh_epigraph": "在你的宫廷里待一天，胜过千日。",
+      "zh_epigraphRef": "诗篇 84:10"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Lord, you have been our dwelling place for all generations.",
       "epigraphRef": "Psalm 90:1",
       "lightName": "Light of Our Dwelling Place",
-      "lightHint": "Near 'count our days' (Psalm 90:1–12) in Part 3: Our Dwelling Place"
+      "lightHint": "Near 'count our days' (Psalm 90:1–12) in Part 3: Our Dwelling Place",
+      "zh_title": "我们的居所",
+      "zh_epigraph": "主啊，你世世代代都是我们的居所。",
+      "zh_epigraphRef": "诗篇 90:1"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "Praise Yahweh, my soul, and don’t forget all his benefits",
       "epigraphRef": "Psalm 103:2",
       "lightName": "Light of Bless the Lord, O My Soul",
-      "lightHint": "Near 'clap' (Psalm 98:7–9) in Part 4: Bless the Lord, O My Soul"
+      "lightHint": "Near 'clap' (Psalm 98:7–9) in Part 4: Bless the Lord, O My Soul",
+      "zh_title": "我的灵魂啊，请赞美主",
+      "zh_epigraph": "我的心啊，请赞美耶和华，不要忘记他的一切恩惠",
+      "zh_epigraphRef": "诗篇 103:2"
     }
   ],
   "paintings": [
@@ -69,7 +81,12 @@
         "accent": "#d3b46a"
       },
       "dailyWalkDay": 520,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Psalm 73:13–26)—where in your own home or work today does “you are my portion forever” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Psalm 73:13–26)—where in your own home or work today does “you are my portion forever” ring true?",
+      "zh_title": "直到我走进去",
+      "zh_poem": "恶人很富有。\n健康。无忧无虑。\n我保持我的心干净\n不劳而获，\n亚萨说。\n\n这毫无意义——\n直到我走进神的家。\n\n然后我看到\n故事的结局。\n\n还有这个：\n除了你以外，我在天上还有谁呢？\n我的心可能会衰竭。\n你是我的一部分\n永远。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（诗篇 73:13-26）——今天，在你自己的家里或工作场所，“你永远是我的产业”在哪里听起来是真实的？",
+      "zh_epigraph": "“直到我进入上帝的圣所，思考他们的最终结局。”",
+      "zh_ref": "诗篇 73:13–26"
     },
     {
       "n": 2,
@@ -90,7 +107,12 @@
         "accent": "#fcc36d"
       },
       "dailyWalkDay": 521,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “when everything else is ash, the sun still comes up on his schedule.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “when everything else is ash, the sun still comes up on his schedule.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "这一天是你的",
+      "zh_poem": "圣所被烧毁。\n迹象消失了。\n没有先知留下。\n\n仍然：\n\n这一天是你的。\n夜晚也是你的。\n夏天和冬天——\n你创造了它们。\n\n当其他一切都化为灰烬时\n太阳仍然升起\n在他的日程安排上。",
+      "zh_reflectionPrompt": "缓缓吸一口气，再读一遍最后一行：“当一切都化为灰烬时，太阳仍如期升起。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“白天是你的，黑夜也是你的。”",
+      "zh_ref": "诗篇 74:7–17"
     },
     {
       "n": 3,
@@ -111,7 +133,12 @@
         "accent": "#f1ac45"
       },
       "dailyWalkDay": 522,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “we give thanks— your name is near.” Looking through the lens of Psalm 75:1, what does it mean to discover that “near. close enough to whisper”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “we give thanks— your name is near.” Looking through the lens of Psalm 75:1, what does it mean to discover that “near. close enough to whisper”?",
+      "zh_title": "附近",
+      "zh_poem": "我们感谢——\n你的名字就在附近。\n\n不远处的云端。\n靠近。\n\n距离足够近，可以打电话。\n近得足以低声耳语。",
+      "zh_reflectionPrompt": "回想一下某个季节，您体会到“我们感谢——您的名字近在眼前”的感觉。透过诗篇 75:1 的镜头，发现“近到、近到可以低声细语”是什么意思？",
+      "zh_epigraph": "“我们感谢你，因为你的名字临近。”",
+      "zh_ref": "诗篇 75:1"
     },
     {
       "n": 4,
@@ -132,7 +159,12 @@
         "accent": "#f1e4c9"
       },
       "dailyWalkDay": 523,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “broken arrows” in this painting (Psalm 76:3–10)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “broken arrows” in this painting (Psalm 76:3–10)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "断箭",
+      "zh_poem": "他折断了闪烁的箭，\n盾牌、剑、\n战争武器。\n\n甚至人类的愤怒\n最终\n服侍他的赞美。\n\n人们没有向上帝扔任何东西\n被浪费了。\n他转动它\n变成一首歌。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的中心“断箭”（诗篇 76:3-10）——如果今天你可以在它旁边留下一个焦虑的重物，你会放什么？",
+      "zh_epigraph": "“人类的愤怒肯定会赞美你。”",
+      "zh_ref": "诗篇 76:3–10"
     },
     {
       "n": 5,
@@ -153,7 +185,12 @@
         "accent": "#dccdb4"
       },
       "dailyWalkDay": 524,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “no footprints”: what quiet prayer rises in you when you read, “just because you can't see his tracks doesn't mean he isn't walking ahead”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “no footprints”: what quiet prayer rises in you when you read, “just because you can't see his tracks doesn't mean he isn't walking ahead”?",
+      "zh_title": "没有脚印",
+      "zh_poem": "我无法入睡。\n我说不出话来。\n上帝忘记了吗？\n\n然后我想起来了\n古老的奇迹，\n穿过大海的路。\n\n还有这个：\n你的脚印\n没有看到。\n\n他带领他们通过\n不留痕迹。\n\n只是因为你看不到他的踪迹\n并不意味着\n他没有走在前面。",
+      "zh_reflectionPrompt": "让你的目光停留在“没有脚印”安静中心周围的笔触和光线上：当你读到“仅仅因为你看不到他的足迹并不意味着他没有走在前面”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“你的道路穿过大海；你的道路穿过大海。你的足迹无人知晓。”",
+      "zh_ref": "诗篇 77:4–19"
     },
     {
       "n": 6,
@@ -174,7 +211,12 @@
         "accent": "#efc797"
       },
       "dailyWalkDay": 525,
-      "reflectionPrompt": "Linger with the movement in “tell the children” (Psalm 78:1–7) from “the longest history lesson in the Psalms: seventy-two verses of what God did, and how we forgot” to “tell them the stories— the good ones and the hard ones”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “tell the children” (Psalm 78:1–7) from “the longest history lesson in the Psalms: seventy-two verses of what God did, and how we forgot” to “tell them the stories— the good ones and the hard ones”—where do you find yourself along that arc today?",
+      "zh_title": "告诉孩子们",
+      "zh_poem": "最长的历史课\n在诗篇中：\n七十二偈\n神所做的事，\n以及我们是如何忘记的。\n\n以及它的写作原因：\n所以孩子们\n就会知道，\n并将希望寄托在上帝身上，\n不要忘记。\n\n给他们讲故事——\n好的人\n和困难的。",
+      "zh_reflectionPrompt": "沉浸在“诗篇中最长的历史课：上帝所做的七十二节经文，以及我们如何忘记”中的“告诉孩子们”（诗篇 78：1-7）的运动中，“告诉他们故事——好的故事和难的故事”——今天你发现自己在这条弧线的哪个位置？",
+      "zh_epigraph": "“我们不会向他们的子孙隐瞒它们，并将对耶和华的赞美传给后代”",
+      "zh_ref": "诗篇 78:1–7"
     },
     {
       "n": 7,
@@ -195,7 +237,12 @@
         "accent": "#f8edb8"
       },
       "dailyWalkDay": 526,
-      "reflectionPrompt": "Notice how “for your name's sake” (Psalm 79:9) arrives at: “it has never been turned down.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “for your name's sake” (Psalm 79:9) arrives at: “it has never been turned down.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "为了你的名字",
+      "zh_poem": "帮助我们——\n不是因为我们应得的。\n\n为了你的名字。\n\n原谅我们——\n不是因为我们已经赢得了它。\n\n为了你的名字。\n\n当你没有什么可辩解的时候\n恳求他的名字。\n它从来没有\n被拒绝了。",
+      "zh_reflectionPrompt": "请注意“为你名的缘故”（诗篇 79:9）是如何演变为“从来没有被拒绝过”。今天，你生命中的哪些人正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“拯救我们的神啊，请帮助我们，为了你名的荣耀。”",
+      "zh_ref": "诗篇 79:9"
     },
     {
       "n": 8,
@@ -216,7 +263,12 @@
         "accent": "#fcf4e0"
       },
       "dailyWalkDay": 527,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Psalm 80:3–19: “that's the whole prayer. it's enough”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Psalm 80:3–19: “that's the whole prayer. it's enough”?",
+      "zh_title": "再次转向我们",
+      "zh_poem": "你从埃及带来了一棵葡萄树，\n种下了它，\n它充满了这片土地。\n\n现在墙壁已经破损\n野猪践踏它。\n\n合唱团回来了三遍，\n每一次都更加绝望：\n\n再次转向我们。\n让你的脸容光焕发，\n我们就会得救。\n\n这就是整个祷告。\n就够了。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是诗篇 80:3-19 的安静教训：“这就是整个祷告。这就够了”怎么办？",
+      "zh_epigraph": "“神啊，请再次转动我们。让你的脸发光，我们就会得救。”",
+      "zh_ref": "诗篇 80:3–19"
     },
     {
       "n": 9,
@@ -237,7 +289,12 @@
         "accent": "#e9dfba"
       },
       "dailyWalkDay": 528,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “open wide”: what hurry or noise in your week begins to fade when you hear, “we keep our mouths half closed”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “open wide”: what hurry or noise in your week begins to fade when you hear, “we keep our mouths half closed”?",
+      "zh_title": "敞开",
+      "zh_poem": "张开你的嘴，\n我会填满它——\n\n就像一窝雏鸟，\n喙宽，\n没有什么可以阻止的。\n\n最后：\n我本来会喂你的\n最优质的小麦，\n来自岩石的蜂蜜。\n\n他想要给予。\n我们守口如瓶\n半封闭。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是“敞开”的安静中心：当你听到“我们半闭着嘴”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“张开你的嘴，我来填满它。”",
+      "zh_ref": "诗篇 81:10–16"
     },
     {
       "n": 10,
@@ -258,7 +315,12 @@
         "accent": "#f4ecd6"
       },
       "dailyWalkDay": 529,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “that's the job description of anyone with power.” What part of your heart feels most searched or comforted by Psalm 82:1–4 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “that's the job description of anyone with power.” What part of your heart feels most searched or comforted by Psalm 82:1–4 right now?",
+      "zh_title": "工作描述",
+      "zh_poem": "神站起来了\n在强权议会中\n并询问：\n你的不公正审判要到几时？\n\n保卫弱者。\n穷人。\n无父者。\n\n这就是工作描述\n任何人的\n有力量。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“这就是任何有权势的人的工作描述。”现在，诗篇 82 章 1-4 节最能触动你内心的哪个部分？",
+      "zh_epigraph": "“保护弱者、穷人和孤儿。”",
+      "zh_ref": "诗篇 82:1–4"
     },
     {
       "n": 11,
@@ -279,7 +341,12 @@
         "accent": "#f6ebcd"
       },
       "dailyWalkDay": 530,
-      "reflectionPrompt": "In Psalm 83:16–18, grace meets us right beside the name by which He calls you: how does the closing thought—“even for enemies, the psalm's hope is that they'd find out who he is”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Psalm 83:16–18, grace meets us right beside the name by which He calls you: how does the closing thought—“even for enemies, the psalm's hope is that they'd find out who he is”—steady your footing for the road ahead?",
+      "zh_title": "以便他们知道",
+      "zh_poem": "各国缔结契约，\n一长串的敌人\n在一个联盟中。\n\n和祈祷\n不仅仅是：击败他们。\n\n它是：让他们寻找你的名字。\n让他们知道\n你一个人\n是神。\n\n即使对于敌人，\n诗篇的希望\n他们会发现\n他是谁。",
+      "zh_reflectionPrompt": "在诗篇 83 章 16-18 节中，恩典就在他呼召你的名字旁边与我们相遇：最后的思想——“即使是对敌人，诗篇的希望是他们会发现他是谁”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“唯有你，你的名字是耶和华，是统治全地的至高者。”",
+      "zh_ref": "诗篇 83:16–18"
     },
     {
       "n": 12,
@@ -300,7 +367,12 @@
         "accent": "#c9b895"
       },
       "dailyWalkDay": 531,
-      "reflectionPrompt": "If today’s painting of “the sparrow's nest” (Psalm 84:1–6) hung beside the door you walk out of this morning, how would its final line—“and on the way there, passing through the valley of weeping, they make it a place of springs”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the sparrow's nest” (Psalm 84:1–6) hung beside the door you walk out of this morning, how would its final line—“and on the way there, passing through the valley of weeping, they make it a place of springs”—shape your choices?",
+      "zh_title": "麻雀的巢",
+      "zh_poem": "你的房子多可爱啊。\n\n就连麻雀\n在那里找到了一个地方——\n一个小巢\n藏在石头里\n靠近祭坛。\n\n如果上帝腾出空间\n对于麻雀来说，\n有一个地方\n为了你。\n\n在去那里的路上，\n穿过哭泣的山谷，\n他们做到了\n有泉水的地方。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“麻雀巢”（诗篇 84：1-6）这幅画，那么它的最后一行——“在去那里的路上，经过哭泣的山谷，他们使它成为泉水之地”——会如何影响你的选择？",
+      "zh_epigraph": "“是的，麻雀找到了家，燕子找到了自己的巢，她可以在你的祭坛附近生下孩子。”",
+      "zh_ref": "诗篇 84:1–6"
     },
     {
       "n": 13,
@@ -321,7 +393,12 @@
         "accent": "#f3e3c2"
       },
       "dailyWalkDay": 532,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Psalm 85:10–11)—where in your own home or work today does “in God they were never strangers” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Psalm 85:10–11)—where in your own home or work today does “in God they were never strangers” ring true?",
+      "zh_title": "他们亲吻了",
+      "zh_poem": "怜悯与真理\n路上相遇。\n\n正义与和平\n吻。\n\n我们把他们分开——\n真理无怜悯，\n没有正义的和平。\n\n在神里面\n他们从来都不是\n陌生人。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（诗篇 85:10-11）——今天在你自己的家里或工作场所，“靠着神，他们从来都不是陌生人”听起来是真的吗？",
+      "zh_epigraph": "“慈悲与真理相遇。正义与和平彼此亲吻。”",
+      "zh_ref": "诗篇 85:10–11"
     },
     {
       "n": 14,
@@ -342,7 +419,12 @@
         "accent": "#faeec2"
       },
       "dailyWalkDay": 533,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “make me one piece, facing you.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “make me one piece, facing you.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "一件",
+      "zh_poem": "教我你的方法，\n并团结我的心。\n\n我被拉向很多方向——\n恐惧与希望，\n上帝和金钱，\n是的，也许是。\n\n把我聚集起来。\n让我\n一件，\n面对你。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“让我成为一体，面向你。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“让我的心一心一意地敬畏你的名字。”",
+      "zh_ref": "诗篇 86:11"
     },
     {
       "n": 15,
@@ -363,7 +445,12 @@
         "accent": "#e0d1b2"
       },
       "dailyWalkDay": 534,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “a short, strange psalm about Zion, and the foreigners who'll be counted as born there— Egypt, Babylon, Philistia, Tyre, Cush.” Looking through the lens of Psalm 87:4–7, what does it mean to discover that “and the singers and the dancers say one thing: all my springs are in you”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “a short, strange psalm about Zion, and the foreigners who'll be counted as born there— Egypt, Babylon, Philistia, Tyre, Cush.” Looking through the lens of Psalm 87:4–7, what does it mean to discover that “and the singers and the dancers say one thing: all my springs are in you”?",
+      "zh_title": "我所有的泉水",
+      "zh_poem": "一首简短而奇怪的诗篇\n关于锡安，\n和外国人\n谁将被视为在那里出生——\n\n埃及、巴比伦、\n非利士、推罗、古实。\n\n还有歌手和舞者\n说一件事：\n\n我所有的泉水\n在你里面。",
+      "zh_reflectionPrompt": "想一想一个季节，当你体会到“一首关于锡安的简短而奇怪的诗篇，以及被视为出生在那里的外国人——埃及、巴比伦、非利士、推罗、古实”的感觉时。透过诗篇 87:4-7 的镜头，发现“歌唱者和舞者都说一件事：我所有的泉源都在你里面”意味着什么？",
+      "zh_epigraph": "“我所有的源泉都在你身上。”",
+      "zh_ref": "诗篇 87:4–7"
     },
     {
       "n": 16,
@@ -384,7 +471,12 @@
         "accent": "#dbad68"
       },
       "dailyWalkDay": 535,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “still praying” in this painting (Psalm 88:13–18)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “still praying” in this painting (Psalm 88:13–18)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "仍在祈祷",
+      "zh_poem": "这是最黑暗的诗篇。\n它没有结束\n转向希望。\n\n最后一句话是\n黑暗。\n\n无论如何，它是在圣经里的。\n\n有时这就是所有的祈祷\n你有：\n我还在这里，主啊。\n又到了早晨，\n我仍在祈祷。\n\n这很重要。\n这也是信仰。",
+      "zh_reflectionPrompt": "仔细观察这幅画中“仍在祈祷”的安静中心（诗篇 88：13-18）——如果今天你可以在它旁边留下一个焦虑的重物，你会放什么？",
+      "zh_epigraph": "“早上，我的祈祷来到你面前。”",
+      "zh_ref": "诗篇 88:13–18"
     },
     {
       "n": 17,
@@ -405,7 +497,12 @@
         "accent": "#f1deb3"
       },
       "dailyWalkDay": 536,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the weight of the crown: what quiet prayer rises in you when you read, “sometimes you sing the first line and the last line without understanding the middle”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the weight of the crown: what quiet prayer rises in you when you read, “sometimes you sing the first line and the last line without understanding the middle”?",
+      "zh_title": "第一行和最后一行",
+      "zh_poem": "它以歌曲开头：\n我会永远歌颂你的爱。\n\n然后问\n为什么王冠躺在尘埃里。\n\n第三册结束\n无论如何，带着祝福：\n愿主受颂赞\n永远。\n阿门，阿门。\n\n有时你唱歌\n第一行\n和最后一行\n不理解\n中间。",
+      "zh_reflectionPrompt": "让你的目光停留在王冠重量周围的笔触和光线上：当你读到“有时你唱第一行和最后一行而不理解中间”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“我要永远歌颂耶和华的慈爱。”",
+      "zh_ref": "诗篇 89:1–52"
     },
     {
       "n": 18,
@@ -426,7 +523,12 @@
         "accent": "#f8e6b8"
       },
       "dailyWalkDay": 537,
-      "reflectionPrompt": "Linger with the movement in “count our days” (Psalm 90:1–12) from “the oldest psalm, a prayer of Moses” to “so teach us to count our days— not to be afraid. to be wise”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “count our days” (Psalm 90:1–12) from “the oldest psalm, a prayer of Moses” to “so teach us to count our days— not to be afraid. to be wise”—where do you find yourself along that arc today?",
+      "zh_title": "数数我们的日子",
+      "zh_poem": "最古老的诗篇，\n摩西的祷告。\n\n主啊，你一直是我们的家\n对于每一代人。\n\n我们是草——\n清晨的绿色，\n晚上干燥。\n\n所以教我们\n数算我们的日子——\n\n不要害怕。\n要有智慧。",
+      "zh_reflectionPrompt": "留心“数算我们的日子”（诗篇 90：1-12）中的运动，从“最古老的诗篇，摩西的祈祷”到“教导我们数算我们的日子——不要害怕。要明智”——今天你发现自己在这条弧线的哪个位置？",
+      "zh_epigraph": "“所以教导我们数算自己的日子，这样我们就能获得一颗智慧的心。”",
+      "zh_ref": "诗篇 90:1–12"
     },
     {
       "n": 19,
@@ -447,7 +549,12 @@
         "accent": "#ead194"
       },
       "dailyWalkDay": 538,
-      "reflectionPrompt": "Notice how “under his feathers” (Psalm 91:1–15) arrives at: “and at the end, God speaks: I will be with him in trouble.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “under his feathers” (Psalm 91:1–15) arrives at: “and at the end, God speaks: I will be with him in trouble.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "在他的羽毛下",
+      "zh_poem": "住在庇护所里。\n在阴影中休息。\n\n在他的羽毛下，\n在他的羽翼之下。\n\n不是石头堡垒。\n鸟妈妈的翅膀，\n温暖，\n关闭,\n覆盖。\n\n最后，上帝说话：\n我会和他在一起\n遇到麻烦了。",
+      "zh_reflectionPrompt": "请注意“在他的羽毛下”（诗篇 91：1-15）是如何得出的：“最后，上帝说：在他的苦难中，我将与他同在。”今天，你生命中的哪些人正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“他会用他的羽毛遮盖你。你会在他的翅膀下避难。”",
+      "zh_ref": "诗篇 91:1–15"
     },
     {
       "n": 20,
@@ -468,7 +575,12 @@
         "accent": "#ebdbb7"
       },
       "dailyWalkDay": 539,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Psalm 92:12–15: “growing old with God isn't drying up. it's the harvest”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Psalm 92:12–15: “growing old with God isn't drying up. it's the harvest”?",
+      "zh_title": "仍然是绿色的",
+      "zh_poem": "义人必兴盛\n像一棵棕榈树，\n像雪松一样生长——\n\n并且仍然结出果实\n当他们老了，\n充满汁液，\n仍然是绿色的。\n\n与神一起变老\n没有干涸。\n这是收获。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是诗篇 92:12-15 中安静的教训：“与神一起变老并不会枯竭，而是收获”怎么办？",
+      "zh_epigraph": "“它们年老时仍会结出果实。它们会充满汁液和绿色”",
+      "zh_ref": "诗篇 92:12–15"
     },
     {
       "n": 21,
@@ -489,7 +601,12 @@
         "accent": "#e8dcc0"
       },
       "dailyWalkDay": 540,
-      "reflectionPrompt": "Imagine standing inside this frame beside the still, unhurried voice: what hurry or noise in your week begins to fade when you hear, “the sea is loud. he is louder”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the still, unhurried voice: what hurry or noise in your week begins to fade when you hear, “the sea is loud. he is louder”?",
+      "zh_title": "更响亮",
+      "zh_poem": "洪水提高了声音。\n浪涛咆哮。\n\n更响亮。\n更响亮。\n\n最重要的是，\n比最响亮的波浪更强大——\n主啊。\n\n大海很吵。\n他声音更大了。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是静止、不紧不慢的声音：当你听到“大海很大声。他更大声”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“高处的耶和华大有能力，胜过众水的声音和大海的汹涌波涛。”",
+      "zh_ref": "诗篇 93:3–4"
     },
     {
       "n": 22,
@@ -510,7 +627,12 @@
         "accent": "#e9dbbf"
       },
       "dailyWalkDay": 541,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “sometimes the only prayer you get out is: I'm falling. it's enough. he's quick.” What part of your heart feels most searched or comforted by Psalm 94:18–19 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “sometimes the only prayer you get out is: I'm falling. it's enough. he's quick.” What part of your heart feels most searched or comforted by Psalm 94:18–19 right now?",
+      "zh_title": "滑倒",
+      "zh_poem": "我的脚打滑了\n我说——\n\n和你的爱\n扶住了我。\n\n当我的思绪如潮水般涌来时\n焦虑而大声，\n你的舒适度\n我的灵魂很高兴。\n\n有时你唯一能得到的祈祷\n是：我正在坠落。\n就够了。\n他很快。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“有时你发出的唯一祈祷是：我正在跌倒。已经够了。他很快。”现在，诗篇 94 章 18-19 节最能触动你内心的哪个部分？",
+      "zh_epigraph": "“当我说：‘我的脚打滑了！’”耶和华啊，你的慈爱扶持了我。”",
+      "zh_ref": "诗篇 94:18–19"
     },
     {
       "n": 23,
@@ -531,7 +653,12 @@
         "accent": "#e7dbc0"
       },
       "dailyWalkDay": 542,
-      "reflectionPrompt": "In Psalm 95:6–8, grace meets us right beside the still, unhurried voice: how does the closing thought—“today is the only day he ever asks for”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Psalm 95:6–8, grace meets us right beside the still, unhurried voice: how does the closing thought—“today is the only day he ever asks for”—steady your footing for the road ahead?",
+      "zh_title": "今天",
+      "zh_poem": "来吧，我们跪下。\n他创造了我们。\n我们是他牧场上的羊。\n\n然后是警告：\n今天，\n如果你听到他的声音\n不要硬着心肠。\n\n不是明天。\n不是当事情安定下来的时候。\n\n今天\n是唯一的一天\n他曾经要求过。",
+      "zh_reflectionPrompt": "在诗篇 95:6-8 中，恩典就在平静、从容的声音旁边与我们相遇：最后的思想——“今天是他所祈求的唯一日子”——如何让你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“今天，哦，但愿你能听到他的声音！”",
+      "zh_ref": "诗篇 95:6–8"
     },
     {
       "n": 24,
@@ -552,7 +679,12 @@
         "accent": "#f6ecca"
       },
       "dailyWalkDay": 543,
-      "reflectionPrompt": "If today’s painting of “the trees sing” (Psalm 96:11–13) hung beside the door you walk out of this morning, how would its final line—“they're waiting for the King, who's coming to set things right”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the trees sing” (Psalm 96:11–13) hung beside the door you walk out of this morning, how would its final line—“they're waiting for the King, who's coming to set things right”—shape your choices?",
+      "zh_title": "树木歌唱",
+      "zh_poem": "唱一首新歌，\n整个地球。\n\n大地也回唱：\n大海在咆哮，\n田野欢欣鼓舞，\n森林里的树木\n摇摆和唱歌。\n\n他们在等\n为了国王，\n谁来了\n纠正事情。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“树木歌唱”（诗篇 96:11-13）的画作，那么它的最后一行——“他们正在等待国王，他会来纠正事情”——会如何影响你的选择？",
+      "zh_epigraph": "“那么树林里的所有树木都会欢呼”",
+      "zh_ref": "诗篇 96:11–13"
     },
     {
       "n": 25,
@@ -573,7 +705,12 @@
         "accent": "#e8d9ac"
       },
       "dailyWalkDay": 544,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Psalm 97:1–11)—where in your own home or work today does “and light is sown for the righteous, like seed” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Psalm 97:1–11)—where in your own home or work today does “and light is sown for the righteous, like seed” ring true?",
+      "zh_title": "最远的岛屿",
+      "zh_poem": "耶和华作王。\n\n好消息\n一直出去\n到最远的岛屿。\n\n他周围的乌云和黑暗——\n但在他的中心，\n正义与正义。\n\n并播种光\n为义人，\n像种子一样。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（诗篇 97:1-11）——今天在你自己的家里或工作场所，“光是为义人撒下的，就像种子一样”是真实的吗？",
+      "zh_epigraph": "“耶和华作王！愿大地欢乐！愿众岛欢乐！”",
+      "zh_ref": "诗篇 97:1–11"
     },
     {
       "n": 26,
@@ -594,7 +731,12 @@
         "accent": "#e6d5ba"
       },
       "dailyWalkDay": 545,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “the whole world is a choir with no sheet music, and everyone knows the song.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “the whole world is a choir with no sheet music, and everyone knows the song.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "拍手",
+      "zh_poem": "河流，\n拍拍你的手。\n\n山，\n一起唱歌。\n\n整个世界\n是一个合唱团\n没有乐谱，\n\n和大家\n知道这首歌。",
+      "zh_reflectionPrompt": "缓缓吸一口气，再读一遍最后一句：“整个世界是一个没有乐谱的合唱团，而每个人都知道这首歌。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“让河流拍手，让群山一起欢呼。”",
+      "zh_ref": "诗篇 98:7–9"
     },
     {
       "n": 27,
@@ -615,7 +757,12 @@
         "accent": "#eed186"
       },
       "dailyWalkDay": 546,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “holy. holy.” Looking through the lens of Psalm 99:5–9, what does it mean to discover that “and yet he answered Moses, and Aaron, and Samuel, when they called. holy, and near”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “holy. holy.” Looking through the lens of Psalm 99:5–9, what does it mean to discover that “and yet he answered Moses, and Aaron, and Samuel, when they called. holy, and near”?",
+      "zh_title": "圣而近",
+      "zh_poem": "神圣的。\n圣。\n神圣——\n\n一篇诗篇中出现了三次。\n\n然而\n他回答摩西说：\n和亚伦，\n和塞缪尔，\n当他们打电话时。\n\n神圣的，\n和附近。",
+      "zh_reflectionPrompt": "回想一下你体会到“神圣、神圣”感觉的某个季节。透过诗篇 99:5-9 的视角，我们会发现“当摩西、亚伦和撒母耳呼求时，他却应允他们。圣洁又亲近”，这意味着什么？",
+      "zh_epigraph": "“尊崇耶和华我们的上帝。在他的脚凳前敬拜。他是圣洁的！”",
+      "zh_ref": "诗篇 99:5–9"
     },
     {
       "n": 28,
@@ -636,7 +783,12 @@
         "accent": "#f9eac4"
       },
       "dailyWalkDay": 547,
-      "reflectionPrompt": "Look closely at the city gate in this painting (Psalm 100:3–4)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the city gate in this painting (Psalm 100:3–4)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "门",
+      "zh_poem": "他创造了我们。\n我们是他的。\n他的人民。\n他的羊。\n\n所以进去\n谢谢。\n\n门没锁。\n你不需要密码。\n只是感激。",
+      "zh_reflectionPrompt": "仔细观察这幅画中的城门（诗篇 100：3-4）——如果今天你可以在城门旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“当感谢进入他的门，当赞美进入他的院。”",
+      "zh_ref": "诗篇 100:3–4"
     },
     {
       "n": 29,
@@ -657,7 +809,12 @@
         "accent": "#fde99c"
       },
       "dailyWalkDay": 548,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open threshold: what quiet prayer rises in you when you read, “that's where holiness is tested: the rooms nobody else sees”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open threshold: what quiet prayer rises in you when you read, “that's where holiness is tested: the rooms nobody else sees”?",
+      "zh_title": "在家",
+      "zh_poem": "国王的决议：\n我将诚信前行\n在我自己的房子里。\n\n不仅仅是在公共场合。\n在家里。\n门关着。\n\n那就是圣洁的地方\n经测试：\n房间\n其他人都看不到。",
+      "zh_reflectionPrompt": "让你的目光停留在敞开的门槛周围的笔触和光线上：当你读到“那就是检验圣洁的地方：其他人看不到的房间”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“我将以一颗无可指责的心走进我的房子。”",
+      "zh_ref": "诗篇 101:2"
     },
     {
       "n": 30,
@@ -678,7 +835,12 @@
         "accent": "#c7ac85"
       },
       "dailyWalkDay": 549,
-      "reflectionPrompt": "Linger with the movement in “written for later” (Psalm 102:1–18) from “I'm like a lonely bird on the housetop, awake all night” to “someone not yet born will read your prayer and praise him”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “written for later” (Psalm 102:1–18) from “I'm like a lonely bird on the housetop, awake all night” to “someone not yet born will read your prayer and praise him”—where do you find yourself along that arc today?",
+      "zh_title": "为以后而写",
+      "zh_poem": "我像一只孤独的小鸟\n屋顶上，\n整晚都醒着。\n\n我的日子如烟消云散。\n\n然而——\n他垂听穷人的祈祷。\n他并不鄙视它。\n\n这个，稍后再说：\n让它被写下来\n为了下一代。\n\n尚未出生的人\n会读你的祈祷\n并称赞他。",
+      "zh_reflectionPrompt": "徘徊在“为以后而写”（诗篇 102：1-18）中的乐章中，从“我像屋顶上的一只孤独的鸟，彻夜不眠”到“尚未出生的人会读你的祈祷并赞美他”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“他回应了穷人的祈祷，并没有藐视他们的祈祷。”",
+      "zh_ref": "诗篇 102:1–18"
     },
     {
       "n": 31,
@@ -699,7 +861,12 @@
         "accent": "#f8d973"
       },
       "dailyWalkDay": 550,
-      "reflectionPrompt": "Notice how “east from west” (Psalm 103:1–14) arrives at: “and he remembers we are dust— not to condemn us. to be gentle.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “east from west” (Psalm 103:1–14) arrives at: “and he remembers we are dust— not to condemn us. to be gentle.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "从西向东",
+      "zh_poem": "我的灵魂，请赞美主。\n别忘了。\n\n他原谅了。\n他痊愈了。\n他救赎了。\n他以爱为你加冕。\n\n你的罪孽呢？\n东距西有多远。\n\n你无法测量它。\n这就是重点。\n\n他记得\n我们是尘埃——\n不是为了谴责我们。\n要温柔。",
+      "zh_reflectionPrompt": "请注意“从东到西”（诗篇 103：1-14）是如何得出的：“他记念我们不过是尘土——并不是要定我们的罪。要温柔。”今天，你生命中的哪些人正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“东离西有多远，他叫我们的过犯离我们也有多远。”",
+      "zh_ref": "诗篇 103:1–14"
     },
     {
       "n": 32,
@@ -720,7 +887,12 @@
         "accent": "#f6e9c6"
       },
       "dailyWalkDay": 551,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Psalm 104:17–26: “this psalm is a nature walk with God, pointing at everything and saying: that's mine. isn't it good?”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Psalm 104:17–26: “this psalm is a nature walk with God, pointing at everything and saying: that's mine. isn't it good?”?",
+      "zh_title": "与神同行",
+      "zh_poem": "枞树上的鹳。\n高高的悬崖上的野山羊。\n岩石中的岩獾。\n少壮狮子吼叫寻找食物。\n海上的船只。\n\n你的作品有多少。\n\n这首诗篇是一次自然漫步\n与神同在，\n指着一切\n并说：\n那是我的。\n这不是很好吗？",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是诗篇 104:17-26 的安静教训：“这首诗篇是与神同行的自然，指着一切说：那是我的。这不是很好吗？”？",
+      "zh_epigraph": "“耶和华啊，你的作品何其多！这一切都是你用智慧创造的。”",
+      "zh_ref": "诗篇 104:17–26"
     },
     {
       "n": 33,
@@ -741,7 +913,12 @@
         "accent": "#e2bb70"
       },
       "dailyWalkDay": 552,
-      "reflectionPrompt": "Imagine standing inside this frame beside the morning manna on the ground: what hurry or noise in your week begins to fade when you hear, “it's fuel for tomorrow's seeking”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the morning manna on the ground: what hurry or noise in your week begins to fade when you hear, “it's fuel for tomorrow's seeking”?",
+      "zh_title": "寻求他的面",
+      "zh_poem": "记住\n他做了什么——\n亚伯拉罕、约瑟、摩西、\n瘟疫、吗哪、\n岩石中的水。\n\n然后：\n寻求他的面。\n总是。\n\n记忆\n不是怀旧。\n这是燃料\n为了明天的追求。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是地上的早晨甘露：当您听到“这是明天寻求的燃料”时，您一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“寻求耶和华和他的力量。永远寻求他的面。”",
+      "zh_ref": "诗篇 105:1–5"
     },
     {
       "n": 34,
@@ -762,7 +939,15 @@
         "accent": "#f9cd75"
       },
       "dailyWalkDay": 553,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “so the book closes with everyone together: amen. praise the Lord.” What part of your heart feels most searched or comforted by Psalm 106:1–48 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “so the book closes with everyone together: amen. praise the Lord.” What part of your heart feels most searched or comforted by Psalm 106:1–48 right now?",
+      "zh_title": "阿门",
+      "zh_poem": "书四结束\n说实话：\n\n我们犯了罪。\n我们的祖先犯了罪。\n一遍又一遍。\n\n他救了他们\n一遍又一遍。\n\n他的爱永远长存。\n\n所以这本书结束了\n和大家一起：\n阿门。\n赞美主。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“所以这本书在大家一起结束：阿门。赞美主。”现在，诗篇 106：1-48 给你心灵的哪一部分带来最深刻的审视或安慰？",
+      "zh_epigraph": "“愿众民都说：‘阿门’。”赞叹啊！”",
+      "zh_ref": "诗篇 106:1–48"
     }
-  ]
+  ],
+  "zh_title": "在你的院宇住一日",
+  "zh_subtitle": "诗篇 73–106 诗画集",
+  "zh_beforeYouBegin": "本书汇集了诗篇第三卷和第四卷。第三卷以一个人几乎失去信仰开始，直到他走进神的家，并拿着圣经中最黑暗的诗篇。第四卷以摩西关于数算我们的日子的祈祷开始，并上升为河流拍打、树木歌唱的歌曲。\n\n这卷书一次回答一个问题，三十四首短诗分为四个部分，每一部分旁边都有一幅图画，下面是它所回答的诗篇的一行诗。它遵循《依水而生》和《如鹿》。\n\n这些诗不是圣经。它们是一位读者对此的回应。将诗篇与本书放在一起打开，让真正的话语成为最后的话语。"
 }

@@ -16,7 +16,10 @@
       "epigraph": "I bring you good news of great joy which will be to all the people.",
       "epigraphRef": "Luke 2:10",
       "lightName": "Light of Good News of Great Joy",
-      "lightHint": "Near 'favored' (Luke 1:28) in Part 1: Good News of Great Joy"
+      "lightHint": "Near 'favored' (Luke 1:28) in Part 1: Good News of Great Joy",
+      "zh_title": "大喜乐的好消息",
+      "zh_epigraph": "我给你们带来了令所有人都大喜的好消息。",
+      "zh_epigraphRef": "路加福音 2:10"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "he has anointed me to preach good news to the poor.",
       "epigraphRef": "Luke 4:18",
       "lightName": "Light of Good News to the Poor",
-      "lightHint": "Near 'the scroll' (Luke 4:18) in Part 2: Good News to the Poor"
+      "lightHint": "Near 'the scroll' (Luke 4:18) in Part 2: Good News to the Poor",
+      "zh_title": "穷人的好消息",
+      "zh_epigraph": "他指定我向穷人传播好消息。",
+      "zh_epigraphRef": "路加福音 4:18"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "No one, having put his hand to the plow, and looking back, is fit for God ’s Kingdom.",
       "epigraphRef": "Luke 9:62",
       "lightName": "Light of On the Road",
-      "lightHint": "Near 'twelve baskets' (Luke 9:16–17) in Part 3: On the Road"
+      "lightHint": "Near 'twelve baskets' (Luke 9:16–17) in Part 3: On the Road",
+      "zh_title": "在路上",
+      "zh_epigraph": "没有人能够在把手耕犁之后回头看，适合进入上帝的王国。",
+      "zh_epigraphRef": "路加福音 9:62"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "For the Son of Man came to seek and to save that which was lost.",
       "epigraphRef": "Luke 19:10",
       "lightName": "Light of Lost and Found",
-      "lightHint": "Near 'the one' (Luke 15:4–5) in Part 4: Lost and Found"
+      "lightHint": "Near 'the one' (Luke 15:4–5) in Part 4: Lost and Found",
+      "zh_title": "失物招领",
+      "zh_epigraph": "因为人子来是要寻找并拯救失丧的人。",
+      "zh_epigraphRef": "路加福音 19:10"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "Weren’t our hearts burning within us, while he spoke to us along the way",
       "epigraphRef": "Luke 24:32",
       "lightName": "Light of Our Hearts Burning",
-      "lightHint": "Near 'two small coins' (Luke 21:3–4) in Part 5: Our Hearts Burning"
+      "lightHint": "Near 'two small coins' (Luke 21:3–4) in Part 5: Our Hearts Burning",
+      "zh_title": "我们的心在燃烧",
+      "zh_epigraph": "当他一路上对我们说话时，我们的心不是在燃烧吗？",
+      "zh_epigraphRef": "路加福音 24:32"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#eed7ab"
       },
       "dailyWalkDay": 1000,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Luke 1:28)—where in your own home or work today does “it means chosen, and loved, and not alone” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Luke 1:28)—where in your own home or work today does “it means chosen, and loved, and not alone” ring true?",
+      "zh_title": "受到青睐",
+      "zh_poem": "她不在圣殿里。\n她没有在山上祈祷。\n\n她是一个年轻女子\n在一个小镇\n没有人预料到\n任何来自。\n\n天堂对她说的第一句话\n很高兴。\n\n受到青睐\n并不意味着\n重要。\n\n这意味着\n选择的，\n并爱过，\n而且并不孤单。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（路加福音 1:28）——今天在你自己的家里或工作中，“这意味着被拣选、被爱，而不是孤独”听起来是真的吗？",
+      "zh_epigraph": "“欢喜吧，你备受宠爱的人！主与你同在。”",
+      "zh_ref": "路加福音 1:28"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#f3e6cf"
       },
       "dailyWalkDay": 1001,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “three words that opened the door to Christmas.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “three words that opened the door to Christmas.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "随它去吧",
+      "zh_poem": "她问了一个问题：\n怎么办？\n\n并得到了答案\n那什么也解释不了\n并承诺了一切：\n\n神什么也没说\n是不可能的。\n\n所以她说是的。\n不是因为它有道理。\n因为她知道\n谁在问。\n\n随它去。\n\n三个字\n打开门的\n到圣诞节。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“打开圣诞节之门的三个词。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“看哪，主的仆人，情愿照你的话成就在我身上。”",
+      "zh_ref": "路加福音 1:37–38"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#eadfc9"
       },
       "dailyWalkDay": 1002,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “she ran to her cousin's house in the hills and when Elizabeth blessed her, a song came out that she'd been carrying all the way.” Looking through the lens of Luke 1:46–47, what does it mean to discover that “the lowly lifted. and she was carrying it”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “she ran to her cousin's house in the hills and when Elizabeth blessed her, a song came out that she'd been carrying all the way.” Looking through the lens of Luke 1:46–47, what does it mean to discover that “the lowly lifted. and she was carrying it”?",
+      "zh_title": "我的灵魂放大",
+      "zh_poem": "她跑到她表弟家\n在山上\n\n当伊丽莎白\n祝福她，\n一首歌出来了\n她一直带着的\n一路走来。\n\n骄傲的人散了。\n饥饿的人吃饱了。\n地位低下的人。\n\n她在唱歌\n关于一个王国\n那还没有出生。\n\n她是\n携带它。",
+      "zh_reflectionPrompt": "回想一下某个季节，您会体会到“她跑到山上她表弟的家里，当伊丽莎白祝福她时，一首她一直带着的歌出来了”的感觉。从路加福音 1 章 46-47 节的角度来看，发现“卑微的人举足轻重，而她却背负着它”意味着什么？",
+      "zh_epigraph": "“我的灵魂尊主为大。”",
+      "zh_ref": "路加福音 1:46–47"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#fdd6a9"
       },
       "dailyWalkDay": 1003,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “the dawn from on high” in this painting (Luke 1:78–79)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “the dawn from on high” in this painting (Luke 1:78–79)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "黎明从高处",
+      "zh_poem": "一位老牧师\n谁没有说话\n几个月\n\n张开嘴\n出来了\n一个日出。\n\n黎明从高处\n将会拜访我们。\n\n不是因为我们赢得了它。\n不是因为我们问了。\n\n因为温柔的怜悯\n我们的上帝。\n\n在黑暗中坐得够久，\n你会学到\n早上意味着什么。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的中心部分“黎明从高处来”（路加福音1:78-79）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“因为我们上帝的温柔怜悯，黎明将从高处降临到我们身上”",
+      "zh_ref": "路加福音 1:78–79"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#f5ce79"
       },
       "dailyWalkDay": 1004,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “no room”: what quiet prayer rises in you when you read, “he still comes to whatever room we make”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “no room”: what quiet prayer rises in you when you read, “he still comes to whatever room we make”?",
+      "zh_title": "没有房间",
+      "zh_poem": "没有房间。\n\n不在旅馆里。\n不在计划中\n任何重要的人。\n\n所以上帝来了\n动物进食的地方，\n\n用布条包裹，\n放在稻草上。\n\n他从来没有\n需要一座宫殿。\n\n他还是来了\n到任何房间\n我们制造。",
+      "zh_reflectionPrompt": "让你的目光停留在“没有房间”安静的中心周围的笔触和光线上：当你读到“他仍然来到我们创造的任何房间”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“她用布带把他裹起来，放在喂食槽里，因为客栈里没有地方了。”",
+      "zh_ref": "路加福音 2:7"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#dcb792"
       },
       "dailyWalkDay": 1005,
-      "reflectionPrompt": "Linger with the movement in “keeping watch” (Luke 2:8) from “the night shift. the ones who smelled like sheep, who spent their nights out in the fields, who were awake because somebody had to be” to “if you're keeping watch in the dark tonight, heaven knows exactly where you are”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “keeping watch” (Luke 2:8) from “the night shift. the ones who smelled like sheep, who spent their nights out in the fields, who were awake because somebody had to be” to “if you're keeping watch in the dark tonight, heaven knows exactly where you are”—where do you find yourself along that arc today?",
+      "zh_title": "保持警惕",
+      "zh_poem": "夜班。\n\n那些闻起来像羊的人，\n谁度过了夜晚\n在田野里，\n\n谁醒着\n因为有人\n必须如此。\n\n这就是上帝\n先告诉的。\n\n如果你在留意\n今夜的黑暗中，\n\n天知道\n正是你所在的位置。",
+      "zh_reflectionPrompt": "留心“守望”（路加福音 2:8）中的运动，从“夜班。那些闻起来像羊的人，他们在田野里过夜，他们醒着，因为有人必须醒着”到“如果你今晚在黑暗中守望，天知道你在哪里”——今天你发现自己在这条弧线上的什么地方？",
+      "zh_epigraph": "“同一个国家有牧羊人住在田野里，夜间看守他们的羊群。”",
+      "zh_ref": "路加福音 2:8"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#f8da8f"
       },
       "dailyWalkDay": 1006,
-      "reflectionPrompt": "Notice how “great joy” (Luke 2:10–11) arrives at: “there is born to you today a Savior. to you.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “great joy” (Luke 2:10–11) arrives at: “there is born to you today a Savior. to you.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "极大的喜悦",
+      "zh_poem": "第一个词\n好消息\n是不要害怕。\n\n那么：\n非常高兴。\n为了所有人。\n\n不是一些。\n不是应得的。\n全部。\n\n为你而生\n今天\n一位救世主。\n\n给你。",
+      "zh_reflectionPrompt": "请注意“大喜乐”（路加福音 2：10-11）是如何实现的：“今日，为你们生了一位救主。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“不要害怕，因为看哪，我给你们带来了令所有人都大喜的好消息。”",
+      "zh_ref": "路加福音 2:10–11"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#f9e7b9"
       },
       "dailyWalkDay": 1007,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Luke 2:12: “he'd be small enough to hold”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Luke 2:12: “he'd be small enough to hold”?",
+      "zh_title": "标志",
+      "zh_poem": "不是皇冠。\n不是一声惊雷。\n不是王座室。\n\n标志是\n一个婴儿\n在喂食槽中。\n\n这样你就会知道\n这是上帝：\n\n他会是\n没有人的地方\n会想看看。\n\n他会是\n足够小\n持有。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是路加福音 2 章 12 节中安静的教训：“他足够小，可以容纳”怎么办？",
+      "zh_epigraph": "“这是给你的信号：你会发现一个用布条包裹着的婴儿，躺在喂食槽里。”",
+      "zh_ref": "路加福音 2:12"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#f3e2c3"
       },
       "dailyWalkDay": 1008,
-      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “some things you don't understand yet. you just hold them”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “some things you don't understand yet. you just hold them”?",
+      "zh_title": "沉思",
+      "zh_poem": "牧羊人在门口。\n天上的天使。\n陌生人重复\n他们被告知的事情。\n\n和玛丽\n没有解释，\n或发布相关内容，\n或者一下子全部讲出来。\n\n她保留了它。\n她把它翻过来\n在她心里\n就像珍贵的东西一样。\n\n有些事情\n你还不明白。\n\n你只要握住它们。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，靠近敞开的门槛：当你听到“有些事情你还不明白。你只是抓住它们”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“但玛丽把这些话都记在心里，反复思考。”",
+      "zh_ref": "路加福音 2:19"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#fbe295"
       },
       "dailyWalkDay": 1009,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “some promises are worth a lifetime of waiting. this was the one.” What part of your heart feels most searched or comforted by Luke 2:29–30 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “some promises are worth a lifetime of waiting. this was the one.” What part of your heart feels most searched or comforted by Luke 2:29–30 right now?",
+      "zh_title": "现在平静",
+      "zh_poem": "西蒙等待着\n他的一生。\n\n当他终于抱住他的时候，\n他没有要求任何其他东西。\n\n不再需要几年了。\n不是前排座位。\n\n我的眼睛已经看到了。\n我现在可以走了\n平静地。\n\n一些承诺\n值得一生\n的等待。\n\n这是\n那个。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“有些承诺值得一生等待。就是这个。”路加福音 2 章 29-30 节现在最能触动你内心的哪一部分？",
+      "zh_epigraph": "“主啊，现在你按照你的话释放你的仆人，平安无事；因为我亲眼看见了你的救恩”",
+      "zh_ref": "路加福音 2:29–30"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#ebcc8a"
       },
       "dailyWalkDay": 1010,
-      "reflectionPrompt": "In Luke 4:18, grace meets us right beside the unrolled parchment: how does the closing thought—“then he rolled it up, sat down, and said today”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Luke 4:18, grace meets us right beside the unrolled parchment: how does the closing thought—“then he rolled it up, sat down, and said today”—steady your footing for the road ahead?",
+      "zh_title": "卷轴",
+      "zh_poem": "他的家乡。\n他的犹太教堂。\n以赛亚书卷。\n\n他找到了那个地方\n并读出：\n\n穷人的好消息。\n治愈受伤的心。\n释放俘虏。\n\n然后他把它卷起来，\n坐下来，\n\n并说\n今天。",
+      "zh_reflectionPrompt": "在路加福音 4 章 18 节中，恩典就在展开的羊皮纸旁边与我们相遇：最后的思想——“于是他卷起来，坐下说，今天”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“他派我去医治破碎的心，宣告俘虏获释”",
+      "zh_ref": "路加福音 4:18"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#fdf0bd"
       },
       "dailyWalkDay": 1011,
-      "reflectionPrompt": "If today’s painting of “at your word” (Luke 5:5–6) hung beside the door you walk out of this morning, how would its final line—“at your word. the net started breaking”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “at your word” (Luke 5:5–6) hung beside the door you walk out of this morning, how would its final line—“at your word. the net started breaking”—shape your choices?",
+      "zh_title": "按你的话",
+      "zh_poem": "他是渔夫。\n他认识这个湖。\n\n整个晚上。\n没有什么。\n\n和一个木匠\n告诉他\n再试一次。\n\n按照你的话。\n\n这就是全部\n信仰的秘密：\n\n疲倦、怀疑、\n无论如何都要做\n因为他这么说。\n\n网络\n开始破裂。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“听你的话”（路加福音 5:5-6）的画，那么它的最后一行——“听你的话。网开始破裂”——会如何影响你的选择？",
+      "zh_epigraph": "“主人，我们干了一夜，什么也没拿走，但听你的话，我就下网了。”",
+      "zh_ref": "路加福音 5:5–6"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#ede8d7"
       },
       "dailyWalkDay": 1012,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Luke 5:19–20)—where in your own home or work today does “that's what friends and ropes are for” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Luke 5:19–20)—where in your own home or work today does “that's what friends and ropes are for” ring true?",
+      "zh_title": "穿过屋顶",
+      "zh_poem": "门被堵住了。\n房子里挤满了人。\n\n所以四个朋友\n爬了上去，\n撕开屋顶，\n并把他放了下来。\n\n看到他们的信仰——\n不是他的。\n\n有时你不能\n你自己去那里吧。\n\n这就是朋友们\n和绳索\n是为了.",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（路加福音 5:19-20）——今天，在你自己的家里或工作中，“这就是朋友和绳索的用途”听起来是真的吗？",
+      "zh_epigraph": "“耶稣见他们的信心，就对他说：‘朋友，你的罪赦了。’”",
+      "zh_ref": "路加福音 5:19–20"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#f6d8a5"
       },
       "dailyWalkDay": 1013,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “he saw her, and his heart broke, and he said the thing we say when we can't fix it: don't cry. except he could.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “he saw her, and his heart broke, and he said the thing we say when we can't fix it: don't cry. except he could.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "别哭",
+      "zh_poem": "一个寡妇。\n她唯一的儿子。\n葬礼已经\n正在走出大门的路上。\n\n没有人问他\n做任何事。\n\n他看到了她，\n他的心碎了，\n\n他说\n我们说的话\n当我们无法修复它时：\n\n别哭。\n\n除了\n他可以。",
+      "zh_reflectionPrompt": "缓慢地吸一口气，再读一遍最后一行：“他看到了她，他的心碎了，他说了我们在无法解决问题时所说的话：别哭。除非他能。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“主看见她，就怜悯她，对她说：‘不要哭。’”",
+      "zh_ref": "路加福音 7:13–14"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#dfd7c7"
       },
       "dailyWalkDay": 1014,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “the dinner guests all knew her reputation.” Looking through the lens of Luke 7:38–47, what does it mean to discover that “Jesus saw someone who knew how much she'd been forgiven”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “the dinner guests all knew her reputation.” Looking through the lens of Luke 7:38–47, what does it mean to discover that “Jesus saw someone who knew how much she'd been forgiven”?",
+      "zh_title": "她很爱",
+      "zh_poem": "晚宴嘉宾\n大家都知道她的名声。\n\n她什么也没说。\n她不能。\n\n她只是哭了\n在他的脚上，\n并用她的头发擦拭它们，\n并倒出\n香水\n她带来了。\n\n尊敬的主人\n看见一个罪人。\n\n耶稣看见\n某人\n谁知道多少钱\n她已经被原谅了。",
+      "zh_reflectionPrompt": "想象一下某个季节，你体会到“晚宴的客人都知道她的名声”的感觉。从路加福音 7 章 38-47 节的角度来看，发现“耶稣看见一个人知道自己已经被赦免了多少”，这意味着什么？",
+      "zh_epigraph": "“她的许多罪孽都被宽恕了，因为她爱得很多。”",
+      "zh_ref": "路加福音 7:38–47"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#f4e9c0"
       },
       "dailyWalkDay": 1015,
-      "reflectionPrompt": "Look closely at the timber of the boat on the water in this painting (Luke 8:24–25)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the timber of the boat on the water in this painting (Luke 8:24–25)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "你的信仰在哪里",
+      "zh_poem": "他睡着了。\n他们正在舀水。\n\n主人，我们快死了！\n\n他站起来，\n对风说话\n就像父母之于孩子一样，\n\n一切都很平静。\n\n然后他问他们\n一个温和的问题：\n\n你的信仰在哪里？\n\n没有消失。\n只是\n在船上睡着了。",
+      "zh_reflectionPrompt": "仔细观察这幅画中水面上的船木（路加福音8:24-25）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“他醒了，斥责风和汹涌的水，它们就停止了，一切都平静了。”",
+      "zh_ref": "路加福音 8:24–25"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#e0ceaa"
       },
       "dailyWalkDay": 1016,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the warm cloak: what quiet prayer rises in you when you read, “and he stopped everything to find her, not to scold her— to call her daughter”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the warm cloak: what quiet prayer rises in you when you read, “and he stopped everything to find her, not to scold her— to call her daughter”?",
+      "zh_title": "他斗篷的边缘",
+      "zh_poem": "十二年\n出血，\n的医生，\n被称为不洁净。\n\n她不想\n被看到。\n\n她刚刚到达\n穿过人群\n\n他斗篷的边缘。\n\n他停止了一切\n去寻找她，\n\n不要责骂她——\n\n打电话给她\n女儿。",
+      "zh_reflectionPrompt": "让你的目光停留在温暖斗篷周围的笔触和光线上：当你读到“他停下一切来寻找她，而不是责骂她——而是打电话给她的女儿”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“女儿，振作起来。我们的信仰已经让你痊愈了。安心地走吧。”",
+      "zh_ref": "路加福音 8:44–48"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#f1e6cc"
       },
       "dailyWalkDay": 1017,
-      "reflectionPrompt": "Linger with the movement in “twelve baskets” (Luke 9:16–17) from “five loaves. two fish” to “he always gives back more”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “twelve baskets” (Luke 9:16–17) from “five loaves. two fish” to “he always gives back more”—where do you find yourself along that arc today?",
+      "zh_title": "十二个篮子",
+      "zh_poem": "五个面包。\n两条鱼。\n五千人，\n加上其他人。\n\n他抬起头，\n表示感谢，\n并打破了它。\n\n和剩菜\n装满更多篮子\n比他们开始的时候。\n\n给他\n你有多少。\n\n他总是\n回馈\n更多。",
+      "zh_reflectionPrompt": "留心“十二个篮子”（路加福音 9：16-17）中从“五饼二鱼”到“他总是回馈更多”的运动——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“他们吃了，都吃饱了。他们把剩下的零碎收拾起来，装满了十二个篮子。”",
+      "zh_ref": "路加福音 9:16–17"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#eedfbe"
       },
       "dailyWalkDay": 1018,
-      "reflectionPrompt": "Notice how “the Samaritan” (Luke 10:33–34) arrives at: “who is my neighbor? whoever you stop for.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “the Samaritan” (Luke 10:33–34) arrives at: “who is my neighbor? whoever you stop for.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "撒玛利亚人",
+      "zh_poem": "牧师\n过了马路。\n\n利未人\n过了马路。\n\n和那个\n谁应该是敌人\n\n停了下来。\n\n绷带。\n油。\n葡萄酒。\n他自己的驴。\n他自己的钱。\n\n谁是我的邻居？\n\n无论谁\n你停下来。",
+      "zh_reflectionPrompt": "请注意“撒玛利亚人”（路加福音 10：33-34）如何得出这样的结论：“谁是我的邻舍？无论你为谁停下来。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“他一见到他，就动了慈心”",
+      "zh_ref": "路加福音 10:33–34"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#e8d5b1"
       },
       "dailyWalkDay": 1019,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Luke 10:41–42: “the work will still be there. this moment won't”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Luke 10:41–42: “the work will still be there. this moment won't”?",
+      "zh_title": "一件事",
+      "zh_poem": "玛莎，玛莎。\n\n他说了两次她的名字\n你的做法\n当你爱某人时\n谁做得太多了。\n\n他没有生气\n关于晚餐。\n\n他只是想要她\n坐下来。\n\n工作\n仍然会在那里。\n\n这一刻\n不会。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是路加福音 10 章 41-42 节中安静的教训：“工作仍在那里，但此刻不会了”，那又怎样呢？",
+      "zh_epigraph": "“玛莎，玛莎，你对很多事情感到焦虑和烦恼，但有一点是需要的。”",
+      "zh_ref": "路加福音 10:41–42"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#e3c9a6"
       },
       "dailyWalkDay": 1020,
-      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “the door opens from the inside”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “the door opens from the inside”?",
+      "zh_title": "继续敲门",
+      "zh_poem": "不问一次\n并放弃。\n\n继续问。\n继续寻找。\n继续敲门。\n\n他不是\n疲惫的邻居\n谁要你走。\n\n他是一位父亲\n谁想要你\n回来。\n\n门打开了\n从里面。",
+      "zh_reflectionPrompt": "想象一下，站在敞开的门槛旁边的框架内：当您听到“门从里面打开”时，您一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“不断寻找，你就会找到。不断敲门，它就会为你打开。”",
+      "zh_ref": "路加福音 11:9"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#ebdfb9"
       },
       "dailyWalkDay": 1021,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “you are worth more than many sparrows. don't be afraid.” What part of your heart feels most searched or comforted by Luke 12:6–7 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “you are worth more than many sparrows. don't be afraid.” What part of your heart feels most searched or comforted by Luke 12:6–7 right now?",
+      "zh_title": "麻雀",
+      "zh_poem": "五只麻雀\n两个小硬币。\n\n最便宜的东西\n在市场上。\n\n而其中没有一个\n被遗忘了。\n\n你被算计了\n一直到头发\n在你的头上。\n\n你值得\n比许多麻雀还多。\n\n别害怕。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“你比许多麻雀更有价值。不要害怕。”路加福音 12 章 6-7 节现在最能触动你内心的哪一部分？",
+      "zh_epigraph": "“上帝没有忘记他们中的任何一个。”",
+      "zh_ref": "路加福音 12:6–7"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#f1e6c8"
       },
       "dailyWalkDay": 1022,
-      "reflectionPrompt": "In Luke 12:27, grace meets us right beside the quiet centerpiece of “the lilies”: how does the closing thought—“then consider who dresses them”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Luke 12:27, grace meets us right beside the quiet centerpiece of “the lilies”: how does the closing thought—“then consider who dresses them”—steady your footing for the road ahead?",
+      "zh_title": "百合花",
+      "zh_poem": "他们不\n工作到很晚。\n他们不\n检查天气预报。\n他们不\n晚上睡不着觉。\n\n他们只是\n成长。\n\n和所罗门\n在他一切的荣耀中\n从来没有看起来这么好过。\n\n考虑一下他们。\n\n然后考虑\n谁给他们穿衣服。",
+      "zh_reflectionPrompt": "在路加福音 12 章 27 节中，恩典就在“百合花”的安静中心旁边与我们相遇：最后的想法——“然后想想谁为它们穿衣”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“想想百合花，它们是如何生长的。”",
+      "zh_ref": "路加福音 12:27"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#efce91"
       },
       "dailyWalkDay": 1023,
-      "reflectionPrompt": "If today’s painting of “bent over” (Luke 13:11–13) hung beside the door you walk out of this morning, how would its final line—“the first thing she did was praise”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “bent over” (Luke 13:11–13) hung beside the door you walk out of this morning, how would its final line—“the first thing she did was praise”—shape your choices?",
+      "zh_title": "弯腰",
+      "zh_poem": "十八年\n看着地面。\n\n十八年\n看到脚，\n不是面孔。\n\n他叫她过去。\n他把手放在她身上。\n\n她站直了身子。\n\n她看到的第一件事\n是他的脸。\n\n她做的第一件事\n是赞美。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“弯腰”（路加福音13:11-13）的画，它的最后一行——“她做的第一件事就是赞美”——会如何影响你的选择？",
+      "zh_epigraph": "“他按手在她身上，她立刻站直并荣耀上帝。”",
+      "zh_ref": "路加福音 13:11–13"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#efe0b6"
       },
       "dailyWalkDay": 1024,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Luke 15:4–5)—where in your own home or work today does “just shoulders, and the long walk home, and joy” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Luke 15:4–5)—where in your own home or work today does “just shoulders, and the long walk home, and joy” ring true?",
+      "zh_title": "那个",
+      "zh_poem": "九十九\n安全地折叠起来。\n\n一\n迷失在岩石中。\n\n和牧羊人\n做数学题\n与我们不同。\n\n他走了。\n\n当他找到它时，\n没有讲座。\n\n只是肩膀，\n以及漫长的回家路，\n和喜悦。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（路加福音 15:4-5）——今天，在你自己的家里或工作中，哪里的“只有肩膀，长途步行回家，充满喜乐”听起来是真实的？",
+      "zh_epigraph": "“当他找到它时，他高兴地把它扛在肩上。”",
+      "zh_ref": "路加福音 15:4–5"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#daceac"
       },
       "dailyWalkDay": 1025,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “one worth throwing a party for.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “one worth throwing a party for.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "丢失的硬币",
+      "zh_poem": "一枚硬币。\n\n她点了一盏灯。\n她打扫了房子。\n她环顾每一个角落\n\n直到她找到为止。\n\n然后她打电话进来\n邻居们。\n\n天堂就是这样\n对你有感觉。\n\n不是硬币\n没有它它也能生存。\n\n一\n值得举办派对。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“值得举办派对。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“和我一起高兴吧，因为我找到了丢失的德拉克马。”",
+      "zh_ref": "路加福音 15:8–9"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#f4e0a1"
       },
       "dailyWalkDay": 1026,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “he had a speech ready.” Looking through the lens of Luke 15:20, what does it mean to discover that “you don't have to make it all the way back. just turn around.66”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “he had a speech ready.” Looking through the lens of Luke 15:20, what does it mean to discover that “you don't have to make it all the way back. just turn around.66”?",
+      "zh_title": "虽然还很遥远",
+      "zh_poem": "他已经准备好演讲了。\n\n我不值得。\n让我成为仆人。\n\n他从来没有\n必须完成它。\n\n他的父亲\n一直在看路。\n\n当他在的时候\n还很遥远，\n\n那个老人\n跑了。\n\n你不必\n让它一路回来。\n\n只是\n转身.66",
+      "zh_reflectionPrompt": "回想一下你知道“他已经准备好演讲”的感觉的一个季节。透过路加福音 15 章 20 节的镜头，发现“你不必一路回来。只要转身就可以了。66”是什么意思？",
+      "zh_epigraph": "“他还走远的时候，他父亲看见他，就动了慈心，跑过去抱住他的颈项，与他亲嘴。”",
+      "zh_ref": "路加福音 15:20"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f9de9c"
       },
       "dailyWalkDay": 1027,
-      "reflectionPrompt": "Look closely at the dust on your sandals in this painting (Luke 15:22–24)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the dust on your sandals in this painting (Luke 15:22–24)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "最好的长袍",
+      "zh_poem": "不是仆人的衣服。\n最好的长袍。\n\n不是缓刑。\n一枚戒指。\n\n不像奴隶那样光着脚。\n凉鞋。\n\n他回家了\n希望找到工作。\n\n他得到了\n他的名字回来了。\n\n我的这个儿子\n死了，\n并且又复活了。\n\n现在\n让我们庆祝一下吧。",
+      "zh_reflectionPrompt": "仔细看看这幅画中你凉鞋上的灰尘（路加福音 15:22-24）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“拿出最好的袍子给他穿上，把戒指戴在他手上，把鞋穿在他脚上。”",
+      "zh_ref": "路加福音 15:22–24"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#e4d9bc"
       },
       "dailyWalkDay": 1028,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “turned back”: what quiet prayer rises in you when you read, “gratitude is the road back to the one who healed you”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “turned back”: what quiet prayer rises in you when you read, “gratitude is the road back to the one who healed you”?",
+      "zh_title": "回头",
+      "zh_poem": "十人痊愈了。\n\n九\n去了他们被告知的地方。\n\n一\n转过身来。\n\n他不能\n继续他的生活\n不说谢谢。\n\n他是\n局外人。\n\n感恩\n是回来的路\n给一个\n谁治愈了你。",
+      "zh_reflectionPrompt": "让你的目光停留在“回头”的安静中心周围的笔触和光线上：当你读到“感恩是回到治愈你的人身边的道路”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“其中有一个人见自己痊愈了，就转身大声荣耀上帝。”",
+      "zh_ref": "路加福音 17:15–16"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#ecd8a6"
       },
       "dailyWalkDay": 1029,
-      "reflectionPrompt": "Linger with the movement in “be merciful” (Luke 18:13) from “the Pharisee had a list of what he'd done right” to “the shortest prayers are sometimes the truest”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “be merciful” (Luke 18:13) from “the Pharisee had a list of what he'd done right” to “the shortest prayers are sometimes the truest”—where do you find yourself along that arc today?",
+      "zh_title": "仁慈一点",
+      "zh_poem": "法利赛人\n有一个清单\n他做对的事情。\n\n税吏\n站在后面\n并且无法抬起眼睛。\n\n七个字。\n没有清单。\n\n神啊，发发慈悲吧\n对我来说，一个罪人。\n\n他回家了\n有理有据。\n\n最短的祈祷\n有时是\n最真实的。",
+      "zh_reflectionPrompt": "留心“要怜悯”（路加福音 18:13）中的运动，从“法利赛人列出了他所做的正确事”到“最短的祷告有时是最真实的”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“神啊，怜悯我这个罪人吧！”",
+      "zh_ref": "路加福音 18:13"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#ebe0c5"
       },
       "dailyWalkDay": 1030,
-      "reflectionPrompt": "Notice how “come down” (Luke 19:5–10) arrives at: “grace invited itself over.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “come down” (Luke 19:5–10) arrives at: “grace invited itself over.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "下来",
+      "zh_poem": "太短\n看看人群。\n太讨厌了\n要求他们搬走。\n\n于是他爬上了树。\n\n耶稣停了下来\n就在它的下面，\n抬头一看，\n并叫出他的名字。\n\n不下来我就可以骂你。\n\n坠落。\n我住在你家。\n\n恩典\n邀请自己过来。",
+      "zh_reflectionPrompt": "请注意“下来”（路加福音 19:5-10）是如何演变为“恩典自己邀请过来的”。你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“撒该，快下来吧，今天我必须住在你家。”",
+      "zh_ref": "路加福音 19:5–10"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#f7e7c0"
       },
       "dailyWalkDay": 1031,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Luke 21:3–4: “Jesus was watching, and he did the math the way heaven does: she gave more than all of them”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Luke 21:3–4: “Jesus was watching, and he did the math the way heaven does: she gave more than all of them”?",
+      "zh_title": "两个小硬币",
+      "zh_poem": "富人\n掉进\n他们不会错过什么。\n\n她顺便进来了\n两个小硬币。\n\n一切\n她必须活下去。\n\n耶稣正在观看，\n他算了算\n就像天堂一样：\n\n她给了\n比他们所有人都多。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是路加福音 21 章 3-4 节的安静教训：“耶稣在观看，他按照天堂的方式计算：她所给予的比他们所有人都多”怎么办？",
+      "zh_epigraph": "“这个可怜的寡妇投入的比他们所有人都多”",
+      "zh_ref": "路加福音 21:3–4"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#e1d5bf"
       },
       "dailyWalkDay": 1032,
-      "reflectionPrompt": "Imagine standing inside this frame beside the daily loaf broken in the hand: what hurry or noise in your week begins to fade when you hear, “every time you tear a loaf, remember”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the daily loaf broken in the hand: what hurry or noise in your week begins to fade when you hear, “every time you tear a loaf, remember”?",
+      "zh_title": "这是我的身体",
+      "zh_poem": "前一天晚上，\n他拿了面包。\n\n不是演讲。\n不是纪念碑。\n\n面包。\n\n破碎,\n给定，\n手把手地传递。\n\n这是我的身体，\n给你的。\n\n每次\n你撕开一条面包，\n\n记住。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是每天手中破碎的面包：当你听到“每次你撕开一条面包时，记住”，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“这是我的身体，为你而赐予。这样做是为了纪念我。”",
+      "zh_ref": "路加福音 22:19"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#d1bea0"
       },
       "dailyWalkDay": 1033,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's the one that keeps going past the fear.” What part of your heart feels most searched or comforted by Luke 22:42–44 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's the one that keeps going past the fear.” What part of your heart feels most searched or comforted by Luke 22:42–44 right now?",
+      "zh_title": "不是我的意愿",
+      "zh_poem": "他没有假装\n这很容易。\n\n他问\n如果还有别的办法的话。\n\n他出汗\n像血滴一样。\n\n仍然：\n尽管如此。\n\n最真诚的祈祷\n不是那个吗\n没有恐惧。\n\n就是那个\n继续下去\n过去的恐惧。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“这是一个不断超越恐惧的人。”现在，路加福音 22 章 42-44 节最能触动你内心的哪个部分？",
+      "zh_epigraph": "“父啊，如果你愿意，就把这杯从我身上拿开。不过，不要成就我的意思，而是成就你的意思。”",
+      "zh_ref": "路加福音 22:42–44"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#ecd4af"
       },
       "dailyWalkDay": 1034,
-      "reflectionPrompt": "In Luke 22:61–62, grace meets us right beside the quiet centerpiece of “the look”: how does the closing thought—“Luke doesn't say what was in that look. so I think it was love”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Luke 22:61–62, grace meets us right beside the quiet centerpiece of “the look”: how does the closing thought—“Luke doesn't say what was in that look. so I think it was love”—steady your footing for the road ahead?",
+      "zh_title": "外观",
+      "zh_poem": "第三次否认\n仍然在空气中\n\n当公鸡叫的时候\n\n耶稣转身\n看着他。\n\n卢克没有说\n那表情里是什么。\n\n但彼得\n出去哭了，\n\n以及后来\n他回来了。\n\n所以我认为\n这是爱。",
+      "zh_reflectionPrompt": "在路加福音 22 章 61-62 节中，恩典就在安静的“神情”核心旁边与我们相遇：结尾的思想——“路加没有说那神情里有什么。所以我认为那是爱”——如何为你前面的路站稳脚跟？",
+      "zh_epigraph": "“主转过身来看着彼得。”",
+      "zh_ref": "路加福音 22:61–62"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#d8c7a2"
       },
       "dailyWalkDay": 1035,
-      "reflectionPrompt": "If today’s painting of “forgive them” (Luke 23:34) hung beside the door you walk out of this morning, how would its final line—“and he forgave them anyway”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “forgive them” (Luke 23:34) hung beside the door you walk out of this morning, how would its final line—“and he forgave them anyway”—shape your choices?",
+      "zh_title": "原谅他们",
+      "zh_poem": "当他们赌博的时候\n为了他的衣服，\n\n当指甲\n仍然是新的，\n\n他祈祷\n对于他们来说。\n\n不是在他们说了对不起之后。\n一旦他们明白了。\n\n他们不知道\n他们在做什么。\n\n他做到了。\n\n他原谅了他们\n无论如何。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“宽恕他们”（路加福音 23:34）的画，它的最后一行——“无论如何，他宽恕了他们”——会如何影响你的选择？",
+      "zh_epigraph": "“父亲，原谅他们，因为他们不知道自己在做什么。”",
+      "zh_ref": "路加福音 23:34"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#f3edc9"
       },
       "dailyWalkDay": 1036,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Luke 23:42–43)—where in your own home or work today does “it is never too late to ask” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Luke 23:42–43)—where in your own home or work today does “it is never too late to ask” ring true?",
+      "zh_title": "记得我",
+      "zh_poem": "一个小偷。\n\n没有时间了\n修复任何东西。\n\n没有做好事\n指向。\n\n就一句话：\n记住我。\n\n和答案\n不是有一天。\n也许不是。\n\n今天。\n与我一起。\n在天堂里。\n\n从来没有\n太晚了\n去问。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（路加福音 23:42-43）——今天，在你自己的家里或工作场所，“问什么都不晚”听起来是真的吗？",
+      "zh_epigraph": "“主啊，当你进入你的王国时，请记得我。”",
+      "zh_ref": "路加福音 23:42–43"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#f4dfb1"
       },
       "dailyWalkDay": 1037,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “and in the temple, the curtain had torn open.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “and in the temple, the curtain had torn open.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "到你手中",
+      "zh_poem": "最后一句话\n这不是失败的呐喊。\n\n他们是\n诗篇中的一行，\n\n一个古老的祈祷\n的信任。\n\n到你的手中。\n\n他奉献了他的精神\n你的手的方式\n珍贵的东西\n给你信任的人。\n\n而在寺庙里，\n窗帘\n已经被撕开。",
+      "zh_reflectionPrompt": "缓缓吸一口气，再读一遍最后一行：“殿里的幔子已经撕开了。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“父亲，我将我的灵魂交在您手中！”",
+      "zh_ref": "路加福音 23:46"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#fbec9c"
       },
       "dailyWalkDay": 1038,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “they came with spices for a body.” Looking through the lens of Luke 24:5–6, what does it mean to discover that “some mornings the empty place is the best news there is”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “they came with spices for a body.” Looking through the lens of Luke 24:5–6, what does it mean to discover that “some mornings the empty place is the best news there is”?",
+      "zh_title": "不在这里",
+      "zh_poem": "他们带着香料来\n为了一个身体。\n\n他们有一个问题\n相反：\n\n你为什么在找\n为了生活\n死者之中？\n\n他不在这里。\n\n记住\n他告诉你的。\n\n一些早晨\n空的地方\n是最好的消息\n有。",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“它们为身体带来香料”的感觉。从路加福音 24 章 5-6 节的角度来看，发现“有些早晨空无一人就是最好的消息”意味着什么？",
+      "zh_epigraph": "“为什么在死人中寻找活人？他不在这里，但已经复活了。”",
+      "zh_ref": "路加福音 24:5–6"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#efc277"
       },
       "dailyWalkDay": 1039,
-      "reflectionPrompt": "Look closely at the table set before you in this painting (Luke 24:30–32)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the table set before you in this painting (Luke 24:30–32)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "燃烧的心",
+      "zh_poem": "七英里\n走在他身边\n他们不认识他。\n\n他解释了一切。\n摩西。先知们。\n所有这一切。\n\n但他们还是没有看到。\n\n然后他坐在他们的桌子旁\n并把面包掰开，\n\n和他们的眼睛\n被打开。\n\n我们的心不是在燃烧吗？\n\n他走在路上\n也在你身边。\n\n有时只有你自己知道\n在餐桌上。",
+      "zh_reflectionPrompt": "仔细看看这幅画中摆在你面前的桌子（路加福音 24:30-32）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“当他和他们一起坐在桌旁时，他拿起面包并感谢了。他擘开它，把它递给了他们。”",
+      "zh_ref": "路加福音 24:30–32"
     }
-  ]
+  ],
+  "zh_title": "大喜的好信息",
+  "zh_subtitle": "路加福音诗画集",
+  "zh_beforeYouBegin": "卢克以一位年轻女子说“是”开始，一个婴儿躺在喂食槽里，最后以两个疲倦的旅行者坐在一张桌子旁，他们的心在燃烧。其间：田野里的牧羊人、即将破裂的网、丢失的羊、丢失的硬币、沿路奔跑的父亲、要求被记住的小偷，以及日出时的空坟墓。\n\n这本书分为五个部分，用四十首短诗来讲述，从十首圣诞节诗开始。每首诗都位于一幅画旁边和一行经文之下。这些图片与故事所涉及的事物在一起——装满稻草的马槽、一块碎面包、一盏灯和一把扫帚——并将面孔留给你想象。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这本书旁边的路加福音，让真实的话语成为最后的话语。"
 }

@@ -16,7 +16,10 @@
       "epigraph": "You will be witnesses to me in Jerusalem, in all Judea and Samaria, and to the uttermost parts of the earth.",
       "epigraphRef": "Acts 1:8",
       "lightName": "Light of Wait in the City",
-      "lightHint": "Near 'taken up' (Acts 1:9) in Part 1: Wait in the City"
+      "lightHint": "Near 'taken up' (Acts 1:9) in Part 1: Wait in the City",
+      "zh_title": "在城里等待",
+      "zh_epigraph": "你们要在耶路撒冷、犹太全地和撒玛利亚，直到地极，作我的见证。",
+      "zh_epigraphRef": "使徒行传 1:8"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "what I have, that I give you.",
       "epigraphRef": "Acts 3:6",
       "lightName": "Light of What I Have",
-      "lightHint": "Near 'the gate called Beautiful' (Acts 3:2) in Part 2: What I Have"
+      "lightHint": "Near 'the gate called Beautiful' (Acts 3:2) in Part 2: What I Have",
+      "zh_title": "我有什么",
+      "zh_epigraph": "我所拥有的，我给你。",
+      "zh_epigraphRef": "使徒行传 3:6"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "those who were scattered abroad went around preaching the word.",
       "epigraphRef": "Acts 8:4",
       "lightName": "Light of Scattered",
-      "lightHint": "Near 'scattered' (Acts 8:1–4) in Part 3: Scattered"
+      "lightHint": "Near 'scattered' (Acts 8:1–4) in Part 3: Scattered",
+      "zh_title": "疏散",
+      "zh_epigraph": "那些分散在国外的人四处传道。",
+      "zh_epigraphRef": "使徒行传 8:4"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "So the word of the Lord was growing and becoming mighty.",
       "epigraphRef": "Acts 19:20",
       "lightName": "Light of Upside Down",
-      "lightHint": "Near 'set apart' (Acts 13:2–3) in Part 4: Upside Down"
+      "lightHint": "Near 'set apart' (Acts 13:2–3) in Part 4: Upside Down",
+      "zh_title": "倒挂",
+      "zh_epigraph": "所以主的道日益增长，变得强大。",
+      "zh_epigraphRef": "使徒行传 19:20"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "with all boldness, without hindrance.",
       "epigraphRef": "Acts 28:31",
       "lightName": "Light of To Rome",
-      "lightHint": "Near 'the window' (Acts 20:9–10) in Part 5: To Rome"
+      "lightHint": "Near 'the window' (Acts 20:9–10) in Part 5: To Rome",
+      "zh_title": "前往罗马",
+      "zh_epigraph": "大胆无碍。",
+      "zh_epigraphRef": "使徒行传 28:31"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#f5dca9"
       },
       "dailyWalkDay": 1156,
-      "reflectionPrompt": "Notice how “taken up” (Acts 1:9) arrives at: “it was a promise going up ahead of them.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “taken up” (Acts 1:9) arrives at: “it was a promise going up ahead of them.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "采取了",
+      "zh_poem": "他并没有消失。\n他没有褪色。\n\n他站起来，\n慢得足以观看，\n直到一片云彩\n把他折进去。\n\n他们最后看到的东西\n不是再见。\n\n这是一个承诺\n上升\n在他们前面。",
+      "zh_reflectionPrompt": "请注意“被举起”（使徒行传 1:9）是如何演变而来的：“这是在他们前面升起的应许。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“一朵云把他接去，离开他们的视线。”",
+      "zh_ref": "使徒行传 1:9"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#efe3c7"
       },
       "dailyWalkDay": 1157,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Acts 1:11: “there's a city down the hill, and a promise to wait for”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Acts 1:11: “there's a city down the hill, and a promise to wait for”?",
+      "zh_title": "为什么站着看",
+      "zh_poem": "这是一个公平的问题\n和一个善良的人。\n\n他回来了。\n同样的方式\n你看见他走了。\n\n这样你就可以停下来\n凝视着云彩。\n\n有一座城市\n下山，\n和一个承诺\n等待。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是使徒行传 1 章 11 节中安静的教训：“山下有一座城，有应许等候”，那又怎样呢？",
+      "zh_epigraph": "“你为什么站着看天空？”",
+      "zh_ref": "使徒行传 1:11"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#e1c9a4"
       },
       "dailyWalkDay": 1158,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “one accord”: what hurry or noise in your week begins to fade when you hear, “sometimes that's the whole assignment”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “one accord”: what hurry or noise in your week begins to fade when you hear, “sometimes that's the whole assignment”?",
+      "zh_title": "一致同意",
+      "zh_poem": "他们没有\n有一个计划。\n\n他们有一个房间，\n和彼此，\n最后一件事\n他告诉他们。\n\n所以他们祈祷。\n渔民们，\n妇女们，\n他的母亲，\n他的兄弟们\n以前并不相信他。\n\n十天\n一起等待。\n\n有时那是\n整个作业。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是安静的“一致”核心：当你听到“有时这就是整个作业”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“所有这些人都一致地继续坚定地祈祷和恳求”",
+      "zh_ref": "使徒行传 1:14"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#e7dcc4"
       },
       "dailyWalkDay": 1159,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “the same breath that moved over the waters in the beginning came back to fill a room full of ordinary people.” What part of your heart feels most searched or comforted by Acts 2:2 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “the same breath that moved over the waters in the beginning came back to fill a room full of ordinary people.” What part of your heart feels most searched or comforted by Acts 2:2 right now?",
+      "zh_title": "风",
+      "zh_poem": "首先，有声音。\n\n没有一声耳语。\n不是一件轻而易举的事。\n\n一个冲\n充满了房子\n从地板上\n到椽子。\n\n同一个呼吸\n在水面上移动的\n一开始\n\n回来了\n填满一个房间\n充满了普通人。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“最初在水面上移动的同样的气息又回来充满了满屋子的普通人。”使徒行传 2 章 2 节现在最能触动你内心的哪一部分？",
+      "zh_epigraph": "“突然，从天上传来一阵像狂风吹过的声音，充满了他们所坐的整个房子。”",
+      "zh_ref": "使徒行传 2:2"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#dd9f50"
       },
       "dailyWalkDay": 1160,
-      "reflectionPrompt": "In Acts 2:3, grace meets us right beside the warmth of the fire: how does the closing thought—“no one got a bigger portion. one is sitting on you”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Acts 2:3, grace meets us right beside the warmth of the fire: how does the closing thought—“no one got a bigger portion. one is sitting on you”—steady your footing for the road ahead?",
+      "zh_title": "舌头像火一样",
+      "zh_poem": "没有一场大火\n在人群之上。\n\n每个人都有一个火焰。\n\n那个否认他的人。\n那个怀疑的人。\n安静的人\n谁的名字\n我们几乎不知道。\n\n没有人被排除在外。\n没有人得到\n更大的一部分。\n\n他们每人身上都坐了一个。\n\n一个人坐着\n在你身上。",
+      "zh_reflectionPrompt": "在使徒行传 2 章 3 节中，恩典就在温暖的火旁与我们相遇：结尾的思想——“没有人分得更多的一份，有人坐在你身上”——如何让你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“像火一样的舌头出现并分发给他们，每个人都有一个坐在他们身上。”",
+      "zh_ref": "使徒行传 2:3"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#f6e5c4"
       },
       "dailyWalkDay": 1161,
-      "reflectionPrompt": "If today’s painting of “his own language” (Acts 2:6) hung beside the door you walk out of this morning, how would its final line—“he still speaks your language”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “his own language” (Acts 2:6) hung beside the door you walk out of this morning, how would its final line—“he still speaks your language”—shape your choices?",
+      "zh_title": "他自己的语言",
+      "zh_poem": "在巴别塔\n语言\n我们被驱散了。\n\n五旬节\n神使用了他们\n把我们带回来。\n\n没有人必须\n首先学习正确的单词。\n\n他来了\n言语中\n他们已经有了。\n\n他还在说话\n你的语言。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天“他自己的语言”（使徒行传 2:6）的画，它的最后一行——“他仍然说你的语言”——会如何影响你的选择？",
+      "zh_epigraph": "“每个人都听到他们用自己的语言说话。”",
+      "zh_ref": "使徒行传 2:6"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#f4e5c2"
       },
       "dailyWalkDay": 1162,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Acts 2:37)—where in your own home or work today does “that question is where every new life starts” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Acts 2:37)—where in your own home or work today does “that question is where every new life starts” ring true?",
+      "zh_title": "切入心",
+      "zh_poem": "这不是一个诡计。\n没有人争论\n进入王国。\n\n他们听到了真相\n关于他们钉死在十字架上的那个人，\n\n它进去了\n像刀片一样\n并打开它们。\n\n兄弟们，我们该怎么办？\n\n那个问题\n是哪里\n每一个新的生活都开始了。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（使徒行传 2:37）——今天，在你自己的家里或工作场所，“这个问题是每个新生命开始的地方”听起来是真的吗？",
+      "zh_epigraph": "“他们被刺痛了”",
+      "zh_ref": "使徒行传 2:37"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#eec97b"
       },
       "dailyWalkDay": 1163,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “every kitchen became a sanctuary.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “every kitchen became a sanctuary.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "在家掰面包",
+      "zh_poem": "三千人\n有一天，\n\n和教堂\n从餐桌开始。\n\n不是一座建筑物。\n不是一个舞台。\n一块面包，\n撕裂并过去，\n挨家挨户。\n\n高兴的心。\n简单的食物。\n\n每个厨房\n成为了避难所。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“每个厨房都成了避难所。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“他们在家中擘开面包，怀着喜悦和单纯的心情接受食物”",
+      "zh_ref": "使徒行传 2:46"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#e6d2b1"
       },
       "dailyWalkDay": 1164,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “every day they carried him to the gate called Beautiful and left him there, outside, with a bowl.” Looking through the lens of Acts 3:2, what does it mean to discover that “more than forty years old, still at the doorway of the house of God, close enough to hear the singing, never once walking in”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “every day they carried him to the gate called Beautiful and left him there, outside, with a bowl.” Looking through the lens of Acts 3:2, what does it mean to discover that “more than forty years old, still at the doorway of the house of God, close enough to hear the singing, never once walking in”?",
+      "zh_title": "名为美丽的门",
+      "zh_poem": "每天\n他们抬着他\n到了名为“美丽”的大门\n\n并把他留在那里，\n外面,\n用一个碗。\n\n四十多岁了，\n还在门口\n神的殿，\n\n足够接近\n去听歌声，\n从来没有一次\n走进去。",
+      "zh_reflectionPrompt": "回想一下某个季节，你体会到“每天他们把他带到一个叫做“美丽”的大门，然后把他留在外面，手里拿着一个碗”的感觉。从使徒行传3章2节来看，“四十多岁了，还在神殿门口，近得听见歌唱，却从来没有进去过”，这意味着什么？",
+      "zh_epigraph": "“他们每天都将他放在被称为美丽的寺庙门口”",
+      "zh_ref": "使徒行传 3:2"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#f2e9c5"
       },
       "dailyWalkDay": 1165,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “silver and gold” in this painting (Acts 3:6)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “silver and gold” in this painting (Acts 3:6)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "银和金",
+      "zh_poem": "他伸出了碗\n为了一枚硬币。\n\n彼得没有\n有一个。\n\n他还有别的事。\n\n这仍然是真的：\n你可能没有\n他们的要求是什么。\n\n但如果你曾经\n与耶稣，\n\n你有\n他们需要什么。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的“金银”中心装饰品（使徒行传 3:6）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“我没有金银，但我把我所有的都给你。”",
+      "zh_ref": "使徒行传 3:6"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#f7e1a7"
       },
       "dailyWalkDay": 1166,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the city gate: what quiet prayer rises in you when you read, “some praise can't stay in its seat”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the city gate: what quiet prayer rises in you when you read, “some praise can't stay in its seat”?",
+      "zh_title": "行走、跳跃",
+      "zh_poem": "他离开了他的垫子\n在台阶上。\n\n他不会\n不再需要它了。\n\n第一次\n在他的生活中\n他穿过大门，\n\n不悄悄地，\n不礼貌地，\n\n跳跃。\n\n一些赞扬\n不能留下来\n在其座位上。",
+      "zh_reflectionPrompt": "让你的目光停留在城门周围的笔触和灯光上：当你读到“有些赞美不能停留在座位上”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“他跳起来，站起来，开始行走。他和他们一起进了圣殿，边走边跳，赞美上帝。”",
+      "zh_ref": "使徒行传 3:8"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#e6dac3"
       },
       "dailyWalkDay": 1167,
-      "reflectionPrompt": "Linger with the movement in “they had been with Jesus” (Acts 4:13) from “no schooling. no titles” to “you become like the one you spend your time with”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “they had been with Jesus” (Acts 4:13) from “no schooling. no titles” to “you become like the one you spend your time with”—where do you find yourself along that arc today?",
+      "zh_title": "他们曾与耶稣在一起",
+      "zh_poem": "没有上学。\n没有标题。\n渔民的手\n在一个满是学者的房间里。\n\n仍然，\n理事会注意到\n某事。\n\n不是\n他们的教育。\n这是他们的公司。\n\n你成为\n像那个\n你花时间与.",
+      "zh_reflectionPrompt": "回想一下“他们跟从耶稣”（使徒行传 4:13）中的运动，从“没有受过教育，没有头衔”到“你变得像和你在一起的人一样”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“他们认识到自己曾与耶稣在一起。”",
+      "zh_ref": "使徒行传 4:13"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#ede2c3"
       },
       "dailyWalkDay": 1168,
-      "reflectionPrompt": "Notice how “shaken” (Acts 4:31) arrives at: “the lamps swung. their fear did not.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “shaken” (Acts 4:31) arrives at: “the lamps swung. their fear did not.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "动摇",
+      "zh_poem": "他们刚刚受到威胁。\n告诉停止。\n\n所以他们祈祷——\n不是为了安全。\n为了大胆。\n\n和房间\n回答道。\n\n墙壁震动了。\n灯晃动着。\n\n他们的恐惧\n没有。",
+      "zh_reflectionPrompt": "请注意“震动”（使徒行传 4:31）是如何演变而来的：“灯盏摇了，他们的惧怕却没有。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“当他们祷告完后，他们聚集的地方就震动了。”",
+      "zh_ref": "使徒行传 4:31"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#dbc18c"
       },
       "dailyWalkDay": 1169,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Acts 4:36–37: “encouragers give their land and their reputation”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Acts 4:36–37: “encouragers give their land and their reputation”?",
+      "zh_title": "鼓励之子",
+      "zh_poem": "他的名字叫何塞。\n\n他们称他为巴拿巴，\n儿子的鼓励，\n\n这告诉你\n是什么样的\n在他身边。\n\n他卖掉了一块田地\n并把钱放下\n然后走开了\n打火机。\n\n稍后他会保证\n对于一个没有人信任的人。\n\n鼓励者\n给予他们的土地\n和他们的声誉。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是使徒行传 4 章 36-37 节的无声教训：“鼓励者献上自己的土地和名誉”，那又怎样呢？",
+      "zh_epigraph": "“有一块田，就把它卖掉，拿来钱，放在使徒脚前。”",
+      "zh_ref": "使徒行传 4:36–37"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#eed8a7"
       },
       "dailyWalkDay": 1170,
-      "reflectionPrompt": "Imagine standing inside this frame beside the cool shadow of the rock: what hurry or noise in your week begins to fade when you hear, “and it had rubbed off on his shadow”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the cool shadow of the rock: what hurry or noise in your week begins to fade when you hear, “and it had rubbed off on his shadow”?",
+      "zh_title": "他的影子",
+      "zh_poem": "他们排列在街道两旁\n带婴儿床和床垫\n并等待\n让他通过。\n\n只是他的影子。\n这对他们来说就足够了。\n\n不是因为彼得\n有什么特别的吗？\n\n他走在旁边\n那个\n谁是。\n\n它已经消失了\n在他的影子上。",
+      "zh_reflectionPrompt": "想象一下站在这个框架内，旁边是岩石凉爽的影子：当你听到“它已经擦掉了他的影子”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“这样当彼得走过时，至少他的影子可以遮盖他们中的一些人。”",
+      "zh_ref": "使徒行传 5:15"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#fce2a0"
       },
       "dailyWalkDay": 1171,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “no prayer like that is ever wasted.” What part of your heart feels most searched or comforted by Acts 7:58–60 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “no prayer like that is ever wasted.” What part of your heart feels most searched or comforted by Acts 7:58–60 right now?",
+      "zh_title": "睡着了",
+      "zh_poem": "他看到天堂敞开了\n耶稣站着，\n站立，\n仿佛在欢迎他。\n\n和石头\n下来\n他跪下来祈祷\n对于那些扔它们的人。\n\n然后他就睡着了。\n\n和一个名叫扫罗的年轻人\n看着他们的斗篷\n并听到了每一个字。\n\n没有这样的祈祷\n永远被浪费了。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“这样的祈祷永远不会被浪费。”现在，使徒行传 7 章 58 至 60 节让你内心的哪一部分感到最受审视或安慰？",
+      "zh_epigraph": "“目击者将他们的衣服放在一个名叫扫罗的年轻人的脚下。”",
+      "zh_ref": "使徒行传 7:58–60"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#f0e1b2"
       },
       "dailyWalkDay": 1172,
-      "reflectionPrompt": "In Acts 8:1–4, grace meets us right beside the small seed hidden in the soil: how does the closing thought—“you can't kill a seed by scattering it”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Acts 8:1–4, grace meets us right beside the small seed hidden in the soil: how does the closing thought—“you can't kill a seed by scattering it”—steady your footing for the road ahead?",
+      "zh_title": "分散的",
+      "zh_poem": "迫害意味着\n把他们消灭掉。\n\n仅此而已\n将它们展开。\n\n像一只手\n开在一片田野上，\n\n每个家庭\n从耶路撒冷逃跑的\n承载了故事\n在他们的嘴里。\n\n你不能\n杀死一粒种子\n通过分散它。",
+      "zh_reflectionPrompt": "在使徒行传 8 章 1-4 节中，恩典就在隐藏在土壤中的小种子旁边与我们相遇：最后的思想——“你不能通过撒撒种子而杀死它”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“因此，那些分散在国外的人就四处传道。”",
+      "zh_ref": "使徒行传 8:1–4"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#efddb4"
       },
       "dailyWalkDay": 1173,
-      "reflectionPrompt": "If today’s painting of “do you understand” (Acts 8:26–31) hung beside the door you walk out of this morning, how would its final line—“God will cross a desert for one honest question”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “do you understand” (Acts 8:26–31) hung beside the door you walk out of this morning, how would its final line—“God will cross a desert for one honest question”—shape your choices?",
+      "zh_title": "你明白吗",
+      "zh_poem": "一条沙漠公路。\n法庭官员\n大声朗读以赛亚书\n而没有得到它。\n\n和一个曾经是\n在复兴之中\n一路发送到这里\n对于一个人来说。\n\n上帝会\n穿越沙漠\n一个诚实的问题。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“你明白吗”（使徒行传 8：26-31）这幅画，那么它的最后一句“上帝会为了一个诚实的问题穿过沙漠”会如何影响你的选择？",
+      "zh_epigraph": "“除非有人向我解释，否则我该怎么办？”",
+      "zh_ref": "使徒行传 8:26–31"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#ede2c3"
       },
       "dailyWalkDay": 1174,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Acts 8:36–39)—where in your own home or work today does “he went on his way rejoicing” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Acts 8:36–39)—where in your own home or work today does “he went on his way rejoicing” ring true?",
+      "zh_title": "这是水",
+      "zh_poem": "太监。\n一个外国人。\n一个被告知的人\n他一生\n是什么让他被拒之门外。\n\n现在他问：\n是什么让我受不了？\n\n和答案\n没什么。\n\n他继续赶路\n欣喜。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（使徒行传 8:36-39）——今天，在你自己的家里或工作场所，“他欢欢喜喜上路”的哪些地方听起来是真实的呢？",
+      "zh_epigraph": "“看哪，这里有水。是什么阻止我受洗呢？”",
+      "zh_ref": "使徒行传 8:36–39"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#fae8b4"
       },
       "dailyWalkDay": 1175,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “every wound he gave the church landed on Jesus.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “every wound he gave the church landed on Jesus.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "来自天空的光",
+      "zh_poem": "他在路上\n有字母\n逮捕他们\n在他的包里。\n\n他确切地知道\n他是谁\n以及他在做什么。\n\n然后是光。\n\n和一个声音\n那没有说\n你在迫害谁？\n\n它说：\n你为什么迫害我？\n\n每一个伤口\n他给了教会\n\n落在耶稣身上。",
+      "zh_reflectionPrompt": "慢慢地吸一口气，再读一遍最后一行：“他给教会的每一处伤口都落在耶稣身上。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“突然，一道光芒从天而降，照亮了他的周围。”",
+      "zh_ref": "使徒行传 9:3–5"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#e6dcd3"
       },
       "dailyWalkDay": 1176,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “Ananias knew exactly who he was.” Looking through the lens of Acts 9:17, what does it mean to discover that “sometimes obedience looks like opening the door to the one you feared”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “Ananias knew exactly who he was.” Looking through the lens of Acts 9:17, what does it mean to discover that “sometimes obedience looks like opening the door to the one you feared”?",
+      "zh_title": "扫罗弟兄",
+      "zh_poem": "亚拿尼亚知道\n他到底是谁。\n\n他听说\n这个人做了什么。\n\n仍然\n他走进去，\n按手在他身上，\n\n和第一个词\n从他嘴里出来\n是兄弟。\n\n有时服从\n看起来像\n打开门\n给你所害怕的人。",
+      "zh_reflectionPrompt": "想象一下当你体会到“亚拿尼亚确切地知道他是谁”的感觉时的一个季节。从使徒行传 9 章 17 节的角度来看，发现“有时顺服就像给你所害怕的人开门”意味着什么？",
+      "zh_epigraph": "“扫罗弟兄，在你来的路上向你显现的耶和华差遣了我”",
+      "zh_ref": "使徒行传 9:17"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#c2ac88"
       },
       "dailyWalkDay": 1177,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “the basket” in this painting (Acts 9:25)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “the basket” in this painting (Acts 9:25)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "篮子",
+      "zh_poem": "伟大使徒的\n第一次逃脱\n\n这不是奇迹。\n\n那是一根绳子，\n一个篮子，\n和朋友\n在黑暗中坚持。\n\n在他携带之前\n向万民传福音\n\n他必须是\n自己扛着。",
+      "zh_reflectionPrompt": "仔细观察这幅画中“篮子”的安静中心（使徒行传9:25）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“把他放进篮子里。”",
+      "zh_ref": "使徒行传 9:25"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#fbf6ed"
       },
       "dailyWalkDay": 1178,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the torn and mended coat: what quiet prayer rises in you when you read, “and then Peter knelt and said Tabitha, get up. and she did”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the torn and mended coat: what quiet prayer rises in you when you read, “and then Peter knelt and said Tabitha, get up. and she did”?",
+      "zh_title": "她做的外套",
+      "zh_poem": "当她死的时候\n寡妇们没有\n发表演讲。\n\n他们坚持住了\n大衣。\n\n每条接缝\n一种善意。\n每件衣服\n有人穿着\n因为她。\n\n然后彼得跪下\n并说\n塔比莎，站起来。\n\n她做到了。",
+      "zh_reflectionPrompt": "让你的目光落在那件撕破又修补的外套周围的笔触和光线上：当你读到“然后彼得跪下来对塔比莎说，站起来。她就站起来了”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“展示多卡斯和他们在一起时制作的外套和衣服。”",
+      "zh_ref": "使徒行传 9:39–40"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#f6edde"
       },
       "dailyWalkDay": 1179,
-      "reflectionPrompt": "Linger with the movement in “the great sheet” (Acts 10:11–15) from “three times the sheet came down” to “it was about who's welcome at the table”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the great sheet” (Acts 10:11–15) from “three times the sheet came down” to “it was about who's welcome at the table”—where do you find yourself along that arc today?",
+      "zh_title": "伟大的床单",
+      "zh_poem": "纸张的三倍\n下来了。\n\n三遍彼得\n说从来没有。\n\n他遵守规则\n他的一生。\n他不打算\n现在就改变。\n\n然后是敲门声。\n罗马的仆人，\n找他。\n\n愿景不是\n关于食物。\n\n这是关于\n谁不受欢迎\n在餐桌上。",
+      "zh_reflectionPrompt": "留心“大床单”（使徒行传 10：11-15）中的运动，从“床单三次下来”到“问题是谁在餐桌上受到欢迎”——今天您发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“神所洁净的，你不可称之为不洁净。”",
+      "zh_ref": "使徒行传 10:11–15"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#e7bd73"
       },
       "dailyWalkDay": 1180,
-      "reflectionPrompt": "Notice how “Rhoda at the gate” (Acts 12:14–16) arrives at: “sometimes the answer comes while we're still asking, and we leave it waiting outside.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “Rhoda at the gate” (Acts 12:14–16) arrives at: “sometimes the answer comes while we're still asking, and we leave it waiting outside.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "罗达在门口",
+      "zh_poem": "他们在祈祷\n为了彼得的获释，\n\n当他敲门时，\n没有人相信。\n\n罗达很高兴\n她忘记打开门了。\n\n彼得只是\n站在那里，\n敲门。\n\n有时答案\n当我们还在询问时，\n\n而我们\n让它在外面等着。",
+      "zh_reflectionPrompt": "请注意“罗达在门口”（使徒行传 12：14-16）是如何得出这样的结论：“有时当我们还在问的时候，答案就来了，我们却把它留在外面等待。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“但彼得继续敲门。”",
+      "zh_ref": "使徒行传 12:14–16"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#e7daae"
       },
       "dailyWalkDay": 1181,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Acts 13:2–3: “a church grows by what it sends”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Acts 13:2–3: “a church grows by what it sends”?",
+      "zh_title": "分开",
+      "zh_poem": "它没有开始\n有策略。\n\n它开始于\n人们祈祷，\n和一声低语：\n将它们分开。\n\n所以他们把手伸过来\n他们最好的两个\n并把它们送人了。\n\n教会成长\n通过它发送的内容。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是使徒行传 13 章 2-3 节中安静的教训：“教会因所差遣而成长”，那又怎样呢？",
+      "zh_epigraph": "“他们禁食祷告，按手在他们身上，就打发他们走了。”",
+      "zh_ref": "使徒行传 13:2–3"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#d7caae"
       },
       "dailyWalkDay": 1182,
-      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “sometimes the no's are how God points you to the yes”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “sometimes the no's are how God points you to the yes”?",
+      "zh_title": "过来帮助我们",
+      "zh_poem": "每扇门\n已经关门了。\n\n亚洲，没有。\n比提尼亚，不。\n\n然后是一个梦：\n一个人站在海对面\n寻求帮助。\n\n有时不\n神是怎样的\n给你点\n是的。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，靠近敞开的门槛：当你听到“有时，上帝如何向你指出“是”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“到马其顿来帮助我们。”",
+      "zh_ref": "使徒行传 16:9"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#e3d4af"
       },
       "dailyWalkDay": 1183,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and her house became the first church in Europe.” What part of your heart feels most searched or comforted by Acts 16:14–15 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and her house became the first church in Europe.” What part of your heart feels most searched or comforted by Acts 16:14–15 right now?",
+      "zh_title": "紫色的卖家",
+      "zh_poem": "河岸。\n几个正在祈祷的妇女。\n没有犹太教堂。\n\n莉迪亚是一名女商人\n谁出卖了国王的颜色。\n\n她听着，\n和主\n打开她的心。\n\n就是这样。\n他打开。\n我们听到了。\n\n和她的房子\n成为第一座教堂\n在欧洲。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“她的房子成为欧洲第一座教堂。”现在，使徒行传 16 章 14-15 节让你内心的哪一部分感觉最受审视或安慰？",
+      "zh_epigraph": "“主打开她的心，让她听保罗所说的话。”",
+      "zh_ref": "使徒行传 16:14–15"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#f0c070"
       },
       "dailyWalkDay": 1184,
-      "reflectionPrompt": "In Acts 16:25–26, grace meets us right beside the quiet centerpiece of “midnight”: how does the closing thought—“the other prisoners were listening. someone always is”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Acts 16:25–26, grace meets us right beside the quiet centerpiece of “midnight”: how does the closing thought—“the other prisoners were listening. someone always is”—steady your footing for the road ahead?",
+      "zh_title": "午夜",
+      "zh_poem": "殴打。\n锁定股票\n在内细胞中。\n\n并在午夜\n他们唱歌。\n\n不是救援之后。\n前。\n\n其他囚犯\n正在听。\n\n总有人是。",
+      "zh_reflectionPrompt": "在使徒行传 16 章 25-26 节中，恩典就在“午夜”这个安静的中心部分旁边与我们相遇：最后的想法——“其他囚犯在听。总有人在听”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“大约午夜时分，保罗和细拉正在向上帝祈祷并唱赞美诗，囚犯们也在听他们的祷告。”",
+      "zh_ref": "使徒行传 16:25–26"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#f7dda1"
       },
       "dailyWalkDay": 1185,
-      "reflectionPrompt": "If today’s painting of “what must I do” (Acts 16:30–31) hung beside the door you walk out of this morning, how would its final line—“that night he washed their wounds, and they baptized his whole house”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “what must I do” (Acts 16:30–31) hung beside the door you walk out of this morning, how would its final line—“that night he washed their wounds, and they baptized his whole house”—shape your choices?",
+      "zh_title": "我必须做什么",
+      "zh_poem": "狱卒\n已经准备好去死了。\n\n门是开着的。\n他想\n所有人都走了。\n\n但没有人逃跑。\n\n和那个男人\n谁把他们锁起来了\n跌倒并问道\n唯一重要的问题。\n\n那天晚上\n他清洗了他们的伤口，\n他们受洗了\n他的整个房子。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“我必须做什么”（使徒行传 16:30-31）的画，那么它的最后一行——“那夜他洗了他们的伤口，他们又给他全家施洗”——会如何影响你的选择？",
+      "zh_epigraph": "“相信主耶稣基督，你和你的家人都会得救。”",
+      "zh_ref": "使徒行传 16:30–31"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#ddca99"
       },
       "dailyWalkDay": 1186,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Acts 17:27)—where in your own home or work today does “you've been reaching for someone your whole life. he is not far” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Acts 17:27)—where in your own home or work today does “you've been reaching for someone your whole life. he is not far” ring true?",
+      "zh_title": "不远",
+      "zh_poem": "一座充满祭坛的城市，\n和其中之一\n以防万一而建\n\n给神\n他们不知道。\n\n保罗并没有嘲笑它。\n他读了它\n作为一种渴望。\n\n你一直在联系某人\n你的一生。\n\n他就在不远的地方。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（使徒行传 17:27）——今天，在你自己的家里或工作中，“你一生都在寻找一个人。他并不遥远”听起来是真的吗？",
+      "zh_epigraph": "“他离我们每个人都不远。”",
+      "zh_ref": "使徒行传 17:27"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#dcb77f"
       },
       "dailyWalkDay": 1187,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “it happened over the workbench, in ordinary hours, with calloused hands.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “it happened over the workbench, in ordinary hours, with calloused hands.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "帐篷制造商",
+      "zh_poem": "讲道之间\n他缝制帐篷。\n\n山羊毛\n和皮革，\n与百基拉和亚居拉\n在科林斯的一家小商店里。\n\n福音\n不仅发生了\n在犹太教堂里。\n\n它发生了\n工作台上方，\n\n在平时的时间里，\n双手长满老茧。",
+      "zh_reflectionPrompt": "缓缓吸一口气，再读一遍最后一行：“这件事发生在工作台上，在平常的时间里，双手长满了老茧。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“因为他们的职业是帐篷制造商。”",
+      "zh_ref": "使徒行传 18:3"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#eb9844"
       },
       "dailyWalkDay": 1188,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “fifty thousand pieces of silver, going up in smoke in the town square.” Looking through the lens of Acts 19:19–20, what does it mean to discover that “and the word of the Lord kept growing”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “fifty thousand pieces of silver, going up in smoke in the town square.” Looking through the lens of Acts 19:19–20, what does it mean to discover that “and the word of the Lord kept growing”?",
+      "zh_title": "书籍被烧毁",
+      "zh_poem": "五万\n银片，\n\n烟消云散\n在城镇广场。\n\n没有人强迫他们。\n他们执行了他们的咒语\n他们自己。\n\n当某事\n掌控了你的生活，\n你不卖它。\n你不存储它。\n\n你把它烧掉。\n\n和主的话\n不断增长。",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“五万两银子，在城镇广场上硝烟四起”的感觉。从使徒行传 19 章 19-20 节的角度看，发现“主的道渐渐增长”是什么意思？",
+      "zh_epigraph": "“把他们的书放在一起，当众烧毁。”",
+      "zh_ref": "使徒行传 19:19–20"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#e3cba2"
       },
       "dailyWalkDay": 1189,
-      "reflectionPrompt": "Look closely at the open window facing home in this painting (Acts 20:9–10)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the open window facing home in this painting (Acts 20:9–10)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "窗户",
+      "zh_poem": "保罗传道\n午夜过去了。\n\n和一个年轻人\n在窗户里\n睡着了，\n然后摔倒了。\n\n老实说：\n布道\n太长了。\n\n但恩典\n下了楼，\n紧紧地抱住他，\n\n会议继续进行\n直到日出。",
+      "zh_reflectionPrompt": "仔细观察这幅画中面向家的敞开的窗户（使徒行传 20：9-10）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“别担心，因为他的生命就在他自己身上。”",
+      "zh_ref": "使徒行传 20:9–10"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#f1ddb9"
       },
       "dailyWalkDay": 1190,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around your own two hands: what quiet prayer rises in you when you read, “and they wept on the sand, knowing they wouldn't see him again”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around your own two hands: what quiet prayer rises in you when you read, “and they wept on the sand, knowing they wouldn't see him again”?",
+      "zh_title": "给予更幸福",
+      "zh_poem": "他向他们展示了他的双手。\n\n这些有效\n为了你的食物。\n这些携带\n你需要什么。\n\n然后他给了他们\n耶稣的话\n没有一本福音书\n写下。\n\n他们哭了\n在沙滩上，\n\n知道他们\n不会再见到他了。",
+      "zh_reflectionPrompt": "让你的眼睛停留在你两只手周围的笔触和光线上：当你读到“他们在沙子上哭泣，知道他们再也见不到他”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“给予比接受更幸福。”",
+      "zh_ref": "使徒行传 20:35–37"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#e2ca9c"
       },
       "dailyWalkDay": 1191,
-      "reflectionPrompt": "Linger with the movement in “the belt” (Acts 21:11–13) from “a prophet tied his own hands with Paul's belt” to “but some roads you walk knowing where they lead. he did. so did Jesus”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the belt” (Acts 21:11–13) from “a prophet tied his own hands with Paul's belt” to “but some roads you walk knowing where they lead. he did. so did Jesus”—where do you find yourself along that arc today?",
+      "zh_title": "腰带",
+      "zh_poem": "一位先知\n绑住自己的双手\n和保罗的腰带。\n\n这就是等待的结果。\n\n他的朋友们恳求他\n不去。\n\n但有些道路\n你走路\n知道\n他们领导的地方。\n\n他做到了。\n耶稣也是如此。",
+      "zh_reflectionPrompt": "留心“腰带”（使徒行传 21：11-13）中的运动，从“先知用保罗的腰带绑住自己的双手”到“但有些路你行走时知道通向何方。他是这样的。耶稣也是如此”——今天你发现自己处在这条弧线的哪个位置？",
+      "zh_epigraph": "“因为我为主耶稣的名，不但被捆绑，而且死在耶路撒冷。”",
+      "zh_ref": "使徒行传 21:11–13"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#f7e1be"
       },
       "dailyWalkDay": 1192,
-      "reflectionPrompt": "Notice how “four anchors” (Acts 27:29) arrives at: “some nights that's all faith is: holding on and waiting for morning.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “four anchors” (Acts 27:29) arrives at: “some nights that's all faith is: holding on and waiting for morning.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "四个锚",
+      "zh_poem": "没有阳光。\n没有星星。\n十四天的暴风雨。\n\n所以他们做到了\n唯一剩下的东西。\n\n他们掉下来了\n四个锚\n并希望有白天。\n\n有些晚上\n这就是全部信仰：\n\n坚持\n和等待\n早上。",
+      "zh_reflectionPrompt": "请注意“四个锚”（使徒行传 27:29）是如何得出的：“有些夜晚，信心的全部就是：持守并等待黎明。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“他们从船尾松开了四个锚，希望天亮。”",
+      "zh_ref": "使徒行传 27:29"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#e2c180"
       },
       "dailyWalkDay": 1193,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Acts 27:35: “and they all took courage”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Acts 27:35: “and they all took courage”?",
+      "zh_title": "暴风雨中的面包",
+      "zh_poem": "两百七十六\n浑身湿透、挨饿的人们，\n\n和一名囚犯\n站起来\n在暴风雨中\n\n并致谢。\n\n不是为了暴风雨。\n为了面包。\n为了承诺。\n\n然后他吃。\n\n他们都\n鼓起勇气。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是使徒行传 27 章 35 节中安静的教训：“他们就都壮胆”，那又怎样呢？",
+      "zh_epigraph": "“他在众人面前感谢上帝，然后掰开，开始吃。”",
+      "zh_ref": "使徒行传 27:35"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#e68c5a"
       },
       "dailyWalkDay": 1194,
-      "reflectionPrompt": "Imagine standing inside this frame beside the warmth of the fire: what hurry or noise in your week begins to fade when you hear, “some things that fasten on you don't get the last word”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the warmth of the fire: what hurry or noise in your week begins to fade when you hear, “some things that fasten on you don't get the last word”?",
+      "zh_title": "毒蛇",
+      "zh_poem": "遭遇海难。\n浸湿了。\n收集棍子\n像其他人一样。\n\n然后是咬伤。\n\n他们等待着\n让他肿起来\n然后死去。\n\n他只是\n摆脱它\n进入火中。\n\n有些事情\n固定在你身上的\n听不懂最后一句话。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，在温暖的火边：当你听到“有些事情紧紧围绕着你，却没有得到最后的决定”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“不过他把这个生物甩到火里，并没有受伤。”",
+      "zh_ref": "使徒行传 28:3–5"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#f6e0ac"
       },
       "dailyWalkDay": 1195,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's still being written by everyone who walks through that door.” What part of your heart feels most searched or comforted by Acts 28:30–31 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's still being written by everyone who walks through that door.” What part of your heart feels most searched or comforted by Acts 28:30–31 right now?",
+      "zh_title": "无阻碍地",
+      "zh_poem": "这本书没有结束\n有审判\n或判决。\n\n结束了\n有一扇开着的门。\n\n一个被锁链锁住的人\n在租来的房子里，\n欢迎\n每个来的人。\n\n无阻碍。\n\n和故事\n还没有完成。\n\n还在写中\n\n由每个人\n谁走过那扇门。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“每一个走进那扇门的人仍然在写下这句话。”现在，使徒行传 28:30-31 给你心灵的哪一部分带来最大的探查或安慰？",
+      "zh_epigraph": "“放胆无阻地传讲上帝的王国，教导有关主耶稣基督的事。”",
+      "zh_ref": "使徒行传 28:30–31"
     }
-  ]
+  ],
+  "zh_title": "直到地极",
+  "zh_subtitle": "使徒行传诗画集",
+  "zh_beforeYouBegin": "使徒行传以一朵云开始，以一扇敞开的门结束。其间：楼上的风和火、乞丐跳进寺庙大门、沙漠之路、刺眼的灯光、墙上的篮子、监狱里的午夜歌声、沉船和罗马的一间小出租屋。\n\n本书用四十首短诗，分为五个部分，讲述了从耶路撒冷到地极的好消息。每首诗都位于一幅画旁边和一行经文之下。这些图片保留在故事留下的东西上——台阶上的一张垫子、一堆斗篷、一条腰带、四个锚——并将面孔留给你想象。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这卷书旁边的使徒行传，让真正的话语成为最后的话语。"
 }

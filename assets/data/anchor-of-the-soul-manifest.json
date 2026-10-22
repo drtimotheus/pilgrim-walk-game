@@ -16,7 +16,10 @@
       "epigraph": "His Son is the radiance of his glory, the very image of his substance",
       "epigraphRef": "Hebrews 1:3",
       "lightName": "Light of Radiance of His Glory",
-      "lightHint": "Near 'many ways' (Hebrews 1:1–2) in Part 1: Radiance of His Glory"
+      "lightHint": "Near 'many ways' (Hebrews 1:1–2) in Part 1: Radiance of His Glory",
+      "zh_title": "神荣耀所发的光辉",
+      "zh_epigraph": "他是神荣耀所发的光辉，是神本体的真像",
+      "zh_epigraphRef": "希伯来书 1:3"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "There remains therefore a Sabbath rest for the people of God.",
       "epigraphRef": "Hebrews 4:9",
       "lightName": "Light of A Sabbath Rest",
-      "lightHint": "Near 'today' (Hebrews 3:15) in Part 2: A Sabbath Rest"
+      "lightHint": "Near 'today' (Hebrews 3:15) in Part 2: A Sabbath Rest",
+      "zh_title": "安息日的安息",
+      "zh_epigraph": "这样看来，必另有一安息日的安息，为神的子民存留。",
+      "zh_epigraphRef": "希伯来书 4:9"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Having then a great high priest who has passed through the heavens, Jesus, the Son of God, let’s hold tightly to our confession.",
       "epigraphRef": "Hebrews 4:14",
       "lightName": "Light of The Great High Priest",
-      "lightHint": "Near 'touched' (Hebrews 4:15) in Part 3: The Great High Priest"
+      "lightHint": "Near 'touched' (Hebrews 4:15) in Part 3: The Great High Priest",
+      "zh_title": "尊荣的大祭司",
+      "zh_epigraph": "我们既然有一位已经升入高天尊荣的大祭司，就是神的儿子耶稣，便当持定所承认的道。",
+      "zh_epigraphRef": "希伯来书 4:14"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "Now faith is assurance of things hoped for, proof of things not seen.",
       "epigraphRef": "Hebrews 11:1",
       "lightName": "Light of By Faith",
-      "lightHint": "Near 'assurance' (Hebrews 11:1) in Part 4: By Faith"
+      "lightHint": "Near 'assurance' (Hebrews 11:1) in Part 4: By Faith",
+      "zh_title": "因着信",
+      "zh_epigraph": "信就是所望之事的实底，是未见之事的确据。",
+      "zh_epigraphRef": "希伯来书 11:1"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "let’s run with perseverance the race that is set before us",
       "epigraphRef": "Hebrews 12:1",
       "lightName": "Light of The Race Set Before Us",
-      "lightHint": "Near 'cloud of witnesses' (Hebrews 12:1) in Part 5: The Race Set Before Us"
+      "lightHint": "Near 'cloud of witnesses' (Hebrews 12:1) in Part 5: The Race Set Before Us",
+      "zh_title": "摆在我们前头的路程",
+      "zh_epigraph": "存心忍耐，奔那摆在我们前头的路程",
+      "zh_epigraphRef": "希伯来书 12:1"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#dd9044"
       },
       "dailyWalkDay": 1448,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the still, unhurried voice: what quiet prayer rises in you when you read, “then, at the end of these days, he stopped sending messages and sent his Son”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the still, unhurried voice: what quiet prayer rises in you when you read, “then, at the end of these days, he stopped sending messages and sent his Son”?",
+      "zh_title": "多次多方",
+      "zh_poem": "在很长一段时间里，\n他曾零零碎碎地说话。\n\n一丛烧着的荆棘。\n一个微小的声音。\n一位先知佝偻的背影，\n一只当街故意摔碎的\n瓦罐。\n\n这里一句话，\n那里一个异梦。\n\n列祖珍藏着每一片零星的启示，\n耐心等候。\n\n随后，在这末后的日子，\n他不再差人捎信，\n\n而是差来了他的儿子。",
+      "zh_reflectionPrompt": "让目光停留在画中围绕着那安静从容之声的笔触与光线：当你读到“随后，在这末后的日子，他不再差人捎信，而是差来了他的儿子”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“就在这末世借着他儿子晓谕我们”",
+      "zh_ref": "希伯来书 1:1–2"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#f7cf72"
       },
       "dailyWalkDay": 1449,
-      "reflectionPrompt": "Linger with the movement in “radiance” (Hebrews 1:3) from “you can't look at the sun” to “you have seen his morning”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “radiance” (Hebrews 1:3) from “you can't look at the sun” to “you have seen his morning”—where do you find yourself along that arc today?",
+      "zh_title": "荣耀的光辉",
+      "zh_poem": "你无法直视太阳。\n\n但你可以站在\n从太阳发出的光中，\n\n感受它照在脸上，\n看它把灰暗的田野\n染成金黄。\n\n光并不是\n太阳的仿制品；\n光就是太阳本身，\n临到了你身上。\n\n子之于父，\n正是如此。\n\n你从未见过神，\n\n却已见过\n他的清晨。",
+      "zh_reflectionPrompt": "在《荣耀的光辉》（希伯来书 1:3）中细细品味那份转折——从“你无法直视太阳”到“你从未见过神，却已见过他的清晨”——今天你发现自己处在这段弧线的哪个位置？",
+      "zh_epigraph": "“他是神荣耀所发的光辉，是神本体的真像”",
+      "zh_ref": "希伯来书 1:3"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#ede0c5"
       },
       "dailyWalkDay": 1450,
-      "reflectionPrompt": "Notice how “like a garment” (Hebrews 1:10–12) arrives at: “so when the fabric of your life wears through at the elbows, remember who is holding it.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “like a garment” (Hebrews 1:10–12) arrives at: “so when the fabric of your life wears through at the elbows, remember who is holding it.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "如同外衣",
+      "zh_poem": "天空终会磨薄，\n像一件穿旧的外衣。\n\n群山与星辰，\n有朝一日\n都要像衣服一样卷起来，\n收纳一旁。\n\n你所认识的一切，\n都在渐渐变老。\n\n惟独他不然。\n\n诗篇对子说：\n你的年数没有穷尽。\n\n所以，当你生命的布料\n在手肘处磨穿时，\n\n要记得是谁正托住这一切。",
+      "zh_reflectionPrompt": "留意《如同外衣》（希伯来书 1:10–12）如何落脚于：“所以，当你生命的布料在手肘处磨穿时，要记得是谁正托住这一切。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“惟有你永不改变；你的年数没有穷尽。”",
+      "zh_ref": "希伯来书 1:10–12"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#f7dfa3"
       },
       "dailyWalkDay": 1451,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hebrews 2:1: “pay attention, the letter says, not because the sea is angry, because it is so quiet”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hebrews 2:1: “pay attention, the letter says, not because the sea is angry, because it is so quiet”?",
+      "zh_title": "随流失去",
+      "zh_poem": "没有人会蓄意漂流。\n\n你只是不再\n检查缆绳。\n\n水面平静，\n暮色温柔，\n岸却在一寸一寸地\n离你远去。\n\n信上说：\n当越发郑重留心——\n\n不是因为大海狂暴，\n\n而是因为海面太安静了。",
+      "zh_reflectionPrompt": "如果在今晚入睡前，你最需要记住的是希伯来书 2:1 那安静的启示：“信上说：当越发郑重留心——不是因为大海狂暴，而是因为海面太安静了”——这会给你带来怎样的提醒？",
+      "zh_epigraph": "“所以，我们当越发郑重所听见的道理，恐怕我们随流失去。”",
+      "zh_ref": "希伯来书 2:1"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#b9ad97"
       },
       "dailyWalkDay": 1452,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “what is man”: what hurry or noise in your week begins to fade when you hear, “that is how much you are thought of”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “what is man”: what hurry or noise in your week begins to fade when you hear, “that is how much you are thought of”?",
+      "zh_title": "人算什么",
+      "zh_poem": "仰望星空久了，\n你会觉得自己\n渺小得像一颗石子。\n\n我们算什么，\n你竟顾念我们？\n\n那回答，\n是以血肉之躯临到的。\n\n他比天使小一点，\n低微到足以\n替万人\n尝了死味。\n\n这就是\n你被顾念的份量。",
+      "zh_reflectionPrompt": "想象自己站在这幅画框里、守在《人算什么》那安静的画面中心：当你听见“这就是你被顾念的份量”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“人算什么，你竟顾念他？”",
+      "zh_ref": "希伯来书 2:6–9"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#ebe2cf"
       },
       "dailyWalkDay": 1453,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “not ashamed. not even a little.” What part of your heart feels most searched or comforted by Hebrews 2:11 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “not ashamed. not even a little.” What part of your heart feels most searched or comforted by Hebrews 2:11 right now?",
+      "zh_title": "不以为耻",
+      "zh_poem": "他了解你的家庭。\n\n他知道那些争吵、\n那把空着的椅子、\n那个没人敢提的名字。\n\n他了解你。\n\n然而他却拉开一把椅子，\n对所有听见的人说：\n\n这个人和我是一家的——\n我的弟兄，\n我的姐妹。\n\n他不以为耻。\n\n一点也不。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“他不以为耻。一点也不。”此刻，希伯来书 2:11 最触动或最安慰你内心的是哪一部分？",
+      "zh_epigraph": "“所以他称他们为弟兄，也不以为耻”",
+      "zh_ref": "希伯来书 2:11"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#d4c4a1"
       },
       "dailyWalkDay": 1454,
-      "reflectionPrompt": "In Hebrews 3:4–6, grace meets us right beside the quiet centerpiece of “his house”: how does the closing thought—“it's you. it's us. still going up”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Hebrews 3:4–6, grace meets us right beside the quiet centerpiece of “his house”: how does the closing thought—“it's you. it's us. still going up”—steady your footing for the road ahead?",
+      "zh_title": "他的家",
+      "zh_poem": "每一座房屋\n都有建造的人。\n\n石头叠着石头，\n准绳拉得笔直，\n木槌耐心地敲击。\n\n摩西在神的全家诚然尽忠，\n像一位受托的仆人。\n\n基督却是儿子，\n治理神的家。\n\n而这房屋\n并不是一座建筑。\n\n是你，\n是我们——\n\n仍在建造之中。",
+      "zh_reflectionPrompt": "在希伯来书 3:4–6 中，恩典就在《他的家》那安静的画面中心与我们相遇：结尾的深思——“是你，是我们——仍在建造之中”——如何为你前面的道路稳住脚步？",
+      "zh_epigraph": "“我们若将可夸的盼望和胆量坚持到底，便是他的家了。”",
+      "zh_ref": "希伯来书 3:4–6"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#edd0b0"
       },
       "dailyWalkDay": 1455,
-      "reflectionPrompt": "If today’s painting of “today” (Hebrews 3:15) hung beside the door you walk out of this morning, how would its final line—“only today, this plain one, with its dishes and its traffic, where a voice might be speaking under all the noise. listen while it's today”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “today” (Hebrews 3:15) hung beside the door you walk out of this morning, how would its final line—“only today, this plain one, with its dishes and its traffic, where a voice might be speaking under all the noise. listen while it's today”—shape your choices?",
+      "zh_title": "今日",
+      "zh_poem": "不是昨天——\n你在昨天听不见他。\n\n也不是明天——\n明天尚未来到。\n\n只有今日，\n这个平凡的今天，\n带着待洗的碗碟与往来的车马，\n\n在一切喧嚣底下，\n或许正有一个声音\n在对你说话。\n\n泥土趁湿的时候\n还是柔软的。\n\n趁着还是今日，\n侧耳听吧。",
+      "zh_reflectionPrompt": "如果今天这幅《今日》（希伯来书 3:15）就挂在你清晨出门的门旁，它最后那句——“只有今日，这个平凡的今天，带着待洗的碗碟与往来的车马，在一切喧嚣底下，或许正有一个声音在对你说话……趁着还是今日，侧耳听吧”——会如何塑造你今天的选择？",
+      "zh_epigraph": "“你们今日若听他的话，就不可硬着心”",
+      "zh_ref": "希伯来书 3:15"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#dfae6d"
       },
       "dailyWalkDay": 1456,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Hebrews 3:13)—where in your own home or work today does “day by day, as long as it's called today, keep each other soft” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Hebrews 3:13)—where in your own home or work today does “day by day, as long as it's called today, keep each other soft” ring true?",
+      "zh_title": "天天彼此相劝",
+      "zh_poem": "没有人的心是一夜变硬的。\n\n它总是慢慢发生：\n一次微小的抗拒，\n一句对自己说的\n无声谎言。\n\n所以医治\n也是缓慢的。\n\n门口的一句问候，\n搭在肩上的一只手：\n明天再来吧。\n\n日复一日，\n趁着还有“今日”，\n\n彼此守护，让心保持柔软。",
+      "zh_reflectionPrompt": "天路同行的每一站都向我们显明，神如何在平凡之处与我们相遇（希伯来书 3:13）——今天在你的家中或工作里，哪一处让你深感“日复一日，趁着还有‘今日’，彼此守护，让心保持柔软”的真实？",
+      "zh_epigraph": "“总要趁着还有今日，天天彼此相劝”",
+      "zh_ref": "希伯来书 3:13"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#e2c17f"
       },
       "dailyWalkDay": 1457,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “because they would not put their weight on it.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “because they would not put their weight on it.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "四十年",
+      "zh_poem": "他们亲眼见过红海分开，\n也吃过从天降下的\n吗哪。\n\n然而，\n到了应许之地的边界，\n他们却害怕得\n不敢进去。\n\n整整四十年，\n围着一个应许\n在旷野里兜圈子。\n\n不是因为神的膀臂缩短，\n\n而是因为他们不肯\n把全副重担交托在他手上。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“而是因为他们不肯把全副重担交托在他手上。”如果你带着这份真理走入接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“这样看来，他们不能进入安息，是因为不信的缘故了。”",
+      "zh_ref": "希伯来书 3:16–19"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#decea9"
       },
       "dailyWalkDay": 1458,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “flour on the board.” Looking through the lens of Hebrews 4:2, what does it mean to discover that “a promise is a gift. faith is the hands”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “flour on the board.” Looking through the lens of Hebrews 4:2, what does it mean to discover that “a promise is a gift. faith is the hands”?",
+      "zh_title": "与信心调和",
+      "zh_poem": "案板上的面粉，\n水罐里的清水。\n\n两样都是\n极好的东西。\n\n但若只是并排摆着，\n它们永远不会变成饼。\n\n有福音传给他们，\n像传给我们一样。\n\n他们听见了，\n却没有把它揉进生命里。\n\n应许是一份礼物，\n\n信心则是揉面的双手。",
+      "zh_reflectionPrompt": "回想一段你曾体会过“案板上的面粉”尚未揉合成饼的时光。透过希伯来书 4:2 的眼光，发现“应许是一份礼物，信心则是揉面的双手”对你意味着什么？",
+      "zh_epigraph": "“只是所听见的道与他们无益，因为他们没有信心与所听见的道调和。”",
+      "zh_ref": "希伯来书 4:2"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#f1dbaf"
       },
       "dailyWalkDay": 1459,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “the seventh day” in this painting (Hebrews 4:4)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “the seventh day” in this painting (Hebrews 4:4)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "第七日",
+      "zh_poem": "他安息，\n不是因为疲倦了。\n\n他安息，\n是因为一切已经造齐，\n\n而且甚好。\n\n他从这熠熠生辉的万有前\n退后一步，\n\n让万物安然存立。\n\n有一种安息，\n并不是睡眠；\n\n那是深知大工已成之人的\n从容安息。",
+      "zh_reflectionPrompt": "细看这幅画中《第七日》那安静的画面中心（希伯来书 4:4）——如果今天你可以把一件焦虑的重担放在它旁边，你会放下什么？",
+      "zh_epigraph": "“神在第七日歇了他一切的工”",
+      "zh_ref": "希伯来书 4:4"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#efd9b8"
       },
       "dailyWalkDay": 1460,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the table set before you: what quiet prayer rises in you when you read, “you walk in, and take off your shoes, and stop”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the table set before you: what quiet prayer rises in you when you read, “you walk in, and take off your shoes, and stop”?",
+      "zh_title": "安息日的安息",
+      "zh_poem": "你一直\n忙着证明自己，\n\n挣取自己的一席之地，\n生怕落于人后。\n\n信上说：\n另有一安息存留，\n\n像一间早已收拾妥当的房间，\n一张早已摆好的饭桌，\n房门正敞开着。\n\n这安息无需你亲手建造。\n\n你只需走进去，\n脱下鞋子，\n停下脚步。",
+      "zh_reflectionPrompt": "让目光停留在画中围绕着那张摆设妥当之饭桌的笔触与光线：当你读到“你只需走进去，脱下鞋子，停下脚步”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“这样看来，必另有一安息日的安息，为神的子民存留。”",
+      "zh_ref": "希伯来书 4:9–10"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#eee1bd"
       },
       "dailyWalkDay": 1461,
-      "reflectionPrompt": "Linger with the movement in “sharper” (Hebrews 4:12) from “it's lying on the table” to “it cuts to find what needs healing”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “sharper” (Hebrews 4:12) from “it's lying on the table” to “it cuts to find what needs healing”—where do you find yourself along that arc today?",
+      "zh_title": "比两刃的剑更快",
+      "zh_poem": "它静静放在桌上，\n\n没有人握着它。\n\n然而\n它的两侧锋刃\n依然映出寒光。\n\n这道能穿过\n你戴在外面的面具，\n\n直抵你尚未说出口的\n心思意念。\n\n它剖开，\n不是为了伤人，\n\n而是为了找着\n那需要医治的地方。",
+      "zh_reflectionPrompt": "在《比两刃的剑更快》（希伯来书 4:12）中细细品味那份转折——从“它静静放在桌上”到“它剖开，不是为了伤人，而是为了找着那需要医治的地方”——今天你发现自己处在这段弧线的哪个位置？",
+      "zh_epigraph": "“神的道是活泼的，是有功效的，比一切两刃的剑更快”",
+      "zh_ref": "希伯来书 4:12"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#d2b489"
       },
       "dailyWalkDay": 1462,
-      "reflectionPrompt": "Notice how “touched” (Hebrews 4:15) arrives at: “so when you come to him with your weakness, he doesn't read it off a chart. he remembers.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “touched” (Hebrews 4:15) arrives at: “so when you come to him with your weakness, he doesn't read it off a chart. he remembers.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "体恤我们的软弱",
+      "zh_poem": "他曾在旷野里饥饿，\n曾在水井旁困乏，\n也曾在坟墓前哭泣。\n\n他深知被拉向\n歧途的试探是什么滋味，\n\n但他没有妥协。\n\n所以，当你带着软弱\n来到他面前时，\n\n他并不是照着病历表\n念出你的症状。\n\n他全都记得。",
+      "zh_reflectionPrompt": "留意《体恤我们的软弱》（希伯来书 4:15）如何落脚于：“所以，当你带着软弱来到他面前时，他并不是照着病历表念出你的症状。他全都记得。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“因我们的大祭司并非不能体恤我们的软弱”",
+      "zh_ref": "希伯来书 4:15"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#f8d88e"
       },
       "dailyWalkDay": 1463,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hebrews 4:16: “and what you'll find there is exactly what you came needing. help, in time”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hebrews 4:16: “and what you'll find there is exactly what you came needing. help, in time”?",
+      "zh_title": "施恩的宝座",
+      "zh_poem": "世上的宝座，\n你走近时总是低头战兢，\n巴不得无人留意。\n\n惟独这一座，\n你可以坦然走上前去。\n\n放胆无惧。\n\n不是因为你足够好，\n\n而是因为这宝座\n本身就是由恩典铸成的。\n\n你在那里所寻见的，\n恰恰是你来时最需要的：\n\n随时的帮助。",
+      "zh_reflectionPrompt": "如果在今晚入睡前，你最需要记住的是希伯来书 4:16 那安静的启示：“你在那里所寻见的，恰恰是你来时最需要的：随时的帮助”——这会带给你怎样的平安？",
+      "zh_epigraph": "“所以，我们只管坦然无惧地来到施恩的宝座前”",
+      "zh_ref": "希伯来书 4:16"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#d4c7ba"
       },
       "dailyWalkDay": 1464,
-      "reflectionPrompt": "Imagine standing inside this frame beside the deep roots of the tree: what hurry or noise in your week begins to fade when you hear, “sometimes it's the whole of it”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the deep roots of the tree: what hurry or noise in your week begins to fade when you hear, “sometimes it's the whole of it”?",
+      "zh_title": "大声哀哭",
+      "zh_poem": "他祷告时，\n并没有客套拘谨。\n\n他是大声哀哭，\n流泪恳求。\n\n神的儿子\n在橄榄树林间\n俯伏在地。\n\n信上说，\n他的祈祷蒙了垂听。\n\n所以你也可以放声呼求。\n\n大声哀哭\n并不是缺乏信心；\n\n有时，那恰恰是\n信心的全部。",
+      "zh_reflectionPrompt": "想象自己站在这幅画框里、守在橄榄树深扎的根旁：当你听见“大声哀哭并不是缺乏信心；有时，那恰恰是信心的全部”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“基督在肉体的时候，既大声哀哭，流泪祷告，恳求那能救他免死的主”",
+      "zh_ref": "希伯来书 5:7–8"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#f1e3c6"
       },
       "dailyWalkDay": 1465,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “it didn't. he's keeping every bowl.” What part of your heart feels most searched or comforted by Hebrews 6:10 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “it didn't. he's keeping every bowl.” What part of your heart feels most searched or comforted by Hebrews 6:10 right now?",
+      "zh_title": "总不忘记",
+      "zh_poem": "你端去的那一餐饭，\n众人散去后\n你默默清扫的地面。\n\n那次无人知晓的探望，\n那句从未收到的\n道谢。\n\n你以为\n这一切都消失了。\n\n其实没有。\n\n神绝不是一位\n善忘的神。\n\n每一只递出去的碗，\n他都一一记念。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“其实没有……每一只递出去的碗，他都一一记念。”此刻，希伯来书 6:10 最触动或最安慰你内心的是哪一部分？",
+      "zh_epigraph": "“因为神并非不公义，竟忘记你们所做的工和你们为他名所显的爱心”",
+      "zh_ref": "希伯来书 6:10"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#f9eed5"
       },
       "dailyWalkDay": 1466,
-      "reflectionPrompt": "In Hebrews 6:19, grace meets us right beside the timber of the boat on the water: how does the closing thought—“the rope goes deeper than the weather”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Hebrews 6:19, grace meets us right beside the timber of the boat on the water: how does the closing thought—“the rope goes deeper than the weather”—steady your footing for the road ahead?",
+      "zh_title": "灵魂的锚",
+      "zh_poem": "锚并不能\n止住风暴。\n\n波浪依然扑来，\n小船依然摇晃，\n你依然能感受到\n每一次涌浪的起伏。\n\n但你不会\n被冲走。\n\n这盼望\n系在你看不见的地方——\n\n在幔子的那一面，\n就是耶稣已经先我们进去的地方。\n\n那根锚绳，\n比风浪扎得更深。",
+      "zh_reflectionPrompt": "在希伯来书 6:19 中，恩典就在水面上小船的木舷旁与我们相遇：结尾的深思——“那根锚绳，比风浪扎得更深”——如何为你前面的道路稳住脚步？",
+      "zh_epigraph": "“我们有这指望，如同灵魂的锚，又坚固又牢靠”",
+      "zh_ref": "希伯来书 6:19"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#f0e6c0"
       },
       "dailyWalkDay": 1467,
-      "reflectionPrompt": "If today’s painting of “to the uttermost” (Hebrews 7:24–25) hung beside the door you walk out of this morning, how would its final line—“there is no far he can't reach”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “to the uttermost” (Hebrews 7:24–25) hung beside the door you walk out of this morning, how would its final line—“there is no far he can't reach”—shape your choices?",
+      "zh_title": "拯救到底",
+      "zh_poem": "从前的祭司\n都会老去。\n\n他们离世了，\n就由别人\n接过圣袍穿上。\n\n这一位却不然。\n\n他是长远活着，\n\n直到永远，\n在父面前轻声念出你的名字。\n\n在那些你无力祷告的夜里，\n他仍在为你祈求。\n\n这就是“拯救到底”的意思：\n\n没有任何遥远的角落，\n是他构不着的。",
+      "zh_reflectionPrompt": "如果今天这幅《拯救到底》（希伯来书 7:24–25）就挂在你清晨出门的门旁，它最后那句——“没有任何遥远的角落，是他构不着的”——会如何塑造你今天的选择？",
+      "zh_epigraph": "“因为他是长远活着，替他们祈求。”",
+      "zh_ref": "希伯来书 7:24–25"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#e9ddc7"
       },
       "dailyWalkDay": 1468,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Hebrews 8:10–12)—where in your own home or work today does “your sins aren't written anywhere” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Hebrews 8:10–12)—where in your own home or work today does “your sins aren't written anywhere” ring true?",
+      "zh_title": "不再记念",
+      "zh_poem": "他无所不知。\n\n但他却定意\n忘记一件事。\n\n不是像我们那样\n不留神忘了钥匙、\n忘了某个生日。\n\n他是刻意不再记起。\n\n他不会再翻旧账，\n也不会留存清单。\n\n如今律法已经写在\n你的心版上，\n\n而你的罪愆，\n再也不写在任何地方了。",
+      "zh_reflectionPrompt": "天路同行的每一站都向我们显明，神如何在平凡之处与我们相遇（希伯来书 8:10–12）——今天在你的家中或工作里，哪一处让你深感“而你的罪愆，再也不写在任何地方了”的真实？",
+      "zh_epigraph": "“我不再记念他们的罪愆和他们的过犯。”",
+      "zh_ref": "希伯来书 8:10–12"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#dab86f"
       },
       "dailyWalkDay": 1469,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “it was never meant to stay that way.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “it was never meant to stay that way.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "一年一次",
+      "zh_poem": "第一层帐幕里的灯\n从不熄灭。\n\n陈设饼\n也常摆在桌上。\n\n但在幔子后面，\n惟有一人能进去，\n一年只有一天，\n战战兢兢。\n\n其余的人\n都站在外头，\n屏息等候，\n看他能否平安出来。\n\n那曾是世人\n所能靠近的极限。\n\n但这一切，\n本就不是为了永远停留在那里。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“但这一切，本就不是为了永远停留在那里。”如果你带着这份真理走入接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“至于第二层帐幕，惟有大祭司一年一次独自进去”",
+      "zh_ref": "希伯来书 9:6–7"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#f7e8aa"
       },
       "dailyWalkDay": 1470,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “for all those years the curtain said: this far.” Looking through the lens of Hebrews 10:19–22, what does it mean to discover that “come in. come all the way in”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “for all those years the curtain said: this far.” Looking through the lens of Hebrews 10:19–22, what does it mean to discover that “come in. come all the way in”?",
+      "zh_title": "从幔子经过",
+      "zh_poem": "千百年来，\n那道幔子一直说：\n到此为止。\n\n后来他穿过了幔子。\n\n不是绕过去，\n也不是翻过去，\n\n而是穿过——\n他自己的身体，\n成了进去的路。\n\n如今至圣所的光\n倾泻在廊院里，\n\n幔子说出了\n一句全新的话：\n\n进来吧。\n\n一直走进来吧。",
+      "zh_reflectionPrompt": "回想一段你曾体会过“千百年来，那道幔子一直说：到此为止”的疏离时光。透过希伯来书 10:19–22 的眼光，发现“进来吧。一直走进来吧”对你意味着什么？",
+      "zh_epigraph": "“借着他给我们开了一条又新又活的路，从幔子经过”",
+      "zh_ref": "希伯来书 10:19–22"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#dcd1b2"
       },
       "dailyWalkDay": 1471,
-      "reflectionPrompt": "Look closely at the small seed hidden in the soil in this painting (Hebrews 11:1)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the small seed hidden in the soil in this painting (Hebrews 11:1)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "实底与确据",
+      "zh_poem": "一粒种子看上去\n并不像一场丰收。\n\n躺在你的掌心里，\n它不过是一点干瘪微小的东西。\n\n但你还是把它种了下去。\n\n你浇灌那片\n毫无动静的泥土。\n\n你耐心等候。\n\n这就是信。\n\n不是假装\n你已经看见了，\n\n而是像早已笃定那样\n把种子播下。",
+      "zh_reflectionPrompt": "细看这幅画中埋在泥土里的微小种子（希伯来书 11:1）——如果今天你可以把一件焦虑的重担放在它旁边，你会放下什么？",
+      "zh_epigraph": "“信就是所望之事的实底，是未见之事的确据。”",
+      "zh_ref": "希伯来书 11:1"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f1d3a4"
       },
       "dailyWalkDay": 1472,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “Abel”: what quiet prayer rises in you when you read, “a gift given with a whole heart goes on talking long after you're gone”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “Abel”: what quiet prayer rises in you when you read, “a gift given with a whole heart goes on talking long after you're gone”?",
+      "zh_title": "亚伯",
+      "zh_poem": "据我们所知，\n他生前并没有留下多少话。\n\n他牧养羊群，\n把羊群中最好的\n献给了神。\n\n他的一生\n非常短暂。\n\n但信上说，\n他仍旧说话。\n\n一份全心全意\n献上的礼物，\n\n在你离去许久之后，\n依然在发声。",
+      "zh_reflectionPrompt": "让目光停留在画中《亚伯》那安静的画面中心：当你读到“一份全心全意献上的礼物，在你离去许久之后，依然在发声”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“他虽然死了，却因这信，仍旧说话。”",
+      "zh_ref": "希伯来书 11:4"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#f2e5c5"
       },
       "dailyWalkDay": 1473,
-      "reflectionPrompt": "Linger with the movement in “Enoch” (Hebrews 11:5) from “he walked with God day after day the way you'd walk with a friend, no hurry, no destination anyone else could see” to “some people walk so close with God that heaven is just the next step”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “Enoch” (Hebrews 11:5) from “he walked with God day after day the way you'd walk with a friend, no hurry, no destination anyone else could see” to “some people walk so close with God that heaven is just the next step”—where do you find yourself along that arc today?",
+      "zh_title": "以诺",
+      "zh_poem": "他与神同行，\n\n日复一日，\n就像你与一位挚友\n并肩散步，\n\n不慌不忙，\n也没有旁人看得见的\n目的地。\n\n直到有一天，\n人找不着他了。\n\n那条小路径直延伸，\n走入了光中。\n\n有些人\n与神走得如此亲近，\n以至于天堂，\n不过是顺理成章的下一步。",
+      "zh_reflectionPrompt": "在《以诺》（希伯来书 11:5）中细细品味那份转折——从“他与神同行，日复一日，就像你与一位挚友并肩散步，不慌不忙，也没有旁人看得见的目的地”到“有些人与神走得如此亲近，以至于天堂，不过是顺理成章的下一步”——今天你发现自己处在这段弧线的哪个位置？",
+      "zh_epigraph": "“只是他被接去以先，已经得了神喜悦他的明证。”",
+      "zh_ref": "希伯来书 11:5"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#faebc7"
       },
       "dailyWalkDay": 1474,
-      "reflectionPrompt": "Notice how “Noah” (Hebrews 11:7) arrives at: “some faith looks foolish until it's the only thing still floating.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “Noah” (Hebrews 11:7) arrives at: “some faith looks foolish until it's the only thing still floating.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "挪亚",
+      "zh_poem": "没有乌云，\n也没有雨点。\n\n只有一个人在旱地里\n造一艘大船，\n\n一块木板接着一块木板。\n\n他蒙神指示\n那未见的事，\n\n便相信这警戒，\n过于相信眼前的天气。\n\n有些信心，\n起初看起来无比愚拙，\n\n直到洪水来时，\n它成了唯一浮在水面上的方舟。",
+      "zh_reflectionPrompt": "留意《挪亚》（希伯来书 11:7）如何落脚于：“有些信心，起初看起来无比愚拙，直到洪水来时，它成了唯一浮在水面上的方舟。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“挪亚因着信，既蒙神指示他未见的事，动了敬畏的心，预备了一只方舟，使他全家得救。”",
+      "zh_ref": "希伯来书 11:7"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f6e2aa"
       },
       "dailyWalkDay": 1475,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hebrews 11:8–10: “for the rest of his life he lived in tents, looking for a city with foundations, whose builder is God”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hebrews 11:8–10: “for the rest of his life he lived in tents, looking for a city with foundations, whose builder is God”?",
+      "zh_title": "不知往哪里去",
+      "zh_poem": "他收起帐棚，\n\n告别了自己唯一熟知的\n故土。\n\n邻舍问他：\n你要往哪里去？\n\n他并不知道。\n\n但他知道\n是谁呼召了他。\n\n此后终其一生，\n他都住在帐棚里，\n\n等候一座\n有根基的城，\n\n就是神所经营、\n所建造的。",
+      "zh_reflectionPrompt": "如果在今晚入睡前，你最需要记住的是希伯来书 11:8–10 那安静的启示：“此后终其一生，他都住在帐棚里，等候一座有根基的城，就是神所经营、所建造的”——这会带给你怎样的看见？",
+      "zh_epigraph": "“出去的时候，还不知往哪里去。”",
+      "zh_ref": "希伯来书 11:8–10"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#f2c4ae"
       },
       "dailyWalkDay": 1476,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “Sarah”: what hurry or noise in your week begins to fade when you hear, “and laughter, the other kind”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “Sarah”: what hurry or noise in your week begins to fade when you hear, “and laughter, the other kind”?",
+      "zh_title": "撒拉",
+      "zh_poem": "她曾为此暗笑过。\n\n年纪太老了，\n时候太晚了，\n怀抱空空的岁月\n已经太久太久了。\n\n但在某个时刻，\n她忽然明白：\n这应许并不取决于她自己，\n\n而是取决于他。\n\n而他从不曾\n食言。\n\n于是帐棚里\n多了一只摇篮，\n\n还有笑声——\n那是另一种欢笑。",
+      "zh_reflectionPrompt": "想象自己站在这幅画框里、守在《撒拉》那安静的画面中心：当你听见“于是帐棚里多了一只摇篮，还有笑声——那是另一种欢笑”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“因她以为那应许她的是可信的。”",
+      "zh_ref": "希伯来书 11:11"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#bb9466"
       },
       "dailyWalkDay": 1477,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and God was not ashamed to be called their God.” What part of your heart feels most searched or comforted by Hebrews 11:13–16 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and God was not ashamed to be called their God.” What part of your heart feels most searched or comforted by Hebrews 11:13–16 right now?",
+      "zh_title": "客旅与寄居的",
+      "zh_poem": "他们死的时候，\n仍未抵达那里。\n\n他们只是从远处望见，\n便欢喜迎接，\n\n就像你向着路上远远走来的亲人\n挥手致意。\n\n他们若想回去，\n原本还有机会。\n\n但他们没有回头。\n\n他们羡慕的，\n是一个更美的家乡。\n\n所以神被称为他们的神，\n并不以为耻。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“所以神被称为他们的神，并不以为耻。”此刻，希伯来书 11:13–16 最触动或最安慰你内心的是哪一部分？",
+      "zh_epigraph": "“又承认自己在世上是客旅，是寄居的。”",
+      "zh_ref": "希伯来书 11:13–16"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f7d397"
       },
       "dailyWalkDay": 1478,
-      "reflectionPrompt": "In Hebrews 11:24–27, grace meets us right beside the moving water: how does the closing thought—“that was enough to trade a kingdom for”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Hebrews 11:24–27, grace meets us right beside the moving water: how does the closing thought—“that was enough to trade a kingdom for”—steady your footing for the road ahead?",
+      "zh_title": "摩西",
+      "zh_poem": "他本可以拥有\n这一切：\n\n王宫，\n尼罗河上的画舫，\n尊贵的名号。\n\n他却转身离开，\n走向荒沙\n与为奴的百姓。\n\n他究竟看见了什么\n是王宫里看不见的？\n\n信上说，\n他恒心忍耐，\n如同看见\n那不能看见的主。\n\n这就足以让他\n甘心舍弃一座王国。",
+      "zh_reflectionPrompt": "在希伯来书 11:24–27 中，恩典就在流动的河水旁与我们相遇：结尾的深思——“这就足以让他甘心舍弃一座王国”——如何为你前面的道路稳住脚步？",
+      "zh_epigraph": "“因为他恒心忍耐，如同看见那不能看见的主。”",
+      "zh_ref": "希伯来书 11:24–27"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#f5d8a2"
       },
       "dailyWalkDay": 1479,
-      "reflectionPrompt": "If today’s painting of “Rahab” (Hebrews 11:31) hung beside the door you walk out of this morning, how would its final line—“and her name is in the list, right there next to Moses”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “Rahab” (Hebrews 11:31) hung beside the door you walk out of this morning, how would its final line—“and her name is in the list, right there next to Moses”—shape your choices?",
+      "zh_title": "喇合",
+      "zh_poem": "在任何人眼里，\n她都算不上英雄。\n\n一个有着不堪过往的女子，\n一间嵌在城墙上的房子。\n\n但她听见了\n神所行的事，\n\n在还没有人劝她之前，\n她就已经信了。\n\n她敞开家门，\n藏起陌生的探子，\n在窗前系上朱红线绳。\n\n而她的名字\n竟被写进信心名录里，\n\n就排在\n摩西的身旁。",
+      "zh_reflectionPrompt": "如果今天这幅《喇合》（希伯来书 11:31）就挂在你清晨出门的门旁，它最后那句——“而她的名字竟被写进信心名录里，就排在摩西的身旁”——会如何塑造你今天的选择？",
+      "zh_epigraph": "“妓女喇合因着信，曾和和平平地接待探子，就不与那些不顺从的人一同灭亡。”",
+      "zh_ref": "希伯来书 11:31"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#eee2c5"
       },
       "dailyWalkDay": 1480,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Hebrews 12:1)—where in your own home or work today does “they're the ones cheering” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Hebrews 12:1)—where in your own home or work today does “they're the ones cheering” ring true?",
+      "zh_title": "如同云彩围着我们",
+      "zh_poem": "看台上坐满了人。\n\n亚伯。\n以诺。\n双手还带着木工粗糙老茧的\n挪亚。\n\n亚伯拉罕、撒拉。\n摩西、喇合。\n\n所有那些\n曾竭力奔跑、\n生前却未曾亲眼看见终点的\n古人。\n\n他们坐在那里，\n不是为了给你的快慢打分。\n\n他们深知\n这一圈跑道有多艰难。\n\n他们正是为你\n呐喊助威的人。",
+      "zh_reflectionPrompt": "天路同行的每一站都向我们显明，神如何在平凡之处与我们相遇（希伯来书 12:1）——今天在你的家中或工作里，哪一处让你深感“他们正是为你呐喊助威的人”的真实？",
+      "zh_epigraph": "“我们既有这许多的见证人，如同云彩围着我们”",
+      "zh_ref": "希伯来书 12:1"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#edce8a"
       },
       "dailyWalkDay": 1481,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “look up the road to the one who already finished it and is waiting at the end.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “look up the road to the one who already finished it and is waiting at the end.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "奔那摆在前头的路程",
+      "zh_poem": "放下吧——\n那件你从起跑时\n就一直背负的重担。\n\n存心忍耐地奔跑，\n不在乎一时快慢。\n\n不要只盯着\n自己的脚尖。\n\n抬头望向道路前方，\n仰望那位\n已经跑完全程、\n\n并正在终点\n等候你的主。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“抬头望向道路前方，仰望那位已经跑完全程、并正在终点等候你的主。”如果你带着这份真理走入接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“仰望为我们信心创始成终的耶稣”",
+      "zh_ref": "希伯来书 12:1–2"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#f6e3be"
       },
       "dailyWalkDay": 1482,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “a gardener ties the young tree to a stake.” Looking through the lens of Hebrews 12:7–11, what does it mean to discover that “but come summer, straight branches, fruit. they're proof you're his”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “a gardener ties the young tree to a stake.” Looking through the lens of Hebrews 12:7–11, what does it mean to discover that “but come summer, straight branches, fruit. they're proof you're his”?",
+      "zh_title": "天父的管教",
+      "zh_poem": "园丁把幼树\n绑在木桩旁。\n\n对小树而言，\n这感觉并不像爱。\n\n但到了夏天，\n枝干挺直，\n果实累累。\n\n那些艰难的时节，\n并不是他离弃你的证据；\n\n恰恰是你属于他的\n明证。",
+      "zh_reflectionPrompt": "回想一段你曾体会过“园丁把幼树绑在木桩旁”那种受约束之痛的时光。透过希伯来书 12:7–11 的眼光，发现“但到了夏天，枝干挺直，果实累累……恰恰是你属于他的明证”对你意味着什么？",
+      "zh_epigraph": "“后来却为那经练过的人结出平安的果子，就是义。”",
+      "zh_ref": "希伯来书 12:7–11"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f0e0bf"
       },
       "dailyWalkDay": 1483,
-      "reflectionPrompt": "Look closely at your own two hands in this painting (Hebrews 12:12–13)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at your own two hands in this painting (Hebrews 12:12–13)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "发酸的腿、下垂的手",
+      "zh_poem": "你累了。\n你当然会累。\n\n这封信深知你的疲惫。\n\n所以它没有催你\n跑得更快。\n\n它只是说：\n把下垂的手举起来，\n把发酸的腿挺起来。\n\n把路上的石头\n挪开，\n\n好叫跟在你身后\n一瘸一拐的人，\n\n也能平安走完全程。",
+      "zh_reflectionPrompt": "细看这幅画中你自己的双手与道路（希伯来书 12:12–13）——如果今天你可以把一件焦虑的重担放在它旁边，你会放下什么？",
+      "zh_epigraph": "“所以，你们要把下垂的手、发酸的腿挺起来”",
+      "zh_ref": "希伯来书 12:12–13"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#ebd3a7"
       },
       "dailyWalkDay": 1484,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “can't be shaken”: what quiet prayer rises in you when you read, “a kingdom that doesn't move when the ground does”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “can't be shaken”: what quiet prayer rises in you when you read, “a kingdom that doesn't move when the ground does”?",
+      "zh_title": "不能震动的国",
+      "zh_poem": "有一天，\n他要震动\n万有。\n\n震动天，\n也震动地，\n震动一切我们为求安稳\n而亲手筑起的依靠。\n\n凡能倒塌的，\n终必倒塌。\n\n就让它倒下吧。\n\n因为你已经领受了\n另一样产业——\n\n一个当地动山摇时\n依然岿然不动的国。",
+      "zh_reflectionPrompt": "让目光停留在画中《不能震动的国》那安静的画面中心：当你读到“一个当地动山摇时依然岿然不动的国”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“所以我们既得了不能震动的国，就当感恩”",
+      "zh_ref": "希伯来书 12:26–28"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#f1bb66"
       },
       "dailyWalkDay": 1485,
-      "reflectionPrompt": "Linger with the movement in “strangers at the door” (Hebrews 13:2) from “set another place” to “some opened the door and never knew. open it anyway”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “strangers at the door” (Hebrews 13:2) from “set another place” to “some opened the door and never knew. open it anyway”—where do you find yourself along that arc today?",
+      "zh_title": "门前的客旅",
+      "zh_poem": "多摆一副碗筷吧。\n\n倒上清水，\n端出饼来。\n\n你并不知道\n顺着大路走来的是谁。\n\n也许是一个疲惫的旅人，\n一个邻舍，\n一个无处容身的人；\n\n又或许，是天上\n差来的使者。\n\n曾有人敞开家门，\n至终也未曾发觉。\n\n尽管把门敞开吧。",
+      "zh_reflectionPrompt": "在《门前的客旅》（希伯来书 13:2）中细细品味那份转折——从“多摆一副碗筷吧”到“曾有人敞开家门，至终也未曾发觉。尽管把门敞开吧”——今天你发现自己处在这段弧线的哪个位置？",
+      "zh_epigraph": "“不可忘记用爱心接待客旅；因为曾有接待客旅的，不知不觉就接待了天使。”",
+      "zh_ref": "希伯来书 13:2"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#fad8a2"
       },
       "dailyWalkDay": 1486,
-      "reflectionPrompt": "Notice how “never leave” (Hebrews 13:5–6) arrives at: “you can be content with a little when the one thing you can't lose is sitting up with you in the dark.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “never leave” (Hebrews 13:5–6) arrives at: “you can be content with a little when the one thing you can't lose is sitting up with you in the dark.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "总不撇下你",
+      "zh_poem": "当钱财用尽的时候，\n当屋子冷清下来的时候，\n当你所指望的人\n都纷纷搬走的时候。\n\n他一再重复\n这句话，\n好叫你牢牢记住：\n\n总不撇下，\n\n永不丢弃。\n\n当你深知那唯一\n永不失去的主，\n\n正陪你在黑夜里醒着守候，\n你便能以微少之物为足。",
+      "zh_reflectionPrompt": "留意《总不撇下你》（希伯来书 13:5–6）如何落脚于：“当你深知那唯一永不失去的主，正陪你在黑夜里醒着守候，你便能以微少之物为足。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“我总不撇下你，也不丢弃你。”",
+      "zh_ref": "希伯来书 13:5–6"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#f4da79"
       },
       "dailyWalkDay": 1487,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hebrews 13:8: “and every morning after this one”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hebrews 13:8: “and every morning after this one”?",
+      "zh_title": "永不改变",
+      "zh_poem": "世界会变，\n你的住址会变，\n镜中的面容也会变。\n\n但那位\n曾怀抱孩童、\n曾伸手摸麻风病人、\n曾走出空坟墓的主，\n\n他对你的爱，\n一丝一毫\n也未曾改变。\n\n昨日，\n\n今日，\n\n以及从今往后的\n每一个清晨。",
+      "zh_reflectionPrompt": "如果在今晚入睡前，你最需要记住的是希伯来书 13:8 那安静的启示：“昨日，今日，以及从今往后的每一个清晨”——这会带给你怎样的笃定与安息？",
+      "zh_epigraph": "“耶稣基督，昨日、今日、一直到永远，是一样的。”",
+      "zh_ref": "希伯来书 13:8"
     }
-  ]
+  ],
+  "zh_title": "灵魂的锚",
+  "zh_subtitle": "希伯来书诗画集",
+  "zh_beforeYouBegin": "希伯来书是写给那些疲惫不堪、险些随流失去之人的信。它用一幅幅画面来回应他们：清晨日头荣耀所发的光辉、一艘悄然滑离缆桩的小船、一道比锋刃上闪光更敏锐的话语、一枚在波涛之下稳稳抓牢的锚、一幅从上到下裂开的幔子。随后，它展开一卷绵延古今的信心名录——亚伯、以诺、在旱地上造方舟的挪亚、出去的时候还不知往哪里去的亚伯拉罕、撒拉、摩西、喇合与她的朱红线绳——并让他们坐在看台上，环绕着路上奔跑的人。\n\n本书以四十首短诗走过这卷书信，共分五部分：远超万有的儿子、存留的安息、尊荣的大祭司、信心的见证人，以及奔向那不能震动的国。每首诗旁配有一幅画，上方引有一句经文。画面停留在这封信所触及的器物上——一盏灯、一枚锚、一只水盆、一扇敞开的门——而将面容留给你去想象。\n\n这些诗并非圣经本身，只是一个读经的人对经文的回应。请翻开希伯来书与本书一同阅读，让神真实的话语作最终的定音。"
 }

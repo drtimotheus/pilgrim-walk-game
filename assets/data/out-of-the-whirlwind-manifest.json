@@ -16,7 +16,10 @@
       "epigraph": "Yahweh gave, and Yahweh has taken away. Blessed be Yahweh’s name.",
       "epigraphRef": "Job 1:21",
       "lightName": "Light of The Ash Heap",
-      "lightHint": "Near 'there was a man' (Job 1:1–5) in Part 1: The Ash Heap"
+      "lightHint": "Near 'there was a man' (Job 1:1–5) in Part 1: The Ash Heap",
+      "zh_title": "灰堆",
+      "zh_epigraph": "赏赐的是耶和华，收取的也是耶和华。耶和华的名是应当称颂的。",
+      "zh_epigraphRef": "约伯记 1:21"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "For there is hope for a tree if it is cut down",
       "epigraphRef": "Job 14:7",
       "lightName": "Light of Miserable Comforters",
-      "lightHint": "Near 'you used to hold others up' (Job 4:3–5) in Part 2: Miserable Comforters"
+      "lightHint": "Near 'you used to hold others up' (Job 4:3–5) in Part 2: Miserable Comforters",
+      "zh_title": "悲惨的安慰者",
+      "zh_epigraph": "因为一棵树被砍倒还有希望",
+      "zh_epigraphRef": "约伯记 14:7"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "I know that my Redeemer lives.",
       "epigraphRef": "Job 19:25",
       "lightName": "Light of My Redeemer Lives",
-      "lightHint": "Near 'cut in rock' (Job 19:23–24) in Part 3: My Redeemer Lives"
+      "lightHint": "Near 'cut in rock' (Job 19:23–24) in Part 3: My Redeemer Lives",
+      "zh_title": "我的救赎主活着",
+      "zh_epigraph": "我知道我的救赎主还活着。",
+      "zh_epigraphRef": "约伯记 19:25"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "Where were you when I laid the foundations of the earth?",
       "epigraphRef": "Job 38:4",
       "lightName": "Light of Out of the Whirlwind",
-      "lightHint": "Near 'borrowed breath' (Job 33:4) in Part 4: Out of the Whirlwind"
+      "lightHint": "Near 'borrowed breath' (Job 33:4) in Part 4: Out of the Whirlwind",
+      "zh_title": "走出旋风",
+      "zh_epigraph": "当我奠定大地根基时你在哪里？",
+      "zh_epigraphRef": "约伯记 38:4"
     }
   ],
   "paintings": [
@@ -69,7 +81,12 @@
         "accent": "#fdde83"
       },
       "dailyWalkDay": 409,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “the book is about to take everything else away” (Job 1:1–5) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “the book is about to take everything else away” (Job 1:1–5) speak to a question you have been carrying lately?",
+      "zh_title": "有一个男人",
+      "zh_poem": "故事开始\n就像童话故事一样：\n有一个男人。\n\n好的。\n诚实的。\n七个儿子，三个女儿，\n每座山上都成群结队。\n\n和每个早晨\n他起得很早\n并为他的孩子们祈祷，\n以防万一。\n\n像这样记住他。\n这本书即将出版\n其他一切都消失了。",
+      "zh_reflectionPrompt": "有时候，一句话会在封闭的房间里打开一扇窗：“这本书将把一切都夺走”（约伯记 1：1-5）如何解答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“那人完全正直，敬畏神，远离恶事。”",
+      "zh_ref": "约伯记 1:1–5"
     },
     {
       "n": 2,
@@ -90,7 +107,12 @@
         "accent": "#ebe2c5"
       },
       "dailyWalkDay": 410,
-      "reflectionPrompt": "Hold your hands open for a moment before “behind the scenes” (Job 1:8–12): what are you gripping tightly that loosens when you hear, “he has to suffer without the explanation. most of us do”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “behind the scenes” (Job 1:8–12): what are you gripping tightly that loosens when you hear, “he has to suffer without the explanation. most of us do”?",
+      "zh_title": "幕后",
+      "zh_poem": "在幕后，\n一次谈话\n约伯从来没有听到过。\n\n他为你服务是无偿的吗？\n把一切都带走，\n看看吧。\n\n这本书从未告诉约伯\n关于本章。\n\n他必须受苦\n没有解释。\n\n我们大多数人都这样做。",
+      "zh_reflectionPrompt": "在“幕后”（约伯记 1：8-12）之前，请张开双手一会儿：当您听到“他必须在没有解释的情况下受苦。我们大多数人都这样做”时，您紧握的是什么东西松开了？",
+      "zh_epigraph": "“你考虑过我的仆人约伯吗？”",
+      "zh_ref": "约伯记 1:8–12"
     },
     {
       "n": 3,
@@ -111,7 +133,12 @@
         "accent": "#f3eee1"
       },
       "dailyWalkDay": 411,
-      "reflectionPrompt": "Scripture remembers this moment in Job 1:13–21 not to impress us, but to steady us: when have you seen the truth that “it's a man on his face, still talking to God” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Job 1:13–21 not to impress us, but to steady us: when have you seen the truth that “it's a man on his face, still talking to God” in your own story?",
+      "zh_title": "在他的脸上",
+      "zh_poem": "四个使者，\n一个又一个，\n每个还在说话\n当下一个到达时。\n\n牛。羊。\n骆驼。\n然后——\n孩子们。\n\n约伯撕裂了他的外袍，\n剃了光头，\n掉落在地上，\n并崇拜。\n\n主赐予。\n主已经拿走了。\n\n这不是一个公式。\n脸上是一个男人，\n仍在与上帝交谈。",
+      "zh_reflectionPrompt": "圣经在约伯记 1 章 13-21 节中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定下来：你什么时候在你自己的故事中看到过“这是一个面无表情、仍在与神说话”的真理？",
+      "zh_epigraph": "“我赤身出母腹，也必赤身归回。”",
+      "zh_ref": "约伯记 1:13–21"
     },
     {
       "n": 4,
@@ -132,7 +159,12 @@
         "accent": "#edd5a6"
       },
       "dailyWalkDay": 412,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “the ash heap” (Job 2:7–8), what one honest sentence would you pray beside the quiet centerpiece of “the ash heap” after reading, “no one should have to sit there alone”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “the ash heap” (Job 2:7–8), what one honest sentence would you pray beside the quiet centerpiece of “the ash heap” after reading, “no one should have to sit there alone”?",
+      "zh_title": "灰堆",
+      "zh_poem": "从头到脚都是疮。\n\n他坐在灰堆上\n城外，\n他们焚烧垃圾的地方，\n刮自己\n用一块破锅。\n\n东方最伟大的人，\n坐在垃圾场里。\n\n没有人应该这样做\n独自坐在那里。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“灰堆”（约伯记 2：7-8）时，读完“没有人应该独自坐在那里”之后，你会在“灰堆”安静的中心装饰品旁边祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“他拿了一块陶片来刮自己，然后坐在灰烬中。”",
+      "zh_ref": "约伯记 2:7–8"
     },
     {
       "n": 5,
@@ -153,7 +185,12 @@
         "accent": "#e8ddc0"
       },
       "dailyWalkDay": 413,
-      "reflectionPrompt": "Between the opening line (“his wife said: give up”) and the closing thought (“a man refusing to let go of the hand”), what is Job 2:9–10 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“his wife said: give up”) and the closing thought (“a man refusing to let go of the hand”), what is Job 2:9–10 gently reframing in your own day?",
+      "zh_title": "也很难",
+      "zh_poem": "老婆说：放弃吧。\n诅咒上帝而死。\n\n别对她太严厉。\n她失去了\n还有十个孩子。\n\n约伯说：\n我们从上帝那里夺取良善。\n我们不也应该努力吗？\n\n不是痛苦的理论。\n一个男人拒绝\n放开手。",
+      "zh_reflectionPrompt": "在开场白（“他的妻子说：放弃”）和结束语（“一个男人拒绝放开手”）之间，《约伯记》2:9-10 在你那个时代温柔地重构了什么？",
+      "zh_epigraph": "“我们难道能从上帝手中得到福气，而不是受到祸害吗？”",
+      "zh_ref": "约伯记 2:9–10"
     },
     {
       "n": 6,
@@ -174,7 +211,12 @@
         "accent": "#eee2c0"
       },
       "dailyWalkDay": 414,
-      "reflectionPrompt": "Along the road of Out of the Whirlwind, “seven days” (Job 2:11–13) slows us down at the dust of the road to remind us: “sometimes the kindest words are none.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Out of the Whirlwind, “seven days” (Job 2:11–13) slows us down at the dust of the road to remind us: “sometimes the kindest words are none.” Where are you being invited to trade control for trust today?",
+      "zh_title": "七日",
+      "zh_poem": "他的三个朋友来了\n并没有认出他。\n\n他们哭了。\n他们撕裂了长袍。\n他们把灰尘撒在头上。\n\n然后\n他们和他坐在一起\n在地面上\n七日七夜，\n并什么也没说。\n\n这是最好的事情\n他们会做\n在整本书中。\n\n有时是最亲切的话语\n没有。",
+      "zh_reflectionPrompt": "在《走出旋风》的路上，“七日”（约伯记 2：11-13）让我们在路上的尘土中放慢脚步，提醒我们：“有时，最友善的言语也无济于事。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“没有人对他说一句话，因为他们看到他非常悲伤。”",
+      "zh_ref": "约伯记 2:11–13"
     },
     {
       "n": 7,
@@ -195,7 +237,12 @@
         "accent": "#e5b288"
       },
       "dailyWalkDay": 415,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the day I was born” (Job 3:1–3), what would you talk about after reading, “say it to God, and to someone who will sit with you”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the day I was born” (Job 3:1–3), what would you talk about after reading, “say it to God, and to someone who will sit with you”?",
+      "zh_title": "我出生的那天",
+      "zh_poem": "当他终于开口说话时，\n他诅咒了他出生的那一天。\n\n圣经并没有催促他。\n它给了他\n整整一章。\n\n有些痛苦是如此之深\n希望你从未去过\n感觉这是唯一诚实的祈祷。\n\n约伯甚至带来了这个\n对上帝来说，\n大声说出来，\n朋友之间。\n\n如果你曾经感受过的话\n不要单独携带它。\n对神说，\n以及与您坐在一起的人。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“我出生的那一天”（约伯记 3:1-3）停下来，读到“对神和与你同坐的人说这句话”后，你会谈论什么？",
+      "zh_epigraph": "“让我出生的那一天消失吧”",
+      "zh_ref": "约伯记 3:1–3"
     },
     {
       "n": 8,
@@ -216,7 +263,12 @@
         "accent": "#dfbc81"
       },
       "dailyWalkDay": 416,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “what I feared”: what changes in your posture today when you sit with the closing words of “what I feared”—“and God is still God on the other side of it. the book isn't over”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “what I feared”: what changes in your posture today when you sit with the closing words of “what I feared”—“and God is still God on the other side of it. the book isn't over”?",
+      "zh_title": "我害怕什么",
+      "zh_poem": "我最害怕的事\n来了。\n\n没有轻松。\n不安静。\n没有休息。\n唯一的麻烦。\n\n最坏的情况\n不仅仅是一场噩梦。\n有时会发生。\n\n和上帝\n仍然是神\n在它的另一边。\n这本书还没有结束。",
+      "zh_reflectionPrompt": "在“我所害怕的”这个安静的中心部分之前暂停一下：今天，当你坐下来，以“我所害怕的”作为结束语时，你的姿势有什么变化——“上帝在另一边仍然是上帝。这本书还没有结束”？",
+      "zh_epigraph": "“因为我害怕的事情会降临到我身上”",
+      "zh_ref": "约伯记 3:25–26"
     },
     {
       "n": 9,
@@ -237,7 +289,12 @@
         "accent": "#f2e6c4"
       },
       "dailyWalkDay": 417,
-      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “you used to hold others up” in Timothy’s painting: what striving can you lay down as you ponder, “it's harder to receive comfort than to give it— harder still when the comforters start explaining” (Job 4:3–5)?"
+      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “you used to hold others up” in Timothy’s painting: what striving can you lay down as you ponder, “it's harder to receive comfort than to give it— harder still when the comforters start explaining” (Job 4:3–5)?",
+      "zh_title": "你曾经阻碍别人",
+      "zh_poem": "以利法开始\n与真实的事情：\n\n你曾经阻碍别人。\n你的话\n把那些跌倒的人扶稳。\n\n现在是你了。\n\n更难了\n获得安慰\n而不是给予——\n更难\n当被子\n开始解释。",
+      "zh_reflectionPrompt": "看看提摩太画中安静的中心画“你过去常常扶持别人”的平静：当你思考“接受安慰比给予安慰更难——当安慰者开始解释时更难”（约伯记4:3-5）时，你能放下什么努力呢？",
+      "zh_epigraph": "“你的话支撑了跌倒的他”",
+      "zh_ref": "约伯记 4:3–5"
     },
     {
       "n": 10,
@@ -258,7 +315,12 @@
         "accent": "#f0b05b"
       },
       "dailyWalkDay": 418,
-      "reflectionPrompt": "In Job 5:6–7, the story turns on the quiet centerpiece of “sparks”—and ends with, “the whole book is an argument with that one idea.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Job 5:6–7, the story turns on the quiet centerpiece of “sparks”—and ends with, “the whole book is an argument with that one idea.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "火花",
+      "zh_poem": "火花向上飞扬。\n麻烦来了。\n事情就是这样。\n\n确实如此。\n\n但朋友们\n继续：\n所以你一定已经做了\n这是值得的。\n\n那部分\n错了。\n\n整本书\n是一个论点\n就凭着这个想法。",
+      "zh_reflectionPrompt": "在约伯记 5 章 6-7 节中，故事以“火花”这一安静的核心为中心，并以“整本书都是对这个想法的争论”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“人生来就有烦恼，就像火花向上飞一样。”",
+      "zh_ref": "约伯记 5:6–7"
     },
     {
       "n": 11,
@@ -279,7 +341,12 @@
         "accent": "#e4d7bc"
       },
       "dailyWalkDay": 419,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Job 6:14–15 points us to the quiet centerpiece of “kindness” and whispers, “the friend who shows up with water does more than the friend who shows up with answers.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Job 6:14–15 points us to the quiet centerpiece of “kindness” and whispers, “the friend who shows up with water does more than the friend who shows up with answers.” How can you practice that unhurried wisdom today?",
+      "zh_title": "仁慈",
+      "zh_poem": "一个准备晕倒的人\n需要朋友的善意——\n\n即使他失去了信仰，\n约伯说。\n\n不是讲座。\n不是神学。\n仁慈。\n\n出现的朋友\n用水\n做更多\n比出现的朋友\n有答案。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，但《约伯记》6:14-15却向我们指出了“仁慈”的安静核心，并低声说道：“带着水出现的朋友比带着答案出现的朋友做得更多。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“对于快要晕倒的人，他的朋友应该表现出善意”",
+      "zh_ref": "约伯记 6:14–15"
     },
     {
       "n": 12,
@@ -300,7 +367,12 @@
         "accent": "#eedeb9"
       },
       "dailyWalkDay": 420,
-      "reflectionPrompt": "The poem closes with a quiet turn: “he isn't being dramatic. God can handle honest.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “he isn't being dramatic. God can handle honest.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "航天飞机",
+      "zh_poem": "航天飞机飞过\n穿过织布机——\n来回，\n来回，\n比你跟得更快。\n\n我的日子就是这样\n约伯说，\n并用完线程。\n\n他并不戏剧化。\n他很诚实。\n神能处理\n诚实。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“他并不戏剧化。上帝能够处理诚实的事情。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“我的日子比织梭还快，而且没有希望。”",
+      "zh_ref": "约伯记 7:6"
     },
     {
       "n": 13,
@@ -321,7 +393,12 @@
         "accent": "#dfd4ad"
       },
       "dailyWalkDay": 421,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “Job didn't know it, but he was describing someone who would come” (Job 9:32–33) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “Job didn't know it, but he was describing someone who would come” (Job 9:32–33) speak to a question you have been carrying lately?",
+      "zh_title": "中间有人",
+      "zh_poem": "上帝不是像我这样的人\n我可以辩论我的案子。\n\n如果有人\n在中间——\n\n有人将一只手放在上帝身上，\n一只手放在我身上。\n\n约伯并不知道，\n但他正在描述\n一个会来的人。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“约伯不知道，但他描述的是一个会来的人”（约伯记 9:32-33），这如何回答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“我们之间没有裁判，他可能会对我们俩下手。”",
+      "zh_ref": "约伯记 9:32–33"
     },
     {
       "n": 14,
@@ -342,7 +419,12 @@
         "accent": "#e6cfa3"
       },
       "dailyWalkDay": 422,
-      "reflectionPrompt": "Hold your hands open for a moment before “ask the animals” (Job 12:7–10): what are you gripping tightly that loosens when you hear, “including mine, even now, even here”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “ask the animals” (Job 12:7–10): what are you gripping tightly that loosens when you hear, “including mine, even now, even here”?",
+      "zh_title": "问动物",
+      "zh_poem": "你想要智慧吗？\n问动物们。\n问鸟儿。\n问海里的鱼。\n\n他们知道\n谁持有它们。\n\n在他手里\n是一切生物的生命，\n和呼吸\n每个人的。\n\n包括我的，\n即使现在，\n即使在这里。",
+      "zh_reflectionPrompt": "在“问走兽”（约伯记 12：7-10）之前，先张开双手：当你听到“包括我的，甚至现在，甚至在这里”时，你紧握的是什么东西松开了？",
+      "zh_epigraph": "“但是现在问问动物，他们会教你；问问天空的飞鸟，他们会告诉你。”",
+      "zh_ref": "约伯记 12:7–10"
     },
     {
       "n": 15,
@@ -363,7 +445,12 @@
         "accent": "#f7e6c7"
       },
       "dailyWalkDay": 423,
-      "reflectionPrompt": "Scripture remembers this moment in Job 13:13–15 not to impress us, but to steady us: when have you seen the truth that “you only argue with someone you're sure is there, and sure is listening” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Job 13:13–15 not to impress us, but to steady us: when have you seen the truth that “you only argue with someone you're sure is there, and sure is listening” in your own story?",
+      "zh_title": "当着他的面",
+      "zh_poem": "就算他杀了我\n我依然会站在这里\n当着他的面陈述我的情况。\n\n这并不是不信。\n事实恰恰相反。\n\n你只会争论\n和某人\n你确定在那里，\n当然是在听。",
+      "zh_reflectionPrompt": "圣经在约伯记 13:13-15 中记住这一刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“你只与你确信在场、并且肯定在听的人争论”的真理？",
+      "zh_epigraph": "“看哪，他会杀了我。我没有希望。不过，我会在他面前坚持我的道路。”",
+      "zh_ref": "约伯记 13:13–15"
     },
     {
       "n": 16,
@@ -384,7 +471,12 @@
         "accent": "#ded2ae"
       },
       "dailyWalkDay": 424,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “at the scent of water” (Job 14:7–14), what one honest sentence would you pray beside the deep roots of the tree after reading, “the rest of the Bible has been answering ever since”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “at the scent of water” (Job 14:7–14), what one honest sentence would you pray beside the deep roots of the tree after reading, “the rest of the Bible has been answering ever since”?",
+      "zh_title": "闻着水的香味",
+      "zh_poem": "砍倒一棵树，\n还有希望——\n闻着水的香味\n它会再次发芽。\n\n但一个男人？\n躺下，他就没有起来。\n\n约伯提出问题\n并且无法回答：\n如果一个人死了，\n他会再活一次吗？\n\n圣经的其余部分\n已回复\n从那时起。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“水的香气”处（约伯记14：7-14）时，当你读到“圣经的其余部分一直在回答”之后，你会在树的深处祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“让它再发芽，它的嫩枝就不会停止。”",
+      "zh_ref": "约伯记 14:7–14"
     },
     {
       "n": 17,
@@ -405,7 +497,12 @@
         "accent": "#decdac"
       },
       "dailyWalkDay": 425,
-      "reflectionPrompt": "Between the opening line (“I could talk like you, Job says, if you were in my place”) and the closing thought (“before you explain someone's suffering, sit down and be quiet a while”), what is Job 16:1–5 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“I could talk like you, Job says, if you were in my place”) and the closing thought (“before you explain someone's suffering, sit down and be quiet a while”), what is Job 16:1–5 gently reframing in your own day?",
+      "zh_title": "可怜的被子",
+      "zh_poem": "我可以像你一样说话\n约伯说，\n如果你处在我的位置。\n\n我可以摇头，\n将单词串在一起。\n\n但我会强化你\n用我的嘴。\n我会减轻你的痛苦。\n\n一些安慰\n让情况变得更糟。\n\n在你解释某人的痛苦之前\n坐下\n安静一会儿。",
+      "zh_reflectionPrompt": "在开场白（“约伯说，如果你处在我的位置，我可以像你一样说话”）和结束语（“在你解释某人的苦难之前，先坐下来安静一会儿”）之间，《约伯记》16:1-5在你那个时代温和地重构了什么？",
+      "zh_epigraph": "“你们都是可怜的安慰者！”",
+      "zh_ref": "约伯记 16:1–5"
     },
     {
       "n": 18,
@@ -426,7 +523,12 @@
         "accent": "#e9ce91"
       },
       "dailyWalkDay": 426,
-      "reflectionPrompt": "Along the road of Out of the Whirlwind, “my witness” (Job 16:19) slows us down at the still, unhurried voice to remind us: “when every voice on earth has already decided, there's one who hasn't.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Out of the Whirlwind, “my witness” (Job 16:19) slows us down at the still, unhurried voice to remind us: “when every voice on earth has already decided, there's one who hasn't.” Where are you being invited to trade control for trust today?",
+      "zh_title": "我的见证人",
+      "zh_poem": "即使现在，\n所有人都反对我，\n我的见证人\n在天堂。\n\n上面有人\n知道真相\n并会为我说话。\n\n当地球上的每一个声音\n已经决定了，\n有一个\n谁没有。",
+      "zh_reflectionPrompt": "在《走出旋风》的路上，“我的见证人”（约伯记 16:19）用那平静、不紧不慢的声音让我们放慢脚步，提醒我们：“当地球上的每个声音都已做出决定时，还有一个尚未做出决定。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“即使是现在，看哪，我的见证人还在天上。”",
+      "zh_ref": "约伯记 16:19"
     },
     {
       "n": 19,
@@ -447,7 +549,12 @@
         "accent": "#eddfba"
       },
       "dailyWalkDay": 427,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “cut in rock” (Job 19:23–24), what would you talk about after reading, “and here they are, still being read thousands of years later. he got his wish”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “cut in rock” (Job 19:23–24), what would you talk about after reading, “and here they are, still being read thousands of years later. he got his wish”?",
+      "zh_title": "切入岩石",
+      "zh_poem": "哦，我的话\n被写下来——\n\n切入岩石\n用铁笔，\n充满铅，\n永远。\n\n他以为没有人会记得。\n\n他们在这里，\n仍在阅读中\n数千年后。\n\n他如愿以偿了。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并停在“岩石上”（约伯记 19:23-24），你会在读到“而它们就在这里，几千年后仍然被人读到。他实现了他的愿望”之后会谈论什么？",
+      "zh_epigraph": "“用铁笔和铅将它们永远刻在岩石上！”",
+      "zh_ref": "约伯记 19:23–24"
     },
     {
       "n": 20,
@@ -468,7 +575,12 @@
         "accent": "#fbdb82"
       },
       "dailyWalkDay": 428,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “I know”: what changes in your posture today when you sit with the closing words of “I know”—“he didn't know how. he knew who”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “I know”: what changes in your posture today when you sit with the closing words of “I know”—“he didn't know how. he knew who”?",
+      "zh_title": "我知道",
+      "zh_poem": "在最坏的情况中间，\n不知从何而来，\n书中最高的一行：\n\n我知道\n我的救赎主活着。\n\n最后\n他将站在地球上。\n\n我会见到他，\n亲眼所见——\n我，而不是另一个。\n\n他不知道怎么办。\n他知道是谁。",
+      "zh_reflectionPrompt": "在“我知道”的安静核心之前暂停：今天，当你坐着说“我知道”的结束语时，你的姿势有什么变化——“他不知道怎么做。他知道谁”？",
+      "zh_epigraph": "“当我的皮肤被毁掉之后，我就会在我的肉身中看到上帝”",
+      "zh_ref": "约伯记 19:25–27"
     },
     {
       "n": 21,
@@ -489,7 +601,12 @@
         "accent": "#decaa8"
       },
       "dailyWalkDay": 429,
-      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “where to find him” in Timothy’s painting: what striving can you lay down as you ponder, “the Bible doesn't pretend otherwise” (Job 23:3–9)?"
+      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “where to find him” in Timothy’s painting: what striving can you lay down as you ponder, “the Bible doesn't pretend otherwise” (Job 23:3–9)?",
+      "zh_title": "到哪里去找他",
+      "zh_poem": "要是我知道在哪里可以找到他就好了——\n\n我往东走。不在那里。\n西方。找不到他。\n北。南。\n没有什么。\n\n有时上帝\n感觉不可能找到。\n\n圣经\n不假装否则。",
+      "zh_reflectionPrompt": "看看提摩太画作中安静的中心画“在哪里可以找到他”的宁静：当你沉思“圣经并不假装不然”（约伯记 23：3-9）时，你能放下什么努力？",
+      "zh_epigraph": "“哦，要是我知道在哪里可以找到他就好了！”",
+      "zh_ref": "约伯记 23:3–9"
     },
     {
       "n": 22,
@@ -510,7 +627,12 @@
         "accent": "#d99e2e"
       },
       "dailyWalkDay": 430,
-      "reflectionPrompt": "In Job 23:10, the story turns on the warmth of the fire—and ends with, “and when this fire is done, I'll come out like gold.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Job 23:10, the story turns on the warmth of the fire—and ends with, “and when this fire is done, I'll come out like gold.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "像金子一样",
+      "zh_poem": "我找不到他。\n\n但是——\n他知道我要走的路。\n\n我没有看到他。\n他看到我了。\n\n当这场大火结束后\n我会出来的\n像黄金一样。",
+      "zh_reflectionPrompt": "在约伯记 23 章 10 节中，故事以火的温暖为起点，并以“火烧尽后，我将如金子般显现”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“当他考验我时，我会像金子一样出来。”",
+      "zh_ref": "约伯记 23:10"
     },
     {
       "n": 23,
@@ -531,7 +653,12 @@
         "accent": "#f8e1a8"
       },
       "dailyWalkDay": 431,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Job 26:7–14 points us to the quiet centerpiece of “the fringe” and whispers, “we hear the faintest whisper. imagine the thunder.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Job 26:7–14 points us to the quiet centerpiece of “the fringe” and whispers, “we hear the faintest whisper. imagine the thunder.” How can you practice that unhurried wisdom today?",
+      "zh_title": "边缘",
+      "zh_poem": "诸天，\n深处，\n海的边界——\n\n所有这一切，\n约伯说，\n只是\n他道路的边缘。\n\n一声耳语。\n\n我们听到\n最微弱的耳语。\n想象\n雷声。",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，然而《约伯记》26:7-14却向我们指出了“边缘”安静的中心，并低声说道：“我们听到最微弱的低语。想象一下雷声。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“我们听到他的声音是多么微不足道啊！”",
+      "zh_ref": "约伯记 26:7–14"
     },
     {
       "n": 24,
@@ -552,7 +679,12 @@
         "accent": "#d6cca7"
       },
       "dailyWalkDay": 432,
-      "reflectionPrompt": "The poem closes with a quiet turn: “the deep says: it isn't in me.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “the deep says: it isn't in me.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "矿井",
+      "zh_poem": "人们挖银子，\n将轴切入黑暗，\n挂在绳子上，\n翻山越岭\n寻找黄金和蓝宝石。\n\n但智慧呢？\n\n你不能开采它。\n你买不到它。\n深处 说：\n它不在我体内。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“深处说：它不在我之内。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“但是哪里可以找到智慧呢？理解的地方在哪里呢？”",
+      "zh_ref": "约伯记 28:1–12"
     },
     {
       "n": 25,
@@ -573,7 +705,12 @@
         "accent": "#ebdfc0"
       },
       "dailyWalkDay": 433,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “right here, on your knees” (Job 28:23–28) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “right here, on your knees” (Job 28:23–28) speak to a question you have been carrying lately?",
+      "zh_title": "在这里",
+      "zh_poem": "上帝知道那条路。\n当他制造风时他看到了\n和雨。\n\n他对我们说：\n就是这里。\n\n敬畏主——\n这就是智慧。\n远离恶事——\n这就是理解。\n\n没有隐藏在岩石中。\n就在这里，\n在你的膝盖上。",
+      "zh_reflectionPrompt": "有时，一句话就能在封闭的房间里打开一扇窗：“就在这里，跪下”（约伯记 28：23-28）如何解答您最近一直在思考的问题？",
+      "zh_epigraph": "“敬畏耶和华就是智慧。远离恶就是聪明。”",
+      "zh_ref": "约伯记 28:23–28"
     },
     {
       "n": 26,
@@ -594,7 +731,12 @@
         "accent": "#e5d9b9"
       },
       "dailyWalkDay": 434,
-      "reflectionPrompt": "Hold your hands open for a moment before “eyes to the blind” (Job 29:12–16): what are you gripping tightly that loosens when you hear, “it's a picture of the life God still calls good”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “eyes to the blind” (Job 29:12–16): what are you gripping tightly that loosens when you hear, “it's a picture of the life God still calls good”?",
+      "zh_title": "眼睛给盲人",
+      "zh_poem": "约伯记得\n旧时光：\n\n我拯救了哭泣的穷人。\n孤儿。\n寡妇。\n\n我是盲人的眼睛，\n为瘸子的脚，\n穷人的父亲。\n\n这不是夸口。\n这是一张图片\n生活的\n神仍称善。",
+      "zh_reflectionPrompt": "在“看向盲人”（约伯记 29：12-16）之前，请张开双手：当您听到“这仍是神称其为美好的生活的图画”时，您紧握的是什么就松开了？",
+      "zh_epigraph": "“我是盲人的眼睛，跛子的脚。”",
+      "zh_ref": "约伯记 29:12–16"
     },
     {
       "n": 27,
@@ -615,7 +757,12 @@
         "accent": "#e0bd7f"
       },
       "dailyWalkDay": 435,
-      "reflectionPrompt": "Scripture remembers this moment in Job 30:20 not to impress us, but to steady us: when have you seen the truth that “you just look at me. God kept this line too” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Job 30:20 not to impress us, but to steady us: when have you seen the truth that “you just look at me. God kept this line too” in your own story?",
+      "zh_title": "没有答案",
+      "zh_poem": "我向你哭泣。\n你不回答。\n\n我站起来。\n你只要看着我。\n\n如果你这样祷告，\n你在圣经里。\n\n神保留了这条线\n也是。",
+      "zh_reflectionPrompt": "圣经在约伯记 30:20 中记住这一刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“你只要看着我。神也遵守这句话”这一真理？",
+      "zh_epigraph": "“我向你哭诉，你却不回应我。”",
+      "zh_ref": "约伯记 30:20"
     },
     {
       "n": 28,
@@ -636,7 +783,12 @@
         "accent": "#ece1c1"
       },
       "dailyWalkDay": 436,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “signed” (Job 31:35–40), what one honest sentence would you pray beside the quiet centerpiece of “signed” after reading, “he's said everything. now he waits”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “signed” (Job 31:35–40), what one honest sentence would you pray beside the quiet centerpiece of “signed” after reading, “he's said everything. now he waits”?",
+      "zh_title": "签署",
+      "zh_poem": "这是我的签名。\n让上帝回答我吧。\n\n约伯签署了他的案子\n并将其放下。\n\n约伯的话\n已结束。\n\n他已经说了一切。\n现在\n他等待着。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“签名”处（约伯记 31：35-40）时，读完“他已经说了一切。现在他在等待”，除了“签名”这个安静的中心句之外，你还会祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“看哪，这是我的签名！让全能者回答我吧！”",
+      "zh_ref": "约伯记 31:35–40"
     },
     {
       "n": 29,
@@ -657,7 +809,12 @@
         "accent": "#f5e6bf"
       },
       "dailyWalkDay": 437,
-      "reflectionPrompt": "Between the opening line (“a young man, Elihu, has been waiting to speak”) and the closing thought (“every breath you're taking while you read this— borrowed from him”), what is Job 33:4 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“a young man, Elihu, has been waiting to speak”) and the closing thought (“every breath you're taking while you read this— borrowed from him”), what is Job 33:4 gently reframing in your own day?",
+      "zh_title": "借来的呼吸",
+      "zh_poem": "一个年轻人，名叫以利户，\n一直在等待说话。\n\n以及他说的一些话\n是真的：\n\n神的灵创造了我。\n全能者的气息\n给我生命。\n\n你的每一次呼吸\n当你读到这篇文章时——\n借来的\n来自他。",
+      "zh_reflectionPrompt": "在开场白（“一个年轻人，以利户，一直在等待说话”）和结束语（“你读到这篇文章时，你的每一次呼吸——都是从他那里借来的”）之间，《约伯记》33:4 在你那个时代温和地重构了什么？",
+      "zh_epigraph": "“上帝的灵创造了我，全能者的气息赋予了我生命。”",
+      "zh_ref": "约伯记 33:4"
     },
     {
       "n": 30,
@@ -678,7 +835,12 @@
         "accent": "#f0ede6"
       },
       "dailyWalkDay": 438,
-      "reflectionPrompt": "Along the road of Out of the Whirlwind, “songs in the night” (Job 35:10) slows us down at the quiet centerpiece of “songs in the night” to remind us: “not songs after the night. in it.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Out of the Whirlwind, “songs in the night” (Job 35:10) slows us down at the quiet centerpiece of “songs in the night” to remind us: “not songs after the night. in it.” Where are you being invited to trade control for trust today?",
+      "zh_title": "夜里的歌曲",
+      "zh_poem": "创造我的上帝在哪里，\n谁在夜里唱歌？\n\n不是歌曲\n晚上之后。\n\n在其中。",
+      "zh_reflectionPrompt": "沿着《走出旋风》的道路，“夜间的歌声”（约伯记 35:10）让我们在“夜间的歌声”的安静中心放慢脚步，提醒我们：“不是夜后的歌声，而是其中的歌声。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“谁在夜里唱歌”",
+      "zh_ref": "约伯记 35:10"
     },
     {
       "n": 31,
@@ -699,7 +861,12 @@
         "accent": "#f5dcb2"
       },
       "dailyWalkDay": 439,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “stand still” (Job 37:5–16), what would you talk about after reading, “before God speaks, the storm is already coming”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “stand still” (Job 37:5–16), what would you talk about after reading, “before God speaks, the storm is already coming”?",
+      "zh_title": "站着不动",
+      "zh_poem": "停下来，乔布。\n站住。\n\n看看闪电。\n雪。\n天空中的云彩保持平衡。\n\n在神说话之前，\n风暴\n已经来了。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“站住”处停下来（约伯记 37:5-16），当你读到“神还没有说话，暴风雨已经来临”之后，你会谈论什么？",
+      "zh_epigraph": "“站住，思想上帝的奇妙作为。”",
+      "zh_ref": "约伯记 37:5–16"
     },
     {
       "n": 32,
@@ -720,7 +887,12 @@
         "accent": "#f0e3c2"
       },
       "dailyWalkDay": 440,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “God speaks”: what changes in your posture today when you sit with the closing words of “God speaks”—“and for Job, that turns out to be the answer”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “God speaks”: what changes in your posture today when you sit with the closing words of “God speaks”—“and for Job, that turns out to be the answer”?",
+      "zh_title": "神说话",
+      "zh_poem": "谈话三十五章。\n\n然后\n神说话了。\n\n不是低声说话。\n走出风暴。\n\n他没有解释痛苦。\n他没有提到\n第一章的对话。\n\n他出现了。\n\n而对于约伯来说，\n事实证明\n来作为答案。",
+      "zh_reflectionPrompt": "在“神说话”的安静中心部分前停顿一下：今天，当你坐下来听“神说话”的结束语——“对于约伯来说，这就是答案”时，你的姿势有什么变化？",
+      "zh_epigraph": "“耶和华从旋风中应允约伯”",
+      "zh_ref": "约伯记 38:1–3"
     },
     {
       "n": 33,
@@ -741,7 +913,12 @@
         "accent": "#f8dda4"
       },
       "dailyWalkDay": 441,
-      "reflectionPrompt": "Look at the stillness of the quiet stars overhead in Timothy’s painting: what striving can you lay down as you ponder, “it's an invitation to see how big the world is, and who is holding it” (Job 38:4–7)?"
+      "reflectionPrompt": "Look at the stillness of the quiet stars overhead in Timothy’s painting: what striving can you lay down as you ponder, “it's an invitation to see how big the world is, and who is holding it” (Job 38:4–7)?",
+      "zh_title": "晨星",
+      "zh_poem": "你在哪里\n当我奠定地球的基础时？\n\n当我测量它时\n拉长了线，\n奠定基石——\n\n当晨星一起歌唱时\n天堂欢呼雀跃？\n\n这不是侮辱。\n这是一个邀请\n去看\n世界有多大，\n以及谁拿着它。",
+      "zh_reflectionPrompt": "看看蒂莫西画中头顶上宁静的星星：当你沉思“这是一个邀请，让你看看世界有多大，是谁在掌管它”（约伯记 38：4-7）时，你可以付出什么努力？",
+      "zh_epigraph": "“当晨星一起歌唱，所有神的儿子都欢呼的时候？”",
+      "zh_ref": "约伯记 38:4–7"
     },
     {
       "n": 34,
@@ -762,7 +939,12 @@
         "accent": "#faf2de"
       },
       "dailyWalkDay": 442,
-      "reflectionPrompt": "In Job 38:22–30, the story turns on the quiet centerpiece of “where I keep the snow”—and ends with, “who gave birth to the frost? I can take care of you.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Job 38:22–30, the story turns on the quiet centerpiece of “where I keep the snow”—and ends with, “who gave birth to the frost? I can take care of you.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "我把雪藏在哪里",
+      "zh_poem": "你看到了吗\n我把雪藏在哪里？\n冰雹的仓库？\n\n雨是谁生的？\n霜是谁生的？\n\n神带约伯周游世界\n天气的影响，\n\n每个问题都意味着：\n我一直在照顾这一切。\n我可以照顾你。",
+      "zh_reflectionPrompt": "在约伯记 38 章 22-30 节中，故事的核心是“我放雪的地方”，并以“谁生了霜？我可以照顾你”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“你进入雪的宝库了吗”",
+      "zh_ref": "约伯记 38:22–30"
     },
     {
       "n": 35,
@@ -783,7 +965,12 @@
         "accent": "#a39c8e"
       },
       "dailyWalkDay": 443,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Job 38:31–33 points us to the quiet stars overhead and whispers, “look up. he's still asking.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Job 38:31–33 points us to the quiet stars overhead and whispers, “look up. he's still asking.” How can you practice that unhurried wisdom today?",
+      "zh_title": "猎户座",
+      "zh_poem": "你能把昴宿星团绑在一起吗？\n松开猎户座的腰带？\n\n相同的星星\n乔布看着。\n相同的星星\n今晚你就可以看到。\n\n到外面去。\n抬头。\n他还在问。",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，然而《约伯记》38:31-33却向我们指出了头顶安静的星星，并低声说：“抬头看，他还在问。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“你能束缚昴宿星团，或者松开猎户座的绳索吗？”",
+      "zh_ref": "约伯记 38:31–33"
     },
     {
       "n": 36,
@@ -804,7 +991,12 @@
         "accent": "#f2dfba"
       },
       "dailyWalkDay": 444,
-      "reflectionPrompt": "The poem closes with a quiet turn: “God knows them all, feeds them all, delights in them all. that's a kind of rest.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “God knows them all, feeds them all, delights in them all. that's a kind of rest.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "不是你的工作",
+      "zh_poem": "野驴。\n鸵鸟。\n嘲笑恐惧的马。\n鹰\n将翅膀向南方伸展。\n\n上帝认识他们所有人，\n养活他们所有人，\n都对他们感到高兴。\n\n不是其中之一\n是约伯的工作。\n\n这就是一种休息。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“上帝认识他们所有人，喂养他们所有人，让他们所有人感到高兴。这是一种休息。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“鹰展翅飞向南方，是靠你的智慧吗？”",
+      "zh_ref": "约伯记 39:19–27"
     },
     {
       "n": 37,
@@ -825,7 +1017,12 @@
         "accent": "#dcc8a3"
       },
       "dailyWalkDay": 445,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “it's seeing who you were arguing with” (Job 40:3–5) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “it's seeing who you were arguing with” (Job 40:3–5) speak to a question you have been carrying lately?",
+      "zh_title": "手放在我的嘴上",
+      "zh_poem": "约伯要求举行听证会。\n现在他有了一个。\n\n他说：\n我还小。\n我能回答什么？\n我把手放在嘴上。\n\n有时争论的结束\n没有输。\n\n它正在看到\n你在和谁争论。",
+      "zh_reflectionPrompt": "有时，一句话就能在封闭的房间里打开一扇窗：“就是看你在与谁争论”（约伯记 40：3-5）如何解答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“我把手放在嘴上。”",
+      "zh_ref": "约伯记 40:3–5"
     },
     {
       "n": 38,
@@ -846,7 +1043,12 @@
         "accent": "#f2d895"
       },
       "dailyWalkDay": 446,
-      "reflectionPrompt": "Hold your hands open for a moment before “now I see” (Job 42:1–6): what are you gripping tightly that loosens when you hear, “Job's questions were never answered. they were outgrown”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “now I see” (Job 42:1–6): what are you gripping tightly that loosens when you hear, “Job's questions were never answered. they were outgrown”?",
+      "zh_title": "现在我明白了",
+      "zh_poem": "我听说过你。\n现在我看到你了。\n\n这就是整本书的内容\n是为了。\n\n不是解释。\n一次会议。\n\n约伯的问题从未得到解答。\n\n他们是\n已经超出了。",
+      "zh_reflectionPrompt": "在“现在我明白了”（约伯记 42：1-6）之前，请张开双手：当您听到“约伯的问题从未得到解答。它们已经不再适用”时，您紧握的是什么东西松开了？",
+      "zh_epigraph": "“我以前是通过耳朵听说过你，但现在我亲眼看到了你。”",
+      "zh_ref": "约伯记 42:1–6"
     },
     {
       "n": 39,
@@ -867,7 +1069,12 @@
         "accent": "#ebe5d8"
       },
       "dailyWalkDay": 447,
-      "reflectionPrompt": "Scripture remembers this moment in Job 42:7–10 not to impress us, but to steady us: when have you seen the truth that “and then the turn, the moment everything changed: when he prayed for his friends, the ones who hurt him most” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Job 42:7–10 not to impress us, but to steady us: when have you seen the truth that “and then the turn, the moment everything changed: when he prayed for his friends, the ones who hurt him most” in your own story?",
+      "zh_title": "为了他的朋友",
+      "zh_poem": "神对朋友们说：\n你没有正确地评价我，\n正如我的仆人约伯所做的那样。\n\n愤怒而诚实的人——\n对。\n整洁的解释者——\n错了。\n\n然后转弯，\n一切都改变的那一刻：\n\n当他祈祷时\n为了他的朋友们，\n\n那些伤害他最深的人。",
+      "zh_reflectionPrompt": "圣经在约伯记 42:7-10 中记住这一刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过这样的真理：“然后一切都改变了：当他为他的朋友，那些伤害他最深的人祈祷时”？",
+      "zh_epigraph": "“当约伯为他的朋友们祷告时，耶和华使他的被掳归回。”",
+      "zh_ref": "约伯记 42:7–10"
     },
     {
       "n": 40,
@@ -888,7 +1095,15 @@
         "accent": "#fbe8b7"
       },
       "dailyWalkDay": 448,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “full of days” (Job 42:12–17), what one honest sentence would you pray beside the quiet centerpiece of “full of days” after reading, “but he died old, and full of days”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “full of days” (Job 42:12–17), what one honest sentence would you pray beside the quiet centerpiece of “full of days” after reading, “but he died old, and full of days”?",
+      "zh_title": "充满日子",
+      "zh_poem": "耶和华赐福\n他的后半生\n比第一个更多。\n\n又是儿子女儿，\n他自己给女儿们起名：\n鸽子、肉桂、\n眼角漆，\n\n并给了他们遗产\n和他们的兄弟一起。\n\n它并不能消除悲伤。\n没有什么可以。\n\n但他死了\n老,\n和充实的日子。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“日子满了”（约伯记 42：12-17）时，读完“但他老了，日子满了”之后，除了“日子满了”安静的中心句之外，你还会祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“约伯就这样死了，他年老体衰，日子过得很充实。”",
+      "zh_ref": "约伯记 42:12–17"
     }
-  ]
+  ],
+  "zh_title": "旋风中的回答",
+  "zh_subtitle": "约伯记诗画集",
+  "zh_beforeYouBegin": "《约伯记》是圣经对苦难的长篇、诚实的论证。一个好人会失去一切，坐在灰烬中，拒绝咒骂上帝，也拒绝接受朋友们干净利落的解释。然后神从风暴中说话，约伯说，我曾听说过你，但现在我看见你了。\n\n本书分为四个部分，用四十首短诗来讲述它。每首诗都位于一幅画旁边和一行经文之下。约伯悲伤的地方，诗歌也跟着他悲伤；他们并没有解释他的痛苦。\n\n这些诗不是圣经。它们是一位读者对此的回应。与这本书一起打开《约伯记》，让真实的话语成为最终的结论。如果您在阅读时携带重物，请不要单独携带。"
 }

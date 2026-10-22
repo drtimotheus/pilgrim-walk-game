@@ -16,7 +16,10 @@
       "epigraph": "caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead",
       "epigraphRef": "1 Peter 1:3",
       "lightName": "Light of A Living Hope",
-      "lightHint": "Near 'strangers here' (1 Peter 1:1) in Part 1: A Living Hope"
+      "lightHint": "Near 'strangers here' (1 Peter 1:1) in Part 1: A Living Hope",
+      "zh_title": "活泼的盼望",
+      "zh_epigraph": "借着耶稣基督从死里复活，重生了我们，叫我们有活泼的盼望",
+      "zh_epigraphRef": "彼得前书 1:3"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "at the revelation of his glory you also may rejoice with exceeding joy",
       "epigraphRef": "1 Peter 4:13",
       "lightName": "Light of Suffering and Glory",
-      "lightHint": "Near 'free' (1 Peter 2:16–17) in Part 2: Suffering and Glory"
+      "lightHint": "Near 'free' (1 Peter 2:16–17) in Part 2: Suffering and Glory",
+      "zh_title": "苦难与荣耀",
+      "zh_epigraph": "使你们在他荣耀显现的时候，也可以欢喜快乐",
+      "zh_epigraphRef": "彼得前书 4:13"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "until the day dawns, and the morning star arises in your hearts",
       "epigraphRef": "2 Peter 1:19",
       "lightName": "Light of A Lamp in a Dark Place",
-      "lightHint": "Near 'everything you need' (2 Peter 1:3) in Part 3: A Lamp in a Dark Place"
+      "lightHint": "Near 'everything you need' (2 Peter 1:3) in Part 3: A Lamp in a Dark Place",
+      "zh_title": "暗处的明灯",
+      "zh_epigraph": "直等到天发亮，晨星在你们心里出现的时候",
+      "zh_epigraphRef": "彼得后书 1:19"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "The Lord is not slow concerning his promise",
       "epigraphRef": "2 Peter 3:9",
       "lightName": "Light of The Patience of God",
-      "lightHint": "Near 'the Lord knows how' (2 Peter 2:5–9) in Part 4: The Patience of God"
+      "lightHint": "Near 'the Lord knows how' (2 Peter 2:5–9) in Part 4: The Patience of God",
+      "zh_title": "神的忍耐",
+      "zh_epigraph": "主所应许的尚未成就，有人以为他是耽延，其实不是耽延",
+      "zh_epigraphRef": "彼得后书 3:9"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "Now to him who is able to keep them from stumbling",
       "epigraphRef": "Jude 1:24",
       "lightName": "Light of Kept From Stumbling",
-      "lightHint": "Near 'kept' (Jude 1:1–2) in Part 5: Kept From Stumbling"
+      "lightHint": "Near 'kept' (Jude 1:1–2) in Part 5: Kept From Stumbling",
+      "zh_title": "保守不至失脚",
+      "zh_epigraph": "那能保守你们不失脚的",
+      "zh_epigraphRef": "犹大书 1:24"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#f9d692"
       },
       "dailyWalkDay": 1518,
-      "reflectionPrompt": "Linger with the movement in “strangers here” (1 Peter 1:1) from “Pontus. Galatia” to “if you have ever felt you don't quite belong where you live— you might be exactly the person this was written to”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “strangers here” (1 Peter 1:1) from “Pontus. Galatia” to “if you have ever felt you don't quite belong where you live— you might be exactly the person this was written to”—where do you find yourself along that arc today?",
+      "zh_title": "在世作客旅",
+      "zh_poem": "本都。加拉太。\n加帕多家。亚细亚。庇推尼。\n\n一封书信\n手手相传，\n走过五个省的尘土长路。\n\n开篇是两个\n原本很少相遇的词：\n\n蒙拣选的。\n寄居的。\n\n如果你也常常觉得\n自己与身处的世界\n格格不入——\n\n也许你正是\n这封信\n所要寻找的人。",
+      "zh_reflectionPrompt": "细细体会《在世作客旅》（彼得前书 1:1）从“本都。加拉太”到“如果你也常常觉得自己与身处的世界格格不入——也许你正是这封信所要寻找的人”的流转——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“写信给那分散在本都、加拉太、加帕多家、亚细亚、庇推尼寄居的，就是照父神的先见被拣选的人”",
+      "zh_ref": "彼得前书 1:1"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#efe4c6"
       },
       "dailyWalkDay": 1519,
-      "reflectionPrompt": "Notice how “a living hope” (1 Peter 1:3) arrives at: “it walked out of a tomb on the third day and it is still breathing.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “a living hope” (1 Peter 1:3) arrives at: “it walked out of a tomb on the third day and it is still breathing.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "活泼的盼望",
+      "zh_poem": "世上的盼望\n多半只是一种揣测。\n也许天会下雨。\n也许那人会来信。\n\n但这一种盼望\n却有脉搏。\n\n它并非源于\n更迫切的许愿，\n而是在第三日\n从坟墓里走了出来，\n\n直到如今\n仍在呼吸。",
+      "zh_reflectionPrompt": "留意《活泼的盼望》（彼得前书 1:3）最终停留在：“是在第三日从坟墓里走了出来，直到如今仍在呼吸。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“曾照自己的大怜悯，借着耶稣基督从死里复活，重生了我们，叫我们有活泼的盼望”",
+      "zh_ref": "彼得前书 1:3"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#cdc2b6"
       },
       "dailyWalkDay": 1520,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Peter 1:4–5: “and while it is kept for you, you are being kept for it— guarded, he says, by the power of God”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Peter 1:4–5: “and while it is kept for you, you are being kept for it— guarded, he says, by the power of God”?",
+      "zh_title": "为你存留",
+      "zh_poem": "地上的一切\n都会褪色。\n上好布匹里的染料，\n门扉上的油漆，\n旧石碑上的名字。\n\n但有一份基业\n已为你存留，\n永不衰残。\n\n当它为你存留之时，\n你也正为它\n蒙受保守——\n\n他说，\n是因着信，\n蒙神能力护卫。",
+      "zh_reflectionPrompt": "如果在今晚入睡之前，你最当铭记的一件事，正是彼得前书 1:4–5 那安静的教导：“当它为你存留之时，你也正为它蒙受保守——他说，是因着信，蒙神能力护卫”，你的心会如何安息？",
+      "zh_epigraph": "“可以得着不能朽坏、不能玷污、不能衰残、为你们存留在天上的基业”",
+      "zh_ref": "彼得前书 1:4–5"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#e1a519"
       },
       "dailyWalkDay": 1521,
-      "reflectionPrompt": "Imagine standing inside this frame beside the warmth of the fire: what hurry or noise in your week begins to fade when you hear, “but what's left when the heat is done is worth more than the gold was— and it's being saved for the day he is revealed”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the warmth of the fire: what hurry or noise in your week begins to fade when you hear, “but what's left when the heat is done is worth more than the gold was— and it's being saved for the day he is revealed”?",
+      "zh_title": "火的试炼",
+      "zh_poem": "银匠把金子放进火里，\n不是为了\n将它毁掉，\n\n而是要看\n什么能留存下来。\n\n彼得说，\n你们如今在百般试炼中\n暂时忧愁。\n他并不假装那不痛。\n\n但当烈火止息，\n那剩下来的，\n比金子更显宝贵——\n\n并且正被珍藏，\n直到他显现的日子。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在炉火的温热旁：当你听见“但当烈火止息，那剩下来的，比金子更显宝贵——并且正被珍藏，直到他显现的日子”时，这周的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“叫你们的信心既被试验，就比那被火试验仍然能坏的金子更显宝贵”",
+      "zh_ref": "彼得前书 1:6–7"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#e4a999"
       },
       "dailyWalkDay": 1522,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's the kind he called blessed.” What part of your heart feels most searched or comforted by 1 Peter 1:8 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's the kind he called blessed.” What part of your heart feels most searched or comforted by 1 Peter 1:8 right now?",
+      "zh_title": "虽然没有见过他",
+      "zh_poem": "彼得见过他。\n与他同行，\n在岸边与他同吃烤鱼，\n听见他呼唤自己的名字。\n\n但他写信的那些人\n从未见过。\n\n然而他说，\n你们却是爱他。\n\n没有面容可供追忆，\n没有声音留在耳畔，\n只有一份\n说不出来、满有荣光的喜乐。\n\n这并非\n次一等的信心，\n而是他亲口称为\n有福的那一种。",
+      "zh_reflectionPrompt": "在寂静中轻声读出结尾的诗句：“这并非次一等的信心，而是他亲口称为有福的那一种。”此刻，彼得前书 1:8 最触动或安慰你内心的是哪一部分？",
+      "zh_epigraph": "“你们虽然没有见过他，却是爱他；如今虽不得看见，却因信他就有说不出来、满有荣光的大喜乐”",
+      "zh_ref": "彼得前书 1:8"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#efddae"
       },
       "dailyWalkDay": 1523,
-      "reflectionPrompt": "In 1 Peter 1:10–12, grace meets us right beside your own two hands: how does the closing thought—“and you get to hold it in your hands”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 1 Peter 1:10–12, grace meets us right beside your own two hands: how does the closing thought—“and you get to hold it in your hands”—steady your footing for the road ahead?",
+      "zh_title": "先知所寻访的",
+      "zh_poem": "众先知\n考究自己所写的话，\n却看不见\n那结局。\n\n先是受苦，\n后来得荣耀。\n但在何时？\n又是为谁？\n\n神向他们启示：\n不是为自己，\n乃是为你们这些\n他们素未谋面的人。\n\n那就是你。\n\n连天使也俯身\n愿意详细察看，\n\n而你竟能\n亲手捧在掌心。",
+      "zh_reflectionPrompt": "在彼得前书 1:10–12 中，恩典就在你摊开的双手旁与我们相遇：结尾的意念——“而你竟能亲手捧在掌心”——如何稳固你前行的脚步？",
+      "zh_epigraph": "“这些事天使也愿意详细察看”",
+      "zh_ref": "彼得前书 1:10–12"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#ece3cf"
       },
       "dailyWalkDay": 1524,
-      "reflectionPrompt": "If today’s painting of “not with silver” (1 Peter 1:18–19) hung beside the door you walk out of this morning, how would its final line—“you were not bought cheap”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “not with silver” (1 Peter 1:18–19) hung beside the door you walk out of this morning, how would its final line—“you were not bought cheap”—shape your choices?",
+      "zh_title": "不是凭着金银",
+      "zh_poem": "旧日的活法\n代代相传，\n像一件无人真正想要的\n传家之物，\n\n你却无法\n花钱赎自己脱离。\n\n银子会生锈，\n金子会耗尽。\n\n为你付出的赎价\n从来不是金钱，\n\n乃是宝血——\n如同无瑕疵、\n无玷污的羔羊之血。\n\n你被买赎，\n代价何等昂贵。",
+      "zh_reflectionPrompt": "如果今天这幅《不是凭着金银》（彼得前书 1:18–19）就挂在你清晨出门的门旁，它最后那句“你被买赎，代价何等昂贵”会如何塑造你今日的抉择？",
+      "zh_epigraph": "“知道你们得赎，脱去你们祖宗所传流虚妄的行为，不是凭着能坏的金银等物”",
+      "zh_ref": "彼得前书 1:18–19"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#e1daca"
       },
       "dailyWalkDay": 1525,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 Peter 1:24–25)—where in your own home or work today does “and it will still be standing when the hills are straw” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 Peter 1:24–25)—where in your own home or work today does “and it will still be standing when the hills are straw” ring true?",
+      "zh_title": "草必枯干",
+      "zh_poem": "每年春天，\n山冈披上新绿，\n野花竞相绽放，\n仿佛从未\n盛开过一样。\n\n到了夏天，\n尽都枯黄如草。\n\n先知说，\n那就是我们。\n我们众人，\n连强壮的与美丽的也不例外。\n\n但有一句话\n永不枯干。\n\n就是曾有人传给你的\n那福音。\n\n当漫山化作枯草，\n它却依然\n屹立。",
+      "zh_reflectionPrompt": "天路同行的每一站，都显明神如何在平凡之处与我们相遇（彼得前书 1:24–25）——今天在你的家中或工作里，哪一处让你真切感受到“当漫山化作枯草，它却依然屹立”？",
+      "zh_epigraph": "“草必枯干，花必凋谢；惟有主的道是永存的。”",
+      "zh_ref": "彼得前书 1:24–25"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#dfd6bc"
       },
       "dailyWalkDay": 1526,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “once you've tasted that the Lord is kind, you'll want more.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “once you've tasted that the Lord is kind, you'll want more.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "尝过主恩",
+      "zh_poem": "初生的婴孩\n无需别人教导\n才懂得饥渴。\n\n你一旦尝过\n主恩的甘美，\n\n就必渴慕\n更多。",
+      "zh_reflectionPrompt": "缓缓深吸一口气，再读一遍最后那句话：“你一旦尝过主恩的甘美，就必渴慕更多。”如果带着这份真实走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“你们若尝过主恩的滋味，就必如此。”",
+      "zh_ref": "彼得前书 2:2–3"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#f6dcaf"
       },
       "dailyWalkDay": 1527,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “he was the stone the builders looked at and set aside.” Looking through the lens of 1 Peter 2:4–5, what does it mean to discover that “one by one he sets us in the wall, leaning on each other, leaning on him, becoming a house where God lives.26”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “he was the stone the builders looked at and set aside.” Looking through the lens of 1 Peter 2:4–5, what does it mean to discover that “one by one he sets us in the wall, leaning on each other, leaning on him, becoming a house where God lives.26”?",
+      "zh_title": "活石",
+      "zh_poem": "他是匠人\n端详片刻便弃置一旁的石头。\n\n神却将它拾起，\n立作房角的头块石头。\n\n如今，\n他也同样待我们——\n形状奇特、\n棱角斑驳、\n无人拣选的石头。\n\n他把我们一块一块\n砌入墙垣，\n彼此相依，\n倚靠着他，\n\n建造成为\n神所居住的\n灵宫。",
+      "zh_reflectionPrompt": "回想你生命中曾体会过“他是匠人端详片刻便弃置一旁的石头”的某个时节。借着彼得前书 2:4–5 的亮光，当你发现“他把我们一块一块砌入墙垣，彼此相依，倚靠着他，建造成为神所居住的灵宫”时，那对你意味着什么？",
+      "zh_epigraph": "“你们来到主面前，也就像活石，被建造成为灵宫”",
+      "zh_ref": "彼得前书 2:4–5"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#fad798"
       },
       "dailyWalkDay": 1528,
-      "reflectionPrompt": "Look closely at the open threshold in this painting (1 Peter 2:9–10)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the open threshold in this painting (1 Peter 2:9–10)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "出黑暗入奇妙光明",
+      "zh_poem": "从前算不得子民，\n现在却作了神的子民。\n\n从前未曾蒙怜恤，\n现在却蒙了怜恤。\n\n整部救恩的故事，\n尽在这四行之中。\n\n而在它们之间，\n有一扇门\n从另一侧被人推开，\n\n有一个声音\n召你出黑暗，\n进入他奇妙的光明。",
+      "zh_reflectionPrompt": "凝视这幅画中敞开的门槛（彼得前书 2:9–10）——如果今天你可以把一件焦虑的重担留在门旁，你会放下什么？",
+      "zh_epigraph": "“你们从前算不得子民，现在却作了神的子民”",
+      "zh_ref": "彼得前书 2:9–10"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#d5bc97"
       },
       "dailyWalkDay": 1529,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the name by which He calls you: what quiet prayer rises in you when you read, “respect the one on the throne— even a king who will never know your name”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the name by which He calls you: what quiet prayer rises in you when you read, “respect the one on the throne— even a king who will never know your name”?",
+      "zh_title": "自主之人",
+      "zh_poem": "彼得说，\n你们虽是自由的，\n\n却不可借着自由\n遮盖恶毒，\n\n总要像神的仆人那样\n穿戴自由：\n\n尊敬众人，\n亲爱主里的弟兄，\n敬畏神，\n尊敬宝座上的君王——\n\n哪怕那君王\n永远不会知道\n你的名字。",
+      "zh_reflectionPrompt": "让目光停留在画中的笔触与光影之间：当你读到“尊敬宝座上的君王——哪怕那君王永远不会知道你的名字”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“务要尊敬众人，亲爱教中的弟兄，敬畏神，尊敬君王。”",
+      "zh_ref": "彼得前书 2:16–17"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#fbe0a6"
       },
       "dailyWalkDay": 1530,
-      "reflectionPrompt": "Linger with the movement in “his steps” (1 Peter 2:21–23) from “he could have answered back” to “there are footprints in the road ahead of you. follow those”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “his steps” (1 Peter 2:21–23) from “he could have answered back” to “there are footprints in the road ahead of you. follow those”—where do you find yourself along that arc today?",
+      "zh_title": "他的脚踪",
+      "zh_poem": "他本可以\n开口反驳。\n\n天地间一切的话语\n都在他手中。\n\n但他被骂不还口，\n受害不说威吓的话，\n\n只将自己全然交托\n那按公义审判人的主，\n\n继续前行。\n\n你前头的路上\n留有他的脚踪。\n\n跟随那些脚印吧。",
+      "zh_reflectionPrompt": "细细体会《他的脚踪》（彼得前书 2:21–23）从“他本可以开口反驳”到“你前头的路上留有他的脚踪。跟随那些脚印吧”的转折——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“他被骂不还口，受害不说威吓的话”",
+      "zh_ref": "彼得前书 2:21–23"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#e8d2b2"
       },
       "dailyWalkDay": 1531,
-      "reflectionPrompt": "Notice how “come back” (1 Peter 2:24–25) arrives at: “but somewhere on the hill at dusk there's a gate standing open and a Shepherd who watches the road until you're home.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “come back” (1 Peter 2:24–25) arrives at: “but somewhere on the hill at dusk there's a gate standing open and a Shepherd who watches the road until you're home.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "归回",
+      "zh_poem": "他被挂在木头上，\n亲身担当了我们的罪，\n\n因他受的鞭伤——\n不是我们的——\n我们便得了医治。\n\n我们都曾迷路，\n多半甚至未曾察觉\n自己走得有多远。\n\n但黄昏的山冈上，\n有一扇羊门依然敞开，\n\n有一位牧人\n守望着道路，\n直到你归家。",
+      "zh_reflectionPrompt": "留意《归回》（彼得前书 2:24–25）最终停留在：“但黄昏的山冈上，有一扇羊门依然敞开，有一位牧人守望着道路，直到你归家。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“你们从前好像迷路的羊，如今却归到你们灵魂的牧人监督了。”",
+      "zh_ref": "彼得前书 2:24–25"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#dfb77b"
       },
       "dailyWalkDay": 1532,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Peter 3:3–4: “to him it's the most precious thing in the house— and it doesn't tarnish or go out of fashion or get lost”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 1 Peter 3:3–4: “to him it's the most precious thing in the house— and it doesn't tarnish or go out of fashion or get lost”?",
+      "zh_title": "温柔安静的心",
+      "zh_poem": "金饰隔着屋子\n就能引人赞叹。\n\n温柔安静的心，\n却要走近了\n才看得见。\n\n世人多半\n擦肩而过。\n\n神却不然。\n在他眼中，\n这是屋里最宝贵的珍藏——\n\n永不黯淡，\n永不过时，\n也永不遗失。",
+      "zh_reflectionPrompt": "如果在今晚入睡之前，你最当铭记的一件事，正是彼得前书 3:3–4 那安静的教导：“在他眼中，这是屋里最宝贵的珍藏——永不黯淡，永不过时，也永不遗失”，你的心会如何安息？",
+      "zh_epigraph": "“只要以里面存着长久温柔、安静的心为妆饰；这在神面前是极宝贵的。”",
+      "zh_ref": "彼得前书 3:3–4"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#ecd7b1"
       },
       "dailyWalkDay": 1533,
-      "reflectionPrompt": "Imagine standing inside this frame beside the daily loaf broken in the hand: what hurry or noise in your week begins to fade when you hear, “it makes sense to practice giving some away”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the daily loaf broken in the hand: what hurry or noise in your week begins to fade when you hear, “it makes sense to practice giving some away”?",
+      "zh_title": "倒要祝福",
+      "zh_poem": "以辱骂还辱骂\n最是容易，\n几乎出于本能，\n甚至让人觉得那就是公平。\n\n彼得却说：\n打破这循环。\n\n当人递给你苦物，\n你却回赠\n一块饼。\n\n你原是为此蒙召，\n好承受福气。\n\n既然如此，\n不妨先练习\n把福气分给人。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在手中擘开的日用饮食旁：当你听见“既然如此，不妨先练习把福气分给人”时，这周的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“不以恶报恶，以辱骂还辱骂，倒要祝福”",
+      "zh_ref": "彼得前书 3:8–9"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#c7b48f"
       },
       "dailyWalkDay": 1534,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “so have a reason ready, and give it the way you'd hand a stranger a lamp— gently, with respect, knowing it was a gift to you first.” What part of your heart feels most searched or comforted by 1 Peter 3:15 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “so have a reason ready, and give it the way you'd hand a stranger a lamp— gently, with respect, knowing it was a gift to you first.” What part of your heart feels most searched or comforted by 1 Peter 3:15 right now?",
+      "zh_title": "盼望的缘由",
+      "zh_poem": "总有一天，\n会有人问起。\n\n不是因为你争辩得赢，\n而是因为他们看见：\n漆黑的街巷里，\n有一扇窗还亮着灯。\n\n为什么？\n\n所以要常作准备，\n回答的时候，\n要像把一盏灯\n递给陌路人——\n\n存着温柔，\n带着敬畏，\n深知这光原是先白白赐给你的。",
+      "zh_reflectionPrompt": "在寂静中轻声读出结尾的诗句：“所以要常作准备，回答的时候，要像把一盏灯递给陌路人——存着温柔，带着敬畏，深知这光原是先白白赐给你的。”此刻，彼得前书 3:15 最触动或安慰你内心的是哪一部分？",
+      "zh_epigraph": "“有人问你们心中盼望的缘由，就要常作准备，以温柔、敬畏的心回答各人”",
+      "zh_ref": "彼得前书 3:15"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#fcf1d5"
       },
       "dailyWalkDay": 1535,
-      "reflectionPrompt": "In 1 Peter 3:20–21, grace meets us right beside the quiet centerpiece of “eight souls”: how does the closing thought—“baptism is like that, Peter says— not a bath for the skin, but a way through the water, held up by the one who rose”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 1 Peter 3:20–21, grace meets us right beside the quiet centerpiece of “eight souls”: how does the closing thought—“baptism is like that, Peter says— not a bath for the skin, but a way through the water, held up by the one who rose”—steady your footing for the road ahead?",
+      "zh_title": "八个人",
+      "zh_poem": "方舟建造的时候，\n神一直容忍等待。\n\n这是彼得\n没有略过的细节：\n他曾等待。\n\n洪水来临时，\n有八个人\n从水中经过而得救。\n\n彼得说，\n洗礼也是如此——\n\n不是除掉肉体的污秽，\n而是从水中经过的道路，\n\n被那位复活的主\n亲手托住。",
+      "zh_reflectionPrompt": "在彼得前书 3:20–21 中，恩典就在《八个人》安静的画面中心与我们相遇：结尾的意念——“彼得说，洗礼也是如此——不是除掉肉体的污秽，而是从水中经过的道路，被那位复活的主亲手托住”——如何稳固你前行的脚步？",
+      "zh_epigraph": "“当时进入方舟，借着水得救的不多，只有八个人。”",
+      "zh_ref": "彼得前书 3:20–21"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#e9ddc0"
       },
       "dailyWalkDay": 1536,
-      "reflectionPrompt": "If today’s painting of “love covers” (1 Peter 4:8–9) hung beside the door you walk out of this morning, how would its final line—“and if they're hard to love, do it anyway, and don't sigh while you do it”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “love covers” (1 Peter 4:8–9) hung beside the door you walk out of this morning, how would its final line—“and if they're hard to love, do it anyway, and don't sigh while you do it”—shape your choices?",
+      "zh_title": "爱能遮掩",
+      "zh_poem": "爱能遮掩。\n\n不是像用毯子\n盖住地上的污渍，\n盼着无人察觉——\n\n倒像有人从寒风中进屋时，\n披在他肩上的\n一条厚毯。\n\n打开家门，\n摆上饭碗，\n铺好床榻。\n\n纵使那人难以去爱，\n也照样去爱，\n\n并且做的时候\n不要叹气。",
+      "zh_reflectionPrompt": "如果今天这幅《爱能遮掩》（彼得前书 4:8–9）就挂在你清晨出门的门旁，它最后那句“纵使那人难以去爱，也照样去爱，并且做的时候不要叹气”会如何塑造你今日的抉择？",
+      "zh_epigraph": "“因为爱能遮掩许多的罪。”",
+      "zh_ref": "彼得前书 4:8–9"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#d69e64"
       },
       "dailyWalkDay": 1537,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 Peter 4:12–13)—where in your own home or work today does “and if you share in the part with the fire, you'll share in the part with the glory too— and then you will be surprised by how much joy there is” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (1 Peter 4:12–13)—where in your own home or work today does “and if you share in the part with the fire, you'll share in the part with the glory too— and then you will be surprised by how much joy there is” ring true?",
+      "zh_title": "不要以为奇怪",
+      "zh_poem": "彼得说，\n不要以为奇怪，\n仿佛遭遇了什么\n非常的事。\n\n这并不希奇，\n主自己也曾如此经过。\n\n你们既在烈火的苦难上\n与他有份，\n\n就必在荣耀显现的时候\n也与他一同欢喜——\n\n到那时，\n真正令你惊讶的，\n\n将是那喜乐\n何等丰盛。",
+      "zh_reflectionPrompt": "天路同行的每一站，都显明神如何在平凡之处与我们相遇（彼得前书 4:12–13）——今天在你的家中或工作里，哪一处让你真切感受到“你们既在烈火的苦难上与他有份，就必在荣耀显现的时候也与他一同欢喜——到那时，真正令你惊讶的，将是那喜乐何等丰盛”？",
+      "zh_epigraph": "“有火炼的试验临到你们，不要以为奇怪，似乎是遭遇非常的事”",
+      "zh_ref": "彼得前书 4:12–13"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#eee2c9"
       },
       "dailyWalkDay": 1538,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “because he's strong— and because he cares what happens to you.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “because he's strong— and because he cares what happens to you.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "他顾念你们",
+      "zh_poem": "这重担你已背了太久，\n久到双臂都忘了\n两手空空是什么感觉。\n\n放下来吧。\n\n不是因为重担很轻，\n而是因为他有大能——\n\n更是因为他顾念\n你所遭遇的一切。",
+      "zh_reflectionPrompt": "缓缓深吸一口气，再读一遍最后那句话：“而是因为他有大能——更是因为他顾念你所遭遇的一切。”如果带着这份真实走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“你们要将一切的忧虑卸给神，因为他顾念你们。”",
+      "zh_ref": "彼得前书 5:6–7"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#fcf0d7"
       },
       "dailyWalkDay": 1539,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “after a little while, after the storm has done its worst, the God of all grace will come and set you right.” Looking through the lens of 1 Peter 5:10, what does it mean to discover that “he will settle you like a house on rock when the wind finally stops”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “after a little while, after the storm has done its worst, the God of all grace will come and set you right.” Looking through the lens of 1 Peter 5:10, what does it mean to discover that “he will settle you like a house on rock when the wind finally stops”?",
+      "zh_title": "坚固立定",
+      "zh_poem": "暂受苦难之后，\n\n在风暴\n肆虐完毕之后，\n\n那赐诸般恩典的神\n必亲自临到，\n将你扶正。\n\n他必叫你重新站稳，\n赐力量给你，\n使你坚固立定，\n\n如同狂风终于止息时，\n立在磐石上的\n房屋。",
+      "zh_reflectionPrompt": "回想你生命中曾体会过“暂受苦难之后，在风暴肆虐完毕之后，那赐诸般恩典的神必亲自临到，将你扶正”的某个时节。借着彼得前书 5:10 的亮光，当你发现“使你坚固立定，如同狂风终于止息时，立在磐石上的房屋”时，那对你意味着什么？",
+      "zh_epigraph": "“必要亲自成全你们，坚固你们，赐力量给你们。”",
+      "zh_ref": "彼得前书 5:10"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#f5e6b7"
       },
       "dailyWalkDay": 1540,
-      "reflectionPrompt": "Look closely at the daily loaf broken in the hand in this painting (2 Peter 1:3)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the daily loaf broken in the hand in this painting (2 Peter 1:3)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "一切所需",
+      "zh_poem": "你并未缺少\n任何一块拼图。\n\n没有什么秘传的教训，\n也没有第二把钥匙\n握在别人手中。\n\n一切关乎生命\n与虔敬的事，\n\n都已因认识他\n而赐给我们了。\n\n架上已经摆满，\n\n伸手取下生命的饼吧。",
+      "zh_reflectionPrompt": "凝视这幅画中手中擘开的日用饮食（彼得后书 1:3）——如果今天你可以把一件焦虑的重担留在它旁边，你会放下什么？",
+      "zh_epigraph": "“神的神能已将一切关乎生命和虔敬的事赐给我们”",
+      "zh_ref": "彼得后书 1:3"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#f0d7a7"
       },
       "dailyWalkDay": 1541,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “add”: what quiet prayer rises in you when you read, “this is just what growing looks like”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “add”: what quiet prayer rises in you when you read, “this is just what growing looks like”?",
+      "zh_title": "又要加上",
+      "zh_poem": "有了信心，\n又要加上德行；\n有了德行，又要加上知识；\n有了知识，又要加上节制；\n有了节制，又要加上忍耐；\n有了忍耐，又要加上虔敬；\n有了虔敬，又要加上爱弟兄的心；\n\n在这这一切之上，\n又要加上爱众人的心。\n\n每一样，\n都稳稳地安放在前一样之上——\n\n不是为了赚取什么，\n生命的长大，\n本就是这般模样。",
+      "zh_reflectionPrompt": "让目光停留在《又要加上》安静的笔触与光影之间：当你读到“生命的长大，本就是这般模样”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“有了虔敬，又要加上爱弟兄的心；有了爱弟兄的心，又要加上爱众人的心。”",
+      "zh_ref": "彼得后书 1:5–7"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#e2cfab"
       },
       "dailyWalkDay": 1542,
-      "reflectionPrompt": "Linger with the movement in “this tent” (2 Peter 1:13–15) from “an old fisherman knows his tent is coming down soon” to “it says the important thing one more time”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “this tent” (2 Peter 1:13–15) from “an old fisherman knows his tent is coming down soon” to “it says the important thing one more time”—where do you find yourself along that arc today?",
+      "zh_title": "这帐棚",
+      "zh_poem": "一位老渔夫知道，\n自己的帐棚\n快要拆毁了。\n\n主已经指示了他。\n\n他提笔，\n却不是为了谈论自己。\n\n他写信，\n是要叫你们在他去世之后，\n仍能时常记念\n你们早已知道的事。\n\n爱到了临别之际，\n总是如此：\n反反复复，\n\n把最要紧的话\n再叮嘱一遍。",
+      "zh_reflectionPrompt": "细细体会《这帐棚》（彼得后书 1:13–15）从“一位老渔夫知道，自己的帐棚快要拆毁了”到“把最要紧的话再叮嘱一遍”的流转——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“我以为应当趁我还在这帐棚的时候提醒你们，激发你们”",
+      "zh_ref": "彼得后书 1:13–15"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#f7f8f5"
       },
       "dailyWalkDay": 1543,
-      "reflectionPrompt": "Notice how “eyewitnesses” (2 Peter 1:16–18) arrives at: “years later, his tent coming down, it's still the thing he wants you to know: it was real. I heard it.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “eyewitnesses” (2 Peter 1:16–18) arrives at: “years later, his tent coming down, it's still the thing he wants you to know: it was real. I heard it.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "亲眼见过",
+      "zh_poem": "彼得说，\n我们并非随从\n乖巧捏造的虚言。\n\n我们曾在那里。\n\n在圣山上，\n在极重无比的荣光之下，\n我们亲自听见有声音说：\n这是我的爱子，\n我所喜悦的。\n\n他一生未曾忘记。\n\n多年以后，\n当他的帐棚即将拆毁，\n\n他最想让你知道的\n仍是这一件事：\n\n那一切都是真的，\n我亲耳听见。",
+      "zh_reflectionPrompt": "留意《亲眼见过》（彼得后书 1:16–18）最终停留在：“多年以后，当他的帐棚即将拆毁，他最想让你知道的仍是这一件事：那一切都是真的，我亲耳听见。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“我们同他在圣山的时候，亲自听见这声音从天上出来。”",
+      "zh_ref": "彼得后书 1:16–18"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#d7a35c"
       },
       "dailyWalkDay": 1544,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 2 Peter 1:19: “the day will dawn, and the morning star will rise— not only in the sky. in you”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of 2 Peter 1:19: “the day will dawn, and the morning star will rise— not only in the sky. in you”?",
+      "zh_title": "暗处的明灯",
+      "zh_poem": "它还不是太阳，\n尚未照亮整座山谷。\n\n它只是泥灯里的\n一豆微光，\n却足够照见\n脚下的下一步、\n桌沿与门扉。\n\n将它捧在身旁，\n叫它常燃不熄。\n\n夜虽漫长，\n却不会永远持续。\n\n天必发亮，\n\n晨星必升起——\n不仅升在天际，\n\n更升在你心里。",
+      "zh_reflectionPrompt": "如果在今晚入睡之前，你最当铭记的一件事，正是彼得后书 1:19 那安静的教导：“天必发亮，晨星必升起——不仅升在天际，更升在你心里”，你的心会如何安息？",
+      "zh_epigraph": "“你们在这预言上留意，直等到天发亮，晨星在你们心里出现的时候，才是好的。”",
+      "zh_ref": "彼得后书 1:19"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#efe4c6"
       },
       "dailyWalkDay": 1545,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “carried”: what hurry or noise in your week begins to fade when you hear, “the Spirit moved them, the way wind fills a sail, and they went where they were carried, and brought back what they were given”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “carried”: what hurry or noise in your week begins to fade when you hear, “the Spirit moved them, the way wind fills a sail, and they went where they were carried, and brought back what they were given”?",
+      "zh_title": "圣灵感动",
+      "zh_poem": "渔夫最懂得\n摇橹与扬帆\n有何分别。\n\n众先知\n并非靠自己摇橹。\n\n从来没有人坐下来，\n凭自己的意思\n杜撰出神的话语。\n\n乃是圣灵感动他们，\n如同海风鼓满船帆，\n\n风吹往何处，\n他们便被带往何处，\n\n将领受的话语\n带回人间。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在《圣灵感动》安静的画面中心旁：当你听见“乃是圣灵感动他们，如同海风鼓满船帆，风吹往何处，他们便被带往何处，将领受的话语带回人间”时，这周的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“乃是人被圣灵感动，说出神的话来。”",
+      "zh_ref": "彼得后书 1:20–21"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#f8c98d"
       },
       "dailyWalkDay": 1546,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “he knew the way then. he knows it still.” What part of your heart feels most searched or comforted by 2 Peter 2:5–9 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “he knew the way then. he knows it still.” What part of your heart feels most searched or comforted by 2 Peter 2:5–9 right now?",
+      "zh_title": "主知道如何搭救",
+      "zh_poem": "挪亚，\n身处败坏的世代；\n罗得，\n日复一日因所见所闻\n义心伤痛。\n\n彼得在谈论假师傅与沉沦的\n这一章里，\n特意提起了他们。\n\n不是为了叫你惊慌，\n\n乃是要告诉你：\n神知道如何\n把属他的人领出来。\n\n他当年知道出路，\n如今依然知道。",
+      "zh_reflectionPrompt": "在寂静中轻声读出结尾的诗句：“他当年知道出路，如今依然知道。”此刻，彼得后书 2:5–9 最触动或安慰你内心的是哪一部分？",
+      "zh_epigraph": "“主知道搭救敬虔的人脱离试探”",
+      "zh_ref": "彼得后书 2:5–9"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#dfd4bc"
       },
       "dailyWalkDay": 1547,
-      "reflectionPrompt": "In 2 Peter 2:17–19, grace meets us right beside the stone well in the heat of the day: how does the closing thought—“there is water that doesn't run out”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In 2 Peter 2:17–19, grace meets us right beside the stone well in the heat of the day: how does the closing thought—“there is water that doesn't run out”—steady your footing for the road ahead?",
+      "zh_title": "无水的井",
+      "zh_poem": "远远望去，\n那像是一口井：\n石头围成圆圈，\n有绳索，也有水桶。\n\n你走了很远的路，\n缒下绳索，\n再拉上来——\n\n却是干的。\n\n有些声音\n应许人自由，\n自己却给不出，\n因为他们自己仍是奴仆。\n\n当心你取水的地方。\n有一处活水泉源，\n永不干涸。",
+      "zh_reflectionPrompt": "在彼得后书 2:17–19 中，恩典就在正午炎热里的石井旁与我们相遇：结尾的意念——“有一处活水泉源，永不干涸”——如何稳固你前行的脚步？",
+      "zh_epigraph": "“这些人是没有水的井，是狂风催逼的雾气”",
+      "zh_ref": "彼得后书 2:17–19"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f3c972"
       },
       "dailyWalkDay": 1548,
-      "reflectionPrompt": "If today’s painting of “where is the promise” (2 Peter 3:3–6) hung beside the door you walk out of this morning, how would its final line—“he just asks you to remember that the world has been interrupted before”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “where is the promise” (2 Peter 3:3–6) hung beside the door you walk out of this morning, how would its final line—“he just asks you to remember that the world has been interrupted before”—shape your choices?",
+      "zh_title": "主要降临的应许在哪里呢",
+      "zh_poem": "日头落下，\n日头升起，\n集市开张，\n老去的人归于尘土。\n\n他们说，\n万物与起初创造的时候\n仍是一样。\n\n那么，他在哪里呢？\n\n彼得听见这追问，\n并未动怒。\n\n他只是请你记得：\n这看似一成不变的世界，\n从前就曾被神\n打断过。",
+      "zh_reflectionPrompt": "如果今天这幅《主要降临的应许在哪里呢》（彼得后书 3:3–6）就挂在你清晨出门的门旁，它最后那句“他只是请你记得：这看似一成不变的世界，从前就曾被神打断过”会如何塑造你今日的抉择？",
+      "zh_epigraph": "“主要降临的应许在哪里呢？”",
+      "zh_ref": "彼得后书 3:3–6"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#ecd1a3"
       },
       "dailyWalkDay": 1549,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (2 Peter 3:8–9)—where in your own home or work today does “every day he waits is mercy— maybe for you” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (2 Peter 3:8–9)—where in your own home or work today does “every day he waits is mercy— maybe for you” ring true?",
+      "zh_title": "宽容忍耐",
+      "zh_poem": "主看一日如千年，\n千年如一日。\n\n所以，那看似迟延的，\n其实并未迟延。\n\n那看似缓慢的，\n是一扇为你留着的门，\n\n是一盏未熄的灯，\n\n是一位父亲\n不愿失落\n任何一个孩子。\n\n他多等一天，\n就多一天的怜悯——\n也许正是为了你。",
+      "zh_reflectionPrompt": "天路同行的每一站，都显明神如何在平凡之处与我们相遇（彼得后书 3:8–9）——今天在你的家中或工作里，哪一处让你真切感受到“他多等一天，就多一天的怜悯——也许正是为了你”？",
+      "zh_epigraph": "“乃是宽容你们，不愿有一人沉沦，乃愿人人都悔改。”",
+      "zh_ref": "彼得后书 3:8–9"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#f1e7cc"
       },
       "dailyWalkDay": 1550,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “a place where doing right is not a fight anymore, where righteousness finally lives at home.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “a place where doing right is not a fight anymore, where righteousness finally lives at home.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "有义居在其中",
+      "zh_poem": "他讲到烈火，\n讲到有形质的都要被烈火销化，\n天必大有响声废去。\n\n听起来像是一切的终结。\n\n但请接着读下一句：\n\n新天。\n新地。\n\n在那里，\n行义不再是一场苦战，\n\n公义终于\n在那里安家。",
+      "zh_reflectionPrompt": "缓缓深吸一口气，再读一遍最后那句话：“在那里，行义不再是一场苦战，公义终于在那里安家。”如果带着这份真实走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“但我们照他的应许，盼望新天新地，有义居在其中。”",
+      "zh_ref": "彼得后书 3:12–13"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#ebdcba"
       },
       "dailyWalkDay": 1551,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “Peter's last word in this letter isn't a warning.” Looking through the lens of 2 Peter 3:17–18, what does it mean to discover that “it holds on, puts down roots, and gets a little taller every spring”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “Peter's last word in this letter isn't a warning.” Looking through the lens of 2 Peter 3:17–18, what does it mean to discover that “it holds on, puts down roots, and gets a little taller every spring”?",
+      "zh_title": "长进",
+      "zh_poem": "彼得在这封信末了的话，\n并不是一句警告——\n警告他已经说了许多。\n\n他最后留下的话\n是“长进”——\n在恩典上，\n在认识主的事上。\n\n绑在木桩上的小树，\n并不与狂风硬拼。\n\n它只是紧紧依附，\n往下扎根，\n每年春天\n再长高一寸。",
+      "zh_reflectionPrompt": "回想你生命中曾体会过“彼得在这封信末了的话，并不是一句警告”的某个时节。借着彼得后书 3:17–18 的亮光，当你发现“它只是紧紧依附，往下扎根，每年春天再长高一寸”时，那对你意味着什么？",
+      "zh_epigraph": "“你们却要在我们主救主耶稣基督的恩典和知识上有长进。”",
+      "zh_ref": "彼得后书 3:17–18"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#f3e6cd"
       },
       "dailyWalkDay": 1552,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “kept” in this painting (Jude 1:1–2)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “kept” in this painting (Jude 1:1–2)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "蒙保守",
+      "zh_poem": "一封短短的信，\n只有一页，\n出自一个自称仆人的手。\n\n在一切警告之前，\n在一切沉重的话语之前，\n他先在读信的人头上\n写下三个词：\n\n蒙召。\n在父神里蒙爱。\n为耶稣基督保守。\n\n接着又说：\n愿怜恤、\n平安、\n慈爱，\n多多地加给你们。\n\n他要你最先听见的，\n正是这句话。",
+      "zh_reflectionPrompt": "凝视这幅画中《蒙保守》安静的画面中心（犹大书 1:1–2）——如果今天你可以把一件焦虑的重担留在它旁边，你会放下什么？",
+      "zh_epigraph": "“写信给那被召、在父神里蒙爱、为耶稣基督保守的人”",
+      "zh_ref": "犹大书 1:1–2"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#e7d9b7"
       },
       "dailyWalkDay": 1553,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “the letter he meant to write”: what quiet prayer rises in you when you read, “but notice— the one he wanted to write is the first thing he tells you”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “the letter he meant to write”: what quiet prayer rises in you when you read, “but notice— the one he wanted to write is the first thing he tells you”?",
+      "zh_title": "他原本想写的信",
+      "zh_poem": "他原本切切想写的，\n是我们同得的救恩，\n他满心期盼着动笔。\n\n然而他却不得不\n写下更艰难的劝勉：\n要持守，\n要为那一次交付圣徒的真道\n竭力争辩。\n\n有时候，\n爱不得不写下\n它原本不想写的信。\n\n但请留意——\n他原本想写的那封信，\n正是他开口告诉你的\n第一件事。",
+      "zh_reflectionPrompt": "让目光停留在《他原本想写的信》安静的笔触与光影之间：当你读到“但请留意——他原本想写的那封信，正是他开口告诉你的第一件事”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“我想尽心写信给你们，论我们同得救恩的时候”",
+      "zh_ref": "犹大书 1:3"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#e3d9c0"
       },
       "dailyWalkDay": 1554,
-      "reflectionPrompt": "Linger with the movement in “clouds without water” (Jude 1:12–13) from “a farmer in a dry year knows the worst clouds” to “you'll know the real thing by what it leaves behind”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “clouds without water” (Jude 1:12–13) from “a farmer in a dry year knows the worst clouds” to “you'll know the real thing by what it leaves behind”—where do you find yourself along that arc today?",
+      "zh_title": "无雨的云彩",
+      "zh_poem": "旱年的农夫\n最认得那种令人失望的云。\n\n黑压压地涌来，\n像是要下大雨，\n人人仰首期盼，\n\n它却随风飘散而去。\n\n犹大接连举出\n一幅又一幅图景：\n没有雨的云彩、\n秋天没有果子的树、\n涌出沫子的海浪、\n流荡的星。\n\n满口应许，\n却一无所赐。\n\n真伪如何，\n看它留下什么便知晓。",
+      "zh_reflectionPrompt": "细细体会《无雨的云彩》（犹大书 1:12–13）从“旱年的农夫最认得那种令人失望的云”到“真伪如何，看它留下什么便知晓”的流转——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“他们是没有雨的云彩，被风飘荡；是秋天没有果子的树”",
+      "zh_ref": "犹大书 1:12–13"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#efcb96"
       },
       "dailyWalkDay": 1555,
-      "reflectionPrompt": "Notice how “keep yourselves” (Jude 1:20–21) arrives at: “you just don't wander off.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “keep yourselves” (Jude 1:20–21) arrives at: “you just don't wander off.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "保守自己常在神的爱中",
+      "zh_poem": "在至圣的真道上造就自己，\n在圣灵里祷告，\n仰望怜悯，\n\n并且保守自己\n常在神的爱中——\n\n不是像防贼那样\n紧张看守，\n\n而是像在寒夜里\n守在火炉旁。\n\n火不是你点燃的，\n\n你只需\n不要走远。",
+      "zh_reflectionPrompt": "留意《保守自己常在神的爱中》（犹大书 1:20–21）最终停留在：“你只需不要走远。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“保守自己常在神的爱中”",
+      "zh_ref": "犹大书 1:20–21"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#eee3d0"
       },
       "dailyWalkDay": 1556,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jude 1:22–23: “he tells you to have mercy— and reach in”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jude 1:22–23: “he tells you to have mercy— and reach in”?",
+      "zh_title": "从火中抢出来",
+      "zh_poem": "有些人，\n需要你温柔相待。\n\n有些人，\n坐得离火太近。\n\n还有些人，\n你必须伸手把他们抢出来。\n\n犹大没有叫你\n远远站着\n摇头叹息，\n\n他叫你存怜悯的心——\n\n向里伸出手去。",
+      "zh_reflectionPrompt": "如果在今晚入睡之前，你最当铭记的一件事，正是犹大书 1:22–23 那安静的教导：“他叫你存怜悯的心——向里伸出手去”，你的心会如何回应？",
+      "zh_epigraph": "“有些人存疑心，你们要怜悯他们；有些人你们要从火中抢出来，搭救他们”",
+      "zh_ref": "犹大书 1:22–23"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#fef6c4"
       },
       "dailyWalkDay": 1557,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet stars overhead: what hurry or noise in your week begins to fade when you hear, “able to bring you all the way into the light of his glory and stand you there with no fault left on you, in great joy”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet stars overhead: what hurry or noise in your week begins to fade when you hear, “able to bring you all the way into the light of his glory and stand you there with no fault left on you, in great joy”?",
+      "zh_title": "那能保守你们的",
+      "zh_poem": "在一切警告之后——\n无雨的云、\n水中的暗礁、\n流荡的星——\n\n犹大以这句话\n作结：\n\n神能。\n\n他能保守你们\n不至失脚，\n\n能一路领你们\n进入他荣耀的光中，\n\n叫你们站在那里，\n无瑕无疵，\n\n满怀大喜乐。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在头顶宁静的繁星下：当你听见“能一路领你们进入他荣耀的光中，叫你们站在那里，无瑕无疵，满怀大喜乐”时，这周的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“叫你们无瑕无疵、欢欢喜喜站在他荣耀之前的”",
+      "zh_ref": "犹大书 1:24–25"
     }
-  ]
+  ],
+  "zh_title": "活泼的盼望",
+  "zh_subtitle": "彼得前后书与犹大书诗画集",
+  "zh_beforeYouBegin": "这三封简短的书信，写给分散在各地、如客旅般寄居他乡、远离故土的信徒。信中有炉火中试炼的真金、入夏便枯干的草、一块块砌入墙垣的活石、黄昏归圈的羊群、卸下的忧虑重担、老渔夫即将拆毁的帐棚、在暗处照耀直到晨星升起的明灯、无水的枯井，以及一条通往荣耀的窄路。\n\n本书以四十首短诗，分五个部分走过这些书信：彼得前书两部分，彼得后书两部分，犹大书一部分。每一首诗都配有一幅画，并置于一句经文之下。画作停留在书信所触及的事物上——一盏泥灯、一只封口的陶罐、一块擘开的饼、一棵绑在木桩上的无花果树——而将面容留给你的想象。\n\n这些诗并非圣经本身，只是一个读者对圣经的回应。请一面读这本书，一面翻开彼得与犹大的书信，让神真实的话语成为最终的定音。"
 }

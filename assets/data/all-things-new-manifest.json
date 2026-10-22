@@ -16,7 +16,10 @@
       "epigraph": "Don’t be afraid. I am the first and the last",
       "epigraphRef": "Revelation 1:17",
       "lightName": "Light of Among the Lampstands",
-      "lightHint": "Near 'read it aloud' (Revelation 1:3) in Part 1: Among the Lampstands"
+      "lightHint": "Near 'read it aloud' (Revelation 1:3) in Part 1: Among the Lampstands",
+      "zh_title": "在灯台中间",
+      "zh_epigraph": "不要惧怕！我是首先的，我是末后的",
+      "zh_epigraphRef": "启示录 1:17"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Holy, holy, holy is the Lord God, the Almighty, who was and who is and who is to come!",
       "epigraphRef": "Revelation 4:8",
       "lightName": "Light of The Throne",
-      "lightHint": "Near 'come up here' (Revelation 4:1) in Part 2: The Throne"
+      "lightHint": "Near 'come up here' (Revelation 4:1) in Part 2: The Throne",
+      "zh_title": "宝座",
+      "zh_epigraph": "圣哉！圣哉！圣哉！主神是昔在、今在、以后永在的全能者。",
+      "zh_epigraphRef": "启示录 4:8"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "The kingdom of the world has become the Kingdom of our Lord, and of his Christ.",
       "epigraphRef": "Revelation 11:15",
       "lightName": "Light of Silence in Heaven",
-      "lightHint": "Near 'how long' (Revelation 6:9–11) in Part 3: Silence in Heaven"
+      "lightHint": "Near 'how long' (Revelation 6:9–11) in Part 3: Silence in Heaven",
+      "zh_title": "天上寂静",
+      "zh_epigraph": "世上的国成了我主和主基督的国",
+      "zh_epigraphRef": "启示录 11:15"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "They overcame him because of the Lamb’s blood, and because of the word of their testimony.",
       "epigraphRef": "Revelation 12:11",
       "lightName": "Light of The Lamb Overcomes",
-      "lightHint": "Near 'how the small win' (Revelation 12:10–11) in Part 4: The Lamb Overcomes"
+      "lightHint": "Near 'how the small win' (Revelation 12:10–11) in Part 4: The Lamb Overcomes",
+      "zh_title": "羔羊得胜",
+      "zh_epigraph": "弟兄胜过它，是因羔羊的血和自己所见证的道。",
+      "zh_epigraphRef": "启示录 12:11"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "Behold, I am making all things new.",
       "epigraphRef": "Revelation 21:5",
       "lightName": "Light of All Things New",
-      "lightHint": "Near 'the other book' (Revelation 20:11–12) in Part 5: All Things New"
+      "lightHint": "Near 'the other book' (Revelation 20:11–12) in Part 5: All Things New",
+      "zh_title": "我将一切都更新了",
+      "zh_epigraph": "看哪，我将一切都更新了！",
+      "zh_epigraphRef": "启示录 21:5"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#efa761"
       },
       "dailyWalkDay": 1594,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “read it aloud” in this painting (Revelation 1:3)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “read it aloud” in this painting (Revelation 1:3)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "念这书上的预言",
+      "zh_poem": "整本圣经之中，\n惟有这一卷书，\n单单为着诵读它而应许福分——\n高声念出来，\n念给一屋子\n心怀惊惧的人听。\n\n它从来不是\n留给聪明人拆解的谜题，\n\n而是一封写给受逼迫者的家书，\n在微弱的灯下诵读：\n务要持守。\n主必得胜。",
+      "zh_reflectionPrompt": "凝视这幅画中《念这书上的预言》安静的画面中心（启示录 1:3）——如果今天你可以把一件焦虑的重担留在它旁边，你会放下什么？",
+      "zh_epigraph": "“念这书上预言的和那些听见又遵守其中所记载的，都是有福的”",
+      "zh_ref": "启示录 1:3"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#eadcad"
       },
       "dailyWalkDay": 1595,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “Patmos”: what quiet prayer rises in you when you read, “your worst address is not too far away for him to find you”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “Patmos”: what quiet prayer rises in you when you read, “your worst address is not too far away for him to find you”?",
+      "zh_title": "拔摩海岛",
+      "zh_poem": "一位老人，\n为给耶稣作见证，\n被放逐在海中的孤岩上。\n\n没有教会，没有友伴，\n只有海浪，\n和一个主日。\n\n然而偏偏就在那里，\n天开了。\n\n你最荒凉的处境，\n也未曾远到\n让他寻不见你。",
+      "zh_reflectionPrompt": "让目光停留在《拔摩海岛》安静的笔触与光影之间：当你读到“你最荒凉的处境，也未曾远到让他寻不见你”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“当主日，我被圣灵感动”",
+      "zh_ref": "启示录 1:9–10"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#eac988"
       },
       "dailyWalkDay": 1596,
-      "reflectionPrompt": "Linger with the movement in “the keys” (Revelation 1:17–18) from “John saw him and fell down like a dead man” to “every door you fear most— he has the key to it, and he is not afraid”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the keys” (Revelation 1:17–18) from “John saw him and fell down like a dead man” to “every door you fear most— he has the key to it, and he is not afraid”—where do you find yourself along that arc today?",
+      "zh_title": "死亡和阴间的钥匙",
+      "zh_poem": "约翰一看见他，\n就仆倒在他脚前，像死了一样。\n\n耶稣所做的第一件事，\n是用右手按着他。\n\n第二件事，是对他说：\n不要惧怕。\n\n接着说：我曾死过，\n现在又活了，直活到永永远远，\n并且拿着死亡和阴间的钥匙。\n\n每一扇令你畏惧的门——\n钥匙都在他手中，\n而他毫不惧怕。",
+      "zh_reflectionPrompt": "细细体会《死亡和阴间的钥匙》（启示录 1:17–18）从“约翰一看见他，就仆倒在他脚前，像死了一样”到“每一扇令你畏惧的门——钥匙都在他手中，而他毫不惧怕”的流转——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“我曾死过，现在又活了，直活到永永远远”",
+      "zh_ref": "启示录 1:17–18"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#eecb8c"
       },
       "dailyWalkDay": 1597,
-      "reflectionPrompt": "Notice how “among the lampstands” (Revelation 1:12–20) arrives at: “he is walking right there.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “among the lampstands” (Revelation 1:12–20) arrives at: “he is walking right there.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "在灯台中间行走",
+      "zh_poem": "众教会就是灯台。\n\n小小的火苗，\n有的摇曳不定，\n有的将残欲灭。\n\n而他在灯台中间行走——\n不是高高在上地俯视，\n也不是远远地离开——\n乃是在他们中间，\n修剪灯芯，\n添满清油。\n\n你那小小的教会\n并未被遗忘，\n他正行走在那里。",
+      "zh_reflectionPrompt": "留意《在灯台中间行走》（启示录 1:12–20）最终停留在：“他正行走在那里。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“七灯台就是七个教会。”",
+      "zh_ref": "启示录 1:12–20"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#e9dfcc"
       },
       "dailyWalkDay": 1598,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Revelation 2:2–5: “come back to the beginning, he says, when it was just you and me”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Revelation 2:2–5: “come back to the beginning, he says, when it was just you and me”?",
+      "zh_title": "起初的爱心",
+      "zh_poem": "以弗所教会样样都做得周全：\n劳碌做工，\n持守纯正的教义，\n不能容忍恶人。\n\n然而耶稣却说：\n你把起初的爱心离弃了。\n\n人尽可以守住一切规条，\n却失落了起初的深情。\n\n回来吧，\n回到起初，他说，\n回到当初只有\n你与我的时光。",
+      "zh_reflectionPrompt": "如果在今晚入睡之前，你最当铭记的一件事，正是启示录 2:2–5 那安静的教导：“回来吧，回到起初，他说，回到当初只有你与我的时光”，你的心会如何回应？",
+      "zh_epigraph": "“然而有一件事我要责备你，就是你把起初的爱心离弃了。”",
+      "zh_ref": "启示录 2:2–5"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#ddcfae"
       },
       "dailyWalkDay": 1599,
-      "reflectionPrompt": "Imagine standing inside this frame beside the weight of the crown: what hurry or noise in your week begins to fade when you hear, “ten days of trouble. the kind that's alive”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the weight of the crown: what hurry or noise in your week begins to fade when you hear, “ten days of trouble. the kind that's alive”?",
+      "zh_title": "生命的冠冕",
+      "zh_poem": "他没有向士每拿应许\n前路不会疼痛。\n\n监牢即将临到，\n你们必受患难十日。\n\n他所应许的是：\n在路终之时他必站在那里，\n手捧冠冕——\n\n不是会生锈的那一种，\n乃是满有生命的\n冠冕。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在冠冕的分量旁：当你听见“你们必受患难十日……乃是满有生命的冠冕”时，这周的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“你务要至死忠心，我就赐给你那生命的冠冕。”",
+      "zh_ref": "启示录 2:8–10"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#d9c8ab"
       },
       "dailyWalkDay": 1600,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “the name he's been saving just for you.” What part of your heart feels most searched or comforted by Revelation 2:17 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “the name he's been saving just for you.” What part of your heart feels most searched or comforted by Revelation 2:17 right now?",
+      "zh_title": "一块白石",
+      "zh_poem": "一块白石，\n石上写着新名，\n除了那领受的以外，没有人能认识。\n\n不是这世界给你的称呼，\n也不是你在最灰暗的日子里\n给自己贴上的名字，\n\n乃是他一直为你珍藏、\n单单属于你的新名。",
+      "zh_reflectionPrompt": "在寂静中轻声读出结尾的诗句：“乃是他一直为你珍藏、单单属于你的新名。”此刻，启示录 2:17 最触动或安慰你内心的是哪一部分？",
+      "zh_epigraph": "“我必赐他一块白石，石上写着新名”",
+      "zh_ref": "启示录 2:17"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#f7c162"
       },
       "dailyWalkDay": 1601,
-      "reflectionPrompt": "In Revelation 3:14–20, grace meets us right beside the open threshold: how does the closing thought—“grace for the worst church on the list”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Revelation 3:14–20, grace meets us right beside the open threshold: how does the closing thought—“grace for the worst church on the list”—steady your footing for the road ahead?",
+      "zh_title": "站在门外叩门",
+      "zh_poem": "这封信写给那间\n他快要从口中吐出去的教会——\n不冷不热，自以为富足，眼瞎——\n\n然而他仍说：\n我站在门外叩门。\n\n不是破门而入，\n乃是轻轻叩门。\n\n只要你开门，\n他就必进来，\n坐下，\n与你一同坐席。\n\n这是赐给名单上最糟糕之教会的\n恩典。",
+      "zh_reflectionPrompt": "在启示录 3:14–20 中，恩典就在敞开的门槛旁与我们相遇：结尾的意念——“这是赐给名单上最糟糕之教会的恩典”——如何稳固你前行的脚步？",
+      "zh_epigraph": "“看哪，我站在门外叩门”",
+      "zh_ref": "启示录 3:14–20"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#fcf4c8"
       },
       "dailyWalkDay": 1602,
-      "reflectionPrompt": "If today’s painting of “come up here” (Revelation 4:1) hung beside the door you walk out of this morning, how would its final line—“that changes how you read everything after”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “come up here” (Revelation 4:1) hung beside the door you walk out of this morning, how would its final line—“that changes how you read everything after”—shape your choices?",
+      "zh_title": "你上到这里来",
+      "zh_poem": "先是七封书信，\n地上各处的难处。\n\n随后，天上有门开了，\n有一个声音说：\n你上到这里来。\n\n在看见将要发生的事以前，\n先看看是谁坐在宝座上。\n\n这会改变你如何解读\n此后的一切。",
+      "zh_reflectionPrompt": "如果今天这幅《你上到这里来》（启示录 4:1）就挂在你清晨出门的门旁，它最后那句“这会改变你如何解读此后的一切”会如何塑造你今日的抉择？",
+      "zh_epigraph": "“我观看，见天上有门开了”",
+      "zh_ref": "启示录 4:1"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#f7ecc6"
       },
       "dailyWalkDay": 1603,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Revelation 4:2–3)—where in your own home or work today does “even at the center of heaven's power, a promise curves around it like a hand” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Revelation 4:2–3)—where in your own home or work today does “even at the center of heaven's power, a promise curves around it like a hand” ring true?",
+      "zh_title": "宝座周围的虹",
+      "zh_poem": "宝座周围，\n有一道彩虹。\n\n正是洪水过后，\n神挂在云彩中的同一个记号：\n我必记念我的约。\n\n纵然在天上权能的中心，\n仍有一道应许\n如手一般环抱宝座。",
+      "zh_reflectionPrompt": "天路同行的每一站，都显明神如何在平凡之处与我们相遇（启示录 4:2–3）——今天在你的家中或工作里，哪一处让你真切感受到“纵然在天上权能的中心，仍有一道应许如手一般环抱宝座”？",
+      "zh_epigraph": "“又有虹围着宝座，好像绿宝石。”",
+      "zh_ref": "启示录 4:2–3"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#fcf2d6"
       },
       "dailyWalkDay": 1604,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “it's discovery that never runs out.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “it's discovery that never runs out.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "昼夜不住",
+      "zh_poem": "昼夜不住，\n他们从不停止呼喊：\n\n圣哉！\n圣哉！\n圣哉！\n\n不是出于勉强，\n乃是因为每一次定睛仰望，\n都看见更新的荣耀。\n\n敬拜并非机械的重复，\n而是永不枯竭的\n惊叹与发现。",
+      "zh_reflectionPrompt": "缓缓深吸一口气，再读一遍最后那句话：“而是永不枯竭的惊叹与发现。”如果带着这份真实走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“他们昼夜不住地说：圣哉！圣哉！圣哉！”",
+      "zh_ref": "启示录 4:8"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#efe0aa"
       },
       "dailyWalkDay": 1605,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “twenty-four elders, every one of them crowned, and the first thing they do with their crowns is throw them down.” Looking through the lens of Revelation 4:10–11, what does it mean to discover that “whatever you've won, whatever you've earned, it looks best lying at his feet”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “twenty-four elders, every one of them crowned, and the first thing they do with their crowns is throw them down.” Looking through the lens of Revelation 4:10–11, what does it mean to discover that “whatever you've won, whatever you've earned, it looks best lying at his feet”?",
+      "zh_title": "把冠冕放在宝座前",
+      "zh_poem": "二十四位长老，\n人人头戴金冠，\n\n而他们对冠冕所做的第一件事，\n就是将冠冕摘下，\n放在宝座前。\n\n无论你赢得过什么，\n赚得过什么，\n放在他脚前的时候\n最美。",
+      "zh_reflectionPrompt": "回想你生命中曾体会过“二十四位长老，人人头戴金冠，而他们对冠冕所做的第一件事，就是将冠冕摘下，放在宝座前”的某个时节。借着启示录 4:10–11 的亮光，当你发现“无论你赢得过什么，赚得过什么，放在他脚前的时候最美”时，那对你意味着什么？",
+      "zh_epigraph": "“又把他们的冠冕放在宝座前”",
+      "zh_ref": "启示录 4:10–11"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#fbedb8"
       },
       "dailyWalkDay": 1606,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “the Lion is a Lamb” in this painting (Revelation 5:5–6)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “the Lion is a Lamb” in this painting (Revelation 5:5–6)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "狮子却是羔羊",
+      "zh_poem": "长老说：不要哭，\n犹大支派中的狮子已经得胜了。\n\n约翰转过身去，\n要看那头狮子——\n\n看见的却是一只羔羊，\n站立着，\n身上带着被杀过的伤痕。\n\n这正是全书的奥秘：\n狮子得胜，\n乃是借着成为羔羊。",
+      "zh_reflectionPrompt": "凝视这幅画中《狮子却是羔羊》安静的画面中心（启示录 5:5–6）——如果今天你可以把一件焦虑的重担留在它旁边，你会放下什么？",
+      "zh_epigraph": "“有羔羊站立，像是被杀过的”",
+      "zh_ref": "启示录 5:5–6"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#dab051"
       },
       "dailyWalkDay": 1607,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “golden bowls”: what quiet prayer rises in you when you read, “nothing you prayed was wasted”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “golden bowls”: what quiet prayer rises in you when you read, “nothing you prayed was wasted”?",
+      "zh_title": "盛满香的金炉",
+      "zh_poem": "你以为石沉大海的\n每一次祷告——\n\n那些低声微语的，\n疲惫不堪的，\n年复一年久久呼求的——\n\n天上都将它们珍藏在金炉里，\n如同馨香。\n\n你所献上的祷告，\n没有一句落空。",
+      "zh_reflectionPrompt": "让目光停留在《盛满香的金炉》安静的笔触与光影之间：当你读到“你所献上的祷告，没有一句落空”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“盛满了香的金炉；这香就是众圣徒的祈祷。”",
+      "zh_ref": "启示录 5:8"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#f5dea5"
       },
       "dailyWalkDay": 1608,
-      "reflectionPrompt": "Linger with the movement in “every creature” (Revelation 5:13) from “in heaven, on the earth, under the earth, in the sea— everything that breathes joins in” to “the whole creation was made to sing this song”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “every creature” (Revelation 5:13) from “in heaven, on the earth, under the earth, in the sea— everything that breathes joins in” to “the whole creation was made to sing this song”—where do you find yourself along that arc today?",
+      "zh_title": "一切被造之物",
+      "zh_poem": "在天上、\n地上、\n地底下、\n沧海里——\n\n凡有气息的，\n尽都一同开口。\n\n麻雀、鲸鱼、\n牛群、秋虫，\n还有我们。\n\n万有受造，\n原是为了同唱这一首歌。",
+      "zh_reflectionPrompt": "细细体会《一切被造之物》（启示录 5:13）从“在天上、地上、地底下、沧海里——凡有气息的，尽都一同开口”到“万有受造，原是为了同唱这一首歌”的流转——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“我又听见在天上、地上、地底下、沧海里，和天地间一切所有被造之物”",
+      "zh_ref": "启示录 5:13"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#f7ebc2"
       },
       "dailyWalkDay": 1609,
-      "reflectionPrompt": "Notice how “how long” (Revelation 6:9–11) arrives at: “your how long is not unfaithful. it's in the book.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “how long” (Revelation 6:9–11) arrives at: “your how long is not unfaithful. it's in the book.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "要等到几时呢",
+      "zh_poem": "要等到几时呢？\n\n甚至在天上，\n他们也这样发问。\n\n受苦之人最古老的呼求，\n在天上并未被抹去，\n而是被垂听。\n\n有白衣赐给他们，\n又有话对他们说：\n还要安息片时。\n\n你的那句“要等到几时呢”\n并非不信，\n它就写在圣经里。",
+      "zh_reflectionPrompt": "留意《要等到几时呢》（启示录 6:9–11）最终停留在：“你的那句‘要等到几时呢’并非不信，它就写在圣经里。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“圣洁真实的主啊，你不审判住在地上的人，给我们伸流血的冤，要等到几时呢？”",
+      "zh_ref": "启示录 6:9–11"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#f7f1da"
       },
       "dailyWalkDay": 1610,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Revelation 7:9–10: “palm branches in their hands, like the crowd the day he rode into Jerusalem— but this time, no one turns away”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Revelation 7:9–10: “palm branches in their hands, like the crowd the day he rode into Jerusalem— but this time, no one turns away”?",
+      "zh_title": "没有人能数过来",
+      "zh_poem": "没有人能数过来。\n\n从各国、\n各族、\n各民、\n各方而来。\n\n手里拿着棕树枝，\n仿佛当年他骑驴进入耶路撒冷时\n夹道欢呼的人群——\n\n但这一次，\n再没有人\n转身离去。",
+      "zh_reflectionPrompt": "如果在今晚入睡之前，你最当铭记的一件事，正是启示录 7:9–10 那安静的教导：“手里拿着棕树枝，仿佛当年他骑驴进入耶路撒冷时夹道欢呼的人群——但这一次，再没有人转身离去”，你的心会如何安息？",
+      "zh_epigraph": "“有许多的人，没有人能数过来，是从各国、各族、各民、各方来的”",
+      "zh_ref": "启示录 7:9–10"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#fcf6dd"
       },
       "dailyWalkDay": 1611,
-      "reflectionPrompt": "Imagine standing inside this frame beside the tears God keeps in His bottle: what hurry or noise in your week begins to fade when you hear, “he leads them to springs of living water, and God himself wipes the tears— every one”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the tears God keeps in His bottle: what hurry or noise in your week begins to fade when you hear, “he leads them to springs of living water, and God himself wipes the tears— every one”?",
+      "zh_title": "生命水的泉源",
+      "zh_poem": "羔羊\n成了牧人。\n\n不再饥，\n不再渴，\n日头和炎热也必不伤害他们。\n\n他领他们到\n生命水的泉源，\n\n神也必亲自擦去\n他们一切的眼泪——\n每一滴。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在神装在皮袋里的眼泪旁：当你听见“他领他们到生命水的泉源，神也必亲自擦去他们一切的眼泪——每一滴”时，这周的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“因为宝座中的羔羊必牧养他们，领他们到生命水的泉源”",
+      "zh_ref": "启示录 7:16–17"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#fbeaca"
       },
       "dailyWalkDay": 1612,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “sometimes the holiest thing is to stop, and hold your breath, and wait to see what God will do.” What part of your heart feels most searched or comforted by Revelation 8:1 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “sometimes the holiest thing is to stop, and hold your breath, and wait to see what God will do.” What part of your heart feels most searched or comforted by Revelation 8:1 right now?",
+      "zh_title": "寂静约有二刻",
+      "zh_poem": "在一切雷轰、\n一切赞歌、\n一切众声之后——\n\n寂静。\n\n天上寂静约有二刻，\n悄然无声。\n\n有时最神圣的事，\n便是停下来，\n屏住呼吸，\n静候神将要行的事。",
+      "zh_reflectionPrompt": "在寂静中轻声读出结尾的诗句：“有时最神圣的事，便是停下来，屏住呼吸，静候神将要行的事。”此刻，启示录 8:1 最触动或安慰你内心的是哪一部分？",
+      "zh_epigraph": "“羔羊揭开第七印的时候，天上寂静约有二刻。”",
+      "zh_ref": "启示录 8:1"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#f1ddb0"
       },
       "dailyWalkDay": 1613,
-      "reflectionPrompt": "In Revelation 8:3–5, grace meets us right beside the warmth of the fire: how does the closing thought—“don't tell me prayer doesn't do anything”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Revelation 8:3–5, grace meets us right beside the warmth of the fire: how does the closing thought—“don't tell me prayer doesn't do anything”—steady your footing for the road ahead?",
+      "zh_title": "升上去的祈祷",
+      "zh_poem": "祈祷如香烟\n袅袅上升。\n\n随后，\n天使拿着香炉，\n盛满了坛上的火，\n倒在地上。\n\n以祷告升上去的，\n化作神的作为\n降下来。\n\n别对我说\n祷告毫无用处。",
+      "zh_reflectionPrompt": "在启示录 8:3–5 中，恩典就在坛火的温热旁与我们相遇：结尾的意念——“别对我说祷告毫无用处”——如何稳固你前行的脚步？",
+      "zh_epigraph": "“那香的烟和众圣徒的祈祷从天使的手中一同升到神面前。”",
+      "zh_ref": "启示录 8:3–5"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#d4ab4c"
       },
       "dailyWalkDay": 1614,
-      "reflectionPrompt": "If today’s painting of “sweet and bitter” (Revelation 10:9–10) hung beside the door you walk out of this morning, how would its final line—“that's what God's word is like when you really take it in: sweet to receive, hard to carry, because it tells the truth about the world”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “sweet and bitter” (Revelation 10:9–10) hung beside the door you walk out of this morning, how would its final line—“that's what God's word is like when you really take it in: sweet to receive, hard to carry, because it tells the truth about the world”—shape your choices?",
+      "zh_title": "甜如蜜，苦在腹",
+      "zh_poem": "有声音吩咐他：把小书卷吃尽了。\n\n在口中甜如蜜，\n吃下以后，\n肚腹却觉得发苦。\n\n当你真正把神的话语\n吃进生命里，\n滋味正是如此：\n\n领受时甘甜，\n背负时沉重，\n因为它说出了关于这世界的真相。",
+      "zh_reflectionPrompt": "如果今天这幅《甜如蜜，苦在腹》（启示录 10:9–10）就挂在你清晨出门的门旁，它最后那句“当你真正把神的话语吃进生命里，滋味正是如此：领受时甘甜，背负时沉重，因为它说出了关于这世界的真相”会如何塑造你今日的抉择？",
+      "zh_epigraph": "“在我口中甜如蜜；既吃了以后，肚子觉得发苦了。”",
+      "zh_ref": "启示录 10:9–10"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#fbe4a1"
       },
       "dailyWalkDay": 1615,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Revelation 11:15)—where in your own home or work today does “as if it's already done. in heaven, it is” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Revelation 11:15)—where in your own home or work today does “as if it's already done. in heaven, it is” ring true?",
+      "zh_title": "已经成了",
+      "zh_poem": "世上的国——\n这一切帝国、\n头条新闻、\n看似不可一世的权势——\n\n已经成了\n我主和主基督的国。\n\n用的是完成时，\n仿佛早已成就。\n\n在天上，\n的确已经成就了。",
+      "zh_reflectionPrompt": "天路同行的每一站，都显明神如何在平凡之处与我们相遇（启示录 11:15）——今天在你的家中或工作里，哪一处让你真切感受到“仿佛早已成就。在天上，的确已经成就了”？",
+      "zh_epigraph": "“世上的国成了我主和主基督的国；他要作王，直到永永远远。”",
+      "zh_ref": "启示录 11:15"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#dcb36e"
       },
       "dailyWalkDay": 1616,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “that's still how it's done.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “that's still how it's done.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "微小者如何得胜",
+      "zh_poem": "微小的人\n如何胜过那大龙？\n\n不是靠刀剑，\n\n乃是因羔羊的血，\n因自己所见证的道，\n并且虽至于死，\n也不紧抓自己的性命。\n\n直到如今，\n得胜仍是如此。",
+      "zh_reflectionPrompt": "缓缓深吸一口气，再读一遍最后那句话：“直到如今，得胜仍是如此。”如果带着这份真实走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“弟兄胜过它，是因羔羊的血和自己所见证的道。他们虽至于死，也不爱惜性命。”",
+      "zh_ref": "启示录 12:10–11"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#f4e2ad"
       },
       "dailyWalkDay": 1617,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “she ran into the wilderness, and the wilderness was ready for her.” Looking through the lens of Revelation 12:6, what does it mean to discover that “he's already been there, setting the table”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “she ran into the wilderness, and the wilderness was ready for her.” Looking through the lens of Revelation 12:6, what does it mean to discover that “he's already been there, setting the table”?",
+      "zh_title": "神所预备的地方",
+      "zh_poem": "妇人逃到旷野，\n而旷野早已为她预备妥当。\n\n有神所预备的地方，\n有粮，有庇护，\n有定期。\n\n当你不得不逃离之时，\n你并非奔向虚无——\n\n他早已先你一步到了那里，\n为你摆设筵席。",
+      "zh_reflectionPrompt": "回想你生命中曾体会过“妇人逃到旷野，而旷野早已为她预备妥当”的某个时节。借着启示录 12:6 的亮光，当你发现“他早已先你一步到了那里，为你摆设筵席”时，那对你意味着什么？",
+      "zh_epigraph": "“在那里有神给她预备的地方，使她被养活”",
+      "zh_ref": "启示录 12:6"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f9cb94"
       },
       "dailyWalkDay": 1618,
-      "reflectionPrompt": "Look closely at the still, unhurried voice in this painting (Revelation 14:13)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the still, unhurried voice in this painting (Revelation 14:13)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "息了自己的劳苦",
+      "zh_poem": "有声音说，你要写下：\n在主里面而死的人有福了。\n\n圣灵说：是的，\n他们息了自己的劳苦，\n终于得享安息。\n\n他们作工的果效\n也随着他们——\n每一次恩慈、\n每一次祷告、\n每一份无人看见的忠心，\n都一路随他们步入荣耀。",
+      "zh_reflectionPrompt": "凝视这幅画中那安静从容的声音（启示录 14:13）——如果今天你可以把一件焦虑的重担留在它旁边，你会放下什么？",
+      "zh_epigraph": "“他们息了自己的劳苦，作工的果效也随着他们。”",
+      "zh_ref": "启示录 14:13"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#fcf0c6"
       },
       "dailyWalkDay": 1619,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “the song of Moses”: what quiet prayer rises in you when you read, “one song finished in heaven”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “the song of Moses”: what quiet prayer rises in you when you read, “one song finished in heaven”?",
+      "zh_title": "摩西的歌与羔羊的歌",
+      "zh_poem": "他们站在玻璃海上，\n唱起摩西的歌——\n\n那是昔日红海岸边的古歌，\n米利暗曾随之起舞的歌——\n\n又唱起羔羊的歌。\n\n古时的拯救，\n在今日的救赎里成全；\n地上的颂歌，\n在天上化作完全的终章。",
+      "zh_reflectionPrompt": "让目光停留在《摩西的歌与羔羊的歌》安静的笔触与光影之间：当你读到“地上的颂歌，在天上化作完全的终章”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“唱神仆人摩西的歌和羔羊的歌”",
+      "zh_ref": "启示录 15:2–3"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#f1e4c4"
       },
       "dailyWalkDay": 1620,
-      "reflectionPrompt": "Linger with the movement in “the millstone” (Revelation 18:21) from “Babylon— the great city, the markets, the luxury, the music, the ships— gone, like a millstone thrown into the sea” to “the Lamb's city is the one that lasts”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the millstone” (Revelation 18:21) from “Babylon— the great city, the markets, the luxury, the music, the ships— gone, like a millstone thrown into the sea” to “the Lamb's city is the one that lasts”—where do you find yourself along that arc today?",
+      "zh_title": "大磨石",
+      "zh_poem": "巴比伦——\n那座大城，\n繁华的集市、奢靡、\n乐声与商船——\n\n转眼消逝，\n如同一块大磨石\n被扔在海里。\n\n每一个压榨他人的帝国，\n结局莫不如此。\n\n惟有羔羊的城\n永远长存。",
+      "zh_reflectionPrompt": "细细体会《大磨石》（启示录 18:21）从“巴比伦——那座大城，繁华的集市、奢靡、乐声与商船——转眼消逝，如同一块大磨石被扔在海里”到“惟有羔羊的城永远长存”的流转——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“有一位大力的天使举起一块石头，好像大磨石，扔在海里”",
+      "zh_ref": "启示录 18:21"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f7e5ad"
       },
       "dailyWalkDay": 1621,
-      "reflectionPrompt": "Notice how “hallelujah” (Revelation 19:1–6) arrives at: “it's where the word lives.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “hallelujah” (Revelation 19:1–6) arrives at: “it's where the word lives.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "哈利路亚",
+      "zh_poem": "整部新约圣经里，\n惟有这一处\n写下了这个词：\n哈利路亚。\n\n在同一章里\n一连响起四次，\n仿佛天上再也情不自禁。\n\n把你的赞美\n留一些到终局吧，\n那里正是这词的故乡。",
+      "zh_reflectionPrompt": "留意《哈利路亚》（启示录 19:1–6）最终停留在：“那里正是这词的故乡。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“哈利路亚！救恩、荣耀、权能都属乎我们的神！”",
+      "zh_ref": "启示录 19:1–6"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#fbf3d5"
       },
       "dailyWalkDay": 1622,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Revelation 19:7–9: “your name is on a chair. you're invited”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Revelation 19:7–9: “your name is on a chair. you're invited”?",
+      "zh_title": "羔羊的婚筵",
+      "zh_poem": "那个在园子里\n由一男一女开始的故事，\n\n最终在一场婚筵中\n圆满落幕。\n\n羔羊与他的新妇——\n就是我们众人，\n蒙洗净，穿上光明洁白的细麻衣。\n\n筵席长长铺开，\n席上写着你的名字，\n你已受邀赴席。",
+      "zh_reflectionPrompt": "如果在今晚入睡之前，你最当铭记的一件事，正是启示录 19:7–9 那安静的教导：“席上写着你的名字，你已受邀赴席”，你的心会如何安息？",
+      "zh_epigraph": "“凡被请赴羔羊之婚筵的有福了！”",
+      "zh_ref": "启示录 19:7–9"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#f6ecc9"
       },
       "dailyWalkDay": 1623,
-      "reflectionPrompt": "Imagine standing inside this frame beside the name by which He calls you: what hurry or noise in your week begins to fade when you hear, “every promise in the book was riding on that. it still is”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the name by which He calls you: what hurry or noise in your week begins to fade when you hear, “every promise in the book was riding on that. it still is”?",
+      "zh_title": "诚信真实",
+      "zh_poem": "天开了，\n他乘白马而来。\n\n不是一个陌生的名字，\n而是他向来拥有的名：\n诚信。\n真实。\n\n整本圣经的每一个应许，\n都维系在这名字之上，\n\n直到如今依然如此。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在他呼唤你名字的光影旁：当你听见“整本圣经的每一个应许，都维系在这名字之上，直到如今依然如此”时，这周的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“有一匹白马，骑在马上的称为诚信真实”",
+      "zh_ref": "启示录 19:11"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f4e0ad"
       },
       "dailyWalkDay": 1624,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's whether our name is written there.” What part of your heart feels most searched or comforted by Revelation 20:11–12 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's whether our name is written there.” What part of your heart feels most searched or comforted by Revelation 20:11–12 right now?",
+      "zh_title": "另有一卷书",
+      "zh_poem": "无论大小，\n都站在宝座前，\n案卷展开了。\n\n我们所行的一切，\n都记录在册。\n\n接着——\n另有一卷展开，\n\n就是生命册。\n\n到了终局，\n最要紧的不是我们行为的记录，\n而是我们的名字\n是否记在生命册上。",
+      "zh_reflectionPrompt": "在寂静中轻声读出结尾的诗句：“而是我们的名字是否记在生命册上。”此刻，启示录 20:11–12 最触动或安慰你内心的是哪一部分？",
+      "zh_epigraph": "“并且另有一卷展开，就是生命册。”",
+      "zh_ref": "启示录 20:11–12"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#fdf4cd"
       },
       "dailyWalkDay": 1625,
-      "reflectionPrompt": "In Revelation 21:1, grace meets us right beside the stones of the wall: how does the closing thought—“in the new world, nothing keeps us apart”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Revelation 21:1, grace meets us right beside the stones of the wall: how does the closing thought—“in the new world, nothing keeps us apart”—steady your footing for the road ahead?",
+      "zh_title": "海也不再有了",
+      "zh_poem": "一个新天，\n一个新地，\n海也不再有了。\n\n对约翰而言，\n大海曾是他囚牢的高墙，\n将他与一切所爱的人\n远远隔开。\n\n而在那新天新地里，\n再没有什么\n能将我们分开。",
+      "zh_reflectionPrompt": "在启示录 21:1 中，恩典就在城墙的宝石旁与我们相遇：结尾的意念——“而在那新天新地里，再没有什么能将我们分开”——如何稳固你前行的脚步？",
+      "zh_epigraph": "“海也不再有了。”",
+      "zh_ref": "启示录 21:1"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#f8d970"
       },
       "dailyWalkDay": 1626,
-      "reflectionPrompt": "If today’s painting of “moving in” (Revelation 21:3) hung beside the door you walk out of this morning, how would its final line—“he doesn't visit. he moves in for good”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “moving in” (Revelation 21:3) hung beside the door you walk out of this morning, how would its final line—“he doesn't visit. he moves in for good”—shape your choices?",
+      "zh_title": "神的帐幕在人间",
+      "zh_poem": "旷野里的会幕，\n山冈上的圣殿，\n那位道成肉身、支搭帐幕在我们中间的主。\n\n如今，到了终局：\n\n神的帐幕\n在人间。\n\n他不再只是造访，\n他永远搬来\n与人同住。",
+      "zh_reflectionPrompt": "如果今天这幅《神的帐幕在人间》（启示录 21:3）就挂在你清晨出门的门旁，它最后那句“他不再只是造访，他永远搬来与人同住”会如何塑造你今日的抉择？",
+      "zh_epigraph": "“看哪，神的帐幕在人间”",
+      "zh_ref": "启示录 21:3"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#efdfb8"
       },
       "dailyWalkDay": 1627,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Revelation 21:4)—where in your own home or work today does “the first things passed away” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Revelation 21:4)—where in your own home or work today does “the first things passed away” ring true?",
+      "zh_title": "擦去一切的眼泪",
+      "zh_poem": "不止是某一天伤痛的泪水，\n乃是一切的眼泪。\n\n那些你独自流下的泪，\n那些你强咽回去的泪，\n那些你以为早已干涸的泪。\n\n神必亲自\n将它们一一擦去，\n\n不再有死亡，\n也不再有悲哀、\n哭号、\n疼痛——\n\n都过去了，\n以前的事都过去了。",
+      "zh_reflectionPrompt": "天路同行的每一站，都显明神如何在平凡之处与我们相遇（启示录 21:4）——今天在你的家中或工作里，哪一处让你真切感受到“以前的事都过去了”？",
+      "zh_epigraph": "“神要擦去他们一切的眼泪”",
+      "zh_ref": "启示录 21:4"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#f9e9c5"
       },
       "dailyWalkDay": 1628,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “write it down, he said. it's true.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “write it down, he said. it's true.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "我将一切都更新了",
+      "zh_poem": "不是造出全然陌生的万物，\n乃是将一切都更新了。\n\n他并非把这世界丢弃\n重起炉灶，\n\n他乃是使这个世界、\n这些子民、\n你的生命，\n焕然一新。\n\n他说：你要写上，\n因这些话是可信的，是真实的。",
+      "zh_reflectionPrompt": "缓缓深吸一口气，再读一遍最后那句话：“他说：你要写上，因这些话是可信的，是真实的。”如果带着这份真实走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“你要写上，因这些话是可信的，是真实的。”",
+      "zh_ref": "启示录 21:5"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f7dfaf"
       },
       "dailyWalkDay": 1629,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “a pearl begins as an injury— a grain of grit the oyster couldn't get rid of, wrapped in layer after layer.” Looking through the lens of Revelation 21:21, what does it mean to discover that “the way in was made from a wound”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “a pearl begins as an injury— a grain of grit the oyster couldn't get rid of, wrapped in layer after layer.” Looking through the lens of Revelation 21:21, what does it mean to discover that “the way in was made from a wound”?",
+      "zh_title": "十二个珍珠门",
+      "zh_poem": "每一颗珍珠，\n起初都是一道伤口——\n一粒蚌无法排出的砂砾，\n被一层又一层温柔包裹。\n\n而进入神圣城的每一扇门，\n都是一颗珍珠。\n\n通往荣耀城的入口，\n原是由一道伤痕\n化成的。",
+      "zh_reflectionPrompt": "回想你生命中曾体会过“每一颗珍珠，起初都是一道伤口——一粒蚌无法排出的砂砾，被一层又一层温柔包裹”的某个时节。借着启示录 21:21 的亮光，当你发现“通往荣耀城的入口，原是由一道伤痕化成的”时，那对你意味着什么？",
+      "zh_epigraph": "“十二个门是十二颗珍珠”",
+      "zh_ref": "启示录 21:21"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#eedda6"
       },
       "dailyWalkDay": 1630,
-      "reflectionPrompt": "Look closely at the small oil lamp in the dark in this painting (Revelation 21:23)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the small oil lamp in the dark in this painting (Revelation 21:23)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "羔羊为城的灯",
+      "zh_poem": "不用日月光照，\n也不再需要。\n\n因为有神的荣耀光照，\n又有羔羊为城的灯。\n\n那位曾自称为“世界的光”的主，\n所言绝非虚夸。",
+      "zh_reflectionPrompt": "凝视这幅画中暗处的小油灯（启示录 21:23）——如果今天你可以把一件焦虑的重担留在它旁边，你会放下什么？",
+      "zh_epigraph": "“又有羔羊为城的灯。”",
+      "zh_ref": "启示录 21:23"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#f6eddb"
       },
       "dailyWalkDay": 1631,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the moving water: what quiet prayer rises in you when you read, “the Bible ends where it began: a garden, a river, a tree, and God”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the moving water: what quiet prayer rises in you when you read, “the Bible ends where it began: a garden, a river, a tree, and God”?",
+      "zh_title": "树上的叶子乃为医治万民",
+      "zh_poem": "我们在起初的园子里失落的那棵树——\n\n如今就在这里，\n长在生命水河的两岸，\n每月都结果子，\n\n树上的叶子\n乃为医治万民。\n\n整本圣经的终点，\n回到了它的起点：\n一座园子，\n一道河流，\n一棵生命树，\n以及与人同住的神。",
+      "zh_reflectionPrompt": "让目光停留在流动的活水与光影之间：当你读到“整本圣经的终点，回到了它的起点：一座园子，一道河流，一棵生命树，以及与人同住的神”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“树上的叶子乃为医治万民。”",
+      "zh_ref": "启示录 22:1–2"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#f2e7d0"
       },
       "dailyWalkDay": 1632,
-      "reflectionPrompt": "Linger with the movement in “come” (Revelation 22:17) from “the Spirit says: come” to “the last invitation in the Bible has no fine print”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “come” (Revelation 22:17) from “the Spirit says: come” to “the last invitation in the Bible has no fine print”—where do you find yourself along that arc today?",
+      "zh_title": "请来",
+      "zh_poem": "圣灵说：来！\n新妇也说：来！\n\n口渴的人，\n也当来。\n\n愿意的人，\n都可以取生命的水喝——\n白白地取。\n\n整本圣经最后的邀请，\n没有任何附加的苛刻条件。",
+      "zh_reflectionPrompt": "细细体会《请来》（启示录 22:17）从“圣灵说：来！”到“整本圣经最后的邀请，没有任何附加的苛刻条件”的流转——今天，你发觉自己正处在这段旅程的哪个位置？",
+      "zh_epigraph": "“口渴的人也当来；愿意的，都可以白白取生命的水喝。”",
+      "zh_ref": "启示录 22:17"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#fdeab1"
       },
       "dailyWalkDay": 1633,
-      "reflectionPrompt": "Notice how “come, Lord Jesus” (Revelation 22:20–21) arrives at: “and then the last line of the whole Bible is not a warning, not a vision, but this: grace be with you all.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “come, Lord Jesus” (Revelation 22:20–21) arrives at: “and then the last line of the whole Bible is not a warning, not a vision, but this: grace be with you all.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "主耶稣啊，我愿你来",
+      "zh_poem": "是了，我必快来！\n\n而教会用我们最古老的祷告\n回应说：\n\n主耶稣啊，我愿你来！\n\n随后，整本圣经的最后一行，\n不是一句警告，\n也不是一幅异象，\n\n而是这一句：\n愿主耶稣的恩惠\n常与众圣徒同在。",
+      "zh_reflectionPrompt": "留意《主耶稣啊，我愿你来》（启示录 22:20–21）最终停留在：“随后，整本圣经的最后一行，不是一句警告，也不是一幅异象，而是这一句：愿主耶稣的恩惠常与众圣徒同在。”今天在你的生命中，有谁正走在一程艰难的路上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“阿们！主耶稣啊，我愿你来！”",
+      "zh_ref": "启示录 22:20–21"
     }
-  ]
+  ],
+  "zh_title": "我将一切都更新了",
+  "zh_subtitle": "启示录诗画集",
+  "zh_beforeYouBegin": "启示录起初是一封书信，在那个欲将教会除灭的帝国统治下，向弱小而惊惧的各处教会高声诵读。在一切表象之前，它首先是一句满有盼望的话：羔羊坐在宝座上，他正将一切都更新了。\n\n本书以四十首短诗，分五个部分走过这卷书，从流放海岛的老人，一直走到那座有生命水的河与生命树的圣城。每一首诗都配有一幅画，并置于一句经文之下。画作停留在光、宝座、灯台与园子之中，而将怪兽留给文字。\n\n这些诗并非圣经本身，只是一个读者对圣经的回应。请一面读这本书，一面翻开启示录，让神真实的话语成为最终的定音。"
 }

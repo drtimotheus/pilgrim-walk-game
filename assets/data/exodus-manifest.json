@@ -11,7 +11,10 @@
       "epigraphRef": "EXODUS 2:24",
       "startN": 1,
       "endN": 10,
-      "part": 1
+      "part": 1,
+      "zh_title": "第一部·走出芦苇丛",
+      "zh_epigraph": "神听见他们的哀声，神记念他的约",
+      "zh_epigraphRef": "EXODUS 2:24"
     },
     {
       "index": 2,
@@ -20,7 +23,10 @@
       "epigraphRef": "EXODUS 8:1",
       "startN": 11,
       "endN": 18,
-      "part": 2
+      "part": 2,
+      "zh_title": "第二部分·放我的人走",
+      "zh_epigraph": "让我的人民走吧，让他们为我服务。",
+      "zh_epigraphRef": "EXODUS 8:1"
     },
     {
       "index": 3,
@@ -29,7 +35,10 @@
       "epigraphRef": "EXODUS 14:14",
       "startN": 19,
       "endN": 27,
-      "part": 3
+      "part": 3,
+      "zh_title": "第三部分·穿越大海",
+      "zh_epigraph": "耶和华会为你争战，你就安静下来。",
+      "zh_epigraphRef": "EXODUS 14:14"
     },
     {
       "index": 4,
@@ -38,7 +47,10 @@
       "epigraphRef": "EXODUS 40:34",
       "startN": 28,
       "endN": 40,
-      "part": 4
+      "part": 4,
+      "zh_title": "第四部分·山与帐篷",
+      "zh_epigraph": "耶和华的荣光充满了会幕。",
+      "zh_epigraphRef": "EXODUS 40:34"
     }
   ],
   "cover": "assets/exodus/web/e-002-000.jpg",
@@ -62,7 +74,11 @@
         "accent": "#e8dbc5"
       },
       "dailyWalkDay": 41,
-      "reflectionPrompt": "History forgot the title of that Pharaoh, yet heaven remembered the names of Shiphrah and Puah: where is God asking for quiet, uncelebrated courage in your corner of the world?"
+      "reflectionPrompt": "History forgot the title of that Pharaoh, yet heaven remembered the names of Shiphrah and Puah: where is God asking for quiet, uncelebrated courage in your corner of the world?",
+      "zh_title": "助产士",
+      "zh_poem": "出埃及记的第一批英雄\n并不出名。\n西弗拉和普阿，\n两名助产士。\n埃及国王说：\n杀掉男孩们。\n他们回去工作了\n并交付了它们。\n瘟疫爆发之前，\n在大海之前，\n救援开始了\n和两个女人\n谁敬畏上帝\n比法老还多。",
+      "zh_reflectionPrompt": "历史忘记了法老的头衔，但上天却记住了西弗拉和普阿的名字：上帝在哪里要求你在世界的角落里安静地、不为人所知的勇气呢？",
+      "zh_ref": "出埃及记 1:15-17"
     },
     {
       "n": 2,
@@ -83,7 +99,11 @@
         "accent": "#e9d5a0"
       },
       "dailyWalkDay": 42,
-      "reflectionPrompt": "Jochebed wove a reed basket and let the current take what she could no longer hide: what person or worry do you need to move from your clenched grip into the hands of God today?"
+      "reflectionPrompt": "Jochebed wove a reed basket and let the current take what she could no longer hide: what person or worry do you need to move from your clenched grip into the hands of God today?",
+      "zh_title": "篮子",
+      "zh_poem": "当她无法再隐藏他的时候\n她做了唯一剩下的事情：\n她编织了一个篮子，\n将其密封严实，\n然后放手。\n和诺亚方舟同一个词——\n一个小方舟，\n漂浮在河上\n那是为了淹死他。\n有时信仰\n看起来像母亲的手\n开放。",
+      "zh_reflectionPrompt": "约基别编织了一个芦苇篮，让水流带走她无法再隐藏的东西：今天你需要什么人或忧虑从你紧握的手中转移到上帝的手中？",
+      "zh_ref": "出埃及记 2:1-4"
     },
     {
       "n": 3,
@@ -104,7 +124,11 @@
         "accent": "#e7dbb6"
       },
       "dailyWalkDay": 43,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “drawn out” (Exodus 2:5-10), what would you talk about after reading, “a whole nation would one day be drawn out behind him”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “drawn out” (Exodus 2:5-10), what would you talk about after reading, “a whole nation would one day be drawn out behind him”?",
+      "zh_title": "拉出来",
+      "zh_poem": "法老的亲生女儿\n发现他在芦苇丛中哭泣，\n并可怜他。\n和婴儿的妹妹\n从隐藏处走出来：\n我要给你找个护士吗？\n所以他的母亲\n已付款\n抚养自己的儿子。\n她给他起名叫摩西——\n拉出来的。\n整个国家\n有一天会被拖延\n在他身后。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“被牵引”（出埃及记2:5-10）处停下来，当你读到“有一天，全国的人都被牵引到他身后”之后，你会谈论什么？",
+      "zh_ref": "出埃及记 2:5-10"
     },
     {
       "n": 4,
@@ -125,7 +149,11 @@
         "accent": "#eae0c4"
       },
       "dailyWalkDay": 44,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “it went up”: what changes in your posture today when you sit with the closing words of “it went up”—“no cry of yours has ever stopped at the ceiling”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “it went up”: what changes in your posture today when you sit with the closing words of “it went up”—“no cry of yours has ever stopped at the ceiling”?",
+      "zh_title": "它上涨了",
+      "zh_poem": "岁月流逝。\n国王死了。\n砖头并没有停止。\n他们呻吟着，\n并哭了，\n它上涨了。\n神听见了。\n神记得了。\n神看见了。\n他很关心。\n没有你的哭泣\n曾经停止过\n在天花板上。",
+      "zh_reflectionPrompt": "在“它上升了”的安静中心部分之前停顿一下：今天，当你坐在“它上升了”的结束语——“天花板上你的哭声从未停止过”时，你的姿势有什么变化？",
+      "zh_ref": "出埃及记 2:23-25"
     },
     {
       "n": 5,
@@ -147,7 +175,11 @@
         "kind": "bush"
       },
       "dailyWalkDay": 45,
-      "reflectionPrompt": "The bush burned in the scrubland, yet God waited to speak until Moses turned aside to look: what small wonder along your ordinary path will you miss today if you don’t slow your pace?"
+      "reflectionPrompt": "The bush burned in the scrubland, yet God waited to speak until Moses turned aside to look: what small wonder along your ordinary path will you miss today if you don’t slow your pace?",
+      "zh_title": "转到一边",
+      "zh_poem": "八十岁了，\n现在是牧羊人\n远离宫殿——\n和一片着火的灌木丛\n那不会燃烧。\n他扭头看去。\n这就是所需要的一切：\n好奇心，\n绕道而行，\n一个愿意停下来的人\n看看吧。",
+      "zh_reflectionPrompt": "灌木丛中的灌木丛着火了，但上帝却等到摩西转过身来观看时才开口说话：如果你不放慢脚步，今天在你平凡的道路上，你会错过什么小奇迹呢？",
+      "zh_ref": "出埃及记 3:1-3"
     },
     {
       "n": 6,
@@ -168,7 +200,11 @@
         "accent": "#eeb55b"
       },
       "dailyWalkDay": 46,
-      "reflectionPrompt": "In Exodus 3:4-5, the story turns on the dust on your sandals—and ends with, “he turns ordinary ground holy by showing up on it.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Exodus 3:4-5, the story turns on the dust on your sandals—and ends with, “he turns ordinary ground holy by showing up on it.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "圣地",
+      "zh_poem": "脱掉你的凉鞋。\n他多年来走过的同样的泥土\n与羊。\n同样的岩石。\n圣地。\n神不只遇见我们\n在寺庙里。\n他变成平凡的地面\n神圣的\n通过出现在它上面。",
+      "zh_reflectionPrompt": "在《出埃及记》3:4-5 中，这个故事将你凉鞋上的尘土打开——并以“他通过出现在平凡的土地上，使平凡的土地变得神圣”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_ref": "出埃及记 3:4-5"
     },
     {
       "n": 7,
@@ -189,7 +225,11 @@
         "accent": "#e3d8bb"
       },
       "dailyWalkDay": 47,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Exodus 3:11-12 points us to the quiet centerpiece of “who am I?” and whispers, “the answer to a better question.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Exodus 3:11-12 points us to the quiet centerpiece of “who am I?” and whispers, “the answer to a better question.” How can you practice that unhurried wisdom today?",
+      "zh_title": "我是谁？",
+      "zh_poem": "我是谁？他问道。\n这是一个公平的问题。\n一名逃犯。一个牧羊人。\n一个逃离埃及的人\n很久以前。\n上帝没有回答。\n他没有说：\n你很坚强，\n你准备好了，\n你就够了。\n他说：\n我会和你在一起。\n答案\n一个更好的问题。",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，但出埃及记 3:11-12 却向我们指出了“我是谁？”的安静核心。并低声说道：“更好问题的答案。”今天你如何能修习这种从容的智慧呢？",
+      "zh_ref": "出埃及记 3:11-12"
     },
     {
       "n": 8,
@@ -210,7 +250,11 @@
         "accent": "#ecc35c"
       },
       "dailyWalkDay": 48,
-      "reflectionPrompt": "The poem closes with a quiet turn: “being itself, speaking. you need to know I am.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “being itself, speaking. you need to know I am.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "我是",
+      "zh_poem": "你叫什么名字？摩西问道。\n他们会想知道。\n上帝给了一个名字\n这也是一句话：\n我就是我。\n不是标题。\n不是一份工作。\n存在本身，\n说话。\n你不需要知道\n“我要做什么，”他似乎在说。\n你需要知道\n我是。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“做自己，说话。你需要知道我是。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_ref": "出埃及记 3:13-14"
     },
     {
       "n": 9,
@@ -231,7 +275,11 @@
         "accent": "#e6d5ae"
       },
       "dailyWalkDay": 49,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “he asks for what's already in your hand” (Exodus 4:1-5) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “he asks for what's already in your hand” (Exodus 4:1-5) speak to a question you have been carrying lately?",
+      "zh_title": "在你手里",
+      "zh_poem": "你手里拿着什么？\n一根棍子。\n牧羊人的手杖\n没什么特别的。\n神说：扔掉吧。\n然后：拿起它。\n那根棍子\n有一天会分裂大海。\n神很少问\n对于你没有的东西。\n他问\n对于你手中已有的东西。",
+      "zh_reflectionPrompt": "有时，一句话就能在封闭的房间里打开一扇窗：“他向你索取你手中已有的东西”（出埃及记 4:1-5）如何解答你最近一直在思考的问题？",
+      "zh_ref": "出埃及记 4:1-5"
     },
     {
       "n": 10,
@@ -252,7 +300,11 @@
         "accent": "#e3d6bc"
       },
       "dailyWalkDay": 50,
-      "reflectionPrompt": "Hold your hands open for a moment before “no straw” (Exodus 5:6-9): what are you gripping tightly that loosens when you hear, “the story isn't over in chapterfive”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “no straw” (Exodus 5:6-9): what are you gripping tightly that loosens when you hear, “the story isn't over in chapterfive”?",
+      "zh_title": "没有稻草",
+      "zh_poem": "摩西要求自由，\n事情变得更糟了。\n不再有稻草。\n相同数量的砖块。\n有时服从\n接下来是更艰难的一周\n不是更好的。\n故事还没有结束\n在第五章。",
+      "zh_reflectionPrompt": "在“没有稻草”之前张开你的双手（出埃及记 5:6-9）：当你听到“故事到第五章还没有结束”时，你紧握的是什么东西松开了？",
+      "zh_ref": "出埃及记 5:6-9"
     },
     {
       "n": 11,
@@ -273,7 +325,11 @@
         "accent": "#efdcb6"
       },
       "dailyWalkDay": 51,
-      "reflectionPrompt": "Scripture remembers this moment in Exodus 7:19-21 not to impress us, but to steady us: when have you seen the truth that “every plague that followed asked the same question: which god is really God?” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Exodus 7:19-21 not to impress us, but to steady us: when have you seen the truth that “every plague that followed asked the same question: which god is really God?” in your own story?",
+      "zh_title": "河",
+      "zh_poem": "埃及信任尼罗河。\n它养活了他们，\n给它们浇水——\n并淹死了希伯来男孩。\n所以第一个标志\n击中了河流。\n他们最信任的东西\n转而反对他们。\n随后发生的每一次瘟疫\n问了同样的问题：\n哪个神\n真的是神吗？",
+      "zh_reflectionPrompt": "圣经在出埃及记 7 章 19 至 21 节中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定下来：你什么时候见过这样的真理：“接下来的每一场瘟疫都问同样的问题：哪一位神才是真正的神？”在你自己的故事里？",
+      "zh_ref": "出埃及记 7:19-21"
     },
     {
       "n": 12,
@@ -294,7 +350,11 @@
         "accent": "#e6cc99"
       },
       "dailyWalkDay": 52,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “tomorrow” (Exodus 8:8-10), what one honest sentence would you pray beside the quiet centerpiece of “tomorrow” after reading, “how often do we choose that— one more night with the thing we're begging God to take away?”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “tomorrow” (Exodus 8:8-10), what one honest sentence would you pray beside the quiet centerpiece of “tomorrow” after reading, “how often do we choose that— one more night with the thing we're begging God to take away?”?",
+      "zh_title": "明天",
+      "zh_poem": "烤箱里的青蛙。\n床上有青蛙。\n国王自己的房间里有青蛙。\n你希望他们什么时候走？\n摩西问道。\n法老说：\n明天。\n又和青蛙度过了一晚。\n多久一次\n我们是否选择——\n再住一晚\n以及我们向上帝祈求的事情\n带走？",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“明天”（出埃及记 8:8-10）时，在读到“我们有多少次选择——再多一晚与我们祈求上帝拿走的东西在一起？”之后，除了“明天”这个安静的核心内容之外，你会祈祷哪一句诚实的句子呢？",
+      "zh_ref": "出埃及记 8:8-10"
     },
     {
       "n": 13,
@@ -315,7 +375,11 @@
         "accent": "#be864b"
       },
       "dailyWalkDay": 53,
-      "reflectionPrompt": "Between the opening line (“darkness so thick you could feel it”) and the closing thought (“so was the light in the homes that belonged to him”), what is Exodus 10:21-23 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“darkness so thick you could feel it”) and the closing thought (“so was the light in the homes that belonged to him”), what is Exodus 10:21-23 gently reframing in your own day?",
+      "zh_title": "歌珊地的光",
+      "zh_poem": "黑暗如此浓重\n你能感觉到。\n三天。\n没有人动。\n在歌珊地，\n在奴隶的家里，\n光。\n同一块土地。\n连夜。\n不同的房子。\n黑暗是真实的。\n光也是如此\n在家里\n那是属于他的。",
+      "zh_reflectionPrompt": "在开场白（“黑暗如此之深，你能感觉到”）和结束语（“他家里的光也如此”）之间，出埃及记 10:21-23 在你那个时代温和地重新构建了什么？",
+      "zh_ref": "出埃及记 10:21-23"
     },
     {
       "n": 14,
@@ -337,7 +401,11 @@
         "kind": "passover"
       },
       "dailyWalkDay": 54,
-      "reflectionPrompt": "Along the road of Let My People Go, “when I see” (Exodus 12:7-13) slows us down at your own two hands to remind us: “Christians have been reading that line ever since.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Let My People Go, “when I see” (Exodus 12:7-13) slows us down at your own two hands to remind us: “Christians have been reading that line ever since.” Where are you being invited to trade control for trust today?",
+      "zh_title": "当我看到",
+      "zh_poem": "每户人家一只羔羊。\n门框上有血迹。\n牛膝草在手上。\n不是因为神需要一个征兆\n找到他们。\n因为他们需要一个\n知道\n站在哪里。\n当我看到血的时候\n我会忽略你。\n基督徒一直在读\n那条线\n从那时起。",
+      "zh_reflectionPrompt": "沿着让我的人民走的路，“当我看见”（出埃及记12:7-13）时，你用两只手放慢了我们的速度，提醒我们：“从那时起，基督徒就一直在读这句话。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_ref": "出埃及记 12:7-13"
     },
     {
       "n": 15,
@@ -358,7 +426,11 @@
         "accent": "#edd7ab"
       },
       "dailyWalkDay": 55,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “in haste” (Exodus 12:8-11), what would you talk about after reading, “it's the last supper of slaves and the first breakfast of free people”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “in haste” (Exodus 12:8-11), what would you talk about after reading, “it's the last supper of slaves and the first breakfast of free people”?",
+      "zh_title": "匆忙中",
+      "zh_poem": "站着吃。\n皮带系紧。\n凉鞋。\n工作人员在手。\n这不是一顿饭\n为缠绵。\n这是最后的晚餐\n奴隶的\n和第一顿早餐\n自由人民。",
+      "zh_reflectionPrompt": "如果你和一个亲密的朋友一起走在这条路上，并“匆忙”停下来（出埃及记12:8-11），当你读到“这是奴隶的最后的晚餐和自由人的第一顿早餐”之后，你会谈论什么？",
+      "zh_ref": "出埃及记 12:8-11"
     },
     {
       "n": 16,
@@ -379,7 +451,11 @@
         "accent": "#d3c7a8"
       },
       "dailyWalkDay": 56,
-      "reflectionPrompt": "Pause before the daily loaf broken in the hand: what changes in your posture today when you sit with the closing words of “no time to rise”—“freedom came so fast the bread couldn't keep up”?"
+      "reflectionPrompt": "Pause before the daily loaf broken in the hand: what changes in your posture today when you sit with the closing words of “no time to rise”—“freedom came so fast the bread couldn't keep up”?",
+      "zh_title": "没有时间起身",
+      "zh_poem": "没有时间让面包发酵。\n他们把面团绑在斗篷里，\n揉面碗等等，\n走出埃及\n早餐就在他们的肩上。\n自由来得这么快\n面包\n跟不上。",
+      "zh_reflectionPrompt": "在每天的面包在手上折断之前停顿一下：当你坐下来，以“没有时间起床”的结束语——“自由来得如此之快，面包跟不上”时，你的姿势有什么变化？",
+      "zh_ref": "出埃及记 12:33-34"
     },
     {
       "n": 17,
@@ -400,7 +476,11 @@
         "accent": "#efd0a1"
       },
       "dailyWalkDay": 57,
-      "reflectionPrompt": "Look at the stillness of the table set before you in Timothy’s painting: what striving can you lay down as you ponder, “every year, at the same table, tell it again” (Exodus 13:3)?"
+      "reflectionPrompt": "Look at the stillness of the table set before you in Timothy’s painting: what striving can you lay down as you ponder, “every year, at the same table, tell it again” (Exodus 13:3)?",
+      "zh_title": "记住",
+      "zh_poem": "记住。\n因为你会忘记。\n干裂的手。\n砖块。\n哭声响起。\n回忆\n没有向后看。\n这就是你保持自由的方式。\n每年，在同一张桌子上，\n再说一遍。",
+      "zh_reflectionPrompt": "看看提摩太画中摆在你面前的寂静的桌子：当你思考“每年同一张桌子上，再说一遍”（出埃及记 13:3）时，你能付出什么努力呢？",
+      "zh_ref": "出埃及记 13:3"
     },
     {
       "n": 18,
@@ -421,7 +501,11 @@
         "accent": "#fbd283"
       },
       "dailyWalkDay": 58,
-      "reflectionPrompt": "In Exodus 13:21-22, the story turns on the warmth of the fire—and ends with, “it's how he has led his people ever since.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Exodus 13:21-22, the story turns on the warmth of the fire—and ends with, “it's how he has led his people ever since.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "支柱",
+      "zh_poem": "白天，一片云。\n到了晚上，火。\n他们从来没有地图。\n他们有存在\n那移动了。\n当它走了，他们就走了。\n当它停止时，他们也停止了。\n这是一种奇怪的旅行方式。\n这就是他的领导方式\n他的人民\n从那时起。",
+      "zh_reflectionPrompt": "在出埃及记 13 章 21 至 22 节中，故事以火的温暖为起点，并以“从那以后他就这样带领他的子民”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_ref": "出埃及记 13:21-22"
     },
     {
       "n": 19,
@@ -442,7 +526,11 @@
         "accent": "#fbe9c4"
       },
       "dailyWalkDay": 59,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Exodus 14:10-14 points us to the quiet centerpiece of “stand still” and whispers, “sometimes faith is doing nothing— not out of fear, but out of trust that someone else is about to move.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Exodus 14:10-14 points us to the quiet centerpiece of “stand still” and whispers, “sometimes faith is doing nothing— not out of fear, but out of trust that someone else is about to move.” How can you practice that unhurried wisdom today?",
+      "zh_title": "站着不动",
+      "zh_poem": "前面就是大海。\n后面的军队。\n无处可去。\n摩西说：\n别害怕。\n站住。\n主会为你而战。\n有时信仰\n无所事事——\n并非出于恐惧，\n但出于信任\n那个别人\n即将移动。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而出埃及记 14:10-14 向我们指出了“静止不动”的安静核心，并低声说道，“有时信心就是什么也不做——不是出于恐惧，而是出于相信别人即将移动。”今天你如何能修习这种从容的智慧呢？",
+      "zh_ref": "出埃及记 14:10-14"
     },
     {
       "n": 20,
@@ -464,7 +552,11 @@
         "kind": "redsea"
       },
       "dailyWalkDay": 60,
-      "reflectionPrompt": "The poem closes with a quiet turn: “sometimes he makes a road through it.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “sometimes he makes a road through it.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "一条路经过",
+      "zh_poem": "整个晚上\n东风吹了。\n早上，\n一条路\n大海曾经在的地方。\n水墙\n在右边\n在左边，\n和一整个民族\n走过\n在干燥的地面上。\n他并不总是\n带走大海。\n有时\n他在其中开辟了一条路。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“有时他会在其中开辟一条路。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_ref": "出埃及记 14:21-22"
     },
     {
       "n": 21,
@@ -485,7 +577,11 @@
         "accent": "#ddd2b0"
       },
       "dailyWalkDay": 61,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “sing to the Lord, she called— and a song was born with wet feet” (Exodus 15:20-21) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “sing to the Lord, she called— and a song was born with wet feet” (Exodus 15:20-21) speak to a question you have been carrying lately?",
+      "zh_title": "湿脚",
+      "zh_poem": "首先是十字路口的寂静，\n然后远方的彼岸，\n然后米里亚姆\n拿起手鼓。\n每个女人都追随她，\n在沙子上跳舞。\n向主歌唱，\n她打电话说——\n和一首歌\n出生了\n脚湿了。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“她呼唤耶和华，歌声便从湿脚中诞生”（出埃及记 15:20-21）如何解答您最近一直在思考的问题？",
+      "zh_ref": "出埃及记 15:20-21"
     },
     {
       "n": 22,
@@ -506,7 +602,11 @@
         "accent": "#dacba7"
       },
       "dailyWalkDay": 62,
-      "reflectionPrompt": "Hold your hands open for a moment before “bitter water” (Exodus 15:22-25): what are you gripping tightly that loosens when you hear, “he is patient with short memories”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “bitter water” (Exodus 15:22-25): what are you gripping tightly that loosens when you hear, “he is patient with short memories”?",
+      "zh_title": "苦水",
+      "zh_poem": "奇迹发生三天后\n他们口渴了，\n水很苦。\n没过多久\n忘记大海。\n上帝并没有责骂。\n他向摩西展示一棵树，\n然后树就进入了水中，\n水变甜了。\n他很有耐心\n记忆短暂。",
+      "zh_reflectionPrompt": "在“喝苦水”之前张开双手（出埃及记 15:22-25）：当你听到“他对短暂的记忆有耐心”时，你紧握的是什么东西就松开了？",
+      "zh_ref": "出埃及记 15:22-25"
     },
     {
       "n": 23,
@@ -527,7 +627,11 @@
         "accent": "#e7d7b2"
       },
       "dailyWalkDay": 63,
-      "reflectionPrompt": "Scripture remembers this moment in Exodus 16:13-15 not to impress us, but to steady us: when have you seen the truth that “they could only gather it and give thanks” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Exodus 16:13-15 not to impress us, but to steady us: when have you seen the truth that “they could only gather it and give thanks” in your own story?",
+      "zh_title": "它是什么？",
+      "zh_poem": "面包的名字\n是一个问题：\n它是什么？\n像地上的霜一样的片片\n每天早上\n四十年来。\n他们永远无法解释它。\n他们只能\n收集它\n并致谢。",
+      "zh_reflectionPrompt": "圣经在出埃及记 16:13-15 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“他们只能拾取感谢”的真理？",
+      "zh_ref": "出埃及记 16:13-15"
     },
     {
       "n": 24,
@@ -548,7 +652,11 @@
         "accent": "#ebe0b9"
       },
       "dailyWalkDay": 64,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “enough” (Exodus 16:16-18), what one honest sentence would you pray beside the daily loaf broken in the hand after reading, “it was also a lesson in how God's economy works”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “enough” (Exodus 16:16-18), what one honest sentence would you pray beside the daily loaf broken in the hand after reading, “it was also a lesson in how God's economy works”?",
+      "zh_title": "够了",
+      "zh_poem": "有些聚集了很多。\n有些聚集了一点。\n当他们测量它时，\n每个人都受够了。\n无人囤积。\n没有人饿。\n这是面包。\n这也是一个教训\n神的经纶如何\n作品。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“够了”时（出埃及记16:16-18），读完“这也是神的经纶如何运作的一课”之后，除了每天用手擘开的面包之外，你还会祈祷哪一句诚实的句子呢？",
+      "zh_ref": "出埃及记 16:16-18"
     },
     {
       "n": 25,
@@ -569,7 +677,11 @@
         "accent": "#ece4d4"
       },
       "dailyWalkDay": 65,
-      "reflectionPrompt": "Between the opening line (“they argued. they tested”) and the closing thought (“when we are at our most unreasonable, he is still bringing water out of the hardest place”), what is Exodus 17:3-6 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“they argued. they tested”) and the closing thought (“when we are at our most unreasonable, he is still bringing water out of the hardest place”), what is Exodus 17:3-6 gently reframing in your own day?",
+      "zh_title": "来自石头的水",
+      "zh_poem": "他们争辩道。\n他们测试了。\n他们差点用石头砸死他。\n上帝说：\n我会站在岩石上。\n打击它。\n水来自石头。\n当我们最不讲道理的时候\n他仍然\n带水\n走出最困难的地方。",
+      "zh_reflectionPrompt": "在开场白（“他们争论。他们试验”）和结束语（“当我们最不合理的时候，他仍然从最艰难的地方带来水”）之间，出埃及记 17:3-6 在你那个时代温和地重新构建了什么？",
+      "zh_ref": "出埃及记 17:3-6"
     },
     {
       "n": 26,
@@ -590,7 +702,11 @@
         "accent": "#fdb66a"
       },
       "dailyWalkDay": 66,
-      "reflectionPrompt": "Along the road of Let My People Go, “held-up hands” (Exodus 17:11-12) slows us down at the stone well in the heat of the day to remind us: “find your Aaron. find your Hur. be one.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Let My People Go, “held-up hands” (Exodus 17:11-12) slows us down at the stone well in the heat of the day to remind us: “find your Aaron. find your Hur. be one.” Where are you being invited to trade control for trust today?",
+      "zh_title": "举起的手",
+      "zh_poem": "战斗进行得很顺利\n当他举起双手时，\n而且很糟糕\n当他们掉落时。\n他的手臂感到疲倦了。\n于是他们让他坐在一块石头上，\n和两个朋友\n举起双手，\n两侧各一个，\n直到太阳落山。\n没人能坚持住\n整天独自一人。\n找到你的亚伦。\n找到你的胡尔。\n成为一体。",
+      "zh_reflectionPrompt": "沿着让我的人民走的路，“举起的手”（出埃及记 17:11-12）在炎热的天气里让我们在石头井旁放慢速度，提醒我们：“找到你的亚伦。找到你的胡尔。合而为一。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_ref": "出埃及记 17:11-12"
     },
     {
       "n": 27,
@@ -611,7 +727,11 @@
         "accent": "#debb9e"
       },
       "dailyWalkDay": 67,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “too heavy” (Exodus 18:13-18), what would you talk about after reading, “sometimes the wisest advice comes from your in-laws: get help. share the load”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “too heavy” (Exodus 18:13-18), what would you talk about after reading, “sometimes the wisest advice comes from your in-laws: get help. share the load”?",
+      "zh_title": "太重了",
+      "zh_poem": "从早到晚，\n摩西解决了所有争端\n他自己。\n他的岳父看着\n并说：\n这不好。\n你会筋疲力尽的。\n你无法独自完成这件事。\n有时是最明智的建议\n来自你的姻亲：\n寻求帮助。\n分担负载。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“太重”处停下来（出埃及记18:13-18），在读到“有时最明智的建议来自你的姻亲：寻求帮助。分担负担”后，你会谈论什么？",
+      "zh_ref": "出埃及记 18:13-18"
     },
     {
       "n": 28,
@@ -632,7 +752,11 @@
         "accent": "#e9ddbe"
       },
       "dailyWalkDay": 68,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “eagles' wings”: what changes in your posture today when you sit with the closing words of “eagles' wings”—“not to a place. not to a law. to me”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “eagles' wings”: what changes in your posture today when you sit with the closing words of “eagles' wings”—“not to a place. not to a law. to me”?",
+      "zh_title": "老鹰的翅膀",
+      "zh_poem": "在规则之前，\n提醒：\n你看到了我所做的。\n我背着你\n在鹰的翅膀上。\n我带你来了\n对我自己。\n不去一个地方。\n不是法律。\n大部头书。",
+      "zh_reflectionPrompt": "在“鹰的翅膀”安静的中心部分前停顿一下：今天，当你坐在“鹰的翅膀”的结束语——“不针对某个地方。不针对法律。针对我”时，你的姿势有什么变化？",
+      "zh_ref": "出埃及记 19:3-4"
     },
     {
       "n": 29,
@@ -653,7 +777,11 @@
         "accent": "#e9af67"
       },
       "dailyWalkDay": 69,
-      "reflectionPrompt": "Look at the stillness of the clear note of the horn in Timothy’s painting: what striving can you lay down as you ponder, “and yet— he came down. to them. to talk” (Exodus 19:16-18)?"
+      "reflectionPrompt": "Look at the stillness of the clear note of the horn in Timothy’s painting: what striving can you lay down as you ponder, “and yet— he came down. to them. to talk” (Exodus 19:16-18)?",
+      "zh_title": "山冒烟",
+      "zh_poem": "雷声。闪电。\n喇叭声越来越大。\n整座山都在震动。\n这不是一个驯服的上帝。\n然而——\n他下来了。\n给他们。\n说话。",
+      "zh_reflectionPrompt": "看看提摩太画中清晰的号角声：当你思考“然而，他却下来，到他们那里，说话”（出埃及记 19:16-18）时，你还能付出什么努力呢？",
+      "zh_ref": "出埃及记 19:16-18"
     },
     {
       "n": 30,
@@ -674,7 +802,11 @@
         "accent": "#f7e18d"
       },
       "dailyWalkDay": 70,
-      "reflectionPrompt": "In Exodus 20:1-3, the story turns on the stone pillow at Bethel—and ends with, “it's the shape of life after.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Exodus 20:1-3, the story turns on the stone pillow at Bethel—and ends with, “it's the shape of life after.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "谁带你出来的",
+      "zh_poem": "诫命开始\n不是用命令\n但有救援：\n是我把你带出来的。\n他首先拯救他们。\n然后他告诉他们\n人们生活多么自由。\n法律不是梯子\n出埃及。\n这就是生命的形状\n之后。",
+      "zh_reflectionPrompt": "在出埃及记 20 章 1-3 节中，故事以伯特利的石枕为背景，并以“这就是死后生命的形状”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_ref": "出埃及记 20:1-3"
     },
     {
       "n": 31,
@@ -695,7 +827,11 @@
         "accent": "#f4b58f"
       },
       "dailyWalkDay": 71,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Exodus 20:8-11 points us to the quiet centerpiece of “a day off” and whispers, “you are not Pharaoh's. you are his.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Exodus 20:8-11 points us to the quiet centerpiece of “a day off” and whispers, “you are not Pharaoh's. you are his.” How can you practice that unhurried wisdom today?",
+      "zh_title": "休息一天",
+      "zh_poem": "奴隶从来没有休息过一天。\n所以上帝赐予的第一件事之一\n解放了奴隶，\n直接写入法律，\n是休息。\n七分之一\n要记住：\n你不是砖头。\n你不是法老的。\n你是他的。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而出埃及记 20:8-11 向我们指出了“休息日”的安静核心，并低声说道：“你不是法老的，你是他的。”今天你如何能修习这种从容的智慧呢？",
+      "zh_ref": "出埃及记 20:8-11"
     },
     {
       "n": 32,
@@ -716,7 +852,11 @@
         "accent": "#dec79e"
       },
       "dailyWalkDay": 72,
-      "reflectionPrompt": "The poem closes with a quiet turn: “sometimes he is waiting in the part we can't see through.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “sometimes he is waiting in the part we can't see through.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "浓浓的黑暗",
+      "zh_poem": "人们站在远处。\n摩西走近了一些——\n进入浓浓的黑暗，\n神在哪里。\n我们期待找到他\n在光中。\n有时他在等待\n在部分\n我们看不透。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“有时他在我们看不透的地方等待。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_ref": "出埃及记 20:18-21"
     },
     {
       "n": 33,
@@ -737,7 +877,11 @@
         "accent": "#ebc784"
       },
       "dailyWalkDay": 73,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “we still do it— melt down what God gave us into something smaller we can hold” (Exodus 32:1-4) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “we still do it— melt down what God gave us into something smaller we can hold” (Exodus 32:1-4) speak to a question you have been carrying lately?",
+      "zh_title": "小牛",
+      "zh_poem": "四十天是一段很长的时间\n在山上等一个人。\n所以他们摘下了耳环\n并创造了一个神\n他们可以看到，\n并说：\n这是救了你的人。\n那是一头小牛。\n它无法拯救任何东西。\n我们仍然这样做——\n融化上帝赐予我们的一切\n变成更小的东西\n我们可以坚持。",
+      "zh_reflectionPrompt": "有时候，一句话会在封闭的房间里打开一扇窗：“我们仍然这样做——将上帝所赐给我们的东西融化成我们可以握住的更小的东西”（出埃及记32:1-4）解答了您最近一直提出的一个问题？",
+      "zh_ref": "出埃及记 32:1-4"
     },
     {
       "n": 34,
@@ -758,7 +902,11 @@
         "accent": "#e4d0ad"
       },
       "dailyWalkDay": 74,
-      "reflectionPrompt": "Hold your hands open for a moment before “blot me out” (Exodus 32:30-32): what are you gripping tightly that loosens when you hear, “it wouldn't be the last time someone stood between God's people and what they deserved, and off ered himself”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “blot me out” (Exodus 32:30-32): what are you gripping tightly that loosens when you hear, “it wouldn't be the last time someone stood between God's people and what they deserved, and off ered himself”?",
+      "zh_title": "把我抹掉",
+      "zh_poem": "摩西祈求饶恕他们。\n如果你不——\n而是把我从你的书中抹掉。\n他宁愿失去自己的位置\n而不是失去他们。\n这不会是最后一次\n有人站着\n神的子民之间\n以及他们应得的，\n并献出了自己。",
+      "zh_reflectionPrompt": "在“涂抹我”之前，请张开你的双手（出埃及记 32:30-32）：当你听到“这不是最后一次有人站在神的子民和他们应得的之间，并献上自己”时，你紧握的是什么松开了？",
+      "zh_ref": "出埃及记 32:30-32"
     },
     {
       "n": 35,
@@ -779,7 +927,11 @@
         "accent": "#f6dba1"
       },
       "dailyWalkDay": 75,
-      "reflectionPrompt": "Scripture remembers this moment in Exodus 33:7-11 not to impress us, but to steady us: when have you seen the truth that “that was the tent's secret: the God of the smoking mountain wanted someone to talk with” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Exodus 33:7-11 not to impress us, but to steady us: when have you seen the truth that “that was the tent's secret: the God of the smoking mountain wanted someone to talk with” in your own story?",
+      "zh_title": "作为朋友",
+      "zh_poem": "不像国王对待仆人。\n不是作为被告的法官。\n作为一个男人\n和他的朋友说话。\n这就是帐篷的秘密：\n冒烟山之神\n想要某人\n交谈。",
+      "zh_reflectionPrompt": "圣经在出埃及记 33:7-11 中记住这一时刻，不是为了给我们留下深刻的印象，而是为了让我们稳定：你什么时候在你自己的故事中看到了“那是帐幕的秘密：冒烟的山的神想要有人说话”的真理？",
+      "zh_ref": "出埃及记 33:7-11"
     },
     {
       "n": 36,
@@ -800,7 +952,11 @@
         "accent": "#f8de9b"
       },
       "dailyWalkDay": 76,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “the cleft of the rock” (Exodus 33:18-23), what one honest sentence would you pray beside your own two hands after reading, “sometimes that's how we see him: looking back, from the cleft, at the glory that just went by”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “the cleft of the rock” (Exodus 33:18-23), what one honest sentence would you pray beside your own two hands after reading, “sometimes that's how we see him: looking back, from the cleft, at the glory that just went by”?",
+      "zh_title": "岩石的裂缝",
+      "zh_poem": "让我看看你的荣耀，他问道。\n上帝说：\n没有人能看到我的脸并活着。\n但我会把你藏在岩石里\n并用我的手遮盖你，\n并经过，\n你会看到\n我去过哪里。\n有时我们就是这样看待他的：\n回顾过去，\n从裂缝中，\n在荣耀里\n就这样过去了。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“磐石穴”（出埃及记 33:18-23）时，读到“有时我们就是这样看他的：从穴中回头看，看到刚刚过去的荣耀”，你会在自己的两只手旁祈祷哪一句诚实的句子呢？",
+      "zh_ref": "出埃及记 33:18-23"
     },
     {
       "n": 37,
@@ -821,7 +977,11 @@
         "accent": "#feeda2"
       },
       "dailyWalkDay": 77,
-      "reflectionPrompt": "Between the opening line (“Moses asked to see his glory, and God answered with his name: merciful”) and the closing thought (“this is who he said he is, the morning after the calf”), what is Exodus 34:5-7 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“Moses asked to see his glory, and God answered with his name: merciful”) and the closing thought (“this is who he said he is, the morning after the calf”), what is Exodus 34:5-7 gently reframing in your own day?",
+      "zh_title": "他的名字",
+      "zh_poem": "摩西求见他的荣耀，\n上帝回答了\n和他的名字：\n仁慈的。\n亲切。\n慢慢地发怒。\n满溢着爱\n和忠诚。\n先知们会引用这些话\n几个世纪以来——\n甚至约拿，\n抱怨。\n这就是他所说的他\n小牛出生后的第二天早上。",
+      "zh_reflectionPrompt": "在开场白（“摩西求见他的荣耀，神以他的名：仁慈的”回答）和结束语（“牛犊之后的早晨，他说他就是这样的人”）之间，《出埃及记》34:5-7 在你那个时代温和地重构了什么？",
+      "zh_ref": "出埃及记 34:5-7"
     },
     {
       "n": 38,
@@ -842,7 +1002,11 @@
         "accent": "#efce74"
       },
       "dailyWalkDay": 78,
-      "reflectionPrompt": "Along the road of Let My People Go, “shining” (Exodus 34:29-35) slows us down at the long climb up the hill to remind us: “time with God shows on people before they know it does.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Let My People Go, “shining” (Exodus 34:29-35) slows us down at the long climb up the hill to remind us: “time with God shows on people before they know it does.” Where are you being invited to trade control for trust today?",
+      "zh_title": "闪亮",
+      "zh_poem": "他从山上下来\n他的脸闪闪发亮，\n并且不知道。\n这就是最好的光芒——\n你没有注意到的那种\n你穿着。\n与神同在的时间\n表现在人身上\n在他们意识到之前。",
+      "zh_reflectionPrompt": "沿着让我的百姓走的路，“照耀”（出埃及记 34:29-35）让我们在漫长的爬山过程中放慢脚步，提醒我们：“与神在一起的时间在人们不知不觉中就显现出来了。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_ref": "出埃及记 34:29-35"
     },
     {
       "n": 39,
@@ -863,7 +1027,11 @@
         "accent": "#e3d4af"
       },
       "dailyWalkDay": 79,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “more than enough” (Exodus 36:3-7), what would you talk about after reading, “grace does that to a closed hand”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “more than enough” (Exodus 36:3-7), what would you talk about after reading, “grace does that to a closed hand”?",
+      "zh_title": "绰绰有余",
+      "zh_poem": "那些捐出黄金的人\n做一头小牛\n现在给了它\n为神建造一个家——\n这么多\n摩西不得不说：\n停下来。\n我们已经足够了。\n想象一个建筑项目\n他们必须告诉人们的地方\n停止给予。\n恩典就是这样做的\n到一只紧握的手。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“绰绰有余”处停下来（出埃及记 36:3-7），那么在读到“紧握的手有恩典”之后，你会谈论什么？",
+      "zh_ref": "出埃及记 36:3-7"
     },
     {
       "n": 40,
@@ -885,7 +1053,14 @@
         "kind": "tabernacle"
       },
       "dailyWalkDay": 80,
-      "reflectionPrompt": "Pause before the warmth of the fire: what changes in your posture today when you sit with the closing words of “moving in”—“he came to live in the middle of the camp”?"
+      "reflectionPrompt": "Pause before the warmth of the fire: what changes in your posture today when you sit with the closing words of “moving in”—“he came to live in the middle of the camp”?",
+      "zh_title": "搬入",
+      "zh_poem": "这本书开始了\n和奴隶一起做砖\n为法老的城市。\n结束了\n与自由的人们\n为神设立帐幕——\n和神进来了。\n白天云。\n夜间起火。\n经历他们所有的旅程。\n他不只是把它们带出来。\n他来住\n在营地的中间。",
+      "zh_reflectionPrompt": "在温暖的炉火前停顿一下：今天，当你坐下来，以“搬进来”结束语——“他来到营地中央居住”时，你的姿势有什么变化？",
+      "zh_ref": "出埃及记 40:34-38"
     }
-  ]
+  ],
+  "zh_title": "容我的百姓去",
+  "zh_subtitle": "出埃及记诗画集",
+  "zh_beforeYouBegin": "出埃及记从埃及的砖窑跑到沙漠中的一个帐篷，上帝就住在营地中间：芦苇中的篮子，燃烧的灌木丛，有标记的门口，一条穿过大海的路，从天而降的面包，一座着火的山。\n\n本书分为四个部分，用四十首短诗来讲述它。每首诗都位于一幅画旁边和一行经文之下。它没有涵盖每一章；它停在承载故事的时刻。\n\n这些诗不是圣经。它们是一位读者对此的回应。与这本书一起打开《出埃及记》，让真实的话语成为最终的结论。"
 }

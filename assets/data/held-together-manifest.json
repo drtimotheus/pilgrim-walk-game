@@ -16,7 +16,10 @@
       "epigraph": "He is the image of the invisible God, the firstborn of all creation.",
       "epigraphRef": "Colossians 1:15",
       "lightName": "Light of The Image of the Invisible God",
-      "lightHint": "Near 'bearing fruit' (Colossians 1:5–6) in Part 1: The Image of the Invisible God"
+      "lightHint": "Near 'bearing fruit' (Colossians 1:5–6) in Part 1: The Image of the Invisible God",
+      "zh_title": "那不能看见之神的像",
+      "zh_epigraph": "爱子是那不能看见之神的像，是首生的，在一切被造的以先。",
+      "zh_epigraphRef": "歌罗西书 1:15"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "walk in him, rooted and built up in him, and established in the faith",
       "epigraphRef": "Colossians 2:6–7",
       "lightName": "Light of Rooted and Built Up",
-      "lightHint": "Near 'knit together' (Colossians 2:1–2) in Part 2: Rooted and Built Up"
+      "lightHint": "Near 'knit together' (Colossians 2:1–2) in Part 2: Rooted and Built Up",
+      "zh_title": "生根建造",
+      "zh_epigraph": "就当遵他而行，在他里面生根建造，信心坚固",
+      "zh_epigraphRef": "歌罗西书 2:6–7"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Put on therefore, as God ’s chosen ones, holy and beloved, a heart of compassion",
       "epigraphRef": "Colossians 3:12",
       "lightName": "Light of Put On Compassion",
-      "lightHint": "Near 'new clothes' (Colossians 3:9–10) in Part 3: Put On Compassion"
+      "lightHint": "Near 'new clothes' (Colossians 3:9–10) in Part 3: Put On Compassion",
+      "zh_title": "存怜悯的心",
+      "zh_epigraph": "所以，你们既是神的选民，圣洁蒙爱的人，就要存怜悯、恩慈、谦虚、温柔、忍耐的心。",
+      "zh_epigraphRef": "歌罗西书 3:12"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "no longer as a slave, but more than a slave, a beloved brother",
       "epigraphRef": "Philemon 1:16",
       "lightName": "Light of More Than a Slave",
-      "lightHint": "Near 'the church in your house' (Philemon 1:1–2) in Part 4: More Than a Slave"
+      "lightHint": "Near 'the church in your house' (Philemon 1:1–2) in Part 4: More Than a Slave",
+      "zh_title": "不再是奴仆",
+      "zh_epigraph": "不再是奴仆，乃是高过奴仆，是亲爱的兄弟。",
+      "zh_epigraphRef": "腓利门书 1:16"
     }
   ],
   "paintings": [
@@ -69,7 +81,12 @@
         "accent": "#e1d3ad"
       },
       "dailyWalkDay": 1340,
-      "reflectionPrompt": "In Colossians 1:5–6, grace meets us right beside the warm cloak: how does the closing thought—“now it's growing here, and there, and everywhere at once— the same good news putting out the same green leaves in you”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Colossians 1:5–6, grace meets us right beside the warm cloak: how does the closing thought—“now it's growing here, and there, and everywhere at once— the same good news putting out the same green leaves in you”—steady your footing for the road ahead?",
+      "zh_title": "结果增长",
+      "zh_poem": "起初并没有人\n刻意将它栽种。\n\n一句道随风飘来，\n粘在某人的外袍上，\n落进幽静山谷里的\n一座小城，\n\n便扎下了根。\n\n如今它正在生长，\n在这里，在那里，\n在普天之下\n同时发旺——\n\n同一个好消息，\n在你里面，\n正抽出同样的\n翠绿新叶。",
+      "zh_reflectionPrompt": "在歌罗西书 1:5–6 中，恩典就在温暖的外袍旁迎见我们：结尾的思索——“如今它正在生长，在这里，在那里，在普天之下同时发旺——同一个好消息，在你里面，正抽出同样的翠绿新叶”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“这福音传到你们那里，也传到普天之下，并且结果，增长，如同在你们中间”",
+      "zh_ref": "歌罗西书 1:5–6"
     },
     {
       "n": 2,
@@ -90,7 +107,12 @@
         "accent": "#ead4a9"
       },
       "dailyWalkDay": 1341,
-      "reflectionPrompt": "If today’s painting of “the one who carried word” (Colossians 1:7–8) hung beside the door you walk out of this morning, how would its final line—“they love each other. you should see them”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the one who carried word” (Colossians 1:7–8) hung beside the door you walk out of this morning, how would its final line—“they love each other. you should see them”—shape your choices?",
+      "zh_title": "传信的人",
+      "zh_poem": "以巴弗起先教导了他们。\n随后他跋涉千里，\n一路走到保罗那里，\n\n而他带来的，\n不是一个亟待解决的难题，\n也不是一场需要评判的争论。\n\n乃是关于他们\n如何彼此相爱的消息。\n\n有些信使\n满怀怨言而来。\n\n愿你作另一种人——\n不辞长路跋涉，\n只为告诉人说：\n他们很好。\n他们彼此相爱。\n你真该亲眼看看他们。",
+      "zh_reflectionPrompt": "如果今天这幅《传信的人》（歌罗西书 1:7–8）就挂在你清晨出门的门旁，它最后那句——“他们彼此相爱。你真该亲眼看看他们”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“也把你们因圣灵所存的爱心告诉了我们。”",
+      "zh_ref": "歌罗西书 1:7–8"
     },
     {
       "n": 3,
@@ -111,7 +133,12 @@
         "accent": "#fff5d6"
       },
       "dailyWalkDay": 1342,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Colossians 1:11)—where in your own home or work today does “heaven's full strength poured into one more day of not giving up— and somehow, joy” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Colossians 1:11)—where in your own home or work today does “heaven's full strength poured into one more day of not giving up— and somehow, joy” ring true?",
+      "zh_title": "长路上的心力",
+      "zh_poem": "各样的力。\n他荣耀的权能。\n\n这大能究竟是为了什么呢？\n\n不是为了呼风唤雨的闪电。\n也不是为了在午饭前\n行出一件神迹。\n\n乃是为着忍耐。\n为着宽容。\n为着寻常一周里\n那漫长而平淡的中途。\n\n天上丰盛的能力，\n倾注在\n多坚持一天、不肯放弃的\n脚步里——\n\n并且不知怎的，\n带着喜乐。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（歌罗西书 1:11）——今天在你的家中或工作里，何处让你真切体会到“天上丰盛的能力，倾注在多坚持一天、不肯放弃的脚步里——并且不知怎的，带着喜乐”？",
+      "zh_epigraph": "“照他荣耀的权能，得以在各样的力上加力，好叫你们凡事欢欢喜喜地忍耐宽容”",
+      "zh_ref": "歌罗西书 1:11"
     },
     {
       "n": 4,
@@ -132,7 +159,12 @@
         "accent": "#f2d799"
       },
       "dailyWalkDay": 1343,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “the kingdom of the Son of his love.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “the kingdom of the Son of his love.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "救我们脱离黑暗",
+      "zh_poem": "你并非靠自己\n走出来的。\n\n你是被抱出来的，\n就如有人把一个熟睡的孩童\n从昏暗的门廊抱起，\n带进灯火通明的屋内。\n\n看哪，当你醒来时，\n你身处谁的国度：\n\n不是强者的国，\n也不是精明之人的国。\n\n乃是他爱子的\n国。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“乃是他爱子的国。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“他救了我们脱离黑暗的权势，把我们迁到他爱子的国里。”",
+      "zh_ref": "歌罗西书 1:13"
     },
     {
       "n": 5,
@@ -153,7 +185,12 @@
         "accent": "#ddcfb3"
       },
       "dailyWalkDay": 1344,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “no one has seen God.” Looking through the lens of Colossians 1:15, what does it mean to discover that “then he stepped into a body and the invisible became someone you could walk beside. that's the whole picture”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “no one has seen God.” Looking through the lens of Colossians 1:15, what does it mean to discover that “then he stepped into a body and the invisible became someone you could walk beside. that's the whole picture”?",
+      "zh_title": "神的像",
+      "zh_poem": "从来没有人看见神。\n\n我们曾揣测。\n我们曾惧怕。\n我们曾把他描绘得\n太遥远、太庞大、\n也太盛怒。\n\n直到他走进\n一具血肉之躯，\n\n那不能看见的，\n便成了一位\n你可以与他并肩同行的主。\n\n若你想知道\n神是怎样的，\n\n请看耶稣吧。\n那便是整幅画卷。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“从来没有人看见神”的渺茫感。透过歌罗西书 1:15 的眼光，发现“直到他走进一具血肉之躯，那不能看见的，便成了一位你可以与他并肩同行的主。那便是整幅画卷”，对你而言意味着什么？",
+      "zh_epigraph": "“爱子是那不能看见之神的像”",
+      "zh_ref": "歌罗西书 1:15"
     },
     {
       "n": 6,
@@ -174,7 +211,12 @@
         "accent": "#e9ddbf"
       },
       "dailyWalkDay": 1345,
-      "reflectionPrompt": "Look closely at the quiet stars overhead in this painting (Colossians 1:17)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet stars overhead in this painting (Colossians 1:17)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "万有靠他而立",
+      "zh_poem": "石拱门上的每一块石头，\n都在倾斜，\n都向着地面坠落。\n\n惟有顶端的那块拱心石，\n托住众石，\n使它们不致坍塌。\n\n星辰。\n微尘。\n清晨。\n婚姻。\n以及你今日信心里\n那根快要磨断的细线。\n\n在万有之先，\n他已经存在。\n\n而在他里面，\n万有至今\n仍被稳稳托住。",
+      "zh_reflectionPrompt": "细看这幅画中（歌罗西书 1:17）头顶静默的繁星——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“他在万有之先；万有也靠他而立。”",
+      "zh_ref": "歌罗西书 1:17"
     },
     {
       "n": 7,
@@ -195,7 +237,12 @@
         "accent": "#eedfc7"
       },
       "dailyWalkDay": 1346,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the clay jar: what quiet prayer rises in you when you read, “and the jar that cracked at the beginning of the world will hold water again”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the clay jar: what quiet prayer rises in you when you read, “and the jar that cracked at the beginning of the world will hold water again”?",
+      "zh_title": "万有与自己和好",
+      "zh_poem": "不是某些事物。\n也不单单是人的灵魂。\n\n乃是万有——\n山冈，\n诸天，\n以及每一处层面里\n破碎的事物。\n\n和平，\n已经在十字架上\n成就了。\n\n那只自创世之初\n便裂开的瓦罐，\n\n必将再次\n盛满活水。",
+      "zh_reflectionPrompt": "让目光停留在那只瓦罐四周的笔触与光影上：当你读到“那只自创世之初便裂开的瓦罐，必将再次盛满活水”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“既然借着他在十字架上所流的血成就了和平，便借着他叫万有，无论是地上的、天上的，都与自己和好了。”",
+      "zh_ref": "歌罗西书 1:19–20"
     },
     {
       "n": 8,
@@ -216,7 +263,12 @@
         "accent": "#d8c29f"
       },
       "dailyWalkDay": 1347,
-      "reflectionPrompt": "Linger with the movement in “once enemies” (Colossians 1:21–22) from “Paul doesn't pretend” to “no one is so far that those two words can't reach them”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “once enemies” (Colossians 1:21–22) from “Paul doesn't pretend” to “no one is so far that those two words can't reach them”—where do you find yourself along that arc today?",
+      "zh_title": "从前与神隔绝",
+      "zh_poem": "保罗从不粉饰。\n\n与神隔绝。\n心里为敌。\n在心思与行为上\n远远偏离。\n\n那曾是我们。\n\n随后，三个字\n翻转了整件事：\n\n但如今。\n\n没有任何人远到一个地步，\n是这三个字\n够不着的。",
+      "zh_reflectionPrompt": "在《从前与神隔绝》（歌罗西书 1:21–22）中静心流连，从“保罗从不粉饰”到“没有任何人远到一个地步，是这三个字够不着的”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“你们从前与神隔绝，因着恶行，心里与他为敌；但如今他借着基督的肉身受死，叫你们与自己和好”",
+      "zh_ref": "歌罗西书 1:21–22"
     },
     {
       "n": 9,
@@ -237,7 +289,12 @@
         "accent": "#e5c06f"
       },
       "dailyWalkDay": 1348,
-      "reflectionPrompt": "Notice how “the hope of glory” (Colossians 1:26–27) arrives at: “hope of glory, glowing like a window in a house you thought was dark.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “the hope of glory” (Colossians 1:26–27) arrives at: “hope of glory, glowing like a window in a house you thought was dark.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "荣耀的盼望",
+      "zh_poem": "一个隐藏了\n历世历代的奥秘。\n\n及至最终显明出来，\n它不是一处秘境，\n不是一句暗语，\n也不是一架供人攀登的阶梯。\n\n乃是一位主，\n住在人里面——\n\n住在无人料想到的\n外邦人中间。\n住在你里面。\n\n荣耀的盼望，\n如同一座你以为漆黑的屋子里，\n忽然亮起的一扇窗。",
+      "zh_reflectionPrompt": "留意《荣耀的盼望》（歌罗西书 1:26–27）如何落脚于：“荣耀的盼望，如同一座你以为漆黑的屋子里，忽然亮起的一扇窗。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“这奥秘就是基督在你们心里成了有荣耀的盼望。”",
+      "zh_ref": "歌罗西书 1:26–27"
     },
     {
       "n": 10,
@@ -258,7 +315,12 @@
         "accent": "#f0e2bf"
       },
       "dailyWalkDay": 1349,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Colossians 2:1–2: “that they'd be knit together— each thread too thin alone, crossing and crossing until it holds”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Colossians 2:1–2: “that they'd be knit together— each thread too thin alone, crossing and crossing until it holds”?",
+      "zh_title": "爱心互相联络",
+      "zh_poem": "他从未见过他们的面。\n\n却依然为他们\n竭力奋斗，\n为他们代求，\n像一位父亲那样，\n挂念着一座\n只闻其名的小城。\n\n他为他们求什么呢？\n\n不是名声。\n不是人数扩增。\n也不是宏伟的建筑。\n\n乃是求他们\n因爱心互相联络——\n\n每一根细线\n若孤立便极易折断，\n唯有经纬交织，\n方能坚固不破。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是歌罗西书 2:1–2 那安静的教训：“乃是求他们因爱心互相联络——每一根细线若孤立便极易折断，唯有经纬交织，方能坚固不破”——这会带给你怎样的看见？",
+      "zh_epigraph": "“要叫他们的心得安慰，因爱心互相联络”",
+      "zh_ref": "歌罗西书 2:1–2"
     },
     {
       "n": 11,
@@ -279,7 +341,12 @@
         "accent": "#f5e6c1"
       },
       "dailyWalkDay": 1350,
-      "reflectionPrompt": "Imagine standing inside this frame beside the stone well in the heat of the day: what hurry or noise in your week begins to fade when you hear, “one step, and then the next, roots going down where no one sees, thankfulness spilling over like a bucket carried from the well”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the stone well in the heat of the day: what hurry or noise in your week begins to fade when you hear, “one step, and then the next, roots going down where no one sees, thankfulness spilling over like a bucket carried from the well”?",
+      "zh_title": "遵他而行",
+      "zh_poem": "你起初如何起步，\n如今也当如何前行。\n\n你在起头时\n并非靠功劳赚取了他。\n\n你在中途\n也无需靠功劳赚取他。\n\n你既然领受了他，\n如今只管前行。\n\n一步，\n接着下一步，\n\n根须在无人看见的深处\n向下扎稳，\n\n感谢的心\n满溢出来，\n如同从井旁提回的一桶活水。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在白日炎热里的石井旁：当你听见“一步，接着下一步，根须在无人看见的深处向下扎稳，感谢的心满溢出来，如同从井旁提回的一桶活水”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“你们既然接受了主基督耶稣，就当遵他而行”",
+      "zh_ref": "歌罗西书 2:6–7"
     },
     {
       "n": 12,
@@ -300,7 +367,12 @@
         "accent": "#d1a845"
       },
       "dailyWalkDay": 1351,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “now run your hand across the tablet. smooth.” What part of your heart feels most searched or comforted by Colossians 2:13–14 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “now run your hand across the tablet. smooth.” What part of your heart feels most searched or comforted by Colossians 2:13–14 right now?",
+      "zh_title": "涂抹了",
+      "zh_poem": "从前有一份案卷。\n\n每一笔债\n都深深印在蜡版上，\n每一行字\n都指控着我们。\n\n他没有与它争辩。\n也没有将它遗失。\n\n他乃是把它\n撤去，\n\n钉在铁钉\n刺入他手脚的地方。\n\n如今，用你的手\n抚过那块蜡版吧。\n\n平整如初。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“如今，用你的手抚过那块蜡版吧。平整如初。”此刻，你的心哪一部分最被歌罗西书 2:13–14 鉴察，或得着安慰？",
+      "zh_epigraph": "“又涂抹了在律例上所写攻击我们、有碍于我们的字据，把它撤去，钉在十字架上。”",
+      "zh_ref": "歌罗西书 2:13–14"
     },
     {
       "n": 13,
@@ -321,7 +393,12 @@
         "accent": "#f7daa5"
       },
       "dailyWalkDay": 1352,
-      "reflectionPrompt": "In Colossians 2:16–17, grace meets us right beside the cool shadow of the rock: how does the closing thought—“the one who casts it is standing in the light”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Colossians 2:16–17, grace meets us right beside the cool shadow of the rock: how does the closing thought—“the one who casts it is standing in the light”—steady your footing for the road ahead?",
+      "zh_title": "后事的影儿",
+      "zh_poem": "影子\n告诉你前面有人。\n\n显出他的轮廓。\n他的身量。\n以及光从哪个方向照来。\n\n节期、\n月朔、\n安息日——\n\n不过是他来临之前，\n投在地面上的一道\n长长的影儿。\n\n你可以看重\n一道影子。\n\n但请转过身来吧。\n\n那位投下影子的主，\n正站在\n光中。",
+      "zh_reflectionPrompt": "在歌罗西书 2:16–17 中，恩典就在磐石清凉的荫影旁迎见我们：结尾的思索——“那位投下影子的主，正站在光中”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“这些原是后事的影儿；那形体却是基督。”",
+      "zh_ref": "歌罗西书 2:16–17"
     },
     {
       "n": 14,
@@ -342,7 +419,12 @@
         "accent": "#dbcba6"
       },
       "dailyWalkDay": 1353,
-      "reflectionPrompt": "If today’s painting of “hidden” (Colossians 3:1–4) hung beside the door you walk out of this morning, how would its final line—“and one morning, when he appears, you will too”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “hidden” (Colossians 3:1–4) hung beside the door you walk out of this morning, how would its final line—“and one morning, when he appears, you will too”—shape your choices?",
+      "zh_title": "藏在神里面",
+      "zh_poem": "求上面的事吧，\n他说。\n因为你们原本就在那里。\n\n你的生命\n不是你的履历，\n不是你的过失，\n也不是别人的议论。\n\n它被隐藏起来，\n如同埋在土里的种子，\n与基督一同藏在神里面。\n\n安稳无虞。\n\n终有一个清晨，\n当他显现的时候，\n你们也要与他一同显现。",
+      "zh_reflectionPrompt": "如果今天这幅《藏在神里面》（歌罗西书 3:1–4）就挂在你清晨出门的门旁，它最后那句——“终有一个清晨，当他显现的时候，你们也要与他一同显现”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“因为你们已经死了，你们的生命与基督一同藏在神里面。”",
+      "zh_ref": "歌罗西书 3:1–4"
     },
     {
       "n": 15,
@@ -363,7 +445,12 @@
         "accent": "#f8f6ee"
       },
       "dailyWalkDay": 1354,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Colossians 3:9–10)—where in your own home or work today does “the new ones are laid out on the bench, and strangely, they fit a little better every day, cut to the shape of the one who made you” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Colossians 3:9–10)—where in your own home or work today does “the new ones are laid out on the bench, and strangely, they fit a little better every day, cut to the shape of the one who made you” ring true?",
+      "zh_title": "穿上了新人",
+      "zh_poem": "旧衣裳\n依然挂在门旁：\n恼怒。脱口而出的谎言。\n蓄意伤人的恶语。\n\n你已经脱下它们了。\n就把它们留在那里吧。\n\n新衣裳\n已经铺在长凳上，\n\n奇妙的是，\n它们每一天\n都比昨天更合身一点，\n\n因为那是照着\n造你之主的形像\n量身裁剪的。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（歌罗西书 3:9–10）——今天在你的家中或工作里，何处让你真切体会到“新衣裳已经铺在长凳上，奇妙的是，它们每一天都比昨天更合身一点，因为那是照着造你之主的形像量身裁剪的”？",
+      "zh_epigraph": "“穿上了新人。这新人在知识上渐渐更新，正如造他主的形像。”",
+      "zh_ref": "歌罗西书 3:9–10"
     },
     {
       "n": 16,
@@ -384,7 +471,12 @@
         "accent": "#d9b167"
       },
       "dailyWalkDay": 1355,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “Christ is all, and in all— even in the one you'd never have sat beside.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “Christ is all, and in all— even in the one you'd never have sat beside.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "惟有基督是包括一切",
+      "zh_poem": "希利尼人。犹太人。\n化外人。西古提人。\n为奴的。自主的。\n\n世人用尽各样标签，\n把人分在\n不同的饭桌旁。\n\n而在这里，\n只有一张桌子。\n式样不一的杯盏。\n同一个面饼。\n\n惟有基督是包括一切，\n又住在各人之内——\n\n甚至住在那个\n你从前绝不会与之同席的人里面。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“惟有基督是包括一切，又住在各人之内——甚至住在那个你从前绝不会与之同席的人里面。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“惟有基督是包括一切，又住在各人之内。”",
+      "zh_ref": "歌罗西书 3:11"
     },
     {
       "n": 17,
@@ -405,7 +497,12 @@
         "accent": "#ecdfcc"
       },
       "dailyWalkDay": 1356,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “compassion. kindness.” Looking through the lens of Colossians 3:12–14, what does it mean to discover that “and over all of it, love, the sash that ties the rest together”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “compassion. kindness.” Looking through the lens of Colossians 3:12–14, what does it mean to discover that “and over all of it, love, the sash that ties the rest together”?",
+      "zh_title": "披戴",
+      "zh_poem": "怜悯。\n恩慈。\n谦虚。\n忍耐。\n\n你在寒冷的清晨\n将它们一一穿戴起来，\n如同穿上衣裳，\n\n不是因为你已经觉得温暖，\n而是为了得着温暖。\n\n在这一切之外，\n再加上爱心——\n\n那是一条腰带，\n把其余的一切\n全数联络得完全。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“怜悯。恩慈”的温度。透过歌罗西书 3:12–14 的眼光，发现“在这一切之外，再加上爱心——那是一条腰带，把其余的一切全数联络得完全”，对你而言意味着什么？",
+      "zh_epigraph": "“所以，你们既是神的选民，圣洁蒙爱的人，就要存怜悯、恩慈、谦虚、温柔、忍耐的心。”",
+      "zh_ref": "歌罗西书 3:12–14"
     },
     {
       "n": 18,
@@ -426,7 +523,12 @@
         "accent": "#dbb98f"
       },
       "dailyWalkDay": 1357,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “as he forgave” in this painting (Colossians 3:13)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “as he forgave” in this painting (Colossians 3:13)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "主怎样饶恕了你们",
+      "zh_poem": "倘若这人与那人\n有嫌隙——\n\n而嫌隙总会有的——\n\n衡量应当饶恕多少的尺度\n只有一个，\n\n不在于\n对方有多么懊悔，\n\n而在于你自己\n蒙受了多少饶恕。\n\n这便是全部的\n算法。",
+      "zh_reflectionPrompt": "细看这幅画中（歌罗西书 3:13）《主怎样饶恕了你们》那宁静的画面中心——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“主怎样饶恕了你们，你们也要怎样饶恕人。”",
+      "zh_ref": "歌罗西书 3:13"
     },
     {
       "n": 19,
@@ -447,7 +549,12 @@
         "accent": "#f7c896"
       },
       "dailyWalkDay": 1358,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the still, unhurried voice: what quiet prayer rises in you when you read, “grace in the heart, spilling out at the mouth”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the still, unhurried voice: what quiet prayer rises in you when you read, “grace in the heart, spilling out at the mouth”?",
+      "zh_title": "丰丰富富地存在心里",
+      "zh_poem": "不是偶尔做客。\n也不是只在主日顺道造访。\n\n乃是常住。\n搬进来，卸下行囊，\n充满每一个房间。\n\n丰丰富富地存在你里面，\n如同一座屋子在晚饭后\n充满了歌声——\n\n诗章与颂词，\n一个声音先起头，\n其余的声音\n随之唱和。\n\n恩典在心底，\n从口中\n满溢而出。",
+      "zh_reflectionPrompt": "让目光停留在那安静从容之声四周的笔触与光影上：当你读到“恩典在心底，从口中满溢而出”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“当用各样的智慧，把基督的道理丰丰富富地存在心里”",
+      "zh_ref": "歌罗西书 3:16"
     },
     {
       "n": 20,
@@ -468,7 +575,12 @@
         "accent": "#e3d4b7"
       },
       "dailyWalkDay": 1359,
-      "reflectionPrompt": "Linger with the movement in “as for the Lord” (Colossians 3:23–24) from “the dough. the ledger” to “he's the one who promised you an inheritance”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “as for the Lord” (Colossians 3:23–24) from “the dough. the ledger” to “he's the one who promised you an inheritance”—where do you find yourself along that arc today?",
+      "zh_title": "像是给主做的",
+      "zh_poem": "揉面团。\n记账簿。\n再一次清扫地面。\n\n没有人在旁观看。\n也没有人鼓掌。\n\n只管去做吧，\n并且尽心竭力地做好，\n\n因为有一位\n正在观看，\n\n而他并不是\n苛刻的东家。\n\n他是那位\n应许赐你基业的\n主。",
+      "zh_reflectionPrompt": "在《像是给主做的》（歌罗西书 3:23–24）中静心流连，从“揉面团。记账簿”到“他是那位应许赐你基业的主”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“无论做什么，都要从心里做，像是给主做的，不是给人做的”",
+      "zh_ref": "歌罗西书 3:23–24"
     },
     {
       "n": 21,
@@ -489,7 +601,12 @@
         "accent": "#f2e7ce"
       },
       "dailyWalkDay": 1360,
-      "reflectionPrompt": "Notice how “seasoned with salt” (Colossians 4:5–6) arrives at: “the right word for each one in front of you.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “seasoned with salt” (Colossians 4:5–6) arrives at: “the right word for each one in front of you.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "用盐调和",
+      "zh_poem": "不可太多。\n太多便刺痛伤口。\n\n也不可全无。\n全无便寡淡无味，\n没有人愿意\n再来倾听。\n\n恰到好处的\n恩慈，\n叫言语温和良善；\n\n恰到好处的\n盐粒，\n叫言语诚实笃定。\n\n对眼前的每一个人，\n说出那句\n合宜的话。",
+      "zh_reflectionPrompt": "留意《用盐调和》（歌罗西书 4:5–6）如何落脚于：“对眼前的每一个人，说出那句合宜的话。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“你们的言语要常常带着和气，好像用盐调和”",
+      "zh_ref": "歌罗西书 4:5–6"
     },
     {
       "n": 22,
@@ -510,7 +627,12 @@
         "accent": "#e8cd9b"
       },
       "dailyWalkDay": 1361,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Colossians 4:7–9: “now he was coming home with the mail, and Paul had already written him in as family”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Colossians 4:7–9: “now he was coming home with the mail, and Paul had already written him in as family”?",
+      "zh_title": "你们那里的人",
+      "zh_poem": "在书信的末尾，\n在一长串问安的名字里，\n仿佛只是随笔提及：\n\n亲爱忠心的兄弟阿尼西谋，\n他也是你们那里的人。\n\n教会里的人都认得他。\n或许他们当中有些人\n从前认得他时，\n他还只是一个奴仆。\n\n如今他带着书信\n踏上归途，\n\n而保罗早已在信里，\n将他写作了\n家里的人。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是歌罗西书 4:7–9 那安静的教训：“如今他带着书信踏上归途，而保罗早已在信里，将他写作了家里的人”——这会带给你怎样的看见？",
+      "zh_epigraph": "“我又打发一位亲爱忠心的兄弟阿尼西谋同去；他也是你们那里的人。”",
+      "zh_ref": "歌罗西书 4:7–9"
     },
     {
       "n": 23,
@@ -531,7 +653,12 @@
         "accent": "#fbdca3"
       },
       "dailyWalkDay": 1362,
-      "reflectionPrompt": "Imagine standing inside this frame beside the small oil lamp in the dark: what hurry or noise in your week begins to fade when you hear, “and everyone in the room leaned in to hear what Paul would ask”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the small oil lamp in the dark: what hurry or noise in your week begins to fade when you hear, “and everyone in the room leaned in to hear what Paul would ask”?",
+      "zh_title": "你家里的教会",
+      "zh_poem": "那时教会还没有\n专门的会堂。\n\n教会就在\n腓利门的家里。\n\n他的院落，\n他的长凳，\n他的油灯，\n他的家门。\n\n因此当这封信送达时，\n是写给他们\n众人的。\n\n信上写着：恩惠，\n平安。\n\n屋里的每一个人\n都侧耳倾听，\n想晓得保罗接下来\n要恳求什么。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在暗夜里那盏小小的油灯旁：当你听见“屋里的每一个人都侧耳倾听，想晓得保罗接下来要恳求什么”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“和妹子亚腓亚并与我们同当兵的亚基布，以及在你家里的教会。”",
+      "zh_ref": "腓利门书 1:1–2"
     },
     {
       "n": 24,
@@ -552,7 +679,12 @@
         "accent": "#f5eee1"
       },
       "dailyWalkDay": 1363,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and that's where the letter starts— not with the problem, but with thanks for the cool water he'd always been.” What part of your heart feels most searched or comforted by Philemon 1:7 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and that's where the letter starts— not with the problem, but with thanks for the cool water he'd always been.” What part of your heart feels most searched or comforted by Philemon 1:7 right now?",
+      "zh_title": "心肠得畅快",
+      "zh_poem": "你一定见过这样的人。\n\n走进他的屋子，\n你便可以坐下来，\n长长地舒一口气。\n\n在你开口诉说之前，\n他便已看出\n你的疲惫。\n\n腓利门就是这样的人。\n\n而这封信\n也正是从这里落笔——\n\n不是先提棘手的难处，\n\n而是先为他向来如清凉活水般的恩慈，\n献上感谢。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“而这封信也正是从这里落笔——不是先提棘手的难处，而是先为他向来如清凉活水般的恩慈，献上感谢。”此刻，你的心哪一部分最被腓利门书 1:7 鉴察，或得着安慰？",
+      "zh_epigraph": "“兄弟啊，众圣徒的心从你得了畅快。”",
+      "zh_ref": "腓利门书 1:7"
     },
     {
       "n": 25,
@@ -573,7 +705,12 @@
         "accent": "#e8d9ba"
       },
       "dailyWalkDay": 1364,
-      "reflectionPrompt": "In Philemon 1:8–9, grace meets us right beside the loosened chain: how does the closing thought—“and he wanted the real thing”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Philemon 1:8–9, grace meets us right beside the loosened chain: how does the closing thought—“and he wanted the real thing”—steady your footing for the road ahead?",
+      "zh_title": "宁可凭着爱心求你",
+      "zh_poem": "他本可以\n发出一道命令。\n\n他是使徒，\n原可以放胆吩咐。\n\n然而，\n一个身戴锁链的\n老人，\n却选择了恳求。\n\n凭着爱心，\n他说。\n\n因为靠命令强逼出来的爱，\n并不是爱。\n\n而他所盼望的，\n是那份甘心乐意的真情。",
+      "zh_reflectionPrompt": "在腓利门书 1:8–9 中，恩典就在那松开的锁链旁迎见我们：结尾的思索——“而他所盼望的，是那份甘心乐意的真情”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“然而像我这有年纪的保罗，现在又是为基督耶稣被囚的，宁可凭着爱心求你。”",
+      "zh_ref": "腓利门书 1:8–9"
     },
     {
       "n": 26,
@@ -594,7 +731,12 @@
         "accent": "#eec879"
       },
       "dailyWalkDay": 1365,
-      "reflectionPrompt": "If today’s painting of “my child” (Philemon 1:10) hung beside the door you walk out of this morning, how would its final line—“no prison is too tight for someone to be born again in”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “my child” (Philemon 1:10) hung beside the door you walk out of this morning, how would its final line—“no prison is too tight for someone to be born again in”—shape your choices?",
+      "zh_title": "我在捆锁中所生的儿子",
+      "zh_poem": "保罗身在捆锁中。\n\n然而不知怎的，\n在那间窄小的囚室里，\n有一个人\n寻路走了进来，\n\n寻见了\n新生命，\n\n也寻见了\n一位父亲。\n\n没有任何牢房\n狭窄到一个地步，\n容不下一个人\n在其中重生。",
+      "zh_reflectionPrompt": "如果今天这幅《我在捆锁中所生的儿子》（腓利门书 1:10）就挂在你清晨出门的门旁，它最后那句——“没有任何牢房狭窄到一个地步，容不下一个人，在其中重生”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“就是为我在捆锁中所生的儿子阿尼西谋求你。”",
+      "zh_ref": "腓利门书 1:10"
     },
     {
       "n": 27,
@@ -615,7 +757,12 @@
         "accent": "#d6a95e"
       },
       "dailyWalkDay": 1366,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Philemon 1:11)—where in your own home or work today does “grace has a way of making you live up to your name” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Philemon 1:11)—where in your own home or work today does “grace has a way of making you live up to your name” ring true?",
+      "zh_title": "与你有益",
+      "zh_poem": "他的名字，\n原本的意思是“有益”。\n\n可曾有一段日子，\n他活得名不副实。\n\n保罗在信中\n带着微笑提起这事，\n你几乎能听见他的语气：\n\n他从前与你没有益处。\n但如今与你我都有益处。\n\n与你。\n与我。\n\n恩典，\n总有办法叫你\n活出你名字里的\n心意。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（腓利门书 1:11）——今天在你的家中或工作里，何处让你真切体会到“恩典，总有办法叫你活出你名字里的心意”？",
+      "zh_epigraph": "“他从前与你没有益处，但如今与你我都有益处。”",
+      "zh_ref": "腓利门书 1:11"
     },
     {
       "n": 28,
@@ -636,7 +783,12 @@
         "accent": "#fcedd6"
       },
       "dailyWalkDay": 1367,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “so he sent what he had: his words, and his name, and this: when you see him, you're looking at my heart.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “so he sent what he had: his words, and his name, and this: when you see him, you're looking at my heart.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "他是我心上的人",
+      "zh_poem": "这封信里最艰难的部分，\n是那段归途。\n\n一步，又一步，\n走回他当初逃离的\n那扇家门。\n\n保罗无法亲自同去。\n于是他把自己仅有的\n都交给他带去：\n\n他的话语，\n他的名字，\n\n还有这一句：\n当你看见他的时候，\n你看见的\n就是我的心。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“于是他把自己仅有的都交给他带去：他的话语，他的名字，还有这一句：当你看见他的时候，你看见的就是我的心。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“我现在打发他亲自回你那里去，他是我心上的人。”",
+      "zh_ref": "腓利门书 1:12"
     },
     {
       "n": 29,
@@ -657,7 +809,12 @@
         "accent": "#ffeca6"
       },
       "dailyWalkDay": 1368,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “Paul doesn't say God planned it.” Looking through the lens of Philemon 1:15–16, what does it mean to discover that “for a while, and then forever”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “Paul doesn't say God planned it.” Looking through the lens of Philemon 1:15–16, what does it mean to discover that “for a while, and then forever”?",
+      "zh_title": "或者",
+      "zh_poem": "保罗并没有断言\n这一切尽是神预先的安排。\n他说：或者。\n\n或者，那场出走、\n那些失落的岁月、\n与那条漫长的远路，\n\n都是为了给更好的事\n腾出地方：\n\n不再是账册上\n重新归回的一个奴仆，\n乃是饭桌旁\n亲爱的一位兄弟。\n\n暂时分离，\n好叫你\n永远得着他。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“保罗并没有断言这一切尽是神预先的安排”的谦卑与敬畏。透过腓利门书 1:15–16 的眼光，发现“暂时分离，好叫你永远得着他”，对你而言意味着什么？",
+      "zh_epigraph": "“他暂时离开你，或者是叫你永远得着他”",
+      "zh_ref": "腓利门书 1:15–16"
     },
     {
       "n": 30,
@@ -678,7 +835,12 @@
         "accent": "#d4c7a9"
       },
       "dailyWalkDay": 1369,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “put that to my account” in this painting (Philemon 1:18–19)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “put that to my account” in this painting (Philemon 1:18–19)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "都归在我的账上",
+      "zh_poem": "他若欠你什么，\n保罗写道，\n都归在我的账上吧。\n\n我必偿还。\n这里有我亲笔的字迹\n为证。\n\n这不过是一封短笺里的\n一幕小景。\n\n但你一定在别处\n听过相似的话——\n\n有一位主动站出来，\n站在欠债的人\n与债主之间，\n\n开口说：\n都算在我的账上吧。",
+      "zh_reflectionPrompt": "细看这幅画中（腓利门书 1:18–19）《都归在我的账上》那宁静的画面中心——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“他若亏负你，或欠你什么，都归在我的账上；我必偿还。这是我保罗亲笔写的。”",
+      "zh_ref": "腓利门书 1:18–19"
     },
     {
       "n": 31,
@@ -699,7 +861,12 @@
         "accent": "#f8f0dc"
       },
       "dailyWalkDay": 1370,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open threshold: what quiet prayer rises in you when you read, “with a welcome at the door for the son I sent home”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open threshold: what quiet prayer rises in you when you read, “with a welcome at the door for the son I sent home”?",
+      "zh_title": "使我的心畅快",
+      "zh_poem": "在信的起头，\n保罗曾感谢他\n叫众圣徒的心\n都得了畅快。\n\n如今，临近信尾，\n他把这句话转了过来：\n\n也使我的心畅快吧。\n\n不是借着一份厚礼。\n也不是借着一次探望。\n\n乃是借着在家门口\n张开双臂，\n\n迎接那个\n我打发回家的儿子。",
+      "zh_reflectionPrompt": "让目光停留在那敞开的门槛四周的笔触与光影上：当你读到“乃是借着在家门口张开双臂，迎接那个我打发回家的儿子”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“兄弟啊，望你使我在主里因你得快乐，并望你使我的心在基督里得畅快。”",
+      "zh_ref": "腓利门书 1:20"
     },
     {
       "n": 32,
@@ -720,7 +887,15 @@
         "accent": "#f6ecd6"
       },
       "dailyWalkDay": 1371,
-      "reflectionPrompt": "Linger with the movement in “the guest room” (Philemon 1:22–25) from “keep a room ready, he says” to “and a room was waiting, and a door that someone had walked back through”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the guest room” (Philemon 1:22–25) from “keep a room ready, he says” to “and a room was waiting, and a door that someone had walked back through”—where do you find yourself along that arc today?",
+      "zh_title": "预备客房",
+      "zh_poem": "给我预备一间客房吧，\n他说。\n我盼望能到你们那里去。\n\n随后是\n末了的问安、\n祝祷，\n与搁笔。\n\n我们无从知晓\n腓利门读完信后\n说了什么。\n\n我们只知道，\n这封信被珍重地留存下来。\n\n还有一间客房\n正在守候，\n\n以及一扇\n有人重新走回来的家门。",
+      "zh_reflectionPrompt": "在《预备客房》（腓利门书 1:22–25）中静心流连，从“给我预备一间客房吧，他说”到“还有一间客房正在守候，以及一扇有人重新走回来的家门”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“此外你还要给我预备住处”",
+      "zh_ref": "腓利门书 1:22–25"
     }
-  ]
+  ],
+  "zh_title": "万有靠他而立",
+  "zh_subtitle": "歌罗西书与腓利门书诗画集",
+  "zh_beforeYouBegin": "保罗在捆锁之中写下这两封信，交在同一行旅人的手中，送上同一条长路。一封写给一间从未见过他面容的小教会；另一封则写给那间教会里的一户人家。两封信之间，有一棵结果增长的无花果树，一块拱门顶端的拱心石，一块擦拭洁净的蜡版，一道映在墙上的影儿，长凳上铺开的新衣，一撮调味的盐，以及一个年轻人怀揣着称他为弟兄的书信，一步步走回他昔日离开的那扇家门。\n\n全书分为四卷、三十二首短诗：前三卷取材于《歌罗西书》，第四卷取材于《腓利门书》。每首诗皆配有一幅画作，并置于一句经文之下。画中留驻的尽是书信所触及的器物——油灯、织机、锁链、预备妥当的客房——而将面容留给你去想象。\n\n这些诗并非圣经本身，只是一个读经之人的心灵回响。请翻开致歌罗西人与腓利门的书信，与本书一同阅读，让神真实的话语作最终的定音。"
 }

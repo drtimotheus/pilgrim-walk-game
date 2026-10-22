@@ -16,7 +16,10 @@
       "epigraph": "So all Israel were listed by genealogies",
       "epigraphRef": "1 Chronicles 9:1",
       "lightName": "Light of Names Remembered",
-      "lightHint": "Near 'Adam, Seth, Enosh' (1 Chronicles 1:1–4) in Part 1: Names Remembered"
+      "lightHint": "Near 'Adam, Seth, Enosh' (1 Chronicles 1:1–4) in Part 1: Names Remembered",
+      "zh_title": "记住的名字",
+      "zh_epigraph": "所以所有以色列人都按家谱列出",
+      "zh_epigraphRef": "历代志上 9:1"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Sing to him. Sing praises to him.",
       "epigraphRef": "1 Chronicles 16:9",
       "lightName": "Light of Sing to Him",
-      "lightHint": "Near 'three months' (1 Chronicles 13:9–14) in Part 2: Sing to Him"
+      "lightHint": "Near 'three months' (1 Chronicles 13:9–14) in Part 2: Sing to Him",
+      "zh_title": "唱歌给他听",
+      "zh_epigraph": "唱歌给他听。歌颂他。",
+      "zh_epigraphRef": "历代志上 16:9"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Y ours, Y ahweh, is the greatness, the power, the glory, the victory, and the majesty!",
       "epigraphRef": "1 Chronicles 29:11",
       "lightName": "Light of Y ours Is the Kingdom",
-      "lightHint": "Near 'prepared abundantly' (1 Chronicles 22:5–16) in Part 3: Y ours Is the Kingdom"
+      "lightHint": "Near 'prepared abundantly' (1 Chronicles 22:5–16) in Part 3: Y ours Is the Kingdom",
+      "zh_title": "王国是你的",
+      "zh_epigraph": "耶和华，伟大、能力、荣耀、胜利、威严都属于你！",
+      "zh_epigraphRef": "历代志上 29:11"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "Now my eyes will be open and my ears attentive to prayer that is made in this place.",
       "epigraphRef": "2 Chronicles 7:15",
       "lightName": "Light of Toward This Place",
-      "lightHint": "Near 'just to burn incense' (2 Chronicles 2:3–6) in Part 4: Toward This Place"
+      "lightHint": "Near 'just to burn incense' (2 Chronicles 2:3–6) in Part 4: Toward This Place",
+      "zh_title": "走向这个地方",
+      "zh_epigraph": "现在我的眼睛会睁开，我的耳朵会留意在这个地方所做的祈祷。",
+      "zh_epigraphRef": "历代志下 7:15"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "Y ahweh your God is gracious and merciful",
       "epigraphRef": "2 Chronicles 30:9",
       "lightName": "Light of Gracious and Merciful",
-      "lightHint": "Near 'the chest by the gate' (2 Chronicles 24:4–13) in Part 5: Gracious and Merciful"
+      "lightHint": "Near 'the chest by the gate' (2 Chronicles 24:4–13) in Part 5: Gracious and Merciful",
+      "zh_title": "仁慈仁慈",
+      "zh_epigraph": "耶和华你的神有恩典，有怜悯",
+      "zh_epigraphRef": "历代志下 30:9"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#e9dcb8"
       },
       "dailyWalkDay": 301,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “Adam, Seth, Enosh” (1 Chronicles 1:1–4), what would you talk about after reading, “before the temple, before the kings, a name”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “Adam, Seth, Enosh” (1 Chronicles 1:1–4), what would you talk about after reading, “before the temple, before the kings, a name”?",
+      "zh_title": "亚当、塞特、以挪士",
+      "zh_poem": "书打开了\n和一个清单。\n\n没有花园，没有洪水。\n只是名字，\n一个又一个，\n就像放下的石头\n过河。\n\n亚当.赛斯.以挪士。\n\n无论谁写下它们\n流亡后写的，\n数着剩下的东西。\n\n首先要考虑的是\n是人。\n\n寺庙前，\n在诸王面前，\n一个名字。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“亚当、塞特、以挪士”（历代志上 1：1-4）停下来，读到“在圣殿前，在列王面前，有一个名字”之后，你会谈论什么？",
+      "zh_epigraph": "“亚当、塞特、以挪士”",
+      "zh_ref": "历代志上 1:1–4"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#ebdfc1"
       },
       "dailyWalkDay": 302,
-      "reflectionPrompt": "Pause before the clay turning on the wheel: what changes in your posture today when you sit with the closing words of “the potters”—“somebody thought they were worth writing down. they were”?"
+      "reflectionPrompt": "Pause before the clay turning on the wheel: what changes in your posture today when you sit with the closing words of “the potters”—“somebody thought they were worth writing down. they were”?",
+      "zh_title": "陶工们",
+      "zh_poem": "夹在父子中间\n犹大，\n一个小注意事项：\n\n亚麻工人的房子\n陶工们。\n他们和国王住在那里\n为了他的工作。\n\n没有战斗。\n没有预言。\n只有亚麻和粘土，\n和懂得的双手\n如何转动轮子。\n\n有人认为\n他们值得\n写下来。\n\n他们是。",
+      "zh_reflectionPrompt": "在陶土在轮子上转动之前停顿一下：今天，当你坐下来听“陶工们”的结束语——“有人认为他们值得写下来。他们是”时，你的姿势有什么变化？",
+      "zh_epigraph": "“这些是陶工”",
+      "zh_ref": "历代志上 4:21–23"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#eed596"
       },
       "dailyWalkDay": 303,
-      "reflectionPrompt": "Look at the stillness of the city gate in Timothy’s painting: what striving can you lay down as you ponder, “God granted him that which he requested” (1 Chronicles 4:9–10)?"
+      "reflectionPrompt": "Look at the stillness of the city gate in Timothy’s painting: what striving can you lay down as you ponder, “God granted him that which he requested” (1 Chronicles 4:9–10)?",
+      "zh_title": "雅比斯",
+      "zh_poem": "他的母亲给他取名\n为了她的痛苦。\n\n他带着这个名字\n每天，\n每次叫去吃晚饭时，\n在门口的每一次问候中。\n\n然后有一天\n他亲自呼求上帝。\n\n确实保佑我。\n扩大我的边界。\n让你的手与我同在。\n使我远离恶事，\n以免我造成痛苦。\n\n一个以悲伤命名的男孩，\n要求不要传递它。\n\n神赐予他\n他所要求的。",
+      "zh_reflectionPrompt": "看看提摩太画中城门的寂静：当你思考“神就赐给他所求的”（历代志上 4：9-10）时，你还能付出什么努力呢？",
+      "zh_epigraph": "“上帝满足了他所要求的。”",
+      "zh_ref": "历代志上 4:9–10"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#fac5ab"
       },
       "dailyWalkDay": 304,
-      "reflectionPrompt": "In 1 Chronicles 9:22–27, the story turns on the open threshold—and ends with, “a whole life spent making sure the door would open.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In 1 Chronicles 9:22–27, the story turns on the open threshold—and ends with, “a whole life spent making sure the door would open.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "门槛的守护者",
+      "zh_poem": "其中有两百一十二个，\n按名字列出他们的村庄，\n和他们所有人\n门的守护者。\n\n东、西、北、南。\n\n他们清点了船只。\n他们清点了船只。\n他们住在神的家附近\n整夜，\n\n和每个早晨\n他们打开了它。\n\n一生\n花费确保\n门会打开。",
+      "zh_reflectionPrompt": "在《历代志上》9:22-27中，故事以敞开的门槛为起点——并以“一生都在确保门会打开”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“他们的职责是每天早上都开放。”",
+      "zh_ref": "历代志上 9:22–27"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#f8efe3"
       },
       "dailyWalkDay": 305,
-      "reflectionPrompt": "The world measures life by speed and noise, yet 1 Chronicles 9:32–33 points us to the daily loaf broken in the hand and whispers, “you did not have to be awake for it to be true.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet 1 Chronicles 9:32–33 points us to the daily loaf broken in the hand and whispers, “you did not have to be awake for it to be true.” How can you practice that unhurried wisdom today?",
+      "zh_title": "白天和黑夜",
+      "zh_poem": "他们中的一些人烤面包，\n每个安息日。\n\n其中一些混合了香料。\n\n他们中的一些人唱道：\n并没有做任何其他事情，\n因为歌声\n从未停止过。\n\n日夜。\n\n在房子的某个地方，\n当城市沉睡时，\n一个声音仍在继续，\n仍在致谢。\n\n你不必醒着\n为了它是真的。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而《历代志上》9:32-33却向我们指出了每天在手中掰开的面包，并低声说道：“你不必醒着，这就是事实。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“他们夜以继日地工作。”",
+      "zh_ref": "历代志上 9:32–33"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#ddccb0"
       },
       "dailyWalkDay": 306,
-      "reflectionPrompt": "The poem closes with a quiet turn: “the thing the king was afraid of was a blessing in a smaller house.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “the thing the king was afraid of was a blessing in a smaller house.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "三个月",
+      "zh_poem": "牛绊倒了。\n一个男人伸出了手。\n以及那天的喜悦\n结束于打谷场。\n\n大卫很害怕。\n我怎样才能带神的约柜\n我的家？\n\n所以它就被搁置了\n到另一个男人的家里。\n迦特人俄别以东。\n\n三个月。\n\n和那所房子里的东西\n悄悄地、稳步地\n更好。\n\n国王所害怕的事情\n是一种祝福\n在一个较小的房子里。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“国王所害怕的是小房子里的祝福。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“耶和华赐福给俄别以东的家和他所有的一切。”",
+      "zh_ref": "历代志上 13:9–14"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#eadbad"
       },
       "dailyWalkDay": 307,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “it is also somebody's careful work.22” (1 Chronicles 15:16–22) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “it is also somebody's careful work.22” (1 Chronicles 15:16–22) speak to a question you have been carrying lately?",
+      "zh_title": "他教歌手们",
+      "zh_poem": "在方舟再次移动之前，\n有人必须排练。\n\n名字都在那里。\n希曼、亚萨、伊森。\n青铜钹。\n竖琴调音\n到八弦竖琴。\n\n并在歌声中，\n切纳尼亚。\n他教导歌手们，\n因为他技术精湛。\n\n这次方舟回家了\n由利未人抬着，\n被声音举起\n那个已经练习过了。\n\n敬拜是一份礼物。\n这也是\n有人的细心工作.22",
+      "zh_reflectionPrompt": "有时，一句话就能在封闭的房间里打开一扇窗：“这也是某人精心的工作。22”（历代志上 15：16-22）如何解答您最近一直在思考的问题？",
+      "zh_epigraph": "“他教歌手，因为他技术精湛。”",
+      "zh_ref": "历代志上 15:16–22"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#e9dab9"
       },
       "dailyWalkDay": 308,
-      "reflectionPrompt": "Hold your hands open for a moment before “a loaf and a raisin cake” (1 Chronicles 16:1–3): what are you gripping tightly that loosens when you hear, “nobody went home from that day with empty hands. the bread came with it”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “a loaf and a raisin cake” (1 Chronicles 16:1–3): what are you gripping tightly that loosens when you hear, “nobody went home from that day with empty hands. the bread came with it”?",
+      "zh_title": "一条面包和一个葡萄干蛋糕",
+      "zh_poem": "约柜安置在帐幕里。\n祭品已经献上。\n国王祝福人民\n奉耶和华的名。\n\n然后他喂它们。\n\n每个人。\n男人和女人。\n一块面包，\n一部分，\n葡萄干蛋糕\n\n没有人回家\n从那天起\n双手空空。\n\n你就是这样知道的\n这是一个神圣的日子。\n\n面包\n随之而来。",
+      "zh_reflectionPrompt": "在“一条面包和一个葡萄干饼”（历代志上 16：1-3）面前张开你的双手：当你听到“从那天起，没有人空手回家。面包也随之而来”时，你紧握的是什么东西松开了？",
+      "zh_epigraph": "“给每个人一条面包、一份肉和一块葡萄干蛋糕。”",
+      "zh_ref": "历代志上 16:1–3"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#e0b87b"
       },
       "dailyWalkDay": 309,
-      "reflectionPrompt": "Scripture remembers this moment in 1 Chronicles 16:7–11 not to impress us, but to steady us: when have you seen the truth that “it was meant for every day after” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in 1 Chronicles 16:7–11 not to impress us, but to steady us: when have you seen the truth that “it was meant for every day after” in your own story?",
+      "zh_title": "寻求他的面",
+      "zh_poem": "在那一天\n大卫首先被按立\n表示感谢\n出自亚萨和他的兄弟之手。\n\n这首歌以一声呼唤开始。\n感谢。\n呼求他的名字。\n告诉他做了什么。\n\n然后它继续下去。\n寻找他。\n寻求他的力量。\n寻求他的面。\n\n永远更多。\n\n它被写了\n一天。\n\n本来的意思是\n之后的每一天。",
+      "zh_reflectionPrompt": "圣经在《历代志上》16:7-11 中记住这一时刻，不是为了给我们留下深刻印象，而是为了稳定我们：你什么时候在你自己的故事中看到了“这意味着以后的每一天”的真理？",
+      "zh_epigraph": "“寻求耶和华和他的力量。永远寻求他的面。”",
+      "zh_ref": "历代志上 16:7–11"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#f6efd5"
       },
       "dailyWalkDay": 310,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “the trees of the forest” (1 Chronicles 16:31–34), what one honest sentence would you pray beside the strings of the harp after reading, “the trees were singing it before we were”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “the trees of the forest” (1 Chronicles 16:31–34), what one honest sentence would you pray beside the strings of the harp after reading, “the trees were singing it before we were”?",
+      "zh_title": "森林里的树木",
+      "zh_poem": "让大海咆哮。\n让田野欢呼吧。\n\n这首歌没有留下来\n和穿着亚麻布的歌手一起\n和竖琴。\n\n它经过帐篷，\n过了城市，\n进入山丘，\n\n橡树在哪里\n已经在搬家了\n在风中。\n\n他很好。\n他的慈爱\n永远持续下去。\n\n树木\n正在唱它\n在我们之前。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“森林的树木”（历代志上 16：31-34）时，读到“树木在我们之前就已经歌唱了”之后，你会在竖琴的琴弦旁祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“那时林中的树木必在耶和华面前欢呼”",
+      "zh_ref": "历代志上 16:31–34"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#f0d1a0"
       },
       "dailyWalkDay": 311,
-      "reflectionPrompt": "Between the opening line (“he would never see it”) and the closing thought (“some of us are given the gathering, for a house someone else will walk into. both are the work”), what is 1 Chronicles 22:5–16 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“he would never see it”) and the closing thought (“some of us are given the gathering, for a house someone else will walk into. both are the work”), what is 1 Chronicles 22:5–16 gently reframing in your own day?",
+      "zh_title": "准备充分",
+      "zh_poem": "他永远不会看到它。\n他知道这一点。\n\n房子是给他儿子的。\n年轻又温柔，他说，\n房子必须是\n极其宏伟。\n\n所以他做了他能做的部分。\n石头。\n木材。\n没有重量的青铜和铁，\n堆积并等待。\n\n我们中的一些人被给予\n整理。\n\n我们中的一些人被给予\n聚会，\n为了房子\n别人就会走进去。\n\n两者都是工作。",
+      "zh_reflectionPrompt": "在开场白（“他永远不会看到它”）和结束语（“我们中的一些人得到了聚会，因为别人会走进一所房子。两者都是工作”）之间，《历代志上》22：5-16在你那个时代轻轻地重新构建了什么？",
+      "zh_epigraph": "“所以大卫在死前做了充分的准备。”",
+      "zh_ref": "历代志上 22:5–16"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#fceac9"
       },
       "dailyWalkDay": 312,
-      "reflectionPrompt": "Along the road of Our Eyes Are on You, “the small as well as the great” (1 Chronicles 25:7–8) slows us down at the stone well in the heat of the day to remind us: “the old master and the one still learning took their turn from the same hand.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Our Eyes Are on You, “the small as well as the great” (1 Chronicles 25:7–8) slows us down at the stone well in the heat of the day to remind us: “the old master and the one still learning took their turn from the same hand.” Where are you being invited to trade control for trust today?",
+      "zh_title": "小的和大的",
+      "zh_poem": "两百八十八位歌手，\n他们都很熟练。\n\n当时间到了\n选择谁将在何时服务，\n他们抽签，\n\n都一样。\n\n没有人先唱\n因为一个名字。\n没有人等待\n因为一个年龄。\n\n老主人\n以及仍在学习的人\n轮到他们了\n出自同一个人之手。",
+      "zh_reflectionPrompt": "沿着《我们的眼睛注视着你》的道路，“无论大小”（《历代志上》25：7-8）在大热天的石井旁放慢了我们的速度，提醒我们：“老夫子和仍在学习的人是出自同一个人之手。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“小也好，大也好，老师也好，学生也好。”",
+      "zh_ref": "历代志上 25:7–8"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#f6e8c7"
       },
       "dailyWalkDay": 313,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “he will be found” (1 Chronicles 28:9), what would you talk about after reading, “a door that was never locked”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “he will be found” (1 Chronicles 28:9), what would you talk about after reading, “a door that was never locked”?",
+      "zh_title": "他会被发现",
+      "zh_poem": "父亲的负担\n与建筑物无关。\n\n认识你父亲的神。\n以完美的心侍奉他，\n一颗愿意的心。\n\n他鉴察所有人的心。\n他明白\n每一个想法\n你还没说呢。\n\n然后是一个承诺，\n隐藏在警告中：\n\n如果你寻求他，\n他会被你找到的。\n\n没有隐藏。\n不远。\n\n一扇门\n那从来没有被锁过。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“他必被发现”（历代志上 28:9）处停了下来，读完“一扇从未上锁的门”后，你会谈论什么？",
+      "zh_epigraph": "“如果你寻找他，他就会被你找到”",
+      "zh_ref": "历代志上 28:9"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#ece5c9"
       },
       "dailyWalkDay": 314,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “offered willingly”: what changes in your posture today when you sit with the closing words of “offered willingly”—“a gift like that makes the giver glad before it builds anything at all”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “offered willingly”: what changes in your posture today when you sit with the closing words of “offered willingly”—“a gift like that makes the giver glad before it builds anything at all”?",
+      "zh_title": "心甘情愿地提供",
+      "zh_poem": "谁愿意提供？\n国王问道。\n\n他们来了。\n房屋的领导者。\n数千人的队长。\n拥有宝石的人\n他们一直在保留。\n\n金、银、铜、铁。\n\n但故事记住了什么\n不是它的重量。\n\n人们欢欣鼓舞，\n因为他们给了\n全心全意。\n\n这样的礼物\n让给予者感到高兴\n在构建之前\n任何事情。",
+      "zh_reflectionPrompt": "在“自愿提供”这个安静的核心内容前停顿一下：今天，当你坐下来，以“自愿提供”作为结束语时，你的姿势会发生什么变化——“这样的礼物在它建成任何东西之前就让送礼者感到高兴”？",
+      "zh_epigraph": "“他们以完美的心甘愿献给耶和华”",
+      "zh_ref": "历代志上 29:5–9"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#f7e2b5"
       },
       "dailyWalkDay": 315,
-      "reflectionPrompt": "Look at the stillness of the deep roots of the tree in Timothy’s painting: what striving can you lay down as you ponder, “it was just never ours to begin with” (1 Chronicles 29:14–16)?"
+      "reflectionPrompt": "Look at the stillness of the deep roots of the tree in Timothy’s painting: what striving can you lay down as you ponder, “it was just never ours to begin with” (1 Chronicles 29:14–16)?",
+      "zh_title": "你自己的",
+      "zh_poem": "礼物堆得很高，\n比那里的任何人都多\n曾经见过。\n\n大卫看着这一切\n并说，\n我是谁，\n我的人民是什么？\n\n一切事物都来自于你。\n我们已经给了你\n你自己的。\n\n像个孩子一样\n带一个父亲\n父亲树上的果子。\n\n礼物仍然是礼物。\n\n这只是\n从来不是我们的\n首先。",
+      "zh_reflectionPrompt": "看看提摩太画中树根深沉的寂静：当你思考“这本来就不是我们的”（历代志上 29：14-16）时，你还能付出什么努力呢？",
+      "zh_epigraph": "“因为一切都来自于你，而我们已经把你自己的东西给了你。”",
+      "zh_ref": "历代志上 29:14–16"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#edd6a0"
       },
       "dailyWalkDay": 316,
-      "reflectionPrompt": "In 1 Chronicles 29:15–18, the story turns on the cool shadow of the rock—and ends with, “he knew what outlasts a shadow.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In 1 Chronicles 29:15–18, the story turns on the cool shadow of the rock—and ends with, “he knew what outlasts a shadow.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "作为一个影子",
+      "zh_poem": "在庆祝活动的中间，\n随着金子堆得高高的，\n老国王说：\n\n在你面前我们是陌生人\n还有外国人，\n就像我们所有的父亲一样。\n我们的日子已成为阴影。\n\n不苦。\n没错。\n\n然后他祈祷，\n不为黄金长久，\n但对于那些想要的人来说。\n\n永远保持这个愿望\n在你们人民的心中。\n\n他知道\n什么比影子更长久。",
+      "zh_reflectionPrompt": "在《历代志上》29:15-18 中，故事以岩石凉爽的影子为中心，并以“他知道什么比影子更长久”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“我们在世的日子如影”",
+      "zh_ref": "历代志上 29:15–18"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#f2e0bd"
       },
       "dailyWalkDay": 317,
-      "reflectionPrompt": "The world measures life by speed and noise, yet 2 Chronicles 2:3–6 points us to the quiet centerpiece of “just to burn incense” and whispers, “all that cedar, all that gold, a place to stand and send up something small and fragrant to someone too big for the room.46.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet 2 Chronicles 2:3–6 points us to the quiet centerpiece of “just to burn incense” and whispers, “all that cedar, all that gold, a place to stand and send up something small and fragrant to someone too big for the room.46.” How can you practice that unhurried wisdom today?",
+      "zh_title": "只是为了烧香",
+      "zh_poem": "给提尔的信\n要求雪松和柏树\n以及了解黄金的人。\n\n在订单的中间，\n一个忏悔。\n\n天道容不下他。\n天上的天都不能。\n我是谁给他盖房子？\n\n除了\n只为在他面前烧香。\n\n那就是整个寺庙。\n所有的雪松，\n所有那些金子，\n一个可以站立的地方\n并发送一些小东西\n和香\n给太大的人\n对于房间.46",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，然而《历代志下》2:3-6 向我们指出了“只是为了烧香”的安静核心，并低声说道，“所有的雪松，所有的黄金，一个可以站立的地方，可以向房间里太大的人送上一些小而芬芳的东西。46。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“那我是谁，竟能为他盖一座房子，不只是为了在他面前烧香吗？”",
+      "zh_ref": "历代志下 2:3–6"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#f4ebd4"
       },
       "dailyWalkDay": 318,
-      "reflectionPrompt": "The poem closes with a quiet turn: “when all those voices finally agreed.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “when all those voices finally agreed.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "一个声音",
+      "zh_poem": "一百二十个号角。\n铙钹、竖琴、弦乐。\n穿着细亚麻布的歌手。\n\n很多声音\n来自很多人。\n\n然后那一刻\n这一切都变成了\n一声。\n\n因为他是好的。\n他的慈爱永远长存。\n\n就在那时，云来了。\n\n不是当金子挂起来的时候。\n不是当门设置好时。\n\n当所有这些声音\n终于同意了。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“当所有这些声音最终达成一致时。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“当号手和歌手合而为一时，发出一种声音才能被听到”",
+      "zh_ref": "历代志下 5:12–14"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#ede2c3"
       },
       "dailyWalkDay": 319,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “he built the house so that anyone, anywhere, could face it and be heard” (2 Chronicles 6:19–39) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “he built the house so that anyone, anywhere, could face it and be heard” (2 Chronicles 6:19–39) speak to a question you have been carrying lately?",
+      "zh_title": "当你听到时，原谅",
+      "zh_poem": "国王跪下\n并向天张开双手，\n\n和他的祈祷\n主要是关于\n其他人的祈祷。\n\n来自远方的外国人。\n士兵被送上路。\n被掳到异国他乡，\n转身走向家。\n\n当他们向这个地方祈祷时，\n听到。\n当你听到时，\n原谅。\n\n他盖了房子\n以便任何人、任何地方、\n可以面对它\n并被听到。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“他建造了这座房子，使任何地方的任何人都可以面对它并被听到”（历代志下 6：19-39）如何解答您最近一直提出的一个问题？",
+      "zh_epigraph": "“是的，从你的居所，甚至从天上来听；当你听到的时候，就原谅。”",
+      "zh_ref": "历代志下 6:19–39"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#f4e4be"
       },
       "dailyWalkDay": 320,
-      "reflectionPrompt": "Hold your hands open for a moment before “if my people” (2 Chronicles 7:12–14): what are you gripping tightly that loosens when you hear, “hear. forgive. heal the land”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “if my people” (2 Chronicles 7:12–14): what are you gripping tightly that loosens when you hear, “hear. forgive. heal the land”?",
+      "zh_title": "如果我的人",
+      "zh_poem": "晚上就得到了答复\n众人回家后。\n\n如果天空关闭，\n如果蝗虫来了\n\n回来的路开始了\n和我的人民，\n那些叫我名字的人。\n\n谦卑自己。\n祈祷。\n寻求我的面。\n转动。\n\n四扇小门。\n\n而在他们身后，\n只有神才能做的三件事。\n\n听到。\n原谅。\n治愈这片土地。",
+      "zh_reflectionPrompt": "在“如果我的子民”（历代志下 7：12-14）之前张开你的双手：当你听到“听。宽恕。医治这片土地”时，你紧握的是什么东西松开了？",
+      "zh_epigraph": "“如果我的人民，那些以我的名字称呼的人，能够谦卑自己”",
+      "zh_ref": "历代志下 7:12–14"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#f7e9c5"
       },
       "dailyWalkDay": 321,
-      "reflectionPrompt": "Scripture remembers this moment in 2 Chronicles 12:9–12 not to impress us, but to steady us: when have you seen the truth that “God was still counting what was good” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in 2 Chronicles 12:9–12 not to impress us, but to steady us: when have you seen the truth that “God was still counting what was good” in your own story?",
+      "zh_title": "发现好东西",
+      "zh_poem": "金色的盾牌消失了，\n被带到埃及。\n国王制造了青铜器\n取代他们的位置。\n\n一个较小的王国。\n一个谦卑的国王。\n\n仍然，\n在失落的中间，\n一行：\n\n有好东西\n在犹大发现的。\n\n当他自卑的时候，\n愤怒转变了。\n并不是一切都失去了。\n\n神还在数着\n什么是好的。",
+      "zh_reflectionPrompt": "圣经在《历代志下》12:9-12 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到“神仍算为善”的真理？",
+      "zh_epigraph": "“此外，在犹大还发现了好东西。”",
+      "zh_ref": "历代志下 12:9–12"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#e7dbc5"
       },
       "dailyWalkDay": 322,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “no one besides you” (2 Chronicles 14:9–11), what one honest sentence would you pray beside the quiet centerpiece of “no one besides you” after reading, “you are our God. he made the fight God's”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “no one besides you” (2 Chronicles 14:9–11), what one honest sentence would you pray beside the quiet centerpiece of “no one besides you” after reading, “you are our God. he made the fight God's”?",
+      "zh_title": "除了你之外没有人",
+      "zh_poem": "强者之间\n而没有力气的人，\n阿萨说，\n除了你之外没有人。\n\n这意味着差距\n对我们来说太宽了。\n\n这也意味着\n军队规模\n不那么重要\n比谁站在中间。\n\n帮助我们。\n我们依靠你。\n你是我们的上帝。\n不要让男人占上风\n反对你。\n\n他发起了战斗\n上帝的。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“除了你以外，没有人”（历代志下 14：9-11）时，在读到“你是我们的上帝。他使这场战斗成为上帝的”之后，除了“除了你之外，没有人”的安静中心句之外，你还会祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“耶和华啊，在强者与弱者之间，除了你之外，没有人可以帮助。”",
+      "zh_ref": "历代志下 14:9–11"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#ebd6a5"
       },
       "dailyWalkDay": 323,
-      "reflectionPrompt": "Between the opening line (“it came as a rebuke”) and the closing thought (“you don't have to be big to be found”), what is 2 Chronicles 16:7–9 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“it came as a rebuke”) and the closing thought (“you don't have to be big to be found”), what is 2 Chronicles 16:7–9 gently reframing in your own day?",
+      "zh_title": "来回",
+      "zh_poem": "这是一种责备。\n\n曾经哭过的阿萨\n除了你之外没有人，\n已送圣殿银\n给外国国王\n而不是问。\n\n然而，在责备之中，\n这个：\n\n他的眼睛来回转动\n穿过整个地球，\n寻找。\n\n不适合强者。\n为了完全属于他的心，\n这样他就可以坚强\n对于他们来说。\n\n你不必很大\n被发现。",
+      "zh_reflectionPrompt": "在开场白（“这是责备”）和结束语（“你不必很大，也能被发现”）之间，《历代志下》16：7-9在你那个时代温和地重构了什么？",
+      "zh_epigraph": "“因为耶和华的眼目遍察全地”",
+      "zh_ref": "历代志下 16:7–9"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#f2eddc"
       },
       "dailyWalkDay": 324,
-      "reflectionPrompt": "Along the road of Our Eyes Are on You, “our eyes are on you” (2 Chronicles 20:2–13) slows us down at the quiet centerpiece of “our eyes are on you” to remind us: “and all Judah stood there, their little ones beside them, looking the same way.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Our Eyes Are on You, “our eyes are on you” (2 Chronicles 20:2–13) slows us down at the quiet centerpiece of “our eyes are on you” to remind us: “and all Judah stood there, their little ones beside them, looking the same way.” Where are you being invited to trade control for trust today?",
+      "zh_title": "我们的目光注视着你",
+      "zh_poem": "消息传来。\n一大群人，\n已经在恩戈地了。\n\n国王惊慌失措，\n并设定自己\n寻求耶和华。\n\n他站在法庭上\n并大声祈祷，\n最后\n他没有计划了。\n\n我们没有力量。\n我们不知道该怎么办。\n\n但我们的目光都在你身上。\n\n犹大众人都站在那里，\n他们的小孩子在他们身边，\n看起来同样的方式。",
+      "zh_reflectionPrompt": "沿着《我们的眼睛注视着你》的道路，“我们的眼睛注视着你”（《历代志下》20：2-13）让我们在“我们的眼睛注视着你”的安静中心放慢速度，提醒我们：“所有的犹大人都站在那里，他们的小孩在旁边，看着同样的方向。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“我们不知道该怎么办，但我们的目光都在你身上。”",
+      "zh_ref": "历代志下 20:2–13"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f7e09e"
       },
       "dailyWalkDay": 325,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the singers went first” (2 Chronicles 20:20–22), what would you talk about after reading, “they only had to keep walking and keep singing”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the singers went first” (2 Chronicles 20:20–22), what would you talk about after reading, “they only had to keep walking and keep singing”?",
+      "zh_title": "歌手先走",
+      "zh_poem": "他们起得很早\n进入提哥亚的旷野，\n国王把歌手们\n在前面。\n\n不是弓箭手。\n不是盾牌。\n声音神圣排列，\n唱着他们最古老的歌曲。\n\n感谢耶和华。\n他的慈爱永远长存。\n\n当他们开始唱歌时，\n战斗\n已经在战斗了\n由其他人。\n\n他们只有\n继续行走\n并继续唱歌。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“歌唱的人先走”（历代志下 20：20-22）处停下来，读完“他们只需要继续走，继续唱”，你会谈论什么？",
+      "zh_epigraph": "“当他们开始歌唱和赞美时”",
+      "zh_ref": "历代志下 20:20–22"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#ead8aa"
       },
       "dailyWalkDay": 326,
-      "reflectionPrompt": "Pause before the strings of the harp: what changes in your posture today when you sit with the closing words of “valley of blessing”—“then they went home to Jerusalem with harps”?"
+      "reflectionPrompt": "Pause before the strings of the harp: what changes in your posture today when you sit with the closing words of “valley of blessing”—“then they went home to Jerusalem with harps”?",
+      "zh_title": "祝福谷",
+      "zh_poem": "他们给这个山谷命名\n因为他们在那里所做的事情。\n\n不为敌人。\n不是因为恐惧。\n\n贝拉卡。\n祝福。\n\n然后他们回家了\n到耶路撒冷\n与竖琴。",
+      "zh_reflectionPrompt": "在竖琴的琴弦前停顿一下：今天当你坐下来唱“祝福之谷”的结束语——“然后他们带着竖琴回到耶路撒冷”时，你的姿势有什么变化？",
+      "zh_epigraph": "“他们在那里称颂耶和华”",
+      "zh_ref": "历代志下 20:26–28"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#e8d2ad"
       },
       "dailyWalkDay": 327,
-      "reflectionPrompt": "Look at the stillness of the city gate in Timothy’s painting: what striving can you lay down as you ponder, “the house of God rebuilt one gift at a time” (2 Chronicles 24:4–13)?"
+      "reflectionPrompt": "Look at the stillness of the city gate in Timothy’s painting: what striving can you lay down as you ponder, “the house of God rebuilt one gift at a time” (2 Chronicles 24:4–13)?",
+      "zh_title": "门边的箱子",
+      "zh_poem": "房子已经被拆毁了，\n它的神圣事物\n送给偶像。\n\n国王希望把它修好。\n利未人行动迟缓。\n\n于是他们在门边放了一个箱子，\n人们来了，\n并给予，\n并感到高兴，\n直到满了。\n\n清空，又出发，\n日复一日。\n\n神的殿\n重建\n一次一份礼物。",
+      "zh_reflectionPrompt": "看看提摩太画中城门的寂静：当你沉思“上帝的殿一次重建一件恩赐”（历代志下24：4-13）时，你还能付出什么努力呢？",
+      "zh_epigraph": "“众首领和众民都欢喜，拿了进来，投在箱子里，直到装满了。”",
+      "zh_ref": "历代志下 24:4–13"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#efe2c6"
       },
       "dailyWalkDay": 328,
-      "reflectionPrompt": "In 2 Chronicles 25:5–10, the story turns on the quiet centerpiece of “much more than this”—and ends with, “it was never the biggest number in the room.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In 2 Chronicles 25:5–10, the story turns on the quiet centerpiece of “much more than this”—and ends with, “it was never the biggest number in the room.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "远不止于此",
+      "zh_poem": "他已经付了钱\n一百个人才\n雇佣军队\n神告诉他不要拿。\n\n钱呢？\n\n神的人\n没有争论这些数字。\n\n他只说，\n耶和华有能力\n给你\n远不止于此。\n\n有时服从\n花费您已经花费的费用。\n\n放手吧。\n从来没有\n最大的数字\n在房间里。",
+      "zh_reflectionPrompt": "在《历代志下》25:5-10 中，故事的核心是“远不止于此”——并以“这从来都不是房间里最多的数字”结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“耶和华能够给你的远不止这些。”",
+      "zh_ref": "历代志下 25:5–10"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#e0d5ba"
       },
       "dailyWalkDay": 329,
-      "reflectionPrompt": "The world measures life by speed and noise, yet 2 Chronicles 28:9–15 points us to the dust on your sandals and whispers, “mercy can be very specific.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet 2 Chronicles 28:9–15 points us to the dust on your sandals and whispers, “mercy can be very specific.” How can you practice that unhurried wisdom today?",
+      "zh_title": "棕榈树之城",
+      "zh_poem": "兄弟间战争的俘虏，\n向北进军撒玛利亚。\n\n一位先知站在路上：\n把他们送回去。\n\n和几个男人，\n他们的名字被写下来，\n所做的还不止这些。\n\n他们给他们穿衣服。\n给了他们凉鞋。\n饮食。\n为他们的伤口涂油。\n最弱的骑驴\n\n一直到耶利哥，\n棕榈树之城，\n给他们的兄弟。\n\n怜悯\n可以非常具体。",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，然而《历代志下》28:9-15却向我们指出了你凉鞋上的灰尘，并低声说：“怜悯可以是非常具体的。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“给他们凉鞋，给他们吃的喝的”",
+      "zh_ref": "历代志下 28:9–15"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#f5e7bf"
       },
       "dailyWalkDay": 330,
-      "reflectionPrompt": "The poem closes with a quiet turn: “it can take one morning to open it.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “it can take one morning to open it.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "他打开门",
+      "zh_poem": "他的父亲把它们关上了。\n\n希泽家没有等待。\n第一年。\n第一个月。\n\n他打开门\n并修复了它们。\n\n然后是清洁，\n灯，\n香，\n歌曲又开始了\n与大卫的乐器。\n\n事情发生得很突然。\n\n这可能需要数年时间\n关上一扇门。\n\n它可能需要\n一天早上\n打开它。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“可能需要一个早晨才能打开它。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“他打开耶和华圣殿的门，并且修好。”",
+      "zh_ref": "历代志下 29:3–36"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#e6c59a"
       },
       "dailyWalkDay": 331,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “they kept the feast seven days, and then seven more” (2 Chronicles 30:5–21) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “they kept the feast seven days, and then seven more” (2 Chronicles 30:5–21) speak to a question you have been carrying lately?",
+      "zh_title": "愿仁慈的耶和华宽恕",
+      "zh_poem": "信出去了：\n再次转动。回家吧。\n\n许多人嘲笑快递员。\n无论如何，有些人来了，\n不干净\n它是这样写的。\n\n无论如何，他们还是吃了逾越节的晚餐，\n国王祈祷道：\n\n愿仁慈的耶和华宽恕\n每个下定决心的人\n寻求神。\n\n耶和华垂听了\n并治愈了人们。\n\n他们守节七日，\n然后还有七个。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“他们守节七日，然后又守节七日”（历代志下 30：5-21）如何解答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“愿仁慈的耶和华宽恕所有人”",
+      "zh_ref": "历代志下 30:5–21"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#e4d1a6"
       },
       "dailyWalkDay": 332,
-      "reflectionPrompt": "Hold your hands open for a moment before “then Manasseh knew” (2 Chronicles 33:9–16): what are you gripping tightly that loosens when you hear, “it is never too late to find out”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “then Manasseh knew” (2 Chronicles 33:9–16): what are you gripping tightly that loosens when you hear, “it is never too late to find out”?",
+      "zh_title": "然后玛拿西知道",
+      "zh_poem": "他带领他的人民\n进一步错误\n比列国离去还要多，\n并没有听。\n\n然后是链条，\n通往巴比伦的漫长道路。\n\n在那里，\n没有什么可以统治的，\n他恳求道。\n他非常谦卑自己。\n\n和上帝\n让他自己被问到。\n听到他的声音。\n带他回家了。\n\n然后玛拿西知道\n耶和华是神。\n\n永远不会太晚\n找出答案。",
+      "zh_reflectionPrompt": "在“玛拿西就知道了”（历代志下 33：9-16）之前，请张开你的双手：当你听到“找出答案，永远不会太晚”时，你紧握的是什么东西就松开了？",
+      "zh_epigraph": "“玛拿西这才知道耶和华是上帝。”",
+      "zh_ref": "历代志下 33:9–16"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#e2d4b8"
       },
       "dailyWalkDay": 333,
-      "reflectionPrompt": "Scripture remembers this moment in 2 Chronicles 35:1–3 not to impress us, but to steady us: when have you seen the truth that “hands that had held the poles were free to hold a lamb, a cup, a child's hand in the crowd” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in 2 Chronicles 35:1–3 not to impress us, but to steady us: when have you seen the truth that “hands that had held the poles were free to hold a lamb, a cup, a child's hand in the crowd” in your own story?",
+      "zh_title": "不再是负担",
+      "zh_poem": "在逾越节，\n约西亚告诉利未人\n把方舟放下。\n\n把它放在房子里。\n它将不再是一种负担\n在你的肩膀上。\n\n现在事奉耶和华你的神，\n和他的人民。\n\n携带是神圣的。\n其余的也都是神圣的。\n\n曾经握住电线杆的手\n是免费的\n抱着一只小羊，\n一个杯子，\n孩子的手\n在人群中。",
+      "zh_reflectionPrompt": "圣经在《历代志下》35：1-3中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过这样的真理：“举着杆子的手可以自由地在人群中握住羊羔、杯子、孩子的手”？",
+      "zh_epigraph": "“这将不再是你肩上的负担。”",
+      "zh_ref": "历代志下 35:1–3"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#fdd7ae"
       },
       "dailyWalkDay": 334,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “rising up early” (2 Chronicles 36:15–19), what one honest sentence would you pray beside the warmth of the fire after reading, “the longest part of the story was not the ending. it was the sending”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “rising up early” (2 Chronicles 36:15–19), what one honest sentence would you pray beside the warmth of the fire after reading, “the longest part of the story was not the ending. it was the sending”?",
+      "zh_title": "早起",
+      "zh_poem": "在结束之前，\n这本书停止说\n为什么花了这么长时间。\n\n神不断地发送。\n早起。\n一个又一个的使者，\n\n因为他有慈悲心\n对他的人民\n并在他的居所。\n\n他们嘲笑和嘲笑\n直到没有办法补救为止\n\n火来了，\n墙壁倒塌了。\n\n但请再读一遍。\n故事最长的部分\n不是结局。\n\n这是发送。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“早起”时（历代志下 36：15-19），读完“故事最长的部分不是结局，而是发送”之后，你会在火的温暖旁祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“他清早起来打发人去，因为他怜悯他的百姓”",
+      "zh_ref": "历代志下 36:15–19"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#f8ecc9"
       },
       "dailyWalkDay": 335,
-      "reflectionPrompt": "Between the opening line (“the people were gone”) and the closing thought (“even in the ruin, something God had asked for was finally being kept”), what is 2 Chronicles 36:20–21 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“the people were gone”) and the closing thought (“even in the ruin, something God had asked for was finally being kept”), what is 2 Chronicles 36:20–21 gently reframing in your own day?",
+      "zh_title": "土地守安息日",
+      "zh_poem": "人们都走了。\n这座城市化为灰烬。\n\n和田野，\n很长一段时间以来第一次，\n休息了。\n\n没有犁。\n没有收获。\n七十年\n安息日的。\n\n露台上的野草。\n没有人种的花。\n\n即使在废墟中，\n上帝所要求的东西\n终于是\n被保留。",
+      "zh_reflectionPrompt": "在开场白（“人民都走了”）和结束语（“即使在废墟中，上帝所要求的东西终于被保留”）之间，《历代志下》36：20-21在你那个时代温和地重新构建了什么？",
+      "zh_epigraph": "“只要它荒凉，它就守安息日”",
+      "zh_ref": "历代志下 36:20–21"
     },
     {
       "n": 36,
@@ -814,7 +1004,15 @@
         "accent": "#fce5a4"
       },
       "dailyWalkDay": 336,
-      "reflectionPrompt": "Along the road of Our Eyes Are on You, “let him go up” (2 Chronicles 36:22–23) slows us down at the open threshold to remind us: “the book that began with a long list of names ends with a space left open for one more.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Our Eyes Are on You, “let him go up” (2 Chronicles 36:22–23) slows us down at the open threshold to remind us: “the book that began with a long list of names ends with a space left open for one more.” Where are you being invited to trade control for trust today?",
+      "zh_title": "让他上去",
+      "zh_poem": "这本书本来可以结束的\n与灰。\n\n结束了\n有门。\n\n一个外国国王，\n他的灵被神感动，\n把它写下来。\n\n无论你们中间有谁\n他所有的子民，\n愿耶和华他的神与他同在，\n并让他上去。\n\n开始的书\n有一长串名字\n结束\n留有空间\n\n再来一张。",
+      "zh_reflectionPrompt": "沿着我们的眼睛注视着你的道路，“让他上去”（历代志下36：22-23）在敞开的门槛处放慢了我们的速度，提醒我们：“这本书以一长串名字开始，最后留出一个空间，可以容纳更多的名字。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“愿耶和华他的神与他同在，容他上去。”",
+      "zh_ref": "历代志下 36:22–23"
     }
-  ]
+  ],
+  "zh_title": "我们的眼目仰望你",
+  "zh_subtitle": "历代志上下诗画集",
+  "zh_beforeYouBegin": "《历代志》以一长串名字开始，以一扇打开的门结束。其间：一个以悲伤命名的人，要求不要将悲伤传递下去；看门人每天早上打开房子；歌手永不停息；方舟带着铙钹和竖琴回家；给每个人一份面包和葡萄干蛋糕；一个老国王说一切都来自于你；喇叭和声音合而为一；一个国家被告知要谦卑自己并祈祷；歌手走在军队前面；门边的箱子里装满了礼物；一个骄傲的国王戴着锁链谦卑地带着礼物。家，还有一片安静地守安息日的土地。\n\n本书以三十六首短诗的形式，分为五个部分：名字、约柜和歌曲、大卫的嘱咐和献祭、所罗门对约沙法，以及最后几位国王对居鲁士的法令。每首诗都位于一幅画旁边和一行经文之下。这些图片与故事所涉及的事物在一起——一个陶罐、一个青铜钹、一块葡萄干蛋糕、一对空脚镣——并将面孔留给你想象。\n\n这些诗不是圣经。它们是一位读者对此的回应。与这本书一起打开历代志书，让真实的话语成为最终的结论。"
 }

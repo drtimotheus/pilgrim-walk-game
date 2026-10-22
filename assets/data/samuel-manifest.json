@@ -16,7 +16,10 @@
       "lightName": "Light of the Tabernacle Lamp",
       "lightHint": "Beside the clay lamp that had not yet gone out in the quiet Shiloh sanctuary",
       "index": 1,
-      "startN": 1
+      "startN": 1,
+      "zh_title": "我的心欢腾",
+      "zh_epigraph": "我的心因耶和华欢欣！",
+      "zh_epigraphRef": "撒母耳记上 2:1"
     },
     {
       "part": 2,
@@ -26,7 +29,10 @@
       "lightName": "Light of the Stone of Help",
       "lightHint": "Near the upright Ebenezer witness stone in the hill pasture",
       "index": 2,
-      "startN": 9
+      "startN": 9,
+      "zh_title": "像所有国家一样的国王",
+      "zh_epigraph": "让我们成为国王，像所有国家一样审判我们。",
+      "zh_epigraphRef": "撒母耳记上 8:5"
     },
     {
       "part": 3,
@@ -36,7 +42,10 @@
       "lightName": "Light of the Elah Brook",
       "lightHint": "Where five smooth river stones glisten in the clear valley stream",
       "index": 3,
-      "startN": 15
+      "startN": 15,
+      "zh_title": "一个合自己心意的人",
+      "zh_epigraph": "耶和华已经为自己寻找了一个合他心意的人。",
+      "zh_epigraphRef": "撒母耳记上 13:14"
     },
     {
       "part": 4,
@@ -46,7 +55,10 @@
       "lightName": "Light of the King’s Table",
       "lightHint": "Beside the place kept continually for Jonathan’s lame son",
       "index": 4,
-      "startN": 25
+      "startN": 25,
+      "zh_title": "我人民的牧羊人",
+      "zh_epigraph": "我把你从羊圈、从羊群中带出来，让你成为我人民的王子。",
+      "zh_epigraphRef": "撒母耳记下 7:8"
     },
     {
       "part": 5,
@@ -56,7 +68,10 @@
       "lightName": "Light of the Threshing Floor Altar",
       "lightHint": "Near Araunah’s threshing floor on the hill before the Finale Plaza",
       "index": 5,
-      "startN": 32
+      "startN": 32,
+      "zh_title": "我的儿子，我的儿子",
+      "zh_epigraph": "耶和华是我的磐石、我的山寨、我的拯救者。",
+      "zh_epigraphRef": "撒母耳记下 22:2"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#dcb179"
       },
       "dailyWalkDay": 221,
-      "reflectionPrompt": "The world measures life by speed and noise, yet 1 Samuel 1:3–8 points us to the table set before you and whispers, “they have to be carried up the hill to God.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet 1 Samuel 1:3–8 points us to the table set before you and whispers, “they have to be carried up the hill to God.” How can you practice that unhurried wisdom today?",
+      "zh_title": "十个儿子",
+      "zh_poem": "每年都走同一条路\n直到示罗。\n\n每年同一张桌子，\n双份\n摆在她面前，\n房间里传来同样的声音\n提醒她她没有什么。\n\n所以她没有吃饭。\n\n她的丈夫爱她。\n我对你不是更好吗\n比十个儿子？他问道。\n\n他的意思是善意的。\n\n但有些疼痛\n桌上没有得到答复。\n\n他们必须被携带\n上山\n给上帝。",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，然而《撒母耳记上》1:3-8 向我们指出摆在你面前的桌子，低声说：“他们必须被带到山上到上帝那里去。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“汉娜，你为什么哭？为什么不吃东西？为什么你的心悲伤？”",
+      "zh_ref": "撒母耳记上 1:3–8"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#cc9a92"
       },
       "dailyWalkDay": 222,
-      "reflectionPrompt": "The poem closes with a quiet turn: “except where she had put it.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “except where she had put it.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "只有她的嘴唇在动",
+      "zh_poem": "没有说话。\n只有她的嘴唇在动。\n\n老牧师看着\n以为她喝醉了。\n\n她不是。\n她正在倒酒。\n\n整个罐子：\n那些年，那些对手，\n空空的双臂，\n她准备许下的诺言。\n\n当她站起来时\n她去吃饭了，\n和她的脸\n不再悲伤了。\n\n一切都还没有改变。\n\n除非\n她已经说过了。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“除了她写的地方。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“我在耶和华面前倾心吐意。”",
+      "zh_ref": "撒母耳记上 1:12–18"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#f7e8be"
       },
       "dailyWalkDay": 223,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “because she knew whose it was before it was ever hers” (1 Samuel 1:20–28) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “because she knew whose it was before it was ever hers” (1 Samuel 1:20–28) speak to a question you have been carrying lately?",
+      "zh_title": "向主求问",
+      "zh_poem": "她给他起名叫塞缪尔：\n我向主求问他。\n\n她照顾他。\n她给他断奶了。\n\n然后她把他抱上了山\n用面粉和酒\n带他去见老牧师\n在同一扇门\n她曾祈祷过的地方。\n\n她所要求的，\n她回馈了。\n\n不是因为神拿走了它。\n\n因为她知道\n是谁的\n在它成为她之前。",
+      "zh_reflectionPrompt": "有时候，一句话会在封闭的房间里打开一扇窗：“因为在它属于她之前，她就知道它是谁的”（撒母耳记上 1：20-28）如何解答您最近一直在思考的问题？",
+      "zh_epigraph": "“我为这个孩子祷告，耶和华已将我向他所求的祈求赐给我。”",
+      "zh_ref": "撒母耳记上 1:20–28"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#e5dabc"
       },
       "dailyWalkDay": 224,
-      "reflectionPrompt": "Hold your hands open for a moment before “no rock like our God” (1 Samuel 2:1–8): what are you gripping tightly that loosens when you hear, “she knew which way his hands move”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “no rock like our God” (1 Samuel 2:1–8): what are you gripping tightly that loosens when you hear, “she knew which way his hands move”?",
+      "zh_title": "没有任何磐石能像我们的神一样",
+      "zh_poem": "她没有唱关于她自己的歌。\n\n她唱的是关于弓的歌\n在强有力的手中破碎，\n为了面包而全力外出工作，\n饥饿的人坐下来吃饭。\n\n她唱的是关于上帝的歌\n谁屈身于尘土\n并帮助穷人摆脱困境\n并给他们让座\n与王子。\n\n那个贫瘠的人在唱歌。\n\n她知道\n哪条路\n他的手动了。",
+      "zh_reflectionPrompt": "在“没有任何磐石能与我们的上帝相比”（撒母耳记上 2：1-8）之前张开双手：当您听到“她知道他的手向哪个方向移动”时，您紧握的是什么东西就松开了？",
+      "zh_epigraph": "“他从尘土中扶起穷人。”",
+      "zh_ref": "撒母耳记上 2:1–8"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#ebddc3"
       },
       "dailyWalkDay": 225,
-      "reflectionPrompt": "Scripture remembers this moment in 1 Samuel 2:18–21 not to impress us, but to steady us: when have you seen the truth that “that's what giving to God looks like sometimes: open hands, and a needle still moving” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in 1 Samuel 2:18–21 not to impress us, but to steady us: when have you seen the truth that “that's what giving to God looks like sometimes: open hands, and a needle still moving” in your own story?",
+      "zh_title": "一件小袍子",
+      "zh_poem": "每年\n大一点。\n\n她在心里衡量着他\n一整年，\n猜猜他长大了多少。\n\n然后沿路前往示罗\n长袍叠在怀里。\n\n她把他送走了\n并且从未停止过\n给他做东西。\n\n这就是奉献给上帝的东西\n有时看起来像：\n\n张开双手，\n和一根针\n仍在移动。",
+      "zh_reflectionPrompt": "圣经在撒母耳记上 2:18-21 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过这样的真理：“有时奉献给神就是这样：张开双手，针还在动”？",
+      "zh_epigraph": "“他的母亲给他做了一件小袍子，年复一年地送给他”",
+      "zh_ref": "撒母耳记上 2:18–21"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#e1ba6c"
       },
       "dailyWalkDay": 226,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “speak” (1 Samuel 3:1–10), what one honest sentence would you pray beside the small oil lamp in the dark after reading, “God wasn't waiting for him to be older. only to be listening”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “speak” (1 Samuel 3:1–10), what one honest sentence would you pray beside the small oil lamp in the dark after reading, “God wasn't waiting for him to be older. only to be listening”?",
+      "zh_title": "说话",
+      "zh_poem": "主的话是罕见的\n那些日子里。\n\n灯还没灭\n一个男孩躺了下来\n方舟附近。\n\n有声音叫了三遍他的名字。\n他跑了三次\n走错房间了。\n\n没关系。\n我们大多数人都这样做。\n\n然后他学会了这句话：\n说话，\n因为你的仆人听见了。\n\n上帝没有等待\n让他变老。\n\n只能倾听。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“说话”处时（撒母耳记上 3：1-10），当你读到“上帝并没有等他变老，只是在倾听”之后，你会在黑暗中的小油灯旁诚实地祈祷哪一句话？",
+      "zh_epigraph": "“请说，仆人都听。”",
+      "zh_ref": "撒母耳记上 3:1–10"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#e1c183"
       },
       "dailyWalkDay": 227,
-      "reflectionPrompt": "Between the opening line (“the ark had been taken, and no one who took it could keep it”) and the closing thought (“down in the valley the reapers looked up from the wheat and saw what they thought they had lost for good coming up the road”), what is 1 Samuel 6:7–13 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“the ark had been taken, and no one who took it could keep it”) and the closing thought (“down in the valley the reapers looked up from the wheat and saw what they thought they had lost for good coming up the road”), what is 1 Samuel 6:7–13 gently reframing in your own day?",
+      "zh_title": "直路",
+      "zh_poem": "约柜已被掳去，\n没有人拿走它\n可以保留它。\n\n所以他们把它送回家\n在新购物车上\n在两只牛后面\n从未受过枷锁。\n\n奶牛哞哞叫着\n一路走来\n并且没有转身\n向右或向左。\n\n在山谷下面\n收割者抬起头来\n来自小麦\n\n并看到了他们的想法\n他们永远失去了\n\n即将上路。",
+      "zh_reflectionPrompt": "在开场白（“约柜已被掳去，没有人能守住它”）和结束语（“在山谷里，收割的人从麦子上抬起头来，看见他们以为自己已经永远失去的东西正在路上”）之间，《撒母耳记上》6:7-13在你那个时代轻轻地重构了什么？",
+      "zh_epigraph": "“奶牛径直前往贝丝谢梅什。”",
+      "zh_ref": "撒母耳记上 6:7–13"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#ece5c9"
       },
       "dailyWalkDay": 228,
-      "reflectionPrompt": "Along the road of The Lamp Had Not Gone Out, “stone of help” (1 Samuel 7:3–12) slows us down at the stones of the wall to remind us: “he doesn't plan to stop here.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of The Lamp Had Not Gone Out, “stone of help” (1 Samuel 7:3–12) slows us down at the stones of the wall to remind us: “he doesn't plan to stop here.” Where are you being invited to trade control for trust today?",
+      "zh_title": "帮助之石",
+      "zh_poem": "撒母耳立下一块石头\n在一个领域\n并给它起了一个名字：\n帮助之石。\n\n不是每块石头\n是用于墙壁的。\n\n有些在那里\n待观察,\n\n所以那天\n你又害怕了\n你可以走到田野里\n然后把手放在上面\n并记住。\n\n他帮助了我们\n到目前为止。\n\n他没有计划\n停止\n在这里。",
+      "zh_reflectionPrompt": "沿着《灯未灭》的道路，“帮助之石”（撒母耳记上 7：3-12）在城墙的石头处放慢了我们的速度，提醒我们：“他并不打算在这里停下来。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“到目前为止，耶和华一直帮助我们。”",
+      "zh_ref": "撒母耳记上 7:3–12"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#d9c8a8"
       },
       "dailyWalkDay": 229,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “like everyone else” (1 Samuel 8:4–9), what would you talk about after reading, “and he doesn't leave when we choose wrong”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “like everyone else” (1 Samuel 8:4–9), what would you talk about after reading, “and he doesn't leave when we choose wrong”?",
+      "zh_title": "像其他人一样",
+      "zh_poem": "塞缪尔已经老了。\n他的儿子们收受贿赂。\n\n长老们说，给我们一个国王，\n像所有国家一样。\n\n这伤害了他。\n他把它带到上帝面前。\n\n神说，\n他们拒绝的不是你。\n这就是我。\n\n然后，奇怪的是：\n听他们的。\n\n他让我们选择。\n他清楚地告诉我们\n它将花费多少钱。\n\n他没有离开\n当我们选择错误的时候。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“像其他人一样”处停下来（撒母耳记上 8：4-9），那么在读到“当我们选择错误时，他不会离开”之后，你会谈论什么？",
+      "zh_epigraph": "“他们没有拒绝你，但他们拒绝了我作为他们的国王。”",
+      "zh_ref": "撒母耳记上 8:4–9"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#f2dcaa"
       },
       "dailyWalkDay": 230,
-      "reflectionPrompt": "Pause before the table set before you: what changes in your posture today when you sit with the closing words of “the lost donkeys”—“you went out looking for something small, and someone had been looking for you”?"
+      "reflectionPrompt": "Pause before the table set before you: what changes in your posture today when you sit with the closing words of “the lost donkeys”—“you went out looking for something small, and someone had been looking for you”?",
+      "zh_title": "迷失的驴子",
+      "zh_poem": "扫罗出去了\n寻找驴子。\n\n三天的山。\n面包从麻袋里消失了。\n没有什么可展示的。\n\n他准备掉头回去。\n\n和在城里\n一位古老的看见者已经在等待，\n桌上保留一个座位\n并留出一部分。\n\n你的驴子被发现了，他说。\n别把心思放在他们身上。\n\n你出去了\n寻找一些小东西，\n\n和某人\n一直在寻找\n为了你。",
+      "zh_reflectionPrompt": "在摆在你面前的桌子前停下来：今天，当你坐在“迷失的驴子”的结束语“你出去寻找一些小东西，而有人一直在寻找你”时，你的姿势有什么变化？",
+      "zh_epigraph": "“别把心思放在他们身上；因为他们已经被发现了。”",
+      "zh_ref": "撒母耳记上 9:3–24"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#e9ddba"
       },
       "dailyWalkDay": 231,
-      "reflectionPrompt": "Look at the stillness of the name by which He calls you in Timothy’s painting: what striving can you lay down as you ponder, “it's another to stand up in front of everyone and let it be true” (1 Samuel 10:20–24)?"
+      "reflectionPrompt": "Look at the stillness of the name by which He calls you in Timothy’s painting: what striving can you lay down as you ponder, “it's another to stand up in front of everyone and let it be true” (1 Samuel 10:20–24)?",
+      "zh_title": "行李之中",
+      "zh_poem": "命运落在了他的部落身上，\n然后他的家人，\n然后是他的名字。\n\n他们找不到他。\n\n以色列最高的人\n正在躲藏\n袋子之间。\n\n我理解他。\n\n这是一回事\n被选择。\n\n这是另一个\n站起来\n在所有人面前\n并让它成为现实。",
+      "zh_reflectionPrompt": "看看提摩太画中他呼唤你的名字的平静：当你沉思“站在众人面前并让它成为事实是另一回事”（撒母耳记上 10：20-24）时，你能放下什么努力？",
+      "zh_epigraph": "“看哪，他已经藏在行李之中了。”",
+      "zh_ref": "撒母耳记上 10:20–24"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#f0e5b9"
       },
       "dailyWalkDay": 232,
-      "reflectionPrompt": "In 1 Samuel 13:8–14, the story turns on the quiet centerpiece of “seven days”—and ends with, “waiting is hardest at the very end, right before the one you're waiting for comes over the hill.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In 1 Samuel 13:8–14, the story turns on the quiet centerpiece of “seven days”—and ends with, “waiting is hardest at the very end, right before the one you're waiting for comes over the hill.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "七日",
+      "zh_poem": "他等了七天。\n\n敌人聚集。\n人就溜走了，\n每天早上多吃一些。\n\n先知没有来。\n\n所以他自己做了。\n就这一次。\n他有充分的理由。\n\n烟雾仍在升腾\n当塞缪尔到达时。\n\n等待是最难的\n在最后，\n\n就在之前\n你正在等待的人\n翻过小山来。",
+      "zh_reflectionPrompt": "在撒母耳记上 13:8-14 中，故事以“七日”的安静中心为中心，并以“最后的等待是最艰难的，就在你所等待的人翻过山丘之前”。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“所以我强迫自己献上燔祭。”",
+      "zh_ref": "撒母耳记上 13:8–14"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#fde8ca"
       },
       "dailyWalkDay": 233,
-      "reflectionPrompt": "The world measures life by speed and noise, yet 1 Samuel 15:13–22 points us to the quiet centerpiece of “the bleating of the sheep” and whispers, “he's listening for whether we heard him.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet 1 Samuel 15:13–22 points us to the quiet centerpiece of “the bleating of the sheep” and whispers, “he's listening for whether we heard him.” How can you practice that unhurried wisdom today?",
+      "zh_title": "羊的咩咩叫声",
+      "zh_poem": "我已经做了\n耶和华所吩咐的，\n索尔说道。\n\n老人说：\n那么这是什么叫声\n在我耳边？\n\n你可以把上帝带来\n羊群中最好的\n\n还是不带他来\n他要求什么。\n\n他没有数羊。\n\n他在听\n对于是否\n我们听到了他的声音。",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，然而《撒母耳记上》15:13-22却向我们指出了“羊的咩咩声”的安静核心，并低声说：“他在听我们是否听到他的声音。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“服从胜于牺牲，倾听胜于公羊的脂肪。”",
+      "zh_ref": "撒母耳记上 15:13–22"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#f9f6e7"
       },
       "dailyWalkDay": 234,
-      "reflectionPrompt": "The poem closes with a quiet turn: “a verdict can be true and still be wept over. this one was.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “a verdict can be true and still be wept over. this one was.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "撒母耳哀悼",
+      "zh_poem": "当塞缪尔转身要走时，\n扫罗抓住他的袍子边，\n它撕裂了。\n\n王国已与你分离\n像这样，塞缪尔说。\n\n然后他回到拉玛的家\n之后再也没有去看扫罗。\n\n但他为他哀悼。\n\n和主\n也很伤心。\n\n判决\n可以是真的\n仍然会哭泣。\n\n这个是。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“一个判决可能是真实的，但仍然会让人哭泣。这个就是。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“撒母耳为扫罗哀哭”",
+      "zh_ref": "撒母耳记上 15:27–35"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#f6dfb2"
       },
       "dailyWalkDay": 235,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “so the whole feast stood waiting until a boy came in from the field, and God said, this is he” (1 Samuel 16:6–13) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “so the whole feast stood waiting until a boy came in from the field, and God said, this is he” (1 Samuel 16:6–13) speak to a question you have been carrying lately?",
+      "zh_title": "最年轻的",
+      "zh_poem": "七个儿子从先知身边走过。\n\n个子高的。\n强者。\n那个看起来像国王的人。\n\n不是这个。\n也不是这个。\n\n这些都是吗？\n\n嗯，这是最年轻的。\n他和羊一起出去了。\n\n没有人想到\n叫他进来。\n\n所以整个盛宴都在等待\n直到一个男孩从田野里回来，\n\n神说，\n这就是他。",
+      "zh_reflectionPrompt": "有时候，一句话会在一间封闭的房间里打开一扇窗户：“整个筵席都站在那里，直到一个男孩从田野里进来，上帝说，这就是他”（撒母耳记上 16：6-13）如何解答您最近一直提出的一个问题？",
+      "zh_epigraph": "“人是看外貌，耶和华却是看内心。”",
+      "zh_ref": "撒母耳记上 16:6–13"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#e9b267"
       },
       "dailyWalkDay": 236,
-      "reflectionPrompt": "Hold your hands open for a moment before “the harp” (1 Samuel 16:14–23): what are you gripping tightly that loosens when you hear, “sometimes the kindest thing you can bring is music, and the patience to keep playing”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “the harp” (1 Samuel 16:14–23): what are you gripping tightly that loosens when you hear, “sometimes the kindest thing you can bring is music, and the patience to keep playing”?",
+      "zh_title": "竖琴",
+      "zh_poem": "一个无法休息的国王。\n一个牧童\n用竖琴。\n\n没有布道。\n没有争论。\n只要他的手放在琴弦上，\n\n和黑暗\n起重\n有一段时间了。\n\n不要低估\n一首歌能做什么\n在一个混乱的房间里。\n\n有时是最仁慈的事\n你可以带\n是音乐，\n和耐心\n继续玩。",
+      "zh_reflectionPrompt": "在“竖琴”前张开双手（撒母耳记上 16：14-23）：当您听到“有时，您能带来的最仁慈的东西就是音乐和继续弹奏的耐心”时，您紧握的是什么东西松开了？",
+      "zh_epigraph": "“大卫拿起琴，用手弹奏，扫罗就舒畅了”",
+      "zh_ref": "撒母耳记上 16:14–23"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#e9ddbb"
       },
       "dailyWalkDay": 237,
-      "reflectionPrompt": "Scripture remembers this moment in 1 Samuel 17:38–40 not to impress us, but to steady us: when have you seen the truth that “use what God has already taught your hands” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in 1 Samuel 17:38–40 not to impress us, but to steady us: when have you seen the truth that “use what God has already taught your hands” in your own story?",
+      "zh_title": "未经测试的",
+      "zh_poem": "国王给他穿上衣服\n在他自己的盔甲里。\n\n青铜头盔。\n邮件外套。\n他身边有一把剑。\n\n他试着走路\n然后停了下来。\n\n我不能进入这些。\n\n他把它们脱下来\n然后走到小溪边\n手里拿着他的手杖。\n\n你不能打架\n在别人的信仰中。\n\n用什么神\n已经教过\n你的手。",
+      "zh_reflectionPrompt": "圣经在撒母耳记上 17:38-40 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“使用上帝已经教导你的双手”的真理？",
+      "zh_epigraph": "“我不能接受这些；因为我还没有测试过它们。”",
+      "zh_ref": "撒母耳记上 17:38–40"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#d3b792"
       },
       "dailyWalkDay": 238,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “five smooth stones” (1 Samuel 17:40–50), what one honest sentence would you pray beside the quiet brook after reading, “the battle is his. one stone was enough”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “five smooth stones” (1 Samuel 17:40–50), what one honest sentence would you pray beside the quiet brook after reading, “the battle is his. one stone was enough”?",
+      "zh_title": "五块光滑的石头",
+      "zh_poem": "他在小溪边弯下腰\n并选择了五个。\n\n光滑的。\n用石头打水\n一直在塑造\n多年来，\n\n像那个男孩一样\n选择他们。\n\n穿过山谷\n站着一个青铜人\n用像织工的横梁一样的矛。\n\n“你带着剑来找我，”大卫说。\n我来找你\n奉主的名。\n\n战斗是他的。\n\n一石\n就足够了。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“五块光滑的石头”（撒母耳记上 17：40-50）上时，读到“这场战斗是他的，一块石头就足够了”之后，你会在安静的小溪旁祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“为自己从溪中挑选了五块光滑的石头”",
+      "zh_ref": "撒母耳记上 17:40–50"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#e5dac5"
       },
       "dailyWalkDay": 239,
-      "reflectionPrompt": "Between the opening line (“the king's son took off his robe and put it on the shepherd”) and the closing thought (“if you have one, you are rich”), what is 1 Samuel 18:1–4 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“the king's son took off his robe and put it on the shepherd”) and the closing thought (“if you have one, you are rich”), what is 1 Samuel 18:1–4 gently reframing in your own day?",
+      "zh_title": "针织",
+      "zh_poem": "国王的儿子\n脱下长袍\n并把它放在牧羊人身上。\n\n然后是他的剑。\n他的弓。\n他的腰带。\n\n所说的一切\n有一天这将是我的\n放弃了。\n\n乔纳森本可以看到\n一个竞争对手。\n\n他看到一个朋友，\n并爱他\n作为他自己的灵魂。\n\n有这样的人。\n\n如果你有的话\n你很富有。",
+      "zh_reflectionPrompt": "在开场白（“国王的儿子脱下外袍，给牧羊人穿上”）和结束语（“如果你有一件，你就富有了”）之间，《撒母耳记上》18：1-4 在你那个时代温柔地重新诠释了什么？",
+      "zh_epigraph": "“约拿单的灵魂与大卫的灵魂紧密相连”",
+      "zh_ref": "撒母耳记上 18:1–4"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#fbf0c4"
       },
       "dailyWalkDay": 240,
-      "reflectionPrompt": "Along the road of The Lamp Had Not Gone Out, “the arrow” (1 Samuel 20:35–42) slows us down at the quiet centerpiece of “the arrow” to remind us: “they are a promise with a long road in it.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of The Lamp Had Not Gone Out, “the arrow” (1 Samuel 20:35–42) slows us down at the quiet centerpiece of “the arrow” to remind us: “they are a promise with a long road in it.” Where are you being invited to trade control for trust today?",
+      "zh_title": "箭头",
+      "zh_poem": "他们就一个标志达成了一致。\n如果箭没射中，就回家吧。\n如果它飞过去了，就走吧。\n\n箭飞过去了。\n\n一个男孩把它捡起来\n并且一无所知。\n\n但在野外\n两个朋友互相拥抱\n并哭泣，\n大卫最多。\n\n安心地走吧，乔纳森说。\n主在你我之间\n永远。\n\n一些告别\n都不是结局。\n\n他们是一个承诺\n里面有一条很长的路。",
+      "zh_reflectionPrompt": "沿着《灯未灭》的道路，“箭”（撒母耳记上 20：35-42）在“箭”安静的中心位置放慢了我们的速度，提醒我们：“它们是一个有漫长道路的承诺。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“箭头不是在你的上方吗？”",
+      "zh_ref": "撒母耳记上 20:35–42"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#f8ebcc"
       },
       "dailyWalkDay": 241,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the edge of his robe” (1 Samuel 24:1–12), what would you talk about after reading, “it's strength that has decided to keep its hands open”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the edge of his robe” (1 Samuel 24:1–12), what would you talk about after reading, “it's strength that has decided to keep its hands open”?",
+      "zh_title": "他袍子的边缘",
+      "zh_poem": "那个正在追捕他的人\n走进山洞\n他藏身的地方。\n\n这是你的一天，\n他的手下低声说道。\n\n他蹑手蹑脚地靠近\n并切一个角\n来自国王的长袍。\n\n仅此而已。\n即便如此，他的心也感到不安。\n\n外面，他举起废纸：\n看到了吗？我本来可以的。\n我没有。\n\n怜悯不是软弱。\n\n这是力量\n已经决定了\n保持双手张开。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并停在“他的袍子边”（撒母耳记上 24：1-12），读完“是力量决定张开双手”后，你会谈论什么？",
+      "zh_epigraph": "“我必不伸手害我主，因为他是耶和华的受膏者。”",
+      "zh_ref": "撒母耳记上 24:1–12"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#fbe5b2"
       },
       "dailyWalkDay": 242,
-      "reflectionPrompt": "Pause before the daily loaf broken in the hand: what changes in your posture today when you sit with the closing words of “bread on the road”—“some come with bread, at the right hour, on the right road”?"
+      "reflectionPrompt": "Pause before the daily loaf broken in the hand: what changes in your posture today when you sit with the closing words of “bread on the road”—“some come with bread, at the right hour, on the right road”?",
+      "zh_title": "路上的面包",
+      "zh_poem": "她的丈夫侮辱了大卫的部下，\n其中四百人\n他们带着剑而来。\n\n她没有争辩。\n她没有等待。\n\n她把驴子装上\n配面包和葡萄干\n和无花果蛋糕\n并骑马出去迎接他们。\n\n都怪我，她说，\n和一个愤怒的人说话\n从边缘回来。\n\n一些和平缔造者\n带着演讲而来。\n\n有些带着面包来，\n在正确的时间，\n在正确的道路上。",
+      "zh_reflectionPrompt": "在手上掰开的每日面包前停顿一下：今天，当你坐着，伴随着“面包在路上”的结束语——“有些人带着面包，在正确的时间，在正确的路上来”时，你的姿势有什么变化？",
+      "zh_epigraph": "“你的判断力是有福的，你今天使我免于血腥罪孽”",
+      "zh_ref": "撒母耳记上 25:14–33"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#f3e8c6"
       },
       "dailyWalkDay": 243,
-      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “strength in God” in Timothy’s painting: what striving can you lay down as you ponder, “and went, and brought them all back” (1 Samuel 30:1–8)?"
+      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “strength in God” in Timothy’s painting: what striving can you lay down as you ponder, “and went, and brought them all back” (1 Samuel 30:1–8)?",
+      "zh_title": "神的力量",
+      "zh_poem": "他们回家了\n抽烟。\n\n城镇被烧毁。\n妻子和孩子被带走。\n他们哭了\n直到他们没有力气哭泣。\n\n然后是他自己的人\n谈到用石头砸死他。\n\n没有人留下\n为了安慰大卫，\n所以他去了\n给曾经的那个人。\n\n他一开始并没有感到坚强。\n他去找上帝\n并在那里找到了力量。\n\n然后他问，我去吗？\n然后去了，\n并将他们全部带回来。",
+      "zh_reflectionPrompt": "看看提摩太画作中“上帝的力量”安静中心的宁静：当你思考“去把他们都带回来”（撒母耳记上 30：1-8）时，你能放下什么努力？",
+      "zh_epigraph": "“大卫依靠耶和华他的上帝坚固自己。”",
+      "zh_ref": "撒母耳记上 30:1–8"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#f5d5a4"
       },
       "dailyWalkDay": 244,
-      "reflectionPrompt": "In 1 Samuel 31:1–13, the story turns on the quiet centerpiece of “under the tamarisk”—and ends with, “whatever else was true of Saul, someone remembered the day he came.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In 1 Samuel 31:1–13, the story turns on the quiet centerpiece of “under the tamarisk”—and ends with, “whatever else was true of Saul, someone remembered the day he came.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "柽柳下",
+      "zh_poem": "扫罗跌倒在基利波山上，\n和他的儿子们。\n\n很久以前，\n当雅比被包围时\n和无助，\n扫罗来找他们了。\n\n他们记得。\n\n整个晚上\n雅比勇士行走，\n并带走了他们的国王，\n并将他埋在一棵柽柳下，\n并禁食七日。\n\n无论如何\n扫罗也是如此，\n\n有人记得\n他来的那天。",
+      "zh_reflectionPrompt": "在撒母耳记上 31 章 1-13 节中，故事以“在柳树下”这一安静的中心为中心，并以“无论扫罗的其他情况如何，有人记得他来的那一天”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“他们把他们的骨头埋在雅比的柽柳树下，并禁食七天。”",
+      "zh_ref": "撒母耳记上 31:1–13"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#e8dac1"
       },
       "dailyWalkDay": 245,
-      "reflectionPrompt": "The world measures life by speed and noise, yet 2 Samuel 1:11–27 points us to the quiet centerpiece of “how the mighty have fallen” and whispers, “you were very pleasant to me.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet 2 Samuel 1:11–27 points us to the quiet centerpiece of “how the mighty have fallen” and whispers, “you were very pleasant to me.” How can you practice that unhurried wisdom today?",
+      "zh_title": "强者如何倒下",
+      "zh_poem": "带来消息的人\n认为这会让他高兴。\n\n事实并非如此。\n\n大卫撕破衣服\n并禁食至晚上，\n对于扫罗来说，\n谁追捕了他，\n而对于乔纳森来说，\n谁曾爱过他。\n\n然后他创作了一首歌：\n强者如何倒下。\n\n在它的中间，\n一行\n这根本与国王无关：\n\n我的兄弟乔纳森。\n你对我来说非常愉快。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而《撒母耳记下》1:11-27却向我们指出了“强者如何倒下”的安静核心，并轻声说：“你对我来说非常愉快。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“我为你感到难过，我的兄弟乔纳森。”",
+      "zh_ref": "撒母耳记下 1:11–27"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#f3e6c4"
       },
       "dailyWalkDay": 246,
-      "reflectionPrompt": "The poem closes with a quiet turn: “they reminded him what God had said: you will shepherd my people. the work was the same.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “they reminded him what God had said: you will shepherd my people. the work was the same.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "骨头和肉",
+      "zh_poem": "所有的支派都来到希伯仑\n并说，\n我们是你的骨和肉。\n\n多年的跑步\n结束于一个大门。\n\n他们没有问他\n成为一名战士。\n他已经是这样了。\n\n他们提醒他\n神说过的话：\n你将牧养我的人民。\n\n皇冠\n是一个更大的领域。\n\n工作\n是一样的。",
+      "zh_reflectionPrompt": "这首诗以安静的转折结束：“他们提醒他上帝说过的话：你将牧养我的人民。工作是一样的。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“你将成为我人民以色列的牧人”",
+      "zh_ref": "撒母耳记下 5:1–3"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#f0e3c5"
       },
       "dailyWalkDay": 247,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “so he listened for the wind” (2 Samuel 5:22–25) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “so he listened for the wind” (2 Samuel 5:22–25) speak to a question you have been carrying lately?",
+      "zh_title": "树梢上的声音",
+      "zh_poem": "同一个敌人。\n同一个山谷。\n\n上次上帝说：\n上去。\n\n这次他说，\n绕一圈。\n在树边等待。\n当你听到行军声时\n在叶子的顶部，\n移动。\n\n大卫又问。\n他不认为。\n\n昨天的回答\n并不总是\n今天的。\n\n所以他听了\n为了风。",
+      "zh_reflectionPrompt": "有时候，一句话可以为封闭的房间打开一扇窗户：“他听风声”（撒母耳记下 5：22-25）如何解答您最近一直在思考的问题？",
+      "zh_epigraph": "“当你听到桑树顶上有行军声时，就振作起来”",
+      "zh_ref": "撒母耳记下 5:22–25"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f2e1b1"
       },
       "dailyWalkDay": 248,
-      "reflectionPrompt": "Hold your hands open for a moment before “with all his might” (2 Samuel 6:12–22): what are you gripping tightly that loosens when you hear, “joy that is real spills over into everyone's hands”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “with all his might” (2 Samuel 6:12–22): what are you gripping tightly that loosens when you hear, “joy that is real spills over into everyone's hands”?",
+      "zh_title": "竭尽全力",
+      "zh_poem": "方舟出现在路上，\n和国王\n无法保持静止。\n\n亚麻布的以弗得，\n没什么伟大的，\n跳跃和跳舞\n在所有人面前。\n\n从她的窗户\n米哈尔低下头\n并鄙视他。\n\n这是在主面前，他说。\n我还是谦虚点吧\n\n然后他给了面包\n还有枣子和葡萄干\n给那里的每一个人。\n\n真实的快乐\n溢出\n到每个人的手中。",
+      "zh_reflectionPrompt": "在“用他的全力”（撒母耳记下 6：12-22）之前，张开你的双手一会儿：当你听到“真正的喜乐溢出到每个人的手中”时，你紧握的是什么东西松开了？",
+      "zh_epigraph": "“大卫在耶和华面前竭尽全力跳舞”",
+      "zh_ref": "撒母耳记下 6:12–22"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#e7bf91"
       },
       "dailyWalkDay": 249,
-      "reflectionPrompt": "Scripture remembers this moment in 2 Samuel 7:1–18 not to impress us, but to steady us: when have you seen the truth that “and David went in and sat before the Lord and could only say, who am I, that you have brought me this far?” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in 2 Samuel 7:1–18 not to impress us, but to steady us: when have you seen the truth that “and David went in and sat before the Lord and could only say, who am I, that you have brought me this far?” in your own story?",
+      "zh_title": "我是谁",
+      "zh_poem": "我住在雪松树上，国王说，\n神住在帐篷里。\n让我给他盖一栋房子。\n\n那天晚上，答案来了：\n我从来没有要求过。\n\n我带你去\n跟随羊。\n我一直和你在一起\n无论你走到哪里。\n\n你不会给我盖房子。\n我会给你造一个。\n\n大卫进去了\n坐在主面前\n也只能说，\n\n我是谁，\n你给我带来了\n这么远？",
+      "zh_reflectionPrompt": "圣经在《撒母耳记下》7:1-18 中记述了这一刻，不是为了给我们留下深刻印象，而是为了稳定我们：你什么时候见过这样的真理：“大卫进去坐在耶和华面前，只能说，我是谁，你竟带我到这一步？”在你自己的故事里？",
+      "zh_epigraph": "“主耶和华啊，我是谁？我的家又算什么，你竟带我到这么远的地方？”",
+      "zh_ref": "撒母耳记下 7:1–18"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#e8d8b4"
       },
       "dailyWalkDay": 250,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “at the king's table” (2 Samuel 9:1–13), what one honest sentence would you pray beside the table set before you after reading, “a place set every day for a promise made to a friend long after the friend was gone”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “at the king's table” (2 Samuel 9:1–13), what one honest sentence would you pray beside the table set before you after reading, “a place set every day for a promise made to a friend long after the friend was gone”?",
+      "zh_title": "在国王的餐桌上",
+      "zh_poem": "还有人留下吗\n扫罗家的，\n以便我可以向他仁慈\n为了乔纳森？\n\n有。\n一个儿子，\n双脚瘸了，\n住在遥远的洛德巴尔。\n\n他跪倒在地\n并称自己是一条死狗。\n\n大卫叫着他的名字。\n别害怕。\n你会在我的餐桌上吃饭。\n\n每天都有一个固定的地点\n为了一个承诺\n送给朋友的\n\n很久之后\n朋友不见了。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“国王的餐桌前”（撒母耳记下 9：1-13）时，当你读到“每天为一个在朋友去世很久之后向朋友许下的承诺”之后，你会在摆在你面前的餐桌旁祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“你会一直在我的餐桌上吃面包。”",
+      "zh_ref": "撒母耳记下 9:1–13"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f5deac"
       },
       "dailyWalkDay": 251,
-      "reflectionPrompt": "Between the opening line (“he sent them to comfort a grieving king”) and the closing thought (“there is a kind of mercy that asks no questions, just gives you time, and a place to wait, until you feel like yourself again”), what is 2 Samuel 10:1–5 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“he sent them to comfort a grieving king”) and the closing thought (“there is a kind of mercy that asks no questions, just gives you time, and a place to wait, until you feel like yourself again”), what is 2 Samuel 10:1–5 gently reframing in your own day?",
+      "zh_title": "直到你的胡子长起来",
+      "zh_poem": "他派他们来\n去安慰悲伤的国王。\n\n他们羞愧地回来了\n胡子刮掉了一半，\n他们的长袍剪短了。\n\n大卫没有创造它们\n步行穿过耶路撒冷\n像那样。\n\n留在杰里科，他说。\n回家\n当你的胡须长起来的时候。\n\n有一种怜悯\n不问任何问题，\n\n只是给你时间，\n以及等待的地方，\n直到你感觉\n再次像你自己一样。",
+      "zh_reflectionPrompt": "在开场白（“他派他们去安慰悲伤的国王”）和结束语（“有一种怜悯，不问任何问题，只是给你时间和地方等待，直到你再次感觉像自己一样”）之间，《撒母耳记下》10：1-5在你自己的时代轻轻地重构了什么？",
+      "zh_epigraph": "“在耶利哥等你的胡子长起来，然后再回来。”",
+      "zh_ref": "撒母耳记下 10:1–5"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#f3d5ad"
       },
       "dailyWalkDay": 252,
-      "reflectionPrompt": "Along the road of The Lamp Had Not Gone Out, “when kings go out” (2 Samuel 11:1–17) slows us down at the quiet centerpiece of “when kings go out” to remind us: “the worst thing David ever did began on a quiet evening with nothing to do.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of The Lamp Had Not Gone Out, “when kings go out” (2 Samuel 11:1–17) slows us down at the quiet centerpiece of “when kings go out” to remind us: “the worst thing David ever did began on a quiet evening with nothing to do.” Where are you being invited to trade control for trust today?",
+      "zh_title": "当国王外出时",
+      "zh_poem": "正是这个季节\n当国王出去打仗时。\n\n大卫呆在家里。\n\n一天晚上，心神不宁，\n他走在屋顶上，\n并看到，\n并问道，\n并发送。\n\n没有一次大跌倒，\n但小步骤，\n每一项都更容易\n比应有的情况，\n\n直到成为一名忠诚的士兵\n带着一封信\n直至他自己的死亡。\n\n大卫做过的最糟糕的事\n在一个安静的夜晚开始\n无事可做。",
+      "zh_reflectionPrompt": "沿着《灯未灭》的道路，“君王出去的时候”（撒母耳记下 2：11：1-17）让我们在“君王出去的时候”安静的中心放慢脚步，提醒我们：“大卫做过的最糟糕的事情是在一个安静的夜晚，无所事事的时候开始的。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“但大卫留在耶路撒冷。”",
+      "zh_ref": "撒母耳记下 11:1–17"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#eae1cc"
       },
       "dailyWalkDay": 253,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “you are the man” (2 Samuel 12:1–13), what would you talk about after reading, “and the answer came just as quickly: the Lord has put away your sin”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “you are the man” (2 Samuel 12:1–13), what would you talk about after reading, “and the answer came just as quickly: the Lord has put away your sin”?",
+      "zh_title": "你就是那个男人",
+      "zh_poem": "内森讲了一个故事。\n\n一个穷人。\n一只小母羊。\n它吃了他的食物\n并喝了他的杯子\n并睡在他的怀里\n像一个女儿。\n\n和一个有钱人\n有羊群和牛群\n无论如何，谁拿走了它。\n\n那个人就该死！国王说。\n\n先知说：\n你就是那个男人。\n\n那就不用再躲了。\n我得罪了主。\n\n答案很快就来了：\n主已经除去你的罪了。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并停在“你就是那个人”（撒母耳记下 12：1-13）之后，你会在读完“答案很快就来了：主已经除掉你的罪”之后谈论什么？",
+      "zh_epigraph": "“你就是那个男人。”",
+      "zh_ref": "撒母耳记下 12:1–13"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#fde6cc"
       },
       "dailyWalkDay": 254,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “I will go to him”: what changes in your posture today when you sit with the closing words of “I will go to him”—“but now it had somewhere to go”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “I will go to him”: what changes in your posture today when you sit with the closing words of “I will go to him”—“but now it had somewhere to go”?",
+      "zh_title": "我会去找他",
+      "zh_poem": "地上七日，禁食。\n\n然后在大厅里窃窃私语，\n他知道。\n\n他站了起来。\n他洗了。\n他换了衣服，\n去参拜，\n并吃了。\n\n“我希望，在他还活着的时候。”他说。\n现在，\n我可以带他回来吗？\n\n我会去找他。\n他不会来找我。\n\n悲伤并没有就此结束。\n\n但现在\n它在某个地方\n去。",
+      "zh_reflectionPrompt": "在“我要去他那里”的安静核心之前停顿一下：今天，当你坐着说“我要去他那里”的结束语时，你的姿势有什么变化——“但现在它有地方可去了”？",
+      "zh_epigraph": "“我会去找他，但他不会再回到我身边。”",
+      "zh_ref": "撒母耳记下 12:15–23"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#eaddbe"
       },
       "dailyWalkDay": 255,
-      "reflectionPrompt": "Look at the stillness of the gnarled olive tree in Timothy’s painting: what striving can you lay down as you ponder, “he put himself in God's hands and walked” (2 Samuel 15:23–30)?"
+      "reflectionPrompt": "Look at the stillness of the gnarled olive tree in Timothy’s painting: what striving can you lay down as you ponder, “he put himself in God's hands and walked” (2 Samuel 15:23–30)?",
+      "zh_title": "我在这里",
+      "zh_poem": "他自己的儿子\n偷走了以色列的心。\n\n牧师们出来了\n抬着约柜，\n大卫把它寄了回去。\n\n如果上帝喜悦我，\n他会带我回家看看。\n如果没有，\n我在这里。\n\n然后他爬上了橄榄山\n赤脚,\n他边走边哭。\n\n他没有带着上帝同行\n就像一个魅力。\n\n他把自己\n在神的手中\n然后走了。",
+      "zh_reflectionPrompt": "看看提摩太画中那棵多节的橄榄树的寂静：当你沉思“他将自己交在神的手中行走”（撒母耳记下 15：23-30）时，你还能放下什么努力呢？",
+      "zh_epigraph": "“看哪，我在这里。让他按照他认为好的方式对待我吧。”",
+      "zh_ref": "撒母耳记下 15:23–30"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#efe3cd"
       },
       "dailyWalkDay": 256,
-      "reflectionPrompt": "In 2 Samuel 18:1–5, the story turns on the city gate—and ends with, “he was fighting for his life, and still trying to save the one who had come to take it.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In 2 Samuel 18:1–5, the story turns on the city gate—and ends with, “he was fighting for his life, and still trying to save the one who had come to take it.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "温和地对待",
+      "zh_poem": "儿子反抗父亲\n与一支军队。\n\n和父亲\n站在门口\n当他的人出发时\n并对每一位船长说：\n所有人都能听到：\n\n温和地对待\n和那个年轻人。\n为了我的缘故。\n\n不是叛逆者。\n不是敌人。\n那个年轻人。\n\n他在战斗\n为了他的一生，\n\n并仍在努力挽救\n那个\n谁来拿它的。",
+      "zh_reflectionPrompt": "在撒母耳记下 18：1-5 中，故事以城门为中心，结尾是：“他正在为自己的生命而战，并且仍在努力拯救前来夺取城门的人。”神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“为了我的缘故，要温柔地对待这个年轻人，即使是押沙龙。”",
+      "zh_ref": "撒母耳记下 18:1–5"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#e39e56"
       },
       "dailyWalkDay": 257,
-      "reflectionPrompt": "The world measures life by speed and noise, yet 2 Samuel 18:24–33 points us to the stone well in the heat of the day and whispers, “only for a child they never stopped waiting for.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet 2 Samuel 18:24–33 points us to the stone well in the heat of the day and whispers, “only for a child they never stopped waiting for.” How can you practice that unhurried wisdom today?",
+      "zh_title": "我的儿子，我的儿子",
+      "zh_poem": "两个跑步者来了。\n\n国王逐一询问\n同样的问题：\n这个年轻人还好吗？\n\n当他明白时，\n他爬到门那边的房间\n并哭了。\n\n我的儿子，我的儿子。\n我希望我已经死了\n而不是你。\n\n战斗取得了胜利。\n它没有到达那个房间。\n\n没有人那样悲伤\n对于一个敌人。\n\n只为了一个孩子\n他们从未停止过\n等待。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而《撒母耳记下》18:24-33却向我们指出了在大热天里的那口石头井，并低声说道：“只是为了一个他们从未停止等待的孩子。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“我的儿子，我的儿子押沙龙！”",
+      "zh_ref": "撒母耳记下 18:24–33"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#d2af3e"
       },
       "dailyWalkDay": 258,
-      "reflectionPrompt": "The poem closes with a quiet turn: “and that was enough to walk by.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “and that was enough to walk by.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "我的灯",
+      "zh_poem": "很久以前在示罗\n一个名叫塞缪尔的男孩\n睡在灯附近\n那还没有出去。\n\n现在大卫，\n回头看\n洞穴和战争\n以及他自己最糟糕的日子，\n\n唱：\n\n主啊，你是我的灯。\n你照亮了我的黑暗。\n\n不，你带走了黑暗。\n\n你点燃了它。\n\n这就足够了\n走过。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“路过就足够了。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“耶和华啊，你是我的灯。耶和华会照亮我的黑暗。”",
+      "zh_ref": "撒母耳记下 22:1–29"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#f6ebd0"
       },
       "dailyWalkDay": 259,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “you give them back to God” (2 Samuel 23:13–17) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “you give them back to God” (2 Samuel 23:13–17) speak to a question you have been carrying lately?",
+      "zh_title": "来自伯利恒的水",
+      "zh_poem": "躲在山洞里，\n他几乎是对自己说的：\n要是有人能给我送水就好了\n从门边的井里\n在伯利恒。\n\n他的三个手下听到了。\n他们突破了敌营\n并把它带回来。\n\n他不能喝它。\n\n他倒了出来\n在地面上\n在主面前。\n\n这些人冒着生命危险。\n喝的不是我的。\n\n有些礼物太神圣而不能保留。\n\n你给他们\n回到上帝身边。",
+      "zh_reflectionPrompt": "有时，一句话可以为封闭的房间打开一扇窗：“你将它们归还给上帝”（撒母耳记下 23：13-17）如何解答你最近一直提出的一个问题？",
+      "zh_epigraph": "“他不肯喝，却将水倒给耶和华。”",
+      "zh_ref": "撒母耳记下 23:13–17"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#fbde7e"
       },
       "dailyWalkDay": 260,
-      "reflectionPrompt": "Hold your hands open for a moment before “nothing” (2 Samuel 24:18–25): what are you gripping tightly that loosens when you hear, “and the plague was lifted from the land”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “nothing” (2 Samuel 24:18–25): what are you gripping tightly that loosens when you hear, “and the plague was lifted from the land”?",
+      "zh_title": "什么都没有",
+      "zh_poem": "瘟疫停止了\n在农民的打谷场上。\n\n拿走吧，农夫说。\n牛也一样。\n木头的轭。\n所有这一切，都是免费的。\n\n不，国王说。\n我来付钱。\n\n我不会给主\n我什么也没花。\n\n他数出了银子\n并在那里筑了他的祭坛，\n在山上\n有一天在哪里\n他的儿子会建造\n为神的房子。\n\n瘟疫被解除了\n来自陆地。",
+      "zh_reflectionPrompt": "在“什么都没有”之前，请张开双手（撒母耳记下 24：18-25）：当您听到“瘟疫从这地被除掉”时，您紧握的是什么松开了？",
+      "zh_epigraph": "“我不会用任何代价向耶和华我的上帝献燔祭。”",
+      "zh_ref": "撒母耳记下 24:18–25"
     }
-  ]
+  ],
+  "zh_title": "神的灯尚未熄灭",
+  "zh_subtitle": "撒母耳记上下诗画集",
+  "zh_beforeYouBegin": "撒母耳记的开头是一个女人在节日餐桌上哭泣，一个男孩躺在尚未熄灭的灯旁边。然后出现了一位隐藏在行李中的国王，一位牧羊人从田野呼唤而来，来自小溪的五块光滑的石头，两个朋友和一支射过目标的箭，一个跛脚的人在国王的餐桌上获得了一席之地，一个关于一只小母羊的先知故事，以及一位父亲在门外的房间里哭泣。本书用四十首短诗分为五部分来讲述它：二十四首来自撒母耳记上，十六首来自撒母耳记下。每首诗都位于一幅画旁边和一行经文之下。"
 }

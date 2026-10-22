@@ -16,7 +16,10 @@
       "epigraph": "He has shown you, O man, what is good.",
       "epigraphRef": "Micah 6:8",
       "lightName": "Light of Do Justly",
-      "lightHint": "Near 'boundary stones' (Micah 2:1–2) in Part 1: Do Justly"
+      "lightHint": "Near 'boundary stones' (Micah 2:1–2) in Part 1: Do Justly",
+      "zh_title": "公正行事",
+      "zh_epigraph": "人类啊，他已经向你展示了什么是善。",
+      "zh_epigraphRef": "弥迦书 6:8"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "yet I will rejoice in Y ahweh.",
       "epigraphRef": "Habakkuk 3:18",
       "lightName": "Light of Though the Fig Tree",
-      "lightHint": "Near 'the dust of his feet' (Nahum 1:3) in Part 2: Though the Fig Tree"
+      "lightHint": "Near 'the dust of his feet' (Nahum 1:3) in Part 2: Though the Fig Tree",
+      "zh_title": "虽然无花果树",
+      "zh_epigraph": "但我要因耶和华喜乐。",
+      "zh_epigraphRef": "哈巴谷书 3:18"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Yahweh, your God, is among you, a mighty one who will save.",
       "epigraphRef": "Zephaniah 3:17",
       "lightName": "Light of Among You",
-      "lightHint": "Near 'lamps' (Zephaniah 1:12) in Part 3: Among You"
+      "lightHint": "Near 'lamps' (Zephaniah 1:12) in Part 3: Among You",
+      "zh_title": "在你们中间",
+      "zh_epigraph": "耶和华你的上帝就在你们中间，是一位大能的拯救者。",
+      "zh_epigraphRef": "西番雅书 3:17"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "Not by might, nor by power, but by my Spirit",
       "epigraphRef": "Zechariah 4:6",
       "lightName": "Light of Not by Might",
-      "lightHint": "Near 'among the myrtles' (Zechariah 1:8–13) in Part 4: Not by Might"
+      "lightHint": "Near 'among the myrtles' (Zechariah 1:8–13) in Part 4: Not by Might",
+      "zh_title": "不靠实力",
+      "zh_epigraph": "不是靠力量，也不是靠能力，而是靠我的灵",
+      "zh_epigraphRef": "撒迦利亚书 4:6"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "the sun of righteousness arise with healing in its wings",
       "epigraphRef": "Malachi 4:2",
       "lightName": "Light of The Sun of Righteousness",
-      "lightHint": "Near 'how have you loved us' (Malachi 1:2) in Part 5: The Sun of Righteousness"
+      "lightHint": "Near 'how have you loved us' (Malachi 1:2) in Part 5: The Sun of Righteousness",
+      "zh_title": "正义的太阳",
+      "zh_epigraph": "公义的太阳升起，其翅膀具有治愈作用",
+      "zh_epigraphRef": "玛拉基书 4:2"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#f9ebc5"
       },
       "dailyWalkDay": 960,
-      "reflectionPrompt": "Imagine standing inside this frame beside the daily loaf broken in the hand: what hurry or noise in your week begins to fade when you hear, “he remembers whose they were”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the daily loaf broken in the hand: what hurry or noise in your week begins to fade when you hear, “he remembers whose they were”?",
+      "zh_title": "界石",
+      "zh_poem": "他们夜不能寐\n规划。\n\n到早上\n计划完成了，\n和一个家庭的田地\n属于别人。\n\n田地不仅仅是土地。\n这是爷爷的汗水，\n明年的面包，\n地面你的孩子\n应该坚持下去。\n\n神数点界石。\n他记得\n他们是谁。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边每天都有面包在手中破碎：当你听到“他记得他们是谁”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“他们觊觎田地，并夺取它们；觊觎房屋，并将它们夺走”",
+      "zh_ref": "弥迦书 2:1–2"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#f9edd1"
       },
       "dailyWalkDay": 961,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “they will learn the harvest.” What part of your heart feels most searched or comforted by Micah 4:3 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “they will learn the harvest.” What part of your heart feels most searched or comforted by Micah 4:3 right now?",
+      "zh_title": "犁头",
+      "zh_poem": "有一天铁匠\n又会忙碌起来\n\n但不是为了战争。\n\n他会拿起刀片\n让一个人彻夜难眠\n并锤击它\n变成能打开土壤的东西。\n\n矛\n将学习修剪藤蔓。\n\n没有人会学习战争\n不再了。\n\n他们会学习\n收获。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“他们将会收获收获。”现在，弥迦书 4 章 3 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“他们会把剑打成犁头，把矛打成镰刀。”",
+      "zh_ref": "弥迦书 4:3"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#efd8b0"
       },
       "dailyWalkDay": 962,
-      "reflectionPrompt": "In Micah 4:4, grace meets us right beside the stones of the wall: how does the closing thought—“this is how the prophet pictured peace: everyone under their own fig tree, and no one coming up the road to make them afraid”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Micah 4:4, grace meets us right beside the stones of the wall: how does the closing thought—“this is how the prophet pictured peace: everyone under their own fig tree, and no one coming up the road to make them afraid”—steady your footing for the road ahead?",
+      "zh_title": "无花果树下",
+      "zh_poem": "不是宫殿。\n不是王座。\n\n一个凳子\n在自己的树荫下，\n墙上的藤蔓，\n一个无处可去的下午。\n\n先知就是这样\n图为和平：\n\n大家\n在自己的无花果树下，\n\n没有人\n即将上路\n让他们害怕。",
+      "zh_reflectionPrompt": "在弥迦书 4 章 4 节中，恩典就在城墙的石头旁边与我们相遇：结尾的思想——“这就是先知所描绘的和平：每个人都在自己的无花果树下，路上没有人使他们害怕”——你如何为前面的路站稳脚跟？",
+      "zh_epigraph": "“但他们各人会坐在自己的葡萄树下和无花果树下；没有人会使他们害怕”",
+      "zh_ref": "弥迦书 4:4"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#f0cd9d"
       },
       "dailyWalkDay": 963,
-      "reflectionPrompt": "If today’s painting of “Bethlehem” (Micah 5:2) hung beside the door you walk out of this morning, how would its final line—“he still likes to start there”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “Bethlehem” (Micah 5:2) hung beside the door you walk out of this morning, how would its final line—“he still likes to start there”—shape your choices?",
+      "zh_title": "伯利恒",
+      "zh_poem": "在犹大各族中是很小的。\n山脊上有几栋房子，\n一些露台，\n地图可以跳过的地方。\n\n上帝说：\n从你身上。\n\n外出的人\n来自远古时代\n会来\n从最小的地方开始。\n\n他还是喜欢\n从那里开始。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“伯利恒”（弥迦书 5:2）画作，那么它的最后一行——“他仍然喜欢从那里开始”——会如何影响你的选择？",
+      "zh_epigraph": "“但伯利恒以法他，你在犹大各族中是个小人物，从你那里必有一位将成为以色列的统治者。”",
+      "zh_ref": "弥迦书 5:2"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#dfbd86"
       },
       "dailyWalkDay": 964,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Micah 6:6–8)—where in your own home or work today does “three things, small enough to carry, and long enough to take the rest of your life” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Micah 6:6–8)—where in your own home or work today does “three things, small enough to carry, and long enough to take the rest of your life” ring true?",
+      "zh_title": "什么是好的",
+      "zh_poem": "我要带小牛吗？\n成千的公羊？\n石油河流？\n\n问题越来越大，\n仿佛上帝在等待\n以获得更大的礼物。\n\n他已经向你展示了。\n\n行事公正。\n爱怜悯。\n谦卑地行走\n与你的上帝。\n\n三件事，\n小到足以携带，\n\n并且足够长\n夺走你的余生。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（弥迦书 6:6-8）——今天，在你自己的家里或工作中，“三样东西，小到可以携带，长到足以伴随你的余生”听起来是真的吗？",
+      "zh_epigraph": "“耶和华对你的要求，不就是行事公义，好怜悯，存谦卑的心与你的神同行吗？”",
+      "zh_ref": "弥迦书 6:6–8"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#e0bf84"
       },
       "dailyWalkDay": 965,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “when I sit in the dark, the dark will not be the only thing in the room.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “when I sit in the dark, the dark will not be the only thing in the room.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "当我跌倒时",
+      "zh_poem": "先知环顾四周\n并且找不到\n一个正直的人。\n不是值得信任的朋友。\n即使在家里也不行。\n\n所以他不再环顾四周\n并抬起头来。\n\n我将等待。\n我的上帝会听到我的声音。\n\n当我跌倒时，\n我会起床。\n\n当我坐在黑暗中时\n黑暗不会\n房间里唯一的东西。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“当我坐在黑暗中时，黑暗将不再是房间里唯一的东西。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“当我跌倒时，我会站起来。当我坐在黑暗中时，耶和华会成为我的光明。”",
+      "zh_ref": "弥迦书 7:7–8"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#f2deb2"
       },
       "dailyWalkDay": 966,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “who is a God like you?.” Looking through the lens of Micah 7:18–19, what does it mean to discover that “he will throw them into the depths of the sea, where no diver goes, where nothing sent down comes up again”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “who is a God like you?.” Looking through the lens of Micah 7:18–19, what does it mean to discover that “he will throw them into the depths of the sea, where no diver goes, where nothing sent down comes up again”?",
+      "zh_title": "海的深处",
+      "zh_poem": "谁是像你这样的神？\n\n这几乎是迈卡自己的名字：\n谁像耶和华？\n\n一位赦免的神。\n谁不坚持\n使他永远愤怒，\n因为他高兴\n在慈爱中。\n\n他会把我们的罪孽踩在脚下。\n他会扔掉它们\n进入大海的深处，\n\n没有潜水员去的地方，\n没有任何东西被发送下来\n又出现了。",
+      "zh_reflectionPrompt": "回想一下某个季节，您体会到“谁是像您这样的上帝？”的感觉。透过弥迦书 7 章 18-19 节的镜头，我们会发现“他要把他们抛在海的深处，那里没有潜水者可以去的地方，那里下的也没有再上来”，这意味着什么？",
+      "zh_epigraph": "“你将把他们所有的罪孽投入大海的深处。”",
+      "zh_ref": "弥迦书 7:18–19"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#fef4ce"
       },
       "dailyWalkDay": 967,
-      "reflectionPrompt": "Look closely at the guiding cloud in this painting (Nahum 1:3)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the guiding cloud in this painting (Nahum 1:3)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "他脚上的尘土",
+      "zh_poem": "那鸿谈到尼尼微，\n伟大的城市\n这让全世界都感到恐惧。\n\n他这样开始：\n耶和华不轻易发怒。\n\n慢的。\n他等待并警告，\n并等待。\n\n但他的权力很大，\n他不会打电话给\n有罪的无辜者。\n\n云彩划过天空\n是尘埃\n被他的脚踢了起来。\n\n没有帝国\n站得更高\n胜过他的尘埃。",
+      "zh_reflectionPrompt": "仔细观察这幅画中的引导云（那鸿书 1:3）——如果你今天可以在它旁边留下一个焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“耶和华在旋风和暴风雨中施行他的道，云彩是他脚下的尘土。”",
+      "zh_ref": "那鸿书 1:3"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#eadbb4"
       },
       "dailyWalkDay": 968,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the name by which He calls you: what quiet prayer rises in you when you read, “the sound of their feet coming up the hill”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the name by which He calls you: what quiet prayer rises in you when you read, “the sound of their feet coming up the hill”?",
+      "zh_title": "一个据点",
+      "zh_poem": "在暴风雨中间，\n庇护一句话：\n\n耶和华是良善的。\n\n一个据点\n在患难之日，\n不是后天。\n\n他知道\n那些跑向他的人。\n\n不仅仅是他们的名字。\n他们的敲门声。\n他们的脚步声\n即将上山。",
+      "zh_reflectionPrompt": "让你的目光停留在他呼唤你的名字周围的笔触和光线上：当你读到“他们上山的脚步声”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“耶和华本为良善，在患难之日为人的保障；他认识那些投靠他的人。”",
+      "zh_ref": "那鸿书 1:7"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#fdd6ac"
       },
       "dailyWalkDay": 969,
-      "reflectionPrompt": "Linger with the movement in “feet on the mountains” (Nahum 1:13–15) from “for years the yoke sat on Judah's neck” to “peace. keep your feasts again”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “feet on the mountains” (Nahum 1:13–15) from “for years the yoke sat on Judah's neck” to “peace. keep your feasts again”—where do you find yourself along that arc today?",
+      "zh_title": "脚在山上",
+      "zh_poem": "多年来的枷锁\n坐在犹大的脖子上。\n\n然后神说，\n我会打破它。\n我会打破你的束缚。\n\n看，山上：\n有人奔跑，\n与早晨相比很小，\n\n你可以看出\n从他跑步的方式来看\n这是个好消息。\n\n和平。\n布置桌面。\n再次举行你们的盛宴。",
+      "zh_reflectionPrompt": "徘徊在“脚踩在山上”（那鸿书 1：13-15）的运动中，从“轭多年压在犹大的颈上”到“平安，再次守节”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“看哪，山上有那位带来好消息、传播和平的人的脚！”",
+      "zh_ref": "那鸿书 1:13–15"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#e1b99a"
       },
       "dailyWalkDay": 970,
-      "reflectionPrompt": "Notice how “how long” (Habakkuk 1:2–3) arrives at: “your how long has been prayed before, by a prophet, on the first page.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “how long” (Habakkuk 1:2–3) arrives at: “your how long has been prayed before, by a prophet, on the first page.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "多长时间",
+      "zh_poem": "一些先知开始\n与神说话。\n\n这一个开始\n和一个男人抱怨。\n\n多长时间？\n你为什么让我看这个？\n你为什么不保存？\n\n和上帝\n没有让他沉默。\n\n他保留了这个问题\n圣经中。\n\n你多久了\n之前已经祈祷过，\n由一位先知，\n在第一页上。",
+      "zh_reflectionPrompt": "请注意“多久”（哈巴谷书 1：2-3）是如何出现的：“先知在第一页上已经祈祷了多久。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“耶和华啊，我哭你不听要到几时呢？”",
+      "zh_ref": "哈巴谷书 1:2–3"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#e3d0ae"
       },
       "dailyWalkDay": 971,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Habakkuk 2:1: “standing at his post like a watchman, eyes on the road, sure that whatever came over the hill would come from God”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Habakkuk 2:1: “standing at his post like a watchman, eyes on the road, sure that whatever came over the hill would come from God”?",
+      "zh_title": "了望塔",
+      "zh_poem": "他问了他的问题。\n现在他爬上了墙\n\n并做了更困难的事情。\n他等待着\n寻求答案。\n\n不踱步。\n没有为他写上帝的答复。\n\n站在自己的岗位上\n像一个守望者，\n眼睛注视着路上，\n\n确定无论如何\n翻过了山\n将来自上帝。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是哈巴谷书 2:1 的安静教训：“像守望者一样站在自己的岗位上，眼睛注视道路，确信无论从山上来的是什么，都是来自上帝”？",
+      "zh_epigraph": "“我会站在我的岗哨上，站在城墙上，看看他会对我说什么”",
+      "zh_ref": "哈巴谷书 2:1"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#ebdaba"
       },
       "dailyWalkDay": 972,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “make it plain”: what hurry or noise in your week begins to fade when you hear, “the promise is already on the road, hurrying toward its hour”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “make it plain”: what hurry or noise in your week begins to fade when you hear, “the promise is already on the road, hurrying toward its hour”?",
+      "zh_title": "说清楚",
+      "zh_poem": "把它写下来。\n说清楚。\n足够大\n有人跑过去\n可以阅读。\n\n然后是困难的部分：\n\n这需要时间。\n等等吧。\n\n还不算晚。\n它被任命了。\n\n承诺\n已经在路上了，\n匆忙\n走向它的时刻。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是安静的核心“说清楚”：当你听到“承诺已经在路上，匆匆走向它的时刻”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“把异象写下来，写在平板上，以便跑步的人可以阅读。”",
+      "zh_ref": "哈巴谷书 2:2–3"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#dfd4b5"
       },
       "dailyWalkDay": 973,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's short enough to live on.” What part of your heart feels most searched or comforted by Habakkuk 2:4 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's short enough to live on.” What part of your heart feels most searched or comforted by Habakkuk 2:4 right now?",
+      "zh_title": "凭信心",
+      "zh_poem": "骄傲的灵魂\n膨胀起来\n并且里面什么也没有。\n\n义人\n以另一种方式生活。\n\n凭着信心。\n\n还没有看到它。\n不是通过被证明是正确的。\n\n通过相信那一位\n谁告诉他们的\n等待。\n\n新约\n引用这一行\n三次。\n\n够短了\n继续生活。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“它足够短暂，足以活下去。”现在，哈巴谷书 2:4 给你心灵的哪一部分带来最大的探查或安慰？",
+      "zh_epigraph": "“义人必因信得生。”",
+      "zh_ref": "哈巴谷书 2:4"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#e8dfc1"
       },
       "dailyWalkDay": 974,
-      "reflectionPrompt": "In Habakkuk 2:12–14, grace meets us right beside the warmth of the fire: how does the closing thought—“but the knowledge of his glory will fill the earth the way water fills the sea: every hollow, every crack, all the way down”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Habakkuk 2:12–14, grace meets us right beside the warmth of the fire: how does the closing thought—“but the knowledge of his glory will fill the earth the way water fills the sea: every hollow, every crack, all the way down”—steady your footing for the road ahead?",
+      "zh_title": "当海水淹没大海时",
+      "zh_poem": "建立在残酷之上的城市\n将成为火的燃料。\n\n但认识他的荣耀\n将充满地球\n水充满海洋的方式：\n\n每一个空洞，\n每一条裂缝，\n一路下来。",
+      "zh_reflectionPrompt": "在哈巴谷书 2 章 12-14 节中，恩典就在温暖的火旁与我们相遇：最后的思想——“认识他荣耀的知识必充满大地，如同水充满海洋一样：每一个凹陷，每一条裂缝，一直向下”——如何为你前面的道路奠定坚实的基础？",
+      "zh_epigraph": "“认识耶和华荣耀的知识必充满遍地，好像水充满洋海一样。”",
+      "zh_ref": "哈巴谷书 2:12–14"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#e7dbb6"
       },
       "dailyWalkDay": 975,
-      "reflectionPrompt": "If today’s painting of “though the fig tree” (Habakkuk 3:17–19) hung beside the door you walk out of this morning, how would its final line—“and the God he trusts gives him feet like a deer's, sure on the high rocks where the path runs out”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “though the fig tree” (Habakkuk 3:17–19) hung beside the door you walk out of this morning, how would its final line—“and the God he trusts gives him feet like a deer's, sure on the high rocks where the path runs out”—shape your choices?",
+      "zh_title": "虽然无花果树",
+      "zh_poem": "没有无花果。\n没有葡萄。\n橄榄树什么也没给。\n田野空空如也。\n羊圈安静了。\n\n然而。\n\n这就是整个祈祷\n就在那里。\n\n但我要因耶和华喜乐。\n\n不是因为收获。\n没有它。\n\n和他所信赖的上帝\n给了他像鹿一样的脚，\n肯定在高高的岩石上\n路径耗尽的地方。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“穿过无花果树”（哈巴谷书 3：17-19）的画，那么它的最后一句——“他所信靠的上帝赐他双脚如鹿，稳稳地站在路尽头的高处岩石上”——会如何影响你的选择？",
+      "zh_epigraph": "“虽然无花果树不茂盛，葡萄树也不结果子”",
+      "zh_ref": "哈巴谷书 3:17–19"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#f4d594"
       },
       "dailyWalkDay": 976,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Zephaniah 1:12)—where in your own home or work today does “that is the warning. and the hope” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Zephaniah 1:12)—where in your own home or work today does “that is the warning. and the hope” ring true?",
+      "zh_title": "灯",
+      "zh_poem": "这次\n他寻找的人\n是舒适的，\n\n像酒一样沉淀\n只剩下渣滓，\n他们心里说，\n神不会做任何事\n好或坏。\n\n所以他拿了一盏灯\n并穿过城市，\n一条街一条街，\n\n进入角落\n人们停下来的地方\n期待着他。\n\n他并非无动于衷。\n这就是警告。\n和希望。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（西番雅书 1:12）——今天在你自己的家里或工作中，“这就是警告。这就是希望”听起来是真实的吗？",
+      "zh_epigraph": "“我要拿着灯搜查耶路撒冷”",
+      "zh_ref": "西番雅书 1:12"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#f2ede0"
       },
       "dailyWalkDay": 977,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “that turned out to be a kind of shelter.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “that turned out to be a kind of shelter.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "寻求谦卑",
+      "zh_poem": "这一天即将到来，\n又黑又吵。\n\n律师不是\n建一堵墙\n或者买条路出去。\n\n它是：\n寻求。\n寻求神。\n寻求正义。\n寻求谦卑。\n\n可能是\n你会被隐藏起来。\n\n土地的卑微\n已经知道如何变小。\n\n结果\n成为一种庇护所。",
+      "zh_reflectionPrompt": "缓缓吸一口气，再读一遍最后一行：“那原来是一种庇护所。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“地上一切谦卑的人啊，你们要寻求耶和华”",
+      "zh_ref": "西番雅书 2:3"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#fcdf8d"
       },
       "dailyWalkDay": 978,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “the princes were lions.” Looking through the lens of Zephaniah 3:3–5, what does it mean to discover that “he hasn't missed a morning yet”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “the princes were lions.” Looking through the lens of Zephaniah 3:3–5, what does it mean to discover that “he hasn't missed a morning yet”?",
+      "zh_title": "每天早上",
+      "zh_poem": "王子们都是狮子。\n评委们，晚上的狼群。\n先知们骄傲，\n祭司们对圣物漠不关心。\n\n而在城市的中心，\n别人：\n\n耶和华在她里面，\n正义的。\n\n每天早上\n他揭露了他的正义，\n\n像太阳一样确定\n找到东门。\n\n他没有失败。\n他还没有错过一个早晨。",
+      "zh_reflectionPrompt": "回想一下你体会到“王子是狮子”的感觉的一个季节。透过西番雅书 3:3-5 的视角，发现“他还没有错过一个早晨”是什么意思？",
+      "zh_epigraph": "“每天早上他都会揭露他的正义。他不会失败”",
+      "zh_ref": "西番雅书 3:3–5"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#ecc696"
       },
       "dailyWalkDay": 979,
-      "reflectionPrompt": "Look closely at your own two hands in this painting (Zephaniah 3:16–17)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at your own two hands in this painting (Zephaniah 3:16–17)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "伴随着歌声",
+      "zh_poem": "别害怕，锡安。\n不要让你的双手变得无力。\n\n强大的人就在你们之中。\n\n这就是什么\n强大的人会这样做：\n\n他为你感到高兴。\n他让你在他的爱中平静下来。\n\n然后，\n就像父母在摇篮上\n在漫长的一天结束时，\n\n他唱歌。\n\n你听说过人们\n向上帝歌唱。\n\n这是相反的。",
+      "zh_reflectionPrompt": "仔细看看这幅画中你自己的两只手（西番雅书 3：16-17）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“他会唱歌为你高兴。”",
+      "zh_ref": "西番雅书 3:16–17"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#f7ebd1"
       },
       "dailyWalkDay": 980,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “paneled houses”: what quiet prayer rises in you when you read, “he asked. is it time for you?”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “paneled houses”: what quiet prayer rises in you when you read, “he asked. is it time for you?”?",
+      "zh_title": "镶板房屋",
+      "zh_poem": "他们说还没有。\n时间还没有到。\n\n与此同时，雪松拔地而起\n在自己的房子里，\n仔细地板。\n\n时间永远不会错\n完成你自己的屋顶。\n\n神的殿\n坐在它的山上\n在杂草中。\n\n哈盖没有喊叫。\n他问道。\n\n是时候了吗\n为你？",
+      "zh_reflectionPrompt": "让你的目光停留在“镶板房屋”安静中心周围的笔触和光线上：当你读到“他问。你的时间到了吗？”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“现在是你们自己住在镶板房子里的时候吗，而这座房子却荒废了？”",
+      "zh_ref": "哈该书 1:2–4"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#e7d8b1"
       },
       "dailyWalkDay": 981,
-      "reflectionPrompt": "Linger with the movement in “a purse with holes” (Haggai 1:5–6) from “you've sown a lot and brought in little” to “to turn your face back toward the hill where the work is waiting”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “a purse with holes” (Haggai 1:5–6) from “you've sown a lot and brought in little” to “to turn your face back toward the hill where the work is waiting”—where do you find yourself along that arc today?",
+      "zh_title": "有洞的钱包",
+      "zh_poem": "你已经播种了很多\n并且带来的很少。\n吃饱了，还保持着饥饿状态。\n穿好衣服，保持寒冷。\n\n你赚你的工资\n然后把它们放进钱包里\n里面有洞。\n\n神问了两次：\n考虑你的方式。\n\n不是为了羞辱你。\n转动你的脸\n回到山上\n工作正在等待的地方。",
+      "zh_reflectionPrompt": "徘徊在“有洞的钱包”（哈该书 1：5-6）的运动中，从“你播种了很多，收获却很少”到“把你的脸背向那座正在等待工作的山”——今天你发现自己沿着这条弧线在哪里？",
+      "zh_epigraph": "“考虑一下你的方式。”",
+      "zh_ref": "哈该书 1:5–6"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#f0e3c1"
       },
       "dailyWalkDay": 982,
-      "reflectionPrompt": "Notice how “as nothing” (Haggai 2:3–4) arrives at: “that was what made the first one glorious, too.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “as nothing” (Haggai 2:3–4) arrives at: “that was what made the first one glorious, too.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "当什么都没有",
+      "zh_poem": "老人们记得\n第一寺庙。\n\n他们支持新的\n看起来没什么\n就在他们所看到的旁边。\n\n神没有争辩。\n他没有告诉他们\n很漂亮。\n\n他说：\n要坚强。\n工作。\n我和你在一起。\n\n这就是造成的\n第一个光荣，\n也是。",
+      "zh_reflectionPrompt": "请注意“如同虚无”（哈该书 2：3-4）是如何得出的：“这也是第一个荣耀的原因。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“你们中间还有谁见过这座房子昔日的辉煌？”",
+      "zh_ref": "哈该书 2:3–4"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#e2ceaa"
       },
       "dailyWalkDay": 983,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Haggai 2:18–19: “before the proof. from today”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Haggai 2:18–19: “before the proof. from today”?",
+      "zh_title": "从今天开始",
+      "zh_poem": "谷仓空了。\n葡萄树、无花果、\n石榴、橄榄：\n还什么都没有。\n\n一切都没有改变\n任何人都可以看到，\n\n除了一颗石头\n放在另一个上\n在神的殿中。\n\n上帝给了它一个日期。\n第二十四天\n第九个月。\n\n从今天开始\n我会祝福你。\n\n收获前。\n证明之前。\n从今天开始。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是哈该书 2 章 18-19 节的安静教训：“在证据之前。从今天开始”怎么办？",
+      "zh_epigraph": "“从今天开始，我会祝福你。”",
+      "zh_ref": "哈该书 2:18–19"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#debf86"
       },
       "dailyWalkDay": 984,
-      "reflectionPrompt": "Imagine standing inside this frame beside the deep roots of the tree: what hurry or noise in your week begins to fade when you hear, “sometimes that is what comes first”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the deep roots of the tree: what hurry or noise in your week begins to fade when you hear, “sometimes that is what comes first”?",
+      "zh_title": "香桃木之间",
+      "zh_poem": "夜间的异象：\n山沟里的桃金娘树，\n骑着红马的骑手，\n其他人站在后面。\n\n他们走遍了整个地球。\n很安静。\n休息时。\n\n天使问道：\n多久，主啊，\n直到耶路撒冷得到怜悯？\n\n答案没有写下来。\n只是听起来如何：\n\n善意的话。\n安慰的话。\n\n有时那个\n是最重要的。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，靠近树的深处：当你听到“有时这才是最重要的”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“耶和华用仁慈和安慰的话语回答了与我交谈的天使。”",
+      "zh_ref": "撒迦利亚书 1:8–13"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#f5d4a5"
       },
       "dailyWalkDay": 985,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and in the middle, where you'd keep a treasure, I will be the glory.” What part of your heart feels most searched or comforted by Zechariah 2:1–5 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and in the middle, where you'd keep a treasure, I will be the glory.” What part of your heart feels most searched or comforted by Zechariah 2:1–5 right now?",
+      "zh_title": "火墙",
+      "zh_poem": "一个拿着测量线的年轻人\n出去标记这座城市。\n\n一位天使被派去奔跑：\n告诉他不要打扰。\n\n人会太多，\n太多的羊群，\n适合墙内。\n\n我会成为她的墙，\n主说，\n四周都是火墙。\n\n在中间，\n你存放宝藏的地方，\n我将成为荣耀。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“在你珍藏宝藏的中间，我将成为荣耀。”现在，撒迦利亚书 2:1-5 给你心灵的哪一部分带来最深刻的审视或安慰？",
+      "zh_epigraph": "“耶路撒冷将成为没有围墙的村庄”",
+      "zh_ref": "撒迦利亚书 2:1–5"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#f7edce"
       },
       "dailyWalkDay": 986,
-      "reflectionPrompt": "In Zechariah 3:1–5, grace meets us right beside the warmth of the fire: how does the closing thought—“he was changed, and dressed, and kept”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Zechariah 3:1–5, grace meets us right beside the warmth of the fire: how does the closing thought—“he was changed, and dressed, and kept”—steady your footing for the road ahead?",
+      "zh_title": "一根燃烧的棍子",
+      "zh_poem": "大祭司站着\n穿着肮脏的衣服，\n他旁边的原告。\n\n但神首先说话：\n这不是一根棍子吗\n从火中被拉出来？\n\n烧焦了，还在冒烟，\n并故意保存。\n\n脱掉脏衣服。\n将干净的头巾戴在他头上。\n\n他没有改变自己。\n他被改变了，\n并穿着，\n并保留。",
+      "zh_reflectionPrompt": "在《撒迦利亚书》3:1-5 中，恩典就在温暖的火旁与我们相遇：最后的思想——“他就改变了，穿好了，保养得好”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“这不是从火里拔出来的一根燃烧的棍子吗？”",
+      "zh_ref": "撒迦利亚书 3:1–5"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f8e6a6"
       },
       "dailyWalkDay": 987,
-      "reflectionPrompt": "If today’s painting of “seven lamps” (Zechariah 4:1–6) hung beside the door you walk out of this morning, how would its final line—“not by power. by my Spirit”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “seven lamps” (Zechariah 4:1–6) hung beside the door you walk out of this morning, how would its final line—“not by power. by my Spirit”—shape your choices?",
+      "zh_title": "七盏灯",
+      "zh_poem": "天使唤醒了他\n就像一个人从睡梦中醒来。\n\n你看到了什么？\n\n金灯台，\n七盏灯点着，\n旁边还有两棵橄榄树，\n他们的石油运行\n没有人按下它。\n\n没有人拿着罐子。\n没有人修剪灯芯。\n\n就是这个词\n对于州长\n有一座寺庙\n那仍然只是一个基础：\n\n不是靠实力。\n不是靠权力。\n借着我的灵。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“七灯”（撒迦利亚书 4：1-6）画作，它的最后一句——“不是靠着能力，而是靠着我的灵”——会如何影响你的选择？",
+      "zh_epigraph": "“一个全金的灯台，上面有碗，上面有七盏灯”",
+      "zh_ref": "撒迦利亚书 4:1–6"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#ebdebf"
       },
       "dailyWalkDay": 988,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Zechariah 4:9–10)—where in your own home or work today does “he was there for the first stone” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Zechariah 4:9–10)—where in your own home or work today does “he was there for the first stone” ring true?",
+      "zh_title": "小事的一天",
+      "zh_poem": "一个基础。\n一块石头。\n一条铅垂线\n依然挂在一个男人的手里。\n\n看起来并不多。\n总是有人这么说。\n\n但奠定这一切的双手\n上帝说，将会完成它。\n\n和主的眼目，\n贯穿整个地球，\n很高兴\n看到那条铅垂线。\n\n谁鄙视\n小事的一天？\n\n不是上帝。\n他在那儿\n对于第一块石头。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（撒迦利亚书 4：9-10）——今天在你自己的家里或工作场所，“他在那里寻找第一块石头”听起来是真实的吗？",
+      "zh_epigraph": "“确实，谁会鄙视小事之日呢？”",
+      "zh_ref": "撒迦利亚书 4:9–10"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#ded0b0"
       },
       "dailyWalkDay": 989,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “and no one afraid to be outside.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “and no one afraid to be outside.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "街道将会挤满",
+      "zh_poem": "神如何描述\n一个完整的城市？\n\n没有塔。\n没有金子。\n\n老男人和老女人\n再次坐在街头，\n各有一名工作人员，\n因为他们活得足够长\n需要一个。\n\n和玩耍的孩子们，\n大声，到处，\n脚下。\n\n这就是承诺。\n\n老人们安全。\n年轻人自由了。\n没有人害怕\n在外面。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“没有人害怕外出。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“城市的街道上将充满在街道上玩耍的男孩和女孩。”",
+      "zh_ref": "撒迦利亚书 8:4–5"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f1e3c4"
       },
       "dailyWalkDay": 990,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “ten strangers, from every language, holding on to one man's robe.” Looking through the lens of Zechariah 8:23, what does it mean to discover that “that was reason enough to follow”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “ten strangers, from every language, holding on to one man's robe.” Looking through the lens of Zechariah 8:23, what does it mean to discover that “that was reason enough to follow”?",
+      "zh_title": "我们会和你一起去",
+      "zh_poem": "十个陌生人，\n从每一种语言，\n坚持\n到一个男人的长袍。\n\n不是因为他的智慧。\n不是为了他的钱。\n\n他们听说过\n神与他同在。\n\n这就是足够的理由\n跟随。",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“十个陌生人，来自各种语言，紧紧抓住一个人的长袍”的感觉。从撒迦利亚书 8 章 23 节的角度来看，发现“这就是足以遵循的理由”意味着什么？",
+      "zh_epigraph": "“我们会和你一起去，因为我们听说上帝与你同在。”",
+      "zh_ref": "撒迦利亚书 8:23"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#f3e4bd"
       },
       "dailyWalkDay": 991,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “your king comes” in this painting (Zechariah 9:9–10)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “your king comes” in this painting (Zechariah 9:9–10)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "你的国王来了",
+      "zh_poem": "你的国王来了。\n听听战车的声音。\n\n你不会听到他们的声音。\n\n他来的卑微，\n在驴上。\n\n他做的第一件事\n就是拿走战车，\n战马，战弓，\n\n并讲和平话\n给万民。\n\n几个世纪后\n山坡路上的人群\n会记住这一点。",
+      "zh_reflectionPrompt": "仔细观察这幅画中“你的王来了”的安静中心部分（撒迦利亚书 9：9-10）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“他是公义的，又蒙拯救；他卑微，又骑驴”",
+      "zh_ref": "撒迦利亚书 9:9–10"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#f8d76e"
       },
       "dailyWalkDay": 992,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the name by which He calls you: what quiet prayer rises in you when you read, “even today, he says, I will give you back double”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the name by which He calls you: what quiet prayer rises in you when you read, “even today, he says, I will give you back double”?",
+      "zh_title": "希望的囚徒",
+      "zh_poem": "坑里没有水。\n\n只是石头，\n和一圈天空\n太远了。\n\n神说，\n我已经释放了你们的囚犯。\n\n然后他给了那些\n仍在等待\n一个新名字：\n\n希望的囚徒。\n\n举行,\n不再陷坑了\n但凭着一个承诺\n那不会放手。\n\n他说，即使在今天，\n我会双倍还给你。",
+      "zh_reflectionPrompt": "让你的目光停留在他呼唤你的名字周围的笔触和光芒上：当你读到“即使在今天，他说，我也会双倍地还给你”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“转向堡垒吧，你们这些希望的囚徒！”",
+      "zh_ref": "撒迦利亚书 9:11–12"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#f5c55c"
       },
       "dailyWalkDay": 993,
-      "reflectionPrompt": "Linger with the movement in “at evening, light” (Zechariah 14:7–8) from “you know how evening goes” to “and living water runs out from Jerusalem, east and west, summer and winter, and never runs dry”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “at evening, light” (Zechariah 14:7–8) from “you know how evening goes” to “and living water runs out from Jerusalem, east and west, summer and winter, and never runs dry”—where do you find yourself along that arc today?",
+      "zh_title": "晚上，有光",
+      "zh_poem": "你知道晚上是怎样度过的。\n光线变薄。\n影子拉长。\n你点一盏灯。\n\n但总有一天，\n主所知道的，\n\n当傍晚来临的时候\n光依然存在。\n\n和生活用水\n从耶路撒冷跑出来，\n东方和西方，\n夏天和冬天，\n\n从来没有\n干涸。",
+      "zh_reflectionPrompt": "徘徊在“晚上有光”（撒迦利亚书 14：7-8）的乐章中，从“你知道晚上如何去”到“活水从耶路撒冷流出，从东到西，夏天和冬天，永不干涸”——今天你发现自己在这条弧线上的什么地方？",
+      "zh_epigraph": "“到了晚上就会有光。”",
+      "zh_ref": "撒迦利亚书 14:7–8"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#f5e8bc"
       },
       "dailyWalkDay": 994,
-      "reflectionPrompt": "Notice how “how have you loved us” (Malachi 1:2) arrives at: “the whole book is an argument from someone who refuses to leave.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “how have you loved us” (Malachi 1:2) arrives at: “the whole book is an argument from someone who refuses to leave.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "你有多爱我们",
+      "zh_poem": "最后一本书\n先知的\n以此开头：\n\n我爱过你。\n\n人们回答说，\n怎么办？\n\n它有声音\n长久婚姻的\n安静了。\n\n于是神又开始了，\n耐心地，\n就像爱一样，\n大声记住。\n\n整本书\n是一个论点\n来自某人\n谁拒绝离开。",
+      "zh_reflectionPrompt": "请注意“你如何爱我们”（玛拉基书 1：2）是如何得出的：“整本书都是一个拒绝离开的人的争论。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“我曾经爱过你”",
+      "zh_ref": "玛拉基书 1:2"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#d98037"
       },
       "dailyWalkDay": 995,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Malachi 3:2–3: “to keep what's precious, and make it ready to give”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Malachi 3:2–3: “to keep what's precious, and make it ready to give”?",
+      "zh_title": "精炼者坐",
+      "zh_poem": "谁能站得住\n他什么时候出现？\n\n他如火般降临\n在精炼炉中，\n像强力肥皂一样\n在洗衣桶中。\n\n但请阅读下一行：\n他会坐下来。\n\n炼油厂不会走开\n来自银子。\n他坐在它旁边，\n观看,\n病人。\n\n不要失去火中的东西。\n去保留珍贵的东西，\n并做好准备\n给予。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是玛拉基书 3：2-3 中安静的教训：“要保留珍贵的东西，并准备好给予”，该怎么办？",
+      "zh_epigraph": "“因为他就像炼油厂的火，又像洗衣厂的肥皂”",
+      "zh_ref": "玛拉基书 3:2–3"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#f6d493"
       },
       "dailyWalkDay": 996,
-      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “one step, then the next, facing the other way”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “one step, then the next, facing the other way”?",
+      "zh_title": "返回",
+      "zh_poem": "我，主，不会改变。\n\n这就是为什么\n你还在这里。\n\n和门\n是它一直在的地方：\n\n回到我身边，\n我会回到你身边。\n\n我们该如何返回？他们问，\n好像它需要一张地图。\n\n你离开的方式。\n一步，\n然后下一个，\n面向另一个方向。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，靠近敞开的门槛：当你听到“一步，然后下一步，面向另一个方向”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“回到我身边，我也会回到你身边”",
+      "zh_ref": "玛拉基书 3:6–7"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#dbc79d"
       },
       "dailyWalkDay": 997,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “your quiet talk about him with a friend is not lost. it is kept.” What part of your heart feels most searched or comforted by Malachi 3:14–17 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “your quiet talk about him with a friend is not lost. it is kept.” What part of your heart feels most searched or comforted by Malachi 3:14–17 right now?",
+      "zh_title": "一本记忆之书",
+      "zh_poem": "有些人已经放弃了。\n有什么用呢？他们说。\n骄傲的人做得很好。\n\n和其他一些人，\n敬畏神的人，\n刚刚互相交谈。\n\n没什么戏剧性的。\n一次谈话。\n\n神垂听了，\n并听到，\n并把它写下来。\n\n他们将是我的，他说。\n\n你悄悄谈论他\n和一个朋友\n没有丢失。\n\n它被保留。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“你和朋友安静地谈论他并没有消失。它被保留了。”现在，玛拉基书 3 章 14-17 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“耶和华垂听了，也垂听了，一本记忆书就写在他面前”",
+      "zh_ref": "玛拉基书 3:14–17"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#f9c385"
       },
       "dailyWalkDay": 998,
-      "reflectionPrompt": "In Malachi 4:1–2, grace meets us right beside the name by which He calls you: how does the closing thought—“you will go out and leap like calves let out of the stall after a long winter in the dark”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Malachi 4:1–2, grace meets us right beside the name by which He calls you: how does the closing thought—“you will go out and leap like calves let out of the stall after a long winter in the dark”—steady your footing for the road ahead?",
+      "zh_title": "用翅膀治愈",
+      "zh_poem": "那一天到来\n像火炉一样燃烧。\n\n但对你\n敬畏他名的人，\n\n同一天\n像太阳一样升起，\n\n和光\n它的翅膀有治愈作用。\n\n你会出去\n和跳跃\n就像牛犊从马厩里放出来一样\n\n经过一个漫长的冬天\n在黑暗中。",
+      "zh_reflectionPrompt": "在玛拉基书 4 章 1-2 节中，恩典就在他呼召你的名字旁边与我们相遇：结尾的思想——“你将出去跳跃，像在黑暗中经历了漫长的冬天之后从牛栏里出来的牛犊一样”——如何为你前面的路站稳脚跟？",
+      "zh_epigraph": "“你会出去，像马厩里的牛犊一样跳跃。”",
+      "zh_ref": "玛拉基书 4:1–2"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#edcc85"
       },
       "dailyWalkDay": 999,
-      "reflectionPrompt": "If today’s painting of “turn the hearts” (Malachi 4:5–6) hung beside the door you walk out of this morning, how would its final line—“then the prophets went quiet for centuries, until an old priest was told his son would come in the spirit of Elijah to turn the hearts of the fathers to the children”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “turn the hearts” (Malachi 4:5–6) hung beside the door you walk out of this morning, how would its final line—“then the prophets went quiet for centuries, until an old priest was told his son would come in the spirit of Elijah to turn the hearts of the fathers to the children”—shape your choices?",
+      "zh_title": "转动心",
+      "zh_poem": "先知的最后一句话\n是关于一个家庭的。\n不是寺庙。不是一场战斗。\n\n父亲们转向他们的孩子。\n孩子们转向他们的父亲。\n\n神说，我会差遣以利亚。\n\n然后先知们就安静了\n几个世纪以来，\n\n直到一位老牧师被告知\n他的儿子会来\n本着以利亚的精神\n\n转动人心\n父辈们的\n给孩子们。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“转动人心”（玛拉基书 4：5-6）的画，那么它的最后一行——“然后先知们沉默了几个世纪，直到一位老祭司被告知，他的儿子会本着以利亚的精神到来，使父亲的心转向儿女”——会如何影响你的选择？",
+      "zh_epigraph": "“他将使父亲的心转向孩子”",
+      "zh_ref": "玛拉基书 4:5–6"
     }
-  ]
+  ],
+  "zh_title": "小事之日",
+  "zh_subtitle": "弥迦书至玛拉基书诗画集",
+  "zh_beforeYouBegin": "这七本书来自耶路撒冷陷落之前和流放者回家之后的几年。他们拥有一家人的田地和界碑，一个小得难以计数的村庄，一个墙上的守望者，一棵不结果子的无花果树，一个破了洞的钱包，一个建筑工人手中的铅垂线，一个骑着驴的国王，一个坐在火边的炼油师。\n\n本书以四十首短诗的形式讲述了这些故事，分为五个部分：《弥迦书》；《弥迦书》；《弥迦书》；《弥迦书》。那鸿书和哈巴谷书；西番雅和哈该；撒迦利亚；和玛拉基。每首诗都位于一幅画旁边和一行经文之下。这些图画停留在普通的东西上——无花果树下的凳子、粘土灯、新的石头——把面孔留给你想象。\n\n这些诗不是圣经。它们是一位读者对此的回应。把《弥迦书》到《玛拉基书》与这本书放在一起打开，让真正的话语成为最后的话语。"
 }

@@ -16,7 +16,10 @@
       "epigraph": "I will give her vineyards from there, and the valley of Achor for a door of hope",
       "epigraphRef": "Hosea 2:15",
       "lightName": "Light of A Door of Hope",
-      "lightHint": "Near 'a living parable' (Hosea 1:1–2) in Part 1: A Door of Hope"
+      "lightHint": "Near 'a living parable' (Hosea 1:1–2) in Part 1: A Door of Hope",
+      "zh_title": "希望之门",
+      "zh_epigraph": "我必将那里的葡萄园和亚割谷赐给她，作为希望之门",
+      "zh_epigraphRef": "何西阿书 2:15"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "I drew them with cords of a man, with ties of love",
       "epigraphRef": "Hosea 11:4",
       "lightName": "Light of Cords of Love",
-      "lightHint": "Near 'the land mourns' (Hosea 4:1–3) in Part 2: Cords of Love"
+      "lightHint": "Near 'the land mourns' (Hosea 4:1–3) in Part 2: Cords of Love",
+      "zh_title": "爱的绳索",
+      "zh_epigraph": "我用男人的绳索和爱的纽带把它们画下来",
+      "zh_epigraphRef": "何西阿书 11:4"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "I will restore to you the years that the swarming locust has eaten",
       "epigraphRef": "Joel 2:25",
       "lightName": "Light of The Years the Locust Ate",
-      "lightHint": "Near 'tell your children' (Joel 1:2–4) in Part 3: The Years the Locust Ate"
+      "lightHint": "Near 'tell your children' (Joel 1:2–4) in Part 3: The Years the Locust Ate",
+      "zh_title": "蝗虫吃的那些年",
+      "zh_epigraph": "我会把蝗虫吃掉的岁月还给你",
+      "zh_epigraphRef": "约珥书 2:25"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "But let justice roll on like rivers, and righteousness like a mighty stream.",
       "epigraphRef": "Amos 5:24",
       "lightName": "Light of Justice Like Rivers",
-      "lightHint": "Near 'for three, and for four' (Amos 2:6) in Part 4: Justice Like Rivers"
+      "lightHint": "Near 'for three, and for four' (Amos 2:6) in Part 4: Justice Like Rivers",
+      "zh_title": "正义如河",
+      "zh_epigraph": "但愿正义如江河滚滚，正义如滔滔江水。",
+      "zh_epigraphRef": "阿摩司书 5:24"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "Though you mount on high as the eagle, and though your nest is set among the stars, I will bring you down from there",
       "epigraphRef": "Obadiah 1:4",
       "lightName": "Light of Nest Among the Stars",
-      "lightHint": "Near 'the clefts of the rock' (Obadiah 1:3–4) in Part 5: Nest Among the Stars"
+      "lightHint": "Near 'the clefts of the rock' (Obadiah 1:3–4) in Part 5: Nest Among the Stars",
+      "zh_title": "星星间的巢",
+      "zh_epigraph": "尽管你如鹰展翅高飞，尽管你的巢筑在群星之中，我仍会把你从那里带下来",
+      "zh_epigraphRef": "俄巴底亚书 1:4"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#d9c5a5"
       },
       "dailyWalkDay": 896,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open threshold: what quiet prayer rises in you when you read, “and see, standing in the doorway, the kind of love that God had been all along”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open threshold: what quiet prayer rises in you when you read, “and see, standing in the doorway, the kind of love that God had been all along”?",
+      "zh_title": "一个活生生的寓言",
+      "zh_poem": "一些先知\n被递给一个卷轴。\n\n何西阿\n被赋予了一条生命。\n\n他自己的房子\n成为讲道：\n做出的承诺，\n违背的承诺，\n他保留的一扇门\n不锁定。\n\n全国人民都会关注他\n而且，如果他们有眼睛，\n看到他们自己。\n\n你看，站在门口，\n那种爱\n上帝曾经是\n一直以来。",
+      "zh_reflectionPrompt": "让你的目光停留在敞开的门槛周围的笔触和光线上：当你读到“站在门口，看到上帝一直以来的那种爱”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“耶和华的话临到备利的儿子何西阿”",
+      "zh_ref": "何西阿书 1:1–2"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#e7d7b6"
       },
       "dailyWalkDay": 897,
-      "reflectionPrompt": "Linger with the movement in “new names” (Hosea 1:9–10) from “the children's names were hard to say out loud” to “God does not leave the last word at no”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “new names” (Hosea 1:9–10) from “the children's names were hard to say out loud” to “God does not leave the last word at no”—where do you find yourself along that arc today?",
+      "zh_title": "新名字",
+      "zh_poem": "孩子们的名字\n很难大声说出来。\n\n没有怜悯。\n不是我的人。\n\n名字像\n一扇门关上。\n\n但同样的呼吸\n再次打开它：\n\n就在那个地方\n他们被称为的地方\n不是我的，\n\n他们将被称为\n儿童\n永生神的。\n\n神不离开\n最后一句话\n在没有。",
+      "zh_reflectionPrompt": "关注“新名字”（何西阿书 1：9-10）运动，从“孩子们的名字很难大声说出”到“上帝不会留下最后一句话”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“他们将被称为‘永生神的儿子。’”",
+      "zh_ref": "何西阿书 1:9–10"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#e9ddbb"
       },
       "dailyWalkDay": 898,
-      "reflectionPrompt": "Notice how “who gave the grain” (Hosea 2:8) arrives at: “all along the one who filled her table was standing just outside the light, giving, and giving, and not being named.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “who gave the grain” (Hosea 2:8) arrives at: “all along the one who filled her table was standing just outside the light, giving, and giving, and not being named.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "谁给了谷物",
+      "zh_poem": "她感谢错误的双手。\n\n面包来了\n从某个地方，\n她是这么猜的。\n\n酒来了\n从某个地方，\n于是她又猜到了。\n\n一直以来\n填满她桌子的人\n站着\n就在光的外面，\n\n给予,\n和给予，\n并且没有被点名。",
+      "zh_reflectionPrompt": "请注意“谁给了五谷”（何西阿书2:8）：“自始至终，那个给她摆满桌子的人都站在光外，不断地给予，却没有被提及。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“她不知道我给了她五谷、新酒和油”",
+      "zh_ref": "何西阿书 2:8"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#e6dab8"
       },
       "dailyWalkDay": 899,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hosea 2:6–7: “the thorns were a hedge around the way back”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hosea 2:6–7: “the thorns were a hedge around the way back”?",
+      "zh_title": "路上的荆棘",
+      "zh_poem": "有时路\n关闭。\n\n你奔向的东西\n不会让你抓住它。\n\n你敲的门\n保持关闭状态。\n\n感觉就像\n迷路了。\n\n可能是\n被保留。\n\n她说，\n我会回家。\n那里更好。\n\n荆棘\n是一个对冲\n回来的路上。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是何西阿书 2 章 6-7 节的安静教训：“荆棘是回去路上的篱笆”怎么办？",
+      "zh_epigraph": "“我会用荆棘挡住你的道路”",
+      "zh_ref": "何西阿书 2:6–7"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#feb89b"
       },
       "dailyWalkDay": 900,
-      "reflectionPrompt": "Imagine standing inside this frame beside the still, unhurried voice: what hurry or noise in your week begins to fade when you hear, “sometimes it is the only place quiet enough to hear that you are still wanted”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the still, unhurried voice: what hurry or noise in your week begins to fade when you hear, “sometimes it is the only place quiet enough to hear that you are still wanted”?",
+      "zh_title": "我会引诱她",
+      "zh_poem": "毕竟，\n你会期望\n一场讲座。\n\n相反：\n一个安静的地方。\n没有人群。\n没有声音竞争。\n\n和上帝\n温柔地说。\n\n荒野\n并不总是惩罚。\n\n有时是\n唯一的地方\n足够安静\n听到\n你仍然被通缉。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是安静、不慌不忙的声音：当你听到“有时这是唯一一个安静到足以听到你仍然被需要的地方”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“我要引诱她，带她到旷野，对她温柔地说。”",
+      "zh_ref": "何西阿书 2:14"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#fef0bb"
       },
       "dailyWalkDay": 901,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “the place you cannot talk about becomes the place you step out of singing, like you did when you were young and the whole road was ahead of you.” What part of your heart feels most searched or comforted by Hosea 2:15 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “the place you cannot talk about becomes the place you step out of singing, like you did when you were young and the whole road was ahead of you.” What part of your heart feels most searched or comforted by Hosea 2:15 right now?",
+      "zh_title": "一扇希望之门",
+      "zh_poem": "阿克尔是\n苦难之谷，\n一个名字\n他们宁愿忘记。\n\n神说，\n那就是我要把门放的地方。\n\n不绕麻烦。\n通过它。\n\n你不能的地方\n谈论\n\n成为这个地方\n你走出去\n唱歌,\n\n就像你一样\n当你年轻的时候\n以及整条路\n领先于你。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“你无法谈论的地方，变成了你无法歌唱的地方，就像你年轻时那样，整条路就在你的前面。”现在，何西阿书 2 章 15 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“她会在那里做出回应，就像她年轻时一样”",
+      "zh_ref": "何西阿书 2:15"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#e2dccf"
       },
       "dailyWalkDay": 902,
-      "reflectionPrompt": "In Hosea 2:19–20, grace meets us right beside the quiet centerpiece of “betrothed”: how does the closing thought—“forever is the word he chose”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Hosea 2:19–20, grace meets us right beside the quiet centerpiece of “betrothed”: how does the closing thought—“forever is the word he chose”—steady your footing for the road ahead?",
+      "zh_title": "订婚的",
+      "zh_poem": "不是合同。\n订婚。\n\n和礼物\n他带来了：\n\n正义，\n正义，\n慈爱仁慈，\n同情心，\n忠诚度。\n\n这里什么都没有\n正在借用。\n\n永远\n是这个词\n他选择了。",
+      "zh_reflectionPrompt": "在何西阿书 2 章 19-20 节中，恩典就在“订婚”这一安静的核心内容旁边与我们相遇：最后的思想——“他所选择的道永远是”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“我将把你许配给我，直到永远。”",
+      "zh_ref": "何西阿书 2:19–20"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#e6d8bb"
       },
       "dailyWalkDay": 903,
-      "reflectionPrompt": "If today’s painting of “go again” (Hosea 3:1–2) hung beside the door you walk out of this morning, how would its final line—“he pays again. he brings us home”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “go again” (Hosea 3:1–2) hung beside the door you walk out of this morning, how would its final line—“he pays again. he brings us home”—shape your choices?",
+      "zh_title": "再去一次",
+      "zh_poem": "再去，\n神说。\n一次也没有。再次。\n\n所以他付了钱\n银和大麦\n并把她带回家。\n\n留在我身边，\n他告诉她。\n我也会是你的。\n\n就是这样\n耶和华喜爱：\n\n他又走了。\n他又付钱了。\n他带我们回家。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“再去”（何西阿书 3:1-2）的画，它的最后一行——“他再次付钱。他带我们回家”——会如何影响你的选择？",
+      "zh_epigraph": "“正如耶和华爱以色列人一样”",
+      "zh_ref": "何西阿书 3:1–2"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#f2e9d2"
       },
       "dailyWalkDay": 904,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Hosea 4:1–3)—where in your own home or work today does “the whole land leans in to hear whether we'll turn” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Hosea 4:1–3)—where in your own home or work today does “the whole land leans in to hear whether we'll turn” ring true?",
+      "zh_title": "大地在哀悼",
+      "zh_poem": "没有真相。\n没有什么好处。\n不认识神。\n\n和田野\n先感受一下。\n\n地面安静下来。\n鸟儿稀疏了。\n甚至溪流\n变得害羞。\n\n我们认为我们的选择\n留在我们里面。\n\n他们没有。\n\n整个土地\n倾斜\n听到\n我们是否会转身。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（何西阿书 4:1-3）——今天，在你自己的家里或工作场所，“全地都俯身听我们是否回转”听起来是真的吗？",
+      "zh_epigraph": "“因此，大地必哀悼”",
+      "zh_ref": "何西阿书 4:1–3"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#fcefc4"
       },
       "dailyWalkDay": 905,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “you don't have to earn the spring rain. he will come.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “you don't have to earn the spring rain. he will come.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "像日出一样确定",
+      "zh_poem": "来吧，\n我们回去吧。\n\n受伤的人\n是束缚者。\n\n请继续了解他。\n一次也没有。\n继续按。\n\n你不必\n谈论太阳\n进入上升。\n\n你不必\n赚春雨。\n\n他会来的。",
+      "zh_reflectionPrompt": "缓缓吸一口气，再读一遍最后一行：“你不用去挣春雨，他会来的。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“就像太阳升起一样，耶和华一定会出现。他会像雨一样降临到我们身上，就像春雨滋润大地。”",
+      "zh_ref": "何西阿书 6:1–3"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#f3e8cb"
       },
       "dailyWalkDay": 906,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “your love, he said, is a morning cloud.” Looking through the lens of Hosea 6:4–6, what does it mean to discover that “a love that stays past the heat of the day”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “your love, he said, is a morning cloud.” Looking through the lens of Hosea 6:4–6, what does it mean to discover that “a love that stays past the heat of the day”?",
+      "zh_title": "晨云",
+      "zh_poem": "你的爱，\n他说，\n是早晨的云。\n\n黎明时分在那里。\n中午就过去了。\n\n仍然\n他没有要求更多\n祭坛上冒烟。\n\n他要求\n怜悯。\n\n因为认识他。\n\n留下来的爱\n过了一天的炎热。",
+      "zh_reflectionPrompt": "想象一下某个季节，你体会到“他说，你的爱是清晨的云彩”的感觉。透过何西阿书 6 章 4 至 6 节的视角，我们会发现“爱是经久不衰的爱”，这意味着什么？",
+      "zh_epigraph": "“因为我渴望怜悯，而不是牺牲”",
+      "zh_ref": "何西阿书 6:4–6"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#e6ddca"
       },
       "dailyWalkDay": 907,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “half-baked” in this painting (Hosea 7:8–9)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “half-baked” in this painting (Hosea 7:8–9)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "半生不熟",
+      "zh_poem": "一侧烧焦。\n另一边是生的。\n\n没有人转动它。\n\n和白发\n这里和那里，\n他没有\n意识到这一点。\n\n生命可能会溜走\n当我们忙碌的时候\n倾向于\n其他人。\n\n转\n趁它还在\n温暖。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的“半生不熟”的中心装饰（何西阿书7:8-9）——如果你今天可以在它旁边留下一个焦虑的重物，你会放什么？",
+      "zh_epigraph": "“以法莲是一块没有翻过来的煎饼。”",
+      "zh_ref": "何西阿书 7:8–9"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#d9ccae"
       },
       "dailyWalkDay": 908,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “fallow ground”: what quiet prayer rises in you when you read, “and then wait for the rain you can't make, which he has promised to send”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “fallow ground”: what quiet prayer rises in you when you read, “and then wait for the rain you can't make, which he has promised to send”?",
+      "zh_title": "休耕地",
+      "zh_poem": "领域\n一直在休息\n太长了。\n\n硬在上面。\n什么也进不去。\n\n所以打破它。\n不是一下子全部，\n一条犁沟。\n\n播种正义。\n收获善意。\n\n然后\n等雨\n你做不到，\n\n他已经承诺了\n发送。",
+      "zh_reflectionPrompt": "让你的目光停留在“休耕地”安静的中心周围的笔触和光线上：当你读到“然后等待你无法制造的雨水，而他已承诺会降下雨”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“开垦你们的荒地，因为寻求耶和华的时候到了，等他降临，将公义如雨降在你们身上。”",
+      "zh_ref": "何西阿书 10:12"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#f4d498"
       },
       "dailyWalkDay": 909,
-      "reflectionPrompt": "Linger with the movement in “learning to walk” (Hosea 11:1–4) from “when Israel was a child I loved him” to “the kind of rope a parent holds so a child can fall and not be lost”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “learning to walk” (Hosea 11:1–4) from “when Israel was a child I loved him” to “the kind of rope a parent holds so a child can fall and not be lost”—where do you find yourself along that arc today?",
+      "zh_title": "学习走路",
+      "zh_poem": "当以色列还是个孩子的时候\n我爱他。\n\n我打电话给我儿子\n出埃及。\n\n我握住他的双臂\n当他摇摇晃晃的时候。\n\n我弯下腰\n并喂了他。\n\n爱的绳索，\n他说。\n不是链条。\n\n绳子的种类\n父母持有\n所以还是个孩子\n会跌倒\n并且不会迷路。",
+      "zh_reflectionPrompt": "沉浸在“学习走路”（何西阿书 11：1-4）的运动中，从“当以色列还是个孩子的时候，我爱他”到“父母握住的那种绳子，这样孩子就不会跌倒而不至迷失”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“然而我教以法莲走路。我拉着他们的手臂”",
+      "zh_ref": "何西阿书 11:1–4"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#fadeb0"
       },
       "dailyWalkDay": 910,
-      "reflectionPrompt": "Notice how “how can I give you up” (Hosea 11:8–9) arrives at: “which means the mercy goes deeper than the anger ever could.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “how can I give you up” (Hosea 11:8–9) arrives at: “which means the mercy goes deeper than the anger ever could.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "我怎么能放弃你",
+      "zh_poem": "一切都已经说了。\n每一次发出的警告。\n\n然后\n这个。\n\n我怎么能？\n\n神不\n变冷。\n\n我的心变了\n在我内心，\n他说。\n\n我是神，\n不是一个男人。\n\n这意味着\n怜悯\n更深入\n比愤怒\n曾经可以。",
+      "zh_reflectionPrompt": "请注意“我怎能放弃你”（何西阿书 11：8-9）：“这意味着怜悯比愤怒更深。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“以法莲，我怎能放弃你？以色列，我怎能放弃你？”",
+      "zh_ref": "何西阿书 11:8–9"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#e3d4b0"
       },
       "dailyWalkDay": 911,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hosea 14:4–7: “you will root deep. your fruit comes from me”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Hosea 14:4–7: “you will root deep. your fruit comes from me”?",
+      "zh_title": "像露水一样",
+      "zh_poem": "给那些\n谁回来，\n上帝说：\n\n我会痊愈的。\n我会自由地去爱。\n\n我愿化作露珠，\n安静,\n每天早上。\n\n你会绽放。\n你会扎根得很深。\n人们会坐\n在你的树荫下。\n\n你的水果\n来自我。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《何西阿书》14:4-7 中安静的教训：“你要深深扎根。你的果子是从我而来的”，那又怎样呢？",
+      "zh_epigraph": "“我将像以色列的露珠。他将像百合花一样绽放”",
+      "zh_ref": "何西阿书 14:4–7"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#f5ebd3"
       },
       "dailyWalkDay": 912,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “tell your children”: what hurry or noise in your week begins to fade when you hear, “so they'd know what happened, and who they ran to when it did”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “tell your children”: what hurry or noise in your week begins to fade when you hear, “so they'd know what happened, and who they ran to when it did”?",
+      "zh_title": "告诉你的孩子",
+      "zh_poem": "第一个蜂群。\n然后它留下了什么，\n另一个拿走了。\n\n那么那个人留下了什么，\n另一个。\n\n到最后\n没有什么\n但胡茬。\n\n先知说：\n告诉你的孩子。\n\n不然他们会害怕。\n\n所以他们会知道\n发生了什么事，\n他们跑向谁\n当它发生时。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是“告诉你的孩子”的安静中心：当你听到“这样他们就会知道发生了什么，以及当事情发生时他们跑向谁”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“告诉你的孩子，并让你的孩子告诉他们的孩子”",
+      "zh_ref": "约珥书 1:2–4"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#dbc69b"
       },
       "dailyWalkDay": 913,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “the Bible leaves room to say so.” What part of your heart feels most searched or comforted by Joel 1:10–12 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “the Bible leaves room to say so.” What part of your heart feels most searched or comforted by Joel 1:10–12 right now?",
+      "zh_title": "喜悦已经枯萎",
+      "zh_poem": "葡萄树。\n图。\n石榴。\n手掌。\n\n他们所有人，\n干燥。\n\n还有别的东西\n和他们一起枯萎。\n\n很难唱歌\n空荡荡的谷仓上方。\n\n这里允许悲伤。\n\n圣经\n离开房间\n这么说。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“圣经留有余地可以这么说。”约珥书 1 章 10-12 节现在最能触动你内心的哪一部分？",
+      "zh_epigraph": "“因为人类的欢乐已经消失了。”",
+      "zh_ref": "约珥书 1:10–12"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#e7d8b1"
       },
       "dailyWalkDay": 914,
-      "reflectionPrompt": "In Joel 1:19–20, grace meets us right beside the quiet brook: how does the closing thought—“if even the animals turn their faces toward you, Lord, so will I”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Joel 1:19–20, grace meets us right beside the quiet brook: how does the closing thought—“if even the animals turn their faces toward you, Lord, so will I”—steady your footing for the road ahead?",
+      "zh_title": "甚至动物",
+      "zh_poem": "布鲁克斯\n已经干涸了。\n\n动物们\n站在空床上\n并抬起头。\n\n先知\n把它当作一种祈祷。\n\n如果连动物\n转过脸来\n向着你，\n\n主啊，\n我也会的。",
+      "zh_reflectionPrompt": "在约珥书 1 章 19-20 节中，恩典就在安静的小溪旁与我们相遇：最后的思想——“主啊，连走兽都转脸向你，我也必如此”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“是的，田野里的动物都在向你喘息”",
+      "zh_ref": "约珥书 1:19–20"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#e9e1c9"
       },
       "dailyWalkDay": 915,
-      "reflectionPrompt": "If today’s painting of “tear your heart” (Joel 2:12–13) hung beside the door you walk out of this morning, how would its final line—“open it to the one who is gracious, merciful, slow to anger, full of loving kindness”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “tear your heart” (Joel 2:12–13) hung beside the door you walk out of this morning, how would its final line—“open it to the one who is gracious, merciful, slow to anger, full of loving kindness”—shape your choices?",
+      "zh_title": "撕裂你的心",
+      "zh_poem": "但即便是现在，\n他说。\n\n蜂群之后。\n天黑后。\n\n即使是现在。\n\n长袍可以撕裂\n没有任何东西\n改变。\n\n所以撕心裂肺。\n\n打开它\n致那个人\n\n亲切，\n仁慈的，\n慢慢地发怒，\n\n满\n的慈爱。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天“撕裂你的心”（约珥书 2:12-13）的画，它的最后一行——“给那有恩惠、有怜悯、不轻易发怒、充满慈爱的人”——会如何影响你的选择呢？",
+      "zh_epigraph": "“撕裂你的心，而不是你的衣服，转向耶和华你的上帝”",
+      "zh_ref": "约珥书 2:12–13"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#f6eac2"
       },
       "dailyWalkDay": 916,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Joel 2:14)—where in your own home or work today does “enough to begin worshiping again” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Joel 2:14)—where in your own home or work today does “enough to begin worshiping again” ring true?",
+      "zh_title": "谁知道？",
+      "zh_poem": "谁知道？\n\n这就是先知的全部\n可以承诺。\n\n不是保证。\n一个方向。\n\n转，\n看看什么\n他留下了。\n\n一点谷物。\n一点酒。\n\n够了\n开始\n再次膜拜。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（约珥书 2:14）——今天在你自己的家里或工作场所，“足以再次开始敬拜”听起来是真实的吗？",
+      "zh_epigraph": "“谁知道呢？他可能会转身心软，并留下祝福”",
+      "zh_ref": "约珥书 2:14"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#f7efd7"
       },
       "dailyWalkDay": 917,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “the threshing floors full.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “the threshing floors full.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "早雨和晚雨",
+      "zh_poem": "他对土地说话\n首先。\n\n别害怕。\n\n然后是动物。\n别害怕。\n\n然后对他的人民说：\n高兴吧。\n\n牧场开始生长。\n无花果树记得\n如何承受。\n\n初雨。\n晚雨。\n和以前一样。\n\n打谷场\n满。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“打谷场满了。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“土地，不要害怕。要欢喜快乐，因为耶和华行了大事。”",
+      "zh_ref": "约珥书 2:21–24"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#eddaad"
       },
       "dailyWalkDay": 918,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “he doesn't just give back the field.” Looking through the lens of Joel 2:25–26, what does it mean to discover that “nobody else can pay you back in time. he says he will”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “he doesn't just give back the field.” Looking through the lens of Joel 2:25–26, what does it mean to discover that “nobody else can pay you back in time. he says he will”?",
+      "zh_title": "蝗虫吃的年份",
+      "zh_poem": "他不只是\n归还领域。\n\n他回馈\n这些年。\n\n那些去过的人\n到蜂群。\n\n你以为的那些\n都只是损失。\n\n没有其他人\n可以还给你\n及时。\n\n他说\n他会的。",
+      "zh_reflectionPrompt": "想象一个赛季，当你体会到“他不仅仅回馈球场”的感觉时。从《约珥书》2:25-26 的角度来看，发现“没有人能及时偿还你。他说他会”意味着什么？",
+      "zh_epigraph": "“你们必吃得饱足，并称赞耶和华你们上帝的名，因为他向你们行了奇妙的事”",
+      "zh_ref": "约珥书 2:25–26"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#dab968"
       },
       "dailyWalkDay": 919,
-      "reflectionPrompt": "Look closely at the name by which He calls you in this painting (Joel 2:28–29)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the name by which He calls you in this painting (Joel 2:28–29)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "在所有肉体上",
+      "zh_poem": "儿子和女儿。\n老人和年轻人。\n\n仆人也。\n使女也是如此。\n\n没有人太年轻。\n没有人太老。\n没有人太低。\n\n他没有倒\n在选定的几个\n这次。\n\n都是肉。\n\n这意味着\n你的厨房，\n你的街道，\n你平常的名字。",
+      "zh_reflectionPrompt": "仔细看看他在这幅画中称呼你的名字（约珥书 2:28-29）——如果你今天可以在它旁边留下一个焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“我要将我的灵浇灌凡有血气的”",
+      "zh_ref": "约珥书 2:28–29"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f4e9c7"
       },
       "dailyWalkDay": 920,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the low road through the valley: what quiet prayer rises in you when you read, “and after it all, a fountain from his house, running down into the dry valley, watering the places nothing grew”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the low road through the valley: what quiet prayer rises in you when you read, “and after it all, a fountain from his house, running down into the dry valley, watering the places nothing grew”?",
+      "zh_title": "房子里的喷泉",
+      "zh_poem": "天地震动，\n仍然\n他是一个避难所。\n\n大地颤抖，\n仍然\n一个据点。\n\n毕竟，\n一个喷泉\n从他家，\n\n跑下来\n进入干旱的山谷，\n\n浇水\n那些地方\n什么也没有生长。",
+      "zh_reflectionPrompt": "让你的目光停留在穿过山谷的低矮道路周围的笔触和光线上：当你读到“最终，他的房子里有一股泉水，流进干燥的山谷，浇灌着没有生长的地方”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“有泉源从耶和华的殿中涌出”",
+      "zh_ref": "约珥书 3:16–18"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#e9ddc4"
       },
       "dailyWalkDay": 921,
-      "reflectionPrompt": "Linger with the movement in “for three, and for four” (Amos 2:6) from “Damascus. Gaza” to “a person, sold for the price of a pair of sandals”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “for three, and for four” (Amos 2:6) from “Damascus. Gaza” to “a person, sold for the price of a pair of sandals”—where do you find yourself along that arc today?",
+      "zh_title": "三人份和四人份",
+      "zh_poem": "大马士革。加沙。\n胎。以东。\n\n众人同意了\n每一个字。\n\n阿蒙。摩押。\n犹大。\n\n是的，传教士。他们。\n\n然后圆圈闭合：\n以色列。\n\n一个人，被卖掉\n对于价格\n一双凉鞋的。",
+      "zh_reflectionPrompt": "留心“三人四人”（阿摩司书 2:6）中从“大马士革。加沙”到“一个人，以一双凉鞋的价格出售”的运动——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“因为他们为银子出卖义人，为一双鞋出卖穷乏人”",
+      "zh_ref": "阿摩司书 2:6"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#f8d593"
       },
       "dailyWalkDay": 922,
-      "reflectionPrompt": "Notice how “two walking” (Amos 3:3) arrives at: “the good news is that he's still on the road, waiting for you to fall back into step.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “two walking” (Amos 3:3) arrives at: “the good news is that he's still on the road, waiting for you to fall back into step.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "两个人走路",
+      "zh_poem": "两个人一起走\n因为他们已经同意了\n他们要去哪里。\n\n你不能走路\n与上帝\n\n并前往某个地方\n他不是。\n\n好消息\n是他还在\n在路上，\n\n等待\n为你\n后退\n进入步骤。",
+      "zh_reflectionPrompt": "请注意“二人同行”（阿摩司书 3：3）是如何得出的：“好消息是他仍在路上，等待着你重新跟上步伐。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“除非他们同意，否则两个人可以一起走吗？”",
+      "zh_ref": "阿摩司书 3:3"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#d6cebc"
       },
       "dailyWalkDay": 923,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Amos 4:11: “rescued is not the end of the story. returning is”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Amos 4:11: “rescued is not the end of the story. returning is”?",
+      "zh_title": "一根火中的棍子",
+      "zh_poem": "饥饿。\n干旱。\n枯萎病。\n\n五次\n同样的克制：\n你还没有回到我身边。\n\n在它的中间，\n这个：\n\n你是一根棍子\n从火中被拉出来。\n\n还在抽烟。\n还在这里。\n\n获救\n还没有结束\n的故事。\n\n回归群岛",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是阿摩司书 4 章 11 节的安静教训：“得救不是故事的结局，回归才是”，那又怎样呢？",
+      "zh_epigraph": "“你就像一根从火中拔出的燃烧的棍子，却没有回到我身边”",
+      "zh_ref": "阿摩司书 4:11"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#e6d1ad"
       },
       "dailyWalkDay": 924,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet stars overhead: what hurry or noise in your week begins to fade when you hear, “seek the one who hung those stars, who turns the shadow of death into morning. seek him, and live”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet stars overhead: what hurry or noise in your week begins to fade when you hear, “seek the one who hung those stars, who turns the shadow of death into morning. seek him, and live”?",
+      "zh_title": "寻求他并得活",
+      "zh_poem": "一个牧民\n知道夜空。\n\n他知道哪些星星\n黎明之前来吧。\n\n他说：\n不要寻找神社。\n\n寻找那个\n谁悬挂了那些星星，\n\n谁转身\n死亡的阴影\n进入早晨。\n\n寻找他，\n并生活。",
+      "zh_reflectionPrompt": "想象一下站在这个框架内，头顶上安静的星星旁边：当你听到“寻找悬挂这些星星的人，他将死亡的阴影变成早晨。寻找他，并生活”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“寻找创造昴宿星团和猎户座的他，将死亡的阴影变成黎明”",
+      "zh_ref": "阿摩司书 5:8"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#ebdfca"
       },
       "dailyWalkDay": 925,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “let justice roll on like rivers. then sing.” What part of your heart feels most searched or comforted by Amos 5:21–24 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “let justice roll on like rivers. then sing.” What part of your heart feels most searched or comforted by Amos 5:21–24 right now?",
+      "zh_title": "你的歌声",
+      "zh_poem": "歌曲\n很漂亮。\n\n竖琴\n调准。\n\n神说，\n把它拿走。\n\n因为在山下\n一个穷人\n他的外套掉了。\n\n崇拜\n从来没有意味着\n淹没\n门口的哭声。\n\n让正义\n像河流一样滚滚。\n\n然后唱歌。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“让正义像河流一样滚滚。然后歌唱。”阿摩司书 5 章 21-24 节现在最能触动你内心的哪一部分？",
+      "zh_epigraph": "“把你的歌声从我身边拿走！我不会听你的竖琴音乐。”",
+      "zh_ref": "阿摩司书 5:21–24"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#f7edde"
       },
       "dailyWalkDay": 926,
-      "reflectionPrompt": "In Amos 6:4–6, grace meets us right beside the quiet centerpiece of “beds of ivory”: how does the closing thought—“a whole people breaking just outside, and nobody at the feast could feel it”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Amos 6:4–6, grace meets us right beside the quiet centerpiece of “beds of ivory”: how does the closing thought—“a whole people breaking just outside, and nobody at the feast could feel it”—steady your footing for the road ahead?",
+      "zh_title": "象牙床",
+      "zh_poem": "柔软的垫子。\n最好的羊肉。\n酒在碗里。\n每晚都有新歌。\n\n都没有\n是问题所在。\n\n问题\n是一行：\n\n他们并不悲伤。\n\n整个人民\n打破\n就在外面，\n\n没有人\n在宴会上\n能感觉到。",
+      "zh_reflectionPrompt": "在阿摩司书 6:4-6 中，恩典就在安静的“象牙床”中心旁边与我们相遇：最后的思想——“整个民族在外面破碎，在筵席上没有人感觉到”——如何为你前面的路站稳脚跟？",
+      "zh_epigraph": "“但他们并不因约瑟的苦难而悲伤。”",
+      "zh_ref": "阿摩司书 6:4–6"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#f8e7c6"
       },
       "dailyWalkDay": 927,
-      "reflectionPrompt": "If today’s painting of “he is small” (Amos 7:2–3) hung beside the door you walk out of this morning, how would its final line—“never underestimate the one who stands in the gap and pleads”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “he is small” (Amos 7:2–3) hung beside the door you walk out of this morning, how would its final line—“never underestimate the one who stands in the gap and pleads”—shape your choices?",
+      "zh_title": "他很小",
+      "zh_poem": "两次先知\n看到了即将发生的事情。\n\n两次\n他阻止了它\n带着祈祷。\n\n不\n他们应该得到更好的。\n\n只是：\n原谅。\n他很小。\n\n和两次\n神心软了。\n\n永远不要低估\n站着的人\n在间隙中\n并恳求。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“他很小”（阿摩司书 7:2-3）的画，那么它的最后一行——“永远不要低估站在缝隙中恳求的人”——会如何影响你的选择？",
+      "zh_epigraph": "“雅各怎么能站起来呢？因为他太小了。”",
+      "zh_ref": "阿摩司书 7:2–3"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#e4d8b5"
       },
       "dailyWalkDay": 928,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Amos 7:7–8)—where in your own home or work today does “he only needs to hold it still” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Amos 7:7–8)—where in your own home or work today does “he only needs to hold it still” ring true?",
+      "zh_title": "铅垂线",
+      "zh_poem": "一个字符串。\n一个重量。\n没什么特别的。\n\n举起它\n在墙边\n\n和真相\n就在那里。\n\n没有争论。\n没有喊叫。\n\n只是直\n旁边歪了。\n\n神不需要\n夸大其词。\n\n他只需要\n保持它不动。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（阿摩司书 7:7-8）——今天在你自己的家里或工作场所，“他只需保持不动”听起来是真的吗？",
+      "zh_epigraph": "“看哪，我要在我民以色列中间立一根准绳。”",
+      "zh_ref": "阿摩司书 7:7–8"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#e7d8bb"
       },
       "dailyWalkDay": 929,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “just a man who was told go, and went.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “just a man who was told go, and went.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "种植无花果的农民",
+      "zh_poem": "他们告诉他\n回家。\n\n这是国王的\n避难所。\n\n他说，\n我不是先知。\n\n我放牧羊群。\n我在无花果树上工作。\n\n耶和华带我去\n从羊后面。\n\n没有血统。\n没有标题。\n\n只是一个男人\n谁被告知\n走吧，\n\n然后就走了。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“只是一个被告知走的人，然后就走了。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“我是一名牧民，也是一名无花果农户”",
+      "zh_ref": "阿摩司书 7:14–15"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#f9ecc5"
       },
       "dailyWalkDay": 930,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “after all the warnings, the book turns on one small word: in that day.” Looking through the lens of Amos 9:11, what does it mean to discover that “he doesn't throw away what broke. he mends it”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “after all the warnings, the book turns on one small word: in that day.” Looking through the lens of Amos 9:11, what does it mean to discover that “he doesn't throw away what broke. he mends it”?",
+      "zh_title": "倒塌的帐篷",
+      "zh_poem": "在所有警告之后，\n书翻了\n就一个小词来说：\n\n在那一天。\n\n房子倒塌了。\n帐篷被撕破了。\n\n神说，\n我会提出来。\n我会弥补差距。\n我会建造它\n就像过去一样。\n\n他不\n扔掉\n什么坏了。\n\n他修好了。",
+      "zh_reflectionPrompt": "想象一下某个季节，你体会到“在所有警告之后，这本书打开了一个小词：在那一天”的感觉。透过阿摩司书 9 章 11 节的视角，我们会发现“他不会扔掉破损的东西，而是会修补它”，这意味着什么？",
+      "zh_epigraph": "“到那日，我必重建大卫倒塌的帐幕”",
+      "zh_ref": "阿摩司书 9:11"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#ecd094"
       },
       "dailyWalkDay": 931,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “the plowman and the reaper” in this painting (Amos 9:13–15)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “the plowman and the reaper” in this painting (Amos 9:13–15)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "农夫和收割者",
+      "zh_poem": "收获\n这么重\n还没完成\n\n犁耕前\n再次开始。\n\n山丘\n带着甜酒奔跑。\n\n城市重建。\n花园种植。\n\n和最后一行\n是一个承诺：\n\n我将种植它们，\n他们将不再\n被拔起。",
+      "zh_reflectionPrompt": "仔细观察这幅画中“农夫和收割者”安静的中心部分（阿摩司书 9：13-15）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“农夫将追上收割者”",
+      "zh_ref": "阿摩司书 9:13–15"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#f4c7a7"
       },
       "dailyWalkDay": 932,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet stars overhead: what quiet prayer rises in you when you read, “but the one who made the stars can reach any nest set among them”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet stars overhead: what quiet prayer rises in you when you read, “but the one who made the stars can reach any nest set among them”?",
+      "zh_title": "岩石的裂缝",
+      "zh_poem": "高处的岩石中，\n以东感到很安全。\n\n谁可以联系我们\n在这里？\n\n骄傲就是这样。\n\n它构建\n在最高的窗台上\n并调用视图\n智慧。\n\n但那个\n谁创造了星星\n\n可以达到\n任何巢穴\n设置在其中。",
+      "zh_reflectionPrompt": "让你的目光停留在头顶上安静的星星周围的笔触和光线上：当你读到“但创造星星的人可以到达星星之间的任何巢穴”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“你内心的骄傲欺骗了你”",
+      "zh_ref": "俄巴底亚书 1:3–4"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#e7dbb9"
       },
       "dailyWalkDay": 933,
-      "reflectionPrompt": "Linger with the movement in “on the other side” (Obadiah 1:11) from “strangers came through Jacob's gates” to “it starts with where we choose to stand”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “on the other side” (Obadiah 1:11) from “strangers came through Jacob's gates” to “it starts with where we choose to stand”—where do you find yourself along that arc today?",
+      "zh_title": "在另一边",
+      "zh_poem": "陌生人来了\n穿过雅各的门。\n\n还有以东，\n他自己的兄弟，\n站在另一边\n\n并观看，\n然后\n加入了。\n\n它很少开始\n随着这一击。\n\n它开始了\n与哪里\n我们选择\n站起来。",
+      "zh_reflectionPrompt": "留心“在另一边”（俄巴底亚书 1:11）中从“陌生人来到雅各门”到“一切从我们选择站立的地方开始”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“在你站在彼岸的那一天”",
+      "zh_ref": "俄巴底亚书 1:11"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#fbd47a"
       },
       "dailyWalkDay": 934,
-      "reflectionPrompt": "Notice how “as you have done” (Obadiah 1:12–15) arrives at: “the prophet lists it all so we'll know: what we do to the one who is falling comes home to us.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “as you have done” (Obadiah 1:12–15) arrives at: “the prophet lists it all so we'll know: what we do to the one who is falling comes home to us.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "正如你所做的那样",
+      "zh_poem": "别幸灾乐祸。\n别笑\n在门口。\n不要拿\n他们掉落了什么。\n\n不要站在十字路口\n切断\n那些逃跑的人。\n\n先知\n列出所有\n\n所以我们会知道：\n\n我们做什么\n致那个正在跌倒的人\n\n回到我们身边。",
+      "zh_reflectionPrompt": "请注意“正如你所做的那样”（俄巴底亚书 1：12-15）如何得出这样的结论：“先知列出了这一切，以便我们知道：我们对跌倒的人所做的事，让我们自己明白。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“你已经做了什么，别人也会这样对待你。”",
+      "zh_ref": "俄巴底亚书 1:12–15"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#fadf92"
       },
       "dailyWalkDay": 935,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Obadiah 1:17–21: “not Edom's. not ours. his”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Obadiah 1:17–21: “not Edom's. not ours. his”?",
+      "zh_title": "王国",
+      "zh_poem": "以东的悬崖。\n以色列的废墟。\n国家崛起。\n国家衰落。\n\n和最短的书\n在旧约中\n\n结束\n用五个字来说。\n\n王国\n将属于耶和华。\n\n不是以东的。\n不是我们的。\n\n他的。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是俄巴底亚书 1 章 17-21 节的安静教训：“不是以东的。不是我们的。他的”怎么办？",
+      "zh_epigraph": "“国度必属于耶和华。”",
+      "zh_ref": "俄巴底亚书 1:17–21"
     }
-  ]
+  ],
+  "zh_title": "指望之门",
+  "zh_subtitle": "何西阿书、约珥书、阿摩司书与俄巴底亚书诗画集",
+  "zh_beforeYouBegin": "这四位先知向漂流的民族说话。何西阿为离开的妻子敞开大门，并听到上帝说，我怎能放弃你？乔尔走过一片被蝗虫光秃秃的田野，并听到了恢复他们所吃的岁月的承诺。来自山里的牧民阿莫斯在倾斜的墙边举着一根铅垂线，呼吁正义像河流一样滚滚而去。俄巴底亚抬头看着群星间筑起的巢穴，告诉骄傲的人他们将会下来。\n\n本书以四十首短诗的形式，分为五个部分，讲述了这些故事：其中两首是何西阿的，然后是约珥、阿摩司和俄巴底亚。每首诗都位于一幅画旁边和一行经文之下。这些图画与先知所见的事物保持一致——苦难山谷中的一扇门、一朵沾满露水的百合花、一棵被剥光的无花果树、一根从火中拔出的棍子、一个修补过的帐篷——把这些面孔留给你想象。\n\n这些诗不是圣经。它们是一位读者对此的回应。与这本书一起打开何西阿书、约珥书、阿摩司书和俄巴底亚书，让真实的话语成为最终的结论。"
 }

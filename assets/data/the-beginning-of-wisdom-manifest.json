@@ -16,7 +16,10 @@
       "epigraph": "Trust in Yahweh with all your heart, and don’t lean on your own understanding.",
       "epigraphRef": "Proverbs 3:5",
       "lightName": "Light of The Beginning of Wisdom",
-      "lightHint": "Near 'the first lesson' (Proverbs 1:7) in Part 1: The Beginning of Wisdom"
+      "lightHint": "Near 'the first lesson' (Proverbs 1:7) in Part 1: The Beginning of Wisdom",
+      "zh_title": "智慧的开始",
+      "zh_epigraph": "要全心信赖耶和华，不要依赖自己的理解。",
+      "zh_epigraphRef": "箴言 3:5"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Death and life are in the power of the tongue",
       "epigraphRef": "Proverbs 18:21",
       "lightName": "Light of The Tongue",
-      "lightHint": "Near 'a full jar' (Proverbs 10:19) in Part 2: The Tongue"
+      "lightHint": "Near 'a full jar' (Proverbs 10:19) in Part 2: The Tongue",
+      "zh_title": "舌头",
+      "zh_epigraph": "死亡和生命都在舌头的力量之中",
+      "zh_epigraphRef": "箴言 18:21"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Commit your deeds to Y ahweh, and your plans shall succeed.",
       "epigraphRef": "Proverbs 16:3",
       "lightName": "Light of Work and Wealth",
-      "lightHint": "Near 'the next thing' (Proverbs 10:4) in Part 3: Work and Wealth"
+      "lightHint": "Near 'the next thing' (Proverbs 10:4) in Part 3: Work and Wealth",
+      "zh_title": "工作与财富",
+      "zh_epigraph": "将你的行为交托给耶和华，你的计划就会成功。",
+      "zh_epigraphRef": "箴言 16:3"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "A friend loves at all times; and a brother is born for adversity.",
       "epigraphRef": "Proverbs 17:17",
       "lightName": "Light of Friends",
-      "lightHint": "Near 'iron' (Proverbs 27:17) in Part 4: Friends"
+      "lightHint": "Near 'iron' (Proverbs 27:17) in Part 4: Friends",
+      "zh_title": "朋友们",
+      "zh_epigraph": "朋友，时时有爱；兄弟是为患难而生的。",
+      "zh_epigraphRef": "箴言 17:17"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "Through wisdom a house is built; by understanding it is established",
       "epigraphRef": "Proverbs 24:3",
       "lightName": "Light of A House Built by Wisdom",
-      "lightHint": "Near 'stone by stone' (Proverbs 14:1) in Part 5: A House Built by Wisdom"
+      "lightHint": "Near 'stone by stone' (Proverbs 14:1) in Part 5: A House Built by Wisdom",
+      "zh_title": "智慧建造的房子",
+      "zh_epigraph": "房屋是用智慧建造的；通过理解它就成立了",
+      "zh_epigraphRef": "箴言 24:3"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#d99d5a"
       },
       "dailyWalkDay": 598,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “everything else is homework.” What part of your heart feels most searched or comforted by Proverbs 1:7 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “everything else is homework.” What part of your heart feels most searched or comforted by Proverbs 1:7 right now?",
+      "zh_title": "第一课",
+      "zh_poem": "不是智慧的终结。\n开始。\n\n在你学习之前\n怎样说话，\n如何赚钱，\n如何去爱，\n\n你学习\n神是谁，\n而你不是谁。\n\n敬畏\n是第一课。\n其他一切\n是作业。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“其他都是作业。”现在，箴言 1 章 7 节最能触动你内心的哪个部分？",
+      "zh_epigraph": "“敬畏耶和华是知识的开端”",
+      "zh_ref": "箴言 1:7"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#e7c482"
       },
       "dailyWalkDay": 599,
-      "reflectionPrompt": "In Proverbs 1:20–21, grace meets us right beside the city gate: how does the closing thought—“she's standing in the market, at the busy gate, calling out over the noise— to anyone who'll turn their head”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Proverbs 1:20–21, grace meets us right beside the city gate: how does the closing thought—“she's standing in the market, at the busy gate, calling out over the noise— to anyone who'll turn their head”—steady your footing for the road ahead?",
+      "zh_title": "在街上",
+      "zh_poem": "智慧并不隐藏\n在修道院里\n或图书馆。\n\n她站在市场上，\n在繁忙的门口，\n呼唤\n越过噪音——\n\n对任何人\n谁会转过头来。",
+      "zh_reflectionPrompt": "在箴言 1 章 20-21 节中，恩典就在城门旁与我们相遇：结尾的思想——“她站在市集上，在繁忙的城门前，在喧嚣中向那些愿意回头的人呼喊”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“智慧在街上大声呼唤。”",
+      "zh_ref": "箴言 1:20–21"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#f1e6c8"
       },
       "dailyWalkDay": 600,
-      "reflectionPrompt": "If today’s painting of “straight paths” (Proverbs 3:5–6) hung beside the door you walk out of this morning, how would its final line—“he'll straighten what you can't”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “straight paths” (Proverbs 3:5–6) hung beside the door you walk out of this morning, how would its final line—“he'll straighten what you can't”—shape your choices?",
+      "zh_title": "直路",
+      "zh_poem": "全心全意地信任他，\n不是剩下的部分。\n\n并且不要倾斜\n根据你自己的理解。\n这是一个很好的员工，\n但不够强\n保持你的体重。\n\n在你走过的每一条路上，\n将头转向他。\n\n他会挺直\n你不能做什么。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“直路”（箴言 3:5-6）画作，那么它的最后一句——“你所不能的，他必修直”——会如何影响你的选择？",
+      "zh_epigraph": "“在你一切所行的事上都要认定他，他必指引你的路。”",
+      "zh_ref": "箴言 3:5–6"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#f1e6cb"
       },
       "dailyWalkDay": 601,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Proverbs 3:11–12)—where in your own home or work today does “it's what fathers do for the children they delight in” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Proverbs 3:11–12)—where in your own home or work today does “it's what fathers do for the children they delight in” ring true?",
+      "zh_title": "股份",
+      "zh_poem": "园丁把年轻的藤蔓绑起来\n到火刑柱上，\n不要伤害它——\n帮助它成长\n而不是蔓延。\n\n不要怨恨\n搭售。\n\n这就是父亲所做的\n为了孩子们\n他们喜欢。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（箴言 3:11-12）——今天，在你自己的家里或工作中，“父亲为他们所喜爱的孩子所做的事”在哪里听起来是真实的呢？",
+      "zh_epigraph": "“耶和华所爱的，他必纠正”",
+      "zh_ref": "箴言 3:11–12"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#fce7a1"
       },
       "dailyWalkDay": 602,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “so it is with a life walking toward God: not a switch. a sunrise.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “so it is with a life walking toward God: not a switch. a sunrise.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "日出",
+      "zh_poem": "你不会从天黑走到中午\n一会儿。\n\n首先是灰色。\n然后是山上的一条细线。\n然后是黄金，\n越来越多，\n\n直到一整天。\n\n生命也是如此\n走向神：\n不是一个开关。\n一个日出。",
+      "zh_reflectionPrompt": "慢慢地吸一口气，再读一遍最后一行：“走向上帝的生命就是如此：不是一个转折，而是一个日出。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“义人的道路就像黎明的光，越来越照耀，直到完美的日子。”",
+      "zh_ref": "箴言 4:18"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#efe2c4"
       },
       "dailyWalkDay": 603,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “guard the spring, and the whole valley drinks.” Looking through the lens of Proverbs 4:23, what does it mean to discover that “everything else flows from there”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “guard the spring, and the whole valley drinks.” Looking through the lens of Proverbs 4:23, what does it mean to discover that “everything else flows from there”?",
+      "zh_title": "源泉",
+      "zh_poem": "守护春天，\n整个山谷都喝了。\n\n从源头让泥土进来，\n和每一条下坡的溪流\n它的味道。\n\n保留你的心。\n其他一切\n从那里流出。",
+      "zh_reflectionPrompt": "想象一个季节，你体会过“守护泉水，全谷饮水”的感觉。从箴言 4 章 23 节的角度来看，发现“一切都是从那里而来”意味着什么？",
+      "zh_epigraph": "“要竭尽全力保守你的心，因为它是生命的源泉。”",
+      "zh_ref": "箴言 4:23"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#f1deb5"
       },
       "dailyWalkDay": 604,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “the ant” in this painting (Proverbs 6:6–8)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “the ant” in this painting (Proverbs 6:6–8)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "蚂蚁",
+      "zh_poem": "没有老板。\n没有监督者。\n没有人看。\n\n仍然是蚂蚁\n聚集在夏天\n她冬天需要什么。\n\n上帝派来了懒惰的人\n去学校\n在一块岩石下。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的中心“蚂蚁”（箴言 6：6-8）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“去找蚂蚁吧，你这个懒鬼。考虑一下她的做法，然后变得明智”",
+      "zh_ref": "箴言 6:6–8"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#fbebbb"
       },
       "dailyWalkDay": 605,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “rejoicing”: what quiet prayer rises in you when you read, “it laughs while it builds”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “rejoicing”: what quiet prayer rises in you when you read, “it laughs while it builds”?",
+      "zh_title": "欢欣鼓舞",
+      "zh_poem": "智慧就在那里\n当上帝创造世界时——\n\n不是作为蓝图，\n不是作为规则手册，\n\n但庆幸的是，\n令全地欢喜，\n尤其是\n在人中。\n\n智慧，事实证明，\n并不严峻。\n它笑了\n当它构建时。",
+      "zh_reflectionPrompt": "让你的目光停留在“欢乐”安静中心周围的笔触和光线上：当你读到“它一边建造一边笑”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“我日日喜乐，常在他面前喜乐”",
+      "zh_ref": "箴言 8:27–31"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#e9d9b4"
       },
       "dailyWalkDay": 606,
-      "reflectionPrompt": "Linger with the movement in “a full jar” (Proverbs 10:19) from “the more you talk, the more you'll have to take back” to “they're the ones who can carry a full jar without spilling”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “a full jar” (Proverbs 10:19) from “the more you talk, the more you'll have to take back” to “they're the ones who can carry a full jar without spilling”—where do you find yourself along that arc today?",
+      "zh_title": "一个完整的罐子",
+      "zh_poem": "你说得越多，\n越多\n你必须收回。\n\n聪明人\n不是那些\n最有话可说。\n\n他们就是那些\n谁能搬运满罐子\n不会溢出。",
+      "zh_reflectionPrompt": "停留在“装满的罐子”（箴言 10:19）的运动中，从“你说得越多，你要收回的就越多”到“他们是那些能搬运装满的罐子而不溢出的人”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“抑制嘴唇的人是明智之举。”",
+      "zh_ref": "箴言 10:19"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#dfd3b6"
       },
       "dailyWalkDay": 607,
-      "reflectionPrompt": "Notice how “blade or balm” (Proverbs 12:18) arrives at: “choose which one you'll hand people today.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “blade or balm” (Proverbs 12:18) arrives at: “choose which one you'll hand people today.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "刀片或香膏",
+      "zh_poem": "一些话\n像刀片一样进去。\n\n一些\n像药膏一样。\n\n你两个都带着\n在同一张嘴里。\n\n选择\n哪一个\n今天你将把人交给人。",
+      "zh_reflectionPrompt": "请注意“刀片或香膏”（箴言 12:18）是如何得出的：“选择今天要递给人们的那一个。”今天，你生命中的哪些人正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“智者的舌头有治愈作用。”",
+      "zh_ref": "箴言 12:18"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#dfd2b4"
       },
       "dailyWalkDay": 608,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Proverbs 15:1: “it's the strongest thing in the room refusing to burn”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Proverbs 15:1: “it's the strongest thing in the room refusing to burn”?",
+      "zh_title": "一杯水",
+      "zh_poem": "愤怒来势汹汹。\n\n你可以穿上\n另一个日志，\n或一杯水。\n\n温和的回答\n不是弱点。\n这是最强大的东西\n在房间里\n拒绝燃烧。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《箴言》15:1 中安静的教训：“这是房间里最坚固的东西，不肯燃烧”怎么办？",
+      "zh_epigraph": "“温柔的回答可以消除愤怒”",
+      "zh_ref": "箴言 15:1"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#e4c67c"
       },
       "dailyWalkDay": 609,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “honeycomb”: what hurry or noise in your week begins to fade when you hear, “it lands like honey on the tongue of someone who hasn't tasted anything sweet in a while”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “honeycomb”: what hurry or noise in your week begins to fade when you hear, “it lands like honey on the tongue of someone who hasn't tasted anything sweet in a while”?",
+      "zh_title": "蜂窝状",
+      "zh_poem": "今天说点善意的话\n故意的。\n\n不需要花费任何费用。\n它像蜂蜜一样落地\n在舌头上\n没有尝过的人的\n任何甜食\n一会儿。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是安静的“蜂窝”中心：当您听到“它像蜂蜜一样落在一个已经有一段时间没有尝过甜食的人的舌头上”时，您一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“好话是蜂巢，使灵魂甘甜，使骨头健康。”",
+      "zh_ref": "箴言 16:24"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#f1cd95"
       },
       "dailyWalkDay": 610,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and sometimes the quiet is where the wisdom starts.” What part of your heart feels most searched or comforted by Proverbs 17:28 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and sometimes the quiet is where the wisdom starts.” What part of your heart feels most searched or comforted by Proverbs 17:28 right now?",
+      "zh_title": "安静的傻瓜",
+      "zh_poem": "这可能是\n圣经中最有趣的经文。\n\n如果你不能变得聪明，\n至少保持安静——\n人们会假设\n你是。\n\n有时\n安静的\n是智慧所在\n开始。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“有时候，安静就是智慧的开始。”箴言 17:28 现在最能触动你内心的哪个部分？",
+      "zh_epigraph": "“即使是傻瓜，当他保持沉默时，也被认为是明智的。”",
+      "zh_ref": "箴言 17:28"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#f8da91"
       },
       "dailyWalkDay": 611,
-      "reflectionPrompt": "In Proverbs 25:11, grace meets us right beside the quiet centerpiece of “apples of gold”: how does the closing thought—“the fitting one— set in its moment like gold in silver”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Proverbs 25:11, grace meets us right beside the quiet centerpiece of “apples of gold”: how does the closing thought—“the fitting one— set in its moment like gold in silver”—steady your footing for the road ahead?",
+      "zh_title": "金苹果",
+      "zh_poem": "正确的词\n在正确的时间\n\n是珠宝。\n\n不是最响亮的词。\n不是最聪明的。\n合适的——\n\n就在此时此刻\n像金子一样\n银色。",
+      "zh_reflectionPrompt": "在《箴言》25 章 11 节中，恩典就在安静的“金苹果”的中心旁边与我们相遇：最后的思想——“合适的人——像金放在银子里一样”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“一句话说得恰如其分，就像金苹果放在银环里。”",
+      "zh_ref": "箴言 25:11"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#cdb995"
       },
       "dailyWalkDay": 612,
-      "reflectionPrompt": "If today’s painting of “no more wood” (Proverbs 26:20) hung beside the door you walk out of this morning, how would its final line—“sometimes the holiest thing you can do is let a story die with you”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “no more wood” (Proverbs 26:20) hung beside the door you walk out of this morning, how would its final line—“sometimes the holiest thing you can do is let a story die with you”—shape your choices?",
+      "zh_title": "没有更多的木头",
+      "zh_poem": "战斗将会结束\n就其本身而言，\n\n如果没有人\n继续喂它。\n\n每一声耳语\n是一根木棍。\n\n有时是最神圣的事情\n你可以做\n是让一个故事\n和你一起死。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“不再有木头”（箴言 26:20）的画，那么它的最后一行——“有时你能做的最神圣的事情就是让一个故事与你一起死去”——会如何影响你的选择？",
+      "zh_epigraph": "“For lack of wood a fire goes out. Without gossip, a quarrel dies down.”",
+      "zh_ref": "箴言 26:20"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#e4dabd"
       },
       "dailyWalkDay": 613,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Proverbs 27:2)—where in your own home or work today does “either way, the work is still good” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Proverbs 27:2)—where in your own home or work today does “either way, the work is still good” ring true?",
+      "zh_title": "你自己的号角",
+      "zh_poem": "如果你必须自吹自擂\n这可能是\n歌曲不多。\n\n做工作。\n让赞美\n来自其他地方，\n或者根本没有。\n\n无论哪种方式，\n工作\n还是不错的。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（箴言 27:2）——今天在你自己的家里或工作中，“无论怎样，工作还好”听起来是真实的吗？",
+      "zh_epigraph": "“Let another man praise you, and not your own mouth”",
+      "zh_ref": "箴言 27:2"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#f7ebcb"
       },
       "dailyWalkDay": 614,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “just the hand that shows up morning after morning and does the next thing. he doesn't do it for you.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “just the hand that shows up morning after morning and does the next thing. he doesn't do it for you.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "接下来的事情",
+      "zh_poem": "这里没有捷径。\n没有秘密。\n\n只是手\n出现的\n一个又一个早晨\n并做接下来的事情。\n\n上帝保佑工作。\n他不\n为你做。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“只是日复一日地出现并做下一件事的那只手。他不会为你做这件事。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“勤奋之手带来财富。”",
+      "zh_ref": "箴言 10:4"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#eee4d2"
       },
       "dailyWalkDay": 615,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “the strange arithmetic of heaven: scatter, and you gain.” Looking through the lens of Proverbs 11:24–25, what does it mean to discover that “pour water on someone else's garden, and somehow your own ground gets wet”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “the strange arithmetic of heaven: scatter, and you gain.” Looking through the lens of Proverbs 11:24–25, what does it mean to discover that “pour water on someone else's garden, and somehow your own ground gets wet”?",
+      "zh_title": "浇水的人",
+      "zh_poem": "奇怪的算术\n天堂的：\n\n分散，你就会获得。\n离合器，你就输了。\n\n倒水\n在别人的花园里，\n不知何故\n你自己的地盘\n弄湿了。",
+      "zh_reflectionPrompt": "回想一下某个季节，你体会到“天堂的奇怪算术：分散，你就会获得”的感觉。透过箴言 11:24-25 的视角，我们会发现“把水倒在别人的园子上，自己的地却湿了”，这意味着什么？",
+      "zh_epigraph": "“He who waters shall be watered also himself.”",
+      "zh_ref": "箴言 11:24–25"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#e8d7b7"
       },
       "dailyWalkDay": 616,
-      "reflectionPrompt": "Look closely at your own two hands in this painting (Proverbs 13:11)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at your own two hands in this painting (Proverbs 13:11)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "一点一点",
+      "zh_poem": "快钱\n泄漏。\n\n慢钱，\n亲手收集，\n一币一币，\n成长。\n\n最好的事情\n往这边走：\n一点一点地，\n像花园一样，\n就像友谊一样，\n就像信仰一样。",
+      "zh_reflectionPrompt": "仔细看看这幅画中你自己的两只手（箴言 13:11）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“用手采集的人让它成长。”",
+      "zh_ref": "箴言 13:11"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#f2ce85"
       },
       "dailyWalkDay": 617,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “better is little”: what quiet prayer rises in you when you read, “you can choose the second half of the sentence”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “better is little”: what quiet prayer rises in you when you read, “you can choose the second half of the sentence”?",
+      "zh_title": "越少越好",
+      "zh_poem": "一点点，\n与和平。\n\n或者很多，\n带着担忧。\n\n你并不总是可以选择\n多少钱。\n\n你可以选择\n下半场\n的句子。",
+      "zh_reflectionPrompt": "让你的目光停留在“更好就是小”安静的中心周围的笔触和光线上：当你读到“你可以选择句子的后半部分”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“虽少财宝却敬畏耶和华，胜过财宝多却遭遇麻烦。”",
+      "zh_ref": "箴言 15:16"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#f3e9da"
       },
       "dailyWalkDay": 618,
-      "reflectionPrompt": "Linger with the movement in “the steps” (Proverbs 16:9) from “make your plans. write them down” to “he'll bend the road where you didn't expect, and one day you'll be glad he did”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the steps” (Proverbs 16:9) from “make your plans. write them down” to “he'll bend the road where you didn't expect, and one day you'll be glad he did”—where do you find yourself along that arc today?",
+      "zh_title": "步骤",
+      "zh_poem": "制定你的计划。\n把它们写下来。\n很好。\n\n并松松地握住它们，\n因为步骤\n属于别人。\n\n他会让路变弯\n在你意想不到的地方，\n有一天\n你会很高兴\n他做到了。",
+      "zh_reflectionPrompt": "留心“脚步”（箴言 16:9）中的动作，从“制定你的计划，写下来”到“他会把路拐到你意想不到的地方，有一天你会很高兴他这么做了”——今天你发现自己在这条弧线的哪个位置？",
+      "zh_epigraph": "“A man’s heart plans his course, but Y ahweh directs his steps.”",
+      "zh_ref": "箴言 16:9"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#e5d9bf"
       },
       "dailyWalkDay": 619,
-      "reflectionPrompt": "Notice how “a loan” (Proverbs 19:17) arrives at: “God writes it down as a loan to himself. he is good for it.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “a loan” (Proverbs 19:17) arrives at: “God writes it down as a loan to himself. he is good for it.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "一笔贷款",
+      "zh_poem": "你给了\n给某人\n谁不能偿还你。\n\n神把它写下来\n作为贷款\n对他自己。\n\n他很擅长。",
+      "zh_reflectionPrompt": "Notice how “a loan” (Proverbs 19:17) arrives at: “God writes it down as a loan to himself. he is good for it.”今天，你生命中的哪些人正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“He who has pity on the poor lends to Jehovah”",
+      "zh_ref": "箴言 19:17"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#e5d5af"
       },
       "dailyWalkDay": 620,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Proverbs 22:1: “and a name is what people say when you leave the room, what your children inherit, what's left when the gold is spent. build that”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Proverbs 22:1: “and a name is what people say when you leave the room, what your children inherit, what's left when the gold is spent. build that”?",
+      "zh_title": "一个好名字",
+      "zh_poem": "钱是可以赚回来的。\n一个名字\n需要数年时间。\n\n名字就是人们所说的\n当你离开房间时，\n你的孩子继承了什么，\n还剩下什么\n当金币用完时。\n\n建造那个。",
+      "zh_reflectionPrompt": "如果今晚之前你记住的最重要的事情是《箴言》22:1 的静谧教训：“名字就是你离开房间时人们所说的，你的孩子继承的，金子花完后剩下的。建造它”？",
+      "zh_epigraph": "“A good name is more desirable than great riches”",
+      "zh_ref": "箴言 22:1"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#e7ddbe"
       },
       "dailyWalkDay": 621,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “wings”: what hurry or noise in your week begins to fade when you hear, “there are better things to hold”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “wings”: what hurry or noise in your week begins to fade when you hear, “there are better things to hold”?",
+      "zh_title": "翅膀",
+      "zh_poem": "别把自己累坏了\n致富。\n\n看——\n就这样，\n财富长着翅膀，\n飞过山丘\n像鹰一样\nthat was never yours.\n\n休息。\n还有更好的事情\n持有。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是安静的中心“翅膀”：当您听到“有更好的东西可以握住”时，您一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“它确实会像鹰一样长出翅膀，在天空中飞翔。”",
+      "zh_ref": "箴言 23:4–5"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#e5d8b6"
       },
       "dailyWalkDay": 622,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “soft company makes dull people.” What part of your heart feels most searched or comforted by Proverbs 27:17 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “soft company makes dull people.” What part of your heart feels most searched or comforted by Proverbs 27:17 right now?",
+      "zh_title": "铁",
+      "zh_poem": "你需要一个朋友\nwho scrapes against you\n一点点。\n\nnot to cut you.\nto keep your edge.\n\nsoft company\nmakes dull people.",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“软弱的公司让人变得迟钝。”现在，箴言 27 章 17 节最能触动你内心的哪个部分？",
+      "zh_epigraph": "“Iron sharpens iron”",
+      "zh_ref": "箴言 27:17"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#eee3c5"
       },
       "dailyWalkDay": 623,
-      "reflectionPrompt": "In Proverbs 18:24, grace meets us right beside the name by which He calls you: how does the closing thought—“that one is worth all the rest”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Proverbs 18:24, grace meets us right beside the name by which He calls you: how does the closing thought—“that one is worth all the rest”—steady your footing for the road ahead?",
+      "zh_title": "更近",
+      "zh_poem": "很多人\n知道你的名字。\n\n有些人知道你的故事。\n\n也许还有一个\n会在午夜来\n如果你打电话。\n\n那个\n值得\n其余的一切。",
+      "zh_reflectionPrompt": "在箴言 18:24 中，恩典就在他呼召你的名字旁边与我们相遇：最后的想法——“那一个配得上一切”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“有一种朋友比兄弟更亲密。”",
+      "zh_ref": "箴言 18:24"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#e6d8be"
       },
       "dailyWalkDay": 624,
-      "reflectionPrompt": "If today’s painting of “the sting” (Proverbs 27:6) hung beside the door you walk out of this morning, how would its final line—“it's the one that loves you”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the sting” (Proverbs 27:6) hung beside the door you walk out of this morning, how would its final line—“it's the one that loves you”—shape your choices?",
+      "zh_title": "刺痛",
+      "zh_poem": "a flatterer kisses you\n并让你走下悬崖。\n\n一个朋友\ntells you the truth,\n它刺痛。\n\ntrust the sting.\n就是那个\nthat loves you.",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“毒刺”（箴言 27:6）画作，那么它的最后一句——“这是爱你的”——会如何影响你的选择？",
+      "zh_epigraph": "“朋友的伤口是忠诚的”",
+      "zh_ref": "箴言 27:6"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#e0b669"
       },
       "dailyWalkDay": 625,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Proverbs 25:21–22)—where in your own home or work today does “it's the strangest weapon in the whole book, and the only one that can turn an enemy into something else” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Proverbs 25:21–22)—where in your own home or work today does “it's the strangest weapon in the whole book, and the only one that can turn an enemy into something else” ring true?",
+      "zh_title": "你敌人的面包",
+      "zh_poem": "不仅仅是你的朋友。\n你的敌人。\n\n饥饿的？喂他。\n渴？给他喝一杯。\n\n这是最奇怪的武器\n在整本书中，\n并且是唯一的一个\n可以转变敌人\n进入别的东西。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（箴言 25:21-22）——今天，在你自己的家里或工作中，“它是整本书中最奇怪的武器，也是唯一能将敌人变成其他东西的武器”听起来是真的吗？",
+      "zh_epigraph": "“如果你的敌人饿了，就给他食物吃。”",
+      "zh_ref": "箴言 25:21–22"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#cca95b"
       },
       "dailyWalkDay": 626,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “it's medicine— the Bible says so— and it's free, and it's catching.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “it's medicine— the Bible says so— and it's free, and it's catching.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "good medicine",
+      "zh_poem": "laugh today.\n\nnot at someone.\n和某人。\n\nit's medicine—\nthe Bible says so—\nand it's free,\nand it's catching.",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“它是药——圣经是这么说的——而且它是免费的，而且很有效。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“一颗快乐的心是良药”",
+      "zh_ref": "箴言 17:22"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#fac198"
       },
       "dailyWalkDay": 627,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “there are generals who took whole cities and could not take their own temper.” Looking through the lens of Proverbs 16:32, what does it mean to discover that “the quiet one who holds his tongue while he's being provoked— that's the stronger soldier”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “there are generals who took whole cities and could not take their own temper.” Looking through the lens of Proverbs 16:32, what does it mean to discover that “the quiet one who holds his tongue while he's being provoked— that's the stronger soldier”?",
+      "zh_title": "the stronger soldier",
+      "zh_poem": "有将军\nwho took whole cities\nand could not take\ntheir own temper.\n\n安静的那个\nwho holds his tongue\n当他被激怒时——\n\n那是更强的士兵。",
+      "zh_reflectionPrompt": "回想一下某个季节，你就会体会到“将军们占领了整个城市，却无法控制自己的脾气”的感觉。透过箴言 16:32 的视角，我们会发现“安静的人，被激怒时，忍住不言，这是更坚强的战士”，这意味着什么？",
+      "zh_epigraph": "“统治自己精神的人胜过占领一座城市的人。”",
+      "zh_ref": "箴言 16:32"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#e8d8b3"
       },
       "dailyWalkDay": 628,
-      "reflectionPrompt": "Look closely at the stone well in the heat of the day in this painting (Proverbs 20:5)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the stone well in the heat of the day in this painting (Proverbs 20:5)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "深水",
+      "zh_poem": "人是井。\n好东西\n是在内心深处。\n\nyou won't get it\nby shouting in.\n\nlet down a question.\n等待。\n听。\ndraw it up\nslowly.",
+      "zh_reflectionPrompt": "仔细观察这幅画中炎热天气下的石头井（箴言 20:5）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“人心中的谋略就像深水，但明哲人却能把它汲出来。”",
+      "zh_ref": "箴言 20:5"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#f4e5bb"
       },
       "dailyWalkDay": 629,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “tomorrow”: what quiet prayer rises in you when you read, “so say the kind word now. tomorrow belongs to God”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “tomorrow”: what quiet prayer rises in you when you read, “so say the kind word now. tomorrow belongs to God”?",
+      "zh_title": "明天",
+      "zh_poem": "tomorrow I will—\n\n小心。\n\nyou don't own tomorrow.\nyou're only given\n今天。\n\n所以现在说句客气话吧。\nmake the call now.\n明天\nbelongs to God.",
+      "zh_reflectionPrompt": "让你的目光停留在“明天”安静中心周围的笔触和光线上：当你读到“现在说一句善意的话语。明天属于上帝”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“不要为明天夸口；因为你不知道一天会带来什么。”",
+      "zh_ref": "箴言 27:1"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#e9d9b4"
       },
       "dailyWalkDay": 630,
-      "reflectionPrompt": "Linger with the movement in “stone by stone” (Proverbs 14:1) from “a house can be built or torn down by the same two hands, one choice at a time: a word, a patience, a prayer, a stone laid or a stone pulled out” to “a house can be built or torn down by the same two hands, one choice at a time: a word, a patience, a prayer, a stone laid or a stone pulled out”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “stone by stone” (Proverbs 14:1) from “a house can be built or torn down by the same two hands, one choice at a time: a word, a patience, a prayer, a stone laid or a stone pulled out” to “a house can be built or torn down by the same two hands, one choice at a time: a word, a patience, a prayer, a stone laid or a stone pulled out”—where do you find yourself along that arc today?",
+      "zh_title": "一块一块地",
+      "zh_poem": "可以建造一座房子\n或被拆毁\n用同样的两只手，\n\n一次一个选择：\n一句话，\n一份耐心，\n一个祈祷，\n\n一块石头被放置\n或取出一块石头。",
+      "zh_reflectionPrompt": "留心“一块石头一块石头”（箴言 14:1）中的运动，从“两只手可以建造或拆毁房屋，一次选择一个：一句话、一个忍耐、一个祷告、放下一块石头或取出一块石头”到“两只手可以建造或拆毁一座房子，一次一个选择：一句话、一个耐心、一个祷告、放下一块石头或取出一块石头”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“每个聪明的女人都会建造自己的房子”",
+      "zh_ref": "箴言 14:1"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#e2cda1"
       },
       "dailyWalkDay": 631,
-      "reflectionPrompt": "Notice how “a dinner of herbs” (Proverbs 15:17) arrives at: “every family has had both. only one is a meal.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “a dinner of herbs” (Proverbs 15:17) arrives at: “every family has had both. only one is a meal.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "a dinner of herbs",
+      "zh_poem": "a feast\nwith everyone angry,\n\nor soup and bread\n与彼此相爱的人。\n\n每个家庭\nhas had both.\n\n只有一个\nis a meal.",
+      "zh_reflectionPrompt": "请注意“香草晚餐”（箴言 15:17）是如何得出的：“每个家庭都吃过这两种菜。只有一种菜就是一顿饭。”今天，你生命中的哪些人正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“更好的是一顿香草晚餐，那里有爱”",
+      "zh_ref": "箴言 15:17"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#b7a483"
       },
       "dailyWalkDay": 632,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Proverbs 17:1: “peace at home is its own feast. guard it”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Proverbs 17:1: “peace at home is its own feast. guard it”?",
+      "zh_title": "安静",
+      "zh_poem": "a crust of bread\nin a peaceful house\n\nbeats a banquet\nin a war zone.\n\npeace at home\nis its own feast.\n守护它。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《箴言》17:1 的静谧教训：“家庭平安本身就是盛宴。要守护它”怎么办？",
+      "zh_epigraph": "“最好是安静地吃点干的”",
+      "zh_ref": "箴言 17:1"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f5e9c2"
       },
       "dailyWalkDay": 633,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “little feet”: what hurry or noise in your week begins to fade when you hear, “they are watching your feet more than your mouth”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “little feet”: what hurry or noise in your week begins to fade when you hear, “they are watching your feet more than your mouth”?",
+      "zh_title": "小脚",
+      "zh_poem": "不是保证\n一切都不会出错。\n\n一句谚语：\n一个图案，\n通常是这样。\n\n走路\n你想让他们走路。\n他们在看着你的脚\n比你的嘴还多。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是“小脚”安静的中心装饰：当您听到“他们更多地关注您的脚而不是您的嘴”时，您一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“教养孩子，使他走当行的路”",
+      "zh_ref": "箴言 22:6"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#e4b77d"
       },
       "dailyWalkDay": 634,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “wisdom furnishes a house with things you can't buy and can't lose.” What part of your heart feels most searched or comforted by Proverbs 24:3–4 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “wisdom furnishes a house with things you can't buy and can't lose.” What part of your heart feels most searched or comforted by Proverbs 24:3–4 right now?",
+      "zh_title": "filled rooms",
+      "zh_poem": "what fills a home?\n\nnot gold, mostly.\n笑声。\n故事。\na lamp left on.\nthe smell of bread.\n多年来同一张桌子。\n\nwisdom furnishes a house\nwith things\nyou can't buy\nand can't lose.",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“智慧为房子提供了买不到、也不会失去的东西。”箴言 24:3-4 现在最能触动你内心的哪个部分？",
+      "zh_epigraph": "“据了解，房间里充满了所有稀有而美丽的宝藏。”",
+      "zh_ref": "箴言 24:3–4"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#cfb07f"
       },
       "dailyWalkDay": 635,
-      "reflectionPrompt": "In Proverbs 31:13–15, grace meets us right beside the daily loaf broken in the hand: how does the closing thought—“it's a portrait of strength that shows up before anyone's watching”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Proverbs 31:13–15, grace meets us right beside the daily loaf broken in the hand: how does the closing thought—“it's a portrait of strength that shows up before anyone's watching”—steady your footing for the road ahead?",
+      "zh_title": "黎明前",
+      "zh_poem": "在太阳出来之前，\n双手已经忙碌起来——\n羊毛、亚麻、\n适合每个人的面包。\n\n这不是清单\n让疲惫的母亲感到羞耻。\n\n这是一幅肖像\n力量的\n出现的\n在任何人观看之前。",
+      "zh_reflectionPrompt": "在箴言 31 章 13-15 节中，恩典就在每日擘开的面包旁边与我们相遇：结尾的思想——“这是一幅在任何人面前显露出来的力量的肖像”——如何让你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“天还没黑，她就起来了”",
+      "zh_ref": "箴言 31:13–15"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#f7ecd1"
       },
       "dailyWalkDay": 636,
-      "reflectionPrompt": "If today’s painting of “open hands” (Proverbs 31:20) hung beside the door you walk out of this morning, how would its final line—“the busiest hands in the book are also the most generous”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “open hands” (Proverbs 31:20) hung beside the door you walk out of this morning, how would its final line—“the busiest hands in the book are also the most generous”—shape your choices?",
+      "zh_title": "张开双手",
+      "zh_poem": "她的手很忙\n一整天——\n\n并且仍然开放。\n\n不封闭她所赚的钱。\n打开\nto the poor at the door.\n\n最忙碌的手\n在书中\nare also\n最慷慨的。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“张开双手”（箴言 31:20）的画，它的最后一句——“书中最忙碌的手也是最慷慨的”——会如何影响你的选择？",
+      "zh_epigraph": "“她向穷人张开双臂”",
+      "zh_ref": "箴言 31:20"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#fae9b8"
       },
       "dailyWalkDay": 637,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Proverbs 31:25–30)—where in your own home or work today does “a woman who fears the Lord— she's the one wisdom was describing all along” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Proverbs 31:25–30)—where in your own home or work today does “a woman who fears the Lord— she's the one wisdom was describing all along” ring true?",
+      "zh_title": "she laughs",
+      "zh_poem": "the book of wisdom\n结束\nwith a woman laughing.\n\n不是因为她知道未来。\nbecause she knows\nwho holds it.\n\ncharm fades.\nbeauty fades.\n敬畏耶和华的妇女——\n\nshe's the one\nwisdom was describing\nall along.",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（箴言 31:25-30）——在你今天的家里或工作中，“敬畏耶和华的女人——她是智慧所描述的那一位”听起来是真实的吗？",
+      "zh_epigraph": "“力量和尊严是她的外衣。她会在未来的时刻大笑。”",
+      "zh_ref": "箴言 31:25–30"
     }
-  ]
+  ],
+  "zh_title": "智慧的开端",
+  "zh_subtitle": "箴言诗画集",
+  "zh_beforeYouBegin": "《箴言》是一本关于日常生活的简短格言书：如何说话、如何工作、如何对待朋友、敌人、孩子、家门口的穷人，以及如何建造一个持久的家。\n\n本书将四十篇文章分为五个部分。每首诗都位于一幅画旁边和一行经文之下，而且大多数都很短，可以在早晨喝咖啡时阅读。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这本书旁边的箴言，让真实的话语成为最终的结论。"
 }

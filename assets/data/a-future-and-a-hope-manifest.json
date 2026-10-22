@@ -16,7 +16,10 @@
       "epigraph": "I watch over my word to perform it.",
       "epigraphRef": "Jeremiah 1:12",
       "lightName": "Light of The Almond Branch",
-      "lightHint": "Near 'before' (Jeremiah 1:4–5) in Part 1: The Almond Branch"
+      "lightHint": "Near 'before' (Jeremiah 1:4–5) in Part 1: The Almond Branch",
+      "zh_title": "杏仁枝",
+      "zh_epigraph": "我遵守诺言并履行它。",
+      "zh_epigraphRef": "耶利米书 1:12"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Is there no balm in Gilead? Is there no physician there?",
       "epigraphRef": "Jeremiah 8:22",
       "lightName": "Light of Balm in Gilead",
-      "lightHint": "Near 'at the gate' (Jeremiah 7:1–23) in Part 2: Balm in Gilead"
+      "lightHint": "Near 'at the gate' (Jeremiah 7:1–23) in Part 2: Balm in Gilead",
+      "zh_title": "基列香膏",
+      "zh_epigraph": "基列没有香膏吗？那里没有医生吗？",
+      "zh_epigraphRef": "耶利米书 8:22"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "as the clay in the potter’s hand, so are you in my hand",
       "epigraphRef": "Jeremiah 18:6",
       "lightName": "Light of The Potter’s House",
-      "lightHint": "Near 'the potter’s house' (Jeremiah 18:1–6) in Part 3: The Potter’s House"
+      "lightHint": "Near 'the potter’s house' (Jeremiah 18:1–6) in Part 3: The Potter’s House",
+      "zh_title": "波特之家",
+      "zh_epigraph": "正如陶工手中的泥土，你在我手中也是如此",
+      "zh_epigraphRef": "耶利米书 18:6"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "I will put my law in their inward parts, and I will write it in their heart.",
       "epigraphRef": "Jeremiah 31:33",
       "lightName": "Light of Written on the Heart",
-      "lightHint": "Near 'everlasting' (Jeremiah 31:3–4) in Part 4: Written on the Heart"
+      "lightHint": "Near 'everlasting' (Jeremiah 31:3–4) in Part 4: Written on the Heart",
+      "zh_title": "写在心上",
+      "zh_epigraph": "我要将我的律法放在他们的里面，写在他们的心上。",
+      "zh_epigraphRef": "耶利米书 31:33"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "So they drew up Jeremiah with the cords, and took him up out of the dungeon",
       "epigraphRef": "Jeremiah 38:13",
       "lightName": "Light of Rags and Ropes",
-      "lightHint": "Near 'the winter house' (Jeremiah 36:20–24) in Part 5: Rags and Ropes"
+      "lightHint": "Near 'the winter house' (Jeremiah 36:20–24) in Part 5: Rags and Ropes",
+      "zh_title": "破布和绳子",
+      "zh_epigraph": "于是他们用绳子把耶利米拉起来，从地牢里带上来。",
+      "zh_epigraphRef": "耶利米书 38:13"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#e9dfc7"
       },
       "dailyWalkDay": 746,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jeremiah 1:4–5: “whatever you think you have to earn, it was never the first thing”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jeremiah 1:4–5: “whatever you think you have to earn, it was never the first thing”?",
+      "zh_title": "之前",
+      "zh_poem": "在你的名字之前。\n在你第一次呼吸之前。\n在有人计算之前\n你的手指和脚趾——\n\n你是众所周知的。\n\n不像建筑物那样规划，\n画在墙上。\n已知，\n认识朋友的方式。\n\n不管你怎么想\n你必须赚取，\n从来没有\n第一件事。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是耶利米书 1 章 4-5 节的静谧教训：“无论你认为自己必须挣到什么，这都不是首要的事情”，那会怎样呢？",
+      "zh_epigraph": "“在我把你塑造在子宫里之前，我就认识你了。”",
+      "zh_ref": "耶利米书 1:4–5"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#e0d7b1"
       },
       "dailyWalkDay": 747,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “only a child”: what hurry or noise in your week begins to fade when you hear, “only the courage to open it”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “only a child”: what hurry or noise in your week begins to fade when you hear, “only the courage to open it”?",
+      "zh_title": "只有一个孩子",
+      "zh_poem": "我不知道该怎么说话\n他说。\n我只是个孩子。\n\n神没有争论\n关于他的年龄。\n\n他说：\n别害怕。\n我和你在一起。\n\n然后他伸出手\n并摸了摸他的嘴。\n\n这些话从来没有\n将成为他的。\n只有勇气\n打开它。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是安静的中心“只有一个孩子”：当你听到“只有打开它的勇气”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“看哪，我已经把话放到你嘴里了。”",
+      "zh_ref": "耶利米书 1:6–9"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#f3e8cb"
       },
       "dailyWalkDay": 748,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “over every word i have spoken— awake, before anyone else is.” What part of your heart feels most searched or comforted by Jeremiah 1:11–12 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “over every word i have spoken— awake, before anyone else is.” What part of your heart feels most searched or comforted by Jeremiah 1:11–12 right now?",
+      "zh_title": "杏仁枝",
+      "zh_poem": "你看到了什么，耶利米？\n\n只是一个分支。\n杏仁枝\n\n这片土地上的第一棵树\n醒来\n而其他所有的树\n还在睡觉。\n\n你已经看过了，\n神说。\n我也在看。\n\n每一个字\n我已经说过——\n醒着，\n在其他人之前。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“在我所说的每一句话中——在其他人之前醒来。”现在，耶利米书 1 章 11-12 节最能触动你内心的哪个部分？",
+      "zh_epigraph": "“我看到一根杏树的树枝。”",
+      "zh_ref": "耶利米书 1:11–12"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#f8e6b0"
       },
       "dailyWalkDay": 749,
-      "reflectionPrompt": "In Jeremiah 2:1–3, grace meets us right beside the quiet centerpiece of “the kindness of your youth”: how does the closing thought—“the first thing he wants you to know about his sorrow is how much he loved you”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Jeremiah 2:1–3, grace meets us right beside the quiet centerpiece of “the kindness of your youth”: how does the closing thought—“the first thing he wants you to know about his sorrow is how much he loved you”—steady your footing for the road ahead?",
+      "zh_title": "你年轻时的善良",
+      "zh_poem": "挨骂之前，\n一段记忆。\n\n我记得，上帝说，\n你是如何关注我的\n穿过一块土地\n从来没有人种植过。\n\n没有字段。\n没有房子。\n只有我们两个人\n和一条沙路。\n\n他想让你知道的第一件事\n关于他的悲伤\n\n是多少\n他爱你。",
+      "zh_reflectionPrompt": "在耶利米书 2:1-3 中，恩典就在“你年轻时的恩慈”这一安静的核心内容旁边与我们相遇：结尾的思想——“关于他的悲伤，他想让你知道的第一件事就是他有多么爱你”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“我记得你年轻时的善良，你婚礼时的爱情”",
+      "zh_ref": "耶利米书 2:1–3"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#f5edcd"
       },
       "dailyWalkDay": 750,
-      "reflectionPrompt": "If today’s painting of “broken cisterns” (Jeremiah 2:13) hung beside the door you walk out of this morning, how would its final line—“it's all that work for water you could have just been given”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “broken cisterns” (Jeremiah 2:13) hung beside the door you walk out of this morning, how would its final line—“it's all that work for water you could have just been given”—shape your choices?",
+      "zh_title": "破损的水箱",
+      "zh_poem": "两个错误，\n神说。\n\n首先，\n你走开了\n来自奔跑的春天。\n\n然后你用尽了你的力量\n在岩石上切一个洞\n来挡雨。\n\n它破裂了。\n\n最悲伤的部分\n不是口渴。\n\n这就是全部工作\n用于水\n你可以有\n刚刚被给予。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“破损的蓄水池”（耶利米书 2:13）这幅画，那么它的最后一行——“这就是你本可以得到的水的所有作用”——会如何影响你的选择？",
+      "zh_epigraph": "“他们离弃了我，活水的泉源”",
+      "zh_ref": "耶利米书 2:13"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#d49b64"
       },
       "dailyWalkDay": 751,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Jeremiah 3:12–22)—where in your own home or work today does “the door he describes is not locked. he is standing in it” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Jeremiah 3:12–22)—where in your own home or work today does “the door he describes is not locked. he is standing in it” ring true?",
+      "zh_title": "返回",
+      "zh_poem": "回来吧。\n\n不\n等你好些了再回来。\n不\n回来解释一下。\n\n回来吧，\n我会痊愈\n你的一部分\n那个不断离开。\n\n他描述的门\n未锁定。\n他站着\n在其中。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（耶利米书 3:12-22）——今天在你自己的家里或工作场所，“他描述的门没有锁。他站在里面”听起来是真的吗？",
+      "zh_epigraph": "“回来吧，你们这些背道的孩子们，我会医治你们的背道。”",
+      "zh_ref": "耶利米书 3:12–22"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#f2e9d6"
       },
       "dailyWalkDay": 752,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “then walk in it, and your soul will do the thing it's been asking for: rest.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “then walk in it, and your soul will do the thing it's been asking for: rest.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "旧路",
+      "zh_poem": "站在十字路口\n一分钟。\n\n别着急。\n\n寻找路径\n磨损光滑\n所有的脚\n那在你之前。\n\n问它\n好方法在哪里。\n\n然后走进其中，\n和你的灵魂\n会做那件事\n它一直在要求：\n\n休息。",
+      "zh_reflectionPrompt": "慢慢地吸一口气，再读一遍最后一行：“然后走进去，你的灵魂就会做它一直要求的事情：休息。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“问古道，‘善道何在？’而行之，则心灵安息。”",
+      "zh_ref": "耶利米书 6:16"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#f6eabd"
       },
       "dailyWalkDay": 753,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “he stood at the temple gate while the crowds went in saying, the temple, the temple, the temple of the Lord, like a charm to keep them safe.” Looking through the lens of Jeremiah 7:1–23, what does it mean to discover that “be my people. i'll be your God”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “he stood at the temple gate while the crowds went in saying, the temple, the temple, the temple of the Lord, like a charm to keep them safe.” Looking through the lens of Jeremiah 7:1–23, what does it mean to discover that “be my people. i'll be your God”?",
+      "zh_title": "在门口",
+      "zh_poem": "他站在圣殿门口\n当人群涌入时\n\n说，\n寺庙，寺庙，\n耶和华的殿，\n\n像一个魅力\n确保他们的安全。\n\n耶利米说：\n从来没有\n关于石头。\n\n一直都是\n一件简单的事情。\n\n听我说。\n成为我的人民。\n我会成为你的上帝。",
+      "zh_reflectionPrompt": "回想一下某个季节，你体会到“他站在圣殿门口，而人群走进去，说，圣殿，圣殿，主的圣殿，就像一个护身符一样保证他们的安全。”透过耶利米书 7:1-23 的视角，发现“做我的子民。我将做你的上帝”意味着什么？",
+      "zh_epigraph": "“听我的声音，我将成为你的上帝，你将成为我的子民。”",
+      "zh_ref": "耶利米书 7:1–23"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#faedcb"
       },
       "dailyWalkDay": 754,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “the stork” in this painting (Jeremiah 8:7)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “the stork” in this painting (Jeremiah 8:7)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "鹳",
+      "zh_poem": "鹳知道\n什么时候回家。\n燕子知道。\n起重机。\n\n没有人教他们。\n他们里面的东西\n转向正确的地方\n在正确的时间。\n\n和我的人民，\n神说，\n不知道\n回到我身边的路。\n\n这不是责骂。\n这是一种渴望。\n\n甚至连鸟儿\n记住。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的中心“鹳鸟”（耶利米书 8:7）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“天上的鹳鸟知道它的指定时间。”",
+      "zh_ref": "耶利米书 8:7"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#d0b06a"
       },
       "dailyWalkDay": 755,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the stone well in the heat of the day: what quiet prayer rises in you when you read, “the ones who carry the question are the ones who carry the wound”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the stone well in the heat of the day: what quiet prayer rises in you when you read, “the ones who carry the question are the ones who carry the wound”?",
+      "zh_title": "基列的香膏",
+      "zh_poem": "有药\n在吉利德。\n\n每个人都知道。\n金色香膏，\n附近有一个治疗师。\n\n那么为什么，\n先知问，\n不是任何人\n好起来了吗？\n\n他没有回答\n从远处。\n\n她受伤了\n是我的伤害，\n他说。\n\n提出问题的人\n是那些\n谁带着伤口。",
+      "zh_reflectionPrompt": "在炎热的天气里，让你的目光停留在石头周围的笔触和光线上：当你读到“带着问题的人就是带着伤口的人”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“为了我人民的女儿受到的伤害，我感到受伤。”",
+      "zh_ref": "耶利米书 8:18–22"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#e6d8b7"
       },
       "dailyWalkDay": 756,
-      "reflectionPrompt": "Linger with the movement in “a spring of tears” (Jeremiah 9:1) from “he wished he had more tears” to “this one cried. and God kept him”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “a spring of tears” (Jeremiah 9:1) from “he wished he had more tears” to “this one cried. and God kept him”—where do you find yourself along that arc today?",
+      "zh_title": "泪泉泉",
+      "zh_poem": "他希望\n他的眼泪更多了。\n\n不少。\n更多的。\n\n足以哭泣\n白天和黑夜\n为人民\n他无法拯救。\n\n有些先知雷霆万钧。\n这个\n哭了。\n\n和上帝\n留住了他。",
+      "zh_reflectionPrompt": "留心“眼泪的泉源”（耶利米书 9:1）中的动作，从“他希望自己有更多的眼泪”到“这个人哭了。神保守了他”——今天你发现自己在这条弧线的哪个位置？",
+      "zh_epigraph": "“哦，但愿我的头是水，我的眼是泪水”",
+      "zh_ref": "耶利米书 9:1"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#e8d8b3"
       },
       "dailyWalkDay": 757,
-      "reflectionPrompt": "Notice how “gently” (Jeremiah 10:23–24) arrives at: “and please, remember what i'm made of.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “gently” (Jeremiah 10:23–24) arrives at: “and please, remember what i'm made of.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "轻轻地",
+      "zh_poem": "我知道我的脚步\n不是我来驾驶的，\n他祈祷。\n\n所以纠正我。\n我是认真的。\n\n但要轻轻地。\n\n不是在你的愤怒中——\n我不会被留下。\n\n这是最诚实的祈祷之一\n圣经中。\n\n是的，上课了。\n请，\n记住\n我是由什么构成的。",
+      "zh_reflectionPrompt": "请注意“温柔地”（耶利米书 10：23-24）如何表达：“请记住我是由什么组成的。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“耶和华啊，请纠正我，但要轻轻地”",
+      "zh_ref": "耶利米书 10:23–24"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#ece3cd"
       },
       "dailyWalkDay": 758,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jeremiah 13:1–11: “but listen to what the belt was for: i wanted you close, the way a belt holds to the one who wears it”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jeremiah 13:1–11: “but listen to what the belt was for: i wanted you close, the way a belt holds to the one who wears it”?",
+      "zh_title": "亚麻腰带",
+      "zh_poem": "神吩咐他穿上\n一条亚麻腰带，\n然后隐藏它\n在岩石的缝隙中\n在河边。\n\n许多天后\n他把它挖了出来。\n毁了。\n一无是处。\n\n这就是骄傲的作用，\n神说。\n\n但听着\n腰带的用途：\n\n我想要你靠近，\n皮带的方式\n坚持佩戴它的人。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是耶利米书 13:1-11 的安静教训：“但请听听腰带的用途：我希望你靠近，就像腰带紧贴佩戴者一样”？",
+      "zh_epigraph": "“就像腰带紧贴在男人的腰上”",
+      "zh_ref": "耶利米书 13:1–11"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#e6c88e"
       },
       "dailyWalkDay": 759,
-      "reflectionPrompt": "Imagine standing inside this frame beside the daily loaf broken in the hand: what hurry or noise in your week begins to fade when you hear, “it was in whose name i was called by”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the daily loaf broken in the hand: what hurry or noise in your week begins to fade when you hear, “it was in whose name i was called by”?",
+      "zh_title": "我吃了它们",
+      "zh_poem": "大家都咒骂他，\n他说。\n他没有和那些寻欢作乐的人坐在一起。\n他独自坐着。\n\n但有这样的：\n\n你的话被发现了\n他说，\n我吃了它们。\n\n像面包\n给一个饥饿的人。\n\n我心中的喜悦\n不在于事情如何进行。\n\n它是在\n谁的名字\n我被叫了。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是每天手里破碎的面包：当你听到“我是以谁的名义被呼唤的”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“你的话被发现了，我吃了它们。”",
+      "zh_ref": "耶利米书 15:15–16"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#ded2b6"
       },
       "dailyWalkDay": 760,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's where you put your roots.” What part of your heart feels most searched or comforted by Jeremiah 17:7–8 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “it's where you put your roots.” What part of your heart feels most searched or comforted by Jeremiah 17:7–8 right now?",
+      "zh_title": "在水边",
+      "zh_poem": "热量来了。\n干旱的一年来临了。\n\n树不知道\n预测。\n\n它只是保留\n它的根在河里。\n\n它的叶子保持绿色，\n果子不断涌现，\n大旱之年\n或不。\n\n信任\n不是一种感觉\n关于天气。\n\n这是哪里\n你把你的根扎根。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“这是你扎根的地方。”现在，耶利米书 17:7-8 给你心灵的哪一部分带来最深刻的审视或安慰？",
+      "zh_epigraph": "“他要像一棵树栽在水旁”",
+      "zh_ref": "耶利米书 17:7–8"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#f6edd9"
       },
       "dailyWalkDay": 761,
-      "reflectionPrompt": "In Jeremiah 18:1–6, grace meets us right beside the clay turning on the wheel: how does the closing thought—“you are the clay still in his hands”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Jeremiah 18:1–6, grace meets us right beside the clay turning on the wheel: how does the closing thought—“you are the clay still in his hands”—steady your footing for the road ahead?",
+      "zh_title": "陶匠的房子",
+      "zh_poem": "下到窑匠那里去，\n神说。\n\n所以他看着。\n\n锅被损坏了\n在陶工的手中。\n\n和陶工\n没有把它扔掉。\n他又开始了。\n另一艘船，\n任何对他来说好的事情。\n\n你不是\n方向盘上的错误。\n\n你是泥土\n仍在他手中。",
+      "zh_reflectionPrompt": "在耶利米书 18:1-6 中，恩典就在轮子转动的泥土旁边与我们相遇：最后的思想——“你仍然是他手中的泥土”——如何让你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“他又做了另一个器皿，陶匠觉得这样做不错。”",
+      "zh_ref": "耶利米书 18:1–6"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#9e683a"
       },
       "dailyWalkDay": 762,
-      "reflectionPrompt": "If today’s painting of “fire in my bones” (Jeremiah 20:7–9) hung beside the door you walk out of this morning, how would its final line—“he wanted to quit. the word didn't”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “fire in my bones” (Jeremiah 20:7–9) hung beside the door you walk out of this morning, how would its final line—“he wanted to quit. the word didn't”—shape your choices?",
+      "zh_title": "我的骨头里燃烧着火焰",
+      "zh_poem": "每个人都嘲笑我\n他说。\n一整天。\n\n所以我决定：\n没有了。\n我不会再提他了。\n\n然后——\n\n就像一把火\n闭嘴\n在我的骨头里。\n\n我试着忍住。\n我不能。\n\n他想退出。\n这个词\n没有。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“我骨头里着火”（耶利米书 20:7-9）的画，它的最后一行——“他想退出。这个词没有”——会如何影响你的选择？",
+      "zh_epigraph": "“我的心里就像是一团熊熊燃烧的火焰，被困在我的骨头里。我厌倦了把它憋在心里。”",
+      "zh_ref": "耶利米书 20:7–9"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#f7ebd5"
       },
       "dailyWalkDay": 763,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Jeremiah 20:13–18)—where in your own home or work today does “so you can bring the song and the sorrow to the same God on the same day” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Jeremiah 20:13–18)—where in your own home or work today does “so you can bring the song and the sorrow to the same God on the same day” ring true?",
+      "zh_title": "诚实的",
+      "zh_poem": "一行：\n向主歌唱！\n他拯救了穷人。\n\n下一个：\n我为何诞生？\n\n他没有把它收拾干净。\n圣经也没有。\n\n两个祈祷\n在那里，\n并排。\n\n所以你可以带\n这首歌\n和悲伤\n\n归向同一个神\n同一天。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（耶利米书 20:13-18）——今天在你自己的家里或工作中，“这样你就可以在同一天把歌声和悲伤带给同一位神”听起来是真的吗？",
+      "zh_epigraph": "“为什么我一出娘胎就看到辛苦和悲伤”",
+      "zh_ref": "耶利米书 20:13–18"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#e8debd"
       },
       "dailyWalkDay": 764,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “his name will be the Lord our righteousness. a new shoot. a promise.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “his name will be the Lord our righteousness. a new shoot. a promise.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "正义的分支",
+      "zh_poem": "牧羊人\n羊群四散。\n\n国王们\n失败了。\n\n上帝说：\n我会亲自收集它们。\n\n我会提出\n大卫的一个分支。\n\n一个国王\n谁会真正做\n什么是对的。\n\n他的名字\n将是\n主我们的义。\n\n新的拍摄。\n一个承诺。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“他的名字将成为耶和华我们的公义。新芽。一个应许。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“我要为大卫兴起一个公义的苗裔”",
+      "zh_ref": "耶利米书 23:1–6"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#ddcca8"
       },
       "dailyWalkDay": 765,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “two baskets of figs at the temple steps.” Looking through the lens of Jeremiah 24:1–7, what does it mean to discover that “the ones who lost everything were not lost to him”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “two baskets of figs at the temple steps.” Looking through the lens of Jeremiah 24:1–7, what does it mean to discover that “the ones who lost everything were not lost to him”?",
+      "zh_title": "两个篮子",
+      "zh_poem": "两篮子无花果\n在寺庙的台阶上。\n一好。\n一个被宠坏了。\n\n和惊喜：\n好无花果\n是那些\n已经被带到巴比伦去了。\n\n我注视着他们，\n神说。\n永远。\n我会给他们\n一颗了解我的心。\n\n那些失去一切的人\n没有迷失\n给他。",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“圣殿台阶上有两篮无花果”的感觉。透过耶利米书 24:1-7 的视角，发现“那些失去一切的人并没有失去他”意味着什么？",
+      "zh_epigraph": "“我会给他们一颗了解我的心”",
+      "zh_ref": "耶利米书 24:1–7"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#f6f0db"
       },
       "dailyWalkDay": 766,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “amen” in this painting (Jeremiah 28:1–11)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “amen” in this painting (Jeremiah 28:1–11)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "阿门",
+      "zh_poem": "另一位先知\n在圣殿里站起来：\n两年，\n一切都会结束的。\n\n他拿起木轭\n从耶利米的脖子上\n并打破了它。\n\n耶利米说：\n阿门。\n愿主这样做。\n\n他想要它\n说实话。\n\n真正的先知\n不爱\n是对的\n关于困难的事情。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的“阿们”中心装饰（耶利米书 28:1-11）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“阿门！愿耶和华这样做。”",
+      "zh_ref": "耶利米书 28:1–11"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#f8edc3"
       },
       "dailyWalkDay": 767,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “build houses”: what quiet prayer rises in you when you read, “it was God saying even here, live”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “build houses”: what quiet prayer rises in you when you read, “it was God saying even here, live”?",
+      "zh_title": "建造房屋",
+      "zh_poem": "来了一封信\n从耶路撒冷一路过来。\n\n他们一定希望\n它说：\n收拾好你的东西。\n\n它说：\n建造房屋。\n植物花园。\n吃生长的东西。\n举行婚礼。\n抱婴儿。\n\n你会在这里\n一会儿。\n\n它并没有放弃。\n\n这是上帝说的\n即使在这里，\n住。",
+      "zh_reflectionPrompt": "让你的目光停留在“建造房屋”安静的中心周围的笔触和光线上：当你读到“上帝甚至在这里说，活着”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“建造房屋并居住在其中。种植花园并食用其中的果实。”",
+      "zh_ref": "耶利米书 29:4–6"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#e3c597"
       },
       "dailyWalkDay": 768,
-      "reflectionPrompt": "Linger with the movement in “the peace of the city” (Jeremiah 29:7) from “pray for the city, he wrote” to “you can't bless a place and stay a stranger in it forever”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the peace of the city” (Jeremiah 29:7) from “pray for the city, he wrote” to “you can't bless a place and stay a stranger in it forever”—where do you find yourself along that arc today?",
+      "zh_title": "城市的和平",
+      "zh_poem": "为这座城市祈祷，\n他写道。\n\n不是旧的。\n新的。\n\n与奇怪的神灵在一起的人\n和奇怪的语言\n和墙壁\n你没有选择。\n\n寻求它的和平。\n\n因为在平静中\n你会发现\n你自己的。\n\n你不能祝福一个地方\n并留下来\n里面有一个陌生人\n永远。",
+      "zh_reflectionPrompt": "沉浸在“城里的平安”（耶利米书 29:7）运动中，从“为城祷告，他写道”到“你不能祝福一个地方，却永远在其中做陌生人”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“你们要为我使你们被掳的那座城求平安，并为此向耶和华祷告”",
+      "zh_ref": "耶利米书 29:7"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#fbe09e"
       },
       "dailyWalkDay": 769,
-      "reflectionPrompt": "Notice how “a future and a hope” (Jeremiah 29:10–13) arrives at: “a hope long enough for your children too.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “a future and a hope” (Jeremiah 29:10–13) arrives at: “a hope long enough for your children too.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "一个未来和一个希望",
+      "zh_poem": "七十年，\n信中说。\n\n不是两个。\n七十。\n\n他们中的许多人\n我不会活着看到它。\n\n仍然：\n我知道我对你的想法。\n和平，而不是伤害。\n一个未来。\n一个希望。\n\n你会全心全意地寻找我\n并找到我。\n\n一个希望\n足够长的时间\n也为您的孩子。",
+      "zh_reflectionPrompt": "请注意“未来和希望”（耶利米书 29：10-13）是如何实现的：“对你的孩子来说也是一个足够长久的希望。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“和平的思想，而不是邪恶的思想，给你希望和未来。”",
+      "zh_ref": "耶利米书 29:10–13"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f3e3be"
       },
       "dailyWalkDay": 770,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jeremiah 31:3–4: “so it won't stop because you didn't”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jeremiah 31:3–4: “so it won't stop because you didn't”?",
+      "zh_title": "永恒的",
+      "zh_poem": "在这一切之后——\n破损的水箱，\n岩石中的带子，\n遥远的路——\n\n这个：\n\n我爱过你\n带着永恒的爱。\n\n我会再次塑造你。\n\n你会拿起你的手鼓。\n你会出去跳舞。\n\n爱\n没有开始\n因为你做对了。\n\n所以它不会停止\n因为你没有。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是耶利米书 31:3-4 中安静的教训：“所以事情不会停止，因为你没有这样做”怎么办？",
+      "zh_epigraph": "“我以永恒的爱爱着你。”",
+      "zh_ref": "耶利米书 31:3–4"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#ecdbba"
       },
       "dailyWalkDay": 771,
-      "reflectionPrompt": "Imagine standing inside this frame beside the moving water: what hurry or noise in your week begins to fade when you hear, “he doesn't wait for the tears to stop before he brings them. the tears come too”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the moving water: what hurry or noise in your week begins to fade when you hear, “he doesn't wait for the tears to stop before he brings them. the tears come too”?",
+      "zh_title": "带着哭泣",
+      "zh_poem": "他们会回家\n哭了。\n\n不行军。\n还没唱歌。\n\n那些盲人，\n那些跛行的人，\n母亲们\n带着宝宝在路上。\n\n我会遛他们\n沿着河流的水，\n在笔直的路上\n没有人旅行的地方。\n\n他不等\n为了让眼泪停止\n在他带来它们之前。\n\n眼泪\n你也来吧。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是流动的水：当你听到“他不会等到眼泪停止才流泪。眼泪也来了”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“他们会哭着来。我会带着请愿来引导他们。”",
+      "zh_ref": "耶利米书 31:8–9"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#f3af8a"
       },
       "dailyWalkDay": 772,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “he sets a door at the end of it.” What part of your heart feels most searched or comforted by Jeremiah 31:15–17 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “he sets a door at the end of it.” What part of your heart feels most searched or comforted by Jeremiah 31:15–17 right now?",
+      "zh_title": "雷切尔",
+      "zh_poem": "拉玛的一个声音。\n哭泣。\n一位母亲\n谁不会得到安慰。\n\n上帝没有告诉她\n停止。\n\n他说：\n你的工作\n将会得到奖励。\n\n他们会回来的。\n\n有希望\n对于接下来的事情。\n\n他并没有催促她悲伤。\n他设置了一扇门\n在它的最后。",
+      "zh_reflectionPrompt": "在寂静中大声读出结束语：“他在尽头设置了一扇门。”现在，耶利米书 31 章 15-17 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“你的结局还有希望”",
+      "zh_ref": "耶利米书 31:15–17"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#ffdba4"
       },
       "dailyWalkDay": 773,
-      "reflectionPrompt": "In Jeremiah 31:25–26, grace meets us right beside the quiet centerpiece of “sweet”: how does the closing thought—“after all the hard words, a dream of comfort— and he woke up and said: my sleep was sweet”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Jeremiah 31:25–26, grace meets us right beside the quiet centerpiece of “sweet”: how does the closing thought—“after all the hard words, a dream of comfort— and he woke up and said: my sleep was sweet”—steady your footing for the road ahead?",
+      "zh_title": "甜甜的",
+      "zh_poem": "在说了这么多难听的话之后\n舒适的梦想——\n\n他醒了\n并说：\n\n我的睡眠\n很甜蜜。",
+      "zh_reflectionPrompt": "在《耶利米书》31:25-26中，恩典就在“甜蜜”的安静核心旁边与我们相遇：结束语——“说了这么多严厉的话语，做了一个安慰的梦——他醒来说：我的睡眠很香”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“我醒来后看到了这一点；我的睡眠对我来说是甜蜜的。”",
+      "zh_ref": "耶利米书 31:25–26"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#f0e0b9"
       },
       "dailyWalkDay": 774,
-      "reflectionPrompt": "If today’s painting of “new covenant” (Jeremiah 31:31–34) hung beside the door you walk out of this morning, how would its final line—“and the last line is the best: i will forgive, and i will not remember”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “new covenant” (Jeremiah 31:31–34) hung beside the door you walk out of this morning, how would its final line—“and the last line is the best: i will forgive, and i will not remember”—shape your choices?",
+      "zh_title": "新约",
+      "zh_poem": "旧约\n被刻在石头上。\n他们打破了它。\n\n所以神说：\n一个新的。\n这次不在平板电脑上。\n我会写的\n在他们的心上。\n\n他们都会认识我\n从最小到最大。\n\n和最后一行\n是最好的：\n\n我会原谅，\n我不会\n记住。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“新约”（耶利米书 31:31-34）画，它的最后一行——“最后一行是最好的：我会宽恕，但我不会记住”——会如何影响你的选择？",
+      "zh_epigraph": "“我会宽恕他们的罪孽，不再记念他们的罪恶。”",
+      "zh_ref": "耶利米书 31:31–34"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#e9ddc4"
       },
       "dailyWalkDay": 775,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Jeremiah 32:6–15)—where in your own home or work today does “someone who believes there will be a morning after” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Jeremiah 32:6–15)—where in your own home or work today does “someone who believes there will be a morning after” ring true?",
+      "zh_title": "阿纳托斯的一块田地",
+      "zh_poem": "军队在墙外。\n先知被锁在卫兵的院子里。\n\n他的表弟来了\n有一个奇怪的请求：\n买我的田地。\n\n他就这么做了。\n十七舍客勒银子，\n称出。\n签署并盖章的契约，\n目击者在观看，\n将文件放入粘土罐中\n持续下去。\n\n谁买土地\n这座城市即将沦陷的时候？\n\n相信的人\n会有\n一个早上之后。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（耶利米书 32:6-15）——今天，在你自己的家里或工作场所，“相信会有来日早晨的人”听起来是真实的吗？",
+      "zh_epigraph": "“这片土地上将再次购买房屋、田地和葡萄园。”",
+      "zh_ref": "耶利米书 32:6–15"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#e8c998"
       },
       "dailyWalkDay": 776,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “is anything too hard for me?.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “is anything too hard for me?.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "太难了",
+      "zh_poem": "你创造了天堂，\n他祈祷。\n没有什么\n对你来说太难了。\n\n然后，老实说：\n但你告诉我\n购买一块田地。\n和城市\n正在下降。\n\n神回答了\n用他自己的话\n交还：\n\n我是上帝\n所有肉体的。\n\n是什么\n太难了\n对我来说？",
+      "zh_reflectionPrompt": "缓慢地吸一口气，再次阅读最后一行：“有什么对我来说太难了吗？”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“对你来说，没有什么是难的。”",
+      "zh_ref": "耶利米书 32:16–27"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#ecbf80"
       },
       "dailyWalkDay": 777,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “the streets had gone quiet.” Looking through the lens of Jeremiah 33:10–11, what does it mean to discover that “people bringing thanks to his house and singing his love endures forever”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “the streets had gone quiet.” Looking through the lens of Jeremiah 33:10–11, what does it mean to discover that “people bringing thanks to his house and singing his love endures forever”?",
+      "zh_title": "再次",
+      "zh_poem": "街道\n已经安静了。\n\n没有磨石。\n没有灯。\n没有婚礼。\n\n上帝说：\n再次。\n\n就在这个地方，\n你称之为空的那个——\n\n新娘在笑。\n新郎的声音。\n人们带来感谢\n到他家\n\n和唱歌\n他的爱持久\n永远。",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“街道变得安静”的感觉。透过耶利米书 33:10-11 的视角，发现“人们称谢他的殿，歌颂他的慈爱永远长存”，这意味着什么？",
+      "zh_epigraph": "“喜悦的声音和高兴的声音，新郎的声音和新娘的声音”",
+      "zh_ref": "耶利米书 33:10–11"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#e1dcd6"
       },
       "dailyWalkDay": 778,
-      "reflectionPrompt": "Look closely at the warmth of the fire in this painting (Jeremiah 36:20–24)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the warmth of the fire in this painting (Jeremiah 36:20–24)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "冬天的房子",
+      "zh_poem": "冬天。\n国王在火边。\n一个仆人在读\n先知的书卷大声响起。\n\n三、四片叶子，\n和国王\n切断它们\n然后把它们扔进煤里。\n\n然后还有三四个，\n直到整个事情\n消失了。\n\n没有人害怕。\n\n只是一个温暖的房间\n和一个男人\n谁不想听。",
+      "zh_reflectionPrompt": "仔细观察这幅画中火的温暖（耶利米书36:20-24）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“他面前的火盆里正烧着火。”",
+      "zh_ref": "耶利米书 36:20–24"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#eaddbf"
       },
       "dailyWalkDay": 779,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the unrolled parchment: what quiet prayer rises in you when you read, “you can't burn the one who said it”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the unrolled parchment: what quiet prayer rises in you when you read, “you can't burn the one who said it”?",
+      "zh_title": "另一个卷轴",
+      "zh_poem": "国王烧了它。\n\n所以神说：\n再拿一张卷轴。\n\n巴鲁克坐下来\n用他的笔\n并写下了它\n一切又来了。\n\n每一个字。\n等等。\n\n你可以烧掉\n页面。\n\n你不能燃烧\n那个\n谁说的。",
+      "zh_reflectionPrompt": "让你的目光停留在展开的羊皮纸周围的笔触和光线上：当你读到“你不能烧掉说这句话的人”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“再拿一张卷轴”",
+      "zh_ref": "耶利米书 36:27–32"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#efe6d2"
       },
       "dailyWalkDay": 780,
-      "reflectionPrompt": "Linger with the movement in “the bakers’ street” (Jeremiah 37:16–21) from “in the guard's court they gave him one loaf a day from the bakers' street” to “sometimes faithfulness looks like this: enough for today”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the bakers’ street” (Jeremiah 37:16–21) from “in the guard's court they gave him one loaf a day from the bakers' street” to “sometimes faithfulness looks like this: enough for today”—where do you find yourself along that arc today?",
+      "zh_title": "面包街",
+      "zh_poem": "在警卫法庭\n他们给了他\n一天一个面包\n来自面包街。\n\n一条面包。\n每天。\n\n直到有\n没有面包了\n在城市里。\n\n有时忠诚\n看起来像这样：\n\n够了\n今天。",
+      "zh_reflectionPrompt": "留心“面包师街”（耶利米书 37：16-21）中的运动，从“在守卫的院子里，他们每天从面包师街给他一块面包”到“有时忠诚看起来像这样：今天就够了”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“他们每天从面包店街上给他一条面包，直到城里所有的面包都卖完了。”",
+      "zh_ref": "耶利米书 37:16–21"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f7e8ca"
       },
       "dailyWalkDay": 781,
-      "reflectionPrompt": "Notice how “rags and ropes” (Jeremiah 38:6–13) arrives at: “kindness remembered the rags.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “rags and ropes” (Jeremiah 38:6–13) arrives at: “kindness remembered the rags.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "抹布和绳子",
+      "zh_poem": "他们让他失望了\n用绳索进入水箱。\n没有水。\n只是泥巴。\n他沉没了。\n\n然后是埃塞俄比亚人以伯米勒\n去了国王那里\n并为他说话。\n\n他带着人回来，\n绳索，\n还有其他的东西：\n旧破布。\n破旧的衣服。\n\n勇气\n带来了绳索。\n\n仁慈\n想起了破布。",
+      "zh_reflectionPrompt": "请注意“破布和绳索”（耶利米书 38：6-13）如何演变为：“仁慈记得破布。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“现在把这些破布和破衣服放在你腋下的绳子下面。”",
+      "zh_ref": "耶利米书 38:6–13"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#f6e4b3"
       },
       "dailyWalkDay": 782,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jeremiah 39:15–18: “not because he was important. because he trusted me”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jeremiah 39:15–18: “not because he was important. because he trusted me”?",
+      "zh_title": "因为你信任",
+      "zh_poem": "这座城市陷落了。\n\n和上帝\n记住了\n衣衫褴褛的男人。\n\n告诉以伯米勒，\n他说：\n我会救你的。\n你会活着度过这一切。\n\n不是因为他很重要。\n不是因为他来自这里。\n\n因为\n他信任我。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是耶利米书 39 章 15-18 节的安静教训：“不是因为他重要，而是因为他信任我”怎么办？",
+      "zh_epigraph": "“因为你信任我”",
+      "zh_ref": "耶利米书 39:15–18"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#efe6d6"
       },
       "dailyWalkDay": 783,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “wherever you go”: what hurry or noise in your week begins to fade when you hear, “it's the kind of gift that fits in a traveler's bag and lasts the whole road”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “wherever you go”: what hurry or noise in your week begins to fade when you hear, “it's the kind of gift that fits in a traveler's bag and lasts the whole road”?",
+      "zh_title": "无论你去哪里",
+      "zh_poem": "巴鲁克很累。\n悲伤之上的悲伤，\n他说。\n我无法休息。\n\n神没有应许他\n伟大。\n\n不要去寻找伟大的事物，\n他说。\n\n但我会给你\n你的生活，\n无论你走到哪里。\n\n听起来很小。\n\n这是一种礼物\n适合放在旅行包里\n并持续\n整条路。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是“无论你去哪里”的安静中心：当你听到“这是一种可以装在旅行者包里并可以随身携带的礼物”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“无论你走到哪里，我都会让你带着性命逃走。”",
+      "zh_ref": "耶利米书 45:1–5"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#e7dcc2"
       },
       "dailyWalkDay": 784,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “sometimes grief sounds like that— counting what was beautiful so it won't be forgotten.” What part of your heart feels most searched or comforted by Jeremiah 52:17–23 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “sometimes grief sounds like that— counting what was beautiful so it won't be forgotten.” What part of your heart feels most searched or comforted by Jeremiah 52:17–23 right now?",
+      "zh_title": "石榴",
+      "zh_poem": "接近尾声时，\n库存。\n\n罐子。铲子。\n灯台。碗。\n伟大的青铜柱\n与石榴\n顶部周围。\n\n被带走\n到巴比伦。\n\n有时悲伤\n听起来是这样的——\n计数\n什么是美丽的\n\n所以不会是\n忘记了。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“有时悲伤听起来就是这样——数着美丽的事物，这样就不会被遗忘。”现在，耶利米书 52 章 17-23 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“网络遍及京城，石榴遍地”",
+      "zh_ref": "耶利米书 52:17–23"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#e7d5a7"
       },
       "dailyWalkDay": 785,
-      "reflectionPrompt": "In Jeremiah 52:31–34, grace meets us right beside the table set before you: how does the closing thought—“with a door opening, a kind word, and bread”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Jeremiah 52:31–34, grace meets us right beside the table set before you: how does the closing thought—“with a door opening, a kind word, and bread”—steady your footing for the road ahead?",
+      "zh_title": "他和蔼地说",
+      "zh_poem": "三十七年\n一个俘虏。\n\n然后有一天\n一个新国王\n打开门。\n\n他和蔼地对他说话。\n给了他新衣服。\n桌子上有一个座位。\n每天都有面包\n他的余生。\n\n这就是耶利米书的结局。\n\n不与火。\n\n有门\n开幕，\n一句善意的话语，\n和面包。",
+      "zh_reflectionPrompt": "在耶利米书 52 章 31-34 节中，恩典就在摆在你面前的桌子旁与我们相遇：最后的思想——“开门、仁慈的话语和饼”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“他对他说话很友善”",
+      "zh_ref": "耶利米书 52:31–34"
     }
-  ]
+  ],
+  "zh_title": "有指望的未来",
+  "zh_subtitle": "耶利米书诗画集",
+  "zh_beforeYouBegin": "耶利米是一位哭泣的先知，在他出生之前就被召唤并被送往一座不肯听从的城市。他的书中充满了朴素而奇怪的东西：冬天的杏树枝，流泉旁破裂的蓄水池，被河埋没的亚麻带，弯腰的陶工，两篮无花果，军队在墙外等待时买的一块田地，一次烧毁的卷轴，一根用一捆破布放进泥里的绳子。在所有的悲伤之中，写给流放者的一封关于房屋和花园的信，以及写在心上的新约的承诺。\n\n本书分为五个部分，用四十首短诗来讲述它。每首诗都位于一幅画旁边和一行经文之下。艰难的章节是通过干涸的蓄水池、毁坏的腰带和被带走的青铜石榴来温柔地讲述的，而不是暴力本身，因为耶利米也为它们哭泣。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这本书旁边的耶利米书，让真实的话语成为最后的话语。"
 }

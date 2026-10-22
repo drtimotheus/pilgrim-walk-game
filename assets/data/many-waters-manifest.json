@@ -16,7 +16,10 @@
       "epigraph": "Rise up, my love, my beautiful one, and come away.",
       "epigraphRef": "Song of Songs 2:10",
       "lightName": "Light of Rise Up and Come Away",
-      "lightHint": "Near 'the kiss' (Song of Songs 1:1–4) in Part 1: Rise Up and Come Away"
+      "lightHint": "Near 'the kiss' (Song of Songs 1:1–4) in Part 1: Rise Up and Come Away",
+      "zh_title": "站起来走开",
+      "zh_epigraph": "站起来，我的爱人，我美丽的人，走开。",
+      "zh_epigraphRef": "雅歌 2:10"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "when I found him whom my soul loves.",
       "epigraphRef": "Song of Songs 3:4",
       "lightName": "Light of Whom My Soul Loves",
-      "lightHint": "Near 'by night' (Song of Songs 3:1–4) in Part 2: Whom My Soul Loves"
+      "lightHint": "Near 'by night' (Song of Songs 3:1–4) in Part 2: Whom My Soul Loves",
+      "zh_title": "我的灵魂爱谁",
+      "zh_epigraph": "当我找到我灵魂所爱的人时。",
+      "zh_epigraphRef": "雅歌 3:4"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "This is my beloved, and this is my friend",
       "epigraphRef": "Song of Songs 5:16",
       "lightName": "Light of My Beloved and My Friend",
-      "lightHint": "Near 'I sleep, but my heart wakes' (Song of Songs 5:2–6) in Part 3: My Beloved and My Friend"
+      "lightHint": "Near 'I sleep, but my heart wakes' (Song of Songs 5:2–6) in Part 3: My Beloved and My Friend",
+      "zh_title": "我的爱人和我的朋友",
+      "zh_epigraph": "这是我的爱人，这是我的朋友",
+      "zh_epigraphRef": "雅歌 5:16"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "love is strong as death.",
       "epigraphRef": "Song of Songs 8:6",
       "lightName": "Light of Strong as Death",
-      "lightHint": "Near 'his desire' (Song of Songs 7:10) in Part 4: Strong as Death"
+      "lightHint": "Near 'his desire' (Song of Songs 7:10) in Part 4: Strong as Death",
+      "zh_title": "强如死亡",
+      "zh_epigraph": "爱如死亡般坚强。",
+      "zh_epigraphRef": "雅歌 8:6"
     }
   ],
   "paintings": [
@@ -69,7 +81,12 @@
         "accent": "#eadfc0"
       },
       "dailyWalkDay": 674,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Song of Songs 1:1–4: “your love is better than wine”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Song of Songs 1:1–4: “your love is better than wine”?",
+      "zh_title": "吻",
+      "zh_poem": "老和尚说\n这是最神圣的歌曲，\n对于初学者来说太强了。\n\n他们慢慢地读，\n在他们的细胞里，\n通过一盏小灯：\n\n让他吻我——\n\n不是关于神的教导。\n神自己，\n足够近\n去触动灵魂。\n\n你的爱\n比酒更好。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《雅歌》1:1-4 中安静的教训：“你们的爱情胜过酒”怎么办？",
+      "zh_epigraph": "“你的爱胜过酒。”",
+      "zh_ref": "雅歌 1:1–4"
     },
     {
       "n": 2,
@@ -90,7 +107,12 @@
         "accent": "#efe6d3"
       },
       "dailyWalkDay": 675,
-      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “humility is the door to the bridal chamber”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “humility is the door to the bridal chamber”?",
+      "zh_title": "被晒伤的灵魂",
+      "zh_poem": "我很黑，\n灵魂说。\n被太阳晒焦了。\n我照顾每个人的葡萄园\n但我自己的。\n\n而且仍然——\n可爱的。\n\n沙漠之父们知道这一点：\n首先你会看到自己有多黑。\n然后你听到\n你被爱着\n无论如何。\n\n谦虚\n是门\n到洞房。",
+      "zh_reflectionPrompt": "想象一下，站在敞开的门槛旁的这个框架内：当你听到“谦卑是新房之门”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“我很黑，但很可爱”",
+      "zh_ref": "雅歌 1:5–6"
     },
     {
       "n": 3,
@@ -111,7 +133,12 @@
         "accent": "#e6dac2"
       },
       "dailyWalkDay": 676,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “the saints leave footprints.” What part of your heart feels most searched or comforted by Song of Songs 1:7–8 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “the saints leave footprints.” What part of your heart feels most searched or comforted by Song of Songs 1:7–8 right now?",
+      "zh_title": "中午你休息的地方",
+      "zh_poem": "告诉我\n中午你休息的地方——\n\n在炎热的一天，\n当繁忙时间\n把一切都烧干。\n\n我不想流浪\n在一百个声音中\n正在寻找你。\n\n跟随足迹，\n他说。\n在你之前的人\n就这么走了。\n\n圣人\n留下脚印。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“圣徒留下脚印。”现在，《雅歌》1:7-8 给你心灵的哪一部分带来了最深刻的探寻或安慰？",
+      "zh_epigraph": "“告诉我，我的灵魂所爱的你，你在哪里放牧你的羊群”",
+      "zh_ref": "雅歌 1:7–8"
     },
     {
       "n": 4,
@@ -132,7 +159,12 @@
         "accent": "#e5dabc"
       },
       "dailyWalkDay": 677,
-      "reflectionPrompt": "In Song of Songs 1:14–17, grace meets us right beside the open wilderness road: how does the closing thought—“the Beloved is sweetest where there's nothing else”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Song of Songs 1:14–17, grace meets us right beside the open wilderness road: how does the closing thought—“the Beloved is sweetest where there's nothing else”—steady your footing for the road ahead?",
+      "zh_title": "绿洲",
+      "zh_poem": "恩戈迪：\n旷野中的春天，\n没有什么东西应该是绿色的地方是绿色的。\n\n隐士们走进了沙漠\n并不是因为他们憎恨这个世界，\n但要找到\n这个。\n\n一簇花朵\n在干燥的地方。\n\n心爱的人\n是最甜蜜的\n没有其他东西的地方。",
+      "zh_reflectionPrompt": "在《雅歌》1:14-17 中，恩典就在开阔的旷野路边与我们相遇：结尾的思想——“除此之外，心爱的人是最甜蜜的”——如何为你在前方的道路上站稳脚跟？",
+      "zh_epigraph": "“我的爱人对我来说是一簇来自恩戈地葡萄园的指甲花花。”",
+      "zh_ref": "雅歌 1:14–17"
     },
     {
       "n": 5,
@@ -153,7 +185,12 @@
         "accent": "#fcf4da"
       },
       "dailyWalkDay": 678,
-      "reflectionPrompt": "If today’s painting of “the banner” (Song of Songs 2:4) hung beside the door you walk out of this morning, how would its final line—“everything else the soul has carried in she can set down at the door”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the banner” (Song of Songs 2:4) hung beside the door you walk out of this morning, how would its final line—“everything else the soul has carried in she can set down at the door”—shape your choices?",
+      "zh_title": "横幅",
+      "zh_poem": "他带来了灵魂\n进入酒屋。\n\n和她上方\n不是她的罪孽清单，\n不是她禁食的记录，\n不是她祈祷的失败——\n\n一个字\n像横幅一样：\n\n爱。\n\n其他一切\n灵魂已经带进来\n她可以放下\n在门口。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁边挂着今天的“旗帜”（雅歌 2:4）画作，那么它的最后一行——“灵魂所携带的一切其他东西，她都可以放在门口”——会如何影响你的选择？",
+      "zh_epigraph": "“他带我到宴会厅。他的旗帜是爱。”",
+      "zh_ref": "雅歌 2:4"
     },
     {
       "n": 6,
@@ -174,7 +211,12 @@
         "accent": "#fcdab9"
       },
       "dailyWalkDay": 679,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Song of Songs 2:7)—where in your own home or work today does “love wakes when he wakes it” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Song of Songs 2:7)—where in your own home or work today does “love wakes when he wakes it” ring true?",
+      "zh_title": "不要催促灵魂",
+      "zh_poem": "不要激起爱情\n在它准备好之前。\n\n老阿巴斯警告说\n热切的年轻修士们：\n你不能强迫\n灵魂的觉醒。\n\n坐在你的牢房里。\n说出你的祈祷。\n等待。\n\n爱\n醒来\n当他叫醒它时。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（雅歌 2:7）——今天在你自己的家里或工作场所，“爱在他唤醒时，爱也随之醒来”听起来是真实的吗？",
+      "zh_epigraph": "“不要激起或唤醒爱，直到它如此渴望。”",
+      "zh_ref": "雅歌 2:7"
     },
     {
       "n": 7,
@@ -195,7 +237,12 @@
         "accent": "#fdf5e5"
       },
       "dailyWalkDay": 680,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “it comes when he calls it.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “it comes when he calls it.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "冬天已经过去了",
+      "zh_poem": "起来吧，我的爱人。\n走开。\n\n在经历了灵魂的漫长冬天之后——\n干涸的祈祷，\n寒冷的岁月\n当上帝似乎沉默时——\n\n窗外传来声音：\n\n冬天已经过去了。\n花在这里。\n来。\n\n神秘主义者称之为\n灵魂的春天。\n它来了\n当他呼唤它时。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“当他召唤时，它就会到来。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“看哪，冬天已经过去了。雨已经停了。”",
+      "zh_ref": "雅歌 2:10–13"
     },
     {
       "n": 8,
@@ -216,7 +263,12 @@
         "accent": "#edcd9e"
       },
       "dailyWalkDay": 681,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “the desert fathers watched the little thoughts— a flash of pride, a small resentment, an idle word, a wandering eye during prayer.” Looking through the lens of Song of Songs 2:15–16, what does it mean to discover that “and at the end of the vigil: my Beloved is mine, and I am his”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “the desert fathers watched the little thoughts— a flash of pride, a small resentment, an idle word, a wandering eye during prayer.” Looking through the lens of Song of Songs 2:15–16, what does it mean to discover that “and at the end of the vigil: my Beloved is mine, and I am his”?",
+      "zh_title": "小狐狸们",
+      "zh_poem": "沙漠之父们注视着\n小小的想法——\n\n闪现出一丝骄傲，\n小小的怨恨，\n一句闲话，\n祈祷时眼神游移。\n\n尽早抓住他们，\n他们说，\n当他们还小的时候。\n\n警惕\n守护葡萄园\n当它开花时。\n\n守夜结束时：\n我的爱人是我的，\n而我是他的。",
+      "zh_reflectionPrompt": "回想一下某个季节，你体会到“沙漠之父注视着微小的想法——一闪而过的骄傲、一丝小小的怨恨、一句闲话、祈祷时眼神游移”的感觉。透过《雅歌》2:15-16 的镜头，发现“守夜结束时：我的良人是我的，我也是他的”这句话意味着什么？",
+      "zh_epigraph": "“为我们抓住狐狸，那些掠夺葡萄园的小狐狸”",
+      "zh_ref": "雅歌 2:15–16"
     },
     {
       "n": 9,
@@ -237,7 +289,12 @@
         "accent": "#fce4a7"
       },
       "dailyWalkDay": 682,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “by night” in this painting (Song of Songs 3:1–4)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “by night” in this painting (Song of Songs 3:1–4)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "到了晚上",
+      "zh_poem": "晚上在我的床上\n我寻找他，\n并没有找到他。\n\n神秘主义者今晚知道：\n当祈祷枯竭时，\n当上帝的每一种感觉\n消失了。\n\n所以灵魂起来了\n并不断寻找——\n不是因为她感觉到他，\n但因为她爱他。\n\n刚刚经过看守人，\n他在那儿。\n\n漆黑的夜晚\n就是这样。",
+      "zh_reflectionPrompt": "仔细观察这幅画中“夜晚”安静的中心部分（雅歌3：1-4）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“我寻找我灵魂所爱的人。我寻找他，但我没有找到他。”",
+      "zh_ref": "雅歌 3:1–4"
     },
     {
       "n": 10,
@@ -258,7 +315,12 @@
         "accent": "#f8efc7"
       },
       "dailyWalkDay": 683,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open wilderness road: what quiet prayer rises in you when you read, “the soul coming out of the desert, rising like incense. her coming is his joy”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open wilderness road: what quiet prayer rises in you when you read, “the soul coming out of the desert, rising like incense. her coming is his joy”?",
+      "zh_title": "游行",
+      "zh_poem": "这是谁\n从旷野上来\n像一柱烟，\n充满祈祷的香气？\n\n灵魂\n从沙漠出来，\n如焚香般升起。\n\n并等待着她，\n国王，\n当天\n他心里的喜乐。\n\n她的到来\n是他的快乐。",
+      "zh_reflectionPrompt": "让你的目光停留在开阔的荒野道路周围的笔触和光线上：当你读到“灵魂从沙漠中出来，如焚香般升腾。她的到来是他的喜悦”时，你内心会升起怎样的安静祈祷？",
+      "zh_epigraph": "“在他结婚的日子，在他心里喜乐的日子。”",
+      "zh_ref": "雅歌 3:6–11"
     },
     {
       "n": 11,
@@ -279,7 +341,12 @@
         "accent": "#f1eadf"
       },
       "dailyWalkDay": 684,
-      "reflectionPrompt": "Linger with the movement in “how he sees her” (Song of Songs 4:1–7) from “the soul sees every stain” to “the saints spent years learning to believe that one sentence”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “how he sees her” (Song of Songs 4:1–7) from “the soul sees every stain” to “the saints spent years learning to believe that one sentence”—where do you find yourself along that arc today?",
+      "zh_title": "他怎么看她",
+      "zh_poem": "灵魂看到\n每一个污点。\n\n心爱的人的样子\n并说：\n你们都很美丽。\n你没有缺点。\n\n不是因为她赢得了它。\n因为他给她洗过。\n\n圣徒们花费了数年时间\n学习相信\n那一句话。",
+      "zh_reflectionPrompt": "留心“他如何看待她”（雅歌 4：1-7）中的乐章，从“灵魂看到每一个污点”到“圣徒花了数年时间学习相信这句话”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“你都很美丽，我的爱人。你身上没有任何斑点。”",
+      "zh_ref": "雅歌 4:1–7"
     },
     {
       "n": 12,
@@ -300,7 +367,12 @@
         "accent": "#e9e3d4"
       },
       "dailyWalkDay": 685,
-      "reflectionPrompt": "Notice how “come down from the heights” (Song of Songs 4:8) arrives at: “the way up to God, the fathers said, is down: humility, the low valley where the garden grows.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “come down from the heights” (Song of Songs 4:8) arrives at: “the way up to God, the fathers said, is down: humility, the low valley where the garden grows.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "从高处下来",
+      "zh_poem": "跟我来\n从狮子的巢穴，\n来自豹山，\n\n来自高处、骄傲的地方\n灵魂在哪里\n试图独自坚强。\n\n通往神的道路，\n父辈们说，\n已关闭：\n\n谦虚，\n低谷\n花园生长的地方。",
+      "zh_reflectionPrompt": "请注意“从高处下来”（雅歌 4：8）是如何实现的：“祖先们说，通往上帝的道路是向下的：谦卑，是花园生长的低谷。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“跟我一起从黎巴嫩来吧，我的新娘”",
+      "zh_ref": "雅歌 4:8"
     },
     {
       "n": 13,
@@ -321,7 +393,12 @@
         "accent": "#e9c98d"
       },
       "dailyWalkDay": 686,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Song of Songs 4:9–10: “and the soul is wounded back— a sweet wound, a longing nothing in the world can heal but him”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Song of Songs 4:9–10: “and the soul is wounded back— a sweet wound, a longing nothing in the world can heal but him”?",
+      "zh_title": "伤口",
+      "zh_poem": "一看，\n他受伤了。\n\n神秘主义者大胆地说：\n上帝\n被爱所伤\n为了灵魂。\n\n和灵魂\n背部受伤——\n\n甜蜜的伤口，\n一种渴望\n世界上什么都没有\n可以治愈\n但他。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《雅歌》4:9-10 中安静的教训：“灵魂又受伤了——一个甜蜜的伤口，一种渴望，除了他之外，世界上没有任何东西可以治愈”？",
+      "zh_epigraph": "“你夺走了我的心，我的妹妹，我的新娘。”",
+      "zh_ref": "雅歌 4:9–10"
     },
     {
       "n": 14,
@@ -342,7 +419,12 @@
         "accent": "#e8ddbf"
       },
       "dailyWalkDay": 687,
-      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “it's where the spring runs clear”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the open threshold: what hurry or noise in your week begins to fade when you hear, “it's where the spring runs clear”?",
+      "zh_title": "封闭的花园",
+      "zh_poem": "花园锁着。\n一个封闭的喷泉。\n\n僧侣们称他们的牢房为\n这个花园：\n\n一扇紧闭的门，\n一个小房间，\n一颗心\n保留为一。\n\n坐在你的牢房里，\n一位老阿爸说，\n和细胞\n会教你一切。\n\n外壳\n不是监狱。\n这是春天的地方\n运行清晰。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，靠近敞开的门槛：当你听到“这里是泉水清澈的地方”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“我的妹妹，我的新娘，是一个上锁的花园；一个上锁的泉水，一个封闭的喷泉。”",
+      "zh_ref": "雅歌 4:12"
     },
     {
       "n": 15,
@@ -363,7 +445,12 @@
         "accent": "#ecdbbd"
       },
       "dailyWalkDay": 688,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and in the middle, feeding every root, a well of living water— not the soul's own strength. his.” What part of your heart feels most searched or comforted by Song of Songs 4:13–15 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and in the middle, feeding every root, a well of living water— not the soul's own strength. his.” What part of your heart feels most searched or comforted by Song of Songs 4:13–15 right now?",
+      "zh_title": "美德花园",
+      "zh_poem": "石榴。\n甘松和藏红花。\n肉桂和没药。\n\n老作家读过它们\n作为美德：\n耐心、温柔、\n贞洁、慈善、\n生长缓慢\n在灵魂的花园里。\n\n在中间，\n滋养每一根根，\n一口活水井——\n\n不是灵魂本身的力量。\n他的。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“在中间，滋养每一根根，有一口活水之井——不是灵魂自己的力量。他的。”现在，《雅歌》4:13-15 给你内心的哪一部分带来最深刻的探寻或安慰？",
+      "zh_epigraph": "“花园的泉源，活水的井，从黎巴嫩流出的溪流。”",
+      "zh_ref": "雅歌 4:13–15"
     },
     {
       "n": 16,
@@ -384,7 +471,12 @@
         "accent": "#f3e5c1"
       },
       "dailyWalkDay": 689,
-      "reflectionPrompt": "In Song of Songs 4:16, grace meets us right beside the quiet centerpiece of “both winds”: how does the closing thought—“only when the wind blows does the fragrance spill out”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Song of Songs 4:16, grace meets us right beside the quiet centerpiece of “both winds”: how does the closing thought—“only when the wind blows does the fragrance spill out”—steady your footing for the road ahead?",
+      "zh_title": "两股风",
+      "zh_poem": "来吧，北风——\n冷的那个，\n审判，\n干燥。\n\n来吧，南风——\n温暖的那个，\n安慰，\n祈祷中的甜蜜。\n\n灵魂两者都需要。\n\n只有当风吹过的时候\n有香味吗\n溢出来。",
+      "zh_reflectionPrompt": "在《雅歌》4章16节中，恩典就在“两风”的安静核心旁边与我们相遇：结尾的思想——“风一吹，香气四溢”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“醒来吧，北风，来吧，南方！吹吹我的花园，让它的香料流出来。”",
+      "zh_ref": "雅歌 4:16"
     },
     {
       "n": 17,
@@ -405,7 +497,12 @@
         "accent": "#d1c0a0"
       },
       "dailyWalkDay": 690,
-      "reflectionPrompt": "If today’s painting of “I sleep, but my heart wakes” (Song of Songs 5:2–6) hung beside the door you walk out of this morning, how would its final line—“sometimes he hides so we'll seek him with our whole heart”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “I sleep, but my heart wakes” (Song of Songs 5:2–6) hung beside the door you walk out of this morning, how would its final line—“sometimes he hides so we'll seek him with our whole heart”—shape your choices?",
+      "zh_title": "我睡着了，但我的心却醒着",
+      "zh_poem": "我睡觉，\n但我的心是清醒的。\n\n沉思者喜欢这句话：\n身体休息，\n心仍在注视着，\n还在听他说话。\n\n当他敲门时，\n别等\n舒服。\n\n灵魂犹豫了，\n开门晚了，\n他已经撤退了。\n\n有时他会隐藏\n所以我们会去找他\n我们全心全意。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的画作“我睡着了，但我的心却醒着”（雅歌 5:2-6），它的最后一句——“有时他隐藏起来，所以我们要全心全意地寻找他”——会如何影响你的选择？",
+      "zh_epigraph": "“我睡着了，但我的心却醒着。”",
+      "zh_ref": "雅歌 5:2–6"
     },
     {
       "n": 18,
@@ -426,7 +523,12 @@
         "accent": "#f5dea8"
       },
       "dailyWalkDay": 691,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Song of Songs 5:6–8)—where in your own home or work today does “and still, the only message: if you find him, tell him I'm sick with love” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Song of Songs 5:6–8)—where in your own home or work today does “and still, the only message: if you find him, tell him I'm sick with love” ring true?",
+      "zh_title": "受伤并仍在寻找",
+      "zh_poem": "她搜索了这座城市\n然后满身伤痕地回来\n她的斗篷被拿走了。\n\n寻求神的人\n认识这条路：\n长时间的缺席，\n的误会，\n成本。\n\n尽管如此，唯一的信息是：\n\n如果你找到他\n告诉他\n我因爱而生病了。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（雅歌 5:6-8）——今天在你自己的家里或工作场所，“唯一的信息：如果你找到他，告诉他我因爱而生病”听起来是真的吗？",
+      "zh_epigraph": "“如果你找到了我的爱人，请告诉他我已经因爱而昏厥了。”",
+      "zh_ref": "雅歌 5:6–8"
     },
     {
       "n": 19,
@@ -447,7 +549,12 @@
         "accent": "#ece0c2"
       },
       "dailyWalkDay": 692,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “this is my Beloved, and this is my friend.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “this is my Beloved, and this is my friend.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "完全可爱",
+      "zh_poem": "他们问，描述一下他。\n\n她尝试——\n黄金、雪松、没药——\n\n并无言以对。\n\n神秘主义者说\n关于神的每一句话\n达不到要求，\n然后再说更多，\n因为爱\n不能保持安静。\n\n他非常可爱。\n这是我的挚爱，\n这是我的朋友。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“这是我的挚爱，这是我的朋友。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“他的嘴很甜；是的，他非常可爱。”",
+      "zh_ref": "雅歌 5:10–16"
     },
     {
       "n": 20,
@@ -468,7 +575,12 @@
         "accent": "#f9eed3"
       },
       "dailyWalkDay": 693,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “at first the soul said: my Beloved is mine.” Looking through the lens of Song of Songs 6:1–3, what does it mean to discover that “the whole spiritual life is that turn— from having God to being had by God”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “at first the soul said: my Beloved is mine.” Looking through the lens of Song of Songs 6:1–3, what does it mean to discover that “the whole spiritual life is that turn— from having God to being had by God”?",
+      "zh_title": "我是他的",
+      "zh_poem": "起初灵魂说：\n我的爱人是我的。\n\n现在她用另一种方式说：\n我是我所爱的人。\n\n整个精神生活\n是那个回合——\n\n从拥有神\n被拥有\n由上帝。",
+      "zh_reflectionPrompt": "回想一下某个季节，您体会到“灵魂最初说：我的爱人是我的”的感觉。透过雅歌 6:1-3 的视角，发现“整个属灵生命就是从拥有神到被神拥有”这句话意味着什么？",
+      "zh_epigraph": "“我是我所爱的人，我所爱的人也是我的。”",
+      "zh_ref": "雅歌 6:1–3"
     },
     {
       "n": 21,
@@ -489,7 +601,12 @@
         "accent": "#f8d791"
       },
       "dailyWalkDay": 694,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “rising like the dawn” in this painting (Song of Songs 6:10)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “rising like the dawn” in this painting (Song of Songs 6:10)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "像黎明一样升起",
+      "zh_poem": "首先如黎明，\n然后就像月亮一样，\n然后晴朗如阳光。\n\n老老师们看到这里\n灵魂的提升：\n\n一点光，\n然后借光，\n然后点亮\n充满了他\n它闪闪发光。\n\n没有人同时到达。\n这是日出。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的中心部分“如黎明般升起”（《雅歌》6:10）——如果今天你可以在它旁边留下一个焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“她是谁，她的目光如清晨，美丽如月亮，清澈如太阳”",
+      "zh_ref": "雅歌 6:10"
     },
     {
       "n": 22,
@@ -510,7 +627,12 @@
         "accent": "#ebe4d2"
       },
       "dailyWalkDay": 695,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “the only one”: what quiet prayer rises in you when you read, “the mystery of the saints: he loves each soul as if there were no other soul in the world”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “the only one”: what quiet prayer rises in you when you read, “the mystery of the saints: he loves each soul as if there were no other soul in the world”?",
+      "zh_title": "唯一的一个",
+      "zh_poem": "六十位皇后，\n另有八十人，\n比任何人都数得更多——\n\n但他仍然说：\n我的鸽子，\n我唯一的一个。\n\n圣人的奥秘：\n他爱每个灵魂\n好像有\n没有其他灵魂\n在世界上。",
+      "zh_reflectionPrompt": "让你的目光停留在“唯一”的安静中心周围的笔触和光线上：当你读到“圣徒的奥秘：他爱每个灵魂，就像世界上没有其他灵魂一样”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“我的鸽子，我完美的鸽子，是独一无二的。”",
+      "zh_ref": "雅歌 6:8–9"
     },
     {
       "n": 23,
@@ -531,7 +653,12 @@
         "accent": "#ede6ca"
       },
       "dailyWalkDay": 696,
-      "reflectionPrompt": "Linger with the movement in “the first green” (Song of Songs 6:11) from “he goes down to the grove to see what's growing— has the vine budded?” to “God tends the soul like a gardener, watching for the first green long before we notice it ourselves”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the first green” (Song of Songs 6:11) from “he goes down to the grove to see what's growing— has the vine budded?” to “God tends the soul like a gardener, watching for the first green long before we notice it ourselves”—where do you find yourself along that arc today?",
+      "zh_title": "第一个绿色",
+      "zh_poem": "他下到树林里\n看看有什么在生长——\n\n葡萄树发芽了吗？\n石榴开花了吗？\n\n神眷顾灵魂\n像园丁一样，\n等待第一片绿地\n早在我们注意到它之前\n我们自己。",
+      "zh_reflectionPrompt": "停留在“初绿”（雅歌 6:11）的乐章中，“他下到树林里，看看生长的东西——葡萄树发芽了吗？”到“上帝像园丁一样照顾灵魂，在我们自己注意到它之前很久就在等待着第一片绿色”——今天你发现自己在这条弧线的哪个位置？",
+      "zh_epigraph": "“我走进坚果树林，看看山谷里的绿色植物”",
+      "zh_ref": "雅歌 6:11"
     },
     {
       "n": 24,
@@ -552,7 +679,12 @@
         "accent": "#f2d086"
       },
       "dailyWalkDay": 697,
-      "reflectionPrompt": "Notice how “return” (Song of Songs 6:13) arrives at: “the desert fathers said: the whole life of a monk is this— turning back to God, again, and again, and again, every day.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “return” (Song of Songs 6:13) arrives at: “the desert fathers said: the whole life of a monk is this— turning back to God, again, and again, and again, every day.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "返回",
+      "zh_poem": "返回。\n返回。\n返回。\n返回。\n\n四次，\n她身后的电话。\n\n沙漠之父们说道：\n僧侣的一生\n这是——\n回转归向神，\n再次，\n再次，\n再次，\n每天。",
+      "zh_reflectionPrompt": "请注意“回归”（雅歌 6：13）是如何实现的：“沙漠之父们说：修道士的一生就是这样——每天一次又一次地回到上帝身边。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“回来，回来，书拉密少女！”",
+      "zh_ref": "雅歌 6:13"
     },
     {
       "n": 25,
@@ -573,7 +705,12 @@
         "accent": "#e9a87d"
       },
       "dailyWalkDay": 698,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Song of Songs 7:10: “all our longing is an answer to his”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Song of Songs 7:10: “all our longing is an answer to his”?",
+      "zh_title": "他的愿望",
+      "zh_poem": "我们认为我们就是这样的人\n寻求神。\n\n灵魂发现\n更古老的事实：\n\n他的愿望\n向着我\n首先。\n\n我们所有的渴望\n是一个答案\n给他的。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《雅歌》7:10 中安静的教训：“我们所有的渴望都是他的答案”怎么办？",
+      "zh_epigraph": "“我是我所爱的人。他的愿望是对我。”",
+      "zh_ref": "雅歌 7:10"
     },
     {
       "n": 26,
@@ -594,7 +731,12 @@
         "accent": "#f8df9d"
       },
       "dailyWalkDay": 699,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “early to the vineyards”: what hurry or noise in your week begins to fade when you hear, “the one who meets him in silence walks out at dawn to find him in the fields, in the neighbors, in the work”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “early to the vineyards”: what hurry or noise in your week begins to fade when you hear, “the one who meets him in silence walks out at dawn to find him in the fields, in the neighbors, in the work”?",
+      "zh_title": "早到葡萄园",
+      "zh_poem": "来吧，我们出去吧——\n田野，\n村庄，\n一大早就到了葡萄园。\n\n沉思的生活\n不仅仅是细胞。\n\n默默地遇见他的人\n黎明时分走出去\n找到他\n在田野里，\n在邻居中，\n在工作中。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是《早到葡萄园》的安静中心：当你听到“在沉默中遇见他的人在黎明时分走出去，在田野里、在邻居中、在工作中找到他”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“来吧，亲爱的！我们到田野去吧。我们到村子里去住宿吧。”",
+      "zh_ref": "雅歌 7:11–12"
     },
     {
       "n": 27,
@@ -615,7 +757,12 @@
         "accent": "#ddd0af"
       },
       "dailyWalkDay": 700,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “the soul brings both to the Beloved's door.” What part of your heart feels most searched or comforted by Song of Songs 7:13 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “the soul brings both to the Beloved's door.” What part of your heart feels most searched or comforted by Song of Songs 7:13 right now?",
+      "zh_title": "新旧",
+      "zh_poem": "新果和旧果，\n为你储存的。\n\n旧的：\n父辈们的祈祷，\n诗篇，\n沙漠的智慧。\n\n新的：\n今天早上的祈祷，\n首次上升。\n\n灵魂带来两者\n到了心爱的人家门口。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“灵魂将两者带到挚爱的门前。”现在，雅歌 7 章 13 节最能触动你内心的哪个部分？",
+      "zh_epigraph": "“我们家门口有各种新旧的名贵水果，都是我给你储备的”",
+      "zh_ref": "雅歌 7:13"
     },
     {
       "n": 28,
@@ -636,7 +783,12 @@
         "accent": "#f2e9d0"
       },
       "dailyWalkDay": 701,
-      "reflectionPrompt": "In Song of Songs 8:5, grace meets us right beside the open wilderness road: how does the closing thought—“the whole art of the desert was learning how to lean”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Song of Songs 8:5, grace meets us right beside the open wilderness road: how does the closing thought—“the whole art of the desert was learning how to lean”—steady your footing for the road ahead?",
+      "zh_title": "依偎在心爱的人身上",
+      "zh_poem": "这是谁，\n从旷野上来，\n靠在她心爱的人身上？\n\n灵魂\n从沙漠中出来\n最后——\n\n不骄傲，\n不坚强，\n不是自制的。\n\n倾斜。\n\n沙漠的全部艺术\n正在学习\n如何倾斜。",
+      "zh_reflectionPrompt": "在《雅歌》第 8 章第 5 节中，恩典就在开阔的旷野路旁与我们相遇：最后的思想——“整个沙漠的艺术都在学习如何倾斜”——如何为你前面的路站稳脚跟？",
+      "zh_epigraph": "“这个从旷野里靠着心爱的人上来的是谁？”",
+      "zh_ref": "雅歌 8:5"
     },
     {
       "n": 29,
@@ -657,7 +809,12 @@
         "accent": "#f7d27e"
       },
       "dailyWalkDay": 702,
-      "reflectionPrompt": "If today’s painting of “the seal” (Song of Songs 8:6) hung beside the door you walk out of this morning, how would its final line—“the mystics called it the living flame: God's own fire, burning in the soul and not consuming it”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the seal” (Song of Songs 8:6) hung beside the door you walk out of this morning, how would its final line—“the mystics called it the living flame: God's own fire, burning in the soul and not consuming it”—shape your choices?",
+      "zh_title": "印章",
+      "zh_poem": "将我封印\n在你的心上。\n\n爱同样强烈\n作为死亡。\n\n它的火焰\n就是火焰\n主的——\n\n唯一的地方\n他的名字出现了\n在所有歌曲中。\n\n神秘主义者称之为\n活生生的火焰：\n神自己的火，\n在灵魂中燃烧\n并且不消费它。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“印记”（雅歌 8:6）画作，那么它的最后一行——“神秘主义者称它为活火：上帝自己的火，在灵魂中燃烧，而不是吞噬它”——会如何影响你的选择？",
+      "zh_epigraph": "“把我作为你心上的印记，作为你手臂上的印记”",
+      "zh_ref": "雅歌 8:6"
     },
     {
       "n": 30,
@@ -678,7 +835,12 @@
         "accent": "#edae67"
       },
       "dailyWalkDay": 703,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Song of Songs 8:7)—where in your own home or work today does “this love is only ever given” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Song of Songs 8:7)—where in your own home or work today does “this love is only ever given” ring true?",
+      "zh_title": "许多水域",
+      "zh_poem": "许多水域\n放不出来。\n\n不是悲伤的洪水。\n不是干旱的岁月。\n不是怀疑的漫漫长夜。\n\n而且买不到。\n为此付出你所拥有的一切，\n而你仍然会\n空手而归。\n\n这份爱\n是唯一的\n给予。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方遇见我们（雅歌 8:7）——今天在你自己的家里或工作场所，“这爱是唯有赐予的”听起来是真实的吗？",
+      "zh_epigraph": "“爱情，众水不能熄灭，大水也不能淹没。”",
+      "zh_ref": "雅歌 8:7"
     },
     {
       "n": 31,
@@ -699,7 +861,12 @@
         "accent": "#f6d59c"
       },
       "dailyWalkDay": 704,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “the Hebrew word is shalom: not only calm, but wholeness— what the hermits went looking for in the desert, and found in his eyes.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “the Hebrew word is shalom: not only calm, but wholeness— what the hermits went looking for in the desert, and found in his eyes.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "找到平安的人",
+      "zh_poem": "他们担心\n越过小妹妹：\n她是一堵墙吗？\n她是一扇门吗？\n\n现在成长的灵魂回答道：\n我保留了自己。\n\n并在他眼中\n我找到了平静。\n\n希伯来语单词是shalom：\n不仅平静，\n但完整性——\n\n隐士们在寻找什么\n在沙漠中，\n并发现\n在他眼里。",
+      "zh_reflectionPrompt": "慢慢地吸一口气，再读一遍最后一行：“希伯来语单词是shalom：不仅是平静，而且是完整——隐士们在沙漠中寻找的东西，并在他的眼睛里找到了。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“然后我在他眼里就像一个找到了平静的人。”",
+      "zh_ref": "雅歌 8:8–10"
     },
     {
       "n": 32,
@@ -720,7 +887,15 @@
         "accent": "#f7eab9"
       },
       "dailyWalkDay": 705,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “the song ends without an ending: come quickly, like a gazelle on the mountains.” Looking through the lens of Song of Songs 8:13–14, what does it mean to discover that “and the soul keeps running”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “the song ends without an ending: come quickly, like a gazelle on the mountains.” Looking through the lens of Song of Songs 8:13–14, what does it mean to discover that “and the soul keeps running”?",
+      "zh_title": "来吧",
+      "zh_poem": "歌曲结束\n没有结局：\n快来，\n像瞪羚一样\n在山上。\n\n尼萨的格雷戈里说\n爱神的灵魂\n永远不会到达他的尽头——\n\n每次到达\n是一个新的开始，\n每一个发现\n一种新的寻求。\n\n所以歌曲结束了\n就像圣经那样：\n来吧。\n\n和灵魂\n继续运行。",
+      "zh_reflectionPrompt": "想象一下某个季节，你体会到“曲终人散，快来吧，像山上的瞪羚”的感觉。透过雅歌 8 章 13-14 节的镜头，发现“灵魂不断奔跑”意味着什么？",
+      "zh_epigraph": "“走开，我的爱人！像香料山上的羚羊或小雄鹿一样！”",
+      "zh_ref": "雅歌 8:13–14"
     }
-  ]
+  ],
+  "zh_title": "众水不能熄灭",
+  "zh_subtitle": "雅歌诗画集",
+  "zh_beforeYouBegin": "《雅歌》是一首情歌，十五个多世纪以来，基督徒也将其视为一首表达灵魂对上帝之爱的歌曲。沙漠之父们在牢房里慢慢地读着这本书。奥利金、尼萨的格列高利、克莱尔沃的伯纳德、阿维拉的特蕾莎和十字架的约翰在其中听到了祈祷的整个过程：夜间的寻求，上帝似乎消失的黑暗季节，爱的伤口，以及对上帝永不结束的渴望。\n\n这本书用三十二首短诗，分为四个部分，以那些沉思者的方式阅读它。每首诗都位于一幅画旁边和一行经文之下。\n\n这些诗不是圣经。它们是读者对此的回应，具有悠久的传统。与这本书一起打开《雅歌》，让真话来定论。"
 }

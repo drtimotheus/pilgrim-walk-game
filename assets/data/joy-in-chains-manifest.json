@@ -16,7 +16,10 @@
       "epigraph": "For to me to live is Christ, and to die is gain.",
       "epigraphRef": "Philippians 1:21",
       "lightName": "Light of Joy in Chains",
-      "lightHint": "Near 'the first day' (Philippians 1:3) in Part 1: Joy in Chains"
+      "lightHint": "Near 'the first day' (Philippians 1:3) in Part 1: Joy in Chains",
+      "zh_title": "锁链中的喜乐",
+      "zh_epigraph": "因我活着就是基督，我死了就有益处。",
+      "zh_epigraphRef": "腓立比书 1:21"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "but emptied himself, taking the form of a servant",
       "epigraphRef": "Philippians 2:7",
       "lightName": "Light of The Way Down",
-      "lightHint": "Near 'the pulled-out chair' (Philippians 2:3–4) in Part 2: The Way Down"
+      "lightHint": "Near 'the pulled-out chair' (Philippians 2:3–4) in Part 2: The Way Down",
+      "zh_title": "降卑之路",
+      "zh_epigraph": "反倒虚己，取了奴仆的形像",
+      "zh_epigraphRef": "腓立比书 2:7"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "I press on toward the goal for the prize of the high calling of God in Christ Jesus.",
       "epigraphRef": "Philippians 3:14",
       "lightName": "Light of Pressing On",
-      "lightHint": "Near 'credentials' (Philippians 3:5–7) in Part 3: Pressing On"
+      "lightHint": "Near 'credentials' (Philippians 3:5–7) in Part 3: Pressing On",
+      "zh_title": "向着标竿直跑",
+      "zh_epigraph": "向着标竿直跑，要得神在基督耶稣里从上面召我来得的奖赏。",
+      "zh_epigraphRef": "腓立比书 3:14"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.",
       "epigraphRef": "Philippians 4:7",
       "lightName": "Light of Peace on Guard",
-      "lightHint": "Near 'two names' (Philippians 4:2–3) in Part 4: Peace on Guard"
+      "lightHint": "Near 'two names' (Philippians 4:2–3) in Part 4: Peace on Guard",
+      "zh_title": "平安如戍卫",
+      "zh_epigraph": "神所赐出人意外的平安，必在基督耶稣里保守你们的心怀意念。",
+      "zh_epigraphRef": "腓立比书 4:7"
     }
   ],
   "paintings": [
@@ -69,7 +81,12 @@
         "accent": "#f1e2bf"
       },
       "dailyWalkDay": 1316,
-      "reflectionPrompt": "In Philippians 1:3, grace meets us right beside the moving water: how does the closing thought—“and years later, in chains, far away, he still remembers the first day”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Philippians 1:3, grace meets us right beside the moving water: how does the closing thought—“and years later, in chains, far away, he still remembers the first day”—steady your footing for the road ahead?",
+      "zh_title": "头一天",
+      "zh_poem": "一切始于城门外的\n河畔——\n几个妇人，一个安息日，\n一个带着故事远道而来的异乡人。\n\n一个卖紫色布匹的妇人，\n在敞开家门之前，\n先敞开了心门。\n\n教会就是这样开始的：\n不是始于一座殿宇，\n乃是始于一张为过路人\n摆设的饭桌。\n\n许多年后，\n在遥远之地，身戴锁链，\n他依然记得\n那头一天。",
+      "zh_reflectionPrompt": "在腓立比书 1:3 中，恩典就在潺潺流水旁迎见我们：结尾的思索——“许多年后，在遥远之地，身戴锁链，他依然记得那头一天”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“我每逢想念你们，就感谢我的神”",
+      "zh_ref": "腓立比书 1:3"
     },
     {
       "n": 2,
@@ -90,7 +107,12 @@
         "accent": "#e0d5b7"
       },
       "dailyWalkDay": 1317,
-      "reflectionPrompt": "If today’s painting of “unfinished” (Philippians 1:6) hung beside the door you walk out of this morning, how would its final line—“what he started in you he means to finish”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “unfinished” (Philippians 1:6) hung beside the door you walk out of this morning, how would its final line—“what he started in you he means to finish”—shape your choices?",
+      "zh_title": "未竟之工",
+      "zh_poem": "窑匠绝不会把一只\n在转轮上只抟了一半的陶碗丢下，\n便转身离去。\n\n你不是\n半途废弃的工程，\n不是塞进抽屉的草稿，\n也不是任凭荒芜的园子。\n\n他的双手依然湿润。\n陶轮依然在旋转。\n\n他在你心里动了的善工，\n他定意要成全到底。",
+      "zh_reflectionPrompt": "如果今天这幅《未竟之工》（腓立比书 1:6）就挂在你清晨出门的门旁，它最后那句——“他在你心里动了的善工，他定意要成全到底”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“那在你们心里动了善工的，必成全这工”",
+      "zh_ref": "腓立比书 1:6"
     },
     {
       "n": 3,
@@ -111,7 +133,12 @@
         "accent": "#f0c685"
       },
       "dailyWalkDay": 1318,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Philippians 1:7)—where in your own home or work today does “he writes your names the way other men count coins” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Philippians 1:7)—where in your own home or work today does “he writes your names the way other men count coins” ring true?",
+      "zh_title": "最沉重的事物",
+      "zh_poem": "手腕上戴着铁链，\n身旁站着看守的兵丁，\n油灯渐渐微暗——\n\n然而，\n他身上所怀揣最沉重的，\n却是爱。\n\n他一一写下你们的名字，\n如同别人\n数算珍贵的钱币。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（腓立比书 1:7）——今天在你的家中或工作里，何处让你真切体会到“他一一写下你们的名字，如同别人数算珍贵的钱币”？",
+      "zh_epigraph": "“因为你们常在我心里”",
+      "zh_ref": "腓立比书 1:7"
     },
     {
       "n": 4,
@@ -132,7 +159,12 @@
         "accent": "#f5ecdc"
       },
       "dailyWalkDay": 1319,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “what was meant to stop the message became the room where it was told.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “what was meant to stop the message became the room where it was told.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "御营全军",
+      "zh_poem": "他们把一个兵丁锁在他身旁，\n接着换一个，\n又换一个，\n以为这样便锁住了他。\n\n但一个与保罗锁在一起的人，\n无处可去，\n唯有倾听。\n\n一个接一个，\n换岗归家的卫兵\n带走的比来时更多。\n\n那原本用来拦阻信息的捆锁，\n反倒成了传讲信息的\n屋宇。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“那原本用来拦阻信息的捆锁，反倒成了传讲信息的屋宇。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“以致我受的捆锁，在御营全军和其余的人中，已经显明是为基督的缘故。”",
+      "zh_ref": "腓立比书 1:13"
     },
     {
       "n": 5,
@@ -153,7 +185,12 @@
         "accent": "#f4e4be"
       },
       "dailyWalkDay": 1320,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “some sowed out of envy, some out of love.” Looking through the lens of Philippians 1:18, what does it mean to discover that “there is a freedom in caring more that the name is spoken than who gets credit for speaking it”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “some sowed out of envy, some out of love.” Looking through the lens of Philippians 1:18, what does it mean to discover that “there is a freedom in caring more that the name is spoken than who gets credit for speaking it”?",
+      "zh_title": "谁的手",
+      "zh_poem": "有人撒种是出于嫉妒，\n有人是出于爱心。\n泥土从不追问\n抛出种子的是谁的手。\n\n他本可以计较得失。\n他却选择继续欢喜。\n\n只要那尊贵之名被传开，\n便不在意是谁得了称赞——\n这样的心怀里，\n藏着真正的自由。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“有人撒种是出于嫉妒，有人是出于爱心”的处境。透过腓立比书 1:18 的眼光，发现“只要那尊贵之名被传开，便不在意是谁得了称赞——这样的心怀里，藏着真正的自由”，对你而言意味着什么？",
+      "zh_epigraph": "“究竟基督是被传开了。为此，我就欢喜，并且还要欢喜。”",
+      "zh_ref": "腓立比书 1:18"
     },
     {
       "n": 6,
@@ -174,7 +211,12 @@
         "accent": "#f2c887"
       },
       "dailyWalkDay": 1321,
-      "reflectionPrompt": "Look closely at the open threshold in this painting (Philippians 1:21–23)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the open threshold in this painting (Philippians 1:21–23)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "两扇门",
+      "zh_poem": "他站在两扇门之间——\n\n一扇通往天家，\n一扇通回劳碌的工场。\n\n留下，便成就工夫的果子。\n离世，便与基督同在。\n\n无论哪一边，他都被稳稳托住。\n\n对于一个\n已经白白得着一切的人，\n你还能从他手里\n夺走什么呢？",
+      "zh_reflectionPrompt": "细看这幅画中（腓立比书 1:21–23）敞开的门槛——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“因我活着就是基督，我死了就有益处。”",
+      "zh_ref": "腓立比书 1:21–23"
     },
     {
       "n": 7,
@@ -195,7 +237,12 @@
         "accent": "#ebd7b3"
       },
       "dailyWalkDay": 1322,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open window facing home: what quiet prayer rises in you when you read, “it is a turning of the head— away from the mirror, toward the window”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open window facing home: what quiet prayer rises in you when you read, “it is a turning of the head— away from the mirror, toward the window”?",
+      "zh_title": "拉开的椅子",
+      "zh_poem": "谦卑是细微的工夫：\n在自己落座之前\n先替别人拉开椅子，\n留意谁还没有吃饱，\n让别人的故事\n先被倾听。\n\n那是轻轻一转头——\n从镜子前移开目光，\n望向窗外。",
+      "zh_reflectionPrompt": "让目光停留在那扇朝向家园的敞窗四周的笔触与光影上：当你读到“那是轻轻一转头——从镜子前移开目光，望向窗外”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“只要存心谦卑，各人看别人比自己强。”",
+      "zh_ref": "腓立比书 2:3–4"
     },
     {
       "n": 8,
@@ -216,7 +263,12 @@
         "accent": "#fcf3e0"
       },
       "dailyWalkDay": 1323,
-      "reflectionPrompt": "Linger with the movement in “the way down” (Philippians 2:6–8) from “every other god climbed” to “the way to know him is the same way down”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the way down” (Philippians 2:6–8) from “every other god climbed” to “the way to know him is the same way down”—where do you find yourself along that arc today?",
+      "zh_title": "降卑之路",
+      "zh_poem": "世上一切的假神，\n都往高处攀爬。\n\n惟独这一位\n走下台阶——\n越过宝座，\n越过冠冕，\n越过遥不可及的威严，\n\n俯身来到水盆旁，\n拿起手巾，\n挨近我们脚上的尘土，\n\n甚至降得更低，\n直到城墙外山冈上的\n木头十字架。\n\n认识他的路，\n正是同一条降卑的路。",
+      "zh_reflectionPrompt": "在《降卑之路》（腓立比书 2:6–8）中静心流连，从“世上一切的假神，都往高处攀爬”到“认识他的路，正是同一条降卑的路”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“反倒虚己，取了奴仆的形像”",
+      "zh_ref": "腓立比书 2:6–8"
     },
     {
       "n": 9,
@@ -237,7 +289,12 @@
         "accent": "#eed49f"
       },
       "dailyWalkDay": 1324,
-      "reflectionPrompt": "Notice how “the field bows” (Philippians 2:10–11) arrives at: “one day every knee— in heaven, on earth, and under it— the proud, the tired, the ones who never believed it would come to this— and every tongue will say his name the way the field says wind.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “the field bows” (Philippians 2:10–11) arrives at: “one day every knee— in heaven, on earth, and under it— the proud, the tired, the ones who never believed it would come to this— and every tongue will say his name the way the field says wind.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "麦田俯伏",
+      "zh_poem": "风吹过麦田，\n整片田野便一同\n低头俯伏。\n\n无人发令催促。\n它只是自然知晓\n风从何处吹来。\n\n终有一日，\n万膝都要跪拜——\n天上的、地上的，\n和地底下的——\n\n狂傲的、困倦的，\n以及那些从不相信\n这一天终会临到的——\n\n万口都要称颂他的名，\n如同麦田应和着风声。",
+      "zh_reflectionPrompt": "留意《麦田俯伏》（腓立比书 2:10–11）如何落脚于：“终有一日，万膝都要跪拜……万口都要称颂他的名，如同麦田应和着风声。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“叫一切在天上的、地上的，和地底下的，因耶稣的名无不屈膝”",
+      "zh_ref": "腓立比书 2:10–11"
     },
     {
       "n": 10,
@@ -258,7 +315,12 @@
         "accent": "#bd8b46"
       },
       "dailyWalkDay": 1325,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Philippians 2:14–15: “let the argument go cold. tend the small flame”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Philippians 2:14–15: “let the argument go cold. tend the small flame”?",
+      "zh_title": "一扇窗里的灯",
+      "zh_poem": "你不必非作一座灯塔不可。\n\n暗夜长街上，\n一扇窗里亮着的一盏灯，\n对于今夜走在回家路上的人，\n便已足够。\n\n所以，放下怨言吧。\n让争辩渐渐冷却。\n安心看守那朵小小的火苗。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是腓立比书 2:14–15 那安静的教训：“让争辩渐渐冷却。安心看守那朵小小的火苗”——这会带给你怎样的看见？",
+      "zh_epigraph": "“你们显在这世代中，好像明光照耀”",
+      "zh_ref": "腓立比书 2:14–15"
     },
     {
       "n": 11,
@@ -279,7 +341,12 @@
         "accent": "#dfd2b1"
       },
       "dailyWalkDay": 1326,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “poured out”: what hurry or noise in your week begins to fade when you hear, “he called it joy, and asked us to rejoice with him”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “poured out”: what hurry or noise in your week begins to fade when you hear, “he called it joy, and asked us to rejoice with him”?",
+      "zh_title": "被浇奠",
+      "zh_poem": "有些人生被珍藏着，\n如同酒窖里的美酒，\n封存完好，安稳无虞。\n\n他的一生却被倾倒出来——\n毫无保留，\n浇奠在众人信心的\n祭物之上。\n\n他不称此为枉费。\n他称之为喜乐，\n并请我们\n与他一同欢喜。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在《被浇奠》那宁静的画面中心旁：当你听见“他称之为喜乐，并请我们与他一同欢喜”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“我以你们的信心为供献的祭物，我若被浇奠在其上，也是喜乐”",
+      "zh_ref": "腓立比书 2:17"
     },
     {
       "n": 12,
@@ -300,7 +367,12 @@
         "accent": "#e8d2a7"
       },
       "dailyWalkDay": 1327,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and the friend who waited was healed too.” What part of your heart feels most searched or comforted by Philippians 2:27 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and the friend who waited was healed too.” What part of your heart feels most searched or comforted by Philippians 2:27 right now?",
+      "zh_title": "忧上加忧",
+      "zh_poem": "以巴弗提带着馈赠远道而来，\n却险些无法活着回去。\n\n异乡城里的热病。\n守在床前的挚友，\n正强忍着忧上加忧的\n沉重煎熬。\n\n随后——怜恤临到。\n高热退去了。\n\n有时候，神迹\n并非沧海分开，\n而是一个人在病榻上坐起身来，\n开口要一点饼吃。\n\n而那位在旁守候的朋友，\n也一同得了医治。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“而那位在旁守候的朋友，也一同得了医治。”此刻，你的心哪一部分最被腓立比书 2:27 鉴察，或得着安慰？",
+      "zh_epigraph": "“然而神怜恤他，不但怜恤他，也怜恤我，免得我忧上加忧。”",
+      "zh_ref": "腓立比书 2:27"
     },
     {
       "n": 13,
@@ -321,7 +393,12 @@
         "accent": "#e6d3a9"
       },
       "dailyWalkDay": 1328,
-      "reflectionPrompt": "In Philippians 3:5–7, grace meets us right beside the quiet centerpiece of “credentials”: how does the closing thought—“then he met the One who didn't need it— and folded it up like an old receipt, and let it go”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Philippians 3:5–7, grace meets us right beside the quiet centerpiece of “credentials”: how does the closing thought—“then he met the One who didn't need it— and folded it up like an old receipt, and let it go”—steady your footing for the road ahead?",
+      "zh_title": "资历",
+      "zh_poem": "第八天受割礼。\n便雅悯支派。\n希伯来人所生的希伯来人。\n法利赛人。热心逼迫教会。律法上的义无可指摘。\n\n他曾拥有一份\n令任何厅堂都肃然起敬的履历。\n\n直到他遇见那位\n根本不需要这些的主——\n\n便将它折起，\n如同一张过期的旧收据，\n随手放下了。",
+      "zh_reflectionPrompt": "在腓立比书 3:5–7 中，恩典就在《资历》那宁静的画面中心迎见我们：结尾的思索——“直到他遇见那位根本不需要这些的主——便将它折起，如同一张过期的旧收据，随手放下了”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“只是我先前以为与我有益的，我现在因基督都当作有损的。”",
+      "zh_ref": "腓立比书 3:5–7"
     },
     {
       "n": 14,
@@ -342,7 +419,12 @@
         "accent": "#ecdfba"
       },
       "dailyWalkDay": 1329,
-      "reflectionPrompt": "If today’s painting of “the trade” (Philippians 3:8–9) hung beside the door you walk out of this morning, how would its final line—“I would not trade back. not for the whole of it”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the trade” (Philippians 3:8–9) hung beside the door you walk out of this morning, how would its final line—“I would not trade back. not for the whole of it”—shape your choices?",
+      "zh_title": "那场交换",
+      "zh_poem": "有一个人变卖一切，\n只为买下一块田地。\n邻舍都笑他愚拙，\n直到他们看见田里藏着的宝贝。\n\n这便是那场交换：\n用我全部的自诩光彩，\n换取由他而来的义；\n用我全部的挣扎苦修，\n换取他白白的恩赐。\n\n我绝不换回从前。\n哪怕给我全世界，\n哪怕给我万事万物，也不换。",
+      "zh_reflectionPrompt": "如果今天这幅《那场交换》（腓立比书 3:8–9）就挂在你清晨出门的门旁，它最后那句——“我绝不换回从前。哪怕给我全世界，哪怕给我万事万物，也不换”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“我也将万事当作有损的，因我以认识我主基督耶稣为至宝。”",
+      "zh_ref": "腓立比书 3:8–9"
     },
     {
       "n": 15,
@@ -363,7 +445,12 @@
         "accent": "#fefae5"
       },
       "dailyWalkDay": 1330,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Philippians 3:10)—where in your own home or work today does “there is no Easter morning that does not pass through Friday” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Philippians 3:10)—where in your own home or work today does “there is no Easter morning that does not pass through Friday” ring true?",
+      "zh_title": "使我认识基督",
+      "zh_poem": "不是仅仅风闻他的事。\n乃是亲身认识他——\n\n如同你在暗夜里\n认出一个熟悉的声音，\n如同你认出\n轻轻搭在肩头的那只手。\n\n晓得那辊开墓石的\n复活大能，\n也晓得那先经受伤痕的\n一同受苦。\n\n没有一个复活的清晨，\n不曾先穿过\n受难的周五。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（腓立比书 3:10）——今天在你的家中或工作里，何处让你真切体会到“没有一个复活的清晨，不曾先穿过受难的周五”？",
+      "zh_epigraph": "“使我认识基督，晓得他复活的大能”",
+      "zh_ref": "腓立比书 3:10"
     },
     {
       "n": 16,
@@ -384,7 +471,12 @@
         "accent": "#fbdebe"
       },
       "dailyWalkDay": 1331,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “my grip is weak. his is not.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “my grip is weak. his is not.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "被基督耶稣所要着",
+      "zh_poem": "我还没有得着。\n我也绝不假装自己已经完全。\n\n但在这句话的中间，\n藏着这样一个好消息：\n\n我之所以伸手追求他，\n是因为他早已先\n伸手得着了我。\n\n我握得软弱无力。\n他却握得稳固。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“我握得软弱无力。他却握得稳固。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“我乃是竭力追求，或者可以得着基督耶稣所以得着我的。”",
+      "zh_ref": "腓立比书 3:12"
     },
     {
       "n": 17,
@@ -405,7 +497,12 @@
         "accent": "#f1e5cb"
       },
       "dailyWalkDay": 1332,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “the runner does not look back at the stadium dust or count the stumbles.” Looking through the lens of Philippians 3:13–14, what does it mean to discover that “the finish where he stands waiting”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “the runner does not look back at the stadium dust or count the stumbles.” Looking through the lens of Philippians 3:13–14, what does it mean to discover that “the finish where he stands waiting”?",
+      "zh_title": "只有一件事",
+      "zh_poem": "赛跑的人绝不回头\n张望跑道上的尘土，\n也不去数算刚才的踉跄。\n\n目光向前。\n双臂舒展。\n胸膛炽热。\n\n旧日的失败，\n旧日的奖杯——\n全都一同抛在\n身后的跑道上。\n\n只有一件事。\n从上面来的呼召。\n那终点线前，\n他正站着等候。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“赛跑的人绝不回头张望跑道上的尘土，也不去数算刚才的踉跄”的感受。透过腓立比书 3:13–14 的眼光，发现“那终点线前，他正站着等候”，对你而言意味着什么？",
+      "zh_epigraph": "“忘记背后，努力面前的”",
+      "zh_ref": "腓立比书 3:13–14"
     },
     {
       "n": 18,
@@ -426,7 +523,12 @@
         "accent": "#fdde9f"
       },
       "dailyWalkDay": 1333,
-      "reflectionPrompt": "Look closely at the city gate in this painting (Philippians 3:20)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the city gate in this painting (Philippians 3:20)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "天上的国民",
+      "zh_poem": "腓立比城向来引以为傲，\n自诩为一处小罗马——\n罗马的大道，罗马的律法，\n城门上刻着罗马的名号。\n\n他却写信对他们说：\n你们属于另一座城。\n\n所以，像客旅那样生活吧——\n深爱所居之地，\n却常留一只眼睛\n望向东边的长路，\n\n等候那位君王\n归来。",
+      "zh_reflectionPrompt": "细看这幅画中（腓立比书 3:20）的城门——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“我们却是天上的国民”",
+      "zh_ref": "腓立比书 3:20"
     },
     {
       "n": 19,
@@ -447,7 +549,12 @@
         "accent": "#d7b485"
       },
       "dailyWalkDay": 1334,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the name by which He calls you: what quiet prayer rises in you when you read, “hard to hold a grudge against someone on the same page of the book of life”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the name by which He calls you: what quiet prayer rises in you when you read, “hard to hold a grudge against someone on the same page of the book of life”?",
+      "zh_title": "两个名字",
+      "zh_poem": "友阿爹。循都基。\n两个曾并肩同工的妇人，\n如今却无法共处一室。\n\n他没有偏帮哪一方。\n他一一叫出她们的名字，\n并提醒她们：\n她们的名字写在哪里。\n\n当两个人的名字\n同写在生命册的同一页上，\n便很难再对彼此\n怀恨在心了。",
+      "zh_reflectionPrompt": "让目光停留在他呼唤你的那个名字四周的笔触与光影上：当你读到“当两个人的名字同写在生命册的同一页上，便很难再对彼此怀恨在心了”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“她们的名字都在生命册上。”",
+      "zh_ref": "腓立比书 4:2–3"
     },
     {
       "n": 20,
@@ -468,7 +575,12 @@
         "accent": "#f5ebbf"
       },
       "dailyWalkDay": 1335,
-      "reflectionPrompt": "Linger with the movement in “twice” (Philippians 4:4) from “he said it twice because he knew we would not believe it the first time” to “rejoice. I'll say it again”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “twice” (Philippians 4:4) from “he said it twice because he knew we would not believe it the first time” to “rejoice. I'll say it again”—where do you find yourself along that arc today?",
+      "zh_title": "我再说",
+      "zh_poem": "他一连说了两次，\n因为他知道\n他头一次说的时候，\n我们未必敢信。\n\n这话写自一间囚室。\n不是在获释之后——\n乃是在获释之前。\n\n喜乐并非阴晴不定的天气。\n喜乐是风雨背后\n那片不动摇的天空。\n\n你们要喜乐。\n我再说，你们要喜乐。",
+      "zh_reflectionPrompt": "在《我再说》（腓立比书 4:4）中静心流连，从“他一连说了两次，因为他知道他头一次说的时候，我们未必敢信”到“你们要喜乐。我再说，你们要喜乐”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“你们要靠主常常喜乐！我再说，你们要喜乐！”",
+      "zh_ref": "腓立比书 4:4"
     },
     {
       "n": 21,
@@ -489,7 +601,12 @@
         "accent": "#deb87e"
       },
       "dailyWalkDay": 1336,
-      "reflectionPrompt": "Notice how “the sentry” (Philippians 4:6–7) arrives at: “say thank you somewhere in it. then lie down.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “the sentry” (Philippians 4:6–7) arrives at: “say thank you somewhere in it. then lie down.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "哨兵",
+      "zh_poem": "腓立比人熟知兵丁——\n城门口军靴踏地的声响，\n深夜里换岗的守望。\n\n于是他借用了他们熟悉的词：\n平安必站岗戍卫。\n\n平安不是毫无患难，\n而是你心门口的一名哨兵，\n在你安睡时依然警醒守夜。\n\n所以，将万事都告诉他吧。\n整张清单都交给他。\n在其中不忘说一声感谢。\n然后，安心躺下吧。",
+      "zh_reflectionPrompt": "留意《哨兵》（腓立比书 4:6–7）如何落脚于：“在其中不忘说一声感谢。然后，安心躺下吧。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“神所赐出人意外的平安，必在基督耶稣里保守你们的心怀意念。”",
+      "zh_ref": "腓立比书 4:6–7"
     },
     {
       "n": 22,
@@ -510,7 +627,12 @@
         "accent": "#f7db9d"
       },
       "dailyWalkDay": 1337,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Philippians 4:8: “think about these. let them furnish you”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Philippians 4:8: “think about these. let them furnish you”?",
+      "zh_title": "心怀的四壁",
+      "zh_poem": "心意是一间屋子。\n由你决定\n在四壁上悬挂什么。\n\n所以，挂上那些真实的事物吧——\n可敬的、公义的、\n清洁的、可爱的，\n\n孩童的一声欢笑，\n刚出炉的热饼，\n山冈上最后一抹余晖。\n\n这些事你们都要思念。\n让它们陈设在你的心房里。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是腓立比书 4:8 那安静的教训：“这些事你们都要思念。让它们陈设在你的心房里”——这会带给你怎样的看见？",
+      "zh_epigraph": "“凡是可爱的，凡有美名的，若有什么德行，若有什么称赞，这些事你们都要思念。”",
+      "zh_ref": "腓立比书 4:8"
     },
     {
       "n": 23,
@@ -531,7 +653,12 @@
         "accent": "#f2e5cf"
       },
       "dailyWalkDay": 1338,
-      "reflectionPrompt": "Imagine standing inside this frame beside the stones of the wall: what hurry or noise in your week begins to fade when you hear, “that is the secret: not more, but him”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the stones of the wall: what hurry or noise in your week begins to fade when you hear, “that is the secret: not more, but him”?",
+      "zh_title": "秘诀",
+      "zh_poem": "那句常被贴在墙上的经文，\n起初是由一个\n饥肠辘辘的人写下的。\n\n我凡事都能做——\n无论是饱足，\n是缺乏，\n是在看守下入睡，\n还是捧着借来的碗吃饭——\n\n并非因为我刚强，\n乃是因为他刚强，\n无论在有余还是缺乏之中，\n他都在这里。\n\n这便是那秘诀：\n不是得着更多，\n乃是得着他。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在石墙旁：当你听见“这便是那秘诀：不是得着更多，乃是得着他”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“或饱足，或饥饿；或有余，或缺乏，随事随在，我都得了秘诀。”",
+      "zh_ref": "腓立比书 4:11–13"
     },
     {
       "n": 24,
@@ -552,7 +679,15 @@
         "accent": "#e0d3b6"
       },
       "dailyWalkDay": 1339,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “and so the letter ends the way it began— with grace, left on the table for all of you, like bread still warm.” What part of your heart feels most searched or comforted by Philippians 4:18–23 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “and so the letter ends the way it began— with grace, left on the table for all of you, like bread still warm.” What part of your heart feels most searched or comforted by Philippians 4:18–23 right now?",
+      "zh_title": "极美的香气",
+      "zh_poem": "一间小小的教会，\n托一个疲惫的使者，\n送来一份小小的馈赠。\n\n天上闻见了，\n竟如馨香的祭物。\n\n在天上，凡出于爱所献的，\n没有一样是微小的。\n\n于是这封信在结尾处，\n一如它开篇之时——\n停留在恩典中，\n\n留在桌上\n赐给你们众人，\n如同一块尚存余温的\n热饼。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“于是这封信在结尾处，一如它开篇之时——停留在恩典中，留在桌上赐给你们众人，如同一块尚存余温的热饼。”此刻，你的心哪一部分最被腓立比书 4:18–23 鉴察，或得着安慰？",
+      "zh_epigraph": "“当作极美的香气，为神所收纳、所喜悦的祭物。”",
+      "zh_ref": "腓立比书 4:18–23"
     }
-  ]
+  ],
+  "zh_title": "锁链中的喜乐",
+  "zh_subtitle": "腓立比书诗画集",
+  "zh_beforeYouBegin": "保罗在看守之中写下《腓立比书》，这却是他所写过最满溢喜乐的一封信。\n\n本书以二十四首短诗，伴你走过它的四章经文。每首诗皆配有一幅画作，并置于一句经文之下，好叫你可以在一个夜晚通读全书，或是在每个清晨细读一页。\n\n这些诗并非圣经本身，只是一个读经之人的心灵回响。请翻开这封书信，与本书一同阅读，让神真实的话语作最终的定音。"
 }

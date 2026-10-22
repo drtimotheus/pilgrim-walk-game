@@ -16,7 +16,10 @@
       "epigraph": "Holy, holy, holy, is Yahweh of Armies! The whole earth is full of his glory!",
       "epigraphRef": "Isaiah 6:3",
       "lightName": "Light of Holy, Holy, Holy",
-      "lightHint": "Near 'white as snow' (Isaiah 1:18) in Part 1: Holy, Holy, Holy"
+      "lightHint": "Near 'white as snow' (Isaiah 1:18) in Part 1: Holy, Holy, Holy",
+      "zh_title": "圣哉圣哉圣哉",
+      "zh_epigraph": "圣哉，圣哉，圣哉，万军之耶和华！全地都充满了他的荣耀！",
+      "zh_epigraphRef": "以赛亚书 6:3"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "The desert will rejoice and blossom like a rose.",
       "epigraphRef": "Isaiah 35:1",
       "lightName": "Light of Blossom in the Desert",
-      "lightHint": "Near 'the feast on the mountain' (Isaiah 25:6–8) in Part 2: Blossom in the Desert"
+      "lightHint": "Near 'the feast on the mountain' (Isaiah 25:6–8) in Part 2: Blossom in the Desert",
+      "zh_title": "沙漠中的花朵",
+      "zh_epigraph": "沙漠将会像玫瑰一样欣欣向荣、绽放。",
+      "zh_epigraphRef": "以赛亚书 35:1"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Don’t you be afraid, for I am with you.",
       "epigraphRef": "Isaiah 41:10",
       "lightName": "Light of Comfort",
-      "lightHint": "Near 'comfort' (Isaiah 40:1–2) in Part 3: Comfort"
+      "lightHint": "Near 'comfort' (Isaiah 40:1–2) in Part 3: Comfort",
+      "zh_title": "舒适",
+      "zh_epigraph": "你不要害怕，因为我与你同在。",
+      "zh_epigraphRef": "以赛亚书 41:10"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "by his wounds we are healed.",
       "epigraphRef": "Isaiah 53:5",
       "lightName": "Light of The Servant",
-      "lightHint": "Near 'can a mother forget?' (Isaiah 49:14–15) in Part 4: The Servant"
+      "lightHint": "Near 'can a mother forget?' (Isaiah 49:14–15) in Part 4: The Servant",
+      "zh_title": "仆人",
+      "zh_epigraph": "因他的鞭伤，我们得医治。",
+      "zh_epigraphRef": "以赛亚书 53:5"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "behold, I create new heavens and a new earth",
       "epigraphRef": "Isaiah 65:17",
       "lightName": "Light of Arise, Shine",
-      "lightHint": "Near 'a watered garden' (Isaiah 58:10–11) in Part 5: Arise, Shine"
+      "lightHint": "Near 'a watered garden' (Isaiah 58:10–11) in Part 5: Arise, Shine",
+      "zh_title": "兴起，闪耀",
+      "zh_epigraph": "看哪，我创造了新天新地",
+      "zh_epigraphRef": "以赛亚书 65:17"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#deceaa"
       },
       "dailyWalkDay": 706,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “white as snow” in this painting (Isaiah 1:18)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “white as snow” in this painting (Isaiah 1:18)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "白如雪",
+      "zh_poem": "来吧，\n让我们来谈谈这个问题\n神说。\n\n远方并没有传来判决的声音。\n邀请函\n一起坐下来。\n\n你的罪孽如猩红，\n永不褪色的染料——\n\n白如雪。\n洁白如新羊毛。\n\n他确实\n什么都没有洗就可以了。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的中心画“洁白如雪”（《以赛亚书》1:18）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“虽然你的罪孽如猩红，但它们必将变得洁白如雪。”",
+      "zh_ref": "以赛亚书 1:18"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#db964e"
       },
       "dailyWalkDay": 707,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “plowshares”: what quiet prayer rises in you when you read, “and nobody will learn war anymore. it's still on the anvil”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “plowshares”: what quiet prayer rises in you when you read, “and nobody will learn war anymore. it's still on the anvil”?",
+      "zh_title": "犁头",
+      "zh_poem": "有一天\n铁匠们会很忙\n反过来说——\n\n剑\n变成犁，\n矛\n放入修剪钩中。\n\n没有人\n将学习战争\n不再了。\n\n这还没有发生。\n仍然是\n在铁砧上。",
+      "zh_reflectionPrompt": "让你的目光停留在“犁头”安静中心周围的笔触和光线上：当你读到“没有人会再学习战争。它仍然在铁砧上”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“他们要把刀打成犁头，把矛打成镰刀。”",
+      "zh_ref": "以赛亚书 2:2–4"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#f5e9d3"
       },
       "dailyWalkDay": 708,
-      "reflectionPrompt": "Linger with the movement in “undone” (Isaiah 6:1–7) from “he saw the Lord— high and lifted up, the hem of his robe filling the temple, the doorposts shaking, the house full of smoke, holy, holy, holy— and the prophet fell apart” to “being undone came before being sent”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “undone” (Isaiah 6:1–7) from “he saw the Lord— high and lifted up, the hem of his robe filling the temple, the doorposts shaking, the house full of smoke, holy, holy, holy— and the prophet fell apart” to “being undone came before being sent”—where do you find yourself along that arc today?",
+      "zh_title": "未完成的",
+      "zh_poem": "他看见了主——\n高高举起，\n他长袍的下摆\n充满圣殿，\n门柱摇晃，\n满屋子烟雾缭绕，\n\n圣哉，圣哉，圣哉——\n\n和先知\n崩溃了。\n\n祸哉是我。\n我完蛋了。\n\n然后是生煤\n从祭坛上，\n抵在他的唇边：\n你的罪孽被消除了。\n\n被撤销\n之前来过\n正在发送。",
+      "zh_reflectionPrompt": "回想一下“毁灭”（以赛亚书 6：1-7）中的运动，从“他看见主——高高举起，袍子的下摆充满了圣殿，门柱摇晃，殿里充满烟雾，圣哉，圣哉，圣哉——先知就倒塌了”到“在被差遣之前就毁灭了”——今天你发现自己在这条弧线上的什么地方？",
+      "zh_epigraph": "“我有祸了！我完蛋了，因为我是一个嘴唇不洁的人”",
+      "zh_ref": "以赛亚书 6:1–7"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#f7d87a"
       },
       "dailyWalkDay": 709,
-      "reflectionPrompt": "Notice how “here I am” (Isaiah 6:8) arrives at: “send me. he knew who was asking.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “here I am” (Isaiah 6:8) arrives at: “send me. he knew who was asking.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "我在这里",
+      "zh_poem": "我该派谁去呢？\n\n不是命令。\n一个问题，\n留在房间里。\n\n和那个男人\n谁刚才被撤销了\n说：\n我在这里。\n给我。\n\n他不知道\n工作是什么？\n\n他知道\n谁在问。",
+      "zh_reflectionPrompt": "请注意“我在这里”（以赛亚书 6:8）如何表达：“请差遣我。他知道是谁在求。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“我在这里，请派我来！”",
+      "zh_ref": "以赛亚书 6:8"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#f2bc70"
       },
       "dailyWalkDay": 710,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Isaiah 7:10–14: “centuries later, another frightened world was given the same sign, and the name turned out to be a person”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Isaiah 7:10–14: “centuries later, another frightened world was given the same sign, and the name turned out to be a person”?",
+      "zh_title": "神与我们同在",
+      "zh_poem": "受惊的国王的征兆：\n一个孩子，\n和他的名字——\n\n以马内利。\n神与我们同在。\n\n几个世纪后，\n另一个恐惧的世界\n被给予相同的标志，\n\n和名字\n原来是\n一个人。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是以赛亚书 7 章 10-14 节的安静教训：“几个世纪之后，另一个令人恐惧的世界被赋予了同样的标志，而这个名字原来是一个人”，那又怎么样呢？",
+      "zh_epigraph": "“给他起名叫以马内利。”",
+      "zh_ref": "以赛亚书 7:10–14"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#fcd46a"
       },
       "dailyWalkDay": 711,
-      "reflectionPrompt": "Imagine standing inside this frame beside the cool shadow of the rock: what hurry or noise in your week begins to fade when you hear, “and Jesus began his work right there”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the cool shadow of the rock: what hurry or noise in your week begins to fade when you hear, “and Jesus began his work right there”?",
+      "zh_title": "一道伟大的光",
+      "zh_poem": "万国的加利利——\n被遗忘的北方，\n最先被征服的，\n阴影之地。\n\n那就是那里\n天会先亮。\n\n神开始\n在黑暗的角落里。\n\n耶稣开始了他的工作\n就在那里。",
+      "zh_reflectionPrompt": "想象一下站在这个框架内，旁边是岩石凉爽的影子：当你听到“耶稣就在那里开始他的工作”时，你一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“在黑暗中行走的人们看到了伟大的光明。”",
+      "zh_ref": "以赛亚书 9:1–2"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#d5b470"
       },
       "dailyWalkDay": 712,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “four names too big for a baby— and exactly right.” What part of your heart feels most searched or comforted by Isaiah 9:6–7 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “four names too big for a baby— and exactly right.” What part of your heart feels most searched or comforted by Isaiah 9:6–7 right now?",
+      "zh_title": "四个名字",
+      "zh_poem": "一个孩子。\n一个儿子。\n\n在他小小的肩膀上，\n世界政府。\n\n很棒的辅导员。\n强大的上帝。\n永远的父亲。\n和平王子。\n\n四个名字\n太大了\n对于婴儿来说——\n\n完全正确。",
+      "zh_reflectionPrompt": "在寂静中大声读出结束语：“四个名字对婴儿来说太大了——而且完全正确。”现在，以赛亚书 9 章 6 至 7 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“因为一个孩子为我们而生。一个儿子被赐给我们”",
+      "zh_ref": "以赛亚书 9:6–7"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#eadec5"
       },
       "dailyWalkDay": 713,
-      "reflectionPrompt": "In Isaiah 11:1–2, grace meets us right beside the deep roots of the tree: how does the closing thought—“God's promises grow back from what looked finished”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Isaiah 11:1–2, grace meets us right beside the deep roots of the tree: how does the closing thought—“God's promises grow back from what looked finished”—steady your footing for the road ahead?",
+      "zh_title": "拍摄",
+      "zh_poem": "大卫的家谱，\n砍成树桩。\n\n没有国王。\n没有王国。\n除了根，什么也没有剩下。\n\n然后从树桩里出来——\n一次拍摄。\n\n绿色的。\n小的。\n活。\n\n神的应许\n重新长出来\n从看起来完成的事情来看。",
+      "zh_reflectionPrompt": "在以赛亚书 11:1-2 中，恩典就在树的深处与我们相遇：最后的思想——“上帝的应许从看似完成的事情中恢复过来”——如何为你前面的道路奠定坚实的基础？",
+      "zh_epigraph": "“杰西的库存将会出一枝”",
+      "zh_ref": "以赛亚书 11:1–2"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#edddb8"
       },
       "dailyWalkDay": 714,
-      "reflectionPrompt": "If today’s painting of “the wolf and the lamb” (Isaiah 11:6–9) hung beside the door you walk out of this morning, how would its final line—“it's a promise about the whole world: no more hurting, no more destroying, on all his holy mountain”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the wolf and the lamb” (Isaiah 11:6–9) hung beside the door you walk out of this morning, how would its final line—“it's a promise about the whole world: no more hurting, no more destroying, on all his holy mountain”—shape your choices?",
+      "zh_title": "狼和羔羊",
+      "zh_poem": "狼与羊。\n豹子与山羊。\n小牛和狮子在一起，\n和一个小孩\n带领他们。\n\n听起来像是儿童画。\n\n这是一个承诺\n关于整个世界：\n\n不再受伤，\n不再破坏，\n遍及他的圣山。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“狼和羔羊”（以赛亚书 11：6-9）的画，那么它的最后一行——“这是对全世界的应许：在他的整个圣山上，不再伤害，不再毁灭”——会如何影响你的选择？",
+      "zh_epigraph": "“狼将与羔羊同居，豹子将与小山羊同眠”",
+      "zh_ref": "以赛亚书 11:6–9"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#f7e5bf"
       },
       "dailyWalkDay": 715,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Isaiah 25:6–8)—where in your own home or work today does “a host who takes care of the biggest thing and the smallest” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Isaiah 25:6–8)—where in your own home or work today does “a host who takes care of the biggest thing and the smallest” ring true?",
+      "zh_title": "山上的盛宴",
+      "zh_poem": "山上的盛宴\n为所有人民——\n丰富的食物，\n最好的酒。\n\n而在餐桌上，\n神做了两件事：\n\n吞下死亡\n永远，\n\n并擦干眼泪\n从每一张脸上。\n\n一个主机\n谁照顾\n最重要的事情\n和最小的。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（以赛亚书 25:6-8）——今天，在你自己的家里或工作场所，“有一位主人照顾最大的事和最小的事”听起来是真实的吗？",
+      "zh_epigraph": "“他已经永远吞噬了死亡！”",
+      "zh_ref": "以赛亚书 25:6–8"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#f5d48e"
       },
       "dailyWalkDay": 716,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “for the one whose mind is fixed on him.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “for the one whose mind is fixed on him.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "和平，和平",
+      "zh_poem": "完美的和平——\n在希伯来语中，\n平安，平安。\n\n平安，平安。\n说了两遍，\n因为有一次\n还不够。\n\n不适合生活平静的人。\n对于一个有思想的人\n固定在他身上。",
+      "zh_reflectionPrompt": "缓慢地吸一口气，再读一遍最后一行：“献给那些专注于他的人。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“你会让谁的心保持完全的平静，因为他信任你。”",
+      "zh_ref": "以赛亚书 26:3–4"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#e9dec3"
       },
       "dailyWalkDay": 717,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “your strength is in quietness and trust.” Looking through the lens of Isaiah 30:15–16, what does it mean to discover that “and he's still offering the harder thing: come back. be still. trust me”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “your strength is in quietness and trust.” Looking through the lens of Isaiah 30:15–16, what does it mean to discover that “and he's still offering the harder thing: come back. be still. trust me”?",
+      "zh_title": "安静",
+      "zh_poem": "你的力量\n是在安静和信任中。\n\n人们说：\n不。\n我们会骑快马。\n\n我们仍然这样做。\n\n匆忙。\n计划。\n跑步。\n\n他仍然提供\n更难的事情：\n\n回来吧。\n保持安静。\n相信我。",
+      "zh_reflectionPrompt": "回想一下某个季节，您知道“您的力量在于安静和信任”的感觉。透过以赛亚书 30:15-16 的视角，发现“他仍在提供更困难的事情：回来。保持安静。相信我”意味着什么？",
+      "zh_epigraph": "“你回去休息就会得救。”",
+      "zh_ref": "以赛亚书 30:15–16"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#f1dfb1"
       },
       "dailyWalkDay": 718,
-      "reflectionPrompt": "Look closely at the stream bank in this painting (Isaiah 32:1–2)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the stream bank in this painting (Isaiah 32:1–2)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "一块大石头的影子",
+      "zh_poem": "避风的地方。\n躲避风暴。\n干旱之地的溪流。\n一块大石头的影子\n在一个疲惫的国家。\n\n这就是一个好的统治者\n先知说。\n\n这也是\n你能成为什么\n为某人\n今天。",
+      "zh_reflectionPrompt": "仔细观察这幅画中的河岸（以赛亚书 32:1-2）——如果今天你可以在河边留下一个令人焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“就像疲倦土地上一块大岩石的阴影。”",
+      "zh_ref": "以赛亚书 32:1–2"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#eee2c7"
       },
       "dailyWalkDay": 719,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open wilderness road: what quiet prayer rises in you when you read, “God doesn't only rescue people. he rescues places”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open wilderness road: what quiet prayer rises in you when you read, “God doesn't only rescue people. he rescues places”?",
+      "zh_title": "沙漠绽放",
+      "zh_poem": "沙漠\n会很高兴。\n\n旱地\n将会绽放，\n像花一样\n第一场雨之后。\n\n神不仅拯救人。\n他救了\n地方。",
+      "zh_reflectionPrompt": "让你的目光停留在开阔的荒野道路周围的笔触和光线上：当你读到“上帝不仅拯救人们，他还拯救地方”时，你内心会升起怎样的安静的祈祷？",
+      "zh_epigraph": "“旷野和旱地都会喜乐。”",
+      "zh_ref": "以赛亚书 35:1–2"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#e2d5bb"
       },
       "dailyWalkDay": 720,
-      "reflectionPrompt": "Linger with the movement in “streams in the desert” (Isaiah 35:5–6) from “eyes opening. ears unstopped” to “when John's disciples asked who he was, Jesus pointed to lines like these”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “streams in the desert” (Isaiah 35:5–6) from “eyes opening. ears unstopped” to “when John's disciples asked who he was, Jesus pointed to lines like these”—where do you find yourself along that arc today?",
+      "zh_title": "沙漠中的溪流",
+      "zh_poem": "眼睛睁开。\n耳朵不停。\n瘸子像鹿一样跳跃。\n沉默的人在歌唱。\n\n和水破裂\n在荒野中。\n\n当约翰的门徒问\n他是谁，\n耶稣指出\n像这样的线。",
+      "zh_reflectionPrompt": "留心“沙漠中的溪流”（以赛亚书 35：5-6）中的动作，从“睁开眼睛，竖起耳朵”到“当约翰的门徒问他是谁时，耶稣指着这样的线条”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“那时，瘸子将像鹿一样跳跃，哑巴的舌头将歌唱”",
+      "zh_ref": "以赛亚书 35:5–6"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#fce4a4"
       },
       "dailyWalkDay": 721,
-      "reflectionPrompt": "Notice how “comfort” (Isaiah 40:1–2) arrives at: “her hard service is over. it's comfort, said twice.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “comfort” (Isaiah 40:1–2) arrives at: “her hard service is over. it's comfort, said twice.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "舒适度",
+      "zh_poem": "三十九章之后\n的警告，\n\n回合：\n舒适。\n安慰我的人民。\n\n说话温柔，\n下一行说——\n说出她的心声。\n\n她的艰苦服务结束了。\n\n上帝的最后一句话\n不是判断。\n是舒适感，\n说了两遍。",
+      "zh_reflectionPrompt": "请注意“安慰”（以赛亚书 40：1-2）是如何表达的：“她的艰苦服务已经结束。这就是安慰，说了两次。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“安慰，安慰我的人民”",
+      "zh_ref": "以赛亚书 40:1–2"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#e3d7b0"
       },
       "dailyWalkDay": 722,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Isaiah 40:6–8: “the flowers on your table will wither. his promise won't”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Isaiah 40:6–8: “the flowers on your table will wither. his promise won't”?",
+      "zh_title": "这个词站着",
+      "zh_poem": "一切肉体都是草，\n清晨的绿色，\n到了晚上就消失了。\n\n帝国也是如此。\n巴比伦也是。\n\n但我们神的话语\n站。\n\n你桌上的花\n会枯萎。\n他的承诺\n不会。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是以赛亚书 40:6-8 中安静的教训：“你桌上的花必枯萎，他的应许却不会”怎么办？",
+      "zh_epigraph": "“草必枯干，花必凋谢；但我们神的话语永远长存。”",
+      "zh_ref": "以赛亚书 40:6–8"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#f4e6c9"
       },
       "dailyWalkDay": 723,
-      "reflectionPrompt": "Imagine standing inside this frame beside your own two hands: what hurry or noise in your week begins to fade when you hear, “infinite power. tender pace”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside your own two hands: what hurry or noise in your week begins to fade when you hear, “infinite power. tender pace”?",
+      "zh_title": "他怀里的羔羊",
+      "zh_poem": "同一章\n测量海洋\n在他的手心里\n\n说他捡小羊\n并携带它们\n贴近他的心，\n\n慢慢地走\n对于母亲们来说。\n\n无限的力量。\n温柔的步伐。",
+      "zh_reflectionPrompt": "想象一下站在这个框架内，旁边是你自己的两只手：当你听到“无限的力量。温柔的步伐”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“他会把小羊聚集在他的臂弯里，把它们抱在怀里。”",
+      "zh_ref": "以赛亚书 40:10–12"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#f7e2b1"
       },
       "dailyWalkDay": 724,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “sometimes the miracle is just not fainting.” What part of your heart feels most searched or comforted by Isaiah 40:28–31 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “sometimes the miracle is just not fainting.” What part of your heart feels most searched or comforted by Isaiah 40:28–31 right now?",
+      "zh_title": "像鹰一样的翅膀",
+      "zh_poem": "即使是年轻人也会感到疲倦。\n即使是强者\n绊倒。\n\n但那些等待的人\n靠着主——\n\n翱翔。\n跑步。\n走。\n\n注意顺序：\n飞行、奔跑、行走。\n\n有时奇迹\n只是\n没有晕倒。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“有时候，奇迹就是不晕倒。”现在，以赛亚书 40 章 28-31 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“他们会像鹰展翅上腾。他们奔跑，并不困倦。”",
+      "zh_ref": "以赛亚书 40:28–31"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#f4e9b7"
       },
       "dailyWalkDay": 725,
-      "reflectionPrompt": "In Isaiah 41:10, grace meets us right beside the quiet rhythm of your breath: how does the closing thought—“five promises in one breath, for one frightened person”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Isaiah 41:10, grace meets us right beside the quiet rhythm of your breath: how does the closing thought—“five promises in one breath, for one frightened person”—steady your footing for the road ahead?",
+      "zh_title": "五个承诺",
+      "zh_poem": "别害怕。\n我和你在一起。\n\n不要焦急地环顾四周。\n我是你的上帝。\n\n我会强化你。\n我会帮助你。\n我会抱住你\n用我的右手。\n\n五个承诺\n一口气，\n对于一个受惊的人来说。",
+      "zh_reflectionPrompt": "在以赛亚书 41 章 10 节中，恩典就在你安静的呼吸节奏旁边与我们相遇：最后的思想——“一口气给一个受惊的人五个应许”——如何让你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“我会强化你。是的，我会帮助你。”",
+      "zh_ref": "以赛亚书 41:10"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#be8f50"
       },
       "dailyWalkDay": 726,
-      "reflectionPrompt": "If today’s painting of “the bruised reed” (Isaiah 42:1–3) hung beside the door you walk out of this morning, how would its final line—“he tends them back to flame”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the bruised reed” (Isaiah 42:1–3) hung beside the door you walk out of this morning, how would its final line—“he tends them back to flame”—shape your choices?",
+      "zh_title": "压伤的芦苇",
+      "zh_poem": "一根有裂缝的芦苇——\n你会把它折断\n并拿一张新的。\n\n一根几乎不冒烟的灯芯——\n你会把它捏出来。\n\n他不会。\n\n他的仆人\n不扔掉\n损坏的。\n\n他保留它们。\n他照顾他们\n回到火焰。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“压伤的芦苇”（以赛亚书 42:1-3）画作，那么它的最后一行——“他把它们引回火焰”——会如何影响你的选择？",
+      "zh_epigraph": "“他不会折断压伤的芦苇。他不会吹灭即将燃烧的灯火。”",
+      "zh_ref": "以赛亚书 42:1–3"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#e9dec3"
       },
       "dailyWalkDay": 727,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Isaiah 43:1)—where in your own home or work today does “three short sentences that could hold up a whole life” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Isaiah 43:1)—where in your own home or work today does “three short sentences that could hold up a whole life” ring true?",
+      "zh_title": "按名字",
+      "zh_poem": "别害怕。\n我已经救赎了你。\n我已经叫过你的名字了。\n\n你是我的。\n\n三个短句\n可以坚持\n一生。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（以赛亚书 43:1）——今天，在你自己的家里或工作中，“三句短句，足以支撑一生”的哪些地方听起来是真实的呢？",
+      "zh_epigraph": "“我已经叫过你的名字了。你是我的。”",
+      "zh_ref": "以赛亚书 43:1"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#f5c58a"
       },
       "dailyWalkDay": 728,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “he promises they won't sweep you away, because he'll be in them with you.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “he promises they won't sweep you away, because he'll be in them with you.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "当",
+      "zh_poem": "当，而不是如果。\n\n当你穿过水域时。\n当你走过火时。\n\n他不承诺\n不会有河流。\n\n他承诺\n他们不会把你扫走\n\n因为他将会\n在他们之中\n和你在一起。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“他保证他们不会把你带走，因为他会和你在一起。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“当你涉水而过时，我会与你同在”",
+      "zh_ref": "以赛亚书 43:2"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#eee1bf"
       },
       "dailyWalkDay": 729,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “don't dwell on the old things, he says— even the Red Sea.” Looking through the lens of Isaiah 43:16–19, what does it mean to discover that “rivers in the desert. look”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “don't dwell on the old things, he says— even the Red Sea.” Looking through the lens of Isaiah 43:16–19, what does it mean to discover that “rivers in the desert. look”?",
+      "zh_title": "一个新事物",
+      "zh_poem": "不要沉迷于旧事\n他说——\n\n甚至红海。\n即使是旧的救援。\n\n我正在做一些新的事情。\n现在正在兴起。\n你没看到吗？\n\n旷野中的一条路。\n沙漠中的河流。\n\n看。",
+      "zh_reflectionPrompt": "想象一下某个季节，当你体会到“不要沉迷于旧事，他说——即使是红海”的感觉时。透过以赛亚书 43:16-19 的视角，发现“沙漠中的河流”意味着什么？",
+      "zh_epigraph": "“看哪，我要做一件新事。它现在就出现了。你不知道吗？”",
+      "zh_ref": "以赛亚书 43:16–19"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#fcd476"
       },
       "dailyWalkDay": 730,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “carried” in this painting (Isaiah 46:1–4)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “carried” in this painting (Isaiah 46:1–4)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "携带",
+      "zh_poem": "巴比伦的偶像\n必须携带——\n装载到疲惫的动物身上，\n一个负担。\n\n我们的上帝\n载着我们。\n\n从子宫里。\n穿过白发。\n一路走来。\n\n我创造了你，\n他说。\n我来背你。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的中心“搬运”（以赛亚书 46:1-4）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放下什么？",
+      "zh_epigraph": "“就算白发我也会背着你。”",
+      "zh_ref": "以赛亚书 46:1–4"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#f9e9c5"
       },
       "dailyWalkDay": 731,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “can a mother forget?”: what quiet prayer rises in you when you read, “and God answered: can a nursing mother forget her baby? even she might. I won't”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “can a mother forget?”: what quiet prayer rises in you when you read, “and God answered: can a nursing mother forget her baby? even she might. I won't”?",
+      "zh_title": "母亲能忘记吗？",
+      "zh_poem": "锡安 说道：\n主已经忘记了我。\n\n上帝回答说：\n哺乳期母亲可以吗\n忘记她的孩子？\n\n甚至她也可能会。\n\n我不会。",
+      "zh_reflectionPrompt": "让你的目光停留在《母亲会忘记吗？》这本书安静的中心部分周围的笔触和光线上：当你读到“上帝回答：哺乳的母亲会忘记她的孩子吗？甚至她可能会忘记她的孩子？我不会”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“女人会忘记她正在哺乳的孩子吗”",
+      "zh_ref": "以赛亚书 49:14–15"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#ecb557"
       },
       "dailyWalkDay": 732,
-      "reflectionPrompt": "Linger with the movement in “your name on his hands” (Isaiah 49:16) from “not written on a list” to “and one day, hands would be marked for us”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “your name on his hands” (Isaiah 49:16) from “not written on a list” to “and one day, hands would be marked for us”—where do you find yourself along that arc today?",
+      "zh_title": "他手上有你的名字",
+      "zh_poem": "没有写在清单上。\n不是一张可能会丢失的纸条。\n\n刻\n在他的手掌上。\n\n每次他打开它们时，\n你来了。\n\n有一天，\n手上会被标记\n对于我们来说。",
+      "zh_reflectionPrompt": "徘徊在“你的名字写在他手上”（以赛亚书 49:16）的运动中，从“没有写在清单上”到“有一天，手上会为我们标记”——今天你发现自己处于这条弧线的哪个位置？",
+      "zh_epigraph": "“看哪，我已将你刻在我的手掌上。”",
+      "zh_ref": "以赛亚书 49:16"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#fae298"
       },
       "dailyWalkDay": 733,
-      "reflectionPrompt": "Notice how “morning by morning” (Isaiah 50:4) arrives at: “the tongue of the teacher comes from the ear of the student.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “morning by morning” (Isaiah 50:4) arrives at: “the tongue of the teacher comes from the ear of the student.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "一个又一个早晨",
+      "zh_poem": "仆人\n知道如何说一个词\n给疲倦的人。\n\n如何？\n\n一个又一个早晨，\n他醒了\n先听。\n\n老师的舌头\n来自\n学生的耳朵。",
+      "zh_reflectionPrompt": "请注意“早晨到早晨”（以赛亚书 50:4）是如何得出的：“教师的舌头出自学生的耳朵。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“他每天早晨醒来，唤醒我的耳朵，让我像那些受教的人一样聆听。”",
+      "zh_ref": "以赛亚书 50:4"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#fceaa9"
       },
       "dailyWalkDay": 734,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Isaiah 52:7: “anyone who carries good news has beautiful feet”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Isaiah 52:7: “anyone who carries good news has beautiful feet”?",
+      "zh_title": "美丽的脚",
+      "zh_poem": "尘土飞扬的脚，\n破旧的凉鞋，\n跑下山——\n\n美丽的。\n\n不是脚。\n新闻：\n你的神掌权。\n\n任何携带\n好消息\n有美丽的脚。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《以赛亚书》52:7 的静谧教训：“传好消息的人，他的脚都是美丽的”，那又怎样呢？",
+      "zh_epigraph": "“带来好消息的人的脚在山上多么美丽”",
+      "zh_ref": "以赛亚书 52:7"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#e1d9c0"
       },
       "dailyWalkDay": 735,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “the man of sorrows”: what hurry or noise in your week begins to fade when you hear, “pierced for what we did. by his wounds, healed”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “the man of sorrows”: what hurry or noise in your week begins to fade when you hear, “pierced for what we did. by his wounds, healed”?",
+      "zh_title": "悲伤的人",
+      "zh_poem": "没有什么美貌，我们想要他。\n被鄙视。\n被拒绝了。\n熟悉悲伤。\n\n我们隐藏了我们的脸。\n\n然而\n他承载的是我们的悲伤，\n我们的悲伤。\n\n为我们所做的事而刺痛。\n我们被压垮了。\n\n通过他的伤口，\n痊愈了。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是“悲伤之人”安静的中心人物：当您听到“我们的所作所为刺痛了。他的伤口痊愈了”时，您一周中的什么匆忙或噪音开始消失？",
+      "zh_epigraph": "“他被人蔑视和拒绝，他是一个饱受苦难、熟悉疾病的人。”",
+      "zh_ref": "以赛亚书 53:3–7"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#efd9a8"
       },
       "dailyWalkDay": 736,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “the verse starts with all and ends with all. we're in both.” What part of your heart feels most searched or comforted by Isaiah 53:6 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “the verse starts with all and ends with all. we're in both.” What part of your heart feels most searched or comforted by Isaiah 53:6 right now?",
+      "zh_title": "我们所有人",
+      "zh_poem": "我们所有人。\n没有例外。\n\n像羊一样，\n每一个都在流浪\n它自己的方式。\n\n和主\n放在他身上\n重量\n我们所有人。\n\n这节经文以一切开头\n并以一切结束。\n\n我们两者都在。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“这节经文以一切开始，以一切结束。我们两者皆在。”现在，以赛亚书 53 章 6 节最能触动你内心的哪一部分？",
+      "zh_epigraph": "“我们像羊一样都迷失了方向。”",
+      "zh_ref": "以赛亚书 53:6"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#e9dcbd"
       },
       "dailyWalkDay": 737,
-      "reflectionPrompt": "In Isaiah 55:1–2, grace meets us right beside the daily loaf broken in the hand: how does the closing thought—“grace is the only market where the poor shop first”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Isaiah 55:1–2, grace meets us right beside the daily loaf broken in the hand: how does the closing thought—“grace is the only market where the poor shop first”—steady your footing for the road ahead?",
+      "zh_title": "没有钱",
+      "zh_poem": "口渴的人都来吧。\n来吧，没钱的你。\n买，吃。\n\n酒和牛奶，\n免费。\n\n为什么要花你的钱\n什么不是面包？\n\n恩典\n是唯一的市场\n穷人在哪里\n先去购物。",
+      "zh_reflectionPrompt": "在以赛亚书 55 章 1-2 节中，恩典就在我们手中擘开的日常面包旁边相遇：最后的思想——“恩典是穷人首先购物的唯一市场”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“没钱的，来买来吃吧！”",
+      "zh_ref": "以赛亚书 55:1–2"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#bfaf8e"
       },
       "dailyWalkDay": 738,
-      "reflectionPrompt": "If today’s painting of “higher” (Isaiah 55:8–11) hung beside the door you walk out of this morning, how would its final line—“it's a comfort: the plan is bigger than the part of it you can see”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “higher” (Isaiah 55:8–11) hung beside the door you walk out of this morning, how would its final line—“it's a comfort: the plan is bigger than the part of it you can see”—shape your choices?",
+      "zh_title": "更高",
+      "zh_poem": "我的想法\n不是你的想法。\n\n与天空离地面一样高——\n这就是距离。\n\n它不是一堵墙。\n这是一种安慰：\n\n计划\n更大\n比它的一部分\n你可以看到。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁边挂着今天的“更高”的画（以赛亚书 55:8-11），它的最后一行——“这是一种安慰：计划比你能看到的部分更大”——会如何影响你的选择？",
+      "zh_epigraph": "“照样，我的道路高过你们的道路，我的意念高过你们的意念。”",
+      "zh_ref": "以赛亚书 55:8–11"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#f8ecd2"
       },
       "dailyWalkDay": 739,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Isaiah 58:10–11)—where in your own home or work today does “the ones who give water never run out” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Isaiah 58:10–11)—where in your own home or work today does “the ones who give water never run out” ring true?",
+      "zh_title": "浇水的花园",
+      "zh_poem": "为饥饿的人倾尽全力。\n满足受灾群众的需要。\n\n然后\n你的光将在黑暗中升起，\n你会\n浇过水的花园，\n一个春天\n永远不会枯竭。\n\n那些给水的人\n永远不会用完。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（以赛亚书 58:10-11）——今天，在你自己的家里或工作场所，“赐水的人永不枯竭”听起来是真的吗？",
+      "zh_epigraph": "“你会像浇灌的花园，又像水流不绝的泉源。”",
+      "zh_ref": "以赛亚书 58:10–11"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#fee881"
       },
       "dailyWalkDay": 740,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “and nations will come to that light.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “and nations will come to that light.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "出现，闪耀",
+      "zh_poem": "站起来。\n闪耀。\n\n不是用你自己的光——\n你的光来了。\n\n他的荣耀\n已经升到你身上了。\n\n你是窗户\n它闪闪发光。\n\n和国家\n将会明白这一点。",
+      "zh_reflectionPrompt": "慢慢吸一口气，再读一遍最后一行：“各国都会看到那光明。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“起来，发光；因为你的光已经来了”",
+      "zh_ref": "以赛亚书 60:1–3"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#edcb94"
       },
       "dailyWalkDay": 741,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “Jesus stood up in his hometown synagogue, unrolled this scroll, read these lines, and sat down and said: today this is fulfilled.” Looking through the lens of Isaiah 61:1–2, what does it mean to discover that “his mission statement was already written”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “Jesus stood up in his hometown synagogue, unrolled this scroll, read these lines, and sat down and said: today this is fulfilled.” Looking through the lens of Isaiah 61:1–2, what does it mean to discover that “his mission statement was already written”?",
+      "zh_title": "今天",
+      "zh_poem": "耶稣站起来\n在他家乡的犹太教堂里，\n展开这卷轴，\n阅读这些行，\n\n然后坐下来说：\n今天\n这已经实现了。\n\n穷人的好消息。\n捆绑破碎的心。\n俘虏的自由。\n\n他的使命宣言\n已经写好了。",
+      "zh_reflectionPrompt": "想一想一个季节，当你知道“耶稣站在他家乡的犹太教堂里，展开这卷轴，读到这些诗句，然后坐下来说：今天这件事已经应验了”的感觉。透过以赛亚书 61:1-2 的视角来看，发现“他的使命宣言已经写好了”意味着什么？",
+      "zh_epigraph": "“向谦卑的人传播好消息。他派我去包扎伤心的人”",
+      "zh_ref": "以赛亚书 61:1–2"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#eadec6"
       },
       "dailyWalkDay": 742,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “a garland for ashes” in this painting (Isaiah 61:3)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “a garland for ashes” in this painting (Isaiah 61:3)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "骨灰花环",
+      "zh_poem": "骨灰\n在哀悼者的头上。\n\n上帝把它们带走，\n并在那里放一个花环。\n\n喜乐油\n为了哀悼。\n赞美的衣服\n为了沉重的精神。\n\n以及他这样做的对象\n成为\n正义的橡树——\n\n坚强的东西\n从悲伤中成长。",
+      "zh_reflectionPrompt": "仔细观察这幅画中安静的中心装饰品“灰烬花环”（《以赛亚书》61:3）——如果今天你可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“给他们冠冕代替灰烬，给他们喜乐油代替哀悼”",
+      "zh_ref": "以赛亚书 61:3"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#f0dbb8"
       },
       "dailyWalkDay": 743,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the clay turning on the wheel: what quiet prayer rises in you when you read, “it stays on the wheel, soft, and lets the hands do what hands do”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the clay turning on the wheel: what quiet prayer rises in you when you read, “it stays on the wheel, soft, and lets the hands do what hands do”?",
+      "zh_title": "陶工",
+      "zh_poem": "你是我们的父亲。\n我们是泥土。\n你是陶工。\n\n粘土不争论\n关于形状。\n\n它留在方向盘上，\n柔软，\n并让双手\n做手该做的事。",
+      "zh_reflectionPrompt": "让你的眼睛停留在轮子上转动的粘土周围的笔触和光线上：当你读到“它留在轮子上，柔软，让双手做双手做的事情”时，你内心会升起什么样的安静的祈祷？",
+      "zh_epigraph": "“我们是泥土，你是我们的陶工。我们都是你双手的作品。”",
+      "zh_ref": "以赛亚书 64:8"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#fef7db"
       },
       "dailyWalkDay": 744,
-      "reflectionPrompt": "Linger with the movement in “new heavens” (Isaiah 65:17–21) from “new heavens. a new earth” to “and the old sorrows— not even remembered”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “new heavens” (Isaiah 65:17–21) from “new heavens. a new earth” to “and the old sorrows— not even remembered”—where do you find yourself along that arc today?",
+      "zh_title": "新天堂",
+      "zh_poem": "新天堂。\n一个新地球。\n\n城里不再哭泣。\n不再有婴儿早逝。\n\n人们建造房屋\n并生活在其中，\n种植葡萄园\n并吃水果。\n\n和古老的悲伤——\n甚至不记得了。",
+      "zh_reflectionPrompt": "徘徊在“新天”（以赛亚书 65：17-21）的运动中，从“新天、新地”到“旧日的悲伤——甚至不被记念”——今天你发现自己在这条弧线的哪个位置？",
+      "zh_epigraph": "“以前的事情不会被记住，也不会浮现在脑海中。”",
+      "zh_ref": "以赛亚书 65:17–21"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#dbbc96"
       },
       "dailyWalkDay": 745,
-      "reflectionPrompt": "Notice how “like a mother” (Isaiah 66:12–13) arrives at: “the Holy One, high and lifted up, seated on the throne— kneeling to comfort like a mother.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “like a mother” (Isaiah 66:12–13) arrives at: “the Holy One, high and lifted up, seated on the throne— kneeling to comfort like a mother.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "像母亲一样",
+      "zh_poem": "书结束了\n与最温柔的照片之一\n圣经中的上帝：\n\n作为母亲\n安慰她的孩子，\n所以我会安慰你。\n\n圣者，\n高高举起，\n坐在宝座上——\n\n跪着\n安慰\n像母亲一样。",
+      "zh_reflectionPrompt": "请注意“像母亲”（以赛亚书 66：12-13）是如何实现的：“圣者高高举起，坐在宝座上，像母亲一样跪下安慰。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“作为母亲所安慰的人，我也会安慰你。”",
+      "zh_ref": "以赛亚书 66:12–13"
     }
-  ]
+  ],
+  "zh_title": "兴起发光",
+  "zh_subtitle": "以赛亚书诗画集",
+  "zh_beforeYouBegin": "以赛亚是圣王和受苦仆人的先知。他的书从烟雾缭绕的圣殿到鲜花盛开的沙漠，从巴比伦的流亡到安慰这个词，从一个充满悲伤的人到新天新地。\n\n本书分为五个部分，用四十首短诗来讲述它。每首诗都位于一幅画旁边和一行经文之下。其中许多诗句是教会两千多年来在圣诞节和复活节朗读的诗句。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这本书旁边的《以赛亚书》，让真实的话语成为最终的结论。"
 }

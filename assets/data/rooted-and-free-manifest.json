@@ -16,7 +16,10 @@
       "epigraph": "it is no longer I who live, but Christ lives in me.",
       "epigraphRef": "Galatians 2:20",
       "lightName": "Light of Christ Lives in Me",
-      "lightHint": "Near 'so quickly' (Galatians 1:6–7) in Part 1: Christ Lives in Me"
+      "lightHint": "Near 'so quickly' (Galatians 1:6–7) in Part 1: Christ Lives in Me",
+      "zh_title": "基督在我里面活着",
+      "zh_epigraph": "现在活着的不再是我，乃是基督在我里面活着。",
+      "zh_epigraphRef": "加拉太书 2:20"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "you, brothers, were called for freedom.",
       "epigraphRef": "Galatians 5:13",
       "lightName": "Light of Called for Freedom",
-      "lightHint": "Near 'the fullness of time' (Galatians 4:4–5) in Part 2: Called for Freedom"
+      "lightHint": "Near 'the fullness of time' (Galatians 4:4–5) in Part 2: Called for Freedom",
+      "zh_title": "蒙召得自由",
+      "zh_epigraph": "弟兄们，你们蒙召是要得自由。",
+      "zh_epigraphRef": "加拉太书 5:13"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "he chose us in him before the foundation of the world",
       "epigraphRef": "Ephesians 1:4",
       "lightName": "Light of Chosen in Love",
-      "lightHint": "Near 'every blessing' (Ephesians 1:3) in Part 3: Chosen in Love"
+      "lightHint": "Near 'every blessing' (Ephesians 1:3) in Part 3: Chosen in Love",
+      "zh_title": "在爱中蒙拣选",
+      "zh_epigraph": "就如神从创立世界以前，在基督里拣选了我们",
+      "zh_epigraphRef": "以弗所书 1:4"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "being rooted and grounded in love",
       "epigraphRef": "Ephesians 3:17",
       "lightName": "Light of Rooted and Grounded",
-      "lightHint": "Near 'I bow my knees' (Ephesians 3:14–16) in Part 4: Rooted and Grounded"
+      "lightHint": "Near 'I bow my knees' (Ephesians 3:14–16) in Part 4: Rooted and Grounded",
+      "zh_title": "有根有基",
+      "zh_epigraph": "叫你们的爱心有根有基",
+      "zh_epigraphRef": "以弗所书 3:17"
     },
     {
       "index": 5,
@@ -56,7 +68,10 @@
       "epigraph": "having done all, to stand.",
       "epigraphRef": "Ephesians 6:13",
       "lightName": "Light of Having Done All, to Stand",
-      "lightHint": "Near 'children of light' (Ephesians 5:8) in Part 5: Having Done All, to Stand"
+      "lightHint": "Near 'children of light' (Ephesians 5:8) in Part 5: Having Done All, to Stand",
+      "zh_title": "成就了一切，还能站立得住",
+      "zh_epigraph": "并且成就了一切，还能站立得住。",
+      "zh_epigraphRef": "以弗所书 6:13"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#d8b36f"
       },
       "dailyWalkDay": 1276,
-      "reflectionPrompt": "Notice how “so quickly” (Galatians 1:6–7) arrives at: “there is only one good news, and you had it in your hands.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “so quickly” (Galatians 1:6–7) arrives at: “there is only one good news, and you had it in your hands.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "这么快",
+      "zh_poem": "他提笔时，\n没有先写感谢的话。\n\n他一开篇\n便是一句发问，\n听上去带着心痛：\n\n你们怎么这么快\n就离开了呢？\n\n离开的不是一条规条。\n也不是一位师傅。\n乃是他。\n\n那位借着恩典\n呼召你们的主。\n\n福音只有一个，\n而你们原本\n已将它握在手中。",
+      "zh_reflectionPrompt": "留意《这么快》（加拉太书 1:6–7）如何落脚于：“福音只有一个，而你们原本已将它握在手中。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“我希奇你们这么快离开那借着基督之恩召你们的”",
+      "zh_ref": "加拉太书 1:6–7"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#e4d7bd"
       },
       "dailyWalkDay": 1277,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Galatians 1:10: “now he had only one face to please, and it was already turned toward him in love”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Galatians 1:10: “now he had only one face to please, and it was already turned toward him in love”?",
+      "zh_title": "不是讨人的喜欢",
+      "zh_poem": "人可以耗尽一生，\n替每一个人斟满杯盏，\n却称之为虔诚。\n\n向得势的人微笑。\n说出他们想听的\n话语。\n\n保罗曾竭力\n在一切讨人称许的事上\n拔得头筹。\n\n如今他只需要\n讨一张面孔的喜悦，\n\n而那张面孔，\n早已带着慈爱\n转向了他。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是加拉太书 1:10 那安静的教训：“如今他只需要讨一张面孔的喜悦，而那张面孔，早已带着慈爱转向了他”——这会带给你怎样的看见？",
+      "zh_epigraph": "“若仍旧讨人的喜欢，我就不是基督的仆人了。”",
+      "zh_ref": "加拉太书 1:10"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#ece0c2"
       },
       "dailyWalkDay": 1278,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “into Arabia”: what hurry or noise in your week begins to fade when you hear, “some callings begin with a road and nobody watching”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “into Arabia”: what hurry or noise in your week begins to fade when you hear, “some callings begin with a road and nobody watching”?",
+      "zh_title": "往阿拉伯去",
+      "zh_poem": "那个从前\n残害教会的人，\n\n并没有急着\n奔向领袖们\n求取认可。\n\n他悄然离开，\n往阿拉伯去。\n\n圣经没有告诉我们\n他在那里做了什么。\n\n或许他在祷告。\n或许他正在卸下\n从前自以为笃定的一切。\n\n有些呼召，\n始于一条长路，\n且无人旁观。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在《往阿拉伯去》那宁静的画面中心旁：当你听见“有些呼召，始于一条长路，且无人旁观”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“惟独往阿拉伯去，后又回到大马士革。”",
+      "zh_ref": "加拉太书 1:15–17"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#fce9b4"
       },
       "dailyWalkDay": 1279,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “two men who knew what it was to be forgiven much.” What part of your heart feels most searched or comforted by Galatians 1:18 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “two men who knew what it was to be forgiven much.” What part of your heart feels most searched or comforted by Galatians 1:18 right now?",
+      "zh_title": "同住了十五天",
+      "zh_poem": "过了三年，\n他登上耶路撒冷，\n\n与彼得同住了\n十五天。\n\n一个是打鱼的渔夫，\n一个是昔日的逼迫者。\n\n擘饼之时，\n他们聊了些什么呢？\n\n或许是加利利的海滨。\n一堆炭火。\n一个连问三次的\n问题。\n\n两个深知\n蒙受赦免何等浩大的\n人。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“两个深知蒙受赦免何等浩大的人。”此刻，你的心哪一部分最被加拉太书 1:18 鉴察，或得着安慰？",
+      "zh_epigraph": "“过了三年，才上耶路撒冷去见矶法，和他同住了十五天。”",
+      "zh_ref": "加拉太书 1:18"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#e3d7c2"
       },
       "dailyWalkDay": 1280,
-      "reflectionPrompt": "In Galatians 2:9–10, grace meets us right beside the open threshold: how does the closing thought—“this one needed a hand and the hungry”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Galatians 2:9–10, grace meets us right beside the open threshold: how does the closing thought—“this one needed a hand and the hungry”—steady your footing for the road ahead?",
+      "zh_title": "用右手行相交之礼",
+      "zh_poem": "十四年后，\n那些被称为柱石的人\n向他们伸出右手。\n\n你们往外邦人那里去。\n我们往受割礼的人那里去。\n\n临出门前，\n只叮嘱了一件事：\n\n记念穷人。\n\n他说，\n这原本就是\n我热心去行的。\n\n有些盟约\n需要百般条款。\n这一份，却只需要\n一双紧握的手，\n和那些饥饿的人。",
+      "zh_reflectionPrompt": "在加拉太书 2:9–10 中，恩典就在那敞开的门槛旁迎见我们：结尾的思索——“这一份，却只需要一双紧握的手，和那些饥饿的人”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“只是愿意我们记念穷人；这也是我本来热心去行的。”",
+      "zh_ref": "加拉太书 2:9–10"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#e2d2b1"
       },
       "dailyWalkDay": 1281,
-      "reflectionPrompt": "If today’s painting of “the table at Antioch” (Galatians 2:11–12) hung beside the door you walk out of this morning, how would its final line—“who you will eat with is what you believe”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the table at Antioch” (Galatians 2:11–12) hung beside the door you walk out of this morning, how would its final line—“who you will eat with is what you believe”—shape your choices?",
+      "zh_title": "安提阿的饭桌",
+      "zh_poem": "彼得起先\n与众人一同吃饭。\n\n分同一个饼。\n用同一个碗。\n\n后来有几位客人\n到了，\n\n他便悄悄\n站起身来，\n退到一边。\n\n没有一言半语。\n只有一条长凳\n被向后推开。\n\n保罗在那道空隙里，\n看见了整全的福音。\n\n你肯与谁同席吃饭，\n就显明你信的是什么。",
+      "zh_reflectionPrompt": "如果今天这幅《安提阿的饭桌》（加拉太书 2:11–12）就挂在你清晨出门的门旁，它最后那句——“你肯与谁同席吃饭，就显明你信的是什么”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“他和外邦人一同吃饭。及至他们来到，他因怕奉割礼的人，就退去与外邦人隔开了。”",
+      "zh_ref": "加拉太书 2:11–12"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#f3c97d"
       },
       "dailyWalkDay": 1282,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Galatians 2:20)—where in your own home or work today does “this breath, this ordinary tuesday, is lived now by faith in someone who looked at me and loved me, and gave himself up for me. me” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Galatians 2:20)—where in your own home or work today does “this breath, this ordinary tuesday, is lived now by faith in someone who looked at me and loved me, and gave himself up for me. me” ring true?",
+      "zh_title": "他是爱我",
+      "zh_poem": "那个旧我，\n并非在更加卖力地挣扎。\n\n那个旧我，\n已经同钉十字架。\n\n这一口呼吸，\n这一个寻常的周二，\n如今活着，\n是因信而活——\n\n信靠那一位\n定睛看我、\n\n深爱着我、\n\n并为我舍己的\n主。\n\n为我。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（加拉太书 2:20）——今天在你的家中或工作里，何处让你真切体会到“这一口呼吸，这一个寻常的周二，如今活着，是因信而活——信靠那一位定睛看我、深爱着我、并为我舍己的主。为我”？",
+      "zh_epigraph": "“他是爱我，为我舍己。”",
+      "zh_ref": "加拉太书 2:20"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#dcd0ba"
       },
       "dailyWalkDay": 1283,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “the one who began is the one who keeps it.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “the one who began is the one who keeps it.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "既靠圣灵入门",
+      "zh_poem": "那团火焰，\n并非你赚取来的。\n\n你听见，\n并且相信，\n火便点着了。\n\n那么如今，\n为何又满头大汗，\n列满清单，\n心怀畏惧呢？\n\n火之所以燃烧，\n并非因为你在一旁焦灼拨弄。\n\n那起初点燃火的，\n也必亲自\n看守火光。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“那起初点燃火的，也必亲自看守火光。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“你们既靠圣灵入门，如今还靠肉身成全吗？”",
+      "zh_ref": "加拉太书 3:2–3"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#eae0c7"
       },
       "dailyWalkDay": 1284,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “in those days a trusted servant walked the child to school.” Looking through the lens of Galatians 3:24–25, what does it mean to discover that “the law walked us all the way to the door. the door is Christ”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “in those days a trusted servant walked the child to school.” Looking through the lens of Galatians 3:24–25, what does it mean to discover that “the law walked us all the way to the door. the door is Christ”?",
+      "zh_title": "训蒙的师傅",
+      "zh_poem": "在那个年代，\n忠心的家仆\n会一路护送孩童去学堂。\n\n替他背着写字板。\n看护他不偏离道路。\n\n这是美好的职分。\n\n但总有一天，\n孩童\n长大成人，\n\n看守的人\n便将他交还\n他父亲的手中。\n\n律法一路领着我们，\n一直走到门前。\n\n而那扇门，\n就是基督。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“在那个年代，忠心的家仆会一路护送孩童去学堂”的感受。透过加拉太书 3:24–25 的眼光，发现“律法一路领着我们，一直走到门前。而那扇门，就是基督”，对你而言意味着什么？",
+      "zh_epigraph": "“这样，律法是我们训蒙的师傅，引我们到基督那里”",
+      "zh_ref": "加拉太书 3:24–25"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#e1d6b8"
       },
       "dailyWalkDay": 1285,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “all one” in this painting (Galatians 3:27–28)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “all one” in this painting (Galatians 3:27–28)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "都成为一了",
+      "zh_poem": "犹太人和希利尼人。\n为奴的和自主的。\n或男或女。\n\n整个世界，\n曾被划分进不同的房间。\n\n随后是受洗的水，\n一件新衣\n同样披在每一个人的\n身上：\n\n你们已经披戴\n基督了。\n\n从那水里上来的人，\n再没有谁\n\n分出高低贵贱。",
+      "zh_reflectionPrompt": "细看这幅画中（加拉太书 3:27–28）《都成为一了》那宁静的画面中心——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“因为你们在基督耶稣里都成为一了。”",
+      "zh_ref": "加拉太书 3:27–28"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#e5d5b3"
       },
       "dailyWalkDay": 1286,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open threshold: what quiet prayer rises in you when you read, “he came in through the ordinary door so we could come out as children”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the open threshold: what quiet prayer rises in you when you read, “he came in through the ordinary door so we could come out as children”?",
+      "zh_title": "及至时候满足",
+      "zh_poem": "不早。\n也不晚。\n\n无花果树\n晓得自己的时令。\n\n及至时候\n满足，\n神就差遣他的儿子，\n\n并非如雷霆万钧降临，\n乃是为女子所生，\n且生在众人同受的\n律法以下。\n\n他从那扇\n最寻常的门走进来，\n\n好叫我们能以儿女的身份\n走出去。",
+      "zh_reflectionPrompt": "让目光停留在那敞开的门槛四周的笔触与光影上：当你读到“他从那扇最寻常的门走进来，好叫我们能以儿女的身份走出去”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“及至时候满足，神就差遣他的儿子，为女子所生”",
+      "zh_ref": "加拉太书 4:4–5"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#f1d6a5"
       },
       "dailyWalkDay": 1287,
-      "reflectionPrompt": "Linger with the movement in “Abba” (Galatians 4:6) from “not your majesty. not sir” to “the Spirit cries it in you, before you've decided if you're allowed”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “Abba” (Galatians 4:6) from “not your majesty. not sir” to “the Spirit cries it in you, before you've decided if you're allowed”—where do you find yourself along that arc today?",
+      "zh_title": "阿爸，父",
+      "zh_poem": "不是\n“陛下”。\n不是\n“大人”。\n\n乃是“阿爸”。\n\n那是孩童在暗夜里\n向上伸出手时\n呼唤的词。\n\n而且，这并非你自己\n鼓足了勇气\n才敢说出口。\n\n乃是圣灵\n在你心里呼叫，\n\n远在你拿定主意\n自己配不配这样称呼之前。",
+      "zh_reflectionPrompt": "在《阿爸，父》（加拉太书 4:6）中静心流连，从“不是‘陛下’。不是‘大人’”到“乃是圣灵在你心里呼叫，远在你拿定主意自己配不配这样称呼之前”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“神就差他儿子的灵进入你们的心，呼叫：‘阿爸！父！’”",
+      "zh_ref": "加拉太书 4:6"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#cdaa5f"
       },
       "dailyWalkDay": 1288,
-      "reflectionPrompt": "Notice how “heir” (Galatians 4:7) arrives at: “you have been carrying yourself like hired help in your father's house.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “heir” (Galatians 4:7) arrives at: “you have been carrying yourself like hired help in your father's house.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "后嗣",
+      "zh_poem": "奴仆\n住在宅院外围。\n\n后嗣\n却住在家里。\n\n一个在厨房门外\n伺候。\n一个却戴着戒指，\n拥有自己的房间。\n\n在你天父的家中，\n你却一直\n把自己当成\n雇来的仆役。",
+      "zh_reflectionPrompt": "留意《后嗣》（加拉太书 4:7）如何落脚于：“在你天父的家中，你却一直把自己当成雇来的仆役。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“可见，从此以后，你不是奴仆，乃是儿子了；既是儿子，就靠着神为后嗣。”",
+      "zh_ref": "加拉太书 4:7"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#dcbc99"
       },
       "dailyWalkDay": 1289,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Galatians 4:9: “he had your name long before you had his”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Galatians 4:9: “he had your name long before you had his”?",
+      "zh_title": "为神所认识",
+      "zh_poem": "现在你们既然认识神——\n\n保罗写到这里，\n却在半句之间\n\n改了口：\n\n更可说是\n被神所认识的。\n\n你以为\n是你寻见了他。\n\n其实远在你知晓他名之前，\n他早已叫得出\n你的名字。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是加拉太书 4:9 那安静的教训：“其实远在你知晓他名之前，他早已叫得出你的名字”——这会带给你怎样的看见？",
+      "zh_epigraph": "“现在你们既然认识神，更可说是被神所认识的”",
+      "zh_ref": "加拉太书 4:9"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#f7dbb4"
       },
       "dailyWalkDay": 1290,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “until Christ is formed”: what hurry or noise in your week begins to fade when you hear, “groaning until you're whole”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “until Christ is formed”: what hurry or noise in your week begins to fade when you hear, “groaning until you're whole”?",
+      "zh_title": "直等到基督成形",
+      "zh_poem": "那位刚毅的使徒，\n那个辩论起来\n有如律法师的人，\n\n忽然柔声唤道：\n我小子啊，\n\n并借用了\n母亲临产时的\n言辞。\n\n我为你们\n再受生产之苦。\n\n爱，有时听起来\n就是这样：\n\n并不从容。\n尚未停歇。\n\n在叹息与阵痛中，\n直等到你全然成形。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在《直等到基督成形》那宁静的画面中心旁：当你听见“在叹息与阵痛中，直等到你全然成形”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“我小子啊，我为你们再受生产之苦，直等到基督成形在你们心里。”",
+      "zh_ref": "加拉太书 4:19–20"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#decbaa"
       },
       "dailyWalkDay": 1291,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “he didn't set you free so you could volunteer.” What part of your heart feels most searched or comforted by Galatians 5:1 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “he didn't set you free so you could volunteer.” What part of your heart feels most searched or comforted by Galatians 5:1 right now?",
+      "zh_title": "那副轭",
+      "zh_poem": "木轭已经卸下了。\n\n它就斜靠在\n墙角那里，\n近在咫尺，\n\n熟悉得\n像一件旧外衣。\n\n你清楚记得\n它压在肩上的感觉。\n\n不要再把它\n拾起来。\n\n他释放你得自由，\n绝不是为了让你\n自愿走回轭下。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“他释放你得自由，绝不是为了让你自愿走回轭下。”此刻，你的心哪一部分最被加拉太书 5:1 鉴察，或得着安慰？",
+      "zh_epigraph": "“基督释放了我们，叫我们得以自由。所以要站立得稳，不要再被奴仆的轭挟制。”",
+      "zh_ref": "加拉太书 5:1"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#e2d0a6"
       },
       "dailyWalkDay": 1292,
-      "reflectionPrompt": "In Galatians 5:22–23, grace meets us right beside the quiet centerpiece of “the fruit”: how does the closing thought—“and against such things there is no law”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Galatians 5:22–23, grace meets us right beside the quiet centerpiece of “the fruit”: how does the closing thought—“and against such things there is no law”—steady your footing for the road ahead?",
+      "zh_title": "圣灵所结的果子",
+      "zh_poem": "是“果子”，\n不是零散的诸多果子。\n\n同一个根源，\n结出同一份收成。\n\n你无法\n把它硬钉在枝头上。\n你也无法\n在周五之前赶造出忍耐。\n\n它唯有在一个\n常常连于源头的生命里，\n慢慢成熟。\n\n这样的事，\n没有律法禁止。",
+      "zh_reflectionPrompt": "在加拉太书 5:22–23 中，恩典就在《圣灵所结的果子》那宁静的画面中心迎见我们：结尾的思索——“这样的事，没有律法禁止”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“圣灵所结的果子，就是仁爱、喜乐、和平、忍耐、恩慈、良善、信实、温柔、节制。”",
+      "zh_ref": "加拉太书 5:22–23"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#e5d7b9"
       },
       "dailyWalkDay": 1293,
-      "reflectionPrompt": "If today’s painting of “one another's burdens” (Galatians 6:1–2) hung beside the door you walk out of this morning, how would its final line—“this is the whole law of Christ: two backs under one load”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “one another's burdens” (Galatians 6:1–2) hung beside the door you walk out of this morning, how would its final line—“this is the whole law of Christ: two backs under one load”—shape your choices?",
+      "zh_title": "各人的重担",
+      "zh_poem": "有人失足了。\n有人跌倒在地。\n\n你可以\n拿着规条手册\n居高临下地站着。\n\n或者，温柔地\n屈膝跪下，\n\n记念那跌倒的\n原本也可能是\n你自己，\n\n然后伸手托起\n那重担的一角。\n\n这便是基督全部的律法：\n\n一副重担，\n两个肩膀一同承当。",
+      "zh_reflectionPrompt": "如果今天这幅《各人的重担》（加拉太书 6:1–2）就挂在你清晨出门的门旁，它最后那句——“这便是基督全部的律法：一副重担，两个肩膀一同承当”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“你们各人的重担要互相担当，如此，就完全了基督的律法。”",
+      "zh_ref": "加拉太书 6:1–2"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#faf2d6"
       },
       "dailyWalkDay": 1294,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Galatians 6:9)—where in your own home or work today does “the harvest has a date. it just isn't today” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Galatians 6:9)—where in your own home or work today does “the harvest has a date. it just isn't today” ring true?",
+      "zh_title": "到了时候",
+      "zh_poem": "你已经栽种了\n许久。\n\n田地看上去\n依然只是\n一片泥土。\n\n没有人\n向你道谢。\n继续走下去吧。\n\n种子在地底下\n默默做工，\n那里从来无人喝彩。\n\n收成\n自有定日。\n\n只是不在\n今天。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（加拉太书 6:9）——今天在你的家中或工作里，何处让你真切体会到“收成自有定日。只是不在今天”？",
+      "zh_epigraph": "“我们行善，不可丧志；若不灰心，到了时候就要收成。”",
+      "zh_ref": "加拉太书 6:9"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#eac182"
       },
       "dailyWalkDay": 1295,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “grace be with your spirit, brothers. amen.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “grace be with your spirit, brothers. amen.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "何等大的字",
+      "zh_poem": "代笔的文士\n退到一旁。\n\n保罗亲自\n接过笔来。\n\n硕大、参差的字迹。\n或许他的视力已然昏花。\n或许他盼望他们看得分明。\n\n在千言万语的辩白之后，\n只留下这个：\n\n他亲手的字迹。\n\n十字架。\n新造的人。\n弟兄们，愿我主耶稣基督的恩\n常在你们心里。\n\n阿们。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“弟兄们，愿我主耶稣基督的恩常在你们心里。阿们。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“请看我亲手写给你们的字是何等的大。”",
+      "zh_ref": "加拉太书 6:11"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#dea725"
       },
       "dailyWalkDay": 1296,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “not some blessings.” Looking through the lens of Ephesians 1:3, what does it mean to discover that “you are not waiting to be invited”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “not some blessings.” Looking through the lens of Ephesians 1:3, what does it mean to discover that “you are not waiting to be invited”?",
+      "zh_title": "各样属灵的福气",
+      "zh_poem": "不是某些福气。\n也不是你自己\n勉力赚取的那几样。\n\n乃是“各样”。\n\n保罗一开篇，\n便写下一句长长的赞词，\n长到他忘了停笔，\n\n因为每当他\n数算一样恩赐，\n后面紧跟着又是另一样。\n\n筵席\n早已摆好。\n\n你无需站在门外\n等候受邀。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“不是某些福气”的感受。透过以弗所书 1:3 的眼光，发现“你无需站在门外等候受邀”，对你而言意味着什么？",
+      "zh_epigraph": "“他在基督里曾赐给我们天上各样属灵的福气。”",
+      "zh_ref": "以弗所书 1:3"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#fbccb2"
       },
       "dailyWalkDay": 1297,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “before the foundation” in this painting (Ephesians 1:4–5)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “before the foundation” in this painting (Ephesians 1:4–5)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "创立世界以前",
+      "zh_poem": "在第一座山冈隆起以前。\n在第一片沧海汇聚以前。\n在任何人\n行出善恶是非\n以前，\n\n他就已经拣选。\n\n不是东家\n挑选雇工。\n\n乃是父亲\n迎纳儿女。\n\n得儿子的名分。\n\n这是关于你，\n最古老的事实。",
+      "zh_reflectionPrompt": "细看这幅画中（以弗所书 1:4–5）《创立世界以前》那宁静的画面中心——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“又因爱我们，就按着自己的意旨所喜悦的，预定我们借着耶稣基督得儿子的名分。”",
+      "zh_ref": "以弗所书 1:4–5"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#d8cdb7"
       },
       "dailyWalkDay": 1298,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the clay jar: what quiet prayer rises in you when you read, “a promise with his mark on it”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the clay jar: what quiet prayer rises in you when you read, “a promise with his mark on it”?",
+      "zh_title": "受了印记",
+      "zh_poem": "在市集里，\n商贾把印章按进\n温软的封泥，\n\n留在那只他定意\n要回来迎取的陶罐上。\n\n这是我的。\n谁也不可挪动。\n代价已经付清。\n\n你听见，\n并且相信，\n\n他便将\n他的圣灵\n如此印在你身上。\n\n一个盖有他亲手印记的\n应许。",
+      "zh_reflectionPrompt": "让目光停留在那只瓦罐四周的笔触与光影上：当你读到“一个盖有他亲手印记的应许”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“既然信他，就受了所应许的圣灵为印记。”",
+      "zh_ref": "以弗所书 1:13–14"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#fff5da"
       },
       "dailyWalkDay": 1299,
-      "reflectionPrompt": "Linger with the movement in “dead, and made alive” (Ephesians 2:4–5) from “the sentence starts in the grave” to “nothing new began with us. it began with but”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “dead, and made alive” (Ephesians 2:4–5) from “the sentence starts in the grave” to “nothing new began with us. it began with but”—where do you find yourself along that arc today?",
+      "zh_title": "死在过犯中，却一同活过来",
+      "zh_poem": "这句经文\n始于坟墓。\n\n死在过犯中。\n随从今世的风俗。\n本为可怒之子。\n\n随后，两个字\n扭转了一切：\n\n然而，神。\n\n既有丰富的怜悯。\n因他爱我们的\n大爱。\n\n没有一样新事\n是从我们开始的。\n\n一切都始于\n那一声“然而”。",
+      "zh_reflectionPrompt": "在《死在过犯中，却一同活过来》（以弗所书 2:4–5）中静心流连，从“这句经文始于坟墓”到“没有一样新事是从我们开始的。一切都始于那一声‘然而’”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“然而，神既有丰富的怜悯，因他爱我们的大爱”",
+      "zh_ref": "以弗所书 2:4–5"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f4e6c9"
       },
       "dailyWalkDay": 1300,
-      "reflectionPrompt": "Notice how “the gift” (Ephesians 2:8–9) arrives at: “it's a gift, which means the only thing you bring is your empty hands, and no one gets to boast about those.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “the gift” (Ephesians 2:8–9) arrives at: “it's a gift, which means the only thing you bring is your empty hands, and no one gets to boast about those.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "神所赐的",
+      "zh_poem": "张开的双手\n无法攥成拳头。\n\n它们只能\n领受。\n\n恩典\n不是工价。\n\n也不是奖给\n最努力之人的锦标。\n\n乃是一份礼物，\n\n这意味着，\n你唯一带来的\n\n只有一双空空的手，\n\n而没有人\n能拿空手\n去自夸。",
+      "zh_reflectionPrompt": "留意《神所赐的》（以弗所书 2:8–9）如何落脚于：“乃是一份礼物，这意味着，你唯一带来的只有一双空空的手，而没有人能拿空手去自夸。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“你们得救是本乎恩，也因着信；这并不是出于自己，乃是神所赐的。”",
+      "zh_ref": "以弗所书 2:8–9"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#dfd2b8"
       },
       "dailyWalkDay": 1301,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Ephesians 2:10: “it was prepared beforehand, like a path already swept for your feet”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Ephesians 2:10: “it was prepared beforehand, like a path already swept for your feet”?",
+      "zh_title": "他的工作",
+      "zh_poem": "你不是一个\n让他不得不绕开走的败笔。\n\n你正是他的杰作。\n\n是他织机上的\n一幅图样，\n一丝，又一线，\n\n而你将要行的善，\n也不是一场\n必须及格的考题。\n\n那是他预先\n为你备好的，\n\n有如一条\n早已清扫干净、\n等候你双脚踏上的小径。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是以弗所书 2:10 那安静的教训：“那是他预先为你备好的，有如一条早已清扫干净、等候你双脚踏上的小径”——这会带给你怎样的看见？",
+      "zh_epigraph": "“我们原是他的工作，在基督耶稣里造成的，为要叫我们行善。”",
+      "zh_ref": "以弗所书 2:10"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#fdedcc"
       },
       "dailyWalkDay": 1302,
-      "reflectionPrompt": "Imagine standing inside this frame beside the stones of the wall: what hurry or noise in your week begins to fade when you hear, “look: the stones in the grass, the path already worn through the gap by all the feet coming home from both sides”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the stones of the wall: what hurry or noise in your week begins to fade when you hear, “look: the stones in the grass, the path already worn through the gap by all the feet coming home from both sides”?",
+      "zh_title": "中间隔断的墙",
+      "zh_poem": "从前，\n有一道墙。\n\n你们在那边。\n我们在这边。\n有远处的人，有近处的人。\n\n他并没有\n在墙上开一扇门。\n\n他乃是把墙\n全然拆毁。\n\n看哪：\n散落在草丛中的石头，\n那道缺口间\n早已被踏出一条小路——\n\n那是两边归家之人\n无数的双脚\n一同踏出来的。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在残墙的石头旁：当你听见“看哪：散落在草丛中的石头，那道缺口间早已被踏出一条小路——那是两边归家之人无数的双脚一同踏出来的”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“因他使我们和睦，将两下合而为一，拆毁了中间隔断的墙。”",
+      "zh_ref": "以弗所书 2:13–14"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#f2e7cf"
       },
       "dailyWalkDay": 1303,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “stone by stone you're being set into something that rises from one corner and holds.” What part of your heart feels most searched or comforted by Ephesians 2:19–20 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “stone by stone you're being set into something that rises from one corner and holds.” What part of your heart feels most searched or comforted by Ephesians 2:19–20 right now?",
+      "zh_title": "不再作外人",
+      "zh_poem": "不再是\n那个不知该坐何处的\n客人。\n\n不再是\n守在城门口的\n异乡人。\n\n乃是神家里的人。\n\n是一家人了。\n\n一块石头挨着一块石头，\n你正被安放进\n一座殿宇之中——\n\n从同一块房角石上\n拔地而起，\n\n坚立不移。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“一块石头挨着一块石头，你正被安放进一座殿宇之中——从同一块房角石上拔地而起，坚立不移。”此刻，你的心哪一部分最被以弗所书 2:19–20 鉴察，或得着安慰？",
+      "zh_epigraph": "“这样，你们不再作外人和客旅，是与圣徒同国，是神家里的人了。”",
+      "zh_ref": "以弗所书 2:19–20"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#edc1c8"
       },
       "dailyWalkDay": 1304,
-      "reflectionPrompt": "In Ephesians 3:14–16, grace meets us right beside the loosened chain: how does the closing thought—“he is bending down low to reach up for you”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Ephesians 3:14–16, grace meets us right beside the loosened chain: how does the closing thought—“he is bending down low to reach up for you”—steady your footing for the road ahead?",
+      "zh_title": "我屈膝",
+      "zh_poem": "一个被囚的人\n跪在\n冰冷的石地上，\n\n开口祷告——\n不为他身上的锁链，\n\n却祈求你们\n心里面的力量\n刚强起来。\n\n天上地上的\n各家，\n都是从这位父\n得名。\n\n他深深屈膝\n俯伏，\n\n只为替你们\n向天举手祈求。",
+      "zh_reflectionPrompt": "在以弗所书 3:14–16 中，恩典就在那松开的锁链旁迎见我们：结尾的思索——“他深深屈膝俯伏，只为替你们向天举手祈求”——如何坚固你迈向前路的脚步？",
+      "zh_epigraph": "“因此，我在父面前屈膝”",
+      "zh_ref": "以弗所书 3:14–16"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#f8edcf"
       },
       "dailyWalkDay": 1305,
-      "reflectionPrompt": "If today’s painting of “rooted” (Ephesians 3:17–19) hung beside the door you walk out of this morning, how would its final line—“you are asked to know a love too big to know. so go down”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “rooted” (Ephesians 3:17–19) hung beside the door you walk out of this morning, how would its final line—“you are asked to know a love too big to know. so go down”—shape your choices?",
+      "zh_title": "扎根",
+      "zh_poem": "何等长阔。\n何等高深。\n保罗穷尽了\n一切丈量的言辞。\n\n树根并不\n参透泥土的奥秘。\n它们只是默默向下深扎。\n\n及至狂风吹起，\n大树无需\n解释分毫。\n\n他邀你去认识一份\n过于人所能测度的\n大爱。\n\n所以，向下扎根吧。",
+      "zh_reflectionPrompt": "如果今天这幅《扎根》（以弗所书 3:17–19）就挂在你清晨出门的门旁，它最后那句——“他邀你去认识一份过于人所能测度的大爱。所以，向下扎根吧”——会如何塑造你今日的抉择？",
+      "zh_epigraph": "“并知道这爱是过于人所能测度的”",
+      "zh_ref": "以弗所书 3:17–19"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#e4cda9"
       },
       "dailyWalkDay": 1306,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Ephesians 3:20–21)—where in your own home or work today does “the well isn't worried about the size of your bucket” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Ephesians 3:20–21)—where in your own home or work today does “the well isn't worried about the size of your bucket” ring true?",
+      "zh_title": "超过我们所求所想的",
+      "zh_poem": "你只求了\n一杯水。\n\n还生怕\n所求的太多。\n\n他却能成就一切，\n超过你所求的。\n\n超过你\n所能想到的。\n\n充充足足，\n满而又满。\n\n水井\n从来不为\n你水桶的大小而发愁。",
+      "zh_reflectionPrompt": "天路漫步的每一站，都显明神如何在寻常之处与我们相遇（以弗所书 3:20–21）——今天在你的家中或工作里，何处让你真切体会到“水井从来不为你水桶的大小而发愁”？",
+      "zh_epigraph": "“神能照着运行在我们心里的大力充充足足地成就一切，超过我们所求所想的。”",
+      "zh_ref": "以弗所书 3:20–21"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#dccfb0"
       },
       "dailyWalkDay": 1307,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “mend the knot that tore. tie it with peace.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “mend the knot that tore. tie it with peace.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "和平的绳索",
+      "zh_poem": "用爱心互相宽容。\n\n不是彼此仰慕。\n不是事事苟同。\n乃是互相宽容担当。\n\n就如一张渔网，\n承受着每一个绳结的\n拉扯，\n\n之所以坚韧不破，\n是因为绳结紧紧相连，\n而非因为\n风平浪静。\n\n一个身体。一位圣灵。一个指望。\n\n修补那裂开的\n绳结吧。\n用和平将它\n重新系紧。",
+      "zh_reflectionPrompt": "深吸一口气，再读一遍最后那行诗：“修补那裂开的绳结吧。用和平将它重新系紧。”如果你怀揣着这份真理走过接下来的一个小时，你的脚步会有何不同？",
+      "zh_epigraph": "“用爱心互相宽容，用和平彼此联络，竭力保守圣灵所赐合而为一的心。”",
+      "zh_ref": "以弗所书 4:2–3"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#fabb4d"
       },
       "dailyWalkDay": 1308,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “be angry, he says.” Looking through the lens of Ephesians 4:26–27, what does it mean to discover that “let the light go down on peace”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “be angry, he says.” Looking through the lens of Ephesians 4:26–27, what does it mean to discover that “let the light go down on peace”?",
+      "zh_title": "不可含怒到日落",
+      "zh_poem": "生气却不要犯罪，\n他说。\n\n有些事，\n本就令人义愤。\n\n但要留意西沉的日头。\n\n留宿过夜的怒气，\n会在暗中生根。\n醒来时化作苦毒。\n并在心门上\n留下一道破口。\n\n把话说开吧。\n把事平息吧。\n\n让夕阳的光，\n落在平安之上。",
+      "zh_reflectionPrompt": "回想你生命中曾否体会过“生气却不要犯罪，他说”的时刻。透过以弗所书 4:26–27 的眼光，发现“让夕阳的光，落在平安之上”，对你而言意味着什么？",
+      "zh_epigraph": "“生气却不要犯罪；不可含怒到日落，也不可给魔鬼留地步。”",
+      "zh_ref": "以弗所书 4:26–27"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#e3d3ae"
       },
       "dailyWalkDay": 1309,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “tender hearted” in this painting (Ephesians 4:31–32)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “tender hearted” in this painting (Ephesians 4:31–32)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "存怜悯的心",
+      "zh_poem": "把苦毒\n放下吧。\n\n连同那些毁谤、\n喧嚷、\n与陈旧的\n账簿。\n\n拾起一些\n更柔和的东西吧：\n\n恩慈。\n一颗怜悯的心。\n\n照着你所蒙受的饶恕\n去饶恕人吧：\n\n先伸出手，\n白白地给，\n并且不止一次。",
+      "zh_reflectionPrompt": "细看这幅画中（以弗所书 4:31–32）《存怜悯的心》那宁静的画面中心——如果你今天可以在它旁边卸下一份焦虑的重担，你会放下什么？",
+      "zh_epigraph": "“并要以恩慈相待，存怜悯的心，彼此饶恕，正如神在基督里饶恕了你们一样。”",
+      "zh_ref": "以弗所书 4:31–32"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#e5b86b"
       },
       "dailyWalkDay": 1310,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the small oil lamp in the dark: what quiet prayer rises in you when you read, “a lamp doesn't argue with the night. it shines”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the small oil lamp in the dark: what quiet prayer rises in you when you read, “a lamp doesn't argue with the night. it shines”?",
+      "zh_title": "光明的子女",
+      "zh_poem": "经上不是说\n你们从前在黑暗里。\n\n而是说，你们从前\n就是暗昧。\n\n而如今，\n不是靠近光明——\n乃是在主里面，就是光明的。\n\n所以，像光一样行路吧。\n提着它，\n走过那条\n需要光亮的街巷。\n\n一盏灯，\n从不与黑夜争辩。\n\n它只是静静发光。",
+      "zh_reflectionPrompt": "让目光停留在暗夜里那盏小小油灯四周的笔触与光影上：当你读到“一盏灯，从不与黑夜争辩。它只是静静发光”时，你心中升起怎样安静的祷告？",
+      "zh_epigraph": "“从前你们是暗昧的，但如今在主里面是光明的，行事为人就当像光明的子女。”",
+      "zh_ref": "以弗所书 5:8"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f6d698"
       },
       "dailyWalkDay": 1311,
-      "reflectionPrompt": "Linger with the movement in “awake” (Ephesians 5:14) from “maybe it was an early song of the church, sung over someone coming up from the water: wake up, sleeper” to “you don't have to make the morning. just open your eyes”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “awake” (Ephesians 5:14) from “maybe it was an early song of the church, sung over someone coming up from the water: wake up, sleeper” to “you don't have to make the morning. just open your eyes”—where do you find yourself along that arc today?",
+      "zh_title": "你这睡着的人当醒过来",
+      "zh_poem": "这或许是\n初代教会的一首古歌，\n\n唱给那个\n正从受洗的水里\n上来的人听：\n\n醒过来吧，\n睡着的人。\n\n从死里\n站起来吧。\n\n那光\n必寻见\n你的面庞。\n\n你无需亲手\n造出清晨。\n\n只需要\n睁开眼睛。",
+      "zh_reflectionPrompt": "在《你这睡着的人当醒过来》（以弗所书 5:14）中静心流连，从“这或许是初代教会的一首古歌，唱给那个正从受洗的水里上来的人听：醒过来吧，睡着的人”到“你无需亲手造出清晨。只需要睁开眼睛”——今天你发现自己正处在这段心路历程的哪个位置？",
+      "zh_epigraph": "“你这睡着的人当醒过来，从死里复活，基督就要光照你了。”",
+      "zh_ref": "以弗所书 5:14"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#f5e1be"
       },
       "dailyWalkDay": 1312,
-      "reflectionPrompt": "Notice how “making melody” (Ephesians 5:19–20) arrives at: “sometimes only in the heart, where the Lord hears every note.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “making melody” (Ephesians 5:19–20) arrives at: “sometimes only in the heart, where the Lord hears every note.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "口唱心和",
+      "zh_poem": "不要借酒\n填满自己。\n\n乃要被圣灵\n充满，\n\n流淌出来的，\n便是乐歌。\n\n诗章。\n颂词。\n无人写录下来的\n灵歌。\n\n凡事，\n常存感谢。\n\n有时放声歌唱。\n有时只在\n心底低吟，\n\n而在那里，主听得见\n每一个音符。",
+      "zh_reflectionPrompt": "留意《口唱心和》（以弗所书 5:19–20）如何落脚于：“有时只在心底低吟，而在那里，主听得见每一个音符。”今天在你生命中，有谁正行在艰难的路段上，需要你与他分享这份恩典？",
+      "zh_epigraph": "“口唱心和地赞美主”",
+      "zh_ref": "以弗所书 5:19–20"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#f5e4c1"
       },
       "dailyWalkDay": 1313,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Ephesians 5:25: “two lives at one small table, two cups, one loaf, and above it, a great mystery: Christ and his church”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Ephesians 5:25: “two lives at one small table, two cups, one loaf, and above it, a great mystery: Christ and his church”?",
+      "zh_title": "极大的奥秘",
+      "zh_poem": "当存敬畏基督的心，彼此顺服——\n他如此开篇，\n随后指明那样式：\n\n去爱，\n正如基督所爱的。\n\n不是索取。\n乃是舍己。\n\n两个生命，\n围坐在一张小桌旁，\n\n两只水杯，\n一个面饼，\n\n而在这一切之上，\n藏着一个极大的奥秘：\n\n基督，\n和他的教会。",
+      "zh_reflectionPrompt": "如果在今夜入睡前，你最该铭记的一件事，正是以弗所书 5:25 那安静的教训：“两个生命，围坐在一张小桌旁，两只水杯，一个面饼，而在这一切之上，藏着一个极大的奥秘：基督，和他的教会”——这会带给你怎样的看见？",
+      "zh_epigraph": "“你们作丈夫的，要爱你们的妻子，正如基督爱教会，为教会舍己。”",
+      "zh_ref": "以弗所书 5:25"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#d7c49d"
       },
       "dailyWalkDay": 1314,
-      "reflectionPrompt": "Imagine standing inside this frame beside the table set before you: what hurry or noise in your week begins to fade when you hear, “you put it on, one piece at a time, and you are strong not in your strength, in his”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the table set before you: what hurry or noise in your week begins to fade when you hear, “you put it on, one piece at a time, and you are strong not in your strength, in his”?",
+      "zh_title": "桌上的全副军装",
+      "zh_poem": "全都备好了，\n一一摆在\n桌面上。\n\n不是你的。\n乃是他的。\n\n无需你亲手锻造。\n也无需你赚取。\n\n你只需将它穿戴起来，\n一件，又一件，\n\n你便刚强了——\n\n不是靠你自己的气力，\n\n乃是倚赖他的大能。",
+      "zh_reflectionPrompt": "想象自己走进画框之中，站在摆设整齐的桌旁：当你听见“你只需将它穿戴起来，一件，又一件，你便刚强了——不是靠你自己的气力，乃是倚赖他的大能”时，你这一周里的哪些匆忙与喧嚣开始渐渐消退？",
+      "zh_epigraph": "“我还有末了的话：你们要靠着主，倚赖他的大能大力作刚强的人。”",
+      "zh_ref": "以弗所书 6:10–11"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#efd8ab"
       },
       "dailyWalkDay": 1315,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “a chained man wrote this, and he was still standing.” What part of your heart feels most searched or comforted by Ephesians 6:14–17 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “a chained man wrote this, and he was still standing.” What part of your heart feels most searched or comforted by Ephesians 6:14–17 right now?",
+      "zh_title": "站立得住",
+      "zh_poem": "用真理当作带子束腰。\n用公义当作护心镜遮胸。\n用平安的福音当作预备走路的鞋穿在脚上。\n拿着信德当作藤牌。\n戴上救恩的头盔。\n还有他的道——\n赐给你的唯一利剑。\n\n随后，这一切\n都归结为\n一个简短的词：\n\n站稳。\n\n写下这话的，\n是一个身戴锁链的人，\n\n而他，依然\n稳稳站立。",
+      "zh_reflectionPrompt": "在静默中轻声读出结尾的诗句：“写下这话的，是一个身戴锁链的人，而他，依然稳稳站立。”此刻，你的心哪一部分最被以弗所书 6:14–17 鉴察，或得着安慰？",
+      "zh_epigraph": "“并戴上救恩的头盔，拿着圣灵的宝剑，就是神的道。”",
+      "zh_ref": "以弗所书 6:14–17"
     }
-  ]
+  ],
+  "zh_title": "扎根与自由",
+  "zh_subtitle": "加拉太书与以弗所书诗画集",
+  "zh_beforeYouBegin": "《加拉太书》是一封急促写就的信，出自一个唯恐朋友们重新套上轭锁的人之手。信中有一条通往阿拉伯的路，一次在耶路撒冷伸出的右手，一张在安提阿有人起身离席的饭桌，一声孩童呼喊的“阿爸”，一篮没有律法能够禁止的果子，以及一副由两个肩膀共同分担的重担。《以弗所书》则步履从容，由同一个身戴锁链的人写下：一枚按在温软泥土上的印记，一道拆出缺口的隔墙，向下深扎的根须，日落时分的港湾，暗夜里的一盏明灯，以及在桌上逐件摆开的全副军装。\n\n全书分为五卷、四十首短诗：前两卷取材于《加拉太书》，后三卷取材于《以弗所书》。每首诗皆配有一幅画作，并置于一句经文之下。画中留驻的尽是书信所触及的器物——木轭、印章、织机、腰带与一双鞋履——而将面容留给你去想象。\n\n这些诗并非圣经本身，只是一个读经之人的心灵回响。请翻开保罗致加拉太人与以弗所人的书信，与本书一同阅读，让神真实的话语作最终的定音。"
 }

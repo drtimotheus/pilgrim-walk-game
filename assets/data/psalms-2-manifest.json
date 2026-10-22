@@ -16,7 +16,10 @@
       "epigraph": "As the deer pants for the water brooks, so my soul pants after you, God.",
       "epigraphRef": "Psalm 42:1",
       "lightName": "Light of As the Deer",
-      "lightHint": "Near 'preach to yourself' (Psalm 42:1–5) in Part 1: As the Deer"
+      "lightHint": "Near 'preach to yourself' (Psalm 42:1–5) in Part 1: As the Deer",
+      "zh_title": "正如鹿",
+      "zh_epigraph": "正如鹿渴求溪水一样，我的灵魂也渴求你，上帝。",
+      "zh_epigraphRef": "诗篇 42:1"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Create in me a clean heart, O God. Renew a right spirit within me.",
       "epigraphRef": "Psalm 51:10",
       "lightName": "Light of A Clean Heart",
-      "lightHint": "Near 'a thousand hills' (Psalm 50:10–15) in Part 2: A Clean Heart"
+      "lightHint": "Near 'a thousand hills' (Psalm 50:10–15) in Part 2: A Clean Heart",
+      "zh_title": "一颗洁净的心",
+      "zh_epigraph": "上帝啊，请为我创造一颗清洁的心。更新我内心正确的精神。",
+      "zh_epigraphRef": "诗篇 51:10"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "My soul rests in God alone.",
       "epigraphRef": "Psalm 62:1",
       "lightName": "Light of The Rock Higher Than I",
-      "lightHint": "Near 'someone keeps the books' (Psalm 58:1–11) in Part 3: The Rock Higher Than I"
+      "lightHint": "Near 'someone keeps the books' (Psalm 58:1–11) in Part 3: The Rock Higher Than I",
+      "zh_title": "比我高的岩石",
+      "zh_epigraph": "我的灵魂只安息于上帝。",
+      "zh_epigraphRef": "诗篇 62:1"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "even when I am old and gray-haired, God, don’t forsake me",
       "epigraphRef": "Psalm 71:18",
       "lightName": "Light of Even When I Am Old",
-      "lightHint": "Near 'through' (Psalm 66:10–16) in Part 4: Even When I Am Old"
+      "lightHint": "Near 'through' (Psalm 66:10–16) in Part 4: Even When I Am Old",
+      "zh_title": "即使我老了",
+      "zh_epigraph": "即使我老了，白发苍苍，上帝也不要抛弃我",
+      "zh_epigraphRef": "诗篇 71:18"
     }
   ],
   "paintings": [
@@ -69,7 +81,12 @@
         "accent": "#e9e4d4"
       },
       "dailyWalkDay": 489,
-      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “preach to yourself” in Timothy’s painting: what striving can you lay down as you ponder, “sometimes you have to preach to the only congregation that's listening: yourself” (Psalm 42:1–5)?"
+      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “preach to yourself” in Timothy’s painting: what striving can you lay down as you ponder, “sometimes you have to preach to the only congregation that's listening: yourself” (Psalm 42:1–5)?",
+      "zh_title": "对自己说教",
+      "zh_poem": "一只鹿在干涸的河床上，\n嗅石头\n水。\n\n那是我的灵魂，\n诗篇作者说。\n渴慕神。\n\n然后他自言自语：\n为什么如此沮丧，灵魂？\n希望上帝。\n我会再次赞美他。\n\n有时你必须宣讲\n到唯一的会众\n那是在听：\n你自己。",
+      "zh_reflectionPrompt": "看看提摩太画作中“对自己讲道”的安静中心部分的宁静：当你思考“有时你必须向唯一正在倾听的会众讲道：你自己”（诗篇42：1-5）时，你可以付出什么努力？",
+      "zh_epigraph": "“我的灵魂，你为何如此绝望？”",
+      "zh_ref": "诗篇 42:1–5"
     },
     {
       "n": 2,
@@ -90,7 +107,12 @@
         "accent": "#c9964b"
       },
       "dailyWalkDay": 490,
-      "reflectionPrompt": "In Psalm 43:3, the story turns on the small oil lamp in the dark—and ends with, “truth without light frightens. send both.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Psalm 43:3, the story turns on the small oil lamp in the dark—and ends with, “truth without light frightens. send both.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "两盏灯",
+      "zh_poem": "发出你的光\n和你的真相——\n就像两个向导\n有灯，\n\n两侧各一个，\n送我回家\n上山\n到你家。\n\n没有真理的光\n奉承。\n没有光的真理\n吓坏了。\n\n都发送。",
+      "zh_reflectionPrompt": "在诗篇 43:3 中，故事在黑暗中点亮了小油灯，并以“没有光的真理令人恐惧。把两者都发送出去。”神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“哦，发出你的光和你的真理。让它们引导我。”",
+      "zh_ref": "诗篇 43:3"
     },
     {
       "n": 3,
@@ -111,7 +133,12 @@
         "accent": "#e8d6b4"
       },
       "dailyWalkDay": 491,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 44:17–26 points us to the timber of the boat on the water and whispers, “on a boat in a storm, the disciples prayed it too, and he stood up and spoke to the wind.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 44:17–26 points us to the timber of the boat on the water and whispers, “on a boat in a storm, the disciples prayed it too, and he stood up and spoke to the wind.” How can you practice that unhurried wisdom today?",
+      "zh_title": "醒来",
+      "zh_poem": "我们没有忘记你。\n我们没有转身离开。\n而且仍然——\n这个。\n\n醒来吧，主啊。\n你为什么在睡觉？\n\n这听起来几乎很粗鲁。\n这是圣经里的。\n\n在暴风雨中的船上，\n门徒们也这样祷告，\n他站了起来\n对着风说话。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而诗篇 44:17-26 向我们指出了水面上船的木材，并低声说道：“在暴风雨中的船上，门徒也这样祷告，他站起来对着风说话。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“醒醒吧！主啊，你为什么要睡觉？”",
+      "zh_ref": "诗篇 44:17–26"
     },
     {
       "n": 4,
@@ -132,7 +159,12 @@
         "accent": "#ded4ba"
       },
       "dailyWalkDay": 492,
-      "reflectionPrompt": "The poem closes with a quiet turn: “the church has always heard another wedding underneath this one: the King and his bride, and a love song that hasn't ended.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “the church has always heard another wedding underneath this one: the King and his bride, and a love song that hasn't ended.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "一首情歌",
+      "zh_poem": "国王的婚礼歌曲。\n\n诗人的心\n冒泡而过，\n他的舌头\n像抄写员的笔一样快。\n\n教会一直听到\n另一场婚礼\n在这个下面：\n\n国王\n和他的新娘，\n和一首情歌\n这还没有结束。",
+      "zh_reflectionPrompt": "这首诗以安静的转折结束：“教堂总是听到在这一场婚礼之下的另一场婚礼：国王和他的新娘，以及一首尚未结束的情歌。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“我的心中洋溢着崇高的主题。”",
+      "zh_ref": "诗篇 45:1–2"
     },
     {
       "n": 5,
@@ -153,7 +185,12 @@
         "accent": "#e0d6c9"
       },
       "dailyWalkDay": 493,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “a command to stop fighting him, and let him be God” (Psalm 46:1–11) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “a command to stop fighting him, and let him be God” (Psalm 46:1–11) speak to a question you have been carrying lately?",
+      "zh_title": "保持安静",
+      "zh_poem": "地球发生变化。\n山脉滑入大海。\n水域咆哮。\n各国愤怒。\n\n在这一切喧嚣之中，\n一个非常现实的帮助：\n\n保持安静，\n并知道\n我是上帝。\n\n不是建议\n放松。\n一个命令\n停止与他战斗，\n并让他\n成为上帝。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“命令你停止与他争战，让他成为上帝”（诗篇 46：1-11）如何解答你最近一直存在的一个问题？",
+      "zh_epigraph": "“保持安静，并知道我是上帝。”",
+      "zh_ref": "诗篇 46:1–11"
     },
     {
       "n": 6,
@@ -174,7 +211,12 @@
         "accent": "#efd98d"
       },
       "dailyWalkDay": 494,
-      "reflectionPrompt": "Hold your hands open for a moment before “all you nations” (Psalm 47:1–2): what are you gripping tightly that loosens when you hear, “he's king of all the earth, and the whole earth is invited”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “all you nations” (Psalm 47:1–2): what are you gripping tightly that loosens when you hear, “he's king of all the earth, and the whole earth is invited”?",
+      "zh_title": "你们所有国家",
+      "zh_poem": "你们所有的国家。\n不仅仅是以色列。\n每个人。\n\n拍拍你的手。\n喊。\n\n上帝不是\n当地的神\n一个小山国家的。\n\n他是国王\n整个地球上，\n和整个地球\n被邀请。",
+      "zh_reflectionPrompt": "在“万民”面前张开你们的双手（诗篇 47：1-2）：当您听到“他是全地的王，全地都被邀请”时，您紧握的是什么东西松开了？",
+      "zh_epigraph": "“哦，请拍手，所有国家。”",
+      "zh_ref": "诗篇 47:1–2"
     },
     {
       "n": 7,
@@ -195,7 +237,12 @@
         "accent": "#fee3ae"
       },
       "dailyWalkDay": 495,
-      "reflectionPrompt": "Scripture remembers this moment in Psalm 48:9–14 not to impress us, but to steady us: when have you seen the truth that “then tell the next generation: this God is our God forever— he will guide us all the way to the end” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Psalm 48:9–14 not to impress us, but to steady us: when have you seen the truth that “then tell the next generation: this God is our God forever— he will guide us all the way to the end” in your own story?",
+      "zh_title": "数数她的塔",
+      "zh_poem": "走遍城市，\n诗篇说。\n数数她的塔楼。\n看看她的墙壁。\n\n然后告诉下一代：\n\n这位神\n是我们的上帝\n永远——\n\n他会指导我们\n一直到最后。",
+      "zh_reflectionPrompt": "圣经在诗篇 48:9-14 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到了“告诉下一代：这位神永远是我们的神——他会引导我们一直到最后”的真理？",
+      "zh_epigraph": "“神啊，我们在你的殿堂中思念了你的慈爱。”",
+      "zh_ref": "诗篇 48:9–14"
     },
     {
       "n": 8,
@@ -216,7 +263,12 @@
         "accent": "#eee3d1"
       },
       "dailyWalkDay": 496,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “nothing” (Psalm 49:16–20), what one honest sentence would you pray beside the name by which He calls you after reading, “but God will redeem my soul from the grave. invest there”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “nothing” (Psalm 49:16–20), what one honest sentence would you pray beside the name by which He calls you after reading, “but God will redeem my soul from the grave. invest there”?",
+      "zh_title": "什么都没有",
+      "zh_poem": "富人在他的土地上的名字。\n他的房子可以世代相传。\n他的黄金。\n\n和诗篇\n耸耸肩：\n\n他不会带走任何东西。\n\n没有一枚硬币。\n没有一英亩。\n\n但上帝\n将救赎我的灵魂\n从坟墓里。\n\n在那里投资。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“无”处时（诗篇 49：16-20），读完后，除了神呼唤你的名字“但神必救赎我的灵魂出离坟墓。投向那里”之外，你还会祷告哪一句诚实的句子呢？",
+      "zh_epigraph": "“因为当他死的时候，他什么也带走不了。”",
+      "zh_ref": "诗篇 49:16–20"
     },
     {
       "n": 9,
@@ -237,7 +289,12 @@
         "accent": "#f7d990"
       },
       "dailyWalkDay": 497,
-      "reflectionPrompt": "Between the opening line (“God doesn't need your bull, the psalm says”) and the closing thought (“the owner of everything wants your company”), what is Psalm 50:10–15 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“God doesn't need your bull, the psalm says”) and the closing thought (“the owner of everything wants your company”), what is Psalm 50:10–15 gently reframing in your own day?",
+      "zh_title": "一千座山",
+      "zh_poem": "上帝不需要你的公牛，\n诗篇说。\n\n森林里的每只动物都是他的。\n千山上的牛。\n如果他饿了，\n他不会告诉你。\n\n他想要什么\n是感谢，\n和你的电话\n在患难之日。\n\n一切的主人\n想要\n你的公司。",
+      "zh_reflectionPrompt": "在开场白（“诗篇说，上帝不需要你的公牛”）和结束思想（“万物的主人想要你的陪伴”）之间，诗篇 50:10-15 在你所处的时代轻轻地重构了什么？",
+      "zh_epigraph": "“千山上的牲畜。”",
+      "zh_ref": "诗篇 50:10–15"
     },
     {
       "n": 10,
@@ -258,7 +315,12 @@
         "accent": "#eee0c2"
       },
       "dailyWalkDay": 498,
-      "reflectionPrompt": "Along the road of As the Deer, “create” (Psalm 51:1–17) slows us down at the quiet centerpiece of “create” to remind us: “a broken heart, and he won't despise it.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of As the Deer, “create” (Psalm 51:1–17) slows us down at the quiet centerpiece of “create” to remind us: “a broken heart, and he won't despise it.” Where are you being invited to trade control for trust today?",
+      "zh_title": "创造",
+      "zh_poem": "大卫写了这个\n内森的话发现了他之后。\n\n没有任何借口。\n没有旋转。\n\n反对你\n我犯了罪。\n给我洗洗。\n在我身上创造\n一颗洁净的心。\n\n不修复。\n创造——\n创世记中的话，\n只有神才能做的事。\n\n他想要什么？\n不是完美的产品。\n一颗破碎的心，\n他不会鄙视它。",
+      "zh_reflectionPrompt": "沿着《如鹿》的道路，“创造”（诗篇 51：1-17）让我们在“创造”安静的中心放慢脚步，提醒我们：“一颗破碎的心，他不会轻视它。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“上帝的牺牲是破碎的精神。”",
+      "zh_ref": "诗篇 51:1–17"
     },
     {
       "n": 11,
@@ -279,7 +341,12 @@
         "accent": "#e8dec4"
       },
       "dailyWalkDay": 499,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “an olive tree” (Psalm 52:1–9), what would you talk about after reading, “olive trees can outlive centuries. so do the planted”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “an olive tree” (Psalm 52:1–9), what would you talk about after reading, “olive trees can outlive centuries. so do the planted”?",
+      "zh_title": "一棵橄榄树",
+      "zh_poem": "有权势的人\n相信他的财富\n还有他那尖利的舌头，\n\n他被连根拔起。\n\n但我——\n一棵橄榄树\n生长在神的庭院里，\n\n绿色,\n扎根,\n相信他的爱\n永远。\n\n橄榄树\n可以比几个世纪更长久。\n种植的也是如此。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“一棵橄榄树”（诗篇 52：1-9）处停下来，当你读到“橄榄树可以活几个世纪。所栽种的也一样”之后，你会谈论什么？",
+      "zh_epigraph": "“但对我来说，我就像上帝家里的一棵青橄榄树。”",
+      "zh_ref": "诗篇 52:1–9"
     },
     {
       "n": 12,
@@ -300,7 +367,12 @@
         "accent": "#cbbfa9"
       },
       "dailyWalkDay": 500,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “the fool”: what changes in your posture today when you sit with the closing words of “the fool”—“and the psalm ends not in scorn but in longing: oh, that salvation would come and bring us all home”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “the fool”: what changes in your posture today when you sit with the closing words of “the fool”—“and the psalm ends not in scorn but in longing: oh, that salvation would come and bring us all home”?",
+      "zh_title": "傻瓜",
+      "zh_poem": "这首诗篇出现了两次\n圣经中：\n正如诗篇 14 篇，\n还有这里。\n\n也许是因为\n我们需要它两次。\n\n傻瓜\n没有大声说出来。\n他在心里说道：\n没有人在看。\n没人在那儿。\n\n诗篇结束\n不是在蔑视\n但在渴望中：\n\n哦，救恩将会来临\n并给我们带来\n都回家了。",
+      "zh_reflectionPrompt": "在“愚人”安静的中心人物前停下来：今天，当你坐下来听“愚人”的结束语时，你的姿势有什么变化——“诗篇不是以蔑视而是以渴望结束：哦，救恩会降临，带我们所有人回家”？",
+      "zh_epigraph": "“愚人心里说：‘没有上帝。’”",
+      "zh_ref": "诗篇 53:1–6"
     },
     {
       "n": 13,
@@ -321,7 +393,12 @@
         "accent": "#eee2c5"
       },
       "dailyWalkDay": 501,
-      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “behold” in Timothy’s painting: what striving can you lay down as you ponder, “God is my helper. look. he's right here” (Psalm 54:1–4)?"
+      "reflectionPrompt": "Look at the stillness of the quiet centerpiece of “behold” in Timothy’s painting: what striving can you lay down as you ponder, “God is my helper. look. he's right here” (Psalm 54:1–4)?",
+      "zh_title": "看哪",
+      "zh_poem": "被人背叛\n谁应该保护他，\n\n大卫抬起头\n并说了最简单的话：\n\n看哪。\n神是我的帮助者。\n\n看。\n他就在这里。",
+      "zh_reflectionPrompt": "看看提摩太画作中安静的中心“看哪”：当你思考“神是我的帮助者。看哪。他就在这里”（诗篇 54：1-4）时，你能付出什么努力呢？",
+      "zh_epigraph": "“看哪，上帝是我的帮助者。”",
+      "zh_ref": "诗篇 54:1–4"
     },
     {
       "n": 14,
@@ -342,7 +419,12 @@
         "accent": "#eee5d2"
       },
       "dailyWalkDay": 502,
-      "reflectionPrompt": "In Psalm 55:6–22, the story turns on the quiet centerpiece of “wings like a dove”—and ends with, “so he does the next best thing: cast your burden on the Lord. he'll carry you.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Psalm 55:6–22, the story turns on the quiet centerpiece of “wings like a dove”—and ends with, “so he does the next best thing: cast your burden on the Lord. he'll carry you.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "像鸽子一样的翅膀",
+      "zh_poem": "哦，像鸽子一样的翅膀，\n飞走\n并保持休息。\n\n他被背叛了——\n不是敌人所为，\n由朋友\n他过去常步行去敬拜。\n\n他不能飞走。\n所以他做了下一个最好的事情：\n\n将你的重担卸给主。\n他会背着你。",
+      "zh_reflectionPrompt": "在诗篇 55:6-22 中，故事的核心是“翅膀像鸽子一样”，结尾是“所以他做了第二件最好的事：把你的重担卸给耶和华。他会背负你。”神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“噢，要是我有像鸽子一样的翅膀就好了！然后我就会飞走，然后安息了。”",
+      "zh_ref": "诗篇 55:6–22"
     },
     {
       "n": 15,
@@ -363,7 +445,12 @@
         "accent": "#f5d3ac"
       },
       "dailyWalkDay": 503,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 56:3–8 points us to the tears God keeps in His bottle and whispers, “not instead of fear. when.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 56:3–8 points us to the tears God keeps in His bottle and whispers, “not instead of fear. when.” How can you practice that unhurried wisdom today?",
+      "zh_title": "你的瓶子",
+      "zh_poem": "你已经数过了\n我的流浪。\n你把我的眼泪\n在你的瓶子里。\n\n没有一个被浪费。\n没有一个被遗忘。\n\n和最小的，\n最勇敢的一句话：\n\n当我害怕的时候，\n我会信任你。\n\n不是代替恐惧。\n什么时候。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而诗篇 56:3-8 向我们指出了神在他的瓶子里留下的眼泪，并低语道：“不是代替恐惧。何时。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“你把我的眼泪放进你的容器里。它们不是在你的书里吗？”",
+      "zh_ref": "诗篇 56:3–8"
     },
     {
       "n": 16,
@@ -384,7 +471,12 @@
         "accent": "#edc9aa"
       },
       "dailyWalkDay": 504,
-      "reflectionPrompt": "The poem closes with a quiet turn: “I'll wake the dawn. he sings the morning in.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “I'll wake the dawn. he sings the morning in.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "我将唤醒黎明",
+      "zh_poem": "躲在山洞里\n来自一个想要他死的国王，\n\n大卫拿起他的竖琴\n太阳升起之前：\n\n醒来吧，我的灵魂。\n醒来吧，竖琴。\n我会唤醒黎明。\n\n他不会等到早上\n开始唱歌。\n他唱歌\n早上在.",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“我会唤醒黎明。他歌唱着早晨。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“我会叫醒黎明。”",
+      "zh_ref": "诗篇 57:1–8"
     },
     {
       "n": 17,
@@ -405,7 +497,12 @@
         "accent": "#dfd2b2"
       },
       "dailyWalkDay": 505,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “somebody is keeping the books straight” (Psalm 58:1–11) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “somebody is keeping the books straight” (Psalm 58:1–11) speak to a question you have been carrying lately?",
+      "zh_title": "有人保管书籍",
+      "zh_poem": "法官们都歪了。\n法院被买下了。\n恶人昌盛。\n\n诗篇是激烈的，\n受委屈的方式\n很凶猛。\n\n但它的最后一行\n就是被压迫者\n最需要听到的是：\n\n有一位神\n谁审判地球。\n\n某人\n正在保留\n书直。",
+      "zh_reflectionPrompt": "有时候，一句话可以在封闭的房间里打开一扇窗：“有人把账簿整理得井井有条”（诗篇 58：1-11）如何解答你最近一直在思考的问题？",
+      "zh_epigraph": "“毫无疑问，有一位审判全地的神。”",
+      "zh_ref": "诗篇 58:1–11"
     },
     {
       "n": 18,
@@ -426,7 +523,12 @@
         "accent": "#fdefa4"
       },
       "dailyWalkDay": 506,
-      "reflectionPrompt": "Hold your hands open for a moment before “in the morning” (Psalm 59:16): what are you gripping tightly that loosens when you hear, “the morning belonged to God”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “in the morning” (Psalm 59:16): what are you gripping tightly that loosens when you hear, “the morning belonged to God”?",
+      "zh_title": "早上",
+      "zh_poem": "整个晚上，\n男人看着房子，\n等着杀他。\n\n大卫写道：\n但我会唱歌\n你的力量——\n早上。\n\n夜晚属于\n给他的敌人。\n早上\n属于上帝。",
+      "zh_reflectionPrompt": "在“早晨”（诗篇 59:16）之前，张开你的双手：当你听到“早晨是属于上帝的”时，你紧握的是什么东西松开了？",
+      "zh_epigraph": "“早上我会大声歌唱你的慈爱。”",
+      "zh_ref": "诗篇 59:16"
     },
     {
       "n": 19,
@@ -447,7 +549,12 @@
         "accent": "#faefce"
       },
       "dailyWalkDay": 507,
-      "reflectionPrompt": "Scripture remembers this moment in Psalm 60:4–12 not to impress us, but to steady us: when have you seen the truth that “through God we'll do valiantly” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Psalm 60:4–12 not to impress us, but to steady us: when have you seen the truth that “through God we'll do valiantly” in your own story?",
+      "zh_title": "横幅",
+      "zh_poem": "一场失败之后，\n一面横幅。\n\n不是白旗。\n他的。\n\n将其举到每个人都可以看到的地方：\n我们没有赢\n靠我们的力量。\n\n通过上帝\n我们会勇敢地去做。",
+      "zh_reflectionPrompt": "圣经在诗篇 60:4-12 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“靠着上帝，我们必勇敢行事”的真理？",
+      "zh_epigraph": "“你为敬畏你的人提供了一面旗帜”",
+      "zh_ref": "诗篇 60:4–12"
     },
     {
       "n": 20,
@@ -468,7 +575,12 @@
         "accent": "#ddbb79"
       },
       "dailyWalkDay": 508,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “higher than I” (Psalm 61:1–3), what one honest sentence would you pray beside your own two hands after reading, “one higher than me, and a hand to lead me up”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “higher than I” (Psalm 61:1–3), what one honest sentence would you pray beside your own two hands after reading, “one higher than me, and a hand to lead me up”?",
+      "zh_title": "比我高",
+      "zh_poem": "从地球的尽头，\n当我的心变得微弱时\n我打电话。\n\n带我到岩石那里\n那比我还高。\n\n我无法建造一块岩石。\n不是我一个人能够攀登的高度。\n\n比我高的一个，\n和一只手\n引导我上去。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“比我高”（诗篇61：1-3）时，读完“一只比我高，一只手引导我”之后，你会在自己的两只手旁祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“带我到比我更高的岩石那里。”",
+      "zh_ref": "诗篇 61:1–3"
     },
     {
       "n": 21,
@@ -489,7 +601,12 @@
         "accent": "#f0dcb6"
       },
       "dailyWalkDay": 509,
-      "reflectionPrompt": "Between the opening line (“my soul waits in silence for God alone”) and the closing thought (“he can take whatever spills”), what is Psalm 62:1–8 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“my soul waits in silence for God alone”) and the closing thought (“he can take whatever spills”), what is Psalm 62:1–8 gently reframing in your own day?",
+      "zh_title": "倒出来",
+      "zh_poem": "我的灵魂在沉默中等待\n只为上帝。\n\n不为下一个新闻。\n不适合合适的人回电。\n为了上帝。\n\n同时：\n倾吐你的心。\n所有这一切。\n\n他是一个避难所。\n他可以采取\n无论溢出什么。",
+      "zh_reflectionPrompt": "在开场白（“我的心默默等候神”）和结束语（“他能承受一切所溢出的”）之间，诗篇 62:1-8 在你所处的时代温柔地重构了什么？",
+      "zh_epigraph": "“在他面前倾诉你的心。”",
+      "zh_ref": "诗篇 62:1–8"
     },
     {
       "n": 22,
@@ -510,7 +627,12 @@
         "accent": "#f7f5e9"
       },
       "dailyWalkDay": 510,
-      "reflectionPrompt": "Along the road of As the Deer, “a dry land” (Psalm 63:1–6) slows us down at the open wilderness road to remind us: “a desert can be where you finally find out what you're thirsty for.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of As the Deer, “a dry land” (Psalm 63:1–6) slows us down at the open wilderness road to remind us: “a desert can be where you finally find out what you're thirsty for.” Where are you being invited to trade control for trust today?",
+      "zh_title": "旱地",
+      "zh_poem": "在荒野中，\n没有水，\n没有任何生长——\n\n他不祈雨。\n他为上帝祈祷。\n\n我的灵魂渴望你。\n\n而到了晚上，\n在他的床上，\n他记得，\n并想到上帝\n通过手表。\n\n一片沙漠\n可能是你最终发现的地方\n你渴望什么。",
+      "zh_reflectionPrompt": "沿着《如鹿》的道路，“干燥的土地”（诗篇 63：1-6）让我们在开阔的荒野路上放慢了脚步，提醒我们：“沙漠可以是你最终找到自己渴望的东西的地方。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“我的灵魂渴望你。我的肉体渴望你，在干燥、疲倦、无水的土地上。”",
+      "zh_ref": "诗篇 63:1–6"
     },
     {
       "n": 23,
@@ -531,7 +653,12 @@
         "accent": "#f4e8c5"
       },
       "dailyWalkDay": 511,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “one arrow” (Psalm 64:1–10), what would you talk about after reading, “the attacks turned on the attackers, and the righteous, once hiding, are glad”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “one arrow” (Psalm 64:1–10), what would you talk about after reading, “the attacks turned on the attackers, and the righteous, once hiding, are glad”?",
+      "zh_title": "一支箭",
+      "zh_poem": "他们磨砺了他们的舌头\n像剑一样，\n诸如箭头之类的目标词，\n从躲藏处射杀。\n\n和上帝\n还击\n一支箭。\n\n攻击转向\n对攻击者来说，\n\n和正义的人，\n一旦躲起来，\n很高兴。",
+      "zh_reflectionPrompt": "如果你和一位密友走在这条路上，停在“一箭”（诗篇 64：1-10）处，读完“攻击转向攻击者，义人一旦躲藏就欢喜”之后，你会谈论什么？",
+      "zh_epigraph": "“义人必因耶和华欢喜，并要投靠他。”",
+      "zh_ref": "诗篇 64:1–10"
     },
     {
       "n": 24,
@@ -552,7 +679,12 @@
         "accent": "#e2c086"
       },
       "dailyWalkDay": 512,
-      "reflectionPrompt": "Pause before the moving water: what changes in your posture today when you sit with the closing words of “harvest hymn”—“and at the end of the year, the carts overflow, the meadows wear flocks, the valleys wear grain, and they shout and sing together. harvest is a hymn”?"
+      "reflectionPrompt": "Pause before the moving water: what changes in your posture today when you sit with the closing words of “harvest hymn”—“and at the end of the year, the carts overflow, the meadows wear flocks, the valleys wear grain, and they shout and sing together. harvest is a hymn”?",
+      "zh_title": "收获赞歌",
+      "zh_poem": "上帝之河\n充满了水。\n\n他浇灌犁沟，\n用阵雨软化地面，\n祝福豆芽。\n\n并在年底时，\n推车溢出，\n草地上有羊群，\n山谷磨损谷物，\n他们大喊\n并一起唱歌。\n\n收获\n是一首赞美诗。",
+      "zh_reflectionPrompt": "驻足流水前：今天，当你坐上“丰收赞歌”的结束语——“年终车满，草甸穿羊群，谷穿谷，齐声呐喊，丰收是赞歌”时，你的姿势有什么变化？",
+      "zh_epigraph": "“你用你的赏金为这一年加冕。你的车里装满了丰富的东西。”",
+      "zh_ref": "诗篇 65:9–13"
     },
     {
       "n": 25,
@@ -573,7 +705,12 @@
         "accent": "#f1e4c2"
       },
       "dailyWalkDay": 513,
-      "reflectionPrompt": "Look at the stillness of the warmth of the fire in Timothy’s painting: what striving can you lay down as you ponder, “testimony is just this: the fire was real, the water was real, and so was the way out” (Psalm 66:10–16)?"
+      "reflectionPrompt": "Look at the stillness of the warmth of the fire in Timothy’s painting: what striving can you lay down as you ponder, “testimony is just this: the fire was real, the water was real, and so was the way out” (Psalm 66:10–16)?",
+      "zh_title": "通过",
+      "zh_poem": "通过火。\n通过水。\n\n不在周围。\n通过。\n\n然后：\n你带我们出去\n到一个富足的地方。\n\n来听听，\n诗篇作者说，\n让我告诉你\n他为我的灵魂所做的一切。\n\n见证\n就是这样：\n火灾是真实存在的，\n水是真实的，\n出路也是如此。",
+      "zh_reflectionPrompt": "看看提摩太画中火的温暖的静止：当你沉思“见证就是这样：火是真实的，水是真实的，出路也是真实的”（诗篇66：10-16）时，你还能付出什么努力呢？",
+      "zh_epigraph": "“我们经历过火和水，但你把我们带到了丰盛的地方。”",
+      "zh_ref": "诗篇 66:10–16"
     },
     {
       "n": 26,
@@ -594,7 +731,12 @@
         "accent": "#f0dba9"
       },
       "dailyWalkDay": 514,
-      "reflectionPrompt": "In Psalm 67:1–2, the story turns on the quiet centerpiece of “the light on us”—and ends with, “the light on us is meant to spread.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Psalm 67:1–2, the story turns on the quiet centerpiece of “the light on us”—and ends with, “the light on us is meant to spread.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "我们身上的光",
+      "zh_poem": "古老的牧师祝福，\n变成了一首歌：\n\n祝福我们，\n让你的脸照耀我们——\n\n然后是原因：\n\n所以你的方式\n将会被知道\n在整个地球上。\n\n我们很幸运\n成为一种祝福。\n我们身上的光\n是为了传播。",
+      "zh_reflectionPrompt": "在诗篇 67:1-2 中，故事的核心是“照在我们身上的光”，并以“照在我们身上的光要传播”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“愿神怜悯我们，赐福给我们，用脸光照我们。”",
+      "zh_ref": "诗篇 67:1–2"
     },
     {
       "n": 27,
@@ -615,7 +757,12 @@
         "accent": "#fadd93"
       },
       "dailyWalkDay": 515,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 68:5–6 points us to the table set before you and whispers, “if you have a table, look for the lonely.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Psalm 68:5–6 points us to the table set before you and whispers, “if you have a table, look for the lonely.” How can you practice that unhurried wisdom today?",
+      "zh_title": "额外的椅子",
+      "zh_poem": "为孤儿的父亲。\n寡妇的捍卫者。\n\n还有这个：\n上帝安排孤独者\n在家庭中。\n\n不仅仅是出生。\n通过收养，\n通过教堂，\n通过额外的椅子\n在某人的餐桌上。\n\n如果你孤独，\n寻找桌子。\n如果你有一张桌子，\n寻找孤独的人。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而诗篇 68:5-6 向我们指出摆在你面前的桌子，并低声说道：“如果你有桌子，就寻找孤独的人。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“上帝在家庭中安排了孤独者。”",
+      "zh_ref": "诗篇 68:5–6"
     },
     {
       "n": 28,
@@ -636,7 +783,12 @@
         "accent": "#f6ecdd"
       },
       "dailyWalkDay": 516,
-      "reflectionPrompt": "The poem closes with a quiet turn: “the praise was how he kept his head up.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “the praise was how he kept his head up.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "到我的脖子",
+      "zh_poem": "水已经没过我的脖子了。\n我陷入泥沼了\n没有立足点。\n\n这是最绝望的歌曲之一\n在书中。\n\n结束：\n我要赞美神的名\n和一首歌。\n\n不是因为水先下降。\n赞美\n他就是这样保持的\n他抬起头。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“赞美是他保持昂首挺胸的方式。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“上帝啊，救救我吧，因为水已经没到我的脖子了！”",
+      "zh_ref": "诗篇 69:1–30"
     },
     {
       "n": 29,
@@ -657,7 +809,12 @@
         "accent": "#e6cf92"
       },
       "dailyWalkDay": 517,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “and it's in the Bible, so you can pray it too” (Psalm 70:1–5) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “and it's in the Bible, so you can pray it too” (Psalm 70:1–5) speak to a question you have been carrying lately?",
+      "zh_title": "快点",
+      "zh_poem": "书中最短的哭声之一：\n快点。\n天哪，快点吧。\n我很穷。\n我很需要。\n不要拖延。\n\n这不礼貌。\n这是诚实的。\n\n圣经里也有这样的记载，\n所以你也可以祈祷。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“圣经里有这句话，所以你们也可以这样祷告”（诗篇 70：1-5）如何解答您最近一直困扰的问题？",
+      "zh_epigraph": "“快点到我这里来吧，上帝。”",
+      "zh_ref": "诗篇 70:1–5"
     },
     {
       "n": 30,
@@ -678,7 +835,12 @@
         "accent": "#e1d3ad"
       },
       "dailyWalkDay": 518,
-      "reflectionPrompt": "Hold your hands open for a moment before “old and gray” (Psalm 71:9–18): what are you gripping tightly that loosens when you hear, “it's the part where you pass it on”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “old and gray” (Psalm 71:9–18): what are you gripping tightly that loosens when you hear, “it's the part where you pass it on”?",
+      "zh_title": "又旧又灰",
+      "zh_poem": "你一直是我的希望\n从小我就\n从我出生之前开始。\n\n现在我老了。\n灰色的。\n我的力量正在衰退。\n\n现在别离开我——\n\n不是为了让我休息，\n所以我可以告诉\n下一代\n你做了什么。\n\n晚年\n并不是通话的结束。\n这是一部分\n你把它传递到哪里。",
+      "zh_reflectionPrompt": "在“又老又白”之前，请张开双手（诗篇 71：9-18）：当你听到“这是你传递的部分”时，你紧握的是什么东西松开了？",
+      "zh_epigraph": "“不要在我年老时拒绝我，不要在我力气衰弱时抛弃我。”",
+      "zh_ref": "诗篇 71:9–18"
     },
     {
       "n": 31,
@@ -699,7 +861,15 @@
         "accent": "#fbf4d6"
       },
       "dailyWalkDay": 519,
-      "reflectionPrompt": "Scripture remembers this moment in Psalm 72:6–20 not to impress us, but to steady us: when have you seen the truth that “the church has always heard another King in this song, the one who comes down like rain” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Psalm 72:6–20 not to impress us, but to steady us: when have you seen the truth that “the church has always heard another King in this song, the one who comes down like rain” in your own story?",
+      "zh_title": "像雨一样",
+      "zh_poem": "为国王祈祷：\n愿他像雨一样\n在割过的田野上——\n\n温柔。\n清爽。\n什么样的统治者\n穷人很高兴看到。\n\n没有以色列国王\n相当辜负了它。\n\n然后是书的最后一行：\n大卫的祷告，\n杰西的儿子，\n已结束。\n\n教会一直听到\n另一个国王\n在这首歌中，\n\n下来的人\n像雨一样。",
+      "zh_reflectionPrompt": "圣经在诗篇 72:6-20 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到了“教会在这首歌中总是听到另一位君王，那位像雨一样降临的君王”的真理？",
+      "zh_epigraph": "“他会降临，就像雨打在割过的草地上，就像阵雨浇灌大地。”",
+      "zh_ref": "诗篇 72:6–20"
     }
-  ]
+  ],
+  "zh_title": "如鹿切慕溪水",
+  "zh_subtitle": "诗篇 42–72 诗画集",
+  "zh_beforeYouBegin": "《诗篇》第二卷从一只鹿在干涸的河床中寻找水源开始，一直到结束河床的那条线：耶西之子大卫的祈祷结束了。其间是一位国王的歌曲，他躲在山洞里，犯罪并忏悔，变老，并不断祈祷。\n\n这本书一次回答一个问题，三十一首短诗分为四部分，每一部分旁边有一张图画，下面是它所回答的诗篇的一行。它从《Planted by the Water》停止的地方继续。\n\n这些诗不是圣经。它们是一位读者对此的回应。将诗篇与本书放在一起打开，让真正的话语成为最后的话语。"
 }

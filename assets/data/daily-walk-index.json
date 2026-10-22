@@ -10,7 +10,9 @@
       "subtitle": "Genesis in Poems & Pictures",
       "count": 40,
       "startDay": 1,
-      "endDay": 40
+      "endDay": 40,
+      "zh_title": "起初",
+      "zh_subtitle": "创世记诗画集"
     },
     {
       "bookNum": 2,
@@ -20,7 +22,9 @@
       "subtitle": "Exodus in Poems & Pictures",
       "count": 40,
       "startDay": 41,
-      "endDay": 80
+      "endDay": 80,
+      "zh_title": "容我的百姓去",
+      "zh_subtitle": "出埃及记诗画集"
     },
     {
       "bookNum": 3,
@@ -30,7 +34,9 @@
       "subtitle": "Leviticus & Numbers in Poems & Pictures",
       "count": 40,
       "startDay": 81,
-      "endDay": 120
+      "endDay": 120,
+      "zh_title": "夜间火柱",
+      "zh_subtitle": "利未记与民数记诗画集"
     },
     {
       "bookNum": 4,
@@ -40,7 +46,9 @@
       "subtitle": "Deuteronomy in Poems & Pictures",
       "count": 36,
       "startDay": 121,
-      "endDay": 156
+      "endDay": 156,
+      "zh_title": "拣选生命",
+      "zh_subtitle": "申命记诗画集"
     },
     {
       "bookNum": 5,
@@ -50,7 +58,9 @@
       "subtitle": "Joshua & Judges in Poems & Pictures",
       "count": 40,
       "startDay": 157,
-      "endDay": 196
+      "endDay": 196,
+      "zh_title": "刚强壮胆",
+      "zh_subtitle": "约书亚记与士师记诗画集"
     },
     {
       "bookNum": 6,
@@ -60,7 +70,9 @@
       "subtitle": "Ruth in Poems & Pictures",
       "count": 24,
       "startDay": 197,
-      "endDay": 220
+      "endDay": 220,
+      "zh_title": "你往哪里去",
+      "zh_subtitle": "路得记诗画集"
     },
     {
       "bookNum": 7,
@@ -70,7 +82,9 @@
       "subtitle": "1–2 Samuel in Poems & Pictures",
       "count": 40,
       "startDay": 221,
-      "endDay": 260
+      "endDay": 260,
+      "zh_title": "神的灯尚未熄灭",
+      "zh_subtitle": "撒母耳记上下诗画集"
     },
     {
       "bookNum": 8,
@@ -80,7 +94,9 @@
       "subtitle": "1 & 2 Kings in Poems & Pictures",
       "count": 40,
       "startDay": 261,
-      "endDay": 300
+      "endDay": 300,
+      "zh_title": "微小的声音",
+      "zh_subtitle": "列王纪上下诗画集"
     },
     {
       "bookNum": 9,
@@ -90,7 +106,9 @@
       "subtitle": "1 & 2 Chronicles in Poems & Pictures",
       "count": 36,
       "startDay": 301,
-      "endDay": 336
+      "endDay": 336,
+      "zh_title": "我们的眼目仰望你",
+      "zh_subtitle": "历代志上下诗画集"
     },
     {
       "bookNum": 10,
@@ -100,7 +118,9 @@
       "subtitle": "Ezra & Nehemiah in Poems & Pictures",
       "count": 40,
       "startDay": 337,
-      "endDay": 376
+      "endDay": 376,
+      "zh_title": "起来建造",
+      "zh_subtitle": "以斯拉记与尼希米记诗画集"
     },
     {
       "bookNum": 11,
@@ -110,7 +130,9 @@
       "subtitle": "Esther in Poems & Pictures",
       "count": 32,
       "startDay": 377,
-      "endDay": 408
+      "endDay": 408,
+      "zh_title": "焉知不为现今的机会",
+      "zh_subtitle": "以斯帖记诗画集"
     },
     {
       "bookNum": 12,
@@ -120,7 +142,9 @@
       "subtitle": "Job in Poems & Pictures",
       "count": 40,
       "startDay": 409,
-      "endDay": 448
+      "endDay": 448,
+      "zh_title": "旋风中的回答",
+      "zh_subtitle": "约伯记诗画集"
     },
     {
       "bookNum": 13,
@@ -130,7 +154,9 @@
       "subtitle": "Psalms 1–41 in Poems & Pictures",
       "count": 40,
       "startDay": 449,
-      "endDay": 488
+      "endDay": 488,
+      "zh_title": "栽在溪水旁",
+      "zh_subtitle": "诗篇 1–41 诗画集"
     },
     {
       "bookNum": 14,
@@ -140,7 +166,9 @@
       "subtitle": "Psalms 42–72 in Poems & Pictures",
       "count": 31,
       "startDay": 489,
-      "endDay": 519
+      "endDay": 519,
+      "zh_title": "如鹿切慕溪水",
+      "zh_subtitle": "诗篇 42–72 诗画集"
     },
     {
       "bookNum": 15,
@@ -150,7 +178,9 @@
       "subtitle": "Psalms 73–106 in Poems & Pictures",
       "count": 34,
       "startDay": 520,
-      "endDay": 553
+      "endDay": 553,
+      "zh_title": "在你的院宇住一日",
+      "zh_subtitle": "诗篇 73–106 诗画集"
     },
     {
       "bookNum": 16,
@@ -160,7 +190,9 @@
       "subtitle": "Psalms 107–150 in Poems & Pictures",
       "count": 44,
       "startDay": 554,
-      "endDay": 597
+      "endDay": 597,
+      "zh_title": "凡有气息的",
+      "zh_subtitle": "诗篇 107–150 诗画集"
     },
     {
       "bookNum": 17,
@@ -170,7 +202,9 @@
       "subtitle": "Proverbs in Poems & Pictures",
       "count": 40,
       "startDay": 598,
-      "endDay": 637
+      "endDay": 637,
+      "zh_title": "智慧的开端",
+      "zh_subtitle": "箴言诗画集"
     },
     {
       "bookNum": 18,
@@ -180,7 +214,9 @@
       "subtitle": "Ecclesiastes in Poems & Pictures",
       "count": 36,
       "startDay": 638,
-      "endDay": 673
+      "endDay": 673,
+      "zh_title": "将永恒安置在世人心里",
+      "zh_subtitle": "传道书诗画集"
     },
     {
       "bookNum": 19,
@@ -190,7 +226,9 @@
       "subtitle": "The Song of Songs in Poems & Pictures",
       "count": 32,
       "startDay": 674,
-      "endDay": 705
+      "endDay": 705,
+      "zh_title": "众水不能熄灭",
+      "zh_subtitle": "雅歌诗画集"
     },
     {
       "bookNum": 20,
@@ -200,7 +238,9 @@
       "subtitle": "Isaiah in Poems & Pictures",
       "count": 40,
       "startDay": 706,
-      "endDay": 745
+      "endDay": 745,
+      "zh_title": "兴起发光",
+      "zh_subtitle": "以赛亚书诗画集"
     },
     {
       "bookNum": 21,
@@ -210,7 +250,9 @@
       "subtitle": "Jeremiah in Poems & Pictures",
       "count": 40,
       "startDay": 746,
-      "endDay": 785
+      "endDay": 785,
+      "zh_title": "有指望的未来",
+      "zh_subtitle": "耶利米书诗画集"
     },
     {
       "bookNum": 22,
@@ -220,7 +262,9 @@
       "subtitle": "Lamentations in Poems & Pictures",
       "count": 30,
       "startDay": 786,
-      "endDay": 815
+      "endDay": 815,
+      "zh_title": "每早晨都是新的",
+      "zh_subtitle": "耶利米哀歌诗画集"
     },
     {
       "bookNum": 23,
@@ -230,7 +274,9 @@
       "subtitle": "Ezekiel in Poems & Pictures",
       "count": 40,
       "startDay": 816,
-      "endDay": 855
+      "endDay": 855,
+      "zh_title": "这些骸骨能复活吗？",
+      "zh_subtitle": "以西结书诗画集"
     },
     {
       "bookNum": 24,
@@ -240,7 +286,9 @@
       "subtitle": "Daniel in Poems & Pictures",
       "count": 40,
       "startDay": 856,
-      "endDay": 895
+      "endDay": 895,
+      "zh_title": "大蒙眷爱的人",
+      "zh_subtitle": "但以理书诗画集"
     },
     {
       "bookNum": 25,
@@ -250,7 +298,9 @@
       "subtitle": "Hosea, Joel, Amos & Obadiah in Poems & Pictures",
       "count": 40,
       "startDay": 896,
-      "endDay": 935
+      "endDay": 935,
+      "zh_title": "指望之门",
+      "zh_subtitle": "何西阿书、约珥书、阿摩司书与俄巴底亚书诗画集"
     },
     {
       "bookNum": 26,
@@ -260,7 +310,9 @@
       "subtitle": "Jonah in Poems & Pictures",
       "count": 24,
       "startDay": 936,
-      "endDay": 959
+      "endDay": 959,
+      "zh_title": "从深处求告",
+      "zh_subtitle": "约拿书诗画集"
     },
     {
       "bookNum": 27,
@@ -270,7 +322,9 @@
       "subtitle": "Micah to Malachi in Poems & Pictures",
       "count": 40,
       "startDay": 960,
-      "endDay": 999
+      "endDay": 999,
+      "zh_title": "小事之日",
+      "zh_subtitle": "弥迦书至玛拉基书诗画集"
     },
     {
       "bookNum": 28,
@@ -280,7 +334,9 @@
       "subtitle": "Luke in Poems & Pictures",
       "count": 40,
       "startDay": 1000,
-      "endDay": 1039
+      "endDay": 1039,
+      "zh_title": "大喜的好信息",
+      "zh_subtitle": "路加福音诗画集"
     },
     {
       "bookNum": 29,
@@ -290,7 +346,9 @@
       "subtitle": "Matthew in Poems & Pictures",
       "count": 40,
       "startDay": 1040,
-      "endDay": 1079
+      "endDay": 1079,
+      "zh_title": "我常与你们同在",
+      "zh_subtitle": "马太福音诗画集"
     },
     {
       "bookNum": 30,
@@ -300,7 +358,9 @@
       "subtitle": "Mark in Poems & Pictures",
       "count": 36,
       "startDay": 1080,
-      "endDay": 1115
+      "endDay": 1115,
+      "zh_title": "住了吧！静了吧！",
+      "zh_subtitle": "马可福音诗画集"
     },
     {
       "bookNum": 31,
@@ -310,7 +370,9 @@
       "subtitle": "John in Poems & Pictures",
       "count": 40,
       "startDay": 1116,
-      "endDay": 1155
+      "endDay": 1155,
+      "zh_title": "你们来看",
+      "zh_subtitle": "约翰福音诗画集"
     },
     {
       "bookNum": 32,
@@ -320,7 +382,9 @@
       "subtitle": "Acts in Poems & Pictures",
       "count": 40,
       "startDay": 1156,
-      "endDay": 1195
+      "endDay": 1195,
+      "zh_title": "直到地极",
+      "zh_subtitle": "使徒行传诗画集"
     },
     {
       "bookNum": 33,
@@ -330,7 +394,9 @@
       "subtitle": "Romans in Poems & Pictures",
       "count": 40,
       "startDay": 1196,
-      "endDay": 1235
+      "endDay": 1235,
+      "zh_title": "绝不能隔绝",
+      "zh_subtitle": "罗马书诗画集"
     },
     {
       "bookNum": 34,
@@ -340,7 +406,9 @@
       "subtitle": "1 & 2 Corinthians in Poems & Pictures",
       "count": 40,
       "startDay": 1236,
-      "endDay": 1275
+      "endDay": 1275,
+      "zh_title": "瓦器里的宝贝",
+      "zh_subtitle": "哥林多前后书诗画集"
     },
     {
       "bookNum": 35,
@@ -350,7 +418,9 @@
       "subtitle": "Galatians & Ephesians in Poems & Pictures",
       "count": 40,
       "startDay": 1276,
-      "endDay": 1315
+      "endDay": 1315,
+      "zh_title": "扎根与自由",
+      "zh_subtitle": "加拉太书与以弗所书诗画集"
     },
     {
       "bookNum": 36,
@@ -360,7 +430,9 @@
       "subtitle": "Philippians in Poems & Pictures",
       "count": 24,
       "startDay": 1316,
-      "endDay": 1339
+      "endDay": 1339,
+      "zh_title": "锁链中的喜乐",
+      "zh_subtitle": "腓立比书诗画集"
     },
     {
       "bookNum": 37,
@@ -370,7 +442,9 @@
       "subtitle": "Colossians & Philemon in Poems & Pictures",
       "count": 32,
       "startDay": 1340,
-      "endDay": 1371
+      "endDay": 1371,
+      "zh_title": "万有靠他而立",
+      "zh_subtitle": "歌罗西书与腓利门书诗画集"
     },
     {
       "bookNum": 38,
@@ -380,7 +454,9 @@
       "subtitle": "1 & 2 Thessalonians in Poems & Pictures",
       "count": 36,
       "startDay": 1372,
-      "endDay": 1407
+      "endDay": 1407,
+      "zh_title": "光明之子",
+      "zh_subtitle": "帖撒罗尼迦前后书诗画集"
     },
     {
       "bookNum": 39,
@@ -390,7 +466,9 @@
       "subtitle": "1–2 Timothy & Titus in Poems & Pictures",
       "count": 40,
       "startDay": 1408,
-      "endDay": 1447
+      "endDay": 1447,
+      "zh_title": "恩惠、怜悯与平安",
+      "zh_subtitle": "提摩太前后书与提多书诗画集"
     },
     {
       "bookNum": 40,
@@ -400,7 +478,9 @@
       "subtitle": "Hebrews in Poems & Pictures",
       "count": 40,
       "startDay": 1448,
-      "endDay": 1487
+      "endDay": 1487,
+      "zh_title": "灵魂的锚",
+      "zh_subtitle": "希伯来书诗画集"
     },
     {
       "bookNum": 41,
@@ -410,7 +490,9 @@
       "subtitle": "James in Poems & Pictures",
       "count": 30,
       "startDay": 1488,
-      "endDay": 1517
+      "endDay": 1517,
+      "zh_title": "行道的人",
+      "zh_subtitle": "雅各书诗画集"
     },
     {
       "bookNum": 42,
@@ -420,7 +502,9 @@
       "subtitle": "1–2 Peter & Jude in Poems & Pictures",
       "count": 40,
       "startDay": 1518,
-      "endDay": 1557
+      "endDay": 1557,
+      "zh_title": "活泼的盼望",
+      "zh_subtitle": "彼得前后书与犹大书诗画集"
     },
     {
       "bookNum": 43,
@@ -430,7 +514,9 @@
       "subtitle": "The Letters of John in Poems & Pictures",
       "count": 36,
       "startDay": 1558,
-      "endDay": 1593
+      "endDay": 1593,
+      "zh_title": "小子们哪",
+      "zh_subtitle": "约翰书信诗画集"
     },
     {
       "bookNum": 44,
@@ -440,7 +526,9 @@
       "subtitle": "Revelation in Poems & Pictures",
       "count": 40,
       "startDay": 1594,
-      "endDay": 1633
+      "endDay": 1633,
+      "zh_title": "我将一切都更新了",
+      "zh_subtitle": "启示录诗画集"
     }
   ]
 }

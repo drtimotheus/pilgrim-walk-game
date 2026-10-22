@@ -160,33 +160,62 @@ export class DailyWalkManager {
     this.app.persistSaveData();
   }
 
+  isZh() {
+    return this.app.lang === 'zh';
+  }
+
+  getListenBtnLabel() {
+    return this.isZh() ? '🔊 聆听朗读 (Selene)' : '🔊 Listen (Selene)';
+  }
+
   updateHUDCandlePill() {
     const btn = document.getElementById('btn-daily-walk');
     if (!btn) return;
     const count = this.getCompletedCount();
     const isDailyMode = this.app.walkMode === 'DAILY';
+    const zh = this.isZh();
     btn.classList.toggle('active-pill', isDailyMode);
-    btn.textContent = `🕯 Daily Walk · Day ${this.currentDay} (${count} Lit)`;
+    btn.textContent = zh
+      ? `🕯 每日同行 · 第 ${this.currentDay} 天 (已点亮 ${count})`
+      : `🕯 Daily Walk · Day ${this.currentDay} (${count} Lit)`;
 
     // Update floating Daily Walk banner when walking in 3D Daily Walk mode
     const banner = document.getElementById('daily-walk-hud-banner');
     if (banner) {
       if (isDailyMode && this.activeEntry && this.app.mode === 'STREET') {
         const e = this.activeEntry;
-        const doneBadge = this.isDayCompleted(e.day) ? '✦ Candle Kindled' : '🕯 Candle Waiting';
+        const pTitle = (zh && e.painting.zh_title) || e.painting.title;
+        const pRef = (zh && e.painting.zh_ref) || e.painting.ref;
+        const pPrompt = (zh && e.painting.zh_reflectionPrompt) || e.painting.reflectionPrompt;
+        const bTitle = (zh && e.bookInfo.zh_title) || e.bookInfo.title;
+        const doneBadge = this.isDayCompleted(e.day)
+          ? (zh ? '✦ 今日烛光已点亮' : '✦ Candle Kindled')
+          : (zh ? '🕯 烛光静候' : '🕯 Candle Waiting');
         banner.innerHTML = `
           <div class="dw-banner-top">
-            <span class="dw-banner-eyebrow">🕯 DAILY WALK · DAY ${e.day} OF ${this.getTotalDays()} (WEEK ${e.week}, DAY ${e.dayOfWeek} OF 7) · ${doneBadge}</span>
-            <span class="dw-banner-book">Book #${e.bookInfo.bookNum}: ${e.bookInfo.title} · No. ${e.painting.n} “${e.painting.title}” (${e.painting.ref})</span>
+            <span class="dw-banner-eyebrow">${
+              zh
+                ? `🕯 每日灵修同行 · 第 ${e.day} / ${this.getTotalDays()} 天（第 ${e.week} 周 · 第 ${e.dayOfWeek}/7 天）· ${doneBadge}`
+                : `🕯 DAILY WALK · DAY ${e.day} OF ${this.getTotalDays()} (WEEK ${e.week}, DAY ${e.dayOfWeek} OF 7) · ${doneBadge}`
+            }</span>
+            <span class="dw-banner-book">${
+              zh
+                ? `第 #${e.bookInfo.bookNum} 卷：《${bTitle}》· 第 ${e.painting.n} 幅《${pTitle}》（${pRef}）`
+                : `Book #${e.bookInfo.bookNum}: ${bTitle} · No. ${e.painting.n} “${pTitle}” (${pRef})`
+            }</span>
           </div>
           <div class="dw-banner-prompt">
-            <strong>Reflection Prompt:</strong> ${e.painting.reflectionPrompt}
+            <strong>${zh ? '今日默想：' : 'Reflection Prompt:'}</strong> ${pPrompt}
           </div>
           <div class="dw-banner-actions">
-            <button id="dw-banner-open-card" class="scene-jump-btn">📖 Read Poem &amp; Reflect [J]</button>
-            <button id="dw-banner-focus-art" class="scene-jump-btn">✦ Stand Before Painting</button>
-            <button id="dw-banner-prev-day" class="scene-jump-btn">◀ Day ${Math.max(1, e.day - 1)}</button>
-            <button id="dw-banner-complete-next" class="scene-jump-btn dw-gold-pill">✦ Complete Day ${e.day} &amp; Walk Day ${Math.min(this.getTotalDays(), e.day + 1)} →</button>
+            <button id="dw-banner-open-card" class="scene-jump-btn">${zh ? '📖 阅读诗歌与默想 [J]' : '📖 Read Poem &amp; Reflect [J]'}</button>
+            <button id="dw-banner-focus-art" class="scene-jump-btn">${zh ? '✦ 驻足画前' : '✦ Stand Before Painting'}</button>
+            <button id="dw-banner-prev-day" class="scene-jump-btn">◀ ${zh ? `第 ${Math.max(1, e.day - 1)} 天` : `Day ${Math.max(1, e.day - 1)}`}</button>
+            <button id="dw-banner-complete-next" class="scene-jump-btn dw-gold-pill">${
+              zh
+                ? `✦ 点亮第 ${e.day} 天烛光并前往第 ${Math.min(this.getTotalDays(), e.day + 1)} 天 →`
+                : `✦ Complete Day ${e.day} &amp; Walk Day ${Math.min(this.getTotalDays(), e.day + 1)} →`
+            }</button>
           </div>
         `;
         banner.classList.remove('hidden');
@@ -208,7 +237,12 @@ export class DailyWalkManager {
           const nextD = Math.min(this.getTotalDays(), this.currentDay + 1);
           await this.loadDayEntry(nextD);
           await this.walkCurrentDayIn3D(false);
-          this.app.showToast(`🕯 Day ${nextD - 1} candle kindled! Now walking Day ${nextD}: “${this.activeEntry.painting.title}” (${this.activeEntry.painting.ref}).`);
+          const nextP = this.activeEntry.painting;
+          this.app.showToast(
+            this.isZh()
+              ? `🕯 第 ${nextD - 1} 天烛光已点亮！正在前往第 ${nextD} 天：《${nextP.zh_title || nextP.title}》（${nextP.zh_ref || nextP.ref}）。`
+              : `🕯 Day ${nextD - 1} candle kindled! Now walking Day ${nextD}: “${nextP.title}” (${nextP.ref}).`
+          );
         });
       } else {
         banner.classList.add('hidden');
@@ -353,6 +387,7 @@ export class DailyWalkManager {
     const entry = this.activeEntry;
     if (!entry) return;
 
+    const zh = this.isZh();
     const totalDays = this.getTotalDays();
     const completedCount = this.getCompletedCount();
     const isCompleted = this.isDayCompleted(entry.day);
@@ -360,11 +395,31 @@ export class DailyWalkManager {
     // 1. Header & Candle Status
     const eyebrowEl = document.getElementById('dw-modal-eyebrow');
     const candleStatusEl = document.getElementById('dw-candle-status');
+    const modalTitleEl = document.querySelector('#daily-walk-modal .poem-title');
+    const modalSubEl = document.querySelector('#daily-walk-modal > .modal-card > .poem-ref');
     if (eyebrowEl) {
-      eyebrowEl.textContent = `THE DAILY WALK · DAY ${entry.day} OF ${totalDays} · WEEK ${entry.week} (DAY ${entry.dayOfWeek} OF 7)`;
+      eyebrowEl.textContent = zh
+        ? `每日灵修同行 · 第 ${entry.day} / ${totalDays} 天 · 第 ${entry.week} 周（第 ${entry.dayOfWeek} / 7 天）`
+        : `THE DAILY WALK · DAY ${entry.day} OF ${totalDays} · WEEK ${entry.week} (DAY ${entry.dayOfWeek} OF 7)`;
+    }
+    if (modalTitleEl) {
+      modalTitleEl.textContent = zh ? '每日同行 · 圣经诗画灵修与默想' : 'Daily Walk Devotional & Reflection';
+    }
+    if (modalSubEl) {
+      modalSubEl.textContent = zh
+        ? '按圣经叙事顺序走过全部 44 卷书，每日一幅画作、一首诗歌、一段经文与一句心灵默想。'
+        : 'One painting, poem, Scripture, and reflection prompt a day across all 44 books in storyline order.';
     }
     if (candleStatusEl) {
-      candleStatusEl.innerHTML = `
+      candleStatusEl.innerHTML = zh
+        ? `
+        <span class="dw-flame-icon">🕯</span>
+        <span>
+          <strong>已点亮 ${completedCount} 天</strong> ·
+          ${isCompleted ? '✦ 今日烛光已点亮' : '这盏烛火永不熄灭——它总是安静地等候你归来'}
+        </span>
+      `
+        : `
         <span class="dw-flame-icon">🕯</span>
         <span>
           <strong>${completedCount} ${completedCount === 1 ? 'Day' : 'Days'} Kindled</strong> ·
@@ -376,14 +431,16 @@ export class DailyWalkManager {
     // 2. Book & Day Selector Dropdowns
     const bookSelect = document.getElementById('dw-book-select');
     if (bookSelect && this.indexData?.books) {
-      if (bookSelect.options.length === 0) {
-        this.indexData.books.forEach((b) => {
-          const opt = document.createElement('option');
-          opt.value = b.startDay;
-          opt.textContent = `#${b.bookNum} · ${b.title} (Days ${b.startDay}–${b.endDay})`;
-          bookSelect.appendChild(opt);
-        });
-      }
+      bookSelect.innerHTML = '';
+      this.indexData.books.forEach((b) => {
+        const opt = document.createElement('option');
+        opt.value = b.startDay;
+        const bName = (zh && b.zh_title) || b.title;
+        opt.textContent = zh
+          ? `#${b.bookNum} · 《${bName}》（第 ${b.startDay}–${b.endDay} 天）`
+          : `#${b.bookNum} · ${b.title} (Days ${b.startDay}–${b.endDay})`;
+        bookSelect.appendChild(opt);
+      });
       bookSelect.value = entry.bookInfo.startDay;
     }
 
@@ -399,7 +456,9 @@ export class DailyWalkManager {
       const weekStartDay = (entry.week - 1) * 7 + 1;
       const weekEndDay = Math.min(totalDays, weekStartDay + 6);
       let html = `
-        <button class="scene-jump-btn" id="dw-prev-week-btn" ${weekStartDay <= 1 ? 'disabled' : ''}>◀ Week ${entry.week - 1}</button>
+        <button class="scene-jump-btn" id="dw-prev-week-btn" ${weekStartDay <= 1 ? 'disabled' : ''}>◀ ${
+          zh ? `第 ${entry.week - 1} 周` : `Week ${entry.week - 1}`
+        }</button>
       `;
       for (let d = weekStartDay; d <= weekEndDay; d++) {
         const dayIdxInWeek = d - weekStartDay + 1;
@@ -407,13 +466,15 @@ export class DailyWalkManager {
         const active = d === entry.day;
         html += `
           <button class="dw-week-day-btn ${active ? 'active-day' : ''} ${done ? 'completed-day' : ''}" data-dw-day="${d}">
-            <span class="dw-wd-top">Day ${dayIdxInWeek}</span>
-            <span class="dw-wd-sub">${done ? '✦ Lit' : '○'} #${d}</span>
+            <span class="dw-wd-top">${zh ? `第 ${dayIdxInWeek} 天` : `Day ${dayIdxInWeek}`}</span>
+            <span class="dw-wd-sub">${done ? (zh ? '✦ 已亮' : '✦ Lit') : '○'} #${d}</span>
           </button>
         `;
       }
       html += `
-        <button class="scene-jump-btn" id="dw-next-week-btn" ${weekEndDay >= totalDays ? 'disabled' : ''}>Week ${entry.week + 1} ▶</button>
+        <button class="scene-jump-btn" id="dw-next-week-btn" ${weekEndDay >= totalDays ? 'disabled' : ''}>${
+          zh ? `第 ${entry.week + 1} 周` : `Week ${entry.week + 1}`
+        } ▶</button>
       `;
       weekStrip.innerHTML = html;
 
@@ -450,60 +511,113 @@ export class DailyWalkManager {
     const epigraphEl = document.getElementById('dw-painting-epigraph');
     const poemEl = document.getElementById('dw-painting-poem');
     const promptEl = document.getElementById('dw-reflection-prompt-text');
+    const promptLabelEl = document.querySelector('#daily-walk-modal .reflection-callout-label');
+    const journalLabelEl = document.querySelector('#daily-walk-modal .dw-journal-box label');
+
+    const pTitle = (zh && entry.painting.zh_title) || entry.painting.title;
+    const pRef = (zh && entry.painting.zh_ref) || entry.painting.ref;
+    const pPoem = (zh && entry.painting.zh_poem) || entry.painting.poem;
+    const pPrompt = (zh && entry.painting.zh_reflectionPrompt) || entry.painting.reflectionPrompt;
+    const pEpigraph = (zh && entry.painting.zh_epigraph) || entry.painting.epigraph;
+    const bTitle = (zh && entry.bookInfo.zh_title) || entry.bookInfo.title;
+    const partTitle = entry.partObj ? ((zh && entry.partObj.zh_title) || entry.partObj.title) : '';
 
     if (imgEl) {
       imgEl.src = entry.painting.webSrc;
-      imgEl.alt = `${entry.painting.title} — ${entry.painting.ref}`;
+      imgEl.alt = `${pTitle} — ${pRef}`;
     }
     if (bookBadgeEl) {
-      const partLabel = entry.partObj ? ` · ${entry.partObj.title}` : '';
-      bookBadgeEl.textContent = `BOOK #${entry.bookInfo.bookNum}: ${entry.bookInfo.title.toUpperCase()} · POEM NO. ${entry.painting.n} OF ${entry.bookInfo.count}${partLabel.toUpperCase()}`;
+      const partLabel = partTitle ? ` · ${partTitle}` : '';
+      bookBadgeEl.textContent = zh
+        ? `第 #${entry.bookInfo.bookNum} 卷：《${bTitle}》· 第 ${entry.painting.n} / ${entry.bookInfo.count} 首${partLabel}`
+        : `BOOK #${entry.bookInfo.bookNum}: ${bTitle.toUpperCase()} · POEM NO. ${entry.painting.n} OF ${entry.bookInfo.count}${partLabel.toUpperCase()}`;
     }
-    if (titleEl) titleEl.textContent = entry.painting.title;
-    if (refEl) refEl.textContent = entry.painting.ref;
+    if (titleEl) titleEl.textContent = pTitle;
+    if (refEl) refEl.textContent = pRef;
     if (epigraphEl) {
-      if (entry.painting.epigraph) {
-        epigraphEl.textContent = entry.painting.epigraph;
+      if (pEpigraph) {
+        epigraphEl.textContent = pEpigraph;
         epigraphEl.classList.remove('hidden');
       } else {
         epigraphEl.classList.add('hidden');
       }
     }
-    if (poemEl) poemEl.textContent = entry.painting.poem;
+    if (poemEl) poemEl.textContent = pPoem;
+    if (promptLabelEl) {
+      promptLabelEl.textContent = zh ? '✦ 今日心灵默想' : '✦ Today’s Reflection Prompt';
+    }
     if (promptEl) {
       promptEl.textContent =
-        entry.painting.reflectionPrompt ||
-        `Where do you recognize this moment from “${entry.painting.title}” (${entry.painting.ref}) on your own walk today?`;
+        pPrompt ||
+        (zh
+          ? `在今天的旅途中，你在何处看见《${pTitle}》（${pRef}）中的这一幕？`
+          : `Where do you recognize this moment from “${pTitle}” (${pRef}) on your own walk today?`);
     }
 
     // 5. Personal Reflection Journal Input
     const noteEl = document.getElementById('daily-journal-input');
+    if (journalLabelEl) {
+      journalLabelEl.textContent = zh
+        ? '个人灵修 / 祷告笔记（保存在您的浏览器中）：'
+        : 'Personal Reflection / Prayer Note (Saved in Your Browser):';
+    }
     if (noteEl) {
+      noteEl.placeholder = zh
+        ? '写下今日同行的一行安静默想或祷告……'
+        : 'Write a quiet line of reflection or prayer for today’s walk…';
       noteEl.value = this.app.saveData.dailyWalk?.journalNotes?.[entry.day] || '';
     }
 
     // 6. Action Buttons (Step Through / Walk in 3D / Complete & Next Day)
+    const prevBtn = document.getElementById('dw-btn-prev-day');
+    const nextBtn = document.getElementById('dw-btn-next-day');
+    const readAloudBtn = document.getElementById('dw-btn-read-aloud');
+    const shareBtn = document.getElementById('dw-btn-share');
+    if (prevBtn) prevBtn.textContent = zh ? '◀ 上一天' : '◀ Prev Day';
+    if (nextBtn) nextBtn.textContent = zh ? '下一天 ▶' : 'Next Day ▶';
+    if (readAloudBtn && !this.isSpeaking) {
+      readAloudBtn.textContent = this.getListenBtnLabel();
+    }
+    if (shareBtn) shareBtn.textContent = zh ? '📋 复制灵修内容' : '📋 Copy Devotional';
+
     const walk3DBtn = document.getElementById('dw-btn-walk-3d');
     if (walk3DBtn) {
       walk3DBtn.textContent = entry.painting.isScene
-        ? `✦ Walk & Step Inside “${entry.painting.title}” in 3D`
-        : `✦ Stand Before “${entry.painting.title}” on the 3D Street`;
+        ? (zh ? `✦ 步入 3D 画境：《${pTitle}》` : `✦ Walk & Step Inside “${pTitle}” in 3D`)
+        : (zh ? `✦ 在 3D 街道驻足《${pTitle}》画前` : `✦ Stand Before “${pTitle}” on the 3D Street`);
     }
 
     const completeBtn = document.getElementById('dw-btn-complete-day');
     if (completeBtn) {
       const nextDay = Math.min(totalDays, entry.day + 1);
       completeBtn.textContent = isCompleted
-        ? `✦ Day ${entry.day} Lit · Continue to Day ${nextDay} →`
-        : `🕯 Light Day ${entry.day}’s Candle & Continue to Day ${nextDay} →`;
+        ? (zh ? `✦ 第 ${entry.day} 天已点亮 · 继续前往第 ${nextDay} 天 →` : `✦ Day ${entry.day} Lit · Continue to Day ${nextDay} →`)
+        : (zh ? `🕯 点亮第 ${entry.day} 天烛光并前往第 ${nextDay} 天 →` : `🕯 Light Day ${entry.day}’s Candle & Continue to Day ${nextDay} →`);
     }
   }
 
   // ==========================================================================
   // FISH AUDIO "SELENE" (modelId: b347db033a6549378b48d00acb0d06cd) VOICE ENGINE
+  // Supports both English (assets/audio/selene/day-N.mp3) and Mandarin Chinese (assets/audio/selene-zh/day-N.mp3)
   // ==========================================================================
   formatNarrationText(painting) {
     if (!painting) return '';
+    if (this.isZh()) {
+      const t = painting.zh_title || painting.title;
+      const r = painting.zh_ref || painting.ref;
+      const ep = painting.zh_epigraph || painting.epigraph;
+      const pm = painting.zh_poem || painting.poem;
+      const pr = painting.zh_reflectionPrompt || painting.reflectionPrompt;
+      return [
+        `${t}。`,
+        `${r}。`,
+        ep ? `${ep.replace(/[“”"]/g, '')}。` : '',
+        pm,
+        pr ? `今日默想：${pr}` : ''
+      ]
+        .filter(Boolean)
+        .join('\n\n');
+    }
     const parts = [
       `${painting.title}.`,
       `${painting.ref}.`,
@@ -576,7 +690,8 @@ export class DailyWalkManager {
     }
   }
 
-  stopActiveVoice(btnEl = null, defaultLabel = '🔊 Listen (Selene)') {
+  stopActiveVoice(btnEl = null, defaultLabel = null) {
+    const lbl = defaultLabel || this.getListenBtnLabel();
     if (this.activeAudioEl) {
       this.activeAudioEl.pause();
       this.activeAudioEl.currentTime = 0;
@@ -588,117 +703,74 @@ export class DailyWalkManager {
     this.isSpeaking = false;
     const b1 = document.getElementById('dw-btn-read-aloud');
     const b2 = document.getElementById('poem-modal-selene-btn');
-    if (b1) b1.textContent = '🔊 Listen (Selene)';
-    if (b2) b2.textContent = '🔊 Listen (Selene)';
-    if (btnEl) btnEl.textContent = defaultLabel;
+    if (b1) b1.textContent = this.getListenBtnLabel();
+    if (b2) b2.textContent = this.getListenBtnLabel();
+    if (btnEl) btnEl.textContent = lbl;
   }
 
   async playAudioBlob(blobOrUrl, btnEl, defaultLabel) {
-    this.stopActiveVoice(btnEl, defaultLabel);
+    const lbl = defaultLabel || this.getListenBtnLabel();
+    this.stopActiveVoice(btnEl, lbl);
     const url = typeof blobOrUrl === 'string' ? blobOrUrl : URL.createObjectURL(blobOrUrl);
     const audio = new Audio(url);
     this.activeAudioEl = audio;
     this.isSpeaking = true;
-    if (btnEl) btnEl.textContent = '⏹ Stop Selene';
+    if (btnEl) btnEl.textContent = this.isZh() ? '⏹ 停止朗读' : '⏹ Stop Selene';
     audio.onended = () => {
-      this.stopActiveVoice(btnEl, defaultLabel);
+      this.stopActiveVoice(btnEl, lbl);
     };
     audio.onerror = () => {
-      this.stopActiveVoice(btnEl, defaultLabel);
+      this.stopActiveVoice(btnEl, lbl);
     };
     await audio.play();
   }
 
-  async speakPaintingWithSelene(painting, btnEl = null, defaultLabel = '🔊 Listen (Selene)') {
+  async speakPaintingWithSelene(painting, btnEl = null, defaultLabel = null) {
+    const lbl = defaultLabel || this.getListenBtnLabel();
     if (!painting) return;
     if (this.isSpeaking) {
-      this.stopActiveVoice(btnEl, defaultLabel);
+      this.stopActiveVoice(btnEl, lbl);
       return;
     }
 
     const dayNum = painting.dailyWalkDay || this.currentDay;
-    const staticUrl = `assets/audio/selene/day-${dayNum}.mp3`;
+    const zh = this.isZh();
+    const folder = zh ? 'selene-zh' : 'selene';
+    const staticUrl = `assets/audio/${folder}/day-${dayNum}.mp3`;
     try {
-      await this.playAudioBlob(staticUrl, btnEl, defaultLabel);
+      await this.playAudioBlob(staticUrl, btnEl, lbl);
       return;
     } catch (err) {
       console.warn('Selene MP3 playback fallback:', err);
     }
 
-    // 2. Check IndexedDB cached Selene MP3 (from Fish Audio API or attached .mp3)
-    const cachedBlob = await this.getCachedSeleneBlob(cacheKey);
-    if (cachedBlob) {
-      await this.playAudioBlob(cachedBlob, btnEl, defaultLabel);
-      return;
-    }
-
-    // 3. If Fish Audio API Key is set, synthesize live with Selene (b347db033a6549378b48d00acb0d06cd)
-    const apiKey = (this.fishApiKey || localStorage.getItem(FISH_KEY_STORAGE) || '').trim();
-    if (apiKey) {
-      try {
-        if (btnEl) btnEl.textContent = '⏳ Selene Speaking…';
-        const text = this.formatNarrationText(painting);
-        const res = await fetch('https://api.fish.audio/v1/tts', {
-          method: 'POST',
-          headers: {
-            Authorization: `Bearer ${apiKey}`,
-            'Content-Type': 'application/json',
-            model: 's1'
-          },
-          body: JSON.stringify({
-            text,
-            reference_id: FISH_SELENE_MODEL_ID,
-            format: 'mp3',
-            mp3_bitrate: 128
-          })
-        });
-        if (res.ok) {
-          const mp3Blob = await res.blob();
-          await this.setCachedSeleneBlob(cacheKey, mp3Blob);
-          await this.playAudioBlob(mp3Blob, btnEl, defaultLabel);
-          return;
-        } else {
-          console.warn('Fish Audio API status:', res.status);
-          this.app.showToast(
-            `Fish Audio API returned ${res.status}. Using calm browser voice (or click "🎙 Fish Audio (Selene)" to open Selene directly).`
-          );
-        }
-      } catch (err) {
-        console.warn('Fish Audio direct fetch note:', err);
-      }
-    }
-
-    // 4. Gentle serene female voice fallback + prompt to connect Selene API key or attach .mp3
+    // 2. Gentle serene voice fallback in the active language (zh-CN or en)
     if ('speechSynthesis' in window) {
       const synth = window.speechSynthesis;
       const text = this.formatNarrationText(painting);
       const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = zh ? 'zh-CN' : 'en-US';
       const voices = synth.getVoices();
-      const sereneVoice =
-        voices.find((v) => /samantha|ava|allison|serena|victoria|karen|moira|natural/i.test(v.name) && /en/i.test(v.lang)) ||
-        voices.find((v) => /en/i.test(v.lang));
-      if (sereneVoice) utter.voice = sereneVoice;
-      utter.rate = 0.86;
+      const targetVoice = zh
+        ? voices.find((v) => /zh|cmn|ting-ting|meijia|sin-ji|xiaoxiao/i.test(v.lang + ' ' + v.name))
+        : voices.find((v) => /samantha|ava|allison|serena|victoria|karen|moira|natural/i.test(v.name) && /en/i.test(v.lang)) ||
+          voices.find((v) => /en/i.test(v.lang));
+      if (targetVoice) utter.voice = targetVoice;
+      utter.rate = zh ? 0.92 : 0.86;
       utter.pitch = 0.96;
       utter.onend = () => {
-        this.stopActiveVoice(btnEl, defaultLabel);
+        this.stopActiveVoice(btnEl, lbl);
       };
       this.isSpeaking = true;
-      if (btnEl) btnEl.textContent = '⏹ Stop Reading';
+      if (btnEl) btnEl.textContent = zh ? '⏹ 停止朗读' : '⏹ Stop Reading';
       synth.speak(utter);
-
-      if (!apiKey) {
-        this.app.showToast(
-          '🎙 Tip: Click "🔑 Selene API Key" or "⚡ Attach Selene .mp3" or "🎙 Fish Audio (Selene) ↗" to use your exact Fish Audio Selene voice!'
-        );
-      }
     }
   }
 
   speakCurrentDevotional() {
     if (!this.activeEntry) return;
     const btn = document.getElementById('dw-btn-read-aloud');
-    this.speakPaintingWithSelene(this.activeEntry.painting, btn, '🔊 Listen (Selene)');
+    this.speakPaintingWithSelene(this.activeEntry.painting, btn, this.getListenBtnLabel());
   }
 
   async copyCurrentDevotionalShareText() {

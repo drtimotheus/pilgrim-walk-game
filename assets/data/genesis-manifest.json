@@ -11,7 +11,10 @@
       "epigraphRef": "GENESIS 1:1",
       "startN": 1,
       "endN": 12,
-      "part": 1
+      "part": 1,
+      "zh_title": "第一部分·一开始",
+      "zh_epigraph": "起初，上帝创造了天地。",
+      "zh_epigraphRef": "GENESIS 1:1"
     },
     {
       "index": 2,
@@ -20,7 +23,10 @@
       "epigraphRef": "GENESIS 12:1",
       "startN": 13,
       "endN": 20,
-      "part": 2
+      "part": 2,
+      "zh_title": "第二部分·上帝的朋友",
+      "zh_epigraph": "前往我将向您展示的土地。",
+      "zh_epigraphRef": "GENESIS 12:1"
     },
     {
       "index": 3,
@@ -29,7 +35,10 @@
       "epigraphRef": "GENESIS 32:28",
       "startN": 21,
       "endN": 27,
-      "part": 3
+      "part": 3,
+      "zh_title": "第三部分·摔跤",
+      "zh_epigraph": "你的名字不再叫雅各，而是以色列",
+      "zh_epigraphRef": "GENESIS 32:28"
     },
     {
       "index": 4,
@@ -38,7 +47,10 @@
       "epigraphRef": "GENESIS 50:20",
       "startN": 28,
       "endN": 40,
-      "part": 4
+      "part": 4,
+      "zh_title": "第四部分·上帝的本意是好的",
+      "zh_epigraph": "你的本意是要害我，但上帝的本意是好的",
+      "zh_epigraphRef": "GENESIS 50:20"
     }
   ],
   "cover": "assets/genesis/web/g-001-000.jpg",
@@ -63,7 +75,11 @@
         "kind": "light"
       },
       "dailyWalkDay": 1,
-      "reflectionPrompt": "Before you rush into the tasks of the day, look at the morning light outside your window: what chaos in your life needs not a battle from you, but a single quiet word from the One who spoke over dark water?"
+      "reflectionPrompt": "Before you rush into the tasks of the day, look at the morning light outside your window: what chaos in your life needs not a battle from you, but a single quiet word from the One who spoke over dark water?",
+      "zh_title": "让它存在",
+      "zh_poem": "在做任何事情之前，\n一个声音\n在黑暗的水面上。\n没有挣扎。\n不与深海作战。\n就一句话——\n和光\n照吩咐去做，\n并且一直在这样做\n从那以后的每个早晨。",
+      "zh_reflectionPrompt": "在你急于完成当天的任务之前，看看窗外的晨光：你生活中的哪些混乱不需要你的战斗，而是需要那在黑暗的水面上说话的那一位安静的话语？",
+      "zh_ref": "创世记 1:1-3"
     },
     {
       "n": 2,
@@ -84,7 +100,11 @@
         "accent": "#f6e9b4"
       },
       "dailyWalkDay": 2,
-      "reflectionPrompt": "Six times He said “good,” and with us in the picture He said “very good”—what part of your ordinary life or your own reflection have you been judging harshly that God still calls good?"
+      "reflectionPrompt": "Six times He said “good,” and with us in the picture He said “very good”—what part of your ordinary life or your own reflection have you been judging harshly that God still calls good?",
+      "zh_title": "非常好",
+      "zh_poem": "他后退了六次\n并说：好。\n光。土地。\n海洋和种子。\n天空中的灯光。\n游泳者和飞行员。\n牛和爬行物。\n最后，\n看着这一切，\n与我们一起：\n非常好。\n请记住\n在那些日子里\n你忘了它。",
+      "zh_reflectionPrompt": "他六次说“好”，在照片中他对我们说“非常好”——你在日常生活或你自己的反思中曾严厉地评判神仍然称其为“好”吗？",
+      "zh_ref": "创世记 1:31"
     },
     {
       "n": 3,
@@ -105,7 +125,11 @@
         "accent": "#f9e6bc"
       },
       "dailyWalkDay": 3,
-      "reflectionPrompt": "Think of the next difficult or overlooked person you will cross paths with today: how would your posture shift if you remembered you are walking past a living portrait in God’s own gallery?"
+      "reflectionPrompt": "Think of the next difficult or overlooked person you will cross paths with today: how would your posture shift if you remembered you are walking past a living portrait in God’s own gallery?",
+      "zh_title": "画廊",
+      "zh_poem": "今天你经过的每张脸\n被塑造成某人的样子。\n不像国王。\n不像寺庙里的雕像。\n像上帝一样。\n乞丐和老板，\n男人和女人，\n你避开的邻居——\n你正在走路\n通过画廊\n他的形象。",
+      "zh_reflectionPrompt": "想想今天你将遇到的下一个困难或被忽视的人：如果你记得你正在走过上帝自己的画廊中的一幅活生生的肖像，你的姿势会如何变化？",
+      "zh_ref": "创世记 1:27"
     },
     {
       "n": 4,
@@ -127,7 +151,11 @@
         "kind": "garden"
       },
       "dailyWalkDay": 4,
-      "reflectionPrompt": "The crown of creation was not another achievement, but a day with nothing to do—what one striving can you lay down on the stone bench today simply to delight in what is already finished?"
+      "reflectionPrompt": "The crown of creation was not another achievement, but a day with nothing to do—what one striving can you lay down on the stone bench today simply to delight in what is already finished?",
+      "zh_title": "第七天",
+      "zh_poem": "他说完，\n然后他停了下来。\n不是因为他累了。\n因为休息\n是制作的一部分。\n神称其为圣的第一件事\n不是一个地方。\n这是一天\n无事可做。",
+      "zh_reflectionPrompt": "创造的冠冕并不是另一项成就，而是无所事事的一天——今天你能在石凳上躺下什么努力，只是为了享受已经完成的事情呢？",
+      "zh_ref": "创世记 2:1-3"
     },
     {
       "n": 5,
@@ -148,7 +176,11 @@
         "accent": "#e6d1a6"
       },
       "dailyWalkDay": 5,
-      "reflectionPrompt": "Pause right now and take one slow, unhurried breath: what changes when you remember you are not a machine running down, but dust held together this very second by the breath of God?"
+      "reflectionPrompt": "Pause right now and take one slow, unhurried breath: what changes when you remember you are not a machine running down, but dust held together this very second by the breath of God?",
+      "zh_title": "灰尘和呼吸",
+      "zh_poem": "他的名字是一个文字游戏：\n亚当，\n来自阿达玛，\n地面。\n我们是泥土\n上帝靠得很近\n并继续呼吸。\n所以要谦虚——\n你是尘埃。\n并感到惊讶——\n你呼吸了。",
+      "zh_reflectionPrompt": "现在暂停一下，缓慢地、从容地呼吸一下：当你想起你不是一台运转中的机器，而是此刻被上帝的呼吸凝聚在一起的尘埃时，会发生什么变化？",
+      "zh_ref": "创世记 2:7"
     },
     {
       "n": 6,
@@ -169,7 +201,11 @@
         "accent": "#fae8ba"
       },
       "dailyWalkDay": 6,
-      "reflectionPrompt": "When you feel the ache of doing something alone, who has God placed beside you as a companion—and how can you thank them today before the sun goes down?"
+      "reflectionPrompt": "When you feel the ache of doing something alone, who has God placed beside you as a companion—and how can you thank them today before the sun goes down?",
+      "zh_title": "不好",
+      "zh_poem": "一切都很好，\n直到上帝注意到\n但有一件事并非如此。\n不是罪。还没有。\n只是一个男人\n他身边没有人。\n第一个“不好”\n圣经中\n是孤独。\n神很重视这件事。\n我们也应该如此。",
+      "zh_reflectionPrompt": "当你感到独自做某事的痛苦时，上帝在你身边安排了谁作为你的伴侣——今天在太阳落山之前，你该如何感谢他们呢？",
+      "zh_ref": "创世记 2:18"
     },
     {
       "n": 7,
@@ -190,7 +226,11 @@
         "accent": "#e6c9a4"
       },
       "dailyWalkDay": 7,
-      "reflectionPrompt": "“Where are you?” was not the shout of a detective, but the heartbreak of a Father walking through the cool of the trees: what fig leaves of excuses or busyness are keeping you from stepping out into the open with Him today?"
+      "reflectionPrompt": "“Where are you?” was not the shout of a detective, but the heartbreak of a Father walking through the cool of the trees: what fig leaves of excuses or busyness are keeping you from stepping out into the open with Him today?",
+      "zh_title": "你在哪里？",
+      "zh_poem": "他知道他们在哪里。\n这个问题不是问他的。\n这是为了他们——\n蹲在树林间，\n缝制叶子，\n为自己的皮肤感到羞耻。\n你在哪里？\n不是猎人的喊叫。\n父亲的呼唤\n晚上，\n漫步花园\n就像他一直做的那样。",
+      "zh_reflectionPrompt": "“你在哪儿？”这不是侦探的呼喊，而是一位父亲走过凉爽的树林时的心碎：什么借口或忙碌的无花果叶子阻止你今天与他一起走向光明？",
+      "zh_ref": "创世记 3:8-9"
     },
     {
       "n": 8,
@@ -211,7 +251,11 @@
         "accent": "#f1e4c3"
       },
       "dailyWalkDay": 8,
-      "reflectionPrompt": "Even as they left the garden, God knelt to stitch garments for the ones who broke His heart—how have you felt His quiet covering over you even inside the consequences of a mistake?"
+      "reflectionPrompt": "Even as they left the garden, God knelt to stitch garments for the ones who broke His heart—how have you felt His quiet covering over you even inside the consequences of a mistake?",
+      "zh_title": "穿衣服的",
+      "zh_poem": "结果是——\n荆棘、汗水、\n出去的路还很长。\n但在他们离开之前，\n上帝跪下\n并给他们做了衣服。\n他们的无花果叶\n还不够。\n他的怜悯\n是。",
+      "zh_reflectionPrompt": "当他们离开花园时，神就跪下来为那些伤了他心的人缝制衣服——即使在错误的后果中，你是否感觉到他安静地遮盖你？",
+      "zh_ref": "创世记 3:21"
     },
     {
       "n": 9,
@@ -232,7 +276,11 @@
         "accent": "#f4dcaf"
       },
       "dailyWalkDay": 9,
-      "reflectionPrompt": "“Am I my brother’s keeper?” still echoes whenever we look away from another’s need: whose burden or loneliness near you today is God gently asking you to notice and share?"
+      "reflectionPrompt": "“Am I my brother’s keeper?” still echoes whenever we look away from another’s need: whose burden or loneliness near you today is God gently asking you to notice and share?",
+      "zh_title": "守门员",
+      "zh_poem": "第一个问题是：\n你在哪里？\n第二个：\n你哥哥在哪里？\n该隐耸耸肩。\n我应该跟踪他吗？\n是的。\n这正是\n你是为了什么。\n和地面本身\n不会保持安静。",
+      "zh_reflectionPrompt": "“我是我哥哥的守护者吗？”每当我们把目光从他人的需要上移开时，这句话仍然会回响：今天，上帝温柔地要求你注意并分享谁的负担或孤独在你身边？",
+      "zh_ref": "创世记 4:9-10"
     },
     {
       "n": 10,
@@ -253,7 +301,11 @@
         "accent": "#f0d292"
       },
       "dailyWalkDay": 10,
-      "reflectionPrompt": "After forty days of rain and long waiting, hope arrived as one small olive leaf in a dove’s beak: what small green sign of renewal is God already sending into your waiting season?"
+      "reflectionPrompt": "After forty days of rain and long waiting, hope arrived as one small olive leaf in a dove’s beak: what small green sign of renewal is God already sending into your waiting season?",
+      "zh_title": "一片绿叶",
+      "zh_poem": "第一次，她回来了\n什么也没有。\n第二次是晚上，\n一片叶子。\n新鲜的。绿色的。\n从一棵活树上撕下来。\n就这样。\n洪水还没有结束——\n证明它正在结束。\n有时希望\n是一个绿色的小东西\n走了很长的路。",
+      "zh_reflectionPrompt": "经过四十天的降雨和漫长的等待，希望像鸽子嘴里的一片小橄榄叶一样到来：上帝已经在你的等待季节送出了什么小小的绿色更新标志？",
+      "zh_ref": "创世记 8:6-11"
     },
     {
       "n": 11,
@@ -275,7 +327,11 @@
         "kind": "bow"
       },
       "dailyWalkDay": 11,
-      "reflectionPrompt": "God hung His warrior’s bow in the clouds pointed away from the earth: when the storm finally passes, what altar of gratitude can you stack on the wet ground?"
+      "reflectionPrompt": "God hung His warrior’s bow in the clouds pointed away from the earth: when the storm finally passes, what altar of gratitude can you stack on the wet ground?",
+      "zh_title": "云中弓",
+      "zh_poem": "战士的弓，\n挂断了\n在云中。\n上帝说：\n当我看到它时\n我会记住的。\n不是你——\n我。\n承诺并不取决于\n在你的记忆中。\n它挂在他的身上。",
+      "zh_reflectionPrompt": "上帝将他战士的弓挂在远离大地的云端：当暴风雨最终过去时，你能在潮湿的地面上堆起什么样的感恩祭坛？",
+      "zh_ref": "创世记 9:13-15"
     },
     {
       "n": 12,
@@ -296,7 +352,11 @@
         "accent": "#f4e3bc"
       },
       "dailyWalkDay": 12,
-      "reflectionPrompt": "Tower-builders reach for a name so they won’t be scattered; pilgrims leave with only a promise—where are you trying to build a monument to your own security instead of listening for His call?"
+      "reflectionPrompt": "Tower-builders reach for a name so they won’t be scattered; pilgrims leave with only a promise—where are you trying to build a monument to your own security instead of listening for His call?",
+      "zh_title": "我们自己的名字",
+      "zh_poem": "来吧，我们来建造。\n让我们到达天空。\n让我们起个名字——\n世界上最古老的计划。\n他们想要身高。\n上帝希望它们遍布地球。\n一章之后，\n他打电话给一个人\n并说：\n我会让你的名字变得伟大。\n你建立的名字\n跌倒。\n你的名字\n站。",
+      "zh_reflectionPrompt": "建造塔楼的人想要一个名字，这样他们就不会分散；朝圣者离开时只带着一个承诺——你在哪里试图为自己的安全建造一座纪念碑，而不是聆听他的召唤？",
+      "zh_ref": "创世记 11:1-9"
     },
     {
       "n": 13,
@@ -317,7 +377,11 @@
         "accent": "#f4d893"
       },
       "dailyWalkDay": 13,
-      "reflectionPrompt": "Abram walked out without a map, knowing only the Voice who said “Go”: what next step are you postponing until you can see mile ten, when God is only asking you to take step one?"
+      "reflectionPrompt": "Abram walked out without a map, knowing only the Voice who said “Go”: what next step are you postponing until you can see mile ten, when God is only asking you to take step one?",
+      "zh_title": "去",
+      "zh_poem": "离开。\n你的国家。\n你的家人。\n你父亲的房子。\n去。\n在哪里？\n我会告诉你。\n没有地图，\n只有一个声音——\n和一名七十五岁的老人\n收拾他的帐篷。\n信仰常常开始\n与不知道\n哪里。",
+      "zh_reflectionPrompt": "亚伯兰走出去时没有带地图，只知道那个说“走”的声音：你要推迟下一步做什么，直到你能看到第十英里，而上帝只要求你迈出第一步？",
+      "zh_ref": "创世记 12:1-4"
     },
     {
       "n": 14,
@@ -338,7 +402,11 @@
         "accent": "#a4977e"
       },
       "dailyWalkDay": 14,
-      "reflectionPrompt": "Step outside tonight and look up at the sky if you can: what promise of God feels too vast for your small tent right now?"
+      "reflectionPrompt": "Step outside tonight and look up at the sky if you can: what promise of God feels too vast for your small tent right now?",
+      "zh_title": "数一下他们",
+      "zh_poem": "他老了，\n并且没有儿子，\n上帝带他出去\n并说：抬头看。\n数一下他们。\n他不能。\n这就是重点。\n他相信——\n上帝算了\n作为正义。\n信仰做的第一件事\n是走出去\n并抬头看。",
+      "zh_reflectionPrompt": "如果可以的话，今晚走出去，仰望天空：上帝的什么应许对于你现在的小帐篷来说太过巨大了？",
+      "zh_ref": "创世记 15:5-6"
     },
     {
       "n": 15,
@@ -359,7 +427,11 @@
         "accent": "#f1e4c5"
       },
       "dailyWalkDay": 15,
-      "reflectionPrompt": "By the desert spring, a runaway servant gave God a name—“You are the God who sees”: what unseen corner of your week does it comfort you to know He has never looked away from?"
+      "reflectionPrompt": "By the desert spring, a runaway servant gave God a name—“You are the God who sees”: what unseen corner of your week does it comfort you to know He has never looked away from?",
+      "zh_title": "看见的神",
+      "zh_poem": "夏甲——\n一个奴隶，一个外国人，\n怀孕、受虐待、\n逃进沙漠。\n没有人是第一选择。\n上帝在泉水边找到了她\n并叫出她的名字。\n她给了上帝一个名字\n以前没有人给过他：\n看见的神。",
+      "zh_reflectionPrompt": "在沙漠的泉水边，一个逃跑的仆人给上帝起了一个名字——“你是洞察一切的上帝”：知道他从未离开过你一周中哪个看不见的角落，这让你感到安慰？",
+      "zh_ref": "创世记 16:7-13"
     },
     {
       "n": 16,
@@ -380,7 +452,11 @@
         "accent": "#ead1ac"
       },
       "dailyWalkDay": 16,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “too hard” (Genesis 18:10-14), what one honest sentence would you pray beside the still, unhurried voice after reading, “that question is still standing in the doorway of every tent where someone stopped hoping”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “too hard” (Genesis 18:10-14), what one honest sentence would you pray beside the still, unhurried voice after reading, “that question is still standing in the doorway of every tent where someone stopped hoping”?",
+      "zh_title": "太难了",
+      "zh_poem": "她笑了\n帐篷内，\n你笑的方式\n一个来得太晚的承诺。\n老的。\n累死了。\n完成希望。\n外面有一个声音问道：\n主岂有难成的事吗？\n这个问题仍然存在\n在门口\n每个帐篷的\n有人停止希望的地方。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼在“太难”处停下来时（创世记18:10-14），读完“这个问题仍然站在每个人不再希望的帐篷门口”之后，除了平静、不慌不忙的声音之外，你还会祈祷哪一句诚实的句子呢？",
+      "zh_ref": "创世记 18:10-14"
     },
     {
       "n": 17,
@@ -401,7 +477,11 @@
         "accent": "#f7dc97"
       },
       "dailyWalkDay": 17,
-      "reflectionPrompt": "Between the opening line (“she named him Laughter— Isaac”) and the closing thought (“he gives her a son and a better reason to laugh”), what is Genesis 21:1-7 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“she named him Laughter— Isaac”) and the closing thought (“he gives her a son and a better reason to laugh”), what is Genesis 21:1-7 gently reframing in your own day?",
+      "zh_title": "笑声",
+      "zh_poem": "她给他起名叫笑声——\n艾萨克.\n同样的笑声\n这曾经意味着\n我不相信\n现在意味着\n我简直不敢相信。\n老天爷不骂她。\n他给了她一个儿子\n和一个更好的理由\n笑。",
+      "zh_reflectionPrompt": "在开场白（“她给他起名叫笑——以撒”）和结束语（“他给了她一个儿子，给了她一个更好的笑的理由”）之间，创世记 21:1-7 在你那个时代温和地重构了什么？",
+      "zh_ref": "创世记 21:1-7"
     },
     {
       "n": 18,
@@ -422,7 +502,11 @@
         "accent": "#f3da9d"
       },
       "dailyWalkDay": 18,
-      "reflectionPrompt": "Along the road of In the Beginning, “the Lord will provide” (Genesis 22:7-14) slows us down at the long climb up the hill to remind us: “but it ends with a ram in the thicket and a new name for the mountain: the Lord will provide.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of In the Beginning, “the Lord will provide” (Genesis 22:7-14) slows us down at the long climb up the hill to remind us: “but it ends with a ram in the thicket and a new name for the mountain: the Lord will provide.” Where are you being invited to trade control for trust today?",
+      "zh_title": "主必供应",
+      "zh_poem": "爸爸，小羊在哪里？\n上帝会提供的，我的孩子。\n他们继续前行，\n他们两个在一起，\n上山。\n这是最难的一章\n书中，\n故事告诉我们\n在一片寂静中。\n但它结束了\n与灌木丛中的公羊\n以及这座山的新名字：\n主会供应的。",
+      "zh_reflectionPrompt": "沿着《太初》的道路，“耶和华必预备”（创世记 22:7-14）在漫长的爬山过程中放慢了我们的速度，提醒我们：“但最终会以灌木丛中的一只公羊和山的新名字为结束：耶和华必预备。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_ref": "创世记 22:7-14"
     },
     {
       "n": 19,
@@ -443,7 +527,11 @@
         "accent": "#f4d494"
       },
       "dailyWalkDay": 19,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the camels too” (Genesis 24:15-20), what would you talk about after reading, “that is often how God answers: through someone's generous hands”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the camels too” (Genesis 24:15-20), what would you talk about after reading, “that is often how God answers: through someone's generous hands”?",
+      "zh_title": "骆驼也是",
+      "zh_poem": "一个陌生人要喝一杯。\n她给了。\n然后她说：\n我也会给你的骆驼喝水——\n十只口渴的骆驼，\n一罐又一罐\n从井里。\n仆人祈求一个征兆。\n他有一个年轻女人\n谁做得更多\n比她被问到的还要多。\n这常常是\n大神怎么回答：\n通过某人的\n慷慨的双手。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“骆驼也停了下来”（创世记 24:15-20），当你读到“上帝常常这样回答：通过某人慷慨的双手”之后，你会谈论什么？",
+      "zh_ref": "创世记 24:15-20"
     },
     {
       "n": 20,
@@ -464,7 +552,11 @@
         "accent": "#f1b857"
       },
       "dailyWalkDay": 20,
-      "reflectionPrompt": "Pause before the quiet stars overhead: what changes in your posture today when you sit with the closing words of “full of years”—“and he died full of years. not empty. full”?"
+      "reflectionPrompt": "Pause before the quiet stars overhead: what changes in your posture today when you sit with the closing words of “full of years”—“and he died full of years. not empty. full”?",
+      "zh_title": "满载岁月",
+      "zh_poem": "他七十五岁时离家出走\n在一个承诺上。\n他没有看到\n国家、\n土地，\n星星们做得很好。\n他看到一个儿子，\n一个墓穴，\n和神的一生\n信守诺言\n一次一点。\n他死了\n充满了岁月。\n不为空。\n满的。",
+      "zh_reflectionPrompt": "在头顶安静的星星前停下来：今天，当你坐下来，以“充满岁月”作为结束语时，你的姿势有什么变化——“他死了，充满了岁月。不是空的。完整的”？",
+      "zh_ref": "创世记 25:7-8"
     },
     {
       "n": 21,
@@ -485,7 +577,11 @@
         "accent": "#f2e7ca"
       },
       "dailyWalkDay": 21,
-      "reflectionPrompt": "Look at the stillness of the steaming bowl traded for a birthright in Timothy’s painting: what striving can you lay down as you ponder, “we all have a bowl we'd sell tomorrow for tonight” (Genesis 25:29-34)?"
+      "reflectionPrompt": "Look at the stillness of the steaming bowl traded for a birthright in Timothy’s painting: what striving can you lay down as you ponder, “we all have a bowl we'd sell tomorrow for tonight” (Genesis 25:29-34)?",
+      "zh_title": "红炖菜",
+      "zh_poem": "他饿着肚子进来\n并交易了他的未来\n一碗红炖菜。\n味道不错。\n几分钟后就消失了。\n不要太快地嘲笑以扫。\n我们都有一个碗\n我们明天就卖\n今晚。",
+      "zh_reflectionPrompt": "看看蒂莫西画中用冒着热气的碗换取与生俱来的权利的宁静：当你思考“我们都有一个明天今晚可以卖掉的碗”（创世记25:29-34）时，你能付出什么努力呢？",
+      "zh_ref": "创世记 25:29-34"
     },
     {
       "n": 22,
@@ -506,7 +602,11 @@
         "accent": "#e8d9b5"
       },
       "dailyWalkDay": 22,
-      "reflectionPrompt": "In Genesis 28:10-15, the story turns on the stone pillow at the foot of the stairway—and ends with, “because God had promised, and does not wait for us to deserve it.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Genesis 28:10-15, the story turns on the stone pillow at the foot of the stairway—and ends with, “because God had promised, and does not wait for us to deserve it.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "楼梯",
+      "zh_poem": "他正在跑步\n来自一个被他欺骗的兄弟，\n睡在地上\n用一块石头当枕头。\n和天堂\n下了楼梯\n在那里见到他。\n不是因为他赢得了它。\n因为神已应许，\n并且不等待\n这是我们应得的。",
+      "zh_reflectionPrompt": "在创世记 28 章 10 至 15 节中，故事以楼梯脚下的石枕为起点，并以“因为神已经应许，并不等待我们应许”而结束。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_ref": "创世记 28:10-15"
     },
     {
       "n": 23,
@@ -527,7 +627,11 @@
         "accent": "#ebdbaf"
       },
       "dailyWalkDay": 23,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Genesis 28:16-18 points us to the quiet centerpiece of “I didn't know it” and whispers, “so he set up the stone and poured oil on it to remember: the lonely place, the hard ground, the night I ran— God was here.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Genesis 28:16-18 points us to the quiet centerpiece of “I didn't know it” and whispers, “so he set up the stone and poured oil on it to remember: the lonely place, the hard ground, the night I ran— God was here.” How can you practice that unhurried wisdom today?",
+      "zh_title": "我不知道",
+      "zh_poem": "上帝就在这里，\n我不知道。\n也许是最诚实的一句话\n有人曾经说过\n醒来。\n于是他立起石头\n并在上面浇上油\n要记住：\n孤独的地方，\n坚硬的地面，\n我跑步的那天晚上——\n上帝就在这里。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而创世记 28:16-18 向我们指出了“我不知道”的安静核心，并低声说，“所以他立起石头，并在上面倒油，以记住：那个孤独的地方，坚硬的地面，我奔跑的那个夜晚——上帝就在这里。”今天你如何能修习这种从容的智慧呢？",
+      "zh_ref": "创世记 28:16-18"
     },
     {
       "n": 24,
@@ -548,7 +652,11 @@
         "accent": "#f5ecd8"
       },
       "dailyWalkDay": 24,
-      "reflectionPrompt": "The poem closes with a quiet turn: “the story after this is not simple. but this line is true.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “the story after this is not simple. but this line is true.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "几天",
+      "zh_poem": "七年工作\n为了雷切尔。\n书上说\n他们经过\n就像几天一样。\n爱会做奇怪的事\n到时钟。\n之后的故事\n并不简单。\n这本书不会假装它是。\n但这行\n是真的。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“此后的故事并不简单。但这句话是真实的。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_ref": "创世记 29:18-20"
     },
     {
       "n": 25,
@@ -569,7 +677,11 @@
         "accent": "#eec7ae"
       },
       "dailyWalkDay": 25,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “it is the most Jacob thing he ever said, and the most faithful” (Genesis 32:24-26) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “it is the most Jacob thing he ever said, and the most faithful” (Genesis 32:24-26) speak to a question you have been carrying lately?",
+      "zh_title": "直到天亮",
+      "zh_poem": "独自在河边，\n晚上，\n有人抓住他，\n他反击\n直到黎明。\n他一生都在摔跤——\n他的兄弟，他的父亲，\n他的叔叔，他的恐惧。\n现在他与上帝摔跤\n并且不会放手：\n直到你祝福我。\n这是最雅各布的事\n他曾经说过，\n和最忠实的。",
+      "zh_reflectionPrompt": "有时候，一句话可以为一间封闭的房间打开一扇窗：“这是他所说过的最雅各的话，也是最忠实的”（创世记32:24-26）如何解答你最近一直在思考的一个问题？",
+      "zh_ref": "创世记 32:24-26"
     },
     {
       "n": 26,
@@ -590,7 +702,11 @@
         "accent": "#fce5a4"
       },
       "dailyWalkDay": 26,
-      "reflectionPrompt": "Hold your hands open for a moment before “the limp” (Genesis 32:30-31): what are you gripping tightly that loosens when you hear, “some blessings come with a limp, so you never forget who you met by the river”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “the limp” (Genesis 32:30-31): what are you gripping tightly that loosens when you hear, “some blessings come with a limp, so you never forget who you met by the river”?",
+      "zh_title": "跛行",
+      "zh_poem": "他走开了\n有福的\n和一瘸一拐的。\n一个新名字。\n一种新的步行方式。\n一些祝福\n跛行而来，\n所以你永远不会忘记\n你遇见了谁\n在河边。",
+      "zh_reflectionPrompt": "在“跛行”之前，请张开双手（创世记 32:30-31）：当您听到“有些祝福伴随着跛行而来，所以您永远不会忘记在河边遇到的人”时，您紧握的是什么松开了？",
+      "zh_ref": "创世记 32:30-31"
     },
     {
       "n": 27,
@@ -611,7 +727,11 @@
         "accent": "#f5e1b4"
       },
       "dailyWalkDay": 27,
-      "reflectionPrompt": "Scripture remembers this moment in Genesis 33:1-4 not to impress us, but to steady us: when have you seen the truth that “the thing you feared most may be running toward you with open arms” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Genesis 33:1-4 not to impress us, but to steady us: when have you seen the truth that “the thing you feared most may be running toward you with open arms” in your own story?",
+      "zh_title": "以扫兰",
+      "zh_poem": "二十年的恐惧。\n四百人来了。\n礼物一波又一波地送来。\n然后——\n以扫跑了。\n不去战斗。\n抱着他。\n你最害怕的事\n可能正向你跑来\n张开双臂。",
+      "zh_reflectionPrompt": "圣经在创世记 33:1-4 中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“你最害怕的东西可能张开双臂向你跑来”这一事实？",
+      "zh_ref": "创世记 33:1-4"
     },
     {
       "n": 28,
@@ -632,7 +752,11 @@
         "accent": "#decfab"
       },
       "dailyWalkDay": 28,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “the coat” (Genesis 37:3-4), what one honest sentence would you pray beside the torn and mended coat after reading, “favoritism tears a family like cloth”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “the coat” (Genesis 37:3-4), what one honest sentence would you pray beside the torn and mended coat after reading, “favoritism tears a family like cloth”?",
+      "zh_title": "外套",
+      "zh_poem": "父亲的最爱，\n每个人都知道这一点。\n大衣这么说\n每次他穿着它的时候。\n爱是好的。\n偏袒\n一个家庭的泪水\n像布一样。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“外衣”（创世记37:3-4）处时，读完“偏心撕裂家庭，如布”之后，你会在这件撕破又修补的外衣旁边祈祷哪一句诚实的句子呢？",
+      "zh_ref": "创世记 37:3-4"
     },
     {
       "n": 29,
@@ -653,7 +777,11 @@
         "accent": "#eee7d6"
       },
       "dailyWalkDay": 29,
-      "reflectionPrompt": "Between the opening line (“no water in it. no way out”) and the closing thought (“it is going down the way seeds go down”), what is Genesis 37:23-25 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“no water in it. no way out”) and the closing thought (“it is going down the way seeds go down”), what is Genesis 37:23-25 gently reframing in your own day?",
+      "zh_title": "空坑",
+      "zh_poem": "里面没有水。\n没有出路。\n十七、\n和他的兄弟们坐下来吃饭\n在边缘上。\n这是哪里\n梦想似乎破灭了。\n事实并非如此。\n它正在下降\n种子掉落的方式。",
+      "zh_reflectionPrompt": "在开场白（“里面没有水。没有出路”）和结束语（“它像种子坠落的方式一样坠落”）之间，创世记 37:23-25 在你那个时代轻轻地重新构建了什么？",
+      "zh_ref": "创世记 37:23-25"
     },
     {
       "n": 30,
@@ -674,7 +802,11 @@
         "accent": "#d7c09a"
       },
       "dailyWalkDay": 30,
-      "reflectionPrompt": "Along the road of In the Beginning, “the refrain” (Genesis 39:2-23) slows us down at the quiet centerpiece of “the refrain” to remind us: “the circumstances change. the refrain doesn't.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of In the Beginning, “the refrain” (Genesis 39:2-23) slows us down at the quiet centerpiece of “the refrain” to remind us: “the circumstances change. the refrain doesn't.” Where are you being invited to trade control for trust today?",
+      "zh_title": "克制",
+      "zh_poem": "被卖为奴隶：\n主与约瑟同在。\n被诬告：\n主与约瑟同在。\n被投入监狱：\n主与约瑟同在。\n这一章一直在说，\n像鼓声一样\n在他一生中最糟糕的岁月里。\n情况发生变化。\n克制\n没有。",
+      "zh_reflectionPrompt": "沿着《太初》的道路，“副歌”（创世记 39:2-23）在“副歌”安静的中心部分让我们放慢了脚步，提醒我们：“环境改变了，副歌却不变。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_ref": "创世记 39:2-23"
     },
     {
       "n": 31,
@@ -695,7 +827,11 @@
         "accent": "#f0e0c0"
       },
       "dailyWalkDay": 31,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “forgotten” (Genesis 40:14-23), what would you talk about after reading, “if you've been forgotten by someone who promised, you are not forgotten by the One who did”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “forgotten” (Genesis 40:14-23), what would you talk about after reading, “if you've been forgotten by someone who promised, you are not forgotten by the One who did”?",
+      "zh_title": "忘记了",
+      "zh_poem": "记住我，约瑟夫说，\n当一切顺利的时候。\n对他来说进展顺利。\n他忘了。\n再过两年\n在黑暗中。\n如果你被遗忘了\n被一个曾经许诺过的人\n你没有被遗忘\n由那一位做到的。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“被遗忘”处停下来（创世记40:14-23），当你读到“如果你被许诺的人遗忘，你不会被承诺的人遗忘”之后，你会谈论什么？",
+      "zh_ref": "创世记 40:14-23"
     },
     {
       "n": 32,
@@ -716,7 +852,11 @@
         "accent": "#f1e3c9"
       },
       "dailyWalkDay": 32,
-      "reflectionPrompt": "Pause before the quiet centerpiece of “not in me”: what changes in your posture today when you sit with the closing words of “not in me”—“the most useful people God has are the ones who know where the gift came from”?"
+      "reflectionPrompt": "Pause before the quiet centerpiece of “not in me”: what changes in your posture today when you sit with the closing words of “not in me”—“the most useful people God has are the ones who know where the gift came from”?",
+      "zh_title": "不在我体内",
+      "zh_poem": "剃光头、穿好衣服、\n从监狱中被拉出来，\n他站在埃及国王面前，\n谁说：\n听说你能解梦。\n这是他的大机会。\n他的第一句话是：\n它不在我体内。\n神所拥有的最有用的人\n是那些\n谁知道\n礼物从哪里来。",
+      "zh_reflectionPrompt": "在“不在我里面”这个安静的核心部分之前停顿一下：今天，当你坐下来，以“不在我里面”作为结束语时，你的姿势有什么变化——“上帝最有用的人是那些知道恩赐从何而来的人”？",
+      "zh_ref": "创世记 41:14-16"
     },
     {
       "n": 33,
@@ -737,7 +877,11 @@
         "accent": "#f7efe0"
       },
       "dailyWalkDay": 33,
-      "reflectionPrompt": "Look at the stillness of the dust of the road in Timothy’s painting: what striving can you lay down as you ponder, “the dream from the field, the sheaves bowing down— come true in a way nobody wanted anymore” (Genesis 42:6-8)?"
+      "reflectionPrompt": "Look at the stillness of the dust of the road in Timothy’s painting: what striving can you lay down as you ponder, “the dream from the field, the sheaves bowing down— come true in a way nobody wanted anymore” (Genesis 42:6-8)?",
+      "zh_title": "面向地球",
+      "zh_poem": "他们来找粮食\n并向州长鞠躬\n他们的脸埋在灰尘里。\n他们不认识他。\n他认识他们。\n来自田野的梦想，\n禾捆低头——\n成真\n在某种程度上\n没有人想要了。",
+      "zh_reflectionPrompt": "看看提摩太画中路上寂静的尘土：当你沉思“田野的梦，禾捆下跪——以无人愿意的方式实现”（创世记42：6-8）时，你还能付出什么努力？",
+      "zh_ref": "创世记 42:6-8"
     },
     {
       "n": 34,
@@ -758,7 +902,11 @@
         "accent": "#dacdaf"
       },
       "dailyWalkDay": 34,
-      "reflectionPrompt": "In Genesis 44:30-34, the story turns on the quiet centerpiece of “instead of the boy”—and ends with, “a man who once sold a brother now offers himself for one.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Genesis 44:30-34, the story turns on the quiet centerpiece of “instead of the boy”—and ends with, “a man who once sold a brother now offers himself for one.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "而不是男孩",
+      "zh_poem": "犹大——\n曾经说过的兄弟\n我们把他卖掉吧——\n现在说：\n换我吧。\n让男孩回家吧。\n它会杀死我们的父亲。\n约瑟夫就是这么知道的\n他们已经改变了。\n一个曾经卖掉兄弟的人\n现在提出自己\n其一。",
+      "zh_reflectionPrompt": "在创世记 44 章 30-34 节中，故事以“代替男孩”这个安静的中心展开，并以“一个曾经出卖兄弟的人现在为一个兄弟献出自己”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_ref": "创世记 44:30-34"
     },
     {
       "n": 35,
@@ -779,7 +927,11 @@
         "accent": "#fcd880"
       },
       "dailyWalkDay": 35,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Genesis 45:1-4 points us to the quiet centerpiece of “come near” and whispers, “then the gentlest words in the whole long story: come near to me. please.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Genesis 45:1-4 points us to the quiet centerpiece of “come near” and whispers, “then the gentlest words in the whole long story: come near to me. please.” How can you practice that unhurried wisdom today?",
+      "zh_title": "靠近",
+      "zh_poem": "他把所有人都派出去了\n哭得很大声\n埃及人听见了。\n我是约瑟夫。\n他们无法说话。\n然后是最温柔的话语\n在整个长篇故事中：\n靠近我。\n请。",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，然而创世记 45:1-4 却向我们指出了“靠近我”这一安静的核心内容，并轻声说道，“那么，这是整个长篇故事中最温柔的一句话：请靠近我。”今天你如何能修习这种从容的智慧呢？",
+      "zh_ref": "创世记 45:1-4"
     },
     {
       "n": 36,
@@ -800,7 +952,11 @@
         "accent": "#e5c277"
       },
       "dailyWalkDay": 36,
-      "reflectionPrompt": "The poem closes with a quiet turn: “he just refuses to let it be the whole story.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “he just refuses to let it be the whole story.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "已发送",
+      "zh_poem": "不要对自己生气\n他说。\n你出卖了我。\n上帝派我来的。\n两者都是真的。\n他不假装\n第一个没有发生。\n他只是拒绝\n顺其自然\n整个故事。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“他只是拒绝让它成为整个故事。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_ref": "创世记 45:5-8"
     },
     {
       "n": 37,
@@ -821,7 +977,11 @@
         "accent": "#eed9a9"
       },
       "dailyWalkDay": 37,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “it's the wagons— proof you can touch that someone is coming to carry you” (Genesis 45:25-28) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “it's the wagons— proof you can touch that someone is coming to carry you” (Genesis 45:25-28) speak to a question you have been carrying lately?",
+      "zh_title": "马车",
+      "zh_poem": "他们说，约瑟夫还活着，\n和老人\n不相信他们。\n然后他看到了马车。\n有时不是言语\n激发一颗心。\n是马车——\n你可以触摸的证据\n那个人\n来接你了。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“这是马车——你能摸到的证据，证明有人来接你”（创世记 45:25-28）如何解答你最近一直在思考的一个问题？",
+      "zh_ref": "创世记 45:25-28"
     },
     {
       "n": 38,
@@ -842,7 +1002,11 @@
         "accent": "#f8ecc4"
       },
       "dailyWalkDay": 38,
-      "reflectionPrompt": "Hold your hands open for a moment before “a good while” (Genesis 46:28-30): what are you gripping tightly that loosens when you hear, “some reunions you don't hurry”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “a good while” (Genesis 46:28-30): what are you gripping tightly that loosens when you hear, “some reunions you don't hurry”?",
+      "zh_title": "好一会儿",
+      "zh_poem": "二十二年。\n一辆战车从埃及疾驰而来，\n一位拄着拐杖的老人，\n而这本书，通常如此轻快，\n减慢速度：\n他趴在他的脖子上哭泣\n好一会儿。\n一些聚会\n你别着急。",
+      "zh_reflectionPrompt": "在“等一段时间”之前，请张开双手（创世记 46:28-30）：当你听到“有些团聚，你不急着”时，你紧握的是什么东西就松开了？",
+      "zh_ref": "创世记 46:28-30"
     },
     {
       "n": 39,
@@ -863,7 +1027,11 @@
         "accent": "#f1e4c2"
       },
       "dailyWalkDay": 39,
-      "reflectionPrompt": "Scripture remembers this moment in Genesis 50:15-21 not to impress us, but to steady us: when have you seen the truth that “but underneath the worst thing anyone ever did to him, another hand was working the whole time” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Genesis 50:15-21 not to impress us, but to steady us: when have you seen the truth that “but underneath the worst thing anyone ever did to him, another hand was working the whole time” in your own story?",
+      "zh_title": "在下面",
+      "zh_poem": "你是出于邪恶的目的。\n上帝的意思是好的。\n不：这不是邪恶的。\n不：不痛。\n但在最糟糕的事情之下\n任何人曾经对他做过\n另一只手\n正在工作\n一直以来。",
+      "zh_reflectionPrompt": "圣经在创世记 50:15-21 中记住这一时刻，不是为了给我们留下深刻的印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过这样的真理：“在有人对他做过的最糟糕的事情的背后，有另一只手一直在做事”？",
+      "zh_ref": "创世记 50:15-21"
     },
     {
       "n": 40,
@@ -884,7 +1052,14 @@
         "accent": "#facd93"
       },
       "dailyWalkDay": 40,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “the road home” (Genesis 50:24-26), what one honest sentence would you pray beside the quiet centerpiece of “the road home” after reading, “Genesis ends with a promise, and bones ready for the road home”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “the road home” (Genesis 50:24-26), what one honest sentence would you pray beside the quiet centerpiece of “the road home” after reading, “Genesis ends with a promise, and bones ready for the road home”?",
+      "zh_title": "回家的路",
+      "zh_poem": "开始的书\n有灯光和花园\n结束\n带着棺材在埃及。\n但并不绝望。\n约瑟夫的遗言：\n神一定会来找你的。\n带上我的骨头\n当你走的时候。\n创世记结束\n带着一个承诺，\n和骨头准备好\n为了回家的路。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“回家的路”（创世记 50:24-26）时，在读到“创世记以应许结束，骨头已准备好踏上回家的路”之后，你会在“回家的路”安静的中心装饰旁边祈祷哪一句诚实的句子呢？",
+      "zh_ref": "创世记 50:24-26"
     }
-  ]
+  ],
+  "zh_title": "起初",
+  "zh_subtitle": "创世记诗画集",
+  "zh_beforeYouBegin": "《创世记》从第一道曙光到埃及的棺材：一座花园、一场洪水、一个上帝应许要祝福的家庭，以及上帝如何通过骗子、摔跤手和卖掉兄弟的兄弟来兑现这一诺言的漫长而复杂的故事。\n\n本书分为四个部分，用四十首短诗来讲述它。每首诗都位于一幅画旁边和一行经文之下。它没有涵盖每一章；它停在承载故事的时刻。\n\n这些诗不是圣经。它们是一位读者对此的回应。与这本书一起打开《创世记》，让真实的话语成为最终的结论。"
 }

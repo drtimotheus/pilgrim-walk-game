@@ -16,7 +16,10 @@
       "epigraph": "But Jonah rose up to flee to Tarshish from the presence of Y ahweh.",
       "epigraphRef": "Jonah 1:3",
       "lightName": "Light of Running",
-      "lightHint": "Near 'get up' (Jonah 1:1–2) in Part 1: Running"
+      "lightHint": "Near 'get up' (Jonah 1:1–2) in Part 1: Running",
+      "zh_title": "跑步",
+      "zh_epigraph": "但约拿却起身逃往他施，躲避耶和华。",
+      "zh_epigraphRef": "约拿书 1:3"
     },
     {
       "index": 2,
@@ -26,7 +29,10 @@
       "epigraph": "Salvation belongs to Yahweh.",
       "epigraphRef": "Jonah 2:9",
       "lightName": "Light of From the Deep",
-      "lightHint": "Near 'prepared' (Jonah 1:17) in Part 2: From the Deep"
+      "lightHint": "Near 'prepared' (Jonah 1:17) in Part 2: From the Deep",
+      "zh_title": "来自深处",
+      "zh_epigraph": "救恩属于耶和华。",
+      "zh_epigraphRef": "约拿书 2:9"
     },
     {
       "index": 3,
@@ -36,7 +42,10 @@
       "epigraph": "Y ahweh’s word came to Jonah the second time",
       "epigraphRef": "Jonah 3:1",
       "lightName": "Light of A Second Time",
-      "lightHint": "Near 'again' (Jonah 3:1–3) in Part 3: A Second Time"
+      "lightHint": "Near 'again' (Jonah 3:1–3) in Part 3: A Second Time",
+      "zh_title": "第二次",
+      "zh_epigraph": "耶和华的话第二次临到约拿",
+      "zh_epigraphRef": "约拿书 3:1"
     },
     {
       "index": 4,
@@ -46,7 +55,10 @@
       "epigraph": "you are a gracious God, and merciful, slow to anger, and abundant in loving kindness",
       "epigraphRef": "Jonah 4:2",
       "lightName": "Light of The Vine",
-      "lightHint": "Near 'I knew it' (Jonah 4:1–2) in Part 4: The Vine"
+      "lightHint": "Near 'I knew it' (Jonah 4:1–2) in Part 4: The Vine",
+      "zh_title": "藤蔓",
+      "zh_epigraph": "你是有恩典、有怜悯、不轻易发怒、并有丰盛慈爱的神",
+      "zh_epigraphRef": "约拿书 4:2"
     }
   ],
   "paintings": [
@@ -69,7 +81,12 @@
         "accent": "#e8dcb7"
       },
       "dailyWalkDay": 936,
-      "reflectionPrompt": "Imagine standing inside this frame beside the name by which He calls you: what hurry or noise in your week begins to fade when you hear, “and God said: go and tell them I have seen”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the name by which He calls you: what hurry or noise in your week begins to fade when you hear, “and God said: go and tell them I have seen”?",
+      "zh_title": "起床",
+      "zh_poem": "这句话说得直白：\n站起来。向东走。\n到伟大的城市，\n每个人都害怕的人。\n\n尼尼微——\n一个名字的意思\n军队在边境\n以及道路上的残酷行为。\n\n上帝说：\n去告诉他们\n我见过。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是他呼唤你的名字：当你听到“上帝说：去告诉他们我已经看到了”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“起来，到尼尼微那座伟大的城市去”",
+      "zh_ref": "约拿书 1:1–2"
     },
     {
       "n": 2,
@@ -90,7 +107,12 @@
         "accent": "#e9d18f"
       },
       "dailyWalkDay": 937,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “every step away from God was a step down, and he paid the fare himself.” What part of your heart feels most searched or comforted by Jonah 1:3 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “every step away from God was a step down, and he paid the fare himself.” What part of your heart feels most searched or comforted by Jonah 1:3 right now?",
+      "zh_title": "向下",
+      "zh_poem": "注意方向。\n\n他下到约帕。\n下到船里。\n下到最低的房间。\n进入睡眠状态。\n\n离神每一步\n是一个台阶，\n他付了车费\n他自己。",
+      "zh_reflectionPrompt": "在寂静中大声朗读结束语：“离上帝每一步都是一步，而他自己付出了代价。”约拿书 1 章 3 节现在最能触动你内心的哪一部分？",
+      "zh_epigraph": "“他下到约帕，找到一艘开往他施的船”",
+      "zh_ref": "约拿书 1:3"
     },
     {
       "n": 3,
@@ -111,7 +133,12 @@
         "accent": "#ece0bb"
       },
       "dailyWalkDay": 938,
-      "reflectionPrompt": "In Jonah 1:4–6, grace meets us right beside the quiet centerpiece of “fast asleep”: how does the closing thought—“it is possible to be the one with the answer and the last one awake”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Jonah 1:4–6, grace meets us right beside the quiet centerpiece of “fast asleep”: how does the closing thought—“it is possible to be the one with the answer and the last one awake”—steady your footing for the road ahead?",
+      "zh_title": "快睡着了",
+      "zh_poem": "水手们把货物扔到海里，\n每个人都向自己的上帝哭泣。\n\n和甲板下方，\n船上唯一的人\n谁认识海神\n睡得很熟。\n\n这是可能的\n成为有答案的人\n以及最后一个醒来的人。",
+      "zh_reflectionPrompt": "在约拿书 1 章 4-6 节中，恩典就在“熟睡”这一安静的核心内容旁边与我们相遇：最后的思想——“有可能是那个得到答案的人，也是最后一个醒来的人”——如何为你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“耶和华在海上刮起了大风”",
+      "zh_ref": "约拿书 1:4–6"
     },
     {
       "n": 4,
@@ -132,7 +159,12 @@
         "accent": "#fdf8e7"
       },
       "dailyWalkDay": 939,
-      "reflectionPrompt": "If today’s painting of “the God of the sea” (Jonah 1:7–10) hung beside the door you walk out of this morning, how would its final line—“the sea he was running across belonged to the God he was running from”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the God of the sea” (Jonah 1:7–10) hung beside the door you walk out of this morning, how would its final line—“the sea he was running across belonged to the God he was running from”—shape your choices?",
+      "zh_title": "海神",
+      "zh_poem": "命运落在了他的身上，\n他们立刻问了所有的事情：\n你是谁？从哪里来？\n你做了什么？\n\n他说了最真实的话\n他会说一会儿：\n我敬畏上帝\n谁创造了大海\n和旱地。\n\n他跑过的大海\n属于上帝\n他正在逃避。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“海神”（约拿书 1：7-10）的画，那么它的最后一行——“他所跑过的海属于他所逃避的神”——会如何影响你的选择？",
+      "zh_epigraph": "“我敬畏创造海洋和陆地的天上的上帝耶和华。”",
+      "zh_ref": "约拿书 1:7–10"
     },
     {
       "n": 5,
@@ -153,7 +185,12 @@
         "accent": "#e5d8b6"
       },
       "dailyWalkDay": 940,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Jonah 1:11–14)—where in your own home or work today does “sometimes the outsiders in the story are kinder than the prophet” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Jonah 1:11–14)—where in your own home or work today does “sometimes the outsiders in the story are kinder than the prophet” ring true?",
+      "zh_title": "赛艇运动员",
+      "zh_poem": "把我扔进去，他说。\n\n但他们不想。\n这些陌生人，\n其他神的人，\n竭尽全力划船\n拯救先知\n是谁将他们置于危险之中。\n\n有时故事中的局外人\n更友善\n比先知。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平凡的地方与我们相遇（约拿书 1:11-14）——今天，在你自己的家里或工作场所，“有时故事中的局外人比先知更仁慈”听起来是真的吗？",
+      "zh_epigraph": "“人们奋力划船，想让他们回到陆地”",
+      "zh_ref": "约拿书 1:11–14"
     },
     {
       "n": 6,
@@ -174,7 +211,12 @@
         "accent": "#f7d787"
       },
       "dailyWalkDay": 941,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “Jonah ran from telling anyone about God, and a whole crew came to fear him anyway.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “Jonah ran from telling anyone about God, and a whole crew came to fear him anyway.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "冷静",
+      "zh_poem": "在他走过去的那一刻，\n海躺下\n就像狗听主人的话一样。\n\n和水手们\n谁开始了这一天\n向他们认识的每一位神祈祷\n结束了\n献祭\n献给创造大海的人。\n\n约拿没有告诉任何人关于上帝的事，\n和整个船员\n无论如何，他还是开始害怕他了。",
+      "zh_reflectionPrompt": "慢慢地吸一口气，再读一遍最后一行：“约拿没有告诉任何人关于上帝的事，但无论如何，整个船员都开始害怕他。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“大海停止了狂暴”",
+      "zh_ref": "约拿书 1:15–16"
     },
     {
       "n": 7,
@@ -195,7 +237,12 @@
         "accent": "#ecdcbb"
       },
       "dailyWalkDay": 942,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “not a punishment. a provision.” Looking through the lens of Jonah 1:17, what does it mean to discover that “God is not chasing Jonah with a monster. he is catching him”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “not a punishment. a provision.” Looking through the lens of Jonah 1:17, what does it mean to discover that “God is not chasing Jonah with a monster. he is catching him”?",
+      "zh_title": "准备好了",
+      "zh_poem": "不是惩罚。\n一项规定。\n\n这个词已经准备好了——\n本书将使用相同的词\n对于一棵藤蔓来说，\n一条蠕虫，\n一阵风。\n\n神没有追赶约拿\n与一个怪物。\n他正在追赶他。",
+      "zh_reflectionPrompt": "想象一下某个季节，您体会到“不是惩罚，而是规定”的感觉。透过《约拿书》1:17 的视角，发现“神不是用怪物追赶约拿，而是抓住他”，这意味着什么？",
+      "zh_epigraph": "“耶和华预备了一条大鱼来吞掉约拿”",
+      "zh_ref": "约拿书 1:17"
     },
     {
       "n": 8,
@@ -216,7 +263,12 @@
         "accent": "#677f6a"
       },
       "dailyWalkDay": 943,
-      "reflectionPrompt": "Look closely at the quiet centerpiece of “at the bottom” in this painting (Jonah 2:1–2)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the quiet centerpiece of “at the bottom” in this painting (Jonah 2:1–2)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "在底部",
+      "zh_poem": "在黑暗中度过了三天。\n没有船，没有天空，\n没有办法计算时间。\n\n那就是在那里\n他终于祈祷了。\n\n不在码头上，\n不在甲板上——\n在这里，在底部，\n无事可做的地方\n但打电话。\n\n祈祷开始了：\n他回答了我。",
+      "zh_reflectionPrompt": "仔细观察这幅画中“在底部”的安静中心（约拿书2:1-2）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“我在阴间哭泣。你听到了我的声音。”",
+      "zh_ref": "约拿书 2:1–2"
     },
     {
       "n": 9,
@@ -237,7 +289,12 @@
         "accent": "#f7e9ba"
       },
       "dailyWalkDay": 944,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “look again”: what quiet prayer rises in you when you read, “it is the smallest movement, a turn of the head in the dark. it is enough”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the quiet centerpiece of “look again”: what quiet prayer rises in you when you read, “it is the smallest movement, a turn of the head in the dark. it is enough”?",
+      "zh_title": "再看一遍",
+      "zh_poem": "我已经被赶出了你的视线——\n然而。\n\n即使在这里，\n在整个大海之下，\n他转过脸\n向着神所在的地方。\n\n这是最小的运动，\n黑暗中转过头。\n这就足够了。",
+      "zh_reflectionPrompt": "让你的目光停留在“再看一遍”安静的中心周围的笔触和光线上：当你读到“这是最小的动作，在黑暗中转动头部。这就足够了”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“但我还是会再次望向你的圣殿”",
+      "zh_ref": "约拿书 2:3–4"
     },
     {
       "n": 10,
@@ -258,7 +315,12 @@
         "accent": "#dec8a0"
       },
       "dailyWalkDay": 945,
-      "reflectionPrompt": "Linger with the movement in “the roots of the mountains” (Jonah 2:5–6) from “the waters closed over me” to “every word in the prayer falls, except that one”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the roots of the mountains” (Jonah 2:5–6) from “the waters closed over me” to “every word in the prayer falls, except that one”—where do you find yourself along that arc today?",
+      "zh_title": "山的根",
+      "zh_poem": "海水淹没了我。\n杂草包裹着我的头。\n我下到了山根。\n\n他一直低声说，\n就像故事一开始的样子——\n\n直到回合：\n但你却养育了我的生活\n从坑里。\n\n祈祷中的每一个字\n跌倒，\n除了那个。",
+      "zh_reflectionPrompt": "徘徊在“山根”（约拿书 2：5-6）的运动中，从“水将我淹没”到“祷告中的每一个字都落下来，除了那个”——今天你发现自己沿着这条弧线在哪里？",
+      "zh_epigraph": "“杂草缠住了我的头。”",
+      "zh_ref": "约拿书 2:5–6"
     },
     {
       "n": 11,
@@ -279,7 +341,12 @@
         "accent": "#f9eabc"
       },
       "dailyWalkDay": 946,
-      "reflectionPrompt": "Notice how “I remembered” (Jonah 2:7) arrives at: “and the prayer went up, out of the fish, out of the sea, all the way to the holy temple, faster than he had ever run.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “I remembered” (Jonah 2:7) arrives at: “and the prayer went up, out of the fish, out of the sea, all the way to the holy temple, faster than he had ever run.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "我记得",
+      "zh_poem": "当他的生命垂危时，\n他记得。\n\n不是一个计划。\n不是一个承诺。\n一个名字。\n\n祈祷上升，\n从鱼里出来，\n出海，\n一路来到圣殿，\n比他跑得更快。",
+      "zh_reflectionPrompt": "请注意“我记起”（约拿书 2:7）是如何得出的：“祷告从鱼中、从海中上升，一直到圣殿，比他跑得更快。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“当我的灵魂在我里面昏厥时，我想起了耶和华。”",
+      "zh_ref": "约拿书 2:7"
     },
     {
       "n": 12,
@@ -300,7 +367,12 @@
         "accent": "#fbdb9f"
       },
       "dailyWalkDay": 947,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jonah 2:9–10: “but alive, face down on the dry land the Lord had made, the land he had said belonged to his God all along”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jonah 2:9–10: “but alive, face down on the dry land the Lord had made, the land he had said belonged to his God all along”?",
+      "zh_title": "旱地",
+      "zh_poem": "救恩属于耶和华，\n他说——\n和下一行\n是鱼在回报他。\n\n不优雅。\n没有尊严。\n但活着，\n面朝下趴在干地上\n耶和华所造的，\n\n他所说的土地\n属于他的上帝\n一直以来。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《约拿书》2:9-10 的静谧教训：“但你还活着，面朝下趴在耶和华所造的旱地上，他所说的那地始终属于他的上帝”，那又怎样呢？",
+      "zh_epigraph": "“它把约拿吐在干地上。”",
+      "zh_ref": "约拿书 2:9–10"
     },
     {
       "n": 13,
@@ -321,7 +393,12 @@
         "accent": "#e0cda9"
       },
       "dailyWalkDay": 948,
-      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “again”: what hurry or noise in your week begins to fade when you hear, “that is how God is with us: he will say it again”?"
+      "reflectionPrompt": "Imagine standing inside this frame beside the quiet centerpiece of “again”: what hurry or noise in your week begins to fade when you hear, “that is how God is with us: he will say it again”?",
+      "zh_title": "再次",
+      "zh_poem": "这个词第二次出现。\n\n没有关于他施的讲座。\n没有列出他做错了什么。\n只是同一个电话，\n几乎一字一句，\n就好像第一个从来没有被拒绝过一样。\n\n这就是神与我们同在的方式：\n他会说的\n再次。",
+      "zh_reflectionPrompt": "想象一下，站在这个框架内，旁边是安静的“再次”核心：当你听到“上帝就是这样与我们同在：他会再说一遍”时，你一周中的匆忙或噪音开始消失？",
+      "zh_epigraph": "“向它传播我给你的信息。”",
+      "zh_ref": "约拿书 3:1–3"
     },
     {
       "n": 14,
@@ -342,7 +419,12 @@
         "accent": "#e9ddbf"
       },
       "dailyWalkDay": 949,
-      "reflectionPrompt": "Read the closing words aloud in the stillness: “just the warning, and the clock.” What part of your heart feels most searched or comforted by Jonah 3:3–4 right now?"
+      "reflectionPrompt": "Read the closing words aloud in the stillness: “just the warning, and the clock.” What part of your heart feels most searched or comforted by Jonah 3:3–4 right now?",
+      "zh_title": "四十天",
+      "zh_poem": "如此宽阔的城市\n花了三天时间穿越，\n\n和一个男人\n来自一个小国，\n一天的步行，\n说了一小句话。\n\n没有奇迹。\n没有迹象。\n只是警告，\n和时钟。",
+      "zh_reflectionPrompt": "在寂静中大声读出结束语：“只有警告和时钟。”约拿书 3:3-4 现在最能触动你内心的哪个部分？",
+      "zh_epigraph": "“四十天后，尼尼微将被倾覆！”",
+      "zh_ref": "约拿书 3:3–4"
     },
     {
       "n": 15,
@@ -363,7 +445,12 @@
         "accent": "#eadec5"
       },
       "dailyWalkDay": 950,
-      "reflectionPrompt": "In Jonah 3:5, grace meets us right beside the dust of the road: how does the closing thought—“from the greatest to the least, the feared city took off its fine clothes and sat down in the dust before a God they had only just heard of”—steady your footing for the road ahead?"
+      "reflectionPrompt": "In Jonah 3:5, grace meets us right beside the dust of the road: how does the closing thought—“from the greatest to the least, the feared city took off its fine clothes and sat down in the dust before a God they had only just heard of”—steady your footing for the road ahead?",
+      "zh_title": "他们相信",
+      "zh_poem": "最令人惊讶的诗句\n在整本书中\n是这个吗：\n\n他们相信。\n\n从最大到最小，\n令人恐惧的城市\n脱掉它漂亮的衣服\n然后坐在尘土里\n在神面前\n他们才刚刚听说过。",
+      "zh_reflectionPrompt": "在约拿书 3 章 5 节中，恩典就在路上的尘土旁边与我们相遇：最后的思想——“从至大到最小，这令人畏惧的城都脱去华美的衣服，坐在尘土中，在他们刚刚听说过的上帝面前”——如何让你在前面的道路上站稳脚跟？",
+      "zh_epigraph": "“尼尼微人相信上帝”",
+      "zh_ref": "约拿书 3:5"
     },
     {
       "n": 16,
@@ -384,7 +471,12 @@
         "accent": "#ded2b0"
       },
       "dailyWalkDay": 951,
-      "reflectionPrompt": "If today’s painting of “the empty throne” (Jonah 3:6) hung beside the door you walk out of this morning, how would its final line—“there is no crown too heavy to take off when God is speaking”—shape your choices?"
+      "reflectionPrompt": "If today’s painting of “the empty throne” (Jonah 3:6) hung beside the door you walk out of this morning, how would its final line—“there is no crown too heavy to take off when God is speaking”—shape your choices?",
+      "zh_title": "空荡荡的王座",
+      "zh_poem": "消息传到皇宫，\n国王站了起来\n从他的宝座上。\n\n他把长袍放在一边，\n穿上麻布，\n并坐在灰烬中\n就像他所在城市最穷的人一样。\n\n没有皇冠\n太重而无法起飞\n当神说话时。",
+      "zh_reflectionPrompt": "如果今天早上你走出的门旁挂着今天的“空宝座”（约拿书 3:6）的画，那么它的最后一句话——“神说话的时候，没有什么冠冕太重不能摘下来”——会如何影响你的选择？",
+      "zh_epigraph": "“他从宝座上站起来，脱下王袍”",
+      "zh_ref": "约拿书 3:6"
     },
     {
       "n": 17,
@@ -405,7 +497,12 @@
         "accent": "#f1d5a3"
       },
       "dailyWalkDay": 952,
-      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Jonah 3:7–8)—where in your own home or work today does “but grief that is real fills the whole house, down to the barn” ring true?"
+      "reflectionPrompt": "Every stop on the Pilgrim Walk shows how God meets us in ordinary places (Jonah 3:7–8)—where in your own home or work today does “but grief that is real fills the whole house, down to the barn” ring true?",
+      "zh_title": "甚至羊群",
+      "zh_poem": "国王的法令\n没有人被排除在外：\n没有食物，没有水，\n给人民披上麻布\n还有牛。\n\n听起来很奇怪——\n整个城市\n和它的羊群\n在尘土中哭泣。\n\n但悲伤是真实的\n充满了整个房子，\n下到谷仓。",
+      "zh_reflectionPrompt": "天路历程中的每一站都展示了神如何在平常的地方与我们相遇（约拿书 3:7-8）——今天，在你自己的家中或工作中，“满屋子，直到谷仓，充满真正的忧伤”听起来是真的吗？",
+      "zh_epigraph": "“人和动物，让他们向上帝大声呼喊”",
+      "zh_ref": "约拿书 3:7–8"
     },
     {
       "n": 18,
@@ -426,7 +523,12 @@
         "accent": "#fce78c"
       },
       "dailyWalkDay": 953,
-      "reflectionPrompt": "Take a slow breath and read the final line again: “God saw them turn, and turned, and the disaster never came.” How would you walk through the next hour differently if you carried that truth with you?"
+      "reflectionPrompt": "Take a slow breath and read the final line again: “God saw them turn, and turned, and the disaster never came.” How would you walk through the next hour differently if you carried that truth with you?",
+      "zh_title": "谁知道",
+      "zh_poem": "谁知道？国王说。\n也许上帝会转身。\n\n他没有承诺。\n没有先知的保证。\n只是一个猜测\n关于神是什么样的。\n\n他猜对了。\n\n上帝看到他们转身，\n然后转身，\n和灾难\n从来没有来过。",
+      "zh_reflectionPrompt": "慢慢地吸一口气，再读一遍最后一行：“上帝看着他们转动，转动，灾难就没有降临。”如果你带着这个真理，你会如何以不同的方式度过接下来的一个小时？",
+      "zh_epigraph": "“谁知道上帝会不会回心转意”",
+      "zh_ref": "约拿书 3:9–10"
     },
     {
       "n": 19,
@@ -447,7 +549,12 @@
         "accent": "#f0daad"
       },
       "dailyWalkDay": 954,
-      "reflectionPrompt": "Think of a season when you knew the feeling of “this is the prayer he'd been holding since the beginning: I knew it.” Looking through the lens of Jonah 4:1–2, what does it mean to discover that “he ran because he knew God was kind to people he wasn't”?"
+      "reflectionPrompt": "Think of a season when you knew the feeling of “this is the prayer he'd been holding since the beginning: I knew it.” Looking through the lens of Jonah 4:1–2, what does it mean to discover that “he ran because he knew God was kind to people he wasn't”?",
+      "zh_title": "我知道",
+      "zh_poem": "这是祈祷\n他从一开始就坚持：\n\n我知道。\n我就知道你是仁慈的，\n仁慈，不轻易发怒，\n充满爱。\n这就是我跑步的原因。\n\n他没有跑\n因为他认为上帝是残酷的。\n他跑了\n因为他知道上帝是仁慈的\n对于那些他不是的人。",
+      "zh_reflectionPrompt": "想象一下某个季节，当你知道“这是他从一开始就一直在祈祷的事情：我就知道了”的感觉时。透过《约拿书》4:1-2 的视角，发现“他逃跑是因为他知道神善待他所不善的人”，这意味着什么？",
+      "zh_epigraph": "“但这让约拿非常不高兴，他很生气。”",
+      "zh_ref": "约拿书 4:1–2"
     },
     {
       "n": 20,
@@ -468,7 +575,12 @@
         "accent": "#f6eeda"
       },
       "dailyWalkDay": 955,
-      "reflectionPrompt": "Look closely at the table set before you in this painting (Jonah 4:3–4)—if you could leave one anxious weight beside it today, what would you set down?"
+      "reflectionPrompt": "Look closely at the table set before you in this painting (Jonah 4:3–4)—if you could leave one anxious weight beside it today, what would you set down?",
+      "zh_title": "一个问题",
+      "zh_poem": "他很生气\n他要求死。\n\n上帝没有喊叫。\n没有罢工。\n没有离开。\n\n他问了一个问题——\n你生气合适吗？——\n并等待\n约拿来回答。\n\n上帝质疑受伤的人\n像父亲一样：\n把他们带回来\n到桌子上。",
+      "zh_reflectionPrompt": "仔细看看这幅画中摆在你面前的桌子（约拿书 4:3-4）——如果你今天可以在它旁边留下一个令人焦虑的重物，你会放什么？",
+      "zh_epigraph": "“你生气合适吗？”",
+      "zh_ref": "约拿书 4:3–4"
     },
     {
       "n": 21,
@@ -489,7 +601,12 @@
         "accent": "#f7f5e8"
       },
       "dailyWalkDay": 956,
-      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the warmth of the fire: what quiet prayer rises in you when you read, “the book is honest enough to let the prophet be that person”?"
+      "reflectionPrompt": "Let your eyes rest on the brushwork and light around the warmth of the fire: what quiet prayer rises in you when you read, “the book is honest enough to let the prophet be that person”?",
+      "zh_title": "庇护所",
+      "zh_poem": "他建了一个小庇护所\n城东\n并坐下来观看，\n\n仍然希望，也许，\n为了火。\n\n有一种人\n谁宁愿是对的\n胜过看到一座城市得救。\n\n这本书足够诚实\n让先知\n成为那个人。",
+      "zh_reflectionPrompt": "让你的目光停留在温暖的火光周围的笔触和光线上：当你读到“这本书足够诚实，让先知成为那个人”时，你内心会升起什么样的安静祈祷？",
+      "zh_epigraph": "“坐在树荫下，直到他看到这座城市会变成什么样子”",
+      "zh_ref": "约拿书 4:5"
     },
     {
       "n": 22,
@@ -510,7 +627,12 @@
         "accent": "#e4d9be"
       },
       "dailyWalkDay": 957,
-      "reflectionPrompt": "Linger with the movement in “the vine” (Jonah 4:6) from “and God, who was not done with him, grew a vine overnight— broad leaves, cool shade over his head” to “exceedingly glad, the book says— the only joy he shows in four chapters. over a plant”—where do you find yourself along that arc today?"
+      "reflectionPrompt": "Linger with the movement in “the vine” (Jonah 4:6) from “and God, who was not done with him, grew a vine overnight— broad leaves, cool shade over his head” to “exceedingly glad, the book says— the only joy he shows in four chapters. over a plant”—where do you find yourself along that arc today?",
+      "zh_title": "葡萄树",
+      "zh_poem": "上帝并没有与他断绝关系，\n一夜之间长出了一棵藤蔓——\n宽阔的叶子，\n凉爽的树荫遮在他的头上。\n\n约拿很高兴。\n非常高兴，\n书上说——\n这是他在四章中唯一表现出的快乐。\n\n越过一株植物。",
+      "zh_reflectionPrompt": "留心“葡萄树”（约拿书 4:6）中的乐章，从“上帝并没有与他同在，一夜之间就长出了一棵葡萄树——宽阔的叶子，在他的头顶上有凉爽的树荫”，到“书上说，他在四章中所表现出的唯一的喜乐——非常高兴。在一棵植物上”——今天你发现自己在这条弧线的哪个位置呢？",
+      "zh_epigraph": "“耶和华上帝预备了一棵葡萄树”",
+      "zh_ref": "约拿书 4:6"
     },
     {
       "n": 23,
@@ -531,7 +653,12 @@
         "accent": "#ebd7a9"
       },
       "dailyWalkDay": 958,
-      "reflectionPrompt": "Notice how “a worm, a wind” (Jonah 4:7–9) arrives at: “the shade is gone, and Jonah is angry again, hot and tired and sure he is right.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?"
+      "reflectionPrompt": "Notice how “a worm, a wind” (Jonah 4:7–9) arrives at: “the shade is gone, and Jonah is angry again, hot and tired and sure he is right.” Who in your life is walking a hard stretch of road today and needs you to share this grace with them?",
+      "zh_title": "一条虫，一阵风",
+      "zh_poem": "然后是一条蠕虫。\n然后是风。\n然后是太阳。\n\n准备好了，准备好了，准备好了——\n和鱼同一个词。\n\n上帝用鱼救了他\n现在教他\n与蠕虫。\n\n阴影消失了，\n约拿又生气了，\n又热又累\n当然他是对的。",
+      "zh_reflectionPrompt": "请注意“虫子、风”（约拿书 4：7-9）是如何到达的：“阴影消失了，约拿又生气了，又热又累，确信他是对的。”你生命中的哪些人今天正走在艰难的道路上，需要你与他们分享这份恩典？",
+      "zh_epigraph": "“上帝在第二天黎明时准备了一条虫子”",
+      "zh_ref": "约拿书 4:7–9"
     },
     {
       "n": 24,
@@ -552,7 +679,15 @@
         "accent": "#ecca8e"
       },
       "dailyWalkDay": 959,
-      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jonah 4:10–11: “no answer from Jonah. it is waiting for ours”?"
+      "reflectionPrompt": "What if the most important thing you remember before tonight is the quiet lesson of Jonah 4:10–11: “no answer from Jonah. it is waiting for ours”?",
+      "zh_title": "那个伟大的城市",
+      "zh_poem": "上帝说，你关心一株植物，\n不是你种的，\n没有浇水，\n一夜之间出现的\n一夜之间就死了。\n\n我不应该关心一座城市吗——\n超过十二万人\n谁分不清自己的右手和左手，\n还有所有那些动物？\n\n书到此结束，\n带着一个问题。\n约拿没有回答。\n\n这个问题仍然悬而未决。\n它正在等待\n为了我们的。",
+      "zh_reflectionPrompt": "如果今晚之前你记得的最重要的事情是《约拿书》4:10-11 的安静教训：“约拿没有回答。它在等待我们的回答”怎么办？",
+      "zh_epigraph": "“我难道不应该关心尼尼微这座伟大的城市吗？”",
+      "zh_ref": "约拿书 4:10–11"
     }
-  ]
+  ],
+  "zh_title": "从深处求告",
+  "zh_subtitle": "约拿书诗画集",
+  "zh_beforeYouBegin": "约拿书是四章简短的章节，讲述了一位逆向而行的先知、一场风暴、一条大鱼、一座翻转的城市，以及一位提出最后一个问题的上帝。\n\n本书用二十四首短诗来贯穿它。每首诗都位于一幅画旁边和一行经文下方，因此您可以在晚上阅读它，或在早上阅读一页。\n\n这些诗不是圣经。它们是一位读者对此的回应。打开这本书旁边的约拿书，让真实的话语成为最后的话语。"
 }

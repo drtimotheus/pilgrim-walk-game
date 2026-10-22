@@ -16,7 +16,10 @@
       "lightName": "Light of the Jordan Crossing",
       "lightHint": "Beside the twelve wet river stones stacked near the reeds of the bank",
       "index": 1,
-      "startN": 1
+      "startN": 1,
+      "zh_title": "坚强勇敢",
+      "zh_epigraph": "要坚强和勇敢。不要害怕。",
+      "zh_epigraphRef": "约书亚记 1:9"
     },
     {
       "part": 2,
@@ -26,7 +29,10 @@
       "lightName": "Light of the Covenant Oak",
       "lightHint": "Under the ancient oak of Shechem beside the great witness stone",
       "index": 2,
-      "startN": 11
+      "startN": 11,
+      "zh_title": "没有一件事失败",
+      "zh_epigraph": "耶和华你神所说关于你的一切美善，没有一件事落空了。",
+      "zh_epigraphRef": "约书亚记 23:14"
     },
     {
       "part": 3,
@@ -36,7 +42,10 @@
       "lightName": "Light of Deborah’s Palm",
       "lightHint": "In the shade of the hill-country palm tree between Ramah and Bethel",
       "index": 3,
-      "startN": 21
+      "startN": 21,
+      "zh_title": "又一代",
+      "zh_epigraph": "他们之后兴起了另一代人，但他们并不认识耶和华。",
+      "zh_epigraphRef": "士师记 2:10"
     },
     {
       "part": 4,
@@ -46,7 +55,10 @@
       "lightName": "Light of the Broken Pitcher",
       "lightHint": "Where the clay pitcher shatters to let the hidden torchlight blaze",
       "index": 4,
-      "startN": 28
+      "startN": 28,
+      "zh_title": "勇猛无畏的强者",
+      "zh_epigraph": "大能的勇士啊，耶和华与你同在！",
+      "zh_epigraphRef": "士师记 6:12"
     },
     {
       "part": 5,
@@ -56,7 +68,10 @@
       "lightName": "Light of the Answered Prayer",
       "lightHint": "Near the olive and fig trees before the Finale Plaza",
       "index": 5,
-      "startN": 34
+      "startN": 34,
+      "zh_title": "记住账号",
+      "zh_epigraph": "请记住我，请赐予我力量，就这一次。",
+      "zh_epigraphRef": "士师记 16:28"
     }
   ],
   "paintings": [
@@ -79,7 +94,12 @@
         "accent": "#f6d986"
       },
       "dailyWalkDay": 157,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “after Moses” (Joshua 1:1–9), what would you talk about after reading, “because he is going with you, the same as before”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “after Moses” (Joshua 1:1–9), what would you talk about after reading, “because he is going with you, the same as before”?",
+      "zh_title": "摩西之后",
+      "zh_poem": "摩西死了。\n事情就是这样开始的。\n\n与神交谈的人\n像朋友一样，\n拿着手杖的人\n越过大海，\n走了。\n\n现在是你了。\n\n神说了三遍：\n要坚强。\n要坚强。\n要坚强和勇敢。\n\n不是因为你是。\n因为他是\n和你一起去，\n和以前一样。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走这条路，并停在“摩西之后”（约书亚1：1-9），读完“因为他和以前一样，他要与你同去”之后，你会谈论什么？",
+      "zh_epigraph": "“正如我与摩西同在一样，我也会与你同在。我不会让你失望，也不会抛弃你。”",
+      "zh_ref": "约书亚记 1:1–9"
     },
     {
       "n": 2,
@@ -100,7 +120,12 @@
         "accent": "#c18f4d"
       },
       "dailyWalkDay": 158,
-      "reflectionPrompt": "Pause before the moving water: what changes in your posture today when you sit with the closing words of “day and night”—“the way into it was words”?"
+      "reflectionPrompt": "Pause before the moving water: what changes in your posture today when you sit with the closing words of “day and night”—“the way into it was words”?",
+      "zh_title": "白天和黑夜",
+      "zh_poem": "河前，\n墙前，\n一本书。\n\n把它含在嘴里，\n他说。\n把它翻过来\n中午时分，\n把它翻过来\n通过灯光。\n\n土地就在前方。\n进入它的方式\n是言语。",
+      "zh_reflectionPrompt": "在流动的水面前停顿一下：今天，当你坐着“日与夜”的结束语——“进入其中的方式是言语”时，你的姿势有什么变化？",
+      "zh_epigraph": "“你要昼夜思想它”",
+      "zh_ref": "约书亚记 1:8"
     },
     {
       "n": 3,
@@ -121,7 +146,12 @@
         "accent": "#f0e1ba"
       },
       "dailyWalkDay": 159,
-      "reflectionPrompt": "Look at the stillness of the moving water in Timothy’s painting: what striving can you lay down as you ponder, “a woman on the wall, with the wrong past and the right answer, tying a red thread to her window like a knot in a promise: remember me. remember my house” (Joshua 2:8–21)?"
+      "reflectionPrompt": "Look at the stillness of the moving water in Timothy’s painting: what striving can you lay down as you ponder, “a woman on the wall, with the wrong past and the right answer, tying a red thread to her window like a knot in a promise: remember me. remember my house” (Joshua 2:8–21)?",
+      "zh_title": "猩红色的线",
+      "zh_poem": "她听说过这些故事。\n海，\n河对岸的国王。\n\n耶利哥的每个人都听到了。\n他们的心融化了。\n\n她做了别的事。\n\n你的上帝，她说，\n上帝在天上\n和下面的地球。\n\n墙上的一个女人，\n错误的过去\n以及正确的答案，\n\n系一根红线\n到她的窗户\n就像一个承诺中的结：\n\n记住我。\n记住我的房子。",
+      "zh_reflectionPrompt": "看看蒂莫西画中流动的水的静止：当你沉思时，你能付出什么努力，“一个女人在墙上，有错误的过去和正确的答案，在她的窗户上系一根红线，就像一个承诺的结：记住我。记住我的房子”（约书亚2：8-21）？",
+      "zh_epigraph": "“然后她把猩红色的线系在窗户上。”",
+      "zh_ref": "约书亚记 2:8–21"
     },
     {
       "n": 4,
@@ -142,7 +172,12 @@
         "accent": "#fce5ba"
       },
       "dailyWalkDay": 160,
-      "reflectionPrompt": "In Joshua 3:1–6, the story turns on the quiet centerpiece of “this way before”—and ends with, “that's why we follow something we can see a long way off.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Joshua 3:1–6, the story turns on the quiet centerpiece of “this way before”—and ends with, “that's why we follow something we can see a long way off.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "以前这样",
+      "zh_poem": "保持距离\n他们被告知，是从方舟来的。\n不然你就会远离神。\n\n所以你可以看到\n它要去哪里。\n\n你还没有通过\n以前是这样的。\n\n我们都没有。\n这就是为什么我们遵循\n我们可以看到的东西\n还很遥远。",
+      "zh_reflectionPrompt": "在约书亚 3 章 1-6 节中，故事以“从前这条路”这个安静的核心为中心，并以“这就是为什么我们追随那些我们可以看到很远的地方的东西”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“因为你以前没有走过这条路。”",
+      "zh_ref": "约书亚记 3:1–6"
     },
     {
       "n": 5,
@@ -163,7 +198,12 @@
         "accent": "#f7eed7"
       },
       "dailyWalkDay": 161,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Joshua 3:14–17 points us to the moving water and whispers, “sometimes the miracle waits for your sandal to touch the flood.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Joshua 3:14–17 points us to the moving water and whispers, “sometimes the miracle waits for your sandal to touch the flood.” How can you practice that unhurried wisdom today?",
+      "zh_title": "水的边缘",
+      "zh_poem": "这是收获。\n河水已经漫过了河岸。\n\n当然是。\n\n什么都没有动\n直到某人的脚\n湿了。\n\n然后，在上游很远的地方，\n水静止了\n在一堆中，\n\n和牧师们\n站在中间\n在干燥的地面上\n\n直到每一个最后一个\n已经穿越了。\n\n有时奇迹\n等待你的凉鞋\n触摸洪水。",
+      "zh_reflectionPrompt": "世界通过速度和噪音来衡量生命，然而《约书亚》3:14-17 却向我们指出了流动的河水，并低声说道：“有时，奇迹会等待你的凉鞋接触到洪水。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“抬约柜的祭司的脚曾浸在水边”",
+      "zh_ref": "约书亚记 3:14–17"
     },
     {
       "n": 6,
@@ -184,7 +224,12 @@
         "accent": "#d7c9ac"
       },
       "dailyWalkDay": 162,
-      "reflectionPrompt": "The poem closes with a quiet turn: “and you will get to say, we walked through here on dry ground.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “and you will get to say, we walked through here on dry ground.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "这些石头意味着什么",
+      "zh_poem": "十二个人\n涉水回到河床\n和每一个\n举起一块石头\n到他的肩膀。\n\n湿石头。\n沉重的石头。\n从那个地方\n祭司们站过的地方。\n\n上帝说，把它们叠起来，\n今晚你露营的地方。\n\n有一天，一个孩子\n会把手放在他们身上\n并询问。\n\n你会说，\n我们走过这里\n在干燥的地面上。",
+      "zh_reflectionPrompt": "这首诗以安静的转折结束：“你会说，我们在干燥的土地上走过这里。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“这些石头是什么意思？”",
+      "zh_ref": "约书亚记 4:1–24"
     },
     {
       "n": 7,
@@ -205,7 +250,12 @@
         "accent": "#e0c99d"
       },
       "dailyWalkDay": 163,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “same hands. different bread” (Joshua 5:10–12) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “same hands. different bread” (Joshua 5:10–12) speak to a question you have been carrying lately?",
+      "zh_title": "吗哪的最后一个早晨",
+      "zh_poem": "四十年\n地上的面包\n每天早上。\n\n然后有一天\n他们吃的是土地上的粮食，\n烤,\n\n和第二天早上\n没有。\n\n没有人宣布这一消息。\n没有人必须这样做。\n\n喂养他们的神\n在沙漠中\n现在正在喂他们\n与字段。\n\n同一双手。\n不同的面包。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“同样的手，不同的饼”（约书亚 5：10-12）如何解答你最近一直在思考的问题？",
+      "zh_epigraph": "“第二天，他们吃了这地的出产之后，吗哪就停止了。”",
+      "zh_ref": "约书亚记 5:10–12"
     },
     {
       "n": 8,
@@ -226,7 +276,12 @@
         "accent": "#f2e6c9"
       },
       "dailyWalkDay": 164,
-      "reflectionPrompt": "Hold your hands open for a moment before “holy ground” (Joshua 5:13–15): what are you gripping tightly that loosens when you hear, “in charge. he took off his sandals”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “holy ground” (Joshua 5:13–15): what are you gripping tightly that loosens when you hear, “in charge. he took off his sandals”?",
+      "zh_title": "圣地",
+      "zh_poem": "你是为了我们吗\n还是为了我们的敌人？\n\n一个公平的问题\n耶利哥城外。\n\n不，答案来了。\n\n不在你这边。\n负责。\n\n所以约书亚做了唯一的事\n这是有道理的。\n\n他脱掉凉鞋。",
+      "zh_reflectionPrompt": "在“圣地”面前张开双手（约书亚 5：13-15）：当你听到“负责。他脱掉鞋”时，你紧握的是什么东西松开了？",
+      "zh_epigraph": "“脱掉你的凉鞋，因为你所站的地方是神圣的。”",
+      "zh_ref": "约书亚记 5:13–15"
     },
     {
       "n": 9,
@@ -247,7 +302,12 @@
         "accent": "#f1ddb7"
       },
       "dailyWalkDay": 165,
-      "reflectionPrompt": "Scripture remembers this moment in Joshua 6:1–16 not to impress us, but to steady us: when have you seen the truth that “some obedience is just keeping quiet and going around again” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Joshua 6:1–16 not to impress us, but to steady us: when have you seen the truth that “some obedience is just keeping quiet and going around again” in your own story?",
+      "zh_title": "沉默7天",
+      "zh_poem": "一次。\n回到营地。\n\n一次。\n回到营地。\n\n六天的步行\n经过一座上锁的城市\n一言不发。\n\n只有公羊的角\n和脚步声。\n\n这一定让人感觉很愚蠢。\n一定感觉没什么。\n\n一定的服从\n只是保持安静\n并再次四处走动。",
+      "zh_reflectionPrompt": "圣经在约书亚 6:1-16 中记住这一刻，不是为了给我们留下深刻的印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“有些服从就是保持安静，然后又四处走动”的真理？",
+      "zh_epigraph": "“你不可以大声喊叫，也不可以让别人听到你的声音”",
+      "zh_ref": "约书亚记 6:1–16"
     },
     {
       "n": 10,
@@ -268,7 +328,12 @@
         "accent": "#eedcb5"
       },
       "dailyWalkDay": 166,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “the wall fell down flat” (Joshua 6:15–20), what one honest sentence would you pray beside the stones of the wall after reading, “not pushed. not climbed. just told”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “the wall fell down flat” (Joshua 6:15–20), what one honest sentence would you pray beside the stones of the wall after reading, “not pushed. not climbed. just told”?",
+      "zh_title": "墙倒塌了",
+      "zh_poem": "第七天。\n七次左右。\n\n然后是长长的爆炸声，\n和喊声\n他们一直持有\n一个星期，\n\n和石头\n从未动过的\n对于任何人\n\n躺下。\n\n没有被推。\n没有爬。\n\n只是\n告诉。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“城墙倒塌了”（约书亚6:15-20）时，读完“不是推的，不是爬的，只是告诉的”之后，你会在城墙的石头旁边祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“墙倒塌了”",
+      "zh_ref": "约书亚记 6:15–20"
     },
     {
       "n": 11,
@@ -289,7 +354,12 @@
         "accent": "#efdfba"
       },
       "dailyWalkDay": 167,
-      "reflectionPrompt": "Between the opening line (“when the dust settled there was one window still tied with red”) and the closing thought (“that was always how the story was meant to go”), what is Joshua 6:22–25 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“when the dust settled there was one window still tied with red”) and the closing thought (“that was always how the story was meant to go”), what is Joshua 6:22–25 gently reframing in your own day?",
+      "zh_title": "在以色列中部",
+      "zh_poem": "当尘埃落定\n只有一扇窗户\n仍然系着红色。\n\n他们把她带出来，\n和她的父亲，\n和她的母亲，\n和她的兄弟们，\n和她拥有的一切。\n\n局外人\n从墙上\n\n现在居住\n在中间\n神的子民。\n\n那总是\n故事如何\n本来是要去的。",
+      "zh_reflectionPrompt": "在开场白（“当尘埃落定时，有一扇窗户仍系着红色”）和结束语（“故事本来就是这样发展的”）之间，《约书亚》6:22-25在你那个时代轻轻地重构了什么？",
+      "zh_epigraph": "“至今她还住在以色列中部”",
+      "zh_ref": "约书亚记 6:22–25"
     },
     {
       "n": 12,
@@ -310,7 +380,12 @@
         "accent": "#b8a383"
       },
       "dailyWalkDay": 168,
-      "reflectionPrompt": "Along the road of Be Strong and Courageous, “hidden in the ground” (Joshua 7:19–26) slows us down at the open threshold to remind us: “much later, a prophet heard God promise to make that same valley a door of hope.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Be Strong and Courageous, “hidden in the ground” (Joshua 7:19–26) slows us down at the open threshold to remind us: “much later, a prophet heard God promise to make that same valley a door of hope.” Where are you being invited to trade control for trust today?",
+      "zh_title": "隐藏在地下",
+      "zh_poem": "一件漂亮的长袍。\n一些银子。\n一块金条。\n\n我看到了他们，我想要他们，\n我拿走了它们，我把它们藏了起来。\n最古老的四个台阶。\n\n我的儿子，约书亚说，\n别向我隐瞒。\n\n他们举起了一堆石头\n在亚割谷，\n麻烦之谷。\n\n很久以后，一位先知听到了上帝的应许\n使同一个山谷\n一扇希望之门。",
+      "zh_reflectionPrompt": "沿着“坚强勇敢”的道路，“隐藏在地里”（约书亚7：19-26）让我们在敞开的门槛前放慢脚步，提醒我们：“很久以后，一位先知听到上帝应许让这个山谷成为希望之门。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“现在告诉我你做了什么！别瞒着我！”",
+      "zh_ref": "约书亚记 7:19–26"
     },
     {
       "n": 13,
@@ -331,7 +406,12 @@
         "accent": "#faefcd"
       },
       "dailyWalkDay": 169,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the little ones and the foreigners” (Joshua 8:30–35), what would you talk about after reading, “no one was too small or too new to hear what God had said”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “the little ones and the foreigners” (Joshua 8:30–35), what would you talk about after reading, “no one was too small or too new to hear what God had said”?",
+      "zh_title": "小孩子和外国人",
+      "zh_poem": "他读完了所有的内容。\n每一个字。\n\n不仅是对长辈。\n不仅对男人。\n\n给妇女们。\n给小孩子们。\n对外国人来说\n站在边缘。\n\n没有人太小\n或太新\n听神所说的话。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“小孩和外邦人”（约书亚 8：30-35）处停下来，当你读到“没有人太小或太新而不能听神所说的话”之后，你会谈论什么？",
+      "zh_epigraph": "“还有妇女、小孩和他们中间的外国人。”",
+      "zh_ref": "约书亚记 8:30–35"
     },
     {
       "n": 14,
@@ -352,7 +432,12 @@
         "accent": "#f9e5ad"
       },
       "dailyWalkDay": 170,
-      "reflectionPrompt": "Pause before the still, unhurried voice: what changes in your posture today when you sit with the closing words of “the day the sun stood still”—“it marvels at this: God listened to the voice of a man”?"
+      "reflectionPrompt": "Pause before the still, unhurried voice: what changes in your posture today when you sit with the closing words of “the day the sun stood still”—“it marvels at this: God listened to the voice of a man”?",
+      "zh_title": "太阳静止不动的那一天",
+      "zh_poem": "太阳，静止，\n他说。\n\n和太阳\n停留在半空中。\n\n文字并不令人惊奇\n在太阳下。\n\n它令人惊叹\n在这：\n\n上帝垂听了\n到声音\n一个男人的。",
+      "zh_reflectionPrompt": "在那平静、不紧不慢的声音前停顿一下：今天，当你坐下来，以“太阳静止的那一天”结束语——“它对此感到惊奇：上帝倾听一个人的声音”时，你的姿势有什么变化？",
+      "zh_epigraph": "“在此之前或之后，耶和华从来没有听过人的声音”",
+      "zh_ref": "约书亚记 10:12–14"
     },
     {
       "n": 15,
@@ -373,7 +458,12 @@
         "accent": "#f1e5cc"
       },
       "dailyWalkDay": 171,
-      "reflectionPrompt": "Look at the stillness of the low road through the valley in Timothy’s painting: what striving can you lay down as you ponder, “that's what it looks like at eighty-five” (Joshua 14:6–14)?"
+      "reflectionPrompt": "Look at the stillness of the low road through the valley in Timothy’s painting: what striving can you lay down as you ponder, “that's what it looks like at eighty-five” (Joshua 14:6–14)?",
+      "zh_title": "给我这个山地",
+      "zh_poem": "四十岁\n当他作为间谍进去的时候。\n现年八十五岁，\n经过四十五年的等待。\n\n他没有问\n为了轻松的山谷。\n\n他要求山地，\n有城墙的城镇，巨人。\n\n我现在也一样坚强\n就像我当时一样，他说。\n\n他跟随耶和华\n全心全意。\n\n这就是它看起来的样子\n八十五岁。",
+      "zh_reflectionPrompt": "看看提摩太画中穿过山谷的小路的寂静：当你思考“这就是八十五岁的样子”（约书亚 14：6-14）时，你还能付出什么努力呢？",
+      "zh_epigraph": "“现在给我这个山地”",
+      "zh_ref": "约书亚记 14:6–14"
     },
     {
       "n": 16,
@@ -394,7 +484,12 @@
         "accent": "#f1e5cb"
       },
       "dailyWalkDay": 172,
-      "reflectionPrompt": "In Joshua 15:16–19, the story turns on the quiet centerpiece of “springs of water”—and ends with, “it is not greedy to ask a father for water.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Joshua 15:16–19, the story turns on the quiet centerpiece of “springs of water”—and ends with, “it is not greedy to ask a father for water.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "泉水",
+      "zh_poem": "你给了我干燥的土地，\n押撒对她父亲说。\n\n也给我泉水吧。\n\n所以他给了她\n上弹簧\n和较低的泉水。\n\n它不贪心\n去问父亲\n水。",
+      "zh_reflectionPrompt": "在约书亚 15 章 16-19 节中，故事的中心内容是“水的泉源”，并以“向父亲要水，并不贪心”作为结尾。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“给我一个祝福。”",
+      "zh_ref": "约书亚记 15:16–19"
     },
     {
       "n": 17,
@@ -415,7 +510,12 @@
         "accent": "#eed4a3"
       },
       "dailyWalkDay": 173,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Joshua 20:1–6 points us to the open threshold and whispers, “even in the law there were doors left open for the ones who didn't mean it.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Joshua 20:1–6 points us to the open threshold and whispers, “even in the law there were doors left open for the ones who didn't mean it.” How can you practice that unhurried wisdom today?",
+      "zh_title": "避难城市",
+      "zh_poem": "六个城市\n大门敞开。\n\n对于伤害过的人\n无意中，\n他的心提到了嗓子眼。\n\n进去吧，上帝说。\n告诉门口的长辈。\n他们会带你进去。\n\n即使在法律上\n有门\n左开\n为了那些\n谁不是故意的。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而《约书亚》20:1-6却向我们指出了敞开的门槛，并低声说道：“即使在律法中，也为那些无意的人敞开了大门。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“指定避难城市”",
+      "zh_ref": "约书亚记 20:1–6"
     },
     {
       "n": 18,
@@ -436,7 +536,12 @@
         "accent": "#dfc49d"
       },
       "dailyWalkDay": 174,
-      "reflectionPrompt": "The poem closes with a quiet turn: “a house is where it gets decided.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “a house is where it gets decided.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "至于我和我的房子",
+      "zh_poem": "河对岸的诸神。\n土地之神。\n或耶和华。\n\n选择，他说。\n今天。\n\n不会有一天。\n不是在收获的时候。\n\n他是个老人\n站在一个民族面前，\n他做出了自己的选择\n大声说：\n\n至于我\n还有我的房子，\n我们必事奉耶和华。\n\n房子是哪里\n它就决定了。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“房子是决定的地方。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“今天选择你要服务的人”",
+      "zh_ref": "约书亚记 24:14–15"
     },
     {
       "n": 19,
@@ -457,7 +562,12 @@
         "accent": "#ebdcbd"
       },
       "dailyWalkDay": 175,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “just stand there, year after year, in case anyone needed reminding” (Joshua 24:26–27) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “just stand there, year after year, in case anyone needed reminding” (Joshua 24:26–27) speak to a question you have been carrying lately?",
+      "zh_title": "石头听到了",
+      "zh_poem": "他立了一块大石头\n在橡树下。\n\n这块石头听到了\n神对我们所说的一切，\n他告诉他们。\n\n一个奇怪的证人。\n\n它永远不会说话。\n永远不要动。\n永远不会忘记。\n\n站在那里，\n年复一年，\n万一有人\n需要提醒。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“年复一年地站在那里，免得有人需要提醒”（约书亚24：26-27）如何解答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“它听见了耶和华的一切话”",
+      "zh_ref": "约书亚记 24:26–27"
     },
     {
       "n": 20,
@@ -478,7 +588,12 @@
         "accent": "#e3d7b0"
       },
       "dailyWalkDay": 176,
-      "reflectionPrompt": "Hold your hands open for a moment before “Joseph's bones” (Joshua 24:29–32): what are you gripping tightly that loosens when you hear, “Joseph had asked them not to leave him there. every promise comes home”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “Joseph's bones” (Joshua 24:29–32): what are you gripping tightly that loosens when you hear, “Joseph had asked them not to leave him there. every promise comes home”?",
+      "zh_title": "约瑟夫的骨头",
+      "zh_poem": "约书亚死了，\n一百一十岁了。\n\n他们埋葬了\n还有一件事。\n\n一盒骨头\n一路携带\n出埃及，\n穿过大海，\n走过四十年的风沙，\n过河。\n\n约瑟夫问他们\n不要把他留在那里。\n\n他们没有。\n\n每一个承诺\n回家了。",
+      "zh_reflectionPrompt": "在“约瑟的骨头”（约书亚 24：29-32）前张开你的双手：当你听到“约瑟吩咐他们不要把他留在那里。每一个应许都会实现”时，你紧握的是什么东西松开了？",
+      "zh_epigraph": "“他们把以色列人从埃及带上来的约瑟的骸骨埋葬在示剑”",
+      "zh_ref": "约书亚记 24:29–32"
     },
     {
       "n": 21,
@@ -499,7 +614,12 @@
         "accent": "#e4d7ba"
       },
       "dailyWalkDay": 177,
-      "reflectionPrompt": "Scripture remembers this moment in Judges 2:7–10 not to impress us, but to steady us: when have you seen the truth that “only one generation that isn't told” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Judges 2:7–10 not to impress us, but to steady us: when have you seen the truth that “only one generation that isn't told” in your own story?",
+      "zh_title": "谁不知道",
+      "zh_poem": "那些看过它的人\n变老了。\n那些过河的人\n被埋葬了。\n\n和石头\n还在那里。\n\n但没有人问\n他们的意思是什么。\n\n遗忘\n不需要叛逆。\n\n仅\n一代人\n没有告诉。",
+      "zh_reflectionPrompt": "圣经在士师记 2 章 7-10 节中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定下来：你什么时候在你自己的故事中看到过“只有一代人没有被讲述”的真理？",
+      "zh_epigraph": "“在他们之后兴起了另一代人，他们不认识耶和华”",
+      "zh_ref": "士师记 2:7–10"
     },
     {
       "n": 22,
@@ -520,7 +640,12 @@
         "accent": "#f0d8a7"
       },
       "dailyWalkDay": 178,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “round again” (Judges 2:11–19), what one honest sentence would you pray beside the quiet centerpiece of “round again” after reading, “it's that every time they groaned it grieved him, and every time, he came”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “round again” (Judges 2:11–19), what one honest sentence would you pray beside the quiet centerpiece of “round again” after reading, “it's that every time they groaned it grieved him, and every time, he came”?",
+      "zh_title": "再次轮回",
+      "zh_poem": "他们忘记了。\n他们转向其他神。\n他们被压垮了。\n他们大声喊叫。\n\n神兴起一位审判官，\n大地也安息了。\n\n然后法官死了，\n他们忘记了。\n\n周围又周围，\n就像磨坊里的一头驴一样。\n\n奇迹不是\n他们一直在转圈。\n就是每次他们呻吟的时候\n这让他感到悲伤，\n\n而每一次，\n他来了。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼在“再次轮回”处停顿时（士师记2：11-19），读完“他们每一次呻吟，都使他悲伤，而每一次，他都来了”之后，除了“再次轮回”安静的核心内容之外，你还会祈祷哪一句诚实的句子？",
+      "zh_epigraph": "“耶和华因他们的叹息而忧伤”",
+      "zh_ref": "士师记 2:11–19"
     },
     {
       "n": 23,
@@ -541,7 +666,12 @@
         "accent": "#f3e8cc"
       },
       "dailyWalkDay": 179,
-      "reflectionPrompt": "Between the opening line (“no palace. no throne”) and the closing thought (“a prophet, a judge, and later she would call herself a mother in Israel. it can sit under a tree”), what is Judges 4:4–5 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“no palace. no throne”) and the closing thought (“a prophet, a judge, and later she would call herself a mother in Israel. it can sit under a tree”), what is Judges 4:4–5 gently reframing in your own day?",
+      "zh_title": "在棕榈树下",
+      "zh_poem": "没有宫殿。\n没有王座。\n\n一棵棕榈树\n在山路上\n两个城镇之间。\n\n和人民\n继续向上走\n坐在它的树荫下\n并问她\n什么是正确的。\n\n一位先知，\n一名法官，\n后来她称自己为\n以色列的一位母亲。\n\n智慧不需要大厅。\n它可以坐\n在一棵树下。",
+      "zh_reflectionPrompt": "在开场白（“没有宫殿，没有宝座”）和结束语（“一位先知，一位士师，后来她称自己为以色列的母亲。它可以坐在树下”）之间，《士师记》4:4-5 在你那个时代温柔地重构了什么？",
+      "zh_epigraph": "“她住在以法莲山地拉玛和伯特利之间的底波拉棕榈树下”",
+      "zh_ref": "士师记 4:4–5"
     },
     {
       "n": 24,
@@ -562,7 +692,12 @@
         "accent": "#edddb7"
       },
       "dailyWalkDay": 180,
-      "reflectionPrompt": "Along the road of Be Strong and Courageous, “if you will go with me” (Judges 4:6–14) slows us down at the quiet centerpiece of “if you will go with me” to remind us: “she told him who was already out in front.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Be Strong and Courageous, “if you will go with me” (Judges 4:6–14) slows us down at the quiet centerpiece of “if you will go with me” to remind us: “she told him who was already out in front.” Where are you being invited to trade control for trust today?",
+      "zh_title": "如果你愿意和我一起去",
+      "zh_poem": "如果你愿意和我一起去的话\n“我去，”巴拉克说。\n\n如果没有，\n我不会。\n\n她去了。\n\n当这一天到来时\n她没有告诉他\n要勇敢。\n\n她告诉他\n谁已经是\n就在前面。",
+      "zh_reflectionPrompt": "沿着《坚强勇敢》的道路，“你若肯与我同去”（士师记 4：6-14）在“你若肯与我同去”这一安静的核心部分让我们放慢了脚步，提醒我们：“她告诉了已经在前面的人。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“耶和华没有在你前面出去吗？”",
+      "zh_ref": "士师记 4:6–14"
     },
     {
       "n": 25,
@@ -583,7 +718,12 @@
         "accent": "#f2e4ca"
       },
       "dailyWalkDay": 181,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “a jug of milk” (Judges 5:24–25), what would you talk about after reading, “we will leave the rest in the dark of the tent”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “a jug of milk” (Judges 5:24–25), what would you talk about after reading, “we will leave the rest in the dark of the tent”?",
+      "zh_title": "一壶牛奶",
+      "zh_poem": "他跑过来\n到一个看起来安全的帐篷。\n\n他要水。\n她用她最好的菜给他牛奶\n并给他盖上一块毯子。\n\n九百辆铁车的车长\n来到一个帐篷\n并且从未离开过它。\n\n黛博拉曾说过\n那将是一只女人的手。\n\n这首歌呼唤她\n帐篷里的妇女们受到祝福。\n\n我们将剩下的\n帐篷的黑暗中。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“一壶奶”前停下来（士师记 5:24-25），读完“我们将把剩下的留在帐棚的黑暗里”之后，你会谈论什么？",
+      "zh_epigraph": "“他要水。她给了他牛奶。她给他盛了盛在高贵盘子里的黄油。”",
+      "zh_ref": "士师记 5:24–25"
     },
     {
       "n": 26,
@@ -604,7 +744,12 @@
         "accent": "#b0a38e"
       },
       "dailyWalkDay": 182,
-      "reflectionPrompt": "Pause before the moving water: what changes in your posture today when you sit with the closing words of “the stars fought”—“when God goes out before you, even the rain is under orders”?"
+      "reflectionPrompt": "Pause before the moving water: what changes in your posture today when you sit with the closing words of “the stars fought”—“when God goes out before you, even the rain is under orders”?",
+      "zh_title": "星星们战斗着",
+      "zh_poem": "铁车九百辆。\n\n然后云浇水，\n和古老的基顺河\n把他们一扫而光。\n\n从天上\n星星们战斗着，\n黛博拉唱歌。\n\n当神出现在你面前时，\n甚至下雨\n正在接受命令。",
+      "zh_reflectionPrompt": "停在流水前：今天，当你坐下来，听着《群星争斗》的结束语——“上帝在你面前出现，连雨都听命于”时，你的姿势有什么变化？",
+      "zh_epigraph": "“天空中星星在战斗。”",
+      "zh_ref": "士师记 5:4–21"
     },
     {
       "n": 27,
@@ -625,7 +770,12 @@
         "accent": "#fcd2a5"
       },
       "dailyWalkDay": 183,
-      "reflectionPrompt": "Look at the stillness of the warmth of the fire in Timothy’s painting: what striving can you lay down as you ponder, “and the land had rest forty years” (Judges 5:31)?"
+      "reflectionPrompt": "Look at the stillness of the warmth of the fire in Timothy’s painting: what striving can you lay down as you ponder, “and the land had rest forty years” (Judges 5:31)?",
+      "zh_title": "像太阳一样",
+      "zh_poem": "歌曲结束\n不与战斗\n但随着早晨。\n\n那些爱他的人\n将会像太阳一样\n当它出现时\n在于其实力。\n\n不是闪光。\n不是火灾。\n\n稳定的。\n上升。\n温暖一切\n它触及。\n\n大地得到了休息\n四十年。",
+      "zh_reflectionPrompt": "看看提摩太画中火热的寂静：当你思考“地太平四十年”（士师记 5:31）时，你还能付出什么努力呢？",
+      "zh_epigraph": "“让那些爱他的人像太阳升起时的力量一样。”",
+      "zh_ref": "士师记 5:31"
     },
     {
       "n": 28,
@@ -646,7 +796,12 @@
         "accent": "#eee2ca"
       },
       "dailyWalkDay": 184,
-      "reflectionPrompt": "In Judges 6:11–12, the story turns on the name by which He calls you—and ends with, “God names you by what he sees coming, not by where you're hiding.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Judges 6:11–12, the story turns on the name by which He calls you—and ends with, “God names you by what he sees coming, not by where you're hiding.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "在榨酒厂",
+      "zh_poem": "小麦属于\n在打谷场上，\n在公开场合，\n在风中。\n\n基定正在打谷\n在岩石的一个洞里，\n没有人能看到的地方。\n\n那就是天使所在的地方\n找到了他。\n\n并打电话给他\n勇猛的大能之人。\n\n上帝为你命名\n根据他所预见的情况，\n不按哪里\n你躲起来了。",
+      "zh_reflectionPrompt": "在士师记 6 章 11-12 节中，故事以他称呼你的名字为中心，并以“神根据他所看到的事物来命名你，而不是根据你隐藏的地方来命名你。”神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“他的儿子基甸正在酒榨里打小麦，以躲避米甸人的追捕。”",
+      "zh_ref": "士师记 6:11–12"
     },
     {
       "n": 29,
@@ -667,7 +822,12 @@
         "accent": "#eee1c4"
       },
       "dailyWalkDay": 185,
-      "reflectionPrompt": "The world measures life by speed and noise, yet Judges 6:13–16 points us to the quiet centerpiece of “the least” and whispers, “that was the answer to every one of Gideon's objections.” How can you practice that unhurried wisdom today?"
+      "reflectionPrompt": "The world measures life by speed and noise, yet Judges 6:13–16 points us to the quiet centerpiece of “the least” and whispers, “that was the answer to every one of Gideon's objections.” How can you practice that unhurried wisdom today?",
+      "zh_title": "最少的",
+      "zh_poem": "如果神与我们同在，\n为什么这一切？\n奇迹在哪里\n我们的父辈告诉过我们什么？\n\n诚实的问题。\n神没有责备他们。\n\n我的部落是最穷的。\n我是家里最小的一个。\n\n神也没有反驳这一点。\n\n他只说，\n我会和你在一起。\n\n这就是答案\n对每一个人\n吉迪恩的反对意见。",
+      "zh_reflectionPrompt": "世界以速度和噪音来衡量生命，然而《士师记》6章13-16节却向我们指出了“最小的”安静的核心，并轻声说道：“这就是对基甸每一个反对意见的答案。”今天你如何能修习这种从容的智慧呢？",
+      "zh_epigraph": "“我是我父亲家里最小的一个。”",
+      "zh_ref": "士师记 6:13–16"
     },
     {
       "n": 30,
@@ -688,7 +848,12 @@
         "accent": "#e9caa4"
       },
       "dailyWalkDay": 186,
-      "reflectionPrompt": "The poem closes with a quiet turn: “a scared man naming a stone after the first thing God told him.” Where in your life right now does that line hit closest to home?"
+      "reflectionPrompt": "The poem closes with a quiet turn: “a scared man naming a stone after the first thing God told him.” Where in your life right now does that line hit closest to home?",
+      "zh_title": "耶和华赐平安",
+      "zh_poem": "他看见了耶和华的使者\n面对面,\n他确信\n他的结局就这样了。\n\n上帝说，平安。\n别害怕。\n你不会死的。\n\n于是他建了一座祭坛\n就在那里\n并命名它\n耶和华赐平安。\n\n一个害怕的人\n命名一块石头\n在第一件事之后\n神告诉他了。",
+      "zh_reflectionPrompt": "这首诗以一个安静的转折结束：“一个害怕的人以上帝告诉他的第一件事命名了一块石头。”现在，这条线在你生活中的哪个地方最贴近你的家？",
+      "zh_epigraph": "“祝你平安！别害怕。你不会死的。”",
+      "zh_ref": "士师记 6:22–24"
     },
     {
       "n": 31,
@@ -709,7 +874,12 @@
         "accent": "#fbe5b4"
       },
       "dailyWalkDay": 187,
-      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “just dew, exactly where a frightened man needed it” (Judges 6:36–40) speak to a question you have been carrying lately?"
+      "reflectionPrompt": "Sometimes a single sentence opens a window in a closed room: how does “just dew, exactly where a frightened man needed it” (Judges 6:36–40) speak to a question you have been carrying lately?",
+      "zh_title": "羊毛",
+      "zh_poem": "湿羊毛，\n干燥的地面。\n他把它拧干了\n并装满一碗。\n\n然后他又问。\n别生我的气。\n再来一次。\n\n干羊毛，\n潮湿的地面。\n\n神这样做了，\n文字说。\n没有讲座。没有雷声。\n\n只是露水，究竟在哪里\n一个受惊的人\n需要它。",
+      "zh_reflectionPrompt": "有时候，一句话就能在封闭的房间里打开一扇窗：“正是露水，正是受惊的人所需要的地方”（士师记6:36-40）如何解答你最近一直在思考的一个问题？",
+      "zh_epigraph": "“从羊毛中拧出露水，装满一碗水。”",
+      "zh_ref": "士师记 6:36–40"
     },
     {
       "n": 32,
@@ -730,7 +900,12 @@
         "accent": "#efe3cb"
       },
       "dailyWalkDay": 188,
-      "reflectionPrompt": "Hold your hands open for a moment before “too many” (Judges 7:2–7): what are you gripping tightly that loosens when you hear, “because he wanted no one to say afterward, we did this ourselves”?"
+      "reflectionPrompt": "Hold your hands open for a moment before “too many” (Judges 7:2–7): what are you gripping tightly that loosens when you hear, “because he wanted no one to say afterward, we did this ourselves”?",
+      "zh_title": "太多",
+      "zh_poem": "三万二千。\n太多了。\n\n让恐惧的人回家吧。\n万。\n还是太多了。\n\n下到水里。\n三百。\n\n不是因为神需要\n男人更少。\n\n因为他想要\n事后没人再说\n我们自己做的。",
+      "zh_reflectionPrompt": "在“太多”之前先张开你的双手（士师记7:2-7）：当你听到“因为他不想让任何人事后说，我们自己做了这件事”时，你紧握的是什么东西松开了？",
+      "zh_epigraph": "“和你在一起的人对我来说太多了”",
+      "zh_ref": "士师记 7:2–7"
     },
     {
       "n": 33,
@@ -751,7 +926,12 @@
         "accent": "#f6af50"
       },
       "dailyWalkDay": 189,
-      "reflectionPrompt": "Scripture remembers this moment in Judges 7:16–21 not to impress us, but to steady us: when have you seen the truth that “sometimes the light only gets out when the jar breaks” in your own story?"
+      "reflectionPrompt": "Scripture remembers this moment in Judges 7:16–21 not to impress us, but to steady us: when have you seen the truth that “sometimes the light only gets out when the jar breaks” in your own story?",
+      "zh_title": "罐子里的火把",
+      "zh_poem": "一只手拿着喇叭。\n另一个是粘土罐，\n和一把火\n隐藏在里面。\n\n在半夜\n他们站在营地周围\n并打破了罐子。\n\n三百盏小灯\n一下子就燃烧起来。\n\n每个人都站在自己的位置上。\n他们不需要做更多的事情。\n\n有时光\n只能出去\n当罐子\n休息。",
+      "zh_reflectionPrompt": "圣经在士师记 7 章 16-21 节中记住这一时刻，不是为了给我们留下深刻印象，而是为了让我们稳定：你什么时候在你自己的故事中看到过“有时，罐子破裂时，光才会出来”这一真理？",
+      "zh_epigraph": "“空罐子，罐子里有火把。”",
+      "zh_ref": "士师记 7:16–21"
     },
     {
       "n": 34,
@@ -772,7 +952,12 @@
         "accent": "#e7d4ae"
       },
       "dailyWalkDay": 190,
-      "reflectionPrompt": "As your pilgrim lantern pauses at “the trees choose a king” (Judges 9:7–15), what one honest sentence would you pray beside the deep roots of the tree after reading, “so they asked the bramble. a thornbush has no shade”?"
+      "reflectionPrompt": "As your pilgrim lantern pauses at “the trees choose a king” (Judges 9:7–15), what one honest sentence would you pray beside the deep roots of the tree after reading, “so they asked the bramble. a thornbush has no shade”?",
+      "zh_title": "树木选择国王",
+      "zh_poem": "树木想要一位国王。\n\n橄榄说，留下我的油吧？\n无花果说，留下我的甜蜜吗？\n藤蔓说，留下我的酒吧？\n\n各忙各的\n与美好的事物\n它是为了给予而生的。\n\n于是他们问荆棘。\n来吧，它说，\n在我的树荫下休息。\n\n荆棘丛\n没有阴影。",
+      "zh_reflectionPrompt": "当你的朝圣灯笼停在“树木选出王”（士师记9:7-15）时，读到“他们问荆棘，荆棘没有阴影”之后，你会在树的深处祈祷哪一句诚实的句子呢？",
+      "zh_epigraph": "“树木开始为自己膏立一位国王。”",
+      "zh_ref": "士师记 9:7–15"
     },
     {
       "n": 35,
@@ -793,7 +978,12 @@
         "accent": "#cfc0a4"
       },
       "dailyWalkDay": 191,
-      "reflectionPrompt": "Between the opening line (“a rash promise made at the edge of a war”) and the closing thought (“we can only refuse to forget the one who was hurt”), what is Judges 11:30–40 gently reframing in your own day?"
+      "reflectionPrompt": "Between the opening line (“a rash promise made at the edge of a war”) and the closing thought (“we can only refuse to forget the one who was hurt”), what is Judges 11:30–40 gently reframing in your own day?",
+      "zh_title": "带手鼓",
+      "zh_poem": "鲁莽的承诺\n在战争边缘制作的。\n\n当他回到家时，\n他唯一的孩子跑出了门\n跳舞，手鼓。\n\n这是最难的页面之一\n在书中。\n\n她要求两个月\n和她的朋友们在山上。\n\n而之后的每一年，\n以色列的女儿们\n出去四天了\n记住她。\n\n有些故事我们无法解释。\n我们只能拒绝忘记\n受伤的人。",
+      "zh_reflectionPrompt": "在开场白（“在战争边缘做出的轻率的承诺”）和结束语（“我们只能拒绝忘记受伤的人”）之间，士师记 11:30-40 在你那个时代温和地重构了什么？",
+      "zh_epigraph": "“以色列的女儿们每年都去庆祝耶弗他的女儿”",
+      "zh_ref": "士师记 11:30–40"
     },
     {
       "n": 36,
@@ -814,7 +1004,12 @@
         "accent": "#f1d58e"
       },
       "dailyWalkDay": 192,
-      "reflectionPrompt": "Along the road of Be Strong and Courageous, “a name too wonderful” (Judges 13:15–23) slows us down at the name by which He calls you to remind us: “sometimes faith is the one in the room who reasons it through.” Where are you being invited to trade control for trust today?"
+      "reflectionPrompt": "Along the road of Be Strong and Courageous, “a name too wonderful” (Judges 13:15–23) slows us down at the name by which He calls you to remind us: “sometimes faith is the one in the room who reasons it through.” Where are you being invited to trade control for trust today?",
+      "zh_title": "一个太美妙的名字",
+      "zh_poem": "你叫什么名字\n玛挪亚问道：\n这样我们就可以尊敬你吗？\n\n为什么问，答案就来了。\n这超出了你的范围。\n\n然后火焰上升\n从岩石上，\n天使上升了\n在火焰中。\n\n我们会死，\n玛挪亚说。\n\n不，他的妻子说。\n如果他想让我们死\n他不会告诉我们\n所有这一切。\n\n有时信仰\n是房间里的那个\n谁能解释清楚。",
+      "zh_reflectionPrompt": "在坚强勇敢的道路上，“这个名字太美妙了”（士师记13:15-23），他用这个名字来提醒我们：“有时，信心是房间里能推理出来的人。”今天你被邀请在哪里用控制权换取信任？",
+      "zh_epigraph": "“既然我的名字难以理解，你为什么要问我的名字呢？”",
+      "zh_ref": "士师记 13:15–23"
     },
     {
       "n": 37,
@@ -835,7 +1030,12 @@
         "accent": "#f3e8c9"
       },
       "dailyWalkDay": 193,
-      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “out of the strong” (Judges 14:8–14), what would you talk about after reading, “that riddle is bigger than the man who told it”?"
+      "reflectionPrompt": "If you were walking this road with a close friend and stopped at “out of the strong” (Judges 14:8–14), what would you talk about after reading, “that riddle is bigger than the man who told it”?",
+      "zh_title": "出于强者",
+      "zh_poem": "他找到了蜂蜜\n没有人会看的地方。\n\n东西里面\n那对他咆哮。\n\n他边走边吃\n并给了他的父母一些，\n并且从未说过\n它来自哪里。\n\n出食者，食物。\n出于浓烈、甜蜜。\n\n那个谜语更大\n比说这件事的人更重要。",
+      "zh_reflectionPrompt": "如果你和一位亲密的朋友一起走在这条路上，并在“出于强者”（士师记 14：8-14）停下来，当你读到“这个谜语比说它的人更大”之后，你会谈论什么？",
+      "zh_epigraph": "“强者出甜头。”",
+      "zh_ref": "士师记 14:8–14"
     },
     {
       "n": 38,
@@ -856,7 +1056,12 @@
         "accent": "#fcf4e6"
       },
       "dailyWalkDay": 194,
-      "reflectionPrompt": "Pause before the loosened chain: what changes in your posture today when you sit with the closing words of “but he didn't know”—“and then this, quiet as anything: his hair began to grow again”?"
+      "reflectionPrompt": "Pause before the loosened chain: what changes in your posture today when you sit with the closing words of “but he didn't know”—“and then this, quiet as anything: his hair began to grow again”?",
+      "zh_title": "但他不知道",
+      "zh_poem": "我会像以前一样出去\n他说，\n并摆脱束缚。\n\n但他不知道\n耶和华已经离开他了。\n\n这是最悲伤的一行\n在他的故事中。\n\n他们夺走了他的眼睛。\n他们把他安置在磨坊里\n青铜链中，\n转圈研磨。\n\n然后这个，\n安静如一切：\n\n他的头发\n又开始生长。",
+      "zh_reflectionPrompt": "在松动的链条前停顿一下：今天，当你坐下来，以“但他不知道”作为结束语时，你的姿势发生了什么变化——“然后，一切都安静了：他的头发又开始长起来了”？",
+      "zh_epigraph": "“不过，剃光头发后，他的头发又开始长起来了。”",
+      "zh_ref": "士师记 16:17–22"
     },
     {
       "n": 39,
@@ -877,7 +1082,12 @@
         "accent": "#c0b08a"
       },
       "dailyWalkDay": 195,
-      "reflectionPrompt": "Look at the stillness of the stones of the wall in Timothy’s painting: what striving can you lay down as you ponder, “please. and God remembered him” (Judges 16:25–30)?"
+      "reflectionPrompt": "Look at the stillness of the stones of the wall in Timothy’s painting: what striving can you lay down as you ponder, “please. and God remembered him” (Judges 16:25–30)?",
+      "zh_title": "记得我",
+      "zh_poem": "他问男孩\n谁握着他的手\n让他感觉到柱子。\n\n一个曾经拥有过的男人\n城市的城门被撕毁\n现在需要帮助\n找到一堵墙。\n\n然后他祈祷。\n第一次真正的祈祷\n我们收到他的来信\n在很长一段时间内。\n\n记住账号。\n请。\n再来一次。\n\n和上帝\n记得他。",
+      "zh_reflectionPrompt": "看看提摩太画中墙石的寂静：当你沉思“求你了，神就记念他”（士师记 16：25-30）时，你还能付出什么努力呢？",
+      "zh_epigraph": "“请记住我，请坚强我，就这一次”",
+      "zh_ref": "士师记 16:25–30"
     },
     {
       "n": 40,
@@ -898,7 +1108,15 @@
         "accent": "#e9cc99"
       },
       "dailyWalkDay": 196,
-      "reflectionPrompt": "In Judges 21:25, the story turns on the quiet centerpiece of “in his own eyes”—and ends with, “and the long wait begins for a king who would do what was right in God's eyes.” What small, unhurried faithfulness is God inviting you into today?"
+      "reflectionPrompt": "In Judges 21:25, the story turns on the quiet centerpiece of “in his own eyes”—and ends with, “and the long wait begins for a king who would do what was right in God's eyes.” What small, unhurried faithfulness is God inviting you into today?",
+      "zh_title": "在他自己眼中",
+      "zh_poem": "以色列没有国王。\n\n每个人都这么做了\n什么看起来是正确的\n给他们。\n\n书就是这样结束的。\n不是通过战斗。\n用一句话。\n\n漫长的等待开始了\n对于一个国王\n谁会做\n什么是正确的\n在上帝眼中。",
+      "zh_reflectionPrompt": "在士师记 21 章 25 节中，故事的核心是“在他自己眼中”，并以“漫长的等待开始，等待一位会行上帝眼中看为正的事的君王”。神今天邀请你进入什么样的小而从容的信实呢？",
+      "zh_epigraph": "“每个人都做了自己认为正确的事。”",
+      "zh_ref": "士师记 21:25"
     }
-  ]
+  ],
+  "zh_title": "刚强壮胆",
+  "zh_subtitle": "约书亚记与士师记诗画集",
+  "zh_beforeYouBegin": "约书亚一开始，一个人三度被告知要坚强，他站在摩西曾经站过的地方。然后是绑在窗户上的一条猩红色的线，祭司们踏入洪水泛滥的河流，从河床抬上十二块石头，最后的早晨吗哪，七声公羊角，一个老人要求进入坚硬的山地，一个人民被告知今天要选择他们要服务的人。士师记从遗忘的一代人开始，周而复始：一个女人在棕榈树下审判，一个农民在酒榨中打谷，一件被露水浸湿的羊毛，藏在陶罐里的火把，一个头发开始重新生长的强壮男人，以及两根柱子之间的最后祈祷。"
 }

@@ -9,7 +9,7 @@
 //   - Optional personal reflection journal persisted in localStorage + Read Aloud + Share
 // ============================================================================
 
-import { formatZh } from './zh-convert.js?v=44_9';
+import { formatZh } from './zh-convert.js?v=44_10';
 
 const FISH_SELENE_MODEL_ID = 'b347db033a6549378b48d00acb0d06cd';
 const FISH_KEY_STORAGE = 'pilgrim_fish_audio_selene_key';
@@ -707,6 +707,9 @@ export class DailyWalkManager {
       window.speechSynthesis.cancel();
     }
     this.isSpeaking = false;
+    if (this.app.audio && this.app.audio.setVoiceDucking) {
+      this.app.audio.setVoiceDucking(false);
+    }
     const b1 = document.getElementById('dw-btn-read-aloud');
     const b2 = document.getElementById('poem-modal-selene-btn');
     if (b1) b1.textContent = this.getListenBtnLabel();
@@ -721,6 +724,9 @@ export class DailyWalkManager {
     const audio = new Audio(url);
     this.activeAudioEl = audio;
     this.isSpeaking = true;
+    if (this.app.audio && this.app.audio.setVoiceDucking) {
+      this.app.audio.setVoiceDucking(true);
+    }
     if (btnEl) btnEl.textContent = this.isZh() ? this.zh('⏹ 停止朗读') : '⏹ Stop Selene';
     audio.onended = () => {
       this.stopActiveVoice(btnEl, lbl);

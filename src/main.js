@@ -12,15 +12,15 @@
 // ============================================================================
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { PainterlyEngine } from './painterly.js?v=44_9';
-import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_9';
-import { PainterlyPropBuilder } from './props.js?v=44_9';
-import { StepThroughSceneManager } from './scenes.js?v=44_9';
-import { GenesisDistrictBuilder } from './district.js?v=44_9';
-import { PilgrimAudio } from './audio.js?v=44_9';
-import { TripoRelicManager } from './tripo.js?v=44_9';
-import { DailyWalkManager } from './daily-walk.js?v=44_9';
-import { formatZh } from './zh-convert.js?v=44_9';
+import { PainterlyEngine } from './painterly.js?v=44_10';
+import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_10';
+import { PainterlyPropBuilder } from './props.js?v=44_10';
+import { StepThroughSceneManager } from './scenes.js?v=44_10';
+import { GenesisDistrictBuilder } from './district.js?v=44_10';
+import { PilgrimAudio } from './audio.js?v=44_10';
+import { TripoRelicManager } from './tripo.js?v=44_10';
+import { DailyWalkManager } from './daily-walk.js?v=44_10';
+import { formatZh } from './zh-convert.js?v=44_10';
 
 const SAVE_KEY = 'pilgrim_walk_save_v1';
 
@@ -607,6 +607,7 @@ class PilgrimWalkApp {
     this.populateModals();
     this.persistSaveData();
     if (this.dailyWalk) this.dailyWalk.updateHUDCandlePill();
+    this.audio.playStreetMusic(slug);
 
     if (!isInitialBoot && loadScreen) {
       loadScreen.classList.add('fade-out');
@@ -781,6 +782,7 @@ class PilgrimWalkApp {
       this.activeSceneObj.signatureLabel;
 
     this.audio.playLightChime(0.65, false);
+    this.audio.playSceneMusic(this.currentDistrictSlug, paintingNode.data.n);
   }
 
   exitStepThroughSceneToStreet() {
@@ -806,6 +808,7 @@ class PilgrimWalkApp {
     // Hide the scene-only UI
     document.getElementById('back-to-street-btn').classList.add('hidden');
     document.getElementById('scene-active-banner').classList.add('hidden');
+    this.audio.playStreetMusic(this.currentDistrictSlug);
     const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
     this.showToast(`Returned to your exact place on ${meta.shortName} Street.`);
   }

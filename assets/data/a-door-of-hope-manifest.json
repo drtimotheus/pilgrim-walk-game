@@ -1,0 +1,824 @@
+{
+  "district": 25,
+  "slug": "a-door-of-hope",
+  "title": "A Door of Hope",
+  "subtitle": "Hosea, Joel, Amos & Obadiah in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/a-door-of-hope/web/b-025-000.jpg",
+  "beforeYouBegin": "These four prophets speak to a people who had drifted. Hosea keeps a door open for a wife who left, and hears God say, How can I give you up? Joel walks a field stripped bare by locusts and hears a promise to restore the years they ate. Amos, a herdsman from the hills, holds a plumb line beside a leaning wall and calls for justice to roll on like rivers. Obadiah looks up at a nest built among the stars and tells the proud they will come down.\n\nThis book walks through them in forty short poems, in five parts: two for Hosea, then Joel, Amos and Obadiah. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the prophets saw—a door in a valley of trouble, a lily heavy with dew, a stripped fig tree, a stick pulled from the fire, a mended tent—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the books of Hosea, Joel, Amos and Obadiah alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "A Door of Hope",
+      "epigraph": "I will give her vineyards from there, and the valley of Achor for a door of hope",
+      "epigraphRef": "Hosea 2:15",
+      "lightName": "Light of A Door of Hope",
+      "lightHint": "Near 'a living parable' (Hosea 1:1–2) in Part 1: A Door of Hope"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "Cords of Love",
+      "epigraph": "I drew them with cords of a man, with ties of love",
+      "epigraphRef": "Hosea 11:4",
+      "lightName": "Light of Cords of Love",
+      "lightHint": "Near 'the land mourns' (Hosea 4:1–3) in Part 2: Cords of Love"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 17,
+      "title": "The Years the Locust Ate",
+      "epigraph": "I will restore to you the years that the swarming locust has eaten",
+      "epigraphRef": "Joel 2:25",
+      "lightName": "Light of The Years the Locust Ate",
+      "lightHint": "Near 'tell your children' (Joel 1:2–4) in Part 3: The Years the Locust Ate"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 26,
+      "title": "Justice Like Rivers",
+      "epigraph": "But let justice roll on like rivers, and righteousness like a mighty stream.",
+      "epigraphRef": "Amos 5:24",
+      "lightName": "Light of Justice Like Rivers",
+      "lightHint": "Near 'for three, and for four' (Amos 2:6) in Part 4: Justice Like Rivers"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 37,
+      "title": "Nest Among the Stars",
+      "epigraph": "Though you mount on high as the eagle, and though your nest is set among the stars, I will bring you down from there",
+      "epigraphRef": "Obadiah 1:4",
+      "lightName": "Light of Nest Among the Stars",
+      "lightHint": "Near 'the clefts of the rock' (Obadiah 1:3–4) in Part 5: Nest Among the Stars"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "a living parable",
+      "ref": "Hosea 1:1–2",
+      "epigraph": "“Y ahweh’s word that came to Hosea the son of Beeri”",
+      "poem": "some prophets\nwere handed a scroll.\n\nHosea\nwas handed a life.\n\nhis own house\nbecame the sermon:\na promise made,\na promise broken,\na door he kept\nnot locking.\n\nthe nation would watch him\nand, if they had eyes,\nsee themselves.\n\nand see, standing in the doorway,\nthe kind of love\nthat God had been\nall along.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a69689",
+        "horizon": "#6a5c51",
+        "ground": "#453e32",
+        "overall": "#695d53",
+        "accent": "#d9c5a5"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "new names",
+      "ref": "Hosea 1:9–10",
+      "epigraph": "“they will be called ‘sons of the living God.’”",
+      "poem": "the children's names\nwere hard to say out loud.\n\nno mercy.\nnot my people.\n\nnames like\na door shutting.\n\nbut the same breath\nopened it again:\n\nin the very place\nwhere they were called\nnot mine,\n\nthey will be called\nchildren\nof the living God.\n\nGod does not leave\nthe last word\nat no.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8a989",
+        "horizon": "#968768",
+        "ground": "#a28d66",
+        "overall": "#a49371",
+        "accent": "#e7d7b6"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "who gave the grain",
+      "ref": "Hosea 2:8",
+      "epigraph": "“she didn’t know that I gave her the grain, the new wine, and the oil”",
+      "poem": "she thanked the wrong hands.\n\nthe bread came\nfrom somewhere,\nso she guessed.\n\nthe wine came\nfrom somewhere,\nso she guessed again.\n\nall along\nthe one who filled her table\nwas standing\njust outside the light,\n\ngiving,\nand giving,\nand not being named.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9bf9f",
+        "horizon": "#a29374",
+        "ground": "#b0a585",
+        "overall": "#afa384",
+        "accent": "#e9ddbb"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "thorns on the road",
+      "ref": "Hosea 2:6–7",
+      "epigraph": "“I will hedge up your way with thorns”",
+      "poem": "sometimes the road\ncloses.\n\nthe thing you ran toward\nwon't let you catch it.\n\nthe door you knocked on\nstays shut.\n\nit feels like\nbeing lost.\n\nit may be\nbeing kept.\n\nshe said,\nI will go home.\nit was better there.\n\nthe thorns\nwere a hedge\naround the way back.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c6a6",
+        "horizon": "#797059",
+        "ground": "#72664e",
+        "overall": "#8f846a",
+        "accent": "#e6dab8"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "I will allure her",
+      "ref": "Hosea 2:14",
+      "epigraph": "“I will allure her, and bring her into the wilderness, and speak tenderly to her.”",
+      "poem": "after all of it,\nyou would expect\na lecture.\n\ninstead:\na quiet place.\nno crowds.\nno voices competing.\n\nand God\nspeaking tenderly.\n\nthe wilderness\nis not always punishment.\n\nsometimes it is\nthe only place\nquiet enough\nto hear\nthat you are still wanted.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2bf9a",
+        "horizon": "#7a6a5d",
+        "ground": "#544a3e",
+        "overall": "#807260",
+        "accent": "#feb89b"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "a door of hope",
+      "ref": "Hosea 2:15",
+      "epigraph": "“she will respond there, as in the days of her youth”",
+      "poem": "Achor was\nthe valley of trouble,\na name\nthey would rather forget.\n\nand God said,\nthat's where I'll put the door.\n\nnot around the trouble.\nthrough it.\n\nthe place you cannot\ntalk about\n\nbecomes the place\nyou step out of\nsinging,\n\nlike you did\nwhen you were young\nand the whole road\nwas ahead of you.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-006.jpg",
+      "heroSrc": "assets/a-door-of-hope/web/b-025-006.jpg",
+      "isScene": true,
+      "sceneType": "valley_of_achor_door",
+      "palette": {
+        "top": "#cbbc97",
+        "horizon": "#a69673",
+        "ground": "#665942",
+        "overall": "#958768",
+        "accent": "#fef0bb"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "betrothed",
+      "ref": "Hosea 2:19–20",
+      "epigraph": "“I will betroth you to me forever.”",
+      "poem": "not a contract.\na betrothal.\n\nand the gifts\nhe brings to it:\n\nrighteousness,\njustice,\nloving kindness,\ncompassion,\nfaithfulness.\n\nnothing here\nis on loan.\n\nforever\nis the word\nhe chose.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8e8573",
+        "horizon": "#776d5a",
+        "ground": "#988c7a",
+        "overall": "#8b806e",
+        "accent": "#e2dccf"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "go again",
+      "ref": "Hosea 3:1–2",
+      "epigraph": "“even as Y ahweh loves the children of Israel”",
+      "poem": "go again,\nGod said.\nnot once. again.\n\nso he paid\nsilver and barley\nand brought her home.\n\nstay with me,\nhe told her.\nI will be yours too.\n\nthis is how\nYahweh loves:\n\nhe goes again.\nhe pays again.\nhe brings us home.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b9a788",
+        "horizon": "#a29171",
+        "ground": "#b29f7c",
+        "overall": "#ae9c7b",
+        "accent": "#e6d8bb"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "the land mourns",
+      "ref": "Hosea 4:1–3",
+      "epigraph": "“Therefore the land will mourn”",
+      "poem": "no truth.\nno goodness.\nno knowing God.\n\nand the fields\nfeel it first.\n\nthe ground goes quiet.\nthe birds thin out.\neven the streams\ngrow shy.\n\nwe think our choices\nstay inside us.\n\nthey don't.\n\nthe whole land\nleans in\nto hear\nwhether we'll turn.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dcd0b6",
+        "horizon": "#c8bda6",
+        "ground": "#a09077",
+        "overall": "#beb198",
+        "accent": "#f2e9d2"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "as sure as sunrise",
+      "ref": "Hosea 6:1–3",
+      "epigraph": "“As surely as the sun rises, Y ahweh will appear. He will come to us like the rain, like the spring rain that waters the earth.”",
+      "poem": "come,\nlet's go back.\n\nthe one who wounded\nis the one who binds.\n\npress on to know him.\nnot once.\nkeep pressing.\n\nyou don't have to\ntalk the sun\ninto rising.\n\nyou don't have to\nearn the spring rain.\n\nhe will come.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bda3",
+        "horizon": "#a59e86",
+        "ground": "#787753",
+        "overall": "#a09a7d",
+        "accent": "#fcefc4"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "morning cloud",
+      "ref": "Hosea 6:4–6",
+      "epigraph": "“For I desire mercy, and not sacrifice”",
+      "poem": "your love,\nhe said,\nis a morning cloud.\n\nthere at dawn.\ngone by midmorning.\n\nand still\nhe didn't ask for more\nsmoke on the altar.\n\nhe asked for\nmercy.\n\nfor knowing him.\n\na love that stays\npast the heat of the day.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d3b3",
+        "horizon": "#aca08a",
+        "ground": "#b5a990",
+        "overall": "#bdb197",
+        "accent": "#f3e8cb"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "half-baked",
+      "ref": "Hosea 7:8–9",
+      "epigraph": "“Ephraim is a pancake not turned over.”",
+      "poem": "burnt on one side.\nraw on the other.\n\nnobody turned it.\n\nand gray hairs\nhere and there,\nand he doesn't\nrealize it.\n\na life can slip away\nwhile we are busy\nleaning toward\neveryone else.\n\nturn\nwhile it's still\nwarm.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d6c0",
+        "horizon": "#a29781",
+        "ground": "#a59a86",
+        "overall": "#b6ab95",
+        "accent": "#e6ddca"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "fallow ground",
+      "ref": "Hosea 10:12",
+      "epigraph": "“Break up your fallow ground; for it is time to seek Y ahweh, until he comes and rains righteousness on you.”",
+      "poem": "the field\nhas been resting\ntoo long.\n\nhard on top.\nnothing gets in.\n\nso break it.\nnot all at once,\none furrow.\n\nsow righteousness.\nreap kindness.\n\nand then\nwait for the rain\nyou can't make,\n\nwhich he has promised\nto send.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aa9f85",
+        "horizon": "#9f8e70",
+        "ground": "#6e624c",
+        "overall": "#8d8066",
+        "accent": "#d9ccae"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "learning to walk",
+      "ref": "Hosea 11:1–4",
+      "epigraph": "“Yet I taught Ephraim to walk. I took them by his arms”",
+      "poem": "when Israel was a child\nI loved him.\n\nI called my son\nout of Egypt.\n\nI held his arms\nwhile he wobbled.\n\nI bent down\nand fed him.\n\ncords of love,\nhe says.\nnot chains.\n\nthe kind of rope\na parent holds\nso a child\ncan fall\nand not be lost.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0a881",
+        "horizon": "#978058",
+        "ground": "#a5875a",
+        "overall": "#a68c63",
+        "accent": "#f4d498"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "how can I give you up",
+      "ref": "Hosea 11:8–9",
+      "epigraph": "“How can I give you up, Ephraim? How can I hand you over, Israel?”",
+      "poem": "everything had been said.\nevery warning given.\n\nand then\nthis.\n\nhow can I?\n\nGod does not\nturn cold.\n\nmy heart is turned\nwithin me,\nhe says.\n\nI am God,\nnot a man.\n\nwhich means\nthe mercy\ngoes deeper\nthan the anger\never could.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#716652",
+        "horizon": "#716857",
+        "ground": "#554736",
+        "overall": "#655a48",
+        "accent": "#fadeb0"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "like the dew",
+      "ref": "Hosea 14:4–7",
+      "epigraph": "“I will be like the dew to Israel. He will blossom like the lily”",
+      "poem": "to the ones\nwho come back,\nGod says:\n\nI will heal.\nI will love freely.\n\nI will be the dew,\nquiet,\nevery morning.\n\nyou will bloom.\nyou will root deep.\npeople will sit\nin your shade.\n\nyour fruit\ncomes from me.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-016.jpg",
+      "heroSrc": "assets/a-door-of-hope/web/b-025-016.jpg",
+      "isScene": true,
+      "sceneType": "lily_and_olive_dew",
+      "palette": {
+        "top": "#b7ac90",
+        "horizon": "#a79a7e",
+        "ground": "#726954",
+        "overall": "#998e74",
+        "accent": "#e3d4b0"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "tell your children",
+      "ref": "Joel 1:2–4",
+      "epigraph": "“T ell your children about it, and have your children tell their children”",
+      "poem": "first one swarm.\nthen what it left,\nanother took.\n\nthen what that one left,\nanother.\n\nby the end\nthere was nothing\nbut stubble.\n\nand the prophet said:\ntell your children.\n\nnot so they'd be afraid.\n\nso they'd know\nwhat happened,\nand who they ran to\nwhen it did.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5dabf",
+        "horizon": "#ae9e7c",
+        "ground": "#5d5a4b",
+        "overall": "#9f947c",
+        "accent": "#f5ebd3"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "joy has withered",
+      "ref": "Joel 1:10–12",
+      "epigraph": "“for joy has withered away from the sons of men.”",
+      "poem": "the vine.\nthe fig.\nthe pomegranate.\nthe palm.\n\nall of them,\ndry.\n\nand something else\nwithered with them.\n\nit's hard to sing\nover an empty barn.\n\ngrief is allowed here.\n\nthe Bible\nleaves room\nto say so.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddd1b4",
+        "horizon": "#cdc1a3",
+        "ground": "#b7a47e",
+        "overall": "#c6b897",
+        "accent": "#dbc69b"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "even the animals",
+      "ref": "Joel 1:19–20",
+      "epigraph": "“Yes, the animals of the field pant to you”",
+      "poem": "the brooks\nhave dried up.\n\nthe animals\nstand at the empty bed\nand lift their heads.\n\nthe prophet\ntakes it as a prayer.\n\nif even the animals\nturn their faces\ntoward you,\n\nLord,\nso will I.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc3a5",
+        "horizon": "#aea385",
+        "ground": "#85765d",
+        "overall": "#a4977c",
+        "accent": "#e7d8b1"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "tear your heart",
+      "ref": "Joel 2:12–13",
+      "epigraph": "“Tear your heart, and not your garments, and turn to Yahweh, your God”",
+      "poem": "yet even now,\nhe says.\n\nafter the swarm.\nafter the dark.\n\neven now.\n\nthe robe can be torn\nwithout anything\nchanging.\n\nso tear the heart.\n\nopen it\nto the one who is\n\ngracious,\nmerciful,\nslow to anger,\n\nfull\nof loving kindness.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b4ac95",
+        "horizon": "#8d8776",
+        "ground": "#615d53",
+        "overall": "#868071",
+        "accent": "#e9e1c9"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "who knows?",
+      "ref": "Joel 2:14",
+      "epigraph": "“Who knows? He may turn and relent, and leave a blessing behind him”",
+      "poem": "who knows?\n\nthat's all the prophet\ncould promise.\n\nnot a guarantee.\na direction.\n\nturn,\nand see what\nhe leaves behind.\n\na little grain.\na little wine.\n\nenough\nto begin\nworshiping again.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b6a98e",
+        "horizon": "#857c69",
+        "ground": "#786953",
+        "overall": "#8e816b",
+        "accent": "#f6eac2"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "early and latter rain",
+      "ref": "Joel 2:21–24",
+      "epigraph": "“Land, don’t be afraid. Be glad and rejoice, for Y ahweh has done great things.”",
+      "poem": "he speaks to the land\nfirst.\n\ndon't be afraid.\n\nthen to the animals.\ndon't be afraid.\n\nthen to his people:\nbe glad.\n\nthe pastures spring up.\nthe fig tree remembers\nhow to bear.\n\nthe early rain.\nthe latter rain.\nas before.\n\nthe threshing floors\nfull.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cac2ad",
+        "horizon": "#968f76",
+        "ground": "#747355",
+        "overall": "#979277",
+        "accent": "#f7efd7"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "the years the locust ate",
+      "ref": "Joel 2:25–26",
+      "epigraph": "“You will have plenty to eat, and be satisfied, and will praise the name of Yahweh, your God, who has dealt wondrously with you”",
+      "poem": "he doesn't just\ngive back the field.\n\nhe gives back\nthe years.\n\nthe ones that went\nto the swarm.\n\nthe ones you thought\nwere only loss.\n\nnobody else\ncan pay you back\nin time.\n\nhe says\nhe will.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-023.jpg",
+      "heroSrc": "assets/a-door-of-hope/web/b-025-023.jpg",
+      "isScene": true,
+      "sceneType": "restored_harvest_floor",
+      "palette": {
+        "top": "#c9b78f",
+        "horizon": "#847452",
+        "ground": "#5f5139",
+        "overall": "#887858",
+        "accent": "#eddaad"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "on all flesh",
+      "ref": "Joel 2:28–29",
+      "epigraph": "“I will pour out my Spirit on all flesh”",
+      "poem": "sons and daughters.\nold men and young men.\n\nservants too.\nthe handmaids too.\n\nno one too young.\nno one too old.\nno one too low.\n\nhe didn't pour it\non a chosen few\nthis time.\n\nall flesh.\n\nwhich means\nyour kitchen,\nyour street,\nyour ordinary name.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7a6e4b",
+        "horizon": "#726b4f",
+        "ground": "#31332a",
+        "overall": "#59553f",
+        "accent": "#dab968"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "a fountain from the house",
+      "ref": "Joel 3:16–18",
+      "epigraph": "“a fountain will flow out from Yahweh’s house”",
+      "poem": "the heavens shake,\nand still\nhe is a refuge.\n\nthe earth trembles,\nand still\na stronghold.\n\nand after it all,\na fountain\nfrom his house,\n\nrunning down\ninto the dry valley,\n\nwatering\nthe places\nnothing grew.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0b598",
+        "horizon": "#948b73",
+        "ground": "#81846e",
+        "overall": "#98937b",
+        "accent": "#f4e9c7"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "for three, and for four",
+      "ref": "Amos 2:6",
+      "epigraph": "“because they have sold the righteous for silver, and the needy for a pair of sandals”",
+      "poem": "Damascus. Gaza.\nTyre. Edom.\n\nthe crowd agreed\nwith every word.\n\nAmmon. Moab.\nJudah.\n\nyes, preacher. them.\n\nthen the circle closed:\nIsrael.\n\na person, sold\nfor the price\nof a pair of sandals.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aba28f",
+        "horizon": "#9b907b",
+        "ground": "#958870",
+        "overall": "#9c917c",
+        "accent": "#e9ddc4"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "two walking",
+      "ref": "Amos 3:3",
+      "epigraph": "“Do two walk together, unless they have agreed?”",
+      "poem": "two walk together\nbecause they've agreed\nwhere they're going.\n\nyou can't walk\nwith God\n\nand head somewhere\nhe isn't.\n\nthe good news\nis that he's still\non the road,\n\nwaiting\nfor you\nto fall back\ninto step.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3cfa6",
+        "horizon": "#7d7764",
+        "ground": "#927d5a",
+        "overall": "#a19272",
+        "accent": "#f8d593"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "a stick from the fire",
+      "ref": "Amos 4:11",
+      "epigraph": "“you were like a burning stick plucked out of the fire; yet you haven’t returned to me”",
+      "poem": "hunger.\ndrought.\nblight.\n\nfive times\nthe same refrain:\nyou haven't returned to me.\n\nand in the middle of it,\nthis:\n\nyou were a stick\npulled out of the fire.\n\nstill smoking.\nstill here.\n\nrescued\nis not the end\nof the story.\n\nreturning is.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1baa8",
+        "horizon": "#86806e",
+        "ground": "#9c8f75",
+        "overall": "#9f9681",
+        "accent": "#d6cebc"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "seek him and live",
+      "ref": "Amos 5:8",
+      "epigraph": "“seek him who made the Pleiades and Orion, and turns the shadow of death into the morning”",
+      "poem": "a herdsman\nknows the night sky.\n\nhe knows which stars\ncome before the dawn.\n\nand he says:\ndon't seek the shrines.\n\nseek the one\nwho hung those stars,\n\nwho turns\nthe shadow of death\ninto morning.\n\nseek him,\nand live.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#273b51",
+        "horizon": "#60696c",
+        "ground": "#272620",
+        "overall": "#363e43",
+        "accent": "#e6d1ad"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "the noise of your songs",
+      "ref": "Amos 5:21–24",
+      "epigraph": "“Take away from me the noise of your songs! I will not listen to the music of your harps.”",
+      "poem": "the songs\nwere beautiful.\n\nthe harps\nin tune.\n\nand God said,\ntake it away.\n\nbecause down the hill\na poor man\nwas losing his coat.\n\nworship\nwas never meant\nto drown out\nthe cry at the gate.\n\nlet justice\nroll on like rivers.\n\nthen sing.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9d9278",
+        "horizon": "#887c62",
+        "ground": "#817257",
+        "overall": "#8c7e64",
+        "accent": "#ebdfca"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "beds of ivory",
+      "ref": "Amos 6:4–6",
+      "epigraph": "“but they are not grieved for the affliction of Joseph.”",
+      "poem": "soft cushions.\nthe best lamb.\nwine by the bowl.\nnew songs every night.\n\nnone of it\nwas the problem.\n\nthe problem\nwas one line:\n\nthey were not grieved.\n\na whole people\nbreaking\njust outside,\n\nand nobody\nat the feast\ncould feel it.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8f8573",
+        "horizon": "#7c715c",
+        "ground": "#665b46",
+        "overall": "#7a705b",
+        "accent": "#f7edde"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "he is small",
+      "ref": "Amos 7:2–3",
+      "epigraph": "“How could Jacob stand? For he is small.”",
+      "poem": "twice the prophet\nsaw what was coming.\n\ntwice\nhe stopped it\nwith a prayer.\n\nnot\nthey deserve better.\n\njust:\nforgive.\nhe is small.\n\nand twice\nGod relented.\n\nnever underestimate\nthe one who stands\nin the gap\nand pleads.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3aa98",
+        "horizon": "#b1a897",
+        "ground": "#6e6555",
+        "overall": "#948b7b",
+        "accent": "#f8e7c6"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "the plumb line",
+      "ref": "Amos 7:7–8",
+      "epigraph": "“Behold, I will set a plumb line in the middle of my people Israel.”",
+      "poem": "a string.\na weight.\nnothing fancy.\n\nhold it up\nbeside a wall\n\nand the truth\nis simply there.\n\nno argument.\nno shouting.\n\njust straight\nnext to crooked.\n\nGod doesn't need\nto exaggerate.\n\nhe only needs\nto hold it still.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-033.jpg",
+      "heroSrc": "assets/a-door-of-hope/web/b-025-033.jpg",
+      "isScene": true,
+      "sceneType": "amos_plumb_line",
+      "palette": {
+        "top": "#d4c8a6",
+        "horizon": "#bbaf8f",
+        "ground": "#aba081",
+        "overall": "#bcb190",
+        "accent": "#e4d8b5"
+      }
+    },
+    {
+      "n": 34,
+      "part": 4,
+      "title": "a farmer of sycamore figs",
+      "ref": "Amos 7:14–15",
+      "epigraph": "“I was a herdsman, and a farmer of sycamore figs”",
+      "poem": "they told him\nto go home.\n\nthis is the king's\nsanctuary.\n\nand he said,\nI'm not a prophet.\n\nI tended flocks.\nI worked fig trees.\n\nYahweh took me\nfrom behind the sheep.\n\nno pedigree.\nno title.\n\njust a man\nwho was told\ngo,\n\nand went.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0bd9d",
+        "horizon": "#ab9e85",
+        "ground": "#a7977d",
+        "overall": "#b3a488",
+        "accent": "#e7d8bb"
+      }
+    },
+    {
+      "n": 35,
+      "part": 4,
+      "title": "the fallen tent",
+      "ref": "Amos 9:11",
+      "epigraph": "“In that day I will raise up the tent of David who is fallen”",
+      "poem": "after all the warnings,\nthe book turns\non one small word:\n\nin that day.\n\nthe house has fallen.\nthe tent is torn.\n\nand God says,\nI will raise it.\nI will close the gaps.\nI will build it\nas in the days of old.\n\nhe doesn't\nthrow away\nwhat broke.\n\nhe mends it.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0b193",
+        "horizon": "#a09480",
+        "ground": "#585145",
+        "overall": "#8c826e",
+        "accent": "#f9ecc5"
+      }
+    },
+    {
+      "n": 36,
+      "part": 4,
+      "title": "the plowman and the reaper",
+      "ref": "Amos 9:13–15",
+      "epigraph": "“the plowman shall overtake the reaper”",
+      "poem": "the harvest\nso heavy\nit isn't finished\n\nbefore the plowing\nstarts again.\n\nthe hills\nrunning with sweet wine.\n\ncities rebuilt.\ngardens planted.\n\nand the last line\nis a promise:\n\nI will plant them,\nand they will no more\nbe plucked up.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d2b1",
+        "horizon": "#93896f",
+        "ground": "#565240",
+        "overall": "#94896f",
+        "accent": "#ecd094"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "the clefts of the rock",
+      "ref": "Obadiah 1:3–4",
+      "epigraph": "“The pride of your heart has deceived you”",
+      "poem": "high in the rock,\nEdom felt safe.\n\nwho could reach us\nup here?\n\npride is like that.\n\nit builds\non the highest ledge\nand calls the view\nwisdom.\n\nbut the one\nwho made the stars\n\ncan reach\nany nest\nset among them.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ceb499",
+        "horizon": "#d4b99c",
+        "ground": "#887763",
+        "overall": "#b39c85",
+        "accent": "#f4c7a7"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "on the other side",
+      "ref": "Obadiah 1:11",
+      "epigraph": "“In the day that you stood on the other side”",
+      "poem": "strangers came\nthrough Jacob's gates.\n\nand Edom,\nhis own brother,\nstood on the other side\n\nand watched,\nand then\njoined in.\n\nit rarely starts\nwith the blow.\n\nit starts\nwith where\nwe choose\nto stand.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c7aa",
+        "horizon": "#9b937f",
+        "ground": "#5e594b",
+        "overall": "#908976",
+        "accent": "#e7dbb9"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "as you have done",
+      "ref": "Obadiah 1:12–15",
+      "epigraph": "“As you have done, it will be done to you.”",
+      "poem": "don't gloat.\ndon't laugh\nat the gate.\ndon't take\nwhat they dropped.\n\ndon't stand at the crossroads\nto cut off\nthe ones who ran.\n\nthe prophet\nlists it all\n\nso we'll know:\n\nwhat we do\nto the one who is falling\n\ncomes home to us.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7b088",
+        "horizon": "#78684b",
+        "ground": "#5f523f",
+        "overall": "#867557",
+        "accent": "#fbd47a"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "the kingdom",
+      "ref": "Obadiah 1:17–21",
+      "epigraph": "“the kingdom will be Yahweh’s.”",
+      "poem": "Edom's cliffs.\nIsrael's ruins.\nnations rising.\nnations falling.\n\nand the shortest book\nin the Old Testament\n\nends\nin five words.\n\nthe kingdom\nwill be Yahweh's.\n\nnot Edom's.\nnot ours.\n\nhis.",
+      "webSrc": "assets/a-door-of-hope/web/b-025-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ebd9a8",
+        "horizon": "#726b56",
+        "ground": "#584c33",
+        "overall": "#897d5f",
+        "accent": "#fadf92"
+      }
+    }
+  ]
+}

@@ -1,0 +1,824 @@
+{
+  "district": 28,
+  "slug": "good-news-of-great-joy",
+  "title": "Good News of Great Joy",
+  "subtitle": "Luke in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/good-news-of-great-joy/web/b-028-000.jpg",
+  "beforeYouBegin": "Luke begins with a young woman saying yes and a baby laid in a feeding trough, and ends with two tired travelers at a table, their hearts burning. In between: shepherds in a field, a net about to break, a lost sheep, a lost coin, a father running down the road, a thief who asks to be remembered, and an empty tomb at sunrise.\n\nThis book walks through it in forty short poems, in five parts, beginning with ten poems for Christmas. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the story touches—a manger full of straw, a broken loaf, a lamp and a broom—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the Gospel of Luke alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Good News of Great Joy",
+      "epigraph": "I bring you good news of great joy which will be to all the people.",
+      "epigraphRef": "Luke 2:10",
+      "lightName": "Light of Good News of Great Joy",
+      "lightHint": "Near 'favored' (Luke 1:28) in Part 1: Good News of Great Joy"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 11,
+      "title": "Good News to the Poor",
+      "epigraph": "he has anointed me to preach good news to the poor.",
+      "epigraphRef": "Luke 4:18",
+      "lightName": "Light of Good News to the Poor",
+      "lightHint": "Near 'the scroll' (Luke 4:18) in Part 2: Good News to the Poor"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 18,
+      "title": "On the Road",
+      "epigraph": "No one, having put his hand to the plow, and looking back, is fit for God ’s Kingdom.",
+      "epigraphRef": "Luke 9:62",
+      "lightName": "Light of On the Road",
+      "lightHint": "Near 'twelve baskets' (Luke 9:16–17) in Part 3: On the Road"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 25,
+      "title": "Lost and Found",
+      "epigraph": "For the Son of Man came to seek and to save that which was lost.",
+      "epigraphRef": "Luke 19:10",
+      "lightName": "Light of Lost and Found",
+      "lightHint": "Near 'the one' (Luke 15:4–5) in Part 4: Lost and Found"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 32,
+      "title": "Our Hearts Burning",
+      "epigraph": "Weren’t our hearts burning within us, while he spoke to us along the way",
+      "epigraphRef": "Luke 24:32",
+      "lightName": "Light of Our Hearts Burning",
+      "lightHint": "Near 'two small coins' (Luke 21:3–4) in Part 5: Our Hearts Burning"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "favored",
+      "ref": "Luke 1:28",
+      "epigraph": "“Rejoice, you highly favored one! The Lord is with you.”",
+      "poem": "she wasn't in the temple.\nshe wasn't praying on a mountain.\n\nshe was a young woman\nin a small town\nno one expected\nanything from.\n\nand heaven's first word to her\nwas rejoice.\n\nfavored\ndoesn't mean\nimportant.\n\nit means\nchosen,\nand loved,\nand not alone.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a09072",
+        "horizon": "#a29372",
+        "ground": "#807254",
+        "overall": "#958666",
+        "accent": "#eed7ab"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "let it be",
+      "ref": "Luke 1:37–38",
+      "epigraph": "“Behold, the servant of the Lord; let it be done to me according to your word.”",
+      "poem": "she asked one question:\nhow?\n\nand got an answer\nthat explained nothing\nand promised everything:\n\nnothing God says\nis impossible.\n\nso she said yes.\nnot because it made sense.\nbecause she knew\nwho was asking.\n\nlet it be.\n\nthree words\nthat opened the door\nto Christmas.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#988c78",
+        "horizon": "#887962",
+        "ground": "#3e3427",
+        "overall": "#6f6351",
+        "accent": "#f3e6cf"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "my soul magnifies",
+      "ref": "Luke 1:46–47",
+      "epigraph": "“My soul magnifies the Lord.”",
+      "poem": "she ran to her cousin's house\nin the hills\n\nand when Elizabeth\nblessed her,\na song came out\nthat she'd been carrying\nall the way.\n\nthe proud scattered.\nthe hungry filled.\nthe lowly lifted.\n\nshe was singing\nabout a kingdom\nthat hadn't been born yet.\n\nand she was\ncarrying it.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc4aa",
+        "horizon": "#aaa086",
+        "ground": "#827a5c",
+        "overall": "#a49a7e",
+        "accent": "#eadfc9"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "the dawn from on high",
+      "ref": "Luke 1:78–79",
+      "epigraph": "“because of the tender mercy of our God, by which the dawn from on high will visit us”",
+      "poem": "an old priest\nwho hadn't spoken\nfor months\n\nopened his mouth\nand out came\na sunrise.\n\nthe dawn from on high\nwill visit us.\n\nnot because we earned it.\nnot because we asked.\n\nbecause of the tender mercy\nof our God.\n\nsit in the dark long enough,\nand you learn\nwhat morning means.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9c3a4",
+        "horizon": "#ac9b89",
+        "ground": "#4b473e",
+        "overall": "#948573",
+        "accent": "#fdd6a9"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "no room",
+      "ref": "Luke 2:7",
+      "epigraph": "“She wrapped him in bands of cloth, and laid him in a feeding trough, because there was no room for them in the inn.”",
+      "poem": "no room.\n\nnot in the inn.\nnot in the plans\nof anyone important.\n\nso God arrived\nwhere the animals ate,\n\nwrapped in strips of cloth,\nlaid on straw.\n\nhe has never\nneeded a palace.\n\nhe still comes\nto whatever room\nwe make.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-005.jpg",
+      "heroSrc": "assets/good-news-of-great-joy/web/b-028-005.jpg",
+      "isScene": true,
+      "sceneType": "bethlehem_manger",
+      "palette": {
+        "top": "#d9caa1",
+        "horizon": "#c1b086",
+        "ground": "#a79670",
+        "overall": "#bdac85",
+        "accent": "#f5ce79"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "keeping watch",
+      "ref": "Luke 2:8",
+      "epigraph": "“There were shepherds in the same country staying in the field, and keeping watch by night over their flock.”",
+      "poem": "the night shift.\n\nthe ones who smelled like sheep,\nwho spent their nights\nout in the fields,\n\nwho were awake\nbecause somebody\nhad to be.\n\nthat's who God\ntold first.\n\nif you're keeping watch\nin the dark tonight,\n\nheaven knows\nexactly where you are.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#33414e",
+        "horizon": "#717471",
+        "ground": "#484132",
+        "overall": "#4b4e4c",
+        "accent": "#dcb792"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "great joy",
+      "ref": "Luke 2:10–11",
+      "epigraph": "“Don’t be afraid, for behold, I bring you good news of great joy which will be to all the people.”",
+      "poem": "the first word\nof the good news\nwas don't be afraid.\n\nthen:\ngreat joy.\nfor all the people.\n\nnot some.\nnot the deserving.\nall.\n\nthere is born to you\ntoday\na Savior.\n\nto you.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#756d54",
+        "horizon": "#998a66",
+        "ground": "#312d22",
+        "overall": "#655d47",
+        "accent": "#f8da8f"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "the sign",
+      "ref": "Luke 2:12",
+      "epigraph": "“This is the sign to you: you will find a baby wrapped in strips of cloth, lying in a feeding trough.”",
+      "poem": "not a crown.\nnot a thunderclap.\nnot a throne room.\n\nthe sign was\na baby\nin a feeding trough.\n\nthat's how you'd know\nit was God:\n\nhe'd be\nwhere no one\nwould think to look.\n\nhe'd be\nsmall enough\nto hold.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b09872",
+        "horizon": "#b19870",
+        "ground": "#8e7d63",
+        "overall": "#a18b69",
+        "accent": "#f9e7b9"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "pondering",
+      "ref": "Luke 2:19",
+      "epigraph": "“But Mary kept all these sayings, pondering them in her heart.”",
+      "poem": "shepherds at the door.\nangels in the sky.\nstrangers repeating\nwhat they'd been told.\n\nand Mary\ndidn't explain it,\nor post about it,\nor tell it all at once.\n\nshe kept it.\nshe turned it over\nin her heart\nlike something precious.\n\nsome things\nyou don't understand yet.\n\nyou just hold them.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#decdae",
+        "horizon": "#928670",
+        "ground": "#756954",
+        "overall": "#9d8f77",
+        "accent": "#f3e2c3"
+      }
+    },
+    {
+      "n": 10,
+      "part": 1,
+      "title": "now in peace",
+      "ref": "Luke 2:29–30",
+      "epigraph": "“Now you are releasing your servant, Master, according to your word, in peace; for my eyes have seen your salvation”",
+      "poem": "Simeon waited\nhis whole life.\n\nand when he finally held him,\nhe didn't ask for anything else.\n\nnot more years.\nnot a front-row seat.\n\nmy eyes have seen.\nI can go now,\nin peace.\n\nsome promises\nare worth a lifetime\nof waiting.\n\nthis was\nthe one.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dec792",
+        "horizon": "#ae9a73",
+        "ground": "#9c8968",
+        "overall": "#b5a077",
+        "accent": "#fbe295"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "the scroll",
+      "ref": "Luke 4:18",
+      "epigraph": "“He has sent me to heal the broken hearted, to proclaim release to the captives”",
+      "poem": "his hometown.\nhis synagogue.\nthe scroll of Isaiah.\n\nhe found the place\nand read it out:\n\ngood news to the poor.\nhealing for the broken hearted.\nrelease for the captives.\n\nthen he rolled it up,\nsat down,\n\nand said\ntoday.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8e816b",
+        "horizon": "#857455",
+        "ground": "#58503f",
+        "overall": "#746851",
+        "accent": "#ebcc8a"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "at your word",
+      "ref": "Luke 5:5–6",
+      "epigraph": "“Master, we worked all night, and took nothing; but at your word I will let down the net.”",
+      "poem": "he was the fisherman.\nhe knew the lake.\n\nall night.\nnothing.\n\nand a carpenter\ntells him\nto try again.\n\nat your word.\n\nthat's the whole\nsecret of faith:\n\ntired, doubtful,\ndoing it anyway\nbecause he said so.\n\nthe net\nstarted breaking.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#f5e8bc",
+        "horizon": "#bbb39a",
+        "ground": "#646960",
+        "overall": "#a7a38b",
+        "accent": "#fdf0bd"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "through the roof",
+      "ref": "Luke 5:19–20",
+      "epigraph": "“Seeing their faith, he said to him, “Man, your sins are forgiven you.””",
+      "poem": "the door was blocked.\nthe house was full.\n\nso four friends\nclimbed up,\ntore open the roof,\nand lowered him down.\n\nseeing their faith—\nnot his.\n\nsometimes you can't\nget there yourself.\n\nthat's what friends\nand ropes\nare for.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cacec6",
+        "horizon": "#a29a81",
+        "ground": "#7d745d",
+        "overall": "#9f9986",
+        "accent": "#ede8d7"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "don't cry",
+      "ref": "Luke 7:13–14",
+      "epigraph": "“When the Lord saw her, he had compassion on her, and said to her, “Don’t cry.””",
+      "poem": "a widow.\nher only son.\nthe funeral already\non its way out the gate.\n\nno one asked him\nto do anything.\n\nhe saw her,\nand his heart broke,\n\nand he said\nthe thing we say\nwhen we can't fix it:\n\ndon't cry.\n\nexcept\nhe could.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d2af",
+        "horizon": "#bcaa8e",
+        "ground": "#8d7d63",
+        "overall": "#b2a184",
+        "accent": "#f6d8a5"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "she loved much",
+      "ref": "Luke 7:38–47",
+      "epigraph": "“her sins, which are many, are forgiven, for she loved much.”",
+      "poem": "the dinner guests\nall knew her reputation.\n\nshe didn't say anything.\nshe couldn't.\n\nshe just cried\non his feet,\nand wiped them with her hair,\nand poured out\nthe perfume\nshe had brought.\n\nthe respectable host\nsaw a sinner.\n\nJesus saw\nsomeone\nwho knew how much\nshe'd been forgiven.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8f826c",
+        "horizon": "#76664c",
+        "ground": "#80725a",
+        "overall": "#84755d",
+        "accent": "#dfd7c7"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "where is your faith",
+      "ref": "Luke 8:24–25",
+      "epigraph": "“He awoke, and rebuked the wind and the raging of the water, and they ceased, and it was calm.”",
+      "poem": "he was asleep.\nthey were bailing water.\n\nmaster, we're dying!\n\nand he got up,\nspoke to the wind\nlike a parent to a child,\n\nand it was calm.\n\nthen he asked them\na gentle question:\n\nwhere is your faith?\n\nnot gone.\njust\nasleep in the boat.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#948c77",
+        "horizon": "#a69b85",
+        "ground": "#7f7865",
+        "overall": "#928a74",
+        "accent": "#f4e9c0"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "the fringe of his cloak",
+      "ref": "Luke 8:44–48",
+      "epigraph": "“Daughter, cheer up. Y our faith has made you well. Go in peace.”",
+      "poem": "twelve years\nof bleeding,\nof doctors,\nof being called unclean.\n\nshe didn't want\nto be seen.\n\nshe just reached\nthrough the crowd\n\nfor the edge of his cloak.\n\nand he stopped everything\nto find her,\n\nnot to scold her—\n\nto call her\ndaughter.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aca18d",
+        "horizon": "#7b735f",
+        "ground": "#756d59",
+        "overall": "#867d68",
+        "accent": "#e0ceaa"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "twelve baskets",
+      "ref": "Luke 9:16–17",
+      "epigraph": "“They ate and were all filled. They gathered up twelve baskets of broken pieces that were left over.”",
+      "poem": "five loaves.\ntwo fish.\nfive thousand men,\nplus everyone else.\n\nhe looked up,\ngave thanks,\nand broke it.\n\nand the leftovers\nfilled more baskets\nthan they started with.\n\ngive him\nwhat little you have.\n\nhe always\ngives back\nmore.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d5b7",
+        "horizon": "#bbb098",
+        "ground": "#998e72",
+        "overall": "#b9ad92",
+        "accent": "#f1e6cc"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "the Samaritan",
+      "ref": "Luke 10:33–34",
+      "epigraph": "“When he saw him, he was moved with compassion”",
+      "poem": "the priest\ncrossed the road.\n\nthe Levite\ncrossed the road.\n\nand the one\nwho was supposed to be the enemy\n\nstopped.\n\nbandages.\noil.\nwine.\nhis own donkey.\nhis own money.\n\nwho is my neighbor?\n\nwhoever\nyou stop for.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-019.jpg",
+      "heroSrc": "assets/good-news-of-great-joy/web/b-028-019.jpg",
+      "isScene": true,
+      "sceneType": "good_samaritan_inn",
+      "palette": {
+        "top": "#e9d9b9",
+        "horizon": "#a39478",
+        "ground": "#ae9d80",
+        "overall": "#b9a98c",
+        "accent": "#eedfbe"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "one thing",
+      "ref": "Luke 10:41–42",
+      "epigraph": "“Martha, Martha, you are anxious and troubled about many things, but one thing is needed.”",
+      "poem": "Martha, Martha.\n\nhe said her name twice\nthe way you do\nwhen you love someone\nwho is doing too much.\n\nhe wasn't angry\nabout the dinner.\n\nhe just wanted her\nto sit down.\n\nthe work\nwill still be there.\n\nthis moment\nwon't.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#695944",
+        "horizon": "#745f46",
+        "ground": "#6d5e4b",
+        "overall": "#6d5c46",
+        "accent": "#e8d5b1"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "keep knocking",
+      "ref": "Luke 11:9",
+      "epigraph": "“Keep seeking, and you will find. Keep knocking, and it will be opened to you.”",
+      "poem": "not ask once\nand give up.\n\nkeep asking.\nkeep seeking.\nkeep knocking.\n\nhe isn't\na tired neighbor\nwho wants you to go away.\n\nhe's a father\nwho wants you\nto come back.\n\nthe door opens\nfrom the inside.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#403e35",
+        "horizon": "#5d584d",
+        "ground": "#4d483c",
+        "overall": "#4d4a3f",
+        "accent": "#e3c9a6"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "sparrows",
+      "ref": "Luke 12:6–7",
+      "epigraph": "“Not one of them is forgotten by God.”",
+      "poem": "five sparrows\nfor two small coins.\n\nthe cheapest thing\nin the market.\n\nand not one of them\nis forgotten.\n\nyou are counted\ndown to the hairs\non your head.\n\nyou are worth\nmore than many sparrows.\n\ndon't be afraid.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cec3a2",
+        "horizon": "#afa38a",
+        "ground": "#ac9d7d",
+        "overall": "#b5a88a",
+        "accent": "#ebdfb9"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "the lilies",
+      "ref": "Luke 12:27",
+      "epigraph": "“Consider the lilies, how they grow.”",
+      "poem": "they don't\nwork late.\nthey don't\ncheck the forecast.\nthey don't\nlie awake at night.\n\nthey just\ngrow.\n\nand Solomon\nin all his glory\nnever looked this good.\n\nconsider them.\n\nthen consider\nwho dresses them.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ebe1c4",
+        "horizon": "#a9a695",
+        "ground": "#7a7a69",
+        "overall": "#a9a490",
+        "accent": "#f1e6c8"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "bent over",
+      "ref": "Luke 13:11–13",
+      "epigraph": "“He laid his hands on her, and immediately she stood up straight and glorified God.”",
+      "poem": "eighteen years\nof looking at the ground.\n\neighteen years\nof seeing feet,\nnot faces.\n\nhe called her over.\nhe laid his hands on her.\n\nand she stood up straight.\n\nthe first thing she saw\nwas his face.\n\nthe first thing she did\nwas praise.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8c846d",
+        "horizon": "#ab9d7f",
+        "ground": "#807763",
+        "overall": "#91876f",
+        "accent": "#efce91"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "the one",
+      "ref": "Luke 15:4–5",
+      "epigraph": "“When he has found it, he carries it on his shoulders, rejoicing.”",
+      "poem": "ninety-nine\nsafe in the fold.\n\none\nlost in the rocks.\n\nand the shepherd\ndoes the math\ndifferently than we do.\n\nhe goes.\n\nand when he finds it,\nthere's no lecture.\n\njust shoulders,\nand the long walk home,\nand joy.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cabda0",
+        "horizon": "#71695b",
+        "ground": "#37342c",
+        "overall": "#726a5a",
+        "accent": "#efe0b6"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "the lost coin",
+      "ref": "Luke 15:8–9",
+      "epigraph": "“Rejoice with me, for I have found the drachma which I had lost.”",
+      "poem": "one coin.\n\nshe lit a lamp.\nshe swept the house.\nshe looked in every corner\n\nuntil she found it.\n\nthen she called in\nthe neighbors.\n\nthat's how heaven\nfeels about you.\n\nnot a coin\nit can live without.\n\none\nworth throwing a party for.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cabd9d",
+        "horizon": "#8f8366",
+        "ground": "#aa9e7e",
+        "overall": "#a89b7c",
+        "accent": "#daceac"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "while still far off",
+      "ref": "Luke 15:20",
+      "epigraph": "“But while he was still far off, his father saw him, and was moved with compassion, and ran, and fell on his neck, and kissed him.”",
+      "poem": "he had a speech ready.\n\nI'm not worthy.\nmake me a servant.\n\nhe never\ngot to finish it.\n\nhis father\nhad been watching the road.\n\nand while he was\nstill far off,\n\nthe old man\nran.\n\nyou don't have to\nmake it all the way back.\n\njust\nturn around.66",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-027.jpg",
+      "heroSrc": "assets/good-news-of-great-joy/web/b-028-027.jpg",
+      "isScene": true,
+      "sceneType": "prodigal_road_home",
+      "palette": {
+        "top": "#d9c798",
+        "horizon": "#b7a681",
+        "ground": "#76694e",
+        "overall": "#a89873",
+        "accent": "#f4e0a1"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "the best robe",
+      "ref": "Luke 15:22–24",
+      "epigraph": "“Bring out the best robe, and put it on him. Put a ring on his hand, and sandals on his feet.”",
+      "poem": "not a servant's clothes.\nthe best robe.\n\nnot a probation.\na ring.\n\nnot bare feet like a slave.\nsandals.\n\nhe came home\nhoping for a job.\n\nhe got\nhis name back.\n\nthis son of mine\nwas dead,\nand is alive again.\n\nnow\nlet's celebrate.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b09566",
+        "horizon": "#7a5a3c",
+        "ground": "#664d33",
+        "overall": "#806343",
+        "accent": "#f9de9c"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "turned back",
+      "ref": "Luke 17:15–16",
+      "epigraph": "“One of them, when he saw that he was healed, turned back, glorifying God with a loud voice.”",
+      "poem": "ten were healed.\n\nnine\nwent where they were told.\n\none\nturned around.\n\nhe couldn't\ngo on with his life\nwithout saying thank you.\n\nand he was\nthe outsider.\n\ngratitude\nis the road back\nto the one\nwho healed you.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbc4a7",
+        "horizon": "#b1aa8f",
+        "ground": "#9a8e6b",
+        "overall": "#b0a787",
+        "accent": "#e4d9bc"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "be merciful",
+      "ref": "Luke 18:13",
+      "epigraph": "“God, be merciful to me, a sinner!”",
+      "poem": "the Pharisee\nhad a list\nof what he'd done right.\n\nthe tax collector\nstood in the back\nand couldn't lift his eyes.\n\nseven words.\nno list.\n\nGod, be merciful\nto me, a sinner.\n\nand he went home\njustified.\n\nthe shortest prayers\nare sometimes\nthe truest.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aaa085",
+        "horizon": "#ab9f82",
+        "ground": "#797361",
+        "overall": "#968d75",
+        "accent": "#ecd8a6"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "come down",
+      "ref": "Luke 19:5–10",
+      "epigraph": "“Zacchaeus, hurry and come down, for today I must stay at your house.”",
+      "poem": "too short\nto see over the crowd.\ntoo hated\nto ask them to move.\n\nso he climbed a tree.\n\nand Jesus stopped\nright underneath it,\nlooked up,\nand called him by name.\n\nnot come down so I can scold you.\n\ncome down.\nI'm staying at your house.\n\ngrace\ninvited itself over.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#91896d",
+        "horizon": "#a1987c",
+        "ground": "#817661",
+        "overall": "#948a71",
+        "accent": "#ebe0c5"
+      }
+    },
+    {
+      "n": 32,
+      "part": 5,
+      "title": "two small coins",
+      "ref": "Luke 21:3–4",
+      "epigraph": "“this poor widow put in more than all of them”",
+      "poem": "the rich\ndropped in\nwhat they wouldn't miss.\n\nshe dropped in\ntwo tiny coins.\n\neverything\nshe had to live on.\n\nJesus was watching,\nand he did the math\nthe way heaven does:\n\nshe gave\nmore than all of them.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c3b796",
+        "horizon": "#71654b",
+        "ground": "#a09376",
+        "overall": "#9a8d70",
+        "accent": "#f7e7c0"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "this is my body",
+      "ref": "Luke 22:19",
+      "epigraph": "“This is my body which is given for you. Do this in memory of me.”",
+      "poem": "the night before,\nhe took bread.\n\nnot a speech.\nnot a monument.\n\nbread.\n\nbroken,\ngiven,\npassed hand to hand.\n\nthis is my body,\ngiven for you.\n\nevery time\nyou tear a loaf,\n\nremember.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8f7f65",
+        "horizon": "#6f6049",
+        "ground": "#4f4334",
+        "overall": "#6d5e49",
+        "accent": "#e1d5bf"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "not my will",
+      "ref": "Luke 22:42–44",
+      "epigraph": "“Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done.”",
+      "poem": "he didn't pretend\nit was easy.\n\nhe asked\nif there was another way.\n\nhe sweat\nlike drops of blood.\n\nand still:\nnevertheless.\n\nthe most honest prayer\nisn't the one\nwith no fear in it.\n\nit's the one\nthat keeps going\npast the fear.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#605f54",
+        "horizon": "#827c6e",
+        "ground": "#4d483d",
+        "overall": "#615d52",
+        "accent": "#d1bea0"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "the look",
+      "ref": "Luke 22:61–62",
+      "epigraph": "“The Lord turned and looked at Peter.”",
+      "poem": "the third denial\nwas still in the air\n\nwhen the rooster crowed\n\nand Jesus turned\nand looked at him.\n\nLuke doesn't say\nwhat was in that look.\n\nbut Peter\nwent out and wept,\n\nand later\nhe came back.\n\nso I think\nit was love.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a19884",
+        "horizon": "#847b68",
+        "ground": "#2c2c28",
+        "overall": "#6a6557",
+        "accent": "#ecd4af"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "forgive them",
+      "ref": "Luke 23:34",
+      "epigraph": "“Father, forgive them, for they don’t know what they are doing.”",
+      "poem": "while they gambled\nfor his clothes,\n\nwhile the nails\nwere still new,\n\nhe prayed\nfor them.\n\nnot after they said sorry.\nnot once they understood.\n\nthey didn't know\nwhat they were doing.\n\nhe did.\n\nand he forgave them\nanyway.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bcad8d",
+        "horizon": "#998b70",
+        "ground": "#ad9b7a",
+        "overall": "#ac9c7d",
+        "accent": "#d8c7a2"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "remember me",
+      "ref": "Luke 23:42–43",
+      "epigraph": "“Lord, remember me when you come into your Kingdom.”",
+      "poem": "a thief.\n\nno time left\nto fix anything.\n\nno good deeds\nto point to.\n\njust one sentence:\nremember me.\n\nand the answer\nwasn't someday.\nit wasn't maybe.\n\ntoday.\nwith me.\nin Paradise.\n\nit is never\ntoo late\nto ask.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#696655",
+        "horizon": "#928d73",
+        "ground": "#574e3a",
+        "overall": "#6e6854",
+        "accent": "#f3edc9"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "into your hands",
+      "ref": "Luke 23:46",
+      "epigraph": "“Father, into your hands I commit my spirit!”",
+      "poem": "the last words\nweren't a cry of defeat.\n\nthey were\na line from the psalms,\n\nan old prayer\nof trust.\n\ninto your hands.\n\nhe gave his spirit\nthe way you hand\nsomething precious\nto someone you trust.\n\nand in the temple,\nthe curtain\nhad torn open.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#484035",
+        "horizon": "#504638",
+        "ground": "#4e4335",
+        "overall": "#4c4335",
+        "accent": "#f4dfb1"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "not here",
+      "ref": "Luke 24:5–6",
+      "epigraph": "“Why do you seek the living among the dead? He isn’t here, but is risen.”",
+      "poem": "they came with spices\nfor a body.\n\nthey got a question\ninstead:\n\nwhy are you looking\nfor the living\namong the dead?\n\nhe isn't here.\n\nremember\nwhat he told you.\n\nsome mornings\nthe empty place\nis the best news\nthere is.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdbf9a",
+        "horizon": "#9f927b",
+        "ground": "#5c584c",
+        "overall": "#918771",
+        "accent": "#fbec9c"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "burning hearts",
+      "ref": "Luke 24:30–32",
+      "epigraph": "“When he had sat down at the table with them, he took the bread and gave thanks. Breaking it, he gave it to them.”",
+      "poem": "seven miles\nwalking beside him\nand they didn't know him.\n\nhe explained everything.\nMoses. the prophets.\nall of it.\n\nand they still didn't see.\n\nthen he sat at their table\nand broke the bread,\n\nand their eyes\nwere opened.\n\nweren't our hearts burning?\n\nhe walks the road\nbeside you too.\n\nsometimes you only know it\nat the table.",
+      "webSrc": "assets/good-news-of-great-joy/web/b-028-040.jpg",
+      "heroSrc": "assets/good-news-of-great-joy/web/b-028-040.jpg",
+      "isScene": true,
+      "sceneType": "emmaus_table_bread",
+      "palette": {
+        "top": "#9a896a",
+        "horizon": "#837051",
+        "ground": "#625946",
+        "overall": "#7a6c53",
+        "accent": "#efc277"
+      }
+    }
+  ]
+}

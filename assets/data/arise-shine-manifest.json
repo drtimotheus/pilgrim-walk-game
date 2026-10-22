@@ -1,0 +1,824 @@
+{
+  "district": 20,
+  "slug": "arise-shine",
+  "title": "Arise, Shine",
+  "subtitle": "Isaiah in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/arise-shine/web/b-020-000.jpg",
+  "beforeYouBegin": "Isaiah is the prophet of the holy King and the suffering Servant. His book moves from a temple filled with smoke to a desert bursting into bloom, from exile in Babylon to the word comfort, from a man of sorrows to new heavens and a new earth.\n\nThis book walks through it in forty short poems, in five parts. Each poem sits beside a picture and under a single line of Scripture. Many of these lines are the ones the church has read at Christmas and Easter for two thousand years.\n\nThe poems are not the Bible. They are one reader's response to it. Open Isaiah alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Holy, Holy, Holy",
+      "epigraph": "Holy, holy, holy, is Yahweh of Armies! The whole earth is full of his glory!",
+      "epigraphRef": "Isaiah 6:3",
+      "lightName": "Light of Holy, Holy, Holy",
+      "lightHint": "Near 'white as snow' (Isaiah 1:18) in Part 1: Holy, Holy, Holy"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 10,
+      "title": "Blossom in the Desert",
+      "epigraph": "The desert will rejoice and blossom like a rose.",
+      "epigraphRef": "Isaiah 35:1",
+      "lightName": "Light of Blossom in the Desert",
+      "lightHint": "Near 'the feast on the mountain' (Isaiah 25:6–8) in Part 2: Blossom in the Desert"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 16,
+      "title": "Comfort",
+      "epigraph": "Don’t you be afraid, for I am with you.",
+      "epigraphRef": "Isaiah 41:10",
+      "lightName": "Light of Comfort",
+      "lightHint": "Near 'comfort' (Isaiah 40:1–2) in Part 3: Comfort"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 26,
+      "title": "The Servant",
+      "epigraph": "by his wounds we are healed.",
+      "epigraphRef": "Isaiah 53:5",
+      "lightName": "Light of The Servant",
+      "lightHint": "Near 'can a mother forget?' (Isaiah 49:14–15) in Part 4: The Servant"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 34,
+      "title": "Arise, Shine",
+      "epigraph": "behold, I create new heavens and a new earth",
+      "epigraphRef": "Isaiah 65:17",
+      "lightName": "Light of Arise, Shine",
+      "lightHint": "Near 'a watered garden' (Isaiah 58:10–11) in Part 5: Arise, Shine"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "white as snow",
+      "ref": "Isaiah 1:18",
+      "epigraph": "“Though your sins are as scarlet, they shall be as white as snow.”",
+      "poem": "come,\nlet's talk this through,\nGod says.\n\nnot a verdict shouted from far off.\nan invitation\nto sit down together.\n\nyour sins like scarlet,\nthe dye that never washes out—\n\nwhite as snow.\nwhite as new wool.\n\nhe does\nwhat no washing can.",
+      "webSrc": "assets/arise-shine/web/b-020-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#91846c",
+        "horizon": "#807157",
+        "ground": "#7e5749",
+        "overall": "#856d57",
+        "accent": "#deceaa"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "plowshares",
+      "ref": "Isaiah 2:2–4",
+      "epigraph": "“They shall beat their swords into plowshares, and their spears into pruning hooks.”",
+      "poem": "one day\nthe blacksmiths will be busy\nthe other way around—\n\nswords\ninto plows,\nspears\ninto pruning hooks.\n\nand nobody\nwill learn war\nanymore.\n\nit hasn't happened yet.\nit's still\non the anvil.",
+      "webSrc": "assets/arise-shine/web/b-020-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a4987b",
+        "horizon": "#958368",
+        "ground": "#82755c",
+        "overall": "#8d8066",
+        "accent": "#db964e"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "undone",
+      "ref": "Isaiah 6:1–7",
+      "epigraph": "“W oe is me! For I am undone, because I am a man of unclean lips”",
+      "poem": "he saw the Lord—\nhigh and lifted up,\nthe hem of his robe\nfilling the temple,\nthe doorposts shaking,\nthe house full of smoke,\n\nholy, holy, holy—\n\nand the prophet\nfell apart.\n\nwoe is me.\nI'm undone.\n\nthen a live coal\nfrom the altar,\ntouched to his lips:\nyour guilt is taken away.\n\nbeing undone\ncame before\nbeing sent.",
+      "webSrc": "assets/arise-shine/web/b-020-003.jpg",
+      "heroSrc": "assets/arise-shine/web/b-020-003.jpg",
+      "isScene": true,
+      "sceneType": "seraph_live_coal",
+      "palette": {
+        "top": "#a7997e",
+        "horizon": "#a39983",
+        "ground": "#7c735e",
+        "overall": "#948a73",
+        "accent": "#f5e9d3"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "here I am",
+      "ref": "Isaiah 6:8",
+      "epigraph": "“Here I am. Send me!”",
+      "poem": "whom shall I send?\n\nnot an order.\na question,\nleft hanging in the room.\n\nand the man\nwho a moment ago was undone\nsays:\nhere I am.\nsend me.\n\nhe didn't know\nwhat the job was yet.\n\nhe knew\nwho was asking.",
+      "webSrc": "assets/arise-shine/web/b-020-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a5997c",
+        "horizon": "#7f7558",
+        "ground": "#67604d",
+        "overall": "#7b725a",
+        "accent": "#f7d87a"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "God with us",
+      "ref": "Isaiah 7:10–14",
+      "epigraph": "“shall call his name Immanuel.”",
+      "poem": "a sign for a frightened king:\na child,\nand his name—\n\nImmanuel.\nGod with us.\n\ncenturies later,\nanother frightened world\nwas given the same sign,\n\nand the name\nturned out to be\na person.",
+      "webSrc": "assets/arise-shine/web/b-020-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#998d73",
+        "horizon": "#675e4a",
+        "ground": "#877b62",
+        "overall": "#80755e",
+        "accent": "#f2bc70"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "a great light",
+      "ref": "Isaiah 9:1–2",
+      "epigraph": "“The people who walked in darkness have seen a great light.”",
+      "poem": "Galilee of the nations—\nthe forgotten north,\nthe first to be conquered,\nthe land of the shadow.\n\nthat's where\nthe light would dawn first.\n\nGod starts\nin the dark corners.\n\nand Jesus began his work\nright there.",
+      "webSrc": "assets/arise-shine/web/b-020-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c3ad79",
+        "horizon": "#988c70",
+        "ground": "#665d48",
+        "overall": "#928362",
+        "accent": "#fcd46a"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "four names",
+      "ref": "Isaiah 9:6–7",
+      "epigraph": "“For a child is born to us. A son is given to us”",
+      "poem": "a child.\na son.\n\nand on his small shoulders,\nthe government of the world.\n\nWonderful Counselor.\nMighty God.\nEverlasting Father.\nPrince of Peace.\n\nfour names\ntoo big\nfor a baby—\n\nand exactly right.",
+      "webSrc": "assets/arise-shine/web/b-020-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7b58b",
+        "horizon": "#9f8f6c",
+        "ground": "#b4a178",
+        "overall": "#b09f78",
+        "accent": "#d5b470"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "the shoot",
+      "ref": "Isaiah 11:1–2",
+      "epigraph": "“A shoot will come out of the stock of Jesse”",
+      "poem": "the family tree of David,\ncut down to a stump.\n\nno king.\nno kingdom.\nnothing left but roots.\n\nand out of the stump—\na shoot.\n\ngreen.\nsmall.\nalive.\n\nGod's promises\ngrow back\nfrom what looked finished.",
+      "webSrc": "assets/arise-shine/web/b-020-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e6ddc6",
+        "horizon": "#c4baa1",
+        "ground": "#b4a78e",
+        "overall": "#c5baa2",
+        "accent": "#eadec5"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "the wolf and the lamb",
+      "ref": "Isaiah 11:6–9",
+      "epigraph": "“The wolf will live with the lamb, and the leopard will lie down with the young goat”",
+      "poem": "the wolf with the lamb.\nthe leopard with the goat.\nthe calf and the lion together,\nand a little child\nleading them.\n\nit sounds like a children's picture.\n\nit's a promise\nabout the whole world:\n\nno more hurting,\nno more destroying,\non all his holy mountain.",
+      "webSrc": "assets/arise-shine/web/b-020-009.jpg",
+      "heroSrc": "assets/arise-shine/web/b-020-009.jpg",
+      "isScene": true,
+      "sceneType": "peaceable_kingdom",
+      "palette": {
+        "top": "#b2a688",
+        "horizon": "#89816a",
+        "ground": "#5a5c47",
+        "overall": "#827d65",
+        "accent": "#edddb8"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "the feast on the mountain",
+      "ref": "Isaiah 25:6–8",
+      "epigraph": "“He has swallowed up death forever!”",
+      "poem": "a feast on the mountain\nfor all peoples—\nrich food,\nthe finest wine.\n\nand at the table,\nGod does two things:\n\nswallows death\nforever,\n\nand wipes the tears\nfrom every face.\n\na host\nwho takes care of\nthe biggest thing\nand the smallest.",
+      "webSrc": "assets/arise-shine/web/b-020-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7cbb2",
+        "horizon": "#777165",
+        "ground": "#645a4b",
+        "overall": "#8d8372",
+        "accent": "#f7e5bf"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "peace, peace",
+      "ref": "Isaiah 26:3–4",
+      "epigraph": "“Y ou will keep whoever’s mind is steadfast in perfect peace, because he trusts in you.”",
+      "poem": "perfect peace—\nin Hebrew,\nshalom, shalom.\n\npeace, peace.\nsaid twice,\nbecause once\nwasn't enough.\n\nnot for the one whose life is calm.\nfor the one whose mind\nis fixed on him.",
+      "webSrc": "assets/arise-shine/web/b-020-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d2a3",
+        "horizon": "#a89d85",
+        "ground": "#68604e",
+        "overall": "#a59a7b",
+        "accent": "#f5d48e"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "quietness",
+      "ref": "Isaiah 30:15–16",
+      "epigraph": "“You will be saved in returning and rest.”",
+      "poem": "your strength\nis in quietness and trust.\n\nand the people said:\nno.\nwe'll ride fast horses.\n\nwe still do.\n\nrush.\nplan.\nrun.\n\nand he's still offering\nthe harder thing:\n\ncome back.\nbe still.\ntrust me.",
+      "webSrc": "assets/arise-shine/web/b-020-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4d7bd",
+        "horizon": "#c4b8a1",
+        "ground": "#9c8d75",
+        "overall": "#bdb098",
+        "accent": "#e9dec3"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "the shadow of a great rock",
+      "ref": "Isaiah 32:1–2",
+      "epigraph": "“as the shade of a large rock in a weary land.”",
+      "poem": "a hiding place from the wind.\nshelter from the storm.\nstreams in a dry land.\nthe shadow of a great rock\nin a weary country.\n\nthat's what a good ruler is,\nthe prophet says.\n\nit's also\nwhat you can be\nfor someone\ntoday.",
+      "webSrc": "assets/arise-shine/web/b-020-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a99a77",
+        "horizon": "#ac9f7c",
+        "ground": "#7e7967",
+        "overall": "#998f72",
+        "accent": "#f1dfb1"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "the desert blooms",
+      "ref": "Isaiah 35:1–2",
+      "epigraph": "“The wilderness and the dry land will be glad.”",
+      "poem": "the desert\nwill be glad.\n\nthe dry land\nwill burst into bloom,\nlike flowers\nafter the first rain.\n\nGod doesn't only rescue people.\nhe rescues\nplaces.",
+      "webSrc": "assets/arise-shine/web/b-020-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ded3bb",
+        "horizon": "#918a77",
+        "ground": "#7d7155",
+        "overall": "#a1977e",
+        "accent": "#eee2c7"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "streams in the desert",
+      "ref": "Isaiah 35:5–6",
+      "epigraph": "“Then the lame man will leap like a deer, and the tongue of the mute will sing”",
+      "poem": "eyes opening.\nears unstopped.\nthe lame man leaping like a deer.\nthe silent one singing.\n\nand water breaking out\nin the wilderness.\n\nwhen John's disciples asked\nwho he was,\nJesus pointed\nto lines like these.",
+      "webSrc": "assets/arise-shine/web/b-020-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b6a98f",
+        "horizon": "#7e745e",
+        "ground": "#6d6b5d",
+        "overall": "#867e6a",
+        "accent": "#e2d5bb"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "comfort",
+      "ref": "Isaiah 40:1–2",
+      "epigraph": "“Comfort, comfort my people”",
+      "poem": "after thirty-nine chapters\nof warning,\n\nthe turn:\ncomfort.\ncomfort my people.\n\nspeak tenderly,\nthe next line says—\nspeak to her heart.\n\nher hard service is over.\n\nGod's last word\nis not the judgment.\nit's comfort,\nsaid twice.",
+      "webSrc": "assets/arise-shine/web/b-020-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7caae",
+        "horizon": "#c4b393",
+        "ground": "#716a5e",
+        "overall": "#a79c86",
+        "accent": "#fce4a4"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "the word stands",
+      "ref": "Isaiah 40:6–8",
+      "epigraph": "“The grass withers, the flower fades; but the word of our God stands forever.”",
+      "poem": "all flesh is grass,\ngreen in the morning,\ngone by evening.\n\nempires too.\nBabylon too.\n\nbut the word of our God\nstands.\n\nthe flowers on your table\nwill wither.\nhis promise\nwon't.",
+      "webSrc": "assets/arise-shine/web/b-020-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b795",
+        "horizon": "#9f9477",
+        "ground": "#938463",
+        "overall": "#a59979",
+        "accent": "#e3d7b0"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "the lambs in his arm",
+      "ref": "Isaiah 40:10–12",
+      "epigraph": "“He will gather the lambs in his arm, and carry them in his bosom.”",
+      "poem": "the same chapter\nthat measures the oceans\nin the hollow of his hand\n\nsays he picks up lambs\nand carries them\nclose to his heart,\n\nand walks slowly\nfor the mothers.\n\ninfinite power.\ntender pace.",
+      "webSrc": "assets/arise-shine/web/b-020-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9bda2",
+        "horizon": "#867e6a",
+        "ground": "#6d6656",
+        "overall": "#918974",
+        "accent": "#f4e6c9"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "wings like eagles",
+      "ref": "Isaiah 40:28–31",
+      "epigraph": "“They will mount up with wings like eagles. They will run, and not be weary.”",
+      "poem": "even young people get tired.\neven the strong\nstumble.\n\nbut those who wait\non the Lord—\n\nsoar.\nrun.\nwalk.\n\nnotice the order:\nflying, running, walking.\n\nsometimes the miracle\nis just\nnot fainting.",
+      "webSrc": "assets/arise-shine/web/b-020-019.jpg",
+      "heroSrc": "assets/arise-shine/web/b-020-019.jpg",
+      "isScene": true,
+      "sceneType": "wings_like_eagles",
+      "palette": {
+        "top": "#c8c7b1",
+        "horizon": "#d5c7a2",
+        "ground": "#766b53",
+        "overall": "#aba286",
+        "accent": "#f7e2b1"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "five promises",
+      "ref": "Isaiah 41:10",
+      "epigraph": "“I will strengthen you. Yes, I will help you.”",
+      "poem": "don't be afraid.\nI'm with you.\n\ndon't look around anxiously.\nI'm your God.\n\nI'll strengthen you.\nI'll help you.\nI'll hold you up\nwith my right hand.\n\nfive promises\nin one breath,\nfor one frightened person.",
+      "webSrc": "assets/arise-shine/web/b-020-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bbaa7e",
+        "horizon": "#937f59",
+        "ground": "#78694a",
+        "overall": "#91805c",
+        "accent": "#f4e9b7"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "the bruised reed",
+      "ref": "Isaiah 42:1–3",
+      "epigraph": "“He won’t break a bruised reed. He won’t quench a dimly burning wick.”",
+      "poem": "a reed with a crack in it—\nyou'd snap it off\nand grab a new one.\n\na wick that's barely smoking—\nyou'd pinch it out.\n\nhe won't.\n\nhis servant\ndoesn't throw away\nthe damaged ones.\n\nhe keeps them.\nhe tends them\nback to flame.",
+      "webSrc": "assets/arise-shine/web/b-020-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6b18a",
+        "horizon": "#968668",
+        "ground": "#7e6e50",
+        "overall": "#9b8968",
+        "accent": "#be8f50"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "by name",
+      "ref": "Isaiah 43:1",
+      "epigraph": "“I have called you by your name. Y ou are mine.”",
+      "poem": "don't be afraid.\nI've redeemed you.\nI've called you by name.\n\nyou are mine.\n\nthree short sentences\nthat could hold up\na whole life.",
+      "webSrc": "assets/arise-shine/web/b-020-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddd2ba",
+        "horizon": "#938d79",
+        "ground": "#7c735b",
+        "overall": "#9c947d",
+        "accent": "#e9dec3"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "when",
+      "ref": "Isaiah 43:2",
+      "epigraph": "“When you pass through the waters, I will be with you”",
+      "poem": "when, not if.\n\nwhen you go through the waters.\nwhen you walk through the fire.\n\nhe doesn't promise\nthere won't be rivers.\n\nhe promises\nthey won't sweep you away,\n\nbecause he'll be\nin them\nwith you.",
+      "webSrc": "assets/arise-shine/web/b-020-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbbc9a",
+        "horizon": "#89816f",
+        "ground": "#68675b",
+        "overall": "#908973",
+        "accent": "#f5c58a"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "a new thing",
+      "ref": "Isaiah 43:16–19",
+      "epigraph": "“Behold, I will do a new thing. It springs out now. Don’t you know it?”",
+      "poem": "don't dwell on the old things,\nhe says—\n\neven the Red Sea.\neven the old rescues.\n\nI'm doing something new.\nit's springing up now.\ndon't you see it?\n\na road in the wilderness.\nrivers in the desert.\n\nlook.",
+      "webSrc": "assets/arise-shine/web/b-020-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c8ae",
+        "horizon": "#a29b88",
+        "ground": "#787366",
+        "overall": "#9e9783",
+        "accent": "#eee1bf"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "carried",
+      "ref": "Isaiah 46:1–4",
+      "epigraph": "“even to gray hairs I will carry you.”",
+      "poem": "the idols of Babylon\nhad to be carried—\nloaded onto tired animals,\na burden.\n\nour God\ncarries us.\n\nfrom the womb.\nthrough the gray hairs.\nall the way.\n\nI made you,\nhe says.\nI'll carry you.",
+      "webSrc": "assets/arise-shine/web/b-020-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a68f64",
+        "horizon": "#7c6c4d",
+        "ground": "#645842",
+        "overall": "#7f6e4f",
+        "accent": "#fcd476"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "can a mother forget?",
+      "ref": "Isaiah 49:14–15",
+      "epigraph": "“Can a woman forget her nursing child”",
+      "poem": "Zion said:\nthe Lord has forgotten me.\n\nand God answered:\ncan a nursing mother\nforget her baby?\n\neven she might.\n\nI won't.",
+      "webSrc": "assets/arise-shine/web/b-020-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c3a4",
+        "horizon": "#9c8d72",
+        "ground": "#7e6954",
+        "overall": "#a08e74",
+        "accent": "#f9e9c5"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "your name on his hands",
+      "ref": "Isaiah 49:16",
+      "epigraph": "“Behold, I have engraved you on the palms of my hands.”",
+      "poem": "not written on a list.\nnot a note that could be lost.\n\nengraved\non the palms of his hands.\n\nevery time he opens them,\nthere you are.\n\nand one day,\nhands would be marked\nfor us.",
+      "webSrc": "assets/arise-shine/web/b-020-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c19b",
+        "horizon": "#bfa87e",
+        "ground": "#7c6d51",
+        "overall": "#a89674",
+        "accent": "#ecb557"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "morning by morning",
+      "ref": "Isaiah 50:4",
+      "epigraph": "“He awakens morning by morning, he awakens my ear to hear as those who are taught.”",
+      "poem": "the servant\nknows how to speak a word\nto the weary.\n\nhow?\n\nmorning by morning,\nhe's woken up\nto listen first.\n\nthe tongue of the teacher\ncomes from\nthe ear of the student.",
+      "webSrc": "assets/arise-shine/web/b-020-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79877",
+        "horizon": "#8d7f61",
+        "ground": "#817054",
+        "overall": "#8e7f62",
+        "accent": "#fae298"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "beautiful feet",
+      "ref": "Isaiah 52:7",
+      "epigraph": "“How beautiful on the mountains are the feet of him who brings good news”",
+      "poem": "dusty feet,\nworn sandals,\nrunning down the mountain—\n\nbeautiful.\n\nnot the feet.\nthe news:\nyour God reigns.\n\nanyone who carries\ngood news\nhas beautiful feet.",
+      "webSrc": "assets/arise-shine/web/b-020-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a99a78",
+        "horizon": "#94866c",
+        "ground": "#9b8b70",
+        "overall": "#9c8d70",
+        "accent": "#fceaa9"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "the man of sorrows",
+      "ref": "Isaiah 53:3–7",
+      "epigraph": "“He was despised and rejected by men, a man of suffering and acquainted with disease.”",
+      "poem": "no beauty that we'd want him.\ndespised.\nrejected.\nacquainted with grief.\n\nwe hid our faces.\n\nand yet\nit was our grief he carried,\nour sorrow.\n\npierced for what we did.\ncrushed for what we are.\n\nby his wounds,\nhealed.",
+      "webSrc": "assets/arise-shine/web/b-020-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#98907b",
+        "horizon": "#7c745d",
+        "ground": "#908267",
+        "overall": "#90856c",
+        "accent": "#e1d9c0"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "all of us",
+      "ref": "Isaiah 53:6",
+      "epigraph": "“All we like sheep have gone astray.”",
+      "poem": "all of us.\nno exceptions.\n\nlike sheep,\neach one wandering\nits own way.\n\nand the Lord\nlaid on him\nthe weight\nof all of us.\n\nthe verse starts with all\nand ends with all.\n\nwe're in both.",
+      "webSrc": "assets/arise-shine/web/b-020-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bfab91",
+        "horizon": "#857d70",
+        "ground": "#656153",
+        "overall": "#8c8270",
+        "accent": "#efd9a8"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "without money",
+      "ref": "Isaiah 55:1–2",
+      "epigraph": "“Come, he who has no money, buy, and eat!”",
+      "poem": "come, everyone who's thirsty.\ncome, you with no money.\nbuy, and eat.\n\nwine and milk,\nfree.\n\nwhy spend your money\non what isn't bread?\n\ngrace\nis the only market\nwhere the poor\nshop first.",
+      "webSrc": "assets/arise-shine/web/b-020-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c5aa",
+        "horizon": "#8b7f67",
+        "ground": "#958970",
+        "overall": "#a2957c",
+        "accent": "#e9dcbd"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "higher",
+      "ref": "Isaiah 55:8–11",
+      "epigraph": "“so are my ways higher than your ways, and my thoughts than your thoughts.”",
+      "poem": "my thoughts\naren't your thoughts.\n\nas high as the sky is above the ground—\nthat's the distance.\n\nit isn't a wall.\nit's a comfort:\n\nthe plan\nis bigger\nthan the part of it\nyou can see.",
+      "webSrc": "assets/arise-shine/web/b-020-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#3f4340",
+        "horizon": "#8a8575",
+        "ground": "#49473e",
+        "overall": "#5d5b52",
+        "accent": "#bfaf8e"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "a watered garden",
+      "ref": "Isaiah 58:10–11",
+      "epigraph": "“You will be like a watered garden, and like a spring of water whose waters don’t fail.”",
+      "poem": "pour yourself out for the hungry.\nsatisfy the needs of the afflicted.\n\nand then\nyour light will rise in the dark,\nand you'll be\na watered garden,\na spring\nthat never runs dry.\n\nthe ones who give water\nnever run out.",
+      "webSrc": "assets/arise-shine/web/b-020-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#beb69e",
+        "horizon": "#948b6b",
+        "ground": "#74725f",
+        "overall": "#938d74",
+        "accent": "#f8ecd2"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "arise, shine",
+      "ref": "Isaiah 60:1–3",
+      "epigraph": "“Arise, shine; for your light has come”",
+      "poem": "get up.\nshine.\n\nnot with your own light—\nyour light has come.\n\nhis glory\nhas risen on you.\n\nyou're the window\nit shines through.\n\nand nations\nwill come to that light.",
+      "webSrc": "assets/arise-shine/web/b-020-035.jpg",
+      "heroSrc": "assets/arise-shine/web/b-020-035.jpg",
+      "isScene": true,
+      "sceneType": "arise_shine_light",
+      "palette": {
+        "top": "#e9ce96",
+        "horizon": "#76664f",
+        "ground": "#4a3d2c",
+        "overall": "#867455",
+        "accent": "#fee881"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "today",
+      "ref": "Isaiah 61:1–2",
+      "epigraph": "“to preach good news to the humble. He has sent me to bind up the broken hearted”",
+      "poem": "Jesus stood up\nin his hometown synagogue,\nunrolled this scroll,\nread these lines,\n\nand sat down and said:\ntoday\nthis is fulfilled.\n\ngood news to the poor.\nbinding up the brokenhearted.\nfreedom for captives.\n\nhis mission statement\nwas already written.",
+      "webSrc": "assets/arise-shine/web/b-020-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9c8c6b",
+        "horizon": "#857658",
+        "ground": "#615742",
+        "overall": "#7f7155",
+        "accent": "#edcb94"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "a garland for ashes",
+      "ref": "Isaiah 61:3",
+      "epigraph": "“to give to them a garland for ashes, the oil of joy for mourning”",
+      "poem": "ashes\non the mourner's head.\n\nand God takes them off,\nand puts a garland there instead.\n\noil of gladness\nfor mourning.\na garment of praise\nfor a heavy spirit.\n\nand the people he does this to\nbecome\noaks of righteousness—\n\nstrong things\ngrown from grief.",
+      "webSrc": "assets/arise-shine/web/b-020-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b9af94",
+        "horizon": "#96876b",
+        "ground": "#a99d85",
+        "overall": "#a4987e",
+        "accent": "#eadec6"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "the potter",
+      "ref": "Isaiah 64:8",
+      "epigraph": "“W e are the clay and you our potter. W e all are the work of your hand.”",
+      "poem": "you're our Father.\nwe're the clay.\nyou're the potter.\n\nclay doesn't argue\nabout the shape.\n\nit stays on the wheel,\nsoft,\nand lets the hands\ndo what hands do.",
+      "webSrc": "assets/arise-shine/web/b-020-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#948165",
+        "horizon": "#796146",
+        "ground": "#4f3d2b",
+        "overall": "#6f5a42",
+        "accent": "#f0dbb8"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "new heavens",
+      "ref": "Isaiah 65:17–21",
+      "epigraph": "“the former things will not be remembered, nor come into mind.”",
+      "poem": "new heavens.\na new earth.\n\nno more weeping in the city.\nno more babies who die young.\n\npeople building houses\nand living in them,\nplanting vineyards\nand eating the fruit.\n\nand the old sorrows—\nnot even remembered.",
+      "webSrc": "assets/arise-shine/web/b-020-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7cfb8",
+        "horizon": "#b4ab8b",
+        "ground": "#6c684b",
+        "overall": "#a29c7f",
+        "accent": "#fef7db"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "like a mother",
+      "ref": "Isaiah 66:12–13",
+      "epigraph": "“As one whom his mother comforts, so I will comfort you.”",
+      "poem": "the book ends\nwith one of the tenderest pictures\nof God in the Bible:\n\nas a mother\ncomforts her child,\nso I'll comfort you.\n\nthe Holy One,\nhigh and lifted up,\nseated on the throne—\n\nkneeling\nto comfort\nlike a mother.",
+      "webSrc": "assets/arise-shine/web/b-020-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a39177",
+        "horizon": "#746753",
+        "ground": "#5c5244",
+        "overall": "#796b58",
+        "accent": "#dbbc96"
+      }
+    }
+  ]
+}

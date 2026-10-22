@@ -1,0 +1,814 @@
+{
+  "district": 12,
+  "slug": "out-of-the-whirlwind",
+  "title": "Out of the Whirlwind",
+  "subtitle": "Job in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/out-of-the-whirlwind/web/b-012-000.jpg",
+  "beforeYouBegin": "Job is the Bible's long, honest argument with suffering. A good man loses everything, sits in the ashes, and refuses both to curse God and to accept his friends' tidy explanations. Then God speaks out of the storm, and Job says, I had heard of you, but now I see you.\n\nThis book walks through it in forty short poems, in four parts. Each poem sits beside a picture and under a single line of Scripture. Where Job grieves, the poems grieve with him; they do not explain his pain away.\n\nThe poems are not the Bible. They are one reader's response to it. Open Job alongside this book, and let the real words have the last word. If you are carrying something heavy as you read, please don't carry it alone.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "The Ash Heap",
+      "epigraph": "Yahweh gave, and Yahweh has taken away. Blessed be Yahweh’s name.",
+      "epigraphRef": "Job 1:21",
+      "lightName": "Light of The Ash Heap",
+      "lightHint": "Near 'there was a man' (Job 1:1–5) in Part 1: The Ash Heap"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "Miserable Comforters",
+      "epigraph": "For there is hope for a tree if it is cut down",
+      "epigraphRef": "Job 14:7",
+      "lightName": "Light of Miserable Comforters",
+      "lightHint": "Near 'you used to hold others up' (Job 4:3–5) in Part 2: Miserable Comforters"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 19,
+      "title": "My Redeemer Lives",
+      "epigraph": "I know that my Redeemer lives.",
+      "epigraphRef": "Job 19:25",
+      "lightName": "Light of My Redeemer Lives",
+      "lightHint": "Near 'cut in rock' (Job 19:23–24) in Part 3: My Redeemer Lives"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 29,
+      "title": "Out of the Whirlwind",
+      "epigraph": "Where were you when I laid the foundations of the earth?",
+      "epigraphRef": "Job 38:4",
+      "lightName": "Light of Out of the Whirlwind",
+      "lightHint": "Near 'borrowed breath' (Job 33:4) in Part 4: Out of the Whirlwind"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "there was a man",
+      "ref": "Job 1:1–5",
+      "epigraph": "“That man was blameless and upright, and one who feared God, and turned away from evil.”",
+      "poem": "the story starts\nlike a fairy tale:\nthere was a man.\n\ngood.\nhonest.\nseven sons, three daughters,\nflocks on every hill.\n\nand every morning\nhe got up early\nand prayed for his children,\njust in case.\n\nremember him like this.\nthe book is about to take\neverything else away.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c19a",
+        "horizon": "#998464",
+        "ground": "#4c4333",
+        "overall": "#897a5e",
+        "accent": "#fdde83"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "behind the scenes",
+      "ref": "Job 1:8–12",
+      "epigraph": "“Have you considered my servant, Job?”",
+      "poem": "behind the scenes,\na conversation\nJob never hears.\n\ndoes he serve you for nothing?\ntake it all away,\nand see.\n\nthe book never tells Job\nabout this chapter.\n\nhe has to suffer\nwithout the explanation.\n\nmost of us do.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dad0b6",
+        "horizon": "#aea690",
+        "ground": "#8c7f66",
+        "overall": "#ada28a",
+        "accent": "#ebe2c5"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "on his face",
+      "ref": "Job 1:13–21",
+      "epigraph": "“Naked I came out of my mother’s womb, and naked will I return there.”",
+      "poem": "four messengers,\none after another,\neach still speaking\nwhen the next arrived.\n\nthe oxen. the sheep.\nthe camels.\nand then—\nthe children.\n\nand Job tore his robe,\nshaved his head,\nfell to the ground,\nand worshiped.\n\nthe Lord gave.\nthe Lord has taken away.\n\nit isn't a formula.\nit's a man on his face,\nstill talking to God.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a99c81",
+        "horizon": "#87816e",
+        "ground": "#887d65",
+        "overall": "#938972",
+        "accent": "#f3eee1"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "the ash heap",
+      "ref": "Job 2:7–8",
+      "epigraph": "“He took for himself a potsherd to scrape himself with, and he sat among the ashes.”",
+      "poem": "sores from head to foot.\n\nhe sat on the ash heap\noutside the town,\nwhere they burned the refuse,\nscraping himself\nwith a broken piece of pot.\n\nthe greatest man in the east,\nsitting in the dump.\n\nno one should have to\nsit there alone.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dac9a6",
+        "horizon": "#908167",
+        "ground": "#a89c86",
+        "overall": "#ad9f84",
+        "accent": "#edd5a6"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "the hard too",
+      "ref": "Job 2:9–10",
+      "epigraph": "“Shall we receive good at the hand of God, and shall we not receive evil?”",
+      "poem": "his wife said: give up.\ncurse God and die.\n\ndon't be too hard on her.\nshe had lost\nten children too.\n\nand Job said:\nwe take the good from God.\nshouldn't we take the hard too?\n\nnot a theory of suffering.\na man refusing\nto let go of the hand.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dcd1b4",
+        "horizon": "#8f8368",
+        "ground": "#a1957a",
+        "overall": "#aea286",
+        "accent": "#e8ddc0"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "seven days",
+      "ref": "Job 2:11–13",
+      "epigraph": "“no one spoke a word to him, for they saw that his grief was very great.”",
+      "poem": "his three friends came\nand didn't recognize him.\n\nthey wept.\nthey tore their robes.\nthey threw dust on their heads.\n\nand then\nthey sat with him\non the ground\nseven days and seven nights,\nand said nothing.\n\nthis was the best thing\nthey would do\nin the whole book.\n\nsometimes the kindest words\nare none.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-006.jpg",
+      "heroSrc": "assets/out-of-the-whirlwind/web/b-012-006.jpg",
+      "isScene": true,
+      "sceneType": "job_ash_heap",
+      "palette": {
+        "top": "#87877d",
+        "horizon": "#978e78",
+        "ground": "#766d5a",
+        "overall": "#827d6b",
+        "accent": "#eee2c0"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the day I was born",
+      "ref": "Job 3:1–3",
+      "epigraph": "“Let the day perish in which I was born”",
+      "poem": "when he finally spoke,\nhe cursed the day he was born.\n\nthe Bible doesn't rush him.\nit gives him\na whole chapter.\n\nsome pain is so deep\nthat wishing you'd never been\nfeels like the only honest prayer.\n\nJob brought even that\nto God,\nout loud,\namong friends.\n\nif you've ever felt it,\ndon't carry it alone.\nsay it to God,\nand to someone who will sit with you.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#323438",
+        "horizon": "#5f574f",
+        "ground": "#40382f",
+        "overall": "#433f3a",
+        "accent": "#e5b288"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "what I feared",
+      "ref": "Job 3:25–26",
+      "epigraph": "“For the thing which I fear comes on me”",
+      "poem": "the thing I feared most\ncame.\n\nno ease.\nno quiet.\nno rest.\nonly trouble.\n\nthe worst-case scenario\nisn't only a nightmare.\nsometimes it happens.\n\nand God\nis still God\non the other side of it.\nthe book isn't over.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79c83",
+        "horizon": "#7e735c",
+        "ground": "#a29273",
+        "overall": "#94876d",
+        "accent": "#dfbc81"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "you used to hold others up",
+      "ref": "Job 4:3–5",
+      "epigraph": "“Your words have supported him who was falling”",
+      "poem": "Eliphaz begins\nwith something true:\n\nyou used to hold others up.\nyour words\nsteadied the ones who were falling.\n\nand now it's you.\n\nit's harder\nto receive comfort\nthan to give it—\nharder still\nwhen the comforters\nstart explaining.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b7aa8e",
+        "horizon": "#827661",
+        "ground": "#9b8a6e",
+        "overall": "#9b8c73",
+        "accent": "#f2e6c4"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "sparks",
+      "ref": "Job 5:6–7",
+      "epigraph": "“man is born to trouble, as the sparks fly upward.”",
+      "poem": "sparks fly upward.\ntrouble comes.\nit's just how things are.\n\ntrue enough.\n\nbut the friends\nkept going:\nso you must have done\nsomething to deserve this.\n\nthat part\nwas wrong.\n\nthe whole book\nis an argument\nwith that one idea.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6a604f",
+        "horizon": "#4c4435",
+        "ground": "#7c6446",
+        "overall": "#675843",
+        "accent": "#f0b05b"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "kindness",
+      "ref": "Job 6:14–15",
+      "epigraph": "“To him who is ready to faint, kindness should be shown from his friend”",
+      "poem": "a man ready to faint\nneeds kindness from his friends—\n\neven if he's lost his grip on faith,\nJob says.\n\nnot a lecture.\nnot a theology.\nkindness.\n\nthe friend who shows up\nwith water\ndoes more\nthan the friend who shows up\nwith answers.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b6a3",
+        "horizon": "#72614d",
+        "ground": "#756854",
+        "overall": "#8a7c68",
+        "accent": "#e4d7bc"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "the shuttle",
+      "ref": "Job 7:6",
+      "epigraph": "“My days are swifter than a weaver’s shuttle, and are spent without hope.”",
+      "poem": "the shuttle flies\nacross the loom—\nback, forth,\nback, forth,\nfaster than you can follow.\n\nmy days are like that,\nJob says,\nand running out of thread.\n\nhe isn't being dramatic.\nhe's being honest.\nGod can handle\nhonest.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbcca7",
+        "horizon": "#b9a582",
+        "ground": "#b6a07c",
+        "overall": "#beab88",
+        "accent": "#eedeb9"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "someone in the middle",
+      "ref": "Job 9:32–33",
+      "epigraph": "“There is no umpire between us, that might lay his hand on us both.”",
+      "poem": "God isn't a man like me,\nthat I could argue my case.\n\nif only there were someone\nin the middle—\n\nsomeone to put one hand on God,\nand one hand on me.\n\nJob didn't know it,\nbut he was describing\nsomeone who would come.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbcfaa",
+        "horizon": "#8f8062",
+        "ground": "#c4b693",
+        "overall": "#b6a886",
+        "accent": "#dfd4ad"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "ask the animals",
+      "ref": "Job 12:7–10",
+      "epigraph": "“But ask the animals, now, and they will teach you; the birds of the sky, and they will tell you.”",
+      "poem": "you want wisdom?\nask the animals.\nask the birds.\nask the fish in the sea.\n\nthey know\nwho holds them.\n\nin his hand\nis the life of every living thing,\nand the breath\nof every person.\n\nincluding mine,\neven now,\neven here.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbc9a5",
+        "horizon": "#918774",
+        "ground": "#575646",
+        "overall": "#8d856e",
+        "accent": "#e6cfa3"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "to his face",
+      "ref": "Job 13:13–15",
+      "epigraph": "“Behold, he will kill me. I have no hope. Nevertheless, I will maintain my ways before him.”",
+      "poem": "even if he kills me,\nI'll still stand here\nand make my case to his face.\n\nthat's not unbelief.\nit's the opposite.\n\nyou only argue\nwith someone\nyou're sure is there,\nand sure is listening.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9d9483",
+        "horizon": "#aca391",
+        "ground": "#6f6451",
+        "overall": "#8d8472",
+        "accent": "#f7e6c7"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "at the scent of water",
+      "ref": "Job 14:7–14",
+      "epigraph": "“that it will sprout again, that the tender branch of it will not cease.”",
+      "poem": "cut down a tree,\nand there's hope—\nat the scent of water\nit will bud again.\n\nbut a man?\nlie down, and he doesn't rise.\n\nJob asks the question\nand can't answer it:\nif a man dies,\nwill he live again?\n\nthe rest of the Bible\nhas been answering\never since.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-016.jpg",
+      "heroSrc": "assets/out-of-the-whirlwind/web/b-012-016.jpg",
+      "isScene": true,
+      "sceneType": "scent_of_water",
+      "palette": {
+        "top": "#d3c6a5",
+        "horizon": "#918668",
+        "ground": "#867b63",
+        "overall": "#a09478",
+        "accent": "#ded2ae"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "miserable comforters",
+      "ref": "Job 16:1–5",
+      "epigraph": "“Y ou are all miserable comforters!”",
+      "poem": "I could talk like you,\nJob says,\nif you were in my place.\n\nI could shake my head,\nstring words together.\n\nbut I would strengthen you\nwith my mouth.\nI'd ease your pain.\n\nsome comfort\nmakes it worse.\n\nbefore you explain someone's suffering,\nsit down\nand be quiet a while.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bdad8f",
+        "horizon": "#908165",
+        "ground": "#a7977c",
+        "overall": "#a39377",
+        "accent": "#decdac"
+      }
+    },
+    {
+      "n": 18,
+      "part": 2,
+      "title": "my witness",
+      "ref": "Job 16:19",
+      "epigraph": "“Even now, behold, my witness is in heaven.”",
+      "poem": "even now,\nwith everyone against me,\nmy witness\nis in heaven.\n\nsomeone up there\nknows the truth\nand will speak for me.\n\nwhen every voice on earth\nhas already decided,\nthere's one\nwho hasn't.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2a68f",
+        "horizon": "#b6aa91",
+        "ground": "#5b523f",
+        "overall": "#8f846e",
+        "accent": "#e9ce91"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "cut in rock",
+      "ref": "Job 19:23–24",
+      "epigraph": "“That with an iron pen and lead they were engraved in the rock forever!”",
+      "poem": "oh, that my words\nwere written down—\n\ncut into rock\nwith an iron pen,\nfilled with lead,\nforever.\n\nhe thought no one would remember.\n\nand here they are,\nstill being read\nthousands of years later.\n\nhe got his wish.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-019.jpg",
+      "heroSrc": "assets/out-of-the-whirlwind/web/b-012-019.jpg",
+      "isScene": true,
+      "sceneType": "redeemer_rock",
+      "palette": {
+        "top": "#dccea8",
+        "horizon": "#af9c74",
+        "ground": "#ac9973",
+        "overall": "#bcab84",
+        "accent": "#eddfba"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "I know",
+      "ref": "Job 19:25–27",
+      "epigraph": "“After my skin is destroyed, then I will see God in my flesh”",
+      "poem": "in the middle of the worst,\nout of nowhere,\nthe highest line in the book:\n\nI know\nthat my Redeemer lives.\n\nand in the end\nhe will stand on the earth.\n\nand I will see him,\nwith my own eyes—\nI, and not another.\n\nhe didn't know how.\nhe knew who.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c194",
+        "horizon": "#9f926f",
+        "ground": "#524f44",
+        "overall": "#8f8669",
+        "accent": "#fbdb82"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "where to find him",
+      "ref": "Job 23:3–9",
+      "epigraph": "“Oh that I knew where I might find him!”",
+      "poem": "if only I knew where to find him—\n\nI go east. not there.\nwest. can't find him.\nnorth. south.\nnothing.\n\nsometimes God\nfeels impossible to find.\n\nthe Bible\ndoesn't pretend otherwise.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4cbb6",
+        "horizon": "#a2977f",
+        "ground": "#8c8068",
+        "overall": "#aba088",
+        "accent": "#decaa8"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "like gold",
+      "ref": "Job 23:10",
+      "epigraph": "“When he has tried me, I will come out like gold.”",
+      "poem": "I can't find him.\n\nbut—\nhe knows the way I'm taking.\n\nI don't see him.\nhe sees me.\n\nand when this fire is done,\nI'll come out\nlike gold.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccbc8f",
+        "horizon": "#a99368",
+        "ground": "#ab9972",
+        "overall": "#af9c73",
+        "accent": "#d99e2e"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "the fringe",
+      "ref": "Job 26:7–14",
+      "epigraph": "“How small a whisper do we hear of him!”",
+      "poem": "the heavens,\nthe deep,\nthe boundary of the sea—\n\nall of it,\nJob says,\nis only\nthe fringe of his ways.\n\na whisper.\n\nwe hear\nthe faintest whisper.\nimagine\nthe thunder.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aa9c80",
+        "horizon": "#928770",
+        "ground": "#4e4436",
+        "overall": "#817560",
+        "accent": "#f8e1a8"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "the mine",
+      "ref": "Job 28:1–12",
+      "epigraph": "“But where will wisdom be found? Where is the place of understanding?”",
+      "poem": "men dig for silver,\ncut shafts into the dark,\nhang on ropes,\nturn mountains over\nlooking for gold and sapphires.\n\nbut wisdom?\n\nyou can't mine it.\nyou can't buy it.\nthe deep says:\nit isn't in me.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b4ad8f",
+        "horizon": "#7b7661",
+        "ground": "#616154",
+        "overall": "#7d7a66",
+        "accent": "#d6cca7"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "here it is",
+      "ref": "Job 28:23–28",
+      "epigraph": "“the fear of the Lord, that is wisdom. To depart from evil is understanding.”",
+      "poem": "God knows the way to it.\nhe saw it when he made the wind\nand the rain.\n\nand he said to us:\nhere it is.\n\nawe of the Lord—\nthat's wisdom.\nturning from evil—\nthat's understanding.\n\nnot hidden in the rock.\nright here,\non your knees.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc19e",
+        "horizon": "#b0a384",
+        "ground": "#b9ab89",
+        "overall": "#bcae8d",
+        "accent": "#ebdfc0"
+      }
+    },
+    {
+      "n": 26,
+      "part": 3,
+      "title": "eyes to the blind",
+      "ref": "Job 29:12–16",
+      "epigraph": "“I was eyes to the blind, and feet to the lame.”",
+      "poem": "Job remembers\nthe old days:\n\nI rescued the poor who cried.\nthe orphan.\nthe widow.\n\nI was eyes for the blind,\nfeet for the lame,\na father to the needy.\n\nit's not a boast.\nit's a picture\nof the life\nGod still calls good.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bca1",
+        "horizon": "#90846b",
+        "ground": "#887d65",
+        "overall": "#9b9077",
+        "accent": "#e5d9b9"
+      }
+    },
+    {
+      "n": 27,
+      "part": 3,
+      "title": "no answer",
+      "ref": "Job 30:20",
+      "epigraph": "“I cry to you, and you do not answer me.”",
+      "poem": "I cry to you.\nyou don't answer.\n\nI stand up.\nyou just look at me.\n\nif you've prayed like this,\nyou're in the Bible.\n\nGod kept this line\ntoo.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b5a27d",
+        "horizon": "#b39c79",
+        "ground": "#625847",
+        "overall": "#938468",
+        "accent": "#e0bd7f"
+      }
+    },
+    {
+      "n": 28,
+      "part": 3,
+      "title": "signed",
+      "ref": "Job 31:35–40",
+      "epigraph": "“Behold, here is my signature! Let the Almighty answer me!”",
+      "poem": "here's my signature.\nlet God answer me.\n\nJob signs his case\nand sets it down.\n\nthe words of Job\nare ended.\n\nhe's said everything.\nnow\nhe waits.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e7dbbb",
+        "horizon": "#c8b997",
+        "ground": "#9d8e6f",
+        "overall": "#c3b392",
+        "accent": "#ece1c1"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "borrowed breath",
+      "ref": "Job 33:4",
+      "epigraph": "“The Spirit of God has made me, and the breath of the Almighty gives me life.”",
+      "poem": "a young man, Elihu,\nhas been waiting to speak.\n\nand some of what he says\nis true:\n\nGod's Spirit made me.\nthe breath of the Almighty\ngives me life.\n\nevery breath you're taking\nwhile you read this—\nborrowed\nfrom him.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d8b7",
+        "horizon": "#a7a28e",
+        "ground": "#5f5544",
+        "overall": "#9d947e",
+        "accent": "#f5e6bf"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "songs in the night",
+      "ref": "Job 35:10",
+      "epigraph": "“who gives songs in the night”",
+      "poem": "where is God my Maker,\nwho gives songs in the night?\n\nnot songs\nafter the night.\n\nin it.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#beb195",
+        "horizon": "#b2a68a",
+        "ground": "#867d66",
+        "overall": "#a89c82",
+        "accent": "#f0ede6"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "stand still",
+      "ref": "Job 37:5–16",
+      "epigraph": "“Stand still, and consider the wondrous works of God.”",
+      "poem": "stop, Job.\nstand still.\n\nlook at the lightning.\nthe snow.\nthe clouds balanced in the sky.\n\nbefore God speaks,\nthe storm\nis already coming.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#79766e",
+        "horizon": "#c2b39c",
+        "ground": "#4e463b",
+        "overall": "#7c7466",
+        "accent": "#f5dcb2"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "God speaks",
+      "ref": "Job 38:1–3",
+      "epigraph": "“Then Yahweh answered Job out of the whirlwind”",
+      "poem": "thirty-five chapters of talking.\n\nand then\nGod speaks.\n\nnot in a whisper.\nout of the storm.\n\nhe doesn't explain the suffering.\nhe doesn't mention\nthe conversation in chapter one.\n\nhe shows up.\n\nand for Job,\nthat turns out\nto be the answer.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-032.jpg",
+      "heroSrc": "assets/out-of-the-whirlwind/web/b-012-032.jpg",
+      "isScene": true,
+      "sceneType": "whirlwind_stars",
+      "palette": {
+        "top": "#c0b6a0",
+        "horizon": "#c4baa3",
+        "ground": "#837661",
+        "overall": "#aca08a",
+        "accent": "#f0e3c2"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "the morning stars",
+      "ref": "Job 38:4–7",
+      "epigraph": "“when the morning stars sang together, and all the sons of God shouted for joy?”",
+      "poem": "where were you\nwhen I laid the earth's foundations?\n\nwhen I measured it,\nstretched the line,\nset the cornerstone—\n\nwhile the morning stars sang together\nand heaven shouted for joy?\n\nit isn't an insult.\nit's an invitation\nto see\nhow big the world is,\nand who is holding it.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#86816f",
+        "horizon": "#c4b492",
+        "ground": "#706350",
+        "overall": "#958971",
+        "accent": "#f8dda4"
+      }
+    },
+    {
+      "n": 34,
+      "part": 4,
+      "title": "where I keep the snow",
+      "ref": "Job 38:22–30",
+      "epigraph": "“Have you entered the treasuries of the snow”",
+      "poem": "have you seen\nwhere I keep the snow?\nthe storehouses of hail?\n\nwho fathered the rain?\nwho gave birth to the frost?\n\nGod takes Job on a tour\nof the weather,\n\nand every question means:\nI've been taking care of all this.\nI can take care of you.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1cbcb",
+        "horizon": "#c0bbae",
+        "ground": "#7e7259",
+        "overall": "#a8a496",
+        "accent": "#faf2de"
+      }
+    },
+    {
+      "n": 35,
+      "part": 4,
+      "title": "Orion",
+      "ref": "Job 38:31–33",
+      "epigraph": "“Can you bind the cluster of the Pleiades, or loosen the cords of Orion?”",
+      "poem": "can you tie the Pleiades together?\nloosen Orion's belt?\n\nthe same stars\nJob looked at.\nthe same stars\nyou can see tonight.\n\ngo outside.\nlook up.\nhe's still asking.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#2b353a",
+        "horizon": "#505c5f",
+        "ground": "#3b3831",
+        "overall": "#414646",
+        "accent": "#a39c8e"
+      }
+    },
+    {
+      "n": 36,
+      "part": 4,
+      "title": "not your job",
+      "ref": "Job 39:19–27",
+      "epigraph": "“Is it by your wisdom that the hawk soars, and stretches her wings toward the south?”",
+      "poem": "the wild donkey.\nthe ostrich.\nthe horse that laughs at fear.\nthe hawk\nstretching her wings toward the south.\n\nGod knows them all,\nfeeds them all,\ndelights in them all.\n\nnot one of them\nis Job's job.\n\nthat's a kind of rest.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddceae",
+        "horizon": "#c4b69b",
+        "ground": "#7c6c53",
+        "overall": "#ad9e83",
+        "accent": "#f2dfba"
+      }
+    },
+    {
+      "n": 37,
+      "part": 4,
+      "title": "hand on my mouth",
+      "ref": "Job 40:3–5",
+      "epigraph": "“I lay my hand on my mouth.”",
+      "poem": "Job had demanded a hearing.\nnow he has one.\n\nand he says:\nI'm small.\nwhat could I answer?\nI lay my hand on my mouth.\n\nsometimes the end of the argument\nisn't losing.\n\nit's seeing\nwho you were arguing with.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2b08b",
+        "horizon": "#827457",
+        "ground": "#8e7d5d",
+        "overall": "#988766",
+        "accent": "#dcc8a3"
+      }
+    },
+    {
+      "n": 38,
+      "part": 4,
+      "title": "now I see",
+      "ref": "Job 42:1–6",
+      "epigraph": "“I had heard of you by the hearing of the ear, but now my eye sees you.”",
+      "poem": "I had heard of you.\nnow I see you.\n\nthat's what the whole book\nwas for.\n\nnot an explanation.\na meeting.\n\nJob's questions were never answered.\n\nthey were\noutgrown.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ab9a78",
+        "horizon": "#b3a37e",
+        "ground": "#56462f",
+        "overall": "#87785b",
+        "accent": "#f2d895"
+      }
+    },
+    {
+      "n": 39,
+      "part": 4,
+      "title": "for his friends",
+      "ref": "Job 42:7–10",
+      "epigraph": "“Y ahweh turned the captivity of Job, when he prayed for his friends.”",
+      "poem": "God told the friends:\nyou haven't spoken rightly of me,\nas my servant Job has.\n\nthe angry, honest man—\nright.\nthe tidy explainers—\nwrong.\n\nand then the turn,\nthe moment everything changed:\n\nwhen he prayed\nfor his friends,\n\nthe ones who hurt him most.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c8ab",
+        "horizon": "#827458",
+        "ground": "#ac9b7c",
+        "overall": "#ac9d7f",
+        "accent": "#ebe5d8"
+      }
+    },
+    {
+      "n": 40,
+      "part": 4,
+      "title": "full of days",
+      "ref": "Job 42:12–17",
+      "epigraph": "“So Job died, being old and full of days.”",
+      "poem": "the Lord blessed\nthe latter part of his life\nmore than the first.\n\nsons and daughters again,\nand he named his daughters himself:\nDove, Cinnamon,\nHorn of Eye-paint,\n\nand gave them an inheritance\nalongside their brothers.\n\nit doesn't erase the grief.\nnothing could.\n\nbut he died\nold,\nand full of days.",
+      "webSrc": "assets/out-of-the-whirlwind/web/b-012-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfbf9e",
+        "horizon": "#7f7461",
+        "ground": "#534c3b",
+        "overall": "#847963",
+        "accent": "#fbe8b7"
+      }
+    }
+  ]
+}

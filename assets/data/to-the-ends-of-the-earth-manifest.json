@@ -1,0 +1,824 @@
+{
+  "district": 32,
+  "slug": "to-the-ends-of-the-earth",
+  "title": "To the Ends of the Earth",
+  "subtitle": "Acts in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/to-the-ends-of-the-earth/web/b-032-000.jpg",
+  "beforeYouBegin": "Acts begins with a cloud and ends with an open door. In between: wind and fire in an upper room, a beggar leaping through a temple gate, a desert road, a blinding light, a basket over a wall, midnight singing in a prison, a shipwreck, and a small rented house in Rome.\n\nThis book walks through it in forty short poems, in five parts, following the good news from Jerusalem outward to the ends of the earth. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the story left behind—a mat on a step, a pile of cloaks, a belt, four anchors—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the book of Acts alongside this one, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Wait in the City",
+      "epigraph": "You will be witnesses to me in Jerusalem, in all Judea and Samaria, and to the uttermost parts of the earth.",
+      "epigraphRef": "Acts 1:8",
+      "lightName": "Light of Wait in the City",
+      "lightHint": "Near 'taken up' (Acts 1:9) in Part 1: Wait in the City"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "What I Have",
+      "epigraph": "what I have, that I give you.",
+      "epigraphRef": "Acts 3:6",
+      "lightName": "Light of What I Have",
+      "lightHint": "Near 'the gate called Beautiful' (Acts 3:2) in Part 2: What I Have"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 17,
+      "title": "Scattered",
+      "epigraph": "those who were scattered abroad went around preaching the word.",
+      "epigraphRef": "Acts 8:4",
+      "lightName": "Light of Scattered",
+      "lightHint": "Near 'scattered' (Acts 8:1–4) in Part 3: Scattered"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 26,
+      "title": "Upside Down",
+      "epigraph": "So the word of the Lord was growing and becoming mighty.",
+      "epigraphRef": "Acts 19:20",
+      "lightName": "Light of Upside Down",
+      "lightHint": "Near 'set apart' (Acts 13:2–3) in Part 4: Upside Down"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 34,
+      "title": "To Rome",
+      "epigraph": "with all boldness, without hindrance.",
+      "epigraphRef": "Acts 28:31",
+      "lightName": "Light of To Rome",
+      "lightHint": "Near 'the window' (Acts 20:9–10) in Part 5: To Rome"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "taken up",
+      "ref": "Acts 1:9",
+      "epigraph": "“a cloud received him out of their sight.”",
+      "poem": "he didn't vanish.\nhe didn't fade.\n\nhe rose,\nslow enough to watch,\nuntil a cloud\nfolded him in.\n\nthe last thing they saw\nwas not a goodbye.\n\nit was a promise\ngoing up\nahead of them.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8c59f",
+        "horizon": "#c9b793",
+        "ground": "#786948",
+        "overall": "#ac9b79",
+        "accent": "#f5dca9"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "why stand looking",
+      "ref": "Acts 1:11",
+      "epigraph": "“why do you stand looking into the sky?”",
+      "poem": "it's a fair question,\nand a kind one.\n\nhe's coming back.\nthe same way\nyou saw him go.\n\nso you can stop\nstaring at the clouds.\n\nthere's a city\ndown the hill,\nand a promise\nto wait for.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3b6ac",
+        "horizon": "#e1d5bb",
+        "ground": "#827862",
+        "overall": "#b2ab97",
+        "accent": "#efe3c7"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "one accord",
+      "ref": "Acts 1:14",
+      "epigraph": "“All these with one accord continued steadfastly in prayer and supplication”",
+      "poem": "they didn't\nhave a plan.\n\nthey had a room,\nand each other,\nand the last thing\nhe told them.\n\nso they prayed.\nthe fishermen,\nthe women,\nhis mother,\nhis brothers who\nhadn't believed him before.\n\nten days\nof waiting together.\n\nsometimes that's\nthe whole assignment.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#afa28a",
+        "horizon": "#756a55",
+        "ground": "#675c47",
+        "overall": "#82755f",
+        "accent": "#e1c9a4"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "wind",
+      "ref": "Acts 2:2",
+      "epigraph": "“Suddenly there came from the sky a sound like the rushing of a mighty wind, and it filled all the house where they were sitting.”",
+      "poem": "first, a sound.\n\nnot a whisper.\nnot a breeze.\n\na rushing\nthat filled the house\nfrom the floor\nto the rafters.\n\nthe same breath\nthat moved over the waters\nin the beginning\n\ncame back\nto fill a room\nfull of ordinary people.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9d9177",
+        "horizon": "#a89e88",
+        "ground": "#9a8d75",
+        "overall": "#a0947d",
+        "accent": "#e7dcc4"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "tongues like fire",
+      "ref": "Acts 2:3",
+      "epigraph": "“T ongues like fire appeared and were distributed to them, and one sat on each of them.”",
+      "poem": "not one great fire\nover the crowd.\n\na flame for each.\n\nthe one who denied him.\nthe one who doubted.\nthe quiet ones\nwhose names\nwe barely know.\n\nno one was left out.\nno one got\na bigger portion.\n\none sat on each of them.\n\none is sitting\non you.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-005.jpg",
+      "heroSrc": "assets/to-the-ends-of-the-earth/web/b-032-005.jpg",
+      "isScene": true,
+      "sceneType": "pentecost_upper_room",
+      "palette": {
+        "top": "#6f5f4d",
+        "horizon": "#614f3e",
+        "ground": "#473c33",
+        "overall": "#5c4c3d",
+        "accent": "#dd9f50"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "his own language",
+      "ref": "Acts 2:6",
+      "epigraph": "“everyone heard them speaking in his own language.”",
+      "poem": "at Babel\nthe languages\nscattered us.\n\nat Pentecost\nGod used them\nto gather us back.\n\nno one had to\nlearn the right words first.\n\nhe came\nin the words\nthey already had.\n\nhe still speaks\nyour language.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d6bd",
+        "horizon": "#cbbea3",
+        "ground": "#877a65",
+        "overall": "#b6aa91",
+        "accent": "#f6e5c4"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "cut to the heart",
+      "ref": "Acts 2:37",
+      "epigraph": "“they were cut to the heart”",
+      "poem": "it wasn't a trick.\nno one was argued\ninto the kingdom.\n\nthey heard the truth\nabout the one they'd crucified,\n\nand it went in\nlike a blade\nand opened them.\n\nbrothers, what shall we do?\n\nthat question\nis where\nevery new life starts.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bcaa",
+        "horizon": "#a89a82",
+        "ground": "#877863",
+        "overall": "#9f917d",
+        "accent": "#f4e5c2"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "breaking bread at home",
+      "ref": "Acts 2:46",
+      "epigraph": "“breaking bread at home, they took their food with gladness and singleness of heart”",
+      "poem": "three thousand people\nin one day,\n\nand the church\nstarted at the table.\n\nnot a building.\nnot a stage.\na loaf,\ntorn and passed,\nhouse to house.\n\nglad hearts.\nsimple food.\n\nevery kitchen\nbecame a sanctuary.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a28b60",
+        "horizon": "#96815d",
+        "ground": "#89704b",
+        "overall": "#967e57",
+        "accent": "#eec97b"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "the gate called Beautiful",
+      "ref": "Acts 3:2",
+      "epigraph": "“whom they laid daily at the door of the temple which is called Beautiful”",
+      "poem": "every day\nthey carried him\nto the gate called Beautiful\n\nand left him there,\noutside,\nwith a bowl.\n\nmore than forty years old,\nstill at the doorway\nof the house of God,\n\nclose enough\nto hear the singing,\nnever once\nwalking in.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-009.jpg",
+      "heroSrc": "assets/to-the-ends-of-the-earth/web/b-032-009.jpg",
+      "isScene": true,
+      "sceneType": "gate_called_beautiful",
+      "palette": {
+        "top": "#a08e70",
+        "horizon": "#958264",
+        "ground": "#ac9978",
+        "overall": "#a08d6e",
+        "accent": "#e6d2b1"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "silver and gold",
+      "ref": "Acts 3:6",
+      "epigraph": "“I have no silver or gold, but what I have, that I give you.”",
+      "poem": "he held out his bowl\nfor a coin.\n\nPeter didn't\nhave one.\n\nhe had something else.\n\nand it's still true:\nyou may not have\nwhat they're asking for.\n\nbut if you've been\nwith Jesus,\n\nyou have\nwhat they need.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bd9f",
+        "horizon": "#90856e",
+        "ground": "#746e5a",
+        "overall": "#968d75",
+        "accent": "#f2e9c5"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "walking, leaping",
+      "ref": "Acts 3:8",
+      "epigraph": "“Leaping up, he stood and began to walk. He entered with them into the temple, walking, leaping, and praising God.”",
+      "poem": "he left his mat\non the step.\n\nhe wouldn't\nneed it anymore.\n\nand for the first time\nin his life\nhe went through the gate,\n\nnot quietly,\nnot politely,\n\nleaping.\n\nsome praise\ncan't stay\nin its seat.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ab9d79",
+        "horizon": "#8f8260",
+        "ground": "#766b51",
+        "overall": "#8d8162",
+        "accent": "#f7e1a7"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "they had been with Jesus",
+      "ref": "Acts 4:13",
+      "epigraph": "“They recognized that they had been with Jesus.”",
+      "poem": "no schooling.\nno titles.\nfishermen's hands\nin a room full of scholars.\n\nand still,\nthe council noticed\nsomething.\n\nit wasn't\ntheir education.\nit was their company.\n\nyou become\nlike the one\nyou spend your time with.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b5a993",
+        "horizon": "#a59b88",
+        "ground": "#887d69",
+        "overall": "#9d927e",
+        "accent": "#e6dac3"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "shaken",
+      "ref": "Acts 4:31",
+      "epigraph": "“When they had prayed, the place was shaken where they were gathered together.”",
+      "poem": "they'd just been threatened.\ntold to stop.\n\nso they prayed—\nnot for safety.\nfor boldness.\n\nand the room\nanswered.\n\nthe walls shook.\nthe lamps swung.\n\ntheir fear\ndid not.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#83775d",
+        "horizon": "#847961",
+        "ground": "#7d7159",
+        "overall": "#7f745c",
+        "accent": "#ede2c3"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "son of encouragement",
+      "ref": "Acts 4:36–37",
+      "epigraph": "“having a field, sold it and brought the money and laid it at the apostles’ feet.”",
+      "poem": "his name was Joses.\n\nthey called him Barnabas,\nson of encouragement,\n\nwhich tells you\nwhat it was like\nto be around him.\n\nhe sold a field\nand laid the money down\nand walked away\nlighter.\n\nlater he'd vouch\nfor a man no one trusted.\n\nencouragers\ngive their land\nand their reputation.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c9b3",
+        "horizon": "#bcb197",
+        "ground": "#71654e",
+        "overall": "#a69a81",
+        "accent": "#dbc18c"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "his shadow",
+      "ref": "Acts 5:15",
+      "epigraph": "“so that as Peter came by, at the least his shadow might overshadow some of them.”",
+      "poem": "they lined the street\nwith cots and mattresses\nand waited\nfor him to pass.\n\njust his shadow.\nthat was enough for them.\n\nnot because Peter\nwas anything special.\n\nhe'd walked beside\nthe one\nwho is.\n\nand it had rubbed off\non his shadow.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9d9072",
+        "horizon": "#6c6550",
+        "ground": "#6c634c",
+        "overall": "#7b7259",
+        "accent": "#eed8a7"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "fell asleep",
+      "ref": "Acts 7:58–60",
+      "epigraph": "“The witnesses placed their garments at the feet of a young man named Saul.”",
+      "poem": "he saw heaven open\nand Jesus standing,\nstanding,\nas if to welcome him.\n\nand with the stones\ncoming down\nhe knelt and prayed\nfor the ones throwing them.\n\nthen he fell asleep.\n\nand a young man named Saul\nwatched their cloaks\nand heard every word.\n\nno prayer like that\nis ever wasted.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dccea8",
+        "horizon": "#f0d6a0",
+        "ground": "#a18665",
+        "overall": "#cbb58c",
+        "accent": "#fce2a0"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "scattered",
+      "ref": "Acts 8:1–4",
+      "epigraph": "“Therefore those who were scattered abroad went around preaching the word.”",
+      "poem": "the persecution meant\nto stamp them out.\n\nit only\nspread them out.\n\nlike a hand\nopening over a field,\n\nevery family\nthat ran from Jerusalem\ncarried the story\nin their mouths.\n\nyou can't\nkill a seed\nby scattering it.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4ccb3",
+        "horizon": "#b6ac94",
+        "ground": "#62594b",
+        "overall": "#9c947f",
+        "accent": "#f0e1b2"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "do you understand",
+      "ref": "Acts 8:26–31",
+      "epigraph": "“How can I, unless someone explains it to me?”",
+      "poem": "a desert road.\na court official\nreading Isaiah out loud\nand not getting it.\n\nand a man who'd been\nin the middle of a revival\nsent all the way out here\nfor one person.\n\nGod will\ncross a desert\nfor one honest question.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9caa7",
+        "horizon": "#b4a68c",
+        "ground": "#a79779",
+        "overall": "#b7a88a",
+        "accent": "#efddb4"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "here is water",
+      "ref": "Acts 8:36–39",
+      "epigraph": "“Behold, here is water. What is keeping me from being baptized?”",
+      "poem": "a eunuch.\na foreigner.\na man who'd been told\nall his life\nwhat kept him out.\n\nand now he asks it:\nwhat's keeping me?\n\nand the answer\nis nothing.\n\nhe went on his way\nrejoicing.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d4b4",
+        "horizon": "#c1b496",
+        "ground": "#83816d",
+        "overall": "#b1a88c",
+        "accent": "#ede2c3"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "light from the sky",
+      "ref": "Acts 9:3–5",
+      "epigraph": "“suddenly a light from the sky shone around him.”",
+      "poem": "he was on the road\nwith letters\nto arrest them\nin his bag.\n\nhe knew exactly\nwho he was\nand what he was doing.\n\nthen the light.\n\nand a voice\nthat didn't say\nwho are you persecuting?\n\nit said:\nwhy do you persecute me?\n\nevery wound\nhe gave the church\n\nlanded on Jesus.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbbda1",
+        "horizon": "#b1a284",
+        "ground": "#7f7059",
+        "overall": "#a6977c",
+        "accent": "#fae8b4"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "Brother Saul",
+      "ref": "Acts 9:17",
+      "epigraph": "“Brother Saul, the Lord, who appeared to you on the road by which you came, has sent me”",
+      "poem": "Ananias knew\nexactly who he was.\n\nhe'd heard\nwhat this man had done.\n\nand still\nhe walked in,\nlaid his hands on him,\n\nand the first word\nout of his mouth\nwas brother.\n\nsometimes obedience\nlooks like\nopening the door\nto the one you feared.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7a715e",
+        "horizon": "#6f6859",
+        "ground": "#474338",
+        "overall": "#635c4d",
+        "accent": "#e6dcd3"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "the basket",
+      "ref": "Acts 9:25",
+      "epigraph": "“lowering him in a basket.”",
+      "poem": "the great apostle's\nfirst escape\n\nwas not a miracle.\n\nit was a rope,\na basket,\nand friends\nholding on in the dark.\n\nbefore he carried\nthe gospel to the nations\n\nhe had to be\ncarried himself.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#787466",
+        "horizon": "#7c7563",
+        "ground": "#585549",
+        "overall": "#6e695a",
+        "accent": "#c2ac88"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "the coats she made",
+      "ref": "Acts 9:39–40",
+      "epigraph": "“showing the coats and garments which Dorcas had made while she was with them.”",
+      "poem": "when she died\nthe widows didn't\ngive speeches.\n\nthey held up\nthe coats.\n\nevery seam\na kindness.\nevery garment\nsomeone was wearing\nbecause of her.\n\nand then Peter knelt\nand said\nTabitha, get up.\n\nand she did.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cab99f",
+        "horizon": "#a8977d",
+        "ground": "#806e56",
+        "overall": "#9e8e76",
+        "accent": "#fbf6ed"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "the great sheet",
+      "ref": "Acts 10:11–15",
+      "epigraph": "“What God has cleansed, you must not call unclean.”",
+      "poem": "three times the sheet\ncame down.\n\nthree times Peter\nsaid never.\n\nhe'd kept the rules\nhis whole life.\nhe wasn't about to\nchange now.\n\nthen the knock at the door.\na Roman's servants,\nasking for him.\n\nthe vision wasn't\nabout food.\n\nit was about\nwho's welcome\nat the table.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bdbdb6",
+        "horizon": "#cec7b8",
+        "ground": "#928572",
+        "overall": "#b4ad9f",
+        "accent": "#f6edde"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "Rhoda at the gate",
+      "ref": "Acts 12:14–16",
+      "epigraph": "“But Peter continued knocking.”",
+      "poem": "they were praying\nfor Peter's release,\n\nand when he knocked,\nnobody believed it.\n\nRhoda was so happy\nshe forgot to open the gate.\n\nand Peter just\nstood there,\nknocking.\n\nsometimes the answer\ncomes while we're still asking,\n\nand we\nleave it waiting outside.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#867c64",
+        "horizon": "#5d533f",
+        "ground": "#675e4a",
+        "overall": "#6c624d",
+        "accent": "#e7bd73"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "set apart",
+      "ref": "Acts 13:2–3",
+      "epigraph": "“they had fasted and prayed and laid their hands on them, they sent them away.”",
+      "poem": "it didn't start\nwith a strategy.\n\nit started with\npeople praying,\nand a whisper:\nset them apart.\n\nso they laid their hands\non their best two\nand gave them away.\n\na church grows\nby what it sends.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#baae94",
+        "horizon": "#c3b696",
+        "ground": "#7b7361",
+        "overall": "#a29981",
+        "accent": "#e7daae"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "come over and help us",
+      "ref": "Acts 16:9",
+      "epigraph": "“Come over into Macedonia and help us.”",
+      "poem": "every door\nhad closed.\n\nAsia, no.\nBithynia, no.\n\nand then a dream:\na man standing across the sea\nasking for help.\n\nsometimes the no's\nare how God\npoints you\nto the yes.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#424541",
+        "horizon": "#55564f",
+        "ground": "#4b473e",
+        "overall": "#4d4c45",
+        "accent": "#d7caae"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "seller of purple",
+      "ref": "Acts 16:14–15",
+      "epigraph": "“The Lord opened her heart to listen to the things which were spoken by Paul.”",
+      "poem": "a riverbank.\na few women praying.\nno synagogue.\n\nLydia was a businesswoman\nwho sold the color of kings.\n\nshe listened,\nand the Lord\nopened her heart.\n\nthat's the order.\nhe opens.\nwe hear.\n\nand her house\nbecame the first church\nin Europe.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#caba97",
+        "horizon": "#736562",
+        "ground": "#7b6a56",
+        "overall": "#8b7c6a",
+        "accent": "#e3d4af"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "midnight",
+      "ref": "Acts 16:25–26",
+      "epigraph": "“about midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them.”",
+      "poem": "beaten.\nlocked in stocks\nin the inner cell.\n\nand at midnight\nthey sang.\n\nnot after the rescue.\nbefore.\n\nthe other prisoners\nwere listening.\n\nsomeone always is.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-029.jpg",
+      "heroSrc": "assets/to-the-ends-of-the-earth/web/b-032-029.jpg",
+      "isScene": true,
+      "sceneType": "philippi_midnight_chains",
+      "palette": {
+        "top": "#958a71",
+        "horizon": "#4d4535",
+        "ground": "#786a52",
+        "overall": "#706550",
+        "accent": "#f0c070"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "what must I do",
+      "ref": "Acts 16:30–31",
+      "epigraph": "“Believe in the Lord Jesus Christ, and you will be saved, you and your household.”",
+      "poem": "the jailer\nwas ready to die.\n\nthe doors were open.\nhe thought\neveryone was gone.\n\nbut nobody had run.\n\nand the man\nwho'd locked them up\nfell down and asked\nthe only question that matters.\n\nthat night\nhe washed their wounds,\nand they baptized\nhis whole house.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbbc9a",
+        "horizon": "#897e60",
+        "ground": "#817659",
+        "overall": "#998d6f",
+        "accent": "#f7dda1"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "not far",
+      "ref": "Acts 17:27",
+      "epigraph": "“he is not far from each one of us.”",
+      "poem": "a city full of altars,\nand one of them\nbuilt just in case\n\nto a god\nthey didn't know.\n\nPaul didn't mock it.\nhe read it\nas a longing.\n\nyou've been reaching for someone\nyour whole life.\n\nhe is not far.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c39c",
+        "horizon": "#a29677",
+        "ground": "#807254",
+        "overall": "#a09373",
+        "accent": "#ddca99"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "tent makers",
+      "ref": "Acts 18:3",
+      "epigraph": "“for by trade they were tent makers.”",
+      "poem": "between sermons\nhe sewed tents.\n\ngoat hair\nand leather,\nwith Priscilla and Aquila\nin a little shop in Corinth.\n\nthe gospel\ndidn't only happen\nin the synagogue.\n\nit happened\nover the workbench,\n\nin ordinary hours,\nwith calloused hands.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfbb95",
+        "horizon": "#5c4f3c",
+        "ground": "#917f61",
+        "overall": "#8f7f62",
+        "accent": "#dcb77f"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "the books burned",
+      "ref": "Acts 19:19–20",
+      "epigraph": "“brought their books together and burned them in the sight of all.”",
+      "poem": "fifty thousand\npieces of silver,\n\ngoing up in smoke\nin the town square.\n\nno one forced them.\nthey carried their spells out\nthemselves.\n\nwhen something\ntakes hold of your life,\nyou don't sell it.\nyou don't store it.\n\nyou burn it.\n\nand the word of the Lord\nkept growing.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a18d6e",
+        "horizon": "#7c6449",
+        "ground": "#655743",
+        "overall": "#7e6a51",
+        "accent": "#eb9844"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "the window",
+      "ref": "Acts 20:9–10",
+      "epigraph": "“Don’t be troubled, for his life is in him.”",
+      "poem": "Paul preached\npast midnight.\n\nand a young man\nin the window\nfell asleep,\nand fell.\n\nlet's be honest:\nthe sermon\nwas too long.\n\nbut grace\nwent downstairs,\nheld him close,\n\nand the meeting went on\nuntil sunrise.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b797",
+        "horizon": "#90866b",
+        "ground": "#aaa082",
+        "overall": "#a59a7e",
+        "accent": "#e3cba2"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "more blessed to give",
+      "ref": "Acts 20:35–37",
+      "epigraph": "“It is more blessed to give than to receive.”",
+      "poem": "he showed them his hands.\n\nthese worked\nfor your food.\nthese carried\nwhat you needed.\n\nthen he gave them\nwords of Jesus\nnone of the gospels\nwrote down.\n\nand they wept\non the sand,\n\nknowing they\nwouldn't see him again.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7b99d",
+        "horizon": "#c0b297",
+        "ground": "#b19c7e",
+        "overall": "#bbab8f",
+        "accent": "#f1ddb9"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "the belt",
+      "ref": "Acts 21:11–13",
+      "epigraph": "“For I am ready not only to be bound, but also to die at Jerusalem for the name of the Lord Jesus.”",
+      "poem": "a prophet\ntied his own hands\nwith Paul's belt.\n\nthis is what's waiting.\n\nand his friends begged him\nnot to go.\n\nbut some roads\nyou walk\nknowing\nwhere they lead.\n\nhe did.\nso did Jesus.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#92866d",
+        "horizon": "#85765b",
+        "ground": "#695c49",
+        "overall": "#7a6d57",
+        "accent": "#e2ca9c"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "four anchors",
+      "ref": "Acts 27:29",
+      "epigraph": "“they let go four anchors from the stern, and wished for daylight.”",
+      "poem": "no sun.\nno stars.\nfourteen days of storm.\n\nso they did\nthe only thing left.\n\nthey dropped\nfour anchors\nand wished for daylight.\n\nsome nights\nthat's all faith is:\n\nholding on\nand waiting\nfor morning.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-037.jpg",
+      "heroSrc": "assets/to-the-ends-of-the-earth/web/b-032-037.jpg",
+      "isScene": true,
+      "sceneType": "malta_four_anchors",
+      "palette": {
+        "top": "#6e6d61",
+        "horizon": "#6d6757",
+        "ground": "#424642",
+        "overall": "#595950",
+        "accent": "#f7e1be"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "bread in the storm",
+      "ref": "Acts 27:35",
+      "epigraph": "“he gave thanks to God in the presence of all, then he broke it and began to eat.”",
+      "poem": "two hundred and seventy-six\nsoaked and starving people,\n\nand a prisoner\nstands up\nin the storm\n\nand gives thanks.\n\nnot for the storm.\nfor the bread.\nfor the promise.\n\nthen he eats.\n\nand they all\ntook courage.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bcb094",
+        "horizon": "#8d826b",
+        "ground": "#857559",
+        "overall": "#998b6f",
+        "accent": "#e2c180"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "the viper",
+      "ref": "Acts 28:3–5",
+      "epigraph": "“However he shook off the creature into the fire, and wasn’t harmed.”",
+      "poem": "shipwrecked.\nsoaked.\ngathering sticks\nlike everybody else.\n\nand then the bite.\n\nthey waited\nfor him to swell up\nand die.\n\nhe just\nshook it off\ninto the fire.\n\nsome things\nthat fasten on you\ndon't get the last word.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bc9e",
+        "horizon": "#857d68",
+        "ground": "#a29576",
+        "overall": "#a2977b",
+        "accent": "#e68c5a"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "without hindrance",
+      "ref": "Acts 28:30–31",
+      "epigraph": "“preaching God’s Kingdom, and teaching the things concerning the Lord Jesus Christ with all boldness, without hindrance.”",
+      "poem": "the book doesn't end\nwith a trial\nor a verdict.\n\nit ends\nwith an open door.\n\na chained man\nin a rented house,\nwelcoming\neveryone who came.\n\nwithout hindrance.\n\nand the story\nisn't finished.\n\nit's still being written\n\nby everyone\nwho walks through that door.",
+      "webSrc": "assets/to-the-ends-of-the-earth/web/b-032-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a7946b",
+        "horizon": "#8d7b54",
+        "ground": "#71674b",
+        "overall": "#897b57",
+        "accent": "#f6e0ac"
+      }
+    }
+  ]
+}

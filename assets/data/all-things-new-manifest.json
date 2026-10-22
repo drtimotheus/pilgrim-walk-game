@@ -1,0 +1,824 @@
+{
+  "district": 44,
+  "slug": "all-things-new",
+  "title": "All Things New",
+  "subtitle": "Revelation in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/all-things-new/web/b-044-000.jpg",
+  "beforeYouBegin": "Revelation was first a letter, read aloud to small, frightened churches under an empire that wanted them gone. Before it is anything else, it is a word of hope: the Lamb is on the throne, and he is making all things new.\n\nThis book walks through it in forty short poems, in five parts, from an old man exiled on an island to a city with a river and a tree. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with light, thrones, lamps, and gardens; the beasts are left to the words.\n\nThe poems are not the Bible. They are one reader's response to it. Open Revelation alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Among the Lampstands",
+      "epigraph": "Don’t be afraid. I am the first and the last",
+      "epigraphRef": "Revelation 1:17",
+      "lightName": "Light of Among the Lampstands",
+      "lightHint": "Near 'read it aloud' (Revelation 1:3) in Part 1: Among the Lampstands"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "The Throne",
+      "epigraph": "Holy, holy, holy is the Lord God, the Almighty, who was and who is and who is to come!",
+      "epigraphRef": "Revelation 4:8",
+      "lightName": "Light of The Throne",
+      "lightHint": "Near 'come up here' (Revelation 4:1) in Part 2: The Throne"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 16,
+      "title": "Silence in Heaven",
+      "epigraph": "The kingdom of the world has become the Kingdom of our Lord, and of his Christ.",
+      "epigraphRef": "Revelation 11:15",
+      "lightName": "Light of Silence in Heaven",
+      "lightHint": "Near 'how long' (Revelation 6:9–11) in Part 3: Silence in Heaven"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 23,
+      "title": "The Lamb Overcomes",
+      "epigraph": "They overcame him because of the Lamb’s blood, and because of the word of their testimony.",
+      "epigraphRef": "Revelation 12:11",
+      "lightName": "Light of The Lamb Overcomes",
+      "lightHint": "Near 'how the small win' (Revelation 12:10–11) in Part 4: The Lamb Overcomes"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 31,
+      "title": "All Things New",
+      "epigraph": "Behold, I am making all things new.",
+      "epigraphRef": "Revelation 21:5",
+      "lightName": "Light of All Things New",
+      "lightHint": "Near 'the other book' (Revelation 20:11–12) in Part 5: All Things New"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "read it aloud",
+      "ref": "Revelation 1:3",
+      "epigraph": "“Blessed is he who reads and those who hear the words of the prophecy”",
+      "poem": "the only book in the Bible\nthat promises a blessing\njust for reading it—\naloud,\nto a room full of people\nwho were afraid.\n\nit was never meant\nto be a puzzle\nfor the clever.\n\nit was a letter\nfor the persecuted,\nread by lamplight:\nhold on.\nhe wins.",
+      "webSrc": "assets/all-things-new/web/b-044-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#857555",
+        "horizon": "#6d5e41",
+        "ground": "#6e5f44",
+        "overall": "#776648",
+        "accent": "#efa761"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "Patmos",
+      "ref": "Revelation 1:9–10",
+      "epigraph": "“I was in the Spirit on the Lord’s day”",
+      "poem": "an old man,\nexiled on a rock in the sea\nfor telling the truth about Jesus.\n\nno church. no friends.\njust waves\nand a Sunday.\n\nand there,\nof all places,\nheaven opened.\n\nyour worst address\nis not too far away\nfor him to find you.",
+      "webSrc": "assets/all-things-new/web/b-044-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c3a1",
+        "horizon": "#a49b85",
+        "ground": "#6a6555",
+        "overall": "#9b927c",
+        "accent": "#eadcad"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "the keys",
+      "ref": "Revelation 1:17–18",
+      "epigraph": "“I was dead, and behold, I am alive forever and ever.”",
+      "poem": "John saw him\nand fell down like a dead man.\n\nand the first thing Jesus did\nwas touch him.\n\nthe second:\ndon't be afraid.\n\nthen: I was dead.\nI'm alive forever.\nand I'm holding the keys.\n\nevery door you fear most—\nhe has the key to it,\nand he is not afraid.",
+      "webSrc": "assets/all-things-new/web/b-044-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9b790",
+        "horizon": "#c2b38e",
+        "ground": "#67604d",
+        "overall": "#a09375",
+        "accent": "#eac988"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "among the lampstands",
+      "ref": "Revelation 1:12–20",
+      "epigraph": "“The seven lamp stands are seven assemblies.”",
+      "poem": "the churches are lampstands.\n\nsmall flames.\nsome flickering.\nsome almost out.\n\nand he walks among them—\nnot above them,\nnot away from them—\namong them,\ntrimming wicks,\npouring oil.\n\nyour little church\nis not forgotten.\nhe is walking\nright there.",
+      "webSrc": "assets/all-things-new/web/b-044-004.jpg",
+      "heroSrc": "assets/all-things-new/web/b-044-004.jpg",
+      "isScene": true,
+      "sceneType": "seven_golden_lampstands",
+      "palette": {
+        "top": "#b8a888",
+        "horizon": "#8d8168",
+        "ground": "#8e7f64",
+        "overall": "#988a70",
+        "accent": "#eecb8c"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "first love",
+      "ref": "Revelation 2:2–5",
+      "epigraph": "“you left your first love.”",
+      "poem": "Ephesus did everything right.\nhard work.\ngood doctrine.\nno patience for liars.\n\nand Jesus said:\nyou left your first love.\n\nyou can keep all the rules\nand lose the romance.\n\ncome back\nto the beginning,\nhe says,\nwhen it was just\nyou and me.",
+      "webSrc": "assets/all-things-new/web/b-044-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b0a48e",
+        "horizon": "#9f9178",
+        "ground": "#998d78",
+        "overall": "#9c8f79",
+        "accent": "#e9dfcc"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "crown of life",
+      "ref": "Revelation 2:8–10",
+      "epigraph": "“Be faithful to death, and I will give you the crown of life.”",
+      "poem": "he doesn't promise Smyrna\nit won't hurt.\n\nprison is coming.\nten days of trouble.\n\nhe promises\nhe'll be there at the end\nwith a crown—\n\nnot the kind that rusts.\nthe kind\nthat's alive.",
+      "webSrc": "assets/all-things-new/web/b-044-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8d826d",
+        "horizon": "#7b725d",
+        "ground": "#675e4a",
+        "overall": "#786f5a",
+        "accent": "#ddcfae"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "a white stone",
+      "ref": "Revelation 2:17",
+      "epigraph": "“I will give him a white stone, and on the stone a new name written”",
+      "poem": "a white stone,\nand on it a name\nno one else knows.\n\nnot the name the world gave you.\nnot the one you gave yourself\non your worst day.\n\nthe name\nhe's been saving\njust for you.",
+      "webSrc": "assets/all-things-new/web/b-044-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a4987e",
+        "horizon": "#a5967c",
+        "ground": "#9d8f77",
+        "overall": "#a19379",
+        "accent": "#d9c8ab"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "knocking",
+      "ref": "Revelation 3:14–20",
+      "epigraph": "“Behold, I stand at the door and knock.”",
+      "poem": "written to the church\nhe was about to spit out—\nlukewarm, comfortable, blind—\n\nand still:\nI'm knocking.\n\nnot breaking the door down.\nknocking.\n\nopen it,\nand he'll come in\nand sit down\nand eat with you.\n\ngrace\nfor the worst church\non the list.",
+      "webSrc": "assets/all-things-new/web/b-044-008.jpg",
+      "heroSrc": "assets/all-things-new/web/b-044-008.jpg",
+      "isScene": true,
+      "sceneType": "behold_i_stand_and_knock",
+      "palette": {
+        "top": "#c2ae88",
+        "horizon": "#927f5f",
+        "ground": "#8b7a5e",
+        "overall": "#9c8a6a",
+        "accent": "#f7c162"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "come up here",
+      "ref": "Revelation 4:1",
+      "epigraph": "“I looked and saw a door opened in heaven”",
+      "poem": "first, the letters.\nthe problems on the ground.\n\nthen a door\nopens in the sky,\nand a voice says:\ncome up here.\n\nbefore you see\nwhat's coming,\nsee who's on the throne.\n\nthat changes\nhow you read\neverything after.",
+      "webSrc": "assets/all-things-new/web/b-044-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3dcc2",
+        "horizon": "#dbd5bd",
+        "ground": "#a09c87",
+        "overall": "#c6c0a9",
+        "accent": "#fcf4c8"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "the rainbow",
+      "ref": "Revelation 4:2–3",
+      "epigraph": "“There was a rainbow around the throne, like an emerald to look at.”",
+      "poem": "around the throne,\na rainbow.\n\nthe same sign\nGod hung in the clouds\nafter the flood:\nI will remember.\n\neven at the center of heaven's power,\na promise\ncurves around it\nlike a hand.",
+      "webSrc": "assets/all-things-new/web/b-044-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdc5a5",
+        "horizon": "#cbc6aa",
+        "ground": "#878772",
+        "overall": "#b3af95",
+        "accent": "#f7ecc6"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "no rest",
+      "ref": "Revelation 4:8",
+      "epigraph": "“They have no rest day and night”",
+      "poem": "day and night\nthey don't stop saying it.\n\nholy.\nholy.\nholy.\n\nnot because they have to.\nbecause every time\nthey look again,\nthere's more.\n\nworship isn't repetition.\nit's discovery\nthat never runs out.",
+      "webSrc": "assets/all-things-new/web/b-044-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#595c53",
+        "horizon": "#8d8774",
+        "ground": "#746e5e",
+        "overall": "#7b7767",
+        "accent": "#fcf2d6"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "crowns on the floor",
+      "ref": "Revelation 4:10–11",
+      "epigraph": "“throw their crowns before the throne”",
+      "poem": "twenty-four elders,\nevery one of them crowned,\n\nand the first thing they do\nwith their crowns\nis throw them down.\n\nwhatever you've won,\nwhatever you've earned,\nit looks best\nlying at his feet.",
+      "webSrc": "assets/all-things-new/web/b-044-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdc4a8",
+        "horizon": "#cac3a8",
+        "ground": "#c0b696",
+        "overall": "#c8bfa1",
+        "accent": "#efe0aa"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "the Lion is a Lamb",
+      "ref": "Revelation 5:5–6",
+      "epigraph": "“a Lamb standing, as though it had been slain”",
+      "poem": "don't weep, the elder said.\nthe Lion has won.\n\nand John turned to see\na lion—\n\nand saw a Lamb,\nstanding,\nbearing the marks\nof being slain.\n\nthis is the whole secret\nof the book:\nthe Lion wins\nby being the Lamb.",
+      "webSrc": "assets/all-things-new/web/b-044-013.jpg",
+      "heroSrc": "assets/all-things-new/web/b-044-013.jpg",
+      "isScene": true,
+      "sceneType": "emerald_rainbow_throne",
+      "palette": {
+        "top": "#dbcfae",
+        "horizon": "#c1b897",
+        "ground": "#c4b690",
+        "overall": "#cabe9b",
+        "accent": "#fbedb8"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "golden bowls",
+      "ref": "Revelation 5:8",
+      "epigraph": "“golden bowls full of incense, which are the prayers of the saints.”",
+      "poem": "every prayer you thought\nwent nowhere—\n\nthe whispered ones,\nthe tired ones,\nthe ones you prayed for years—\n\nheaven keeps them\nin golden bowls,\nlike incense.\n\nnothing you prayed\nwas wasted.",
+      "webSrc": "assets/all-things-new/web/b-044-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c6a2",
+        "horizon": "#c2b894",
+        "ground": "#c3b088",
+        "overall": "#c8b992",
+        "accent": "#dab051"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "every creature",
+      "ref": "Revelation 5:13",
+      "epigraph": "“every created thing which is in heaven, on the earth, under the earth, on the sea”",
+      "poem": "in heaven,\non the earth,\nunder the earth,\nin the sea—\n\neverything that breathes\njoins in.\n\nthe sparrows, the whales,\nthe cattle, the crickets,\nand us.\n\nthe whole creation\nwas made\nto sing this song.",
+      "webSrc": "assets/all-things-new/web/b-044-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c6a3",
+        "horizon": "#baad8e",
+        "ground": "#817b65",
+        "overall": "#ada286",
+        "accent": "#f5dea5"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "how long",
+      "ref": "Revelation 6:9–11",
+      "epigraph": "“How long, Master, the holy and true”",
+      "poem": "how long?\n\neven in heaven\nthey ask it.\n\nthe oldest prayer\nof hurting people\nisn't erased there.\nit's heard.\n\nthey're given white robes\nand told:\nrest a little longer.\n\nyour how long\nis not unfaithful.\nit's in the book.",
+      "webSrc": "assets/all-things-new/web/b-044-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c4a4",
+        "horizon": "#a19881",
+        "ground": "#b9ae95",
+        "overall": "#b7ac91",
+        "accent": "#f7ebc2"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "no one could count them",
+      "ref": "Revelation 7:9–10",
+      "epigraph": "“a great multitude, which no man could count, out of every nation”",
+      "poem": "no one could count them.\n\nevery nation.\nevery tribe.\nevery language.\nevery skin.\n\npalm branches in their hands,\nlike the crowd\nthe day he rode into Jerusalem—\n\nbut this time,\nno one\nturns away.",
+      "webSrc": "assets/all-things-new/web/b-044-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ece2cd",
+        "horizon": "#e0d7bf",
+        "ground": "#756955",
+        "overall": "#bbb09a",
+        "accent": "#f7f1da"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "springs of water",
+      "ref": "Revelation 7:16–17",
+      "epigraph": "“the Lamb who is in the middle of the throne shepherds them”",
+      "poem": "the Lamb\nbecomes the Shepherd.\n\nno more hunger.\nno more thirst.\nno more sun beating down.\n\nhe leads them\nto springs of living water,\n\nand God himself\nwipes the tears—\nevery one.",
+      "webSrc": "assets/all-things-new/web/b-044-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddd3bc",
+        "horizon": "#b8b19c",
+        "ground": "#9f9d88",
+        "overall": "#b9b29c",
+        "accent": "#fcf6dd"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "half an hour",
+      "ref": "Revelation 8:1",
+      "epigraph": "“there was silence in heaven for about half an hour.”",
+      "poem": "after all the thunder,\nall the songs,\nall the voices—\n\nsilence.\n\nhalf an hour\nin heaven\nwith no sound.\n\nsometimes the holiest thing\nis to stop,\nand hold your breath,\nand wait\nto see what God will do.",
+      "webSrc": "assets/all-things-new/web/b-044-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c3b79e",
+        "horizon": "#dccfb6",
+        "ground": "#aca08a",
+        "overall": "#c4b8a0",
+        "accent": "#fbeaca"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "what goes up",
+      "ref": "Revelation 8:3–5",
+      "epigraph": "“The smoke of the incense, with the prayers of the saints, went up before God”",
+      "poem": "the prayers went up\nlike smoke.\n\nand then\nthe angel filled the censer\nwith fire from the altar\nand threw it down to earth.\n\nwhat goes up\nas prayer\ncomes down\nas action.\n\ndon't tell me\nprayer doesn't do anything.",
+      "webSrc": "assets/all-things-new/web/b-044-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc09e",
+        "horizon": "#c1b391",
+        "ground": "#b5a47d",
+        "overall": "#bfb08c",
+        "accent": "#f1ddb0"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "sweet and bitter",
+      "ref": "Revelation 10:9–10",
+      "epigraph": "“It was as sweet as honey in my mouth. When I had eaten it, my stomach was made bitter.”",
+      "poem": "eat the book, he was told.\n\nsweet as honey\non the tongue.\nbitter\nin the stomach.\n\nthat's what God's word\nis like\nwhen you really take it in:\n\nsweet to receive,\nhard to carry,\nbecause it tells the truth\nabout the world.",
+      "webSrc": "assets/all-things-new/web/b-044-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dcd1b5",
+        "horizon": "#d5cbae",
+        "ground": "#b7a888",
+        "overall": "#cbbd9d",
+        "accent": "#d4ab4c"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "already",
+      "ref": "Revelation 11:15",
+      "epigraph": "“He will reign forever and ever!”",
+      "poem": "the kingdom of the world—\nall of it,\nthe empires,\nthe headlines,\nthe powers that seem permanent—\n\nhas become\nthe kingdom of our Lord.\n\npast tense.\nas if it's already done.\n\nin heaven,\nit is.",
+      "webSrc": "assets/all-things-new/web/b-044-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d5b1",
+        "horizon": "#d3c7a4",
+        "ground": "#9c9376",
+        "overall": "#c1b695",
+        "accent": "#fbe4a1"
+      }
+    },
+    {
+      "n": 23,
+      "part": 4,
+      "title": "how the small win",
+      "ref": "Revelation 12:10–11",
+      "epigraph": "“They didn’t love their life, even to death.”",
+      "poem": "how do the small\novercome the dragon?\n\nnot with swords.\n\nwith the blood of the Lamb,\nthe word of their testimony,\nand not holding on\ntoo tightly\nto their own lives.\n\nthat's still\nhow it's done.",
+      "webSrc": "assets/all-things-new/web/b-044-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b394",
+        "horizon": "#786a50",
+        "ground": "#a19476",
+        "overall": "#9b8d71",
+        "accent": "#dcb36e"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "a place prepared",
+      "ref": "Revelation 12:6",
+      "epigraph": "“she has a place prepared by God, that there they may nourish her”",
+      "poem": "she ran into the wilderness,\nand the wilderness\nwas ready for her.\n\na place prepared by God.\nfood. shelter.\ntime.\n\nwhen you have to flee,\nyou're not running\ninto nothing.\n\nhe's already been there,\nsetting the table.",
+      "webSrc": "assets/all-things-new/web/b-044-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7ba95",
+        "horizon": "#9b936f",
+        "ground": "#867c5c",
+        "overall": "#9e9472",
+        "accent": "#f4e2ad"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "rest",
+      "ref": "Revelation 14:13",
+      "epigraph": "“that they may rest from their labors; for their works follow with them.”",
+      "poem": "write this, the voice said:\nblessed are the dead\nwho die in the Lord.\n\nrest, says the Spirit.\nfinally,\nrest.\n\nand their works\nfollow them—\nevery kindness,\nevery prayer,\nevery unseen faithfulness,\nwalking along behind them\ninto glory.",
+      "webSrc": "assets/all-things-new/web/b-044-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c3a2",
+        "horizon": "#bda07e",
+        "ground": "#8f7f65",
+        "overall": "#b19c7e",
+        "accent": "#f9cb94"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "the song of Moses",
+      "ref": "Revelation 15:2–3",
+      "epigraph": "“They sang the song of Moses, the servant of God, and the song of the Lamb”",
+      "poem": "standing by a sea of glass,\nthey sang\nthe song of Moses—\n\nthe old song\nfrom the shore of the Red Sea,\nthe one Miriam danced to—\n\nand the song of the Lamb.\n\none rescue\nfulfilled in another.\none song\nfinished in heaven.",
+      "webSrc": "assets/all-things-new/web/b-044-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8ccaf",
+        "horizon": "#d4c7a6",
+        "ground": "#8e7f62",
+        "overall": "#baad8d",
+        "accent": "#fcf0c6"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "the millstone",
+      "ref": "Revelation 18:21",
+      "epigraph": "“A mighty angel took up a stone like a great millstone and cast it into the sea”",
+      "poem": "Babylon—\nthe great city,\nthe markets, the luxury,\nthe music, the ships—\n\ngone,\nlike a millstone\nthrown into the sea.\n\nevery empire\nthat lives on the backs of others\nends the same way.\n\nthe Lamb's city\nis the one\nthat lasts.",
+      "webSrc": "assets/all-things-new/web/b-044-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b392",
+        "horizon": "#b9ac8d",
+        "ground": "#4f594e",
+        "overall": "#959078",
+        "accent": "#f1e4c4"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "hallelujah",
+      "ref": "Revelation 19:1–6",
+      "epigraph": "“Hallelujah! Salvation, power, and glory belong to our God”",
+      "poem": "the only place\nin the whole New Testament\nyou'll find the word:\nhallelujah.\n\nfour times,\nin one chapter,\nas if heaven\ncouldn't help itself.\n\nsave some of yours\nfor the end.\nit's where\nthe word lives.",
+      "webSrc": "assets/all-things-new/web/b-044-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdbd98",
+        "horizon": "#e0cea3",
+        "ground": "#948968",
+        "overall": "#c0b18c",
+        "accent": "#f7e5ad"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "the wedding",
+      "ref": "Revelation 19:7–9",
+      "epigraph": "“Blessed are those who are invited to the wedding supper of the Lamb.”",
+      "poem": "the story that began in a garden\nwith a man and a woman\n\nends\nat a wedding.\n\nthe Lamb and his bride—\nall of us,\nwashed and dressed in white.\n\nthe table is long.\nyour name is on a chair.\nyou're invited.",
+      "webSrc": "assets/all-things-new/web/b-044-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a39a80",
+        "horizon": "#b9b095",
+        "ground": "#b6a88b",
+        "overall": "#b0a58a",
+        "accent": "#fbf3d5"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "Faithful and True",
+      "ref": "Revelation 19:11",
+      "epigraph": "“a white horse, and he who sat on it is called Faithful and True.”",
+      "poem": "the heavens open,\nand here he comes.\n\nnot a new name.\nthe one he's always had:\nFaithful.\nTrue.\n\nevery promise in the book\nwas riding on that.\n\nit still is.",
+      "webSrc": "assets/all-things-new/web/b-044-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9cfb4",
+        "horizon": "#c4bda7",
+        "ground": "#716a58",
+        "overall": "#ada58f",
+        "accent": "#f6ecc9"
+      }
+    },
+    {
+      "n": 31,
+      "part": 5,
+      "title": "the other book",
+      "ref": "Revelation 20:11–12",
+      "epigraph": "“Another book was opened, which is the book of life.”",
+      "poem": "the great and the small\nstand before the throne,\nand the books are opened.\n\neverything we did,\nwritten down.\n\nand then—\nanother book.\n\nthe book of life.\n\nin the end,\nwhat matters most\nisn't the record of our works.\nit's whether our name\nis written there.",
+      "webSrc": "assets/all-things-new/web/b-044-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d3b1",
+        "horizon": "#e1d2ac",
+        "ground": "#988a6d",
+        "overall": "#c6b897",
+        "accent": "#f4e0ad"
+      }
+    },
+    {
+      "n": 32,
+      "part": 5,
+      "title": "no more sea",
+      "ref": "Revelation 21:1",
+      "epigraph": "“the sea is no more.”",
+      "poem": "a new heaven.\na new earth.\nand no more sea.\n\nfor John,\nthe sea was the wall of his prison,\nthe water between him\nand everyone he loved.\n\nin the new world,\nnothing\nkeeps us apart.",
+      "webSrc": "assets/all-things-new/web/b-044-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5ddc3",
+        "horizon": "#d4cdae",
+        "ground": "#646751",
+        "overall": "#aba88f",
+        "accent": "#fdf4cd"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "moving in",
+      "ref": "Revelation 21:3",
+      "epigraph": "“Behold, God’s dwelling is with people”",
+      "poem": "the tent in the desert.\nthe temple on the hill.\nthe Word who pitched his tent among us.\n\nand now, at last:\n\nGod's home\nis with people.\n\nhe doesn't visit.\nhe moves in\nfor good.",
+      "webSrc": "assets/all-things-new/web/b-044-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6cbab",
+        "horizon": "#c8bfa0",
+        "ground": "#999076",
+        "overall": "#b9b093",
+        "accent": "#f8d970"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "every tear",
+      "ref": "Revelation 21:4",
+      "epigraph": "“He will wipe away every tear from their eyes.”",
+      "poem": "not the tears of one bad day.\nevery tear.\n\nthe ones you cried alone.\nthe ones you swallowed.\nthe ones\nyou didn't know were still there.\n\nGod himself\nwill wipe them away,\n\nand death,\nand grief,\nand crying,\nand pain—\n\ngone.\nthe first things\npassed away.",
+      "webSrc": "assets/all-things-new/web/b-044-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9cdab",
+        "horizon": "#a09781",
+        "ground": "#847963",
+        "overall": "#a59b82",
+        "accent": "#efdfb8"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "all things new",
+      "ref": "Revelation 21:5",
+      "epigraph": "“Write, for these words of God are faithful and true.”",
+      "poem": "not all new things.\nall things new.\n\nhe's not throwing the world away\nand starting over.\n\nhe's making\nthis world,\nthese people,\nyour life,\nnew.\n\nwrite it down,\nhe said.\nit's true.",
+      "webSrc": "assets/all-things-new/web/b-044-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7c7a5",
+        "horizon": "#c2b699",
+        "ground": "#827862",
+        "overall": "#aea185",
+        "accent": "#f9e9c5"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "gates of pearl",
+      "ref": "Revelation 21:21",
+      "epigraph": "“The twelve gates were twelve pearls.”",
+      "poem": "a pearl\nbegins as an injury—\na grain of grit\nthe oyster couldn't get rid of,\nwrapped in layer after layer.\n\nand every gate\ninto the city of God\nis a pearl.\n\nthe way in\nwas made\nfrom a wound.",
+      "webSrc": "assets/all-things-new/web/b-044-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9d0bc",
+        "horizon": "#dcd4c1",
+        "ground": "#b7ae96",
+        "overall": "#cdc5b0",
+        "accent": "#f7dfaf"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "the lamp",
+      "ref": "Revelation 21:23",
+      "epigraph": "“its lamp is the Lamb.”",
+      "poem": "no sun.\nno moon.\nno need.\n\nthe glory of God\nis the light,\nand the Lamb\nis the lamp.\n\nthe one who called himself\nthe light of the world\nwasn't exaggerating.",
+      "webSrc": "assets/all-things-new/web/b-044-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cec6a6",
+        "horizon": "#c9bf9f",
+        "ground": "#8e8870",
+        "overall": "#b2ab8f",
+        "accent": "#eedda6"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "leaves for healing",
+      "ref": "Revelation 22:1–2",
+      "epigraph": "“The leaves of the tree were for the healing of the nations.”",
+      "poem": "the tree we lost\nin the first garden—\n\nhere it is,\non both banks of the river,\nfruit every month,\n\nand leaves\nfor the healing of the nations.\n\nthe Bible ends\nwhere it began:\na garden,\na river,\na tree,\nand God.",
+      "webSrc": "assets/all-things-new/web/b-044-038.jpg",
+      "heroSrc": "assets/all-things-new/web/b-044-038.jpg",
+      "isScene": true,
+      "sceneType": "river_of_life_new_jerusalem",
+      "palette": {
+        "top": "#7b7a5d",
+        "horizon": "#aaa388",
+        "ground": "#858270",
+        "overall": "#8e8a73",
+        "accent": "#f6eddb"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "come",
+      "ref": "Revelation 22:17",
+      "epigraph": "“He who is thirsty, let him come.”",
+      "poem": "the Spirit says: come.\nthe bride says: come.\n\nwhoever is thirsty,\ncome.\n\nwhoever wants it,\ntake the water of life—\nfree.\n\nthe last invitation\nin the Bible\nhas no fine print.",
+      "webSrc": "assets/all-things-new/web/b-044-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e6dbc5",
+        "horizon": "#cdc5b0",
+        "ground": "#b6ac96",
+        "overall": "#c9c0aa",
+        "accent": "#f2e7d0"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "come, Lord Jesus",
+      "ref": "Revelation 22:20–21",
+      "epigraph": "“Y es, come, Lord Jesus.”",
+      "poem": "yes, I am coming soon.\n\nand the church\nanswers\nwith the oldest prayer we have:\n\ncome, Lord Jesus.\n\nand then the last line\nof the whole Bible\nis not a warning,\nnot a vision,\n\nbut this:\ngrace\nbe with you all.",
+      "webSrc": "assets/all-things-new/web/b-044-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#82755f",
+        "horizon": "#847660",
+        "ground": "#7a6f5d",
+        "overall": "#80735f",
+        "accent": "#fdeab1"
+      }
+    }
+  ]
+}

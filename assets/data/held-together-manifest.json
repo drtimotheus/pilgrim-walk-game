@@ -1,0 +1,662 @@
+{
+  "district": 37,
+  "slug": "held-together",
+  "title": "Held Together",
+  "subtitle": "Colossians & Philemon in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/held-together/web/b-037-000.jpg",
+  "beforeYouBegin": "Paul wrote these two letters from chains and sent them up the same road in the same travelers' hands. One is for a small church that had never seen his face; the other is for one household in that church. Between them: a fig tree bearing fruit, a keystone in an arch, a wax tablet wiped clean, a shadow on a wall, new clothes laid out on a bench, a pinch of salt, and a young man walking back to the door he left by, carrying a letter that calls him brother.\n\nThis book walks through it in thirty-two short poems, in four parts: three for Colossians and one for Philemon. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the letters touch—a lamp, a loom, a chain, a guest room made ready—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the letters to the Colossians and to Philemon alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "The Image of the Invisible God",
+      "epigraph": "He is the image of the invisible God, the firstborn of all creation.",
+      "epigraphRef": "Colossians 1:15",
+      "lightName": "Light of The Image of the Invisible God",
+      "lightHint": "Near 'bearing fruit' (Colossians 1:5–6) in Part 1: The Image of the Invisible God"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 10,
+      "title": "Rooted and Built Up",
+      "epigraph": "walk in him, rooted and built up in him, and established in the faith",
+      "epigraphRef": "Colossians 2:6–7",
+      "lightName": "Light of Rooted and Built Up",
+      "lightHint": "Near 'knit together' (Colossians 2:1–2) in Part 2: Rooted and Built Up"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 15,
+      "title": "Put On Compassion",
+      "epigraph": "Put on therefore, as God ’s chosen ones, holy and beloved, a heart of compassion",
+      "epigraphRef": "Colossians 3:12",
+      "lightName": "Light of Put On Compassion",
+      "lightHint": "Near 'new clothes' (Colossians 3:9–10) in Part 3: Put On Compassion"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 23,
+      "title": "More Than a Slave",
+      "epigraph": "no longer as a slave, but more than a slave, a beloved brother",
+      "epigraphRef": "Philemon 1:16",
+      "lightName": "Light of More Than a Slave",
+      "lightHint": "Near 'the church in your house' (Philemon 1:1–2) in Part 4: More Than a Slave"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "bearing fruit",
+      "ref": "Colossians 1:5–6",
+      "epigraph": "“even as it is in all the world and is bearing fruit and growing, as it does in you also”",
+      "poem": "nobody planted it\non purpose.\n\na word blew in\non someone's cloak,\nlanded in a small town\nin a quiet valley,\n\nand took.\n\nnow it's growing\nhere, and there,\nand everywhere\nat once—\n\nthe same good news\nputting out\nthe same green leaves\n\nin you.",
+      "webSrc": "assets/held-together/web/b-037-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cabd97",
+        "horizon": "#a59b79",
+        "ground": "#ab9b79",
+        "overall": "#b2a582",
+        "accent": "#e1d3ad"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "the one who carried word",
+      "ref": "Colossians 1:7–8",
+      "epigraph": "“who also declared to us your love in the Spirit.”",
+      "poem": "Epaphras taught them first.\nthen he walked\nall the way to Paul\n\nand what he brought\nwasn't a problem to solve\nor a question to settle.\n\nit was news\nof how they loved.\n\nsome messengers\ncarry complaints.\n\nbe the kind\nwho walks a long road\nto say\nthey're doing well.\nthey love each other.\nyou should see them.",
+      "webSrc": "assets/held-together/web/b-037-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a08e6c",
+        "horizon": "#957f5a",
+        "ground": "#99825d",
+        "overall": "#96815e",
+        "accent": "#ead4a9"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "strength for the long part",
+      "ref": "Colossians 1:11",
+      "epigraph": "“strengthened with all power, according to the might of his glory, for all endurance and perseverance with joy”",
+      "poem": "all power.\nthe might of his glory.\n\nand what's it for?\n\nnot lightning.\nnot a miracle\nby lunchtime.\n\nendurance.\nperseverance.\nthe long middle\nof the ordinary week.\n\nheaven's full strength\npoured into\none more day\nof not giving up—\n\nand somehow,\njoy.",
+      "webSrc": "assets/held-together/web/b-037-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7d7a6f",
+        "horizon": "#7d7563",
+        "ground": "#463927",
+        "overall": "#675e4f",
+        "accent": "#fff5d6"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "out of the dark",
+      "ref": "Colossians 1:13",
+      "epigraph": "“who delivered us out of the power of darkness, and translated us into the Kingdom of the Son of his love”",
+      "poem": "you didn't walk out\non your own.\n\nyou were carried,\nthe way someone lifts\na sleeping child\nfrom the dark porch\ninto the lit house.\n\nand look\nwhose kingdom\nyou woke up in:\n\nnot the kingdom\nof the strong\nor the clever.\n\nthe kingdom\nof the Son\nof his love.",
+      "webSrc": "assets/held-together/web/b-037-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#524f42",
+        "horizon": "#5c5545",
+        "ground": "#4a4940",
+        "overall": "#555143",
+        "accent": "#f2d799"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "the image",
+      "ref": "Colossians 1:15",
+      "epigraph": "“He is the image of the invisible God”",
+      "poem": "no one has seen God.\n\nwe've guessed.\nwe've feared.\nwe've drawn him\ntoo big and too far\nand too angry.\n\nthen he stepped\ninto a body\n\nand the invisible\nbecame\nsomeone you could\nwalk beside.\n\nif you want to know\nwhat God is like,\n\nlook at Jesus.\nthat's the whole picture.",
+      "webSrc": "assets/held-together/web/b-037-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b59a",
+        "horizon": "#7b7666",
+        "ground": "#887f6c",
+        "overall": "#978f7a",
+        "accent": "#ddcfb3"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "held together",
+      "ref": "Colossians 1:17",
+      "epigraph": "“He is before all things, and in him all things are held together.”",
+      "poem": "every stone in an arch\nis leaning,\nfalling toward the ground.\n\none stone at the top\nkeeps them all\nfrom coming down.\n\nthe stars.\nthe atoms.\nthe morning.\nthe marriage.\nthe frayed thread\nof your faith today.\n\nbefore all things,\nhe was.\n\nand in him\nall things\nare still\nheld.18",
+      "webSrc": "assets/held-together/web/b-037-006.jpg",
+      "heroSrc": "assets/held-together/web/b-037-006.jpg",
+      "isScene": true,
+      "sceneType": "held_together_cosmos",
+      "palette": {
+        "top": "#d9caaa",
+        "horizon": "#c5b99d",
+        "ground": "#a79b7a",
+        "overall": "#bfb293",
+        "accent": "#e9ddbf"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "all things",
+      "ref": "Colossians 1:19–20",
+      "epigraph": "“and through him to reconcile all things to himself”",
+      "poem": "not some things.\nnot just the souls.\n\nall things—\nthe hills,\nthe heavens,\nthe broken\nat every level.\n\npeace\nwas made\nat a cross.\n\nand the jar\nthat cracked\nat the beginning of the world\n\nwill hold water\nagain.",
+      "webSrc": "assets/held-together/web/b-037-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a4957a",
+        "horizon": "#967e65",
+        "ground": "#7a6b57",
+        "overall": "#8e7c64",
+        "accent": "#eedfc7"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "once enemies",
+      "ref": "Colossians 1:21–22",
+      "epigraph": "“Y ou, being in past times alienated and enemies in your mind in your evil deeds, yet now he has reconciled”",
+      "poem": "Paul doesn't pretend.\n\nalienated.\nenemies.\nfar off\nin thought and in deed.\n\nthat was us.\n\nand then two words\nthat turn the whole thing:\n\nyet now.\n\nno one is so far\nthat those two words\ncan't reach them.",
+      "webSrc": "assets/held-together/web/b-037-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#73654e",
+        "horizon": "#6c5b44",
+        "ground": "#5c4d39",
+        "overall": "#655640",
+        "accent": "#d8c29f"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "the hope of glory",
+      "ref": "Colossians 1:26–27",
+      "epigraph": "“which is Christ in you, the hope of glory.”",
+      "poem": "a secret\nkept for ages.\n\nand when it was finally told,\nit wasn't a place\nor a password\nor a ladder to climb.\n\nit was a person,\nliving in people—\n\nin the nations\nno one expected.\nin you.\n\nhope of glory,\nglowing like a window\nin a house\nyou thought was dark.",
+      "webSrc": "assets/held-together/web/b-037-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#57584c",
+        "horizon": "#595648",
+        "ground": "#423c30",
+        "overall": "#4f4c3f",
+        "accent": "#e5c06f"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "knit together",
+      "ref": "Colossians 2:1–2",
+      "epigraph": "“they being knit together in love”",
+      "poem": "he'd never seen their faces.\n\nstill he struggled\nfor them,\nprayed for them,\nworried like a father\nover a town\nhe knew only by name.\n\nwhat did he want for them?\n\nnot fame.\nnot growth.\nnot a building.\n\nthat they'd be\nknit together—\n\neach thread\ntoo thin alone,\ncrossing and crossing\nuntil it holds.",
+      "webSrc": "assets/held-together/web/b-037-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4d5b0",
+        "horizon": "#c0ac85",
+        "ground": "#bfad88",
+        "overall": "#c8b691",
+        "accent": "#f0e2bf"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "walk in him",
+      "ref": "Colossians 2:6–7",
+      "epigraph": "“As therefore you received Christ Jesus, the Lord, walk in him”",
+      "poem": "the way you started\nis the way you go on.\n\nyou didn't earn him\nat the beginning.\n\nyou won't earn him\nin the middle.\n\nyou received him.\nnow walk.\n\none step,\nand then the next,\n\nroots going down\nwhere no one sees,\n\nthankfulness\nspilling over\nlike a bucket\ncarried from the well.",
+      "webSrc": "assets/held-together/web/b-037-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aba58e",
+        "horizon": "#a49d8a",
+        "ground": "#847a64",
+        "overall": "#938c78",
+        "accent": "#f5e6c1"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "wiped clean",
+      "ref": "Colossians 2:13–14",
+      "epigraph": "“wiping out the handwriting in ordinances which was against us. He has taken it out of the way, nailing it to the cross.”",
+      "poem": "there was a record.\n\nevery debt\npressed into the wax,\nevery line\nagainst us.\n\nhe didn't argue with it.\nhe didn't lose it.\n\nhe took it\nout of the way\n\nand nailed it\nwhere the nails\nwent into him.\n\nnow run your hand\nacross the tablet.\n\nsmooth.",
+      "webSrc": "assets/held-together/web/b-037-012.jpg",
+      "heroSrc": "assets/held-together/web/b-037-012.jpg",
+      "isScene": true,
+      "sceneType": "cancelled_scroll_cross",
+      "palette": {
+        "top": "#a5916f",
+        "horizon": "#94815c",
+        "ground": "#a19072",
+        "overall": "#a18d6a",
+        "accent": "#d1a845"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "a shadow",
+      "ref": "Colossians 2:16–17",
+      "epigraph": "“which are a shadow of the things to come; but the body is Christ’s.”",
+      "poem": "a shadow\ntells you something is there.\n\nits shape.\nits size.\nwhich way the light is coming.\n\nthe feasts,\nthe new moons,\nthe Sabbath days—\n\na long shadow\nlaid across the ground\nbefore him.\n\nyou can honor\na shadow.\n\nbut turn around.\n\nthe one who casts it\nis standing\nin the light.",
+      "webSrc": "assets/held-together/web/b-037-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ac9978",
+        "horizon": "#b29a6f",
+        "ground": "#948364",
+        "overall": "#a6926e",
+        "accent": "#f7daa5"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "hidden",
+      "ref": "Colossians 3:1–4",
+      "epigraph": "“For you died, and your life is hidden with Christ in God.”",
+      "poem": "seek what's above,\nhe says.\nthat's where you are.\n\nyour life\nis not your ré sumé ,\nnot your mistakes,\nnot what they say.\n\nit's hidden,\nlike a seed in the ground,\nwith Christ, in God.\n\nsafe.\n\nand one morning,\nwhen he appears,\nyou will too.",
+      "webSrc": "assets/held-together/web/b-037-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7caab",
+        "horizon": "#958b75",
+        "ground": "#8b8068",
+        "overall": "#a49980",
+        "accent": "#dbcba6"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "new clothes",
+      "ref": "Colossians 3:9–10",
+      "epigraph": "“have put on the new man, who is being renewed in knowledge after the image of his Creator”",
+      "poem": "the old clothes\nstill hang by the door:\nanger. the quick lie.\nthe word meant to wound.\n\nyou've taken them off.\nleave them there.\n\nthe new ones\nare laid out on the bench,\n\nand strangely,\nthey fit a little better\nevery day,\n\ncut to the shape\nof the one\nwho made you.",
+      "webSrc": "assets/held-together/web/b-037-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#887d6c",
+        "horizon": "#7d7261",
+        "ground": "#7c7467",
+        "overall": "#807666",
+        "accent": "#f8f6ee"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "Christ is all",
+      "ref": "Colossians 3:11",
+      "epigraph": "“but Christ is all, and in all.”",
+      "poem": "Greek. Jew.\nbarbarian. Scythian.\nslave. free.\n\nevery label\nthe world uses\nto seat people\nat different tables.\n\nand here,\none table.\nmismatched cups.\none loaf.\n\nChrist is all,\nand in all—\n\neven in the one\nyou'd never have\nsat beside.",
+      "webSrc": "assets/held-together/web/b-037-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbceac",
+        "horizon": "#ae9f7d",
+        "ground": "#736348",
+        "overall": "#a39474",
+        "accent": "#d9b167"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "put on",
+      "ref": "Colossians 3:12–14",
+      "epigraph": "“Put on therefore, as God’s chosen ones, holy and beloved, a heart of compassion, kindness, lowliness, humility, and perseverance”",
+      "poem": "compassion.\nkindness.\nlowliness.\npatience.\n\nyou put them on\nlike clothes\non a cold morning,\n\nnot because you feel warm\nbut so you will.\n\nand over all of it,\nlove,\n\nthe sash\nthat ties the rest\ntogether.",
+      "webSrc": "assets/held-together/web/b-037-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c5aa",
+        "horizon": "#b19e85",
+        "ground": "#826b54",
+        "overall": "#a6947b",
+        "accent": "#ecdfcc"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "as he forgave",
+      "ref": "Colossians 3:13",
+      "epigraph": "“even as Christ forgave you, so you also do.”",
+      "poem": "if anyone\nhas a complaint—\n\nand someone will—\n\nthere's only one measure\nfor how much to forgive,\n\nand it isn't\nhow sorry they are.\n\nit's how much\nyou've been forgiven.\n\nthat's the whole\narithmetic.",
+      "webSrc": "assets/held-together/web/b-037-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bda488",
+        "horizon": "#5e5650",
+        "ground": "#6c6052",
+        "overall": "#7d6e60",
+        "accent": "#dbb98f"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "dwell richly",
+      "ref": "Colossians 3:16",
+      "epigraph": "“Let the word of Christ dwell in you richly”",
+      "poem": "not visit.\nnot stop by on Sundays.\n\ndwell.\nmove in. unpack.\nfill the rooms.\n\nrich in you\nthe way a house is rich\nwith singing after supper,\n\npsalms and hymns,\none voice starting\nand the others\ncoming in.\n\ngrace in the heart,\nspilling out\nat the mouth.",
+      "webSrc": "assets/held-together/web/b-037-019.jpg",
+      "heroSrc": "assets/held-together/web/b-037-019.jpg",
+      "isScene": true,
+      "sceneType": "psalms_hymns_table",
+      "palette": {
+        "top": "#9e876d",
+        "horizon": "#685a48",
+        "ground": "#675744",
+        "overall": "#786651",
+        "accent": "#f7c896"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "as for the Lord",
+      "ref": "Colossians 3:23–24",
+      "epigraph": "“And whatever you do, work heartily, as for the Lord, and not for men”",
+      "poem": "the dough.\nthe ledger.\nthe floor to sweep again.\n\nnobody's watching.\nnobody's clapping.\n\ndo it anyway,\nand do it well,\nwith your whole heart,\n\nbecause someone\nis watching,\n\nand he's not\na harsh master.\n\nhe's the one\nwho promised you\nan inheritance.",
+      "webSrc": "assets/held-together/web/b-037-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#867964",
+        "horizon": "#746450",
+        "ground": "#8c7a5f",
+        "overall": "#84735c",
+        "accent": "#e3d4b7"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "seasoned with salt",
+      "ref": "Colossians 4:5–6",
+      "epigraph": "“Let your speech always be with grace, seasoned with salt”",
+      "poem": "not too much.\nthat stings.\n\nnot none.\nthat's bland,\nand nobody\ncomes back for more.\n\njust enough\ngrace\nto make it good,\n\njust enough\nsalt\nto make it true.\n\nthe right word\nfor each one\nin front of you.",
+      "webSrc": "assets/held-together/web/b-037-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9a9481",
+        "horizon": "#a19880",
+        "ground": "#74654d",
+        "overall": "#8f846c",
+        "accent": "#f2e7ce"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "one of you",
+      "ref": "Colossians 4:7–9",
+      "epigraph": "“together with Onesimus, the faithful and beloved brother, who is one of you.”",
+      "poem": "at the end of the letter,\nin the list of names,\nalmost in passing:\n\nOnesimus,\nthe faithful and beloved brother,\nwho is one of you.\n\nthe church would know him.\nperhaps some of them\nhad known him\nas a slave.\n\nnow he was coming home\nwith the mail,\n\nand Paul had already\nwritten him in\nas family.",
+      "webSrc": "assets/held-together/web/b-037-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#eadfc2",
+        "horizon": "#a19d86",
+        "ground": "#918260",
+        "overall": "#aea488",
+        "accent": "#e8cd9b"
+      }
+    },
+    {
+      "n": 23,
+      "part": 4,
+      "title": "the church in your house",
+      "ref": "Philemon 1:1–2",
+      "epigraph": "“and to the assembly in your house”",
+      "poem": "the church didn't have\na building.\n\nit had\nPhilemon's house.\n\nhis courtyard,\nhis benches,\nhis lamps,\nhis door.\n\nso when the letter came,\nit came\nto all of them.\n\ngrace, it said.\npeace.\n\nand everyone\nin the room\nleaned in to hear\nwhat Paul would ask.",
+      "webSrc": "assets/held-together/web/b-037-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#766855",
+        "horizon": "#78674e",
+        "ground": "#6e5a42",
+        "overall": "#71604a",
+        "accent": "#fbdca3"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "refreshed",
+      "ref": "Philemon 1:7",
+      "epigraph": "“the hearts of the saints have been refreshed through you, brother.”",
+      "poem": "you know the kind.\n\nthe house\nwhere you sit down\nand breathe out.\n\nthe person\nwho notices\nyou're tired\nbefore you say it.\n\nthat was Philemon.\n\nand that's where\nthe letter starts—\n\nnot with the problem,\n\nbut with thanks\nfor the cool water\nhe'd always been.",
+      "webSrc": "assets/held-together/web/b-037-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8b8271",
+        "horizon": "#71695a",
+        "ground": "#8b8576",
+        "overall": "#81796a",
+        "accent": "#f5eee1"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "I rather beg",
+      "ref": "Philemon 1:8–9",
+      "epigraph": "“yet for love’s sake I rather beg, being such a one as Paul, the aged, but also a prisoner of Jesus Christ.”",
+      "poem": "he could have\ngiven an order.\n\nhe was an apostle.\nhe had the right.\n\ninstead,\nan old man\nin chains\nasks.\n\nfor love's sake,\nhe says.\n\nbecause love\nthat's ordered\nisn't love.\n\nand he wanted\nthe real thing.",
+      "webSrc": "assets/held-together/web/b-037-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#82765a",
+        "horizon": "#746850",
+        "ground": "#605540",
+        "overall": "#70644c",
+        "accent": "#e8d9ba"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "my child",
+      "ref": "Philemon 1:10",
+      "epigraph": "“I beg you for my child, whom I have become the father of in my chains, Onesimus”",
+      "poem": "Paul in chains.\n\nand somehow\nin that small room,\na man\nfound his way in,\n\nand found\nnew life,\n\nand found\na father.\n\nno prison\nis too tight\nfor someone\nto be born again in.",
+      "webSrc": "assets/held-together/web/b-037-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9d8c6f",
+        "horizon": "#7b694f",
+        "ground": "#928267",
+        "overall": "#8a7a60",
+        "accent": "#eec879"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "useful",
+      "ref": "Philemon 1:11",
+      "epigraph": "“who once was useless to you, but now is useful to you and to me.”",
+      "poem": "his name\nmeant useful.\n\nand for a while\nit didn't fit.\n\nPaul smiles about it\nin the letter,\nyou can almost hear him:\n\nhe used to be useless.\nnow he's useful.\n\nto you.\nto me.\n\ngrace\nhas a way\nof making you\nlive up\nto your name.",
+      "webSrc": "assets/held-together/web/b-037-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b1a07d",
+        "horizon": "#b3a07b",
+        "ground": "#8e7b5a",
+        "overall": "#a59370",
+        "accent": "#d6a95e"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "my own heart",
+      "ref": "Philemon 1:12",
+      "epigraph": "“I am sending him back. Therefore receive him, that is, my own heart”",
+      "poem": "the hardest part\nof the letter\nis the walking.\n\nevery mile\nback toward the door\nhe'd left by.\n\nPaul couldn't go.\nso he sent\nwhat he had:\n\nhis words,\nand his name,\n\nand this:\nwhen you see him,\nyou're looking\nat my heart.",
+      "webSrc": "assets/held-together/web/b-037-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c3b7a3",
+        "horizon": "#948c7e",
+        "ground": "#877967",
+        "overall": "#9c907f",
+        "accent": "#fcedd6"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "perhaps",
+      "ref": "Philemon 1:15–16",
+      "epigraph": "“For perhaps he was therefore separated from you for a while, that you would have him forever”",
+      "poem": "Paul doesn't say\nGod planned it.\nhe says perhaps.\n\nperhaps the leaving\nand the lost months\nand the long road\n\nwere making room\nfor something better:\n\nnot a slave\nback on the list,\nbut a brother\nat the table.\n\nfor a while,\nand then\nforever.",
+      "webSrc": "assets/held-together/web/b-037-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aa9b77",
+        "horizon": "#9d8f6d",
+        "ground": "#676251",
+        "overall": "#897f64",
+        "accent": "#ffeca6"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "put that to my account",
+      "ref": "Philemon 1:18–19",
+      "epigraph": "“But if he has wronged you at all or owes you anything, put that to my account.”",
+      "poem": "if he owes you,\nPaul writes,\ncharge it to me.\n\nI'll pay.\nhere's my own handwriting\nto prove it.\n\nit's a small scene\nin a short letter.\n\nbut you've heard it\nsomewhere before—\n\nsomeone stepping in\nbetween the one who owes\nand the one who's owed,\n\nsaying,\nput it on mine.",
+      "webSrc": "assets/held-together/web/b-037-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9c8e72",
+        "horizon": "#7e6d57",
+        "ground": "#6d614b",
+        "overall": "#7f715a",
+        "accent": "#d4c7a9"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "refresh my heart",
+      "ref": "Philemon 1:20",
+      "epigraph": "“Yes, brother, let me have joy from you in the Lord. Refresh my heart in the Lord.”",
+      "poem": "back at the start\nPaul thanked him\nfor refreshing\neveryone's heart.\n\nnow, near the end,\nhe turns it around:\n\nrefresh mine.\n\nnot with a gift.\nnot with a visit.\n\nwith a welcome\nat the door\n\nfor the son\nI sent home.",
+      "webSrc": "assets/held-together/web/b-037-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b5ac8b",
+        "horizon": "#8f876f",
+        "ground": "#86806d",
+        "overall": "#999279",
+        "accent": "#f8f0dc"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "the guest room",
+      "ref": "Philemon 1:22–25",
+      "epigraph": "“Also, prepare a guest room for me”",
+      "poem": "keep a room ready,\nhe says.\nI'm hoping to come.\n\nand then\nthe greetings,\nand grace,\nand the end.\n\nwe don't know\nwhat Philemon said\nwhen he finished reading.\n\nwe know\nthe letter was kept.\n\nand a room was\nwaiting,\n\nand a door\nthat someone\nhad walked back through.",
+      "webSrc": "assets/held-together/web/b-037-032.jpg",
+      "heroSrc": "assets/held-together/web/b-037-032.jpg",
+      "isScene": true,
+      "sceneType": "philemon_guest_room",
+      "palette": {
+        "top": "#b3a68f",
+        "horizon": "#b4a68d",
+        "ground": "#6d5d51",
+        "overall": "#9b8c78",
+        "accent": "#f6ecd6"
+      }
+    }
+  ]
+}

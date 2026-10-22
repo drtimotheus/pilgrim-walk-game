@@ -14,7 +14,9 @@
       "epigraph": "Be strong and courageous. Don’t be afraid.",
       "epigraphRef": "Joshua 1:9",
       "lightName": "Light of the Jordan Crossing",
-      "lightHint": "Beside the twelve wet river stones stacked near the reeds of the bank"
+      "lightHint": "Beside the twelve wet river stones stacked near the reeds of the bank",
+      "index": 1,
+      "startN": 1
     },
     {
       "part": 2,
@@ -22,7 +24,9 @@
       "epigraph": "Not one thing has failed of all the good things which Yahweh your God spoke concerning you.",
       "epigraphRef": "Joshua 23:14",
       "lightName": "Light of the Covenant Oak",
-      "lightHint": "Under the ancient oak of Shechem beside the great witness stone"
+      "lightHint": "Under the ancient oak of Shechem beside the great witness stone",
+      "index": 2,
+      "startN": 11
     },
     {
       "part": 3,
@@ -30,7 +34,9 @@
       "epigraph": "Another generation arose after them who didn’t know Yahweh.",
       "epigraphRef": "Judges 2:10",
       "lightName": "Light of Deborah’s Palm",
-      "lightHint": "In the shade of the hill-country palm tree between Ramah and Bethel"
+      "lightHint": "In the shade of the hill-country palm tree between Ramah and Bethel",
+      "index": 3,
+      "startN": 21
     },
     {
       "part": 4,
@@ -38,7 +44,9 @@
       "epigraph": "Yahweh is with you, you mighty man of valor!",
       "epigraphRef": "Judges 6:12",
       "lightName": "Light of the Broken Pitcher",
-      "lightHint": "Where the clay pitcher shatters to let the hidden torchlight blaze"
+      "lightHint": "Where the clay pitcher shatters to let the hidden torchlight blaze",
+      "index": 4,
+      "startN": 28
     },
     {
       "part": 5,
@@ -46,7 +54,9 @@
       "epigraph": "Remember me, please, and strengthen me, please, only this once.",
       "epigraphRef": "Judges 16:28",
       "lightName": "Light of the Answered Prayer",
-      "lightHint": "Near the olive and fig trees before the Finale Plaza"
+      "lightHint": "Near the olive and fig trees before the Finale Plaza",
+      "index": 5,
+      "startN": 34
     }
   ],
   "paintings": [

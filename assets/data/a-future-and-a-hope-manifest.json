@@ -1,0 +1,824 @@
+{
+  "district": 21,
+  "slug": "a-future-and-a-hope",
+  "title": "A Future and a Hope",
+  "subtitle": "Jeremiah in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/a-future-and-a-hope/web/b-021-000.jpg",
+  "beforeYouBegin": "Jeremiah is the weeping prophet, called before he was born and sent to a city that would not listen. His book is full of plain, strange things: an almond branch in winter, a cracked cistern beside a running spring, a linen belt buried by a river, a potter bent over his wheel, two baskets of figs, a field bought while the army waits outside the walls, a scroll burned one piece at a time, and a rope let down into the mud with a bundle of rags. And in the middle of all the sorrow, a letter to the exiles about houses and gardens, and a promise of a new covenant written on the heart.\n\nThis book walks through it in forty short poems, in five parts. Each poem sits beside a picture and under a single line of Scripture. The hard chapters are told gently, through a dry cistern, a ruined belt and bronze pomegranates carried away, rather than the violence itself, because Jeremiah wept over them too.\n\nThe poems are not the Bible. They are one reader's response to it. Open the book of Jeremiah alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "The Almond Branch",
+      "epigraph": "I watch over my word to perform it.",
+      "epigraphRef": "Jeremiah 1:12",
+      "lightName": "Light of The Almond Branch",
+      "lightHint": "Near 'before' (Jeremiah 1:4–5) in Part 1: The Almond Branch"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 8,
+      "title": "Balm in Gilead",
+      "epigraph": "Is there no balm in Gilead? Is there no physician there?",
+      "epigraphRef": "Jeremiah 8:22",
+      "lightName": "Light of Balm in Gilead",
+      "lightHint": "Near 'at the gate' (Jeremiah 7:1–23) in Part 2: Balm in Gilead"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 16,
+      "title": "The Potter’s House",
+      "epigraph": "as the clay in the potter’s hand, so are you in my hand",
+      "epigraphRef": "Jeremiah 18:6",
+      "lightName": "Light of The Potter’s House",
+      "lightHint": "Near 'the potter’s house' (Jeremiah 18:1–6) in Part 3: The Potter’s House"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 25,
+      "title": "Written on the Heart",
+      "epigraph": "I will put my law in their inward parts, and I will write it in their heart.",
+      "epigraphRef": "Jeremiah 31:33",
+      "lightName": "Light of Written on the Heart",
+      "lightHint": "Near 'everlasting' (Jeremiah 31:3–4) in Part 4: Written on the Heart"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 33,
+      "title": "Rags and Ropes",
+      "epigraph": "So they drew up Jeremiah with the cords, and took him up out of the dungeon",
+      "epigraphRef": "Jeremiah 38:13",
+      "lightName": "Light of Rags and Ropes",
+      "lightHint": "Near 'the winter house' (Jeremiah 36:20–24) in Part 5: Rags and Ropes"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "before",
+      "ref": "Jeremiah 1:4–5",
+      "epigraph": "“Before I formed you in the womb, I knew you.”",
+      "poem": "before your name.\nbefore your first breath.\nbefore anyone had counted\nyour fingers and toes—\n\nyou were known.\n\nnot planned like a building,\ndrawn on a wall.\nknown,\nthe way a friend is known.\n\nwhatever you think\nyou have to earn,\nit was never\nthe first thing.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#675f50",
+        "horizon": "#6d604b",
+        "ground": "#735f49",
+        "overall": "#70614d",
+        "accent": "#e9dfc7"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "only a child",
+      "ref": "Jeremiah 1:6–9",
+      "epigraph": "“Behold, I have put my words in your mouth.”",
+      "poem": "i don't know how to speak,\nhe said.\ni'm only a child.\n\nGod didn't argue\nabout his age.\n\nhe said:\ndon't be afraid.\ni am with you.\n\nthen he reached out\nand touched his mouth.\n\nthe words were never\ngoing to be his.\nonly the courage\nto open it.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a09473",
+        "horizon": "#756443",
+        "ground": "#2e2918",
+        "overall": "#655a3f",
+        "accent": "#e0d7b1"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "the almond branch",
+      "ref": "Jeremiah 1:11–12",
+      "epigraph": "“I see a branch of an almond tree.”",
+      "poem": "what do you see, Jeremiah?\n\njust a branch.\nan almond branch.\n\nthe first tree in the land\nto wake up\nwhile every other tree\nis still asleep.\n\nyou have seen well,\nGod said.\ni am watching too.\n\nover every word\ni have spoken—\nawake,\nbefore anyone else is.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-003.jpg",
+      "heroSrc": "assets/a-future-and-a-hope/web/b-021-003.jpg",
+      "isScene": true,
+      "sceneType": "watching_almond_branch",
+      "palette": {
+        "top": "#d1c3a8",
+        "horizon": "#9a8b71",
+        "ground": "#98896f",
+        "overall": "#ab9c82",
+        "accent": "#f3e8cb"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "the kindness of your youth",
+      "ref": "Jeremiah 2:1–3",
+      "epigraph": "“I remember for you the kindness of your youth, the love of your weddings”",
+      "poem": "before the scolding,\na memory.\n\ni remember, God says,\nhow you followed me\nthrough a land\nno one had ever planted.\n\nno fields.\nno houses.\njust the two of us\nand a road in the sand.\n\nthe first thing he wants you to know\nabout his sorrow\n\nis how much\nhe loved you.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4d5af",
+        "horizon": "#7e7b6e",
+        "ground": "#867a5f",
+        "overall": "#a2977c",
+        "accent": "#f8e6b0"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "broken cisterns",
+      "ref": "Jeremiah 2:13",
+      "epigraph": "“they have forsaken me, the spring of living waters”",
+      "poem": "two mistakes,\nGod says.\n\nfirst,\nyou walked away\nfrom a running spring.\n\nthen you spent your strength\ncutting a hole in the rock\nto hold rain.\n\nand it cracked.\n\nthe saddest part\nisn't the thirst.\n\nit's all that work\nfor water\nyou could have\njust been given.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9d1b8",
+        "horizon": "#978f7a",
+        "ground": "#716f62",
+        "overall": "#9c9783",
+        "accent": "#f5edcd"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "return",
+      "ref": "Jeremiah 3:12–22",
+      "epigraph": "“Return, you backsliding children, and I will heal your backsliding.”",
+      "poem": "come back.\n\nnot\ncome back when you're better.\nnot\ncome back and explain.\n\ncome back,\nand i will heal\nthe part of you\nthat keeps leaving.\n\nthe door he describes\nis not locked.\nhe is standing\nin it.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#99876e",
+        "horizon": "#67594a",
+        "ground": "#7a6854",
+        "overall": "#7a6a56",
+        "accent": "#d49b64"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the old paths",
+      "ref": "Jeremiah 6:16",
+      "epigraph": "“ask for the old paths, ‘Where is the good way?’ and walk in it, and you will find rest for your souls.”",
+      "poem": "stand at the crossroads\nfor a minute.\n\ndon't hurry.\n\nlook for the path\nworn smooth\nby all the feet\nthat went before you.\n\nask it\nwhere the good way is.\n\nthen walk in it,\nand your soul\nwill do the thing\nit's been asking for:\n\nrest.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5dcc9",
+        "horizon": "#7d7968",
+        "ground": "#897e68",
+        "overall": "#a09884",
+        "accent": "#f2e9d6"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "at the gate",
+      "ref": "Jeremiah 7:1–23",
+      "epigraph": "“Listen to my voice, and I will be your God, and you shall be my people.”",
+      "poem": "he stood at the temple gate\nwhile the crowds went in\n\nsaying,\nthe temple, the temple,\nthe temple of the Lord,\n\nlike a charm\nto keep them safe.\n\nand Jeremiah said:\nit was never\nabout the stones.\n\nit was always\none plain thing.\n\nlisten to me.\nbe my people.\ni'll be your God.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c39b",
+        "horizon": "#c8ba95",
+        "ground": "#7e755c",
+        "overall": "#aea280",
+        "accent": "#f6eabd"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "the stork",
+      "ref": "Jeremiah 8:7",
+      "epigraph": "“the stork in the sky knows her appointed times.”",
+      "poem": "the stork knows\nwhen to come home.\nthe swallow knows.\nthe crane.\n\nnobody teaches them.\nsomething in them\nturns toward the right place\nat the right time.\n\nand my people,\nGod says,\ndon't know\nthe way back to me.\n\nit isn't a scolding.\nit's a longing.\n\neven the birds\nremember.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d7bb",
+        "horizon": "#bcb39e",
+        "ground": "#736753",
+        "overall": "#a89d87",
+        "accent": "#faedcb"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "balm in Gilead",
+      "ref": "Jeremiah 8:18–22",
+      "epigraph": "“For the hurt of the daughter of my people, I am hurt.”",
+      "poem": "there was medicine\nin Gilead.\n\neverybody knew it.\na golden balm,\na healer close by.\n\nso why,\nthe prophet asks,\nisn't anyone\ngetting well?\n\nhe doesn't answer\nfrom a distance.\n\nher hurt\nis my hurt,\nhe says.\n\nthe ones who carry the question\nare the ones\nwho carry the wound.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dacbac",
+        "horizon": "#b8a27c",
+        "ground": "#b8a789",
+        "overall": "#c0ae8d",
+        "accent": "#d0b06a"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "a spring of tears",
+      "ref": "Jeremiah 9:1",
+      "epigraph": "“Oh that my head were waters, and my eyes a spring of tears”",
+      "poem": "he wished\nhe had more tears.\n\nnot fewer.\nmore.\n\nenough to weep\nday and night\nfor the people\nhe couldn't save.\n\nsome prophets thunder.\nthis one\ncried.\n\nand God\nkept him.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#beb7a0",
+        "horizon": "#887f69",
+        "ground": "#a09983",
+        "overall": "#9e957f",
+        "accent": "#e6d8b7"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "gently",
+      "ref": "Jeremiah 10:23–24",
+      "epigraph": "“Y ahweh, correct me, but gently”",
+      "poem": "i know my steps\naren't mine to steer,\nhe prayed.\n\nso correct me.\ni mean it.\n\nbut gently.\n\nnot in your anger—\ni wouldn't be left.\n\nit's one of the most honest prayers\nin the Bible.\n\nyes to the lesson.\nand please,\nremember\nwhat i'm made of.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bfb191",
+        "horizon": "#897d63",
+        "ground": "#726954",
+        "overall": "#8d8268",
+        "accent": "#e8d8b3"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "the linen belt",
+      "ref": "Jeremiah 13:1–11",
+      "epigraph": "“as the belt clings to the waist of a man”",
+      "poem": "God told him to wear\na linen belt,\nthen hide it\nin a cleft of the rock\nby the river.\n\nmany days later\nhe dug it up.\nruined.\ngood for nothing.\n\nthis is what pride does,\nGod said.\n\nbut listen\nto what the belt was for:\n\ni wanted you close,\nthe way a belt\nholds to the one who wears it.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aca085",
+        "horizon": "#94876c",
+        "ground": "#96886c",
+        "overall": "#998d72",
+        "accent": "#ece3cd"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "i ate them",
+      "ref": "Jeremiah 15:15–16",
+      "epigraph": "“Your words were found, and I ate them.”",
+      "poem": "everyone cursed him,\nhe said.\nhe didn't sit with the merrymakers.\nhe sat alone.\n\nbut there was this:\n\nyour words were found,\nhe said,\nand i ate them.\n\nlike bread\nto a hungry man.\n\nthe joy of my heart\nwasn't in how it went.\n\nit was in\nwhose name\ni was called by.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b18b",
+        "horizon": "#a79776",
+        "ground": "#a79472",
+        "overall": "#af9d7a",
+        "accent": "#e6c88e"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "by the waters",
+      "ref": "Jeremiah 17:7–8",
+      "epigraph": "“he will be as a tree planted by the waters”",
+      "poem": "heat comes.\na dry year comes.\n\nthe tree doesn't know\nthe forecast.\n\nit just keeps\nits roots in the river.\n\nand its leaves stay green,\nand the fruit keeps coming,\nyear of drought\nor not.\n\ntrust\nisn't a feeling\nabout the weather.\n\nit's where\nyou put your roots.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bab194",
+        "horizon": "#79725b",
+        "ground": "#857d65",
+        "overall": "#91896f",
+        "accent": "#ded2b6"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "the potter’s house",
+      "ref": "Jeremiah 18:1–6",
+      "epigraph": "“he made it again another vessel, as seemed good to the potter to make it.”",
+      "poem": "go down to the potter's,\nGod said.\n\nso he watched.\n\nthe pot was marred\nin the potter's hands.\n\nand the potter\ndidn't throw it away.\nhe began again.\nanother vessel,\nwhatever seemed good to him.\n\nyou are not\nthe mistake on the wheel.\n\nyou are the clay\nstill in his hands.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-016.jpg",
+      "heroSrc": "assets/a-future-and-a-hope/web/b-021-016.jpg",
+      "isScene": true,
+      "sceneType": "jeremiah_potter_wheel",
+      "palette": {
+        "top": "#7a6c57",
+        "horizon": "#62513c",
+        "ground": "#594732",
+        "overall": "#64543f",
+        "accent": "#f6edd9"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "fire in my bones",
+      "ref": "Jeremiah 20:7–9",
+      "epigraph": "“there is in my heart as it were a burning fire shut up in my bones. I am weary with holding it in.”",
+      "poem": "everyone mocks me,\nhe said.\nall day.\n\nso i decided:\nno more.\ni won't mention him again.\n\nand then—\n\nit was like a fire\nshut up\nin my bones.\n\ni tried to hold it in.\ni couldn't.\n\nhe wanted to quit.\nthe word\ndidn't.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#36352e",
+        "horizon": "#383328",
+        "ground": "#383126",
+        "overall": "#3a352a",
+        "accent": "#9e683a"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "honest",
+      "ref": "Jeremiah 20:13–18",
+      "epigraph": "“Why did I come out of the womb to see labor and sorrow”",
+      "poem": "one line:\nsing to the Lord!\nhe has rescued the poor.\n\nthe next:\nwhy was i ever born?\n\nhe didn't tidy it up.\nand neither did the Bible.\n\nboth prayers\nare in there,\nside by side.\n\nso you can bring\nthe song\nand the sorrow\n\nto the same God\non the same day.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7f7d76",
+        "horizon": "#a7a195",
+        "ground": "#4e4d44",
+        "overall": "#78766c",
+        "accent": "#f7ebd5"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "the righteous Branch",
+      "ref": "Jeremiah 23:1–6",
+      "epigraph": "“I will raise to David a righteous Branch”",
+      "poem": "the shepherds\nscattered the flock.\n\nthe kings\nfailed.\n\nand God said:\ni'll gather them myself.\n\nand i'll raise\na Branch for David.\n\na king\nwho will actually do\nwhat's right.\n\nhis name\nwill be\nthe Lord our righteousness.\n\na new shoot.\na promise.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddd3b4",
+        "horizon": "#867e68",
+        "ground": "#8d8268",
+        "overall": "#a49a80",
+        "accent": "#e8debd"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "two baskets",
+      "ref": "Jeremiah 24:1–7",
+      "epigraph": "“I will give them a heart to know me”",
+      "poem": "two baskets of figs\nat the temple steps.\none good.\none spoiled.\n\nand the surprise:\nthe good figs\nwere the ones\nalready carried off to Babylon.\n\ni have my eye on them,\nGod said.\nfor good.\ni will give them\na heart to know me.\n\nthe ones who lost everything\nwere not lost\nto him.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#968b74",
+        "horizon": "#95876f",
+        "ground": "#655c4d",
+        "overall": "#7e7361",
+        "accent": "#ddcca8"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "amen",
+      "ref": "Jeremiah 28:1–11",
+      "epigraph": "“Amen! May Yahweh do so.”",
+      "poem": "another prophet\nstood up in the temple:\ntwo years,\nand it'll all be over.\n\nhe took the wooden yoke\noff Jeremiah's neck\nand broke it.\n\nand Jeremiah said:\namen.\nmay the Lord do so.\n\nhe wanted it\nto be true.\n\na true prophet\ndoesn't love\nbeing right\nabout the hard things.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4cab3",
+        "horizon": "#c3b79c",
+        "ground": "#b2a68a",
+        "overall": "#bcb096",
+        "accent": "#f6f0db"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "build houses",
+      "ref": "Jeremiah 29:4–6",
+      "epigraph": "“Build houses and dwell in them. Plant gardens and eat their fruit.”",
+      "poem": "a letter came\nall the way from Jerusalem.\n\nthey must have hoped\nit said:\npack your things.\n\nit said:\nbuild houses.\nplant gardens.\neat what grows.\nhave weddings.\nhold babies.\n\nyou're going to be here\na while.\n\nit wasn't giving up.\n\nit was God saying\neven here,\nlive.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#eee3c0",
+        "horizon": "#aaa086",
+        "ground": "#84826a",
+        "overall": "#b0a98d",
+        "accent": "#f8edc3"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "the peace of the city",
+      "ref": "Jeremiah 29:7",
+      "epigraph": "“Seek the peace of the city where I have caused you to be carried away captive, and pray to Y ahweh for it”",
+      "poem": "pray for the city,\nhe wrote.\n\nnot the old one.\nthe new one.\n\nthe one with the strange gods\nand the strange language\nand the walls\nyou didn't choose.\n\nseek its peace.\n\nbecause in its peace\nyou will find\nyour own.\n\nyou can't bless a place\nand stay\na stranger in it\nforever.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7b799",
+        "horizon": "#686257",
+        "ground": "#4b4133",
+        "overall": "#766c5b",
+        "accent": "#e3c597"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "a future and a hope",
+      "ref": "Jeremiah 29:10–13",
+      "epigraph": "“thoughts of peace, and not of evil, to give you hope and a future.”",
+      "poem": "seventy years,\nthe letter said.\n\nnot two.\nseventy.\n\nmany of them\nwouldn't live to see it.\n\nand still:\ni know the thoughts i think toward you.\npeace, not harm.\na future.\na hope.\n\nyou'll seek me with your whole heart\nand find me.\n\na hope\nlong enough\nfor your children too.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-024.jpg",
+      "heroSrc": "assets/a-future-and-a-hope/web/b-021-024.jpg",
+      "isScene": true,
+      "sceneType": "exile_letter_scroll",
+      "palette": {
+        "top": "#927f5c",
+        "horizon": "#625742",
+        "ground": "#524632",
+        "overall": "#675941",
+        "accent": "#fbe09e"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "everlasting",
+      "ref": "Jeremiah 31:3–4",
+      "epigraph": "“I have loved you with an everlasting love.”",
+      "poem": "after everything—\nthe broken cisterns,\nthe belt in the rock,\nthe long road away—\n\nthis:\n\ni have loved you\nwith an everlasting love.\n\ni'll build you again.\n\nyou'll pick up your tambourines.\nyou'll go out dancing.\n\nthe love\ndidn't start\nbecause you got it right.\n\nso it won't stop\nbecause you didn't.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ebd9b5",
+        "horizon": "#a89b7f",
+        "ground": "#746450",
+        "overall": "#a9997d",
+        "accent": "#f3e3be"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "with weeping",
+      "ref": "Jeremiah 31:8–9",
+      "epigraph": "“They will come with weeping. I will lead them with petitions.”",
+      "poem": "they'll come home\ncrying.\n\nnot marching.\nnot singing yet.\n\nthe blind ones,\nthe limping ones,\nthe mothers\nwith babies on the way.\n\ni'll walk them\nby rivers of water,\non a straight road\nwhere no one trips.\n\nhe doesn't wait\nfor the tears to stop\nbefore he brings them.\n\nthe tears\ncome too.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dfd0b0",
+        "horizon": "#85816c",
+        "ground": "#857f69",
+        "overall": "#9f977f",
+        "accent": "#ecdbba"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "Rachel",
+      "ref": "Jeremiah 31:15–17",
+      "epigraph": "“There is hope for your latter end”",
+      "poem": "a voice in Ramah.\nweeping.\na mother\nwho won't be comforted.\n\nand God doesn't tell her\nto stop.\n\nhe says:\nyour work\nwill be rewarded.\n\nthey will come back.\n\nthere is hope\nfor what comes after.\n\nhe doesn't hurry her grief.\nhe sets a door\nat the end of it.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0a688",
+        "horizon": "#977869",
+        "ground": "#554a3a",
+        "overall": "#85705c",
+        "accent": "#f3af8a"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "sweet",
+      "ref": "Jeremiah 31:25–26",
+      "epigraph": "“On this I awakened, and saw; and my sleep was sweet to me.”",
+      "poem": "after all the hard words,\na dream of comfort—\n\nand he woke up\nand said:\n\nmy sleep\nwas sweet.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5bf98",
+        "horizon": "#af9a77",
+        "ground": "#c1ac87",
+        "overall": "#bfaa85",
+        "accent": "#ffdba4"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "new covenant",
+      "ref": "Jeremiah 31:31–34",
+      "epigraph": "“I will forgive their iniquity, and I will remember their sin no more.”",
+      "poem": "the old covenant\nwas carved on stone.\nthey broke it.\n\nso God said:\na new one.\nnot on tablets this time.\ni'll write it\non their hearts.\n\nthey'll all know me,\nthe least to the greatest.\n\nand the last line\nis the best:\n\ni will forgive,\nand i will not\nremember.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ecdeb7",
+        "horizon": "#958768",
+        "ground": "#d1c19a",
+        "overall": "#c0b18d",
+        "accent": "#f0e0b9"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "a field in Anathoth",
+      "ref": "Jeremiah 32:6–15",
+      "epigraph": "“Houses and fields and vineyards will yet again be bought in this land.”",
+      "poem": "the army was outside the walls.\nthe prophet was locked in the guard's court.\n\nand his cousin came\nwith a strange request:\nbuy my field.\n\nso he did.\nseventeen shekels of silver,\nweighed out.\nthe deed signed and sealed,\nwitnesses watching,\nthe papers put in a clay jar\nto last.\n\nwho buys land\nwhen the city is about to fall?\n\nsomeone who believes\nthere will be\na morning after.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-030.jpg",
+      "heroSrc": "assets/a-future-and-a-hope/web/b-021-030.jpg",
+      "isScene": true,
+      "sceneType": "anathoth_deed_jars",
+      "palette": {
+        "top": "#afa68c",
+        "horizon": "#978b6e",
+        "ground": "#7d755d",
+        "overall": "#958a70",
+        "accent": "#e9ddc4"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "too hard",
+      "ref": "Jeremiah 32:16–27",
+      "epigraph": "“There is nothing too hard for you.”",
+      "poem": "you made the heavens,\nhe prayed.\nthere is nothing\ntoo hard for you.\n\nand then, honestly:\nbut you told me\nto buy a field.\nand the city\nis falling.\n\nGod answered\nwith his own words\nhanded back:\n\ni am the God\nof all flesh.\n\nis anything\ntoo hard\nfor me?",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#4c4d48",
+        "horizon": "#635f52",
+        "ground": "#464339",
+        "overall": "#4f4e44",
+        "accent": "#e8c998"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "again",
+      "ref": "Jeremiah 33:10–11",
+      "epigraph": "“the voice of joy and the voice of gladness, the voice of the bridegroom and the voice of the bride”",
+      "poem": "the streets\nhad gone quiet.\n\nno millstones.\nno lamps.\nno weddings.\n\nand God said:\nagain.\n\nin this very place,\nthe one you call empty—\n\na bride laughing.\na groom's voice.\npeople bringing thanks\nto his house\n\nand singing\nhis love endures\nforever.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a29379",
+        "horizon": "#6a5c44",
+        "ground": "#675b46",
+        "overall": "#776952",
+        "accent": "#ecbf80"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "the winter house",
+      "ref": "Jeremiah 36:20–24",
+      "epigraph": "“there was a fire in the brazier burning before him.”",
+      "poem": "winter.\nthe king by the fire.\na servant reads\nthe prophet's scroll aloud.\n\nthree or four leaves,\nand the king\ncuts them off\nand drops them in the coals.\n\nthen three or four more,\nuntil the whole thing\nis gone.\n\nnobody is afraid.\n\njust a warm room\nand a man\nwho didn't want to hear.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#968c7a",
+        "horizon": "#716654",
+        "ground": "#847966",
+        "overall": "#807663",
+        "accent": "#e1dcd6"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "another scroll",
+      "ref": "Jeremiah 36:27–32",
+      "epigraph": "“Take again another scroll”",
+      "poem": "the king burned it.\n\nso God said:\ntake another scroll.\n\nand Baruch sat down\nwith his pen\nand wrote it\nall again.\n\nevery word.\nand more.\n\nyou can burn\nthe page.\n\nyou can't burn\nthe one\nwho said it.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3a995",
+        "horizon": "#8d7e61",
+        "ground": "#5c4e3b",
+        "overall": "#867962",
+        "accent": "#eaddbf"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "the bakers’ street",
+      "ref": "Jeremiah 37:16–21",
+      "epigraph": "“They gave him daily a loaf of bread out of the bakers’ street, until all the bread in the city was gone.”",
+      "poem": "in the guard's court\nthey gave him\none loaf a day\nfrom the bakers' street.\n\none loaf.\nevery day.\n\nuntil there was\nno bread left\nin the city.\n\nsometimes faithfulness\nlooks like this:\n\nenough\nfor today.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aba08b",
+        "horizon": "#90836a",
+        "ground": "#897b66",
+        "overall": "#92846e",
+        "accent": "#efe6d2"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "rags and ropes",
+      "ref": "Jeremiah 38:6–13",
+      "epigraph": "“Now put these rags and worn-out garments under your armpits under the cords.”",
+      "poem": "they let him down\ninto the cistern with ropes.\nno water.\njust mud.\nand he sank.\n\nthen Ebedmelech the Ethiopian\nwent to the king\nand spoke up for him.\n\nhe came back with men,\nropes,\nand something else:\nold rags.\nworn-out clothes.\n\ncourage\nbrought the ropes.\n\nkindness\nremembered the rags.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a4997f",
+        "horizon": "#a4977e",
+        "ground": "#aea289",
+        "overall": "#a79a81",
+        "accent": "#f7e8ca"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "because you trusted",
+      "ref": "Jeremiah 39:15–18",
+      "epigraph": "“because you have put your trust in me”",
+      "poem": "the city fell.\n\nand God\nremembered\nthe man with the rags.\n\ntell Ebedmelech,\nhe said:\ni will rescue you.\nyou will come through this alive.\n\nnot because he was important.\nnot because he was from here.\n\nbecause\nhe trusted me.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#857d6b",
+        "horizon": "#6c6352",
+        "ground": "#70634d",
+        "overall": "#756a57",
+        "accent": "#f6e4b3"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "wherever you go",
+      "ref": "Jeremiah 45:1–5",
+      "epigraph": "“I will let you escape with your life wherever you go.”",
+      "poem": "Baruch was tired.\nsorrow on top of sorrow,\nhe said.\ni can't rest.\n\nGod didn't promise him\ngreatness.\n\ndon't go looking for great things,\nhe said.\n\nbut i'll give you\nyour life,\nwherever you go.\n\nit sounds small.\n\nit's the kind of gift\nthat fits in a traveler's bag\nand lasts\nthe whole road.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b89d",
+        "horizon": "#9d937a",
+        "ground": "#8c8471",
+        "overall": "#a39981",
+        "accent": "#efe6d6"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "pomegranates",
+      "ref": "Jeremiah 52:17–23",
+      "epigraph": "“with network and pomegranates on the capital all around”",
+      "poem": "near the end,\nan inventory.\n\npots. shovels.\nlampstands. bowls.\nthe great bronze pillars\nwith pomegranates\nall around the tops.\n\ncarried off\nto Babylon.\n\nsometimes grief\nsounds like that—\ncounting\nwhat was beautiful\n\nso it won't be\nforgotten.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dacfb3",
+        "horizon": "#918771",
+        "ground": "#897a62",
+        "overall": "#a1957d",
+        "accent": "#e7dcc2"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "he spoke kindly",
+      "ref": "Jeremiah 52:31–34",
+      "epigraph": "“He spoke kindly to him”",
+      "poem": "thirty-seven years\na captive.\n\nthen one day\na new king\nopened the door.\n\nhe spoke kindly to him.\ngave him new clothes.\na seat at the table.\nbread every day\nfor the rest of his life.\n\nthat's how Jeremiah ends.\n\nnot with the fire.\n\nwith a door\nopening,\na kind word,\nand bread.",
+      "webSrc": "assets/a-future-and-a-hope/web/b-021-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0ac82",
+        "horizon": "#8c8268",
+        "ground": "#7c6f54",
+        "overall": "#928465",
+        "accent": "#e7d5a7"
+      }
+    }
+  ]
+}

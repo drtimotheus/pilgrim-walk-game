@@ -6,43 +6,48 @@
   "parts": [
     {
       "index": 1,
-      "title": "Part One \u00b7 The Fire on the Altar",
+      "title": "Part One · The Fire on the Altar",
       "epigraph": "Fire shall be kept burning on the altar continually; it shall not go out.",
       "epigraphRef": "LEVITICUS 6:13",
       "startN": 1,
-      "endN": 7
+      "endN": 7,
+      "part": 1
     },
     {
       "index": 2,
-      "title": "Part Two \u00b7 I Will Walk Among You",
+      "title": "Part Two · I Will Walk Among You",
       "epigraph": "I will walk among you, and will be your God, and you will be my people.",
       "epigraphRef": "LEVITICUS 26:12",
       "startN": 8,
-      "endN": 16
+      "endN": 16,
+      "part": 2
     },
     {
       "index": 3,
-      "title": "Part Three \u00b7 Bless You and Keep You",
+      "title": "Part Three · Bless You and Keep You",
       "epigraph": "Yahweh bless you, and keep you.",
       "epigraphRef": "NUMBERS 6:24",
       "startN": 17,
-      "endN": 24
+      "endN": 24,
+      "part": 3
     },
     {
       "index": 4,
-      "title": "Part Four \u00b7 Has His Hand Grown Short?",
+      "title": "Part Four · Has His Hand Grown Short?",
       "epigraph": "Has Yahweh's hand grown short?",
       "epigraphRef": "NUMBERS 11:23",
       "startN": 25,
-      "endN": 32
+      "endN": 32,
+      "part": 4
     },
     {
       "index": 5,
-      "title": "Part Five \u00b7 A Star Out of Jacob",
+      "title": "Part Five · A Star Out of Jacob",
       "epigraph": "A star will come out of Jacob.",
       "epigraphRef": "NUMBERS 24:17",
       "startN": 33,
-      "endN": 40
+      "endN": 40,
+      "part": 5
     }
   ],
   "cover": "assets/fire-by-night/web/f-003-000.jpg",

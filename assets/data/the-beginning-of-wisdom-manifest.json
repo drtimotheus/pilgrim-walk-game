@@ -1,0 +1,824 @@
+{
+  "district": 17,
+  "slug": "the-beginning-of-wisdom",
+  "title": "The Beginning of Wisdom",
+  "subtitle": "Proverbs in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/the-beginning-of-wisdom/web/b-017-000.jpg",
+  "beforeYouBegin": "Proverbs is a book of short sayings about everyday life: how to speak, how to work, how to treat a friend, an enemy, a child, the poor at the door, and how to build a home that lasts.\n\nThis book gathers forty of them into five parts. Each poem sits beside a picture and under a single line of Scripture, and most are short enough to read with your morning coffee.\n\nThe poems are not the Bible. They are one reader's response to it. Open Proverbs alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "The Beginning of Wisdom",
+      "epigraph": "Trust in Yahweh with all your heart, and don’t lean on your own understanding.",
+      "epigraphRef": "Proverbs 3:5",
+      "lightName": "Light of The Beginning of Wisdom",
+      "lightHint": "Near 'the first lesson' (Proverbs 1:7) in Part 1: The Beginning of Wisdom"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "The Tongue",
+      "epigraph": "Death and life are in the power of the tongue",
+      "epigraphRef": "Proverbs 18:21",
+      "lightName": "Light of The Tongue",
+      "lightHint": "Near 'a full jar' (Proverbs 10:19) in Part 2: The Tongue"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 17,
+      "title": "Work and Wealth",
+      "epigraph": "Commit your deeds to Y ahweh, and your plans shall succeed.",
+      "epigraphRef": "Proverbs 16:3",
+      "lightName": "Light of Work and Wealth",
+      "lightHint": "Near 'the next thing' (Proverbs 10:4) in Part 3: Work and Wealth"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 25,
+      "title": "Friends",
+      "epigraph": "A friend loves at all times; and a brother is born for adversity.",
+      "epigraphRef": "Proverbs 17:17",
+      "lightName": "Light of Friends",
+      "lightHint": "Near 'iron' (Proverbs 27:17) in Part 4: Friends"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 33,
+      "title": "A House Built by Wisdom",
+      "epigraph": "Through wisdom a house is built; by understanding it is established",
+      "epigraphRef": "Proverbs 24:3",
+      "lightName": "Light of A House Built by Wisdom",
+      "lightHint": "Near 'stone by stone' (Proverbs 14:1) in Part 5: A House Built by Wisdom"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "the first lesson",
+      "ref": "Proverbs 1:7",
+      "epigraph": "“The fear of Yahweh is the beginning of knowledge”",
+      "poem": "not the end of wisdom.\nthe beginning.\n\nbefore you learn\nhow to speak,\nhow to earn,\nhow to love,\n\nyou learn\nwho God is,\nand who you aren't.\n\nawe\nis the first lesson.\neverything else\nis homework.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a99e89",
+        "horizon": "#857d68",
+        "ground": "#63543f",
+        "overall": "#817660",
+        "accent": "#d99d5a"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "in the street",
+      "ref": "Proverbs 1:20–21",
+      "epigraph": "“Wisdom calls aloud in the street.”",
+      "poem": "wisdom isn't hiding\nin a monastery\nor a library.\n\nshe's standing in the market,\nat the busy gate,\ncalling out\nover the noise—\n\nto anyone\nwho'll turn their head.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3a683",
+        "horizon": "#918466",
+        "ground": "#7e7358",
+        "overall": "#918567",
+        "accent": "#e7c482"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "straight paths",
+      "ref": "Proverbs 3:5–6",
+      "epigraph": "“In all your ways acknowledge him, and he will make your paths straight.”",
+      "poem": "trust him with your whole heart,\nnot the leftover part.\n\nand don't lean\non your own understanding.\nit's a good staff,\nbut not strong enough\nto hold your weight.\n\nin every road you take,\nturn your head toward him.\n\nhe'll straighten\nwhat you can't.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dcd1b7",
+        "horizon": "#b2a98e",
+        "ground": "#70674b",
+        "overall": "#a3997e",
+        "accent": "#f1e6c8"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "the stake",
+      "ref": "Proverbs 3:11–12",
+      "epigraph": "“whom Y ahweh loves, he corrects”",
+      "poem": "the gardener ties the young vine\nto the stake,\nnot to hurt it—\nto help it grow up\ninstead of sprawling.\n\ndon't resent\nthe tying.\n\nit's what fathers do\nfor the children\nthey delight in.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d7ba",
+        "horizon": "#baae92",
+        "ground": "#a59679",
+        "overall": "#bdaf93",
+        "accent": "#f1e6cb"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "sunrise",
+      "ref": "Proverbs 4:18",
+      "epigraph": "“the path of the righteous is like the dawning light that shines more and more until the perfect day.”",
+      "poem": "you don't go from dark to noon\nin a moment.\n\nfirst the grey.\nthen a thin line on the hills.\nthen gold,\nmore and more,\n\nuntil the full day.\n\nso it is with a life\nwalking toward God:\nnot a switch.\na sunrise.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9ba9a",
+        "horizon": "#928976",
+        "ground": "#675a49",
+        "overall": "#8c816b",
+        "accent": "#fce7a1"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "the wellspring",
+      "ref": "Proverbs 4:23",
+      "epigraph": "“Keep your heart with all diligence, for out of it is the wellspring of life.”",
+      "poem": "guard the spring,\nand the whole valley drinks.\n\nlet mud in at the source,\nand every stream downhill\ntastes of it.\n\nkeep your heart.\neverything else\nflows from there.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-006.jpg",
+      "heroSrc": "assets/the-beginning-of-wisdom/web/b-017-006.jpg",
+      "isScene": true,
+      "sceneType": "wellspring_of_life",
+      "palette": {
+        "top": "#c9bda1",
+        "horizon": "#a89b7f",
+        "ground": "#9a9175",
+        "overall": "#a99e82",
+        "accent": "#efe2c4"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the ant",
+      "ref": "Proverbs 6:6–8",
+      "epigraph": "“Go to the ant, you sluggard. Consider her ways, and be wise”",
+      "poem": "no boss.\nno overseer.\nno one watching.\n\nand still the ant\ngathers in summer\nwhat she'll need in winter.\n\nGod sends the lazy man\nto school\nunder a rock.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d0a5",
+        "horizon": "#a4926e",
+        "ground": "#a18e6b",
+        "overall": "#b8a57e",
+        "accent": "#f1deb5"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "rejoicing",
+      "ref": "Proverbs 8:27–31",
+      "epigraph": "“I was a delight day by day, always rejoicing before him”",
+      "poem": "wisdom was there\nwhen God made the world—\n\nnot as a blueprint,\nnot as a rule book,\n\nbut rejoicing,\ndelighting in the whole earth,\nand especially\nin people.\n\nwisdom, it turns out,\nis not grim.\nit laughs\nwhile it builds.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7ccab",
+        "horizon": "#b5aa8e",
+        "ground": "#817558",
+        "overall": "#aa9e80",
+        "accent": "#fbebbb"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "a full jar",
+      "ref": "Proverbs 10:19",
+      "epigraph": "“he who restrains his lips does wisely.”",
+      "poem": "the more you talk,\nthe more\nyou'll have to take back.\n\nwise people\nare not the ones\nwith the most to say.\n\nthey're the ones\nwho can carry a full jar\nwithout spilling.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbc09f",
+        "horizon": "#8e7f64",
+        "ground": "#615643",
+        "overall": "#8e8268",
+        "accent": "#e9d9b4"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "blade or balm",
+      "ref": "Proverbs 12:18",
+      "epigraph": "“the tongue of the wise heals.”",
+      "poem": "some words\ngo in like a blade.\n\nsome\nlike ointment.\n\nyou carry both\nin the same mouth.\n\nchoose\nwhich one\nyou'll hand people today.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bbaf93",
+        "horizon": "#928569",
+        "ground": "#7e7056",
+        "overall": "#93866b",
+        "accent": "#dfd3b6"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "a cup of water",
+      "ref": "Proverbs 15:1",
+      "epigraph": "“A gentle answer turns away wrath”",
+      "poem": "anger comes in hot.\n\nyou can throw on\nanother log,\nor a cup of water.\n\na soft answer\nisn't weakness.\nit's the strongest thing\nin the room\nrefusing to burn.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdc1a5",
+        "horizon": "#908268",
+        "ground": "#ac9f84",
+        "overall": "#aa9d83",
+        "accent": "#dfd2b4"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "honeycomb",
+      "ref": "Proverbs 16:24",
+      "epigraph": "“Pleasant words are a honeycomb, sweet to the soul, and health to the bones.”",
+      "poem": "say something kind today,\non purpose.\n\nit costs you nothing.\nit lands like honey\non the tongue\nof someone who hasn't tasted\nanything sweet\nin a while.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c3b086",
+        "horizon": "#948564",
+        "ground": "#9e865f",
+        "overall": "#a7926b",
+        "accent": "#e4c67c"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "the quiet fool",
+      "ref": "Proverbs 17:28",
+      "epigraph": "“Even a fool, when he keeps silent, is counted wise.”",
+      "poem": "this might be\nthe funniest verse in the Bible.\n\nif you can't be wise,\nat least be quiet—\npeople will assume\nyou are.\n\nand sometimes\nthe quiet\nis where the wisdom\nstarts.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ceb692",
+        "horizon": "#b7a281",
+        "ground": "#70644f",
+        "overall": "#a49173",
+        "accent": "#f1cd95"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "apples of gold",
+      "ref": "Proverbs 25:11",
+      "epigraph": "“A word fitly spoken is like apples of gold in settings of silver.”",
+      "poem": "the right word\nat the right time\n\nis jewelry.\n\nnot the loudest word.\nnot the cleverest.\nthe fitting one—\n\nset in its moment\nlike gold\nin silver.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-014.jpg",
+      "heroSrc": "assets/the-beginning-of-wisdom/web/b-017-014.jpg",
+      "isScene": true,
+      "sceneType": "apples_of_gold",
+      "palette": {
+        "top": "#bdaf97",
+        "horizon": "#968467",
+        "ground": "#53493a",
+        "overall": "#877963",
+        "accent": "#f8da91"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "no more wood",
+      "ref": "Proverbs 26:20",
+      "epigraph": "“For lack of wood a fire goes out. Without gossip, a quarrel dies down.”",
+      "poem": "the fight will burn out\non its own,\n\nif nobody\nkeeps feeding it.\n\nevery whisper\nis a stick of wood.\n\nsometimes the holiest thing\nyou can do\nis let a story\ndie with you.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8d836e",
+        "horizon": "#5e594c",
+        "ground": "#897a62",
+        "overall": "#7d725e",
+        "accent": "#cdb995"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "your own horn",
+      "ref": "Proverbs 27:2",
+      "epigraph": "“Let another man praise you, and not your own mouth”",
+      "poem": "if you have to blow your own horn,\nit's probably\nnot much of a song.\n\ndo the work.\nlet the praise\ncome from somewhere else,\nor not at all.\n\neither way,\nthe work\nis still good.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbc0a6",
+        "horizon": "#8e8778",
+        "ground": "#887c67",
+        "overall": "#9d937f",
+        "accent": "#e4dabd"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "the next thing",
+      "ref": "Proverbs 10:4",
+      "epigraph": "“the hand of the diligent brings wealth.”",
+      "poem": "no shortcut here.\nno secret.\n\njust the hand\nthat shows up\nmorning after morning\nand does the next thing.\n\nGod blesses work.\nhe doesn't\ndo it for you.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#82755a",
+        "horizon": "#877559",
+        "ground": "#584b38",
+        "overall": "#75664d",
+        "accent": "#f7ebcb"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "the one who waters",
+      "ref": "Proverbs 11:24–25",
+      "epigraph": "“He who waters shall be watered also himself.”",
+      "poem": "the strange arithmetic\nof heaven:\n\nscatter, and you gain.\nclutch, and you lose.\n\npour water\non someone else's garden,\nand somehow\nyour own ground\ngets wet.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a59a86",
+        "horizon": "#8f816c",
+        "ground": "#897c67",
+        "overall": "#968974",
+        "accent": "#eee4d2"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "little by little",
+      "ref": "Proverbs 13:11",
+      "epigraph": "“he who gathers by hand makes it grow.”",
+      "poem": "quick money\nleaks.\n\nslow money,\ngathered by hand,\ncoin by coin,\ngrows.\n\nmost good things\ncome that way:\nlittle by little,\nlike a garden,\nlike a friendship,\nlike faith.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9c7a4",
+        "horizon": "#aa9876",
+        "ground": "#ad9776",
+        "overall": "#b8a482",
+        "accent": "#e8d7b7"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "better is little",
+      "ref": "Proverbs 15:16",
+      "epigraph": "“Better is little, with the fear of Yahweh, than great treasure with trouble.”",
+      "poem": "a little,\nwith peace.\n\nor a lot,\nwith worry.\n\nyou don't always get to choose\nhow much.\n\nyou can choose\nthe second half\nof the sentence.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a5906c",
+        "horizon": "#75664e",
+        "ground": "#71634a",
+        "overall": "#837255",
+        "accent": "#f2ce85"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "the steps",
+      "ref": "Proverbs 16:9",
+      "epigraph": "“A man’s heart plans his course, but Y ahweh directs his steps.”",
+      "poem": "make your plans.\nwrite them down.\nit's good.\n\nand hold them loosely,\nbecause the steps\nbelong to someone else.\n\nhe'll bend the road\nwhere you didn't expect,\nand one day\nyou'll be glad\nhe did.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6d0c2",
+        "horizon": "#827a68",
+        "ground": "#a29780",
+        "overall": "#a59c8a",
+        "accent": "#f3e9da"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "a loan",
+      "ref": "Proverbs 19:17",
+      "epigraph": "“He who has pity on the poor lends to Yahweh”",
+      "poem": "you gave\nto someone\nwho can't pay you back.\n\nGod writes it down\nas a loan\nto himself.\n\nhe is good for it.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bba0",
+        "horizon": "#918065",
+        "ground": "#958469",
+        "overall": "#a19277",
+        "accent": "#e5d9bf"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "a good name",
+      "ref": "Proverbs 22:1",
+      "epigraph": "“A good name is more desirable than great riches”",
+      "poem": "money can be earned back.\na name\ntakes years.\n\nand a name is what people say\nwhen you leave the room,\nwhat your children inherit,\nwhat's left\nwhen the gold is spent.\n\nbuild that.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9cba5",
+        "horizon": "#aea080",
+        "ground": "#b6a789",
+        "overall": "#bbad8c",
+        "accent": "#e5d5af"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "wings",
+      "ref": "Proverbs 23:4–5",
+      "epigraph": "“it certainly sprouts wings like an eagle and flies in the sky.”",
+      "poem": "don't wear yourself out\ngetting rich.\n\nlook—\nthere it goes,\nriches with wings,\nflying off over the hills\nlike an eagle\nthat was never yours.\n\nrest.\nthere are better things\nto hold.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbcab8",
+        "horizon": "#b3aa90",
+        "ground": "#847961",
+        "overall": "#a8a089",
+        "accent": "#e7ddbe"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "iron",
+      "ref": "Proverbs 27:17",
+      "epigraph": "“Iron sharpens iron”",
+      "poem": "you need a friend\nwho scrapes against you\na little.\n\nnot to cut you.\nto keep your edge.\n\nsoft company\nmakes dull people.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-025.jpg",
+      "heroSrc": "assets/the-beginning-of-wisdom/web/b-017-025.jpg",
+      "isScene": true,
+      "sceneType": "iron_sharpens_iron",
+      "palette": {
+        "top": "#dbceab",
+        "horizon": "#90856a",
+        "ground": "#494437",
+        "overall": "#8c836b",
+        "accent": "#e5d8b6"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "closer",
+      "ref": "Proverbs 18:24",
+      "epigraph": "“there is a friend who sticks closer than a brother.”",
+      "poem": "lots of people\nknow your name.\n\na few know your story.\n\nand maybe one\nwould come at midnight\nif you called.\n\nthat one\nis worth\nall the rest.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccc0a8",
+        "horizon": "#baad93",
+        "ground": "#8a7d66",
+        "overall": "#ac9f87",
+        "accent": "#eee3c5"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "the sting",
+      "ref": "Proverbs 27:6",
+      "epigraph": "“The wounds of a friend are faithful”",
+      "poem": "a flatterer kisses you\nand lets you walk off a cliff.\n\na friend\ntells you the truth,\nand it stings.\n\ntrust the sting.\nit's the one\nthat loves you.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ada085",
+        "horizon": "#bdaf91",
+        "ground": "#c4b8a0",
+        "overall": "#b9ad92",
+        "accent": "#e6d8be"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "your enemy's bread",
+      "ref": "Proverbs 25:21–22",
+      "epigraph": "“If your enemy is hungry, give him food to eat.”",
+      "poem": "not just your friend.\nyour enemy.\n\nhungry? feed him.\nthirsty? give him a drink.\n\nit's the strangest weapon\nin the whole book,\nand the only one\nthat can turn an enemy\ninto something else.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddcda9",
+        "horizon": "#a79779",
+        "ground": "#b5a380",
+        "overall": "#bcab88",
+        "accent": "#e0b669"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "good medicine",
+      "ref": "Proverbs 17:22",
+      "epigraph": "“A cheerful heart makes good medicine”",
+      "poem": "laugh today.\n\nnot at someone.\nwith someone.\n\nit's medicine—\nthe Bible says so—\nand it's free,\nand it's catching.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b7ae96",
+        "horizon": "#9c9077",
+        "ground": "#9b907c",
+        "overall": "#a29881",
+        "accent": "#cca95b"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "the stronger soldier",
+      "ref": "Proverbs 16:32",
+      "epigraph": "“one who rules his spirit, than he who takes a city.”",
+      "poem": "there are generals\nwho took whole cities\nand could not take\ntheir own temper.\n\nthe quiet one\nwho holds his tongue\nwhile he's being provoked—\n\nthat's the stronger soldier.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8c1a0",
+        "horizon": "#bf9d82",
+        "ground": "#625a4c",
+        "overall": "#9f8b75",
+        "accent": "#fac198"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "deep water",
+      "ref": "Proverbs 20:5",
+      "epigraph": "“Counsel in the heart of man is like deep water, but a man of understanding will draw it out.”",
+      "poem": "people are wells.\nthe good stuff\nis deep down.\n\nyou won't get it\nby shouting in.\n\nlet down a question.\nwait.\nlisten.\ndraw it up\nslowly.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b492",
+        "horizon": "#6a6554",
+        "ground": "#b6a78a",
+        "overall": "#9e9379",
+        "accent": "#e8d8b3"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "tomorrow",
+      "ref": "Proverbs 27:1",
+      "epigraph": "“Don’t boast about tomorrow; for you don’t know what a day may bring.”",
+      "poem": "tomorrow I will—\n\ncareful.\n\nyou don't own tomorrow.\nyou're only given\ntoday.\n\nso say the kind word now.\nmake the call now.\ntomorrow\nbelongs to God.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b6bbad",
+        "horizon": "#b4b09a",
+        "ground": "#7a6b4f",
+        "overall": "#9b957f",
+        "accent": "#f4e5bb"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "stone by stone",
+      "ref": "Proverbs 14:1",
+      "epigraph": "“Every wise woman builds her house”",
+      "poem": "a house can be built\nor torn down\nby the same two hands,\n\none choice at a time:\na word,\na patience,\na prayer,\n\na stone laid\nor a stone pulled out.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e7dab7",
+        "horizon": "#ad9d7e",
+        "ground": "#bbab8a",
+        "overall": "#c3b392",
+        "accent": "#e9d9b4"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "a dinner of herbs",
+      "ref": "Proverbs 15:17",
+      "epigraph": "“Better is a dinner of herbs, where love is”",
+      "poem": "a feast\nwith everyone angry,\n\nor soup and bread\nwith people who love each other.\n\nevery family\nhas had both.\n\nonly one\nis a meal.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccbc96",
+        "horizon": "#7d6f52",
+        "ground": "#a99977",
+        "overall": "#a19271",
+        "accent": "#e2cda1"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "quiet",
+      "ref": "Proverbs 17:1",
+      "epigraph": "“Better is a dry morsel with quietness”",
+      "poem": "a crust of bread\nin a peaceful house\n\nbeats a banquet\nin a war zone.\n\npeace at home\nis its own feast.\nguard it.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#807c74",
+        "horizon": "#655d4e",
+        "ground": "#685c49",
+        "overall": "#6c6355",
+        "accent": "#b7a483"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "little feet",
+      "ref": "Proverbs 22:6",
+      "epigraph": "“Train up a child in the way he should go”",
+      "poem": "not a guarantee\nthat nothing will go wrong.\n\na proverb:\na pattern,\nusually true.\n\nwalk the way\nyou want them to walk.\nthey are watching your feet\nmore than your mouth.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c6a2",
+        "horizon": "#a3997c",
+        "ground": "#aea285",
+        "overall": "#b7ac8c",
+        "accent": "#f5e9c2"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "filled rooms",
+      "ref": "Proverbs 24:3–4",
+      "epigraph": "“by knowledge the rooms are filled with all rare and beautiful treasure.”",
+      "poem": "what fills a home?\n\nnot gold, mostly.\nlaughter.\nstories.\na lamp left on.\nthe smell of bread.\nthe same table for years.\n\nwisdom furnishes a house\nwith things\nyou can't buy\nand can't lose.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#98836a",
+        "horizon": "#6a5b49",
+        "ground": "#6d5a47",
+        "overall": "#766451",
+        "accent": "#e4b77d"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "before dawn",
+      "ref": "Proverbs 31:13–15",
+      "epigraph": "“She rises also while it is yet night”",
+      "poem": "up before the sun,\nhands already busy—\nwool, flax,\nbread for everyone.\n\nthis isn't a checklist\nto shame tired mothers.\n\nit's a portrait\nof strength\nthat shows up\nbefore anyone's watching.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-038.jpg",
+      "heroSrc": "assets/the-beginning-of-wisdom/web/b-017-038.jpg",
+      "isScene": true,
+      "sceneType": "lamp_before_dawn",
+      "palette": {
+        "top": "#463d32",
+        "horizon": "#5a4a34",
+        "ground": "#473928",
+        "overall": "#4e402f",
+        "accent": "#cfb07f"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "open hands",
+      "ref": "Proverbs 31:20",
+      "epigraph": "“She opens her arms to the poor”",
+      "poem": "her hands are busy\nall day—\n\nand still open.\n\nnot closed around what she's earned.\nopen\nto the poor at the door.\n\nthe busiest hands\nin the book\nare also\nthe most generous.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a29884",
+        "horizon": "#7d6e59",
+        "ground": "#917d60",
+        "overall": "#8d7d66",
+        "accent": "#f7ecd1"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "she laughs",
+      "ref": "Proverbs 31:25–30",
+      "epigraph": "“Strength and dignity are her clothing. She laughs at the time to come.”",
+      "poem": "the book of wisdom\nends\nwith a woman laughing.\n\nnot because she knows the future.\nbecause she knows\nwho holds it.\n\ncharm fades.\nbeauty fades.\na woman who fears the Lord—\n\nshe's the one\nwisdom was describing\nall along.",
+      "webSrc": "assets/the-beginning-of-wisdom/web/b-017-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ada188",
+        "horizon": "#746851",
+        "ground": "#6f604b",
+        "overall": "#82755d",
+        "accent": "#fae9b8"
+      }
+    }
+  ]
+}

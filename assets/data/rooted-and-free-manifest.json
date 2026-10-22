@@ -1,0 +1,824 @@
+{
+  "district": 35,
+  "slug": "rooted-and-free",
+  "title": "Rooted and Free",
+  "subtitle": "Galatians & Ephesians in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/rooted-and-free/web/b-035-000.jpg",
+  "beforeYouBegin": "Galatians is a letter written in a hurry, by a man afraid his friends were putting the yoke back on. It holds a road into Arabia, a handshake in Jerusalem, a table in Antioch where someone stood up and left, a child crying Abba, a basket of fruit no law can forbid, and a heavy load shared between two backs. Ephesians is slower, written by the same man in chains: a seal pressed into warm clay, a wall with a gap in it, roots going down, a harbor at sunset, a lamp in the dark, and armor laid out piece by piece on a table.\n\nThis book walks through them in forty short poems, in five parts: two for Galatians and three for Ephesians. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the letters touch—a yoke, a seal, a loom, a belt and a pair of sandals—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open Paul's letters to the Galatians and the Ephesians alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Christ Lives in Me",
+      "epigraph": "it is no longer I who live, but Christ lives in me.",
+      "epigraphRef": "Galatians 2:20",
+      "lightName": "Light of Christ Lives in Me",
+      "lightHint": "Near 'so quickly' (Galatians 1:6–7) in Part 1: Christ Lives in Me"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 11,
+      "title": "Called for Freedom",
+      "epigraph": "you, brothers, were called for freedom.",
+      "epigraphRef": "Galatians 5:13",
+      "lightName": "Light of Called for Freedom",
+      "lightHint": "Near 'the fullness of time' (Galatians 4:4–5) in Part 2: Called for Freedom"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 21,
+      "title": "Chosen in Love",
+      "epigraph": "he chose us in him before the foundation of the world",
+      "epigraphRef": "Ephesians 1:4",
+      "lightName": "Light of Chosen in Love",
+      "lightHint": "Near 'every blessing' (Ephesians 1:3) in Part 3: Chosen in Love"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 29,
+      "title": "Rooted and Grounded",
+      "epigraph": "being rooted and grounded in love",
+      "epigraphRef": "Ephesians 3:17",
+      "lightName": "Light of Rooted and Grounded",
+      "lightHint": "Near 'I bow my knees' (Ephesians 3:14–16) in Part 4: Rooted and Grounded"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 35,
+      "title": "Having Done All, to Stand",
+      "epigraph": "having done all, to stand.",
+      "epigraphRef": "Ephesians 6:13",
+      "lightName": "Light of Having Done All, to Stand",
+      "lightHint": "Near 'children of light' (Ephesians 5:8) in Part 5: Having Done All, to Stand"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "so quickly",
+      "ref": "Galatians 1:6–7",
+      "epigraph": "“I marvel that you are so quickly deserting him who called you in the grace of Christ”",
+      "poem": "he doesn't open\nwith thank you.\n\nhe opens\nwith a question\nthat sounds like a hurt:\n\nhow did you leave\nso fast?\n\nnot a rule.\nnot a teacher.\nhim.\n\nthe one who called you\nin grace.\n\nthere is only\none good news,\nand you had it\nin your hands.",
+      "webSrc": "assets/rooted-and-free/web/b-035-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dfd4bb",
+        "horizon": "#bfb49c",
+        "ground": "#8c7a5b",
+        "overall": "#b2a488",
+        "accent": "#d8b36f"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "not to please",
+      "ref": "Galatians 1:10",
+      "epigraph": "“if I were still pleasing men, I wouldn’t be a servant of Christ.”",
+      "poem": "you can spend a life\nrefilling everyone's cup\nand calling it faith.\n\nsmiling at the right people.\nsaying what they came\nto hear.\n\nPaul had tried\nbeing the best\nat the approved things.\n\nnow he had\nonly one face\nto please,\n\nand it was already\nturned toward him\nin love.",
+      "webSrc": "assets/rooted-and-free/web/b-035-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c9ae",
+        "horizon": "#afa085",
+        "ground": "#b0a389",
+        "overall": "#bbac91",
+        "accent": "#e4d7bd"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "into Arabia",
+      "ref": "Galatians 1:15–17",
+      "epigraph": "“I went away into Arabia. Then I returned to Damascus.”",
+      "poem": "the man who once\nravaged the church\n\ndidn't rush\nto the leaders\nfor approval.\n\nhe went away\ninto Arabia.\n\nwe aren't told\nwhat he did there.\n\nperhaps he prayed.\nperhaps he unlearned\nwhat he had been sure of.\n\nsome callings\nbegin with a road\nand nobody watching.",
+      "webSrc": "assets/rooted-and-free/web/b-035-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7cdb1",
+        "horizon": "#d6c8aa",
+        "ground": "#ac9978",
+        "overall": "#c6b697",
+        "accent": "#ece0c2"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "fifteen days",
+      "ref": "Galatians 1:18",
+      "epigraph": "“Then after three years I went up to Jerusalem to visit Peter, and stayed with him fifteen days.”",
+      "poem": "three years later\nhe climbed to Jerusalem\n\nand stayed with Peter\nfifteen days.\n\nthe fisherman\nand the persecutor.\n\nwhat did they talk about\nover bread?\n\nthe shore, maybe.\na charcoal fire.\na question asked\nthree times.\n\ntwo men\nwho knew what it was\nto be forgiven\nmuch.",
+      "webSrc": "assets/rooted-and-free/web/b-035-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#baa784",
+        "horizon": "#8c7e61",
+        "ground": "#8f7b5c",
+        "overall": "#9a896a",
+        "accent": "#fce9b4"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "the right hand",
+      "ref": "Galatians 2:9–10",
+      "epigraph": "“They only asked us to remember the poor”",
+      "poem": "fourteen years later,\nthe pillars\nheld out their right hands.\n\nyou to the nations.\nwe to our own.\n\nand one thing more,\nalmost on the way out the door:\n\nremember the poor.\n\nhe said\nhe was already\neager to.\n\nsome agreements\nneed a hundred clauses.\nthis one needed\na hand\nand the hungry.",
+      "webSrc": "assets/rooted-and-free/web/b-035-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#96886b",
+        "horizon": "#77644b",
+        "ground": "#6f5f46",
+        "overall": "#817156",
+        "accent": "#e3d7c2"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "the table at Antioch",
+      "ref": "Galatians 2:11–12",
+      "epigraph": "“he ate with the Gentiles. But when they came, he drew back and separated himself”",
+      "poem": "Peter had been eating\nwith everyone.\n\nsame bread.\nsame bowl.\n\nthen certain visitors\narrived,\n\nand he quietly\ngot up\nand moved away.\n\nno speech.\njust a bench\npushed back.\n\nPaul saw\nthe whole gospel\nin that gap.\n\nwho you will eat with\nis what you believe.",
+      "webSrc": "assets/rooted-and-free/web/b-035-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddcdac",
+        "horizon": "#bfaf90",
+        "ground": "#94866e",
+        "overall": "#b6a78a",
+        "accent": "#e2d2b1"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "who loved me",
+      "ref": "Galatians 2:20",
+      "epigraph": "“who loved me, and gave himself up for me.”",
+      "poem": "the old me\nis not trying harder.\n\nthe old me\nwas crucified.\n\nthis breath,\nthis ordinary tuesday,\nis lived now\nby faith\n\nin someone\nwho looked at me\n\nand loved me,\n\nand gave himself\nup for me.\n\nme.",
+      "webSrc": "assets/rooted-and-free/web/b-035-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6c604a",
+        "horizon": "#836f4f",
+        "ground": "#695a45",
+        "overall": "#726249",
+        "accent": "#f3c97d"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "having begun",
+      "ref": "Galatians 3:2–3",
+      "epigraph": "“Having begun in the Spirit, are you now completed in the flesh?”",
+      "poem": "you didn't earn\nthe fire.\n\nyou heard,\nand believed,\nand it was lit.\n\nso why now\nthe sweating,\nthe checklists,\nthe fear?\n\na fire doesn't burn\nbecause you worry at it.\n\nthe one who began\nis the one\nwho keeps it.",
+      "webSrc": "assets/rooted-and-free/web/b-035-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6cab1",
+        "horizon": "#b8ad94",
+        "ground": "#9d9078",
+        "overall": "#b3a78f",
+        "accent": "#dcd0ba"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "the tutor",
+      "ref": "Galatians 3:24–25",
+      "epigraph": "“the law has become our tutor to bring us to Christ”",
+      "poem": "in those days\na trusted servant\nwalked the child to school.\n\ncarried his tablet.\nkept him from the road.\n\ngood work.\n\nbut a day came\nwhen the child\nwas grown\n\nand the guardian\nhanded him over\nto his father.\n\nthe law walked us\nall the way\nto the door.\n\nthe door\nis Christ.",
+      "webSrc": "assets/rooted-and-free/web/b-035-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2a485",
+        "horizon": "#95886d",
+        "ground": "#807358",
+        "overall": "#95876a",
+        "accent": "#eae0c7"
+      }
+    },
+    {
+      "n": 10,
+      "part": 1,
+      "title": "all one",
+      "ref": "Galatians 3:27–28",
+      "epigraph": "“you are all one in Christ Jesus.”",
+      "poem": "Jew and Greek.\nslave and free.\nman and woman.\n\nthe whole world\nsorted into rooms.\n\nthen the water,\nand a new garment\npulled over every head\nthe same:\n\nyou have put on\nChrist.\n\nno one comes up\nfrom that water\n\nranked.",
+      "webSrc": "assets/rooted-and-free/web/b-035-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9cdaf",
+        "horizon": "#bbb39d",
+        "ground": "#c6bba0",
+        "overall": "#c6bca2",
+        "accent": "#e1d6b8"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "the fullness of time",
+      "ref": "Galatians 4:4–5",
+      "epigraph": "“when the fullness of the time came, God sent out his Son, born to a woman”",
+      "poem": "not early.\nnot late.\n\nthe fig\nknows its season.\n\nwhen the time\nwas full,\nGod sent his Son,\n\nnot as a thunderclap\nbut born to a woman,\nunder the same law\nas everyone.\n\nhe came in\nthrough the ordinary door\n\nso we could come out\nas children.",
+      "webSrc": "assets/rooted-and-free/web/b-035-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7c9a6",
+        "horizon": "#9e8f6f",
+        "ground": "#b3a585",
+        "overall": "#b3a585",
+        "accent": "#e5d5b3"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "Abba",
+      "ref": "Galatians 4:6",
+      "epigraph": "“God sent out the Spirit of his Son into your hearts, crying, “Abba, Father!””",
+      "poem": "not\nyour majesty.\nnot\nsir.\n\nAbba.\n\nthe word a child uses\nreaching up\nin the dark.\n\nand it isn't you\nworking up the courage\nto say it.\n\nthe Spirit\ncries it in you,\n\nbefore you've decided\nif you're allowed.",
+      "webSrc": "assets/rooted-and-free/web/b-035-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#938672",
+        "horizon": "#6d6454",
+        "ground": "#65594a",
+        "overall": "#756a59",
+        "accent": "#f1d6a5"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "heir",
+      "ref": "Galatians 4:7",
+      "epigraph": "“So you are no longer a bondservant, but a son; and if a son, then an heir of God through Christ.”",
+      "poem": "the servant\nlives near the house.\n\nthe heir\nlives in it.\n\none waits\nat the kitchen door.\none has\na ring\nand a room.\n\nyou have been\ncarrying yourself\nlike hired help\n\nin your\nfather's house.",
+      "webSrc": "assets/rooted-and-free/web/b-035-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9a8c75",
+        "horizon": "#89795d",
+        "ground": "#4b3d2d",
+        "overall": "#7a6b54",
+        "accent": "#cdaa5f"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "known",
+      "ref": "Galatians 4:9",
+      "epigraph": "“now that you have come to know God, or rather to be known by God”",
+      "poem": "you came to know God,\n\nPaul writes,\nthen corrects himself\n\nmid-sentence:\n\nor rather,\nto be known.\n\nyou thought\nyou found him.\n\nhe had your name\nlong before\nyou had his.",
+      "webSrc": "assets/rooted-and-free/web/b-035-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7e6f81",
+        "horizon": "#8d7b72",
+        "ground": "#403832",
+        "overall": "#675b5a",
+        "accent": "#dcbc99"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "until Christ is formed",
+      "ref": "Galatians 4:19–20",
+      "epigraph": "“My little children, of whom I am again in travail until Christ is formed in you”",
+      "poem": "the tough apostle,\nthe one who argues\nlike a lawyer,\n\nsuddenly says\nlittle children\n\nand reaches\nfor the words\nof a mother in labor.\n\nI am in pain for you\nagain.\n\nlove sounds\nlike this sometimes:\n\nnot calm.\nnot finished.\n\ngroaning\nuntil you're whole.",
+      "webSrc": "assets/rooted-and-free/web/b-035-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6f624e",
+        "horizon": "#62594a",
+        "ground": "#433b2d",
+        "overall": "#594f3f",
+        "accent": "#f7dbb4"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "the yoke",
+      "ref": "Galatians 5:1",
+      "epigraph": "“Stand firm therefore in the liberty by which Christ has made us free”",
+      "poem": "the yoke is off.\n\nit's leaning\nagainst the wall,\nright there,\n\nfamiliar\nas an old coat.\n\nyou know\nexactly how it fit.\n\ndon't pick it up\nagain.\n\nhe didn't\nset you free\nso you could\nvolunteer.",
+      "webSrc": "assets/rooted-and-free/web/b-035-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a5b0b2",
+        "horizon": "#9c9687",
+        "ground": "#887c69",
+        "overall": "#979286",
+        "accent": "#decbaa"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "the fruit",
+      "ref": "Galatians 5:22–23",
+      "epigraph": "“But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith,”",
+      "poem": "fruit,\nnot fruits.\n\none harvest\nfrom one root.\n\nyou can't\nnail it on.\nyou can't\nmanufacture patience\nby Friday.\n\nit ripens\nslowly\non a life\nthat stays connected.\n\nand against such things\nthere is no law.",
+      "webSrc": "assets/rooted-and-free/web/b-035-017.jpg",
+      "heroSrc": "assets/rooted-and-free/web/b-035-017.jpg",
+      "isScene": true,
+      "sceneType": "fruit_of_the_spirit_grove",
+      "palette": {
+        "top": "#c9b896",
+        "horizon": "#9b896a",
+        "ground": "#a09073",
+        "overall": "#a89778",
+        "accent": "#e2d0a6"
+      }
+    },
+    {
+      "n": 18,
+      "part": 2,
+      "title": "one another's burdens",
+      "ref": "Galatians 6:1–2",
+      "epigraph": "“Bear one another’s burdens, and so fulfill the law of Christ.”",
+      "poem": "someone slipped.\nsomeone is down.\n\nyou could\nstand over them\nwith the rulebook.\n\nor kneel,\ngently,\n\nremembering\nit could have been\nyou,\n\nand take\none corner\nof the weight.\n\nthis is the whole law\nof Christ:\n\ntwo backs\nunder one load.",
+      "webSrc": "assets/rooted-and-free/web/b-035-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8ac8e",
+        "horizon": "#a3906c",
+        "ground": "#857556",
+        "overall": "#9b8b6a",
+        "accent": "#e5d7b9"
+      }
+    },
+    {
+      "n": 19,
+      "part": 2,
+      "title": "due season",
+      "ref": "Galatians 6:9",
+      "epigraph": "“Let’s not be weary in doing good, for we will reap in due season, if we don’t give up.”",
+      "poem": "you've been planting\nfor a long time.\n\nthe field\nstill looks\nlike dirt.\n\nno one\nis thanking you.\nkeep going.\n\nseed does its work\nunderground,\nwhere no one claps.\n\nthe harvest\nhas a date.\n\nit just isn't\ntoday.",
+      "webSrc": "assets/rooted-and-free/web/b-035-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdc2aa",
+        "horizon": "#a49985",
+        "ground": "#726351",
+        "overall": "#9d907c",
+        "accent": "#faf2d6"
+      }
+    },
+    {
+      "n": 20,
+      "part": 2,
+      "title": "large letters",
+      "ref": "Galatians 6:11",
+      "epigraph": "“See with what large letters I write to you with my own hand.”",
+      "poem": "the scribe\nsteps back.\n\nPaul takes the pen\nhimself.\n\nbig, uneven letters.\nperhaps his eyes were failing.\nperhaps he wanted them to see.\n\nafter all the argument,\nthis:\n\nhis own hand.\n\nthe cross.\nthe new creation.\ngrace be with your spirit,\nbrothers.\n\namen.",
+      "webSrc": "assets/rooted-and-free/web/b-035-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6e593d",
+        "horizon": "#836949",
+        "ground": "#856d4e",
+        "overall": "#7f6748",
+        "accent": "#eac182"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "every blessing",
+      "ref": "Ephesians 1:3",
+      "epigraph": "“who has blessed us with every spiritual blessing in the heavenly places in Christ”",
+      "poem": "not some blessings.\nnot the ones\nyou managed to earn.\n\nevery.\n\nPaul starts\nwith a sentence\nso long\nhe forgets to stop,\n\nbecause every time\nhe names one gift\nanother is behind it.\n\nthe table\nis already set.\n\nyou are not\nwaiting to be invited.",
+      "webSrc": "assets/rooted-and-free/web/b-035-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8c795f",
+        "horizon": "#856f50",
+        "ground": "#867458",
+        "overall": "#877256",
+        "accent": "#dea725"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "before the foundation",
+      "ref": "Ephesians 1:4–5",
+      "epigraph": "“having predestined us for adoption as children through Jesus Christ to himself”",
+      "poem": "before the first hill.\nbefore the first sea.\nbefore anyone\nhad done a thing\nright or wrong,\n\nhe chose.\n\nnot a boss\nchoosing a worker.\n\na father\nchoosing a child.\n\nadopted.\n\nthat is the oldest\nthing about you.",
+      "webSrc": "assets/rooted-and-free/web/b-035-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dcc9ab",
+        "horizon": "#b7a08d",
+        "ground": "#453e30",
+        "overall": "#948673",
+        "accent": "#fbccb2"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "sealed",
+      "ref": "Ephesians 1:13–14",
+      "epigraph": "“you were sealed with the promised Holy Spirit”",
+      "poem": "in the market\na merchant pressed his seal\ninto the warm clay\n\non the jar he meant\nto come back for.\n\nthis one's mine.\ndon't touch it.\npaid for.\n\nyou heard,\nand believed,\n\nand he pressed\nhis Spirit\ninto you\n\nlike that.\n\na promise\nwith his mark on it.",
+      "webSrc": "assets/rooted-and-free/web/b-035-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6f6758",
+        "horizon": "#716553",
+        "ground": "#716655",
+        "overall": "#726756",
+        "accent": "#d8cdb7"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "dead, and made alive",
+      "ref": "Ephesians 2:4–5",
+      "epigraph": "“But God, being rich in mercy, for his great love with which he loved us”",
+      "poem": "the sentence\nstarts in the grave.\n\ndead.\nfollowing the crowd.\nchildren of wrath.\n\nthen two words\nchange everything:\n\nbut God.\n\nrich in mercy.\nloving with\ngreat love.\n\nnothing new\nbegan\nwith us.\n\nit began\nwith but.",
+      "webSrc": "assets/rooted-and-free/web/b-035-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8ccb6",
+        "horizon": "#bdb29d",
+        "ground": "#7c7261",
+        "overall": "#aca18d",
+        "accent": "#fff5da"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "the gift",
+      "ref": "Ephesians 2:8–9",
+      "epigraph": "“for by grace you have been saved through faith, and that not of yourselves; it is the gift of God”",
+      "poem": "open hands\ncan't make a fist.\n\nthey can only\nreceive.\n\ngrace\nis not a wage.\n\nnot a prize\nfor trying hardest.\n\nit's a gift,\n\nwhich means\nthe only thing\nyou bring\n\nis your empty hands,\n\nand no one\ngets to boast\nabout those.",
+      "webSrc": "assets/rooted-and-free/web/b-035-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d9c2",
+        "horizon": "#d6c8ae",
+        "ground": "#938264",
+        "overall": "#bdaf94",
+        "accent": "#f4e6c9"
+      }
+    },
+    {
+      "n": 26,
+      "part": 3,
+      "title": "workmanship",
+      "ref": "Ephesians 2:10",
+      "epigraph": "“For we are his workmanship, created in Christ Jesus for good works”",
+      "poem": "you're not a mistake\nhe's working around.\n\nyou're the work.\n\na pattern\non his loom,\nthread by thread,\n\nand the good you'll do\nis not a test\nyou have to pass.\n\nit was prepared\nbeforehand,\n\nlike a path\nalready swept\n\nfor your feet.",
+      "webSrc": "assets/rooted-and-free/web/b-035-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ae9f85",
+        "horizon": "#7e6f59",
+        "ground": "#a39279",
+        "overall": "#98876f",
+        "accent": "#dfd2b8"
+      }
+    },
+    {
+      "n": 27,
+      "part": 3,
+      "title": "the wall",
+      "ref": "Ephesians 2:13–14",
+      "epigraph": "“he is our peace, who made both one, and broke down the middle wall of separation”",
+      "poem": "once\nthere was a wall.\n\nyou over there.\nus over here.\nthe far and the near.\n\nhe didn't\nbuild a door in it.\n\nhe broke it\ndown.\n\nlook:\nthe stones in the grass,\nthe path already worn\nthrough the gap\n\nby all the feet\ncoming home\nfrom both sides.",
+      "webSrc": "assets/rooted-and-free/web/b-035-027.jpg",
+      "heroSrc": "assets/rooted-and-free/web/b-035-027.jpg",
+      "isScene": true,
+      "sceneType": "broken_dividing_wall",
+      "palette": {
+        "top": "#e8dabc",
+        "horizon": "#c0b89f",
+        "ground": "#8b826a",
+        "overall": "#b4aa90",
+        "accent": "#fdedcc"
+      }
+    },
+    {
+      "n": 28,
+      "part": 3,
+      "title": "no longer strangers",
+      "ref": "Ephesians 2:19–20",
+      "epigraph": "“you are no longer strangers and foreigners, but you are fellow citizens with the saints and of the household of God”",
+      "poem": "no longer\nthe guest\nwho isn't sure\nwhere to sit.\n\nno longer\nthe foreigner\nat the gate.\n\nhousehold.\n\nfamily.\n\nstone by stone\nyou're being set\ninto something\n\nthat rises\nfrom one corner\n\nand holds.",
+      "webSrc": "assets/rooted-and-free/web/b-035-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c6b1",
+        "horizon": "#aa9f88",
+        "ground": "#bfb39c",
+        "overall": "#bbb09a",
+        "accent": "#f2e7cf"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "I bow my knees",
+      "ref": "Ephesians 3:14–16",
+      "epigraph": "“For this cause, I bow my knees to the Father”",
+      "poem": "a prisoner\nkneels\non a stone floor\n\nand prays,\nnot about his chains,\n\nbut for your\ninner person\nto be strong.\n\nevery family\nin heaven and on earth\ntakes its name\nfrom this Father.\n\nhe is bending down\nlow\n\nto reach up\nfor you.",
+      "webSrc": "assets/rooted-and-free/web/b-035-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#736456",
+        "horizon": "#706554",
+        "ground": "#585247",
+        "overall": "#665c4f",
+        "accent": "#edc1c8"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "rooted",
+      "ref": "Ephesians 3:17–19",
+      "epigraph": "“to know Christ’s love which surpasses knowledge”",
+      "poem": "width. length.\nheight. depth.\nPaul runs out of\nways to measure it.\n\nroots don't\nunderstand the soil.\nthey just go down.\n\nand when the wind comes,\nthe tree doesn't have to\nexplain anything.\n\nyou are asked to know\na love too big\nto know.\n\nso go down.",
+      "webSrc": "assets/rooted-and-free/web/b-035-030.jpg",
+      "heroSrc": "assets/rooted-and-free/web/b-035-030.jpg",
+      "isScene": true,
+      "sceneType": "rooted_in_love_tree",
+      "palette": {
+        "top": "#c9c0a8",
+        "horizon": "#beb69f",
+        "ground": "#8e8570",
+        "overall": "#aea690",
+        "accent": "#f8edcf"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "more than we ask",
+      "ref": "Ephesians 3:20–21",
+      "epigraph": "“to him who is able to do exceedingly abundantly above all that we ask or think”",
+      "poem": "you asked\nfor a cup.\n\nyou were afraid\nthat was too much.\n\nhe is able\nto do more\nthan you ask.\n\nmore than you\ncan think.\n\nmore than\nmore.\n\nthe well\nisn't worried\nabout the size\nof your bucket.",
+      "webSrc": "assets/rooted-and-free/web/b-035-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1bd9d",
+        "horizon": "#8d8370",
+        "ground": "#9d937d",
+        "overall": "#a69981",
+        "accent": "#e4cda9"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "the bond of peace",
+      "ref": "Ephesians 4:2–3",
+      "epigraph": "“bearing with one another in love”",
+      "poem": "bearing with one another.\n\nnot admiring.\nnot agreeing.\nbearing.\n\nthe way a net\nbears the pull\nof every knot\n\nand holds\nbecause it's tied,\nnot because\nit's easy.\n\none body. one Spirit. one hope.\n\nmend the knot\nthat tore.\ntie it\nwith peace.",
+      "webSrc": "assets/rooted-and-free/web/b-035-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6ba9e",
+        "horizon": "#8d8672",
+        "ground": "#81755d",
+        "overall": "#9b9078",
+        "accent": "#dccfb0"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "before sundown",
+      "ref": "Ephesians 4:26–27",
+      "epigraph": "“Don’t let the sun go down on your wrath”",
+      "poem": "be angry,\nhe says.\n\nsome things\ndeserve it.\n\nbut watch the sun.\n\nanger kept overnight\ngrows roots.\nwakes up bitter.\nleaves\na door open.\n\nsay it.\nsettle it.\n\nlet the light\ngo down\non peace.",
+      "webSrc": "assets/rooted-and-free/web/b-035-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1c28a",
+        "horizon": "#a7875c",
+        "ground": "#716450",
+        "overall": "#a58d66",
+        "accent": "#fabb4d"
+      }
+    },
+    {
+      "n": 34,
+      "part": 4,
+      "title": "tender hearted",
+      "ref": "Ephesians 4:31–32",
+      "epigraph": "“be kind to one another, tender hearted, forgiving each other, just as God also in Christ forgave you.”",
+      "poem": "put the bitterness\ndown.\n\nthe slander,\nthe shouting,\nthe old\naccount book.\n\nand pick up\nsomething softer:\n\nkindness.\na tender heart.\n\nforgive\nthe way\nyou were forgiven:\n\nfirst,\nand freely,\nand more than once.",
+      "webSrc": "assets/rooted-and-free/web/b-035-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c09e",
+        "horizon": "#a7997d",
+        "ground": "#897456",
+        "overall": "#a89778",
+        "accent": "#e3d3ae"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "children of light",
+      "ref": "Ephesians 5:8",
+      "epigraph": "“you were once darkness, but are now light in the Lord. W alk as children of light”",
+      "poem": "not\nyou were once in the dark.\n\nyou were\nthe dark.\n\nand now,\nnot near the light:\nlight, in the Lord.\n\nso walk like it.\ncarry it\ndown the street\nwhere it's needed.\n\na lamp\ndoesn't argue\nwith the night.\n\nit shines.",
+      "webSrc": "assets/rooted-and-free/web/b-035-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#4a463d",
+        "horizon": "#4a4439",
+        "ground": "#61523d",
+        "overall": "#534a3c",
+        "accent": "#e5b86b"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "awake",
+      "ref": "Ephesians 5:14",
+      "epigraph": "“Awake, you who sleep, and arise from the dead, and Christ will shine on you.”",
+      "poem": "maybe it was\nan early song\nof the church,\n\nsung over\nsomeone coming up\nfrom the water:\n\nwake up,\nsleeper.\n\nget up\nfrom the dead.\n\nand the light\nwill find\nyour face.\n\nyou don't have to\nmake the morning.\n\njust\nopen your eyes.",
+      "webSrc": "assets/rooted-and-free/web/b-035-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7d6849",
+        "horizon": "#786446",
+        "ground": "#615744",
+        "overall": "#716146",
+        "accent": "#f6d698"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "making melody",
+      "ref": "Ephesians 5:19–20",
+      "epigraph": "“singing and making melody in your heart to the Lord”",
+      "poem": "don't fill up\non wine.\n\nbe filled\nwith the Spirit,\n\nand it comes out\nas music.\n\npsalms.\nhymns.\nsongs no one\nhas written down.\n\nthanks,\nfor all of it.\n\nsometimes out loud.\nsometimes only\nin the heart,\n\nwhere the Lord\nhears every note.",
+      "webSrc": "assets/rooted-and-free/web/b-035-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b4a183",
+        "horizon": "#8d775c",
+        "ground": "#87735b",
+        "overall": "#917d63",
+        "accent": "#f5e1be"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "this mystery",
+      "ref": "Ephesians 5:25",
+      "epigraph": "“Husbands, love your wives, even as Christ also loved the assembly, and gave himself up for it”",
+      "poem": "submit to one another,\nhe begins,\nand then the pattern:\n\nlove\nthe way Christ loved.\n\nnot by taking.\nby giving\nhimself up.\n\ntwo lives\nat one small table,\n\ntwo cups,\none loaf,\n\nand above it,\na great mystery:\n\nChrist\nand his church.",
+      "webSrc": "assets/rooted-and-free/web/b-035-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdb996",
+        "horizon": "#b6a181",
+        "ground": "#ac9b7e",
+        "overall": "#b6a383",
+        "accent": "#f5e4c1"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "the armor on the table",
+      "ref": "Ephesians 6:10–11",
+      "epigraph": "“Finally, be strong in the Lord, and in the strength of his might.”",
+      "poem": "it's all here,\nlaid out\non the table.\n\nnot yours.\nhis.\n\nyou don't forge it.\nyou don't earn it.\n\nyou put it on,\none piece at a time,\n\nand you are strong\n\nnot in your strength,\n\nin his.",
+      "webSrc": "assets/rooted-and-free/web/b-035-039.jpg",
+      "heroSrc": "assets/rooted-and-free/web/b-035-039.jpg",
+      "isScene": true,
+      "sceneType": "armor_of_god_table",
+      "palette": {
+        "top": "#b3a589",
+        "horizon": "#645945",
+        "ground": "#564938",
+        "overall": "#736652",
+        "accent": "#d7c49d"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "to stand",
+      "ref": "Ephesians 6:14–17",
+      "epigraph": "“the helmet of salvation, and the sword of the Spirit, which is the word of God”",
+      "poem": "truth, buckled close.\nrighteousness over the heart.\nfeet ready with peace.\nfaith held up.\nsalvation around your head.\nand his word,\nthe only blade you're given.\n\nthen all of it\ncomes down\nto one small verb:\n\nstand.\n\na chained man\nwrote this,\n\nand he was\nstill standing.",
+      "webSrc": "assets/rooted-and-free/web/b-035-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b6a785",
+        "horizon": "#7d715b",
+        "ground": "#a29375",
+        "overall": "#9c8d71",
+        "accent": "#efd8ab"
+      }
+    }
+  ]
+}

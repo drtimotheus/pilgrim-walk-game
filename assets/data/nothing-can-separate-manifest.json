@@ -1,0 +1,824 @@
+{
+  "district": 33,
+  "slug": "nothing-can-separate",
+  "title": "Nothing Can Separate",
+  "subtitle": "Romans in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/nothing-can-separate/web/b-033-000.jpg",
+  "beforeYouBegin": "Paul wrote to believers in Rome he had never met, and handed them the whole gospel in a single letter: a world that shows its Maker in every leaf, a line of lamps all burned low, a pardon given freely, an old man counting stars, a river where the old life is buried and a new one climbs out. Then a man honest enough to say he does what he hates, a child calling Abba, a creation groaning like a woman in labor, a wild olive branch grafted into an old root, and a long list of friends greeted by name.\n\nThis book walks through it in forty short poems, in five parts: the gospel that is not ashamed, peace with God, life in the Spirit, the mercy that reaches everyone, and love worked out at the table. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the letter touches—a broken seal, a seed, a clay jar, an olive branch, a table with room at it—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open Paul's letter to the Romans alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Not Ashamed",
+      "epigraph": "For in it is revealed God’s righteousness from faith to faith.",
+      "epigraphRef": "Romans 1:17",
+      "lightName": "Light of Not Ashamed",
+      "lightHint": "Near 'beloved in Rome' (Romans 1:7–12) in Part 1: Not Ashamed"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "Peace with God",
+      "epigraph": "Being therefore justified by faith, we have peace with God through our Lord Jesus Christ",
+      "epigraphRef": "Romans 5:1",
+      "lightName": "Light of Peace with God",
+      "lightHint": "Near 'where we stand' (Romans 5:1–2) in Part 2: Peace with God"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 18,
+      "title": "No Condemnation",
+      "epigraph": "For the law of the Spirit of life in Christ Jesus made me free from the law of sin and of death.",
+      "epigraphRef": "Romans 8:2",
+      "lightName": "Light of No Condemnation",
+      "lightHint": "Near 'now' (Romans 8:1) in Part 3: No Condemnation"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 26,
+      "title": "Grafted In",
+      "epigraph": "For the gifts and the calling of God are irrevocable.",
+      "epigraphRef": "Romans 11:29",
+      "lightName": "Light of Grafted In",
+      "lightHint": "Near 'great sorrow' (Romans 9:1–5) in Part 4: Grafted In"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 32,
+      "title": "A Living Sacrifice",
+      "epigraph": "present your bodies a living sacrifice, holy, acceptable to God",
+      "epigraphRef": "Romans 12:1",
+      "lightName": "Light of A Living Sacrifice",
+      "lightHint": "Near 'living sacrifice' (Romans 12:1–2) in Part 5: A Living Sacrifice"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "beloved in Rome",
+      "ref": "Romans 1:7–12",
+      "epigraph": "“to all who are in Rome, beloved of God, called to be saints”",
+      "poem": "he had never seen their faces.\nnever broken bread\nat their tables.\n\nstill, the first thing he tells them\nis who they are:\nbeloved.\ncalled.\n\nand the second thing:\nI long to see you,\nso that we can\nlift each other up.\n\nit is a strange letter\nthat begins by saying\nI need you too.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bcaa8c",
+        "horizon": "#88755a",
+        "ground": "#746247",
+        "overall": "#907d60",
+        "accent": "#f6d5a2"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "not ashamed",
+      "ref": "Romans 1:16",
+      "epigraph": "“For I am not ashamed of the Good News of Christ, because it is the power of God for salvation for everyone who believes”",
+      "poem": "Rome had its marble,\nits roads that ran\nto the edge of the world,\nits gods on every corner.\n\nand Paul was coming\nwith a story about\na crucified carpenter.\n\nhe wasn't embarrassed.\n\nnot because the story\nwas impressive,\nbut because it worked:\n\nit had already\nturned him around\non a road\njust like this one.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bbaf93",
+        "horizon": "#a2947c",
+        "ground": "#716853",
+        "overall": "#938871",
+        "accent": "#ffe8c0"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "the things that are made",
+      "ref": "Romans 1:20",
+      "epigraph": "“For the invisible things of him since the creation of the world are clearly seen, being perceived through the things that are made”",
+      "poem": "before there was a scroll,\nthere was the sky.\n\nbefore a single prophet spoke,\nthe fig tree was already\nputting out its leaves\non time.\n\nthe mountains don't say\nthe Maker's name.\n\nthey just stand there\nbeing far too large\nand far too careful\nto have made themselves.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b9a87d",
+        "horizon": "#968664",
+        "ground": "#595240",
+        "overall": "#877b5d",
+        "accent": "#f7d579"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "kindness",
+      "ref": "Romans 2:4",
+      "epigraph": "“the goodness of God leads you to repentance”",
+      "poem": "you would think\nit takes a threat\nto turn someone around.\n\na shout.\na locked gate.\na fist.\n\nbut here it says\nit was kindness:\n\npatience that waited\nlonger than it had to,\na light left on,\na door that stayed open.\n\nmost of us came home\nbecause someone\nwas that good to us\nfirst.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b190",
+        "horizon": "#77684a",
+        "ground": "#a39678",
+        "overall": "#9a8b6c",
+        "accent": "#f3ca6e"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "all",
+      "ref": "Romans 3:22–23",
+      "epigraph": "“For there is no distinction, for all have sinned, and fall short of the glory of God”",
+      "poem": "the teacher and the thief.\nthe priest and the one\nwho never goes near the temple.\n\nline up every lamp\nin the city\nand not one of them\nis burning as bright\nas it was made to.\n\nit isn't a verdict\nmeant to crush you.\n\nit's the ground,\nlevel,\nso that when grace comes\nnobody has to climb\nto reach it.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddc9a2",
+        "horizon": "#c7b48e",
+        "ground": "#b5a381",
+        "overall": "#c1af8a",
+        "accent": "#e1c79d"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "freely",
+      "ref": "Romans 3:24",
+      "epigraph": "“being justified freely by his grace through the redemption that is in Christ Jesus”",
+      "poem": "a pardon\nis a strange kind of paper.\n\nit doesn't say\nyou were innocent.\n\nit doesn't say\nyou earned your way out.\n\nit says:\nyou are free to go.\nthe debt is answered.\nsomeone paid.\n\nfreely,\nthe word says,\nthe way the sun\nfalls on a field\nthat never\nasked for it.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#978b79",
+        "horizon": "#887c6a",
+        "ground": "#7a7165",
+        "overall": "#897e6e",
+        "accent": "#ebe1d5"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "counted",
+      "ref": "Romans 4:3",
+      "epigraph": "“Abraham believed God, and it was accounted to him for righteousness.”",
+      "poem": "he hadn't built a temple yet.\nhadn't kept a single law\nthat Moses would later carry\ndown the mountain.\n\nhe only stood outside his tent\nand looked up\nand believed\nthe One who told him\nto count.\n\nand God wrote it down\nin the column\nmarked righteous.\n\nthat is the whole\nof what he brought:\na yes\nunder the stars.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#514f45",
+        "horizon": "#877d69",
+        "ground": "#433d31",
+        "overall": "#615a4b",
+        "accent": "#e1c89c"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "the things that are not",
+      "ref": "Romans 4:17–21",
+      "epigraph": "“calls the things that are not, as though they were.”",
+      "poem": "about a hundred years old,\nthe letter says,\nand Sarah long past\nthe age for children.\n\nhe didn't pretend\nhis body was young.\nhe looked straight at it.\n\nand then he looked\nat the promise,\nand the promise was bigger.\n\nGod calls the things that are not\nas though they were,\n\nthe way a farmer\ntalks about a harvest\nwhile holding\na single seed.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a18860",
+        "horizon": "#705839",
+        "ground": "#6e5737",
+        "overall": "#7a6342",
+        "accent": "#fcdc9c"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "where we stand",
+      "ref": "Romans 5:1–2",
+      "epigraph": "“through whom we also have our access by faith into this grace in which we stand.”",
+      "poem": "not a truce.\nnot a ceasefire\nwith both sides\nstill watching.\n\npeace.\n\nand a door\nthat doesn't close\nbehind you.\n\nyou don't have to\nearn your way back in\neach morning.\n\nthis is the grace\nyou stand in,\nlike standing\nin the sun.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-009.jpg",
+      "heroSrc": "assets/nothing-can-separate/web/b-033-009.jpg",
+      "isScene": true,
+      "sceneType": "grace_where_we_stand",
+      "palette": {
+        "top": "#675c4d",
+        "horizon": "#716654",
+        "ground": "#685f53",
+        "overall": "#6c6253",
+        "accent": "#d9b36f"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "hope does not disappoint",
+      "ref": "Romans 5:3–5",
+      "epigraph": "“hope doesn’t disappoint us, because God’s love has been poured into our hearts through the Holy Spirit who was given to us.”",
+      "poem": "suffering, then\nstaying,\nthen a character\nthat has been tested,\nthen hope.\n\nit's a long road\nand nobody would choose it.\n\nbut the hope at the end\nis not the kind\nthat leaves you\nstanding at the gate\nat nightfall\nwith no one coming.\n\nit holds,\nbecause the love\nwas already\npoured in.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc1a4",
+        "horizon": "#b3a587",
+        "ground": "#928d78",
+        "overall": "#aba087",
+        "accent": "#e6d6b6"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "while we were yet sinners",
+      "ref": "Romans 5:6–8",
+      "epigraph": "“But God commends his own love toward us, in that while we were yet sinners, Christ died for us.”",
+      "poem": "not after we cleaned up.\nnot once we said sorry\nand meant it.\n\nwhile.\n\nwhile the door was shut\nfrom our side.\nwhile we were\nstill walking the other way.\n\nsomeone might die\nfor a good man,\nPaul says.\nmaybe.\n\nbut this love\nwent first,\nand didn't wait\nto see\nif we'd be worth it.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#3a3b32",
+        "horizon": "#483f2d",
+        "ground": "#494130",
+        "overall": "#433e2f",
+        "accent": "#fcc354"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "much more",
+      "ref": "Romans 5:20–21",
+      "epigraph": "“where sin abounded, grace abounded more exceedingly”",
+      "poem": "the stones were real.\ndark, and many,\nand piled up high.\n\nbut the tide\ndidn't argue with them.\n\nit just kept coming,\nwave on quiet wave,\n\nuntil you could not find\nwhere they had been.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b1a589",
+        "horizon": "#b0a383",
+        "ground": "#73705d",
+        "overall": "#988f75",
+        "accent": "#f6e0b2"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "buried and raised",
+      "ref": "Romans 6:3–4",
+      "epigraph": "“so we also might walk in newness of life.”",
+      "poem": "down into the water,\nlike being laid\nin the ground.\n\nthe old life\ndoesn't come back up.\n\nthat is the point.\n\nwhat comes up\nis dripping and new\nand not quite sure\nhow to walk yet,\n\nand the first step\non the bank\nis the first step\nof a different life.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0b49b",
+        "horizon": "#807a69",
+        "ground": "#5a5a4e",
+        "overall": "#837e6d",
+        "accent": "#e9d9b8"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "the open lock",
+      "ref": "Romans 6:17–18",
+      "epigraph": "“Being made free from sin, you became bondservants of righteousness.”",
+      "poem": "the chain is still lying there.\nyou could put it back on.\n\nsome mornings\nthe old master calls\nand your feet remember\nthe way.\n\nbut the lock is open.\n\nyou belong\nto someone else now,\n\nand he doesn't\nkeep chains.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#817053",
+        "horizon": "#877961",
+        "ground": "#98886c",
+        "overall": "#8c7d61",
+        "accent": "#f7e1bf"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "wages and gift",
+      "ref": "Romans 6:23",
+      "epigraph": "“For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.”",
+      "poem": "wages are what you earn.\nyou work, and at sundown\nthey count it into your hand,\nexactly.\n\na gift\nyou can't earn.\nyou can only\nopen your hand.\n\none side of the sentence\nis a payment.\nthe other\nis a present.\n\nand the second half\nis the one\nGod wants to give.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2a284",
+        "horizon": "#a79377",
+        "ground": "#6c5945",
+        "overall": "#917e65",
+        "accent": "#ece0cb"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "what I hate",
+      "ref": "Romans 7:15–19",
+      "epigraph": "“For I don’t practice what I desire to do; but what I hate, that I do.”",
+      "poem": "he doesn't hide it.\nthe great apostle\nwrites it down\nfor a church he's never met:\n\nI want to do good\nand I don't.\nI don't want to do wrong\nand I do.\n\nsmooth the wax,\nwrite it again,\nwatch it go crooked\nin the same place.\n\nif you have ever\nmade the same promise\nto yourself\nfor the hundredth time,\n\nyou are not alone\nin this chapter.40",
+      "webSrc": "assets/nothing-can-separate/web/b-033-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bba88a",
+        "horizon": "#95876e",
+        "ground": "#aa9a7f",
+        "overall": "#a8987d",
+        "accent": "#ddcaac"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "who will deliver me",
+      "ref": "Romans 7:24–25",
+      "epigraph": "“Who will deliver me out of the body of this death? I thank God through Jesus Christ, our Lord!”",
+      "poem": "not what.\nwho.\n\nhe doesn't ask\nfor a better method,\na stricter rule,\none more try.\n\nhe asks for a person.\n\nand before the question\nhas finished echoing,\nhe's already saying\nthank you.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2a285",
+        "horizon": "#b09978",
+        "ground": "#6d624f",
+        "overall": "#95846a",
+        "accent": "#eac89f"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "now",
+      "ref": "Romans 8:1",
+      "epigraph": "“There is therefore now no condemnation to those who are in Christ Jesus”",
+      "poem": "there is therefore now\n\nnot someday,\nafter you've improved.\n\nnot on good days only.\n\nnow.\n\nthe seat is empty.\nnobody is reading out\nthe list.\n\nyou can walk\nacross the square\nin the morning light\nand no one\nwill stop you.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ae9f80",
+        "horizon": "#8d826c",
+        "ground": "#6e6654",
+        "overall": "#8b8069",
+        "accent": "#f4db9b"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "Abba",
+      "ref": "Romans 8:15–16",
+      "epigraph": "“you received the Spirit of adoption, by whom we cry, “Abba! Father!””",
+      "poem": "a servant says\nmaster\nand keeps his eyes down.\n\na child\nruns in without knocking\nand says\nAbba.\n\nyou weren't hired.\nyou were adopted.\n\nthe Spirit inside you\nis the one\nwho taught your mouth\nthe word.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-019.jpg",
+      "heroSrc": "assets/nothing-can-separate/web/b-033-019.jpg",
+      "isScene": true,
+      "sceneType": "spirit_of_adoption",
+      "palette": {
+        "top": "#beae8e",
+        "horizon": "#a59678",
+        "ground": "#9b8e74",
+        "overall": "#a7977a",
+        "accent": "#efe2c5"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "labor",
+      "ref": "Romans 8:19–22",
+      "epigraph": "“For we know that the whole creation groans and travails in pain together until now.”",
+      "poem": "the field is aching.\nthe hills are waiting.\neven the frost\nseems to be holding its breath.\n\nthe whole world\nis groaning,\n\nbut not the way\na dying thing groans.\n\nthe way a mother does\nwhen something new\nis almost here.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d2ac",
+        "horizon": "#857b68",
+        "ground": "#6c6352",
+        "overall": "#948972",
+        "accent": "#eddcaa"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "too deep for words",
+      "ref": "Romans 8:26–27",
+      "epigraph": "“the Spirit himself makes intercession for us with groanings which can’t be uttered.”",
+      "poem": "some nights\nyou don't have the words.\n\nyou kneel down\nand all that comes out\nis a sigh.\n\nit is enough.\n\nsomeone else\nis praying underneath\nyour prayer,\n\nand he knows\nexactly what you meant.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a7997b",
+        "horizon": "#6e6551",
+        "ground": "#a08f6e",
+        "overall": "#908266",
+        "accent": "#e2c48f"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "together for good",
+      "ref": "Romans 8:28",
+      "epigraph": "“We know that all things work together for good for those who love God”",
+      "poem": "salt alone\nis bitter in the mouth.\nleaven alone\nis sour.\nflour alone is dust,\nand fire burns.\n\nit doesn't say\nall things are good.\n\nit says\nthey are being worked\ntogether,\n\nby hands\nthat know how to make\nbread.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6ba9e",
+        "horizon": "#a2957c",
+        "ground": "#aca086",
+        "overall": "#afa388",
+        "accent": "#f3e7cd"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "for us",
+      "ref": "Romans 8:31–34",
+      "epigraph": "“If God is for us, who can be against us?”",
+      "poem": "who is going to accuse you?\nthe One who justifies?\n\nwho is going to condemn you?\nthe One who died for you,\nand rose,\nand is praying for you\nright now?\n\nthe case has no one\nleft to bring it.\n\nGod is not\nacross the room from you.\n\nhe is standing\nat the gate.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5d1a7",
+        "horizon": "#968568",
+        "ground": "#ab9875",
+        "overall": "#b2a07d",
+        "accent": "#ecc99d"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "more than conquerors",
+      "ref": "Romans 8:35–37",
+      "epigraph": "“in all these things, we are more than conquerors through him who loved us.”",
+      "poem": "not around\nthese things.\nnot above them.\n\nin them.\n\nthe hunger is real.\nthe storm is real.\nthe danger does not\npolitely step aside.\n\nand still the boat\ncomes through,\n\nnot because\nthe sea was easy,\n\nbut because of the one\nwho loves the people\nin the boat.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#999080",
+        "horizon": "#8b8374",
+        "ground": "#4d483e",
+        "overall": "#756f62",
+        "accent": "#fbeecc"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "nothing",
+      "ref": "Romans 8:38–39",
+      "epigraph": "“nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord.”",
+      "poem": "not death.\nnot life.\nnot angels,\nnot rulers,\nnot today,\nnot whatever tomorrow brings.\n\nnot the height\nof the sky\nor the depth\nof the sea.\n\nPaul goes looking\nthrough all of creation\nfor one thing\nstrong enough.\n\nhe comes back\nempty-handed\n\nand glad.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-025.jpg",
+      "heroSrc": "assets/nothing-can-separate/web/b-033-025.jpg",
+      "isScene": true,
+      "sceneType": "nothing_can_separate_rock",
+      "palette": {
+        "top": "#464743",
+        "horizon": "#918266",
+        "ground": "#373228",
+        "overall": "#534e42",
+        "accent": "#f4d387"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "great sorrow",
+      "ref": "Romans 9:1–5",
+      "epigraph": "“I have great sorrow and unceasing pain in my heart.”",
+      "poem": "here, in the middle\nof the most joyful letter\nhe ever wrote,\nhe stops.\n\nhis own people.\nhis own family.\nthe ones who were given\nthe covenants,\nthe promises,\nthe fathers.\n\nhe doesn't argue here.\nhe grieves.\n\nand you can tell\nfrom the grief\nhow much\nhe loves them.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6c605a",
+        "horizon": "#6b5d48",
+        "ground": "#5d503e",
+        "overall": "#695b4a",
+        "accent": "#f6ddb2"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "vessels of mercy",
+      "ref": "Romans 9:20–23",
+      "epigraph": "“the riches of his glory on vessels of mercy”",
+      "poem": "the clay can ask\nwhy.\n\nand the potter\nis patient with it,\nmore patient\nthan the clay\ncan understand.\n\nthere are things here\ntoo deep for us.\n\nbut see what he is making:\nnot trophies,\nnot tools,\n\nvessels of mercy,\nso there is something\nto carry\nthe riches of his glory\n\nto everyone.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2ae88",
+        "horizon": "#9b8562",
+        "ground": "#87775a",
+        "overall": "#a4906e",
+        "accent": "#e7a56c"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "near",
+      "ref": "Romans 10:8–13",
+      "epigraph": "“The word is near you, in your mouth, and in your heart”",
+      "poem": "you don't have to climb\ninto heaven\nto bring him down.\n\nyou don't have to dig\ninto the deep\nto bring him up.\n\nhe already came down.\nhe already rose.\n\nthe word is near you,\nas near as your own breath,\n\nand whoever calls,\nJew or Greek,\nanyone,\nwill be saved.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79a7d",
+        "horizon": "#847a61",
+        "ground": "#8d7f62",
+        "overall": "#918469",
+        "accent": "#e6cc9c"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "beautiful feet",
+      "ref": "Romans 10:14–15",
+      "epigraph": "“How beautiful are the feet of those who preach the Good News of peace”",
+      "poem": "nobody writes poems\nabout feet.\n\ncracked heels.\ndust between the toes.\nthe long road\nstill on them.\n\nbut someone had to walk\nto where you were.\n\nsomeone had to open\ntheir mouth\nand say it,\n\nand every mile\nof that road\nis beautiful.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b59b",
+        "horizon": "#aea189",
+        "ground": "#a19480",
+        "overall": "#ac9f89",
+        "accent": "#e6d8ba"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "the olive tree",
+      "ref": "Romans 11:17–24",
+      "epigraph": "“it is not you who support the root, but the root supports you.”",
+      "poem": "a wild branch,\ncut from a hillside\nwhere no one tended it,\n\nbound into an old tree\nwith deep roots\nand a long memory.\n\ndon't boast, Paul says.\nyou didn't plant the root.\nthe root is holding you.\n\nand God is able\nto graft the old branches\nback in again.\n\nhis gifts\ndon't get taken back.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-030.jpg",
+      "heroSrc": "assets/nothing-can-separate/web/b-033-030.jpg",
+      "isScene": true,
+      "sceneType": "grafted_olive_tree",
+      "palette": {
+        "top": "#aa9e85",
+        "horizon": "#9c917a",
+        "ground": "#817665",
+        "overall": "#958a74",
+        "accent": "#eee2c0"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "the depth",
+      "ref": "Romans 11:33–36",
+      "epigraph": "“Oh the depth of the riches both of the wisdom and the knowledge of God!”",
+      "poem": "three chapters\nof hard questions,\n\nand at the bottom of them\nhe doesn't find\na neat answer.\n\nhe finds a well\nso deep\nhe can't see the end of it.\n\nso he stops arguing\nand starts to sing:\nfrom him, through him,\nto him, all things.\n\nsometimes worship\nis what you do\nat the bottom\nof your questions.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#736d58",
+        "horizon": "#45483e",
+        "ground": "#6c6958",
+        "overall": "#5e5c4e",
+        "accent": "#edddba"
+      }
+    },
+    {
+      "n": 32,
+      "part": 5,
+      "title": "living sacrifice",
+      "ref": "Romans 12:1–2",
+      "epigraph": "“be transformed by the renewing of your mind”",
+      "poem": "not a lamb this time.\nnot a bull,\nnot a bag of grain.\n\nyou.\n\nand not dead on the altar,\nbut alive,\ngetting up in the morning,\ngoing to work,\nsetting the table.\n\nthe world will press you\ninto its shape\nif you let it.\n\nlet God\nchange the mind first.\n\nthe rest of you\nwill follow.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b89f82",
+        "horizon": "#8b7b69",
+        "ground": "#7d6e58",
+        "overall": "#95826c",
+        "accent": "#fbd9b0"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "without pretending",
+      "ref": "Romans 12:9–10",
+      "epigraph": "“Let love be without hypocrisy.”",
+      "poem": "the same love\nat the table\nas in the street.\n\nthe same kindness\nwhen no one\nis watching.\n\nnothing painted on.\nno face put on\nfor company.\n\njust a plain cup,\nfull,\n\nand all the way through\nthe same clay.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c5ad",
+        "horizon": "#a59780",
+        "ground": "#9c8c74",
+        "overall": "#afa088",
+        "accent": "#faf4e9"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "with",
+      "ref": "Romans 12:15",
+      "epigraph": "“Rejoice with those who rejoice. W eep with those who weep.”",
+      "poem": "some days, the wine.\nsome days, the water.\n\nthe gift is not\nto have the answer.\n\nit's to be\nat the table.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7cbac",
+        "horizon": "#bcad8e",
+        "ground": "#978669",
+        "overall": "#b6a788",
+        "accent": "#d9b985"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "overcome",
+      "ref": "Romans 12:17–21",
+      "epigraph": "“Don’t be overcome by evil, but overcome evil with good.”",
+      "poem": "he wronged you.\nyou remember\nevery word.\n\nand here is the strange\ninstruction:\n\nif he's hungry,\nfeed him.\nif he's thirsty,\nbring him water.\n\nleave the settling of scores\nto God.\n\nevil wants\nto make you\ninto its own shape.\n\nbread on the doorstep\nis how you\nrefuse.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c6a5",
+        "horizon": "#a59778",
+        "ground": "#ae9f7e",
+        "overall": "#b5a686",
+        "accent": "#f6e9b0"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "the night is far gone",
+      "ref": "Romans 13:11–12",
+      "epigraph": "“The night is far gone, and the day is near.”",
+      "poem": "you can feel it\nbefore you see it:\n\nthe dark getting thinner,\na rooster somewhere,\nthe air changing.\n\nwake up.\n\ntake off\nwhat belonged to the night.\n\nput on the light\nlike a clean garment,\n\nand walk\nthe way people walk\nwhen the day\nhas already come.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0c19c",
+        "horizon": "#625d54",
+        "ground": "#3f3d36",
+        "overall": "#796d5c",
+        "accent": "#f9c186"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "welcome",
+      "ref": "Romans 15:7",
+      "epigraph": "“Therefore accept one another, even as Christ also accepted you, to the glory of God.”",
+      "poem": "one eats meat.\none eats only vegetables.\none keeps the holy days.\none keeps them all alike.\n\nthey could argue\ntill the lamps went out.\n\nor they could remember\nhow they got a seat\nat this table\nin the first place:\n\nsomeone made room\nfor them\nbefore they had\nanything right.\n\npull out a stool.\nmake room.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79a7e",
+        "horizon": "#a69677",
+        "ground": "#ada084",
+        "overall": "#aa9c7f",
+        "accent": "#ebdab9"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "the Lord's",
+      "ref": "Romans 14:7–8",
+      "epigraph": "“If therefore we live or die, we are the Lord’s.”",
+      "poem": "none of us\nlives to himself.\n\nnone of us dies\nto himself either.\n\non this side\nor the other,\nwaking or sleeping,\n\nthe vineyard\nstill has\nthe same owner.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c6ab",
+        "horizon": "#9f9679",
+        "ground": "#82755c",
+        "overall": "#a1957a",
+        "accent": "#fbebc6"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "the God of hope",
+      "ref": "Romans 15:13",
+      "epigraph": "“Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope”",
+      "poem": "he doesn't pray\nthat they'll try harder\nat hoping.\n\nhe prays\nthat God will fill them,\n\nlike a jar\nset under the spring,\n\nuntil the joy\nruns over the rim\n\nand the ground around it\ngets wet too.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#beb8a0",
+        "horizon": "#aa9e82",
+        "ground": "#a59b83",
+        "overall": "#afa58b",
+        "accent": "#e7dbb9"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "greet them all",
+      "ref": "Romans 16:1–16",
+      "epigraph": "“I commend to you Phoebe, our sister, who is a servant of the assembly that is at Cenchreae”",
+      "poem": "after all the great chapters,\nhe ends with names.\n\nPhoebe, who helped so many.\nPrisca and Aquila, who risked their necks,\nand the church in their house.\nMary, who worked hard.\nAndronicus and Junia,\nin Christ before he was.\nPersis, the beloved.\nRufus, and his mother,\na mother to Paul too.\n\nand Tertius, holding the pen,\nslips in his own hello.\n\nthe gospel, it turns out,\nhas a lot of friends.",
+      "webSrc": "assets/nothing-can-separate/web/b-033-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b798",
+        "horizon": "#81725b",
+        "ground": "#746855",
+        "overall": "#8d8069",
+        "accent": "#d8cbae"
+      }
+    }
+  ]
+}

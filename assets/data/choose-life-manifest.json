@@ -6,35 +6,39 @@
   "parts": [
     {
       "index": 1,
-      "title": "Part One \u00b7 Remember the Road",
+      "title": "Part One · Remember the Road",
       "epigraph": "You shall remember all the way which Yahweh your God has led you these forty years in the wilderness",
       "epigraphRef": "DEUTERONOMY 8:2",
       "startN": 1,
-      "endN": 8
+      "endN": 8,
+      "part": 1
     },
     {
       "index": 2,
-      "title": "Part Two \u00b7 Hear, Israel",
+      "title": "Part Two · Hear, Israel",
       "epigraph": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
       "epigraphRef": "DEUTERONOMY 6:5",
       "startN": 9,
-      "endN": 18
+      "endN": 18,
+      "part": 2
     },
     {
       "index": 3,
-      "title": "Part Three \u00b7 An Open Hand",
+      "title": "Part Three · An Open Hand",
       "epigraph": "you shall surely open your hand to him",
       "epigraphRef": "DEUTERONOMY 15:8",
       "startN": 19,
-      "endN": 26
+      "endN": 26,
+      "part": 3
     },
     {
       "index": 4,
-      "title": "Part Four \u00b7 Choose Life",
+      "title": "Part Four · Choose Life",
       "epigraph": "Therefore choose life, that you may live, you and your descendants",
       "epigraphRef": "DEUTERONOMY 30:19",
       "startN": 27,
-      "endN": 36
+      "endN": 36,
+      "part": 4
     }
   ],
   "cover": "assets/choose-life/web/c-004-000.jpg",

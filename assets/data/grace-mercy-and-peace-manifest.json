@@ -1,0 +1,824 @@
+{
+  "district": 39,
+  "slug": "grace-mercy-and-peace",
+  "title": "Grace, Mercy, and Peace",
+  "subtitle": "1–2 Timothy & Titus in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/grace-mercy-and-peace/web/b-039-000.jpg",
+  "beforeYouBegin": "These are letters from an older man to younger ones. Paul writes to Timothy in Ephesus and to Titus on Crete about elders and households, prayers and meals, widows keeping a lamp lit night and day. Then, from a prison in Rome, he writes once more to Timothy: remember your grandmother Lois and your mother Eunice, stir up the gift, I have finished the course, and please bring my cloak and the parchments before winter.\n\nThis book walks through them in forty short poems, in five parts: two for 1 Timothy, two for 2 Timothy, and one for Titus. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the letters touch—a rolled letter, a banked fire, a clay cup, a folded cloak—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the letters to Timothy and Titus alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "My True Child in Faith",
+      "epigraph": "Grace, mercy, and peace, from God our Father and Christ Jesus our Lord.",
+      "epigraphRef": "1 Timothy 1:2",
+      "lightName": "Light of My True Child in Faith",
+      "lightHint": "Near 'my true child' (1 Timothy 1:2) in Part 1: My True Child in Faith"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "Godliness with Contentment",
+      "epigraph": "But godliness with contentment is great gain.",
+      "epigraphRef": "1 Timothy 6:6",
+      "lightName": "Light of Godliness with Contentment",
+      "lightHint": "Near 'with thanksgiving' (1 Timothy 4:3–5) in Part 2: Godliness with Contentment"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 17,
+      "title": "Stir Up the Gift",
+      "epigraph": "be strengthened in the grace that is in Christ Jesus.",
+      "epigraphRef": "2 Timothy 2:1",
+      "lightName": "Light of Stir Up the Gift",
+      "lightHint": "Near 'your tears' (2 Timothy 1:3–4) in Part 3: Stir Up the Gift"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 25,
+      "title": "I Have Kept the Faith",
+      "epigraph": "the Lord will deliver me from every evil work, and will preserve me for his heavenly Kingdom.",
+      "epigraphRef": "2 Timothy 4:18",
+      "lightName": "Light of I Have Kept the Faith",
+      "lightHint": "Near 'faithful' (2 Timothy 2:11–13) in Part 4: I Have Kept the Faith"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 31,
+      "title": "Grace Has Appeared",
+      "epigraph": "that being justified by his grace, we might be made heirs according to the hope of eternal life.",
+      "epigraphRef": "Titus 3:7",
+      "lightName": "Light of Grace Has Appeared",
+      "lightHint": "Near 'before time began' (Titus 1:1–2) in Part 5: Grace Has Appeared"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "my true child",
+      "ref": "1 Timothy 1:2",
+      "epigraph": "“to Timothy, my true child in faith”",
+      "poem": "he could have addressed it\nto my assistant.\nto my colleague.\nto the man I left in charge.\n\nhe wrote\nmy true child.\n\nsome families\nare made by birth.\n\nsome are made\nby walking the same roads\nlong enough\nthat the older one's faith\nstarts to show\nin the younger one's steps.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d1a9",
+        "horizon": "#b49f73",
+        "ground": "#897755",
+        "overall": "#af9d76",
+        "accent": "#ead5a3"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "the goal",
+      "ref": "1 Timothy 1:3–5",
+      "epigraph": "“the goal of this command is love, out of a pure heart and a good conscience and sincere faith”",
+      "poem": "there were men in Ephesus\narguing over family trees\nand endless lists of names.\n\nPaul cuts through it\nin one line.\n\nthe point\nwas never to win.\n\nthe point\nis love.\n\nfrom a clean heart.\na clear conscience.\na faith with nothing to hide.\n\nevery rule, every sermon,\nevery late-night argument\nis meant to end up there,\n\nor it has lost the road.10",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aea084",
+        "horizon": "#a29273",
+        "ground": "#877358",
+        "overall": "#99876b",
+        "accent": "#e1d5bc"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "the worst of them",
+      "ref": "1 Timothy 1:15–16",
+      "epigraph": "“Christ Jesus came into the world to save sinners, of whom I am chief.”",
+      "poem": "blasphemer.\npersecutor.\ninsolent.\n\nhe lists it plainly,\nlike an old address.\n\nthen he writes\nthe surest sentence he knows:\nChrist Jesus came\nto save sinners,\n\nof whom I am chief.\n\nnot was.\nam.\n\nif the first in line\nwas the worst in line,\nthen the line\nis long enough\nfor you.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bcaf88",
+        "horizon": "#a1926d",
+        "ground": "#8f8365",
+        "overall": "#9f9270",
+        "accent": "#cfb14d"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "shipwreck",
+      "ref": "1 Timothy 1:18–19",
+      "epigraph": "“holding faith and a good conscience”",
+      "poem": "Paul knew about ships.\nhe had seen more than one\ngo to pieces.\n\nsome, he warns,\nthrust away a good conscience\nand made shipwreck\nof their faith.\n\nnot a storm\nthat came for them.\nsomething they threw overboard\nbecause it felt heavy.\n\nhold on to it, Timothy.\n\nit is ballast,\nnot burden.\n\nit is what keeps you\nupright\nwhen the wind turns.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc5a7",
+        "horizon": "#b1b19a",
+        "ground": "#656455",
+        "overall": "#9b9983",
+        "accent": "#f3e9c1"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "for everyone",
+      "ref": "1 Timothy 2:1–4",
+      "epigraph": "“who desires all people to be saved and come to full knowledge of the truth.”",
+      "poem": "pray for everyone,\nhe says.\nfirst of all.\n\nfor the emperor\nwho will never know your name.\nfor the magistrate.\nfor the neighbor\nwho knows it too well.\n\nnot because they're good.\nbecause God\nwants every one of them\nsaved.\n\nthe quiet life\nstarts here,\nat a table,\nholding up the names\nof people\nyou would rather\nargue with.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#53493a",
+        "horizon": "#4e402c",
+        "ground": "#453622",
+        "overall": "#4c3e2c",
+        "accent": "#ce9658"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "one",
+      "ref": "1 Timothy 2:5–6",
+      "epigraph": "“For there is one God, and one mediator between God and men, the man Christ Jesus”",
+      "poem": "between the holy\nand the ordinary.\nbetween God\nand someone like me.\n\nthere is not\na ladder\nof better people.\n\nthere is not\na fee.\n\nthere is one man\nstanding in the gap,\nthe man Christ Jesus,\n\nwho gave himself\nas a ransom for all.\n\none.\nenough.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dfcd9d",
+        "horizon": "#716d5e",
+        "ground": "#524e41",
+        "overall": "#827a63",
+        "accent": "#f3db95"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "a pillar",
+      "ref": "1 Timothy 3:14–15",
+      "epigraph": "“the assembly of the living God, the pillar and ground of the truth.”",
+      "poem": "he hoped to come soon.\nhe wrote in case\nhe couldn't.\n\nhere is how to live,\nhe says,\nin God's house.\n\nand the house\nisn't a building.\n\nit's a few families\nin someone's courtyard.\na lamp. a borrowed table.\npeople who don't agree\non much.\n\nand God calls that\na pillar.\n\nsomething\nthe truth\ncan stand on.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-007.jpg",
+      "heroSrc": "assets/grace-mercy-and-peace/web/b-039-007.jpg",
+      "isScene": true,
+      "sceneType": "pillar_of_truth",
+      "palette": {
+        "top": "#7e725f",
+        "horizon": "#7b6c54",
+        "ground": "#75654e",
+        "overall": "#776954",
+        "accent": "#e9d5b5"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "the mystery",
+      "ref": "1 Timothy 3:16",
+      "epigraph": "“Without controversy, the mystery of godliness is great”",
+      "poem": "it may have been a song\nbefore it was a sentence.\n\nrevealed in the flesh.\njustified in the spirit.\nseen by angels.\npreached among the nations.\nbelieved on in the world.\nreceived up in glory.\n\na mystery,\nnot because it's hidden,\nbut because it's\nbigger than we are.\n\nand it has\na name.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#5b574b",
+        "horizon": "#91866f",
+        "ground": "#40392a",
+        "overall": "#625b4b",
+        "accent": "#e4d9bf"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "with thanksgiving",
+      "ref": "1 Timothy 4:3–5",
+      "epigraph": "“For every creature of God is good, and nothing is to be rejected, if it is received with thanksgiving.”",
+      "poem": "some teachers\nwanted a smaller table.\nno this. no that.\nholiness by subtraction.\n\nPaul pulls the chairs\nback in.\n\nthe bread is good.\nthe figs are good.\nthe wedding is good.\nGod made them.\n\nwhat makes a meal holy\nisn't what's missing from it.\n\nit's the word of God,\nand a prayer,\nand open hands.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbc9a0",
+        "horizon": "#a88d65",
+        "ground": "#b7a582",
+        "overall": "#b8a47f",
+        "accent": "#ddbc86"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "your youth",
+      "ref": "1 Timothy 4:12",
+      "epigraph": "“Let no man despise your youth; but be an example to those who believe”",
+      "poem": "too young,\nsomeone must have said.\n\nPaul doesn't tell him\nto argue.\nhe doesn't tell him\nto wait.\n\nhe says:\nbe the example.\n\nin the way you talk.\nthe way you live.\nin love. in faith.\nin purity.\n\nlet them look\nfor a reason to dismiss you,\n\nand find\na reason to follow.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9e957f",
+        "horizon": "#94886d",
+        "ground": "#534a3b",
+        "overall": "#7e745f",
+        "accent": "#ebe2c7"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "the lyre on the wall",
+      "ref": "1 Timothy 4:14–15",
+      "epigraph": "“Don’t neglect the gift that is in you”",
+      "poem": "there were hands on your head once.\nolder hands,\nheavy and warm,\nand words said over you\nyou may have\nhalf forgotten.\n\nthe gift\ndidn't leave\nwhen the hands lifted.\n\nit's still there,\nlike a lyre on the wall\nno one has tuned\nin a while.\n\ntake it down.\ngive yourself to it.\n\nlet people see you\ngetting better.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8e8375",
+        "horizon": "#a19484",
+        "ground": "#908577",
+        "overall": "#94887a",
+        "accent": "#e8dbc5"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "night and day",
+      "ref": "1 Timothy 5:3–5",
+      "epigraph": "“she who is a widow indeed and desolate, has her hope set on God, and continues in petitions and prayers night and day.”",
+      "poem": "no one left\nto cook for.\nno one coming home.\n\nthe house is quiet now,\nand she fills it\nwith names.\n\nher hope set on God,\nthe letter says.\nnight and day.\n\nhonor her, Paul wrote.\nsee that she\nnever goes without.\n\nsome of the strongest work\nin any city\nhappens in a small room,\nby one lamp,\non two old knees.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#85785f",
+        "horizon": "#75674c",
+        "ground": "#706248",
+        "overall": "#796b51",
+        "accent": "#e0c395"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "a little wine",
+      "ref": "1 Timothy 5:23",
+      "epigraph": "“use a little wine for your stomach’s sake and your frequent infirmities.”",
+      "poem": "in the middle of\ninstructions about elders,\nwitnesses, and warnings,\n\na line\nonly someone\nwho loved you\nwould write:\n\nhow is your stomach?\nyou're sick too often.\ntake care of yourself.\n\nholiness\nnever asked you\nto stop\nhaving a body.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c9ab",
+        "horizon": "#b6a98c",
+        "ground": "#ad9f83",
+        "overall": "#b9ab8f",
+        "accent": "#f6e7c4"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "nothing in, nothing out",
+      "ref": "1 Timothy 6:6–8",
+      "epigraph": "“For we brought nothing into the world, and we certainly can’t carry anything out.”",
+      "poem": "you came in\nwith empty hands.\n\nyou'll go out\nthe same way.\n\nin between:\na table,\na coat,\nthe people you love.\n\ngodliness with contentment,\nhe says,\nis great gain.\n\nnot the gain\nthat fills a storeroom.\n\nthe gain\nof not needing one.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#867a5c",
+        "horizon": "#7f7056",
+        "ground": "#8b7b5f",
+        "overall": "#837458",
+        "accent": "#ecd0ad"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "unapproachable light",
+      "ref": "1 Timothy 6:15–16",
+      "epigraph": "“dwelling in unapproachable light, whom no man has seen, nor can see”",
+      "poem": "every emperor\nput his face on a coin.\n\nthis King\nhas never been seen.\ncannot be seen.\n\nhe lives in a light\nno one can walk into.\n\nthe only Ruler.\nKing of kings.\nowing his crown\nto no one.\n\nand still\nhis light spills over the ridge\nand reaches\nthe valley\nwhere we are.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5d9bf",
+        "horizon": "#aca390",
+        "ground": "#5f584b",
+        "overall": "#9f9783",
+        "accent": "#f4dfb2"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "guard it",
+      "ref": "1 Timothy 6:20–21",
+      "epigraph": "“Timothy, guard that which is committed to you”",
+      "poem": "near the end\nhe calls him by name.\n\nTimothy.\n\nlike a father at the door,\npressing something\ninto your hands:\n\nthis was given to you.\nkeep it.\n\nnot a treasure chest.\na trust.\n\ndon't trade it\nfor clever talk.\n\ngrace be with you.\n\nand then the letter stops,\nand the rest\nis his to carry.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b1a486",
+        "horizon": "#76664d",
+        "ground": "#766950",
+        "overall": "#86785d",
+        "accent": "#c9a165"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "your tears",
+      "ref": "2 Timothy 1:3–4",
+      "epigraph": "“remembering your tears, that I may be filled with joy”",
+      "poem": "he remembers\nthe tears.\n\nnot the sermons.\nnot the miles.\n\nthe tears,\nperhaps at a goodbye\nneither of them wanted.\n\nnow the older man\nprays for him\nnight and day,\nlonging to see him.\n\nsome of us are remembered\nfor what we built.\n\nsome of us\nfor who wept\nwhen we left.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a89882",
+        "horizon": "#8e7e75",
+        "ground": "#60564e",
+        "overall": "#817468",
+        "accent": "#cab99a"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "Lois and Eunice",
+      "ref": "2 Timothy 1:5",
+      "epigraph": "“the sincere faith that is in you, which lived first in your grandmother Lois, and your mother Eunice”",
+      "poem": "before it was his,\nit lived at a table.\n\nfirst in his grandmother, Lois.\nthen in his mother, Eunice.\nthen, Paul was sure of it,\nin him.\n\nno pulpit.\nno title.\njust a faith\nwith no pretending in it,\n\nhanded down\nthe way you hand down\na lamp,\nstill lit.\n\nand a boy\nwas watching.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-018.jpg",
+      "heroSrc": "assets/grace-mercy-and-peace/web/b-039-018.jpg",
+      "isScene": true,
+      "sceneType": "lois_eunice_scrolls",
+      "palette": {
+        "top": "#7e745d",
+        "horizon": "#786b54",
+        "ground": "#66573e",
+        "overall": "#71644c",
+        "accent": "#be7628"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "stir it up",
+      "ref": "2 Timothy 1:6",
+      "epigraph": "“stir up the gift of God which is in you through the laying on of my hands.”",
+      "poem": "it isn't gone.\nit's banked,\nlike a cook fire at dawn.\ngrey on top.\nred underneath.\n\nyou don't need\na new fire.\nyou need to lean down\nand breathe\non the one you have.\n\nmy hands were on your head,\nPaul says.\nI remember.\n\nstir it up.\n\na gift from God\ncan go quiet.\nit waits\nfor your breath.48",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c7a9",
+        "horizon": "#a89a7e",
+        "ground": "#90856f",
+        "overall": "#a89c82",
+        "accent": "#dccfb2"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "not fear",
+      "ref": "2 Timothy 1:7",
+      "epigraph": "“For God didn’t give us a spirit of fear, but of power, love, and self-control.”",
+      "poem": "the fear\ncame from somewhere.\n\nnot from him.\n\nwhat he gave\nwas power\nto stand,\n\nlove\nto stay,\n\nand a steady mind\nto know\nwhich one\nthis moment needs.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bdbba6",
+        "horizon": "#b5ae94",
+        "ground": "#94886b",
+        "overall": "#ada68e",
+        "accent": "#ddd1af"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "I know him",
+      "ref": "2 Timothy 1:12",
+      "epigraph": "“I know him whom I have believed”",
+      "poem": "he doesn't say\nI know what I believe.\n\nhe says\nI know him.\n\na chain on his wrist.\neveryone in Asia\nturned away.\n\nand what he has left,\nhe hands over\nlike a traveler\nleaving his bag\nwith someone he trusts.\n\nhe isn't worried\nabout the bag.\n\nhe knows\nthe hands.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ada18b",
+        "horizon": "#8f7b63",
+        "ground": "#6c604e",
+        "overall": "#877964",
+        "accent": "#e5dac0"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "not ashamed of my chain",
+      "ref": "2 Timothy 1:16–17",
+      "epigraph": "“he often refreshed me, and was not ashamed of my chain”",
+      "poem": "Onesiphorus.\na name hardly anyone\ncan say.\n\nhe came to Rome\nand looked for Paul.\nkept looking\nuntil he found him.\n\nit isn't easy\nto find a prisoner.\nit's harder\nto be seen with one.\n\nhe came anyway,\nand more than once\nhe was fresh air\nin that place.\n\nmay we be\nthe ones\nwho keep looking.54",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b7a183",
+        "horizon": "#8e7462",
+        "ground": "#59554f",
+        "overall": "#827363",
+        "accent": "#e4ab83"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "to others also",
+      "ref": "2 Timothy 2:2",
+      "epigraph": "“commit the same things to faithful men, who will be able to teach others also.”",
+      "poem": "Paul to Timothy.\nTimothy to the faithful.\nthe faithful\nto others also.\n\nfour hands\nin one sentence.\n\nnobody in that line\ngets to be\nthe end of it.\n\nsomewhere back there,\nsomeone handed it\nto you.\n\nlook around.\nwhose hand\nis open?",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bb9b",
+        "horizon": "#988a6a",
+        "ground": "#867757",
+        "overall": "#9f9171",
+        "accent": "#ddba86"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "not chained",
+      "ref": "2 Timothy 2:8–9",
+      "epigraph": "“But God’s word isn’t chained.”",
+      "poem": "remember Jesus Christ,\nrisen from the dead.\n\nthat's what he writes\nfrom a cell.\n\nthey could lock the door.\nthey could fasten the iron.\n\nbut the words\nhad already left the room.\n\nin letters.\nin a young man's memory.\non roads\nto places\nPaul would never see.\n\nthe preacher\nwas chained.\n\nthe word\nwalked out.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bdad89",
+        "horizon": "#9e906f",
+        "ground": "#a79c81",
+        "overall": "#a79a7b",
+        "accent": "#f7ecd2"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "faithful",
+      "ref": "2 Timothy 2:11–13",
+      "epigraph": "“If we are faithless, he remains faithful; for he can’t deny himself.”",
+      "poem": "we break.\nhe doesn't.\n\non our worst day\nhe is still\nwho he said he was.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9c1b3",
+        "horizon": "#95948b",
+        "ground": "#827e71",
+        "overall": "#979388",
+        "accent": "#e5ddcd"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "clay",
+      "ref": "2 Timothy 2:20–21",
+      "epigraph": "“he will be a vessel for honor, sanctified, and suitable for the master’s use, prepared for every good work.”",
+      "poem": "in a large house\nthere are cups of gold and silver,\nand cups of wood and clay.\n\nyou might think\nthe master always reaches\nfor the shiny one.\n\nhe reaches\nfor the clean one.\n\nyou don't have to be gold.\n\nyou have to be\nready.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b7aa8a",
+        "horizon": "#a8987a",
+        "ground": "#726349",
+        "overall": "#938467",
+        "accent": "#d4905b"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "from infancy",
+      "ref": "2 Timothy 3:14–16",
+      "epigraph": "“From infancy, you have known the holy Scriptures which are able to make you wise for salvation”",
+      "poem": "stay with what you learned,\nhe says,\nand remember\nwho you learned it from.\n\nbefore you could read,\nyou heard it.\n\na voice at bedtime.\nthe old promises\nsaid over you\nlike a blanket.\n\nbreathed out by God.\nbreathed in\nby a child.\n\nand still wise enough\nto bring you\nall the way home.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5d5b3",
+        "horizon": "#ab9f86",
+        "ground": "#9a937f",
+        "overall": "#b1a78f",
+        "accent": "#f3dbac"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "fought, finished, kept",
+      "ref": "2 Timothy 4:6–8",
+      "epigraph": "“I have fought the good fight. I have finished the course. I have kept the faith.”",
+      "poem": "he can see the end now.\nalready being poured out,\nhe writes,\nlike an offering.\n\nno panic.\njust three words\nfrom a man at the end of the road:\n\nfought.\nfinished.\nkept.\n\nthen he looks past himself\nto a crown\nthat isn't only his,\nbut for all\nwho have loved\nhis appearing.\n\nit's the same\nfinish line.68",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-028.jpg",
+      "heroSrc": "assets/grace-mercy-and-peace/web/b-039-028.jpg",
+      "isScene": true,
+      "sceneType": "crown_of_righteousness",
+      "palette": {
+        "top": "#d5c59c",
+        "horizon": "#bca981",
+        "ground": "#928564",
+        "overall": "#b6a57e",
+        "accent": "#fbebad"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "the cloak and the parchments",
+      "ref": "2 Timothy 4:9–13",
+      "epigraph": "“Bring the cloak that I left at Troas with Carpus when you come, and the books, especially the parchments.”",
+      "poem": "after the crown\nand the finish line,\nthis:\n\nbring my cloak.\nI left it at Troas.\nand the books.\nespecially the parchments.\n\nDemas has gone.\nonly Luke is with me.\nbring Mark along.\n\nthe great apostle,\nnear the end,\nwants a warm coat,\nsomething to read,\nand his friends.\n\nthat isn't\na smaller faith.\nthat is a whole one.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-029.jpg",
+      "heroSrc": "assets/grace-mercy-and-peace/web/b-039-029.jpg",
+      "isScene": true,
+      "sceneType": "cloak_and_parchments",
+      "palette": {
+        "top": "#bcb197",
+        "horizon": "#b2a387",
+        "ground": "#7c6c53",
+        "overall": "#9e8f75",
+        "accent": "#e6d8b6"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "the Lord stood by me",
+      "ref": "2 Timothy 4:16–17",
+      "epigraph": "“But the Lord stood by me and strengthened me”",
+      "poem": "at my first defense\nno one came.\neveryone left.\n\nhe says it plainly.\nand then:\nmay it not be\nheld against them.\n\nand then:\nbut the Lord\nstood by me.\n\nwhen the room empties,\nit isn't empty.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#695c40",
+        "horizon": "#7b6c4c",
+        "ground": "#493f2c",
+        "overall": "#64583e",
+        "accent": "#f8e1aa"
+      }
+    },
+    {
+      "n": 31,
+      "part": 5,
+      "title": "before time began",
+      "ref": "Titus 1:1–2",
+      "epigraph": "“in hope of eternal life, which God, who can’t lie, promised before time began”",
+      "poem": "a promise\nmade before there was\na morning\nto make it in.\n\nby the only one\nwho has never lied.\n\neverything else in this letter,\nthe elders,\nthe households,\nthe hard work on Crete,\n\nrests on that.\n\nyou can build a life\non a word\nthat old.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b6b09d",
+        "horizon": "#c8bea5",
+        "ground": "#625d51",
+        "overall": "#9e9886",
+        "accent": "#f2e6c2"
+      }
+    },
+    {
+      "n": 32,
+      "part": 5,
+      "title": "the one who stays",
+      "ref": "Titus 1:5",
+      "epigraph": "“I left you in Crete for this reason, that you would set in order the things that were lacking”",
+      "poem": "Paul sailed on.\nTitus stayed.\n\nstayed with the unfinished work,\nthe half-built things,\nthe towns with believers\nand no elders yet.\n\nset in order,\nPaul told him,\nwhat is still lacking.\n\nnot a glamorous job.\n\nthe job\nof the one\nwho stays.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#decfb1",
+        "horizon": "#aba494",
+        "ground": "#878475",
+        "overall": "#aba592",
+        "accent": "#e2d2b0"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "an open door",
+      "ref": "Titus 1:7–8",
+      "epigraph": "“given to hospitality, a lover of good”",
+      "poem": "the list for leaders\nisn't long on talent.\n\nnot quick-tempered.\nnot greedy.\nnot violent.\n\nand then:\ngiven to hospitality.\n\nin God's house\na leader is someone\nwhose own door\nis open,\n\nwhose table\nalways has room\nfor one more.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8a684",
+        "horizon": "#927f5e",
+        "ground": "#9f8e6e",
+        "overall": "#a08e6d",
+        "accent": "#e4bd7a"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "to the pure",
+      "ref": "Titus 1:15",
+      "epigraph": "“To the pure, all things are pure”",
+      "poem": "the same field\nat sunrise.\n\none heart sees\na thing to grab.\n\nanother sees\na thing to thank God for.\n\nit isn't the field\nthat's different.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dfd4af",
+        "horizon": "#bbb091",
+        "ground": "#817a63",
+        "overall": "#afa585",
+        "accent": "#fbe3ab"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "teachers of what is good",
+      "ref": "Titus 2:3–4",
+      "epigraph": "“teachers of that which is good”",
+      "poem": "no pulpit here either.\na kitchen.\na courtyard.\n\nthe older women,\nPaul says,\nare teachers\nof what is good.\n\nnot lecturers.\nteachers,\nthe way one hand\nshows another\nhow to work the dough.\n\nhow to love.\nhow to be kind\nwhen the day is long.\n\nit comes from someone\nwho has done it,\nbeside you.84",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#847966",
+        "horizon": "#7a6955",
+        "ground": "#7d6e5b",
+        "overall": "#7e6f5c",
+        "accent": "#eae4d4"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "grace has appeared",
+      "ref": "Titus 2:11–13",
+      "epigraph": "“For the grace of God has appeared, bringing salvation to all men”",
+      "poem": "grace didn't arrive\nas an idea.\n\nit appeared,\nthe way morning appears\nover the edge of the sea,\nall at once,\nand for everyone.\n\nand it teaches us,\nthe letter says.\nto say no\nto what ruins us.\nto live\nsober, upright, godly,\nright here\nin this present age.\n\ngrace came once.\n\nwe are watching\nthe horizon\nfor its appearing.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1a787",
+        "horizon": "#a48f77",
+        "ground": "#73634d",
+        "overall": "#98846a",
+        "accent": "#f9bd88"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "his own",
+      "ref": "Titus 2:14",
+      "epigraph": "“purify for himself a people for his own possession, zealous for good works.”",
+      "poem": "he gave himself\nto buy us back.\n\nnot to make us\nnames on a list,\n\nbut a people\nhe calls\nhis own.\n\nand people\nwho are held like that\nget restless\nto do good.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ad9c78",
+        "horizon": "#968163",
+        "ground": "#b69f7a",
+        "overall": "#a79372",
+        "accent": "#edd4a4"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "we too",
+      "ref": "Titus 3:2–5",
+      "epigraph": "“But when the kindness of God our Savior and his love toward mankind appeared”",
+      "poem": "we too,\nPaul says.\nnot you.\nwe.\n\nfoolish once.\nled around by what we wanted.\nenvious.\nhating,\nand hated.\n\nthat's who we were\nwhen kindness\nwalked in.\n\nnot because of anything\nwe had done.\nbecause of his mercy.\n\nso be gentle\nwith the ones\nstill standing\nwhere you stood.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#5d5342",
+        "horizon": "#75684e",
+        "ground": "#665e4b",
+        "overall": "#685e49",
+        "accent": "#efcb75"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "poured out richly",
+      "ref": "Titus 3:5–6",
+      "epigraph": "“the washing of regeneration and renewing by the Holy Spirit, whom he poured out on us richly”",
+      "poem": "washed.\nmade new.\npoured out on.\n\nnot a few drops\nmeasured to what we deserved.\n\na jar\ntipped\nall the way over.\n\nrichly.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4d7b4",
+        "horizon": "#baae8e",
+        "ground": "#c1b698",
+        "overall": "#c6ba9a",
+        "accent": "#ecdfbd"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "grace be with you all",
+      "ref": "Titus 3:12–15",
+      "epigraph": "“Grace be with you all.”",
+      "poem": "the last lines\nare travel plans.\n\ncome to me at Nicopolis.\nI've decided to winter there.\nsend Zenas and Apollos on their way,\nand see that they lack nothing.\n\nstill planning.\nstill sending.\nstill making sure\nthe ones on the road\nhave what they need.\n\nthen the word\nhe never forgets\nto end with.\n\ngrace.\n\nto Timothy.\nto Titus.\nto all of you.",
+      "webSrc": "assets/grace-mercy-and-peace/web/b-039-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c9b3",
+        "horizon": "#b0a997",
+        "ground": "#746b5b",
+        "overall": "#a29987",
+        "accent": "#efe2c0"
+      }
+    }
+  ]
+}

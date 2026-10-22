@@ -136,11 +136,64 @@ class PilgrimWalkApp {
         shortName: '1 & 2 Kings',
         fullLabel: 'A Still Small Voice (1 & 2 Kings)',
         loadingSub: 'District VIII: A Still Small Voice — 1 & 2 Kings in Poems & Pictures',
-        nextSlug: 'genesis',
-        nextLabel: '3D Gatehouse Courtyard (All 44 Books)',
+        nextSlug: 'our-eyes-are-on-you',
+        nextLabel: 'District IX: Our Eyes Are on You (1 & 2 Chronicles)',
         amenQuote: '“After the fire, there was a still small voice… a lamp still burning in a far country.”'
       }
     };
+
+    const remaining36 = [
+      [9, 'IX', 'our-eyes-are-on-you', '1–2 Chronicles', 'Our Eyes Are on You (1 & 2 Chronicles)', '“We don’t know what to do, but our eyes are on you.”'],
+      [10, 'X', 'rise-up-and-build', 'Ezra & Nehemiah', 'Rise Up and Build (Ezra & Nehemiah)', '“Don’t be grieved, for the joy of Yahweh is your strength.”'],
+      [11, 'XI', 'for-such-a-time-as-this', 'Esther', 'For Such a Time as This (Esther)', '“Who knows if you haven’t come to the kingdom for such a time as this?”'],
+      [12, 'XII', 'out-of-the-whirlwind', 'Job', 'Out of the Whirlwind (Job)', '“I had heard of you by the hearing of the ear, but now my eye sees you.”'],
+      [13, 'XIII', 'psalms-1', 'Psalms 1–41', 'Planted by the Water (Psalms 1–41)', '“He will be like a tree planted by the streams of water.”'],
+      [14, 'XIV', 'psalms-2', 'Psalms 42–72', 'As the Deer (Psalms 42–72)', '“Lead me to the rock that is higher than I.”'],
+      [15, 'XV', 'psalms-3', 'Psalms 73–106', 'A Day in Your Courts (Psalms 73–106)', '“For a day in your courts is better than a thousand.”'],
+      [16, 'XVI', 'psalms-4', 'Psalms 107–150', 'Everything That Has Breath (Psalms 107–150)', '“Your word is a lamp to my feet, and a light for my path.”'],
+      [17, 'XVII', 'the-beginning-of-wisdom', 'Proverbs', 'The Beginning of Wisdom (Proverbs)', '“Trust in Yahweh with all your heart, and don’t lean on your own understanding.”'],
+      [18, 'XVIII', 'eternity-in-their-hearts', 'Ecclesiastes', 'Eternity in Their Hearts (Ecclesiastes)', '“He has made everything beautiful in its time. He has also set eternity in their hearts.”'],
+      [19, 'XIX', 'many-waters', 'Song of Songs', 'Many Waters (Song of Songs)', '“Many waters can’t quench love, neither can floods drown it.”'],
+      [20, 'XX', 'arise-shine', 'Isaiah', 'Arise, Shine (Isaiah)', '“Arise, shine; for your light has come, and Yahweh’s glory has risen on you.”'],
+      [21, 'XXI', 'a-future-and-a-hope', 'Jeremiah', 'A Future and a Hope (Jeremiah)', '“Thoughts of peace, and not of evil, to give you hope and a future.”'],
+      [22, 'XXII', 'new-every-morning', 'Lamentations', 'New Every Morning (Lamentations)', '“They are new every morning. Great is your faithfulness.”'],
+      [23, 'XXIII', 'can-these-bones-live', 'Ezekiel', 'Can These Bones Live? (Ezekiel)', '“Everything will live wherever the river comes.”'],
+      [24, 'XXIV', 'greatly-beloved', 'Daniel', 'Greatly Beloved (Daniel)', '“Greatly beloved man, don’t be afraid. Peace be to you.”'],
+      [25, 'XXV', 'a-door-of-hope', 'Hosea–Obadiah', 'A Door of Hope (Hosea, Joel, Amos & Obadiah)', '“I will give her vineyards from there, and the valley of Achor for a door of hope.”'],
+      [26, 'XXVI', 'out-of-the-deep', 'Jonah', 'Out of the Deep (Jonah)', '“When my soul fainted within me, I remembered Yahweh.”'],
+      [27, 'XXVII', 'the-day-of-small-things', 'Micah–Malachi', 'The Day of Small Things (Micah to Malachi)', '“Not by might, nor by power, but by my Spirit, says Yahweh of Armies.”'],
+      [28, 'XXVIII', 'good-news-of-great-joy', 'Luke', 'Good News of Great Joy (Luke)', '“Weren’t our hearts burning within us, while he spoke to us along the way?”'],
+      [29, 'XXIX', 'i-am-with-you-always', 'Matthew', 'I Am With You Always (Matthew)', '“Behold, I am with you always, even to the end of the age.”'],
+      [30, 'XXX', 'peace-be-still', 'Mark', 'Peace, Be Still (Mark)', '“Peace! Be still! The wind ceased, and there was a great calm.”'],
+      [31, 'XXXI', 'come-and-see', 'John', 'Come and See (John)', '“The light shines in the darkness, and the darkness hasn’t overcome it.”'],
+      [32, 'XXXII', 'to-the-ends-of-the-earth', 'Acts', 'To the Ends of the Earth (Acts)', '“Preaching God’s Kingdom… with all boldness, without hindrance.”'],
+      [33, 'XXXIII', 'nothing-can-separate', 'Romans', 'Nothing Can Separate (Romans)', '“Nothing will be able to separate us from God’s love which is in Christ Jesus our Lord.”'],
+      [34, 'XXXIV', 'treasure-in-clay-jars', '1–2 Corinthians', 'Treasure in Clay Jars (1 & 2 Corinthians)', '“My grace is sufficient for you, for my power is made perfect in weakness.”'],
+      [35, 'XXXV', 'rooted-and-free', 'Galatians & Ephesians', 'Rooted and Free (Galatians & Ephesians)', '“Being rooted and grounded in love… having done all, to stand.”'],
+      [36, 'XXXVI', 'joy-in-chains', 'Philippians', 'Joy in Chains (Philippians)', '“And the peace of God, which surpasses all understanding, will guard your hearts.”'],
+      [37, 'XXXVII', 'held-together', 'Colossians & Philemon', 'Held Together (Colossians & Philemon)', '“He is before all things, and in him all things are held together.”'],
+      [38, 'XXXVIII', 'children-of-the-day', '1–2 Thessalonians', 'Children of the Day (1 & 2 Thessalonians)', '“You are all children of light and children of the day.”'],
+      [39, 'XXXIX', 'grace-mercy-and-peace', '1–2 Timothy & Titus', 'Grace, Mercy, and Peace (1–2 Timothy & Titus)', '“I have fought the good fight. I have finished the course. I have kept the faith.”'],
+      [40, 'XL', 'anchor-of-the-soul', 'Hebrews', 'Anchor of the Soul (Hebrews)', '“This hope we have as an anchor of the soul, a hope both sure and steadfast.”'],
+      [41, 'XLI', 'doers-of-the-word', 'James', 'Doers of the Word (James)', '“Every good gift and every perfect gift is from above, coming down from the Father of lights.”'],
+      [42, 'XLII', 'a-living-hope', '1–2 Peter & Jude', 'A Living Hope (1–2 Peter & Jude)', '“Until the day dawns, and the morning star arises in your hearts.”'],
+      [43, 'XLIII', 'little-children', '1–3 John', 'Little Children (The Letters of John)', '“There is no fear in love; but perfect love casts out fear.”'],
+      [44, 'XLIV', 'all-things-new', 'Revelation', 'All Things New (Revelation)', '“Behold, I am making all things new… Yes, come, Lord Jesus.”']
+    ];
+
+    remaining36.forEach(([idx, rom, slug, shortName, fullLabel, amenQuote], i) => {
+      const nextEntry = remaining36[i + 1];
+      this.districtMeta[slug] = {
+        idx,
+        num: rom,
+        shortName,
+        fullLabel,
+        loadingSub: `District ${rom}: ${fullLabel} — Poems & Pictures`,
+        nextSlug: nextEntry ? nextEntry[2] : 'genesis',
+        nextLabel: nextEntry ? `District ${nextEntry[1]}: ${nextEntry[4]}` : '3D Gatehouse Courtyard (All 44 Books Completed!)',
+        amenQuote
+      };
+    });
 
     this.audio = new PilgrimAudio();
     this.clock = new THREE.Clock();
@@ -247,6 +300,20 @@ class PilgrimWalkApp {
     });
   }
 
+  async ensureManifestLoaded(slug) {
+    if (this.manifests[slug]) return this.manifests[slug];
+    try {
+      const res = await fetch(`assets/data/${slug}-manifest.json`);
+      if (res.ok) {
+        this.manifests[slug] = await res.json();
+        return this.manifests[slug];
+      }
+    } catch (e) {
+      console.warn(`Failed to load manifest for ${slug}`, e);
+    }
+    return null;
+  }
+
   async bootstrap() {
     const [genRes, exoRes, fbnRes, clRes, jjRes, ruthRes, samRes, kingsRes, routeRes, coversRes] = await Promise.all([
       fetch('assets/data/genesis-manifest.json'),
@@ -278,7 +345,8 @@ class PilgrimWalkApp {
     this.largeText = !!this.saveData.largeText;
     this.applyAccessibilitySettings();
 
-    const initialSlug = this.manifests[this.currentDistrictSlug] ? this.currentDistrictSlug : 'genesis';
+    const initialSlug = this.districtMeta[this.currentDistrictSlug] ? this.currentDistrictSlug : 'genesis';
+    await this.ensureManifestLoaded(initialSlug);
     await this.switchDistrict(initialSlug, true);
 
     const loadingScreen = document.getElementById('loading-screen');
@@ -307,6 +375,29 @@ class PilgrimWalkApp {
       const el = document.getElementById(id);
       if (el) el.classList.toggle('active-pill', active);
     });
+    const sel = document.getElementById('hud-district-select');
+    if (sel && !isGH) {
+      sel.value = this.currentDistrictSlug;
+    }
+  }
+
+  getRouteSlugMap() {
+    const map = {
+      genesis: 'genesis',
+      'let-my-people-go': 'exodus',
+      'fire-by-night': 'fire-by-night',
+      'choose-life': 'choose-life',
+      'be-strong-and-courageous': 'joshua-judges',
+      'where-you-go': 'ruth',
+      'the-lamp-had-not-gone-out': 'samuel',
+      'a-still-small-voice': 'kings'
+    };
+    if (this.routeData) {
+      this.routeData.forEach((d) => {
+        if (!map[d.slug]) map[d.slug] = d.slug;
+      });
+    }
+    return map;
   }
 
   async enterGatehouse3DHub() {
@@ -322,16 +413,7 @@ class PilgrimWalkApp {
       this.scene.remove(this.gatehouseHubWorld.group);
     }
 
-    const playableRouteSlugs = {
-      genesis: 'genesis',
-      'let-my-people-go': 'exodus',
-      'fire-by-night': 'fire-by-night',
-      'choose-life': 'choose-life',
-      'be-strong-and-courageous': 'joshua-judges',
-      'where-you-go': 'ruth',
-      'the-lamp-had-not-gone-out': 'samuel',
-      'a-still-small-voice': 'kings'
-    };
+    const playableRouteSlugs = this.getRouteSlugMap();
 
     this.gatehouseHubWorld = await this.districtBuilder.buildGatehouseHubWorld(
       this.routeData,
@@ -356,6 +438,7 @@ class PilgrimWalkApp {
   }
 
   async switchDistrict(slug, isInitialBoot = false) {
+    await this.ensureManifestLoaded(slug);
     if (!this.manifests[slug]) return;
     this.closeAllModals();
     if (this.mode === 'SCENE') {
@@ -434,16 +517,17 @@ class PilgrimWalkApp {
     if (this.mode === 'GATEHOUSE') {
       strip.innerHTML = `
         <span class="strip-label">3D Gatehouse Courtyard (44 Books):</span>
-        <button class="scene-jump-btn" data-gh-jump="8">Torah Gates (#1–#4)</button>
-        <button class="scene-jump-btn" data-gh-jump="-45">History &amp; Wisdom (#5–#20)</button>
-        <button class="scene-jump-btn" data-gh-jump="-110">Prophets (#21–#32)</button>
-        <button class="scene-jump-btn" data-gh-jump="-175">Gospels &amp; Revelation (#33–#44)</button>
+        <button class="scene-jump-btn" data-gh-jump="-2" data-gh-yaw="0.45">Torah &amp; History (#1–#11)</button>
+        <button class="scene-jump-btn" data-gh-jump="-55" data-gh-yaw="0.45">Wisdom &amp; Major Prophets (#12–#22)</button>
+        <button class="scene-jump-btn" data-gh-jump="-2" data-gh-yaw="-0.45">Minor Prophets &amp; Gospels (#23–#33)</button>
+        <button class="scene-jump-btn" data-gh-jump="-58" data-gh-yaw="-0.45">Epistles &amp; Revelation (#34–#44)</button>
       `;
       strip.querySelectorAll('[data-gh-jump]').forEach((btn) => {
         btn.addEventListener('click', () => {
           const z = parseFloat(btn.getAttribute('data-gh-jump'));
+          const yaw = parseFloat(btn.getAttribute('data-gh-yaw') || '0');
           this.player.position.set(0, 1.72, z);
-          this.player.yaw = 0;
+          this.player.yaw = yaw;
         });
       });
       return;
@@ -501,7 +585,14 @@ class PilgrimWalkApp {
       ]
     };
 
-    const scenes = sceneMap[this.currentDistrictSlug] || sceneMap.genesis;
+    const dynamicScenes = (this.manifest.paintings || [])
+      .filter((p) => p.isScene)
+      .map((p) => ({
+        n: p.n,
+        label: `${p.n} · “${p.title}” (${p.ref})`
+      }));
+
+    const scenes = sceneMap[this.currentDistrictSlug] || dynamicScenes || sceneMap.genesis;
     const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
     const lastN = this.manifest.paintings.length;
 
@@ -922,6 +1013,13 @@ class PilgrimWalkApp {
     if (btnSam) btnSam.addEventListener('click', () => this.switchDistrict('samuel'));
     if (btnKings) btnKings.addEventListener('click', () => this.switchDistrict('kings'));
 
+    const hudSelect = document.getElementById('hud-district-select');
+    if (hudSelect) {
+      hudSelect.addEventListener('change', (e) => {
+        if (e.target.value) this.switchDistrict(e.target.value);
+      });
+    }
+
     const ghBtnCourt = document.getElementById('gatehouse-btn-courtyard');
     const ghBtnGen = document.getElementById('gatehouse-btn-genesis');
     const ghBtnExo = document.getElementById('gatehouse-btn-exodus');
@@ -944,7 +1042,7 @@ class PilgrimWalkApp {
     const amenNextBtn = document.getElementById('amen-next-district-btn');
     if (amenNextBtn) {
       amenNextBtn.addEventListener('click', () => {
-        if (this.currentDistrictSlug === 'kings') {
+        if (this.currentDistrictSlug === 'all-things-new') {
           this.enterGatehouse3DHub();
         } else {
           const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
@@ -1014,7 +1112,7 @@ class PilgrimWalkApp {
 
     if (this.mode === 'GATEHOUSE') {
       if (elLights) elLights.textContent = `${this.saveData.lightsKindled.length} Total Lights`;
-      if (elSeen) elSeen.textContent = `8 / 44 Gates Open`;
+      if (elSeen) elSeen.textContent = `44 / 44 Gates Open`;
       return;
     }
 
@@ -1051,23 +1149,14 @@ class PilgrimWalkApp {
       ghBody.textContent = this.manifest.beforeYouBegin;
     }
 
-    // 1. Long Scroll Modal (All 44 districts in storyline order; Books #1-#8 are interactive!)
-    const routeToSlug = {
-      1: 'genesis',
-      2: 'exodus',
-      3: 'fire-by-night',
-      4: 'choose-life',
-      5: 'joshua-judges',
-      6: 'ruth',
-      7: 'samuel',
-      8: 'kings'
-    };
+    // 1. Long Scroll Modal (All 44 districts in storyline order — all 44 books are interactive!)
+    const routeSlugMap = this.getRouteSlugMap();
     const scrollGrid = document.getElementById('scroll-districts-list');
     if (scrollGrid) {
       scrollGrid.innerHTML = '';
       this.routeData.forEach((d) => {
         const card = document.createElement('div');
-        const playableSlug = routeToSlug[d.n] || null;
+        const playableSlug = routeSlugMap[d.slug] || d.slug;
         const isCurrent = this.mode !== 'GATEHOUSE' && playableSlug === this.currentDistrictSlug;
         const isDone = playableSlug && this.saveData.districtsCompleted.includes(playableSlug);
         card.className = `scroll-card ${isCurrent ? 'active-district' : ''} ${isDone ? 'completed-district' : ''}`;
@@ -1089,9 +1178,7 @@ class PilgrimWalkApp {
                 ? '✦ Completed (Click to Walk)'
                 : isCurrent
                 ? '● Walking Now'
-                : playableSlug
-                ? '✦ Open Now — Click to Enter'
-                : '3D Gatehouse Route'
+                : '✦ Open Now — Click to Enter'
             }</span>
           </div>
         `;
@@ -1103,85 +1190,25 @@ class PilgrimWalkApp {
     const shelfContainer = document.getElementById('shelf-books-grid');
     if (shelfContainer) {
       shelfContainer.innerHTML = '';
-      const books = [
-        {
-          slug: 'genesis',
-          coverKey: 'genesis',
-          fallbackCover: 'assets/genesis/web/g-001-000.jpg',
-          title: 'In the Beginning',
-          sub: 'Genesis in Poems & Pictures · By Timothy Holt',
-          desc: '40 paintings and poems walking from creation’s first light to Joseph’s promise in Egypt.'
-        },
-        {
-          slug: 'exodus',
-          coverKey: 'let-my-people-go',
-          fallbackCover: 'assets/exodus/web/e-002-000.jpg',
-          title: 'Let My People Go',
-          sub: 'Exodus in Poems & Pictures · By Timothy Holt',
-          desc: '40 paintings and poems walking from the reeds of the Nile and the burning bush to the parted sea and the Tabernacle.'
-        },
-        {
-          slug: 'fire-by-night',
-          coverKey: 'fire-by-night',
-          fallbackCover: 'assets/fire-by-night/web/f-003-000.jpg',
-          title: 'Fire by Night',
-          sub: 'Leviticus & Numbers in Poems & Pictures · By Timothy Holt',
-          desc: '40 paintings and poems walking beside the Guiding Pillar of Fire through the wilderness camp, the altar, the lampstand, and the bronze serpent.'
-        },
-        {
-          slug: 'choose-life',
-          coverKey: 'choose-life',
-          fallbackCover: 'assets/choose-life/web/c-004-000.jpg',
-          title: 'Choose Life',
-          sub: 'Deuteronomy in Poems & Pictures · By Timothy Holt',
-          desc: '36 paintings and poems on the Plains of Moab—from the Mezuzah doorpost and the forgotten sheaf to the Fork of Blessing & Curse and Mount Nebo.'
-        },
-        {
-          slug: 'joshua-judges',
-          coverKey: 'be-strong-and-courageous',
-          fallbackCover: 'assets/joshua-judges/web/j-005-000.jpg',
-          title: 'Be Strong and Courageous',
-          sub: 'Joshua & Judges in Poems & Pictures · By Timothy Holt',
-          desc: '40 paintings and poems walking from Rahab’s scarlet cord and the 12 stones of the Jordan to Deborah’s palm tree and Gideon’s torches in clay jars.'
-        },
-        {
-          slug: 'ruth',
-          coverKey: 'where-you-go',
-          fallbackCover: 'assets/ruth/web/r-006-000.jpg',
-          title: 'Where You Go',
-          sub: 'Ruth in Poems & Pictures · By Timothy Holt',
-          desc: '24 paintings and poems walking from the road to Bethlehem and the barley fields of Boaz to the starlit threshing floor and the kinsman’s sandal at the gate.'
-        },
-        {
-          slug: 'samuel',
-          coverKey: 'the-lamp-had-not-gone-out',
-          fallbackCover: 'assets/samuel/web/s-007-000.jpg',
-          title: 'The Lamp Had Not Gone Out',
-          sub: '1–2 Samuel in Poems & Pictures · By Timothy Holt',
-          desc: '40 paintings and poems walking from Hannah’s prayer and the boy Samuel beside the Tabernacle lamp to five smooth stones in the brook and Mephibosheth at the king’s table.'
-        },
-        {
-          slug: 'kings',
-          coverKey: 'a-still-small-voice',
-          fallbackCover: 'assets/kings/web/k-008-000.jpg',
-          title: 'A Still Small Voice',
-          sub: '1 & 2 Kings in Poems & Pictures · By Timothy Holt',
-          desc: '40 paintings and poems walking from Solomon’s cloud-filled Temple and fire on Mount Carmel to the still small voice at Horeb and hills blazing with chariots of fire.'
-        }
-      ];
-
-      books.forEach((b) => {
+      this.routeData.forEach((d) => {
+        const playableSlug = routeSlugMap[d.slug] || d.slug;
+        const mInfo = this.districtMeta[playableSlug] || {};
         const cover =
-          this.coversData && this.coversData[b.coverKey] ? this.coversData[b.coverKey] : b.fallbackCover;
+          this.coversData && this.coversData[d.slug]
+            ? this.coversData[d.slug]
+            : `assets/${playableSlug}/web/b-${String(d.n).padStart(3, '0')}-000.jpg`;
         const item = document.createElement('div');
         item.className = 'shelf-book-card';
         item.innerHTML = `
-          <img src="${cover}" alt="${b.title}" />
+          <img src="${cover}" alt="${d.title}" loading="lazy" />
           <div class="shelf-book-meta">
-            <h3>${b.title}</h3>
-            <p class="shelf-sub">${b.sub}</p>
-            <p class="shelf-desc">${b.desc}</p>
+            <h3>#${d.n} · ${d.title}</h3>
+            <p class="shelf-sub">${d.subtitle} · By Timothy Holt</p>
+            <p class="shelf-desc">${mInfo.amenQuote || 'Walk the street of paintings and poems, kindle the hidden Lights, and step through the glowing frames.'}</p>
             <div class="shelf-links" style="display:flex;gap:10px;flex-wrap:wrap;">
+              <button class="gold-btn" data-shelf-enter="${playableSlug}">
+                ✦ Walk District #${d.n}: ${d.title}
+              </button>
               <a href="https://inspiringyourfaith.org" target="_blank" rel="noopener noreferrer" class="gold-btn">
                 Visit Timothy Holt’s Bookshop (InspiringYourFaith.org) ↗
               </a>
@@ -1189,6 +1216,12 @@ class PilgrimWalkApp {
           </div>
         `;
         shelfContainer.appendChild(item);
+      });
+      shelfContainer.querySelectorAll('[data-shelf-enter]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const targetSlug = btn.getAttribute('data-shelf-enter');
+          if (targetSlug) this.switchDistrict(targetSlug);
+        });
       });
     }
 

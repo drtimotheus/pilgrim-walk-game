@@ -1,0 +1,824 @@
+{
+  "district": 23,
+  "slug": "can-these-bones-live",
+  "title": "Can These Bones Live?",
+  "subtitle": "Ezekiel in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/can-these-bones-live/web/b-023-000.jpg",
+  "beforeYouBegin": "Ezekiel begins with a priest far from the temple, sitting among the captives by a river in Babylon, when the heavens open and a storm of light rolls in with a rainbow around it. Then come a scroll that tastes like honey, a watchman on the wall, a clay tile with a city drawn on it, the glory of God lifting from the temple doorway, a newborn left in a field and told to live, a proverb about sour grapes, and a God who says he takes no pleasure in anyone's death. The last chapters turn to hope: shepherds who failed and a God who goes looking for the lost himself, a heart of stone made into flesh, a valley of dry bones, two sticks made one, and a river that runs out from the temple, deeper and deeper, until everything lives wherever it comes.\n\nThis book walks through it in forty short poems, in five parts. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the story touches—a riverbank, a scroll and a dish of honey, a clay tile, a quiet valley of pale stones, a river with trees on both banks—and the visions are shown only as light, color, and motion.\n\nThe poems are not the Bible. They are one reader's response to it. Open the book of Ezekiel alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "The Heavens Were Opened",
+      "epigraph": "the heavens were opened, and I saw visions of God.",
+      "epigraphRef": "Ezekiel 1:1",
+      "lightName": "Light of The Heavens Were Opened",
+      "lightHint": "Near 'by the river' (Ezekiel 1:1) in Part 1: The Heavens Were Opened"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 8,
+      "title": "The Glory Went Up",
+      "epigraph": "Y ahweh’s glory went up from the middle of the city, and stood on the mountain which is on the east side of the city.",
+      "epigraphRef": "Ezekiel 11:23",
+      "lightName": "Light of The Glory Went Up",
+      "lightHint": "Near 'the tile' (Ezekiel 4:1–3) in Part 2: The Glory Went Up"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 15,
+      "title": "Turn and Live",
+      "epigraph": "Therefore turn yourselves, and live!",
+      "epigraphRef": "Ezekiel 18:32",
+      "lightName": "Light of Turn and Live",
+      "lightHint": "Near 'it may be' (Ezekiel 12:3–7) in Part 3: Turn and Live"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 23,
+      "title": "I Myself Will Search",
+      "epigraph": "Behold, I myself, even I, will search for my sheep, and will seek them out.",
+      "epigraphRef": "Ezekiel 34:11",
+      "lightName": "Light of I Myself Will Search",
+      "lightHint": "Near 'perfect in beauty' (Ezekiel 27:3–7) in Part 4: I Myself Will Search"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 31,
+      "title": "Wherever the River Comes",
+      "epigraph": "everything will live wherever the river comes.",
+      "epigraphRef": "Ezekiel 47:9",
+      "lightName": "Light of Wherever the River Comes",
+      "lightHint": "Near 'you know' (Ezekiel 37:1–3) in Part 5: Wherever the River Comes"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "by the river",
+      "ref": "Ezekiel 1:1",
+      "epigraph": "“as I was among the captives by the river Chebar, the heavens were opened, and I saw visions of God.”",
+      "poem": "the thirtieth year.\nthe fourth month.\nthe fifth day.\n\nhe wrote it down\nlike a man marking\nthe place where lightning struck.\n\nnot in the temple\nhe was born to serve in.\nnot in Jerusalem at all.\n\nby a foreign river,\namong the captives,\nfar from every holy place—\n\nthe heavens opened.\n\nno one is so far downstream\nthat the sky\ncan't open over them.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a99e8b",
+        "horizon": "#a3977e",
+        "ground": "#7c735f",
+        "overall": "#948974",
+        "accent": "#f5e9c7"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "wherever the spirit went",
+      "ref": "Ezekiel 1:12–16",
+      "epigraph": "“where the spirit was to go, they went. They didn’t turn when they went.”",
+      "poem": "fire running back and forth\nlike lightning.\nwheels inside wheels,\nthe color of beryl.\n\nhe kept writing\nlike,\nas it were.\n\nbut one thing\nhe said plainly:\n\nthey didn't turn when they went.\n\nwherever the spirit was going,\nthey went,\nstraight ahead.\n\nthe glory of God\ndid not need\na road\nto reach a man in exile.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#999984",
+        "horizon": "#a4a58f",
+        "ground": "#aea385",
+        "overall": "#a4a188",
+        "accent": "#f8f0d1"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "the bow in the cloud",
+      "ref": "Ezekiel 1:28",
+      "epigraph": "“As the appearance of the rainbow that is in the cloud in the day of rain, so was the appearance of the brightness all around.”",
+      "poem": "after the fire and the thunder,\nafter wings like the noise of many waters,\nafter the throne\nand the brightness,\n\nhe reached for the gentlest thing he knew:\n\na rainbow\nin the cloud\non a day of rain.\n\nthis, he said,\nwas the glory of the Lord.\n\nand he fell on his face.\nanyone would.\n\nbut notice what circled the throne.\nnot lightning.\n\na promise,\nhung in the rain.12",
+      "webSrc": "assets/can-these-bones-live/web/b-023-003.jpg",
+      "heroSrc": "assets/can-these-bones-live/web/b-023-003.jpg",
+      "isScene": true,
+      "sceneType": "chebar_rainbow_throne",
+      "palette": {
+        "top": "#9b9a8a",
+        "horizon": "#aba794",
+        "ground": "#8f896f",
+        "overall": "#9b9783",
+        "accent": "#ebe3c6"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "on your feet",
+      "ref": "Ezekiel 2:1–2",
+      "epigraph": "“The Spirit entered into me when he spoke to me, and set me on my feet”",
+      "poem": "face down on the ground\nby the river,\nhe heard a voice:\nstand up.\n\nand he couldn't.\nso the Spirit came in\nand stood him up.\n\nGod didn't want\na man flattened by glory.\nhe wanted\na man on his feet,\nlistening.\n\nthe command\nand the strength to obey it\narrived\nin the same breath.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c098",
+        "horizon": "#908263",
+        "ground": "#665a46",
+        "overall": "#938668",
+        "accent": "#fde1a3"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "sweet as honey",
+      "ref": "Ezekiel 3:1–3",
+      "epigraph": "“Then I ate it; and it was as sweet as honey in my mouth.”",
+      "poem": "the scroll was written\nfront and back,\nand every line was grief:\nlamentation,\nmourning,\nwoe.\n\neat it, God said.\n\nso he did.\n\nand it was sweet.\n\nnot because the words were soft.\nbecause they were God's,\nand he took them in\nall the way down.\n\nthe hardest message\nhe would ever carry\nbegan\nas honey.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c29c",
+        "horizon": "#ac9a76",
+        "ground": "#836c48",
+        "overall": "#a8946f",
+        "accent": "#e3d2a7"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "seven days",
+      "ref": "Ezekiel 3:15",
+      "epigraph": "“I sat there overwhelmed among them seven days.”",
+      "poem": "before he said a word\nto the exiles,\nhe sat where they sat.\n\nseven days,\noverwhelmed,\namong them.\n\nsome messages\nhave to be lived with\nbefore they can be spoken.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bba589",
+        "horizon": "#a88b70",
+        "ground": "#41372a",
+        "overall": "#83705a",
+        "accent": "#f8be90"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the watchman",
+      "ref": "Ezekiel 3:17",
+      "epigraph": "“Son of man, I have made you a watchman to the house of Israel.”",
+      "poem": "a watchman doesn't make the storm.\nhe can't stop the army.\nhe can't make anyone listen.\n\nhis job is smaller than that,\nand harder:\n\nstay awake.\nsee it coming.\nsay so.\n\nGod made Ezekiel\na watchman,\nnot to frighten his people,\n\nbut because\na warning\nis what love sounds like\nwhile there's still time.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cab68a",
+        "horizon": "#a79779",
+        "ground": "#655d4b",
+        "overall": "#94876a",
+        "accent": "#f3d289"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "the tile",
+      "ref": "Ezekiel 4:1–3",
+      "epigraph": "“take a tile, and lay it before yourself, and portray on it a city, even Jerusalem.”",
+      "poem": "a grown man\nkneeling in the dirt\nwith a clay tile,\ndrawing a city,\nheaping tiny ramps against it\nlike a child at play.\n\nperhaps the neighbors laughed.\n\nbut they had stopped listening\nto ordinary words.\n\nsometimes the truth\ncomes in a form\nso small and strange\nyou almost step over it.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbceac",
+        "horizon": "#95886c",
+        "ground": "#b59c77",
+        "overall": "#b6a381",
+        "accent": "#e9d9b5"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "bread by weight",
+      "ref": "Ezekiel 4:9–10",
+      "epigraph": "“Take for yourself also wheat, barley, beans, lentils, millet, and spelt, and put them in one vessel.”",
+      "poem": "wheat, barley, beans,\nlentils, millet, spelt—\na little of everything,\nmixed in one jar,\nbaked,\nweighed out,\na little each day.\n\nthis is what a siege tastes like,\nhe was telling them.\n\nand yet\nit was still bread.\nday after day\nit kept him.\n\neven the hardest sign\nGod gave\nhad bread in it.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c49f",
+        "horizon": "#b7aa86",
+        "ground": "#9a8c69",
+        "overall": "#b2a582",
+        "accent": "#dacdab"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "a remnant",
+      "ref": "Ezekiel 6:8–9",
+      "epigraph": "“Yet I will leave a remnant”",
+      "poem": "the early chapters are heavy.\nsword, famine, scattering.\nthe end has come,\nthe prophet says.\n\nand then, in the middle of it,\na small word:\nyet.\n\nyet I will leave a remnant.\n\nand the ones who are left\nwill remember me,\nGod says—\nand will see\nhow their wandering hearts\nbroke mine.\n\njudgment is never\nthe last thing\nhe has to say.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c9ad",
+        "horizon": "#b1a68f",
+        "ground": "#665c47",
+        "overall": "#9b9079",
+        "accent": "#f1e5c3"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "in the dark",
+      "ref": "Ezekiel 8:7–12",
+      "epigraph": "“Yahweh doesn’t see us. Yahweh has forsaken the land.”",
+      "poem": "they went into a room\nbehind a wall,\nlit their incense,\nand told one another,\nhe doesn't see us.\nhe's gone.\n\ntwo lies\nin one breath.\n\nbecause he saw.\nhe showed the whole room\nto a man\nhundreds of miles away.\n\nand he hadn't gone.\nnot yet.\nhis glory was still there,\nby the gate,\n\nwaiting.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#646254",
+        "horizon": "#575246",
+        "ground": "#58574d",
+        "overall": "#5a584c",
+        "accent": "#f6edd4"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "the mark",
+      "ref": "Ezekiel 9:4",
+      "epigraph": "“set a mark on the foreheads of the men that sigh and that cry over all the abominations that are done within it.”",
+      "poem": "before anything else happened,\na man in linen\nwalked through the city\nwith an inkhorn at his side,\n\nlooking for one kind of person:\n\nthe ones who sighed.\nthe ones who cried\nover what was being done.\n\nnot the powerful.\nnot the sure.\nthe grieving.\n\nheaven marked them first.\n\nit still notices\nwho is heartbroken\nover what breaks\nthe heart of God.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4bba0",
+        "horizon": "#c0b89a",
+        "ground": "#9a957e",
+        "overall": "#b0a98f",
+        "accent": "#fcf4cb"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "over the threshold",
+      "ref": "Ezekiel 10:18–19",
+      "epigraph": "“Yahweh’s glory went out from over the threshold of the house”",
+      "poem": "it didn't leave all at once.\n\nfirst the glory rose\nto the threshold,\nand stood there.\n\nthen to the east gate,\nand stood there.\n\nthen out over the city\nto the mountain on the east,\n\nand stood.\n\nlike someone leaving a house\nthey love,\nlooking back\nfrom every doorway.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#97896f",
+        "horizon": "#a2977d",
+        "ground": "#7e7764",
+        "overall": "#948971",
+        "accent": "#fdf3d3"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "a sanctuary for a little while",
+      "ref": "Ezekiel 11:15–16",
+      "epigraph": "“yet I will be to them a sanctuary for a little while in the countries where they have come.”",
+      "poem": "the temple was far away.\nthe exiles were farther.\n\nand the people left in Jerusalem said,\nthey're far from the Lord now.\n\nbut God said:\nI will be their sanctuary\nin the countries where they've gone.\n\nno walls.\nno altar.\nno gold.\n\njust him,\nin a strange land,\nfor a little while,\n\nwith the ones\neveryone else\nhad written off.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b9ac91",
+        "horizon": "#9b8d77",
+        "ground": "#574c3c",
+        "overall": "#887c67",
+        "accent": "#dbc092"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "it may be",
+      "ref": "Ezekiel 12:3–7",
+      "epigraph": "“It may be they will consider, though they are a rebellious house.”",
+      "poem": "pack your things, God said.\ncarry them out by day\nwhere they can watch.\ndig through the wall at evening.\n\nact out the exile\nso they can see it coming.\n\nand then the smallest word\nin the whole command:\n\nit may be.\n\nit may be they will consider.\n\neven for a stubborn house,\nGod kept the door\npropped open\nwith a maybe.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9d8e9e",
+        "horizon": "#887a79",
+        "ground": "#37342d",
+        "overall": "#6d6464",
+        "accent": "#eac8b7"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "live",
+      "ref": "Ezekiel 16:4–6",
+      "epigraph": "“I said to you, ‘Though you are in your blood, live!’”",
+      "poem": "the picture God chose\nfor his people\nwas a newborn\nleft in an open field.\n\nno one had washed her.\nno one had wrapped her.\nno eye pitied her.\n\nthen someone passed by\nand stopped.\n\nlive, he said.\nand said it again.\nlive.\n\nthat is where the story starts:\nnot with how beautiful she became,\nbut with a word spoken\nover someone\nnobody wanted.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d0ad",
+        "horizon": "#bba694",
+        "ground": "#9b8e73",
+        "overall": "#bbaa8f",
+        "accent": "#facaaa"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "nevertheless",
+      "ref": "Ezekiel 16:60–63",
+      "epigraph": "“Nevertheless I will remember my covenant with you in the days of your youth”",
+      "poem": "the chapter is long and hard.\nshe forgot.\nshe gave away\neverything he had given her.\n\nand then one word\nturns the whole thing around:\n\nnevertheless.\n\nI will remember,\nGod says,\nthe days\nyou have forgotten.\n\nand at the very end,\nafter all of it:\nforgiven.\n\neverlasting\nwas always\nhis side of the promise.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8a98c",
+        "horizon": "#796c53",
+        "ground": "#87755e",
+        "overall": "#938369",
+        "accent": "#e3d1ac"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "a tender twig",
+      "ref": "Ezekiel 17:22–24",
+      "epigraph": "“I will crop off from the topmost of its young twigs a tender one, and I will plant it on a high and lofty mountain.”",
+      "poem": "from the top of the tallest cedar\nGod takes\nthe youngest twig.\n\nnot the trunk.\nnot the proud branch.\n\na tender one.\n\nhe plants it on a mountain,\nand it grows\nuntil birds of every kind\nrest in its shade.\n\nthis is how he works:\nhe brings the high tree down,\nlifts the low one up,\n\nand begins\nwith something\nyou could snap\nbetween two fingers.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d6ba",
+        "horizon": "#a29880",
+        "ground": "#8d7c60",
+        "overall": "#ada085",
+        "accent": "#eee2c9"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "sour grapes",
+      "ref": "Ezekiel 18:1–4",
+      "epigraph": "“The fathers have eaten sour grapes, and the children’s teeth are set on edge”",
+      "poem": "our fathers ate the sour grapes,\nthey said,\nand we're the ones wincing.\n\nit was a clever proverb.\nit explained everything.\nit let them off the hook\nand left them stuck.\n\nGod said:\nstop saying that.\n\nevery soul is mine,\nthe father's and the son's.\n\nyou are not\nyour father's mistakes.\n\nwhich means\nyou are free\nto turn.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2b290",
+        "horizon": "#cebd9b",
+        "ground": "#988a6c",
+        "overall": "#b3a484",
+        "accent": "#e4d4af"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "a pleasant aroma",
+      "ref": "Ezekiel 20:41–44",
+      "epigraph": "“I will accept you as a pleasant aroma when I bring you out from the peoples”",
+      "poem": "chapter twenty is a long list—\nEgypt, the wilderness, the land,\ngeneration after generation\nturning away\nand turning away.\n\nyou expect it to end\nwith a door slamming.\n\ninstead:\nI will accept you,\nlike the smell of an offering\nrising.\n\nnot according to your ways,\nGod says,\nbut for my name's sake.\n\ngrace\nwas never\na reward.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d3aa",
+        "horizon": "#c1b894",
+        "ground": "#93815c",
+        "overall": "#bbad87",
+        "accent": "#e0ae65"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "the gap",
+      "ref": "Ezekiel 22:30",
+      "epigraph": "“I sought for a man among them who would build up the wall and stand in the gap before me for the land”",
+      "poem": "a broken place in the wall.\ntrouble coming.\none gap\nwhere someone could stand.\n\nGod went looking\nfor anyone\nwilling to stand there.\n\nnot an army.\nnot a king.\njust one.\n\nand he found no one.\n\nread it slowly.\nfew sentences in the book\nare sadder.\n\nsomewhere there is still a gap,\nand he is still\nlooking.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ceb27c",
+        "horizon": "#7a7157",
+        "ground": "#6c634d",
+        "overall": "#8a7c5c",
+        "accent": "#fbdd83"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "the desire of your eyes",
+      "ref": "Ezekiel 24:15–18",
+      "epigraph": "“at evening my wife died.”",
+      "poem": "God told him first:\nthe desire of your eyes\nwill be taken.\n\nin the morning\nhe spoke to the people.\nin the evening\nhis wife died.\n\nand he was told\nnot to mourn aloud,\nso that his silence\nwould become a sign\nof a grief\ntoo large for weeping.\n\nthe book says it plainly\nand moves on.\n\nwe don't have to.\nwe can stop here a moment\nand sit with him.54",
+      "webSrc": "assets/can-these-bones-live/web/b-023-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bdb197",
+        "horizon": "#656358",
+        "ground": "#8b7e64",
+        "overall": "#8e8570",
+        "accent": "#d6c6a9"
+      }
+    },
+    {
+      "n": 23,
+      "part": 4,
+      "title": "perfect in beauty",
+      "ref": "Ezekiel 27:3–7",
+      "epigraph": "“Y ou, Tyre, have said, ‘I am perfect in beauty.’”",
+      "poem": "cypress planks.\na cedar mast from Lebanon.\na sail of embroidered linen.\nblue and purple for an awning.\n\nTyre was the finest ship\non the sea,\nand she knew it.\n\nI am perfect in beauty,\nshe said.\n\nthe prophet sang her a lament\nbefore the storm—\n\na sad song\nfor anyone\nwho mistakes\nbeing admired\nfor being safe.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c6ab",
+        "horizon": "#baa78a",
+        "ground": "#787263",
+        "overall": "#a79b84",
+        "accent": "#f6e2bd"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "why will you die",
+      "ref": "Ezekiel 33:10–11",
+      "epigraph": "“I have no pleasure in the death of the wicked; but that the wicked turn from his way and live.”",
+      "poem": "listen to how God says it:\nas I live—\nthe strongest oath he has—\n\nI take no pleasure\nin the death of the wicked.\n\nnot the stubborn.\nnot the lost.\nnot the one\nwho thinks it's too late.\n\nturn, he says.\nturn.\n\nand then a question\nthat isn't a threat.\nit's a plea:\n\nwhy will you die?",
+      "webSrc": "assets/can-these-bones-live/web/b-023-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c7ac",
+        "horizon": "#918672",
+        "ground": "#776d58",
+        "overall": "#9b8f78",
+        "accent": "#edc97f"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "the mouth opened",
+      "ref": "Ezekiel 33:21–22",
+      "epigraph": "“my mouth was opened, and I was no longer mute.”",
+      "poem": "for years\nhe could speak\nonly when God opened his mouth.\n\nthen one evening\nthe hand of the Lord came on him,\nand in the morning\na man arrived\nwho had escaped from Jerusalem:\n\nthe city has fallen.\n\nand the prophet's mouth\nwas opened.\n\nthe worst news\nwas the day\nhis words came back—\n\nand from then on,\nmost of them\nwere hope.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1cdad",
+        "horizon": "#a69b87",
+        "ground": "#615d51",
+        "overall": "#9c907c",
+        "accent": "#f7d2a4"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "a lovely song",
+      "ref": "Ezekiel 33:30–32",
+      "epigraph": "“you are to them as a very lovely song of one who has a pleasant voice”",
+      "poem": "they loved hearing him.\nthey told each other,\ncome on,\nlet's go hear the word.\n\nhe was like a lovely song,\na pleasant voice,\na skilled hand on the strings.\n\nthey sat.\nthey nodded.\nthey went home.\n\nand nothing changed.\n\nit is possible\nto love the sound of God's word\nand never once\nlet it touch\nwhat you do.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b29768",
+        "horizon": "#957c52",
+        "ground": "#877049",
+        "overall": "#998055",
+        "accent": "#fcd98b"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "the shepherds",
+      "ref": "Ezekiel 34:2–6",
+      "epigraph": "“Y ou haven’t sought that which was lost”",
+      "poem": "God's charge against the shepherds\nreads like a list\nof everything they skipped:\n\nthe weak, not strengthened.\nthe sick, not healed.\nthe broken, not bound up.\nthe strays, not brought back.\nthe lost, not looked for.\n\nthey ate well.\nthey wore the wool.\n\nand the sheep\nscattered on every hill,\nwith no one\nsearching.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbc698",
+        "horizon": "#675a45",
+        "ground": "#544a38",
+        "overall": "#847458",
+        "accent": "#fec269"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "I myself",
+      "ref": "Ezekiel 34:11–16",
+      "epigraph": "“I will seek that which was lost, and will bring back that which was driven away, and will bind up that which was broken”",
+      "poem": "so God answered the list,\nline by line,\nhimself.\n\nI will seek the lost.\nI will bring back the driven away.\nI will bind up the broken.\nI will strengthen the sick.\n\nI myself, he says.\neven I.\n\nno more hired hands.\nno more waiting for someone better.\n\non the cloudy and dark day,\nwhen you have wandered\nfarther than anyone would look,\n\nthe one coming up the mountain\nis God.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2ad9a",
+        "horizon": "#717265",
+        "ground": "#505044",
+        "overall": "#767567",
+        "accent": "#eae5d4"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "showers",
+      "ref": "Ezekiel 34:25–26",
+      "epigraph": "“I will cause the shower to come down in its season. There will be showers of blessing.”",
+      "poem": "not a flood.\nnot a drought.\n\nrain\nin its season,\n\nfalling on the hills\nwhere the lost sheep\nlie down now\nand sleep.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bdb092",
+        "horizon": "#9b9175",
+        "ground": "#6d6248",
+        "overall": "#93876c",
+        "accent": "#f2e6cc"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "a heart of flesh",
+      "ref": "Ezekiel 36:25–27",
+      "epigraph": "“I will take away the stony heart out of your flesh, and I will give you a heart of flesh.”",
+      "poem": "he doesn't ask you\nto soften it yourself.\n\nhe doesn't hand you\na chisel\nand a list.\n\nhe says,\nI will take it out—\nthe stone—\n\nand give you\na heart that can feel again.\n\nand then,\nso it keeps beating,\nmy Spirit\nwithin you.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-030.jpg",
+      "heroSrc": "assets/can-these-bones-live/web/b-023-030.jpg",
+      "isScene": true,
+      "sceneType": "heart_of_flesh",
+      "palette": {
+        "top": "#d9caa5",
+        "horizon": "#ab9b77",
+        "ground": "#c1a985",
+        "overall": "#bda985",
+        "accent": "#ecdcb5"
+      }
+    },
+    {
+      "n": 31,
+      "part": 5,
+      "title": "you know",
+      "ref": "Ezekiel 37:1–3",
+      "epigraph": "“Son of man, can these bones live?”",
+      "poem": "a valley full of what was left.\nvery many.\nvery dry.\n\nand God asked him\nthe kind of question\nthat has only one sensible answer:\n\ncan these live?\n\nhe didn't say no.\nhe didn't say yes.\n\nLord, you know.\n\nsometimes that is all the faith\nyou have—\nnot certainty,\n\njust leaving the question\nin the right hands.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cecab1",
+        "horizon": "#cec7ad",
+        "ground": "#928970",
+        "overall": "#b7b097",
+        "accent": "#f7eccd"
+      }
+    },
+    {
+      "n": 32,
+      "part": 5,
+      "title": "breath",
+      "ref": "Ezekiel 37:7–10",
+      "epigraph": "“the breath came into them, and they lived, and stood up on their feet”",
+      "poem": "first there was a rattling,\nbone to its bone.\nthen sinews, flesh, skin—\n\nand nothing.\nno breath.\n\nyou can be put back together\nand still not be alive.\n\nso God said,\nspeak to the wind.\n\nand breath came\nfrom all four directions,\n\nand where the dry things lay,\na great multitude\nstood up on its feet.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-032.jpg",
+      "heroSrc": "assets/can-these-bones-live/web/b-023-032.jpg",
+      "isScene": true,
+      "sceneType": "valley_of_dry_bones",
+      "palette": {
+        "top": "#e6e0cf",
+        "horizon": "#dad4c5",
+        "ground": "#b0a691",
+        "overall": "#cdc6b4",
+        "accent": "#f0e5c8"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "our hope is lost",
+      "ref": "Ezekiel 37:11–14",
+      "epigraph": "“Our bones are dried up, and our hope is lost.”",
+      "poem": "so that's what the valley was.\n\nnot a battlefield.\na feeling.\n\nour bones are dried up,\nthe exiles said.\nour hope is lost.\nwe are cut off.\n\nGod didn't argue.\nhe didn't tell them\nit wasn't that bad.\n\nhe said,\nI will open your graves.\nI will put my Spirit in you.\n\nyou will live.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d5b9",
+        "horizon": "#d6c9ae",
+        "ground": "#baac91",
+        "overall": "#cfc3a7",
+        "accent": "#f0e3c1"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "two sticks",
+      "ref": "Ezekiel 37:15–22",
+      "epigraph": "“that they may become one in your hand.”",
+      "poem": "one stick for Judah.\none for Joseph.\n\ntwo kingdoms,\nsplit for so long\nthat no one living\nremembered them as one.\n\nEzekiel held them\nend to end\nin his hand\nuntil they looked like one.\n\nthis is what I'll do, God said.\none nation.\none shepherd.\n\nsome divisions\nare older than everyone alive.\nnone are older\nthan his hands.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b89f",
+        "horizon": "#98866d",
+        "ground": "#5f523d",
+        "overall": "#908169",
+        "accent": "#e6dbc0"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "set your heart",
+      "ref": "Ezekiel 40:1–4",
+      "epigraph": "“set your heart on all that I will show you”",
+      "poem": "twenty-five years into exile,\nfourteen years after the city fell,\nhe was set down on a high mountain\nand shown a temple\nby a man with a measuring reed.\n\ngate by gate.\nwall by wall.\ncubit by cubit.\n\nchapter after chapter\nof measurements—\n\nbecause people who had lost everything\nneeded to know\nGod was already\ndrawing up the plans.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ebdfbc",
+        "horizon": "#e3d8b6",
+        "ground": "#b5a47f",
+        "overall": "#d4c7a4",
+        "accent": "#faebc5"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "the glory returns",
+      "ref": "Ezekiel 43:1–5",
+      "epigraph": "“His voice was like the sound of many waters; and the earth was illuminated with his glory.”",
+      "poem": "he had watched it leave—\nthreshold,\neast gate,\nmountain.\n\nnineteen years later\nhe watched it come back\nthe same way.\n\nfrom the east.\nthrough the gate.\nfilling the house.\n\nwith a sound like many waters,\nand the earth\nshining.\n\nwhatever door\nthe glory left by,\nit knows\nthe way home.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bfb49d",
+        "horizon": "#9e967c",
+        "ground": "#9a9075",
+        "overall": "#a49a81",
+        "accent": "#f2d286"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "deeper",
+      "ref": "Ezekiel 47:1–5",
+      "epigraph": "“waters to swim in, a river that could not be walked through.”",
+      "poem": "it began as a trickle\nunder the temple door.\n\na thousand cubits on,\nit came to his ankles.\n\na thousand more,\nhis knees.\n\nthen his waist.\n\nthen a river\nhe couldn't cross.\nwaters to swim in.\n\nno other stream\nfed it along the way.\nnothing but\nthe house of God.\n\nand still\nit kept getting deeper.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c9ad",
+        "horizon": "#daccaf",
+        "ground": "#a8a693",
+        "overall": "#c6bca2",
+        "accent": "#f5e5bf"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "leaves for healing",
+      "ref": "Ezekiel 47:7–12",
+      "epigraph": "“Its fruit will be for food, and its leaf for healing.”",
+      "poem": "trees on both banks.\nleaves that don't wither.\nnew fruit every month.\n\nthe sea is healed.\nfishermen spread their nets\nwhere nothing used to live.\n\nwhy?\nbecause the water\ncomes out of the sanctuary.\n\nfruit for food.\nleaves for healing.\n\nwherever his presence flows,\nwhat was dead\nbegins, quietly,\nto be mended.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-038.jpg",
+      "heroSrc": "assets/can-these-bones-live/web/b-023-038.jpg",
+      "isScene": true,
+      "sceneType": "temple_river_trees",
+      "palette": {
+        "top": "#d8cdb1",
+        "horizon": "#aca588",
+        "ground": "#a09b88",
+        "overall": "#b3ab92",
+        "accent": "#eae0c6"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "the stranger's share",
+      "ref": "Ezekiel 47:21–23",
+      "epigraph": "“They shall have inheritance with you among the tribes of Israel.”",
+      "poem": "when the land was divided again,\ntribe by tribe,\nGod added a line\nno one expected:\n\nthe foreigners living among you,\nthe ones raising children here—\ngive them a share too.\n\ncount them\nas born in the land.\n\nin the city God is building,\nno one stays\na stranger\nfor long.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#eddfbf",
+        "horizon": "#e8dcbf",
+        "ground": "#908668",
+        "overall": "#c6ba9d",
+        "accent": "#f5e7c2"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "Yahweh is there",
+      "ref": "Ezekiel 48:30–35",
+      "epigraph": "“the name of the city from that day shall be, ‘Y ahweh is there.’”",
+      "poem": "the book began\nby a foreign river,\nwith the glory\ncoming to a man in exile.\n\nin the middle\nthe glory left the temple.\n\nat the end\nit comes back,\nand the city gets a new name.\n\nnot its builder's.\nnot its king's.\n\nYahweh is there.\n\nthe glory can leave a building.\nit never did\nleave his people.",
+      "webSrc": "assets/can-these-bones-live/web/b-023-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5d49f",
+        "horizon": "#c0b794",
+        "ground": "#918564",
+        "overall": "#b8ac84",
+        "accent": "#fbecae"
+      }
+    }
+  ]
+}

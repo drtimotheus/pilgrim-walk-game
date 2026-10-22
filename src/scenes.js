@@ -205,6 +205,16 @@ export class StepThroughSceneManager {
       signatureState = this.populateKingsStillSmallVoiceScene(group, derived, pal, getTerrainHeight);
     } else if (kind === 'chariots_of_fire') {
       signatureState = this.populateKingsChariotsOfFireScene(group, derived, pal, getTerrainHeight);
+    } else {
+      signatureState = this.populateBook9To44StepThroughScene(
+        kind,
+        paintingData,
+        group,
+        derived,
+        pal,
+        getTerrainHeight,
+        skyDome
+      );
     }
 
     return {
@@ -1970,6 +1980,153 @@ export class StepThroughSceneManager {
           ch.cGroup.position.y += Math.sin(time * 2.5 + idx) * 0.002;
           ch.halo.scale.set((2.8 + val * 1.1), (2.2 + val * 0.9), 1);
         });
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICTS IX–XLIV (BOOKS #9 TO #44) — 144 WALKABLE 3D STEP-THROUGH SCENES
+  // ==========================================================================
+  populateBook9To44StepThroughScene(kind, paintingData, group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0.0, 0.0, -5.6);
+
+    // 1. Build the bespoke 3D Symbolic Focal Prop Assembly at the heart of the clearing
+    const focalRig = this.propBuilder.createFocalPropForScene(kind, derived.propTex, pal);
+    focalRig.group.position.copy(focalPos);
+    group.add(focalRig.group);
+
+    // 2. Water / River / Brook / Sea / Well / Fountain Scenes: Add shimmering Komorebi water & floating lanterns
+    const isWaterScene = [
+      'streams_of_water', 'scent_of_water', 'deer_brook', 'be_still_waters',
+      'storm_stilled_haven', 'wellspring_of_life', 'rivers_to_the_sea',
+      'locked_garden_fountain', 'many_waters_flame', 'night_watch_water',
+      'temple_river_trees', 'tarshish_storm_ship', 'depths_of_the_sea',
+      'walking_on_the_sea', 'peace_be_still_boat', 'jacob_well_jar',
+      'galilee_charcoal_fire', 'malta_four_anchors', 'fresh_spring_well',
+      'cast_your_cares_shore', 'river_of_life_new_jerusalem'
+    ].includes(kind);
+
+    let waterMat = null;
+    const riverLanterns = [];
+    if (isWaterScene) {
+      const waterGeo = new THREE.PlaneGeometry(54, 28, 48, 48);
+      waterGeo.rotateX(-Math.PI / 2);
+      waterMat = createKomorebiWaterMaterial(THREE, {
+        deepColor: pal.ground || '#364d54',
+        shallowColor: pal.horizon || '#7a948e',
+        sunColor: pal.accent || '#ffe29c',
+        opacity: 0.90
+      });
+      const waterMesh = new THREE.Mesh(waterGeo, waterMat);
+      waterMesh.position.set(-7.5, 0.05, -10.5);
+      group.add(waterMesh);
+
+      for (let i = 0; i < 6; i++) {
+        const l = this.propBuilder.createFloatingRiverLantern(pal.accent || '#ffe29c');
+        l.position.set(-10.5 + i * 2.8, 0.08, -10.0 + Math.sin(i * 1.4) * 2.4);
+        group.add(l);
+        riverLanterns.push(l);
+      }
+    }
+
+    // 3. Night / Starlight / Lamp / Watchtower / Upper Room Scenes: Starry sky & nocturnal glow
+    const isNightScene = [
+      'nehemiah_night_ride', 'sleepless_chronicles', 'whirlwind_stars',
+      'moon_and_stars', 'lamp_to_my_feet', 'lamp_before_dawn',
+      'solitary_city_lantern', 'night_watch_water', 'fiery_furnace',
+      'lions_den_light', 'habakkuk_watchtower', 'bethlehem_manger',
+      'magi_star_gifts', 'upper_room_basin', 'pentecost_upper_room',
+      'philippi_midnight_chains', 'peace_on_guard_lantern', 'tentmaker_loom_lamp',
+      'morning_star_lamp', 'seven_golden_lampstands'
+    ].includes(kind);
+
+    if (skyDome && skyDome.material && skyDome.material.uniforms) {
+      if (isNightScene && skyDome.material.uniforms.uStarIntensity) {
+        skyDome.material.uniforms.uStarIntensity.value = 0.78;
+      }
+      if ((kind === 'chebar_rainbow_throne' || kind === 'emerald_rainbow_throne') && skyDome.material.uniforms.uRainbowIntensity) {
+        skyDome.material.uniforms.uRainbowIntensity.value = 0.62;
+      }
+    }
+
+    // 4. Grove of Painterly Trees & 760 Wind-Swaying Instanced Meadow Grass & Wildflowers
+    const grovePositions = [
+      { x: -4.2, z: -7.2, s: 0.92 },
+      { x: 4.4, z: -6.8, s: 1.02 },
+      { x: -6.8, z: -12.5, s: 0.85 },
+      { x: 6.5, z: -13.0, s: 0.96 }
+    ];
+    grovePositions.forEach((gp) => {
+      const t = this.propBuilder.createGreatPainterlyTree(derived.propTex, pal, gp.s);
+      t.position.set(gp.x, getTerrainHeight ? getTerrainHeight(gp.x, gp.z) : 0, gp.z);
+      t.rotation.y = gp.x * 0.6;
+      group.add(t);
+    });
+
+    const meadowGrass = this.propBuilder.createInstancedMeadowGrass(
+      760,
+      () => {
+        const ang = Math.random() * Math.PI * 2;
+        const rad = 2.4 + Math.random() * 15.0;
+        const x = Math.cos(ang) * rad;
+        const z = Math.sin(ang) * rad - 4.0;
+        return {
+          x,
+          y: getTerrainHeight ? getTerrainHeight(x, z) : 0,
+          z,
+          scale: 0.8 + Math.random() * 0.5
+        };
+      },
+      pal
+    );
+    group.add(meadowGrass);
+
+    // 5. Angled 3D Komorebi Volumetric Sunbeam / Starlight Shafts onto the Focal Centerpiece
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.82, 3.3, pal.accent || '#ffe49e');
+    shaft.position.set(0, 6.2, -5.6);
+    group.add(shaft);
+
+    // 6. Signature Prompt & Poetic Activation Insight derived from Timothy Holt's poem & Scripture
+    const pTitle = paintingData && paintingData.title ? paintingData.title : 'the Sacred Threshold';
+    const pRef = paintingData && paintingData.ref ? paintingData.ref : '';
+    const pEpi = paintingData && paintingData.epigraph ? paintingData.epigraph : '';
+    const firstStanza = paintingData && paintingData.poem
+      ? paintingData.poem.split('\n\n').slice(-1)[0].replace(/\n/g, ' ')
+      : '';
+
+    const signatureLabel = `Approach “${pTitle}” (${pRef})`;
+    const signatureActivatedText = `${pEpi} (${pRef}) — ${firstStanza}`;
+
+    const latchKey = `_latch_${kind}`;
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.2,
+      signatureLabel,
+      signatureActivatedText,
+      updateScene: (dt, time, distToSignature, activeSkyDome, cameraPos) => {
+        if (waterMat) {
+          waterMat.uniforms.uTime.value = time;
+          if (cameraPos) waterMat.uniforms.uCameraPos.value.copy(cameraPos);
+        }
+        riverLanterns.forEach((l, idx) => {
+          l.position.y = 0.08 + Math.sin(time * 1.7 + idx) * 0.03;
+        });
+
+        const near = distToSignature < 4.2;
+        if (near) {
+          this[latchKey] = Math.min(1.0, (this[latchKey] || 0) + dt * 0.5);
+        }
+        const val = this[latchKey] || 0;
+        const pulse = 1.0 + Math.sin(time * 2.6) * 0.08;
+
+        focalRig.focalLight.intensity = (2.4 + val * 3.0) * pulse;
+        focalRig.focalHalo.scale.setScalar((2.8 + val * 1.1) * pulse);
+        focalRig.animatedParts.forEach((mesh, idx) => {
+          mesh.rotation.y += dt * (0.25 + idx * 0.1) * (0.4 + val * 0.8);
+        });
+
         return near || val > 0.85;
       }
     };

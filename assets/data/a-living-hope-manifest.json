@@ -1,0 +1,824 @@
+{
+  "district": 42,
+  "slug": "a-living-hope",
+  "title": "A Living Hope",
+  "subtitle": "1–2 Peter & Jude in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/a-living-hope/web/b-042-000.jpg",
+  "beforeYouBegin": "These three short letters were written to scattered believers living as foreigners, far from anything like home. They hold gold tested in a crucible, grass that withers by summer, stones set one by one into a wall, a flock coming back to the fold at dusk, a basket of worries set down, an old fisherman's tent about to come down, a lamp burning in a dark place until the morning star rises, wells with no water in them, and a narrow path that ends in glory.\n\nThis book walks through them in forty short poems, in five parts: two for 1 Peter, two for 2 Peter, and one for Jude. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the letters touch—a clay lamp, a sealed jar, a broken loaf, a fig tree tied to a stake—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the letters of Peter and Jude alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "A Living Hope",
+      "epigraph": "caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead",
+      "epigraphRef": "1 Peter 1:3",
+      "lightName": "Light of A Living Hope",
+      "lightHint": "Near 'strangers here' (1 Peter 1:1) in Part 1: A Living Hope"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 12,
+      "title": "Suffering and Glory",
+      "epigraph": "at the revelation of his glory you also may rejoice with exceeding joy",
+      "epigraphRef": "1 Peter 4:13",
+      "lightName": "Light of Suffering and Glory",
+      "lightHint": "Near 'free' (1 Peter 2:16–17) in Part 2: Suffering and Glory"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 23,
+      "title": "A Lamp in a Dark Place",
+      "epigraph": "until the day dawns, and the morning star arises in your hearts",
+      "epigraphRef": "2 Peter 1:19",
+      "lightName": "Light of A Lamp in a Dark Place",
+      "lightHint": "Near 'everything you need' (2 Peter 1:3) in Part 3: A Lamp in a Dark Place"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 29,
+      "title": "The Patience of God",
+      "epigraph": "The Lord is not slow concerning his promise",
+      "epigraphRef": "2 Peter 3:9",
+      "lightName": "Light of The Patience of God",
+      "lightHint": "Near 'the Lord knows how' (2 Peter 2:5–9) in Part 4: The Patience of God"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 35,
+      "title": "Kept From Stumbling",
+      "epigraph": "Now to him who is able to keep them from stumbling",
+      "epigraphRef": "Jude 1:24",
+      "lightName": "Light of Kept From Stumbling",
+      "lightHint": "Near 'kept' (Jude 1:1–2) in Part 5: Kept From Stumbling"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "strangers here",
+      "ref": "1 Peter 1:1",
+      "epigraph": "“to the chosen ones who are living as foreigners in the Dispersion”",
+      "poem": "Pontus. Galatia.\nCappadocia. Asia. Bithynia.\n\na letter going\nfrom hand to hand\ndown five provinces of road.\n\nit opens\nwith two words\nthat don't usually meet:\n\nchosen.\nforeigners.\n\nif you have ever felt\nyou don't quite belong\nwhere you live—\n\nyou might be\nexactly the person\nthis was written to.",
+      "webSrc": "assets/a-living-hope/web/b-042-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e6c993",
+        "horizon": "#b19f7b",
+        "ground": "#897c5e",
+        "overall": "#b09d76",
+        "accent": "#f9d692"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "a living hope",
+      "ref": "1 Peter 1:3",
+      "epigraph": "“who according to his great mercy caused us to be born again to a living hope”",
+      "poem": "most hope\nis a kind of guess.\nmaybe it will rain.\nmaybe they'll call.\n\nthis one\nhas a pulse.\n\nit didn't come\nfrom wishing harder.\nit walked out\nof a tomb\non the third day\n\nand it is still\nbreathing.",
+      "webSrc": "assets/a-living-hope/web/b-042-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e9ddbe",
+        "horizon": "#d1c5a3",
+        "ground": "#b5a887",
+        "overall": "#cec1a0",
+        "accent": "#efe4c6"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "kept for you",
+      "ref": "1 Peter 1:4–5",
+      "epigraph": "“an incorruptible and undefiled inheritance that doesn’t fade away, reserved in Heaven for you”",
+      "poem": "everything down here\nfades.\nthe dye in the good cloth.\nthe paint on the door.\nthe names on the old stones.\n\nbut there is something\nset aside for you\nthat doesn't.\n\nand while it is kept\nfor you,\nyou are being kept\nfor it—\n\nguarded,\nhe says,\nby the power of God.",
+      "webSrc": "assets/a-living-hope/web/b-042-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#635b4d",
+        "horizon": "#524b42",
+        "ground": "#544e42",
+        "overall": "#585145",
+        "accent": "#cdc2b6"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "tested by fire",
+      "ref": "1 Peter 1:6–7",
+      "epigraph": "“more precious than gold that perishes even though it is tested by fire”",
+      "poem": "the goldsmith\ndoesn't put gold in the fire\nto lose it.\n\nhe does it\nto see what stays.\n\nyour trials\nare for a little while,\nPeter says.\nthey grieve you.\nhe doesn't pretend they don't.\n\nbut what's left\nwhen the heat is done\nis worth more\nthan the gold was—\n\nand it's being saved\nfor the day\nhe is revealed.",
+      "webSrc": "assets/a-living-hope/web/b-042-004.jpg",
+      "heroSrc": "assets/a-living-hope/web/b-042-004.jpg",
+      "isScene": true,
+      "sceneType": "crucible_of_gold",
+      "palette": {
+        "top": "#d1bf9a",
+        "horizon": "#9d8d6e",
+        "ground": "#a79779",
+        "overall": "#ae9c7c",
+        "accent": "#e1a519"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "without seeing",
+      "ref": "1 Peter 1:8",
+      "epigraph": "“though now you don’t see him, yet believing, you rejoice greatly with joy that is unspeakable and full of glory”",
+      "poem": "Peter saw him.\nwalked with him,\nate fish on the shore with him,\nheard him call his name.\n\nthe people he wrote to\nnever had.\n\nand still,\nhe says,\nyou love him.\n\nno face to remember.\nno voice in your ears.\njust a joy\nyou can't quite put\ninto words.\n\nthat's not\na lesser faith.\nit's the kind\nhe called blessed.",
+      "webSrc": "assets/a-living-hope/web/b-042-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#3c3c30",
+        "horizon": "#3b3a2d",
+        "ground": "#433c2c",
+        "overall": "#423d2f",
+        "accent": "#e4a999"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "what the prophets looked for",
+      "ref": "1 Peter 1:10–12",
+      "epigraph": "“which things angels desire to look into”",
+      "poem": "the prophets\nsearched their own words\nand couldn't see\nthe end of them.\n\nsufferings,\nand then glory.\nbut when?\nand for whom?\n\nand it was shown to them:\nnot for you.\nfor people\nyou will never meet.\n\nthat's you.\n\nangels lean in\nto look at it.\n\nand you get\nto hold it in your hands.",
+      "webSrc": "assets/a-living-hope/web/b-042-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#908163",
+        "horizon": "#84775b",
+        "ground": "#585140",
+        "overall": "#796d55",
+        "accent": "#efddae"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "not with silver",
+      "ref": "1 Peter 1:18–19",
+      "epigraph": "“you were redeemed, not with corruptible things, with silver or gold”",
+      "poem": "the old way of life\nwas handed down\nlike an heirloom\nno one really wanted.\n\nand you couldn't\nbuy your way out of it.\n\nsilver tarnishes.\ngold gets spent.\n\nwhat paid for you\nwas never money.\n\nit was precious blood—\na lamb\nwithout blemish,\nwithout spot.\n\nyou were not\nbought cheap.",
+      "webSrc": "assets/a-living-hope/web/b-042-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9f927a",
+        "horizon": "#9e9075",
+        "ground": "#857964",
+        "overall": "#93876f",
+        "accent": "#ece3cf"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "the grass",
+      "ref": "1 Peter 1:24–25",
+      "epigraph": "“The grass withers, and its flower falls; but the Lord’s word endures forever.”",
+      "poem": "every spring\nthe hills go green,\nand the flowers come up\nlike they've never\ndone this before.\n\nby summer\nit's straw.\n\nthat's us,\nthe prophet said.\nall of us.\nthe strong and the lovely too.\n\nbut there is a word\nthat doesn't dry out.\n\nit's the good news\nsomeone once told you.\n\nand it will still be\nstanding\nwhen the hills are straw.",
+      "webSrc": "assets/a-living-hope/web/b-042-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6d1c1",
+        "horizon": "#c2bcaa",
+        "ground": "#978a6b",
+        "overall": "#b6ae96",
+        "accent": "#e1daca"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "tasted",
+      "ref": "1 Peter 2:2–3",
+      "epigraph": "“if indeed you have tasted that the Lord is gracious”",
+      "poem": "a newborn\ndoesn't have to be told\nto be hungry.\n\nonce you've tasted\nthat the Lord is kind,\n\nyou'll want\nmore.",
+      "webSrc": "assets/a-living-hope/web/b-042-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc29c",
+        "horizon": "#a49574",
+        "ground": "#7e7056",
+        "overall": "#a39575",
+        "accent": "#dfd6bc"
+      }
+    },
+    {
+      "n": 10,
+      "part": 1,
+      "title": "living stones",
+      "ref": "1 Peter 2:4–5",
+      "epigraph": "“You also, as living stones, are built up as a spiritual house”",
+      "poem": "he was the stone\nthe builders\nlooked at and set aside.\n\nGod picked it up\nand made it the corner.\n\nand now\nhe's doing the same\nwith the rest of us—\nodd shapes,\nchipped edges,\nstones nobody chose.\n\none by one\nhe sets us in the wall,\nleaning on each other,\nleaning on him,\n\nbecoming a house\nwhere God\nlives.26",
+      "webSrc": "assets/a-living-hope/web/b-042-010.jpg",
+      "heroSrc": "assets/a-living-hope/web/b-042-010.jpg",
+      "isScene": true,
+      "sceneType": "living_stones_cornerstone",
+      "palette": {
+        "top": "#c4b08d",
+        "horizon": "#8e7b60",
+        "ground": "#6e624e",
+        "overall": "#918166",
+        "accent": "#f6dcaf"
+      }
+    },
+    {
+      "n": 11,
+      "part": 1,
+      "title": "out of darkness",
+      "ref": "1 Peter 2:9–10",
+      "epigraph": "“In the past, you were not a people, but now are God’s people”",
+      "poem": "not a people.\nnow God's people.\n\nno mercy.\nnow mercy.\n\nthat's the whole story\nin four lines.\n\nand in between them,\na door\nsomeone opened\nfrom the other side,\n\nand a voice\ncalling you\nout of the dark\ninto his marvelous light.",
+      "webSrc": "assets/a-living-hope/web/b-042-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#3f3a2d",
+        "horizon": "#706348",
+        "ground": "#625945",
+        "overall": "#5d533f",
+        "accent": "#fad798"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "free",
+      "ref": "1 Peter 2:16–17",
+      "epigraph": "“Honor all men. Love the brotherhood. Fear God. Honor the king.”",
+      "poem": "you are free,\nPeter says.\n\nso don't wear it\nas a mask.\n\nwear it\nthe way a servant of God would:\n\nhonor everyone.\nlove your family of faith.\nfear God.\nrespect the one on the throne—\n\neven a king\nwho will never know\nyour name.",
+      "webSrc": "assets/a-living-hope/web/b-042-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2b392",
+        "horizon": "#c3b695",
+        "ground": "#7b6e54",
+        "overall": "#a69879",
+        "accent": "#d5bc97"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "his steps",
+      "ref": "1 Peter 2:21–23",
+      "epigraph": "“When he was cursed, he didn’t curse back.”",
+      "poem": "he could have\nanswered back.\n\nhe had every word\nthere is.\n\nwhen they cursed him\nhe didn't curse.\nwhen he suffered\nhe didn't threaten.\n\nhe handed the whole thing over\nto the one\nwho judges fairly\n\nand kept walking.\n\nthere are footprints\nin the road ahead of you.\n\nfollow those.",
+      "webSrc": "assets/a-living-hope/web/b-042-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7af87",
+        "horizon": "#806f56",
+        "ground": "#988060",
+        "overall": "#9e8868",
+        "accent": "#fbe0a6"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "come back",
+      "ref": "1 Peter 2:24–25",
+      "epigraph": "“For you were going astray like sheep; but now you have returned to the Shepherd and Overseer of your souls.”",
+      "poem": "he carried\nwhat we did\nup onto the tree,\n\nand by his wounds—\nnot ours—\nwe were healed.\n\nwe'd wandered.\nmost of us\ndidn't even notice\nhow far.\n\nbut somewhere on the hill\nat dusk\nthere's a gate standing open\n\nand a Shepherd\nwho watches the road\nuntil you're home.",
+      "webSrc": "assets/a-living-hope/web/b-042-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#998a7d",
+        "horizon": "#746a67",
+        "ground": "#4e4943",
+        "overall": "#70675f",
+        "accent": "#e8d2b2"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "quiet",
+      "ref": "1 Peter 3:3–4",
+      "epigraph": "“the incorruptible adornment of a gentle and quiet spirit, which is very precious in the sight of God”",
+      "poem": "gold can be admired\nfrom across a room.\n\na gentle spirit\nhas to be noticed\nup close.\n\nmost people\nwalk right past it.\n\nGod doesn't.\nto him\nit's the most precious thing\nin the house—\n\nand it doesn't tarnish\nor go out of fashion\nor get lost.",
+      "webSrc": "assets/a-living-hope/web/b-042-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c59f",
+        "horizon": "#bfaf8b",
+        "ground": "#5d4e39",
+        "overall": "#9f8f70",
+        "accent": "#dfb77b"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "a blessing instead",
+      "ref": "1 Peter 3:8–9",
+      "epigraph": "“not rendering evil for evil, or insult for insult; but instead blessing”",
+      "poem": "insult for insult\nis easy.\nit's almost automatic.\nit even feels like justice.\n\nPeter says\nbreak the pattern.\n\nwhen they hand you\nsomething bitter,\nhand back\nbread.\n\nyou were called\nto inherit a blessing.\n\nit makes sense\nto practice\ngiving some away.",
+      "webSrc": "assets/a-living-hope/web/b-042-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a29374",
+        "horizon": "#8e785a",
+        "ground": "#665a43",
+        "overall": "#85755a",
+        "accent": "#ecd7b1"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "a reason",
+      "ref": "1 Peter 3:15",
+      "epigraph": "“a reason concerning the hope that is in you, with humility and fear”",
+      "poem": "someday\nsomeone will ask.\n\nnot because you argued.\nbecause they noticed:\na light on in a window\non a dark street.\n\nwhy?\n\nso have a reason ready,\nand give it\nthe way you'd hand\na stranger a lamp—\n\ngently,\nwith respect,\nknowing it was a gift\nto you first.",
+      "webSrc": "assets/a-living-hope/web/b-042-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#656153",
+        "horizon": "#4e483b",
+        "ground": "#555144",
+        "overall": "#595446",
+        "accent": "#c7b48f"
+      }
+    },
+    {
+      "n": 18,
+      "part": 2,
+      "title": "eight souls",
+      "ref": "1 Peter 3:20–21",
+      "epigraph": "“few, that is, eight souls, were saved through water”",
+      "poem": "God waited\nwhile the ship was built.\n\nthat's the detail\nPeter doesn't skip.\nhe waited.\n\nand when the water came,\neight people\ncame through it.\n\nbaptism is like that,\nPeter says—\n\nnot a bath\nfor the skin,\nbut a way through the water,\n\nheld up\nby the one\nwho rose.",
+      "webSrc": "assets/a-living-hope/web/b-042-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdc1a6",
+        "horizon": "#cdc1a7",
+        "ground": "#7e7059",
+        "overall": "#aea28a",
+        "accent": "#fcf1d5"
+      }
+    },
+    {
+      "n": 19,
+      "part": 2,
+      "title": "love covers",
+      "ref": "1 Peter 4:8–9",
+      "epigraph": "“love covers a multitude of sins”",
+      "poem": "love covers.\n\nnot like a rug\nover a stain\nyou hope no one sees—\n\nmore like a blanket\nput around someone's shoulders\nwhen they come in\nout of the cold.\n\nopen the door.\nset out the bowl.\nmake up the bed.\n\nand if they're hard to love,\ndo it anyway,\n\nand don't sigh\nwhile you do it.",
+      "webSrc": "assets/a-living-hope/web/b-042-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8ccaf",
+        "horizon": "#a78c77",
+        "ground": "#978b73",
+        "overall": "#ad9d84",
+        "accent": "#e9ddc0"
+      }
+    },
+    {
+      "n": 20,
+      "part": 2,
+      "title": "don't be surprised",
+      "ref": "1 Peter 4:12–13",
+      "epigraph": "“don’t be astonished at the fiery trial which has come upon you to test you, as though a strange thing happened to you.”",
+      "poem": "don't be surprised,\nPeter says,\nas if something strange\nwere happening to you.\n\nit isn't strange.\nit happened to him.\n\nand if you share\nin the part with the fire,\n\nyou'll share\nin the part\nwith the glory too—\n\nand then\nyou will be surprised\n\nby how much joy\nthere is.",
+      "webSrc": "assets/a-living-hope/web/b-042-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6e6e5e",
+        "horizon": "#666454",
+        "ground": "#5c5a4a",
+        "overall": "#676454",
+        "accent": "#d69e64"
+      }
+    },
+    {
+      "n": 21,
+      "part": 2,
+      "title": "he cares for you",
+      "ref": "1 Peter 5:6–7",
+      "epigraph": "“casting all your worries on him, because he cares for you.”",
+      "poem": "you've been carrying it\nso long\nyour arms forgot\nwhat empty feels like.\n\nput it down.\n\nnot because it's small.\nbecause he's strong—\n\nand because he cares\nwhat happens\nto you.",
+      "webSrc": "assets/a-living-hope/web/b-042-021.jpg",
+      "heroSrc": "assets/a-living-hope/web/b-042-021.jpg",
+      "isScene": true,
+      "sceneType": "cast_your_cares_shore",
+      "palette": {
+        "top": "#a69e8d",
+        "horizon": "#8b795e",
+        "ground": "#715f47",
+        "overall": "#897a63",
+        "accent": "#eee2c9"
+      }
+    },
+    {
+      "n": 22,
+      "part": 2,
+      "title": "settled",
+      "ref": "1 Peter 5:10",
+      "epigraph": "“perfect, establish, strengthen, and settle you”",
+      "poem": "after\na little while,\n\nafter the storm\nhas done its worst,\n\nthe God of all grace\nwill come\nand set you right.\n\nhe will put you\non your feet.\nhe will make you strong.\nhe will settle you\n\nlike a house\non rock\nwhen the wind\nfinally stops.",
+      "webSrc": "assets/a-living-hope/web/b-042-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b7b0a0",
+        "horizon": "#aca38f",
+        "ground": "#605b4a",
+        "overall": "#908978",
+        "accent": "#fcf0d7"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "everything you need",
+      "ref": "2 Peter 1:3",
+      "epigraph": "“his divine power has granted to us all things that pertain to life and godliness”",
+      "poem": "you are not\nmissing a piece.\n\nno secret teaching.\nno second key\nsomebody else is holding.\n\neverything you need\nto live,\nand to live close to God,\n\nhas already been given\nthrough knowing him.\n\nthe shelf is full.\n\ntake down the bread.",
+      "webSrc": "assets/a-living-hope/web/b-042-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc2a2",
+        "horizon": "#b7a989",
+        "ground": "#908267",
+        "overall": "#aea081",
+        "accent": "#f5e6b7"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "add",
+      "ref": "2 Peter 1:5–7",
+      "epigraph": "“and in godliness brotherly affection; and in brotherly affection, love.”",
+      "poem": "faith.\nthen goodness.\nthen knowledge.\nthen self-control.\nthen staying power.\nthen godliness.\nthen kindness to the family.\n\nand on top of it all,\nlove.\n\neach one\nset carefully\non the one before—\n\nnot to earn anything.\nthis is just\nwhat growing\nlooks like.",
+      "webSrc": "assets/a-living-hope/web/b-042-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b591",
+        "horizon": "#b8a17e",
+        "ground": "#9e8e6f",
+        "overall": "#b3a17f",
+        "accent": "#f0d7a7"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "this tent",
+      "ref": "2 Peter 1:13–15",
+      "epigraph": "“as long as I am in this tent, to stir you up by reminding you”",
+      "poem": "an old fisherman\nknows his tent\nis coming down soon.\n\nthe Lord made it clear to him.\n\nhe doesn't write\nabout himself.\n\nhe writes\nso you'll remember—\nafter he's gone—\nthe things\nyou already know.\n\nthat's what love does\nnear the end.\nit repeats itself.\n\nit says the important thing\none more time.",
+      "webSrc": "assets/a-living-hope/web/b-042-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8cbac",
+        "horizon": "#9f937e",
+        "ground": "#706654",
+        "overall": "#998e78",
+        "accent": "#e2cfab"
+      }
+    },
+    {
+      "n": 26,
+      "part": 3,
+      "title": "eyewitnesses",
+      "ref": "2 Peter 1:16–18",
+      "epigraph": "“W e heard this voice come out of heaven when we were with him on the holy mountain.”",
+      "poem": "these are not\nclever stories,\nPeter says.\n\nwe were there.\n\non the mountain,\nunder the bright glory,\nwe heard a voice\nsay beloved.\nsay well pleased.\n\nhe never forgot it.\n\nyears later,\nhis tent coming down,\n\nit's still the thing\nhe wants you to know:\n\nit was real.\nI heard it.",
+      "webSrc": "assets/a-living-hope/web/b-042-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ded4c1",
+        "horizon": "#cbc6b9",
+        "ground": "#706652",
+        "overall": "#aea694",
+        "accent": "#f7f8f5"
+      }
+    },
+    {
+      "n": 27,
+      "part": 3,
+      "title": "a lamp in a dark place",
+      "ref": "2 Peter 1:19",
+      "epigraph": "“you do well that you heed it, as to a lamp shining in a dark place”",
+      "poem": "it's not the sun.\nit doesn't light the whole valley.\n\nit's a small flame\nin a clay lamp,\nenough to see\nthe next step\nand the edge of the table\nand the door.\n\nkeep it close.\nkeep it lit.\n\nthe night is long,\nbut it's not forever.\n\nthe day will dawn,\n\nand the morning star\nwill rise—\nnot only in the sky.\n\nin you.",
+      "webSrc": "assets/a-living-hope/web/b-042-027.jpg",
+      "heroSrc": "assets/a-living-hope/web/b-042-027.jpg",
+      "isScene": true,
+      "sceneType": "morning_star_lamp",
+      "palette": {
+        "top": "#58564f",
+        "horizon": "#726b5d",
+        "ground": "#594f3e",
+        "overall": "#5f584b",
+        "accent": "#d7a35c"
+      }
+    },
+    {
+      "n": 28,
+      "part": 3,
+      "title": "carried",
+      "ref": "2 Peter 1:20–21",
+      "epigraph": "“holy men of God spoke, being moved by the Holy Spirit.”",
+      "poem": "a fisherman knows\nthe difference\nbetween rowing\nand sailing.\n\nthe prophets\ndidn't row.\n\nno one sat down\nand decided\nto invent a word from God.\n\nthe Spirit moved them,\nthe way wind fills a sail,\n\nand they went\nwhere they were carried,\n\nand brought back\nwhat they were given.",
+      "webSrc": "assets/a-living-hope/web/b-042-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9bfa6",
+        "horizon": "#bdb29c",
+        "ground": "#8e826c",
+        "overall": "#afa58e",
+        "accent": "#efe4c6"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "the Lord knows how",
+      "ref": "2 Peter 2:5–9",
+      "epigraph": "“the Lord knows how to deliver the godly out of temptation”",
+      "poem": "Noah,\nin a world gone wrong.\nLot,\nworn down day after day\nby what he saw and heard.\n\nPeter remembers them\nin a chapter\nabout false teachers\nand ruin.\n\nnot to frighten you.\n\nto tell you:\nGod knows how\nto get his people out.\n\nhe knew the way then.\nhe knows it\nstill.",
+      "webSrc": "assets/a-living-hope/web/b-042-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0be9a",
+        "horizon": "#b69e7c",
+        "ground": "#736953",
+        "overall": "#a29174",
+        "accent": "#f8c98d"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "wells without water",
+      "ref": "2 Peter 2:17–19",
+      "epigraph": "“These are wells without water”",
+      "poem": "from far off\nit looks like a well:\nstones in a circle,\na rope, a bucket.\n\nyou walk a long way,\nlower the rope,\npull it back up—\n\ndry.\n\nsome voices\npromise freedom\nthey can't give.\nthey aren't free themselves.\n\nbe careful\nwhere you drink.\nthere is water\nthat doesn't run out.",
+      "webSrc": "assets/a-living-hope/web/b-042-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbbfa4",
+        "horizon": "#b5aa8d",
+        "ground": "#aea386",
+        "overall": "#b8ad91",
+        "accent": "#dfd4bc"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "where is the promise",
+      "ref": "2 Peter 3:3–6",
+      "epigraph": "“Where is the promise of his coming?”",
+      "poem": "the sun goes down.\nthe sun comes up.\nthe market opens.\nthe old ones die.\n\neverything goes on\nthe way it always has,\nthey say.\n\nso where is he?\n\nPeter hears the question.\nhe doesn't get angry.\n\nhe just asks you\nto remember\nthat the world\nhas been interrupted\nbefore.",
+      "webSrc": "assets/a-living-hope/web/b-042-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0a885",
+        "horizon": "#a98a64",
+        "ground": "#53473b",
+        "overall": "#89755b",
+        "accent": "#f3c972"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "patient",
+      "ref": "2 Peter 3:8–9",
+      "epigraph": "“he is patient with us, not wishing that anyone should perish, but that all should come to repentance.”",
+      "poem": "a thousand years\nis a day to him.\na day\nis a thousand years.\n\nso what looks late\nisn't.\n\nwhat looks slow\nis a door left open,\n\na lamp left burning,\n\na Father\nwho doesn't want\nto lose\nanyone.\n\nevery day he waits\nis mercy—\nmaybe for you.",
+      "webSrc": "assets/a-living-hope/web/b-042-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#837b6d",
+        "horizon": "#857663",
+        "ground": "#5a554d",
+        "overall": "#71695d",
+        "accent": "#ecd1a3"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "where righteousness lives",
+      "ref": "2 Peter 3:12–13",
+      "epigraph": "“we look for new heavens and a new earth, in which righteousness dwells.”",
+      "poem": "he talks about fire,\nand elements melting,\nand the heavens\npassing away.\n\nit sounds like an ending.\n\nbut read the next line:\n\nnew heavens.\na new earth.\n\na place\nwhere doing right\nis not a fight anymore,\n\nwhere righteousness\nfinally\nlives at home.",
+      "webSrc": "assets/a-living-hope/web/b-042-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3caa9",
+        "horizon": "#dcd5bc",
+        "ground": "#848662",
+        "overall": "#b7b393",
+        "accent": "#f1e7cc"
+      }
+    },
+    {
+      "n": 34,
+      "part": 4,
+      "title": "grow",
+      "ref": "2 Peter 3:17–18",
+      "epigraph": "“But grow in the grace and knowledge of our Lord and Savior Jesus Christ.”",
+      "poem": "Peter's last word\nin this letter\nisn't a warning.\nhe's given plenty.\n\nthe last thing he says\nis grow—\nin grace,\nin knowing him.\n\na young tree\ntied to a stake\ndoesn't fight the wind.\n\nit holds on,\nputs down roots,\nand gets a little taller\nevery spring.",
+      "webSrc": "assets/a-living-hope/web/b-042-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdbe99",
+        "horizon": "#a79773",
+        "ground": "#928366",
+        "overall": "#ab9c7a",
+        "accent": "#ebdcba"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "kept",
+      "ref": "Jude 1:1–2",
+      "epigraph": "“to those who are called, sanctified by God the Father, and kept for Jesus Christ”",
+      "poem": "a short letter,\none page,\nfrom a man who calls himself\na servant.\n\nbefore the warnings,\nbefore anything hard,\nhe writes three words\nover the people reading:\n\ncalled.\nset apart.\nkept.\n\nand then:\nmercy,\npeace,\nand love—\nmore and more of it.\n\nhe wants you to hear\nthat first.84",
+      "webSrc": "assets/a-living-hope/web/b-042-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5cbb4",
+        "horizon": "#c6baa4",
+        "ground": "#9d907a",
+        "overall": "#bbaf99",
+        "accent": "#f3e6cd"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "the letter he meant to write",
+      "ref": "Jude 1:3",
+      "epigraph": "“while I was very eager to write to you about our common salvation”",
+      "poem": "he wanted to write\nabout the salvation we share.\nhe was looking forward to it.\n\ninstead\nhe had to write\nsomething harder:\nhold on to it.\ncontend for it.\nthe faith was handed to you\nonce, and for good.\n\nsometimes love\nwrites the letter\nit didn't want to write.\n\nbut notice—\nthe one he wanted to write\nis the first thing\nhe tells you.",
+      "webSrc": "assets/a-living-hope/web/b-042-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c4a7",
+        "horizon": "#9d8e6e",
+        "ground": "#c3b392",
+        "overall": "#bdae8e",
+        "accent": "#e7d9b7"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "clouds without water",
+      "ref": "Jude 1:12–13",
+      "epigraph": "“clouds without water, carried along by winds; autumn trees without fruit”",
+      "poem": "a farmer\nin a dry year\nknows the worst clouds.\n\nthey come in heavy.\nthey look like rain.\neverybody looks up.\n\nand they blow on by.\n\nJude reaches for picture\nafter picture:\nclouds without water,\ntrees without fruit,\nwaves throwing up foam,\nstars that wander off course.\n\nall promise.\nnothing to give.\n\nyou'll know the real thing\nby what it leaves behind.",
+      "webSrc": "assets/a-living-hope/web/b-042-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c8bea9",
+        "horizon": "#c2b9a5",
+        "ground": "#86775b",
+        "overall": "#ada38c",
+        "accent": "#e3d9c0"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "keep yourselves",
+      "ref": "Jude 1:20–21",
+      "epigraph": "“Keep yourselves in God’s love”",
+      "poem": "build yourself up.\npray in the Spirit.\nwait for mercy.\n\nand keep yourself\nin the love of God—\n\nnot like you're guarding it\nfrom thieves,\n\nlike you're staying\nnear a fire\non a cold night.\n\nyou didn't light the fire.\n\nyou just don't\nwander off.",
+      "webSrc": "assets/a-living-hope/web/b-042-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#524939",
+        "horizon": "#594d38",
+        "ground": "#413b2d",
+        "overall": "#4f4534",
+        "accent": "#efcb96"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "out of the fire",
+      "ref": "Jude 1:22–23",
+      "epigraph": "“On some have compassion, making a distinction, and some save, snatching them out of the fire”",
+      "poem": "some people\nneed you to be gentle.\n\nsome are sitting\ntoo close\nto the fire.\n\nand some\nyou just have to grab.\n\nJude doesn't tell you\nto stand at a distance\nand shake your head.\n\nhe tells you\nto have mercy—\n\nand reach in.",
+      "webSrc": "assets/a-living-hope/web/b-042-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0b59f",
+        "horizon": "#817965",
+        "ground": "#564c3b",
+        "overall": "#827864",
+        "accent": "#eee3d0"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "able",
+      "ref": "Jude 1:24–25",
+      "epigraph": "“to present you faultless before the presence of his glory in great joy”",
+      "poem": "after all the warnings—\nthe clouds,\nthe reefs,\nthe wandering stars—\n\nJude ends\nwith this:\n\nhe is able.\n\nable to keep you\nfrom stumbling.\n\nable to bring you\nall the way\ninto the light of his glory\n\nand stand you there\nwith no fault left on you,\n\nin great joy.",
+      "webSrc": "assets/a-living-hope/web/b-042-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#f3e9c6",
+        "horizon": "#aba28c",
+        "ground": "#565041",
+        "overall": "#9d957e",
+        "accent": "#fef6c4"
+      }
+    }
+  ]
+}

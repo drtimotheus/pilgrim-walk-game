@@ -1,0 +1,824 @@
+{
+  "district": 40,
+  "slug": "anchor-of-the-soul",
+  "title": "Anchor of the Soul",
+  "subtitle": "Hebrews in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/anchor-of-the-soul/web/b-040-000.jpg",
+  "beforeYouBegin": "The letter to the Hebrews was written to people who were tired and tempted to drift. It answers them with pictures: the radiance of the sun at morning, a boat slipping its mooring, a word as sharp as light along a blade, an anchor holding below the waves, a curtain torn open. Then it opens a long roll of the faithful—Abel, Enoch, Noah building in a dry field, Abraham walking out not knowing where, Sarah, Moses, Rahab and her scarlet cord—and sets them in the stands around a runner on the road.\n\nThis book walks through it in forty short poems, in five parts: the Son greater than all, the rest that remains, the great high priest, the heroes of faith, and the race toward a kingdom that can’t be shaken. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the letter touches—a lamp, an anchor, a basin, an open door—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the letter to the Hebrews alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Radiance of His Glory",
+      "epigraph": "His Son is the radiance of his glory, the very image of his substance",
+      "epigraphRef": "Hebrews 1:3",
+      "lightName": "Light of Radiance of His Glory",
+      "lightHint": "Near 'many ways' (Hebrews 1:1–2) in Part 1: Radiance of His Glory"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 8,
+      "title": "A Sabbath Rest",
+      "epigraph": "There remains therefore a Sabbath rest for the people of God.",
+      "epigraphRef": "Hebrews 4:9",
+      "lightName": "Light of A Sabbath Rest",
+      "lightHint": "Near 'today' (Hebrews 3:15) in Part 2: A Sabbath Rest"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 15,
+      "title": "The Great High Priest",
+      "epigraph": "Having then a great high priest who has passed through the heavens, Jesus, the Son of God, let’s hold tightly to our confession.",
+      "epigraphRef": "Hebrews 4:14",
+      "lightName": "Light of The Great High Priest",
+      "lightHint": "Near 'touched' (Hebrews 4:15) in Part 3: The Great High Priest"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 24,
+      "title": "By Faith",
+      "epigraph": "Now faith is assurance of things hoped for, proof of things not seen.",
+      "epigraphRef": "Hebrews 11:1",
+      "lightName": "Light of By Faith",
+      "lightHint": "Near 'assurance' (Hebrews 11:1) in Part 4: By Faith"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 33,
+      "title": "The Race Set Before Us",
+      "epigraph": "let’s run with perseverance the race that is set before us",
+      "epigraphRef": "Hebrews 12:1",
+      "lightName": "Light of The Race Set Before Us",
+      "lightHint": "Near 'cloud of witnesses' (Hebrews 12:1) in Part 5: The Race Set Before Us"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "many ways",
+      "ref": "Hebrews 1:1–2",
+      "epigraph": "“has at the end of these days spoken to us by his Son”",
+      "poem": "he spoke in pieces\nfor a long time.\n\na burning bush.\na still small voice.\na prophet's bent back,\na clay pot smashed\non purpose in the street.\n\na word here.\na dream there.\n\nthe fathers kept every scrap\nand waited.\n\nthen, at the end of these days,\nhe stopped sending messages\n\nand sent his Son.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a49270",
+        "horizon": "#9d8763",
+        "ground": "#61523d",
+        "overall": "#887658",
+        "accent": "#dd9044"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "radiance",
+      "ref": "Hebrews 1:3",
+      "epigraph": "“His Son is the radiance of his glory, the very image of his substance”",
+      "poem": "you can't look at the sun.\n\nbut you can stand in the light\nthat comes from it,\n\nfeel it on your face,\nwatch it turn a grey field\nto gold.\n\nthe light is not\na copy of the sun.\nit is the sun,\nreaching you.\n\nthat is what the Son is\nto the Father.\n\nyou have never seen God.\n\nyou have seen\nhis morning.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bfac7f",
+        "horizon": "#938464",
+        "ground": "#564c3d",
+        "overall": "#85785b",
+        "accent": "#f7cf72"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "like a garment",
+      "ref": "Hebrews 1:10–12",
+      "epigraph": "“but you are the same. Your years won’t fail.”",
+      "poem": "the sky will wear thin\nlike an old coat.\n\nthe mountains, the stars,\nall of it\nfolded up someday\nand put away.\n\neverything you know\nis getting older.\n\nexcept him.\n\nyour years won't fail,\nthe psalm says to the Son.\n\nso when the fabric\nof your life\nwears through at the elbows,\n\nremember who is holding it.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c6a7",
+        "horizon": "#b9ac92",
+        "ground": "#726a5b",
+        "overall": "#a49982",
+        "accent": "#ede0c5"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "drift",
+      "ref": "Hebrews 2:1",
+      "epigraph": "“Therefore we ought to pay greater attention to the things that were heard, lest perhaps we drift away.”",
+      "poem": "no one decides to drift.\n\nyou just stop\nchecking the rope.\n\nthe water is calm.\nthe evening is kind.\nthe shore gets farther\nan inch at a time.\n\npay attention,\nthe letter says,\n\nnot because the sea is angry,\n\nbecause it is so quiet.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bda987",
+        "horizon": "#99866a",
+        "ground": "#50514a",
+        "overall": "#8d8169",
+        "accent": "#f7dfa3"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "what is man",
+      "ref": "Hebrews 2:6–9",
+      "epigraph": "“What is man, that you think of him?”",
+      "poem": "look up long enough\nand you feel\nabout the size of a pebble.\n\nwhat are we,\nthat you would even think of us?\n\nthe answer came\nin a body.\n\nhe was made\na little lower than the angels,\nlow enough\nto taste death\nfor everyone.\n\nthat is how much\nyou are thought of.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#4f4e47",
+        "horizon": "#797265",
+        "ground": "#3a3831",
+        "overall": "#555249",
+        "accent": "#b9ad97"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "not ashamed",
+      "ref": "Hebrews 2:11",
+      "epigraph": "“he is not ashamed to call them brothers”",
+      "poem": "he knows your family.\n\nhe knows the arguments,\nthe empty chair,\nthe name nobody says.\n\nhe knows you.\n\nand he pulls out a seat\nand says to anyone listening:\n\nthis one's with me.\nmy brother.\nmy sister.\n\nnot ashamed.\n\nnot even a little.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2a68d",
+        "horizon": "#97846a",
+        "ground": "#7b6b54",
+        "overall": "#94836a",
+        "accent": "#ebe2cf"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "his house",
+      "ref": "Hebrews 3:4–6",
+      "epigraph": "“W e are his house, if we hold fast our confidence and the glorying of our hope firm to the end.”",
+      "poem": "every house\nhas a builder.\n\nstone on stone,\nthe line held true,\nthe mallet's patient knock.\n\nMoses was faithful\nin the house\nlike a trusted servant.\n\nthe Son is faithful\nover it.\n\nand the house\nis not a building.\n\nit's you.\nit's us.\n\nstill going up.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc2a2",
+        "horizon": "#bcae91",
+        "ground": "#9d8d71",
+        "overall": "#b4a688",
+        "accent": "#d4c4a1"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "today",
+      "ref": "Hebrews 3:15",
+      "epigraph": "“T oday if you will hear his voice, don’t harden your hearts”",
+      "poem": "not yesterday.\nyou can't hear him there.\n\nnot tomorrow.\nit hasn't come.\n\nonly today,\nthis plain one,\nwith its dishes and its traffic,\n\nwhere a voice\nmight be speaking\nunder all the noise.\n\nclay stays soft\nwhile it's wet.\n\nlisten\nwhile it's today.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#887f6b",
+        "horizon": "#7b6a54",
+        "ground": "#716553",
+        "overall": "#7b6d59",
+        "accent": "#edd0b0"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "day by day",
+      "ref": "Hebrews 3:13",
+      "epigraph": "“but exhort one another day by day”",
+      "poem": "nobody hardens overnight.\n\nit happens slowly,\none small no,\none quiet lie\nyou tell yourself.\n\nso the cure\nis slow too.\n\na word at the door.\na hand on the shoulder.\ncome back tomorrow.\n\nday by day,\nas long as it's called\ntoday,\n\nkeep each other soft.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6e6654",
+        "horizon": "#7b6e5a",
+        "ground": "#666054",
+        "overall": "#716757",
+        "accent": "#dfae6d"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "forty years",
+      "ref": "Hebrews 3:16–19",
+      "epigraph": "“W e see that they weren’t able to enter in because of unbelief.”",
+      "poem": "they saw the sea split.\nthey ate bread\nthat fell from the sky.\n\nand still,\nat the edge of the land,\nthey were afraid\nto go in.\n\nforty years\nof walking in circles\naround a promise.\n\nnot because God's hand was short.\n\nbecause they would not\nput their weight on it.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a99a7d",
+        "horizon": "#b19a74",
+        "ground": "#73644b",
+        "overall": "#958466",
+        "accent": "#e2c17f"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "mixed with faith",
+      "ref": "Hebrews 4:2",
+      "epigraph": "“the word they heard didn’t profit them, because it wasn’t mixed with faith by those who heard.”",
+      "poem": "flour on the board.\nwater in the jug.\n\ngood things,\nboth of them.\n\nbut they won't become bread\nsitting side by side.\n\nthe good news came to them\nthe same as us.\n\nthey heard it.\nthey didn't knead it in.\n\na promise is a gift.\n\nfaith is the hands.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dacaa5",
+        "horizon": "#a99776",
+        "ground": "#b2a17f",
+        "overall": "#b7a684",
+        "accent": "#decea9"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "the seventh day",
+      "ref": "Hebrews 4:4",
+      "epigraph": "“God rested on the seventh day from all his works”",
+      "poem": "he didn't rest\nbecause he was tired.\n\nhe rested\nbecause it was finished.\n\nand good.\n\nhe stepped back\nfrom the whole shining world\n\nand let it be.\n\nthere's a kind of rest\nthat isn't sleep.\n\nit's the rest\nof the one who knows\nthe work is done.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b9aaa2",
+        "horizon": "#decaac",
+        "ground": "#807462",
+        "overall": "#b0a08d",
+        "accent": "#f1dbaf"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "a Sabbath rest",
+      "ref": "Hebrews 4:9–10",
+      "epigraph": "“There remains therefore a Sabbath rest for the people of God.”",
+      "poem": "you have been\nso busy\nproving yourself.\n\nearning your place.\nkeeping up.\n\nthere remains a rest,\nthe letter says,\n\nlike a room\nalready made up,\na table already set,\nthe door left open.\n\nyou don't build it.\n\nyou walk in,\nand take off your shoes,\nand stop.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a39279",
+        "horizon": "#968873",
+        "ground": "#867662",
+        "overall": "#93836d",
+        "accent": "#efd9b8"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "sharper",
+      "ref": "Hebrews 4:12",
+      "epigraph": "“For the word of God is living and active, and sharper than any two-edged sword”",
+      "poem": "it's lying on the table.\n\nno one is holding it.\n\nand still\nit catches the light\nalong both edges.\n\nthis word goes\npast the face you wear\n\nto the thought\nyou haven't said out loud.\n\nit doesn't cut\nto wound.\n\nit cuts to find\nwhat needs healing.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbc2ac",
+        "horizon": "#8f846a",
+        "ground": "#6a6050",
+        "overall": "#918772",
+        "accent": "#eee1bd"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "touched",
+      "ref": "Hebrews 4:15",
+      "epigraph": "“we don’t have a high priest who can’t be touched with the feeling of our infirmities”",
+      "poem": "he was hungry in the desert.\ntired at a well.\nhe wept at a grave.\n\nhe knew what it was\nto be pulled\ntoward the wrong thing,\n\nand he didn't go.\n\nso when you come to him\nwith your weakness,\n\nhe doesn't read it\noff a chart.\n\nhe remembers.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#877b64",
+        "horizon": "#71614a",
+        "ground": "#6d5b43",
+        "overall": "#73644d",
+        "accent": "#d2b489"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "the throne of grace",
+      "ref": "Hebrews 4:16",
+      "epigraph": "“Let’s therefore draw near with boldness to the throne of grace”",
+      "poem": "most thrones\nyou approach\nbowing, afraid,\nhoping not to be noticed.\n\nthis one\nyou walk up to.\n\nboldly.\n\nnot because you're good enough,\n\nbut because of what\nthe throne is made of.\n\ngrace.\n\nand what you'll find there\nis exactly\nwhat you came needing.\n\nhelp,\nin time.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-016.jpg",
+      "heroSrc": "assets/anchor-of-the-soul/web/b-040-016.jpg",
+      "isScene": true,
+      "sceneType": "throne_of_grace",
+      "palette": {
+        "top": "#b1a17d",
+        "horizon": "#887a59",
+        "ground": "#8f8367",
+        "overall": "#978969",
+        "accent": "#f8d88e"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "strong crying",
+      "ref": "Hebrews 5:7–8",
+      "epigraph": "“having offered up prayers and petitions with strong crying and tears”",
+      "poem": "he didn't pray\npolitely.\n\nhe prayed with loud cries.\nwith tears.\n\nthe Son of God\non his face\namong the olive trees.\n\nand the letter says\nhe was heard.\n\nso you can cry out too.\n\nloud is not\na lack of faith.\n\nsometimes it's\nthe whole of it.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6c6564",
+        "horizon": "#434544",
+        "ground": "#3b3a38",
+        "overall": "#4c4a48",
+        "accent": "#d4c7ba"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "not forgotten",
+      "ref": "Hebrews 6:10",
+      "epigraph": "“For God is not unrighteous, so as to forget your work and the labor of love”",
+      "poem": "the meals you carried.\nthe floor you swept\nafter everyone went home.\n\nthe visit\nno one saw.\nthe thank-you\nthat never came.\n\nyou thought\nit disappeared.\n\nit didn't.\n\nGod is not the kind\nof God\nwho forgets.\n\nhe's keeping\nevery bowl.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c0a1",
+        "horizon": "#988970",
+        "ground": "#9f9179",
+        "overall": "#a6987e",
+        "accent": "#f1e3c6"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "anchor",
+      "ref": "Hebrews 6:19",
+      "epigraph": "“This hope we have as an anchor of the soul, a hope both sure and steadfast”",
+      "poem": "an anchor doesn't\nstop the storm.\n\nthe waves still come.\nthe boat still rocks.\nyou still feel\nevery swell.\n\nbut you don't\ngo anywhere.\n\nthis hope\nis tied to something\nyou can't see,\n\non the far side\nof the veil,\nwhere Jesus already went.\n\nthe rope goes\ndeeper than the weather.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-019.jpg",
+      "heroSrc": "assets/anchor-of-the-soul/web/b-040-019.jpg",
+      "isScene": true,
+      "sceneType": "anchor_of_the_soul",
+      "palette": {
+        "top": "#cfc0a0",
+        "horizon": "#bfb296",
+        "ground": "#b2a180",
+        "overall": "#beb091",
+        "accent": "#f9eed5"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "to the uttermost",
+      "ref": "Hebrews 7:24–25",
+      "epigraph": "“he lives forever to make intercession for them”",
+      "poem": "the old priests\ngrew old.\n\nthey died,\nand someone else\nput on the robes.\n\nnot this one.\n\nhe lives forever,\n\nand forever\nhe is saying your name\nto the Father.\n\non the nights\nyou can't pray,\nhe is praying.\n\nthat's what the uttermost means.\n\nthere is no far\nhe can't reach.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9d9176",
+        "horizon": "#92896f",
+        "ground": "#948667",
+        "overall": "#95896d",
+        "accent": "#f0e6c0"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "no more",
+      "ref": "Hebrews 8:10–12",
+      "epigraph": "“I will remember their sins and lawless deeds no more.”",
+      "poem": "he knows everything.\n\nand he has chosen\nto forget\none thing.\n\nnot the way we forget,\nby accident,\nthe keys,\na birthday.\n\non purpose.\n\nhe won't bring it up.\nhe won't keep a list.\n\nthe law is written\non your heart now.\n\nyour sins\naren't written anywhere.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddd1bd",
+        "horizon": "#aea087",
+        "ground": "#c3b79f",
+        "overall": "#c2b59e",
+        "accent": "#e9ddc7"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "once a year",
+      "ref": "Hebrews 9:6–7",
+      "epigraph": "“into the second the high priest alone, once in the year”",
+      "poem": "the lamp in the first room\nnever went out.\n\nthe bread\nwas always on the table.\n\nbut behind the curtain\nonly one man went,\none day a year,\ncarefully.\n\neveryone else\nstood outside\nand waited to see\nif he'd come back.\n\nthat was the closest\nanyone could get.\n\nit was never meant\nto stay that way.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#584430",
+        "horizon": "#634e36",
+        "ground": "#4e3828",
+        "overall": "#56422e",
+        "accent": "#dab86f"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "the veil",
+      "ref": "Hebrews 10:19–22",
+      "epigraph": "“a new and living way, through the veil”",
+      "poem": "for all those years\nthe curtain said:\nthis far.\n\nthen he went through it.\n\nnot around.\nnot over.\n\nthrough,\nhis own body\nthe way in.\n\nnow the light\nspills out into the hall\n\nand the curtain says\nsomething new.\n\ncome in.\n\ncome all the way in.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-023.jpg",
+      "heroSrc": "assets/anchor-of-the-soul/web/b-040-023.jpg",
+      "isScene": true,
+      "sceneType": "opened_curtain_way",
+      "palette": {
+        "top": "#696049",
+        "horizon": "#7e7050",
+        "ground": "#807051",
+        "overall": "#796b4e",
+        "accent": "#f7e8aa"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "assurance",
+      "ref": "Hebrews 11:1",
+      "epigraph": "“Now faith is assurance of things hoped for, proof of things not seen.”",
+      "poem": "a seed doesn't look\nlike a harvest.\n\nit looks like\na dry little nothing\nin your palm.\n\nyou plant it anyway.\n\nyou water ground\nthat shows you nothing.\n\nyou wait.\n\nthat is faith.\n\nnot pretending\nyou can see it.\n\nplanting like\nyou already know.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9bea1",
+        "horizon": "#988a71",
+        "ground": "#8a806a",
+        "overall": "#a4987e",
+        "accent": "#dcd1b2"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "Abel",
+      "ref": "Hebrews 11:4",
+      "epigraph": "“through it he, being dead, still speaks.”",
+      "poem": "he didn't say much,\nthat we know of.\n\nhe kept sheep.\nhe gave God\nthe best of them.\n\nand his life\nwas short.\n\nbut the letter says\nhe is still speaking.\n\na gift given\nwith a whole heart\n\ngoes on talking\nlong after you're gone.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddcea9",
+        "horizon": "#b4a58a",
+        "ground": "#635d4c",
+        "overall": "#a0957b",
+        "accent": "#f1d3a4"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "Enoch",
+      "ref": "Hebrews 11:5",
+      "epigraph": "“before his translation he had been well pleasing to God.”",
+      "poem": "he walked with God\n\nday after day\nthe way you'd walk\nwith a friend,\n\nno hurry,\nno destination\nanyone else could see.\n\nand then one day\nhe wasn't found.\n\nthe path just went on\ninto the light.\n\nsome people\nwalk so close with God\nthat heaven\nis just the next step.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3b5a9",
+        "horizon": "#dfd4ba",
+        "ground": "#7c7058",
+        "overall": "#ada48f",
+        "accent": "#f2e5c5"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "Noah",
+      "ref": "Hebrews 11:7",
+      "epigraph": "“being warned about things not yet seen, moved with godly fear, prepared a ship for the saving of his house”",
+      "poem": "no clouds.\nno rain.\n\njust a man\nbuilding a boat\nin a dry field,\n\nplank by plank.\n\nhe was warned\nabout things not yet seen,\n\nand he believed\nthe warning\nmore than the weather.\n\nsome faith\nlooks foolish\n\nuntil it's the only thing\nstill floating.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bfa9",
+        "horizon": "#cec1a4",
+        "ground": "#7b6c53",
+        "overall": "#aa9d84",
+        "accent": "#faebc7"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "not knowing where",
+      "ref": "Hebrews 11:8–10",
+      "epigraph": "“He went out, not knowing where he went.”",
+      "poem": "he packed the tents.\n\nhe said goodbye\nto the only country he knew.\n\nwhere are you going?\nthe neighbors asked.\n\nhe didn't know.\n\nhe knew\nwho had called him.\n\nfor the rest of his life\nhe lived in tents,\n\nlooking for a city\nwith foundations,\n\nwhose builder\nis God.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d0a6",
+        "horizon": "#9d927a",
+        "ground": "#867c64",
+        "overall": "#a6997c",
+        "accent": "#f6e2aa"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "Sarah",
+      "ref": "Hebrews 11:11",
+      "epigraph": "“she counted him faithful who had promised.”",
+      "poem": "she had laughed at it once.\n\nfar too old,\nfar too late,\ntoo many years\nof empty arms.\n\nbut somewhere\nshe decided\nthe promise\nwasn't about her.\n\nit was about him.\n\nand he had never\nbroken his word.\n\nso there was a cradle\nin the tent.\n\nand laughter,\nthe other kind.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ad9a81",
+        "horizon": "#7c705b",
+        "ground": "#7e6e59",
+        "overall": "#91816a",
+        "accent": "#f2c4ae"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "strangers and pilgrims",
+      "ref": "Hebrews 11:13–16",
+      "epigraph": "“they were strangers and pilgrims on the earth.”",
+      "poem": "they died\nwithout getting there.\n\nthey saw it\nfrom far off\nand waved,\n\nthe way you wave at someone\ncoming up the road.\n\nthey could have gone back.\nthere was time.\n\nthey didn't.\n\nthey wanted\na better country.\n\nand God\nwas not ashamed\nto be called their God.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#444340",
+        "horizon": "#6c6459",
+        "ground": "#352b20",
+        "overall": "#474139",
+        "accent": "#bb9466"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "Moses",
+      "ref": "Hebrews 11:24–27",
+      "epigraph": "“for he endured, as seeing him who is invisible.”",
+      "poem": "he could have had\nall of it.\n\nthe palace.\nthe river barges.\nthe name.\n\nhe walked away\ntoward the sand\nand the slaves.\n\nwhat did he see\nthat the palace didn't?\n\nthe letter says\nhe kept going\nas seeing\nhim who is invisible.\n\nthat was enough\nto trade a kingdom for.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a3957c",
+        "horizon": "#a79374",
+        "ground": "#4c4432",
+        "overall": "#81745c",
+        "accent": "#f7d397"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "Rahab",
+      "ref": "Hebrews 11:31",
+      "epigraph": "“Rahab the prostitute didn’t perish with those who were disobedient, having received the spies in peace.”",
+      "poem": "she wasn't anybody's\nidea of a hero.\n\na woman with a past,\na house in the wall.\n\nbut she heard\nwhat God had done,\n\nand she believed it\nbefore anyone asked her to.\n\nshe opened the door.\nshe hid the strangers.\nshe hung the scarlet cord.\n\nand her name\nis in the list,\n\nright there\nnext to Moses.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b298",
+        "horizon": "#b09d80",
+        "ground": "#8b7c67",
+        "overall": "#a7977e",
+        "accent": "#f5d8a2"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "cloud of witnesses",
+      "ref": "Hebrews 12:1",
+      "epigraph": "“seeing we are surrounded by so great a cloud of witnesses”",
+      "poem": "the stands are full.\n\nAbel.\nEnoch.\nNoah with his hands\nstill rough from the wood.\n\nAbraham, Sarah.\nMoses. Rahab.\n\nall of them\nwho ran\nand didn't see\nthe finish.\n\nthey're not watching\nto judge your time.\n\nthey know\nhow hard this lap is.\n\nthey're the ones\ncheering.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-033.jpg",
+      "heroSrc": "assets/anchor-of-the-soul/web/b-040-033.jpg",
+      "isScene": true,
+      "sceneType": "cloud_of_witnesses_arena",
+      "palette": {
+        "top": "#c6c1b5",
+        "horizon": "#b9b6aa",
+        "ground": "#847b6d",
+        "overall": "#a9a396",
+        "accent": "#eee2c5"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "run",
+      "ref": "Hebrews 12:1–2",
+      "epigraph": "“looking to Jesus, the author and perfecter of faith”",
+      "poem": "put it down,\nthe weight you've carried\nsince the start.\n\nrun with patience,\nnot speed.\n\nand don't watch\nyour feet.\n\nlook up the road\nto the one\nwho already finished it\n\nand is waiting\nat the end.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bcad8d",
+        "horizon": "#a89b7e",
+        "ground": "#877f6d",
+        "overall": "#9d9279",
+        "accent": "#edce8a"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "a father's discipline",
+      "ref": "Hebrews 12:7–11",
+      "epigraph": "“afterward it yields the peaceful fruit of righteousness to those who have been trained by it.”",
+      "poem": "a gardener\nties the young tree\nto a stake.\n\nit doesn't feel\nlike love\nto the tree.\n\nbut come summer,\nstraight branches,\nfruit.\n\nthe hard seasons\naren't proof\nhe's left you.\n\nthey're proof\nyou're his.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c39e",
+        "horizon": "#9d8f74",
+        "ground": "#b8a688",
+        "overall": "#b5a587",
+        "accent": "#f6e3be"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "feeble knees",
+      "ref": "Hebrews 12:12–13",
+      "epigraph": "“Therefore lift up the hands that hang down and the feeble knees”",
+      "poem": "you're tired.\nof course you are.\n\nthis letter knows it.\n\nso it doesn't say\nrun faster.\n\nit says\nlift up your hands.\nsteady your knees.\n\nclear the stones\noff the path,\n\nso the ones behind you\nwho are limping\n\ncan make it too.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c6a5",
+        "horizon": "#92886d",
+        "ground": "#6e6247",
+        "overall": "#96896d",
+        "accent": "#f0e0bf"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "can't be shaken",
+      "ref": "Hebrews 12:26–28",
+      "epigraph": "“receiving a Kingdom that can’t be shaken”",
+      "poem": "one day\nhe will shake\neverything.\n\nthe heavens.\nthe earth.\nall the things we built\nto feel safe.\n\nand what can fall\nwill fall.\n\nlet it.\n\nyou've been given\nsomething else.\n\na kingdom\nthat doesn't move\nwhen the ground does.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1baac",
+        "horizon": "#bdb29f",
+        "ground": "#827561",
+        "overall": "#a59a88",
+        "accent": "#ebd3a7"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "strangers at the door",
+      "ref": "Hebrews 13:2",
+      "epigraph": "“Don’t forget to show hospitality to strangers, for in doing so, some have entertained angels without knowing it.”",
+      "poem": "set another place.\n\npour the water.\nbring the bread.\n\nyou don't know\nwho's coming up the road.\n\na tired traveler.\na neighbor.\nsomeone with nowhere else.\n\nor someone\nheaven sent.\n\nsome opened the door\nand never knew.\n\nopen it anyway.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8e754c",
+        "horizon": "#665235",
+        "ground": "#685437",
+        "overall": "#715c3b",
+        "accent": "#f1bb66"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "never leave",
+      "ref": "Hebrews 13:5–6",
+      "epigraph": "“I will in no way leave you, neither will I in any way forsake you.”",
+      "poem": "when the money's gone.\nwhen the house is quiet.\nwhen the ones you counted on\nhave moved away.\n\nhe said it\nmore than once,\nso you would remember.\n\nnot in any way.\n\nnot ever.\n\nyou can be content\nwith a little\n\nwhen the one thing\nyou can't lose\n\nis sitting up with you\nin the dark.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79a80",
+        "horizon": "#6d624c",
+        "ground": "#98876a",
+        "overall": "#8f8066",
+        "accent": "#fad8a2"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "the same",
+      "ref": "Hebrews 13:8",
+      "epigraph": "“Jesus Christ is the same yesterday, today, and forever.”",
+      "poem": "the world will change.\nyour address,\nyour face in the mirror.\n\nbut the one\nwho held the children,\nwho touched the leper,\nwho walked out of the tomb,\n\nhas not changed\na single thing\nabout how he loves you.\n\nyesterday.\n\ntoday.\n\nand every morning\nafter this one.",
+      "webSrc": "assets/anchor-of-the-soul/web/b-040-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cab57e",
+        "horizon": "#9e8a65",
+        "ground": "#574c37",
+        "overall": "#8e7d58",
+        "accent": "#f4da79"
+      }
+    }
+  ]
+}

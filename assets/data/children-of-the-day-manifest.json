@@ -1,0 +1,748 @@
+{
+  "district": 38,
+  "slug": "children-of-the-day",
+  "title": "Children of the Day",
+  "subtitle": "1 & 2 Thessalonians in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/children-of-the-day/web/b-038-000.jpg",
+  "beforeYouBegin": "Paul's letters to the Thessalonians were written to a young church in a busy Macedonian port, only months after it began. They hold a household shrine left empty, a mother holding a child, a tentmaker working by lamplight so no one has to feed him, a friend sent back over the road with news, a grave visited with hope, and a lamp kept burning through the night.\n\nThis book walks through them in thirty-six short poems, in five parts: three for the first letter and two for the second. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the letters touch—a lamp, a loom, a loaf of bread, a road at dawn—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the letters to the Thessalonians alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Turned from Idols",
+      "epigraph": "you turned to God from idols, to serve a living and true God",
+      "epigraphRef": "1 Thessalonians 1:9",
+      "lightName": "Light of Turned from Idols",
+      "lightHint": "Near 'three things remembered' (1 Thessalonians 1:2–3) in Part 1: Turned from Idols"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 10,
+      "title": "Our Glory and Our Joy",
+      "epigraph": "For you are our glory and our joy.",
+      "epigraphRef": "1 Thessalonians 2:20",
+      "lightName": "Light of Our Glory and Our Joy",
+      "lightHint": "Near 'night and day' (1 Thessalonians 2:9) in Part 2: Our Glory and Our Joy"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 17,
+      "title": "Children of the Day",
+      "epigraph": "Y ou are all children of light and children of the day.",
+      "epigraphRef": "1 Thessalonians 5:5",
+      "lightName": "Light of Children of the Day",
+      "lightHint": "Near 'not like the rest' (1 Thessalonians 4:13) in Part 3: Children of the Day"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 25,
+      "title": "Stand Firm",
+      "epigraph": "So then, brothers, stand firm and hold the traditions which you were taught by us",
+      "epigraphRef": "2 Thessalonians 2:15",
+      "lightName": "Light of Stand Firm",
+      "lightHint": "Near 'growing' (2 Thessalonians 1:3) in Part 4: Stand Firm"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 31,
+      "title": "Don't Grow Weary",
+      "epigraph": "But you, brothers, don’t be weary in doing what is right.",
+      "epigraphRef": "2 Thessalonians 3:13",
+      "lightName": "Light of Don't Grow Weary",
+      "lightHint": "Near 'that the word may run' (2 Thessalonians 3:1) in Part 5: Don't Grow Weary"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "three things remembered",
+      "ref": "1 Thessalonians 1:2–3",
+      "epigraph": "“your work of faith and labor of love and perseverance of hope”",
+      "poem": "Paul didn't remember\ntheir doctrine first.\n\nhe remembered\nwhat their faith did with its hands,\nwhat their love\nwas tired from,\nwhat their hope\nkept standing up under.\n\nfaith that works.\nlove that labors.\nhope that holds on.\n\nhe prayed it back to God\nlike a list of small gifts.\n\nsomeone may be praying yours\nright now.",
+      "webSrc": "assets/children-of-the-day/web/b-038-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c59b",
+        "horizon": "#a89773",
+        "ground": "#7a6f57",
+        "overall": "#a39472",
+        "accent": "#e1aa5d"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "not in word only",
+      "ref": "1 Thessalonians 1:5",
+      "epigraph": "“our Good News came to you not in word only, but also in power”",
+      "poem": "words came first.\nthey always do.\n\nbut something else\ncame through the door with them,\n\nthe way warmth\ncomes in with bread,\n\nthe way a room changes\nwhen the one you've waited for\nsteps inside.",
+      "webSrc": "assets/children-of-the-day/web/b-038-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8b8572",
+        "horizon": "#726852",
+        "ground": "#4e4b3c",
+        "overall": "#696351",
+        "accent": "#e6c47b"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "affliction, with joy",
+      "ref": "1 Thessalonians 1:6",
+      "epigraph": "“having received the word in much affliction, with joy of the Holy Spirit”",
+      "poem": "they didn't wait\nfor a better season\nto believe.\n\nthe pressure came\nthe same week\nas the good news.\n\nand still\nthere was joy,\nnot instead of the trouble\nbut right there inside it,\n\na flower\nin the crack of the wall\nthat was supposed to keep it out.",
+      "webSrc": "assets/children-of-the-day/web/b-038-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbbe9a",
+        "horizon": "#beac8a",
+        "ground": "#aea384",
+        "overall": "#bcae8c",
+        "accent": "#f3beb6"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "it went out from you",
+      "ref": "1 Thessalonians 1:8",
+      "epigraph": "“from you the word of the Lord has been declared”",
+      "poem": "nobody planned a campaign.\n\na sailor told a trader.\na trader told his wife\nin another town.\n\nthe roads out of the city\ncarried olive oil and wool\nand something new.\n\nwherever Paul went next,\npeople had already heard.\n\na changed life\ndoesn't need\na messenger.",
+      "webSrc": "assets/children-of-the-day/web/b-038-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2ccb7",
+        "horizon": "#b6b4a3",
+        "ground": "#685d4b",
+        "overall": "#9f9a88",
+        "accent": "#fef3d5"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "turned",
+      "ref": "1 Thessalonians 1:9",
+      "epigraph": "“you turned to God from idols, to serve a living and true God”",
+      "poem": "the little god in the wall niche\nnever heard a thing.\nnever needed anything\nbut dusting.\n\nthey turned\nfrom what they had carried\nto the One\nwho carries them.\n\nfrom things\nthat stay where you set them\n\nto a God\nwho is alive,\nand true,\nand moves toward you.",
+      "webSrc": "assets/children-of-the-day/web/b-038-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b1a078",
+        "horizon": "#938664",
+        "ground": "#a4936d",
+        "overall": "#a1926d",
+        "accent": "#f7e9c3"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "and to wait",
+      "ref": "1 Thessalonians 1:10",
+      "epigraph": "“to wait for his Son from heaven, whom he raised from the dead”",
+      "poem": "turning was the first half.\n\nthe second half\nis waiting.\n\nnot the waiting\nof a bus stop.\n\nthe waiting\nof someone who has heard footsteps\non the road\n\nand knows\nwhose they are.",
+      "webSrc": "assets/children-of-the-day/web/b-038-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b8a2",
+        "horizon": "#c6af9b",
+        "ground": "#4f493e",
+        "overall": "#928676",
+        "accent": "#fbdabf"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "bold, after Philippi",
+      "ref": "1 Thessalonians 2:2",
+      "epigraph": "“we grew bold in our God to tell you the Good News of God in much conflict”",
+      "poem": "they came in\nwith the bruises\nfrom the last town\nstill on them.\n\nany sensible man\nwould have kept quiet\nfor a while.\n\nbut boldness\nwasn't something\nthey had.\n\nit was something\nthey grew,\nin God,\n\nthe way a bruise heals\nfrom the inside.",
+      "webSrc": "assets/children-of-the-day/web/b-038-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccb784",
+        "horizon": "#ac996b",
+        "ground": "#a59269",
+        "overall": "#b5a173",
+        "accent": "#e9bb65"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "like a nursing mother",
+      "ref": "1 Thessalonians 2:7",
+      "epigraph": "“But we were gentle among you, like a nursing mother cherishes her own children.”",
+      "poem": "he could have come in\nwith his title.\n\ninstead\nhe picked the gentlest picture\nhe knew:\n\na mother at night,\nholding what she loves\nclose to the warmth,\n\nnot asking\nwhat it will give her back.\n\nthis is what\nthe good news\nlooked like\nin Thessalonica.",
+      "webSrc": "assets/children-of-the-day/web/b-038-008.jpg",
+      "heroSrc": "assets/children-of-the-day/web/b-038-008.jpg",
+      "isScene": true,
+      "sceneType": "cradle_lamp_warmth",
+      "palette": {
+        "top": "#a78a69",
+        "horizon": "#856f57",
+        "ground": "#856e55",
+        "overall": "#8e765b",
+        "accent": "#f1af7d"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "our own souls",
+      "ref": "1 Thessalonians 2:8",
+      "epigraph": "“not the Good News of God only, but also our own souls”",
+      "poem": "you can hand someone a message\nand keep your distance.\n\nPaul didn't.\n\nhe gave the news\nand then he gave\nhimself along with it,\n\nthe way you don't just\ntell a hungry friend\nwhere the bread is.\n\nyou sit down\nand break yours.",
+      "webSrc": "assets/children-of-the-day/web/b-038-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0ad8b",
+        "horizon": "#ae9a7b",
+        "ground": "#897257",
+        "overall": "#a69071",
+        "accent": "#eed5a8"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "night and day",
+      "ref": "1 Thessalonians 2:9",
+      "epigraph": "“working night and day, that we might not burden any of you”",
+      "poem": "by day, the needle\nand the heavy cloth.\n\nby lamplight, more needle.\nmore cloth.\n\nand the good news,\nperhaps to whoever\nstopped by to talk.\n\nhe wanted no one\nto wonder\nwhat he was after.\n\nso he paid\nfor his own bread,\n\nand gave\nthe best thing he had\nfor free.",
+      "webSrc": "assets/children-of-the-day/web/b-038-010.jpg",
+      "heroSrc": "assets/children-of-the-day/web/b-038-010.jpg",
+      "isScene": true,
+      "sceneType": "tentmaker_loom_lamp",
+      "palette": {
+        "top": "#b7ad92",
+        "horizon": "#6e6654",
+        "ground": "#837a64",
+        "overall": "#89806a",
+        "accent": "#e7c48a"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "as a father",
+      "ref": "1 Thessalonians 2:11–12",
+      "epigraph": "“as a father does his own children”",
+      "poem": "first a mother.\nnow a father.\n\nPaul needed both\nto say it:\n\ntender enough to hold,\nsteady enough\nto say walk this way.\n\nencouraging.\ncomforting.\nurging.\n\na hand around your hand\non the path,\nuntil one day\nyou know the way yourself.",
+      "webSrc": "assets/children-of-the-day/web/b-038-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9e937e",
+        "horizon": "#736752",
+        "ground": "#83745d",
+        "overall": "#847762",
+        "accent": "#f1d8b6"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "you are our joy",
+      "ref": "1 Thessalonians 2:19–20",
+      "epigraph": "“For you are our glory and our joy.”",
+      "poem": "the athletes of his day\nran for a crown\nof leaves.\n\nPaul looked at a room\nof workers and neighbors\nand former idol-keepers\n\nand said,\nthere it is.\n\nthat's my crown.",
+      "webSrc": "assets/children-of-the-day/web/b-038-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9b8c6a",
+        "horizon": "#8f8366",
+        "ground": "#786d52",
+        "overall": "#877a5d",
+        "accent": "#e8decb"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "alone at Athens",
+      "ref": "1 Thessalonians 3:1–2",
+      "epigraph": "“we thought it good to be left behind at Athens alone”",
+      "poem": "he could have kept Timothy.\na friend at his side\nin a strange city.\n\ninstead he sent him back\nup the road,\nto the people\nhe couldn't reach.\n\nlove sometimes looks like\nchoosing\nto be the lonely one\n\nso someone else\ncan be held.",
+      "webSrc": "assets/children-of-the-day/web/b-038-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdc4ad",
+        "horizon": "#a8a595",
+        "ground": "#9f967d",
+        "overall": "#ada691",
+        "accent": "#e2dac2"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "now we live",
+      "ref": "1 Thessalonians 3:6–8",
+      "epigraph": "“For now we live, if you stand fast in the Lord.”",
+      "poem": "all those weeks\nPaul didn't know.\n\nhad the trouble\nworn them down?\nhad they let go?\n\nthen Timothy,\ndusty from the road,\nwith good news:\n\nthey're standing.\nthey miss you.\n\nand the tired old apostle\nsaid the most honest thing:\n\nnow we live.",
+      "webSrc": "assets/children-of-the-day/web/b-038-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc19c",
+        "horizon": "#94876d",
+        "ground": "#857963",
+        "overall": "#9c8f74",
+        "accent": "#fade8e"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "abound",
+      "ref": "1 Thessalonians 3:12",
+      "epigraph": "“May the Lord make you to increase and abound in love toward one another”",
+      "poem": "he didn't pray\nthat their love\nwould be enough.\n\nhe prayed it would\nrun over.\n\na cup filled\npast the rim,\n\nspilling toward each other,\nand then out the door,\n\ntoward all.",
+      "webSrc": "assets/children-of-the-day/web/b-038-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdbd9d",
+        "horizon": "#a19274",
+        "ground": "#a89b7d",
+        "overall": "#aea082",
+        "accent": "#ddcfad"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "with your own hands",
+      "ref": "1 Thessalonians 4:11–12",
+      "epigraph": "“that you make it your ambition to lead a quiet life, and to do your own business, and to work with your own hands”",
+      "poem": "not the loudest life.\nnot the biggest.\n\na quiet one.\n\nyour own business,\ndone well.\nyour own hands,\ntired in a good way.\n\nambition, Paul says,\nbut aimed low\nand close:\n\na loom,\na table,\na neighbor who never wonders\nif you're honest.\n\nholiness\ncan look like this.",
+      "webSrc": "assets/children-of-the-day/web/b-038-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79779",
+        "horizon": "#908063",
+        "ground": "#5a5446",
+        "overall": "#81755f",
+        "accent": "#f3e6c9"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "not like the rest",
+      "ref": "1 Thessalonians 4:13",
+      "epigraph": "“so that you don’t grieve like the rest, who have no hope”",
+      "poem": "Paul doesn't say\ndon't grieve.\n\nhe knows better.\ntears are allowed.\n\nhe says\ndon't grieve\nlike there's no morning.\n\ncry\nwith the door\nleft open.",
+      "webSrc": "assets/children-of-the-day/web/b-038-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ac9e80",
+        "horizon": "#756b59",
+        "ground": "#585346",
+        "overall": "#7b725d",
+        "accent": "#f7dda2"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "fallen asleep",
+      "ref": "1 Thessalonians 4:14",
+      "epigraph": "“God will bring with him those who have fallen asleep in Jesus”",
+      "poem": "the church had a word\nfor the ones they'd lost.\n\nnot gone.\nnot ended.\n\nasleep.\n\nthe word you use\nfor someone\nyou expect to see\nat breakfast.",
+      "webSrc": "assets/children-of-the-day/web/b-038-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a2967b",
+        "horizon": "#a19984",
+        "ground": "#776e5a",
+        "overall": "#928972",
+        "accent": "#eff0ec"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "forever",
+      "ref": "1 Thessalonians 4:16–17",
+      "epigraph": "“So we will be with the Lord forever.”",
+      "poem": "a shout.\na trumpet.\nthe ones asleep first,\n\nthen everyone else,\ngathered up\ntogether.\n\nwe don't know\nhow.\nPaul didn't pretend to.\n\nhe just told them\nwhere the story ends:\n\nwith the Lord.\nwith each other.\n\nnot for a visit.\n\nforever.",
+      "webSrc": "assets/children-of-the-day/web/b-038-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b8a2",
+        "horizon": "#d4c8b0",
+        "ground": "#75674e",
+        "overall": "#aa9d86",
+        "accent": "#f6ecd4"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "comfort one another",
+      "ref": "1 Thessalonians 4:18",
+      "epigraph": "“Therefore comfort one another with these words.”",
+      "poem": "he didn't write this\nto win an argument\nabout the end of time.\n\nhe wrote it\nso someone could say it\nat a graveside.\n\nread it out loud.\nhold a hand.\n\nthat's what\nit's for.",
+      "webSrc": "assets/children-of-the-day/web/b-038-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8ab91",
+        "horizon": "#9b8d75",
+        "ground": "#53493b",
+        "overall": "#897c67",
+        "accent": "#f0e5cb"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "a thief in the night",
+      "ref": "1 Thessalonians 5:4–5",
+      "epigraph": "“But you, brothers, aren’t in darkness, that the day should overtake you like a thief.”",
+      "poem": "a thief comes\nto people who are asleep\nwith the lights out.\n\nbut you,\nPaul says,\nare children of the day.\n\nthe dark\nisn't your address.\n\nleave the lamp on.\nyou're expecting\nsomeone you love.",
+      "webSrc": "assets/children-of-the-day/web/b-038-021.jpg",
+      "heroSrc": "assets/children-of-the-day/web/b-038-021.jpg",
+      "isScene": true,
+      "sceneType": "children_of_the_day_dawn",
+      "palette": {
+        "top": "#56534b",
+        "horizon": "#4d4a40",
+        "ground": "#746850",
+        "overall": "#60594a",
+        "accent": "#e5b872"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "breastplate and helmet",
+      "ref": "1 Thessalonians 5:8",
+      "epigraph": "“putting on the breastplate of faith and love, and for a helmet, the hope of salvation”",
+      "poem": "a soldier's gear\nfor people\nwho weren't soldiers.\n\nfaith and love\nover the heart.\n\nhope\naround the head,\n\nwhere the worry\nlikes to start.\n\nstay awake.\nstay dressed.\n\nnot for a battle.\n\nfor the morning.",
+      "webSrc": "assets/children-of-the-day/web/b-038-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3a484",
+        "horizon": "#8a7a5c",
+        "ground": "#84775c",
+        "overall": "#948668",
+        "accent": "#e3bd88"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "always, without ceasing, in everything",
+      "ref": "1 Thessalonians 5:16–18",
+      "epigraph": "“Always rejoice. Pray without ceasing. In everything give thanks”",
+      "poem": "three short lines.\nthe shortest verses\nin the letter.\n\nrejoice.\npray.\ngive thanks.\n\nnot a schedule.\na flame you keep lit\nwhile you do everything else.\n\nkneading.\nmending.\nwalking to the well.",
+      "webSrc": "assets/children-of-the-day/web/b-038-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#f4e8cd",
+        "horizon": "#baac93",
+        "ground": "#d8ccb2",
+        "overall": "#d2c5ab",
+        "accent": "#f7ecd1"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "faithful",
+      "ref": "1 Thessalonians 5:23–24",
+      "epigraph": "“He who calls you is faithful, who will also do it.”",
+      "poem": "spirit, soul and body,\nthe whole of you,\nkept whole.\n\nit sounds like\ntoo much to ask.\n\nit is.\n\nthat's why\nthe last line\nisn't about you.\n\nthe One who called\nis faithful.\n\nhe'll finish\nwhat he started.",
+      "webSrc": "assets/children-of-the-day/web/b-038-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d1a8",
+        "horizon": "#b0a482",
+        "ground": "#766a52",
+        "overall": "#a59878",
+        "accent": "#f8df97"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "growing",
+      "ref": "2 Thessalonians 1:3",
+      "epigraph": "“your faith grows exceedingly, and the love of each and every one of you toward one another abounds”",
+      "poem": "the trouble\ndidn't stop.\n\nneither did\nthe growing.\n\nwhen Paul writes again,\nand he can't help it:\n\nyour faith\nis taller.\n\nyour love,\nevery one of you,\nis wider.\n\nsome trees\nput down the deepest roots\nin the rockiest ground.",
+      "webSrc": "assets/children-of-the-day/web/b-038-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9caa8",
+        "horizon": "#cec19e",
+        "ground": "#a69576",
+        "overall": "#c3b493",
+        "accent": "#f6e6c1"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "relief",
+      "ref": "2 Thessalonians 1:6–7",
+      "epigraph": "“to give relief to you who are afflicted with us”",
+      "poem": "they were tired\nof being the ones\nwho suffered for being good.\n\nPaul doesn't tell them\nit doesn't matter.\n\nhe tells them\nGod sees,\nand God is fair,\n\nand when the Lord is revealed\nthere will be relief,\n\nlike cool water\nat the end\nof a long hot road.",
+      "webSrc": "assets/children-of-the-day/web/b-038-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#988c73",
+        "horizon": "#867b66",
+        "ground": "#655e4e",
+        "overall": "#7f755f",
+        "accent": "#ccb395"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "glorified in you",
+      "ref": "2 Thessalonians 1:11–12",
+      "epigraph": "“that the name of our Lord Jesus may be glorified in you, and you in him”",
+      "poem": "glass doesn't\nmake the light.\n\nit just\nlets it through,\n\nand somehow\nit's more beautiful\nfor having been held.\n\nhis name in you.\nyou in him.\n\nthe light,\nand the one\nit shines through,\n\nboth shining.",
+      "webSrc": "assets/children-of-the-day/web/b-038-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a19378",
+        "horizon": "#a59575",
+        "ground": "#7c725e",
+        "overall": "#95886d",
+        "accent": "#f1d390"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "not quickly shaken",
+      "ref": "2 Thessalonians 2:1–2",
+      "epigraph": "“not to be quickly shaken in your mind, and not be troubled”",
+      "poem": "rumors ran through the church:\na letter,\na voice,\nsomeone who said\nit's already over,\nyou missed it.\n\nPaul wrote back.\n\nno.\ndon't be shaken.\nremember what I told you.\n\nevery age\nhas its alarm bells.\n\nhe still says\nthe same thing:\n\nstay steady.\nhe hasn't forgotten you.",
+      "webSrc": "assets/children-of-the-day/web/b-038-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbcfaf",
+        "horizon": "#c1b69b",
+        "ground": "#7b7567",
+        "overall": "#ada48d",
+        "accent": "#f9ebc6"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "chosen from the beginning",
+      "ref": "2 Thessalonians 2:13",
+      "epigraph": "“God chose you from the beginning for salvation”",
+      "poem": "before the dock,\nbefore the loom,\nbefore the idols in the wall,\n\nbefore\nthey had anything\nto offer,\n\nGod had chosen them.\n\nand whatever loud voices\nsaid about the end,\n\nPaul pointed them\nback to the beginning.",
+      "webSrc": "assets/children-of-the-day/web/b-038-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bda88a",
+        "horizon": "#a6917b",
+        "ground": "#625543",
+        "overall": "#8e7d66",
+        "accent": "#fad09e"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "good hope",
+      "ref": "2 Thessalonians 2:16–17",
+      "epigraph": "“gave us eternal comfort and good hope through grace”",
+      "poem": "not a thin hope.\nnot a maybe.\n\ngood hope.\n\nthe kind that\nkeeps you warm\nthe way a banked fire does\nthrough the night,\n\nand is still there\nin the morning\nwhen you reach for it.",
+      "webSrc": "assets/children-of-the-day/web/b-038-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbbc9a",
+        "horizon": "#96866b",
+        "ground": "#b2a383",
+        "overall": "#ae9f80",
+        "accent": "#ddcead"
+      }
+    },
+    {
+      "n": 31,
+      "part": 5,
+      "title": "that the word may run",
+      "ref": "2 Thessalonians 3:1",
+      "epigraph": "“pray for us, that the word of the Lord may spread rapidly”",
+      "poem": "the great apostle\nasks the small church\nto pray for him.\n\nnot for comfort.\nfor the word\nto run.\n\nthe way news runs\ndown a road\nahead of the runner.",
+      "webSrc": "assets/children-of-the-day/web/b-038-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9cead",
+        "horizon": "#b9b094",
+        "ground": "#8b7e61",
+        "overall": "#afa486",
+        "accent": "#f5e7bb"
+      }
+    },
+    {
+      "n": 32,
+      "part": 5,
+      "title": "the Lord is faithful",
+      "ref": "2 Thessalonians 3:3",
+      "epigraph": "“But the Lord is faithful, who will establish you and guard you from the evil one.”",
+      "poem": "not all have faith,\nPaul says.\n\nand then,\nalmost in the same breath:\n\nbut the Lord\nis faithful.\n\nthe world\ncan be unreliable.\n\nhe isn't.",
+      "webSrc": "assets/children-of-the-day/web/b-038-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9b8f6d",
+        "horizon": "#746a4f",
+        "ground": "#5f5944",
+        "overall": "#786e53",
+        "accent": "#f4c87c"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "into God's love",
+      "ref": "2 Thessalonians 3:5",
+      "epigraph": "“May the Lord direct your hearts into God’s love, and into the perseverance of Christ.”",
+      "poem": "a heart\ncan wander off\nin any direction.\n\nso he prays\nit will be steered,\n\nlike water\nfinding its way\ndownhill\n\ninto God's love,\n\nand into the patience\nof the One\nwho never\ngave up on us.",
+      "webSrc": "assets/children-of-the-day/web/b-038-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbc1a9",
+        "horizon": "#c4bfab",
+        "ground": "#6b695a",
+        "overall": "#a29c89",
+        "accent": "#f3e8ca"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "your own bread",
+      "ref": "2 Thessalonians 3:10–12",
+      "epigraph": "“that they work with quietness and eat their own bread”",
+      "poem": "some had stopped working.\nthe Lord was coming,\nso why bother?\n\nPaul's answer\nwas plain:\n\npick up your tools.\nwork quietly.\neat your own bread.\n\nwaiting well\nlooks a lot like\nan ordinary workday,\n\ndone faithfully.",
+      "webSrc": "assets/children-of-the-day/web/b-038-034.jpg",
+      "heroSrc": "assets/children-of-the-day/web/b-038-034.jpg",
+      "isScene": true,
+      "sceneType": "quiet_table_loaf",
+      "palette": {
+        "top": "#e5d9b8",
+        "horizon": "#cabc98",
+        "ground": "#9b8968",
+        "overall": "#bcad8b",
+        "accent": "#e1bf7c"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "don't grow weary",
+      "ref": "2 Thessalonians 3:13",
+      "epigraph": "“But you, brothers, don’t be weary in doing what is right.”",
+      "poem": "good is heavy\nsome days.\n\nthe same kindness,\nthe same work,\nthe same prayer,\nand nothing seems to move.\n\ndon't be weary,\nhe says.\n\nnot because\nit's easy.\n\nbecause it's right.\n\nand because\nthe One you're doing it for\nis coming.",
+      "webSrc": "assets/children-of-the-day/web/b-038-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a9936b",
+        "horizon": "#7c6e56",
+        "ground": "#7e6e58",
+        "overall": "#89785c",
+        "accent": "#e2bf6e"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "in my own hand",
+      "ref": "2 Thessalonians 3:16–17",
+      "epigraph": "“Now may the Lord of peace himself give you peace at all times in all ways.”",
+      "poem": "at the end\nhe takes the pen\nfrom the one writing for him,\n\nand adds a line\nin his own hand,\n\nso they'll know\nit's really him.\n\npeace,\nhe writes.\n\nat all times.\nin all ways.\n\nthe Lord\nbe with you all.",
+      "webSrc": "assets/children-of-the-day/web/b-038-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#938872",
+        "horizon": "#86775f",
+        "ground": "#776954",
+        "overall": "#82745e",
+        "accent": "#e4d7bf"
+      }
+    }
+  ]
+}

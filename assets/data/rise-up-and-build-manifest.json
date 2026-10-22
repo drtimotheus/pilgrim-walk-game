@@ -1,0 +1,824 @@
+{
+  "district": 10,
+  "slug": "rise-up-and-build",
+  "title": "Rise Up and Build",
+  "subtitle": "Ezra & Nehemiah in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/rise-up-and-build/web/b-010-000.jpg",
+  "beforeYouBegin": "Ezra and Nehemiah begin with a king's decree and a long road home, and end with a finished wall and a people hearing their story read aloud again. In between: gold bowls counted out one by one, a foundation laid to shouting and weeping, a scribe bent over a scroll, a cup bearer who could not hide his sadness, a night ride along broken walls, builders with a tool in one hand, and a whole city sleeping under branches on its rooftops.\n\nThis book walks through it in forty short poems, in five parts, two for Ezra and three for Nehemiah. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the story touches—an altar of uncut stones, a balance scale, a wine cup, a trowel beside a wall—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the books of Ezra and Nehemiah alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "For He Is Good",
+      "epigraph": "For he is good, for his loving kindness endures forever toward Israel.",
+      "epigraphRef": "Ezra 3:11",
+      "lightName": "Light of For He Is Good",
+      "lightHint": "Near 'stirred' (Ezra 1:1–2) in Part 1: For He Is Good"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 13,
+      "title": "The Good Hand of Our God",
+      "epigraph": "The hand of our God was on us, and he delivered us from the hand of the enemy and the bandit by the way.",
+      "epigraphRef": "Ezra 8:31",
+      "lightName": "Light of The Good Hand of Our God",
+      "lightHint": "Near 'set his heart' (Ezra 7:10) in Part 2: The Good Hand of Our God"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 19,
+      "title": "A Sad Face Before the King",
+      "epigraph": "So I prayed to the God of heaven.",
+      "epigraphRef": "Nehemiah 2:4",
+      "lightName": "Light of A Sad Face Before the King",
+      "lightHint": "Near 'the wall is broken' (Nehemiah 1:2–4) in Part 3: A Sad Face Before the King"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 25,
+      "title": "A Mind to Work",
+      "epigraph": "So we built the wall; and all the wall was joined together to half its height: for the people had a mind to work.",
+      "epigraphRef": "Nehemiah 4:6",
+      "lightName": "Light of A Mind to Work",
+      "lightHint": "Near 'across from his own house' (Nehemiah 3:28–32) in Part 4: A Mind to Work"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 34,
+      "title": "The Joy of Yahweh",
+      "epigraph": "Go your way. Eat the fat, drink the sweet, and send portions to him for whom nothing is prepared, for today is holy to our Lord.",
+      "epigraphRef": "Nehemiah 8:10",
+      "lightName": "Light of The Joy of Yahweh",
+      "lightHint": "Near 'all the people stood' (Nehemiah 8:1–6) in Part 5: The Joy of Yahweh"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "stirred",
+      "ref": "Ezra 1:1–2",
+      "epigraph": "“Yahweh stirred up the spirit of Cyrus king of Persia”",
+      "poem": "a long time\nto live in someone else's city,\nto hang your harps\non someone else's trees.\n\nthen one morning\nthe most powerful man in the world\nput his name to a strange idea:\n\nlet them go home.\nlet them build.\n\nhe may have thought\nit was his idea.\n\nit was a promise\nGod had made through Jeremiah\nlong before.\n\nthe heart of a king\nis a small thing\nfor God to stir.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1bf99",
+        "horizon": "#ac9d7b",
+        "ground": "#5e4f3b",
+        "overall": "#9c8b6c",
+        "accent": "#eec984"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "strengthened their hands",
+      "ref": "Ezra 1:5–6",
+      "epigraph": "“All those who were around them strengthened their hands”",
+      "poem": "not everyone went.\n\nperhaps some were too old\nfor the road.\nsome had built houses there,\nand planted gardens.\n\nbut the ones who stayed\ndid more than wave.\n\nthey pressed silver\ninto the travelers' hands,\nand gold, and goods,\nand animals for the long walk.\n\nsome of us are sent.\nsome of us send.\n\nboth are\nhow the house gets built.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9a8d6e",
+        "horizon": "#77674b",
+        "ground": "#5a5442",
+        "overall": "#746951",
+        "accent": "#e0d1ab"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "counted out",
+      "ref": "Ezra 1:7–11",
+      "epigraph": "“counted them out to Sheshbazzar, the prince of Judah.”",
+      "poem": "bowls of gold.\nplatters of silver.\n\ncarried off to Babylon\nand set in the house\nof another god,\n\nwhere they sat for years,\nfar from the altar\nthey were made for.\n\nthen someone came with a list\nand counted them out,\none by one—\nfive thousand four hundred—\nand sent them home.\n\nnothing that belongs to God\nis ever lost\nto him.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aaa086",
+        "horizon": "#8f836a",
+        "ground": "#938364",
+        "overall": "#988c70",
+        "accent": "#f4e2ae"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "on its base",
+      "ref": "Ezra 3:2–3",
+      "epigraph": "“they set the altar on its base”",
+      "poem": "no temple yet.\nno walls.\njust rubble and weeds\nand neighbors watching.\n\nthey were afraid.\nthe text says so.\n\nthey built the altar anyway,\nright where it belonged,\nand lit the morning fire,\nand the evening one.\n\nbefore the roof,\nbefore the doors,\nbefore anything was safe—\n\nworship.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-004.jpg",
+      "heroSrc": "assets/rise-up-and-build/web/b-010-004.jpg",
+      "isScene": true,
+      "sceneType": "ezra_altar",
+      "palette": {
+        "top": "#c8c1ac",
+        "horizon": "#a89c82",
+        "ground": "#746856",
+        "overall": "#9e937d",
+        "accent": "#f8dda4"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "cedar",
+      "ref": "Ezra 3:7",
+      "epigraph": "“to bring cedar trees from Lebanon to the sea, to Joppa”",
+      "poem": "silver for the masons.\noil for Sidon and Tyre.\n\nand the cedars came down\nfrom the mountains\nand out to sea,\nfloated along the coast\nto Joppa,\n\nthe way they came\nfor Solomon.\n\nnew work.\nold road.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#eee2c1",
+        "horizon": "#b1a88e",
+        "ground": "#766e5c",
+        "overall": "#ada38a",
+        "accent": "#f7ecc9"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "a great shout",
+      "ref": "Ezra 3:10–11",
+      "epigraph": "“All the people shouted with a great shout”",
+      "poem": "one course of stone.\nthat's all it was.\n\na line of blocks\nin the dirt\nwhere a house would be.\n\nbut the priests lifted trumpets,\nand the Levites struck cymbals,\nand they sang it back and forth\nacross the site:\n\nhe is good.\nhis loving kindness\nendures forever.\n\nand the people shouted\nas if the whole thing\nwere already finished.\n\nsometimes faith\nis just a lot of noise\nover a foundation.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dfd3b6",
+        "horizon": "#958a6e",
+        "ground": "#a9987a",
+        "overall": "#b1a487",
+        "accent": "#e5c895"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the old men wept",
+      "ref": "Ezra 3:12–13",
+      "epigraph": "“the people could not discern the noise of the shout of joy from the noise of the weeping of the people”",
+      "poem": "the young ones shouted.\n\nbut the old men\nhad seen the first house.\nthey looked at this\nsmall beginning\nand wept out loud.\n\nand from far away\nno one could tell\nwhich was which—\nthe joy, the grief,\none sound\nrising off the hill.\n\nmost beginnings\nsound like that.\nlet both be heard.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3ab9a",
+        "horizon": "#8f826c",
+        "ground": "#958770",
+        "overall": "#9c907b",
+        "accent": "#e6d8c1"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "work stopped",
+      "ref": "Ezra 4:4–5",
+      "epigraph": "“Then the people of the land weakened the hands of the people of Judah, and troubled them in building.”",
+      "poem": "counselors were hired.\nletters were written.\nhands grew weak.\n\nand the work stopped.\n\nnot for a week.\nfor years.\n\ngrass grew up\nbetween the stones\nthey had shouted over.\n\nif your work\nhas stopped,\nif the thing you began with joy\nsits in the weeds—\n\nit is not finished.\nit is waiting.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dad1b9",
+        "horizon": "#8e8672",
+        "ground": "#5b5242",
+        "overall": "#8f8672",
+        "accent": "#f9f1d5"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "helping them",
+      "ref": "Ezra 5:1–2",
+      "epigraph": "“with them were the prophets of God, helping them.”",
+      "poem": "the prophets did not stand\nat a distance\nand point.\n\nHaggai and Zechariah\nspoke in God's name,\n\nand Zerubbabel and Jeshua\nrose up\nand started again,\n\nand the prophets\nwere right there with them,\nhelping.\n\na word from God\noften shows up\nwith dust on it.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0ceac",
+        "horizon": "#a39172",
+        "ground": "#837459",
+        "overall": "#a59476",
+        "accent": "#f4e4bf"
+      }
+    },
+    {
+      "n": 10,
+      "part": 1,
+      "title": "the eye of their God",
+      "ref": "Ezra 5:3–5",
+      "epigraph": "“But the eye of their God was on the elders of the Jews”",
+      "poem": "the governor rode up\nwith questions.\n\nwho told you to build this?\nwhat are your names?\n\nthey answered plainly:\nwe are servants\nof the God of heaven and earth.\n\nand while the letter\ntraveled to the king\nand back,\n\nno one made them stop.\n\nsomeone was watching them\nmore closely\nthan the governor.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccd3ce",
+        "horizon": "#dcd6c6",
+        "ground": "#8d7e64",
+        "overall": "#b9b3a3",
+        "accent": "#f7efdb"
+      }
+    },
+    {
+      "n": 11,
+      "part": 1,
+      "title": "a scroll at Achmetha",
+      "ref": "Ezra 6:1–3",
+      "epigraph": "“A scroll was found at Achmetha”",
+      "poem": "the governor had asked\nfor a search,\nto see if the story was true.\n\nand somewhere in Media,\nin a palace archive,\non a shelf no one had touched\nin years,\n\na scroll was waiting.\n\nthe decree of Cyrus.\nlet the house be built.\nlet the king pay for it.\n\nthey went looking\nfor a problem.\n\nthey found\nthe promise.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#66614e",
+        "horizon": "#615a46",
+        "ground": "#62553d",
+        "overall": "#675d46",
+        "accent": "#e7bc71"
+      }
+    },
+    {
+      "n": 12,
+      "part": 1,
+      "title": "made joyful",
+      "ref": "Ezra 6:15–22",
+      "epigraph": "“Yahweh had made them joyful”",
+      "poem": "it was finished\non the third day of Adar.\n\na house of stone\nwhere for years there had been\nonly a foundation.\n\nthey dedicated it with joy.\nthey kept the Passover\nand the feast of unleavened bread.\n\nand the text is careful\nto say where the joy\ncame from:\n\nYahweh\nhad made them joyful.\n\nthey built the house.\nhe built the gladness.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b49f7b",
+        "horizon": "#666153",
+        "ground": "#343026",
+        "overall": "#69604d",
+        "accent": "#caab7d"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "set his heart",
+      "ref": "Ezra 7:10",
+      "epigraph": "“For Ezra had set his heart to seek Y ahweh’s law, and to do it, and to teach statutes and ordinances in Israel.”",
+      "poem": "seek.\ndo.\nteach.\nin that order.\n\nhe did not teach\nwhat he had not tried.\nhe did not try\nwhat he had not searched for.\n\nhe set his heart\nthe way you set a stone—\nbent over the scroll\nby lamplight,\nfar from Jerusalem,\n\ngetting ready\nfor a road\nhe did not yet know\nhe would walk.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7c6f5a",
+        "horizon": "#776951",
+        "ground": "#5a4c35",
+        "overall": "#70614a",
+        "accent": "#dec090"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "the good hand",
+      "ref": "Ezra 7:8–9",
+      "epigraph": "“according to the good hand of his God on him.”",
+      "poem": "the first day of the first month,\nthey left Babylon.\n\nthe first day of the fifth month,\nthey walked into Jerusalem.\n\nfour months of road.\ndust and heat\nand little ones asking\nhow much farther.\n\nEzra doesn't tell us\nabout the blisters.\n\nhe just says,\nmore than once,\nthe good hand\nof his God\nwas on him.\n\nfor him\nthat was the whole story\nof the trip.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbc89c",
+        "horizon": "#aba087",
+        "ground": "#716751",
+        "overall": "#a09376",
+        "accent": "#f5e1a6"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "ashamed to ask",
+      "ref": "Ezra 8:21–23",
+      "epigraph": "“So we fasted and begged our God for this: and he granted our request.”",
+      "poem": "he had told the king,\nour God's hand is on\nall who seek him.\n\nso how could he turn around\nand ask for soldiers?\n\nhe was ashamed to.\n\nso they camped by the river\nwith their little ones\nand their silver and gold\nand a dangerous road ahead,\n\nand they fasted,\nand they asked.\n\nand God answered.\n\nsometimes faith\nmeans living inside\nwhat you already said\nout loud.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9be9b",
+        "horizon": "#a7997b",
+        "ground": "#4a4338",
+        "overall": "#898068",
+        "accent": "#edd195"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "holy vessels",
+      "ref": "Ezra 8:24–30",
+      "epigraph": "“You are holy to Yahweh, and the vessels are holy.”",
+      "poem": "he weighed it all out:\nsilver, gold,\nbowls,\ntwo vessels of bright bronze.\n\nthen he looked\nat the twelve priests\nwho would carry it\n\nand said,\nyou are holy to Yahweh.\nand the vessels are holy.\n\nwatch them.\nkeep them.\n\nhe said it about the cups.\n\nhe said it about the men\nfirst.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cabc9d",
+        "horizon": "#9c8f73",
+        "ground": "#a08c6a",
+        "overall": "#a9997b",
+        "accent": "#dabe8d"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "a nail in his holy place",
+      "ref": "Ezra 9:5–9",
+      "epigraph": "“Now for a little moment grace has been shown from Y ahweh our God”",
+      "poem": "he tore his robe\nand sat stunned\nuntil the evening offering.\n\nthen he knelt,\nspread out his hands,\nand told the truth:\nour guilt has grown\nup to the heavens.\n\nand still, in the middle of it:\na little grace.\na remnant.\na nail in his holy place—\n\nsomething small,\ndriven into the wall\nso it holds.\n\nenough to hang\na life on.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b39f89",
+        "horizon": "#8b7b66",
+        "ground": "#918168",
+        "overall": "#998771",
+        "accent": "#e1cca6"
+      }
+    },
+    {
+      "n": 18,
+      "part": 2,
+      "title": "in the great rain",
+      "ref": "Ezra 10:9–13",
+      "epigraph": "“trembling because of this matter, and because of the great rain.”",
+      "poem": "the ninth month.\ncold rain.\neveryone sitting in the open square\nbefore God's house,\nshivering.\n\nthey had a hard thing to face.\nthis is not the work\nof one day or two,\nthey said.\n\nthe book of Ezra\nends with a list of names\nand a line about their children.\nit doesn't tell us\nhow every family fared.\n\nsome pages\nare for grieving,\nand for trusting God\nwith what we can't see.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#959b9c",
+        "horizon": "#7b7c77",
+        "ground": "#65655f",
+        "overall": "#797b77",
+        "accent": "#e5e6e2"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "the wall is broken",
+      "ref": "Nehemiah 1:2–4",
+      "epigraph": "“When I heard these words, I sat down and wept”",
+      "poem": "he had a good post\nin the palace at Susa.\n\nhis brother came from Judah,\nand he asked,\nhow is the city?\n\nthe wall is broken down.\nthe gates are burned.\n\nhe could have said, that's too bad,\nand gone back to work.\ninstead he sat down\nand wept, for days.\n\na calling\noften starts\nas an ache\nyou can't put down.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#958c7d",
+        "horizon": "#948d7e",
+        "ground": "#5f5b50",
+        "overall": "#837c6f",
+        "accent": "#f2ece1"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "day and night",
+      "ref": "Nehemiah 1:5–11",
+      "epigraph": "“Let your ear now be attentive, and your eyes open”",
+      "poem": "he prayed day and night.\nhe said we.\nI and my father's house have sinned.\n\nhe reminded God\nof God's own words:\nif you return,\nI will gather you,\neven from the farthest edge\nof the heavens.\n\nthen one small, specific request:\ngrant me mercy\nin the sight of this man.\n\nand the last line of the chapter:\nI was cup bearer to the king.\n\nhe knew which door\nhe was praying toward.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#323232",
+        "horizon": "#363636",
+        "ground": "#615441",
+        "overall": "#3f3b36",
+        "accent": "#eecfa3"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "a sad face",
+      "ref": "Nehemiah 2:1–2",
+      "epigraph": "“Why is your face sad, since you are not sick?”",
+      "poem": "months had passed.\nhe poured the wine\nthe way he always did,\nbut this time\nhe couldn't hide it.\n\nhe had never been sad\nbefore the king.\nin that court, perhaps,\na sad face was a dangerous thing.\n\nwhy is your face sad?\nand Nehemiah\nwas very much afraid.\n\nyou can be afraid\nand still tell the truth.\nthat is often\nwhere the door opens.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#897b63",
+        "horizon": "#786a55",
+        "ground": "#71634d",
+        "overall": "#7a6c55",
+        "accent": "#dec69f"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "between the question and the answer",
+      "ref": "Nehemiah 2:4–5",
+      "epigraph": "“Then the king said to me, “What is your request?””",
+      "poem": "the king asked,\nwhat do you want?\n\nand between the question\nand the answer\nthere was a breath.\n\nso I prayed\nto the God of heaven.\n\nno kneeling.\nno time.\na prayer\nthe size of a heartbeat,\n\nand then he spoke.\n\nyou don't always\nget to close your eyes.\n\nGod hears\nthe short ones too.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aea793",
+        "horizon": "#9d957f",
+        "ground": "#877a6a",
+        "overall": "#9b927e",
+        "accent": "#f9eed0"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "the night ride",
+      "ref": "Nehemiah 2:12–15",
+      "epigraph": "“I arose in the night, I and a few men with me.”",
+      "poem": "three days in the city.\nthen, in the night,\nhe went out,\ntelling no one\nwhat God had put in his heart.\n\na few men,\none animal,\nand the moon.\n\nout the valley gate,\npast the jackal's well,\nalong the broken wall,\nuntil there was no room\nfor his animal to pass.\nso he went up by the brook\nand kept looking.\n\nbefore you build,\nyou have to see the whole ruin\nand not look away.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-023.jpg",
+      "heroSrc": "assets/rise-up-and-build/web/b-010-023.jpg",
+      "isScene": true,
+      "sceneType": "nehemiah_night_ride",
+      "palette": {
+        "top": "#959285",
+        "horizon": "#65635a",
+        "ground": "#4a483f",
+        "overall": "#67655b",
+        "accent": "#e6dac3"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "the good work",
+      "ref": "Nehemiah 2:17–20",
+      "epigraph": "“So they strengthened their hands for the good work.”",
+      "poem": "come, he said.\nyou see it too.\nlet's build.\n\nand they answered,\nlet's rise up and build.\n\nthe mockers came right away:\nwill you rebel?\n\nthe God of heaven\nwill prosper us,\nhe said.\nwe will arise and build.\n\nit takes one person\nto see the ruin.\nit takes everyone\nto say let's.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ad987d",
+        "horizon": "#786858",
+        "ground": "#524739",
+        "overall": "#7a6a57",
+        "accent": "#fbcea2"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "across from his own house",
+      "ref": "Nehemiah 3:28–32",
+      "epigraph": "“the priests made repairs, everyone across from his own house.”",
+      "poem": "the priests built the sheep gate.\ngoldsmiths built a stretch.\nperfumers built a stretch.\nthe men of Jericho,\nthe men of Tekoa,\nrulers of half a district.\n\nand here and there\nsomeone mended the wall\nacross from his own house.\n\nno one rebuilt\nthe whole city.\n\neach one took the piece\nin front of him.\n\nthat's how a wall\ngoes all the way around.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dacdb2",
+        "horizon": "#9f947a",
+        "ground": "#a39478",
+        "overall": "#b2a58a",
+        "accent": "#ded1b4"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "and his daughters",
+      "ref": "Nehemiah 3:12",
+      "epigraph": "“he and his daughters, made repairs.”",
+      "poem": "a long list\nof fathers and sons,\n\nand then,\ntucked in the middle,\n\nShallum,\nhe and his daughters.\n\ntheir names aren't given.\n\ntheir stones\nare still in the wall.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b7af93",
+        "horizon": "#8a8169",
+        "ground": "#8a7d62",
+        "overall": "#988e72",
+        "accent": "#e7dbb4"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "if a fox",
+      "ref": "Nehemiah 4:1–3",
+      "epigraph": "“if a fox climbed up it, he would break down their stone wall.”",
+      "poem": "what are these feeble Jews doing?\nwill they finish in a day?\nwill they bring stones back to life\nout of burned rubble?\n\nand his friend laughed:\na fox could knock it over.\n\nthey weren't wrong\nabout the stones.\nburned, cracked, small.\n\nthey were wrong\nabout the builders,\nand about the One\nthey were building for.\n\nkeep building.\n\nlet the fox\nsay what he likes.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddc795",
+        "horizon": "#9d8a6a",
+        "ground": "#4b4334",
+        "overall": "#8d7e60",
+        "accent": "#f1d098"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "much rubble",
+      "ref": "Nehemiah 4:10–15",
+      "epigraph": "“The strength of the bearers of burdens is fading, and there is much rubble”",
+      "poem": "halfway up,\nthe complaint came.\n\nwe're tired.\nthere's too much rubble.\nwe can't do this.\n\nand it was true.\nhalf a wall\nis a lot of wall\nstill to go.\n\nNehemiah didn't argue\nwith the tiredness.\n\nhe set a watch,\nand said,\ndon't be afraid.\nremember the Lord.\n\nand they all went back\nto the wall,\neach one to his work.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c7a8",
+        "horizon": "#918266",
+        "ground": "#9b8f77",
+        "overall": "#a6997e",
+        "accent": "#e5d3a5"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "one hand",
+      "ref": "Nehemiah 4:16–18",
+      "epigraph": "“everyone with one of his hands did the work, and with the other held his weapon.”",
+      "poem": "a trowel in one hand.\na weapon in the other.\na sword at every side.\n\nbuilding\nand watching\nat the same time.\n\nyou may know this life:\nthe job and the battle\non the same day,\nin the same two hands.\n\nnobody got\nto put down the work.\nnobody got\nto stop keeping watch.\n\nand the wall\nstill went up.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-029.jpg",
+      "heroSrc": "assets/rise-up-and-build/web/b-010-029.jpg",
+      "isScene": true,
+      "sceneType": "trowel_and_sword",
+      "palette": {
+        "top": "#afa58a",
+        "horizon": "#837a61",
+        "ground": "#696350",
+        "overall": "#847c64",
+        "accent": "#d9c9a9"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "the trumpet",
+      "ref": "Nehemiah 4:19–20",
+      "epigraph": "“Our God will fight for us.”",
+      "poem": "the wall is long,\nand we are spread thin,\nfar from one another.\n\nso listen for the trumpet.\n\nwherever it sounds,\nrun there.\n\nno one on the wall\nwas meant\nto stand alone.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d3b2",
+        "horizon": "#837466",
+        "ground": "#a39173",
+        "overall": "#aa9a80",
+        "accent": "#e7cea8"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "even today",
+      "ref": "Nehemiah 5:1–11",
+      "epigraph": "“Please restore to them, even today”",
+      "poem": "while the wall went up,\na cry went up too.\n\nfields mortgaged for grain.\nsons and daughters\ngiven into bondage\nto their own people.\n\nNehemiah was very angry.\nwhat good is a wall\nif inside it\nbrothers are selling brothers?\n\ngive it back, he said.\nthe fields, the vineyards,\nthe olive groves, the houses.\neven today.\n\nand they said,\nwe will.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b89f",
+        "horizon": "#9b9070",
+        "ground": "#81735a",
+        "overall": "#9c9075",
+        "accent": "#f6ebcf"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "a great work",
+      "ref": "Nehemiah 6:2–4",
+      "epigraph": "“I am doing a great work, so that I can’t come down.”",
+      "poem": "come down,\nthey said.\nlet's meet in the plain.\nlet's talk.\n\nthey meant him harm.\n\nfour times they asked.\nfour times\nhe gave the same answer:\n\nI am doing a great work.\nI can't come down.\n\nnot every invitation\nis a door.\n\nsome are only\na ladder\ndown.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c7a8",
+        "horizon": "#b8a98b",
+        "ground": "#847357",
+        "overall": "#ab9c7e",
+        "accent": "#f1e5c3"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "fifty-two days",
+      "ref": "Nehemiah 6:15–16",
+      "epigraph": "“So the wall was finished in the twenty-fifth day of Elul, in fifty-two days.”",
+      "poem": "fifty-two days.\n\ntired hands,\nburned stones,\nmockers on every side,\na sword beside every trowel.\n\nfifty-two days,\nand not one gap\nleft in it.\n\nand the neighbors\nwho had laughed\nlost their nerve,\n\nbecause they could see it\nas plainly as the stones:\n\nthis work\nwas done\nby our God.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4d3af",
+        "horizon": "#c3ae8a",
+        "ground": "#544d3e",
+        "overall": "#9e9176",
+        "accent": "#fad793"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "all the people stood",
+      "ref": "Nehemiah 8:1–6",
+      "epigraph": "“when he opened it, all the people stood up.”",
+      "poem": "the wall was done.\nthen all the people\ngathered as one\nin the square by the water gate\nand asked Ezra\nto bring the book.\n\nhe climbed a platform of wood\nbuilt for the day,\nand when he opened it,\neveryone stood.\n\nfrom early morning\nuntil midday,\nmen and women\nand all who could understand,\nears open\nto the God\nwho had brought them home.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-034.jpg",
+      "heroSrc": "assets/rise-up-and-build/web/b-010-034.jpg",
+      "isScene": true,
+      "sceneType": "water_gate_scroll",
+      "palette": {
+        "top": "#e3dac2",
+        "horizon": "#a7a292",
+        "ground": "#5e5d51",
+        "overall": "#9b9685",
+        "accent": "#f9eecc"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "gave the sense",
+      "ref": "Nehemiah 8:7–9",
+      "epigraph": "“they gave the sense, so that they understood the reading.”",
+      "poem": "the Levites moved\namong the people,\n\nreading it clearly,\nexplaining it,\nuntil the words\nmade sense.\n\nand when they understood,\nthey wept.\n\nit is one thing\nto hear the law.\n\nit is another\nto hear it\nand know\nit is talking about you.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2b59a",
+        "horizon": "#9b8c6f",
+        "ground": "#9b8e72",
+        "overall": "#a4967a",
+        "accent": "#f4e9cf"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "your strength",
+      "ref": "Nehemiah 8:9–12",
+      "epigraph": "“Don’t be grieved, for the joy of Yahweh is your strength.”",
+      "poem": "don't weep today.\ntoday is holy.\n\ngo home.\neat the rich food.\ndrink something sweet.\nsend a portion\nto the one\nwho has nothing ready.\n\nthe joy of Yahweh\nis your strength.\n\nyour joy in him, yes.\nand maybe more:\nhis gladness,\nholding you up\non the days\nyour own runs out.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8caac",
+        "horizon": "#a79b81",
+        "ground": "#9d8e76",
+        "overall": "#afa288",
+        "accent": "#eadabd"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "booths on the roofs",
+      "ref": "Nehemiah 8:14–17",
+      "epigraph": "“There was very great gladness.”",
+      "poem": "the next day\nthey read about the booths,\n\nso they went out to the hills\nfor olive branches,\nmyrtle, palm,\n\nand built shelters\non their roofs,\nin their courtyards,\nin the open squares.\n\na whole city\nsleeping under leaves,\nremembering the wilderness.\n\nno one had done it like this\nsince the days of Joshua.\n\nthere was\nvery great gladness.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dacdb2",
+        "horizon": "#534d42",
+        "ground": "#4d4438",
+        "overall": "#756c5c",
+        "accent": "#ecdbb5"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "their clothes did not wear out",
+      "ref": "Nehemiah 9:16–21",
+      "epigraph": "“They lacked nothing. Their clothes didn’t grow old, and their feet didn’t swell.”",
+      "poem": "they stood\nand told the whole story,\nand it was not\na flattering one.\n\nstiff necks.\na molded calf.\nturning back,\nagain and again.\n\nand between every failure,\nthe same line:\nbut you didn't forsake them.\n\nforty years in the wilderness,\nand their clothes didn't wear out,\nand their feet didn't swell.\n\na God ready to pardon.\nthat's the only reason\nanyone was left to tell it.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dccbaa",
+        "horizon": "#a89471",
+        "ground": "#b7a17c",
+        "overall": "#b8a482",
+        "accent": "#e0c8a2"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "heard far away",
+      "ref": "Nehemiah 12:31–43",
+      "epigraph": "“the joy of Jerusalem was heard even far away.”",
+      "poem": "two great choirs\nwent up on the wall\nand walked it\nin opposite directions,\ngiving thanks,\nuntil both stood\nin the house of God.\n\ntrumpets, harps, cymbals.\nthe women.\nthe children.\n\nyears before,\nat the first foundation,\nthe shouting and the weeping\ncould not be told apart.\n\nthis time it was joy,\nand it was heard\nfar away.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4d0a1",
+        "horizon": "#928870",
+        "ground": "#585343",
+        "overall": "#92876c",
+        "accent": "#f9e7a1"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "remember me",
+      "ref": "Nehemiah 13:7–31",
+      "epigraph": "“Remember me, my God, for good.”",
+      "poem": "it doesn't end\nwith a parade.\n\nNehemiah went back to the king,\nand when he returned,\nthings had slipped:\nan enemy given a room\nin the house of God,\nthe singers gone to their fields,\nthe Sabbath sold like any day.\n\nso he started again.\nemptied the room.\ncalled the Levites back.\nshut the gates at dusk.\n\nand the last words of the book\naren't about the wall.\nthey're a man asking God,\none more time,\nremember me for good.",
+      "webSrc": "assets/rise-up-and-build/web/b-010-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdae93",
+        "horizon": "#625b53",
+        "ground": "#5f5a50",
+        "overall": "#7f7163",
+        "accent": "#f9b487"
+      }
+    }
+  ]
+}

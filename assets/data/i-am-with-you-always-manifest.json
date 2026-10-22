@@ -1,0 +1,824 @@
+{
+  "district": 29,
+  "slug": "i-am-with-you-always",
+  "title": "I Am With You Always",
+  "subtitle": "Matthew in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/i-am-with-you-always/web/b-029-000.jpg",
+  "beforeYouBegin": "Matthew begins with a long list of names, four surprising mothers tucked inside it, and ends on a mountain with a promise: I am with you always. In between: a star over a small house, a family slipping away by night, fishing nets left on the shore, salt and a lamp on a stand, birds that never plant and wildflowers that never spin, a house that stands in the storm, a mustard seed, a pearl, a hand reaching down to a sinking man, and a stone rolled away at dawn.\n\nThis book walks through it in forty short poems, in five parts that follow Matthew's own rhythm of story and teaching. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the story touches—a loaf and a stone, a yoke on a wall, a lamp gone out in a garden—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the Gospel of Matthew alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "God With Us",
+      "epigraph": "She shall give birth to a son. You shall name him Jesus, for it is he who shall save his people from their sins.",
+      "epigraphRef": "Matthew 1:21",
+      "lightName": "Light of God With Us",
+      "lightHint": "Near 'the names' (Matthew 1:3–6) in Part 1: God With Us"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 10,
+      "title": "Blessed",
+      "epigraph": "Rejoice, and be exceedingly glad, for great is your reward in heaven.",
+      "epigraphRef": "Matthew 5:12",
+      "lightName": "Light of Blessed",
+      "lightHint": "Near 'poor in spirit' (Matthew 5:1–3) in Part 2: Blessed"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 19,
+      "title": "Come to Me",
+      "epigraph": "Come to me, all you who labor and are heavily burdened, and I will give you rest.",
+      "epigraphRef": "Matthew 11:28",
+      "lightName": "Light of Come to Me",
+      "lightHint": "Near 'I want to' (Matthew 8:1–3) in Part 3: Come to Me"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 27,
+      "title": "On This Rock",
+      "epigraph": "You are the Christ, the Son of the living God.",
+      "epigraphRef": "Matthew 16:16",
+      "lightName": "Light of On This Rock",
+      "lightHint": "Near 'crumbs' (Matthew 15:21–28) in Part 4: On This Rock"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 33,
+      "title": "Watch with Me",
+      "epigraph": "Stay here, and watch with me.",
+      "epigraphRef": "Matthew 26:38",
+      "lightName": "Light of Watch with Me",
+      "lightHint": "Near 'humble, on a donkey' (Matthew 21:1–11) in Part 5: Watch with Me"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "the names",
+      "ref": "Matthew 1:3–6",
+      "epigraph": "“Boaz became the father of Obed by Ruth.”",
+      "poem": "a long list of fathers.\nthe kind of page\nyou skim.\n\nand then, four times,\na mother slips in:\n\nTamar, who was wronged.\nRahab, from the house on Jericho's wall.\nRuth, the foreigner.\nUriah's wife,\nnot even named.\n\nevery one of them\na story\nsomeone might have left out.\n\nthey were written in.\n\nthe family of Jesus\nhas room\nfor a story like yours.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a09684",
+        "horizon": "#807461",
+        "ground": "#6e6354",
+        "overall": "#847a68",
+        "accent": "#e1d7c4"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "a quiet man",
+      "ref": "Matthew 1:19–24",
+      "epigraph": "“Joseph, her husband, being a righteous man, and not willing to make her a public example”",
+      "poem": "he had every right\nto make a scene.\nhe didn't.\n\neven hurt,\nhe chose the quiet way,\nthe one that would cost her least.\n\nand while he was still turning it over,\nGod spoke to him in his sleep:\ndon't be afraid.\n\nso he got up and did it.\n\nMatthew never gives him\na single line to say.\nhe didn't need one.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#534938",
+        "horizon": "#5b4b35",
+        "ground": "#3d372d",
+        "overall": "#4d4333",
+        "accent": "#deae68"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "God with us",
+      "ref": "Matthew 1:23",
+      "epigraph": "“They shall call his name Immanuel;” which is, being interpreted, “God with us.””",
+      "poem": "not God above us.\nnot God against us.\nnot God\nsomewhere far off,\nwaiting to be found.\n\nGod\nwith\nus.\n\nthe whole good news\nfits in three words.\n\nhold on to them.\nthis book\nwill end\nthe same way.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#494c44",
+        "horizon": "#5c5747",
+        "ground": "#36342c",
+        "overall": "#49473c",
+        "accent": "#d7ac62"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "the star",
+      "ref": "Matthew 2:1–10",
+      "epigraph": "“When they saw the star, they rejoiced with exceedingly great joy.”",
+      "poem": "they came from the east,\nreading the sky.\nstrangers.\noutsiders to the promise.\n\nthey asked at the palace.\nthe king was troubled.\nthe scholars knew the verse\nby heart.\n\nthe strangers\nwere the ones who went.\n\nand the star moved again\nand stood still\nover one small house.\n\nexceedingly great joy.\n\nsometimes the ones\nwho travel farthest\nare the first\nto kneel.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-004.jpg",
+      "heroSrc": "assets/i-am-with-you-always/web/b-029-004.jpg",
+      "isScene": true,
+      "sceneType": "magi_star_gifts",
+      "palette": {
+        "top": "#50524c",
+        "horizon": "#777262",
+        "ground": "#5a5143",
+        "overall": "#5f5b4f",
+        "accent": "#d3c09f"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "treasures",
+      "ref": "Matthew 2:11",
+      "epigraph": "“Opening their treasures, they offered to him gifts: gold, frankincense, and myrrh.”",
+      "poem": "gold for a king.\nfrankincense for worship.\nmyrrh for a burial.\n\nthat's how the church\nhas long read them.\n\nstrange things\nto bring a child.\n\nas if the whole story\nwas already there\nin their hands:\nwho he was,\nwhy he came,\nwhat it would cost.\n\nthey fell down,\nand then\nthey opened what they had.\n\nthat is still\nthe way to come.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b6a686",
+        "horizon": "#98896d",
+        "ground": "#86785e",
+        "overall": "#98896c",
+        "accent": "#e9d9b4"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "another way",
+      "ref": "Matthew 2:12",
+      "epigraph": "“they went back to their own country another way.”",
+      "poem": "you don't go home\nthe way you came\nonce you've knelt\nin front of him.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e6cca6",
+        "horizon": "#aa9782",
+        "ground": "#85755f",
+        "overall": "#aa967c",
+        "accent": "#fcc39e"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "by night",
+      "ref": "Matthew 2:13–15",
+      "epigraph": "“He arose and took the young child and his mother by night, and departed into Egypt”",
+      "poem": "no time to pack the house.\nno time to say goodbye.\n\njust a dream,\na warning,\nand a man getting up\nin the dark.\n\nthe Son of God\nwas carried across a border\nin the middle of the night.\n\nif you've ever had to leave\neverything behind,\nhe knows that road.\n\nand he knows the God\nwho says,\nstay there\nuntil I tell you.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#686559",
+        "horizon": "#797363",
+        "ground": "#423d2f",
+        "overall": "#5c584a",
+        "accent": "#e3d6b9"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "the heavens opened",
+      "ref": "Matthew 3:13–17",
+      "epigraph": "“This is my beloved Son, with whom I am well pleased.”",
+      "poem": "John tried to stop him.\nI need to be baptized by you.\n\nbut he waded in anyway,\ninto the same river\nas everyone\nwho had come to confess.\n\nand when he came up\nout of the water,\nthe sky opened,\na dove came down,\nand a voice said\nbeloved.\n\nhe hadn't preached yet.\nhadn't healed anyone.\nhadn't done\na single miracle.\n\nthe Father\nwas already pleased.22",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9bda5",
+        "horizon": "#cabfa8",
+        "ground": "#676452",
+        "overall": "#a29984",
+        "accent": "#fdf3de"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "nets",
+      "ref": "Matthew 4:18–22",
+      "epigraph": "“They immediately left their nets and followed him.”",
+      "poem": "two brothers casting.\ntwo more mending.\n\nordinary work\non an ordinary morning.\n\ncome after me.\n\nand they left the nets\nwhere they lay,\nand the boat,\nand their father\nstill sitting in it.\n\nhe didn't hand them\na plan.\nhe handed them\nhimself.\n\nthe rest\nthey would learn\non the road.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d6b2",
+        "horizon": "#96937e",
+        "ground": "#8b846d",
+        "overall": "#a8a187",
+        "accent": "#efdfbc"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "poor in spirit",
+      "ref": "Matthew 5:1–3",
+      "epigraph": "“Blessed are the poor in spirit, for theirs is the Kingdom of Heaven.”",
+      "poem": "he sat down on a hillside,\nand the first word\nout of his mouth\nwas blessed.\n\nnot to the ones\nwho had it together.\n\nto the poor in spirit.\nthe ones with nothing left\nto bring\nbut their need.\n\nthat's where\nthe kingdom starts:\n\nempty hands,\nopen.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c7ab",
+        "horizon": "#bcb29b",
+        "ground": "#827b56",
+        "overall": "#aea485",
+        "accent": "#f3e2c1"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "those who mourn",
+      "ref": "Matthew 5:4",
+      "epigraph": "“Blessed are those who mourn, for they shall be comforted.”",
+      "poem": "blessed\nis not the word\nyou expect\nat a graveside.\n\nbut he said it\nto the grieving:\n\nyou shall be comforted.\n\nnot cheer up.\nnot it wasn't that bad.\n\ncomforted.\na promise\nwith arms.\n\nsome blessings\narrive\nwith the tears\nstill on them.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c19f",
+        "horizon": "#8a7c70",
+        "ground": "#9d8e76",
+        "overall": "#a5967f",
+        "accent": "#dbcaaa"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "salt",
+      "ref": "Matthew 5:13",
+      "epigraph": "“You are the salt of the earth”",
+      "poem": "salt doesn't ask\nto be noticed.\n\na pinch\ndisappears into the bread,\nthe fish,\nthe pot of lentils,\nand everything\ntastes more like itself.\n\nit keeps things\nfrom spoiling, too.\n\nyou are the salt\nof the earth,\nhe told fishermen\nand farmers\non a hill.\n\na little of you\ncan change the taste\nof a whole room.32",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d1af",
+        "horizon": "#b19e7a",
+        "ground": "#806e4e",
+        "overall": "#ad9b79",
+        "accent": "#f2e6c5"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "on a stand",
+      "ref": "Matthew 5:14–16",
+      "epigraph": "“Neither do you light a lamp, and put it under a measuring basket, but on a stand; and it shines to all who are in the house.”",
+      "poem": "nobody lights a lamp\nand hides it\nunder a basket.\n\nthat would be\na strange kind of modesty.\n\nyou set it up high\nwhere it can reach the corners.\n\nand nobody praises\nthe lamp.\nthey just find their way\nacross the room.\n\nlet it shine like that,\nso they look up\nand thank your Father.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-013.jpg",
+      "heroSrc": "assets/i-am-with-you-always/web/b-029-013.jpg",
+      "isScene": true,
+      "sceneType": "sermon_mount_lamp",
+      "palette": {
+        "top": "#4c402e",
+        "horizon": "#4c402e",
+        "ground": "#615139",
+        "overall": "#514431",
+        "accent": "#ccab7a"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "sun and rain",
+      "ref": "Matthew 5:43–45",
+      "epigraph": "“he makes his sun to rise on the evil and the good, and sends rain on the just and the unjust.”",
+      "poem": "the sun comes up\non both sides of the wall.\nthe rain doesn't check\nwhose field it's falling on.\n\nthat's what your Father is like,\nhe said. so be like that.\n\nlove your enemy.\npray for the one who hurt you.\n\nit will feel like too much.\nthe sun has never once\nasked who deserved it.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b0a995",
+        "horizon": "#d1c5a9",
+        "ground": "#585140",
+        "overall": "#988f7a",
+        "accent": "#fbefc7"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "the inner room",
+      "ref": "Matthew 6:6–8",
+      "epigraph": "“your Father knows what things you need, before you ask him.”",
+      "poem": "go into the small room.\nshut the door.\n\nno audience.\nno one to impress.\nno need for\nthe right words,\nor a lot of them.\n\nhe already knows\nwhat you need.\n\nso why pray?\n\nbecause it was never\nabout informing him.\n\nyour Father\nis in secret, he said.\n\nshut the door.\nhe's already\non your side of it.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6b5d48",
+        "horizon": "#5f523f",
+        "ground": "#5f4e37",
+        "overall": "#5f513d",
+        "accent": "#e9c78f"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "tomorrow",
+      "ref": "Matthew 6:26–34",
+      "epigraph": "“Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself.”",
+      "poem": "the birds on the roof\ndidn't plant a thing.\nthey're fed.\n\nthe wildflowers on the hill\nnever sewed a stitch.\nSolomon never looked\nso fine.\n\nand the grass,\ngreen today,\nkindling tomorrow,\nstill gets dressed\nby God.\n\nso leave tomorrow\nwhere it is.\nit can worry\nabout itself.\n\ntoday has enough in it\nwithout borrowing\nfrom the next one.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbd0b4",
+        "horizon": "#aca38b",
+        "ground": "#69604f",
+        "overall": "#9e947e",
+        "accent": "#ece4c6"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "bread, not a stone",
+      "ref": "Matthew 7:7–11",
+      "epigraph": "“Or who is there among you, who, if his son asks him for bread, will give him a stone?”",
+      "poem": "ask. seek. knock.\n\nand in case you wonder\nwho is on the other side of the door,\nhe tells you: a father.\n\nno father hands\nhis hungry child a stone.\n\nand you, who get so much wrong,\nstill know how to give good gifts.\n\nhow much more\nyour Father in heaven.\nso ask.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d1a8",
+        "horizon": "#baa579",
+        "ground": "#806d4a",
+        "overall": "#b09d74",
+        "accent": "#edd597"
+      }
+    },
+    {
+      "n": 18,
+      "part": 2,
+      "title": "the same storm",
+      "ref": "Matthew 7:24–27",
+      "epigraph": "“The rain came down, the floods came, and the winds blew, and beat on that house; and it didn’t fall”",
+      "poem": "both houses\ngot the same storm.\n\nsame rain.\nsame rising water.\nsame wind\nleaning on the walls.\n\nthe difference\nwasn't the weather.\n\nit was what lay underneath,\ndown where nobody looks\nwhile the sun is out.\n\nhearing isn't building.\ndoing is.\n\ndig down\nwhile the sky is clear.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#817f6f",
+        "horizon": "#938d79",
+        "ground": "#777668",
+        "overall": "#827f6e",
+        "accent": "#f8edce"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "I want to",
+      "ref": "Matthew 8:1–3",
+      "epigraph": "“Jesus stretched out his hand, and touched him, saying, “I want to. Be made clean.””",
+      "poem": "if you want to,\nyou can.\n\nhe never doubted\nthe power.\nhe wasn't sure\nabout the want.\n\nno one had touched him\nin how long?\n\nand Jesus\nreached out his hand\nand touched him\nas he said it:\n\nI want to.\n\nhe still does.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d6ba",
+        "horizon": "#b8a98b",
+        "ground": "#93846b",
+        "overall": "#b4a68a",
+        "accent": "#efe2c4"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "follow me",
+      "ref": "Matthew 9:9–13",
+      "epigraph": "“he saw a man called Matthew sitting at the tax collection office.”",
+      "poem": "this gospel carries his name.\na tax collector,\nthe kind people crossed the street to avoid.\n\ntwo words: follow me.\nand he got up and left the table.\n\nthat night his house was full\nof people like him,\neating with Jesus.\n\nthe healthy, Jesus said,\ndon't need a doctor.\nhe goes where the sick are.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c9b0",
+        "horizon": "#a0947b",
+        "ground": "#9a8f78",
+        "overall": "#aba088",
+        "accent": "#e0d0ac"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "a cup of cold water",
+      "ref": "Matthew 10:42",
+      "epigraph": "“Whoever gives one of these little ones just a cup of cold water to drink”",
+      "poem": "not a fortune.\nnot a sermon.\njust a cup of cold water,\nand heaven never forgets it.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a39b87",
+        "horizon": "#837761",
+        "ground": "#95876d",
+        "overall": "#938870",
+        "accent": "#e1d3ba"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "an easy yoke",
+      "ref": "Matthew 11:28–30",
+      "epigraph": "“For my yoke is easy, and my burden is light.”",
+      "poem": "a yoke is not a way out of work.\nit's a way to share the load:\none beam, two shoulders, one pace.\n\ncome to me,\nall you who are tired,\nall you carrying too much.\n\nhe doesn't say\ndrop everything and walk away.\nhe says walk with me.\nI am gentle, humble in heart.\n\nand somehow, step by step,\nthe load gets light.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c19a",
+        "horizon": "#99876b",
+        "ground": "#87765b",
+        "overall": "#a49171",
+        "accent": "#eac38b"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "a bruised reed",
+      "ref": "Matthew 12:18–21",
+      "epigraph": "“He won’t break a bruised reed. He won’t quench a smoking flax”",
+      "poem": "a reed bent\nnearly in half.\na wick\nthat's more smoke\nthan flame.\n\nmost of us\nwould snap the one,\npinch out the other,\nand start over.\n\nnot him.\n\nhe doesn't shout.\nhe doesn't hurry.\n\nhe cups his hand\naround what's left\nuntil it catches.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c8bca4",
+        "horizon": "#c4b89f",
+        "ground": "#8d816e",
+        "overall": "#aea28c",
+        "accent": "#d2b78c"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "the smallest seed",
+      "ref": "Matthew 13:31–32",
+      "epigraph": "“The Kingdom of Heaven is like a grain of mustard seed”",
+      "poem": "you could lose it\nin a crease\nof your palm.\n\nyou'd never guess,\nlooking at it,\nthat birds would one day\nrest in its branches.\n\nthat's how the kingdom\nlooks at the start:\ntoo small to notice.\n\nwhatever he's planted in you\nmay still look\nlike nothing much.\n\ngive it time.\n\nthere are birds\ncoming.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9ceac",
+        "horizon": "#b7ad91",
+        "ground": "#908267",
+        "overall": "#b0a386",
+        "accent": "#f4ecd0"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "one pearl",
+      "ref": "Matthew 13:44–46",
+      "epigraph": "“who having found one pearl of great price, he went and sold all that he had, and bought it.”",
+      "poem": "a man finds treasure\nhidden in a field,\nand sells everything.\n\na merchant finds\none pearl,\nand sells everything.\n\nfrom the outside\nit looks like loss.\n\nfrom the inside\nit's the best trade\nanyone ever made.\n\nlook for the word\nJesus tucked in:\n\nin his joy.\n\nnobody\nhad to make him.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bbaf97",
+        "horizon": "#91826a",
+        "ground": "#a3937a",
+        "overall": "#a2937b",
+        "accent": "#efe3cd"
+      }
+    },
+    {
+      "n": 26,
+      "part": 3,
+      "title": "come",
+      "ref": "Matthew 14:24–33",
+      "epigraph": "“Immediately Jesus stretched out his hand, took hold of him”",
+      "poem": "the fourth watch of the night.\nthe wind against them.\na shape on the water.\n\nLord, if it's you,\ntell me to come.\ncome.\n\nfor a few steps Peter walked\non what can't be walked on.\nthen he looked at the wind\nand began to go under.\n\nthree words were all the prayer he had:\nLord, save me.\n\nit was enough.\nimmediately, a hand.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-026.jpg",
+      "heroSrc": "assets/i-am-with-you-always/web/b-029-026.jpg",
+      "isScene": true,
+      "sceneType": "walking_on_the_sea",
+      "palette": {
+        "top": "#bdb299",
+        "horizon": "#6d6f69",
+        "ground": "#3a3d39",
+        "overall": "#717065",
+        "accent": "#ddd0b2"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "crumbs",
+      "ref": "Matthew 15:21–28",
+      "epigraph": "“Y es, Lord, but even the dogs eat the crumbs which fall from their masters’ table.”",
+      "poem": "a foreign woman calling after them,\na daughter at home in torment.\n\nhe answered her not a word.\nthe disciples said, send her away.\n\nshe didn't go away.\nshe knelt and said, Lord, help me.\n\nand when the answer still sounded like no,\nshe argued with the Son of God\nusing crumbs.\n\nwoman, great is your faith.\n\nsometimes faith looks a lot like\nrefusing to leave.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b09d78",
+        "horizon": "#82745b",
+        "ground": "#c2ad83",
+        "overall": "#aa9874",
+        "accent": "#f3e0b6"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "who do you say",
+      "ref": "Matthew 16:13–18",
+      "epigraph": "“But who do you say that I am?”",
+      "poem": "some said John. some said Elijah,\nor Jeremiah, or one of the prophets.\n\nthen the question turned around:\nbut who do you say?\n\nSimon said it straight:\nthe Christ, the Son of the living God.\n\nand Jesus called him Peter, the rock,\nand promised a church\nthe gates of Hades would not outlast.\n\na few verses later he'd get it wrong.\nthe answer still stood.\n\nnobody else\ncan answer it for you.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cab690",
+        "horizon": "#b5a283",
+        "ground": "#85785a",
+        "overall": "#a89776",
+        "accent": "#ecddb7"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "get up",
+      "ref": "Matthew 17:1–8",
+      "epigraph": "“Get up, and don’t be afraid.”",
+      "poem": "a face shining like the sun.\nMoses and Elijah.\na bright cloud,\na voice:\nlisten to him.\n\nand three fishermen\nface down on the ground,\nterrified.\n\nthen a touch.\nget up.\ndon't be afraid.\n\nwhen they lifted their eyes,\nthe brightness was gone.\nthe visitors were gone.\n\nonly Jesus.\n\nit was\nenough.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdc4b1",
+        "horizon": "#c0baab",
+        "ground": "#8d826b",
+        "overall": "#afa693",
+        "accent": "#fbf8eb"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "in the middle",
+      "ref": "Matthew 18:1–4",
+      "epigraph": "“Jesus called a little child to himself, and set him in the middle of them”",
+      "poem": "they wanted to know\nwho would be the greatest.\n\nso he called a child over\nand set him\nright in the middle\nof the argument.\n\nno title.\nno track record.\nnothing to prove.\n\njust someone\nsmall enough\nto come\nwhen he's called.\n\nturn, he said,\nand become like this.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2b08b",
+        "horizon": "#958462",
+        "ground": "#a59472",
+        "overall": "#a89774",
+        "accent": "#e5d8b9"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "seventy times seven",
+      "ref": "Matthew 18:21–35",
+      "epigraph": "“I don’t tell you until seven times, but, until seventy times seven.”",
+      "poem": "seven times\nmust have sounded generous.\n\nseventy times seven.\nhe didn't mean keep count longer.\nhe meant put the count away.\n\nthen he told of a servant\nlet off a debt too big to ever repay,\nwho walked straight out\nand seized a friend over a smaller one.\n\nonce you see how much\nyou've been let go of,\nevery debt owed to you\nlooks different.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b9ab92",
+        "horizon": "#8d806b",
+        "ground": "#a0917a",
+        "overall": "#a4967f",
+        "accent": "#f1e6cf"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "the eleventh hour",
+      "ref": "Matthew 20:1–15",
+      "epigraph": "“Because no one has hired us.”",
+      "poem": "late afternoon.\nthe marketplace nearly empty.\na few still standing there,\nthe ones nobody picked all day.\n\nwhy are you idle?\nbecause no one hired us.\nand the owner said, you too. go.\n\nat evening he paid them first,\nand paid them a full day.\nthe ones who'd worked since dawn grumbled.\n\nhe wasn't cheating anyone.\nhe was just good.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b79f74",
+        "horizon": "#b89d73",
+        "ground": "#67543f",
+        "overall": "#98815f",
+        "accent": "#fce4ab"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "humble, on a donkey",
+      "ref": "Matthew 21:1–11",
+      "epigraph": "“behold, your King comes to you, humble, and riding on a donkey”",
+      "poem": "kings rode in\non warhorses,\nwith soldiers,\nwith noise.\n\nthis one\nborrowed a donkey.\n\nthe crowd threw their cloaks\non the road,\ncut branches from the trees,\nand shouted hosanna.\n\nthe whole city asked,\nwho is this?\n\na king\nclose enough to touch,\n\nriding low,\nat the speed\nof a walk.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccbda1",
+        "horizon": "#928672",
+        "ground": "#8b806d",
+        "overall": "#a2967f",
+        "accent": "#f2e3c6"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "as a hen",
+      "ref": "Matthew 23:37",
+      "epigraph": "“How often I would have gathered your children together, even as a hen gathers her chicks under her wings, and you would not!”",
+      "poem": "after all the hard words,\nthis.\n\nnot a lion.\nnot an eagle.\na hen,\nwings spread,\ncalling the little ones in\nbefore the storm.\n\nhow often\nI would have.\n\nyou would not.\n\nGod does not\ndrag anyone\nunder his wings.\n\nbut the wings\nare still open.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6ad7f",
+        "horizon": "#8c7757",
+        "ground": "#937f5a",
+        "overall": "#9e8761",
+        "accent": "#e1be80"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "well done",
+      "ref": "Matthew 25:14–23",
+      "epigraph": "“Well done, good and faithful servant. You have been faithful over a few things, I will set you over many things.”",
+      "poem": "five, two, one.\neach according to his ability.\nnobody was asked to match anyone else.\n\ntwo went and traded\nand doubled what they had.\none was afraid,\nand buried his in the ground.\n\nfear never grew anything.\n\nwell done.\nfaithful over a few things.\nthat was all he asked.\n\nand then the best part:\nenter into the joy.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a1977b",
+        "horizon": "#9a8f74",
+        "ground": "#6d644f",
+        "overall": "#8c8269",
+        "accent": "#e1d6b0"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "the least of these",
+      "ref": "Matthew 25:35–40",
+      "epigraph": "“because you did it to one of the least of these my brothers, you did it to me.”",
+      "poem": "when did we see you?\n\nthey honestly\ndidn't know.\n\nthey had only seen\na hungry man,\na thirsty woman,\na stranger at the door,\nsomeone with no coat,\nsomeone sick,\nsomeone locked away.\n\nthey gave bread.\nthey gave a cup.\nthey gave a coat.\nthey sat a while.\n\nand he was there\nthe whole time,\n\nin whoever\nneeded them.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c3a4",
+        "horizon": "#a99a80",
+        "ground": "#988c72",
+        "overall": "#ad9f84",
+        "accent": "#e6d6b2"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "watch with me",
+      "ref": "Matthew 26:36–45",
+      "epigraph": "“What, couldn’t you watch with me for one hour?”",
+      "poem": "stay here, he said.\nwatch with me.\n\nnot fix it. not understand it.\njust stay awake nearby.\n\nhe went a little farther,\nfell on his face,\nand prayed about the cup.\n\nhe came back. they were sleeping.\nhe came back again. still sleeping.\n\nthe spirit willing. the flesh weak.\nhe knew that, and asked them anyway.\n\nhe still wants our company\nin the dark.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#363633",
+        "horizon": "#4e4b44",
+        "ground": "#444038",
+        "overall": "#44423b",
+        "accent": "#ada391"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "from the top",
+      "ref": "Matthew 27:45–51",
+      "epigraph": "“Behold, the veil of the temple was torn in two from the top to the bottom.”",
+      "poem": "darkness at noon.\na cry:\nmy God, my God,\nwhy have you forsaken me?\n\nthen a loud voice,\nand it was over.\n\nand in the temple\nthe great curtain,\nthe one that kept everyone out\nof the holiest place,\ntore.\n\ntop to bottom,\nas if a hand\nreached down from above.\n\nthe way in\nwas opened\nfrom the other side.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#41211c",
+        "horizon": "#543227",
+        "ground": "#524739",
+        "overall": "#50382d",
+        "accent": "#fae6b8"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "just like he said",
+      "ref": "Matthew 28:1–10",
+      "epigraph": "“He is not here, for he has risen, just like he said.”",
+      "poem": "two women came at dawn\nto see the tomb.\n\nthey found the ground shaking,\nthe stone rolled back,\nan angel sitting on it,\nand the guards like dead men.\n\ndon't be afraid.\nhe is not here. just like he said.\ncome and see the place. then go.\n\nso they ran, afraid and overjoyed\nat the same time,\nand on the road he met them\nand said, rejoice.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-039.jpg",
+      "heroSrc": "assets/i-am-with-you-always/web/b-029-039.jpg",
+      "isScene": true,
+      "sceneType": "rolled_away_stone",
+      "palette": {
+        "top": "#b5a582",
+        "horizon": "#a28e65",
+        "ground": "#434740",
+        "overall": "#81785f",
+        "accent": "#f9d87e"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "always",
+      "ref": "Matthew 28:16–20",
+      "epigraph": "“Behold, I am with you always, even to the end of the age.”",
+      "poem": "a mountain in Galilee.\neleven men.\nthey bowed down, but some doubted.\n\nhe came to them anyway,\nspoke to them,\nand sent them out to every nation.\n\nthen the last line of the book:\nI am with you always.\n\nit began with God with us.\nit ends with I am with you.\n\nand Matthew never says\nhe left.",
+      "webSrc": "assets/i-am-with-you-always/web/b-029-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d5b7",
+        "horizon": "#cbc4ac",
+        "ground": "#7b7358",
+        "overall": "#b5ac93",
+        "accent": "#ecdab4"
+      }
+    }
+  ]
+}

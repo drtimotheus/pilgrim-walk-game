@@ -1,0 +1,824 @@
+{
+  "district": 24,
+  "slug": "greatly-beloved",
+  "title": "Greatly Beloved",
+  "subtitle": "Daniel in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/greatly-beloved/web/b-024-000.jpg",
+  "beforeYouBegin": "Daniel begins with temple cups packed off to Babylon and a young man asking for vegetables and water. Then come a king's forgotten dream, a statue with feet of clay, a stone cut without hands, three friends who say \"but if not, \" a fourth man walking in the fire, a hand writing on a lamp-lit wall, and an open window toward Jerusalem on the night before the lions. The last chapters turn to visions by great rivers, and end with the wise shining like the stars.\n\nThis book walks through it in forty short poems, in five parts. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the story touches—a plain bowl, a furnace glow, a plaster wall, lions asleep in the morning light— and the visions are shown only as sea, cloud, river, and light.\n\nThe poems are not the Bible. They are one reader's response to it. Open the book of Daniel alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "The King's Table",
+      "epigraph": "But Daniel purposed in his heart that he would not defile himself",
+      "epigraphRef": "Daniel 1:8",
+      "lightName": "Light of The King's Table",
+      "lightHint": "Near 'the cups' (Daniel 1:1–2) in Part 1: The King's Table"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "The Statue and the Furnace",
+      "epigraph": "His kingdom is an everlasting kingdom. His dominion is from generation to generation.",
+      "epigraphRef": "Daniel 4:3",
+      "lightName": "Light of The Statue and the Furnace",
+      "lightHint": "Near 'feet of clay' (Daniel 2:31–33) in Part 2: The Statue and the Furnace"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 18,
+      "title": "The Writing and the Lions",
+      "epigraph": "for he is the living God, and steadfast forever.",
+      "epigraphRef": "Daniel 6:26",
+      "lightName": "Light of The Writing and the Lions",
+      "lightHint": "Near 'the cups again' (Daniel 5:2–4) in Part 3: The Writing and the Lions"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 27,
+      "title": "Visions in the Night",
+      "epigraph": "But the saints of the Most High will receive the kingdom, and possess the kingdom forever, even forever and ever.",
+      "epigraphRef": "Daniel 7:18",
+      "lightName": "Light of Visions in the Night",
+      "lightHint": "Near 'the great sea' (Daniel 7:1–3) in Part 4: Visions in the Night"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 35,
+      "title": "Until the End",
+      "epigraph": "At that time your people will be delivered, everyone who is found written in the book.",
+      "epigraphRef": "Daniel 12:1",
+      "lightName": "Light of Until the End",
+      "lightHint": "Near 'plain bread' (Daniel 10:2–3) in Part 5: Until the End"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "the cups",
+      "ref": "Daniel 1:1–2",
+      "epigraph": "“The Lord gave Jehoiakim king of Judah into his hand, with part of the vessels of the house of God”",
+      "poem": "they took the cups first—\nbowls from the temple,\nwrapped in straw,\ncarried off\nto a stranger's treasure house.\n\nthen they took the young men.\n\nthe story opens\nwith every holy thing\nin the wrong place.\n\nbut read the line again:\nthe Lord gave them.\n\neven carried away,\nthey were never\nout of his hands.",
+      "webSrc": "assets/greatly-beloved/web/b-024-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5d5a9",
+        "horizon": "#9d865e",
+        "ground": "#907753",
+        "overall": "#aa946c",
+        "accent": "#f7dd98"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "new names",
+      "ref": "Daniel 1:6–7",
+      "epigraph": "“to Daniel he gave the name Belteshazzar”",
+      "poem": "the official wrote down\nnew names\nfor four young men—\nBelteshazzar,\nShadrach, Meshach,\nAbednego—\nnames that belonged\nto someone else's gods.\n\nyou can rename a boy.\nyou can teach him\na new language\nand three years\nof Chaldean books.\n\nbut a name\nis only what they call you.\n\nit was never\nwhat God called them.",
+      "webSrc": "assets/greatly-beloved/web/b-024-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7b897",
+        "horizon": "#918d7d",
+        "ground": "#947a57",
+        "overall": "#a39378",
+        "accent": "#dbcba6"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "a different plate",
+      "ref": "Daniel 1:8",
+      "epigraph": "“Therefore he requested of the prince of the eunuchs that he might not defile himself.”",
+      "poem": "it was only dinner.\nthe best in the empire,\nsent from the king's own table.\n\nno one would have blamed him.\nfar from home,\nno temple, no family,\na young man doing\nwhat he was told.\n\nbut somewhere in him\nthere was a line,\nand he knew where it was.\n\nhe didn't make a scene.\nhe asked,\npolitely,\nfor a different plate.\n\nthat's the quiet kind of courage:\ndeciding who you are\nbefore the platter comes.12",
+      "webSrc": "assets/greatly-beloved/web/b-024-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2b5a0",
+        "horizon": "#ab9e8b",
+        "ground": "#786d5c",
+        "overall": "#9d907d",
+        "accent": "#e9dcc7"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "ten days",
+      "ref": "Daniel 1:12–15",
+      "epigraph": "“let them give us vegetables to eat, and water to drink.”",
+      "poem": "test us,\nhe said.\nten days.\n\na bowl of greens.\na cup of water.\n\nand the steward\nsaid yes.\n\non the tenth day\nthey looked better\nand stronger\nthan all the rest.\n\nnot because vegetables are magic.\n\nbecause God\nhonors a small faithfulness\nkept at a plain table\nwhere no one is watching\nbut him.",
+      "webSrc": "assets/greatly-beloved/web/b-024-004.jpg",
+      "heroSrc": "assets/greatly-beloved/web/b-024-004.jpg",
+      "isScene": true,
+      "sceneType": "daniel_pulse_table",
+      "palette": {
+        "top": "#c7b690",
+        "horizon": "#988b67",
+        "ground": "#7d6d50",
+        "overall": "#988967",
+        "accent": "#eedfb6"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "the books of Babylon",
+      "ref": "Daniel 1:17–20",
+      "epigraph": "“God gave them knowledge and skill in all learning and wisdom”",
+      "poem": "they learned the books of Babylon,\nthe tablets,\nthe language,\nthe whole library of a foreign court.\n\nthey didn't refuse to learn.\nthey refused to bow.\n\nand God\ngave them more\nthan their teachers had.\n\nyou can study everything\nin a strange land\n\nand keep your heart\npointed home.",
+      "webSrc": "assets/greatly-beloved/web/b-024-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a0896a",
+        "horizon": "#635a4b",
+        "ground": "#5e4e3b",
+        "overall": "#73634d",
+        "accent": "#e3b372"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "four around a lamp",
+      "ref": "Daniel 2:17–18",
+      "epigraph": "“that they would desire mercies of the God of heaven concerning this secret”",
+      "poem": "the king wanted a dream\nno one could know.\nthe order was out:\nall the wise men would die.\n\nand Daniel\ndid the wisest thing\na wise man can do.\n\nhe went home\nand told his friends.\n\nfour young men\naround one small lamp,\nasking heaven for mercy.\n\nnot a strategy.\nnot a backup plan.\n\njust friends\nwho knew how to pray,\nand a God\nwho knew the dream.",
+      "webSrc": "assets/greatly-beloved/web/b-024-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#3a3b32",
+        "horizon": "#39372c",
+        "ground": "#413b2e",
+        "overall": "#3f3b2f",
+        "accent": "#ccae7f"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the light lives with him",
+      "ref": "Daniel 2:19–22",
+      "epigraph": "“He knows what is in the darkness, and the light dwells with him.”",
+      "poem": "the secret came\nin the night.\n\nand before he ran to the king,\nbefore he saved his own life,\nDaniel stopped\nand blessed God.\n\nhe changes the times.\nhe knows what hides in the dark.\n\nit isn't that the dark\nis empty.\n\nit's that nothing in it\nis hidden from him—\n\nand the light\nhas always\nlived with him.",
+      "webSrc": "assets/greatly-beloved/web/b-024-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b99a",
+        "horizon": "#837b6b",
+        "ground": "#383831",
+        "overall": "#7b7563",
+        "accent": "#f7e9b1"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "not me",
+      "ref": "Daniel 2:27–30",
+      "epigraph": "“this secret is not revealed to me for any wisdom that I have more than any living”",
+      "poem": "he could have taken the credit.\nthe whole court was waiting.\nthe king's eyes were on him.\n\ninstead he said:\nit isn't me.\n\nthere is a God in heaven\nwho reveals secrets.\n\nthe first thing Daniel told the king\nwasn't the dream.\n\nit was who gave it.",
+      "webSrc": "assets/greatly-beloved/web/b-024-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#857e6c",
+        "horizon": "#75715f",
+        "ground": "#8a806b",
+        "overall": "#807966",
+        "accent": "#ece2cf"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "feet of clay",
+      "ref": "Daniel 2:31–33",
+      "epigraph": "“its feet part of iron, and part of clay.”",
+      "poem": "gold at the head,\nthen silver,\nbronze,\niron—\neach metal harder,\neach one worth less.\n\nand at the bottom,\nholding the whole bright thing up,\nfeet of iron\nmixed with clay.\n\nevery empire\nlooks like gold\nfrom the top.\n\nlook lower.",
+      "webSrc": "assets/greatly-beloved/web/b-024-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8ac86",
+        "horizon": "#a5946d",
+        "ground": "#8a7957",
+        "overall": "#a2926d",
+        "accent": "#eadcaf"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "a stone cut without hands",
+      "ref": "Daniel 2:34–35",
+      "epigraph": "“a stone was cut out without hands”",
+      "poem": "no quarry.\nno chisel.\nno king's name\ncarved on its side.\n\njust a stone\nno one made,\n\nstriking the statue\nat its weakest place.\n\ngold, silver, bronze, iron, clay—\nblown away like chaff\nfrom a summer threshing floor.\n\nand the stone\nkept growing\nuntil it was a mountain\nand filled the whole earth.\n\nthat's how his kingdom comes:\nnot built by us.\nnot stopped by anyone.",
+      "webSrc": "assets/greatly-beloved/web/b-024-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c4a4",
+        "horizon": "#b0a083",
+        "ground": "#a9936d",
+        "overall": "#b5a282",
+        "accent": "#e5d4af"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "never destroyed",
+      "ref": "Daniel 2:44",
+      "epigraph": "“the God of heaven will set up a kingdom which will never be destroyed”",
+      "poem": "Babylon is dust now.\nso are the palaces\nof every king\nwho came after.\n\nyou can walk\nwhere the walls stood\nand not know it.\n\nbut in the days of those kings\nanother kingdom began—\nquietly,\nwithout a capital\nyou could point to.\n\nit has never been\nhanded to anyone else.\n\nit is still standing,\nand the door\nis still open.",
+      "webSrc": "assets/greatly-beloved/web/b-024-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfcab2",
+        "horizon": "#b8aa8a",
+        "ground": "#a48c67",
+        "overall": "#b7a787",
+        "accent": "#f6e9cb"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "able",
+      "ref": "Daniel 3:16–17",
+      "epigraph": "“our God whom we serve is able to deliver us from the burning fiery furnace”",
+      "poem": "the music started,\nand a whole plain\nwent down on its knees.\n\nhorn, flute, lyre, harp—\neveryone bowing\nto sixty cubits of gold.\n\nthree young men\nstayed standing.\n\nnot proud.\nnot loud.\n\nthey told the king:\nwe don't need to argue this.\n\nour God is able.\n\nthat was the whole speech.",
+      "webSrc": "assets/greatly-beloved/web/b-024-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b4a27d",
+        "horizon": "#9c8a67",
+        "ground": "#544c39",
+        "overall": "#85775b",
+        "accent": "#dba560"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "but if not",
+      "ref": "Daniel 3:18",
+      "epigraph": "“But if not, let it be known to you, O king, that we will not serve your gods”",
+      "poem": "he is able.\nhe will deliver us.\n\nand then the three words\nthat hold up everything:\n\nbut if not.\n\ntheir faith\ndidn't depend\non how the story ended.\n\nthey didn't know\nabout the fourth man yet.\nthey only knew\nwhom they served.\n\nthis is love\nthat doesn't ask\nfor a guarantee.",
+      "webSrc": "assets/greatly-beloved/web/b-024-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbc9a4",
+        "horizon": "#b3986e",
+        "ground": "#9b8764",
+        "overall": "#b49f79",
+        "accent": "#fccc79"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "a fourth in the fire",
+      "ref": "Daniel 3:24–25",
+      "epigraph": "“Look, I see four men loose, walking in the middle of the fire, and they are unharmed.”",
+      "poem": "three went in bound.\n\nthe king leaned forward\nand counted\nfour.\n\nloose.\nunharmed.\nnot running—\nwalking,\nas if it were a garden.\n\nthey did not get\nout of the fire.\n\nthey got company\nin it.\n\nsometimes that's the rescue:\nnot a door that keeps you out,\nbut someone\nwho walks in beside you.",
+      "webSrc": "assets/greatly-beloved/web/b-024-014.jpg",
+      "heroSrc": "assets/greatly-beloved/web/b-024-014.jpg",
+      "isScene": true,
+      "sceneType": "fiery_furnace",
+      "palette": {
+        "top": "#867a5f",
+        "horizon": "#977f50",
+        "ground": "#484134",
+        "overall": "#756649",
+        "accent": "#f6c83e"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "not even the smell",
+      "ref": "Daniel 3:26–27",
+      "epigraph": "“the smell of fire wasn’t even on them.”",
+      "poem": "only the ropes\nwere gone.\n\nnot a hair singed.\nnot a hem changed.\nnot even the smell of smoke\non their clothes.\n\nsome trouble you walk out of\nstill carrying—\nthe smell of it\non everything.\n\nthis time\nGod took it all.\n\nmay he do that for you:\nbring you through,\nand bring you out\nclean.",
+      "webSrc": "assets/greatly-beloved/web/b-024-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8ab94",
+        "horizon": "#867760",
+        "ground": "#716450",
+        "overall": "#92846f",
+        "accent": "#f6ebd6"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "the stump",
+      "ref": "Daniel 4:14–15",
+      "epigraph": "“Nevertheless leave the stump of its roots in the earth”",
+      "poem": "a tree that touched the sky,\nbirds in every branch,\nfruit enough for all.\n\nand a voice from heaven:\ncut it down.\n\nbut—\nleave the stump.\nleave the roots.\nlet the dew fall on it.\n\neven the judgment\nhad a mercy\nfolded inside it.\n\nGod brought the king down\nand left something\nto grow back.",
+      "webSrc": "assets/greatly-beloved/web/b-024-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dfd5b6",
+        "horizon": "#aaa590",
+        "ground": "#474b3c",
+        "overall": "#908d78",
+        "accent": "#f4e9ca"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "looking up",
+      "ref": "Daniel 4:30–34",
+      "epigraph": "“my understanding returned to me”",
+      "poem": "is not this great Babylon,\nwhich I have built?\n\nhe said it in his palace\nand lost it all\nwhile the words\nwere still in his mouth.\n\nseven times passed over him\nin the wet grass.\nthen one day he looked up.\n\nhe lifted his eyes,\nhis mind came back,\nand the first thing he did\nwas praise.\n\npride looks down\nat what it built.\n\nhealing\nlooks up.",
+      "webSrc": "assets/greatly-beloved/web/b-024-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5c8b8",
+        "horizon": "#dfd8b9",
+        "ground": "#78745b",
+        "overall": "#b1ad95",
+        "accent": "#f8eabc"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "the cups again",
+      "ref": "Daniel 5:2–4",
+      "epigraph": "“the golden and silver vessels which Nebuchadnezzar his father had taken out of the temple”",
+      "poem": "remember the cups\nfrom the first page?\n\nyears later\nsomeone brought them out\nof the treasure house\nfor a party.\n\nholy things\npassed down the table,\nfilled with wine,\nraised to gods\nof wood and stone.\n\nBelshazzar thought\nthey were only cups.\n\nhe thought\nno one was keeping count.",
+      "webSrc": "assets/greatly-beloved/web/b-024-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7c8a7",
+        "horizon": "#a29070",
+        "ground": "#b6a283",
+        "overall": "#b6a483",
+        "accent": "#e0d3b0"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "the plaster wall",
+      "ref": "Daniel 5:5–8",
+      "epigraph": "“the fingers of a man’s hand came out and wrote near the lamp stand on the plaster of the wall”",
+      "poem": "in the same hour,\nwhile the wine was still going round,\n\nnear the lamp stand,\nwhere the light was brightest,\nfingers were writing\non the plaster.\n\nno body.\nno voice.\njust a hand,\nand a message.\n\nthe king's knees\nknocked together.\n\nall the wise men of Babylon\ncame in and stared,\n\nand not one of them\ncould read it.",
+      "webSrc": "assets/greatly-beloved/web/b-024-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b0a086",
+        "horizon": "#b4a589",
+        "ground": "#85765a",
+        "overall": "#a19276",
+        "accent": "#fae2ac"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "keep your gifts",
+      "ref": "Daniel 5:16–17",
+      "epigraph": "“Let your gifts be to yourself, and give your rewards to another.”",
+      "poem": "purple robes.\na chain of gold.\nthe third seat in the kingdom.\n\nDaniel said:\nkeep them.\nI'll read it anyway.\n\nhe couldn't be bought\nbecause he wasn't selling.\n\nthe truth\nwas never his\nto put a price on.",
+      "webSrc": "assets/greatly-beloved/web/b-024-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8f8872",
+        "horizon": "#7a6e5e",
+        "ground": "#766b57",
+        "overall": "#7d735f",
+        "accent": "#eee0c0"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "your breath",
+      "ref": "Daniel 5:23",
+      "epigraph": "“the God in whose hand your breath is, and whose are all your ways”",
+      "poem": "you praised gods of silver and gold,\nDaniel told the king,\nof bronze and iron,\nof wood and stone—\n\ngods that don't see,\ndon't hear,\ndon't know.\n\nand the God\nwho holds your breath\nin his hand\nyou never thanked.\n\nit's a hard word.\nbut read it again, gently:\n\nevery breath you've taken\ntoday\nwas held\nby someone.",
+      "webSrc": "assets/greatly-beloved/web/b-024-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#595041",
+        "horizon": "#5d5444",
+        "ground": "#776851",
+        "overall": "#645a47",
+        "accent": "#c6b595"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "weighed",
+      "ref": "Daniel 5:26–28",
+      "epigraph": "“you are weighed in the balances, and are found wanting.”",
+      "poem": "counted.\nweighed.\ndivided.\n\nthree words on a wall,\nand that same night\nthe kingdom passed\nto someone else.\n\nit's frightening\nto be weighed.\n\nevery one of us\nwould come up light.\n\nthat's why the good news\nwas never\nthat we are heavy enough.\n\nit's that mercy\nhas a thumb\non the scale.",
+      "webSrc": "assets/greatly-beloved/web/b-024-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#806f55",
+        "horizon": "#6b5e48",
+        "ground": "#846e50",
+        "overall": "#77664c",
+        "accent": "#f2cf9e"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "no fault",
+      "ref": "Daniel 6:4–5",
+      "epigraph": "“they could find no occasion or fault, because he was faithful.”",
+      "poem": "they went through\nevery ledger,\nevery account,\nevery decision\nhe had ever signed.\n\nthey were looking\nfor one mistake.\n\nthey found none.\n\nso they went looking\nat his prayers instead.\n\nimagine a life\nso honest\nthe only charge against you\nis that you love God.",
+      "webSrc": "assets/greatly-beloved/web/b-024-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfbf9c",
+        "horizon": "#9a8f72",
+        "ground": "#6c5944",
+        "overall": "#97876b",
+        "accent": "#faeabd"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "windows open toward Jerusalem",
+      "ref": "Daniel 6:10",
+      "epigraph": "“now his windows were open in his room toward Jerusalem”",
+      "poem": "he knew the law was signed.\nhe knew who was watching.\n\nhe went upstairs anyway,\nto the windows open\ntoward a city\nhe hadn't seen\nsince he was young,\n\nand knelt,\nthree times a day,\nand gave thanks,\nas he did before.\n\nnot in defiance.\nin habit.\n\nhe didn't start praying\nbecause of the lions.\n\nhe had been praying\nall along.",
+      "webSrc": "assets/greatly-beloved/web/b-024-024.jpg",
+      "heroSrc": "assets/greatly-beloved/web/b-024-024.jpg",
+      "isScene": true,
+      "sceneType": "open_window_jerusalem",
+      "palette": {
+        "top": "#8f8166",
+        "horizon": "#7c6f54",
+        "ground": "#423b2c",
+        "overall": "#665c46",
+        "accent": "#fce7b6"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "the king's long night",
+      "ref": "Daniel 6:18–20",
+      "epigraph": "“his sleep fled from him.”",
+      "poem": "the one who signed the law\ncouldn't sleep.\n\nno music. no supper.\na whole night with a decree\nhe couldn't take back.\n\nvery early he ran\nto the sealed stone\nand called into the dark,\nhis voice shaking:\n\nis your God\nable?\n\nit's the same question\nanother king asked\nat the furnace.\n\nthe answer\nhasn't changed.",
+      "webSrc": "assets/greatly-beloved/web/b-024-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#696351",
+        "horizon": "#6a6755",
+        "ground": "#5a513b",
+        "overall": "#635d49",
+        "accent": "#b8a788"
+      }
+    },
+    {
+      "n": 26,
+      "part": 3,
+      "title": "the lions' den",
+      "ref": "Daniel 6:21–23",
+      "epigraph": "“My God has sent his angel, and has shut the lions’ mouths”",
+      "poem": "all night\nin the dark\nwith lions.\n\nno one saw\nwhat happened down there.\nonly the morning,\nand a voice from below:\n\nO king, live forever.\n\nno harm was found on him,\nthe book says,\nbecause he had trusted\nin his God.\n\nand the lions,\nit seems,\nslept better\nthan the king did.",
+      "webSrc": "assets/greatly-beloved/web/b-024-026.jpg",
+      "heroSrc": "assets/greatly-beloved/web/b-024-026.jpg",
+      "isScene": true,
+      "sceneType": "lions_den_light",
+      "palette": {
+        "top": "#71644d",
+        "horizon": "#827760",
+        "ground": "#7b6b4f",
+        "overall": "#786b53",
+        "accent": "#e8d6b0"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "the great sea",
+      "ref": "Daniel 7:1–3",
+      "epigraph": "“the four winds of the sky broke out on the great sea.”",
+      "poem": "in the first year of Belshazzar—\nbefore the wall,\nbefore the lions—\nDaniel dreamed\nof the sea.\n\nthe four winds broke on it,\nand out of the deep\ncame terrible things,\none after another.\n\nthat's how the world can feel:\nwind from every side,\nthe water never still.\n\nhe wrote it down.\nhe told the sum of it.\n\nand he kept watching,\nbecause the vision\nwasn't finished yet.",
+      "webSrc": "assets/greatly-beloved/web/b-024-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2a78f",
+        "horizon": "#9c998a",
+        "ground": "#7e7d70",
+        "overall": "#989483",
+        "accent": "#f7efd6"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "ancient of days",
+      "ref": "Daniel 7:9–10",
+      "epigraph": "“one who was ancient of days sat. His clothing was white as snow”",
+      "poem": "thrones were set,\nand one sat down\nwho was older than every empire—\n\nclothing white as snow,\nhair like pure wool,\na stream of fire\nflowing out before him.\n\nthe books were opened.\n\nafter all that roaring,\nthis:\nsomeone sitting down.\n\nnot hurried.\nnot afraid.\n\nthe judge has taken his seat,\nand the sea\nhas nothing more to say.",
+      "webSrc": "assets/greatly-beloved/web/b-024-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3ac93",
+        "horizon": "#cbc2a7",
+        "ground": "#968f7a",
+        "overall": "#b1a991",
+        "accent": "#f4e7c5"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "one like a son of man",
+      "ref": "Daniel 7:13–14",
+      "epigraph": "“there came with the clouds of the sky one like a son of man”",
+      "poem": "the kingdoms of the world\ncame up from the sea.\n\nthis one came\nwith the clouds.\n\none like a son of man,\nbrought near\nto the ancient of days,\n\nand given a kingdom\nthat will not pass away.\n\nlong after,\nstanding before the high priest,\nJesus would answer\nwith these very words:\n\nthe Son of Man,\ncoming with the clouds.",
+      "webSrc": "assets/greatly-beloved/web/b-024-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dec5a2",
+        "horizon": "#d8b594",
+        "ground": "#857260",
+        "overall": "#bca285",
+        "accent": "#fdddb0"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "kept",
+      "ref": "Daniel 7:28",
+      "epigraph": "“my thoughts much troubled me, and my face was changed in me; but I kept the matter in my heart.”",
+      "poem": "he saw it.\nhe didn't understand all of it.\nit troubled him.\n\nand he didn't\nthrow it away.\n\nhe didn't explain it away,\neither.\n\nhe kept it,\nthe way you keep\na letter you can't read yet—\n\nclose,\nturning it over,\ntrusting\nthe one who wrote it.",
+      "webSrc": "assets/greatly-beloved/web/b-024-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8ccb2",
+        "horizon": "#696351",
+        "ground": "#9b8e73",
+        "overall": "#9b8f76",
+        "accent": "#e4bf80"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "Gabriel",
+      "ref": "Daniel 8:15–18",
+      "epigraph": "“Gabriel, make this man understand the vision.”",
+      "poem": "by the river Ulai\na voice called across the water:\nGabriel,\nmake this man understand.\n\nand heaven\nsent a teacher.\n\nDaniel fell on his face.\nhe fell into a deep sleep.\n\nand the angel\ntouched him\nand set him upright.\n\nthat's still how it goes.\nthe truth doesn't come\nto crush you.\n\nit comes\nto stand you up.",
+      "webSrc": "assets/greatly-beloved/web/b-024-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b0a88f",
+        "horizon": "#c4b392",
+        "ground": "#76705d",
+        "overall": "#9e947a",
+        "accent": "#f4dfaf"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "seventy years",
+      "ref": "Daniel 9:2–3",
+      "epigraph": "“I, Daniel, understood by the books the number of the years”",
+      "poem": "he found it in Jeremiah:\nseventy years.\n\nand Daniel,\nwho had lived through\nmost of them,\ncounted.\n\na promise\nwith a number on it.\n\nhe didn't just wait for it.\nhe prayed toward it—\nwith fasting,\nwith sackcloth and ashes.\n\nreading the promise\ndidn't make him pray less.\n\nit made him\npray more.",
+      "webSrc": "assets/greatly-beloved/web/b-024-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79f80",
+        "horizon": "#948c6e",
+        "ground": "#988664",
+        "overall": "#9c906f",
+        "accent": "#ebdbb5"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "Lord, hear",
+      "ref": "Daniel 9:18–19",
+      "epigraph": "“Lord, hear. Lord, forgive. Lord, listen and do.”",
+      "poem": "we have sinned,\nhe prayed.\n\nwe.\nnot they.\n\nthe one man in Babylon\nthey could find no fault in\nstood in line\nwith everyone else.\n\nhe didn't ask\nbecause they deserved it.\nhe asked\nbecause God is merciful.\n\nhear. forgive. listen and do.\n\nthat's the whole prayer\nof anyone\nwho has ever come home.",
+      "webSrc": "assets/greatly-beloved/web/b-024-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ab967e",
+        "horizon": "#ac9277",
+        "ground": "#5e5344",
+        "overall": "#8d7a64",
+        "accent": "#fde7b6"
+      }
+    },
+    {
+      "n": 34,
+      "part": 4,
+      "title": "the evening hour",
+      "ref": "Daniel 9:21–23",
+      "epigraph": "“for you are greatly beloved.”",
+      "poem": "he had spent the whole prayer\ntelling God\nwhat his people were:\nwayward,\nashamed,\nfar from home.\n\nGabriel came swiftly,\nabout the time of the evening offering,\nand told Daniel\nwhat he was:\n\ngreatly beloved.\n\nyou bring God\nthe truth about yourself.\n\nhe answers\nwith the truth\nabout you.",
+      "webSrc": "assets/greatly-beloved/web/b-024-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a8946b",
+        "horizon": "#c3a56c",
+        "ground": "#454030",
+        "overall": "#897854",
+        "accent": "#f2ce81"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "plain bread",
+      "ref": "Daniel 10:2–3",
+      "epigraph": "“I ate no pleasant bread. No meat or wine came into my mouth.”",
+      "poem": "three whole weeks\nof mourning.\n\nplain bread.\nno meat,\nno wine,\nno oil for his skin.\n\nthe young man who once asked\nfor vegetables and water\nwas still at the same table,\nstill choosing\nthe plainer plate.\n\nsome things\nyou learn young\nand keep.",
+      "webSrc": "assets/greatly-beloved/web/b-024-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a39983",
+        "horizon": "#80735b",
+        "ground": "#726654",
+        "overall": "#847862",
+        "accent": "#d9c094"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "twenty-one days",
+      "ref": "Daniel 10:10–13",
+      "epigraph": "“from the first day that you set your heart to understand”",
+      "poem": "three weeks of fasting,\nand nothing.\n\nthen, by the great river,\na hand set him on his knees:\n\nyour words were heard\nfrom the first day.\n\nthe answer had been sent.\nit met resistance\nwe cannot see—\ntwenty-one days of it.\n\nso when heaven seems quiet,\nit may not be\nthat no one heard.\n\nit may be\nthat someone is still\non the way.",
+      "webSrc": "assets/greatly-beloved/web/b-024-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c09c",
+        "horizon": "#bcb094",
+        "ground": "#7e8175",
+        "overall": "#aba38c",
+        "accent": "#f9e8c0"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "o man greatly beloved",
+      "ref": "Daniel 10:16–19",
+      "epigraph": "“Greatly beloved man, don’t be afraid. Peace be to you. Be strong. Y es, be strong.”",
+      "poem": "no strength left.\nno breath left.\nhe couldn't even speak.\n\nso heaven touched his lips,\nand then touched him again,\n\nand said the gentlest thing\nin the whole book:\n\ndon't be afraid.\npeace.\nbe strong—\nyes, be strong.\n\nhe said it twice,\nas if he knew\nonce\nwould not be enough.\n\ngreatly beloved—\nthat's what he calls you, too,\nwhen you have nothing left.",
+      "webSrc": "assets/greatly-beloved/web/b-024-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c8a8",
+        "horizon": "#958d77",
+        "ground": "#7b7360",
+        "overall": "#9f957d",
+        "accent": "#ecdeb1"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "the people who know their God",
+      "ref": "Daniel 11:32–35",
+      "epigraph": "“the people who know their God will be strong, and take action.”",
+      "poem": "chapter eleven is a long march of kings,\nnorth and south,\narmies coming and going.\n\nbut in the middle of all that noise,\none quiet line:\n\nthe people who know their God\nwill be strong.\n\nnot the loudest.\nthe ones who know him.\n\nand when some of them fall,\neven that is to refine them,\nlike silver,\nand make them white.",
+      "webSrc": "assets/greatly-beloved/web/b-024-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c4a6",
+        "horizon": "#b7ac94",
+        "ground": "#857866",
+        "overall": "#aa9f87",
+        "accent": "#e7ddc0"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "like the stars",
+      "ref": "Daniel 12:2–3",
+      "epigraph": "“Those who are wise will shine as the brightness of the expanse.”",
+      "poem": "many who sleep in the dust\nwill wake.\n\nand the wise\nwill shine like the sky,\nand those who turn many\ntoward what is right,\nlike the stars,\nforever.\n\nnot the kings from chapter eleven.\nnot the statue.\nnot the empires.\n\nthe ones who taught a neighbor,\nkept a promise,\nkept praying—\n\nthey're the ones\nwho will still be shining\nwhen every palace\nis dust.92",
+      "webSrc": "assets/greatly-beloved/web/b-024-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#494f49",
+        "horizon": "#62685d",
+        "ground": "#827c68",
+        "overall": "#6b6b5d",
+        "accent": "#ede1bb"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "go your way",
+      "ref": "Daniel 12:8–13",
+      "epigraph": "“But go your way until the end; for you will rest”",
+      "poem": "how long?\nwhat will the end be?\n\nhe had read the dreams\nof kings.\nand at the very end he said:\nI heard,\nbut I didn't understand.\n\nthe answer wasn't a map.\nit was a blessing:\n\ngo your way. you will rest.\nyou will stand in your inheritance.\n\nyou don't have to know\nhow it ends.\n\njust go your way,\nthe way you always have—\n\nwindows open,\ntoward home.",
+      "webSrc": "assets/greatly-beloved/web/b-024-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cebb91",
+        "horizon": "#bfa46d",
+        "ground": "#816f50",
+        "overall": "#ac976c",
+        "accent": "#fcdd70"
+      }
+    }
+  ]
+}

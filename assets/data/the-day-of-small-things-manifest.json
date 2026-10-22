@@ -1,0 +1,824 @@
+{
+  "district": 27,
+  "slug": "the-day-of-small-things",
+  "title": "The Day of Small Things",
+  "subtitle": "Micah to Malachi in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/the-day-of-small-things/web/b-027-000.jpg",
+  "beforeYouBegin": "These seven short books come from the years before Jerusalem fell and the years after the exiles came home. They hold a family's field and its boundary stones, a village too small to count, a watchman on a wall, a fig tree with no fruit, a purse with a hole in it, a plumb line in a builder's hand, a king riding a donkey, and a refiner sitting beside his fire.\n\nThis book walks through them in forty short poems, in five parts: Micah; Nahum and Habakkuk; Zephaniah and Haggai; Zechariah; and Malachi. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with ordinary things—a stool under a fig tree, a clay lamp, a new course of stone—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the books of Micah through Malachi alongside this one, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Do Justly",
+      "epigraph": "He has shown you, O man, what is good.",
+      "epigraphRef": "Micah 6:8",
+      "lightName": "Light of Do Justly",
+      "lightHint": "Near 'boundary stones' (Micah 2:1–2) in Part 1: Do Justly"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 8,
+      "title": "Though the Fig Tree",
+      "epigraph": "yet I will rejoice in Y ahweh.",
+      "epigraphRef": "Habakkuk 3:18",
+      "lightName": "Light of Though the Fig Tree",
+      "lightHint": "Near 'the dust of his feet' (Nahum 1:3) in Part 2: Though the Fig Tree"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 17,
+      "title": "Among You",
+      "epigraph": "Yahweh, your God, is among you, a mighty one who will save.",
+      "epigraphRef": "Zephaniah 3:17",
+      "lightName": "Light of Among You",
+      "lightHint": "Near 'lamps' (Zephaniah 1:12) in Part 3: Among You"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 25,
+      "title": "Not by Might",
+      "epigraph": "Not by might, nor by power, but by my Spirit",
+      "epigraphRef": "Zechariah 4:6",
+      "lightName": "Light of Not by Might",
+      "lightHint": "Near 'among the myrtles' (Zechariah 1:8–13) in Part 4: Not by Might"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 35,
+      "title": "The Sun of Righteousness",
+      "epigraph": "the sun of righteousness arise with healing in its wings",
+      "epigraphRef": "Malachi 4:2",
+      "lightName": "Light of The Sun of Righteousness",
+      "lightHint": "Near 'how have you loved us' (Malachi 1:2) in Part 5: The Sun of Righteousness"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "boundary stones",
+      "ref": "Micah 2:1–2",
+      "epigraph": "“They covet fields, and seize them; and houses, and take them away”",
+      "poem": "they lie awake at night\nplanning.\n\nby morning\nthe plan is done,\nand a family's field\nbelongs to someone else.\n\na field is not just land.\nit is a grandfather's sweat,\nnext year's bread,\nthe ground your children\nwere supposed to stand on.\n\nGod counts the boundary stones.\nhe remembers\nwhose they were.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4d7b3",
+        "horizon": "#9c927a",
+        "ground": "#7a694b",
+        "overall": "#a59778",
+        "accent": "#f9ebc5"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "plowshares",
+      "ref": "Micah 4:3",
+      "epigraph": "“They will beat their swords into plowshares, and their spears into pruning hooks.”",
+      "poem": "someday the blacksmith\nwill be busy again,\n\nbut not for war.\n\nhe will take the blade\nthat kept a man awake at night\nand hammer it\ninto something that opens the soil.\n\nthe spear\nwill learn to trim a vine.\n\nno one will learn war\nanymore.\n\nthey will learn\nthe harvest.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ece1c4",
+        "horizon": "#998f73",
+        "ground": "#585040",
+        "overall": "#999078",
+        "accent": "#f9edd1"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "under the fig tree",
+      "ref": "Micah 4:4",
+      "epigraph": "“But they will sit every man under his vine and under his fig tree; and no one will make them afraid”",
+      "poem": "not a palace.\nnot a throne.\n\na stool\nin the shade of your own tree,\na vine on the wall,\nan afternoon with nowhere to be.\n\nthis is how the prophet\npictured peace:\n\neveryone\nunder their own fig tree,\n\nand no one\ncoming up the road\nto make them afraid.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-003.jpg",
+      "heroSrc": "assets/the-day-of-small-things/web/b-027-003.jpg",
+      "isScene": true,
+      "sceneType": "vine_and_fig_tree",
+      "palette": {
+        "top": "#69644e",
+        "horizon": "#97896f",
+        "ground": "#726552",
+        "overall": "#7a6f59",
+        "accent": "#efd8b0"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "Bethlehem",
+      "ref": "Micah 5:2",
+      "epigraph": "“But you, Bethlehem Ephrathah, being small among the clans of Judah, out of you one will come out to me that is to be ruler in Israel”",
+      "poem": "small among the clans of Judah.\na few houses on a ridge,\nsome terraces,\na place the maps could skip.\n\nand God said:\nout of you.\n\none whose goings out\nare from ancient times\nwill come\nfrom the smallest place.\n\nhe still likes\nto start there.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a59b86",
+        "horizon": "#a59479",
+        "ground": "#4b473a",
+        "overall": "#7f7562",
+        "accent": "#f0cd9d"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "what is good",
+      "ref": "Micah 6:6–8",
+      "epigraph": "“What does Y ahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?”",
+      "poem": "shall I bring calves?\nrams by the thousand?\nrivers of oil?\n\nthe questions keep getting bigger,\nas if God were waiting\nfor a bigger gift.\n\nhe has already shown you.\n\nact justly.\nlove mercy.\nwalk humbly\nwith your God.\n\nthree things,\nsmall enough to carry,\n\nand long enough\nto take the rest of your life.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7ccb6",
+        "horizon": "#837e6c",
+        "ground": "#8e8063",
+        "overall": "#9e947d",
+        "accent": "#dfbd86"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "when I fall",
+      "ref": "Micah 7:7–8",
+      "epigraph": "“When I fall, I will arise. When I sit in darkness, Yahweh will be a light to me.”",
+      "poem": "the prophet looked around\nand couldn't find\none upright person.\nnot a friend to trust.\nnot even at home.\n\nso he stopped looking around\nand looked up.\n\nI will wait.\nmy God will hear me.\n\nwhen I fall,\nI will get up.\n\nwhen I sit in the dark,\nthe dark will not be\nthe only thing in the room.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#50483a",
+        "horizon": "#403a2f",
+        "ground": "#584a38",
+        "overall": "#4d4435",
+        "accent": "#e0bf84"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the depths of the sea",
+      "ref": "Micah 7:18–19",
+      "epigraph": "“you will cast all their sins into the depths of the sea.”",
+      "poem": "who is a God like you?\n\nit's almost Micah's own name:\nwho is like Yahweh?\n\na God who pardons.\nwho doesn't hold on\nto his anger forever,\nbecause he delights\nin loving kindness.\n\nhe will tread our sins underfoot.\nhe will throw them\ninto the depths of the sea,\n\nwhere no diver goes,\nwhere nothing sent down\ncomes up again.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dec7a5",
+        "horizon": "#495658",
+        "ground": "#675d45",
+        "overall": "#7d7765",
+        "accent": "#f2deb2"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "the dust of his feet",
+      "ref": "Nahum 1:3",
+      "epigraph": "“Y ahweh has his way in the whirlwind and in the storm, and the clouds are the dust of his feet.”",
+      "poem": "Nahum spoke about Nineveh,\nthe great city\nthat had frightened the world.\n\nand he began with this:\nYahweh is slow to anger.\n\nslow.\nhe waits, and warns,\nand waits.\n\nbut he is great in power,\nand he will not call\nthe guilty innocent.\n\nthe clouds crossing the sky\nare the dust\nkicked up by his feet.\n\nno empire\nstands taller\nthan his dust.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a19386",
+        "horizon": "#7f786e",
+        "ground": "#655c4b",
+        "overall": "#867c6d",
+        "accent": "#fef4ce"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "a stronghold",
+      "ref": "Nahum 1:7",
+      "epigraph": "“Yahweh is good, a stronghold in the day of trouble; and he knows those who take refuge in him.”",
+      "poem": "in the middle of the storm,\none sentence of shelter:\n\nYahweh is good.\n\na stronghold\non the day of trouble,\nnot the day after.\n\nand he knows\nthe ones who run to him.\n\nnot just their names.\ntheir knocking.\nthe sound of their feet\ncoming up the hill.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#989280",
+        "horizon": "#8e8772",
+        "ground": "#69634f",
+        "overall": "#827d69",
+        "accent": "#eadbb4"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "feet on the mountains",
+      "ref": "Nahum 1:13–15",
+      "epigraph": "“Behold, on the mountains the feet of him who brings good news, who publishes peace!”",
+      "poem": "for years the yoke\nsat on Judah's neck.\n\nthen God said,\nI will break it.\nI will burst your bonds.\n\nand look, on the mountains:\nsomeone running,\nsmall against the morning,\n\nand you can tell\nfrom the way he runs\nit's good news.\n\npeace.\nset the table.\nkeep your feasts again.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b5907b",
+        "horizon": "#9c8376",
+        "ground": "#675f54",
+        "overall": "#8d7869",
+        "accent": "#fdd6ac"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "how long",
+      "ref": "Habakkuk 1:2–3",
+      "epigraph": "“Y ahweh, how long will I cry, and you will not hear?”",
+      "poem": "some prophets begin\nwith God speaking.\n\nthis one begins\nwith a man complaining.\n\nhow long?\nwhy do you make me look at this?\nwhy don't you save?\n\nand God\ndidn't silence him.\n\nhe kept the question\nin the Bible.\n\nyour how long\nhas been prayed before,\nby a prophet,\non the first page.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0bca0",
+        "horizon": "#957d76",
+        "ground": "#726453",
+        "overall": "#938171",
+        "accent": "#e1b99a"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "the watchtower",
+      "ref": "Habakkuk 2:1",
+      "epigraph": "“I will stand at my watch, and set myself on the ramparts, and will look out to see what he will say to me”",
+      "poem": "he had asked his question.\nnow he climbed the wall\n\nand did the harder thing.\nhe waited\nfor an answer.\n\nnot pacing.\nnot writing God's reply for him.\n\nstanding at his post\nlike a watchman,\neyes on the road,\n\nsure that whatever\ncame over the hill\nwould come from God.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-012.jpg",
+      "heroSrc": "assets/the-day-of-small-things/web/b-027-012.jpg",
+      "isScene": true,
+      "sceneType": "habakkuk_watchtower",
+      "palette": {
+        "top": "#d0c4af",
+        "horizon": "#867f71",
+        "ground": "#686053",
+        "overall": "#8e8676",
+        "accent": "#e3d0ae"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "make it plain",
+      "ref": "Habakkuk 2:2–3",
+      "epigraph": "“Write the vision, and make it plain on tablets, that he who runs may read it.”",
+      "poem": "write it down.\nmake it plain.\nbig enough\nthat someone running past\ncan read it.\n\nthen the hard part:\n\nit will take time.\nwait for it.\n\nit isn't late.\nit's appointed.\n\nthe promise\nis already on the road,\nhurrying\ntoward its hour.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d1ae",
+        "horizon": "#958569",
+        "ground": "#9e896d",
+        "overall": "#b09d7f",
+        "accent": "#ebdaba"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "by faith",
+      "ref": "Habakkuk 2:4",
+      "epigraph": "“the righteous will live by his faith.”",
+      "poem": "the proud soul\nswells up\nand has nothing inside.\n\nthe righteous\nlive another way.\n\nby faith.\n\nnot by seeing it yet.\nnot by being proved right.\n\nby trusting the One\nwho told them\nto wait.\n\nthe New Testament\nquotes this line\nthree times.\n\nit's short enough\nto live on.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8cbac",
+        "horizon": "#a19270",
+        "ground": "#b6a584",
+        "overall": "#baab8a",
+        "accent": "#dfd4b5"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "as the waters cover the sea",
+      "ref": "Habakkuk 2:12–14",
+      "epigraph": "“For the earth will be filled with the knowledge of Y ahweh’s glory, as the waters cover the sea.”",
+      "poem": "cities built on cruelty\nwill be fuel for the fire.\n\nbut the knowledge of his glory\nwill fill the earth\nthe way water fills the sea:\n\nevery hollow,\nevery crack,\nall the way down.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5d0b8",
+        "horizon": "#9c9782",
+        "ground": "#898c76",
+        "overall": "#a6a58f",
+        "accent": "#e8dfc1"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "though the fig tree",
+      "ref": "Habakkuk 3:17–19",
+      "epigraph": "“though the fig tree doesn’t flourish, nor fruit be in the vines”",
+      "poem": "no figs.\nno grapes.\nthe olive trees giving nothing.\nthe fields empty.\nthe sheepfold quiet.\n\nand yet.\n\nthat's the whole prayer,\nright there.\n\nyet I will rejoice in Yahweh.\n\nnot because of the harvest.\nwithout it.\n\nand the God he trusts\ngives him feet like a deer's,\nsure on the high rocks\nwhere the path runs out.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d4b3",
+        "horizon": "#9d9581",
+        "ground": "#625946",
+        "overall": "#988f78",
+        "accent": "#e7dbb6"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "lamps",
+      "ref": "Zephaniah 1:12",
+      "epigraph": "“I will search Jerusalem with lamps”",
+      "poem": "this time\nthe ones he searches for\nare the comfortable,\n\nsettled like wine\nleft on its dregs,\nsaying in their hearts,\nGod won't do anything,\ngood or bad.\n\nso he takes a lamp\nand goes through the city,\nstreet by street,\n\ninto the corners\nwhere people stopped\nexpecting him.\n\nhe is not indifferent.\nthat is the warning.\nand the hope.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#524c3c",
+        "horizon": "#564c37",
+        "ground": "#5f543f",
+        "overall": "#584f3b",
+        "accent": "#f4d594"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "seek humility",
+      "ref": "Zephaniah 2:3",
+      "epigraph": "“Seek Yahweh, all you humble of the land”",
+      "poem": "the day was coming,\ndark and loud.\n\nand the counsel wasn't\nbuild a wall\nor buy your way out.\n\nit was:\nseek.\nseek God.\nseek righteousness.\nseek humility.\n\nit may be\nyou will be hidden.\n\nthe humble of the land\nalready knew how to be small.\n\nthat turned out\nto be a kind of shelter.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2cbbe",
+        "horizon": "#aea18b",
+        "ground": "#7f6f59",
+        "overall": "#a89b87",
+        "accent": "#f2ede0"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "every morning",
+      "ref": "Zephaniah 3:3–5",
+      "epigraph": "“Every morning he brings his justice to light. He doesn’t fail”",
+      "poem": "the princes were lions.\nthe judges, wolves at evening.\nthe prophets proud,\nthe priests careless with holy things.\n\nand in the middle of the city,\nsomeone else:\n\nYahweh, within her,\nrighteous.\n\nevery morning\nhe brings his justice to light,\n\nas surely as the sun\nfinds the east gate.\n\nhe doesn't fail.\nhe hasn't missed a morning yet.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e7d6ac",
+        "horizon": "#a99975",
+        "ground": "#2e302a",
+        "overall": "#888067",
+        "accent": "#fcdf8d"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "with singing",
+      "ref": "Zephaniah 3:16–17",
+      "epigraph": "“He will rejoice over you with singing.”",
+      "poem": "don't be afraid, Zion.\ndon't let your hands go weak.\n\nthe mighty one is among you.\n\nand here is what\nthe mighty one does:\n\nhe rejoices over you.\nhe calms you in his love.\n\nand then,\nlike a parent over a cradle\nat the end of a long day,\n\nhe sings.\n\nyou've heard people\nsing to God.\n\nthis is the other way around.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#998872",
+        "horizon": "#695c4c",
+        "ground": "#695b4c",
+        "overall": "#766856",
+        "accent": "#ecc696"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "paneled houses",
+      "ref": "Haggai 1:2–4",
+      "epigraph": "“Is it a time for you yourselves to dwell in your paneled houses, while this house lies waste?”",
+      "poem": "not yet, they said.\nthe time hasn't come.\n\nand meanwhile the cedar went up\nin their own houses,\nboard by careful board.\n\nit's never the wrong time\nto finish your own roof.\n\nthe house of God\nsat on its hill\nin weeds.\n\nHaggai didn't shout.\nhe asked.\n\nis it time\nfor you?",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#908270",
+        "horizon": "#92816d",
+        "ground": "#6d6151",
+        "overall": "#817361",
+        "accent": "#f7ebd1"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "a purse with holes",
+      "ref": "Haggai 1:5–6",
+      "epigraph": "“Consider your ways.”",
+      "poem": "you've sown a lot\nand brought in little.\neaten, and stayed hungry.\ndressed, and stayed cold.\n\nyou earn your wages\nand drop them into a purse\nwith holes in it.\n\nGod asked it twice:\nconsider your ways.\n\nnot to shame you.\nto turn your face\nback toward the hill\nwhere the work is waiting.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7c9a4",
+        "horizon": "#a29370",
+        "ground": "#91805f",
+        "overall": "#a99977",
+        "accent": "#e7d8b1"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "as nothing",
+      "ref": "Haggai 2:3–4",
+      "epigraph": "“Who is left among you who saw this house in its former glory?”",
+      "poem": "the old ones remembered\nthe first temple.\n\nthey stood by the new one\nand it looked like nothing\nnext to what they'd seen.\n\nGod didn't argue.\nhe didn't tell them\nit was beautiful.\n\nhe said:\nbe strong.\nwork.\nI am with you.\n\nthat was what made\nthe first one glorious,\ntoo.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c4a5",
+        "horizon": "#908061",
+        "ground": "#887654",
+        "overall": "#9b8b6b",
+        "accent": "#f0e3c1"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "from today",
+      "ref": "Haggai 2:18–19",
+      "epigraph": "“From today I will bless you.”",
+      "poem": "the barn was empty.\nthe vine, the fig,\nthe pomegranate, the olive:\nnothing yet.\n\nnothing had changed\nthat anyone could see,\n\nexcept one stone\nlaid on another\nin the house of God.\n\nand God put a date on it.\nthe twenty-fourth day\nof the ninth month.\n\nfrom today\nI will bless you.\n\nbefore the harvest.\nbefore the proof.\nfrom today.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b292",
+        "horizon": "#978666",
+        "ground": "#9f8969",
+        "overall": "#a59373",
+        "accent": "#e2ceaa"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "among the myrtles",
+      "ref": "Zechariah 1:8–13",
+      "epigraph": "“Y ahweh answered the angel who talked with me with kind and comforting words.”",
+      "poem": "a vision in the night:\nmyrtle trees in a ravine,\na rider on a red horse,\nothers standing behind.\n\nthey had gone through the whole earth.\nit was quiet.\nat rest.\n\nand the angel asked,\nhow long, Lord,\nuntil mercy for Jerusalem?\n\nthe answer isn't written down.\nonly how it sounded:\n\nkind words.\ncomforting words.\n\nsometimes that\nis what comes first.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#605e4c",
+        "horizon": "#706b55",
+        "ground": "#39362b",
+        "overall": "#575342",
+        "accent": "#debf86"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "a wall of fire",
+      "ref": "Zechariah 2:1–5",
+      "epigraph": "“Jerusalem will be inhabited as villages without walls”",
+      "poem": "a young man with a measuring line\nwent out to mark the city.\n\nand an angel was sent running:\ntell him not to bother.\n\nthere will be too many people,\ntoo many flocks,\nto fit inside a wall.\n\nI will be her wall,\nsays the Lord,\na wall of fire all around.\n\nand in the middle,\nwhere you'd keep a treasure,\nI will be the glory.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cebd9a",
+        "horizon": "#a49374",
+        "ground": "#807358",
+        "overall": "#a29273",
+        "accent": "#f5d4a5"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "a burning stick",
+      "ref": "Zechariah 3:1–5",
+      "epigraph": "“Isn’t this a burning stick plucked out of the fire?”",
+      "poem": "the high priest stood\nin filthy clothes,\nthe accuser beside him.\n\nbut God spoke first:\nisn't this a stick\npulled out of the fire?\n\nscorched, still smoking,\nand saved on purpose.\n\ntake off the filthy clothes.\nset a clean turban on his head.\n\nhe didn't change himself.\nhe was changed,\nand dressed,\nand kept.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc4a7",
+        "horizon": "#cabfa0",
+        "ground": "#988e75",
+        "overall": "#b9ae93",
+        "accent": "#f7edce"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "seven lamps",
+      "ref": "Zechariah 4:1–6",
+      "epigraph": "“a lamp stand all of gold, with its bowl on the top of it, and its seven lamps on it”",
+      "poem": "the angel woke him\nlike a man woken from sleep.\n\nwhat do you see?\n\na lampstand of gold,\nseven lamps burning,\nand two olive trees beside it,\ntheir oil running\nwithout anyone pressing it.\n\nno one carrying jars.\nno one trimming wicks.\n\nthat was the word\nfor a governor\nwith a temple\nthat was still only a foundation:\n\nnot by might.\nnot by power.\nby my Spirit.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-028.jpg",
+      "heroSrc": "assets/the-day-of-small-things/web/b-027-028.jpg",
+      "isScene": true,
+      "sceneType": "zechariah_olive_lampstand",
+      "palette": {
+        "top": "#897f60",
+        "horizon": "#928562",
+        "ground": "#817557",
+        "overall": "#887c5c",
+        "accent": "#f8e6a6"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "the day of small things",
+      "ref": "Zechariah 4:9–10",
+      "epigraph": "“Indeed, who despises the day of small things?”",
+      "poem": "a foundation.\none course of stone.\na plumb line\nhanging still in a man's hand.\n\nit doesn't look like much.\nsomebody always says so.\n\nbut the hands that laid this\nwill finish it, God said.\n\nand the eyes of the Lord,\nthat run through the whole earth,\nare glad\nto see that plumb line.\n\nwho despises\nthe day of small things?\n\nnot God.\nhe was there\nfor the first stone.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0b49c",
+        "horizon": "#a2967e",
+        "ground": "#938365",
+        "overall": "#a5987d",
+        "accent": "#ebdebf"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "the streets will be full",
+      "ref": "Zechariah 8:4–5",
+      "epigraph": "“The streets of the city will be full of boys and girls playing in its streets.”",
+      "poem": "how does God describe\na city made whole?\n\nno towers.\nno gold.\n\nold men and old women\nsitting in the streets again,\neach with a staff,\nbecause they lived long enough\nto need one.\n\nand children playing,\nloud, everywhere,\nunderfoot.\n\nthat's the promise.\n\nthe old ones safe.\nthe young ones free.\nand no one afraid\nto be outside.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8ac92",
+        "horizon": "#978a6f",
+        "ground": "#a39476",
+        "overall": "#a4977c",
+        "accent": "#ded0b0"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "we will go with you",
+      "ref": "Zechariah 8:23",
+      "epigraph": "“We will go with you, for we have heard that God is with you.”",
+      "poem": "ten strangers,\nfrom every language,\nholding on\nto one man's robe.\n\nnot for his wisdom.\nnot for his money.\n\nthey had heard\nGod was with him.\n\nthat was reason enough\nto follow.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c3b69a",
+        "horizon": "#8c7f65",
+        "ground": "#7f7660",
+        "overall": "#978b72",
+        "accent": "#f1e3c4"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "your king comes",
+      "ref": "Zechariah 9:9–10",
+      "epigraph": "“He is righteous, and having salvation; lowly, and riding on a donkey”",
+      "poem": "your king is coming.\nlisten for the chariots.\n\nyou won't hear them.\n\nhe comes lowly,\non a donkey.\n\nand the first thing he does\nis take away the chariot,\nthe war horse, the battle bow,\n\nand speak peace\nto the nations.\n\ncenturies later\na crowd on a hillside road\nwould remember this.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b291",
+        "horizon": "#9e8667",
+        "ground": "#9f8a68",
+        "overall": "#a79372",
+        "accent": "#f3e4bd"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "prisoners of hope",
+      "ref": "Zechariah 9:11–12",
+      "epigraph": "“Turn to the stronghold, you prisoners of hope!”",
+      "poem": "the pit had no water.\n\njust stone,\nand a circle of sky\ntoo far up.\n\nand God said,\nI have set your prisoners free.\n\nthen he gave the ones\nstill waiting\na new name:\n\nprisoners of hope.\n\nheld,\nnot by the pit anymore,\nbut by a promise\nthat won't let go.\n\neven today, he says,\nI will give you back double.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#696048",
+        "horizon": "#5d5b49",
+        "ground": "#2f302a",
+        "overall": "#4d4b3c",
+        "accent": "#f8d76e"
+      }
+    },
+    {
+      "n": 34,
+      "part": 4,
+      "title": "at evening, light",
+      "ref": "Zechariah 14:7–8",
+      "epigraph": "“at evening time there will be light.”",
+      "poem": "you know how evening goes.\nthe light thins.\nthe shadows stretch.\nyou light a lamp.\n\nbut there is a day coming,\nknown to the Lord,\n\nwhen evening comes\nand the light stays.\n\nand living water\nruns out from Jerusalem,\neast and west,\nsummer and winter,\n\nand never\nruns dry.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#baa271",
+        "horizon": "#b59860",
+        "ground": "#635b48",
+        "overall": "#92805a",
+        "accent": "#f5c55c"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "how have you loved us",
+      "ref": "Malachi 1:2",
+      "epigraph": "“I have loved you”",
+      "poem": "the last book\nof the prophets\nbegins with this:\n\nI have loved you.\n\nand the people answer,\nhow?\n\nit has the sound\nof a long marriage\ngone quiet.\n\nso God starts again,\npatiently,\nthe way love does,\nremembering out loud.\n\nthe whole book\nis an argument\nfrom someone\nwho refuses to leave.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c49e",
+        "horizon": "#6e644d",
+        "ground": "#908365",
+        "overall": "#95876a",
+        "accent": "#f5e8bc"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "the refiner sits",
+      "ref": "Malachi 3:2–3",
+      "epigraph": "“For he is like a refiner’s fire, and like launderers’ soap”",
+      "poem": "who can stand\nwhen he appears?\n\nhe comes like the fire\nin a refiner's furnace,\nlike strong soap\nin a launderer's tub.\n\nbut read the next line:\nhe will sit.\n\na refiner doesn't walk away\nfrom the silver.\nhe sits beside it,\nwatching,\npatient.\n\nnot to lose what's in the fire.\nto keep what's precious,\nand make it ready\nto give.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c8b692",
+        "horizon": "#6e624f",
+        "ground": "#7c6c55",
+        "overall": "#8d7e64",
+        "accent": "#d98037"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "return",
+      "ref": "Malachi 3:6–7",
+      "epigraph": "“Return to me, and I will return to you”",
+      "poem": "I, the Lord, do not change.\n\nthat's why\nyou are still here.\n\nand the door\nis where it always was:\n\nreturn to me,\nand I will return to you.\n\nhow shall we return? they asked,\nas if it needed a map.\n\nthe way you left.\none step,\nthen the next,\nfacing the other way.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7c69f",
+        "horizon": "#b3a484",
+        "ground": "#7b6b50",
+        "overall": "#a89878",
+        "accent": "#f6d493"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "a book of memory",
+      "ref": "Malachi 3:14–17",
+      "epigraph": "“Yahweh listened, and heard, and a book of memory was written before him”",
+      "poem": "some had given up.\nwhat's the use? they said.\nthe proud do fine.\n\nand some others,\nthe ones who feared God,\njust talked with each other.\n\nnothing dramatic.\na conversation.\n\nand God listened,\nand heard,\nand had it written down.\n\nthey shall be mine, he said.\n\nyour quiet talk about him\nwith a friend\nis not lost.\n\nit is kept.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-038.jpg",
+      "heroSrc": "assets/the-day-of-small-things/web/b-027-038.jpg",
+      "isScene": true,
+      "sceneType": "book_of_remembrance",
+      "palette": {
+        "top": "#bca67c",
+        "horizon": "#84785d",
+        "ground": "#564a35",
+        "overall": "#837356",
+        "accent": "#dbc79d"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "healing in its wings",
+      "ref": "Malachi 4:1–2",
+      "epigraph": "“Y ou will go out, and leap like calves of the stall.”",
+      "poem": "the day comes\nburning like a furnace.\n\nbut to you\nwho fear his name,\n\nthe same day\nrises like the sun,\n\nand the light\nhas healing in its wings.\n\nyou will go out\nand leap\nlike calves let out of the stall\n\nafter a long winter\nin the dark.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6bc94",
+        "horizon": "#b89d78",
+        "ground": "#60594a",
+        "overall": "#9c8a6c",
+        "accent": "#f9c385"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "turn the hearts",
+      "ref": "Malachi 4:5–6",
+      "epigraph": "“He will turn the hearts of the fathers to the children”",
+      "poem": "the last words of the prophets\nare about a family.\nnot a temple. not a battle.\n\nfathers turning toward their children.\nchildren turning toward their fathers.\n\nI will send Elijah, God said.\n\nthen the prophets went quiet\nfor centuries,\n\nuntil an old priest was told\nhis son would come\nin the spirit of Elijah\n\nto turn the hearts\nof the fathers\nto the children.",
+      "webSrc": "assets/the-day-of-small-things/web/b-027-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a49573",
+        "horizon": "#827357",
+        "ground": "#614e35",
+        "overall": "#7e6d50",
+        "accent": "#edcc85"
+      }
+    }
+  ]
+}

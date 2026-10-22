@@ -1,0 +1,900 @@
+{
+  "district": 16,
+  "slug": "psalms-4",
+  "title": "Everything That Has Breath",
+  "subtitle": "Psalms 107–150 in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/psalms-4/web/b-016-000.jpg",
+  "beforeYouBegin": "Book Five of the Psalter is the last and fullest: songs of the redeemed, the great alphabet psalm about God's word, the fifteen Songs of Ascent the pilgrims sang on the road to Jerusalem, a lament by the rivers of Babylon, and a closing crescendo where everything that has breath is told to praise.\n\nThis volume answers them one at a time, forty-four short poems in five parts, each beside a picture and under a single line from the psalm it answers. It completes the four-volume Psalms in Poems & Pictures.\n\nThe poems are not the Bible. They are one reader's response to it. Keep the Psalms open alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Let the Redeemed Say So",
+      "epigraph": "Let the redeemed by Yahweh say so",
+      "epigraphRef": "Psalm 107:2",
+      "lightName": "Light of Let the Redeemed Say So",
+      "lightHint": "Near 'say so' (Psalm 107:23–30) in Part 1: Let the Redeemed Say So"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 13,
+      "title": "A Lamp to My Feet",
+      "epigraph": "Your word is a lamp to my feet, and a light for my path.",
+      "epigraphRef": "Psalm 119:105",
+      "lightName": "Light of A Lamp to My Feet",
+      "lightHint": "Near 'come find me' (Psalm 119:105–176) in Part 2: A Lamp to My Feet"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 22,
+      "title": "Songs of Ascent",
+      "epigraph": "But there is forgiveness with you, therefore you are feared.",
+      "epigraphRef": "Psalm 130:4",
+      "lightName": "Light of Songs of Ascent",
+      "lightHint": "Near 'olive shoots' (Psalm 128:1–3) in Part 3: Songs of Ascent"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 31,
+      "title": "Search Me",
+      "epigraph": "Search me, God, and know my heart. Try me, and know my thoughts.",
+      "epigraphRef": "Psalm 139:23",
+      "lightName": "Light of Search Me",
+      "lightHint": "Near 'the willows' (Psalm 137:1–4) in Part 4: Search Me"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 39,
+      "title": "Everything That Has Breath",
+      "epigraph": "Y ahweh is near to all those who call on him",
+      "epigraphRef": "Psalm 145:18",
+      "lightName": "Light of Everything That Has Breath",
+      "lightHint": "Near 'tell the next one' (Psalm 145:4–18) in Part 5: Everything That Has Breath"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "say so",
+      "ref": "Psalm 107:23–30",
+      "epigraph": "“He makes the storm a calm, so that its waves are still.”",
+      "poem": "four stories of people in trouble:\nlost in the desert,\nchained in the dark,\nsick almost to death,\ntossed on the sea.\n\nand four times, the same line:\nthey cried to the Lord,\nand he saved them.\n\nhe stilled the storm\nand brought them\nto the harbor they longed for.\n\nif he's rescued you—\nsay so.",
+      "webSrc": "assets/psalms-4/web/b-016-001.jpg",
+      "heroSrc": "assets/psalms-4/web/b-016-001.jpg",
+      "isScene": true,
+      "sceneType": "storm_stilled_haven",
+      "palette": {
+        "top": "#d2bb8a",
+        "horizon": "#97865e",
+        "ground": "#554c39",
+        "overall": "#8c7d5c",
+        "accent": "#f8dc81"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "borrowed words",
+      "ref": "Psalm 108:1–5",
+      "epigraph": "“My heart is steadfast, God. I will sing and I will make music with my soul.”",
+      "poem": "this psalm is stitched together\nfrom two older ones—\n\nold prayers,\nreused\nfor a new day.\n\nnothing wrong with that.\n\nmy heart is steady.\nI'll sing.\n\nsometimes you borrow\nyesterday's words\nuntil today's\ncatch up.",
+      "webSrc": "assets/psalms-4/web/b-016-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4cc8d",
+        "horizon": "#7b6d50",
+        "ground": "#5b513e",
+        "overall": "#8f7f5a",
+        "accent": "#f7db6b"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "wounded",
+      "ref": "Psalm 109:21–26",
+      "epigraph": "“for I am poor and needy. My heart is wounded within me.”",
+      "poem": "this psalm is full of curses—\nraw, angry,\nthe words of a man\nrepaid evil for love.\n\nthe Bible doesn't clean them up.\n\nbut notice where he takes them:\nnot to revenge.\nto God.\n\nI am poor and needy.\nmy heart is wounded.\nhelp me.\n\nbring the anger\nto the only One\nwho can hold it\nand judge rightly.",
+      "webSrc": "assets/psalms-4/web/b-016-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dacdb3",
+        "horizon": "#baae94",
+        "ground": "#9b8c72",
+        "overall": "#b6a88e",
+        "accent": "#e1d6bb"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "my Lord",
+      "ref": "Psalm 110:1–4",
+      "epigraph": "“Yahweh says to my Lord, “Sit at my right hand”",
+      "poem": "one of the most quoted psalms\nin the New Testament.\n\nthe Lord says to my Lord:\nsit at my right hand.\n\nDavid calling someone\ngreater than himself\nLord.\n\nJesus asked the scholars\nwho that could be.\n\nthey didn't answer.\nwe know.",
+      "webSrc": "assets/psalms-4/web/b-016-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8c392",
+        "horizon": "#ad986e",
+        "ground": "#79694f",
+        "overall": "#a4916c",
+        "accent": "#fee5a0"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "pondered",
+      "ref": "Psalm 111:2–10",
+      "epigraph": "“Yahweh’s works are great, pondered by all those who delight in them.”",
+      "poem": "his works are great—\n\nstudied,\npondered,\nby everyone who delights in them.\n\nthe stars,\nthe seasons,\nthe life of a friend—\n\nwonder\nis its own kind\nof worship.\n\nand the beginning of wisdom?\nawe.",
+      "webSrc": "assets/psalms-4/web/b-016-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#574d37",
+        "horizon": "#55452c",
+        "ground": "#42331e",
+        "overall": "#52432b",
+        "accent": "#e8c179"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "bad news",
+      "ref": "Psalm 112:7",
+      "epigraph": "“He will not be afraid of evil news. His heart is steadfast, trusting in Yahweh.”",
+      "poem": "bad news is coming.\nit always is.\n\na messenger.\na letter.\na knock.\n\nand the righteous\naren't afraid—\n\nnot because they're sure\nthe news will be good,\nbut because their hearts\nare fixed\non the One who isn't surprised.",
+      "webSrc": "assets/psalms-4/web/b-016-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2b28a",
+        "horizon": "#90805b",
+        "ground": "#a8976f",
+        "overall": "#a79670",
+        "accent": "#dabb7d"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "stoops so low",
+      "ref": "Psalm 113:5–9",
+      "epigraph": "“He raises up the poor out of the dust. Lifts up the needy from the ash heap”",
+      "poem": "who is like the Lord,\nwho sits so high\nand stoops so low?\n\nhe lifts the poor from the dust,\nthe needy from the ash heap,\n\nand seats them\nwith princes.\n\nand the woman who couldn't have children—\na home full of them.\n\nthe higher he is,\nthe lower he bends.",
+      "webSrc": "assets/psalms-4/web/b-016-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7c7a8",
+        "horizon": "#938d7d",
+        "ground": "#47423b",
+        "overall": "#8b816f",
+        "accent": "#f7e3ac"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "flint",
+      "ref": "Psalm 114:1–8",
+      "epigraph": "“who turned the rock into a pool of water, the flint into a spring of waters.”",
+      "poem": "when Israel came out of Egypt,\nthe sea looked and ran.\nthe Jordan turned back.\nthe mountains skipped like rams.\n\ntremble, earth,\nbefore the God\nwho turns flint\ninto a spring.\n\nnothing is too hard\nto become water\nin his hands.",
+      "webSrc": "assets/psalms-4/web/b-016-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5cab0",
+        "horizon": "#9c907a",
+        "ground": "#a69b85",
+        "overall": "#b0a58e",
+        "accent": "#e6dbc1"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "not to us",
+      "ref": "Psalm 115:1–8",
+      "epigraph": "“Not to us, Yahweh, not to us, but to your name give glory”",
+      "poem": "not to us.\nnot to us.\n\nthe idols have mouths\nbut can't speak,\neyes but can't see,\nears but can't hear.\n\nand those who make them,\nthe psalm warns,\nbecome like them.\n\nwe become\nwhat we worship.\n\nso give the glory\nto the One\nwho sees and hears and speaks.",
+      "webSrc": "assets/psalms-4/web/b-016-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3a68c",
+        "horizon": "#847862",
+        "ground": "#bdac8d",
+        "overall": "#a6977c",
+        "accent": "#c7aa6a"
+      }
+    },
+    {
+      "n": 10,
+      "part": 1,
+      "title": "because he listened",
+      "ref": "Psalm 116:1–13",
+      "epigraph": "“I love Y ahweh, because he listens to my voice”",
+      "poem": "I love the Lord\nbecause he listened.\n\nthat's the whole reason,\nand it's enough.\n\nand then:\nwhat can I give back\nfor all his goodness?\n\nthe answer is almost funny:\nI'll take the cup of salvation.\nI'll call on his name.\n\nyou repay a giver\nby receiving more.",
+      "webSrc": "assets/psalms-4/web/b-016-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c89e",
+        "horizon": "#9f9071",
+        "ground": "#82755a",
+        "overall": "#a39574",
+        "accent": "#f9e9a9"
+      }
+    },
+    {
+      "n": 11,
+      "part": 1,
+      "title": "two verses",
+      "ref": "Psalm 117:1–2",
+      "epigraph": "“Praise Yahweh, all you nations! Extol him, all you peoples!”",
+      "poem": "the shortest chapter\nin the Bible.\n\ntwo verses.\n\nall you nations, praise him.\nhis love is great.\nhis faithfulness lasts forever.\n\nsome of the longest truths\nfit\nin the shortest sentences.",
+      "webSrc": "assets/psalms-4/web/b-016-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5cbb0",
+        "horizon": "#b2a485",
+        "ground": "#baad8f",
+        "overall": "#bcaf91",
+        "accent": "#e8d3a5"
+      }
+    },
+    {
+      "n": 12,
+      "part": 1,
+      "title": "the cornerstone",
+      "ref": "Psalm 118:22–24",
+      "epigraph": "“The stone which the builders rejected has become the cornerstone.”",
+      "poem": "the builders looked at it\nand tossed it aside.\nwrong shape.\nnot useful.\n\nand it became\nthe cornerstone,\nthe stone\nthe whole building leans on.\n\nJesus quoted this\nabout himself.\n\nand then the line\nyou can say\nany morning:\n\nthis is the day\nthe Lord has made.",
+      "webSrc": "assets/psalms-4/web/b-016-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d2ac",
+        "horizon": "#a99d7d",
+        "ground": "#bcac87",
+        "overall": "#bfb18d",
+        "accent": "#e6d6b1"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "come find me",
+      "ref": "Psalm 119:105–176",
+      "epigraph": "“I have gone astray like a lost sheep. Seek your servant”",
+      "poem": "the longest psalm.\na hundred seventy-six verses,\ntwenty-two sections,\none for each letter of the Hebrew alphabet,\n\nevery line\nin love with God's word.\n\na lamp for my feet.\na light for my path.\n\nand after all that devotion,\nthe very last line:\n\nI've gone astray\nlike a lost sheep.\ncome find me.\n\neven the one who loved the law most\nended\nneeding to be found.",
+      "webSrc": "assets/psalms-4/web/b-016-013.jpg",
+      "heroSrc": "assets/psalms-4/web/b-016-013.jpg",
+      "isScene": true,
+      "sceneType": "lamp_to_my_feet",
+      "palette": {
+        "top": "#59554a",
+        "horizon": "#32322c",
+        "ground": "#383327",
+        "overall": "#3f3c32",
+        "accent": "#dbb46c"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "far from home",
+      "ref": "Psalm 120:1–7",
+      "epigraph": "“In my distress, I cried to Y ahweh. He answered me.”",
+      "poem": "the first Song of Ascent—\nsongs the pilgrims sang\non the road up to Jerusalem.\n\nit starts far from home,\namong people who want war\nwhen I want peace.\n\nevery journey toward God\nstarts\nsomewhere you don't belong.",
+      "webSrc": "assets/psalms-4/web/b-016-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#daccac",
+        "horizon": "#b5a07d",
+        "ground": "#736959",
+        "overall": "#a3967c",
+        "accent": "#edbb72"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "the hills",
+      "ref": "Psalm 121:1–8",
+      "epigraph": "“I will lift up my eyes to the hills. Where does my help come from?”",
+      "poem": "the pilgrims looked up\nat the hills ahead—\nsteep,\nunknown,\nwhere danger could be waiting.\n\nwhere does my help come from?\n\nnot the hills.\nthe One who made them.\n\nhe won't let your foot slip.\nhe doesn't doze.\nhe doesn't sleep.\n\nyour going out,\nyour coming in,\nnow\nand forever.",
+      "webSrc": "assets/psalms-4/web/b-016-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdba90",
+        "horizon": "#8f836c",
+        "ground": "#5b513d",
+        "overall": "#8a7d62",
+        "accent": "#f8df98"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "glad",
+      "ref": "Psalm 122:1–6",
+      "epigraph": "“I was glad when they said to me, “Let’s go to Yahweh’s house!””",
+      "poem": "I was glad when they said:\nlet's go.\n\nnot dragged.\ninvited.\n\nand then—\nour feet are standing\ninside your gates.\n\npray for the peace\nof the city.",
+      "webSrc": "assets/psalms-4/web/b-016-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c9b2",
+        "horizon": "#8f8265",
+        "ground": "#a0947a",
+        "overall": "#a79c82",
+        "accent": "#f1e8cc"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "eyes on the hand",
+      "ref": "Psalm 123:1–2",
+      "epigraph": "“as the eyes of servants look to the hand of their master”",
+      "poem": "a servant in a busy house\nwatches the master's hand—\na small gesture,\nand he knows what to do.\n\nso our eyes\nare on your hand.\n\nnot on the crowd.\nnot on the ones who mock.\n\non you,\nuntil you show mercy.",
+      "webSrc": "assets/psalms-4/web/b-016-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#97907d",
+        "horizon": "#86775e",
+        "ground": "#847154",
+        "overall": "#8b7d64",
+        "accent": "#ded4be"
+      }
+    },
+    {
+      "n": 18,
+      "part": 2,
+      "title": "the snare is broken",
+      "ref": "Psalm 124:1–8",
+      "epigraph": "“Our soul has escaped like a bird out of the fowler’s snare.”",
+      "poem": "if the Lord hadn't been on our side—\nsay it, Israel—\n\nthe flood would have swept us away.\n\nbut look:\nthe snare is broken,\nand we flew out.\n\nwe didn't pick the lock.\nhe broke the trap.",
+      "webSrc": "assets/psalms-4/web/b-016-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dcd3ba",
+        "horizon": "#bdb195",
+        "ground": "#ccbd9d",
+        "overall": "#c8bc9f",
+        "accent": "#f6eac9"
+      }
+    },
+    {
+      "n": 19,
+      "part": 2,
+      "title": "surrounded",
+      "ref": "Psalm 125:1–2",
+      "epigraph": "“As the mountains surround Jerusalem, so Yahweh surrounds his people”",
+      "poem": "Jerusalem sits\nwith mountains all around her.\n\nthat's you,\nthe psalm says—\nsurrounded.\n\nnot by enemies.\nby God.\n\non every side.\nforever.",
+      "webSrc": "assets/psalms-4/web/b-016-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c3baa0",
+        "horizon": "#9c9681",
+        "ground": "#766d54",
+        "overall": "#968e77",
+        "accent": "#e6d6b9"
+      }
+    },
+    {
+      "n": 20,
+      "part": 2,
+      "title": "sow in tears",
+      "ref": "Psalm 126:1–6",
+      "epigraph": "“He who goes out weeping, carrying seed for sowing, will certainly come again with joy, carrying his sheaves.”",
+      "poem": "when God brought us home,\nit felt like a dream.\nwe laughed.\nwe sang.\n\nand for the times\nit's not a dream yet:\n\nthose who sow in tears\nwill reap in joy.\n\nthe tears\nwater the seed.",
+      "webSrc": "assets/psalms-4/web/b-016-020.jpg",
+      "heroSrc": "assets/psalms-4/web/b-016-020.jpg",
+      "isScene": true,
+      "sceneType": "golden_sheaves",
+      "palette": {
+        "top": "#d5cab0",
+        "horizon": "#7a7059",
+        "ground": "#3e3a2f",
+        "overall": "#7c7461",
+        "accent": "#f4e8ce"
+      }
+    },
+    {
+      "n": 21,
+      "part": 2,
+      "title": "go to bed",
+      "ref": "Psalm 127:1–2",
+      "epigraph": "“for he gives sleep to his loved ones.”",
+      "poem": "unless the Lord builds the house,\nthe builders work for nothing.\n\nyou can get up early.\nstay up late.\neat the bread of anxious work.\n\nor you can rest.\n\nhe gives\nto his beloved\nin their sleep.\n\nthe house is his project.\nyou're allowed\nto go to bed.",
+      "webSrc": "assets/psalms-4/web/b-016-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8c8076",
+        "horizon": "#7d6a57",
+        "ground": "#493f34",
+        "overall": "#6b5e52",
+        "accent": "#f4d0a9"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "olive shoots",
+      "ref": "Psalm 128:1–3",
+      "epigraph": "“your children like olive plants around your table.”",
+      "poem": "children\nlike olive shoots\naround the table.\n\nnot finished trees.\nshoots—\nsmall,\ntender,\nneeding years.\n\nthe psalm isn't promising\na perfect family.\nit's describing\na slow, green blessing.",
+      "webSrc": "assets/psalms-4/web/b-016-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c7ae",
+        "horizon": "#9c9077",
+        "ground": "#a79879",
+        "overall": "#b1a489",
+        "accent": "#e1d5bb"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "long furrows",
+      "ref": "Psalm 129:1–4",
+      "epigraph": "“The plowers plowed on my back. They made their furrows long.”",
+      "poem": "they plowed on my back.\nlong furrows.\n\nsince I was young,\nIsrael says,\nthey've afflicted me.\n\nbut they haven't won.\n\nthe Lord is righteous.\nhe cut the cords.\n\nthe scars are real.\nso is the freedom.",
+      "webSrc": "assets/psalms-4/web/b-016-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccc0a1",
+        "horizon": "#a29371",
+        "ground": "#8e7957",
+        "overall": "#a49473",
+        "accent": "#efe2c2"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "the watchman",
+      "ref": "Psalm 130:1–6",
+      "epigraph": "“My soul longs for the Lord more than watchmen long for the morning”",
+      "poem": "out of the depths\nI cry to you.\n\nif you kept a record of sins,\nwho could stand?\n\nbut with you\nthere is forgiveness.\n\nand so I wait—\nmore than the night watchman\nwaits for dawn.\nmore than the night watchman\nwaits for dawn.\n\nthe repetition is his.\nsome waiting\nyou have to say twice.",
+      "webSrc": "assets/psalms-4/web/b-016-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9b698",
+        "horizon": "#7c7469",
+        "ground": "#40413b",
+        "overall": "#7c7464",
+        "accent": "#f8cb9a"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "content",
+      "ref": "Psalm 131:1–3",
+      "epigraph": "“like a weaned child with his mother, like a weaned child is my soul within me.”",
+      "poem": "three verses.\nno big questions.\n\nmy heart isn't proud.\nI don't chase things\ntoo great for me.\n\nI've calmed my soul,\nlike a weaned child\nwith his mother—\n\nnot crying for milk anymore.\njust content\nto be close.",
+      "webSrc": "assets/psalms-4/web/b-016-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9c9078",
+        "horizon": "#82745b",
+        "ground": "#766e5b",
+        "overall": "#847962",
+        "accent": "#d5c9ae"
+      }
+    },
+    {
+      "n": 26,
+      "part": 3,
+      "title": "making room",
+      "ref": "Psalm 132:1–12",
+      "epigraph": "“until I find out a place for Y ahweh, a dwelling for the Mighty One of Jacob.”",
+      "poem": "David vowed\nhe wouldn't sleep\nuntil he found a place\nfor God to live.\n\nand God answered\nwith a better promise:\nI'll establish your house.\n\nwe keep trying\nto make room for him.\nhe keeps\nmaking room for us.",
+      "webSrc": "assets/psalms-4/web/b-016-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9e9379",
+        "horizon": "#5d5542",
+        "ground": "#8a7d61",
+        "overall": "#80755d",
+        "accent": "#eab55e"
+      }
+    },
+    {
+      "n": 27,
+      "part": 3,
+      "title": "running downhill",
+      "ref": "Psalm 133:1–3",
+      "epigraph": "“See how good and how pleasant it is for brothers to live together in unity!”",
+      "poem": "how good\nand pleasant it is\nwhen brothers live in unity—\n\nlike precious oil\nrunning down Aaron's beard,\nlike the dew of Hermon\nfalling on Zion's hills.\n\nunity\nisn't everyone agreeing.\nit's blessing\nrunning downhill\nfrom one to another.",
+      "webSrc": "assets/psalms-4/web/b-016-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d9c3",
+        "horizon": "#9a9586",
+        "ground": "#635c44",
+        "overall": "#958f7b",
+        "accent": "#f5efdf"
+      }
+    },
+    {
+      "n": 28,
+      "part": 3,
+      "title": "the night shift",
+      "ref": "Psalm 134:1–2",
+      "epigraph": "“Lift up your hands in the sanctuary. Praise Y ahweh!”",
+      "poem": "the last Song of Ascent—\nfor the servants\nwho stand in the house\nby night.\n\nthe night shift.\nthe ones who keep the lamps lit\nwhile everyone sleeps.\n\nlift your hands.\nbless the Lord.\n\nhe sees\nwho's worshiping\nat three in the morning.",
+      "webSrc": "assets/psalms-4/web/b-016-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#78705d",
+        "horizon": "#766b4f",
+        "ground": "#7d7155",
+        "overall": "#7b7055",
+        "accent": "#eabd65"
+      }
+    },
+    {
+      "n": 29,
+      "part": 3,
+      "title": "the weather is his",
+      "ref": "Psalm 135:5–17",
+      "epigraph": "“He brings the wind out of his treasuries.”",
+      "poem": "clouds rising at the edge of the world.\nlightning with the rain.\nwind brought out\nof his storehouses.\n\nthe weather\nis not an accident.\nit's his.\n\nand the idols?\nsilver and gold,\nmade by hands.\nno breath in their mouths.",
+      "webSrc": "assets/psalms-4/web/b-016-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a09787",
+        "horizon": "#9a9487",
+        "ground": "#796c55",
+        "overall": "#89806f",
+        "accent": "#e4d7b9"
+      }
+    },
+    {
+      "n": 30,
+      "part": 3,
+      "title": "forever",
+      "ref": "Psalm 136:1–26",
+      "epigraph": "“Give thanks to Yahweh, for he is good; for his loving kindness endures forever.”",
+      "poem": "twenty-six times,\nthe same answer:\nhis love endures forever.\n\ncreation—\nhis love endures forever.\nthe sea parted—\nhis love endures forever.\nhe remembered us when we were low—\nhis love endures forever.\n\nyou could read it as repetition.\n\nor you could read it\nas a congregation\nrefusing to stop saying it.",
+      "webSrc": "assets/psalms-4/web/b-016-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0d5bc",
+        "horizon": "#a39986",
+        "ground": "#938264",
+        "overall": "#ada188",
+        "accent": "#e6cb94"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "the willows",
+      "ref": "Psalm 137:1–4",
+      "epigraph": "“How can we sing Y ahweh’s song in a foreign land?”",
+      "poem": "by the rivers of Babylon\nwe sat and wept.\n\nwe hung our harps\nin the willows.\n\nthey asked for a song.\nhow could we?\n\nthis psalm ends in words\nso bitter\nthey're hard to read aloud.\n\nthey're in the Bible\nbecause grief like this\nis real,\nand God\nwants it brought to him\ninstead of buried.",
+      "webSrc": "assets/psalms-4/web/b-016-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8a8061",
+        "horizon": "#b8a785",
+        "ground": "#8b7f65",
+        "overall": "#978a6c",
+        "accent": "#ebd7b2"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "still on the loom",
+      "ref": "Psalm 138:8",
+      "epigraph": "“Y ahweh will fulfill that which concerns me.”",
+      "poem": "the Lord will finish\nwhat concerns me.\n\nwhat he started,\nhe completes—\nPhilippians says it too.\n\ndon't abandon\nthe work of your hands.\n\nI'm the work,\nand I'm still\non the loom.",
+      "webSrc": "assets/psalms-4/web/b-016-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8aa92",
+        "horizon": "#95846b",
+        "ground": "#6a5946",
+        "overall": "#8f7e69",
+        "accent": "#efe1c7"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "wonderfully made",
+      "ref": "Psalm 139:7–14",
+      "epigraph": "“I will give thanks to you, for I am fearfully and wonderfully made.”",
+      "poem": "where could I go\nfrom your Spirit?\n\nheaven—you're there.\nthe depths—you're there.\nthe far side of the sea—\nyour hand still holds me.\nthe dark\nis not dark to you.\n\nyou knit me together\nbefore anyone knew my name.\n\nI am fearfully,\nwonderfully made.\n\nand then, the bravest part:\nsearch me.\nknow me.\nlead me.",
+      "webSrc": "assets/psalms-4/web/b-016-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccbf9d",
+        "horizon": "#9e8868",
+        "ground": "#b29d7d",
+        "overall": "#b29e7e",
+        "accent": "#f7eccb"
+      }
+    },
+    {
+      "n": 34,
+      "part": 4,
+      "title": "the advocate",
+      "ref": "Psalm 140:1–12",
+      "epigraph": "“I know that Y ahweh will maintain the cause of the afflicted, and justice for the needy.”",
+      "poem": "the violent plot.\nthe slanderers hiss.\n\nand against all that,\none thing I know:\n\nthe Lord takes up\nthe case\nof the afflicted.\n\nthe poor\nhave an advocate\nwho never loses.",
+      "webSrc": "assets/psalms-4/web/b-016-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8aa8f",
+        "horizon": "#9c8d6e",
+        "ground": "#857153",
+        "overall": "#9b8b6d",
+        "accent": "#e9dcc3"
+      }
+    },
+    {
+      "n": 35,
+      "part": 4,
+      "title": "the door of my lips",
+      "ref": "Psalm 141:2–3",
+      "epigraph": "“Set a watch, Y ahweh, before my mouth. Keep the door of my lips.”",
+      "poem": "let my prayer rise\nlike incense,\nmy lifted hands\nlike the evening offering.\n\nand one more request,\nmaybe the harder one:\n\nset a guard\nat my mouth.\nkeep watch\nat the door of my lips.\n\nsome prayers are for rescue.\nsome\nare for restraint.",
+      "webSrc": "assets/psalms-4/web/b-016-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b9ab92",
+        "horizon": "#9e927d",
+        "ground": "#8e816c",
+        "overall": "#9e917b",
+        "accent": "#e9d8bd"
+      }
+    },
+    {
+      "n": 36,
+      "part": 4,
+      "title": "no one",
+      "ref": "Psalm 142:4–5",
+      "epigraph": "“Look on my right, and see; for there is no one who is concerned for me.”",
+      "poem": "written in a cave.\n\nlook to my right—\nno one.\nno one cares for my soul.\n\nsometimes that's how it feels,\nand the Bible lets it be said.\n\nand then:\nyou are my refuge.\nmy portion\nin the land of the living.\n\nthe loneliest moment\nbecomes the place\nhe's all I have—\nand enough.",
+      "webSrc": "assets/psalms-4/web/b-016-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#534b3d",
+        "horizon": "#98907c",
+        "ground": "#615949",
+        "overall": "#6e6756",
+        "accent": "#f8ebd1"
+      }
+    },
+    {
+      "n": 37,
+      "part": 4,
+      "title": "in the morning",
+      "ref": "Psalm 143:6–10",
+      "epigraph": "“Cause me to hear your loving kindness in the morning, for I trust in you.”",
+      "poem": "I spread out my hands to you,\nthirsty like dry ground.\n\nlet the morning\nbring me word\nof your unfailing love.\n\nand teach me\nthe way to walk,\n\nbecause I've lifted my soul\nto you\nand have nowhere else\nto set it down.",
+      "webSrc": "assets/psalms-4/web/b-016-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bcaf8e",
+        "horizon": "#928668",
+        "ground": "#736a56",
+        "overall": "#95896e",
+        "accent": "#fbefc2"
+      }
+    },
+    {
+      "n": 38,
+      "part": 4,
+      "title": "a breath",
+      "ref": "Psalm 144:1–4",
+      "epigraph": "“Man is like a breath. His days are like a shadow that passes away.”",
+      "poem": "Lord, what is man,\nthat you notice him?\n\na breath.\na shadow passing.\n\nand yet—\nyou train my hands.\nyou're my fortress.\nyou're my loving God.\n\nthe breath\nis held\nby the One who breathed it.",
+      "webSrc": "assets/psalms-4/web/b-016-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccc3b1",
+        "horizon": "#beb19a",
+        "ground": "#857c6d",
+        "overall": "#aea38f",
+        "accent": "#f8e4c5"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "tell the next one",
+      "ref": "Psalm 145:4–18",
+      "epigraph": "“One generation will commend your works to another”",
+      "poem": "one generation\ntells the next.\n\ngrandparents to grandchildren,\nparents at the table,\nan old friend to a new believer:\n\nhere's what he did.\n\nand the Lord is near\nto everyone who calls—\nevery generation,\nevery voice.",
+      "webSrc": "assets/psalms-4/web/b-016-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c3b290",
+        "horizon": "#948469",
+        "ground": "#89785e",
+        "overall": "#9d8c6f",
+        "accent": "#daac6c"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "princes",
+      "ref": "Psalm 146:3–9",
+      "epigraph": "“Don’t put your trust in princes, in a son of man in whom there is no help.”",
+      "poem": "don't put your trust\nin princes.\n\ntheir breath goes out.\ntheir plans die with them.\n\ntrust the One who\nkeeps faith forever,\nfeeds the hungry,\nsets prisoners free,\nwatches over the foreigner,\nlifts up the widow and the orphan.\n\nthat's the kind of king\nworth trusting.",
+      "webSrc": "assets/psalms-4/web/b-016-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ded1b3",
+        "horizon": "#a89c80",
+        "ground": "#9f957a",
+        "overall": "#b2a78b",
+        "accent": "#e8dbbe"
+      }
+    },
+    {
+      "n": 41,
+      "part": 5,
+      "title": "names and bandages",
+      "ref": "Psalm 147:3–4",
+      "epigraph": "“He heals the broken in heart, and binds up their wounds.”",
+      "poem": "he counts the stars\nand calls each one by name.\n\nand in the same breath:\nhe heals the brokenhearted\nand binds up their wounds.\n\nthe God who names the stars\nkneels\nwith a bandage.",
+      "webSrc": "assets/psalms-4/web/b-016-041.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#303b43",
+        "horizon": "#6d7170",
+        "ground": "#433f36",
+        "overall": "#484b4a",
+        "accent": "#ada796"
+      }
+    },
+    {
+      "n": 42,
+      "part": 5,
+      "title": "everyone has a part",
+      "ref": "Psalm 148:1–13",
+      "epigraph": "“Praise him, sun and moon! Praise him, all you shining stars!”",
+      "poem": "sun and moon.\nshining stars.\nsea creatures and ocean depths.\nfire and hail, snow and mist.\nmountains and fruit trees.\nwild animals and cattle,\ncreeping things and flying birds.\nkings and all peoples,\nyoung and old together.\n\neverything\nhas a part\nin the song.",
+      "webSrc": "assets/psalms-4/web/b-016-042.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8c8e86",
+        "horizon": "#bfaa82",
+        "ground": "#574d3b",
+        "overall": "#877e69",
+        "accent": "#fbcc77"
+      }
+    },
+    {
+      "n": 43,
+      "part": 5,
+      "title": "needs your feet",
+      "ref": "Psalm 149:3–4",
+      "epigraph": "“Let them praise his name in the dance!”",
+      "poem": "praise him\nwith dancing.\nwith tambourine and harp.\n\nthe Lord takes pleasure\nin his people.\n\nhe delights in you—\nso dance.\n\nsome worship is quiet.\nsome\nneeds your feet.",
+      "webSrc": "assets/psalms-4/web/b-016-043.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a39676",
+        "horizon": "#ad9c7a",
+        "ground": "#b1a181",
+        "overall": "#a79777",
+        "accent": "#e1d1aa"
+      }
+    },
+    {
+      "n": 44,
+      "part": 5,
+      "title": "if you're breathing",
+      "ref": "Psalm 150:1–6",
+      "epigraph": "“Let everything that has breath praise Yah!”",
+      "poem": "trumpets.\nharp and lyre.\ntambourine and dancing.\nstrings and pipe.\nloud cymbals.\ncrashing cymbals.\n\nand then the last line\nof the whole book of Psalms:\n\nlet everything that has breath\npraise the Lord.\n\nif you're breathing,\nyou're invited.\n\npraise the Lord.",
+      "webSrc": "assets/psalms-4/web/b-016-044.jpg",
+      "heroSrc": "assets/psalms-4/web/b-016-044.jpg",
+      "isScene": true,
+      "sceneType": "symphony_of_praise",
+      "palette": {
+        "top": "#e7d7a7",
+        "horizon": "#b3a174",
+        "ground": "#4e4632",
+        "overall": "#998b67",
+        "accent": "#fde792"
+      }
+    }
+  ]
+}

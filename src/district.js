@@ -464,9 +464,11 @@ export class GenesisDistrictBuilder {
     };
 
     const gatePt = this.getPathPoint(6);
+    const shortSub = (manifest.subtitle || '').replace(/\s*in Poems & Pictures/i, '');
+    const dynamicGateTitle = `DISTRICT #${manifest.district || ''} · ${manifest.title.toUpperCase()}${shortSub ? ' — ' + shortSub.toUpperCase() : ''}`;
     const gateArch = this.createPartBannerArch({
       index: 0,
-      title: titlesBySlug[slug] || manifest.title.toUpperCase(),
+      title: titlesBySlug[slug] || dynamicGateTitle,
       epigraph: `${manifest.paintings.length} Paintings · ${manifest.parts.length} Parts · Step through glowing frames with [E]`,
       epigraphRef: 'POEMS & PICTURES BY TIMOTHY HOLT'
     });
@@ -545,7 +547,7 @@ export class GenesisDistrictBuilder {
     return group;
   }
 
-  createPartsLightsAndVeils(streetGroup, manifest) {
+  createPartsLightsAndVeils(streetGroup, manifest, paintingNodes = []) {
     const THREE = this.THREE;
     const glowTex = this.painterly.createGlowSpriteTexture('#ffe6a3');
     const slug = manifest.slug;
@@ -929,7 +931,28 @@ export class GenesisDistrictBuilder {
       ]
     };
 
-    const lightConfigs = lightsBySlug[slug] || lightsBySlug.genesis;
+    let lightConfigs = lightsBySlug[slug];
+    if (!lightConfigs && manifest.parts) {
+      lightConfigs = manifest.parts.map((p) => {
+        const partNum = p.part || p.index || 1;
+        const partNodes = paintingNodes.filter((n) => n.part === partNum);
+        const lastNode = partNodes[partNodes.length - 1];
+        const midNode = partNodes[Math.max(0, partNodes.length - 2)];
+        const lightZ = midNode ? midNode.roadPosition.z - 2.4 : -60.0 * partNum;
+        const veilZ = lastNode ? lastNode.roadPosition.z - 4.4 : lightZ - 18.0;
+        return {
+          part: partNum,
+          id: `${slug}-light-${partNum}`,
+          name: p.lightName || `The Light of ${p.title}`,
+          hint: p.lightHint || `Glowing near Part ${partNum}: ${p.title} (${p.epigraphRef || ''})`,
+          z: lightZ,
+          lateral: partNum % 2 === 1 ? 6.0 : -6.0,
+          height: 1.72,
+          veilZ
+        };
+      });
+    }
+    if (!lightConfigs) lightConfigs = lightsBySlug.genesis;
 
     return lightConfigs.map((cfg) => {
       const pt = this.getPathPoint(cfg.z);
@@ -1026,7 +1049,16 @@ export class GenesisDistrictBuilder {
     const THREE = this.THREE;
     const group = new THREE.Group();
     const slug = manifest.slug;
-    const plazaZ = slug === 'ruth' ? -268 : slug === 'choose-life' ? -398 : -436;
+    const totalPaintings = manifest.paintings ? manifest.paintings.length : 40;
+    const totalParts = manifest.parts ? manifest.parts.length : 4;
+    const computedLastZ = -9.0 - ((totalPaintings - 1) * 9.8 + (totalParts - 1) * 7.5);
+    const plazaZ = slug === 'ruth'
+      ? -268
+      : slug === 'choose-life'
+      ? -398
+      : ['genesis', 'exodus', 'fire-by-night', 'joshua-judges', 'samuel', 'kings'].includes(slug)
+      ? -436
+      : computedLastZ - 14.0;
     const pt = this.getPathPoint(plazaZ);
     group.position.set(pt.x, pt.y, pt.z);
 
@@ -1082,6 +1114,14 @@ export class GenesisDistrictBuilder {
       const sanctuary = this.propBuilder.createCedarTempleSanctuary();
       sanctuary.group.position.set(0, 0.1, -4.4);
       group.add(sanctuary.group);
+    } else if (slug !== 'genesis') {
+      const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
+        ground: '#6e5c46',
+        horizon: '#c7a474',
+        accent: '#ffe29c'
+      });
+      finaleCenterpiece.position.set(0, 0.1, -4.2);
+      group.add(finaleCenterpiece);
     } else {
       const treeOfLife = this.propBuilder.createGreatPainterlyTree(
         null,
@@ -1138,13 +1178,22 @@ export class GenesisDistrictBuilder {
       kings: {
         title: 'AMEN GATE · A STILL SMALL VOICE COMPLETED',
         epigraph: 'After the fire, there was a still small voice — a lamp still burning',
-        epigraphRef: 'APPROACH & PRESS [E] TO COMPLETE 1 & 2 KINGS & RETURN TO THE GATEHOUSE'
+        epigraphRef: 'APPROACH & PRESS [E] TO CONTINUE TO DISTRICT IX: OUR EYES ARE ON YOU'
       }
+    };
+
+    const lastPart = manifest.parts && manifest.parts.length
+      ? manifest.parts[manifest.parts.length - 1]
+      : { epigraph: 'The word of our God stands forever.' };
+    const dynamicAmenCfg = {
+      title: `AMEN GATE · ${manifest.title.toUpperCase()} COMPLETED`,
+      epigraph: lastPart.epigraph || manifest.subtitle,
+      epigraphRef: 'APPROACH & PRESS [E] TO COMPLETE THIS BOOK & CONTINUE THE PILGRIMAGE'
     };
 
     const amenArch = this.createPartBannerArch({
       index: 5,
-      ...(amenConfigs[slug] || amenConfigs.genesis)
+      ...(amenConfigs[slug] || dynamicAmenCfg)
     });
     amenArch.position.set(0, 0.1, -9.2);
     group.add(amenArch);

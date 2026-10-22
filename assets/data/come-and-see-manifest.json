@@ -1,0 +1,824 @@
+{
+  "district": 31,
+  "slug": "come-and-see",
+  "title": "Come and See",
+  "subtitle": "John in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/come-and-see/web/b-031-000.jpg",
+  "beforeYouBegin": "John's gospel begins before the beginning and ends with breakfast on a beach. In between: water turned to wine, a woman at a well, bread for five thousand, a dead man called by name, a basin and a towel, a cross, and an empty tomb in a garden.\n\nThis book walks through it in forty short poems, in five parts. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things around Jesus —jars, a well, a basin, a charcoal fire—and leave his face to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the Gospel of John alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "The Word Became Flesh",
+      "epigraph": "The W ord became flesh, and lived among us.",
+      "epigraphRef": "John 1:14",
+      "lightName": "Light of The Word Became Flesh",
+      "lightHint": "Near 'the W ord' (John 1:1–3) in Part 1: The Word Became Flesh"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "Bread and Water",
+      "epigraph": "I am the bread of life.",
+      "epigraphRef": "John 6:35",
+      "lightName": "Light of Bread and Water",
+      "lightHint": "Near 'the jar left behind' (John 4:13–15) in Part 2: Bread and Water"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 17,
+      "title": "I Am",
+      "epigraph": "I am the resurrection and the life.",
+      "epigraphRef": "John 11:25",
+      "lightName": "Light of I Am",
+      "lightHint": "Near 'the key' (John 8:31–32) in Part 3: I Am"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 25,
+      "title": "The Upper Room",
+      "epigraph": "Just as I have loved you, you also love one another.",
+      "epigraphRef": "John 13:34",
+      "lightName": "Light of The Upper Room",
+      "lightHint": "Near 'twelve pairs' (John 13:3–5) in Part 4: The Upper Room"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 33,
+      "title": "It Is Finished",
+      "epigraph": "these are written, that you may believe that Jesus is the Christ, the Son of God",
+      "epigraphRef": "John 20:31",
+      "lightName": "Light of It Is Finished",
+      "lightHint": "Near 'what is truth?' (John 18:37–38) in Part 5: It Is Finished"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "the W ord",
+      "ref": "John 1:1–3",
+      "epigraph": "“In the beginning was the Word, and the Word was with God, and the Word was God.”",
+      "poem": "John starts where Genesis starts:\nin the beginning.\n\nbut before the light,\nbefore the land,\nbefore anything was made—\n\nthe Word.\n\nGod has always\nbeen speaking.\nand the sentence\nhas a name.",
+      "webSrc": "assets/come-and-see/web/b-031-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#363733",
+        "horizon": "#53554b",
+        "ground": "#6a624e",
+        "overall": "#565447",
+        "accent": "#d8c4a0"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "not overcome",
+      "ref": "John 1:4–5",
+      "epigraph": "“The light shines in the darkness, and the darkness hasn’t overcome it.”",
+      "poem": "the darkness\nhas had every chance.\n\nwars. plagues.\nempires. graves.\nyour worst year.\n\nand the light\nis still shining.\n\nnot because the dark is weak.\nbecause the light\nis him.",
+      "webSrc": "assets/come-and-see/web/b-031-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#493f2c",
+        "horizon": "#403523",
+        "ground": "#4a4030",
+        "overall": "#4a3e2c",
+        "accent": "#e8b15f"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "among us",
+      "ref": "John 1:14",
+      "epigraph": "“full of grace and truth.”",
+      "poem": "the Word became flesh—\nskin, hunger, calluses,\na hometown,\na trade.\n\nhe pitched his tent\namong us,\nthe old word says,\nlike God in the desert—\n\nbut closer.\nclose enough\nto touch.\n\ngrace\nand truth,\nwalking around\nin sandals.",
+      "webSrc": "assets/come-and-see/web/b-031-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a39a84",
+        "horizon": "#968b72",
+        "ground": "#736349",
+        "overall": "#8f8269",
+        "accent": "#f0d9b2"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "the Lamb",
+      "ref": "John 1:29",
+      "epigraph": "“Behold, the Lamb of God, who takes away the sin of the world!”",
+      "poem": "John the Baptist\nsaw his cousin walking up the riverbank\nand said the strangest thing:\n\nlook—\nthe Lamb.\n\nevery lamb on every altar,\nevery doorframe in Egypt,\nevery Passover—\n\nthey were all\npointing\nat him.",
+      "webSrc": "assets/come-and-see/web/b-031-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9ceac",
+        "horizon": "#a89f85",
+        "ground": "#7e7762",
+        "overall": "#a7a086",
+        "accent": "#f1e5bf"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "come and see",
+      "ref": "John 1:35–39",
+      "epigraph": "“Come, and see.”",
+      "poem": "they asked him\nwhere he was staying.\n\nhe didn't give them an address\nor a sermon.\n\ncome and see.\n\nand they spent the day with him,\nand one of them\nremembered the time:\nabout four in the afternoon.\n\nthat's what meeting Jesus does.\nyou remember the hour.",
+      "webSrc": "assets/come-and-see/web/b-031-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cebd93",
+        "horizon": "#9a8d6e",
+        "ground": "#8b7d5d",
+        "overall": "#a29371",
+        "accent": "#f6dea1"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "the good wine",
+      "ref": "John 2:1–10",
+      "epigraph": "“You have kept the good wine until now!”",
+      "poem": "the first sign\nwasn't a healing.\nit was a party\nthat ran out of wine.\n\nsix stone jars of water,\nand the best wine\nanyone had ever tasted.\n\nhe cares about\nthe embarrassed host,\nthe empty cups,\nyour joy.\n\nand he saves\nthe best\nfor last.",
+      "webSrc": "assets/come-and-see/web/b-031-006.jpg",
+      "heroSrc": "assets/come-and-see/web/b-031-006.jpg",
+      "isScene": true,
+      "sceneType": "cana_stone_jars",
+      "palette": {
+        "top": "#dbcfb4",
+        "horizon": "#aca18a",
+        "ground": "#a2967c",
+        "overall": "#b5a990",
+        "accent": "#f3e6ca"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the wind",
+      "ref": "John 3:1–8",
+      "epigraph": "“The wind blows where it wants to”",
+      "poem": "Nicodemus came at night,\na teacher with questions.\n\nand Jesus pointed\nat the wind.\n\nyou hear it.\nyou can't see it.\nyou can't steer it.\n\nthat's how new birth works:\nnot a program.\na breath from God\nblowing where it wants—\n\nsometimes\nright through a teacher\nat night.",
+      "webSrc": "assets/come-and-see/web/b-031-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#575b59",
+        "horizon": "#5d5b50",
+        "ground": "#3e3b2d",
+        "overall": "#515046",
+        "accent": "#dfcfad"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "so",
+      "ref": "John 3:16",
+      "epigraph": "“For God so loved the world, that he gave his one and only Son”",
+      "poem": "the most famous verse\nin the Bible\nturns on a small word:\nso.\n\nso much.\nso far.\nso completely.\n\nGod loved the world\nso\nthat he gave.\n\nnot a little.\nnot his leftovers.\nhis Son.",
+      "webSrc": "assets/come-and-see/web/b-031-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d6bc",
+        "horizon": "#d1c09f",
+        "ground": "#7b725c",
+        "overall": "#b3a78d",
+        "accent": "#fbe99f"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "the jar left behind",
+      "ref": "John 4:13–15",
+      "epigraph": "“the water that I will give him will become in him a well of water springing up to eternal life.”",
+      "poem": "she came at noon,\nwhen no one else would be there.\n\nand a Jewish man\nasked her for a drink.\n\nhe offered her water\nyou never have to come back for—\na spring\ninside you.\n\nshe left her jar\nat the well.\n\nwhen you find the spring,\nyou stop carrying\nthe bucket.",
+      "webSrc": "assets/come-and-see/web/b-031-009.jpg",
+      "heroSrc": "assets/come-and-see/web/b-031-009.jpg",
+      "isScene": true,
+      "sceneType": "jacob_well_jar",
+      "palette": {
+        "top": "#d7c39b",
+        "horizon": "#aa9975",
+        "ground": "#af9a74",
+        "overall": "#b9a680",
+        "accent": "#eedbb5"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "everything I ever did",
+      "ref": "John 4:28–30",
+      "epigraph": "“Come, see a man who told me everything that I did.”",
+      "poem": "he told me everything I ever did,\nshe said—\n\nand she ran to tell the town.\n\nnot ashamed.\nfree.\n\nthe one who knew everything about her\nhad not turned away.\n\nthat's the kind of news\nyou run with.",
+      "webSrc": "assets/come-and-see/web/b-031-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7ccb5",
+        "horizon": "#a09c8c",
+        "ground": "#b9a78a",
+        "overall": "#b8ad95",
+        "accent": "#ebd9b9"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "do you want to be well?",
+      "ref": "John 5:5–9",
+      "epigraph": "“Do you want to be made well?”",
+      "poem": "thirty-eight years by the pool.\n\nand Jesus asked\nwhat sounds like a strange question:\ndo you want to be well?\n\nbecause sometimes\nwe've been lying by the water\nso long\nwe've made a home of the waiting.\n\nget up, he said.\npick up your mat.\nwalk.",
+      "webSrc": "assets/come-and-see/web/b-031-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b5a990",
+        "horizon": "#98937f",
+        "ground": "#a99c82",
+        "overall": "#a69d86",
+        "accent": "#e6dbbc"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "five and two",
+      "ref": "John 6:8–11",
+      "epigraph": "“There is a boy here who has five barley loaves and two fish, but what are these among so many?”",
+      "poem": "five thousand people,\nand one boy's lunch.\n\nwhat is this\namong so many?\n\na fair question.\nthe math doesn't work.\n\nbut the boy gave it anyway,\nand Jesus gave thanks,\n\nand there was enough.\n\nbring what you have.\nit was never the math\nthat fed them.",
+      "webSrc": "assets/come-and-see/web/b-031-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0cdad",
+        "horizon": "#a29276",
+        "ground": "#8e7f65",
+        "overall": "#ac9b7e",
+        "accent": "#daad71"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "nothing lost",
+      "ref": "John 6:12–13",
+      "epigraph": "“Gather up the broken pieces which are left over, that nothing be lost.”",
+      "poem": "everyone had eaten.\nthere was plenty.\n\nand still he said:\ngather the broken pieces.\ndon't let anything be lost.\n\ntwelve baskets\nof leftovers.\n\nhe's like that\nwith broken pieces—\nof bread,\nand of people.",
+      "webSrc": "assets/come-and-see/web/b-031-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddc795",
+        "horizon": "#998e6f",
+        "ground": "#5f5339",
+        "overall": "#958664",
+        "accent": "#fadc8f"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "it is I",
+      "ref": "John 6:16–21",
+      "epigraph": "“It is I. Don’t be afraid.”",
+      "poem": "dark.\nwind.\nmiles from shore.\n\nand someone walking toward them\non the water.\n\nthey were terrified.\n\nand then the voice they knew:\nit is I.\ndon't be afraid.\n\nthe thing coming toward you\nin the storm\nmight be\nhim.",
+      "webSrc": "assets/come-and-see/web/b-031-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#626056",
+        "horizon": "#52544e",
+        "ground": "#33332f",
+        "overall": "#4c4c45",
+        "accent": "#d9cba7"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "where else?",
+      "ref": "John 6:66–69",
+      "epigraph": "“Lord, to whom would we go? You have the words of eternal life.”",
+      "poem": "the crowds left.\nthe teaching was too hard.\n\nand Jesus turned to the twelve:\ndo you want to leave too?\n\nand Peter said\nthe most honest thing a doubter can say:\n\nwhere else would we go?\n\nyou have\nthe words of life.\n\nsometimes faith\nis just knowing\nthere's nowhere else.",
+      "webSrc": "assets/come-and-see/web/b-031-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c6a7",
+        "horizon": "#aea68f",
+        "ground": "#9b8e71",
+        "overall": "#b1a68a",
+        "accent": "#f4e7c8"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "the light of the world",
+      "ref": "John 8:12",
+      "epigraph": "“I am the light of the world.”",
+      "poem": "at the feast,\nthe temple courts\nblazed with light.\n\nand Jesus stood there\nand said:\nI am the light of the world.\n\nnot a light.\nthe light.\n\nfollow me,\nand you won't walk\nin the dark.",
+      "webSrc": "assets/come-and-see/web/b-031-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#675f47",
+        "horizon": "#a19063",
+        "ground": "#57503c",
+        "overall": "#73694c",
+        "accent": "#f8dd7a"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "the key",
+      "ref": "John 8:31–32",
+      "epigraph": "“You will know the truth, and the truth will make you free.”",
+      "poem": "not an idea\nthat sets you free.\n\na person.\n\nstay with my word, he said,\nand you'll know the truth—\n\nand the truth\nisn't a lock.\nit's a key.",
+      "webSrc": "assets/come-and-see/web/b-031-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c7a4",
+        "horizon": "#90866b",
+        "ground": "#8b8066",
+        "overall": "#a19579",
+        "accent": "#eadcac"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "one thing I know",
+      "ref": "John 9:24–25",
+      "epigraph": "“though I was blind, now I see.”",
+      "poem": "the experts argued.\nthe parents hedged.\nthe neighbors weren't sure.\n\nand the man born blind\nsaid:\nI don't know about all that.\n\none thing I know.\nI was blind.\nnow I see.\n\nyou don't need to win the argument\nto tell\nwhat he did.",
+      "webSrc": "assets/come-and-see/web/b-031-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9bb9d",
+        "horizon": "#92846a",
+        "ground": "#726a53",
+        "overall": "#95896e",
+        "accent": "#efe6c8"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "by name",
+      "ref": "John 10:2–4",
+      "epigraph": "“He calls his own sheep by name, and leads them out.”",
+      "poem": "not a number.\nnot a flock.\n\nby name.\n\nthe shepherd\nknows the one who limps,\nthe one who wanders,\nthe one who's always last.\n\nand the sheep\nknow his voice\nfrom every other.\n\nlisten.\nhe's calling\nyours.",
+      "webSrc": "assets/come-and-see/web/b-031-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c6a5",
+        "horizon": "#c0b499",
+        "ground": "#544f3f",
+        "overall": "#9e947d",
+        "accent": "#f0d5ac"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "the gate",
+      "ref": "John 10:11–15",
+      "epigraph": "“The good shepherd lays down his life for the sheep.”",
+      "poem": "a hired hand\nruns when the wolf comes.\n\nit's not his flock.\n\nthe good shepherd\nlies down in the gateway\nand says:\nyou'll have to go through me.\n\nand the sheep\ngo free.",
+      "webSrc": "assets/come-and-see/web/b-031-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#203d4e",
+        "horizon": "#56594e",
+        "ground": "#4c4836",
+        "overall": "#444b45",
+        "accent": "#b0a17d"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "Jesus wept",
+      "ref": "John 11:32–36",
+      "epigraph": "“Jesus wept.”",
+      "poem": "the shortest verse.\n\nhe knew\nwhat he was about to do.\nin a few minutes\nLazarus would walk out.\n\nand still\nhe wept.\n\nGod doesn't skip your grief\non the way to the miracle.\n\nhe stands at the grave\nand cries\nwith you.",
+      "webSrc": "assets/come-and-see/web/b-031-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b09b75",
+        "horizon": "#998a70",
+        "ground": "#7c7363",
+        "overall": "#93856b",
+        "accent": "#f5db96"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "unbind him",
+      "ref": "John 11:43–44",
+      "epigraph": "“Free him, and let him go.”",
+      "poem": "Lazarus, come out!\n\nand the dead man walked,\nstill wrapped in grave clothes.\n\nand Jesus turned to the crowd:\nunbind him.\nlet him go.\n\nhe gives the life.\nhe lets us\nhelp with the wrappings.",
+      "webSrc": "assets/come-and-see/web/b-031-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9c9384",
+        "horizon": "#8d806a",
+        "ground": "#8d816e",
+        "overall": "#918573",
+        "accent": "#e3d1b1"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "the fragrance",
+      "ref": "John 12:1–5",
+      "epigraph": "“The house was filled with the fragrance of the ointment.”",
+      "poem": "a year's wages,\npoured on his feet.\n\nJudas called it waste.\n\nbut the whole house\nfilled with the smell of it.\n\nlove that costs something\ncan't be kept quiet.\nit fills the room.",
+      "webSrc": "assets/come-and-see/web/b-031-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c8c0a9",
+        "horizon": "#988e71",
+        "ground": "#93876d",
+        "overall": "#a2987d",
+        "accent": "#e7d5a6"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "the grain",
+      "ref": "John 12:24",
+      "epigraph": "“unless a grain of wheat falls into the earth and dies, it remains by itself alone”",
+      "poem": "a seed kept safe in a jar\nstays a seed.\n\nbury it,\nand it becomes a field.\n\nhe was talking\nabout himself.\n\nand he was talking\nabout us.",
+      "webSrc": "assets/come-and-see/web/b-031-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c5aa",
+        "horizon": "#a99d85",
+        "ground": "#6a5e4a",
+        "overall": "#9d917a",
+        "accent": "#ebdec7"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "twelve pairs",
+      "ref": "John 13:3–5",
+      "epigraph": "“he poured water into the basin, and began to wash the disciples’ feet”",
+      "poem": "knowing he had all authority,\nknowing where he came from,\nknowing where he was going—\n\nhe got up from supper,\nwrapped a towel around his waist,\nand knelt.\n\ntwelve pairs of dirty feet,\nincluding the ones\nthat would walk out\nto betray him.",
+      "webSrc": "assets/come-and-see/web/b-031-025.jpg",
+      "heroSrc": "assets/come-and-see/web/b-031-025.jpg",
+      "isScene": true,
+      "sceneType": "upper_room_basin",
+      "palette": {
+        "top": "#d3c8b0",
+        "horizon": "#92856d",
+        "ground": "#b9ac92",
+        "overall": "#afa38b",
+        "accent": "#e1d2af"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "it was night",
+      "ref": "John 13:26–30",
+      "epigraph": "“he went out immediately. It was night.”",
+      "poem": "Judas took the bread\nand went out.\n\nand John writes\nfour words:\nit was night.\n\nand not only\nin the sky.\n\nthe saddest thing\nisn't the dark.\nit's leaving the table\nwhere the light is.",
+      "webSrc": "assets/come-and-see/web/b-031-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a19170",
+        "horizon": "#65573c",
+        "ground": "#8f7d5a",
+        "overall": "#837354",
+        "accent": "#f8d072"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "many rooms",
+      "ref": "John 14:1–3",
+      "epigraph": "“In my Father’s house are many homes.”",
+      "poem": "don't let your hearts be troubled.\n\nthere's room\nin my Father's house.\nlots of rooms.\n\nI'm going ahead\nto get yours ready.\n\nif it weren't true,\nI would have told you.\n\nhe's not the kind\nto leave you\nguessing.",
+      "webSrc": "assets/come-and-see/web/b-031-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b4a183",
+        "horizon": "#736652",
+        "ground": "#494236",
+        "overall": "#716653",
+        "accent": "#dca960"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "the way",
+      "ref": "John 14:5–6",
+      "epigraph": "“I am the way, the truth, and the life.”",
+      "poem": "Thomas said:\nwe don't know where you're going.\nhow can we know the way?\n\nand Jesus didn't hand him a map.\n\nI am the way.\n\nnot directions.\na person\nto walk with.",
+      "webSrc": "assets/come-and-see/web/b-031-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c5a7",
+        "horizon": "#8e8775",
+        "ground": "#807560",
+        "overall": "#9a9079",
+        "accent": "#f6d79f"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "peace",
+      "ref": "John 14:27",
+      "epigraph": "“Peace I leave with you. My peace I give to you”",
+      "poem": "the night before the cross,\nhe gave them\nwhat he had:\n\npeace.\n\nnot the world's kind,\nthe absence of trouble.\n\nhis kind:\na calm heart\nin the middle of it.\n\ndon't be troubled.\ndon't be afraid.",
+      "webSrc": "assets/come-and-see/web/b-031-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c2ac",
+        "horizon": "#c2b2a7",
+        "ground": "#696156",
+        "overall": "#a49789",
+        "accent": "#e8d7b7"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "the vine",
+      "ref": "John 15:4–5",
+      "epigraph": "“I am the vine. Y ou are the branches.”",
+      "poem": "a branch\ndoesn't try hard\nto make grapes.\n\nit just stays\nconnected.\n\nremain in me, he said,\nand the fruit will come.\n\napart from me,\nnothing.\n\nwith me,\nmore than you'd imagine.",
+      "webSrc": "assets/come-and-see/web/b-031-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c9a9",
+        "horizon": "#b5aa93",
+        "ground": "#988c74",
+        "overall": "#b4a88e",
+        "accent": "#e7dcbf"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "friends",
+      "ref": "John 15:13–15",
+      "epigraph": "“I have called you friends”",
+      "poem": "not servants.\nfriends.\n\na servant does what he's told\nwithout knowing why.\n\na friend\ngets told everything.\n\nand the greatest love,\nhe said,\nis laying down your life\nfor your friends.\n\nhe was about to\nshow them.",
+      "webSrc": "assets/come-and-see/web/b-031-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8c7356",
+        "horizon": "#64523c",
+        "ground": "#584834",
+        "overall": "#68553f",
+        "accent": "#e6b36f"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "take heart",
+      "ref": "John 16:33",
+      "epigraph": "“In the world you have trouble; but cheer up! I have overcome the world.”",
+      "poem": "he didn't promise\nno trouble.\n\nin the world\nyou will have trouble.\nguaranteed.\n\nbut—\ntake heart.\n\nI have overcome the world.\n\npast tense,\nthe night before the cross.\n\nhe was that sure.",
+      "webSrc": "assets/come-and-see/web/b-031-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#988f7d",
+        "horizon": "#9c927e",
+        "ground": "#4f4536",
+        "overall": "#7c7361",
+        "accent": "#f9e5bd"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "what is truth?",
+      "ref": "John 18:37–38",
+      "epigraph": "“What is truth?”",
+      "poem": "Pilate asked\nthe right question,\n\nto the right person,\n\nand walked out\nbefore the answer.\n\ntruth was standing\nright in front of him,\nwith bound hands.",
+      "webSrc": "assets/come-and-see/web/b-031-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddc79c",
+        "horizon": "#9a8164",
+        "ground": "#a9906a",
+        "overall": "#b19975",
+        "accent": "#f7e4b8"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "a family",
+      "ref": "John 19:25–27",
+      "epigraph": "“From that hour, the disciple took her to his own home.”",
+      "poem": "dying,\nhe was still taking care of people.\n\nhis mother\nneeded a son.\nhis friend\nneeded a mother.\n\nhere's your son.\nhere's your mother.\n\nand from that hour\nthe church began\nas a family.",
+      "webSrc": "assets/come-and-see/web/b-031-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b18f",
+        "horizon": "#776d5e",
+        "ground": "#80735e",
+        "overall": "#8e816b",
+        "accent": "#f7cd95"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "finished",
+      "ref": "John 19:28–30",
+      "epigraph": "“It is finished.”",
+      "poem": "one word:\npaid in full.\ndone.\ncomplete.\n\nnot \"I am finished. \"\nit is finished.\n\neverything he came to do.\neverything the lambs pointed to.\neverything we couldn't.\n\ndone.",
+      "webSrc": "assets/come-and-see/web/b-031-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b596",
+        "horizon": "#837967",
+        "ground": "#726551",
+        "overall": "#8d816b",
+        "accent": "#ccbb9e"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "while it was still dark",
+      "ref": "John 20:1",
+      "epigraph": "“Mary Magdalene went early, while it was still dark, to the tomb”",
+      "poem": "she went while it was still dark—\n\nnot expecting anything.\njust to be near him.\n\nand the stone\nwas already gone.\n\nsometimes the dawn\ncomes while it's still dark,\nand we're the last\nto find out.",
+      "webSrc": "assets/come-and-see/web/b-031-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b6a0",
+        "horizon": "#9f8e7f",
+        "ground": "#585348",
+        "overall": "#8d8172",
+        "accent": "#f7c2a7"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "Mary",
+      "ref": "John 20:11–16",
+      "epigraph": "“Jesus said to her, “Mary.””",
+      "poem": "she thought he was the gardener.\n\nshe was crying,\nasking where they'd taken him.\n\nand he said\none word:\n\nMary.\n\nand she knew.\n\nthat's how he finds us—\nnot with an argument.\nwith our name.",
+      "webSrc": "assets/come-and-see/web/b-031-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cebd9a",
+        "horizon": "#8d8168",
+        "ground": "#6a614d",
+        "overall": "#8f846a",
+        "accent": "#fadfaa"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "you",
+      "ref": "John 20:26–29",
+      "epigraph": "“Blessed are those who have not seen, and have believed.”",
+      "poem": "Thomas wanted proof.\nhe got it—\nthe scars, the hands.\n\nand Jesus looked past him,\ntwo thousand years ahead,\n\nand blessed you.\n\nyou haven't seen.\nyou believe anyway.\n\nhe says\nyou're blessed.",
+      "webSrc": "assets/come-and-see/web/b-031-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6d614a",
+        "horizon": "#5c523f",
+        "ground": "#635741",
+        "overall": "#615742",
+        "accent": "#f2ce90"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "breakfast",
+      "ref": "John 21:9–12",
+      "epigraph": "“Come and eat breakfast!”",
+      "poem": "they'd fished all night\nand caught nothing.\n\nand on the shore,\na fire already going,\nfish on the coals,\nbread,\n\nand the risen Lord\nsaying:\ncome have breakfast.\n\nhe could have said anything.\nhe said,\nyou must be hungry.",
+      "webSrc": "assets/come-and-see/web/b-031-039.jpg",
+      "heroSrc": "assets/come-and-see/web/b-031-039.jpg",
+      "isScene": true,
+      "sceneType": "galilee_charcoal_fire",
+      "palette": {
+        "top": "#dec799",
+        "horizon": "#9d9077",
+        "ground": "#978669",
+        "overall": "#ae9c7b",
+        "accent": "#eddbac"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "feed my sheep",
+      "ref": "John 21:15–17",
+      "epigraph": "“Lord, you know everything. Y ou know that I have affection for you.”",
+      "poem": "a charcoal fire—\nthe same kind\nPeter stood beside\nwhen he denied him three times.\n\nand now, by another fire,\nthree questions:\ndo you love me?\n\nthree times,\none for each denial.\n\nand every time,\nnot a rebuke.\na job:\n\nfeed my sheep.\n\nthat's how he restores us.\nhe gives us\nsomething to do.",
+      "webSrc": "assets/come-and-see/web/b-031-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d4b2",
+        "horizon": "#a4967a",
+        "ground": "#7f7462",
+        "overall": "#a89b81",
+        "accent": "#fbdc9d"
+      }
+    }
+  ]
+}

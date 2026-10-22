@@ -1,0 +1,634 @@
+{
+  "district": 41,
+  "slug": "doers-of-the-word",
+  "title": "Doers of the Word",
+  "subtitle": "James in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/doers-of-the-word/web/b-041-000.jpg",
+  "beforeYouBegin": "James is a short letter of plain wisdom: trials and endurance, the rich and the poor, faith that works, a tongue that sets forests on fire, and a farmer waiting for rain.\n\nThis book walks through its five chapters in thirty short poems. Each poem sits beside a picture and under a single line of Scripture, so you can read it in an evening, or one page a morning.\n\nThe poems are not the Bible. They are one reader's response to it. Open the letter of James alongside this one, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Doers of the Word",
+      "epigraph": "But be doers of the word, and not only hearers",
+      "epigraphRef": "James 1:22",
+      "lightName": "Light of Doers of the Word",
+      "lightHint": "Near 'the kiln' (James 1:2–4) in Part 1: Doers of the Word"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 7,
+      "title": "Faith That Works",
+      "epigraph": "Even so faith, if it has no works, is dead in itself.",
+      "epigraphRef": "James 2:17",
+      "lightName": "Light of Faith That Works",
+      "lightHint": "Near 'the good seat' (James 2:1–4) in Part 2: Faith That Works"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 13,
+      "title": "The Small Fire",
+      "epigraph": "But the wisdom that is from above is first pure, then peaceful, gentle, reasonable, full of mercy and good fruits",
+      "epigraphRef": "James 3:17",
+      "lightName": "Light of The Small Fire",
+      "lightHint": "Near 'we all stumble' (James 3:1–2) in Part 3: The Small Fire"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 19,
+      "title": "Draw Near",
+      "epigraph": "Draw near to God, and he will draw near to you.",
+      "epigraphRef": "James 4:8",
+      "lightName": "Light of Draw Near",
+      "lightHint": "Near 'open hands' (James 4:1–3) in Part 4: Draw Near"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 25,
+      "title": "The Early and Late Rain",
+      "epigraph": "the farmer waits for the precious fruit of the earth",
+      "epigraphRef": "James 5:7",
+      "lightName": "Light of The Early and Late Rain",
+      "lightHint": "Near 'moth-eaten' (James 5:1–4) in Part 5: The Early and Late Rain"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "the kiln",
+      "ref": "James 1:2–4",
+      "epigraph": "“the testing of your faith produces endurance.”",
+      "poem": "count it joy, he says—\nnot the trial,\nbut what the trial is making.\n\nclay doesn't enjoy the kiln.\nbut it comes out\nable to hold water.\n\nendurance is not\na feeling.\nit is a shape\nyou are being fired into.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e6d7b0",
+        "horizon": "#98896c",
+        "ground": "#7f7158",
+        "overall": "#a59677",
+        "accent": "#ebdbb5"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "ask",
+      "ref": "James 1:5–8",
+      "epigraph": "“let him ask of God, who gives to all liberally and without reproach”",
+      "poem": "if you don't know what to do,\nask.\n\nhe gives to everyone,\ngenerously,\nand never says\nyou should have known.\n\nbut ask like you mean it—\nnot like a wave\nblown one way, then the other,\nwanting the answer\nand wanting to keep your options open.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9cdb8",
+        "horizon": "#9f9b8d",
+        "ground": "#7d7564",
+        "overall": "#9f9887",
+        "accent": "#e1d5bf"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "wildflower",
+      "ref": "James 1:9–11",
+      "epigraph": "“like the flower in the grass, he will pass away”",
+      "poem": "the red flowers on the hillside\nare beautiful for a week.\n\nthen the hot wind comes,\nand the sun,\nand by noon\nthey are straw.\n\nso the rich man, too,\nin the middle of his busy plans.\n\nthe poor brother can lift his head.\nhe was never counting\non flowers.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5d5b3",
+        "horizon": "#bdaf97",
+        "ground": "#967c57",
+        "overall": "#b8a585",
+        "accent": "#faeaba"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "no shifting shadow",
+      "ref": "James 1:16–17",
+      "epigraph": "“Every good gift and every perfect gift is from above, coming down from the Father of lights”",
+      "poem": "the sun moves,\nand the shadow on the sundial\nmoves with it.\n\nmorning, noon, evening—\nevery light we know\nturns.\n\nbut the Father of lights\ncasts no shifting shadow.\n\nevery good thing in your hands this morning—\nthe bread, the breath, the friend—\ncame down from a hand\nthat does not change its mind.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddd0ab",
+        "horizon": "#baaa89",
+        "ground": "#907955",
+        "overall": "#b5a37f",
+        "accent": "#e4c590"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "the mirror",
+      "ref": "James 1:22–25",
+      "epigraph": "“he is like a man looking at his natural face in a mirror”",
+      "poem": "you glance in the bronze mirror,\nsee the smudge on your cheek,\nand walk out the door\nwithout wiping it.\n\nthat is hearing\nwithout doing.\n\nthe word is not a mirror\nto admire.\nit is a basin of water\nset beside it.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-005.jpg",
+      "heroSrc": "assets/doers-of-the-word/web/b-041-005.jpg",
+      "isScene": true,
+      "sceneType": "doers_mirror_table",
+      "palette": {
+        "top": "#857766",
+        "horizon": "#5e4d3a",
+        "ground": "#6b5842",
+        "overall": "#6d5c48",
+        "accent": "#d9c6ad"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "a knock on the door",
+      "ref": "James 1:26–27",
+      "epigraph": "“to visit the fatherless and widows in their affliction”",
+      "poem": "he boils religion down\nto a knock on a door.\n\nthe widow no one visits.\nthe child no one claims.\n\nbring bread.\nsit a while.\ncome back next week.\n\nand keep your own hands clean\non the way there.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cabb95",
+        "horizon": "#aa9b76",
+        "ground": "#b3a27b",
+        "overall": "#b6a680",
+        "accent": "#e6d1a0"
+      }
+    },
+    {
+      "n": 7,
+      "part": 2,
+      "title": "the good seat",
+      "ref": "James 2:1–4",
+      "epigraph": "“Sit here in a good place”",
+      "poem": "a gold ring walks in,\nand someone jumps up:\nhere, sit here.\n\na man in dirty clothes walks in:\nyou can stand.\nor the floor is fine.\n\nwe do it without thinking.\nJames says:\nthink.\n\nthe King you worship\nwas laid in a feeding trough\nand never once\nasked for the good seat.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d7ba",
+        "horizon": "#9d8f75",
+        "ground": "#b8ab8b",
+        "overall": "#b8ab8e",
+        "accent": "#e9ddc3"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "rich",
+      "ref": "James 2:5",
+      "epigraph": "“Didn’t God choose those who are poor in this world to be rich in faith”",
+      "poem": "look again at the poor man\nyou asked to stand.\n\nGod may have chosen him\nfirst.\n\nheir to a kingdom.\nrich\nin the only coin\nthat spends in heaven.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b695",
+        "horizon": "#998464",
+        "ground": "#aa9571",
+        "overall": "#aa9675",
+        "accent": "#e0d1ac"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "mercy wins",
+      "ref": "James 2:12–13",
+      "epigraph": "“Mercy triumphs over judgment.”",
+      "poem": "you will be judged\nby the same measure\nyou used on others,\n\nso use a generous one.\n\nin the courtroom of God,\nmercy has the last word.\nit always\nwins the case.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#988862",
+        "horizon": "#ae9d72",
+        "ground": "#958662",
+        "overall": "#a09068",
+        "accent": "#f9e5a0"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "be warmed and filled",
+      "ref": "James 2:14–17",
+      "epigraph": "“Go in peace. Be warmed and filled”",
+      "poem": "go in peace, we say.\nstay warm.\neat well.\n\nand close the door.\n\na blessing with no bread in it\nis just weather.\n\nfaith that feeds no one\nis a body\nwith no breath.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9f9580",
+        "horizon": "#726b5c",
+        "ground": "#8b806c",
+        "overall": "#887e6c",
+        "accent": "#d5c8aa"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "they shudder",
+      "ref": "James 2:18–20",
+      "epigraph": "“The demons also believe, and shudder.”",
+      "poem": "you believe God is one?\ngood.\n\nso do the demons,\nand they shudder.\n\nbelieving the right facts\nis where faith starts,\nnot where it lives.\n\nfaith lives\nin what you do\non an ordinary Tuesday.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#72654c",
+        "horizon": "#88714e",
+        "ground": "#716248",
+        "overall": "#79674a",
+        "accent": "#f6b961"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "friend of God",
+      "ref": "James 2:21–23",
+      "epigraph": "“he was called the friend of God”",
+      "poem": "Abraham believed God,\nand it was counted to him\nas righteousness.\n\nthen he got up\nand walked it out—\ntent to tent,\nyear after year,\nall the way to the mountain.\n\nthat is why they called him\nnot the believer,\nnot the scholar,\nbut the friend of God.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#5d605a",
+        "horizon": "#938e7a",
+        "ground": "#625c49",
+        "overall": "#6e6b5c",
+        "accent": "#ddd0b1"
+      }
+    },
+    {
+      "n": 13,
+      "part": 3,
+      "title": "we all stumble",
+      "ref": "James 3:1–2",
+      "epigraph": "“For we all stumble in many things.”",
+      "poem": "we all stumble,\nsays the teacher,\nputting himself in the we.\n\nthat's the first lesson\nbefore you teach:\n\nyou are not above the path.\nyou are on it,\nwith a scraped knee\nlike everyone else.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d7b8",
+        "horizon": "#a59f8a",
+        "ground": "#92876e",
+        "overall": "#afa68c",
+        "accent": "#f6edd6"
+      }
+    },
+    {
+      "n": 14,
+      "part": 3,
+      "title": "small things steer",
+      "ref": "James 3:3–4",
+      "epigraph": "“guided by a very small rudder, wherever the pilot desires”",
+      "poem": "a bit of iron\nturns a horse.\na slab of wood\nturns a ship in the wind.\n\nsmall things steer.\n\nand the smallest steering thing you own\nis behind your teeth.\n\nwhere is it\ntaking you?",
+      "webSrc": "assets/doers-of-the-word/web/b-041-014.jpg",
+      "heroSrc": "assets/doers-of-the-word/web/b-041-014.jpg",
+      "isScene": true,
+      "sceneType": "wooden_rudder_helm",
+      "palette": {
+        "top": "#e1cfa2",
+        "horizon": "#a59675",
+        "ground": "#a39675",
+        "overall": "#b5a782",
+        "accent": "#e7d4a8"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "one spark",
+      "ref": "James 3:5–6",
+      "epigraph": "“See how a small fire can spread to a large forest!”",
+      "poem": "one spark in dry brush.\nby evening,\nthe whole hillside.\n\none sentence\nsaid in a hot moment,\nand a friendship,\na family,\na church,\nis smoke.\n\nwords are small.\nso is an ember.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0b494",
+        "horizon": "#8c856f",
+        "ground": "#484231",
+        "overall": "#7f7761",
+        "accent": "#d1c5a2"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "no one can tame it",
+      "ref": "James 3:7–10",
+      "epigraph": "“Out of the same mouth comes blessing and cursing.”",
+      "poem": "we have tamed\nbeasts and birds,\ncreatures of the sea.\n\nbut no one\nhas tamed the tongue.\n\none morning it sings to God.\nby afternoon it cuts down\nsomeone made\nin his image.\n\nthese things,\nmy brothers,\nought not to be so.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9bea4",
+        "horizon": "#9c917a",
+        "ground": "#a99d83",
+        "overall": "#afa38b",
+        "accent": "#d8caaa"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "the spring",
+      "ref": "James 3:11–12",
+      "epigraph": "“Does a spring send out from the same opening fresh and bitter water?”",
+      "poem": "a spring gives one kind of water.\na fig tree gives figs.\na vine doesn't wake up\nand try olives.\n\nwhat comes out of you\ntells what is in you.\n\nso don't just watch your words.\nask God\nto change the water\nat the source.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-017.jpg",
+      "heroSrc": "assets/doers-of-the-word/web/b-041-017.jpg",
+      "isScene": true,
+      "sceneType": "fresh_spring_well",
+      "palette": {
+        "top": "#ccc1a7",
+        "horizon": "#958c78",
+        "ground": "#7e7664",
+        "overall": "#9b917b",
+        "accent": "#e6dbc0"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "sown in peace",
+      "ref": "James 3:17–18",
+      "epigraph": "“the fruit of righteousness is sown in peace by those who make peace.”",
+      "poem": "there is a kind of smart\nthat climbs over people.\n\nand there is wisdom from above:\npeaceable. gentle.\nwilling to listen.\nfull of mercy.\nwithout a mask.\n\nit doesn't win arguments.\nit plants.\nand what it plants in peace\ncomes up\nas righteousness.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c299",
+        "horizon": "#a49578",
+        "ground": "#585248",
+        "overall": "#94886e",
+        "accent": "#f9e8b2"
+      }
+    },
+    {
+      "n": 19,
+      "part": 4,
+      "title": "open hands",
+      "ref": "James 4:1–3",
+      "epigraph": "“Y ou don’t have, because you don’t ask.”",
+      "poem": "where do the fights come from?\nfrom wanting,\nand wanting,\nand not having.\n\nwe grab.\nwe scheme.\nwe elbow.\n\nand never once\nsimply ask.\n\nand when we do,\nit's for more\nto spend on ourselves.\n\nopen hands, James says.\nopen to him first.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b7a988",
+        "horizon": "#bea580",
+        "ground": "#bdae8d",
+        "overall": "#b9a785",
+        "accent": "#f1e1bf"
+      }
+    },
+    {
+      "n": 20,
+      "part": 4,
+      "title": "more grace",
+      "ref": "James 4:6",
+      "epigraph": "“But he gives more grace.”",
+      "poem": "he gives more grace.\n\nthree words\nfor every time\nyou thought you'd used it up.\n\nand it runs the way water does—\ndownhill,\nto the lowest place.\n\nGod resists the proud.\nthe humble\nget flooded.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bbb49a",
+        "horizon": "#bfbba6",
+        "ground": "#615b44",
+        "overall": "#98937c",
+        "accent": "#faefd8"
+      }
+    },
+    {
+      "n": 21,
+      "part": 4,
+      "title": "come close",
+      "ref": "James 4:7–8",
+      "epigraph": "“Cleanse your hands, you sinners.”",
+      "poem": "come close to God,\nand he comes close to you.\n\nit's not a long road.\nit's a turn of the body,\na step,\na basin of water,\nwashed hands,\na heart made single again.\n\nhe was always\nnearer\nthan your running.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a59981",
+        "horizon": "#94866c",
+        "ground": "#8a8069",
+        "overall": "#92866e",
+        "accent": "#ece0cb"
+      }
+    },
+    {
+      "n": 22,
+      "part": 4,
+      "title": "the chair",
+      "ref": "James 4:11–12",
+      "epigraph": "“But who are you to judge another?”",
+      "poem": "when you speak against your brother,\nyou climb into a chair\nthat isn't yours.\n\nthere is one lawgiver.\none judge.\none who can save.\n\nget down from the chair.\nsit next to your brother\non the floor.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a3967c",
+        "horizon": "#a6967c",
+        "ground": "#95866e",
+        "overall": "#9e9077",
+        "accent": "#efe1c2"
+      }
+    },
+    {
+      "n": 23,
+      "part": 4,
+      "title": "mist",
+      "ref": "James 4:13–15",
+      "epigraph": "“For you are a vapor that appears for a little time, and then vanishes away.”",
+      "poem": "tomorrow we'll go to the city,\nspend a year,\nmake a profit—\n\nand the morning mist\nlifts off the valley\nwhile we're still talking.\n\nyou are mist.\nbeautiful, brief,\nalready rising.\n\nso say it the humble way:\nif the Lord wills,\nwe will live,\nand do this or that.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c0a7",
+        "horizon": "#b9ae9f",
+        "ground": "#7a7265",
+        "overall": "#a59988",
+        "accent": "#fee8d5"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "the good you know",
+      "ref": "James 4:17",
+      "epigraph": "“To him therefore who knows to do good, and doesn’t do it, to him it is sin.”",
+      "poem": "not the wrong you did.\nthe good you knew\nand walked past.\n\nthe visit you didn't make.\nthe gate you didn't mend.\nthe name you didn't pray.\n\nJames counts those too.\n\nand grace\ncounts them first,\nthen hands you the hammer.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dccfa9",
+        "horizon": "#a39372",
+        "ground": "#ae9f7e",
+        "overall": "#b7a886",
+        "accent": "#faecc0"
+      }
+    },
+    {
+      "n": 25,
+      "part": 5,
+      "title": "moth-eaten",
+      "ref": "James 5:1–4",
+      "epigraph": "“your garments are moth-eaten”",
+      "poem": "the fine robe folded in the chest\nfor a day that never came.\nthe moths found it first.\n\nand in the field\nthe reapers you never paid\nare crying out—\n\nand heaven, James says,\nhas ears.\n\nwhat you hoard\nrots.\nwhat you withhold\ntestifies.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79a82",
+        "horizon": "#7c715d",
+        "ground": "#514636",
+        "overall": "#786c58",
+        "accent": "#dbceb0"
+      }
+    },
+    {
+      "n": 26,
+      "part": 5,
+      "title": "the farmer",
+      "ref": "James 5:7–8",
+      "epigraph": "“Establish your hearts, for the coming of the Lord is at hand.”",
+      "poem": "the farmer can't hurry the barley.\nhe plants,\nand then he waits\nfor the autumn rain,\nand waits\nfor the spring rain.\n\nhe doesn't dig up the seed\nto check on it.\n\nbe like that.\nsteady your heart.\nwhat God has planted\nis coming up\non God's time.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-026.jpg",
+      "heroSrc": "assets/doers-of-the-word/web/b-041-026.jpg",
+      "isScene": true,
+      "sceneType": "early_and_late_rain_field",
+      "palette": {
+        "top": "#cec1a6",
+        "horizon": "#aea48e",
+        "ground": "#5e5547",
+        "overall": "#958b77",
+        "accent": "#faeccc"
+      }
+    },
+    {
+      "n": 27,
+      "part": 5,
+      "title": "the end of the story",
+      "ref": "James 5:10–11",
+      "epigraph": "“the Lord is full of compassion and mercy.”",
+      "poem": "you've heard of Job:\nthe ashes, the losses,\nthe long argument with heaven.\n\nand you've seen the end of the story,\nwhat the Lord did at the last.\n\nendurance is not\npretending it doesn't hurt.\nit is still being there\nat the end,\nwhere he is full\nof compassion\nand mercy.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5d7b0",
+        "horizon": "#aba07a",
+        "ground": "#9c8c71",
+        "overall": "#b6a884",
+        "accent": "#e9dbaf"
+      }
+    },
+    {
+      "n": 28,
+      "part": 5,
+      "title": "pray, sing",
+      "ref": "James 5:13–16",
+      "epigraph": "“Is any among you suffering? Let him pray. Is any cheerful? Let him sing praises.”",
+      "poem": "is anyone hurting? pray.\nis anyone happy? sing.\nis anyone sick?\ncall the elders.\nbring the oil.\n\nconfess to each other.\npray for each other.\n\nthis is how\nthe first churches\ncarried each other:\nhonesty,\noil,\nand one another.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a7997c",
+        "horizon": "#a79979",
+        "ground": "#74674e",
+        "overall": "#948669",
+        "accent": "#d9b83f"
+      }
+    },
+    {
+      "n": 29,
+      "part": 5,
+      "title": "like us",
+      "ref": "James 5:17–18",
+      "epigraph": "“Elijah was a man with a nature like ours”",
+      "poem": "Elijah was just like us,\nJames says—\nsame fears,\nsame moods,\nsame kind of knees.\n\nand he prayed,\nand the sky shut.\nand he prayed again,\nand the rain came,\nand the ground turned green.\n\ndon't wait to become a giant\nbefore you pray.\nthe giants\nwere ordinary people\nwho asked.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#93887e",
+        "horizon": "#c0b3a0",
+        "ground": "#746855",
+        "overall": "#938776",
+        "accent": "#f1e8d5"
+      }
+    },
+    {
+      "n": 30,
+      "part": 5,
+      "title": "bring them home",
+      "ref": "James 5:19–20",
+      "epigraph": "“he who turns a sinner from the error of his way will save a soul from death”",
+      "poem": "and the letter ends\nnot with a blessing\nbut with a search party.\n\nif someone wanders,\ngo after them.\n\nbring them home,\nand love\ncovers a multitude of sins\nthe way a coat covers\na cold child\non the long walk back.",
+      "webSrc": "assets/doers-of-the-word/web/b-041-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b28f",
+        "horizon": "#9f8d6d",
+        "ground": "#454237",
+        "overall": "#877a60",
+        "accent": "#fbcb7a"
+      }
+    }
+  ]
+}

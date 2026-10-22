@@ -1,0 +1,662 @@
+{
+  "district": 19,
+  "slug": "many-waters",
+  "title": "Many Waters",
+  "subtitle": "The Song of Songs in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/many-waters/web/b-019-000.jpg",
+  "beforeYouBegin": "The Song of Songs is a love song, and for more than fifteen centuries Christians have also read it as a song of the soul's love for God. The desert fathers read it slowly in their cells. Origen, Gregory of Nyssa, Bernard of Clairvaux, Teresa of Á vila, and John of the Cross heard in it the whole journey of prayer: seeking by night, the dark seasons when God seems gone, the wound of love, and a desire for God that never comes to an end.\n\nThis book walks through the Song in thirty-two short poems, in four parts, reading it the way those contemplatives did. Each poem sits beside a picture and under a single line of Scripture.\n\nThe poems are not the Bible. They are one reader's response to it, standing in a long tradition. Open the Song of Songs alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Rise Up and Come Away",
+      "epigraph": "Rise up, my love, my beautiful one, and come away.",
+      "epigraphRef": "Song of Songs 2:10",
+      "lightName": "Light of Rise Up and Come Away",
+      "lightHint": "Near 'the kiss' (Song of Songs 1:1–4) in Part 1: Rise Up and Come Away"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "Whom My Soul Loves",
+      "epigraph": "when I found him whom my soul loves.",
+      "epigraphRef": "Song of Songs 3:4",
+      "lightName": "Light of Whom My Soul Loves",
+      "lightHint": "Near 'by night' (Song of Songs 3:1–4) in Part 2: Whom My Soul Loves"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 17,
+      "title": "My Beloved and My Friend",
+      "epigraph": "This is my beloved, and this is my friend",
+      "epigraphRef": "Song of Songs 5:16",
+      "lightName": "Light of My Beloved and My Friend",
+      "lightHint": "Near 'I sleep, but my heart wakes' (Song of Songs 5:2–6) in Part 3: My Beloved and My Friend"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 25,
+      "title": "Strong as Death",
+      "epigraph": "love is strong as death.",
+      "epigraphRef": "Song of Songs 8:6",
+      "lightName": "Light of Strong as Death",
+      "lightHint": "Near 'his desire' (Song of Songs 7:10) in Part 4: Strong as Death"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "the kiss",
+      "ref": "Song of Songs 1:1–4",
+      "epigraph": "“your love is better than wine.”",
+      "poem": "the old monks said\nthis is the holiest song,\ntoo strong for beginners.\n\nthey read it slowly,\nin their cells,\nby one small lamp:\n\nlet him kiss me—\n\nnot a teaching about God.\nGod himself,\nnear enough\nto touch the soul.\n\nyour love\nis better than wine.",
+      "webSrc": "assets/many-waters/web/b-019-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#93876f",
+        "horizon": "#958870",
+        "ground": "#84765d",
+        "overall": "#8d8068",
+        "accent": "#eadfc0"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "the sunburned soul",
+      "ref": "Song of Songs 1:5–6",
+      "epigraph": "“I am dark, but lovely”",
+      "poem": "I am dark,\nthe soul says.\nscorched by the sun.\nI tended everyone's vineyard\nbut my own.\n\nand still—\nlovely.\n\nthe desert fathers knew it:\nfirst you see how dark you are.\nthen you hear\nthat you are loved\nanyway.\n\nhumility\nis the door\nto the bridal chamber.",
+      "webSrc": "assets/many-waters/web/b-019-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e6ddc9",
+        "horizon": "#9d9178",
+        "ground": "#82755c",
+        "overall": "#a19780",
+        "accent": "#efe6d3"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "where you rest at noon",
+      "ref": "Song of Songs 1:7–8",
+      "epigraph": "“T ell me, you whom my soul loves, where you graze your flock”",
+      "poem": "tell me\nwhere you rest at noon—\n\nin the heat of the day,\nwhen the busy hours\nburn everything dry.\n\nI don't want to wander\namong a hundred voices\nlooking for you.\n\nfollow the tracks,\nhe says.\nthe ones before you\nwalked this way.\n\nthe saints\nleave footprints.",
+      "webSrc": "assets/many-waters/web/b-019-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cabc9f",
+        "horizon": "#857860",
+        "ground": "#a79577",
+        "overall": "#a4967a",
+        "accent": "#e6dac2"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "the oasis",
+      "ref": "Song of Songs 1:14–17",
+      "epigraph": "“My beloved is to me a cluster of henna blossoms from the vineyards of En Gedi.”",
+      "poem": "En Gedi:\na spring in the wilderness,\ngreen where nothing should be green.\n\nthe hermits went into the desert\nnot because they hated the world,\nbut to find\nthis.\n\na cluster of blossoms\nin the dry places.\n\nthe Beloved\nis sweetest\nwhere there's nothing else.",
+      "webSrc": "assets/many-waters/web/b-019-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5baa1",
+        "horizon": "#8e8875",
+        "ground": "#928366",
+        "overall": "#9d937a",
+        "accent": "#e5dabc"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "the banner",
+      "ref": "Song of Songs 2:4",
+      "epigraph": "“He brought me to the banquet hall. His banner over me is love.”",
+      "poem": "he brings the soul\ninto the house of wine.\n\nand over her\nnot the list of her sins,\nnot the record of her fasting,\nnot her failures in prayer—\n\none word\nlike a banner:\n\nlove.\n\neverything else\nthe soul has carried in\nshe can set down\nat the door.",
+      "webSrc": "assets/many-waters/web/b-019-005.jpg",
+      "heroSrc": "assets/many-waters/web/b-019-005.jpg",
+      "isScene": true,
+      "sceneType": "banner_of_love",
+      "palette": {
+        "top": "#917458",
+        "horizon": "#98775b",
+        "ground": "#4a4131",
+        "overall": "#79634b",
+        "accent": "#fcf4da"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "do not rush the soul",
+      "ref": "Song of Songs 2:7",
+      "epigraph": "“that you not stir up, nor awaken love, until it so desires.”",
+      "poem": "don't stir up love\nbefore it's ready.\n\nthe old abbas warned\nthe eager young monks:\nyou can't force\nthe soul's awakening.\n\nsit in your cell.\nsay your prayers.\nwait.\n\nlove\nwakes\nwhen he wakes it.",
+      "webSrc": "assets/many-waters/web/b-019-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dcc8ac",
+        "horizon": "#9c9284",
+        "ground": "#74705e",
+        "overall": "#a39782",
+        "accent": "#fcdab9"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the winter is past",
+      "ref": "Song of Songs 2:10–13",
+      "epigraph": "“For behold, the winter is past. The rain is over and gone.”",
+      "poem": "rise up, my love.\ncome away.\n\nafter the long winter of the soul—\nthe dry prayers,\nthe cold years\nwhen God seemed silent—\n\na voice at the window:\n\nthe winter is past.\nthe flowers are here.\ncome.\n\nthe mystics called it\nthe springtime of the soul.\nit comes\nwhen he calls it.",
+      "webSrc": "assets/many-waters/web/b-019-007.jpg",
+      "heroSrc": "assets/many-waters/web/b-019-007.jpg",
+      "isScene": true,
+      "sceneType": "winter_is_past",
+      "palette": {
+        "top": "#a69d86",
+        "horizon": "#9f9786",
+        "ground": "#675f4c",
+        "overall": "#8a826f",
+        "accent": "#fdf5e5"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "the little foxes",
+      "ref": "Song of Songs 2:15–16",
+      "epigraph": "“Catch for us the foxes, the little foxes that plunder the vineyards”",
+      "poem": "the desert fathers watched\nthe little thoughts—\n\na flash of pride,\na small resentment,\nan idle word,\na wandering eye during prayer.\n\ncatch them early,\nthey said,\nwhile they're small.\n\nwatchfulness\nguards the vineyard\nwhile it blooms.\n\nand at the end of the vigil:\nmy Beloved is mine,\nand I am his.",
+      "webSrc": "assets/many-waters/web/b-019-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cab693",
+        "horizon": "#6f6c5e",
+        "ground": "#76715e",
+        "overall": "#8e856e",
+        "accent": "#edcd9e"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "by night",
+      "ref": "Song of Songs 3:1–4",
+      "epigraph": "“I sought him whom my soul loves. I sought him, but I didn’t find him.”",
+      "poem": "by night on my bed\nI sought him,\nand did not find him.\n\nthe mystics knew this night:\nwhen prayer is dry,\nwhen every feeling of God\nis gone.\n\nso the soul gets up\nand keeps seeking—\nnot because she feels him,\nbut because she loves him.\n\nand just past the watchmen,\nthere he is.\n\nthe dark night\nwas the way.",
+      "webSrc": "assets/many-waters/web/b-019-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#757c70",
+        "horizon": "#393a33",
+        "ground": "#4d4534",
+        "overall": "#545245",
+        "accent": "#fce4a7"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "the procession",
+      "ref": "Song of Songs 3:6–11",
+      "epigraph": "“in the day of his weddings, in the day of the gladness of his heart.”",
+      "poem": "who is this\ncoming up from the wilderness\nlike a column of smoke,\nperfumed with prayers?\n\nthe soul\ncoming out of the desert,\nrising like incense.\n\nand waiting for her,\nthe King,\non the day\nof the gladness of his heart.\n\nher coming\nis his joy.",
+      "webSrc": "assets/many-waters/web/b-019-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4dab2",
+        "horizon": "#8d8974",
+        "ground": "#756d56",
+        "overall": "#9a9379",
+        "accent": "#f8efc7"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "how he sees her",
+      "ref": "Song of Songs 4:1–7",
+      "epigraph": "“You are all beautiful, my love. There is no spot in you.”",
+      "poem": "the soul sees\nevery stain.\n\nthe Beloved looks\nand says:\nyou are all beautiful.\nthere is no flaw in you.\n\nnot because she's earned it.\nbecause he's washed her.\n\nthe saints spent years\nlearning to believe\nthat one sentence.",
+      "webSrc": "assets/many-waters/web/b-019-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5baa5",
+        "horizon": "#948b79",
+        "ground": "#867b69",
+        "overall": "#9f9482",
+        "accent": "#f1eadf"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "come down from the heights",
+      "ref": "Song of Songs 4:8",
+      "epigraph": "“Come with me from Lebanon, my bride”",
+      "poem": "come with me\nfrom the lions' dens,\nfrom the leopards' mountains,\n\nfrom the high, proud places\nwhere the soul\ntries to be strong alone.\n\nthe way up to God,\nthe fathers said,\nis down:\n\nhumility,\nthe low valley\nwhere the garden grows.",
+      "webSrc": "assets/many-waters/web/b-019-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8d0bb",
+        "horizon": "#a49f8c",
+        "ground": "#867b5e",
+        "overall": "#a59d86",
+        "accent": "#e9e3d4"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "the wound",
+      "ref": "Song of Songs 4:9–10",
+      "epigraph": "“You have ravished my heart, my sister, my bride.”",
+      "poem": "one glance,\nand he is wounded.\n\nthe mystics dared to say it:\nGod\nis wounded with love\nfor the soul.\n\nand the soul\nis wounded back—\n\na sweet wound,\na longing\nnothing in the world\ncan heal\nbut him.",
+      "webSrc": "assets/many-waters/web/b-019-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bba2",
+        "horizon": "#b7a98e",
+        "ground": "#9d9179",
+        "overall": "#afa289",
+        "accent": "#e9c98d"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "the enclosed garden",
+      "ref": "Song of Songs 4:12",
+      "epigraph": "“My sister, my bride, is a locked up garden; a locked up spring, a sealed fountain.”",
+      "poem": "a garden locked.\na fountain sealed.\n\nthe monks called their cells\nthis garden:\n\na closed door,\na small room,\na heart\nkept for one.\n\nsit in your cell,\nan old abba said,\nand the cell\nwill teach you everything.\n\nthe enclosure\nisn't a prison.\nit's where the spring\nruns clear.",
+      "webSrc": "assets/many-waters/web/b-019-014.jpg",
+      "heroSrc": "assets/many-waters/web/b-019-014.jpg",
+      "isScene": true,
+      "sceneType": "locked_garden_fountain",
+      "palette": {
+        "top": "#d6cdb6",
+        "horizon": "#837968",
+        "ground": "#7e7668",
+        "overall": "#988f7d",
+        "accent": "#e8ddbf"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "the garden of virtues",
+      "ref": "Song of Songs 4:13–15",
+      "epigraph": "“a fountain of gardens, a well of living waters, flowing streams from Lebanon.”",
+      "poem": "pomegranates.\nnard and saffron.\ncinnamon and myrrh.\n\nthe old writers read them\nas the virtues:\npatience, meekness,\nchastity, charity,\ngrowing slowly\nin the soul's garden.\n\nand in the middle,\nfeeding every root,\na well of living water—\n\nnot the soul's own strength.\nhis.",
+      "webSrc": "assets/many-waters/web/b-019-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0b69f",
+        "horizon": "#77715f",
+        "ground": "#847c6b",
+        "overall": "#918976",
+        "accent": "#ecdbbd"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "both winds",
+      "ref": "Song of Songs 4:16",
+      "epigraph": "“Awake, north wind, and come, you south! Blow on my garden, that its spices may flow out.”",
+      "poem": "come, north wind—\nthe cold one,\nthe trial,\nthe dryness.\n\ncome, south wind—\nthe warm one,\nconsolation,\nsweetness in prayer.\n\nthe soul needs both.\n\nonly when the wind blows\ndoes the fragrance\nspill out.",
+      "webSrc": "assets/many-waters/web/b-019-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2a995",
+        "horizon": "#a19985",
+        "ground": "#706755",
+        "overall": "#928a76",
+        "accent": "#f3e5c1"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "I sleep, but my heart wakes",
+      "ref": "Song of Songs 5:2–6",
+      "epigraph": "“I was asleep, but my heart was awake.”",
+      "poem": "I sleep,\nbut my heart is awake.\n\nthe contemplatives loved this line:\nthe body resting,\nthe heart still watching,\nstill listening for him.\n\nand when he knocks,\ndon't wait\nto be comfortable.\n\nthe soul hesitated,\nopened late,\nand he had withdrawn.\n\nsometimes he hides\nso we'll seek him\nwith our whole heart.",
+      "webSrc": "assets/many-waters/web/b-019-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b4a78a",
+        "horizon": "#746d5b",
+        "ground": "#91866f",
+        "overall": "#8f856e",
+        "accent": "#d1c0a0"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "wounded and still seeking",
+      "ref": "Song of Songs 5:6–8",
+      "epigraph": "“If you find my beloved, that you tell him that I am faint with love.”",
+      "poem": "she searched the city\nand came back bruised,\nher cloak taken.\n\nthe seekers of God\nknow this road:\nthe long absences,\nthe misunderstandings,\nthe cost.\n\nand still, the only message:\n\nif you find him,\ntell him\nI'm sick with love.",
+      "webSrc": "assets/many-waters/web/b-019-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e9dbb7",
+        "horizon": "#837a65",
+        "ground": "#6f6754",
+        "overall": "#998f77",
+        "accent": "#f5dea8"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "altogether lovely",
+      "ref": "Song of Songs 5:10–16",
+      "epigraph": "“His mouth is sweetness; yes, he is altogether lovely.”",
+      "poem": "describe him, they ask.\n\nand she tries—\ngold, cedar, myrrh—\n\nand runs out of words.\n\nthe mystics said\nevery word about God\nfalls short,\nand then say more anyway,\nbecause love\ncan't stay quiet.\n\nhe is altogether lovely.\nthis is my Beloved,\nand this is my friend.",
+      "webSrc": "assets/many-waters/web/b-019-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc3a3",
+        "horizon": "#c0b79d",
+        "ground": "#8d8268",
+        "overall": "#b0a58a",
+        "accent": "#ece0c2"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "I am his",
+      "ref": "Song of Songs 6:1–3",
+      "epigraph": "“I am my beloved’s, and my beloved is mine.”",
+      "poem": "at first the soul said:\nmy Beloved is mine.\n\nnow she says it the other way:\nI am my Beloved's.\n\nthe whole spiritual life\nis that turn—\n\nfrom having God\nto being had\nby God.",
+      "webSrc": "assets/many-waters/web/b-019-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a6a089",
+        "horizon": "#787260",
+        "ground": "#626254",
+        "overall": "#7e7a67",
+        "accent": "#f9eed3"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "rising like the dawn",
+      "ref": "Song of Songs 6:10",
+      "epigraph": "“Who is she who looks out as the morning, beautiful as the moon, clear as the sun”",
+      "poem": "first like the dawn,\nthen like the moon,\nthen clear as the sun.\n\nthe old teachers saw here\nthe soul's ascent:\n\na little light,\nthen borrowed light,\nthen light\nso full of him\nit shines.\n\nno one arrives all at once.\nit's a sunrise.",
+      "webSrc": "assets/many-waters/web/b-019-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2baa3",
+        "horizon": "#b3a384",
+        "ground": "#675d47",
+        "overall": "#978c74",
+        "accent": "#f8d791"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "the only one",
+      "ref": "Song of Songs 6:8–9",
+      "epigraph": "“My dove, my perfect one, is unique.”",
+      "poem": "sixty queens,\neighty others,\nmore than anyone can count—\n\nand still he says:\nmy dove,\nmy only one.\n\nthe mystery of the saints:\nhe loves each soul\nas if there were\nno other soul\nin the world.",
+      "webSrc": "assets/many-waters/web/b-019-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c4a5",
+        "horizon": "#7f7864",
+        "ground": "#7a715b",
+        "overall": "#948b74",
+        "accent": "#ebe4d2"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "the first green",
+      "ref": "Song of Songs 6:11",
+      "epigraph": "“I went down into the nut tree grove, to see the green plants of the valley”",
+      "poem": "he goes down to the grove\nto see what's growing—\n\nhas the vine budded?\nare the pomegranates in bloom?\n\nGod tends the soul\nlike a gardener,\nwatching for the first green\nlong before we notice it\nourselves.",
+      "webSrc": "assets/many-waters/web/b-019-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bf9c",
+        "horizon": "#aaa383",
+        "ground": "#9a916d",
+        "overall": "#aca482",
+        "accent": "#ede6ca"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "return",
+      "ref": "Song of Songs 6:13",
+      "epigraph": "“Return, return, Shulammite!”",
+      "poem": "return.\nreturn.\nreturn.\nreturn.\n\nfour times,\nthe call after her.\n\nthe desert fathers said:\nthe whole life of a monk\nis this—\nturning back to God,\nagain,\nand again,\nand again,\nevery day.",
+      "webSrc": "assets/many-waters/web/b-019-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dac8a2",
+        "horizon": "#76705e",
+        "ground": "#78694d",
+        "overall": "#92856a",
+        "accent": "#f2d086"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "his desire",
+      "ref": "Song of Songs 7:10",
+      "epigraph": "“I am my beloved’s. His desire is toward me.”",
+      "poem": "we think we're the ones\nseeking God.\n\nthe soul discovers\nthe older truth:\n\nhis desire\nwas toward me\nfirst.\n\nall our longing\nis an answer\nto his.",
+      "webSrc": "assets/many-waters/web/b-019-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#84745e",
+        "horizon": "#5f5544",
+        "ground": "#5d503e",
+        "overall": "#6c5e4b",
+        "accent": "#e9a87d"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "early to the vineyards",
+      "ref": "Song of Songs 7:11–12",
+      "epigraph": "“Come, my beloved! Let’s go out into the field. Let’s lodge in the villages.”",
+      "poem": "come, let's go out—\nthe fields,\nthe villages,\nearly to the vineyards.\n\nthe contemplative life\nisn't only the cell.\n\nthe one who meets him in silence\nwalks out at dawn\nto find him\nin the fields,\nin the neighbors,\nin the work.",
+      "webSrc": "assets/many-waters/web/b-019-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#decdaa",
+        "horizon": "#898270",
+        "ground": "#726854",
+        "overall": "#978d75",
+        "accent": "#f8df9d"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "new and old",
+      "ref": "Song of Songs 7:13",
+      "epigraph": "“At our doors are all kinds of precious fruits, new and old, which I have stored up for you”",
+      "poem": "new fruit and old,\nstored up for you.\n\nthe old:\nthe prayers of the fathers,\nthe psalms,\nthe wisdom of the desert.\n\nthe new:\nthis morning's prayer,\nrising for the first time.\n\nthe soul brings both\nto the Beloved's door.",
+      "webSrc": "assets/many-waters/web/b-019-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9d9074",
+        "horizon": "#8b7e63",
+        "ground": "#8f7d61",
+        "overall": "#938368",
+        "accent": "#ddd0af"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "leaning on the Beloved",
+      "ref": "Song of Songs 8:5",
+      "epigraph": "“Who is this who comes up from the wilderness, leaning on her beloved?”",
+      "poem": "who is this,\ncoming up from the wilderness,\nleaning on her Beloved?\n\nthe soul\ncoming out of the desert\nat last—\n\nnot proud,\nnot strong,\nnot self-made.\n\nleaning.\n\nthe whole art of the desert\nwas learning\nhow to lean.",
+      "webSrc": "assets/many-waters/web/b-019-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c8ae",
+        "horizon": "#a59c80",
+        "ground": "#928365",
+        "overall": "#aa9f83",
+        "accent": "#f2e9d0"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "the seal",
+      "ref": "Song of Songs 8:6",
+      "epigraph": "“Set me as a seal on your heart, as a seal on your arm”",
+      "poem": "set me as a seal\non your heart.\n\nlove is as strong\nas death.\n\nits flame\nis the very flame\nof the Lord—\n\nthe only place\nhis name appears\nin all the song.\n\nthe mystics called it\nthe living flame:\nGod's own fire,\nburning in the soul\nand not consuming it.",
+      "webSrc": "assets/many-waters/web/b-019-029.jpg",
+      "heroSrc": "assets/many-waters/web/b-019-029.jpg",
+      "isScene": true,
+      "sceneType": "many_waters_flame",
+      "palette": {
+        "top": "#dacaa5",
+        "horizon": "#bca982",
+        "ground": "#a18c68",
+        "overall": "#bba781",
+        "accent": "#f7d27e"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "many waters",
+      "ref": "Song of Songs 8:7",
+      "epigraph": "“Many waters can’t quench love, neither can floods drown it.”",
+      "poem": "many waters\ncan't put it out.\n\nnot the floods of sorrow.\nnot the dry years.\nnot the long nights of doubt.\n\nand it can't be bought.\ngive everything you own for it,\nand you'd still\ncome away empty-handed.\n\nthis love\nis only ever\ngiven.",
+      "webSrc": "assets/many-waters/web/b-019-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a09983",
+        "horizon": "#747467",
+        "ground": "#48483e",
+        "overall": "#747162",
+        "accent": "#edae67"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "the one who found peace",
+      "ref": "Song of Songs 8:8–10",
+      "epigraph": "“then I was in his eyes like one who found peace.”",
+      "poem": "they worried\nover the little sister:\nis she a wall?\nis she a door?\n\nand the soul answers, grown now:\nI kept myself.\n\nand in his eyes\nI found peace.\n\nthe Hebrew word is shalom:\nnot only calm,\nbut wholeness—\n\nwhat the hermits went looking for\nin the desert,\nand found\nin his eyes.",
+      "webSrc": "assets/many-waters/web/b-019-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dccfac",
+        "horizon": "#8a7a60",
+        "ground": "#8e8068",
+        "overall": "#a49679",
+        "accent": "#f6d59c"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "come",
+      "ref": "Song of Songs 8:13–14",
+      "epigraph": "“Come away, my beloved! Be like a gazelle or a young stag on the mountains of spices!”",
+      "poem": "the song ends\nwithout an ending:\ncome quickly,\nlike a gazelle\non the mountains.\n\nGregory of Nyssa said\nthe soul that loves God\nnever reaches the end of him—\n\nevery arrival\nis a new beginning,\nevery finding\na new seeking.\n\nso the song ends\nthe way the Bible does:\ncome.\n\nand the soul\nkeeps running.",
+      "webSrc": "assets/many-waters/web/b-019-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d5af",
+        "horizon": "#a19982",
+        "ground": "#7e7860",
+        "overall": "#a49c81",
+        "accent": "#f7eab9"
+      }
+    }
+  ]
+}

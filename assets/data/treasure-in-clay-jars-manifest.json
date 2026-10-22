@@ -1,0 +1,824 @@
+{
+  "district": 34,
+  "slug": "treasure-in-clay-jars",
+  "title": "Treasure in Clay Jars",
+  "subtitle": "1 & 2 Corinthians in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/treasure-in-clay-jars/web/b-034-000.jpg",
+  "beforeYouBegin": "Paul's letters to Corinth were written to a young, quarreling church in a busy port city of workshops, markets, and temples. They hold a cross that looks like foolishness, a field where one plants and another waters, a foundation laid once, a table where no one should eat first, one body with many parts, a love that is patient, a seed that dies and rises, a lamp of glory carried in a clay jar, a tent waiting for a house, a poor church giving gladly, and a thorn that did not go away.\n\nThis book walks through them in forty short poems, in five parts: three for First Corinthians and two for Second Corinthians. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things of a working city—a potter's wheel, a bronze mirror, a loaf, a tentmaker's needle, a harbor at dawn—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open Paul's letters to the Corinthians alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "The Foolishness of God",
+      "epigraph": "the foolishness of God is wiser than men, and the weakness of God is stronger than men.",
+      "epigraphRef": "1 Corinthians 1:25",
+      "lightName": "Light of The Foolishness of God",
+      "lightHint": "Near 'the word of the cross' (1 Corinthians 1:18) in Part 1: The Foolishness of God"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 8,
+      "title": "Bought with a Price",
+      "epigraph": "Y ou were bought with a price.",
+      "epigraphRef": "1 Corinthians 7:23",
+      "lightName": "Light of Bought with a Price",
+      "lightHint": "Near 'the new loaf' (1 Corinthians 5:6–8) in Part 2: Bought with a Price"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 15,
+      "title": "A Most Excellent Way",
+      "epigraph": "I show a most excellent way to you.",
+      "epigraphRef": "1 Corinthians 12:31",
+      "lightName": "Light of A Most Excellent Way",
+      "lightHint": "Near 'wait for one another' (1 Corinthians 11:21–26) in Part 3: A Most Excellent Way"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 23,
+      "title": "Treasure in Clay Jars",
+      "epigraph": "But we have this treasure in clay vessels",
+      "epigraphRef": "2 Corinthians 4:7",
+      "lightName": "Light of Treasure in Clay Jars",
+      "lightHint": "Near 'the God of all comfort' (2 Corinthians 1:3–4) in Part 4: Treasure in Clay Jars"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 32,
+      "title": "My Grace Is Sufficient",
+      "epigraph": "My grace is sufficient for you, for my power is made perfect in weakness.",
+      "epigraphRef": "2 Corinthians 12:9",
+      "lightName": "Light of My Grace Is Sufficient",
+      "lightHint": "Near 'the tent and the house' (2 Corinthians 5:1–4) in Part 5: My Grace Is Sufficient"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "the word of the cross",
+      "ref": "1 Corinthians 1:18",
+      "epigraph": "“For the word of the cross is foolishness to those who are dying, but to us who are being saved it is the power of God.”",
+      "poem": "a city of speakers.\nphilosophers on the steps,\neveryone with an argument.\n\nand Paul arrives\nwith a story\nabout a man\nnailed to wood.\n\nit sounded like losing.\n\nbut some who heard it\nwent home\nand could not stop\nthinking about it.\n\nfoolishness,\nto the ones walking away.\n\npower,\nto the ones being carried home.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0cdac",
+        "horizon": "#9b8d76",
+        "ground": "#7e7667",
+        "overall": "#a49780",
+        "accent": "#f8dba5"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "the weak things",
+      "ref": "1 Corinthians 1:26–28",
+      "epigraph": "“God chose the weak things of the world that he might put to shame the things that are strong.”",
+      "poem": "look around the room,\nPaul says.\n\nnot many scholars.\nnot many rulers.\nnot many names\nanyone would carve in stone.\n\na dockhand.\na servant girl.\na man who mends sandals.\n\nthis is who God picked.\n\nnot because\nthe strong were too good\nto be chosen,\n\nbut so no one\nwould ever mistake\nwho did the saving.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdbfa0",
+        "horizon": "#bdae8f",
+        "ground": "#948468",
+        "overall": "#afa083",
+        "accent": "#e6dbbd"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "in fear and much trembling",
+      "ref": "1 Corinthians 2:1–3",
+      "epigraph": "“I was with you in weakness, in fear, and in much trembling.”",
+      "poem": "he didn't walk in\nlike a conqueror.\n\nhe walked in\nwith shaking hands.\n\nno polished speech.\nno clever proof.\n\njust one thing\nhe had decided\nto know:\n\nJesus,\nand him crucified.\n\nif you are afraid\nof the thing\nGod is asking you to say,\n\nyou are in\ngood company.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#332d25",
+        "horizon": "#332b21",
+        "ground": "#3c2d1e",
+        "overall": "#362c21",
+        "accent": "#c09565"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "no eye has seen",
+      "ref": "1 Corinthians 2:9–10",
+      "epigraph": "“Things which an eye didn’t see, and an ear didn’t hear, which didn’t enter into the heart of man, these God has prepared for those who love him.”",
+      "poem": "you have seen the sea\nat sunrise.\nyou have heard a child laugh\nin the next room.\n\nand still,\n\nno eye has seen it.\nno ear has heard it.\nno heart has pictured it:\n\nwhat he has made ready\nfor those who love him.\n\nhold the best morning\nyou remember.\n\nit is only\nthe doorway.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#978d7b",
+        "horizon": "#9c9281",
+        "ground": "#918673",
+        "overall": "#968c79",
+        "accent": "#eee5d1"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "the increase",
+      "ref": "1 Corinthians 3:5–7",
+      "epigraph": "“I planted. Apollos watered. But God gave the increase.”",
+      "poem": "they were picking sides.\nPaul's people.\nApollos's people.\n\nPaul points at a garden.\n\nI put the seed in.\nhe brought the water.\n\nneither of us\nmade anything grow.\n\nsome of us plant.\nsome of us water.\nmost of us never see\nthe harvest.\n\nthat's all right.\n\nthe green\nwas never\nours to make.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3a68b",
+        "horizon": "#95866b",
+        "ground": "#8d8069",
+        "overall": "#9c8e74",
+        "accent": "#e4d9c1"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "the foundation",
+      "ref": "1 Corinthians 3:10–13",
+      "epigraph": "“For no one can lay any other foundation than that which has been laid, which is Jesus Christ.”",
+      "poem": "the foundation\nis already down.\ncut true.\nit isn't going anywhere.\n\nwhat you build on it\nis up to you:\ngold, or straw.\n\none day the fire\nwill walk through\nevery house.\n\nso build slowly,\nwith what lasts,\n\nand remember\nthe ground you stand on\nwas never\nyours to lay.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4d2af",
+        "horizon": "#a09277",
+        "ground": "#897553",
+        "overall": "#ad9b7b",
+        "accent": "#f8e5be"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "with our own hands",
+      "ref": "1 Corinthians 4:11–13",
+      "epigraph": "“W e toil, working with our own hands. When people curse us, we bless.”",
+      "poem": "by day\nhe stitched tent cloth.\n\nby night\nhe wrote letters\nwith the same\ntired hands.\n\nhungry sometimes.\nno house of his own.\n\nand when they cursed him,\nhe blessed them.\n\nno one was watching.\n\njust a needle,\na lamp,\nand a curse\nanswered with a blessing,\none stitch at a time.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#81745f",
+        "horizon": "#5a4e3e",
+        "ground": "#23241d",
+        "overall": "#51493a",
+        "accent": "#dbc9ad"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "the new loaf",
+      "ref": "1 Corinthians 5:6–8",
+      "epigraph": "“Purge out the old yeast, that you may be a new lump”",
+      "poem": "a little yeast\nworks through\nthe whole lump.\n\nyou can't keep\njust a pinch\nof the old ways.\n\nso sweep the house.\nstart a new batch.\n\nChrist, our Passover,\nhas already been given.\nthe feast is set.\n\ncome with plain bread:\nnothing hidden in it,\nnothing puffed up,\njust true.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3a48c",
+        "horizon": "#a9997f",
+        "ground": "#97866e",
+        "overall": "#a6967c",
+        "accent": "#e6cea4"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "but you were washed",
+      "ref": "1 Corinthians 6:11",
+      "epigraph": "“Some of you were such, but you were washed.”",
+      "poem": "some of you\nwere such.\n\nPaul doesn't pretend\nthe past\ndidn't happen.\n\nbut he doesn't\nleave you there.\n\nbut you were washed.\nbut you were set apart.\nbut you were made right.\n\nthree buts.\n\nevery one\na door\nout of the old room.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9c8a5",
+        "horizon": "#a69a81",
+        "ground": "#aca087",
+        "overall": "#b7aa8f",
+        "accent": "#e0d0ab"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "a temple",
+      "ref": "1 Corinthians 6:19",
+      "epigraph": "“don’t you know that your body is a temple of the Holy Spirit who is in you”",
+      "poem": "Corinth was full of temples.\nmarble.\nincense.\npriests at the door.\n\nand Paul says:\nyou.\n\nthese hands.\nthese tired feet.\nthis ordinary body.\n\nthe Holy Spirit\nlives here.\n\nyou are not\na rented room.\n\nyou are\na holy place.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cab17f",
+        "horizon": "#9a8560",
+        "ground": "#786747",
+        "overall": "#9a8660",
+        "accent": "#eabc68"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "bought",
+      "ref": "1 Corinthians 6:19–20",
+      "epigraph": "“Y ou are not your own, for you were bought with a price.”",
+      "poem": "in the market square\npeople were sold.\neveryone knew\nwhat a price meant.\n\nyou are not your own,\nPaul says,\n\nand for once\nthat isn't bad news.\n\nsomeone paid everything.\n\nyou belong now,\nnot to the market,\n\nbut to the one\nwho walked in\nand bought you\nout of it.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#baa77b",
+        "horizon": "#a3916a",
+        "ground": "#97825d",
+        "overall": "#a28f68",
+        "accent": "#dcc38f"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "love builds up",
+      "ref": "1 Corinthians 8:1–3",
+      "epigraph": "“Knowledge puffs up, but love builds up.”",
+      "poem": "you might be right.\n\nyou might know\nthe idol is nothing,\nthe meat is only meat.\n\nbut knowing\ncan swell a heart\nlike dough left too long.\n\nlove asks\na different question:\n\nnot, am I right?\nbut, will my brother\nstill be standing\nwhen I'm done?\n\nknowledge fills a room.\n\nlove builds one.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c5a3",
+        "horizon": "#b7a280",
+        "ground": "#937d60",
+        "overall": "#b29d7d",
+        "accent": "#e1d1ae"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "the race",
+      "ref": "1 Corinthians 9:24–25",
+      "epigraph": "“Run like that, that you may win.”",
+      "poem": "they trained for months\nfor a crown of leaves\nthat browned in a week.\n\nPaul watched them.\n\nthe early mornings.\nthe plain food.\nthe aching legs.\n\nrun like that,\nhe says.\n\nnot for the leaves.\n\nfor a crown\nthat never\ndries up.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4d8bd",
+        "horizon": "#a99a83",
+        "ground": "#7f725f",
+        "overall": "#a79a83",
+        "accent": "#f7edcf"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "the way out",
+      "ref": "1 Corinthians 10:13",
+      "epigraph": "“God is faithful, who will not allow you to be tempted above what you are able, but will with the temptation also make the way of escape”",
+      "poem": "you are not\nthe first.\n\nwhat pulls at you\nhas pulled at others.\nit is common.\nit is human.\n\nand God is faithful.\n\nhe won't let it\nbe more\nthan you can carry.\n\nlook.\n\nthere is a gate\nat the end of this alley.\n\nit was there\nbefore you arrived.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9c9583",
+        "horizon": "#958b77",
+        "ground": "#897f6b",
+        "overall": "#938a76",
+        "accent": "#f4e9cf"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "wait for one another",
+      "ref": "1 Corinthians 11:21–26",
+      "epigraph": "“Do this in memory of me.”",
+      "poem": "some came early\nand ate their fill.\n\nsome came late, from work,\nand found the bowls\nalready empty.\n\nthis is the table\nof the one who gave\nhis body, broken.\n\nno one eats first here.\n\nso set the loaf\nin the middle.\n\nwait\nfor the last one\nthrough the door.\n\nremember him\nby leaving room.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-015.jpg",
+      "heroSrc": "assets/treasure-in-clay-jars/web/b-034-015.jpg",
+      "isScene": true,
+      "sceneType": "communion_cup_loaf",
+      "palette": {
+        "top": "#827052",
+        "horizon": "#847050",
+        "ground": "#62523e",
+        "overall": "#79674b",
+        "accent": "#e4c99a"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "many members",
+      "ref": "1 Corinthians 12:14–21",
+      "epigraph": "“The eye can’t tell the hand, “I have no need for you,””",
+      "poem": "the foot says,\nI'm not a hand,\nso I don't belong.\n\nthe eye looks down\nat the hand and says,\nwe don't need you.\n\nboth are wrong.\n\na body\nis not one thing\nsaid loudly.\n\nit's many things\nheld together.\n\nthe part of you\nyou think doesn't matter\n\nis the part\nsomeone else\nis leaning on.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c9b7",
+        "horizon": "#cbc3af",
+        "ground": "#8b7b64",
+        "overall": "#b0a590",
+        "accent": "#eaddc1"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "love is patient",
+      "ref": "1 Corinthians 13:1–7",
+      "epigraph": "“Love is patient and is kind.”",
+      "poem": "Corinth worked in bronze.\nyou could hear it\nfrom the street.\n\nall noise,\nPaul says,\nif there's no love in it.\n\nlove is patient.\nit waits for the slow one.\n\nlove is kind.\nit saves you the last piece.\n\nit keeps no ledger.\nit doesn't need to win.\nit bears, believes,\nhopes, holds on.\n\nquiet work, mostly.\n\nmore like bread\nthan bells.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#918467",
+        "horizon": "#897c62",
+        "ground": "#5b4f3d",
+        "overall": "#796c53",
+        "accent": "#d2c5a6"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "dimly",
+      "ref": "1 Corinthians 13:12",
+      "epigraph": "“For now we see in a mirror, dimly, but then face to face.”",
+      "poem": "the mirrors of that day\nwere polished bronze.\n\neven the best of them\ngave back\nonly a blur.\n\nthat's how we see now.\n\na shape.\na warmth.\nenough to know\nsomeone is there.\n\nbut a day is coming\nwith no bronze\nbetween us.\n\nand I will know him\nthe way\nhe has always\nknown me.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-018.jpg",
+      "heroSrc": "assets/treasure-in-clay-jars/web/b-034-018.jpg",
+      "isScene": true,
+      "sceneType": "bronze_mirror_face",
+      "palette": {
+        "top": "#9e8b6a",
+        "horizon": "#8e7b5b",
+        "ground": "#a38f6e",
+        "overall": "#988565",
+        "accent": "#ffe3af"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "what I am",
+      "ref": "1 Corinthians 15:8–10",
+      "epigraph": "“But by the grace of God I am what I am.”",
+      "poem": "last of all,\nhe says,\nhe appeared to me too.\n\nthe late one.\nthe one who\nfought against him.\n\nnot worthy\nof the name.\n\nand still:\n\nby the grace of God\nI am what I am.\n\nno better story\nto tell about yourself.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6caa7",
+        "horizon": "#998e74",
+        "ground": "#827861",
+        "overall": "#9f9479",
+        "accent": "#ffeeaa"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "the seed",
+      "ref": "1 Corinthians 15:36–38",
+      "epigraph": "“that which you yourself sow is not made alive unless it dies.”",
+      "poem": "how are the dead raised?\nsomeone asks.\nwhat kind of body?\n\nPaul holds up\na grain of wheat.\n\nbare.\ndry.\nsmall.\n\nyou bury it.\n\nyou don't expect\na grain to come back.\n\nyou expect\na field.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4bf97",
+        "horizon": "#bba680",
+        "ground": "#867151",
+        "overall": "#b09a75",
+        "accent": "#ebd09e"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "where is your sting",
+      "ref": "1 Corinthians 15:54–57",
+      "epigraph": "““Death, where is your sting? Hades, where is your victory?””",
+      "poem": "death,\nwhere is your sting?\n\nPaul taunts it\nlike a bee\nthat has already\nspent itself.\n\nit can still buzz.\nit can still frighten.\n\nbut the sting\nwent into Christ,\nand stayed there.\n\nswallowed up,\nhe says.\n\nlike a spark\nin the sea.\n\nthanks be to God.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b7a781",
+        "horizon": "#b6a176",
+        "ground": "#575549",
+        "overall": "#8e8367",
+        "accent": "#fadb8a"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "not in vain",
+      "ref": "1 Corinthians 15:58",
+      "epigraph": "“your labor is not in vain in the Lord.”",
+      "poem": "the bowls you shaped\nthat no one thanked you for.\n\nthe prayers\nthat seemed to go nowhere.\n\nthe long\nunnoticed Tuesday.\n\nstand firm,\nPaul says.\nkeep at it.\n\nbecause the one\nwho raised Christ\nfrom the dead\n\nwastes\nnothing.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#5f5343",
+        "horizon": "#695c4a",
+        "ground": "#806b53",
+        "overall": "#6c5c49",
+        "accent": "#f6e3bd"
+      }
+    },
+    {
+      "n": 23,
+      "part": 4,
+      "title": "the God of all comfort",
+      "ref": "2 Corinthians 1:3–4",
+      "epigraph": "“the Father of mercies and God of all comfort”",
+      "poem": "he doesn't say\nthe God of some comfort.\n\nor the God of comfort\nfor small troubles.\n\nall comfort.\n\nand it doesn't stop\nwith you.\n\nthe comfort\nhe poured into your worst week\n\nis the comfort\nyou'll carry\nto someone else's.\n\nnothing\nyou've been held through\n\nis wasted.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7a6e5b",
+        "horizon": "#726757",
+        "ground": "#51493c",
+        "overall": "#665c4d",
+        "accent": "#dccdb1"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "yes",
+      "ref": "2 Corinthians 1:19–20",
+      "epigraph": "“For however many are the promises of God, in him is the “Yes.””",
+      "poem": "they said Paul\ncouldn't make up his mind.\nyes, then no.\n\nfine, he says.\nlook at Jesus.\n\nevery promise God ever made:\n\nyes.\n\nin him.\n\nnot maybe.\nnot later.\nnot yes-and-no.\n\nand all we add\nis the amen.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aca28a",
+        "horizon": "#92856c",
+        "ground": "#b3a993",
+        "overall": "#a3977f",
+        "accent": "#efe6d6"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "the aroma",
+      "ref": "2 Corinthians 2:14–15",
+      "epigraph": "“For we are a sweet aroma of Christ to God”",
+      "poem": "you can't see it.\nyou can't hold it.\n\nbut walk into a room\nwhere bread is baking\n\nand you know.\n\nthat's what he says\nwe are:\n\na scent of Christ,\ncarried from street to street.\n\nnot a lecture.\n\nmore like\nsomeone opened\na door\nsomewhere warm.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9ceb3",
+        "horizon": "#c4b798",
+        "ground": "#baaa8a",
+        "overall": "#c5b89a",
+        "accent": "#f0e7ce"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "a letter",
+      "ref": "2 Corinthians 3:2–3",
+      "epigraph": "“You are our letter, written in our hearts, known and read by all men”",
+      "poem": "do we need\nletters of reference?\nPaul asks.\n\nno.\nyou are the letter.\n\nnot ink on papyrus.\nnot chisel on stone.\n\nthe Spirit\nwriting on hearts.\n\npeople read you\nwithout knowing it:\nat the market,\non the dock,\nat your table.\n\nlet them find\nhis handwriting.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bcab86",
+        "horizon": "#948261",
+        "ground": "#ac9e7b",
+        "overall": "#a99976",
+        "accent": "#e5b85d"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "unveiled",
+      "ref": "2 Corinthians 3:16–18",
+      "epigraph": "“But whenever someone turns to the Lord, the veil is taken away.”",
+      "poem": "Moses came down the mountain\nshining,\nand covered his face\nwith a cloth,\n\nso no one would watch\nthe glory fade.\n\nbut turn\ntoward the Lord,\nand the cloth\ncomes away.\n\nwe look at him\nwith open faces,\n\nand slowly,\nfrom glory to glory,\n\nwe start\nto shine the same.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8e8778",
+        "horizon": "#968e7e",
+        "ground": "#797263",
+        "overall": "#898272",
+        "accent": "#faf1df"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "out of darkness",
+      "ref": "2 Corinthians 4:6",
+      "epigraph": "“seeing it is God who said, “Light will shine out of darkness,””",
+      "poem": "the same voice\nthat said\nlet there be light\n\nover the dark water\nat the beginning\n\nhas said it\nagain\n\nover the dark water\nin you.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#3c362c",
+        "horizon": "#4c4539",
+        "ground": "#464034",
+        "overall": "#433d32",
+        "accent": "#f1cf85"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "clay jars",
+      "ref": "2 Corinthians 4:7",
+      "epigraph": "“the exceeding greatness of the power may be of God, and not from ourselves.”",
+      "poem": "the potters' street\nwas full of them.\ncheap jars.\ncommon clay.\n\nthat's what we are,\nPaul says.\n\nand the treasure\nis inside:\n\nthe light of God's glory\nin something\nthat could break.\n\nso no one\nmistakes the jar\nfor the light.\n\nand if you're cracked,\n\nthat's just\nwhere it gets out.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-029.jpg",
+      "heroSrc": "assets/treasure-in-clay-jars/web/b-034-029.jpg",
+      "isScene": true,
+      "sceneType": "treasure_in_clay_jars",
+      "palette": {
+        "top": "#b2a78b",
+        "horizon": "#80755d",
+        "ground": "#6e634e",
+        "overall": "#857a62",
+        "accent": "#e9cb8b"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "not crushed",
+      "ref": "2 Corinthians 4:8–9",
+      "epigraph": "“W e are pressed on every side, yet not crushed; perplexed, yet not to despair”",
+      "poem": "pressed,\nbut not crushed.\n\nconfused,\nbut not hopeless.\n\nchased,\nbut not left alone.\n\nknocked down,\nbut not finished.\n\nread it\none more time,\n\nslowly,\n\nand lean\non the second half\nof every line.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b591",
+        "horizon": "#978a6e",
+        "ground": "#b19f7c",
+        "overall": "#ac9d7c",
+        "accent": "#e9d6af"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "day by day",
+      "ref": "2 Corinthians 4:16–18",
+      "epigraph": "“though our outward man is decaying, yet our inward man is renewed day by day.”",
+      "poem": "the knees ache more.\nthe eyes need more light.\nthe jar is wearing thin\nat the edges.\n\nand still,\nevery morning,\n\nsomething inside\nis being filled\nagain.\n\ndon't keep your eyes\nonly on the jar.\n\nwhat you can see\nis for a while.\n\nwhat you can't\nis forever.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#beb08f",
+        "horizon": "#93876e",
+        "ground": "#9a8e75",
+        "overall": "#a09477",
+        "accent": "#f0e0b9"
+      }
+    },
+    {
+      "n": 32,
+      "part": 5,
+      "title": "the tent and the house",
+      "ref": "2 Corinthians 5:1–4",
+      "epigraph": "“we have a building from God, a house not made with hands, eternal, in the heavens.”",
+      "poem": "a tentmaker\nknows tents.\n\nhow the cloth thins.\nhow the pegs pull loose.\nhow the wind\nfinds every hole.\n\nthis body, he says,\nis a tent.\n\nwe groan in it.\nwe're tired in it.\n\nbut there's a house\nnot made with hands,\n\nalready built,\nwaiting,\n\nwith a light on.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccbfa4",
+        "horizon": "#918a7d",
+        "ground": "#5f5745",
+        "overall": "#8d8471",
+        "accent": "#e9cea0"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "new",
+      "ref": "2 Corinthians 5:17",
+      "epigraph": "“Therefore if anyone is in Christ, he is a new creation.”",
+      "poem": "not patched.\nnot repainted.\nnot improved.\n\nnew.\n\nthe old things\npassed away.\n\nlook,\n\nhe says,\nlike a man\nshowing you a field\nafter rain.\n\neverything\nhas become new.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b493",
+        "horizon": "#b2a282",
+        "ground": "#a59577",
+        "overall": "#b3a383",
+        "accent": "#e1d2ad"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "ambassadors",
+      "ref": "2 Corinthians 5:18–20",
+      "epigraph": "“We are therefore ambassadors on behalf of Christ”",
+      "poem": "an ambassador\ndoesn't speak\nfor himself.\n\nhe carries\nsomeone else's word\nacross the water.\n\nand the word is this:\n\nGod was in Christ,\nmaking peace with the world,\nnot counting what we'd done.\n\nso we carry it\nto the dock,\nthe shop,\nthe kitchen table:\n\ncome home.\n\nhe is not counting.\nhe is asking.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bbb7a6",
+        "horizon": "#beb39a",
+        "ground": "#747267",
+        "overall": "#9e9988",
+        "accent": "#f3dfb9"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "having nothing",
+      "ref": "2 Corinthians 6:8–10",
+      "epigraph": "“as sorrowful, yet always rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things.”",
+      "poem": "unknown,\nand well known.\n\ndying,\nand look, we live.\n\nsad,\nand always rejoicing.\n\npoor,\nand making many rich.\n\nempty-handed,\n\nand holding\neverything.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b9beb4",
+        "horizon": "#c1bfad",
+        "ground": "#988c74",
+        "overall": "#afaa98",
+        "accent": "#ebdfc4"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "the Macedonians",
+      "ref": "2 Corinthians 8:1–5",
+      "epigraph": "“the abundance of their joy and their deep poverty abounded to the riches of their generosity.”",
+      "poem": "they had almost nothing.\n\ntrouble all around.\npoverty deep\nas a well.\n\nand they begged Paul\nto let them give.\n\nbeyond what they could.\nmore than anyone asked.\n\nfirst they gave themselves\nto the Lord.\n\nthe coins\njust followed.\n\njoy\nis a strange thing.\n\nsometimes it grows best\nin the poorest soil.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9d9277",
+        "horizon": "#85765a",
+        "ground": "#766b52",
+        "overall": "#85785e",
+        "accent": "#e4d9bc"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "a cheerful giver",
+      "ref": "2 Corinthians 9:6–7",
+      "epigraph": "“God loves a cheerful giver.”",
+      "poem": "a farmer\nwho holds back seed\nfor fear of losing it\nstands in a thin field.\n\nthe one who throws it wide\nwalks home through gold.\n\nso give\nthe way you'd scatter seed:\n\nnot pinched.\nnot pushed.\nopen-handed.\n\nmaybe even smiling,\n\nknowing\nwho fills the sack.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c8bd9b",
+        "horizon": "#c0ae80",
+        "ground": "#6d634d",
+        "overall": "#a09373",
+        "accent": "#f4e09e"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "the basket",
+      "ref": "2 Corinthians 11:30–33",
+      "epigraph": "“I was let down in a basket through a window by the wall, and escaped his hands.”",
+      "poem": "others were boasting\nof their pedigree,\ntheir visions,\ntheir credentials.\n\nand Paul tells them\nabout the basket.\n\nthe night he was lowered\nover the Damascus wall\nlike laundry,\n\nfolded up,\nhiding,\ngetting away.\n\nif I have to boast,\nhe says,\n\nI'll boast\nabout that.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#666253",
+        "horizon": "#716c5d",
+        "ground": "#535246",
+        "overall": "#636052",
+        "accent": "#e5cf9f"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "the thorn",
+      "ref": "2 Corinthians 12:7–9",
+      "epigraph": "“Concerning this thing, I begged the Lord three times that it might depart from me.”",
+      "poem": "he asked\nthree times.\n\ntake it away.\ntake it away.\ntake it away.\n\nand heaven\ndid not say no\nlike a closed door.\n\nheaven said:\n\nmy grace is enough\nfor you.\n\nhe never tells us\nwhat the thorn was.\n\nmaybe\nso each of us\ncould lay our own\nbeside it.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cec19f",
+        "horizon": "#a99c7c",
+        "ground": "#a89979",
+        "overall": "#b1a383",
+        "accent": "#e1d5b4"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "when I am weak",
+      "ref": "2 Corinthians 12:9–10",
+      "epigraph": "“For when I am weak, then am I strong.”",
+      "poem": "we pray to be strong\nso we won't need him.\n\nhe lets us be weak\nso we'll find out\nhe's there.\n\nthe power\nrests\non the empty places.\n\nthe open jar\nfills.\n\nso let the weakness stay\nif it must.\n\nit is\nwhere his strength\nhas room\nto live.",
+      "webSrc": "assets/treasure-in-clay-jars/web/b-034-040.jpg",
+      "heroSrc": "assets/treasure-in-clay-jars/web/b-034-040.jpg",
+      "isScene": true,
+      "sceneType": "sufficient_grace_thorn",
+      "palette": {
+        "top": "#b4a481",
+        "horizon": "#8c7b5c",
+        "ground": "#aa9979",
+        "overall": "#a39271",
+        "accent": "#e3bf77"
+      }
+    }
+  ]
+}

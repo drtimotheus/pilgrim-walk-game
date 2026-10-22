@@ -1,0 +1,634 @@
+{
+  "district": 22,
+  "slug": "new-every-morning",
+  "title": "New Every Morning",
+  "subtitle": "Lamentations in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/new-every-morning/web/b-022-000.jpg",
+  "beforeYouBegin": "Lamentations is a book of tears for a fallen city. Jerusalem sits alone like a widow. The roads to Zion are empty, the gates have sunk into the ground, the gold has grown dim, and a fox walks across the holy mountain. And at the very center of the book, in the dark, a poet remembers something, and says it out loud: his mercies are new every morning. Great is your faithfulness.\n\nThis book walks through it in thirty short poems, in five parts, one for each chapter of the old lament. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with what the city left behind—a lamp burning low, an ember in the ash, a lyre lying in the dust—and leave the faces to your imagination. If you are grieving, you are welcome here, and you don't have to hurry to the hopeful part.\n\nThe poems are not the Bible. They are one reader's response to it. Open the book of Lamentations alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "How the City Sits",
+      "epigraph": "How the city sits solitary, that was full of people!",
+      "epigraphRef": "Lamentations 1:1",
+      "lightName": "Light of How the City Sits",
+      "lightHint": "Near 'how' (Lamentations 1:1) in Part 1: How the City Sits"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 6,
+      "title": "Cry Out in the Night",
+      "epigraph": "Arise, cry out in the night, at the beginning of the watches!",
+      "epigraphRef": "Lamentations 2:19",
+      "lightName": "Light of Cry Out in the Night",
+      "lightHint": "Near 'a cloud' (Lamentations 2:1) in Part 2: Cry Out in the Night"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 11,
+      "title": "New Every Morning",
+      "epigraph": "It is because of Y ahweh’s loving kindnesses that we are not consumed, because his compassion doesn’t fail.",
+      "epigraphRef": "Lamentations 3:22",
+      "lightName": "Light of New Every Morning",
+      "lightHint": "Near 'walled in' (Lamentations 3:7–9) in Part 3: New Every Morning"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 21,
+      "title": "How the Gold Has Become Dim",
+      "epigraph": "How the gold has become dim! The most pure gold has changed!",
+      "epigraphRef": "Lamentations 4:1",
+      "lightName": "Light of How the Gold Has Become Dim",
+      "lightHint": "Near 'stones in the street' (Lamentations 4:1) in Part 4: How the Gold Has Become Dim"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 26,
+      "title": "Renew Our Days",
+      "epigraph": "Turn us to yourself, Yahweh, and we will be turned. Renew our days as of old.",
+      "epigraphRef": "Lamentations 5:21",
+      "lightName": "Light of Renew Our Days",
+      "lightHint": "Near 'remember' (Lamentations 5:1–3) in Part 5: Renew Our Days"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "how",
+      "ref": "Lamentations 1:1",
+      "epigraph": "“How the city sits solitary, that was full of people!”",
+      "poem": "the market stalls are standing.\nthe doors are standing.\nthe well still has its rope.\n\nonly the people\nare gone.\n\nthat is how the book begins.\nnot with a reason,\nnot with a lesson,\njust a long look\ndown an empty street\n\nand one small word\nthat is almost a cry:\n\nhow.",
+      "webSrc": "assets/new-every-morning/web/b-022-001.jpg",
+      "heroSrc": "assets/new-every-morning/web/b-022-001.jpg",
+      "isScene": true,
+      "sceneType": "solitary_city_lantern",
+      "palette": {
+        "top": "#9e9080",
+        "horizon": "#837262",
+        "ground": "#5c5345",
+        "overall": "#786c5d",
+        "accent": "#fad6a6"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "in the night",
+      "ref": "Lamentations 1:2",
+      "epigraph": "“She weeps bitterly in the night. Her tears are on her cheeks.”",
+      "poem": "the day has chores in it.\nbread, water, the door, the fire.\n\nit's at night\nthat grief sits up.\n\nshe weeps in the night,\nthe poem says,\nand her tears are on her cheeks,\n\nnot wiped away yet,\nnot explained,\njust there\nwhere anyone who came close\ncould see them.\n\nif that is you tonight,\nyou are in good company.\nyou are not the first\nto cry in the dark\nand be written down\nin the Bible.10",
+      "webSrc": "assets/new-every-morning/web/b-022-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#595041",
+        "horizon": "#554a39",
+        "ground": "#5d4f3b",
+        "overall": "#5b4e3c",
+        "accent": "#dda85c"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "the roads mourn",
+      "ref": "Lamentations 1:4",
+      "epigraph": "“The roads to Zion mourn, because no one comes to the solemn assembly.”",
+      "poem": "no feet on them now.\nno singing up the hill\nat festival time,\nno children running ahead.\n\ngrass in the wheel ruts.\na lizard on a warm stone.\n\neven the roads,\nthe poet says,\nare mourning.\n\ngrief does that.\nit gets into everything:\nthe path you used to walk,\nthe day of the week\nyou used to go.\n\nit isn't foolish\nto find it there.",
+      "webSrc": "assets/new-every-morning/web/b-022-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c9b2",
+        "horizon": "#8b836f",
+        "ground": "#a19377",
+        "overall": "#a69b83",
+        "accent": "#efe4cb"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "is it nothing to you",
+      "ref": "Lamentations 1:12",
+      "epigraph": "“Is it nothing to you, all you who pass by?”",
+      "poem": "the travelers keep walking.\nthey have their own errands,\ntheir own long roads.\n\nand the city calls after them\nfrom the rubble:\nis it nothing to you?\n\nit's the oldest question\nanyone in pain has asked.\ndoes anyone see?\n\nthis whole book\nis a hand on the sleeve\nof whoever is passing.\n\nstop a moment.\nlook.\n\nsome sorrow\nonly asks\nto be seen.",
+      "webSrc": "assets/new-every-morning/web/b-022-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bdb396",
+        "horizon": "#b4a889",
+        "ground": "#897b60",
+        "overall": "#a3977b",
+        "accent": "#eadbb4"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "open hands",
+      "ref": "Lamentations 1:17",
+      "epigraph": "“Zion spreads out her hands. There is no one to comfort her.”",
+      "poem": "again and again\nthe chapter says it:\nno one to comfort her.\n\nso she does\nthe only thing left.\nshe spreads out her hands.\n\nnot a fist.\nnot a door slammed shut.\nopen palms,\nempty,\nheld out into the air,\n\nthe way a child\nholds up her arms\nto be lifted.\n\nan empty hand\nis still a prayer.",
+      "webSrc": "assets/new-every-morning/web/b-022-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7b7566",
+        "horizon": "#8a7d6a",
+        "ground": "#807562",
+        "overall": "#817765",
+        "accent": "#c7bba4"
+      }
+    },
+    {
+      "n": 6,
+      "part": 2,
+      "title": "a cloud",
+      "ref": "Lamentations 2:1",
+      "epigraph": "“How has the Lord covered the daughter of Zion with a cloud in his anger!”",
+      "poem": "the poet doesn't pretend.\nhe says it plainly:\na cloud came down\nover the city\nand the light went out of it,\nand he names who he thinks\nlet it come.\n\nthe Bible lets him say it.\nit doesn't cut the line\nor tidy it up.\n\nsome grief is angry,\nand aimed at heaven,\nand heaven\nkeeps it in the book.\n\nyou can bring God\nthe hard sentence too.\nhe has heard it before.",
+      "webSrc": "assets/new-every-morning/web/b-022-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#898579",
+        "horizon": "#9f9685",
+        "ground": "#4d4636",
+        "overall": "#746e5f",
+        "accent": "#fce8c9"
+      }
+    },
+    {
+      "n": 7,
+      "part": 2,
+      "title": "gates in the ground",
+      "ref": "Lamentations 2:9",
+      "epigraph": "“Her gates have sunk into the ground. He has destroyed and broken her bars.”",
+      "poem": "gates were for keeping safe,\nfor closing at dusk,\nfor old men sitting in their shade.\n\nnow they lie half buried,\nhinges in the dust,\nthe great bars broken.\n\nnothing keeps anything out.\nnothing keeps anything in.\n\nsome losses are like that.\nthe thing that held your life together\nis lying in the dirt,\n\nand all you can do\nis sit beside it\nand say so.",
+      "webSrc": "assets/new-every-morning/web/b-022-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8c9ae",
+        "horizon": "#928571",
+        "ground": "#b6a68b",
+        "overall": "#b1a28a",
+        "accent": "#e8dcc1"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "they keep silence",
+      "ref": "Lamentations 2:10",
+      "epigraph": "“The elders of the daughter of Zion sit on the ground. They keep silence.”",
+      "poem": "the old men sit down\non the bare ground\nand say nothing.\n\ndust on their heads.\nrough cloth on their shoulders.\n\nno speeches.\nno answers.\nthey have lived long enough\nto know\nthere aren't any yet.\n\nif you are sitting\nwith someone in grief,\nyou may not need words.\n\nsit down.\nstay.\n\nthe ground is big enough\nfor two.",
+      "webSrc": "assets/new-every-morning/web/b-022-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdc2a7",
+        "horizon": "#afa690",
+        "ground": "#797260",
+        "overall": "#a39a85",
+        "accent": "#f3e7cc"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "as big as the sea",
+      "ref": "Lamentations 2:13",
+      "epigraph": "“For your breach is as big as the sea. Who can heal you?”",
+      "poem": "the poet searches\nfor something to compare it to,\nsomething to say\nthat might help.\n\nhe tries one picture,\nthen another.\n\nin the end\nthe only thing big enough\nis the sea.\n\na wound as wide as the sea.\nwho can heal that?\n\nhe doesn't answer.\nnot yet.\n\nbut he kept reaching for words\nbecause he wanted to comfort her.\n\nthat reaching\nis already a kind of love.",
+      "webSrc": "assets/new-every-morning/web/b-022-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ded5c5",
+        "horizon": "#b7b4aa",
+        "ground": "#837761",
+        "overall": "#aba393",
+        "accent": "#fcf3e3"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "pour out your heart",
+      "ref": "Lamentations 2:19",
+      "epigraph": "“Pour out your heart like water before the face of the Lord.”",
+      "poem": "not a little.\nnot politely.\nnot only the parts\nthat sound like faith.\n\npour it out\nthe way you'd empty a jar,\nupside down,\nevery last drop,\nthe grit at the bottom too.\n\nget up in the night\nand do it.\n\nwater poured on the ground\ncan't be gathered up again,\n\nbut it isn't lost.\nit goes before the face\nof the Lord.",
+      "webSrc": "assets/new-every-morning/web/b-022-010.jpg",
+      "heroSrc": "assets/new-every-morning/web/b-022-010.jpg",
+      "isScene": true,
+      "sceneType": "night_watch_water",
+      "palette": {
+        "top": "#353d3d",
+        "horizon": "#4c4a3f",
+        "ground": "#2e3029",
+        "overall": "#3a3c36",
+        "accent": "#c0af8a"
+      }
+    },
+    {
+      "n": 11,
+      "part": 3,
+      "title": "walled in",
+      "ref": "Lamentations 3:7–9",
+      "epigraph": "“He has walled me about, so that I can’t go out.”",
+      "poem": "cut stone on every side.\npaths that bend back\nto where they started.\n\nhe calls out,\nand it feels like the prayer\nhits the ceiling.\n\nthis is the darkest room\nin the whole book,\nand it sits right in the middle.\n\nit goes this low\nbefore it turns.\n\nif you are in the room\nwhere the walls are close\nand the prayers come back unopened,\n\nkeep reading.\nthe same voice\nis about to say\nsomething else.",
+      "webSrc": "assets/new-every-morning/web/b-022-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#85795c",
+        "horizon": "#65614d",
+        "ground": "#605a4a",
+        "overall": "#6c6651",
+        "accent": "#b1a480"
+      }
+    },
+    {
+      "n": 12,
+      "part": 3,
+      "title": "I forgot",
+      "ref": "Lamentations 3:17–18",
+      "epigraph": "“Y ou have removed my soul far away from peace. I forgot prosperity.”",
+      "poem": "not just that things were bad.\nhe forgot\nwhat good felt like.\n\nthe taste of an easy morning.\na table with enough.\na night of plain sleep.\n\nthat is the deepest part of grief,\nwhen even the memory\nof peace\ngoes quiet.\n\nmy strength has perished,\nhe says,\nand my hope with it.\n\nhe writes that down honestly.\n\nand then\nhe keeps writing.",
+      "webSrc": "assets/new-every-morning/web/b-022-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b6aa8e",
+        "horizon": "#968c70",
+        "ground": "#8b836e",
+        "overall": "#9a9178",
+        "accent": "#ece1c7"
+      }
+    },
+    {
+      "n": 13,
+      "part": 3,
+      "title": "this I recall",
+      "ref": "Lamentations 3:19–21",
+      "epigraph": "“This I recall to my mind; therefore I have hope.”",
+      "poem": "nothing outside has changed.\nthe walls are still down.\nthe streets are still empty.\n\nwhat changes\nis what he chooses\nto bring to mind.\n\nhe reaches into the ash\nof everything he's lost\nand finds\none coal still warm.\n\nthis I recall.\n\nhope doesn't wait\nfor the ruins to be rebuilt.\nsometimes it begins\nwith remembering on purpose.",
+      "webSrc": "assets/new-every-morning/web/b-022-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6b795",
+        "horizon": "#5e5540",
+        "ground": "#7f765d",
+        "overall": "#887d62",
+        "accent": "#ddccab"
+      }
+    },
+    {
+      "n": 14,
+      "part": 3,
+      "title": "new every morning",
+      "ref": "Lamentations 3:22–23",
+      "epigraph": "“They are new every morning. Great is your faithfulness.”",
+      "poem": "yesterday's mercy\nwas enough for yesterday.\n\nyou don't have to ration it\nthrough the dark.\n\nevery morning\nthe light comes up over the rubble,\nand with it, kindness\nenough for today,\nfresh as the dew on the stones.\n\nsomeone who had lost nearly everything\nwatched that sun come up\nand said to God:\ngreat is your faithfulness.",
+      "webSrc": "assets/new-every-morning/web/b-022-014.jpg",
+      "heroSrc": "assets/new-every-morning/web/b-022-014.jpg",
+      "isScene": true,
+      "sceneType": "new_every_morning_dawn",
+      "palette": {
+        "top": "#d7c492",
+        "horizon": "#9d8e68",
+        "ground": "#5e594a",
+        "overall": "#928666",
+        "accent": "#fad865"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "my portion",
+      "ref": "Lamentations 3:24",
+      "epigraph": "““Yahweh is my portion,” says my soul. “Therefore I will hope in him.””",
+      "poem": "long ago, when the land was shared out,\nevery family got a portion:\na field, a vineyard,\na place to belong.\n\nnow the fields\nbelong to strangers.\n\nand the poet looks around\nat everything he no longer has,\nand says:\n\nthe Lord\nis my portion.\n\nno one can carry that off.\nno army\ncan march onto that field.",
+      "webSrc": "assets/new-every-morning/web/b-022-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c6a4",
+        "horizon": "#bdab86",
+        "ground": "#a28e6e",
+        "overall": "#b7a583",
+        "accent": "#e2c289"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "wait quietly",
+      "ref": "Lamentations 3:25–26",
+      "epigraph": "“It is good that a man should hope and quietly wait for the salvation of Yahweh.”",
+      "poem": "not pacing.\nnot fixing.\nnot running to the gate\nevery hour\nto see who is coming.\n\njust sitting\nin the doorway,\nfacing east,\nhoping.\n\nit is good, he says,\nto wait quietly.\n\nquiet isn't giving up.\nit's the stillness\nof someone who believes\nhelp is on the way.",
+      "webSrc": "assets/new-every-morning/web/b-022-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bbb1a5",
+        "horizon": "#676059",
+        "ground": "#48413a",
+        "overall": "#706860",
+        "accent": "#ffdcb4"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "not forever",
+      "ref": "Lamentations 3:31–33",
+      "epigraph": "“For the Lord will not cast off forever.”",
+      "poem": "the grief is real.\nthe night is long.\n\nbut he does not\nhurt us gladly,\nand he will not\nturn away forever.",
+      "webSrc": "assets/new-every-morning/web/b-022-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cabfa5",
+        "horizon": "#b5aa8d",
+        "ground": "#9d947f",
+        "overall": "#b3a990",
+        "accent": "#f5e9d1"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "heart and hands",
+      "ref": "Lamentations 3:40–41",
+      "epigraph": "“Let’s lift up our heart with our hands to God in the heavens.”",
+      "poem": "first, a searching.\nlet us look at our ways,\nthe poet says,\nhonestly,\nand turn around.\n\nthen, a lifting.\n\nnot just the hands.\nanyone can raise their hands.\n\nthe heart with them.\n\nwhatever is heavy in it,\nwhatever we have done,\nwhatever was done to us,\n\nlifted up together,\nthe way you'd hold up\nsomething broken\nto someone\nwho knows how to mend it.",
+      "webSrc": "assets/new-every-morning/web/b-022-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c7aa",
+        "horizon": "#c1b49a",
+        "ground": "#7f725c",
+        "overall": "#ac9f86",
+        "accent": "#efe2c8"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "until",
+      "ref": "Lamentations 3:49–50",
+      "epigraph": "“until Yahweh looks down, and sees from heaven.”",
+      "poem": "his eyes won't stop.\nno break, he says.\nno pause.\n\nand he isn't ashamed of it.\nhe tells us\nhow long he plans to cry:\n\nuntil the Lord\nlooks down\nand sees.\n\nnot until he's over it.\nnot until it makes sense.\n\nuntil he is seen.\n\ntears are not a failure of faith.\nsometimes they are\nhow faith keeps watch.",
+      "webSrc": "assets/new-every-morning/web/b-022-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b4a990",
+        "horizon": "#8e8875",
+        "ground": "#6a6557",
+        "overall": "#8d8673",
+        "accent": "#f7ebc9"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "don't be afraid",
+      "ref": "Lamentations 3:55–57",
+      "epigraph": "“Y ou came near in the day that I called on you. Y ou said, “Don’t be afraid.””",
+      "poem": "the lowest place.\nwater over his head.\na stone across the top.\n\nI am cut off, he said.\n\nand from down there,\nwhere no one could see him,\nhe called on the Name.\n\nhere is what he remembers:\nyou came near.\n\nnot the rescue yet.\nfirst,\na nearness.\n\nand a voice in the dark\nsaying the thing\nevery frightened child\nneeds to hear:\n\ndon't be afraid.",
+      "webSrc": "assets/new-every-morning/web/b-022-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#696a64",
+        "horizon": "#75705e",
+        "ground": "#4c4d44",
+        "overall": "#626156",
+        "accent": "#f8eed9"
+      }
+    },
+    {
+      "n": 21,
+      "part": 4,
+      "title": "stones in the street",
+      "ref": "Lamentations 4:1",
+      "epigraph": "“The stones of the sanctuary are poured out at the head of every street.”",
+      "poem": "stones cut\nfor the house of God\nnow lie at street corners\nwhere the carts go by.\n\nit is hard to see\nwhat you thought was forever\nlying in the dust,\n\nand harder\nto walk past it\nevery day.\n\ngrief is like that.\nit isn't one moment.\nit's the corner\nyou have to pass\nagain tomorrow.",
+      "webSrc": "assets/new-every-morning/web/b-022-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#958d79",
+        "horizon": "#7e7664",
+        "ground": "#8d826c",
+        "overall": "#8a816d",
+        "accent": "#f2e5c8"
+      }
+    },
+    {
+      "n": 22,
+      "part": 4,
+      "title": "clay jars",
+      "ref": "Lamentations 4:2",
+      "epigraph": "“how they are esteemed as earthen pitchers, the work of the hands of the potter!”",
+      "poem": "worth their weight in gold,\nthe poem says,\n\nand now\ntreated like cheap clay jars,\nthe kind you use\nand break\nand toss on the heap.\n\nthat is what loss can do.\nit tells you\nyou are common,\nused up,\nworth nothing.\n\nbut read the line again:\nthe work of the hands\nof the potter.\n\neven a clay jar\nwas made by someone\nwho shaped it\nwith care.",
+      "webSrc": "assets/new-every-morning/web/b-022-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3a889",
+        "horizon": "#8e8369",
+        "ground": "#91846a",
+        "overall": "#9a8e72",
+        "accent": "#e0d4ae"
+      }
+    },
+    {
+      "n": 23,
+      "part": 4,
+      "title": "no one breaks it",
+      "ref": "Lamentations 4:4",
+      "epigraph": "“The young children ask bread, and no one breaks it for them.”",
+      "poem": "of all the sorrows in this book,\nthis may be the smallest sentence\nand the heaviest.\n\nthe children ask for bread,\nand no one breaks it for them.\n\nthe poet doesn't look away,\nand neither should we.\n\nsomewhere\na child is still asking.\n\nbread is a small thing\nto break.",
+      "webSrc": "assets/new-every-morning/web/b-022-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#998d73",
+        "horizon": "#908267",
+        "ground": "#5b4d39",
+        "overall": "#82745b",
+        "accent": "#e5d5af"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "the watchtower",
+      "ref": "Lamentations 4:17",
+      "epigraph": "“In our watching we have watched for a nation that could not save.”",
+      "poem": "every morning\nup on the wall,\neyes on the far road,\nwatching for the help\nthey were counting on.\n\nthey watched\nuntil their eyes failed.\nthe dust on the horizon\nwas only wind.\n\nmost of us have a tower like that:\na person,\na plan,\na rescue we keep watching for\nthat was never able to save.\n\nit isn't wrong to hope.\nit just matters\nwhich way you are facing.",
+      "webSrc": "assets/new-every-morning/web/b-022-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c396",
+        "horizon": "#a0957b",
+        "ground": "#7b7361",
+        "overall": "#9d9377",
+        "accent": "#f2e49e"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "accomplished",
+      "ref": "Lamentations 4:22",
+      "epigraph": "“The punishment of your iniquity is accomplished, daughter of Zion. He will no more carry you away into captivity.”",
+      "poem": "after all the dark\nof this chapter,\none line of light\nnear the end:\n\naccomplished.\n\nthe hard season\nhas an end.\nno more carrying away.\n\nyou may not feel it yet.\nthe ruins still look like ruins.\n\nbut a word\nhas been spoken over them,\n\nand the weight\nyou have carried so long\ncan be set down\nin the grass.",
+      "webSrc": "assets/new-every-morning/web/b-022-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4bda6",
+        "horizon": "#9d9277",
+        "ground": "#4e5646",
+        "overall": "#86836e",
+        "accent": "#f4eacd"
+      }
+    },
+    {
+      "n": 26,
+      "part": 5,
+      "title": "remember",
+      "ref": "Lamentations 5:1–3",
+      "epigraph": "“Remember, Y ahweh, what has come on us. Look, and see our reproach.”",
+      "poem": "our houses have other people in them now.\nour fields\nare someone else's harvest.\n\nremember, Lord.\n\nthe last chapter\nis a prayer\nall the way through.\n\nit doesn't begin with praise.\nit begins with a list\nof what was lost:\nthe house, the land,\nthe father at the table.\n\nsometimes that's how prayer starts.\njust telling God\nwhat happened,\nand asking him\nto keep it in mind.",
+      "webSrc": "assets/new-every-morning/web/b-022-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8b7d63",
+        "horizon": "#716550",
+        "ground": "#af9c7c",
+        "overall": "#908065",
+        "accent": "#f9e4b2"
+      }
+    },
+    {
+      "n": 27,
+      "part": 5,
+      "title": "water for money",
+      "ref": "Lamentations 5:4",
+      "epigraph": "“We have drunken our water for money. Our wood is sold to us.”",
+      "poem": "water from our own wells.\nwood from our own hills.\n\nand now we pay for it.\n\nit's the small things\ngrief takes\nthat surprise you:\na cup of water,\na fire lit\nwithout counting sticks.\n\nif even the simple parts\nof your day\nfeel expensive now,\n\ngo gently.\nit costs more\nto live through a loss\nthan anyone can see.",
+      "webSrc": "assets/new-every-morning/web/b-022-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c8a3",
+        "horizon": "#b0a27f",
+        "ground": "#a59777",
+        "overall": "#b5a684",
+        "accent": "#dbcba4"
+      }
+    },
+    {
+      "n": 28,
+      "part": 5,
+      "title": "the lyre",
+      "ref": "Lamentations 5:14–15",
+      "epigraph": "“Our dance is turned into mourning.”",
+      "poem": "no one at the gate\ntelling the old stories.\nno young men\nwith their music.\n\nthe lyre lies in the dust.\nthe dancing stopped.\n\nthe poet doesn't hurry past it.\n\nbut there is another song\nin Israel's prayer book\nwhere the same words\nturn the other way:\nyou have turned my mourning\ninto dancing.\n\nthe lyre isn't broken.\nit's waiting.",
+      "webSrc": "assets/new-every-morning/web/b-022-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dec796",
+        "horizon": "#9f8a64",
+        "ground": "#9c8764",
+        "overall": "#af9971",
+        "accent": "#f9e1a8"
+      }
+    },
+    {
+      "n": 29,
+      "part": 5,
+      "title": "the fox",
+      "ref": "Lamentations 5:18–19",
+      "epigraph": "“You, Yahweh, remain forever. Your throne is from generation to generation.”",
+      "poem": "the holy mountain,\nwhere the songs went up,\nwhere the crowds came in at festival,\n\na fox trots across it now,\nnose down,\nunbothered,\nbetween the fallen stones.\n\nthat's how empty it is.\n\nand in the very next breath\nthe poet looks up:\n\nbut you, Lord,\nremain forever.\n\nthe mountain can be emptied.\nthe throne cannot.",
+      "webSrc": "assets/new-every-morning/web/b-022-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5d8b4",
+        "horizon": "#c1b294",
+        "ground": "#7e7460",
+        "overall": "#aea287",
+        "accent": "#ecd6a5"
+      }
+    },
+    {
+      "n": 30,
+      "part": 5,
+      "title": "renew our days",
+      "ref": "Lamentations 5:21–22",
+      "epigraph": "“Renew our days as of old.”",
+      "poem": "the book ends\nwithout tying it up.\nits very last words\nare still grief.\n\nbut just before them,\na prayer:\nturn us back to you,\nand we will be turned.\nmake our days new\nlike they used to be.\n\nthat is where it leaves you,\nin the ruins,\npraying.\n\nnot healed yet.\nturned toward home.\n\nand every morning\nthe mercy that is new\ncomes up again\nover the broken walls.",
+      "webSrc": "assets/new-every-morning/web/b-022-030.jpg",
+      "heroSrc": "assets/new-every-morning/web/b-022-030.jpg",
+      "isScene": true,
+      "sceneType": "restored_lyre",
+      "palette": {
+        "top": "#e2d7b7",
+        "horizon": "#94896d",
+        "ground": "#8e8064",
+        "overall": "#ab9e80",
+        "accent": "#e6dcb2"
+      }
+    }
+  ]
+}

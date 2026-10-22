@@ -14,7 +14,9 @@
       "epigraph": "I will dwell among the children of Israel, and will not forsake my people Israel.",
       "epigraphRef": "1 Kings 6:13",
       "lightName": "Light of the Cedar Sanctuary",
-      "lightHint": "Where the luminous cloud of glory fills the quiet gold-and-cedar house"
+      "lightHint": "Where the luminous cloud of glory fills the quiet gold-and-cedar house",
+      "index": 1,
+      "startN": 1
     },
     {
       "part": 2,
@@ -22,7 +24,9 @@
       "epigraph": "That David my servant may have a lamp always before me in Jerusalem.",
       "epigraphRef": "1 Kings 11:36",
       "lightName": "Light of the Unextinguished Lamp",
-      "lightHint": "Beside the torn cloak where one tribe is kept for David’s sake"
+      "lightHint": "Beside the torn cloak where one tribe is kept for David’s sake",
+      "index": 2,
+      "startN": 9
     },
     {
       "part": 3,
@@ -30,7 +34,9 @@
       "epigraph": "The God who answers by fire, let him be God.",
       "epigraphRef": "1 Kings 18:24",
       "lightName": "Light of Mount Horeb’s Cave",
-      "lightHint": "At the mouth of the mountain cave where the still small voice speaks after the fire"
+      "lightHint": "At the mouth of the mountain cave where the still small voice speaks after the fire",
+      "index": 3,
+      "startN": 14
     },
     {
       "part": 4,
@@ -38,7 +44,9 @@
       "epigraph": "Yahweh, please open his eyes, that he may see.",
       "epigraphRef": "2 Kings 6:17",
       "lightName": "Light of the Hills of Dothan",
-      "lightHint": "Along the ridge blazing with unseen horses and chariots of fire"
+      "lightHint": "Along the ridge blazing with unseen horses and chariots of fire",
+      "index": 4,
+      "startN": 24
     },
     {
       "part": 5,
@@ -46,7 +54,9 @@
       "epigraph": "I have heard your prayer. I have seen your tears.",
       "epigraphRef": "2 Kings 20:5",
       "lightName": "Light of the Exiled Table",
-      "lightHint": "Near the dial steps and the final table of daily bread before the Finale Plaza"
+      "lightHint": "Near the dial steps and the final table of daily bread before the Finale Plaza",
+      "index": 5,
+      "startN": 34
     }
   ],
   "paintings": [

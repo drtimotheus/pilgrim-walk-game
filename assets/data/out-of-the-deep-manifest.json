@@ -1,0 +1,510 @@
+{
+  "district": 26,
+  "slug": "out-of-the-deep",
+  "title": "Out of the Deep",
+  "subtitle": "Jonah in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/out-of-the-deep/web/b-026-000.jpg",
+  "beforeYouBegin": "Jonah is four short chapters about a prophet who ran the other way, a storm, a great fish, a city that turned around, and a God who asks the last question.\n\nThis book walks through it in twenty-four short poems. Each poem sits beside a picture and under a single line of Scripture, so you can read it in an evening, or one page a morning.\n\nThe poems are not the Bible. They are one reader's response to it. Open the book of Jonah alongside this one, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Running",
+      "epigraph": "But Jonah rose up to flee to Tarshish from the presence of Y ahweh.",
+      "epigraphRef": "Jonah 1:3",
+      "lightName": "Light of Running",
+      "lightHint": "Near 'get up' (Jonah 1:1–2) in Part 1: Running"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 7,
+      "title": "From the Deep",
+      "epigraph": "Salvation belongs to Yahweh.",
+      "epigraphRef": "Jonah 2:9",
+      "lightName": "Light of From the Deep",
+      "lightHint": "Near 'prepared' (Jonah 1:17) in Part 2: From the Deep"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 13,
+      "title": "A Second Time",
+      "epigraph": "Y ahweh’s word came to Jonah the second time",
+      "epigraphRef": "Jonah 3:1",
+      "lightName": "Light of A Second Time",
+      "lightHint": "Near 'again' (Jonah 3:1–3) in Part 3: A Second Time"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 19,
+      "title": "The Vine",
+      "epigraph": "you are a gracious God, and merciful, slow to anger, and abundant in loving kindness",
+      "epigraphRef": "Jonah 4:2",
+      "lightName": "Light of The Vine",
+      "lightHint": "Near 'I knew it' (Jonah 4:1–2) in Part 4: The Vine"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "get up",
+      "ref": "Jonah 1:1–2",
+      "epigraph": "“Arise, go to Nineveh, that great city”",
+      "poem": "the word came plainly:\nget up. go east.\nto the great city,\nthe one everyone feared.\n\nNineveh—\na name that meant\narmies at the border\nand cruelty on the roads.\n\nand God said:\ngo and tell them\nI have seen.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7cbac",
+        "horizon": "#dbcaa9",
+        "ground": "#837966",
+        "overall": "#b9ac91",
+        "accent": "#e8dcb7"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "down",
+      "ref": "Jonah 1:3",
+      "epigraph": "“He went down to Joppa, and found a ship going to Tarshish”",
+      "poem": "notice the direction.\n\nhe went down to Joppa.\ndown into the ship.\ndown into its lowest room.\ndown into sleep.\n\nevery step away from God\nwas a step down,\nand he paid the fare\nhimself.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9bb97",
+        "horizon": "#d9c593",
+        "ground": "#756c56",
+        "overall": "#ac9d79",
+        "accent": "#e9d18f"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "fast asleep",
+      "ref": "Jonah 1:4–6",
+      "epigraph": "“Yahweh sent out a great wind on the sea”",
+      "poem": "the sailors threw the cargo overboard,\neach man crying to his own god.\n\nand below deck,\nthe only man on board\nwho knew the God of the sea\nwas fast asleep.\n\nit is possible\nto be the one with the answer\nand the last one awake.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-003.jpg",
+      "heroSrc": "assets/out-of-the-deep/web/b-026-003.jpg",
+      "isScene": true,
+      "sceneType": "tarshish_storm_ship",
+      "palette": {
+        "top": "#8f8876",
+        "horizon": "#98907d",
+        "ground": "#7f7f73",
+        "overall": "#928d7b",
+        "accent": "#ece0bb"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "the God of the sea",
+      "ref": "Jonah 1:7–10",
+      "epigraph": "“I fear Yahweh, the God of heaven, who has made the sea and the dry land.”",
+      "poem": "the lot fell on him,\nand they asked everything at once:\nwho are you? where from?\nwhat have you done?\n\nand he said the truest thing\nhe would say for a while:\nI fear the God\nwho made the sea\nand the dry land.\n\nthe sea he was running across\nbelonged to the God\nhe was running from.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4cdba",
+        "horizon": "#938f81",
+        "ground": "#746f63",
+        "overall": "#969182",
+        "accent": "#fdf8e7"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "the rowers",
+      "ref": "Jonah 1:11–14",
+      "epigraph": "“the men rowed hard to get them back to the land”",
+      "poem": "throw me in, he said.\n\nbut they didn't want to.\nthese strangers,\nmen of other gods,\nrowed with everything they had\nto save the prophet\nwho had put them all in danger.\n\nsometimes the outsiders in the story\nare kinder\nthan the prophet.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddd0af",
+        "horizon": "#897f68",
+        "ground": "#8d8168",
+        "overall": "#a2967c",
+        "accent": "#e5d8b6"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "calm",
+      "ref": "Jonah 1:15–16",
+      "epigraph": "“the sea ceased its raging”",
+      "poem": "the moment he went over,\nthe sea lay down\nlike a dog at its master's word.\n\nand the sailors\nwho began the day\npraying to every god they knew\nended it\noffering sacrifice\nto the one who made the sea.\n\nJonah ran from telling anyone about God,\nand a whole crew\ncame to fear him anyway.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c7a9",
+        "horizon": "#bca985",
+        "ground": "#675d4d",
+        "overall": "#a3967a",
+        "accent": "#f7d787"
+      }
+    },
+    {
+      "n": 7,
+      "part": 2,
+      "title": "prepared",
+      "ref": "Jonah 1:17",
+      "epigraph": "“Yahweh prepared a great fish to swallow up Jonah”",
+      "poem": "not a punishment.\na provision.\n\nthe word is prepared—\nthe same word the book will use\nfor a vine,\na worm,\na wind.\n\nGod is not chasing Jonah\nwith a monster.\nhe is catching him.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfbc96",
+        "horizon": "#a89776",
+        "ground": "#2b403c",
+        "overall": "#82816b",
+        "accent": "#ecdcbb"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "at the bottom",
+      "ref": "Jonah 2:1–2",
+      "epigraph": "“Out of the belly of Sheol I cried. Y ou heard my voice.”",
+      "poem": "three days in the dark.\nno ship, no sky,\nno way to count the hours.\n\nand that is where\nhe finally prays.\n\nnot on the dock,\nnot on the deck—\nhere, at the bottom,\nwhere there is nothing left to do\nbut call.\n\nand the prayer begins:\nhe answered me.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-008.jpg",
+      "heroSrc": "assets/out-of-the-deep/web/b-026-008.jpg",
+      "isScene": true,
+      "sceneType": "depths_of_the_sea",
+      "palette": {
+        "top": "#33423c",
+        "horizon": "#24302f",
+        "ground": "#1c2524",
+        "overall": "#242f2e",
+        "accent": "#677f6a"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "look again",
+      "ref": "Jonah 2:3–4",
+      "epigraph": "“yet I will look again toward your holy temple”",
+      "poem": "I have been driven from your sight—\nand yet.\n\neven here,\nunder the whole sea,\nhe turns his face\ntoward where God is.\n\nit is the smallest movement,\na turn of the head in the dark.\nit is enough.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6bca2",
+        "horizon": "#81816b",
+        "ground": "#343d35",
+        "overall": "#767765",
+        "accent": "#f7e9ba"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "the roots of the mountains",
+      "ref": "Jonah 2:5–6",
+      "epigraph": "“The weeds were wrapped around my head.”",
+      "poem": "the waters closed over me.\nthe weeds wrapped my head.\nI went down to the roots of the mountains.\n\nhe keeps saying down,\nthe way the story did at the start—\n\nuntil the turn:\nyet you brought up my life\nfrom the pit.\n\nevery word in the prayer\nfalls,\nexcept that one.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#baa985",
+        "horizon": "#596553",
+        "ground": "#252f25",
+        "overall": "#5f634e",
+        "accent": "#dec8a0"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "I remembered",
+      "ref": "Jonah 2:7",
+      "epigraph": "“When my soul fainted within me, I remembered Yahweh.”",
+      "poem": "when his life was fainting,\nhe remembered.\n\nnot a plan.\nnot a promise.\na name.\n\nand the prayer went up,\nout of the fish,\nout of the sea,\nall the way to the holy temple,\nfaster than he had ever run.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbcfae",
+        "horizon": "#9c947f",
+        "ground": "#554d40",
+        "overall": "#938a75",
+        "accent": "#f9eabc"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "dry land",
+      "ref": "Jonah 2:9–10",
+      "epigraph": "“it vomited out Jonah on the dry land.”",
+      "poem": "salvation belongs to the Lord,\nhe said—\nand the very next line\nis the fish giving him back.\n\nnot graceful.\nnot dignified.\nbut alive,\nface down on the dry land\nthe Lord had made,\n\nthe land he had said\nbelonged to his God\nall along.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4caa3",
+        "horizon": "#a08b72",
+        "ground": "#7c6c58",
+        "overall": "#a89478",
+        "accent": "#fbdb9f"
+      }
+    },
+    {
+      "n": 13,
+      "part": 3,
+      "title": "again",
+      "ref": "Jonah 3:1–3",
+      "epigraph": "“preach to it the message that I give you.”",
+      "poem": "the word came a second time.\n\nno lecture about Tarshish.\nno list of what he did wrong.\njust the same call,\nalmost word for word,\nas if the first had never been refused.\n\nthat is how God is with us:\nhe will say it\nagain.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1be9b",
+        "horizon": "#c5af91",
+        "ground": "#9c8768",
+        "overall": "#b4a181",
+        "accent": "#e0cda9"
+      }
+    },
+    {
+      "n": 14,
+      "part": 3,
+      "title": "forty days",
+      "ref": "Jonah 3:3–4",
+      "epigraph": "“In forty days, Nineveh will be overthrown!”",
+      "poem": "a city so wide\nit took three days to cross,\n\nand one man\nfrom a small country,\na day's walk in,\nsaying one short sentence.\n\nno miracles.\nno signs.\njust the warning,\nand the clock.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8af9a",
+        "horizon": "#9e9785",
+        "ground": "#847964",
+        "overall": "#9a917d",
+        "accent": "#e9ddbf"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "they believed",
+      "ref": "Jonah 3:5",
+      "epigraph": "“The people of Nineveh believed God”",
+      "poem": "the most surprising verse\nin the whole book\nis this one:\n\nthey believed.\n\nfrom the greatest to the least,\nthe feared city\ntook off its fine clothes\nand sat down in the dust\nbefore a God\nthey had only just heard of.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5dcc7",
+        "horizon": "#dad1b9",
+        "ground": "#6c5d49",
+        "overall": "#b1a791",
+        "accent": "#eadec5"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "the empty throne",
+      "ref": "Jonah 3:6",
+      "epigraph": "“he arose from his throne, and took offhis royal robe”",
+      "poem": "the news reached the palace,\nand the king stood up\nfrom his throne.\n\nhe laid the robe aside,\nput on sackcloth,\nand sat in the ashes\nlike the poorest man in his city.\n\nthere is no crown\ntoo heavy to take off\nwhen God is speaking.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-016.jpg",
+      "heroSrc": "assets/out-of-the-deep/web/b-026-016.jpg",
+      "isScene": true,
+      "sceneType": "nineveh_sackcloth_throne",
+      "palette": {
+        "top": "#ada082",
+        "horizon": "#8e8166",
+        "ground": "#84765f",
+        "overall": "#908369",
+        "accent": "#ded2b0"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "even the flocks",
+      "ref": "Jonah 3:7–8",
+      "epigraph": "“both man and animal, and let them cry mightily to God”",
+      "poem": "the king's decree\nleft no one out:\nno food, no water,\nsackcloth on the people\nand on the cattle too.\n\nit sounds strange—\na whole city\nand its flocks\ncrying in the dust.\n\nbut grief that is real\nfills the whole house,\ndown to the barn.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c8b69e",
+        "horizon": "#a49380",
+        "ground": "#4d463b",
+        "overall": "#897c6b",
+        "accent": "#f1d5a3"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "who knows",
+      "ref": "Jonah 3:9–10",
+      "epigraph": "“Who knows whether God will not turn and relent”",
+      "poem": "who knows? said the king.\nmaybe God will turn.\n\nhe had no promise.\nno prophet's assurance.\nonly a guess\nabout what God is like.\n\nand he guessed right.\n\nGod saw them turn,\nand turned,\nand the disaster\nnever came.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dac798",
+        "horizon": "#9e9075",
+        "ground": "#524a3e",
+        "overall": "#93866a",
+        "accent": "#fce78c"
+      }
+    },
+    {
+      "n": 19,
+      "part": 4,
+      "title": "I knew it",
+      "ref": "Jonah 4:1–2",
+      "epigraph": "“But it displeased Jonah exceedingly, and he was angry.”",
+      "poem": "this is the prayer\nhe'd been holding since the beginning:\n\nI knew it.\nI knew you were gracious,\nmerciful, slow to anger,\nfull of love.\nthat's why I ran.\n\nhe didn't run\nbecause he thought God was cruel.\nhe ran\nbecause he knew God was kind\nto people he wasn't.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8c9a9",
+        "horizon": "#938972",
+        "ground": "#675c47",
+        "overall": "#948970",
+        "accent": "#f0daad"
+      }
+    },
+    {
+      "n": 20,
+      "part": 4,
+      "title": "a question",
+      "ref": "Jonah 4:3–4",
+      "epigraph": "“Is it right for you to be angry?”",
+      "poem": "he was so angry\nhe asked to die.\n\nand God did not shout.\ndid not strike.\ndid not leave.\n\nhe asked a question—\nis it right for you to be angry?—\nand waited\nfor Jonah to answer.\n\nGod questions the hurting\nthe way a father does:\nto bring them back\nto the table.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#eae2ce",
+        "horizon": "#beb69e",
+        "ground": "#a49676",
+        "overall": "#c1b69b",
+        "accent": "#f6eeda"
+      }
+    },
+    {
+      "n": 21,
+      "part": 4,
+      "title": "the shelter",
+      "ref": "Jonah 4:5",
+      "epigraph": "“sat under it in the shade, until he might see what would become of the city”",
+      "poem": "he built a little shelter\neast of the city\nand sat down to watch,\n\nstill hoping, maybe,\nfor fire.\n\nthere is a kind of person\nwho would rather be right\nthan see a city saved.\n\nthe book is honest enough\nto let the prophet\nbe that person.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2decf",
+        "horizon": "#a8a291",
+        "ground": "#70644c",
+        "overall": "#a39b88",
+        "accent": "#f7f5e8"
+      }
+    },
+    {
+      "n": 22,
+      "part": 4,
+      "title": "the vine",
+      "ref": "Jonah 4:6",
+      "epigraph": "“Yahweh God prepared a vine”",
+      "poem": "and God, who was not done with him,\ngrew a vine overnight—\nbroad leaves,\ncool shade over his head.\n\nJonah was glad.\nexceedingly glad,\nthe book says—\nthe only joy he shows in four chapters.\n\nover a plant.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-022.jpg",
+      "heroSrc": "assets/out-of-the-deep/web/b-026-022.jpg",
+      "isScene": true,
+      "sceneType": "jonah_booth_vine",
+      "palette": {
+        "top": "#dccfb4",
+        "horizon": "#797655",
+        "ground": "#86795d",
+        "overall": "#9b9173",
+        "accent": "#e4d9be"
+      }
+    },
+    {
+      "n": 23,
+      "part": 4,
+      "title": "a worm, a wind",
+      "ref": "Jonah 4:7–9",
+      "epigraph": "“God prepared a worm at dawn the next day”",
+      "poem": "then a worm.\nthen a wind.\nthen the sun.\n\nprepared, prepared, prepared—\nthe same word as the fish.\n\nthe God who rescued him with a fish\nnow teaches him\nwith a worm.\n\nthe shade is gone,\nand Jonah is angry again,\nhot and tired\nand sure he is right.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e7dbb8",
+        "horizon": "#b0a487",
+        "ground": "#948261",
+        "overall": "#b6a887",
+        "accent": "#ebd7a9"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "that great city",
+      "ref": "Jonah 4:10–11",
+      "epigraph": "“Shouldn’t I be concerned for Nineveh, that great city”",
+      "poem": "you cared about a plant, God said,\nthat you didn't plant,\ndidn't water,\nthat came up in a night\nand died in a night.\n\nshouldn't I care about a city—\nmore than a hundred twenty thousand people\nwho can't tell their right hand from their left,\nand all those animals?\n\nand there the book ends,\nwith a question.\nno answer from Jonah.\n\nthe question is still open.\nit is waiting\nfor ours.",
+      "webSrc": "assets/out-of-the-deep/web/b-026-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bcae8f",
+        "horizon": "#8c806e",
+        "ground": "#3a372b",
+        "overall": "#7d7460",
+        "accent": "#ecca8e"
+      }
+    }
+  ]
+}

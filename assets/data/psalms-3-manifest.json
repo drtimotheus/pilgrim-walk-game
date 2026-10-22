@@ -1,0 +1,700 @@
+{
+  "district": 15,
+  "slug": "psalms-3",
+  "title": "A Day in Your Courts",
+  "subtitle": "Psalms 73–106 in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/psalms-3/web/b-015-000.jpg",
+  "beforeYouBegin": "This volume brings together Books Three and Four of the Psalter. Book Three begins with a man nearly losing his faith until he walks into God's house, and holds the darkest psalm in the Bible. Book Four opens with Moses's prayer about numbering our days and rises into songs where rivers clap and trees sing.\n\nThe volume answers them one at a time, thirty-four short poems in four parts, each beside a picture and under a single line from the psalm it answers. It follows Planted by the Water and As the Deer.\n\nThe poems are not the Bible. They are one reader's response to it. Keep the Psalms open alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Until I Entered",
+      "epigraph": "God is the strength of my heart and my portion forever.",
+      "epigraphRef": "Psalm 73:26",
+      "lightName": "Light of Until I Entered",
+      "lightHint": "Near 'until I walked in' (Psalm 73:13–26) in Part 1: Until I Entered"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "A Day in Your Courts",
+      "epigraph": "For a day in your courts is better than a thousand.",
+      "epigraphRef": "Psalm 84:10",
+      "lightName": "Light of A Day in Your Courts",
+      "lightHint": "Near 'open wide' (Psalm 81:10–16) in Part 2: A Day in Your Courts"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 18,
+      "title": "Our Dwelling Place",
+      "epigraph": "Lord, you have been our dwelling place for all generations.",
+      "epigraphRef": "Psalm 90:1",
+      "lightName": "Light of Our Dwelling Place",
+      "lightHint": "Near 'count our days' (Psalm 90:1–12) in Part 3: Our Dwelling Place"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 26,
+      "title": "Bless the Lord, O My Soul",
+      "epigraph": "Praise Yahweh, my soul, and don’t forget all his benefits",
+      "epigraphRef": "Psalm 103:2",
+      "lightName": "Light of Bless the Lord, O My Soul",
+      "lightHint": "Near 'clap' (Psalm 98:7–9) in Part 4: Bless the Lord, O My Soul"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "until I walked in",
+      "ref": "Psalm 73:13–26",
+      "epigraph": "“until I entered God’s sanctuary, and considered their latter end.”",
+      "poem": "the wicked were rich.\nhealthy. untroubled.\nand I kept my heart clean\nfor nothing,\nAsaph says.\n\nit made no sense—\nuntil I walked into God's house.\n\nthen I saw\nthe end of the story.\n\nand this:\nwhom have I in heaven but you?\nmy heart may fail.\nyou are my portion\nforever.",
+      "webSrc": "assets/psalms-3/web/b-015-001.jpg",
+      "heroSrc": "assets/psalms-3/web/b-015-001.jpg",
+      "isScene": true,
+      "sceneType": "sanctuary_lamps",
+      "palette": {
+        "top": "#aba38f",
+        "horizon": "#938568",
+        "ground": "#857c67",
+        "overall": "#90866f",
+        "accent": "#d3b46a"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "the day is yours",
+      "ref": "Psalm 74:7–17",
+      "epigraph": "“The day is yours, the night is also yours.”",
+      "poem": "the sanctuary was burned.\nthe signs were gone.\nno prophet left.\n\nand still:\n\nthe day is yours.\nthe night is yours too.\nsummer and winter—\nyou made them.\n\nwhen everything else is ash,\nthe sun still comes up\non his schedule.",
+      "webSrc": "assets/psalms-3/web/b-015-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1af93",
+        "horizon": "#ba9a73",
+        "ground": "#3f3b2d",
+        "overall": "#88785f",
+        "accent": "#fcc36d"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "near",
+      "ref": "Psalm 75:1",
+      "epigraph": "“We give thanks, for your Name is near.”",
+      "poem": "we give thanks—\nyour name is near.\n\nnot far off in the clouds.\nnear.\n\nclose enough to call.\nclose enough to whisper.",
+      "webSrc": "assets/psalms-3/web/b-015-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b594",
+        "horizon": "#948567",
+        "ground": "#8f846b",
+        "overall": "#9f9275",
+        "accent": "#f1ac45"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "broken arrows",
+      "ref": "Psalm 76:3–10",
+      "epigraph": "“Surely the wrath of man praises you.”",
+      "poem": "he broke the flashing arrows,\nthe shield, the sword,\nthe weapons of war.\n\nand even human rage\nends up\nserving his praise.\n\nnothing people throw at God\nis wasted.\nhe turns it\ninto a song.",
+      "webSrc": "assets/psalms-3/web/b-015-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d9c1",
+        "horizon": "#a59b87",
+        "ground": "#7f7660",
+        "overall": "#a89f88",
+        "accent": "#f1e4c9"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "no footprints",
+      "ref": "Psalm 77:4–19",
+      "epigraph": "“Your way was through the sea; your paths through the great waters. Your footsteps were not known.”",
+      "poem": "I couldn't sleep.\nI couldn't speak.\nhas God forgotten?\n\nthen I remembered\nthe old wonders,\nthe road through the sea.\n\nand this:\nyour footprints\nweren't seen.\n\nhe led them through\nwithout leaving a mark.\n\njust because you can't see his tracks\ndoesn't mean\nhe isn't walking ahead.",
+      "webSrc": "assets/psalms-3/web/b-015-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#81837f",
+        "horizon": "#6a6c68",
+        "ground": "#5a5344",
+        "overall": "#6c6a62",
+        "accent": "#dccdb4"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "tell the children",
+      "ref": "Psalm 78:1–7",
+      "epigraph": "“W e will not hide them from their children, telling to the generation to come the praises of Y ahweh”",
+      "poem": "the longest history lesson\nin the Psalms:\nseventy-two verses\nof what God did,\nand how we forgot.\n\nand the reason it's written:\nso the children\nwill know,\nand set their hope in God,\nand not forget.\n\ntell them the stories—\nthe good ones\nand the hard ones.",
+      "webSrc": "assets/psalms-3/web/b-015-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#525f66",
+        "horizon": "#3e3d35",
+        "ground": "#453d30",
+        "overall": "#484842",
+        "accent": "#efc797"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "for your name's sake",
+      "ref": "Psalm 79:9",
+      "epigraph": "“Help us, God of our salvation, for the glory of your name.”",
+      "poem": "help us—\nnot because we deserve it.\n\nfor your name's sake.\n\nforgive us—\nnot because we've earned it.\n\nfor your name's sake.\n\nwhen you have nothing left to plead,\nplead his name.\nit has never\nbeen turned down.",
+      "webSrc": "assets/psalms-3/web/b-015-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2b696",
+        "horizon": "#958c71",
+        "ground": "#615a48",
+        "overall": "#8b826a",
+        "accent": "#f8edb8"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "turn us again",
+      "ref": "Psalm 80:3–19",
+      "epigraph": "“Turn us again, God. Cause your face to shine, and we will be saved.”",
+      "poem": "you brought a vine out of Egypt,\nplanted it,\nand it filled the land.\n\nnow the walls are broken\nand the wild boar tramples it.\n\nthree times the chorus comes back,\neach time a little more desperate:\n\nturn us again.\nmake your face shine,\nand we'll be saved.\n\nthat's the whole prayer.\nit's enough.",
+      "webSrc": "assets/psalms-3/web/b-015-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dcd1b9",
+        "horizon": "#837d69",
+        "ground": "#68614e",
+        "overall": "#918a74",
+        "accent": "#fcf4e0"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "open wide",
+      "ref": "Psalm 81:10–16",
+      "epigraph": "“Open your mouth wide, and I will fill it.”",
+      "poem": "open your mouth wide,\nand I'll fill it—\n\nlike a nest of baby birds,\nbeaks wide,\nnothing held back.\n\nand at the end:\nI would have fed you\nthe finest wheat,\nhoney from the rock.\n\nhe wants to give.\nwe keep our mouths\nhalf closed.",
+      "webSrc": "assets/psalms-3/web/b-015-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c59f",
+        "horizon": "#a39473",
+        "ground": "#827357",
+        "overall": "#9f9171",
+        "accent": "#e9dfba"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "the job description",
+      "ref": "Psalm 82:1–4",
+      "epigraph": "“Defend the weak, the poor, and the fatherless.”",
+      "poem": "God stands up\nin the council of the powerful\nand asks:\nhow long will you judge unjustly?\n\ndefend the weak.\nthe poor.\nthe fatherless.\n\nthat's the job description\nof anyone\nwith power.",
+      "webSrc": "assets/psalms-3/web/b-015-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cac0a5",
+        "horizon": "#958a6c",
+        "ground": "#a4987b",
+        "overall": "#a79c81",
+        "accent": "#f4ecd6"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "that they may know",
+      "ref": "Psalm 83:16–18",
+      "epigraph": "“you alone, whose name is Yahweh, are the Most High over all the earth.”",
+      "poem": "the nations made a pact,\na long list of enemies\nin one alliance.\n\nand the prayer\nisn't only: defeat them.\n\nit's: let them seek your name.\nlet them know\nyou alone\nare God.\n\neven for enemies,\nthe psalm's hope\nis that they'd find out\nwho he is.",
+      "webSrc": "assets/psalms-3/web/b-015-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9d0b7",
+        "horizon": "#cbc1a9",
+        "ground": "#726956",
+        "overall": "#a9a08b",
+        "accent": "#f6ebcd"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "the sparrow's nest",
+      "ref": "Psalm 84:1–6",
+      "epigraph": "“Yes, the sparrow has found a home, and the swallow a nest for herself, where she may have her young, near your altars”",
+      "poem": "how lovely is your house.\n\neven the sparrow\nfound a place there—\na little nest\ntucked in the stones\nnear the altar.\n\nif God makes room\nfor sparrows,\nthere's a place\nfor you.\n\nand on the way there,\npassing through the valley of weeping,\nthey make it\na place of springs.",
+      "webSrc": "assets/psalms-3/web/b-015-012.jpg",
+      "heroSrc": "assets/psalms-3/web/b-015-012.jpg",
+      "isScene": true,
+      "sceneType": "sparrow_altar",
+      "palette": {
+        "top": "#a2967c",
+        "horizon": "#867b64",
+        "ground": "#837a66",
+        "overall": "#8d836c",
+        "accent": "#c9b895"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "they kissed",
+      "ref": "Psalm 85:10–11",
+      "epigraph": "“Mercy and truth meet together. Righteousness and peace have kissed each other.”",
+      "poem": "mercy and truth\nmeet on the road.\n\nrighteousness and peace\nkiss.\n\nwe keep them apart—\ntruth without mercy,\npeace without justice.\n\nin God\nthey were never\nstrangers.",
+      "webSrc": "assets/psalms-3/web/b-015-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e8d9b9",
+        "horizon": "#9b927d",
+        "ground": "#797058",
+        "overall": "#a0967e",
+        "accent": "#f3e3c2"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "one piece",
+      "ref": "Psalm 86:11",
+      "epigraph": "“Make my heart undivided to fear your name.”",
+      "poem": "teach me your way,\nand unite my heart.\n\nI'm pulled in so many directions—\nfear and hope,\nGod and money,\nyes and maybe.\n\ngather me up.\nmake me\none piece,\nfacing you.",
+      "webSrc": "assets/psalms-3/web/b-015-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1cea7",
+        "horizon": "#bdac89",
+        "ground": "#786950",
+        "overall": "#ad9c7c",
+        "accent": "#faeec2"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "all my springs",
+      "ref": "Psalm 87:4–7",
+      "epigraph": "“All my springs are in you.”",
+      "poem": "a short, strange psalm\nabout Zion,\nand the foreigners\nwho'll be counted as born there—\n\nEgypt, Babylon,\nPhilistia, Tyre, Cush.\n\nand the singers and the dancers\nsay one thing:\n\nall my springs\nare in you.",
+      "webSrc": "assets/psalms-3/web/b-015-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cec0a3",
+        "horizon": "#998d75",
+        "ground": "#9f9179",
+        "overall": "#ab9e85",
+        "accent": "#e0d1b2"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "still praying",
+      "ref": "Psalm 88:13–18",
+      "epigraph": "“In the morning, my prayer comes before you.”",
+      "poem": "this is the darkest psalm.\nit doesn't end\nwith a turn to hope.\n\nthe last word is\ndarkness.\n\nand it's in the Bible anyway.\n\nsometimes that's all the prayer\nyou've got:\nI'm still here, Lord.\nit's morning again,\nand I'm still praying.\n\nthat counts.\nthat's faith too.",
+      "webSrc": "assets/psalms-3/web/b-015-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#413d2f",
+        "horizon": "#4f4530",
+        "ground": "#60563f",
+        "overall": "#544a36",
+        "accent": "#dbad68"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "the first line and the last",
+      "ref": "Psalm 89:1–52",
+      "epigraph": "“I will sing of the loving kindness of Yahweh forever.”",
+      "poem": "it begins in song:\nI'll sing of your love forever.\n\nthen asks\nwhy the crown lies in the dust.\n\nand it ends Book Three\nwith a blessing anyway:\nblessed be the Lord\nforever.\namen and amen.\n\nsometimes you sing\nthe first line\nand the last line\nwithout understanding\nthe middle.",
+      "webSrc": "assets/psalms-3/web/b-015-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8d8067",
+        "horizon": "#8b7c60",
+        "ground": "#483d2f",
+        "overall": "#72654f",
+        "accent": "#f1deb3"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "count our days",
+      "ref": "Psalm 90:1–12",
+      "epigraph": "“So teach us to count our days, that we may gain a heart of wisdom.”",
+      "poem": "the oldest psalm,\na prayer of Moses.\n\nLord, you've been our home\nfor every generation.\n\nwe are grass—\ngreen in the morning,\ndry by evening.\n\nso teach us\nto count our days—\n\nnot to be afraid.\nto be wise.",
+      "webSrc": "assets/psalms-3/web/b-015-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0b696",
+        "horizon": "#95917c",
+        "ground": "#616c5b",
+        "overall": "#909078",
+        "accent": "#f8e6b8"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "under his feathers",
+      "ref": "Psalm 91:1–15",
+      "epigraph": "“He will cover you with his feathers. Under his wings you will take refuge.”",
+      "poem": "dwell in the shelter.\nrest in the shadow.\n\nunder his feathers,\nunder his wings.\n\nnot a fortress of stone.\na mother bird's wing,\nwarm,\nclose,\ncovering.\n\nand at the end, God speaks:\nI will be with him\nin trouble.",
+      "webSrc": "assets/psalms-3/web/b-015-019.jpg",
+      "heroSrc": "assets/psalms-3/web/b-015-019.jpg",
+      "isScene": true,
+      "sceneType": "shadow_of_wings",
+      "palette": {
+        "top": "#deca99",
+        "horizon": "#918261",
+        "ground": "#6b614b",
+        "overall": "#968868",
+        "accent": "#ead194"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "still green",
+      "ref": "Psalm 92:12–15",
+      "epigraph": "“They will still produce fruit in old age. They will be full of sap and green”",
+      "poem": "the righteous will flourish\nlike a palm tree,\ngrow like a cedar—\n\nand still bear fruit\nwhen they're old,\nfull of sap,\nstill green.\n\ngrowing old with God\nisn't drying up.\nit's the harvest.",
+      "webSrc": "assets/psalms-3/web/b-015-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdbe97",
+        "horizon": "#b4a27b",
+        "ground": "#887960",
+        "overall": "#aa9a79",
+        "accent": "#ebdbb7"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "louder",
+      "ref": "Psalm 93:3–4",
+      "epigraph": "“Above the voices of many waters, the mighty breakers of the sea, Y ahweh on high is mighty.”",
+      "poem": "the floods lift up their voice.\nthe breakers roar.\n\nlouder.\nlouder.\n\nand above all of it,\nmightier than the loudest wave—\nthe Lord.\n\nthe sea is loud.\nhe is louder.",
+      "webSrc": "assets/psalms-3/web/b-015-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ded7c3",
+        "horizon": "#adac9f",
+        "ground": "#827a62",
+        "overall": "#aba593",
+        "accent": "#e8dcc0"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "slipping",
+      "ref": "Psalm 94:18–19",
+      "epigraph": "“When I said, “My foot is slipping!” Your loving kindness, Yahweh, held me up.”",
+      "poem": "my foot is slipping,\nI said—\n\nand your love\nheld me up.\n\nwhen my thoughts were a crowd,\nanxious and loud,\nyour comfort\ndelighted my soul.\n\nsometimes the only prayer you get out\nis: I'm falling.\nit's enough.\nhe's quick.",
+      "webSrc": "assets/psalms-3/web/b-015-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ab9f86",
+        "horizon": "#87795d",
+        "ground": "#736852",
+        "overall": "#8a7d64",
+        "accent": "#e9dbbf"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "today",
+      "ref": "Psalm 95:6–8",
+      "epigraph": "“T oday, oh that you would hear his voice!”",
+      "poem": "come, let's kneel.\nhe made us.\nwe're the sheep of his pasture.\n\nand then the warning:\ntoday,\nif you hear his voice,\ndon't harden your hearts.\n\nnot tomorrow.\nnot when things settle down.\n\ntoday\nis the only day\nhe ever asks for.",
+      "webSrc": "assets/psalms-3/web/b-015-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cec7b3",
+        "horizon": "#a7a392",
+        "ground": "#6c6d5e",
+        "overall": "#9b9886",
+        "accent": "#e7dbc0"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "the trees sing",
+      "ref": "Psalm 96:11–13",
+      "epigraph": "“Then all the trees of the woods shall sing for joy”",
+      "poem": "sing a new song,\nall the earth.\n\nand the earth sings back:\nthe sea roars,\nthe fields exult,\nthe trees of the forest\nsway and sing.\n\nthey're waiting\nfor the King,\nwho's coming\nto set things right.",
+      "webSrc": "assets/psalms-3/web/b-015-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b7a87f",
+        "horizon": "#afa78c",
+        "ground": "#837960",
+        "overall": "#9e9376",
+        "accent": "#f6ecca"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "the farthest islands",
+      "ref": "Psalm 97:1–11",
+      "epigraph": "“Y ahweh reigns! Let the earth rejoice! Let the multitude of islands be glad!”",
+      "poem": "the Lord reigns.\n\ngood news\nall the way out\nto the farthest islands.\n\nclouds and darkness around him—\nbut at his center,\nrighteousness and justice.\n\nand light is sown\nfor the righteous,\nlike seed.",
+      "webSrc": "assets/psalms-3/web/b-015-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dccda4",
+        "horizon": "#c7c1a6",
+        "ground": "#6f644a",
+        "overall": "#a89e80",
+        "accent": "#e8d9ac"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "clap",
+      "ref": "Psalm 98:7–9",
+      "epigraph": "“Let the rivers clap their hands. Let the mountains sing for joy together.”",
+      "poem": "rivers,\nclap your hands.\n\nmountains,\nsing together.\n\nthe whole world\nis a choir\nwith no sheet music,\n\nand everyone\nknows the song.",
+      "webSrc": "assets/psalms-3/web/b-015-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6ccb9",
+        "horizon": "#878377",
+        "ground": "#77756e",
+        "overall": "#9a9588",
+        "accent": "#e6d5ba"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "holy and near",
+      "ref": "Psalm 99:5–9",
+      "epigraph": "“Exalt Yahweh our God. Worship at his footstool. He is Holy!”",
+      "poem": "holy.\nholy.\nholy—\n\nthree times in one psalm.\n\nand yet\nhe answered Moses,\nand Aaron,\nand Samuel,\nwhen they called.\n\nholy,\nand near.",
+      "webSrc": "assets/psalms-3/web/b-015-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#beae88",
+        "horizon": "#a69671",
+        "ground": "#8f8570",
+        "overall": "#a39677",
+        "accent": "#eed186"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "the gate",
+      "ref": "Psalm 100:3–4",
+      "epigraph": "“Enter into his gates with thanksgiving, and into his courts with praise.”",
+      "poem": "he made us.\nwe're his.\nhis people.\nhis sheep.\n\nso go in\nwith thanks.\n\nthe gate isn't locked.\nyou don't need a password.\njust gratitude.",
+      "webSrc": "assets/psalms-3/web/b-015-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b6a98c",
+        "horizon": "#978667",
+        "ground": "#8b7c5f",
+        "overall": "#998a6c",
+        "accent": "#f9eac4"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "at home",
+      "ref": "Psalm 101:2",
+      "epigraph": "“I will walk within my house with a blameless heart.”",
+      "poem": "the king's resolution:\nI will walk with integrity\nin my own house.\n\nnot just in public.\nat home.\nwith the door closed.\n\nthat's where holiness\nis tested:\nthe rooms\nnobody else sees.",
+      "webSrc": "assets/psalms-3/web/b-015-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b4a785",
+        "horizon": "#9b8b67",
+        "ground": "#aa9b79",
+        "overall": "#a59774",
+        "accent": "#fde99c"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "written for later",
+      "ref": "Psalm 102:1–18",
+      "epigraph": "“He has responded to the prayer of the destitute, and has not despised their prayer.”",
+      "poem": "I'm like a lonely bird\non the housetop,\nawake all night.\n\nmy days vanish like smoke.\n\nand yet—\nhe hears the prayer of the destitute.\nhe doesn't despise it.\n\nand this, for later:\nlet it be written\nfor a generation to come.\n\nsomeone not yet born\nwill read your prayer\nand praise him.",
+      "webSrc": "assets/psalms-3/web/b-015-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#1e2830",
+        "horizon": "#444540",
+        "ground": "#4c4538",
+        "overall": "#3f3f3a",
+        "accent": "#c7ac85"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "east from west",
+      "ref": "Psalm 103:1–14",
+      "epigraph": "“As far as the east is from the west, so far has he removed our transgressions from us.”",
+      "poem": "bless the Lord, my soul.\ndon't forget.\n\nhe forgives.\nhe heals.\nhe redeems.\nhe crowns you with love.\n\nand your sins?\nas far as east is from west.\n\nyou can't measure it.\nthat's the point.\n\nand he remembers\nwe are dust—\nnot to condemn us.\nto be gentle.",
+      "webSrc": "assets/psalms-3/web/b-015-031.jpg",
+      "heroSrc": "assets/psalms-3/web/b-015-031.jpg",
+      "isScene": true,
+      "sceneType": "east_from_west",
+      "palette": {
+        "top": "#dccba6",
+        "horizon": "#a59270",
+        "ground": "#615947",
+        "overall": "#988b6e",
+        "accent": "#f8d973"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "a walk with God",
+      "ref": "Psalm 104:17–26",
+      "epigraph": "“Yahweh, how many are your works! In wisdom, you have made them all.”",
+      "poem": "the stork in the fir tree.\nthe wild goats on the high cliffs.\nthe rock badgers in the rocks.\nthe young lions roaring for food.\nthe ships on the sea.\n\nhow many are your works.\n\nthis psalm is a nature walk\nwith God,\npointing at everything\nand saying:\nthat's mine.\nisn't it good?",
+      "webSrc": "assets/psalms-3/web/b-015-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c4a0",
+        "horizon": "#c1b493",
+        "ground": "#6c644e",
+        "overall": "#a1977a",
+        "accent": "#f6e9c6"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "seek his face",
+      "ref": "Psalm 105:1–5",
+      "epigraph": "“Seek Y ahweh and his strength. Seek his face forever more.”",
+      "poem": "remember\nwhat he's done—\nAbraham, Joseph, Moses,\nthe plagues, the manna,\nthe water from the rock.\n\nand then:\nseek his face.\nalways.\n\nmemory\nisn't nostalgia.\nit's fuel\nfor tomorrow's seeking.",
+      "webSrc": "assets/psalms-3/web/b-015-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c5a1",
+        "horizon": "#88826b",
+        "ground": "#8e7b54",
+        "overall": "#9d9070",
+        "accent": "#e2bb70"
+      }
+    },
+    {
+      "n": 34,
+      "part": 4,
+      "title": "amen",
+      "ref": "Psalm 106:1–48",
+      "epigraph": "“Let all the people say, “Amen.” Praise Yah!”",
+      "poem": "Book Four ends\nby telling the truth:\n\nwe sinned.\nour fathers sinned.\nover and over.\n\nand he rescued them\nover and over.\n\nhis love endures forever.\n\nso the book closes\nwith everyone together:\namen.\npraise the Lord.",
+      "webSrc": "assets/psalms-3/web/b-015-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7bf8d",
+        "horizon": "#756647",
+        "ground": "#7c6d52",
+        "overall": "#95835f",
+        "accent": "#f9cd75"
+      }
+    }
+  ]
+}

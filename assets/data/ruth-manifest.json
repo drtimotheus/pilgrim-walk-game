@@ -14,7 +14,9 @@
       "epigraph": "I went out full, and Yahweh has brought me home again empty.",
       "epigraphRef": "Ruth 1:21",
       "lightName": "Light of the Bethlehem Road",
-      "lightHint": "Beside the stone milestone where two roads meet toward Bethlehem"
+      "lightHint": "Beside the stone milestone where two roads meet toward Bethlehem",
+      "index": 1,
+      "startN": 1
     },
     {
       "part": 2,
@@ -22,7 +24,9 @@
       "epigraph": "Who has not abandoned his kindness to the living and to the dead.",
       "epigraphRef": "Ruth 2:20",
       "lightName": "Light of the Gleaner’s Field",
-      "lightHint": "Among the golden barley sheaves and the cool water jars"
+      "lightHint": "Among the golden barley sheaves and the cool water jars",
+      "index": 2,
+      "startN": 7
     },
     {
       "part": 3,
@@ -30,7 +34,9 @@
       "epigraph": "Shall I not seek rest for you, that it may be well with you?",
       "epigraphRef": "Ruth 3:1",
       "lightName": "Light of the Sheltering Wing",
-      "lightHint": "By the winnowing floor where the mantle of refuge is spread"
+      "lightHint": "By the winnowing floor where the mantle of refuge is spread",
+      "index": 3,
+      "startN": 13
     },
     {
       "part": 4,
@@ -38,7 +44,9 @@
       "epigraph": "Blessed be Yahweh, who has not left you today without a near kinsman.",
       "epigraphRef": "Ruth 4:14",
       "lightName": "Light of the House of Bread",
-      "lightHint": "Near the town gate elders’ bench before the Finale Plaza"
+      "lightHint": "Near the town gate elders’ bench before the Finale Plaza",
+      "index": 4,
+      "startN": 19
     }
   ],
   "paintings": [

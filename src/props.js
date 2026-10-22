@@ -3079,4 +3079,606 @@ export class PainterlyPropBuilder {
     group.scale.setScalar(scale);
     return group;
   }
+
+  // ============================================================================
+  // DISTRICTS IX–XLIV (BOOKS #9 TO #44) — SACRED 3D FOCAL PROP ASSEMBLIES
+  // Covers all 144 Step-Through Scenes across Books #9–#44 + Finale Plaza Props
+  // ============================================================================
+
+  createFocalPropForScene(kind, propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#7d6e59',
+      accentColor: pal.accent || '#e8c889',
+      roughness: 0.86,
+      bumpScale: 0.05
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#694b30',
+      accentColor: '#a67c52',
+      roughness: 0.85,
+      bumpScale: 0.04
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#efe4ce',
+      accentColor: '#fff8ea',
+      roughness: 0.9
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a86743',
+      accentColor: '#d99b6c',
+      roughness: 0.82
+    });
+    const goldMat = new THREE.MeshStandardMaterial({
+      color: '#f2ca68',
+      emissive: '#593b08',
+      emissiveIntensity: 0.55,
+      roughness: 0.3,
+      metalness: 0.78
+    });
+    const bronzeMat = new THREE.MeshStandardMaterial({
+      color: '#b88449',
+      roughness: 0.42,
+      metalness: 0.65
+    });
+    const ironMat = new THREE.MeshStandardMaterial({
+      color: '#4e5259',
+      roughness: 0.52,
+      metalness: 0.72
+    });
+
+    // Base stone dais / sanctuary hearth circle
+    const dais = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.75, 1.95, 0.18, 28), 0.025, 3.0),
+      stoneMat
+    );
+    dais.position.y = 0.09;
+    group.add(dais);
+
+    const glowTex = this.painterly.createGlowSpriteTexture(pal.accent || '#ffe29c');
+    const focalHalo = new THREE.Sprite(
+      new THREE.SpriteMaterial({
+        map: glowTex,
+        color: pal.accent || '#ffe29c',
+        transparent: true,
+        opacity: 0.72,
+        blending: THREE.AdditiveBlending
+      })
+    );
+    focalHalo.position.set(0, 1.55, 0);
+    focalHalo.scale.set(2.8, 2.8, 1);
+    group.add(focalHalo);
+
+    const focalLight = new THREE.PointLight(pal.accent || '#ffde8a', 2.4, 16);
+    focalLight.position.set(0, 1.85, 0.4);
+    group.add(focalLight);
+
+    const animatedParts = [];
+
+    // Category 1: Thresholds, Gates, Open Doors, Pillars & Veils
+    if ([
+      'chron_thresholds', 'chron_one_sound', 'valley_of_achor_door',
+      'gate_called_beautiful', 'broken_dividing_wall', 'finish_line_pillar',
+      'pillar_of_truth', 'opened_curtain_way', 'open_door_compassion',
+      'behold_i_stand_and_knock'
+    ].includes(kind)) {
+      for (const sx of [-1.05, 1.05]) {
+        const col = new THREE.Mesh(
+          this.displaceGeometry(new THREE.CylinderGeometry(0.24, 0.28, 2.8, 14), 0.02, 3.5),
+          kind === 'gate_called_beautiful' ? bronzeMat : stoneMat
+        );
+        col.position.set(sx, 1.48, 0);
+        group.add(col);
+      }
+      if (kind !== 'broken_dividing_wall') {
+        const lintel = new THREE.Mesh(
+          this.displaceGeometry(new THREE.BoxGeometry(2.65, 0.32, 0.48, 8, 2, 4), 0.02, 3.5),
+          stoneMat
+        );
+        lintel.position.set(0, 2.95, 0);
+        group.add(lintel);
+      }
+      if (kind === 'behold_i_stand_and_knock' || kind === 'open_door_compassion' || kind === 'chron_thresholds') {
+        const doorLeaf = new THREE.Mesh(new THREE.BoxGeometry(0.92, 2.45, 0.12), woodMat);
+        doorLeaf.position.set(-0.48, 1.38, 0.15);
+        doorLeaf.rotation.y = kind === 'behold_i_stand_and_knock' ? 0.35 : 0.72;
+        group.add(doorLeaf);
+        const ringKnocker = new THREE.Mesh(new THREE.TorusGeometry(0.11, 0.022, 8, 18), goldMat);
+        ringKnocker.position.set(-0.22, 1.42, 0.25);
+        group.add(ringKnocker);
+        animatedParts.push(ringKnocker);
+      } else if (kind === 'opened_curtain_way') {
+        for (const sx of [-0.65, 0.65]) {
+          const curtain = new THREE.Mesh(
+            this.displaceGeometry(new THREE.BoxGeometry(0.55, 2.55, 0.08, 4, 12, 2), 0.03, 4.0),
+            this.painterly.createPainterlyMaterial({ baseColor: '#4c2c5e', accentColor: '#d9b26f', roughness: 0.85 })
+          );
+          curtain.position.set(sx, 1.45, 0.08);
+          curtain.rotation.z = sx * -0.14;
+          group.add(curtain);
+        }
+      } else if (kind === 'chron_one_sound') {
+        for (const sx of [-0.45, 0.45]) {
+          const horn = new THREE.Mesh(new THREE.ConeGeometry(0.14, 1.15, 14, 1, true), goldMat);
+          horn.position.set(sx, 1.45, 0.25);
+          horn.rotation.x = -Math.PI / 3;
+          horn.rotation.z = sx * -0.25;
+          group.add(horn);
+          animatedParts.push(horn);
+        }
+      } else if (kind === 'broken_dividing_wall') {
+        for (let b = 0; b < 7; b++) {
+          const blk = new THREE.Mesh(this.displaceGeometry(new THREE.BoxGeometry(0.52, 0.32, 0.38), 0.03, 3.5), stoneMat);
+          blk.position.set((b - 3) * 0.42, 0.26 + (b % 2) * 0.14, (b % 3 - 1) * 0.25);
+          blk.rotation.set(b * 0.2, b * 0.5, b * 0.15);
+          group.add(blk);
+        }
+      }
+    }
+
+    // Category 2: Tables of Bread, Cup, Hospitality & Fellowship
+    else if ([
+      'chron_ark_feast', 'daniel_pulse_table', 'emmaus_table_bread',
+      'communion_cup_loaf', 'psalms_hymns_table', 'philemon_guest_room',
+      'quiet_table_loaf', 'face_to_face_table', 'doers_mirror_table',
+      'armor_of_god_table'
+    ].includes(kind)) {
+      const tableTop = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(1.85, 0.12, 1.15, 8, 2, 6), 0.015, 4.0),
+        woodMat
+      );
+      tableTop.position.y = 0.88;
+      group.add(tableTop);
+      for (const lx of [-0.75, 0.75]) {
+        for (const lz of [-0.42, 0.42]) {
+          const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.05, 0.78, 8), woodMat);
+          leg.position.set(lx, 0.48, lz);
+          group.add(leg);
+        }
+      }
+      const cloth = new THREE.Mesh(new THREE.BoxGeometry(0.95, 0.03, 1.18), linenMat);
+      cloth.position.set(0, 0.94, 0);
+      group.add(cloth);
+
+      if (kind === 'armor_of_god_table') {
+        const helmet = new THREE.Mesh(new THREE.SphereGeometry(0.24, 14, 12, 0, Math.PI * 2, 0, Math.PI * 0.65), bronzeMat);
+        helmet.position.set(-0.38, 1.02, 0);
+        group.add(helmet);
+        const shield = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.36, 0.05, 20), bronzeMat);
+        shield.rotation.x = Math.PI / 2 - 0.35;
+        shield.position.set(0.45, 1.12, -0.15);
+        group.add(shield);
+        const sword = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.03, 0.88), goldMat);
+        sword.position.set(0.05, 0.98, 0.12);
+        sword.rotation.y = 0.4;
+        group.add(sword);
+        animatedParts.push(sword);
+      } else if (kind === 'doers_mirror_table') {
+        const mirrorDisk = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.32, 0.04, 24), bronzeMat);
+        mirrorDisk.rotation.x = Math.PI / 3;
+        mirrorDisk.position.set(0, 1.18, -0.1);
+        group.add(mirrorDisk);
+        animatedParts.push(mirrorDisk);
+      } else {
+        // Broken bread halves + cup / pitcher
+        for (const bx of [-0.24, 0.08]) {
+          const loaf = new THREE.Mesh(
+            this.displaceGeometry(new THREE.SphereGeometry(0.18, 12, 10), 0.015, 5.0),
+            this.painterly.createPainterlyMaterial({ baseColor: '#c98e4b', accentColor: '#f0c486', roughness: 0.85 })
+          );
+          loaf.scale.set(1.2, 0.58, 0.95);
+          loaf.position.set(bx, 1.01, 0.08);
+          group.add(loaf);
+        }
+        const cup = new THREE.Mesh(new THREE.CylinderGeometry(0.10, 0.07, 0.24, 14), kind === 'daniel_pulse_table' ? clayMat : goldMat);
+        cup.position.set(0.42, 1.07, -0.08);
+        group.add(cup);
+        animatedParts.push(cup);
+      }
+    }
+
+    // Category 3: Illuminated Scrolls, Books of Remembrance, Parchments & Lecterns
+    else if ([
+      'water_gate_scroll', 'sleepless_chronicles', 'exile_letter_scroll',
+      'anathoth_deed_jars', 'book_of_remembrance', 'praetorian_scroll_chain',
+      'cancelled_scroll_cross', 'lois_eunice_scrolls', 'cloak_and_parchments'
+    ].includes(kind)) {
+      const pedestal = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(1.15, 0.95, 0.85, 6, 6, 6), 0.02, 3.5),
+        kind === 'water_gate_scroll' ? woodMat : stoneMat
+      );
+      pedestal.position.y = 0.56;
+      group.add(pedestal);
+
+      // Unrolled scroll with wooden rollers
+      const scrollSheet = new THREE.Mesh(new THREE.BoxGeometry(0.86, 0.03, 0.58), linenMat);
+      scrollSheet.position.set(0, 1.06, 0);
+      scrollSheet.rotation.x = 0.18;
+      group.add(scrollSheet);
+      for (const rx of [-0.44, 0.44]) {
+        const roller = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.055, 0.66, 12), woodMat);
+        roller.rotation.x = Math.PI / 2 + 0.18;
+        roller.position.set(rx, 1.08, 0);
+        group.add(roller);
+      }
+      if (kind === 'anathoth_deed_jars') {
+        const jar = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.24, 0.58, 14), clayMat);
+        jar.position.set(0.75, 0.46, 0.25);
+        group.add(jar);
+      } else if (kind === 'cloak_and_parchments') {
+        const cloak = new THREE.Mesh(
+          this.displaceGeometry(new THREE.BoxGeometry(0.65, 0.18, 0.52, 6, 2, 6), 0.02, 4.0),
+          this.painterly.createPainterlyMaterial({ baseColor: '#6e4730', accentColor: '#b3815b', roughness: 0.88 })
+        );
+        cloak.position.set(-0.72, 0.28, 0.25);
+        group.add(cloak);
+      } else if (kind === 'cancelled_scroll_cross') {
+        const beamV = new THREE.Mesh(new THREE.BoxGeometry(0.18, 2.55, 0.18), woodMat);
+        beamV.position.set(0, 1.45, -0.45);
+        group.add(beamV);
+        const beamH = new THREE.Mesh(new THREE.BoxGeometry(1.45, 0.16, 0.16), woodMat);
+        beamH.position.set(0, 2.05, -0.45);
+        group.add(beamH);
+      }
+      animatedParts.push(scrollSheet);
+    }
+
+    // Category 4: Rebuilt Stone Walls, Altars, Trowel & Sword, Plumb Line, Cornerstone
+    else if ([
+      'ezra_altar', 'nehemiah_night_ride', 'trowel_and_sword',
+      'amos_plumb_line', 'living_stones_cornerstone', 'redeemer_rock',
+      'rock_higher', 'nothing_can_separate_rock', 'chron_eyes_on_you'
+    ].includes(kind)) {
+      for (let r = 0; r < 3; r++) {
+        for (let c = -1; c <= 1; c++) {
+          const block = new THREE.Mesh(
+            this.displaceGeometry(new THREE.BoxGeometry(0.68, 0.38, 0.52, 4, 3, 3), 0.025, 3.5),
+            r === 2 && c === 0 && kind === 'living_stones_cornerstone' ? goldMat : stoneMat
+          );
+          block.position.set(c * 0.70 + (r % 2) * 0.18, 0.36 + r * 0.39, 0);
+          group.add(block);
+          if (r === 2 && c === 0) animatedParts.push(block);
+        }
+      }
+      if (kind === 'trowel_and_sword') {
+        const sword = new THREE.Mesh(new THREE.BoxGeometry(0.09, 0.92, 0.03), ironMat);
+        sword.position.set(0.65, 0.72, 0.34);
+        sword.rotation.z = 0.25;
+        group.add(sword);
+        const trowel = new THREE.Mesh(new THREE.ConeGeometry(0.12, 0.28, 4), ironMat);
+        trowel.position.set(-0.25, 1.42, 0.1);
+        trowel.rotation.z = Math.PI / 2;
+        group.add(trowel);
+      } else if (kind === 'amos_plumb_line') {
+        const cord = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, 1.65, 8), goldMat);
+        cord.position.set(0, 1.85, 0.38);
+        group.add(cord);
+        const bob = new THREE.Mesh(new THREE.ConeGeometry(0.11, 0.26, 12), bronzeMat);
+        bob.rotation.x = Math.PI;
+        bob.position.set(0, 0.95, 0.38);
+        group.add(bob);
+        animatedParts.push(bob);
+      }
+    }
+
+    // Category 5: Royal Scepter, Throne of Grace, Crown of Righteousness, Servant Towel
+    else if ([
+      'susa_courtyard', 'esther_fast', 'golden_scepter',
+      'nineveh_sackcloth_throne', 'servant_towel_crown', 'throne_of_grace',
+      'crown_of_righteousness'
+    ].includes(kind)) {
+      const throneSeat = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(1.25, 0.65, 0.95, 6, 4, 4), 0.02, 3.5),
+        stoneMat
+      );
+      throneSeat.position.set(0, 0.48, -0.1);
+      group.add(throneSeat);
+      const throneBack = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(1.25, 1.45, 0.22, 6, 6, 2), 0.02, 3.5),
+        stoneMat
+      );
+      throneBack.position.set(0, 1.35, -0.48);
+      group.add(throneBack);
+
+      if (kind === 'golden_scepter' || kind === 'susa_courtyard' || kind === 'esther_fast') {
+        const scepter = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.025, 1.45, 12), goldMat);
+        scepter.rotation.x = Math.PI / 2.6;
+        scepter.position.set(0, 1.05, 0.32);
+        group.add(scepter);
+        const orb = new THREE.Mesh(new THREE.SphereGeometry(0.09, 14, 14), goldMat);
+        orb.position.set(0, 1.32, 0.92);
+        group.add(orb);
+        animatedParts.push(scepter, orb);
+      } else {
+        const crown = new THREE.Mesh(new THREE.TorusGeometry(0.28, 0.055, 10, 24), goldMat);
+        crown.rotation.x = Math.PI / 2;
+        crown.position.set(0, 0.92, 0.05);
+        group.add(crown);
+        animatedParts.push(crown);
+      }
+      if (kind === 'servant_towel_crown') {
+        const towel = new THREE.Mesh(new THREE.BoxGeometry(0.68, 0.06, 0.42), linenMat);
+        towel.position.set(-0.35, 0.85, 0.25);
+        group.add(towel);
+      }
+    }
+
+    // Category 6: Living Trees by Water, Blossoming Almond, Vine & Fig, Olive Tree, River of Life
+    else if ([
+      'streams_of_water', 'green_pastures', 'scent_of_water',
+      'blossoming_almond', 'winter_is_past', 'watching_almond_branch',
+      'lily_and_olive_dew', 'vine_and_fig_tree', 'grafted_olive_tree',
+      'fruit_of_the_spirit_grove', 'rooted_in_love_tree', 'river_of_life_new_jerusalem',
+      'jonah_booth_vine'
+    ].includes(kind)) {
+      const tree = this.createGreatPainterlyTree(propTex, {
+        ground: '#5d4732',
+        horizon: ['blossoming_almond', 'watching_almond_branch', 'winter_is_past'].includes(kind) ? '#f5d9e2' : '#6c8752',
+        accent: pal.accent || '#ffe29c'
+      }, 0.95);
+      tree.position.set(0, 0.15, -0.2);
+      group.add(tree);
+
+      // Glowing golden fruits / blossoms in the boughs
+      for (let f = 0; f < 9; f++) {
+        const ang = (f / 9) * Math.PI * 2;
+        const blossom = new THREE.Mesh(new THREE.SphereGeometry(0.10, 10, 10), goldMat);
+        blossom.position.set(Math.cos(ang) * 1.15, 1.85 + (f % 3) * 0.35, Math.sin(ang) * 1.15 - 0.2);
+        group.add(blossom);
+        animatedParts.push(blossom);
+      }
+    }
+
+    // Category 7: Wellsprings, Stone Water Jars, Fountains, Basin & Towel, Charcoal Fire
+    else if ([
+      'deer_brook', 'be_still_waters', 'wellspring_of_life',
+      'locked_garden_fountain', 'night_watch_water', 'cana_stone_jars',
+      'jacob_well_jar', 'fresh_spring_well', 'upper_room_basin',
+      'galilee_charcoal_fire'
+    ].includes(kind)) {
+      if (kind === 'galilee_charcoal_fire') {
+        for (let r = 0; r < 9; r++) {
+          const ang = (r / 9) * Math.PI * 2;
+          const st = new THREE.Mesh(this.displaceGeometry(new THREE.DodecahedronGeometry(0.22, 1), 0.03, 3.0), stoneMat);
+          st.position.set(Math.cos(ang) * 0.65, 0.24, Math.sin(ang) * 0.65);
+          group.add(st);
+        }
+        const coals = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.48, 0.55, 0.16, 16),
+          new THREE.MeshStandardMaterial({ color: '#ff6e24', emissive: '#ff4500', emissiveIntensity: 1.4 })
+        );
+        coals.position.y = 0.24;
+        group.add(coals);
+        animatedParts.push(coals);
+      } else {
+        const wellWall = new THREE.Mesh(
+          this.displaceGeometry(new THREE.CylinderGeometry(0.95, 1.05, 0.78, 22, 1, true), 0.03, 3.5),
+          stoneMat
+        );
+        wellWall.position.y = 0.52;
+        group.add(wellWall);
+        const waterDisk = new THREE.Mesh(
+          new THREE.CircleGeometry(0.88, 22),
+          new THREE.MeshStandardMaterial({ color: '#4c8896', roughness: 0.15, metalness: 0.35 })
+        );
+        waterDisk.rotation.x = -Math.PI / 2;
+        waterDisk.position.y = 0.72;
+        group.add(waterDisk);
+
+        const jarCount = kind === 'cana_stone_jars' ? 6 : 2;
+        for (let j = 0; j < jarCount; j++) {
+          const ang = (j / jarCount) * Math.PI * 1.4 - 1.1;
+          const rad = kind === 'cana_stone_jars' ? 1.25 : 1.15;
+          const jar = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.22, 0.56, 14), kind === 'cana_stone_jars' ? stoneMat : clayMat);
+          jar.position.set(Math.cos(ang) * rad, 0.45, Math.sin(ang) * rad);
+          group.add(jar);
+        }
+      }
+    }
+
+    // Category 8: Golden Lampstands, Sanctuary Lamps, Live Coal Altar, Seven Lampstands
+    else if ([
+      'house_of_the_lord', 'sanctuary_lamps', 'sparrow_altar',
+      'lamp_to_my_feet', 'lamp_before_dawn', 'solitary_city_lantern',
+      'seraph_live_coal', 'zechariah_olive_lampstand', 'sermon_mount_lamp',
+      'morning_star_lamp', 'seven_golden_lampstands', 'cradle_lamp_warmth',
+      'tentmaker_loom_lamp', 'peace_on_guard_lantern'
+    ].includes(kind)) {
+      const lampCount = kind === 'seven_golden_lampstands' ? 7 : 1;
+      for (let l = 0; l < lampCount; l++) {
+        const ang = (l / lampCount) * Math.PI * 2;
+        const rad = lampCount === 1 ? 0 : 1.18;
+        const lx = lampCount === 1 ? 0 : Math.cos(ang) * rad;
+        const lz = lampCount === 1 ? 0 : Math.sin(ang) * rad;
+
+        const stand = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.16, 1.35, 12), goldMat);
+        stand.position.set(lx, 0.82, lz);
+        group.add(stand);
+
+        const bowl = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.10, 0.16, 14), goldMat);
+        bowl.position.set(lx, 1.54, lz);
+        group.add(bowl);
+
+        const flame = new THREE.Mesh(
+          new THREE.ConeGeometry(0.09, 0.28, 10),
+          new THREE.MeshBasicMaterial({ color: '#fff3b8' })
+        );
+        flame.position.set(lx, 1.72, lz);
+        group.add(flame);
+        animatedParts.push(flame);
+      }
+    }
+
+    // Category 9: Boats on the Sea, Rudders, Anchors of the Soul
+    else if ([
+      'storm_stilled_haven', 'rivers_to_the_sea', 'tarshish_storm_ship',
+      'depths_of_the_sea', 'walking_on_the_sea', 'peace_be_still_boat',
+      'malta_four_anchors', 'anchor_of_the_soul', 'wooden_rudder_helm',
+      'cast_your_cares_shore'
+    ].includes(kind)) {
+      if (kind === 'anchor_of_the_soul' || kind === 'malta_four_anchors') {
+        const shank = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 1.75, 12), goldMat);
+        shank.position.y = 1.15;
+        group.add(shank);
+        const stock = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 1.15, 10), woodMat);
+        stock.rotation.z = Math.PI / 2;
+        stock.position.y = 1.72;
+        group.add(stock);
+        const flukeArc = new THREE.Mesh(new THREE.TorusGeometry(0.58, 0.075, 10, 24, Math.PI), goldMat);
+        flukeArc.rotation.z = Math.PI;
+        flukeArc.position.y = 0.88;
+        group.add(flukeArc);
+        animatedParts.push(shank, flukeArc);
+      } else {
+        const hull = new THREE.Mesh(
+          this.displaceGeometry(new THREE.BoxGeometry(2.65, 0.62, 1.25, 10, 4, 6), 0.04, 2.5),
+          woodMat
+        );
+        hull.position.y = 0.45;
+        group.add(hull);
+        const mast = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.08, 2.35, 10), woodMat);
+        mast.position.set(0.15, 1.55, 0);
+        group.add(mast);
+        const cushion = new THREE.Mesh(new THREE.BoxGeometry(0.48, 0.16, 0.65), linenMat);
+        cushion.position.set(-0.88, 0.78, 0);
+        group.add(cushion);
+        animatedParts.push(hull);
+      }
+    }
+
+    // Category 10: Potter's Wheel, Treasure in Clay Jars, Crucible of Gold, Alabaster Jar
+    else if ([
+      'tears_in_bottle', 'apples_of_gold', 'iron_sharpens_iron',
+      'jeremiah_potter_wheel', 'alabaster_jar', 'treasure_in_clay_jars',
+      'crucible_of_gold'
+    ].includes(kind)) {
+      const wheelBase = new THREE.Mesh(new THREE.CylinderGeometry(0.72, 0.78, 0.16, 20), woodMat);
+      wheelBase.position.y = 0.58;
+      group.add(wheelBase);
+      const axle = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 0.55, 10), woodMat);
+      axle.position.y = 0.35;
+      group.add(axle);
+
+      for (let v = 0; v < 3; v++) {
+        const ang = (v / 3) * Math.PI * 2;
+        const rad = v === 0 ? 0 : 0.68;
+        const vessel = new THREE.Mesh(
+          this.displaceGeometry(new THREE.CylinderGeometry(0.20, 0.28, 0.68, 16), 0.015, 4.0),
+          v === 0 && kind === 'crucible_of_gold' ? goldMat : clayMat
+        );
+        vessel.position.set(Math.cos(ang) * rad, v === 0 ? 0.98 : 0.52, Math.sin(ang) * rad);
+        group.add(vessel);
+        if (v === 0) animatedParts.push(vessel);
+      }
+    }
+
+    // Category 11: Empty Tomb & Rolled Stone, Valley of Dry Bones, Dawn Resurrection
+    else if ([
+      'rolled_away_stone', 'valley_of_dry_bones',
+      'new_every_morning_dawn', 'children_of_the_day_dawn'
+    ].includes(kind)) {
+      const archRock = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(1.45, 1), 0.08, 2.5),
+        stoneMat
+      );
+      archRock.scale.set(1.35, 1.1, 0.85);
+      archRock.position.set(-0.35, 1.25, -0.55);
+      group.add(archRock);
+
+      const millstone = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CylinderGeometry(0.88, 0.88, 0.28, 24), 0.03, 3.5),
+        stoneMat
+      );
+      millstone.rotation.x = Math.PI / 2;
+      millstone.position.set(1.18, 0.96, 0.25);
+      group.add(millstone);
+
+      const foldedCloth = new THREE.Mesh(new THREE.BoxGeometry(0.55, 0.08, 0.38), linenMat);
+      foldedCloth.position.set(-0.25, 0.32, 0.15);
+      group.add(foldedCloth);
+      animatedParts.push(millstone);
+    }
+
+    // Category 12: Bethlehem Manger & Star, Magi Gifts, Fiery Furnace, Lions' Den, Emerald Rainbow Throne & All Remaining
+    else {
+      if (kind === 'bethlehem_manger' || kind === 'magi_star_gifts') {
+        const trough = new THREE.Mesh(
+          this.displaceGeometry(new THREE.BoxGeometry(1.35, 0.56, 0.82, 6, 4, 4), 0.025, 3.5),
+          stoneMat
+        );
+        trough.position.y = 0.45;
+        group.add(trough);
+        const swaddling = new THREE.Mesh(new THREE.SphereGeometry(0.32, 12, 10), linenMat);
+        swaddling.scale.set(1.4, 0.55, 0.9);
+        swaddling.position.y = 0.78;
+        group.add(swaddling);
+        animatedParts.push(swaddling);
+      } else {
+        // Luminous Sanctuary Pillar / Emerald Rainbow / Whirlwind / Watchtower Centerpiece
+        const pillar = new THREE.Mesh(
+          this.displaceGeometry(new THREE.CylinderGeometry(0.48, 0.62, 1.45, 18), 0.025, 3.5),
+          stoneMat
+        );
+        pillar.position.y = 0.85;
+        group.add(pillar);
+
+        const ring1 = new THREE.Mesh(new THREE.TorusGeometry(0.95, 0.045, 12, 36), goldMat);
+        ring1.position.y = 1.65;
+        group.add(ring1);
+        const ring2 = new THREE.Mesh(new THREE.TorusGeometry(0.72, 0.035, 10, 32), goldMat);
+        ring2.rotation.x = Math.PI / 3;
+        ring2.position.y = 1.65;
+        group.add(ring2);
+        animatedParts.push(ring1, ring2);
+      }
+    }
+
+    return { group, focalLight, focalHalo, animatedParts };
+  }
+
+  createBookFinaleProp(slug, pal = {}) {
+    const map = {
+      'our-eyes-are-on-you': 'chron_one_sound',
+      'rise-up-and-build': 'water_gate_scroll',
+      'for-such-a-time-as-this': 'golden_scepter',
+      'out-of-the-whirlwind': 'whirlwind_stars',
+      'psalms-1': 'streams_of_water',
+      'psalms-2': 'deer_brook',
+      'psalms-3': 'sparrow_altar',
+      'psalms-4': 'lamp_to_my_feet',
+      'the-beginning-of-wisdom': 'wellspring_of_life',
+      'eternity-in-their-hearts': 'blossoming_almond',
+      'many-waters': 'locked_garden_fountain',
+      'arise-shine': 'arise_shine_light',
+      'a-future-and-a-hope': 'jeremiah_potter_wheel',
+      'new-every-morning': 'new_every_morning_dawn',
+      'can-these-bones-live': 'temple_river_trees',
+      'greatly-beloved': 'open_window_jerusalem',
+      'a-door-of-hope': 'valley_of_achor_door',
+      'out-of-the-deep': 'jonah_booth_vine',
+      'the-day-of-small-things': 'zechariah_olive_lampstand',
+      'good-news-of-great-joy': 'emmaus_table_bread',
+      'i-am-with-you-always': 'rolled_away_stone',
+      'peace-be-still': 'peace_be_still_boat',
+      'come-and-see': 'upper_room_basin',
+      'to-the-ends-of-the-earth': 'pentecost_upper_room',
+      'nothing-can-separate': 'nothing_can_separate_rock',
+      'treasure-in-clay-jars': 'treasure_in_clay_jars',
+      'rooted-and-free': 'armor_of_god_table',
+      'joy-in-chains': 'peace_on_guard_lantern',
+      'held-together': 'held_together_cosmos',
+      'children-of-the-day': 'children_of_the_day_dawn',
+      'grace-mercy-and-peace': 'crown_of_righteousness',
+      'anchor-of-the-soul': 'anchor_of_the_soul',
+      'doers-of-the-word': 'fresh_spring_well',
+      'a-living-hope': 'living_stones_cornerstone',
+      'little-children': 'open_door_compassion',
+      'all-things-new': 'river_of_life_new_jerusalem'
+    };
+    const kind = map[slug] || 'river_of_life_new_jerusalem';
+    return this.createFocalPropForScene(kind, null, pal).group;
+  }
 }

@@ -1,0 +1,510 @@
+{
+  "district": 36,
+  "slug": "joy-in-chains",
+  "title": "Joy in Chains",
+  "subtitle": "Philippians in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/joy-in-chains/web/b-036-000.jpg",
+  "beforeYouBegin": "Paul wrote Philippians from under guard, and it is the most joyful letter he ever sent.\n\nThis book walks through its four chapters in twenty-four short poems. Each poem sits beside a picture and under a single line of Scripture, so you can read the whole thing in an evening, or one page a morning.\n\nThe poems are not the Bible. They are one reader's response to it. Open the letter itself alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Joy in Chains",
+      "epigraph": "For to me to live is Christ, and to die is gain.",
+      "epigraphRef": "Philippians 1:21",
+      "lightName": "Light of Joy in Chains",
+      "lightHint": "Near 'the first day' (Philippians 1:3) in Part 1: Joy in Chains"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 7,
+      "title": "The Way Down",
+      "epigraph": "but emptied himself, taking the form of a servant",
+      "epigraphRef": "Philippians 2:7",
+      "lightName": "Light of The Way Down",
+      "lightHint": "Near 'the pulled-out chair' (Philippians 2:3–4) in Part 2: The Way Down"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 13,
+      "title": "Pressing On",
+      "epigraph": "I press on toward the goal for the prize of the high calling of God in Christ Jesus.",
+      "epigraphRef": "Philippians 3:14",
+      "lightName": "Light of Pressing On",
+      "lightHint": "Near 'credentials' (Philippians 3:5–7) in Part 3: Pressing On"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 19,
+      "title": "Peace on Guard",
+      "epigraph": "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.",
+      "epigraphRef": "Philippians 4:7",
+      "lightName": "Light of Peace on Guard",
+      "lightHint": "Near 'two names' (Philippians 4:2–3) in Part 4: Peace on Guard"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "the first day",
+      "ref": "Philippians 1:3",
+      "epigraph": "“I thank my God whenever I remember you”",
+      "poem": "it started by a river\noutside the city gate—\na few women, a Sabbath,\na stranger with a story.\n\na seller of purple cloth\nopened her heart\nbefore she opened her door.\n\nthat is how a church begins:\nnot with a building\nbut with a table set\nfor someone passing through.\n\nand years later,\nin chains, far away,\nhe still remembers\nthe first day.",
+      "webSrc": "assets/joy-in-chains/web/b-036-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbccab",
+        "horizon": "#97907c",
+        "ground": "#756b6a",
+        "overall": "#a09585",
+        "accent": "#f1e2bf"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "unfinished",
+      "ref": "Philippians 1:6",
+      "epigraph": "“he who began a good work in you will complete it”",
+      "poem": "the potter does not leave\na bowl half-turned on the wheel\nand walk away.\n\nyou are not\nthe abandoned project,\nthe draft in the drawer,\nthe garden gone to seed.\n\nhis hands are still wet.\nthe wheel is still turning.\n\nwhat he started in you\nhe means to finish.",
+      "webSrc": "assets/joy-in-chains/web/b-036-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8cbac",
+        "horizon": "#ad997c",
+        "ground": "#a4967b",
+        "overall": "#b4a588",
+        "accent": "#e0d5b7"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "the heaviest thing",
+      "ref": "Philippians 1:7",
+      "epigraph": "“I have you in my heart”",
+      "poem": "iron on his wrists,\na guard at his shoulder,\na lamp burning low—\n\nand still\nthe heaviest thing he carries\nis love.\n\nhe writes your names\nthe way other men\ncount coins.",
+      "webSrc": "assets/joy-in-chains/web/b-036-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6ccb7",
+        "horizon": "#c7bba3",
+        "ground": "#ad9e85",
+        "overall": "#bdb097",
+        "accent": "#f0c685"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "the palace guard",
+      "ref": "Philippians 1:13",
+      "epigraph": "“it became evident to the whole palace guard”",
+      "poem": "they chained a soldier to him,\nand then another,\nand another,\nthinking they had him held.\n\nbut a man chained to Paul\nhas nowhere to go\nbut listen.\n\none by one\nthe guards went home\nwith more than they came with.\n\nwhat was meant to stop the message\nbecame the room\nwhere it was told.",
+      "webSrc": "assets/joy-in-chains/web/b-036-004.jpg",
+      "heroSrc": "assets/joy-in-chains/web/b-036-004.jpg",
+      "isScene": true,
+      "sceneType": "praetorian_scroll_chain",
+      "palette": {
+        "top": "#958974",
+        "horizon": "#7b7060",
+        "ground": "#655d52",
+        "overall": "#786e5f",
+        "accent": "#f5ecdc"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "whose hand",
+      "ref": "Philippians 1:18",
+      "epigraph": "“Christ is proclaimed. I rejoice in this, yes, and will rejoice.”",
+      "poem": "some sowed out of envy,\nsome out of love.\nthe soil did not ask\nwhose hand had thrown the seed.\n\nhe could have kept score.\nhe chose to keep rejoicing.\n\nthere is a freedom\nin caring more\nthat the name is spoken\nthan who gets credit\nfor speaking it.",
+      "webSrc": "assets/joy-in-chains/web/b-036-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6bc9d",
+        "horizon": "#9f957a",
+        "ground": "#6b614c",
+        "overall": "#968b72",
+        "accent": "#f4e4be"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "two doors",
+      "ref": "Philippians 1:21–23",
+      "epigraph": "“For to me to live is Christ, and to die is gain.”",
+      "poem": "he stood between two doors—\n\none opening home,\none opening back onto the work.\n\nstay, and there is fruit.\ngo, and there is Christ.\n\neither way, he is held.\n\nwhat can you take\nfrom a man\nwho has already\nbeen given everything?",
+      "webSrc": "assets/joy-in-chains/web/b-036-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#8d7d64",
+        "horizon": "#a89579",
+        "ground": "#93836d",
+        "overall": "#98876f",
+        "accent": "#f2c887"
+      }
+    },
+    {
+      "n": 7,
+      "part": 2,
+      "title": "the pulled-out chair",
+      "ref": "Philippians 2:3–4",
+      "epigraph": "“each counting others better than himself”",
+      "poem": "humility is small work:\npulling out the chair\nbefore you sit,\nnoticing who hasn't eaten,\nletting the other story\nbe the one that's told.\n\nit is a turning of the head—\naway from the mirror,\ntoward the window.",
+      "webSrc": "assets/joy-in-chains/web/b-036-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bfae8d",
+        "horizon": "#98876b",
+        "ground": "#9d8c6f",
+        "overall": "#a49376",
+        "accent": "#ebd7b3"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "the way down",
+      "ref": "Philippians 2:6–8",
+      "epigraph": "“but emptied himself, taking the form of a servant”",
+      "poem": "every other god\nclimbed.\n\nthis one\ncame down the stairs—\npast the throne,\npast the crown,\npast the dignity of distance,\n\ndown to the basin,\ndown to the towel,\ndown to the dust on our feet,\n\ndown further still,\nto a wooden cross\non a hill outside the wall.\n\nthe way to know him\nis the same way down.",
+      "webSrc": "assets/joy-in-chains/web/b-036-008.jpg",
+      "heroSrc": "assets/joy-in-chains/web/b-036-008.jpg",
+      "isScene": true,
+      "sceneType": "servant_towel_crown",
+      "palette": {
+        "top": "#cdc2a7",
+        "horizon": "#a29881",
+        "ground": "#b7ab93",
+        "overall": "#b6ab93",
+        "accent": "#fcf3e0"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "the field bows",
+      "ref": "Philippians 2:10–11",
+      "epigraph": "“that at the name of Jesus every knee should bow”",
+      "poem": "the wind moves across the wheat\nand the whole field bows\nat once.\n\nno one told it to.\nit simply knows\nwhere the wind is coming from.\n\none day\nevery knee—\nin heaven, on earth,\nand under it—\n\nthe proud, the tired,\nthe ones who never believed\nit would come to this—\n\nand every tongue\nwill say his name\nthe way the field says wind.",
+      "webSrc": "assets/joy-in-chains/web/b-036-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#f1e3c5",
+        "horizon": "#d5c29d",
+        "ground": "#958362",
+        "overall": "#c8b593",
+        "accent": "#eed49f"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "one window",
+      "ref": "Philippians 2:14–15",
+      "epigraph": "“you are seen as lights in the world”",
+      "poem": "you don't have to be a lighthouse.\n\na lamp in one window\non one dark street\nis enough\nfor whoever is walking home\ntonight.\n\nso put down the complaint.\nlet the argument go cold.\ntend the small flame.",
+      "webSrc": "assets/joy-in-chains/web/b-036-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#726a57",
+        "horizon": "#424035",
+        "ground": "#3c372c",
+        "overall": "#4d483b",
+        "accent": "#bd8b46"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "poured out",
+      "ref": "Philippians 2:17",
+      "epigraph": "“if I am poured out on the sacrifice and service of your faith, I rejoice”",
+      "poem": "some lives are kept\nlike good wine in a cellar,\nsealed and safe.\n\nhis was poured—\nall of it,\nover the offering\nof other people's faith.\n\nhe did not call it waste.\nhe called it joy,\nand asked us\nto rejoice with him.",
+      "webSrc": "assets/joy-in-chains/web/b-036-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7caa8",
+        "horizon": "#b0a384",
+        "ground": "#9b8e70",
+        "overall": "#b5a888",
+        "accent": "#dfd2b1"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "sorrow on sorrow",
+      "ref": "Philippians 2:27",
+      "epigraph": "“God had mercy on him, and not on him only, but on me also”",
+      "poem": "Epaphroditus came with a gift\nand nearly didn't make it home.\n\nfever in a foreign city.\na friend at his bedside\nbracing for grief\non top of grief.\n\nand then—mercy.\nthe fever broke.\n\nsometimes the miracle\nis not a sea split open\nbut a man sitting up in bed,\nasking for bread.\n\nand the friend who waited\nwas healed too.",
+      "webSrc": "assets/joy-in-chains/web/b-036-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdbb93",
+        "horizon": "#aea280",
+        "ground": "#beae88",
+        "overall": "#baac87",
+        "accent": "#e8d2a7"
+      }
+    },
+    {
+      "n": 13,
+      "part": 3,
+      "title": "credentials",
+      "ref": "Philippians 3:5–7",
+      "epigraph": "“I consider those things that were gain to me as a loss for Christ”",
+      "poem": "eighth-day circumcised.\ntribe of Benjamin.\nHebrew of Hebrews.\nPharisee. zealot. blameless.\n\nhe had the ré sumé\nevery room respected.\n\nthen he met the One\nwho didn't need it—\n\nand folded it up\nlike an old receipt,\nand let it go.",
+      "webSrc": "assets/joy-in-chains/web/b-036-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e0cfa4",
+        "horizon": "#d3c39e",
+        "ground": "#bfb18d",
+        "overall": "#cabb95",
+        "accent": "#e6d3a9"
+      }
+    },
+    {
+      "n": 14,
+      "part": 3,
+      "title": "the trade",
+      "ref": "Philippians 3:8–9",
+      "epigraph": "“I count all things to be a loss for the excellency of the knowledge of Christ Jesus”",
+      "poem": "a man sells everything\nfor a single field.\nthe neighbors call it foolish\nuntil they see the treasure.\n\nthis is that trade:\nall my own shine\nfor his righteousness,\nall my trying\nfor his gift.\n\nI would not trade back.\nnot for the world.\nnot for the whole of it.",
+      "webSrc": "assets/joy-in-chains/web/b-036-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cec09b",
+        "horizon": "#ac9d79",
+        "ground": "#897c5a",
+        "overall": "#a79976",
+        "accent": "#ecdfba"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "to know him",
+      "ref": "Philippians 3:10",
+      "epigraph": "“that I may know him, and the power of his resurrection”",
+      "poem": "not to know about him.\nto know him—\n\nthe way you know\na voice in the dark,\nthe way you know\na hand on your shoulder.\n\nto know the power\nthat rolled the stone,\nand the fellowship\nof the wounds that came first.\n\nthere is no Easter morning\nthat does not pass\nthrough Friday.",
+      "webSrc": "assets/joy-in-chains/web/b-036-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#80765f",
+        "horizon": "#867d64",
+        "ground": "#746d59",
+        "overall": "#817861",
+        "accent": "#fefae5"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "taken hold of",
+      "ref": "Philippians 3:12",
+      "epigraph": "“I press on, that I may take hold of that for which also I was taken hold of by Christ Jesus”",
+      "poem": "I have not arrived.\nI will not pretend I have.\n\nbut here is the good news\nhidden in the middle of the sentence:\n\nI reach for him\nbecause he already\nreached for me.\n\nmy grip is weak.\nhis is not.",
+      "webSrc": "assets/joy-in-chains/web/b-036-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#af997e",
+        "horizon": "#8e785c",
+        "ground": "#81705a",
+        "overall": "#917d63",
+        "accent": "#fbdebe"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "one thing",
+      "ref": "Philippians 3:13–14",
+      "epigraph": "“forgetting the things which are behind, and stretching forward to the things which are before”",
+      "poem": "the runner does not look back\nat the stadium dust\nor count the stumbles.\n\neyes forward.\narms open.\nlungs burning.\n\nthe old failures,\nthe old trophies—\nboth left behind\non the same track.\n\none thing.\nthe upward call.\nthe finish\nwhere he stands waiting.",
+      "webSrc": "assets/joy-in-chains/web/b-036-017.jpg",
+      "heroSrc": "assets/joy-in-chains/web/b-036-017.jpg",
+      "isScene": true,
+      "sceneType": "finish_line_pillar",
+      "palette": {
+        "top": "#dfd7c0",
+        "horizon": "#b1a487",
+        "ground": "#a59678",
+        "overall": "#baae91",
+        "accent": "#f1e5cb"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "citizens",
+      "ref": "Philippians 3:20",
+      "epigraph": "“For our citizenship is in heaven”",
+      "poem": "Philippi was proud\nto be a little Rome—\nRoman roads, Roman law,\nRoman names on the gate.\n\nhe wrote them:\nyou belong to a different city.\n\nso live like foreigners\nwho love the place they're in\nbut keep one eye\non the eastern road,\n\nwaiting for the King\nto come home.",
+      "webSrc": "assets/joy-in-chains/web/b-036-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cab791",
+        "horizon": "#baa88a",
+        "ground": "#726e5d",
+        "overall": "#9e9277",
+        "accent": "#fdde9f"
+      }
+    },
+    {
+      "n": 19,
+      "part": 4,
+      "title": "two names",
+      "ref": "Philippians 4:2–3",
+      "epigraph": "“whose names are in the book of life”",
+      "poem": "Euodia. Syntyche.\ntwo women who once worked side by side\nnow cannot share a room.\n\nhe doesn't pick a side.\nhe calls them both by name,\nand reminds them\nwhere their names are written.\n\nhard to hold a grudge\nagainst someone\non the same page\nof the book of life.",
+      "webSrc": "assets/joy-in-chains/web/b-036-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d3c19c",
+        "horizon": "#9a896c",
+        "ground": "#a39071",
+        "overall": "#ad9a7a",
+        "accent": "#d7b485"
+      }
+    },
+    {
+      "n": 20,
+      "part": 4,
+      "title": "twice",
+      "ref": "Philippians 4:4",
+      "epigraph": "“Rejoice in the Lord always! Again I will say, “Rejoice!””",
+      "poem": "he said it twice\nbecause he knew\nwe would not believe it\nthe first time.\n\nwritten from a cell.\nnot after the release—\nbefore it.\n\njoy is not the weather.\nit is the sky\nbehind the weather.\n\nrejoice.\nI'll say it again.",
+      "webSrc": "assets/joy-in-chains/web/b-036-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#998e7a",
+        "horizon": "#7c705c",
+        "ground": "#8a7d65",
+        "overall": "#8b7f69",
+        "accent": "#f5ebbf"
+      }
+    },
+    {
+      "n": 21,
+      "part": 4,
+      "title": "the sentry",
+      "ref": "Philippians 4:6–7",
+      "epigraph": "“the peace of God, which surpasses all understanding, will guard your hearts”",
+      "poem": "Philippi knew soldiers—\nthe sound of boots at the gate,\nthe watch changed at night.\n\nso he borrowed their word:\npeace will stand guard.\n\nnot the absence of trouble,\nbut a sentry at the door of your heart,\nawake while you sleep.\n\nso tell him everything.\nthe whole list.\nsay thank you somewhere in it.\nthen lie down.",
+      "webSrc": "assets/joy-in-chains/web/b-036-021.jpg",
+      "heroSrc": "assets/joy-in-chains/web/b-036-021.jpg",
+      "isScene": true,
+      "sceneType": "peace_on_guard_lantern",
+      "palette": {
+        "top": "#21313e",
+        "horizon": "#454844",
+        "ground": "#57544a",
+        "overall": "#444845",
+        "accent": "#deb87e"
+      }
+    },
+    {
+      "n": 22,
+      "part": 4,
+      "title": "the walls of the mind",
+      "ref": "Philippians 4:8",
+      "epigraph": "“whatever things are lovely, whatever things are of good report”",
+      "poem": "the mind is a room.\nyou decide\nwhat hangs on the walls.\n\nso hang the true things—\nthe honest, the just,\nthe clean, the kind,\n\na child's laugh,\nbread from the oven,\nthe last light on the hills.\n\nthink about these.\nlet them furnish you.",
+      "webSrc": "assets/joy-in-chains/web/b-036-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbc398",
+        "horizon": "#a79476",
+        "ground": "#99886c",
+        "overall": "#b19d7b",
+        "accent": "#f7db9d"
+      }
+    },
+    {
+      "n": 23,
+      "part": 4,
+      "title": "the secret",
+      "ref": "Philippians 4:11–13",
+      "epigraph": "“I have learned the secret both to be filled and to be hungry”",
+      "poem": "the verse on the gym wall\nwas first written\nby a hungry man.\n\nI can do all things—\nbe full,\ngo without,\nsleep under guard,\neat from a borrowed bowl—\n\nnot because I am strong,\nbut because he is,\nand he is here\nin the plenty\nand the lack.\n\nthat is the secret:\nnot more,\nbut him.",
+      "webSrc": "assets/joy-in-chains/web/b-036-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9bb9e",
+        "horizon": "#b3a487",
+        "ground": "#80725a",
+        "overall": "#a39478",
+        "accent": "#f2e5cf"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "fragrance",
+      "ref": "Philippians 4:18–23",
+      "epigraph": "“a sweet-smelling fragrance, an acceptable and well-pleasing sacrifice to God”",
+      "poem": "a small church\nsent a small gift\nby a tired messenger.\n\nheaven smelled it\nlike incense.\n\nnothing given in love\nis small up there.\n\nand so the letter ends\nthe way it began—\nwith grace,\n\nleft on the table\nfor all of you,\nlike bread\nstill warm.",
+      "webSrc": "assets/joy-in-chains/web/b-036-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#daceb5",
+        "horizon": "#b8ae91",
+        "ground": "#b2a68a",
+        "overall": "#beb397",
+        "accent": "#e0d3b6"
+      }
+    }
+  ]
+}

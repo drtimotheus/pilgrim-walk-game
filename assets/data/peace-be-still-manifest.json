@@ -1,0 +1,738 @@
+{
+  "district": 30,
+  "slug": "peace-be-still",
+  "title": "Peace, Be Still",
+  "subtitle": "Mark in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/peace-be-still/web/b-030-000.jpg",
+  "beforeYouBegin": "Mark begins with a voice shouting in the wilderness and a sky torn open, and then everything happens immediately: nets dropped on the shore, a fever gone, a leper touched, a storm hushed, a girl told to get up and given something to eat. His friends misunderstand, argue, fall asleep, and run. And it ends at an empty tomb, with a message for the disciples—and Peter—and three women too frightened to say a word.\n\nThis book walks through it in thirty-six short poems, in four parts. Each poem sits beside a picture and under a single line of Scripture. The pictures stay with the things the story touches—a net left on the shore, a cushion in a boat, a broken jar, a linen cloth on a garden path—and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the Gospel of Mark alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "The Beginning",
+      "epigraph": "The beginning of the Good News of Jesus Christ, the Son of God.",
+      "epigraphRef": "Mark 1:1",
+      "lightName": "Light of The Beginning",
+      "lightHint": "Near 'the voice' (Mark 1:3–7) in Part 1: The Beginning"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 10,
+      "title": "Who Then Is This?",
+      "epigraph": "Who then is this, that even the wind and the sea obey him?",
+      "epigraphRef": "Mark 4:41",
+      "lightName": "Light of Who Then Is This?",
+      "lightHint": "Near 'while he sleeps' (Mark 4:26–28) in Part 2: Who Then Is This?"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 19,
+      "title": "Eyes to See",
+      "epigraph": "Having eyes, don’t you see? Having ears, don’t you hear?",
+      "epigraphRef": "Mark 8:18",
+      "lightName": "Light of Eyes to See",
+      "lightHint": "Near 'crumbs' (Mark 7:25–30) in Part 3: Eyes to See"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 28,
+      "title": "Go Tell Peter",
+      "epigraph": "go, tell his disciples and Peter",
+      "epigraphRef": "Mark 16:7",
+      "lightName": "Light of Go Tell Peter",
+      "lightHint": "Near 'the Lord needs him' (Mark 11:2–6) in Part 4: Go Tell Peter"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "the voice",
+      "ref": "Mark 1:3–7",
+      "epigraph": "“the voice of one crying in the wilderness”",
+      "poem": "no birth story here.\nno star, no manger.\n\nMark starts\nwith a man in camel's hair\nstanding in the dry country,\neating locusts and wild honey,\nshouting beside a river.\n\nand what he shouts\nis not his own name.\n\nsomeone is coming,\nhe says,\nand I'm not worthy\nto bend down\nand untie his sandals.\n\nthe good news begins\nwith a voice\nthat knew how to step aside.",
+      "webSrc": "assets/peace-be-still/web/b-030-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3cfa8",
+        "horizon": "#96896b",
+        "ground": "#8e7a59",
+        "overall": "#a99776",
+        "accent": "#fcebc0"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "torn open",
+      "ref": "Mark 1:10–11",
+      "epigraph": "“he saw the heavens parting, and the Spirit descending on him like a dove.”",
+      "poem": "he came up\ndripping from the river\n\nand the sky\ncame apart.\n\nnot opened like a door.\ntorn,\nlike cloth.\n\nand through the tear,\na voice:\n\nyou are my beloved Son.\nI am well pleased.\n\nhe hadn't preached yet.\nhadn't healed anyone.\nhadn't done one thing\nworth writing down.\n\nthe pleasure\ncame first.",
+      "webSrc": "assets/peace-be-still/web/b-030-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a59b84",
+        "horizon": "#b1a995",
+        "ground": "#82816f",
+        "overall": "#9b9581",
+        "accent": "#f1e7cd"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "immediately",
+      "ref": "Mark 1:12–13",
+      "epigraph": "“Immediately the Spirit drove him out into the wilderness.”",
+      "poem": "Mark's favorite word\nis immediately.\n\nup from the water, immediately.\ninto the desert, immediately.\nnets dropped, fever gone,\nthe news running ahead,\nimmediately.\n\na gospel\nin a hurry.\n\nbut see where\nthe hurry went first:\n\nforty days\namong the wild animals,\nwith angels serving him.\n\neven the fastest story\nbegins in the wilderness.",
+      "webSrc": "assets/peace-be-still/web/b-030-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ad9c91",
+        "horizon": "#97867b",
+        "ground": "#7c6f5f",
+        "overall": "#908174",
+        "accent": "#e5c6a2"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "fishers",
+      "ref": "Mark 1:17–20",
+      "epigraph": "“Come after me, and I will make you into fishers for men.”",
+      "poem": "two brothers throwing a net.\ntwo more mending one.\n\ncome after me.\n\nand the nets\nwent slack on the water.\n\ntheir father stayed in the boat\nwith the hired men,\nwatching his sons\nwalk up the shore.\n\nfollowing cost something\nfrom the very first page.\n\nand the hands\nthat let go of the nets\nwould one day\nhand out bread\nto five thousand.",
+      "webSrc": "assets/peace-be-still/web/b-030-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e6d5b1",
+        "horizon": "#b8ad91",
+        "ground": "#84785d",
+        "overall": "#b2a587",
+        "accent": "#ecdcb7"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "by the hand",
+      "ref": "Mark 1:30–31",
+      "epigraph": "“He came and took her by the hand, and raised her up.”",
+      "poem": "Simon's mother-in-law\nlay sick with a fever.\n\nhe came,\ntook her by the hand,\nand raised her up.\n\nthe fever left\nimmediately,\nand she served them.\n\nhealing, in Mark,\ndoesn't look like fireworks.\n\nit looks like a woman\nback on her feet\nin her own house,\npassing bread to her guests.",
+      "webSrc": "assets/peace-be-still/web/b-030-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#95865e",
+        "horizon": "#827552",
+        "ground": "#8e825f",
+        "overall": "#8f815c",
+        "accent": "#fdedae"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "a deserted place",
+      "ref": "Mark 1:35–37",
+      "epigraph": "“Early in the morning, while it was still dark, he rose up and went out”",
+      "poem": "the whole town\nhad crowded his door\nthe night before.\n\nso he got up\nwhile it was still dark\nand walked out\nto where no one was,\n\nand prayed.\n\nhis friends went hunting for him.\neveryone is looking for you!\n\nhe knew.\nthat's why he'd gone.\n\nsome mornings\nyou have to be found\nby God\nbefore anyone else\ncan find you.",
+      "webSrc": "assets/peace-be-still/web/b-030-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#63717c",
+        "horizon": "#75766e",
+        "ground": "#46463f",
+        "overall": "#606461",
+        "accent": "#d6c5a6"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "I want to",
+      "ref": "Mark 1:40–42",
+      "epigraph": "“Being moved with compassion, he stretched out his hand, and touched him”",
+      "poem": "if you want to,\nyou can.\n\nhe wasn't asking\nwhether Jesus was able.\n\nhe was asking\nwhether he was wanted.\n\nand Jesus,\nmoved with compassion,\ndid the one thing\neveryone had learned\nnot to do.\n\nhe touched him.\n\nthen he answered\nthe real question:\n\nI want to.",
+      "webSrc": "assets/peace-be-still/web/b-030-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5b598",
+        "horizon": "#b7a384",
+        "ground": "#ad9b7d",
+        "overall": "#b7a587",
+        "accent": "#e3cfac"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "the tax office",
+      "ref": "Mark 2:14–17",
+      "epigraph": "“Those who are healthy have no need for a physician, but those who are sick.”",
+      "poem": "Levi sat\nwhere everyone could see him\nand no one wanted to.\n\nfollow me.\n\nhe got up\nand left the coins on the table.\n\nthat night his house was full\nof tax collectors and sinners,\nand Jesus right in the middle,\neating.\n\na doctor goes\nwhere the sick are,\nand sits down,\nand stays for supper.",
+      "webSrc": "assets/peace-be-still/web/b-030-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cabea3",
+        "horizon": "#a59d86",
+        "ground": "#69614d",
+        "overall": "#938a73",
+        "accent": "#f1e4c3"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "with him",
+      "ref": "Mark 3:13–19",
+      "epigraph": "“He appointed twelve, that they might be with him”",
+      "poem": "before the preaching,\nbefore any of it,\nhe chose twelve\nthat they might be\nwith him.\n\nfishermen.\na tax collector.\na zealot.\nand Judas,\nright there on the list.\n\nMark will show them\narguing,\nfalling asleep,\nrunning.\n\nbut the first job\nwas never to be impressive.\n\nit was to stay close.",
+      "webSrc": "assets/peace-be-still/web/b-030-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c3a4",
+        "horizon": "#aea38c",
+        "ground": "#756a53",
+        "overall": "#a1957b",
+        "accent": "#eddeb7"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "while he sleeps",
+      "ref": "Mark 4:26–28",
+      "epigraph": "“first the blade, then the ear, then the full grain in the ear.”",
+      "poem": "a farmer scatters seed\nand goes to bed.\n\ngets up.\ngoes to bed.\ngets up.\n\nand the seed grows\nwhile he isn't looking,\nand he doesn't know how.\n\nfirst the blade.\nthen the ear.\nthen the full grain.\n\nyou can water.\nyou can wait.\nyou can't make it hurry.\n\nthe kingdom\nkeeps growing\nin the dark,\nwhile you sleep.",
+      "webSrc": "assets/peace-be-still/web/b-030-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#726c5e",
+        "horizon": "#5a564b",
+        "ground": "#1c1b15",
+        "overall": "#49463c",
+        "accent": "#f3e6c7"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "the cushion",
+      "ref": "Mark 4:37–41",
+      "epigraph": "“Peace! Be still!”",
+      "poem": "Mark remembers the cushion,\nin the stern,\nunder a sleeping head,\nwhile the boat filled with water.\n\nteacher,\ndon't you care\nthat we are dying?\n\nhe got up\nand spoke to the sea\nthe way you'd hush a room:\n\npeace. be still.\n\nand there was a great calm,\nand they were more afraid\nin the quiet\nthan in the storm.",
+      "webSrc": "assets/peace-be-still/web/b-030-011.jpg",
+      "heroSrc": "assets/peace-be-still/web/b-030-011.jpg",
+      "isScene": true,
+      "sceneType": "peace_be_still_boat",
+      "palette": {
+        "top": "#ded1b7",
+        "horizon": "#827c6d",
+        "ground": "#746c5a",
+        "overall": "#998f7c",
+        "accent": "#f9e9c8"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "clothed",
+      "ref": "Mark 5:15–20",
+      "epigraph": "“sitting, clothed, and in his right mind”",
+      "poem": "he lived among the tombs.\nthey'd tried chains.\nno one could hold him.\n\nthen a boat came in\nfrom across the sea.\n\nand the town came out\nand found him\nsitting.\nclothed.\nin his right mind.\n\nand they were afraid.\n\ngo home, Jesus told him.\ntell them how the Lord\nhad mercy on you.\n\nand he went through ten cities\ntelling it.",
+      "webSrc": "assets/peace-be-still/web/b-030-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccb78e",
+        "horizon": "#786b55",
+        "ground": "#4e4537",
+        "overall": "#7d7058",
+        "accent": "#fae992"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "all the truth",
+      "ref": "Mark 5:30–34",
+      "epigraph": "“came and fell down before him, and told him all the truth.”",
+      "poem": "she was already healed.\nshe could have slipped away.\n\nbut he stopped the crowd:\nwho touched my clothes?\n\nso she came forward,\nshaking,\nand told him\nall the truth.\n\ntwelve years of it.\nevery doctor.\nevery coin.\n\nhe had already\nhealed her body.\n\nnow he wanted\nthe rest of her.",
+      "webSrc": "assets/peace-be-still/web/b-030-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#5b503f",
+        "horizon": "#554938",
+        "ground": "#695b47",
+        "overall": "#605340",
+        "accent": "#f1dcbd"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "only believe",
+      "ref": "Mark 5:35–36",
+      "epigraph": "“Don’t be afraid, only believe.”",
+      "poem": "he had waited\nwhile Jesus stopped\nfor someone else.\n\nthen word came from his house:\nyour daughter is dead.\nwhy bother the teacher?\n\nand Jesus turned to him:\ndon't be afraid.\nonly believe.\n\nnot believe harder.\nnot believe everything.\nonly.\n\nwhen every other word\nis taken from you,\nthis one is still small enough\nto carry home.",
+      "webSrc": "assets/peace-be-still/web/b-030-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#887d6a",
+        "horizon": "#716655",
+        "ground": "#544c40",
+        "overall": "#6c6252",
+        "accent": "#f9e3b9"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "something to eat",
+      "ref": "Mark 5:40–43",
+      "epigraph": "“Girl, I tell you, get up!”",
+      "poem": "they laughed at him\nwhen he said she was only asleep.\n\nhe sent them out,\ntook her hand,\nand said it the way you'd wake a child\nin the morning:\n\ntalitha cumi.\nlittle girl, get up.\n\nand she got up and walked.\n\nthen the Lord of life\nturned to her parents:\n\ngive her something to eat.",
+      "webSrc": "assets/peace-be-still/web/b-030-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cbbb97",
+        "horizon": "#a49677",
+        "ground": "#887a5f",
+        "overall": "#a69878",
+        "accent": "#dfc593"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "the carpenter",
+      "ref": "Mark 6:3–6",
+      "epigraph": "“Isn’t this the carpenter, the son of Mary”",
+      "poem": "back home\nthey knew him too well.\n\nthe carpenter.\nMary's son.\nwe know his brothers.\nhis sisters live right here.\n\nand they were offended.\n\nMark says it plainly:\nhe could do no mighty work there,\nexcept a few sick people\nhealed under his hands.\n\nand he marveled\nat their unbelief.\n\nsometimes the hardest place\nto be seen clearly\nis the place\nthat watched you grow up.",
+      "webSrc": "assets/peace-be-still/web/b-030-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cdb997",
+        "horizon": "#917c61",
+        "ground": "#624d36",
+        "overall": "#8d785c",
+        "accent": "#fadca6"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "rest awhile",
+      "ref": "Mark 6:31–34",
+      "epigraph": "“Y ou come apart into a deserted place, and rest awhile.”",
+      "poem": "so many coming and going\nthey had no time to eat.\n\ncome away, he said.\nrest awhile.\n\nso they rowed to an empty place,\nand the crowd ran around the shore\nand got there first.\n\nhe looked at them,\nsheep without a shepherd,\nand had compassion,\nand began to teach.\n\nhe knew what it was\nto be tired\nand give anyway.",
+      "webSrc": "assets/peace-be-still/web/b-030-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d6b7",
+        "horizon": "#b8ad8d",
+        "ground": "#59877d",
+        "overall": "#a1ab94",
+        "accent": "#f0e5c6"
+      }
+    },
+    {
+      "n": 18,
+      "part": 2,
+      "title": "green grass",
+      "ref": "Mark 6:37–42",
+      "epigraph": "“He commanded them that everyone should sit down in groups on the green grass.”",
+      "poem": "you give them something to eat.\nwith what?\ngo and see.\n\nfive loaves.\ntwo fish.\n\nhe had them sit down in groups\non the green grass,\nlike beds in a garden,\n\nand he looked up, blessed, broke,\nand kept handing it along.\n\na strange thing to remember,\nthe color of the grass—\n\nunless you were there,\nsitting in it,\nfull.",
+      "webSrc": "assets/peace-be-still/web/b-030-018.jpg",
+      "heroSrc": "assets/peace-be-still/web/b-030-018.jpg",
+      "isScene": true,
+      "sceneType": "five_thousand_baskets",
+      "palette": {
+        "top": "#e2d6b7",
+        "horizon": "#b9b097",
+        "ground": "#5e603f",
+        "overall": "#9f997c",
+        "accent": "#f7eecb"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "crumbs",
+      "ref": "Mark 7:25–30",
+      "epigraph": "“Y et even the dogs under the table eat the children’s crumbs.”",
+      "poem": "she wasn't from Israel,\nand her little girl was suffering.\n\nhis first answer\nsounded like a closed door.\n\nbut she kept her hand on the latch:\nyes, Lord.\nbut even the dogs under the table\neat the children's crumbs.\n\nshe wasn't asking for the loaf.\nshe knew how much bread\nfalls from a table like his.\n\nand she went home\nand found her daughter\nlying on the bed,\nfree.",
+      "webSrc": "assets/peace-be-still/web/b-030-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a89b85",
+        "horizon": "#9a8c75",
+        "ground": "#8e826e",
+        "overall": "#988c77",
+        "accent": "#fcf2dc"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "be opened",
+      "ref": "Mark 7:32–35",
+      "epigraph": "“Looking up to heaven, he sighed”",
+      "poem": "he took the man aside,\naway from the crowd.\n\nhe looked up to heaven\nand sighed.\n\nnot a speech.\na sigh,\nas if he felt\nthe weight of all that silence.\n\nephphatha.\nbe opened.\n\nand he heard,\nand he spoke clearly.\n\nsometimes the prayer\nthat opens everything\nis only a breath.",
+      "webSrc": "assets/peace-be-still/web/b-030-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2bbb9",
+        "horizon": "#bebaa9",
+        "ground": "#8d826a",
+        "overall": "#a6a495",
+        "accent": "#d8cbaf"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "trees walking",
+      "ref": "Mark 8:23–25",
+      "epigraph": "“I see men; for I see them like trees walking.”",
+      "poem": "do you see anything?\n\npeople, the man said.\nbut they look like trees,\nwalking.\n\nhalfway.\n\nJesus didn't scold him.\nhe laid his hands on his eyes\nagain,\n\nand the man looked hard,\nand saw everyone clearly.\n\nif you only see\nin blurs so far,\nsay so.\n\nhe doesn't mind\ntouching you twice.",
+      "webSrc": "assets/peace-be-still/web/b-030-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b1a68c",
+        "horizon": "#b1a790",
+        "ground": "#8e816b",
+        "overall": "#a49881",
+        "accent": "#f5ecdc"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "who do you say",
+      "ref": "Mark 8:29–34",
+      "epigraph": "“But who do you say that I am?”",
+      "poem": "Peter got it right.\nyou are the Christ.\n\nand moments later\ngot it completely wrong.\n\nwhen Jesus spoke of suffering,\nPeter took him aside\nto correct him.\n\nMark tells it straight:\nthe same mouth,\nthe same road,\nthe right answer\nand the wrong one.\n\nget behind me,\nJesus said.\n\nwhich is also,\nif you think about it,\nwhere followers walk.",
+      "webSrc": "assets/peace-be-still/web/b-030-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5ceb8",
+        "horizon": "#aaa697",
+        "ground": "#746b58",
+        "overall": "#a39c8a",
+        "accent": "#ede5ce"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "help my unbelief",
+      "ref": "Mark 9:22–27",
+      "epigraph": "“I believe. Help my unbelief!”",
+      "poem": "if you can do anything,\nthe father said.\n\nif you can?\nall things are possible\nto the one who believes.\n\nand the father cried out\nwith tears:\nI believe.\nhelp my unbelief.\n\nhalf faith, half fear,\nboth said out loud.\n\nit was enough.\n\na hand took the boy's,\nand he stood up.",
+      "webSrc": "assets/peace-be-still/web/b-030-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9d9887",
+        "horizon": "#a49c87",
+        "ground": "#98896e",
+        "overall": "#9c927b",
+        "accent": "#fcf2dc"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "in the middle",
+      "ref": "Mark 9:33–37",
+      "epigraph": "“He took a little child, and set him in the middle of them.”",
+      "poem": "what were you arguing about\non the road?\n\nsilence.\nthey'd been arguing\nabout who was the greatest.\n\nhe set a small child\nin the middle of them,\nand took the child in his arms.\n\nif you want to be first,\nbe last,\nbe everyone's servant—\n\nand start\nwith the smallest one\nin the room.",
+      "webSrc": "assets/peace-be-still/web/b-030-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a29377",
+        "horizon": "#5d523e",
+        "ground": "#605641",
+        "overall": "#776a53",
+        "accent": "#d4b78b"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "loved him",
+      "ref": "Mark 10:17–22",
+      "epigraph": "“Jesus looking at him loved him”",
+      "poem": "he ran up,\nknelt in the road.\nwhat must I do?\n\nand Mark tells us,\nbefore anything else,\nJesus looked at him\nand loved him.\n\nthen the hard word:\none thing you lack.\nsell it. give it away.\ncome, follow me.\n\nand he went away sad,\nfor he had so much.\n\nthe love came first.\nthe hard word\nwas the love, speaking.",
+      "webSrc": "assets/peace-be-still/web/b-030-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c9ad",
+        "horizon": "#a29881",
+        "ground": "#7d7563",
+        "overall": "#a0967f",
+        "accent": "#f2e5bd"
+      }
+    },
+    {
+      "n": 26,
+      "part": 3,
+      "title": "right and left",
+      "ref": "Mark 10:37–45",
+      "epigraph": "“For the Son of Man also came not to be served, but to serve”",
+      "poem": "James and John\nasked for the best seats,\none on his right,\none on his left.\n\ncan you drink my cup?\nwe can!\n\nthe Son of Man, he told them,\ncame not to be served\nbut to serve,\nand to give his life\nfor many.\n\nthey wanted the places\nbeside a throne.\n\nwhen the time came,\nthe places on his right and left\nwere two crosses.",
+      "webSrc": "assets/peace-be-still/web/b-030-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79778",
+        "horizon": "#7d7159",
+        "ground": "#847051",
+        "overall": "#88785c",
+        "accent": "#ecdfc1"
+      }
+    },
+    {
+      "n": 27,
+      "part": 3,
+      "title": "the cloak",
+      "ref": "Mark 10:46–52",
+      "epigraph": "“He, casting away his cloak, sprang up, and came to Jesus.”",
+      "poem": "son of David,\nhave mercy on me!\n\nbe quiet, they said.\nhe shouted louder.\n\nand Jesus stood still.\ncall him.\n\nso Bartimaeus\nthrew off his cloak,\nmaybe all he had,\nand sprang up,\nstill blind,\ntoward a voice.\n\nwhat do you want?\nto see again.\n\nand the first road he saw,\nhe followed him on.",
+      "webSrc": "assets/peace-be-still/web/b-030-027.jpg",
+      "heroSrc": "assets/peace-be-still/web/b-030-027.jpg",
+      "isScene": true,
+      "sceneType": "bartimaeus_cloak",
+      "palette": {
+        "top": "#e4d5b6",
+        "horizon": "#b6a688",
+        "ground": "#aa987b",
+        "overall": "#c1b193",
+        "accent": "#ebddbf"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "the Lord needs him",
+      "ref": "Mark 11:2–6",
+      "epigraph": "“The Lord needs him”",
+      "poem": "a young colt\ntied by a door.\nno one had ever sat on him.\n\nwhat are you doing?\nthe Lord needs him.\n\nand that was enough.\n\njust a borrowed animal,\ntied up, waiting,\nwith a place in the story\nhe knew nothing about.\n\nyou may be tied to a doorpost\nsomewhere, waiting.\n\nhe knows the street.\nhe knows the door.",
+      "webSrc": "assets/peace-be-still/web/b-030-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b1a68f",
+        "horizon": "#7f745e",
+        "ground": "#776e5b",
+        "overall": "#877d68",
+        "accent": "#ebe0c3"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "he sat and watched",
+      "ref": "Mark 12:41–44",
+      "epigraph": "“she, out of her poverty, gave all that she had to live on.”",
+      "poem": "he sat down\nacross from the offering box\nand watched.\n\nrich people.\nheavy handfuls.\n\none widow.\ntwo small coins.\n\nhe's still watching.\n\nnot how much.\nhow much is left.",
+      "webSrc": "assets/peace-be-still/web/b-030-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#baa781",
+        "horizon": "#9c8c6b",
+        "ground": "#76684d",
+        "overall": "#9a8968",
+        "accent": "#e6cfa5"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "broken open",
+      "ref": "Mark 14:3–9",
+      "epigraph": "“She broke the jar, and poured it over his head.”",
+      "poem": "she didn't pour a little\nand save the rest.\nshe broke the jar.\n\nthere's no closing it\nafter that.\n\nwhat a waste,\nsomeone muttered.\n\nleave her alone.\nshe has done what she could.\nshe has anointed my body\nfor the burying.\n\nwherever the good news goes,\nhe said,\nher story will go too.\n\nand here it is.",
+      "webSrc": "assets/peace-be-still/web/b-030-030.jpg",
+      "heroSrc": "assets/peace-be-still/web/b-030-030.jpg",
+      "isScene": true,
+      "sceneType": "alabaster_jar",
+      "palette": {
+        "top": "#a09278",
+        "horizon": "#938267",
+        "ground": "#85755c",
+        "overall": "#8f8066",
+        "accent": "#e5d8bc"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "Abba",
+      "ref": "Mark 14:35–38",
+      "epigraph": "“Abba, Father, all things are possible to you.”",
+      "poem": "he had told a father,\nall things are possible.\n\nnow, fallen on the ground,\nhe said it himself:\n\nAbba.\nall things are possible to you.\ntake this cup away from me.\n\nand then,\nstill holding on to Abba,\nnot what I want.\nwhat you want.\n\na little way off,\nhis friends were sleeping.\n\nhe prayed the hardest prayer alone,\nand still called God\nby the closest name.",
+      "webSrc": "assets/peace-be-still/web/b-030-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#3d484a",
+        "horizon": "#3a3c36",
+        "ground": "#584f39",
+        "overall": "#47463d",
+        "accent": "#f6f6e5"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "the linen cloth",
+      "ref": "Mark 14:50–52",
+      "epigraph": "“he left the linen cloth, and fled”",
+      "poem": "they all left him and fled.\nMark says it plainly.\nall.\n\nthen one more:\na young man\nwrapped only in a linen cloth,\nwho slipped out of it\nwhen they grabbed at him\nand ran into the dark.\n\nthe next time Mark mentions linen,\nit will be wrapped around Jesus.\n\nthe next young man we meet\nwill be sitting in the tomb\nin white,\nnot running at all.",
+      "webSrc": "assets/peace-be-still/web/b-030-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6d6658",
+        "horizon": "#474239",
+        "ground": "#5c5346",
+        "overall": "#5b5448",
+        "accent": "#e7dec9"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "the second crow",
+      "ref": "Mark 14:66–72",
+      "epigraph": "“When he thought about that, he wept.”",
+      "poem": "he followed at a distance,\nall the way into the courtyard—\nfarther than the others went.\n\na servant girl:\nyou were with him.\n\nI don't know this man.\nonce, twice, three times.\n\nthe rooster crowed the second time,\nand Peter remembered.\n\nMark doesn't dress it up:\nwhen he thought about that,\nhe wept.\n\nkeep that picture.\nyou'll need it\nat the empty tomb.",
+      "webSrc": "assets/peace-be-still/web/b-030-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a3a091",
+        "horizon": "#716f64",
+        "ground": "#454036",
+        "overall": "#6e6a5e",
+        "accent": "#fcedca"
+      }
+    },
+    {
+      "n": 34,
+      "part": 4,
+      "title": "truly",
+      "ref": "Mark 15:37–39",
+      "epigraph": "“Truly this man was the Son of God!”",
+      "poem": "at the beginning of the book\nthe sky was torn open.\n\nnow,\nas Jesus breathed his last,\nthe temple curtain\ntore in two,\nfrom the top\nto the bottom.\n\ntorn from heaven's side.\n\nand the first human voice in Mark\nto say it out loud—\nthis man was the Son of God—\n\nwasn't one of the twelve.\nthey were gone.\n\nit was the soldier\nstanding opposite him,\nwho watched\nhow he died.",
+      "webSrc": "assets/peace-be-still/web/b-030-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a19781",
+        "horizon": "#b0a892",
+        "ground": "#333532",
+        "overall": "#7e7a6b",
+        "accent": "#fdf1cd"
+      }
+    },
+    {
+      "n": 35,
+      "part": 4,
+      "title": "and Peter",
+      "ref": "Mark 16:5–7",
+      "epigraph": "“go, tell his disciples and Peter”",
+      "poem": "he has risen.\nhe is not here.\n\nthen the message,\nwith two words\nno one else would have added:\n\ngo, tell his disciples—\nand Peter.\n\nthe one who swore\nhe didn't know the man.\nthe one who wept by the fire.\n\nnamed.\non purpose.\n\nhe is going ahead of you\ninto Galilee.\nthere you will see him.",
+      "webSrc": "assets/peace-be-still/web/b-030-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ac9d7a",
+        "horizon": "#b59f71",
+        "ground": "#645d49",
+        "overall": "#918464",
+        "accent": "#fddc8a"
+      }
+    },
+    {
+      "n": 36,
+      "part": 4,
+      "title": "for they were afraid",
+      "ref": "Mark 16:8",
+      "epigraph": "“They said nothing to anyone; for they were afraid.”",
+      "poem": "many of the oldest copies of Mark\nend right here:\n\nthey said nothing to anyone,\nfor they were afraid.\n\nno bow on it.\njust three women,\nhearts pounding,\nholding the biggest news in the world\nin their mouths.\n\nbut you know.\nyou've heard.\n\nso somewhere, after the trembling,\nsomebody spoke.\n\nthe story doesn't end\nwith the silence.\nit ends with whoever\ntells it next.",
+      "webSrc": "assets/peace-be-still/web/b-030-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d8cbaa",
+        "horizon": "#8c8773",
+        "ground": "#85806b",
+        "overall": "#9e977f",
+        "accent": "#f2e2b1"
+      }
+    }
+  ]
+}

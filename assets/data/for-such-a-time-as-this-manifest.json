@@ -1,0 +1,662 @@
+{
+  "district": 11,
+  "slug": "for-such-a-time-as-this",
+  "title": "For Such a Time as This",
+  "subtitle": "Esther in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/for-such-a-time-as-this/web/b-011-000.jpg",
+  "beforeYouBegin": "Esther begins with a banquet that lasts half a year and ends with neighbors carrying plates of food to one another's doors. In between: an orphan girl raised by her cousin, a jar of myrrh, a man who will not bow, a lot cast for a day of ruin, three days of fasting, a golden scepter held out, a king who cannot sleep, and a book of records opened to exactly the right page.\n\nThis book walks through it in thirty-two short poems, in four parts. Each poem sits beside a picture and under a single line of Scripture. The name of God is never written in the book of Esther, and the poems try to notice where his hand is hidden anyway. The pictures stay with the things the story touches—a signet ring, a sleepless lamp, a table set for three —and leave the faces to your imagination.\n\nThe poems are not the Bible. They are one reader's response to it. Open the book of Esther alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Far from Home",
+      "epigraph": "Mordecai took her for his own daughter.",
+      "epigraphRef": "Esther 2:7",
+      "lightName": "Light of Far from Home",
+      "lightHint": "Near 'one hundred eighty days' (Esther 1:4–7) in Part 1: Far from Home"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 8,
+      "title": "Such a Time",
+      "epigraph": "Who knows if you haven’t come to the kingdom for such a time as this?",
+      "epigraphRef": "Esther 4:14",
+      "lightName": "Light of Such a Time",
+      "lightHint": "Near 'he would not bow' (Esther 3:2–4) in Part 2: Such a Time"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 17,
+      "title": "The Night the King Couldn’t Sleep",
+      "epigraph": "On that night, the king couldn’t sleep.",
+      "epigraphRef": "Esther 6:1",
+      "lightName": "Light of The Night the King Couldn’t Sleep",
+      "lightHint": "Near 'the third day' (Esther 5:1) in Part 3: The Night the King Couldn’t Sleep"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 26,
+      "title": "From Sorrow to Gladness",
+      "epigraph": "the month which was turned to them from sorrow to gladness, and from mourning into a good day",
+      "epigraphRef": "Esther 9:22",
+      "lightName": "Light of From Sorrow to Gladness",
+      "lightHint": "Near 'the ring again' (Esther 8:2) in Part 4: From Sorrow to Gladness"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "one hundred eighty days",
+      "ref": "Esther 1:4–7",
+      "epigraph": "“He displayed the riches of his glorious kingdom and the honor of his excellent majesty many days”",
+      "poem": "half a year\nof showing off.\n\nwhite and blue hangings,\nsilver rings,\ncouches of gold\non a floor of colored stone,\nwine poured\nfrom cups no two alike.\n\nevery name in the empire\nwas spoken in that garden\nexcept one.\n\nthe story never says it.\nkeep reading anyway.\nhe is there.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dccfa9",
+        "horizon": "#a9a087",
+        "ground": "#928669",
+        "overall": "#b0a586",
+        "accent": "#ede1bf"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "the queen who would not come",
+      "ref": "Esther 1:10–12",
+      "epigraph": "“But the queen V ashti refused to come at the king’s commandment”",
+      "poem": "seven days of wine,\nand the king sent for her\nto be looked at.\n\nshe said no.\n\nthe whole empire\nwrote a law about it,\nand she walks out\nof the story\nwithout another word.\n\nbut a door\nhas been left open\nin the palace,\n\nand someone\nno one has heard of yet\nis on her way.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ae9b77",
+        "horizon": "#7c7563",
+        "ground": "#786f5a",
+        "overall": "#867c65",
+        "accent": "#e4d0a6"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "myrtle",
+      "ref": "Esther 2:5–7",
+      "epigraph": "“for she had neither father nor mother.”",
+      "poem": "no father.\nno mother.\na long way from Jerusalem.\n\njust a cousin\nwho took her in\nand called her daughter.\n\nshe had two names,\none for the empire\nand one for home.\n\nGod is like that\nin this book too:\nunnamed,\nand caring for her\nall the same.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aaa28e",
+        "horizon": "#8b836d",
+        "ground": "#564e41",
+        "overall": "#7d7563",
+        "accent": "#f2e7c2"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "every day by the court",
+      "ref": "Esther 2:11",
+      "epigraph": "“Mordecai walked every day in front of the court of the women’s house, to find out how Esther was doing”",
+      "poem": "he couldn't go in.\nhe could only walk past.\n\nevery day\nthe same wall,\nthe same gate,\nthe same question:\nhow is she?\n\nsome love\ncan only stand outside\nand ask.\n\nit still counts.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-004.jpg",
+      "heroSrc": "assets/for-such-a-time-as-this/web/b-011-004.jpg",
+      "isScene": true,
+      "sceneType": "susa_courtyard",
+      "palette": {
+        "top": "#b39b77",
+        "horizon": "#ac926a",
+        "ground": "#5e5241",
+        "overall": "#8d7a5d",
+        "accent": "#fbd081"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "twelve months of myrrh",
+      "ref": "Esther 2:12",
+      "epigraph": "“six months with oil of myrrh, and six months with sweet fragrances”",
+      "poem": "a whole year\nof oil and perfume\nbefore one evening\nwith the king.\n\nshe was being made ready\nfor a crown.\n\nshe didn't know\nshe was also being made ready\nfor a day\nwhen she would have to\nwalk in uninvited.\n\nthe long waiting\nis never\nonly waiting.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6b899",
+        "horizon": "#b1a184",
+        "ground": "#a49376",
+        "overall": "#b2a183",
+        "accent": "#f7e8c0"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "she required nothing",
+      "ref": "Esther 2:15–17",
+      "epigraph": "“she required nothing but what Hegai the king’s eunuch, the keeper of the women, advised.”",
+      "poem": "she could have asked\nfor anything to take with her:\njewels, silk, gold.\n\nshe asked for nothing\nbut good advice.\n\nand the girl\nwho reached for nothing\nwas handed a crown.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3a385",
+        "horizon": "#958265",
+        "ground": "#443a30",
+        "overall": "#7c6e59",
+        "accent": "#f5e7c5"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "written in the book",
+      "ref": "Esther 2:21–23",
+      "epigraph": "“it was written in the book of the chronicles in the king’s presence.”",
+      "poem": "a whisper at the gate.\na plot against the king.\nMordecai heard it\nand told.\n\nthe matter was settled,\na scribe wrote it down,\nand the scroll went on a shelf.\n\nno reward.\nno thank you.\n\njust a line\nin a book no one reads.\n\nhold on to that line.\nit will be read aloud\non exactly the right night.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a2967d",
+        "horizon": "#877b67",
+        "ground": "#867a64",
+        "overall": "#8b806a",
+        "accent": "#ddd0b2"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "he would not bow",
+      "ref": "Esther 3:2–4",
+      "epigraph": "“But Mordecai didn’t bow down or pay him homage.”",
+      "poem": "everyone at the gate\nbent low\nwhen Haman walked by.\n\none man\nstayed standing.\n\nthey asked him why,\nday after day.\n\nhis answer\nwas only this:\ni am a Jew.\n\nsome knees\nare already\nspoken for.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b9b4a1",
+        "horizon": "#aba895",
+        "ground": "#8c846e",
+        "overall": "#a39d8a",
+        "accent": "#f4ecd1"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "the lot",
+      "ref": "Esther 3:7",
+      "epigraph": "“they cast Pur, that is, the lot”",
+      "poem": "Haman let chance\nchoose the day.\n\nday after day\nthe lots rolled,\nmonth after month,\n\nuntil they stopped\non the twelfth month,\nalmost a year away.\n\nhe thought\nhe was picking a date.\n\nhe was giving\nthe other side\nalmost a year.\n\nanother book says\nthe lot is cast into the lap,\nbut the answer\ncomes from the Lord.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#aea082",
+        "horizon": "#80735a",
+        "ground": "#726854",
+        "overall": "#877a62",
+        "accent": "#cea970"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "the ring",
+      "ref": "Esther 3:10–11",
+      "epigraph": "“The king took his ring from his hand, and gave it to Haman”",
+      "poem": "a ring slid off one finger\nand onto another.\n\nthat was all it took.\n\nno one asked\nwho the people were\nor what they had done.\n\na signet ring\nhas no conscience.\nit only presses\nwhat it's told.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#afa282",
+        "horizon": "#867658",
+        "ground": "#4a412c",
+        "overall": "#7d6f54",
+        "accent": "#f3e4bf"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "the city was perplexed",
+      "ref": "Esther 3:15",
+      "epigraph": "“The king and Haman sat down to drink; but the city of Susa was perplexed.”",
+      "poem": "in the palace,\ntwo men raised their cups.\n\nin the streets,\na whole city\nstood reading the notice\nand could not make sense of it.\n\nthe powerful\nare often\nthe last to notice\nwhat they have done.\n\nthe city\nknew something was wrong.\n\nso did heaven.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0ad90",
+        "horizon": "#a08e73",
+        "ground": "#504336",
+        "overall": "#877762",
+        "accent": "#fae09d"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "sackcloth",
+      "ref": "Esther 4:1–3",
+      "epigraph": "“Mordecai tore his clothes, and put on sackcloth with ashes”",
+      "poem": "he tore his clothes\nand walked into the middle of the city\nand cried out loud.\n\nthey don't let sackcloth\nthrough the king's gate.\n\nbut grief\nhas other doors.\n\nin every province\nwhere the letter came,\npeople lay down in ashes\nand did not eat.\n\nthe book does not say\nwho they were crying to.\n\nit doesn't have to.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b4a37c",
+        "horizon": "#9f906e",
+        "ground": "#a38f6c",
+        "overall": "#a79572",
+        "accent": "#eedcb0"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "thirty days",
+      "ref": "Esther 4:11",
+      "epigraph": "“I have not been called to come in to the king these thirty days.”",
+      "poem": "queen,\nand still afraid\nof a door.\n\nthirty days\nwithout a word from him.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c4b289",
+        "horizon": "#8e7e5d",
+        "ground": "#9d8b69",
+        "overall": "#a1916d",
+        "accent": "#d8ba8a"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "from another place",
+      "ref": "Esther 4:13–14",
+      "epigraph": "“relief and deliverance will come to the Jews from another place”",
+      "poem": "if you stay quiet,\nMordecai said,\nhelp will still come.\nfrom another place.\n\nhe didn't say\nwhose place.\n\nhe didn't need to.\n\nthe rescue\nwas never\nriding on her.\n\nthe question was only\nwhether she would\nbe part of it.\n\nwho knows?\nmaybe this is why\nyou are where you are.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#998a6c",
+        "horizon": "#736f5d",
+        "ground": "#6d6653",
+        "overall": "#79725d",
+        "accent": "#f8d68a"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "the fast",
+      "ref": "Esther 4:16",
+      "epigraph": "“fast for me, and neither eat nor drink three days, night or day.”",
+      "poem": "before the queen\nwent in to the king,\na whole city\nwent without bread.\n\nthree days.\nthree nights.\nno food, no water.\n\nand the maidens in the palace\ndid the same.\n\nnobody wrote down the prayers.\n\nbut an empty bowl\nis a kind of prayer,\n\nand so many empty bowls\nacross one city\nmake a sound\nheaven can hear.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7e7663",
+        "horizon": "#645b4a",
+        "ground": "#4e4537",
+        "overall": "#625949",
+        "accent": "#f4e3b9"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "if I perish",
+      "ref": "Esther 4:16",
+      "epigraph": "“if I perish, I perish.”",
+      "poem": "she did not say\ni will not perish.\n\nshe said\ni am going in.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-016.jpg",
+      "heroSrc": "assets/for-such-a-time-as-this/web/b-011-016.jpg",
+      "isScene": true,
+      "sceneType": "esther_fast",
+      "palette": {
+        "top": "#a69973",
+        "horizon": "#918866",
+        "ground": "#8c8165",
+        "overall": "#938867",
+        "accent": "#f7efde"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "the third day",
+      "ref": "Esther 5:1",
+      "epigraph": "“Now on the third day, Esther put on her royal clothing”",
+      "poem": "on the third day\nshe put the robe back on.\n\nthree days hungry.\nthree days praying.\nand now the purple\nand the crown.\n\nshe did not walk in\nas a beggar.\n\nshe walked in\nas who she was,\n\nand let the fasting\nbe the part\nno one could see.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a09b8d",
+        "horizon": "#7d7465",
+        "ground": "#60503e",
+        "overall": "#7c7161",
+        "accent": "#ebdfc4"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "the golden scepter",
+      "ref": "Esther 5:2",
+      "epigraph": "“the king held out to Esther the golden scepter that was in his hand.”",
+      "poem": "the law said\none of two things\nwould happen.\n\nshe stood in the court\nand waited\nto find out which.\n\nand the king\nheld out the gold.\n\nshe came near\nand touched the tip.\n\nthat is all.\na hand stretched out,\nand another hand\nreaching back.\n\nyou can build\na whole faith\non a moment like that.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-018.jpg",
+      "heroSrc": "assets/for-such-a-time-as-this/web/b-011-018.jpg",
+      "isScene": true,
+      "sceneType": "golden_scepter",
+      "palette": {
+        "top": "#bfb8a4",
+        "horizon": "#7c725e",
+        "ground": "#4d4838",
+        "overall": "#807967",
+        "accent": "#d1c9b2"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "a table for three",
+      "ref": "Esther 5:4",
+      "epigraph": "“let the king and Haman come today to the banquet that I have prepared for him.”",
+      "poem": "up to half the kingdom,\nhe said.\n\nshe asked for dinner.\n\nand at dinner,\nasked for dinner again.\n\nshe was not afraid\nto be slow.\n\nsome things\nare not rushed\ninto the open.\n\nthey are served\nin their time.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccbc98",
+        "horizon": "#7b6e57",
+        "ground": "#7a6c55",
+        "overall": "#938468",
+        "accent": "#edd4ab"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "all this avails me nothing",
+      "ref": "Esther 5:11–13",
+      "epigraph": "“Y et all this avails me nothing, so long as I see Mordecai the Jew sitting at the king’s gate.”",
+      "poem": "riches.\nsons.\npromotions.\ndinner with the queen.\n\nhe counted every one\nout loud.\n\nand then said\nnone of it mattered\nbecause one man\nwould not stand up.\n\na heart like that\ncould own the whole empire\nand still be hungry.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#847961",
+        "horizon": "#726955",
+        "ground": "#81755d",
+        "overall": "#7d725c",
+        "accent": "#d0c3a5"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "the sleepless king",
+      "ref": "Esther 6:1",
+      "epigraph": "“He commanded the book of records of the chronicles to be brought, and they were read to the king.”",
+      "poem": "that night\nthe most powerful man in the world\ncould not sleep.\n\nnothing unusual.\nkings lie awake.\n\nso he did\nwhat tired men do\nand asked for something dull\nto be read to him.\n\nthe story doesn't say\nwho kept him up.\n\nit just leaves\nthe lamp on.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-021.jpg",
+      "heroSrc": "assets/for-such-a-time-as-this/web/b-011-021.jpg",
+      "isScene": true,
+      "sceneType": "sleepless_chronicles",
+      "palette": {
+        "top": "#51534c",
+        "horizon": "#534c3a",
+        "ground": "#725f42",
+        "overall": "#615744",
+        "accent": "#fadba0"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "nothing has been done",
+      "ref": "Esther 6:2–3",
+      "epigraph": "““Nothing has been done for him.””",
+      "poem": "out of all those scrolls,\nall those years,\nthe reader stopped\non one line:\n\nMordecai.\nthe plot at the gate.\n\nand the king asked,\nwhat did we do for him?\n\nnothing.\n\ngood done in secret\ncan sit on a shelf\na long time.\n\nit is not lost.\nit is waiting\nfor the right night.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#877d65",
+        "horizon": "#857458",
+        "ground": "#dacdaf",
+        "overall": "#a89b7e",
+        "accent": "#e6cfa5"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "the man the king delights to honor",
+      "ref": "Esther 6:6–11",
+      "epigraph": "“Thus it shall be done to the man whom the king delights to honor!”",
+      "poem": "who could the king\nwant to honor\nmore than me?\nHaman thought.\n\nso he described\nthe robe,\nthe horse,\nthe crown,\nthe parade.\n\nand then was told\nto lead the horse himself\nand call out the words\n\nfor Mordecai.\n\nhe walked home\nwith his head covered.\n\nthe one who had stayed standing\nrode.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7bb9c",
+        "horizon": "#aea488",
+        "ground": "#57503f",
+        "overall": "#938971",
+        "accent": "#f4e5ba"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "my people",
+      "ref": "Esther 7:3–4",
+      "epigraph": "“let my life be given me at my petition, and my people at my request.”",
+      "poem": "the second banquet.\nthe same question.\nwhat do you want?\n\nthis time she said it:\nmy life,\nand my people.\n\nfor years\nshe had kept quiet\nabout who she was.\n\nnow she said it\nin front of the man\nwho wanted them gone.\n\nhiding had kept her safe.\ntelling the truth\nkept them alive.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a89477",
+        "horizon": "#695d4a",
+        "ground": "#6a5b46",
+        "overall": "#796a54",
+        "accent": "#e3c7a1"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "the one he built",
+      "ref": "Esther 7:9–10",
+      "epigraph": "“Then the king’s wrath was pacified.”",
+      "poem": "the thing Haman had built\nfor Mordecai\nwas the thing\nthat ended him.\n\nthe story says it\nin one short line\nand doesn't stay to watch.\n\nneither will we.\n\na pit dug for someone else\nhas a way\nof keeping its digger.\n\nand the king's anger\nwent quiet.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b09d89",
+        "horizon": "#867368",
+        "ground": "#5a504b",
+        "overall": "#7d6e63",
+        "accent": "#f0c99d"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "the ring again",
+      "ref": "Esther 8:2",
+      "epigraph": "“The king took off his ring, which he had taken from Haman, and gave it to Mordecai.”",
+      "poem": "the same ring.\nthe same king.\n\na few chapters ago\nit sealed a death sentence.\n\nnow it rests\non the hand\nof the man\nit was meant to erase.\n\nthe old seal\ncould not be broken.\n\nso a new one\nwas pressed\nbeside it.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c5a8",
+        "horizon": "#695f4c",
+        "ground": "#5a503f",
+        "overall": "#7d735e",
+        "accent": "#e9dbb9"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "how can I endure",
+      "ref": "Esther 8:3–6",
+      "epigraph": "“For how can I endure to see the evil that would come to my people?”",
+      "poem": "Haman was gone,\nand she had a house,\nand she was safe.\n\nit would have been easy\nto stop there.\n\nshe fell down\nat the king's feet again\nand wept.\n\nshe could not\nbe happy alone.\n\nand the scepter\ncame out a second time.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9f9079",
+        "horizon": "#847360",
+        "ground": "#9a8371",
+        "overall": "#94826e",
+        "accent": "#ddcfb6"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "swift horses",
+      "ref": "Esther 8:10–14",
+      "epigraph": "“sent letters by courier on horseback, riding on royal horses that were bred from swift steeds.”",
+      "poem": "the first letter\ncould not be taken back.\nPersian law.\n\nso a second letter\nwent out after it,\nfaster,\non the king's best horses,\n\nevery province,\nevery language,\nevery road:\n\nyou may stand\nand defend your lives.\n\nthe first word\nwas still written.\n\nit just wasn't\nthe last word anymore.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7c1af",
+        "horizon": "#ccbba1",
+        "ground": "#9c8564",
+        "overall": "#b5a58b",
+        "accent": "#f4deb9"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "light and gladness",
+      "ref": "Esther 8:15–17",
+      "epigraph": "“The Jews had light, gladness, joy, and honor.”",
+      "poem": "Mordecai walked out\nin blue and white\nand a crown of gold.\n\nthe city that had been perplexed\nstarted shouting.\n\nlight,\ngladness,\njoy,\nhonor.\n\nfour words\nwhere there had been\nashes.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b59c",
+        "horizon": "#918a7b",
+        "ground": "#4d4a41",
+        "overall": "#817b6c",
+        "accent": "#eddab1"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "the other way",
+      "ref": "Esther 9:1",
+      "epigraph": "“but it was turned out the opposite happened”",
+      "poem": "the day that was chosen\nto end them\ncame.\n\nand it turned\nthe other way.\n\nthey stood together\nand were not destroyed.\nand the book notes\nthey left the plunder where it lay.\n\nyou can look at the back\nof a weaving\nand see only knots.\n\nthis book lets us\nturn it over.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c6b694",
+        "horizon": "#937a4f",
+        "ground": "#766343",
+        "overall": "#95815c",
+        "accent": "#e2d2af"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "portions",
+      "ref": "Esther 9:19–22",
+      "epigraph": "“sending presents of food to one another, and gifts to the needy.”",
+      "poem": "how do you remember\nbeing rescued?\n\nMordecai wrote it down:\n\nfeast.\nbe glad.\ncarry plates of food\nto your neighbor's door.\n\nand don't forget\nthe ones with nothing.\n\na people once sold\nnow give things away.\n\nthat is how\nyou know\nthe sorrow\nhas really turned.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2a386",
+        "horizon": "#a49375",
+        "ground": "#8f8169",
+        "overall": "#9e8e73",
+        "accent": "#ebe0ba"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "Purim",
+      "ref": "Esther 9:26–28",
+      "epigraph": "“Therefore they called these days “Purim”, from the word “Pur.””",
+      "poem": "they named the feast\nafter the lot\nrolled to choose\nthe day of their ending.\n\na strange name\nfor a celebration,\nunless the point is:\nthey are still here.\n\nhis name\nis never written in this book.\n\nbut every year\nthey tell the story again,\n\nand every year\nsomeone notices\nwhose hand\nwas underneath.",
+      "webSrc": "assets/for-such-a-time-as-this/web/b-011-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbc99e",
+        "horizon": "#b5a683",
+        "ground": "#98845d",
+        "overall": "#b6a37c",
+        "accent": "#ecd9ab"
+      }
+    }
+  ]
+}

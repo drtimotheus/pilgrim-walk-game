@@ -1,0 +1,824 @@
+{
+  "district": 13,
+  "slug": "psalms-1",
+  "title": "Planted by the Water",
+  "subtitle": "Psalms 1–41 in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/psalms-1/web/b-013-000.jpg",
+  "beforeYouBegin": "The Psalms are the Bible's own prayer book: songs for sleepless nights and bright mornings, for running from enemies and running toward God. The first forty-one of them make up Book One of the Psalter, most of them written by David, shepherd and king.\n\nThis volume answers them one at a time, forty short poems in five parts, each beside a picture and under a single line from the psalm it answers. The honest ones stay honest. How long? is a prayer too.\n\nThe poems are not the Bible. They are one reader's response to it. Keep the Psalms open alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "part": 1,
+      "startN": 1,
+      "title": "Like a Tree",
+      "epigraph": "He will be like a tree planted by the streams of water",
+      "epigraphRef": "Psalm 1:3",
+      "lightName": "Light of Like a Tree",
+      "lightHint": "Near 'planted' (Psalm 1:1–3) in Part 1: Like a Tree"
+    },
+    {
+      "index": 2,
+      "part": 2,
+      "startN": 9,
+      "title": "How Long?",
+      "epigraph": "How long, Yahweh? Will you forget me forever?",
+      "epigraphRef": "Psalm 13:1",
+      "lightName": "Light of How Long?",
+      "lightHint": "Near 'a high tower' (Psalm 9:9–10) in Part 2: How Long?"
+    },
+    {
+      "index": 3,
+      "part": 3,
+      "startN": 17,
+      "title": "The Shepherd",
+      "epigraph": "Y ahweh is my shepherd: I shall lack nothing.",
+      "epigraphRef": "Psalm 23:1",
+      "lightName": "Light of The Shepherd",
+      "lightHint": "Near 'my lamp' (Psalm 18:1–28) in Part 3: The Shepherd"
+    },
+    {
+      "index": 4,
+      "part": 4,
+      "startN": 25,
+      "title": "Wait for the Lord",
+      "epigraph": "W ait for Y ahweh. Be strong, and let your heart take courage.",
+      "epigraphRef": "Psalm 27:14",
+      "lightName": "Light of Wait for the Lord",
+      "lightHint": "Near 'I love your house' (Psalm 26:8) in Part 4: Wait for the Lord"
+    },
+    {
+      "index": 5,
+      "part": 5,
+      "startN": 33,
+      "title": "Taste and See",
+      "epigraph": "Oh taste and see that Yahweh is good.",
+      "epigraphRef": "Psalm 34:8",
+      "lightName": "Light of Taste and See",
+      "lightHint": "Near 'near' (Psalm 34:8–18) in Part 5: Taste and See"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "planted",
+      "ref": "Psalm 1:1–3",
+      "epigraph": "“that produces its fruit in its season, whose leaf also does not wither”",
+      "poem": "the Psalms open\nnot with a song\nbut with a tree.\n\nroots in the stream.\nfruit when it's time.\nleaves that stay green\nin the dry months.\n\nno hurry.\nno striving.\njust planted\nwhere the water is.\n\nthat's the whole book\nin a picture:\nstay near the water.",
+      "webSrc": "assets/psalms-1/web/b-013-001.jpg",
+      "heroSrc": "assets/psalms-1/web/b-013-001.jpg",
+      "isScene": true,
+      "sceneType": "streams_of_water",
+      "palette": {
+        "top": "#8b8b72",
+        "horizon": "#998e73",
+        "ground": "#6c6b55",
+        "overall": "#848067",
+        "accent": "#fcf0d5"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "heaven laughs",
+      "ref": "Psalm 2:1–12",
+      "epigraph": "“Blessed are all those who take refuge in him.”",
+      "poem": "the nations rage.\nkings plot.\nthe headlines shout.\n\nand heaven\nlaughs.\n\nnot a cruel laugh—\nthe calm of someone\nwho already knows\nhow it ends.\n\nthe psalm's last word\nis a door left open:\nblessed are all\nwho take refuge in him.",
+      "webSrc": "assets/psalms-1/web/b-013-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#83847d",
+        "horizon": "#9b988b",
+        "ground": "#7d735c",
+        "overall": "#878374",
+        "accent": "#e1dbc7"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "I slept",
+      "ref": "Psalm 3:1–5",
+      "epigraph": "“I laid myself down and slept. I awakened; for Yahweh sustains me.”",
+      "poem": "David wrote this\nrunning from his own son.\n\nenemies everywhere.\nvoices saying\nGod won't help him.\n\nand then this line:\nI lay down.\nI slept.\nI woke up.\n\nsometimes the bravest prayer\nis closing your eyes\nand trusting someone else\nto keep watch.",
+      "webSrc": "assets/psalms-1/web/b-013-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79b7a",
+        "horizon": "#928a6e",
+        "ground": "#91866a",
+        "overall": "#998f72",
+        "accent": "#fdefb2"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "lie down anyway",
+      "ref": "Psalm 4:8",
+      "epigraph": "“In peace I will both lay myself down and sleep”",
+      "poem": "night again.\n\nthe worries line up\nat the foot of the bed\nlike creditors.\n\nand the psalm says:\nlie down anyway.\nin peace.\n\nnot because the list is gone.\nbecause you,\nLord, alone,\nkeep me safe.",
+      "webSrc": "assets/psalms-1/web/b-013-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#89806a",
+        "horizon": "#6d6453",
+        "ground": "#7e6f58",
+        "overall": "#7d725c",
+        "accent": "#fad89a"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "watch",
+      "ref": "Psalm 5:1–3",
+      "epigraph": "“In the morning I will lay my requests before you, and will watch expectantly.”",
+      "poem": "in the morning\nI lay it out—\n\nlike a farmer laying out seed,\nlike a priest laying wood on the altar—\n\nand then I watch.\n\nprayer isn't\nthrowing words into the air\nand walking off.\n\nit's setting them down\nand looking up\nto see what he'll do.",
+      "webSrc": "assets/psalms-1/web/b-013-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0be97",
+        "horizon": "#80735a",
+        "ground": "#696250",
+        "overall": "#928569",
+        "accent": "#f7d378"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "every night",
+      "ref": "Psalm 6:6–9",
+      "epigraph": "“Every night I flood my bed. I drench my couch with my tears.”",
+      "poem": "this is in the Bible:\na grown man\ncrying every night\nuntil the pillow is soaked.\n\nno one tells him\nto cheer up.\n\nGod keeps the prayer\nin the book,\n\nand a few lines later,\nDavid says:\nthe Lord has heard my weeping.\n\nyour tears\nare not too much\nfor him.",
+      "webSrc": "assets/psalms-1/web/b-013-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#565247",
+        "horizon": "#565347",
+        "ground": "#3f3a2f",
+        "overall": "#524d41",
+        "accent": "#f2e5d4"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "my shield",
+      "ref": "Psalm 7:10",
+      "epigraph": "“My shield is with God, who saves the upright in heart.”",
+      "poem": "he'd been accused,\nslandered,\nchased.\n\nand he didn't hide\nbehind his reputation,\nor his own defense.\n\nmy shield\nis with God.\n\nlet him\ntake the hits.",
+      "webSrc": "assets/psalms-1/web/b-013-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9a8c74",
+        "horizon": "#6f5d47",
+        "ground": "#786852",
+        "overall": "#7d6d57",
+        "accent": "#f4eee0"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "the work of your fingers",
+      "ref": "Psalm 8:3–4",
+      "epigraph": "“When I consider your heavens, the work of your fingers, the moon and the stars”",
+      "poem": "a shepherd boy\non a hillside at night,\nlooking up.\n\nthe moon.\nthe stars.\nthe work of God's fingers—\nnot even his arms,\nhis fingers.\n\nand the question\nthat still undoes us:\n\nwho are we,\nthat you remember us?\n\nand yet\nhe does.",
+      "webSrc": "assets/psalms-1/web/b-013-008.jpg",
+      "heroSrc": "assets/psalms-1/web/b-013-008.jpg",
+      "isScene": true,
+      "sceneType": "moon_and_stars",
+      "palette": {
+        "top": "#555856",
+        "horizon": "#727068",
+        "ground": "#504c43",
+        "overall": "#5a5852",
+        "accent": "#c1b5a4"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "a high tower",
+      "ref": "Psalm 9:9–10",
+      "epigraph": "“Yahweh will also be a high tower for the oppressed”",
+      "poem": "for the oppressed—\nnot the powerful,\nnot the ones who already have walls—\n\na high tower.\n\nGod builds his strongest places\nwhere the weakest people\nneed them.",
+      "webSrc": "assets/psalms-1/web/b-013-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c5a3",
+        "horizon": "#a99d82",
+        "ground": "#5b594d",
+        "overall": "#948c75",
+        "accent": "#fbe6ae"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "far off",
+      "ref": "Psalm 10:1–14",
+      "epigraph": "“Why do you stand far off, Yahweh?”",
+      "poem": "why are you so far away?\nwhy do you hide\nwhen it's hardest?\n\nthe Bible lets us ask that.\nout loud.\nin worship.\n\nand the same psalm, a little later:\nbut you do see.\nyou take it in hand.\nyou help the fatherless.\n\nboth lines are prayer.\nthe question\nand the trust.",
+      "webSrc": "assets/psalms-1/web/b-013-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#cfc19f",
+        "horizon": "#a09182",
+        "ground": "#756852",
+        "overall": "#9a8d75",
+        "accent": "#e1c79a"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "flee like a bird",
+      "ref": "Psalm 11:1–3",
+      "epigraph": "“How can you say to my soul, “Flee as a bird to your mountain”?”",
+      "poem": "run! they said.\nfly to the mountains\nlike a bird.\nthe foundations are cracking.\n\nand David said:\nI've already taken refuge.\n\nnot in the mountains.\nin the Lord.\n\nyou don't have to run\nto be safe.\nyou have to know\nwhere you're standing.",
+      "webSrc": "assets/psalms-1/web/b-013-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9ceaf",
+        "horizon": "#99907d",
+        "ground": "#5b5342",
+        "overall": "#928974",
+        "accent": "#ebdebf"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "seven times",
+      "ref": "Psalm 12:1–6",
+      "epigraph": "“Y ahweh’s words are flawless words, as silver refined in a clay furnace, purified seven times.”",
+      "poem": "everyone lies,\nthe psalm begins.\nflattery. double talk.\nsmooth lips.\n\nand against all that noise:\nGod's words—\n\nsilver,\nrefined seven times,\nnothing false left in them.\n\nwhen everything is spin,\nthere is one voice\nyou can take\nat its word.",
+      "webSrc": "assets/psalms-1/web/b-013-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#91886f",
+        "horizon": "#70624c",
+        "ground": "#847961",
+        "overall": "#81755d",
+        "accent": "#f0c169"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "how long?",
+      "ref": "Psalm 13:1–6",
+      "epigraph": "“How long will you hide your face from me?”",
+      "poem": "how long?\nfour times in two verses.\n\nhow long will you forget me?\nhow long will you hide?\nhow long this ache?\nhow long?\n\nand then, with nothing changed,\nthe turn:\n\nbut I trust\nin your loving kindness.\n\nsometimes faith\ndoesn't wait for the answer.\nit sings\nbefore it comes.",
+      "webSrc": "assets/psalms-1/web/b-013-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#5e564b",
+        "horizon": "#63594a",
+        "ground": "#4d4335",
+        "overall": "#564d40",
+        "accent": "#f9dca9"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "good neighbor",
+      "ref": "Psalm 15:1–5",
+      "epigraph": "“who shall dwell in your sanctuary? Who shall live on your holy hill?”",
+      "poem": "who gets to live\nnear God?\n\nthe answer isn't\nthe most religious.\n\nit's the one who\ntells the truth,\nkeeps his word even when it costs him,\ndoesn't slander his neighbor,\ndoesn't take a bribe.\n\nholiness,\nit turns out,\nlooks a lot like\nbeing a good neighbor.",
+      "webSrc": "assets/psalms-1/web/b-013-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c4aa",
+        "horizon": "#a5917e",
+        "ground": "#696052",
+        "overall": "#988a77",
+        "accent": "#fbc195"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "pleasant places",
+      "ref": "Psalm 16:5–11",
+      "epigraph": "“The lines have fallen to me in pleasant places.”",
+      "poem": "the surveyor's lines\nfell on good ground.\n\nmy little plot.\nmy portion.\nmy cup.\n\nnot the biggest field in Israel.\nbut it's mine,\nand God is in it.\n\ncontentment\nisn't having more.\nit's seeing\nthat what you have\nwas measured out\nby a kind hand.",
+      "webSrc": "assets/psalms-1/web/b-013-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d5b7",
+        "horizon": "#999079",
+        "ground": "#908567",
+        "overall": "#aba084",
+        "accent": "#f2e6c3"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "the apple of your eye",
+      "ref": "Psalm 17:8",
+      "epigraph": "“Keep me as the apple of your eye. Hide me under the shadow of your wings”",
+      "poem": "the apple of your eye—\nthe old phrase for the pupil,\nthe part you protect\nwithout thinking.\n\nkeep me like that.\n\nand hide me\nin the shadow of your wings,\nthe way a small bird\ndisappears under its mother\nwhen the hawk goes over.",
+      "webSrc": "assets/psalms-1/web/b-013-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d5c199",
+        "horizon": "#98866a",
+        "ground": "#7f7159",
+        "overall": "#9f8e71",
+        "accent": "#f4d59e"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "my lamp",
+      "ref": "Psalm 18:1–28",
+      "epigraph": "“For you will light my lamp, Yahweh. My God will light up my darkness.”",
+      "poem": "rock. fortress. deliverer.\nshield. horn. high tower.\n\nDavid runs out of words\nfor what God has been to him.\n\nand then the smallest one:\nyou light my lamp.\n\nnot the sun.\nnot a bonfire.\nenough light\nfor the room I'm in.",
+      "webSrc": "assets/psalms-1/web/b-013-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#332a1e",
+        "horizon": "#3a2c1c",
+        "ground": "#3f301e",
+        "overall": "#382b1c",
+        "accent": "#c79f62"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "the sky is preaching",
+      "ref": "Psalm 19:1–6",
+      "epigraph": "“The heavens declare the glory of God.”",
+      "poem": "the sky is preaching.\nevery day.\nno words,\nand yet\nits voice goes out to the whole earth.\n\nthe sun comes up\nlike a bridegroom\nfrom his tent.\n\nlook up.\nthe sermon\nhas already started.",
+      "webSrc": "assets/psalms-1/web/b-013-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccb177",
+        "horizon": "#b69e6b",
+        "ground": "#6a5d44",
+        "overall": "#9b885e",
+        "accent": "#f2cf5f"
+      }
+    },
+    {
+      "n": 19,
+      "part": 3,
+      "title": "chariots",
+      "ref": "Psalm 20:7–8",
+      "epigraph": "“Some trust in chariots, and some in horses, but we trust in the name of Y ahweh our God.”",
+      "poem": "chariots were the tanks\nof the ancient world.\n\nand horses.\nand armies.\nand money.\n\nand we\ntrust a name.\n\nthe chariots rusted.\nthe horses are gone.\nthe name\nstill stands.",
+      "webSrc": "assets/psalms-1/web/b-013-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d6b9",
+        "horizon": "#918a76",
+        "ground": "#585441",
+        "overall": "#918a73",
+        "accent": "#f4e7c5"
+      }
+    },
+    {
+      "n": 20,
+      "part": 3,
+      "title": "the best gift",
+      "ref": "Psalm 21:1–6",
+      "epigraph": "“Y ou make him glad with joy in your presence.”",
+      "poem": "the king had a crown of gold,\nvictories,\nlong life.\n\nand the best line\nin his song:\n\nyou make him glad\nwith joy\nin your presence.\n\nall the rest were gifts.\nthis\nwas the giver.",
+      "webSrc": "assets/psalms-1/web/b-013-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b1a68e",
+        "horizon": "#a1977c",
+        "ground": "#776b52",
+        "overall": "#94886e",
+        "accent": "#fde8a7"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "forsaken",
+      "ref": "Psalm 22:1–24",
+      "epigraph": "“My God, my God, why have you forsaken me?”",
+      "poem": "Jesus prayed these words\non the cross.\n\nthe psalm he quoted\nstarts in the dark:\nwhy have you forsaken me?\n\nbut it doesn't end there.\nit ends:\nhe has not despised the afflicted.\nhe heard.\n\nwhen he cried the first line,\nhe knew\nthe last one.",
+      "webSrc": "assets/psalms-1/web/b-013-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#746a5b",
+        "horizon": "#615848",
+        "ground": "#3a3328",
+        "overall": "#564d40",
+        "accent": "#f0c882"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "through the valley",
+      "ref": "Psalm 23:1–6",
+      "epigraph": "“Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me.”",
+      "poem": "not around the valley.\nthrough it.\n\nhe never promised\nwe'd skip the shadows.\n\nhe promised\nto be there in them—\nrod and staff,\nclose enough to hear.\n\nand on the far side:\na table,\noil,\na full cup,\n\nand goodness\nfollowing me home.",
+      "webSrc": "assets/psalms-1/web/b-013-022.jpg",
+      "heroSrc": "assets/psalms-1/web/b-013-022.jpg",
+      "isScene": true,
+      "sceneType": "green_pastures",
+      "palette": {
+        "top": "#c1b59a",
+        "horizon": "#58584f",
+        "ground": "#43433c",
+        "overall": "#6f6b5e",
+        "accent": "#f2d6a3"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "lift up your heads",
+      "ref": "Psalm 24:1–10",
+      "epigraph": "“Lift up your heads, you gates!”",
+      "poem": "the whole earth\nis his,\nand everyone in it.\n\nand still\nhe knocks at the gates.\n\nlift up your heads.\nopen wide.\nthe King of glory\nis coming in.\n\nevery closed door in you—\nhe's asking\nto be let in.",
+      "webSrc": "assets/psalms-1/web/b-013-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#988b73",
+        "horizon": "#776c5b",
+        "ground": "#7a6b55",
+        "overall": "#7f725d",
+        "accent": "#fde69b"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "teach me",
+      "ref": "Psalm 25:4–5",
+      "epigraph": "“Show me your ways, Y ahweh. T each me your paths.”",
+      "poem": "not a map.\na teacher.\n\nshow me.\nteach me.\nlead me.\n\nI'll wait all day,\nthe psalm says.\n\nthe path isn't\nsomething you find once.\nit's something you're taught,\nstep by step,\nby someone walking beside you.",
+      "webSrc": "assets/psalms-1/web/b-013-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ded3b8",
+        "horizon": "#96907c",
+        "ground": "#94896e",
+        "overall": "#aaa088",
+        "accent": "#e5d2a3"
+      }
+    },
+    {
+      "n": 25,
+      "part": 4,
+      "title": "I love your house",
+      "ref": "Psalm 26:8",
+      "epigraph": "“Y ahweh, I love the habitation of your house, the place where your glory dwells.”",
+      "poem": "some people go to God's house\nbecause they have to.\n\nDavid went\nbecause he loved it:\nthe place where your glory lives.\n\nlike a child\nwho runs ahead\nto Grandma's door.",
+      "webSrc": "assets/psalms-1/web/b-013-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c0b39b",
+        "horizon": "#9a8f78",
+        "ground": "#7f725e",
+        "overall": "#998d77",
+        "accent": "#f4e8d2"
+      }
+    },
+    {
+      "n": 26,
+      "part": 4,
+      "title": "one thing",
+      "ref": "Psalm 27:4",
+      "epigraph": "“One thing I have asked of Yahweh”",
+      "poem": "if you could ask God\nfor one thing—\njust one—\n\nDavid already chose:\n\nto live in your house\nall my days,\nto look at your beauty,\nto sit with you\nand ask questions.\n\nnot the gift.\nthe Giver's company.",
+      "webSrc": "assets/psalms-1/web/b-013-026.jpg",
+      "heroSrc": "assets/psalms-1/web/b-013-026.jpg",
+      "isScene": true,
+      "sceneType": "house_of_the_lord",
+      "palette": {
+        "top": "#ab9878",
+        "horizon": "#978360",
+        "ground": "#9d8d70",
+        "overall": "#9d8b6c",
+        "accent": "#d6a23e"
+      }
+    },
+    {
+      "n": 27,
+      "part": 4,
+      "title": "a song",
+      "ref": "Psalm 28:6–7",
+      "epigraph": "“My heart has trusted in him, and I am helped.”",
+      "poem": "my strength.\nmy shield.\n\nI trusted,\nand I was helped.\n\nand so—\nthe natural next thing—\na song.\n\ngratitude\nwants a melody.",
+      "webSrc": "assets/psalms-1/web/b-013-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a49575",
+        "horizon": "#7c6e53",
+        "ground": "#6f5f46",
+        "overall": "#827358",
+        "accent": "#ebdbb9"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "the voice on the waters",
+      "ref": "Psalm 29:3–11",
+      "epigraph": "“Y ahweh’s voice is on the waters. The God of glory thunders”",
+      "poem": "thunder over the sea.\ncedars cracking.\nthe desert shaking.\n\nthat's his voice,\nthe psalm says.\n\nand after all that power,\nthe last line:\n\nthe Lord gives strength to his people.\nthe Lord blesses his people\nwith peace.\n\nthe voice that shakes the world\nspeaks peace\nto you.",
+      "webSrc": "assets/psalms-1/web/b-013-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#46463f",
+        "horizon": "#7f7f76",
+        "ground": "#4b4434",
+        "overall": "#5f5c51",
+        "accent": "#f9e7c1"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "morning",
+      "ref": "Psalm 30:5–11",
+      "epigraph": "“W eeping may stay for the night, but joy comes in the morning.”",
+      "poem": "weeping may stay the night—\nlike a guest\nwho won't leave.\n\nbut it's only a guest.\n\njoy\ncomes in the morning.\n\nyou turned my mourning\ninto dancing,\nhe says.\n\nthe night is real.\nso is the morning.",
+      "webSrc": "assets/psalms-1/web/b-013-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bfb08c",
+        "horizon": "#9c8d6b",
+        "ground": "#91866b",
+        "overall": "#a59777",
+        "accent": "#fce6a8"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "my times",
+      "ref": "Psalm 31:5–15",
+      "epigraph": "“My times are in your hand.”",
+      "poem": "my times—\nmy days, my years,\nthe good seasons and the waiting ones,\nmy first day and my last—\n\nare in your hand.\n\nnot in the enemy's.\nnot in chance.\nnot even in mine.\n\ninto your hands\nI commit my spirit:\nJesus prayed this psalm too.",
+      "webSrc": "assets/psalms-1/web/b-013-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ada68b",
+        "horizon": "#8e7e5f",
+        "ground": "#867759",
+        "overall": "#938568",
+        "accent": "#e6dec2"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "said out loud",
+      "ref": "Psalm 32:1–5",
+      "epigraph": "“Blessed is he whose disobedience is forgiven, whose sin is covered.”",
+      "poem": "when I kept silent,\nmy bones wasted away.\n\nthe weight of it\nall day\nand all night.\n\nthen I said it—\nout loud, to God.\n\nand he forgave.\n\nthe heaviest thing you carry\nmight be the thing\nyou haven't said yet.",
+      "webSrc": "assets/psalms-1/web/b-013-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b0a48a",
+        "horizon": "#897f6c",
+        "ground": "#9b8665",
+        "overall": "#9d8e72",
+        "accent": "#dac7a2"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "a new song",
+      "ref": "Psalm 33:1–3",
+      "epigraph": "“Sing to him a new song. Play skillfully with a shout of joy!”",
+      "poem": "a new song—\n\nnot because the old ones wore out,\nbut because\nhis mercies are new\nevery morning,\n\nand new mercy\ndeserves\nnew music.",
+      "webSrc": "assets/psalms-1/web/b-013-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b8ae99",
+        "horizon": "#92886e",
+        "ground": "#7c745c",
+        "overall": "#958b73",
+        "accent": "#e7d9c3"
+      }
+    },
+    {
+      "n": 33,
+      "part": 5,
+      "title": "near",
+      "ref": "Psalm 34:8–18",
+      "epigraph": "“Yahweh is near to those who have a broken heart”",
+      "poem": "David wrote this\nafter pretending to be mad\nto escape a king.\n\nnot his finest hour.\n\nand still:\ntaste and see.\nthe Lord is good.\n\nand this:\nhe is near\nthe brokenhearted.\n\nnot far from them.\nnear.",
+      "webSrc": "assets/psalms-1/web/b-013-033.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c4ac",
+        "horizon": "#9e8b72",
+        "ground": "#877762",
+        "overall": "#a4937c",
+        "accent": "#f2ddba"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "who is like you?",
+      "ref": "Psalm 35:10",
+      "epigraph": "“who delivers the poor from him who is too strong for him”",
+      "poem": "all my bones will say it:\nwho is like you?\n\nyou rescue the weak\nfrom the one\nwho's too strong for them.\n\nevery bully in history\nlearns this\neventually:\n\nthe poor\nhave a defender.",
+      "webSrc": "assets/psalms-1/web/b-013-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b0b0a3",
+        "horizon": "#c0b7a1",
+        "ground": "#a29174",
+        "overall": "#aea58f",
+        "accent": "#ddc79f"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "in your light",
+      "ref": "Psalm 36:7–9",
+      "epigraph": "“For with you is the spring of life. In your light we will see light.”",
+      "poem": "with you is the fountain of life.\nin your light\nwe see light.\n\nwe don't see him\nby the light\nof our own cleverness.\n\nhe is the light\nwe see\neverything else by.",
+      "webSrc": "assets/psalms-1/web/b-013-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c2b9a5",
+        "horizon": "#a19478",
+        "ground": "#928b73",
+        "overall": "#a19780",
+        "accent": "#fbf5e8"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "don't fret",
+      "ref": "Psalm 37:1–7",
+      "epigraph": "“Rest in Yahweh, and wait patiently for him. Don’t fret”",
+      "poem": "don't fret,\nthe psalm says,\nagain and again.\n\ndon't burn yourself up\nwatching the wicked get ahead.\n\nrest.\nwait.\ndelight yourself in the Lord.\n\nthe grass that grows fast\nwithers fast.\nyou're planted\nfor something longer.",
+      "webSrc": "assets/psalms-1/web/b-013-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9d0b8",
+        "horizon": "#97907a",
+        "ground": "#8a928a",
+        "overall": "#a4a190",
+        "accent": "#f6ecce"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "not hidden",
+      "ref": "Psalm 38:9–15",
+      "epigraph": "“Lord, all my desire is before you. My groaning is not hidden from you.”",
+      "poem": "this is a sick man's prayer.\npain,\nfriends keeping their distance,\nguilt he can't shake.\n\nand one sentence\nthat holds him up:\n\nmy longing is before you.\nmy groaning\nisn't hidden.\n\nhe knows.\nbefore you find the words,\nhe knows.",
+      "webSrc": "assets/psalms-1/web/b-013-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#4e483c",
+        "horizon": "#4b4436",
+        "ground": "#453d2f",
+        "overall": "#494235",
+        "accent": "#c59d5b"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "a handbreadth",
+      "ref": "Psalm 39:4–12",
+      "epigraph": "“show me my end, what is the measure of my days. Let me know how frail I am.”",
+      "poem": "you've made my days\na few handbreadths.\n\na breath.\na shadow.\na guest passing through.\n\nit isn't morbid.\nit's clarifying.\n\nwhen life is short,\nyou stop hoarding\nand start\nhoping in him.",
+      "webSrc": "assets/psalms-1/web/b-013-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccb690",
+        "horizon": "#aa9773",
+        "ground": "#998b6c",
+        "overall": "#ad9b78",
+        "accent": "#e3c184"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "out of the pit",
+      "ref": "Psalm 40:1–3",
+      "epigraph": "“He brought me up also out of a horrible pit, out of the miry clay. He set my feet on a rock”",
+      "poem": "I waited, and waited,\nand he bent down\nand heard.\n\nhe pulled me\nout of the mud,\nset my feet on rock,\n\nand put a new song\nin my mouth.\n\nand many will see,\nthe psalm says,\nand trust him too.\n\nyour rescue\nis someone else's reason\nto hope.",
+      "webSrc": "assets/psalms-1/web/b-013-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ccc3a5",
+        "horizon": "#958a6f",
+        "ground": "#645a46",
+        "overall": "#988d72",
+        "accent": "#e1c687"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "amen and amen",
+      "ref": "Psalm 41:1–13",
+      "epigraph": "“Blessed be Yahweh, the God of Israel, from everlasting and to everlasting! Amen and amen.”",
+      "poem": "the first book of Psalms\nbegan with a blessing\non the one who stays near the water.\n\nit ends\nwith a blessing\non the one who notices the poor.\n\nand then,\nlike a congregation standing up\nat the end:\n\nblessed be the Lord,\nforever and forever.\namen and amen.",
+      "webSrc": "assets/psalms-1/web/b-013-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5a973",
+        "horizon": "#6f5d3d",
+        "ground": "#5a4c38",
+        "overall": "#806c49",
+        "accent": "#fddb7d"
+      }
+    }
+  ]
+}

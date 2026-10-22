@@ -14,7 +14,9 @@
       "epigraph": "My heart exults in Yahweh!",
       "epigraphRef": "1 Samuel 2:1",
       "lightName": "Light of the Tabernacle Lamp",
-      "lightHint": "Beside the clay lamp that had not yet gone out in the quiet Shiloh sanctuary"
+      "lightHint": "Beside the clay lamp that had not yet gone out in the quiet Shiloh sanctuary",
+      "index": 1,
+      "startN": 1
     },
     {
       "part": 2,
@@ -22,7 +24,9 @@
       "epigraph": "Make us a king to judge us like all the nations.",
       "epigraphRef": "1 Samuel 8:5",
       "lightName": "Light of the Stone of Help",
-      "lightHint": "Near the upright Ebenezer witness stone in the hill pasture"
+      "lightHint": "Near the upright Ebenezer witness stone in the hill pasture",
+      "index": 2,
+      "startN": 9
     },
     {
       "part": 3,
@@ -30,7 +34,9 @@
       "epigraph": "Yahweh has sought for himself a man after his own heart.",
       "epigraphRef": "1 Samuel 13:14",
       "lightName": "Light of the Elah Brook",
-      "lightHint": "Where five smooth river stones glisten in the clear valley stream"
+      "lightHint": "Where five smooth river stones glisten in the clear valley stream",
+      "index": 3,
+      "startN": 15
     },
     {
       "part": 4,
@@ -38,7 +44,9 @@
       "epigraph": "I took you from the sheep pen, from following the sheep, to be prince over my people.",
       "epigraphRef": "2 Samuel 7:8",
       "lightName": "Light of the King’s Table",
-      "lightHint": "Beside the place kept continually for Jonathan’s lame son"
+      "lightHint": "Beside the place kept continually for Jonathan’s lame son",
+      "index": 4,
+      "startN": 25
     },
     {
       "part": 5,
@@ -46,7 +54,9 @@
       "epigraph": "Yahweh is my rock, my fortress, and my deliverer.",
       "epigraphRef": "2 Samuel 22:2",
       "lightName": "Light of the Threshing Floor Altar",
-      "lightHint": "Near Araunah’s threshing floor on the hill before the Finale Plaza"
+      "lightHint": "Near Araunah’s threshing floor on the hill before the Finale Plaza",
+      "index": 5,
+      "startN": 32
     }
   ],
   "paintings": [

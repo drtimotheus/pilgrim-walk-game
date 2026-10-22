@@ -1,0 +1,10 @@
+# Raw print-master PDFs & high-res masters (keep backed up in Google Drive / local disk, not GitHub)
+Pilgrim Walk Game Art/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.vscode/
+.idea/

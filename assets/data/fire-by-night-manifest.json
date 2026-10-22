@@ -1,0 +1,815 @@
+{
+  "slug": "fire-by-night",
+  "title": "Fire by Night",
+  "subtitle": "Leviticus & Numbers in Poems & Pictures",
+  "beforeYouBegin": "Leviticus and Numbers are the books of the camp at Sinai and the long road after it. They hold a fire on the altar that must never go out, a handful of flour seasoned with salt, a goat walking alone into the desert, corners of a field left standing for the poor, and a horn that sounds liberty every fiftieth year. Then the camp sets out: a blessing spoken over the people, a cloud by day and fire by night, manna in the dew, a cluster of grapes carried on a pole, a dry rod covered in almond blossoms, water pouring from a rock, a donkey that stops in the road, and six cities with their gates open for anyone who needs to run.\n\nThis book walks through them in forty short poems, in five parts: two for Leviticus and three for Numbers. Each poem sits beside a picture and under a single line of Scripture.\n\nThe poems are not the Bible. They are one reader's response to it. Open the books of Leviticus and Numbers alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "title": "Part One \u00b7 The Fire on the Altar",
+      "epigraph": "Fire shall be kept burning on the altar continually; it shall not go out.",
+      "epigraphRef": "LEVITICUS 6:13",
+      "startN": 1,
+      "endN": 7
+    },
+    {
+      "index": 2,
+      "title": "Part Two \u00b7 I Will Walk Among You",
+      "epigraph": "I will walk among you, and will be your God, and you will be my people.",
+      "epigraphRef": "LEVITICUS 26:12",
+      "startN": 8,
+      "endN": 16
+    },
+    {
+      "index": 3,
+      "title": "Part Three \u00b7 Bless You and Keep You",
+      "epigraph": "Yahweh bless you, and keep you.",
+      "epigraphRef": "NUMBERS 6:24",
+      "startN": 17,
+      "endN": 24
+    },
+    {
+      "index": 4,
+      "title": "Part Four \u00b7 Has His Hand Grown Short?",
+      "epigraph": "Has Yahweh's hand grown short?",
+      "epigraphRef": "NUMBERS 11:23",
+      "startN": 25,
+      "endN": 32
+    },
+    {
+      "index": 5,
+      "title": "Part Five \u00b7 A Star Out of Jacob",
+      "epigraph": "A star will come out of Jacob.",
+      "epigraphRef": "NUMBERS 24:17",
+      "startN": 33,
+      "endN": 40
+    }
+  ],
+  "cover": "assets/fire-by-night/web/f-003-000.jpg",
+  "paintings": [
+    {
+      "n": 1,
+      "file": "f-003-001.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-001.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-001.jpg",
+      "title": "called",
+      "ref": "Leviticus 1:1",
+      "poem": "the book begins\nwith a voice\nfrom inside a tent.\n\nnot from the mountain now,\nwith thunder and smoke,\n\nbut from a tent\npitched in the middle\nof the camp,\n\namong the cooking fires\nand the washing\nand the children.\n\neverything that follows,\nevery rule about fire and flour,\n\nis an answer\nto one question:\n\nhow do people like us\ncome near?",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d0c4a8",
+        "horizon": "#a59981",
+        "ground": "#716651",
+        "overall": "#9d9179",
+        "accent": "#eddbad"
+      }
+    },
+    {
+      "n": 2,
+      "file": "f-003-002.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-002.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-002.jpg",
+      "title": "a pleasant aroma",
+      "ref": "Leviticus 1:9",
+      "poem": "smoke going up\nin a straight line\non a still morning.\n\nthe whole camp\ncould see it\nfrom their tent doors.\n\nsomething given away\ncompletely,\nturned to fire and air,\n\nand heaven\ncalled it\npleasant.\n\nyou might think\nwhat you give up\nsimply disappears.\n\nit doesn't.\nit rises.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cfc9b6",
+        "horizon": "#d0c6b0",
+        "ground": "#7d6f59",
+        "overall": "#afa590",
+        "accent": "#eaca9b"
+      }
+    },
+    {
+      "n": 3,
+      "file": "f-003-003.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-003.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-003.jpg",
+      "title": "salt",
+      "ref": "Leviticus 2:13",
+      "poem": "fine flour.\na little oil.\na pinch of frankincense.\n\nand never\nforget the salt.\n\nsalt doesn't spoil.\nit keeps things.\n\nso every small gift,\neven a handful of flour,\n\nwas seasoned\nwith a reminder:\n\nthis is not a deal\nthat goes bad.\n\nthis is a promise\nthat keeps.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e0d5c3",
+        "horizon": "#a8967a",
+        "ground": "#908572",
+        "overall": "#aea08a",
+        "accent": "#fcf6ea"
+      }
+    },
+    {
+      "n": 4,
+      "file": "f-003-004.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-004.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-004.jpg",
+      "title": "a fifth part more",
+      "ref": "Leviticus 6:5",
+      "poem": "if you took it,\ngive it back.\n\nif you lied about\nwhat you found,\nreturn it.\n\nand then,\nbefore you go\nto the altar,\n\nadd a fifth.\n\nnot just enough\nto make it even.\n\na little more,\nso your neighbor knows\nyou meant it.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#a9987f",
+        "horizon": "#77644d",
+        "ground": "#7e694e",
+        "overall": "#847259",
+        "accent": "#e1bf90"
+      }
+    },
+    {
+      "n": 5,
+      "file": "f-003-005.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-005.jpg",
+      "heroSrc": "assets/fire-by-night/hero/f-003-005.jpg",
+      "title": "it shall not go out",
+      "ref": "Leviticus 6:12-13",
+      "poem": "every morning\nsomeone got up\nbefore the others\n\nand fed it.\n\na few pieces of wood.\nnothing grand.\n\nno one ever saw\nthe fire lit.\nonly the fire kept.\n\nthat's most of faith,\nreally.\n\nnot the flash\nfrom heaven.\n\nthe wood,\nevery morning,\nlaid on the coals.",
+      "part": 1,
+      "isScene": true,
+      "sceneKind": "altar_fire",
+      "palette": {
+        "top": "#b9ac93",
+        "horizon": "#716a62",
+        "ground": "#65594a",
+        "overall": "#837867",
+        "accent": "#f5d5a3",
+        "kind": "altar_fire"
+      }
+    },
+    {
+      "n": 6,
+      "file": "f-003-006.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-006.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-006.jpg",
+      "title": "ashes",
+      "ref": "Leviticus 6:10-11",
+      "poem": "the priest\nin his linen clothes\nswept up the ashes.\n\nthen changed\ninto plain ones\n\nand carried them\nout of the camp\nto a clean place.\n\neven the leftovers\nof holy things\nwere handled with care.\n\nno one\nis too important\nto carry the ashes.\n\nand nothing\nyou gave to God\nis thrown away.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#dbd1b2",
+        "horizon": "#beb298",
+        "ground": "#877c6a",
+        "overall": "#afa48c",
+        "accent": "#f4eac5"
+      }
+    },
+    {
+      "n": 7,
+      "file": "f-003-007.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-007.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-007.jpg",
+      "title": "hands lifted",
+      "ref": "Leviticus 9:22-24",
+      "poem": "after all the washing\nand the waiting\nand the careful fire,\n\nAaron came down\nand lifted up his hands\ntoward the people.\n\nand then\nthe glory came.\n\nfire from before the Lord,\nand the whole crowd\nshouting,\nfalling on their faces.\n\nit all ends\nwith a blessing.\n\nthat's what\nthe altar was for.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c1b290",
+        "horizon": "#88806b",
+        "ground": "#3c382e",
+        "overall": "#7e745e",
+        "accent": "#feee91"
+      }
+    },
+    {
+      "n": 8,
+      "file": "f-003-008.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-008.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-008.jpg",
+      "title": "holy",
+      "ref": "Leviticus 11:45",
+      "poem": "holy\ndoesn't mean\nfar away.\n\nit means\nset apart,\n\nthe way you set apart\nthe good cup,\nthe one you keep\nfor someone you love.\n\nGod said,\nbe holy, as I am.\n\nnot,\nstay away.\n\nmore like,\ncome be mine.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c1c9c6",
+        "horizon": "#d6ceb7",
+        "ground": "#a49375",
+        "overall": "#bcb5a0",
+        "accent": "#f3e4c1"
+      }
+    },
+    {
+      "n": 9,
+      "file": "f-003-009.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-009.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-009.jpg",
+      "title": "the living bird",
+      "ref": "Leviticus 14:7",
+      "poem": "the priest\nwent outside the camp\nto find him.\n\nthe one who had lived\nout there,\naway from everyone.\n\nhe looked him over,\nand the sickness was gone.\n\nand at the end\nof the washing,\n\na bird\nwas let go\ninto the open field.\n\nyou can go home now.\n\nyou are clean.\nyou are free.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d8d0bc",
+        "horizon": "#b8ab94",
+        "ground": "#6d6148",
+        "overall": "#a29780",
+        "accent": "#e7dac1"
+      }
+    },
+    {
+      "n": 10,
+      "file": "f-003-010.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-010.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-010.jpg",
+      "title": "within the veil",
+      "ref": "Leviticus 16:12-13",
+      "poem": "once a year\none man in plain linen\nwent behind the curtain\n\nwith coals\nand two handfuls of incense.\n\nthe smoke\ncovered the mercy seat\nlike a cloud.\n\nthe closest anyone came\nto God\n\nwas wrapped\nin sweetness\nand mercy.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#786d60",
+        "horizon": "#695e4f",
+        "ground": "#786a56",
+        "overall": "#706454",
+        "accent": "#c2b296"
+      }
+    },
+    {
+      "n": 11,
+      "file": "f-003-011.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-011.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-011.jpg",
+      "title": "into the wilderness",
+      "ref": "Leviticus 16:21-22",
+      "poem": "two hands\non a goat's head.\nevery wrong\nnamed out loud.\n\nthen someone led it\npast the last tent\nand let it go.\n\nit walked\ninto the desert\nand didn't come back.\n\nthat's where\nyour sin went.\n\nnot coming back.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e5d5b1",
+        "horizon": "#b9a781",
+        "ground": "#8c7549",
+        "overall": "#b3a078",
+        "accent": "#e6c68c"
+      }
+    },
+    {
+      "n": 12,
+      "file": "f-003-012.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-012.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-012.jpg",
+      "title": "the corners of the field",
+      "ref": "Leviticus 19:9-10",
+      "poem": "don't cut\nall the way to the edge.\n\ndon't go back\nfor what you dropped.\n\ndon't pick up\nthe grapes\nthat fell.\n\nleave them.\n\nsomeone is coming\nlater in the day\nwith an empty basket.\n\nGod built\na little room\ninto your harvest\n\nfor people\nyou've never met.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d4c2a0",
+        "horizon": "#c7b493",
+        "ground": "#745e3e",
+        "overall": "#a69373",
+        "accent": "#f5daa2"
+      }
+    },
+    {
+      "n": 13,
+      "file": "f-003-013.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-013.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-013.jpg",
+      "title": "as yourself",
+      "ref": "Leviticus 19:18",
+      "poem": "it's here first,\nin the middle\nof a long list\n\nabout wages\nand weights\nand gossip\nand the deaf and the blind.\n\ndon't carry a grudge.\ndon't get even.\n\nlove your neighbor\nas yourself.\n\nand further down the page,\nthe stranger too,\n\nbecause you knew\nwhat it was like\nto be one.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#8c7760",
+        "horizon": "#775f48",
+        "ground": "#2f261e",
+        "overall": "#5f4e3d",
+        "accent": "#feedc7"
+      }
+    },
+    {
+      "n": 14,
+      "file": "f-003-014.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-014.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-014.jpg",
+      "title": "the land shall rest",
+      "ref": "Leviticus 25:4",
+      "poem": "six years\nyou plow.\n\nthe seventh,\nyou don't.\n\nthe vine\ngoes wild.\nthe field\ngrows what it likes.\n\nand everyone eats\nfrom it,\nthe servant and the stranger\nand the animals too.\n\neven the dirt\ngets a Sabbath.\n\nGod is not\nin a hurry\nto use anything up.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e6d6b3",
+        "horizon": "#a6997c",
+        "ground": "#7b7256",
+        "overall": "#a79b7c",
+        "accent": "#f1e1bb"
+      }
+    },
+    {
+      "n": 15,
+      "file": "f-003-015.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-015.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-015.jpg",
+      "title": "jubilee",
+      "ref": "Leviticus 25:10",
+      "poem": "every fiftieth year\na horn\nacross the whole land.\n\nthe field you sold\ncomes back.\n\nthe debt\nis gone.\n\nthe one who had to work\nfor his neighbor\n\nwalks home\nwith his children.\n\nthe land is mine,\nGod said.\n\nno one\nloses everything\nforever.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d9cba7",
+        "horizon": "#ac9a79",
+        "ground": "#847051",
+        "overall": "#a89675",
+        "accent": "#ebcd94"
+      }
+    },
+    {
+      "n": 16,
+      "file": "f-003-016.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-016.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-016.jpg",
+      "title": "I will walk among you",
+      "ref": "Leviticus 26:11-12",
+      "poem": "after all the fire\nand the rules\nand the careful distance,\n\nthis.\n\nnot\nI will watch you.\n\nnot\nI will visit sometimes.\n\nI will walk\namong you.\n\ndown the rows of tents.\npast your door.\n\nthe whole book\nwas leading here.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cdbd99",
+        "horizon": "#9d9279",
+        "ground": "#72664f",
+        "overall": "#9a8d71",
+        "accent": "#fbdd9f"
+      }
+    },
+    {
+      "n": 17,
+      "file": "f-003-017.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-017.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-017.jpg",
+      "title": "one by one",
+      "ref": "Numbers 1:2",
+      "poem": "the book of Numbers\nbegins with names.\n\nnot a guess.\nnot a crowd.\n\nname after name,\nfamily after family,\n\none by one.\n\nyou may feel\nlike a number.\n\nbut in this book\nevery number\nwas a name first.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#978a7b",
+        "horizon": "#9b8a75",
+        "ground": "#857564",
+        "overall": "#938370",
+        "accent": "#e5caa9"
+      }
+    },
+    {
+      "n": 18,
+      "file": "f-003-018.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-018.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-018.jpg",
+      "title": "around the tent",
+      "ref": "Numbers 2:2",
+      "poem": "every tribe\nhad its place,\n\nevery family\nits banner,\n\nand every tent door\nfaced the same center.\n\nin the middle\nof all that dust\nand noise and marching,\n\na tent\nwhere God lived.\n\nwherever they went,\nthey set it up first.\n\nand set\ntheir own tents\naround it.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d2c4a8",
+        "horizon": "#a8967b",
+        "ground": "#857257",
+        "overall": "#a69579",
+        "accent": "#f2e6ce"
+      }
+    },
+    {
+      "n": 19,
+      "file": "f-003-019.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-019.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-019.jpg",
+      "title": "bless and keep",
+      "ref": "Numbers 6:23-24",
+      "poem": "God gave the priests\ntheir words.\n\nthis is how\nyou bless my people.\n\nsay it like this.\n\nhe didn't leave it\nto chance.\n\nhe didn't\nlet them guess.\n\nhe wanted them\nto hear\nexactly this:\n\nbless you.\nkeep you.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c8b488",
+        "horizon": "#ae966c",
+        "ground": "#5c5243",
+        "overall": "#958363",
+        "accent": "#fce9a6"
+      }
+    },
+    {
+      "n": 20,
+      "file": "f-003-020.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-020.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-020.jpg",
+      "title": "his face",
+      "ref": "Numbers 6:25-26",
+      "poem": "not his hand\nraised against you.\n\nnot his back\nturned.\n\nhis face.\n\nshining.\n\nlifted\ntoward you.\n\nand at the end\nof the blessing,\nthe thing he wants you\nto leave with:\n\npeace.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d5c8a1",
+        "horizon": "#8e8265",
+        "ground": "#3f372a",
+        "overall": "#80755c",
+        "accent": "#f8e8a3"
+      }
+    },
+    {
+      "n": 21,
+      "file": "f-003-021.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-021.jpg",
+      "heroSrc": "assets/fire-by-night/hero/f-003-021.jpg",
+      "title": "seven lamps",
+      "ref": "Numbers 8:2-3",
+      "poem": "the lamps\nwere turned\nto shine forward.\n\nnot up\nat the gold.\n\nnot back\nat the one\nwho lit them.\n\nout,\ninto the room.\n\na light\nis not for looking at.\n\nit's for seeing by.",
+      "part": 3,
+      "isScene": true,
+      "sceneKind": "menorah",
+      "palette": {
+        "top": "#76644b",
+        "horizon": "#614d35",
+        "ground": "#604c34",
+        "overall": "#66533a",
+        "accent": "#e3c08b",
+        "kind": "menorah"
+      }
+    },
+    {
+      "n": 22,
+      "file": "f-003-022.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-022.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-022.jpg",
+      "title": "cloud and fire",
+      "ref": "Numbers 9:15-16",
+      "poem": "by day\na cloud.\n\nby night\na glow like fire.\n\na child\ncould step out of her tent\nat midnight\n\nand look\ntoward the middle of the camp\n\nand see it\nstill there.\n\nhe didn't leave\nwhen it got dark.\n\nhe doesn't now.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#5b5343",
+        "horizon": "#837359",
+        "ground": "#3f3a2e",
+        "overall": "#5f5441",
+        "accent": "#f1b974"
+      }
+    },
+    {
+      "n": 23,
+      "file": "f-003-023.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-023.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-023.jpg",
+      "title": "a month, or a year",
+      "ref": "Numbers 9:22",
+      "poem": "sometimes one night.\nsometimes a month.\nsometimes a whole year\nin the same dry place.\n\nwhen the cloud stayed,\nthey stayed.\nwhen it moved,\nthey moved.\n\nsome seasons\nthe faithful thing\nis to unpack.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d0bca3",
+        "horizon": "#b9a28a",
+        "ground": "#433c32",
+        "overall": "#91826f",
+        "accent": "#f7dda9"
+      }
+    },
+    {
+      "n": 24,
+      "file": "f-003-024.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-024.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-024.jpg",
+      "title": "a resting place",
+      "ref": "Numbers 10:33",
+      "poem": "the ark\nwent out ahead.\n\nthree days\nahead of them.\n\nlooking\nfor a place\nwhere they could rest.\n\nyou're not\nthe first one\ndown this road.\n\nhe went ahead\nto find\nsomewhere you can stop.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#ccc09e",
+        "horizon": "#ccbe9d",
+        "ground": "#75664b",
+        "overall": "#ad9f7f",
+        "accent": "#fdf1c8"
+      }
+    },
+    {
+      "n": 25,
+      "file": "f-003-025.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-025.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-025.jpg",
+      "title": "the dew",
+      "ref": "Numbers 11:9",
+      "poem": "every night\nwhile they slept\n\nit came down\nwith the dew.\n\nsmall and pale\nlike coriander seed.\n\nthey ground it,\nboiled it,\nbaked it into cakes.\n\nit tasted\nlike fresh oil.\n\nevery morning\nenough.\n\nevery morning\nagain.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#aaa798",
+        "horizon": "#807b6d",
+        "ground": "#52534c",
+        "overall": "#7c796e",
+        "accent": "#f9edd4"
+      }
+    },
+    {
+      "n": 26,
+      "file": "f-003-026.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-026.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-026.jpg",
+      "title": "we remember the fish",
+      "ref": "Numbers 11:5-6",
+      "poem": "the cucumbers.\nthe melons.\nthe leeks, the onions, the garlic.\n\nfunny how\nyou can remember\nevery vegetable\n\nand forget\nthe whip.\n\nnothing at all\nbut this manna,\nthey said,\n\nholding\nbread from heaven\nin their hands.\n\nbe careful\nwhat you call\nnothing.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e6d5b3",
+        "horizon": "#ab9b80",
+        "ground": "#a5967a",
+        "overall": "#baaa8c",
+        "accent": "#f0dfbf"
+      }
+    },
+    {
+      "n": 27,
+      "file": "f-003-027.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-027.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-027.jpg",
+      "title": "not alone",
+      "ref": "Numbers 11:17",
+      "poem": "it's too heavy,\nMoses said.\n\nI can't carry them\nalone.\n\nand God\ndidn't tell him\nto try harder.\n\nhe said,\ngather seventy.\n\nand took\nof the Spirit\nthat was on Moses\nand put it on them.\n\nsometimes\nthe answer to your prayer\nis other people.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cac3ad",
+        "horizon": "#c5bca7",
+        "ground": "#6d6659",
+        "overall": "#a8a08d",
+        "accent": "#f0e9d1"
+      }
+    },
+    {
+      "n": 28,
+      "file": "f-003-028.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-028.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-028.jpg",
+      "title": "very humble",
+      "ref": "Numbers 12:3",
+      "poem": "his own sister and brother\nspoke against him.\n\nhe didn't answer back.\nGod did.\n\nand when Miriam\nwas shut outside the camp,\nMoses was the one who cried,\nheal her.\n\nand the whole people\nwaited seven days\nuntil she was\nbrought back in.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d5c6a6",
+        "horizon": "#978b7a",
+        "ground": "#544f48",
+        "overall": "#8e8472",
+        "accent": "#fdebb9"
+      }
+    },
+    {
+      "n": 29,
+      "file": "f-003-029.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-029.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-029.jpg",
+      "title": "Eshcol",
+      "ref": "Numbers 13:23",
+      "poem": "one cluster of grapes\nso big\n\nit took\ntwo men\nand a pole.\n\nand pomegranates.\nand figs.\n\nforty days in the land,\nand this is what\nthey carried home.\n\nproof.\n\nevery good thing\nGod had promised\n\nwas hanging\nright there\nbetween them.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#dccfb4",
+        "horizon": "#ada188",
+        "ground": "#6a5d49",
+        "overall": "#9f937b",
+        "accent": "#f6ecd0"
+      }
+    },
+    {
+      "n": 30,
+      "file": "f-003-030.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-030.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-030.jpg",
+      "title": "grasshoppers",
+      "ref": "Numbers 13:30-33",
+      "poem": "twelve went.\ntwelve saw\nthe same fruit,\nthe same walls.\n\nten came back\nand said,\nwe were like grasshoppers.\n\nCaleb said,\nlet's go up at once.\n\nsame land.\nsame giants.\n\nthe difference\nwasn't what they saw.\n\nit was\nwho they thought\nwas going with them.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c4b89e",
+        "horizon": "#c1b294",
+        "ground": "#6d685b",
+        "overall": "#a09580",
+        "accent": "#e4d6b5"
+      }
+    },
+    {
+      "n": 31,
+      "file": "f-003-031.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-031.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-031.jpg",
+      "title": "the rod that budded",
+      "ref": "Numbers 17:8",
+      "poem": "twelve dry sticks\nleft overnight\nin the tent.\n\nin the morning\none of them\nwas a tree.\n\nbuds,\nblossoms,\nand ripe almonds,\n\nall at once,\non wood\ncut and dry\nand lying still.\n\nGod chooses\nby making\nsomething live.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#99876e",
+        "horizon": "#93836a",
+        "ground": "#857863",
+        "overall": "#8f8068",
+        "accent": "#dfcaaa"
+      }
+    },
+    {
+      "n": 32,
+      "file": "f-003-032.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-032.jpg",
+      "heroSrc": "assets/fire-by-night/hero/f-003-032.jpg",
+      "title": "abundantly",
+      "ref": "Numbers 20:11",
+      "poem": "the people were quarreling.\nMoses was angry.\n\nhe was told\nto speak to the rock,\nand he struck it twice.\n\nand still\nthe water came.\nnot a trickle.\nabundantly.\n\nMoses paid a price that day.\nbut God did not let\nthe people go thirsty.",
+      "part": 4,
+      "isScene": true,
+      "sceneKind": "rock_water",
+      "palette": {
+        "top": "#d7cdb4",
+        "horizon": "#a89f89",
+        "ground": "#8e8973",
+        "overall": "#aba48d",
+        "accent": "#ede6ca",
+        "kind": "rock_water"
+      }
+    },
+    {
+      "n": 33,
+      "file": "f-003-033.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-033.jpg",
+      "heroSrc": "assets/fire-by-night/hero/f-003-033.jpg",
+      "title": "look and live",
+      "ref": "Numbers 21:8-9",
+      "poem": "they were tired and angry,\nand the desert\nwas full of snakes.\n\nGod did not\ntake the desert away.\n\nhe gave them\nsomething to look at:\na bronze pole\nlifted up where all could see.\n\nno medicine.\nno climbing.\n\nturn your eyes,\nand live.",
+      "part": 5,
+      "isScene": true,
+      "sceneKind": "bronze_serpent",
+      "palette": {
+        "top": "#e1cfa9",
+        "horizon": "#ddc9a3",
+        "ground": "#b99a73",
+        "overall": "#d1b993",
+        "accent": "#fadcaa",
+        "kind": "bronze_serpent"
+      }
+    },
+    {
+      "n": 34,
+      "file": "f-003-034.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-034.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-034.jpg",
+      "title": "spring up, well",
+      "ref": "Numbers 21:16-17",
+      "poem": "this time\nno one complained.\n\nGod said,\ngather the people,\nI will give them water.\n\nand they sang\nto a hole in the ground.\n\nspring up.",
+      "part": 5,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#daca9e",
+        "horizon": "#877e67",
+        "ground": "#6e6c5b",
+        "overall": "#968d72",
+        "accent": "#fadf9f"
+      }
+    },
+    {
+      "n": 35,
+      "file": "f-003-035.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-035.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-035.jpg",
+      "title": "the donkey",
+      "ref": "Numbers 22:28",
+      "poem": "three times\nshe turned aside.\n\nthree times\nhe struck her.\n\nhe thought\nshe was being stubborn.\n\nshe was\nsaving his life.\n\nthe only one\non that road\nwho could see the angel\n\nwas the donkey.\n\nbe slow to hit\nwhat's stopping you.",
+      "part": 5,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#dacdab",
+        "horizon": "#9f9474",
+        "ground": "#6e6149",
+        "overall": "#9c8f72",
+        "accent": "#fbf1d2"
+      }
+    },
+    {
+      "n": 36,
+      "file": "f-003-036.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-036.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-036.jpg",
+      "title": "I can't reverse it",
+      "ref": "Numbers 23:20",
+      "poem": "a king\npaid a prophet\nto curse them.\n\nthree times\nhe climbed a mountain.\n\nthree times\nhe opened his mouth,\n\nand blessing\ncame out instead.\n\nno one\ncan hire\na curse on you\n\nstrong enough\nto undo\nwhat God\nhas already said.",
+      "part": 5,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d3bd8e",
+        "horizon": "#ae9a74",
+        "ground": "#433c2f",
+        "overall": "#90805f",
+        "accent": "#f7da7e"
+      }
+    },
+    {
+      "n": 37,
+      "file": "f-003-037.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-037.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-037.jpg",
+      "title": "but not near",
+      "ref": "Numbers 24:17",
+      "poem": "from the top of a hill\na man who came to curse\nsaw a star.\n\nnot now.\nnot near.\n\nfar off,\nrising\nout of Jacob.\n\nsome promises\nyou only see\nfrom a distance.\n\nthe star\nwas still coming.",
+      "part": 5,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#383c37",
+        "horizon": "#6f6a59",
+        "ground": "#444134",
+        "overall": "#565346",
+        "accent": "#e7e0d1"
+      }
+    },
+    {
+      "n": 38,
+      "file": "f-003-038.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-038.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-038.jpg",
+      "title": "the daughters speak right",
+      "ref": "Numbers 27:7",
+      "poem": "Mahlah, Noah, Hoglah,\nMilcah, Tirzah.\n\nfive sisters\nwith no brother\nand no share of the land.\n\nthey stood at the door of the tent,\nin front of everyone,\nand asked.\n\nMoses brought it to God.\n\nand God said,\nthey're right,\n\nand wrote it into the law\nfor every daughter after them.",
+      "part": 5,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cdc3af",
+        "horizon": "#a49883",
+        "ground": "#5d5242",
+        "overall": "#918673",
+        "accent": "#f8f0dd"
+      }
+    },
+    {
+      "n": 39,
+      "file": "f-003-039.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-039.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-039.jpg",
+      "title": "a shepherd",
+      "ref": "Numbers 27:16-17",
+      "poem": "told he would not\ngo into the land,\n\nMoses didn't argue\nfor himself.\n\nhe prayed\nfor them.\n\ngive them someone\nto go out before them\nand bring them in.\n\ndon't leave them\nlike sheep\nwith no shepherd.\n\nthen he laid his hands\non Joshua\n\nand let go.",
+      "part": 5,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e0d5b2",
+        "horizon": "#a2977f",
+        "ground": "#4b483d",
+        "overall": "#938b75",
+        "accent": "#f1e5b9"
+      }
+    },
+    {
+      "n": 40,
+      "file": "f-003-040.jpg",
+      "webSrc": "assets/fire-by-night/web/f-003-040.jpg",
+      "heroSrc": "assets/fire-by-night/web/f-003-040.jpg",
+      "title": "cities of refuge",
+      "ref": "Numbers 35:11",
+      "poem": "even in the law\nthere was a door\nleft open.\n\nsix towns,\nthree on each side\nof the Jordan,\n\nfor the one\nwho never meant it,\nrunning,\nwith nowhere else to go.\n\nget inside,\nand you are safe.\n\nthe long road\nends with a place\nto run to.",
+      "part": 5,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#bfaf8c",
+        "horizon": "#81745a",
+        "ground": "#5f553f",
+        "overall": "#877a5e",
+        "accent": "#f3d086"
+      }
+    }
+  ]
+}

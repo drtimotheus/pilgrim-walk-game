@@ -1,0 +1,731 @@
+{
+  "slug": "choose-life",
+  "title": "Choose Life",
+  "subtitle": "Deuteronomy in Poems & Pictures",
+  "beforeYouBegin": "Deuteronomy is Moses' farewell. The people are camped on the plains of Moab, with the wilderness behind them and the Jordan in front, and an old man stands up to remind them of everything: sandals that did not wear out in forty years, bread that came with the dew, a God who carried them like a father carries a child. He tells them to write his words on their doorposts, to open their hands to the poor, to leave a sheaf in the field for the widow, and to choose life. Then he climbs a mountain, sees the land, and is buried in a valley no one can find.\n\nThis book walks through it in thirty-six short poems, in four parts. Each poem sits beside a picture and under a single line of Scripture.\n\nThe poems are not the Bible. They are one reader's response to it. Open the book of Deuteronomy alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "title": "Part One \u00b7 Remember the Road",
+      "epigraph": "You shall remember all the way which Yahweh your God has led you these forty years in the wilderness",
+      "epigraphRef": "DEUTERONOMY 8:2",
+      "startN": 1,
+      "endN": 8
+    },
+    {
+      "index": 2,
+      "title": "Part Two \u00b7 Hear, Israel",
+      "epigraph": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+      "epigraphRef": "DEUTERONOMY 6:5",
+      "startN": 9,
+      "endN": 18
+    },
+    {
+      "index": 3,
+      "title": "Part Three \u00b7 An Open Hand",
+      "epigraph": "you shall surely open your hand to him",
+      "epigraphRef": "DEUTERONOMY 15:8",
+      "startN": 19,
+      "endN": 26
+    },
+    {
+      "index": 4,
+      "title": "Part Four \u00b7 Choose Life",
+      "epigraph": "Therefore choose life, that you may live, you and your descendants",
+      "epigraphRef": "DEUTERONOMY 30:19",
+      "startN": 27,
+      "endN": 36
+    }
+  ],
+  "cover": "assets/choose-life/web/c-004-000.jpg",
+  "paintings": [
+    {
+      "n": 1,
+      "file": "c-004-001.jpg",
+      "webSrc": "assets/choose-life/web/c-004-001.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-001.jpg",
+      "title": "long enough",
+      "ref": "Deuteronomy 1:6-8",
+      "poem": "some places are holy\nand still not home.\n\nthey had camped\nat the foot of the mountain\nwhere God spoke,\n\nand it would have been easy\nto stay.\n\nbut the voice\nthat met them there\nsaid: turn.\ntake your journey.\n\nthe mountain was where\nhe gave the word.\n\nthe road was where\nthey would learn to live it.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d4cbac",
+        "horizon": "#aca589",
+        "ground": "#524e3f",
+        "overall": "#958e76",
+        "accent": "#fde495"
+      }
+    },
+    {
+      "n": 2,
+      "file": "c-004-002.jpg",
+      "webSrc": "assets/choose-life/web/c-004-002.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-002.jpg",
+      "title": "carried",
+      "ref": "Deuteronomy 1:31",
+      "poem": "you remember\nthe long walk.\n\nthe heat,\nthe complaining,\nthe nights you didn't think\nyou'd make it.\n\nMoses remembers\nsomething else:\n\na father\nwith a tired child\nup on his shoulders,\n\nall the way\nyou went,\nuntil you came\nto this place.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d5c299",
+        "horizon": "#b3a181",
+        "ground": "#958262",
+        "overall": "#b09d7a",
+        "accent": "#f8e3b7"
+      }
+    },
+    {
+      "n": 3,
+      "file": "c-004-003.jpg",
+      "webSrc": "assets/choose-life/web/c-004-003.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-003.jpg",
+      "title": "you have lacked nothing",
+      "ref": "Deuteronomy 2:7",
+      "poem": "not nothing\nto want.\n\nthere were forty years\nof wanting.\n\nbut nothing\nto lack.\n\nhe knew your walking,\nevery mile of it,\n\nand every morning\nthere was enough.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c5b595",
+        "horizon": "#a39376",
+        "ground": "#79715c",
+        "overall": "#9f9176",
+        "accent": "#e2c896"
+      }
+    },
+    {
+      "n": 4,
+      "file": "c-004-004.jpg",
+      "webSrc": "assets/choose-life/web/c-004-004.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-004.jpg",
+      "title": "that is enough",
+      "ref": "Deuteronomy 3:23-27",
+      "poem": "Moses begged.\n\njust to cross,\njust to stand\nin the good land\nhe'd walked toward\nfor forty years.\n\nand God said:\nenough.\nspeak no more of this.\n\nbut he didn't send him away\nempty.\n\ngo up, he said.\nlift up your eyes.\nlook west, north, south, east.\n\nsometimes the answer is no,\nand it comes\nwith a view.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d5be9a",
+        "horizon": "#c3a58c",
+        "ground": "#75634d",
+        "overall": "#a99277",
+        "accent": "#fac08b"
+      }
+    },
+    {
+      "n": 5,
+      "file": "c-004-005.jpg",
+      "webSrc": "assets/choose-life/web/c-004-005.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-005.jpg",
+      "title": "so near",
+      "ref": "Deuteronomy 4:7",
+      "poem": "other nations\nhad tall gods\nfar away\n\non mountaintops,\nin temples\nyou could only enter\nif you were someone.\n\nIsrael had\na God who could be reached\nby calling.\n\nno climbing.\nno appointment.\n\njust your voice,\nwhenever.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#8f8871",
+        "horizon": "#716d5c",
+        "ground": "#82745b",
+        "overall": "#827963",
+        "accent": "#f4dbaf"
+      }
+    },
+    {
+      "n": 6,
+      "file": "c-004-006.jpg",
+      "webSrc": "assets/choose-life/web/c-004-006.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-006.jpg",
+      "title": "what your eyes saw",
+      "ref": "Deuteronomy 4:9",
+      "poem": "memory\nis a leaky jar.\n\nwhat your eyes saw,\nthe fire, the voice,\nthe bread on the ground,\n\ndrips out\na little every day\nif you leave it\nstanding.\n\nso pour it out\non purpose:\n\ntell your children.\ntell their children.\n\na story told\nis a story kept.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#6a604e",
+        "horizon": "#39362c",
+        "ground": "#524534",
+        "overall": "#504738",
+        "accent": "#bd8f5e"
+      }
+    },
+    {
+      "n": 7,
+      "file": "c-004-007.jpg",
+      "webSrc": "assets/choose-life/web/c-004-007.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-007.jpg",
+      "title": "with all your heart",
+      "ref": "Deuteronomy 4:29-31",
+      "poem": "even from far away.\neven from the place\nyou ended up\nbecause you wandered.\n\nfrom there,\nMoses says,\nyou shall seek.\n\nand from there\nyou shall find.\n\nhe is a merciful God.\nhe doesn't forget\nwhat he promised\n\njust because\nyou did.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d2bb92",
+        "horizon": "#b29980",
+        "ground": "#584b36",
+        "overall": "#988468",
+        "accent": "#edd29d"
+      }
+    },
+    {
+      "n": 8,
+      "file": "c-004-008.jpg",
+      "webSrc": "assets/choose-life/web/c-004-008.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-008.jpg",
+      "title": "alive today",
+      "ref": "Deuteronomy 5:3",
+      "poem": "most of the people listening\nhad been children at Sinai,\nor not yet born.\n\nand Moses says:\nnot with our fathers.\nwith us.\n\nthe promise\nisn't a family heirloom\nin a box.\n\nit is spoken\nto whoever is standing here,\nalive,\ntoday.\n\nthat includes you.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e1c9b0",
+        "horizon": "#ae9e91",
+        "ground": "#645947",
+        "overall": "#9f8f7c",
+        "accent": "#fcc9ae"
+      }
+    },
+    {
+      "n": 9,
+      "file": "c-004-009.jpg",
+      "webSrc": "assets/choose-life/web/c-004-009.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-009.jpg",
+      "title": "hear",
+      "ref": "Deuteronomy 6:4-5",
+      "poem": "before any rule,\na word:\n\nhear.\n\nnot do.\nnot try harder.\n\njust stop\nand listen.\n\none God.\n\nso one love,\nnot divided:\n\nall your heart,\nall your soul,\nall your strength,\n\ngiven to the one\nwho gave it all\nto you.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d5c9a4",
+        "horizon": "#bbb193",
+        "ground": "#605a4b",
+        "overall": "#9e957b",
+        "accent": "#fdec97"
+      }
+    },
+    {
+      "n": 10,
+      "file": "c-004-010.jpg",
+      "webSrc": "assets/choose-life/web/c-004-010.jpg",
+      "heroSrc": "assets/choose-life/hero/c-004-010.jpg",
+      "title": "the doorpost",
+      "ref": "Deuteronomy 6:6-9",
+      "poem": "not in a temple.\nat the door.\n\nwhere you come in tired.\nwhere you go out\nto work.\n\nwhere the kids run through\na hundred times a day.\n\ntalk about them, he says,\nwhen you sit,\nwhen you walk,\nwhen you lie down,\nwhen you get up.\n\nfaith isn't a room\nin the house.\n\nit's the doorway\nto all of them.",
+      "part": 2,
+      "isScene": true,
+      "sceneKind": "mezuzah",
+      "palette": {
+        "top": "#b0a386",
+        "horizon": "#ac9b7d",
+        "ground": "#a49375",
+        "overall": "#aa9a7c",
+        "accent": "#f7eecb",
+        "kind": "mezuzah"
+      }
+    },
+    {
+      "n": 11,
+      "file": "c-004-011.jpg",
+      "webSrc": "assets/choose-life/web/c-004-011.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-011.jpg",
+      "title": "when your son asks",
+      "ref": "Deuteronomy 6:20-21",
+      "poem": "he won't ask\nfor a lecture.\n\nhe'll ask\nwhat all this means.\n\nso don't start\nwith rules.\n\nstart with:\nwe were slaves.\n\nand then tell him\nabout the hand\nthat brought us out.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d2bc91",
+        "horizon": "#796b59",
+        "ground": "#4e473e",
+        "overall": "#80725d",
+        "accent": "#eebf81"
+      }
+    },
+    {
+      "n": 12,
+      "file": "c-004-012.jpg",
+      "webSrc": "assets/choose-life/web/c-004-012.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-012.jpg",
+      "title": "the fewest",
+      "ref": "Deuteronomy 7:7-8",
+      "poem": "he didn't choose them\nbecause they were many.\n\nthey were the fewest.\n\nhe didn't choose them\nbecause they were impressive.\n\nhe chose them\nbecause he loves.\n\nthat's the whole reason.\n\nit was never\nabout the size of the flower.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e1d6b8",
+        "horizon": "#c5b699",
+        "ground": "#b09f7d",
+        "overall": "#c0b293",
+        "accent": "#e6dbbc"
+      }
+    },
+    {
+      "n": 13,
+      "file": "c-004-013.jpg",
+      "webSrc": "assets/choose-life/web/c-004-013.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-013.jpg",
+      "title": "not by bread alone",
+      "ref": "Deuteronomy 8:2-3",
+      "poem": "he let them\nbe hungry.\n\nthen fed them\nwith bread\nno one had ever seen,\n\nbread you couldn't store\nor earn,\n\nonly gather,\neach morning,\nand trust.\n\nyou are fed\nby the one who speaks,\n\nnot by what you can\nkeep in a jar.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d6c8a3",
+        "horizon": "#9c9179",
+        "ground": "#9c927e",
+        "overall": "#a89d83",
+        "accent": "#eddeaa"
+      }
+    },
+    {
+      "n": 14,
+      "file": "c-004-014.jpg",
+      "webSrc": "assets/choose-life/web/c-004-014.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-014.jpg",
+      "title": "a good land",
+      "ref": "Deuteronomy 8:7-10",
+      "poem": "after forty years\nof sand,\n\nMoses reads them the list\nlike a menu:\n\nbrooks and springs,\nwheat and barley,\nvines and figs,\npomegranates,\nolives and honey.\n\nyou shall eat\nand be full,\n\nand then,\nhe says,\n\nbless him.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e3d5af",
+        "horizon": "#af9d78",
+        "ground": "#a2936f",
+        "overall": "#b8a983",
+        "accent": "#eadcb7"
+      }
+    },
+    {
+      "n": 15,
+      "file": "c-004-015.jpg",
+      "webSrc": "assets/choose-life/web/c-004-015.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-015.jpg",
+      "title": "when you are full",
+      "ref": "Deuteronomy 8:11-14",
+      "poem": "the wilderness\nwasn't the dangerous part.\n\nhunger kept them\nlooking up.\n\nthe danger\nwas coming later:\n\nthe fine house,\nthe growing flocks,\nthe silver,\nthe full plate,\n\nand a heart\nslowly lifted up\nuntil it forgets\nwhose hand\nbrought it out.\n\nremember in the plenty\nwhat you learned\nin the sand.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#9c8d77",
+        "horizon": "#786951",
+        "ground": "#524538",
+        "overall": "#756754",
+        "accent": "#e9d7b1"
+      }
+    },
+    {
+      "n": 16,
+      "file": "c-004-016.jpg",
+      "webSrc": "assets/choose-life/web/c-004-016.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-016.jpg",
+      "title": "the heart's foreskin",
+      "ref": "Deuteronomy 10:16",
+      "poem": "the sign on the body\nwas never meant\nto stop at the body.\n\nGod wanted\nthe covering\ncut away\nfrom the heart,\n\nthe hard layer,\nthe stiff neck,\nthe part that won't\nturn when he calls.\n\nhe wasn't asking for less of you.\n\nhe was asking\nfor the real you,\nuncovered.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d5be8e",
+        "horizon": "#8e7751",
+        "ground": "#89724e",
+        "overall": "#a08961",
+        "accent": "#eed9a8"
+      }
+    },
+    {
+      "n": 17,
+      "file": "c-004-017.jpg",
+      "webSrc": "assets/choose-life/web/c-004-017.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-017.jpg",
+      "title": "the foreigner",
+      "ref": "Deuteronomy 10:17-19",
+      "poem": "the great God,\nthe mighty,\nthe awesome,\n\nwho takes\nno bribes,\n\nspends his time\non the fatherless,\nthe widow,\nand the stranger\nwho needs bread\nand a coat.\n\nso love the stranger.\n\nyou know\nhow it feels.\n\nyou were one.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e1d2b4",
+        "horizon": "#928773",
+        "ground": "#7d6e56",
+        "overall": "#9f9279",
+        "accent": "#f4e0ba"
+      }
+    },
+    {
+      "n": 18,
+      "file": "c-004-018.jpg",
+      "webSrc": "assets/choose-life/web/c-004-018.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-018.jpg",
+      "title": "the rain of the sky",
+      "ref": "Deuteronomy 11:10-12",
+      "poem": "Egypt had a river.\nyou watered your field\nwith your foot,\nturning the channels.\n\nthe new land\nhad hills,\nand drank\nfrom the sky.\n\nwhich meant\nyou'd have to trust.\n\nbut it also meant\nsomeone was watching it,\n\nfrom the first day of the year\nto the last,\n\nevery hillside,\nevery valley.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#82847b",
+        "horizon": "#a19c88",
+        "ground": "#615d4a",
+        "overall": "#7f7d6d",
+        "accent": "#f3e6c6"
+      }
+    },
+    {
+      "n": 19,
+      "file": "c-004-019.jpg",
+      "webSrc": "assets/choose-life/web/c-004-019.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-019.jpg",
+      "title": "the tithe feast",
+      "ref": "Deuteronomy 14:22-26",
+      "poem": "you'd expect\nthe tithe\nto be taken away.\n\ninstead God says:\nbring it\nand eat it,\nin front of me.\n\nroad too long?\ncarry silver instead,\nand buy what you like\nwhen you get there.\n\nthen sit down,\nall of you,\nand rejoice.\n\nthe offering\nwas a feast\nhe was throwing\nfor you.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c9b187",
+        "horizon": "#9b8869",
+        "ground": "#807057",
+        "overall": "#9f8b6b",
+        "accent": "#e2bb83"
+      }
+    },
+    {
+      "n": 20,
+      "file": "c-004-020.jpg",
+      "webSrc": "assets/choose-life/web/c-004-020.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-020.jpg",
+      "title": "open your hand",
+      "ref": "Deuteronomy 15:7-11",
+      "poem": "a closed hand\nand a hard heart\n\nusually come together.\n\nso do\nan open hand\nand a heart\nthat isn't grieved\nwhen it gives.\n\nthe poor, Moses says,\nwon't disappear.\n\nso don't wait\nfor the problem\nto be solved.\n\nopen your hand\ntoday.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#99907b",
+        "horizon": "#84755d",
+        "ground": "#85755c",
+        "overall": "#897b63",
+        "accent": "#deceaf"
+      }
+    },
+    {
+      "n": 21,
+      "file": "c-004-021.jpg",
+      "webSrc": "assets/choose-life/web/c-004-021.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-021.jpg",
+      "title": "not empty",
+      "ref": "Deuteronomy 15:12-15",
+      "poem": "it wasn't enough\nto open the door.\n\nwhen the servant\nwalked out free,\n\nyou were to fill his arms:\ngrain from the floor,\nwine from the press,\nsomething from the flock.\n\nwhy?\n\nbecause you remember\nthe morning\nyou walked out of Egypt\n\nand did not\nleave with nothing.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#a89f83",
+        "horizon": "#7a7059",
+        "ground": "#887960",
+        "overall": "#8d8168",
+        "accent": "#d7caa3"
+      }
+    },
+    {
+      "n": 22,
+      "file": "c-004-022.jpg",
+      "webSrc": "assets/choose-life/web/c-004-022.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-022.jpg",
+      "title": "altogether joyful",
+      "ref": "Deuteronomy 16:13-15",
+      "poem": "seven days\nunder branches.\n\nafter the grain\nand the grapes\nwere in.\n\nand the guest list\nwent all the way down:\n\nson, daughter,\nservants,\nthe Levite,\nthe stranger,\nthe orphan,\nthe widow.\n\nno one\nwas supposed to celebrate\nalone.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#baaf97",
+        "horizon": "#77705e",
+        "ground": "#71644c",
+        "overall": "#887d66",
+        "accent": "#e8d4af"
+      }
+    },
+    {
+      "n": 23,
+      "file": "c-004-023.jpg",
+      "webSrc": "assets/choose-life/web/c-004-023.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-023.jpg",
+      "title": "you may not hide yourself",
+      "ref": "Deuteronomy 22:1-3",
+      "poem": "it's easy\nnot to see\na wandering sheep.\n\nit isn't yours.\nyou're busy.\n\nbut the law\nsays: see it.\n\nbring it back.\nand if you don't know\nwhose it is,\n\ntake it home,\nfeed it,\nkeep it\nuntil someone\ncomes looking.\n\nlove\nis not looking away.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d4c4a6",
+        "horizon": "#827c6c",
+        "ground": "#695f4c",
+        "overall": "#8d826e",
+        "accent": "#f8e6bc"
+      }
+    },
+    {
+      "n": 24,
+      "file": "c-004-024.jpg",
+      "webSrc": "assets/choose-life/web/c-004-024.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-024.jpg",
+      "title": "the mother bird",
+      "ref": "Deuteronomy 22:6-7",
+      "poem": "a nest by the road,\na mother on her eggs.\n\nand even here,\nin a small thing,\nthe law says:\nlet her go.\n\nGod noticed\nthe bird.\n\nhe wanted you\nto notice her too.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#ccc1a9",
+        "horizon": "#aea590",
+        "ground": "#70644f",
+        "overall": "#9d927c",
+        "accent": "#dac7a6"
+      }
+    },
+    {
+      "n": 25,
+      "file": "c-004-025.jpg",
+      "webSrc": "assets/choose-life/web/c-004-025.jpg",
+      "heroSrc": "assets/choose-life/hero/c-004-025.jpg",
+      "title": "the forgotten sheaf",
+      "ref": "Deuteronomy 24:19-21",
+      "poem": "you missed one.\n\ndon't go back.\n\nleave the olives\non the high branch.\nleave the grapes\nyou didn't get to.\n\nsomeone is coming\nbehind you\nwith an empty basket.\n\nwhat you forget\nis how God\nremembers them.",
+      "part": 3,
+      "isScene": true,
+      "sceneKind": "sheaf",
+      "palette": {
+        "top": "#ae9d7d",
+        "horizon": "#91836c",
+        "ground": "#7c6a52",
+        "overall": "#938268",
+        "accent": "#fce1b1",
+        "kind": "sheaf"
+      }
+    },
+    {
+      "n": 26,
+      "file": "c-004-026.jpg",
+      "webSrc": "assets/choose-life/web/c-004-026.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-026.jpg",
+      "title": "the basket",
+      "ref": "Deuteronomy 26:5-10",
+      "poem": "you set the basket down\nand tell the story,\nout loud:\n\nmy father was a wanderer,\nready to perish.\n\nwe went down to Egypt\nfew in number.\n\nwe were slaves.\nwe cried out.\nhe heard.\n\nhe brought us here.\n\nand here\nis the first\nof what the ground gave.\n\nevery basket\nis a small testimony.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cdc3ae",
+        "horizon": "#867b65",
+        "ground": "#9a8b75",
+        "overall": "#9c907a",
+        "accent": "#e9e0d0"
+      }
+    },
+    {
+      "n": 27,
+      "file": "c-004-027.jpg",
+      "webSrc": "assets/choose-life/web/c-004-027.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-027.jpg",
+      "title": "sandals",
+      "ref": "Deuteronomy 29:5-6",
+      "poem": "forty years\nof stones and sand\n\nand your sandals\ndid not wear out.\n\nno one writes songs\nabout sandals.\n\nbut think of every step\nthey carried,\nevery morning\nthey held.\n\nthe miracles\nyou walk in\nare the easiest\nto miss.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d7c39e",
+        "horizon": "#a29073",
+        "ground": "#a18c6e",
+        "overall": "#ae9b7b",
+        "accent": "#e6c89f"
+      }
+    },
+    {
+      "n": 28,
+      "file": "c-004-028.jpg",
+      "webSrc": "assets/choose-life/web/c-004-028.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-028.jpg",
+      "title": "the secret things",
+      "ref": "Deuteronomy 29:29",
+      "poem": "some things\nhe keeps.\n\nthe why.\nthe when.\nwhat's around the corner.\n\nand some things\nhe hands you,\nopen,\nplain as daylight.\n\ndon't spend your life\nat the locked box.\n\nlive\nby the lamp.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#322d28",
+        "horizon": "#2c251f",
+        "ground": "#604b31",
+        "overall": "#413528",
+        "accent": "#f6d28d"
+      }
+    },
+    {
+      "n": 29,
+      "file": "c-004-029.jpg",
+      "webSrc": "assets/choose-life/web/c-004-029.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-029.jpg",
+      "title": "very near",
+      "ref": "Deuteronomy 30:11-14",
+      "poem": "no one needs to climb\nto heaven for it.\n\nno one needs to sail\nacross the sea.\n\nit isn't too hard.\nit isn't too far.\n\nit's already here,\nin your mouth,\nin your heart.\n\nclose enough\nto do.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d9d1b2",
+        "horizon": "#c2b999",
+        "ground": "#877b5e",
+        "overall": "#b0a788",
+        "accent": "#e9dfbc"
+      }
+    },
+    {
+      "n": 30,
+      "file": "c-004-030.jpg",
+      "webSrc": "assets/choose-life/web/c-004-030.jpg",
+      "heroSrc": "assets/choose-life/hero/c-004-030.jpg",
+      "title": "choose",
+      "ref": "Deuteronomy 30:19-20",
+      "poem": "two roads,\nlaid out plain.\n\nGod doesn't hide\nwhich one he wants.\n\nchoose life.\n\nand then he tells you\nwhat life is:\n\nto love him,\nto hear him,\nto cling to him.\n\nfor he is\nyour life,\n\nand the length\nof your days.",
+      "part": 4,
+      "isScene": true,
+      "sceneKind": "two_roads",
+      "palette": {
+        "top": "#e6ddbe",
+        "horizon": "#a4a28b",
+        "ground": "#a1977c",
+        "overall": "#b3ad92",
+        "accent": "#f6eacc",
+        "kind": "two_roads"
+      }
+    },
+    {
+      "n": 31,
+      "file": "c-004-031.jpg",
+      "webSrc": "assets/choose-life/web/c-004-031.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-031.jpg",
+      "title": "he goes before you",
+      "ref": "Deuteronomy 31:6-8",
+      "poem": "Moses wasn't going.\n\nso he called Joshua\nin front of everyone\nand said:\n\nbe strong.\nbe courageous.\n\nnot because\nyou are.\n\nbecause the Lord\nis already\non the other side\nof the river,\n\ngoing ahead,\nnot leaving,\nnot letting go.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e5dac1",
+        "horizon": "#bab09b",
+        "ground": "#8b8674",
+        "overall": "#b4ac98",
+        "accent": "#fcf1d3"
+      }
+    },
+    {
+      "n": 32,
+      "file": "c-004-032.jpg",
+      "webSrc": "assets/choose-life/web/c-004-032.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-032.jpg",
+      "title": "like rain",
+      "ref": "Deuteronomy 32:1-2",
+      "poem": "he didn't want to pound it in.\n\nhe wanted his words\nto fall\nlike rain\n\non new grass,\nlike dew\nyou don't hear arrive\n\nbut find in the morning\nall over everything.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d6cbb2",
+        "horizon": "#c1b6a0",
+        "ground": "#9d9279",
+        "overall": "#baaf97",
+        "accent": "#e7ddc1"
+      }
+    },
+    {
+      "n": 33,
+      "file": "c-004-033.jpg",
+      "webSrc": "assets/choose-life/web/c-004-033.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-033.jpg",
+      "title": "the eagle",
+      "ref": "Deuteronomy 32:10-12",
+      "poem": "he found them\nin a howling waste\n\nand kept them\nas the apple of his eye.\n\nand then,\nlike an eagle,\n\nhe stirred up the nest.\n\nit felt like\nfalling.\n\nbut the wings\nwere already underneath,\n\nspread wide,\n\nand they were carried\non his feathers\nthe whole way home.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#dcc58b",
+        "horizon": "#ac9a76",
+        "ground": "#7a7362",
+        "overall": "#a69774",
+        "accent": "#f3d482"
+      }
+    },
+    {
+      "n": 34,
+      "file": "c-004-034.jpg",
+      "webSrc": "assets/choose-life/web/c-004-034.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-034.jpg",
+      "title": "underneath",
+      "ref": "Deuteronomy 33:26-27",
+      "poem": "above\nis the sky\nhe rides on to help you.\n\naround\nis the home\nyou live in, which is him.\n\nand when you can't hold on,\n\nunderneath:\narms\nthat don't get tired.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#b3a180",
+        "horizon": "#c3a976",
+        "ground": "#554834",
+        "overall": "#93805f",
+        "accent": "#f5da7a"
+      }
+    },
+    {
+      "n": 35,
+      "file": "c-004-035.jpg",
+      "webSrc": "assets/choose-life/web/c-004-035.jpg",
+      "heroSrc": "assets/choose-life/hero/c-004-035.jpg",
+      "title": "Nebo",
+      "ref": "Deuteronomy 34:1-4",
+      "poem": "he climbed up\nfrom the plains,\n\nand God\nshowed him everything:\n\nGilead to Dan,\nJudah to the sea,\nthe palms of Jericho.\n\nyou shall see it,\nGod said,\nwith your eyes.\n\nand Moses looked\nthe way you look\nat a promise\nyou know\nwill be kept.",
+      "part": 4,
+      "isScene": true,
+      "sceneKind": "nebo",
+      "palette": {
+        "top": "#ded1b2",
+        "horizon": "#cdc1a4",
+        "ground": "#908167",
+        "overall": "#b7aa8e",
+        "accent": "#f5eacd",
+        "kind": "nebo"
+      }
+    },
+    {
+      "n": 36,
+      "file": "c-004-036.jpg",
+      "webSrc": "assets/choose-life/web/c-004-036.jpg",
+      "heroSrc": "assets/choose-life/web/c-004-036.jpg",
+      "title": "no one knows where",
+      "ref": "Deuteronomy 34:5-7",
+      "poem": "a hundred and twenty years,\nhis eyes still clear.\n\nand he died\naccording to the word,\nthere in Moab.\n\nand it seems God himself\nburied him.\n\nno stone.\nno shrine.\nno place to go and stand.\n\nonly the words\nhe left behind,\n\nand the people\nwalking on without him,\n\ntoward the land\nhe'd seen.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#bca5a7",
+        "horizon": "#b4a09a",
+        "ground": "#4c4740",
+        "overall": "#8e7f7a",
+        "accent": "#f7d8b0"
+      }
+    }
+  ]
+}

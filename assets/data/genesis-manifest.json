@@ -1,0 +1,806 @@
+{
+  "slug": "genesis",
+  "title": "In the Beginning",
+  "subtitle": "Genesis in Poems & Pictures",
+  "beforeYouBegin": "Genesis runs from the first light to a coffin in Egypt: a garden, a flood, a family that God promises to bless, and the long, tangled story of how he keeps that promise through liars, wrestlers, and brothers who sold their brother.\n\nThis book walks through it in forty short poems, in four parts. Each poem sits beside a picture and under a single line of Scripture. It doesn't cover every chapter; it stops at the moments that carry the story.\n\nThe poems are not the Bible. They are one reader's response to it. Open Genesis alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "title": "Part One \u00b7 In the Beginning",
+      "epigraph": "In the beginning, God created the heavens and the earth.",
+      "epigraphRef": "GENESIS 1:1",
+      "startN": 1,
+      "endN": 12
+    },
+    {
+      "index": 2,
+      "title": "Part Two \u00b7 The Friend of God",
+      "epigraph": "Go to the land that I will show you.",
+      "epigraphRef": "GENESIS 12:1",
+      "startN": 13,
+      "endN": 20
+    },
+    {
+      "index": 3,
+      "title": "Part Three \u00b7 Wrestling",
+      "epigraph": "Your name will no longer be called Jacob, but Israel",
+      "epigraphRef": "GENESIS 32:28",
+      "startN": 21,
+      "endN": 27
+    },
+    {
+      "index": 4,
+      "title": "Part Four \u00b7 God Meant It for Good",
+      "epigraph": "You meant evil against me, but God meant it for good",
+      "epigraphRef": "GENESIS 50:20",
+      "startN": 28,
+      "endN": 40
+    }
+  ],
+  "cover": "assets/genesis/web/g-001-000.jpg",
+  "paintings": [
+    {
+      "n": 1,
+      "file": "g-010-001.png",
+      "webSrc": "assets/genesis/web/g-010-001.jpg",
+      "heroSrc": "assets/genesis/hero/g-010-001.png",
+      "title": "let there be",
+      "ref": "Genesis 1:1-3",
+      "poem": "before anything,\na voice\nover dark water.\nno struggle.\nno battle with the deep.\njust a sentence\u2014\nand light\ndid what it was told,\nand has been doing it\nevery morning since.",
+      "part": 1,
+      "isScene": true,
+      "sceneKind": "light",
+      "palette": {
+        "top": "#312f2b",
+        "horizon": "#88765c",
+        "ground": "#504232",
+        "overall": "#584d3e",
+        "accent": "#dbb87b",
+        "kind": "light"
+      }
+    },
+    {
+      "n": 2,
+      "file": "g-012-002.png",
+      "webSrc": "assets/genesis/web/g-012-002.jpg",
+      "heroSrc": "assets/genesis/web/g-012-002.jpg",
+      "title": "very good",
+      "ref": "Genesis 1:31",
+      "poem": "six times he stepped back\nand said: good.\nthe light. the land.\nthe seas and the seeds.\nthe lights in the sky.\nthe swimmers and the fliers.\nthe cattle and the creeping things.\nand at the end,\nlooking at all of it,\nwith us in it:\nvery good.\nremember that\non the days\nyou forget it.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d3c5a6",
+        "horizon": "#a99e81",
+        "ground": "#8a7d61",
+        "overall": "#a89b7d",
+        "accent": "#f6e9b4"
+      }
+    },
+    {
+      "n": 3,
+      "file": "g-014-003.png",
+      "webSrc": "assets/genesis/web/g-014-003.jpg",
+      "heroSrc": "assets/genesis/web/g-014-003.jpg",
+      "title": "the gallery",
+      "ref": "Genesis 1:27",
+      "poem": "every face you pass today\nwas made to look like someone.\nnot like a king.\nnot like a statue in a temple.\nlike God.\nthe beggar and the boss,\nthe man and the woman,\nthe neighbor you avoid\u2014\nyou are walking\nthrough a gallery\nof his image.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#b7ac92",
+        "horizon": "#aca187",
+        "ground": "#8c7a5d",
+        "overall": "#a29479",
+        "accent": "#f9e6bc"
+      }
+    },
+    {
+      "n": 4,
+      "file": "g-016-004.png",
+      "webSrc": "assets/genesis/web/g-016-004.jpg",
+      "heroSrc": "assets/genesis/hero/g-016-004.png",
+      "title": "the seventh day",
+      "ref": "Genesis 2:1-3",
+      "poem": "he finished,\nand then he stopped.\nnot because he was tired.\nbecause rest\nwas part of the making.\nthe first thing God called holy\nwasn't a place.\nit was a day\nwith nothing to do.",
+      "part": 1,
+      "isScene": true,
+      "sceneKind": "garden",
+      "palette": {
+        "top": "#b79d7e",
+        "horizon": "#b69375",
+        "ground": "#686050",
+        "overall": "#948067",
+        "accent": "#d9b08b",
+        "kind": "garden"
+      }
+    },
+    {
+      "n": 5,
+      "file": "g-018-005.png",
+      "webSrc": "assets/genesis/web/g-018-005.jpg",
+      "heroSrc": "assets/genesis/web/g-018-005.jpg",
+      "title": "dust and breath",
+      "ref": "Genesis 2:7",
+      "poem": "his name is a play on words:\nAdam,\nfrom adamah,\nthe ground.\nwe are dirt\nthat God leaned close to\nand breathed on.\nso be humble\u2014\nyou're dust.\nand be amazed\u2014\nyou're breathed.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cbbb99",
+        "horizon": "#ceba94",
+        "ground": "#856541",
+        "overall": "#b39a76",
+        "accent": "#e6d1a6"
+      }
+    },
+    {
+      "n": 6,
+      "file": "g-020-006.png",
+      "webSrc": "assets/genesis/web/g-020-006.jpg",
+      "heroSrc": "assets/genesis/web/g-020-006.jpg",
+      "title": "not good",
+      "ref": "Genesis 2:18",
+      "poem": "everything was good,\nuntil God noticed\none thing that wasn't.\nnot sin. not yet.\njust a man\nwith no one beside him.\nthe first \"not good\"\nin the Bible\nis loneliness.\nGod took it seriously.\nso should we.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c6b998",
+        "horizon": "#bdb08b",
+        "ground": "#a69470",
+        "overall": "#bbac88",
+        "accent": "#fae8ba"
+      }
+    },
+    {
+      "n": 7,
+      "file": "g-022-007.png",
+      "webSrc": "assets/genesis/web/g-022-007.jpg",
+      "heroSrc": "assets/genesis/web/g-022-007.jpg",
+      "title": "where are you?",
+      "ref": "Genesis 3:8-9",
+      "poem": "he knew where they were.\nthe question wasn't for him.\nit was for them\u2014\ncrouched among the trees,\nsewing leaves,\nashamed of their own skin.\nwhere are you?\nnot a hunter's shout.\na father's call\nat evening,\nwalking the garden\nthe way he always did.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#55564e",
+        "horizon": "#8b826c",
+        "ground": "#696152",
+        "overall": "#6f695a",
+        "accent": "#e6c9a4"
+      }
+    },
+    {
+      "n": 8,
+      "file": "g-024-008.png",
+      "webSrc": "assets/genesis/web/g-024-008.jpg",
+      "heroSrc": "assets/genesis/web/g-024-008.jpg",
+      "title": "clothed",
+      "ref": "Genesis 3:21",
+      "poem": "there were consequences\u2014\nthorns, sweat,\nthe long road out.\nbut before they left,\nGod knelt\nand made them clothes.\ntheirfig leaves\nweren't enough.\nhis mercy\nwas.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e4d4b0",
+        "horizon": "#cac0a5",
+        "ground": "#9b896a",
+        "overall": "#beae8e",
+        "accent": "#f1e4c3"
+      }
+    },
+    {
+      "n": 9,
+      "file": "g-026-009.png",
+      "webSrc": "assets/genesis/web/g-026-009.jpg",
+      "heroSrc": "assets/genesis/web/g-026-009.jpg",
+      "title": "keeper",
+      "ref": "Genesis 4:9-10",
+      "poem": "the first question was:\nwhere are you?\nthe second:\nwhere is your brother?\nCain shrugged.\nam I supposed to keep track of him?\nyes.\nthat is exactly\nwhat you were for.\nand the ground itself\nwould not stay quiet.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#ddcba6",
+        "horizon": "#bbaa8c",
+        "ground": "#5f503f",
+        "overall": "#9f8f73",
+        "accent": "#f4dcaf"
+      }
+    },
+    {
+      "n": 10,
+      "file": "g-028-010.png",
+      "webSrc": "assets/genesis/web/g-028-010.jpg",
+      "heroSrc": "assets/genesis/web/g-028-010.jpg",
+      "title": "one green leaf",
+      "ref": "Genesis 8:6-11",
+      "poem": "the first time, she came back\nwith nothing.\nthe second time, at evening,\na leaf.\nfresh. green.\ntorn from a living tree.\nthat's all.\nnot the end of the flood\u2014\nproof that it was ending.\nsometimes hope\nis one small green thing\ncarried a long way.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cdba95",
+        "horizon": "#ad9c7b",
+        "ground": "#706550",
+        "overall": "#a19274",
+        "accent": "#f0d292"
+      }
+    },
+    {
+      "n": 11,
+      "file": "g-030-011.png",
+      "webSrc": "assets/genesis/web/g-030-011.jpg",
+      "heroSrc": "assets/genesis/hero/g-030-011.png",
+      "title": "the bow in the cloud",
+      "ref": "Genesis 9:13-15",
+      "poem": "a warrior's bow,\nhung up\nin the clouds.\nand God said:\nwhen I see it,\nI will remember.\nnot you\u2014\nI.\nthe promise doesn't depend\non your memory.\nit hangs on his.",
+      "part": 1,
+      "isScene": true,
+      "sceneKind": "bow",
+      "palette": {
+        "top": "#c5baa4",
+        "horizon": "#cfc3ac",
+        "ground": "#645844",
+        "overall": "#aa9f89",
+        "accent": "#efe3cb",
+        "kind": "bow"
+      }
+    },
+    {
+      "n": 12,
+      "file": "g-032-012.png",
+      "webSrc": "assets/genesis/web/g-032-012.jpg",
+      "heroSrc": "assets/genesis/web/g-032-012.jpg",
+      "title": "a name for ourselves",
+      "ref": "Genesis 11:1-9",
+      "poem": "come, let's build.\nlet's reach the sky.\nlet's make a name\u2014\nthe oldest plan in the world.\nthey wanted height.\nGod wanted them spread across the earth.\na chapter later,\nhe calls one man\nand says:\nI will make your name great.\nthe name you build\nfalls.\nthe name you're given\nstands.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d1bf9b",
+        "horizon": "#bbab87",
+        "ground": "#897552",
+        "overall": "#ad9a77",
+        "accent": "#f4e3bc"
+      }
+    },
+    {
+      "n": 13,
+      "file": "g-036-013.png",
+      "webSrc": "assets/genesis/web/g-036-013.jpg",
+      "heroSrc": "assets/genesis/web/g-036-013.jpg",
+      "title": "go",
+      "ref": "Genesis 12:1-4",
+      "poem": "leave.\nyour country.\nyour family.\nyour father's house.\ngo.\nwhere?\nI'll show you.\nno map,\nonly a voice\u2014\nand a seventy- five-year-old man\npacks his tents.\nfaith often starts\nwith not knowing\nwhere.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d4c19b",
+        "horizon": "#9e8e6d",
+        "ground": "#756649",
+        "overall": "#9d8d6b",
+        "accent": "#f4d893"
+      }
+    },
+    {
+      "n": 14,
+      "file": "g-038-014.png",
+      "webSrc": "assets/genesis/web/g-038-014.jpg",
+      "heroSrc": "assets/genesis/web/g-038-014.jpg",
+      "title": "count them",
+      "ref": "Genesis 15:5-6",
+      "poem": "he was old,\nand had no son,\nand God took him outside\nand said: look up.\ncount them.\nhe couldn't.\nthat was the point.\nand he believed\u2014\nand God counted that\nas righteousness.\nthe first thing faith does\nis step outside\nand look up.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#6a675b",
+        "horizon": "#686355",
+        "ground": "#564c39",
+        "overall": "#605a4b",
+        "accent": "#a4977e"
+      }
+    },
+    {
+      "n": 15,
+      "file": "g-040-015.png",
+      "webSrc": "assets/genesis/web/g-040-015.jpg",
+      "heroSrc": "assets/genesis/web/g-040-015.jpg",
+      "title": "the God who sees",
+      "ref": "Genesis 16:7-13",
+      "poem": "Hagar\u2014\na slave, a foreigner,\npregnant, mistreated,\nrun away into the desert.\nnobody's first choice.\nand God found her by a spring\nand called her by name.\nand she gave God a name\nno one had given him before:\nthe God who sees.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cabea2",
+        "horizon": "#948362",
+        "ground": "#756d59",
+        "overall": "#8f836a",
+        "accent": "#f1e4c5"
+      }
+    },
+    {
+      "n": 16,
+      "file": "g-042-016.png",
+      "webSrc": "assets/genesis/web/g-042-016.jpg",
+      "heroSrc": "assets/genesis/web/g-042-016.jpg",
+      "title": "too hard",
+      "ref": "Genesis 18:10-14",
+      "poem": "she laughed\ninside the tent,\nthe way you laugh\nat a promise that's come too late.\nold.\nworn out.\ndone hoping.\nand a voice outside asked:\nis anything too hard for the Lord?\nthat question is still standing\nin the doorway\nof every tent\nwhere someone stopped hoping.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#938266",
+        "horizon": "#948066",
+        "ground": "#937f63",
+        "overall": "#917f64",
+        "accent": "#ead1ac"
+      }
+    },
+    {
+      "n": 17,
+      "file": "g-044-017.png",
+      "webSrc": "assets/genesis/web/g-044-017.jpg",
+      "heroSrc": "assets/genesis/web/g-044-017.jpg",
+      "title": "laughter",
+      "ref": "Genesis 21:1-7",
+      "poem": "she named him Laughter\u2014\nIsaac.\nthe same laugh\nthat once meant\nI don't believe it\nnow means\nI can't believe it.\nGod doesn't scold her.\nhe gives her a son\nand a better reason\nto laugh.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d7bd93",
+        "horizon": "#958266",
+        "ground": "#715f47",
+        "overall": "#978466",
+        "accent": "#f7dc97"
+      }
+    },
+    {
+      "n": 18,
+      "file": "g-046-018.png",
+      "webSrc": "assets/genesis/web/g-046-018.jpg",
+      "heroSrc": "assets/genesis/web/g-046-018.jpg",
+      "title": "the Lord will provide",
+      "ref": "Genesis 22:7-14",
+      "poem": "where is the lamb, father?\nGod will provide, my son.\nand they walked on,\nthe two of them together,\nup the mountain.\nthis is the hardest chapter\nin the book,\nand the story tells it\nin a hush.\nbut it ends\nwith a ram in the thicket\nand a new name for the mountain:\nthe Lord will provide.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d9c8a4",
+        "horizon": "#96896e",
+        "ground": "#a09378",
+        "overall": "#ab9d7f",
+        "accent": "#f3da9d"
+      }
+    },
+    {
+      "n": 19,
+      "file": "g-048-019.png",
+      "webSrc": "assets/genesis/web/g-048-019.jpg",
+      "heroSrc": "assets/genesis/web/g-048-019.jpg",
+      "title": "the camels too",
+      "ref": "Genesis 24:15-20",
+      "poem": "a stranger asked for a drink.\nshe gave it.\nthen she said:\nI'll water your camels too\u2014\nten thirsty camels,\njar after jar\nfrom the well.\nthe servant had prayed for a sign.\nhe got a young woman\nwho did more\nthan she was asked.\nthat is often\nhow God answers:\nthrough someone's\ngenerous hands.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#ddc392",
+        "horizon": "#685c47",
+        "ground": "#6a5b43",
+        "overall": "#8d7b5b",
+        "accent": "#f4d494"
+      }
+    },
+    {
+      "n": 20,
+      "file": "g-050-020.png",
+      "webSrc": "assets/genesis/web/g-050-020.jpg",
+      "heroSrc": "assets/genesis/web/g-050-020.jpg",
+      "title": "full of years",
+      "ref": "Genesis 25:7-8",
+      "poem": "he left home at seventy- five\non a promise.\nhe did not see\nthe nation,\nthe land,\nthe stars made good.\nhe saw one son,\na burial cave,\nand a lifetime of God\nkeeping his word\na little at a time.\nand he died\nfull of years.\nnot empty.\nfull.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#bfac89",
+        "horizon": "#6e6045",
+        "ground": "#786a51",
+        "overall": "#88785c",
+        "accent": "#f1b857"
+      }
+    },
+    {
+      "n": 21,
+      "file": "g-054-021.png",
+      "webSrc": "assets/genesis/web/g-054-021.jpg",
+      "heroSrc": "assets/genesis/web/g-054-021.jpg",
+      "title": "red stew",
+      "ref": "Genesis 25:29-34",
+      "poem": "he came in starving\nand traded his future\nfor a bowl of red stew.\nit tasted good.\nit was gone in minutes.\ndon't laugh at Esau too quickly.\nwe all have a bowl\nwe'd sell tomorrow\nfor tonight.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e1d5b5",
+        "horizon": "#b7a989",
+        "ground": "#ab9b78",
+        "overall": "#bfae8c",
+        "accent": "#f2e7ca"
+      }
+    },
+    {
+      "n": 22,
+      "file": "g-056-022.png",
+      "webSrc": "assets/genesis/web/g-056-022.jpg",
+      "heroSrc": "assets/genesis/web/g-056-022.jpg",
+      "title": "the stairway",
+      "ref": "Genesis 28:10-15",
+      "poem": "he was running\nfrom a brother he had cheated,\nsleeping on the ground\nwith a stone for a pillow.\nand heaven\ncame down a stairway\nto meet him there.\nnot because he had earned it.\nbecause God had promised,\nand does not wait\nfor us to deserve it.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#65655f",
+        "horizon": "#5a5a55",
+        "ground": "#504637",
+        "overall": "#56534a",
+        "accent": "#e8d9b5"
+      }
+    },
+    {
+      "n": 23,
+      "file": "g-058-023.png",
+      "webSrc": "assets/genesis/web/g-058-023.jpg",
+      "heroSrc": "assets/genesis/web/g-058-023.jpg",
+      "title": "I didn't know it",
+      "ref": "Genesis 28:16-18",
+      "poem": "God was here,\nand I didn't know it.\nmaybe the most honest sentence\nanyone ever said\nwaking up.\nso he set up the stone\nand poured oil on it\nto remember:\nthe lonely place,\nthe hard ground,\nthe night I ran\u2014\nGod was here.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d9caa7",
+        "horizon": "#a29578",
+        "ground": "#8e7f62",
+        "overall": "#a89a7c",
+        "accent": "#ebdbaf"
+      }
+    },
+    {
+      "n": 24,
+      "file": "g-060-024.png",
+      "webSrc": "assets/genesis/web/g-060-024.jpg",
+      "heroSrc": "assets/genesis/web/g-060-024.jpg",
+      "title": "a few days",
+      "ref": "Genesis 29:18-20",
+      "poem": "seven years of work\nfor Rachel.\nand the book says\nthey went by\nlike a few days.\nlove does strange things\nto the clock.\nthe story after this\nis not simple.\nthe book won't pretend it is.\nbut this line\nis true.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#deccae",
+        "horizon": "#b29f86",
+        "ground": "#716751",
+        "overall": "#a6967d",
+        "accent": "#f5ecd8"
+      }
+    },
+    {
+      "n": 25,
+      "file": "g-062-025.png",
+      "webSrc": "assets/genesis/web/g-062-025.jpg",
+      "heroSrc": "assets/genesis/web/g-062-025.jpg",
+      "title": "until the day breaks",
+      "ref": "Genesis 32:24-26",
+      "poem": "alone at the river,\nat night,\nsomeone takes hold of him,\nand he fights back\ntill dawn.\nhe's wrestled all his life\u2014\nhis brother, his father,\nhis uncle, his fear.\nnow he wrestles God\nand won't let go:\nnot until you bless me.\nit is the most Jacob thing\nhe ever said,\nand the most faithful.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e0cfb4",
+        "horizon": "#676157",
+        "ground": "#776c5e",
+        "overall": "#918676",
+        "accent": "#eec7ae"
+      }
+    },
+    {
+      "n": 26,
+      "file": "g-064-026.png",
+      "webSrc": "assets/genesis/web/g-064-026.jpg",
+      "heroSrc": "assets/genesis/web/g-064-026.jpg",
+      "title": "the limp",
+      "ref": "Genesis 32:30-31",
+      "poem": "he walked away\nblessed\nand limping.\na new name.\na new way of walking.\nsome blessings\ncome with a limp,\nso you never forget\nwho you met\nby the river.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d3c3a0",
+        "horizon": "#cdb991",
+        "ground": "#706453",
+        "overall": "#aa9b7d",
+        "accent": "#fce5a4"
+      }
+    },
+    {
+      "n": 27,
+      "file": "g-066-027.png",
+      "webSrc": "assets/genesis/web/g-066-027.jpg",
+      "heroSrc": "assets/genesis/web/g-066-027.jpg",
+      "title": "Esau ran",
+      "ref": "Genesis 33:1-4",
+      "poem": "twenty years of dread.\nfour hundred men coming.\ngifts sent ahead in waves.\nand then\u2014\nEsau ran.\nnot to fight.\nto hold him.\nthe thing you feared most\nmay be running toward you\nwith open arms.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cec2a7",
+        "horizon": "#c0b193",
+        "ground": "#756955",
+        "overall": "#a3967e",
+        "accent": "#f5e1b4"
+      }
+    },
+    {
+      "n": 28,
+      "file": "g-070-028.png",
+      "webSrc": "assets/genesis/web/g-070-028.jpg",
+      "heroSrc": "assets/genesis/web/g-070-028.jpg",
+      "title": "the coat",
+      "ref": "Genesis 37:3-4",
+      "poem": "a father's favorite,\nand everyone knew it.\nthe coat said so\nevery time he wore it.\nlove is good.\nfavoritism\ntears a family\nlike cloth.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cebe9e",
+        "horizon": "#786b57",
+        "ground": "#958165",
+        "overall": "#9a896f",
+        "accent": "#decfab"
+      }
+    },
+    {
+      "n": 29,
+      "file": "g-072-029.png",
+      "webSrc": "assets/genesis/web/g-072-029.jpg",
+      "heroSrc": "assets/genesis/web/g-072-029.jpg",
+      "title": "the empty pit",
+      "ref": "Genesis 37:23-25",
+      "poem": "no water in it.\nno way out.\nseventeen,\nand his brothers sit down to eat\non the rim.\nthis is where\nthe dream seems to die.\nit doesn't.\nit is going down\nthe way seeds go down.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#736d61",
+        "horizon": "#7c7260",
+        "ground": "#474036",
+        "overall": "#655e51",
+        "accent": "#eee7d6"
+      }
+    },
+    {
+      "n": 30,
+      "file": "g-074-030.png",
+      "webSrc": "assets/genesis/web/g-074-030.jpg",
+      "heroSrc": "assets/genesis/web/g-074-030.jpg",
+      "title": "the refrain",
+      "ref": "Genesis 39:2-23",
+      "poem": "sold as a slave:\nthe Lord was with Joseph.\nfalsely accused:\nthe Lord was with Joseph.\nthrown in prison:\nthe Lord was with Joseph.\nthe chapter keeps saying it,\nlike a drumbeat\nunder the worst years of his life.\nthe circumstances change.\nthe refrain\ndoesn't.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c5b79b",
+        "horizon": "#9f8f6f",
+        "ground": "#958466",
+        "overall": "#a69577",
+        "accent": "#d7c09a"
+      }
+    },
+    {
+      "n": 31,
+      "file": "g-076-031.png",
+      "webSrc": "assets/genesis/web/g-076-031.jpg",
+      "heroSrc": "assets/genesis/web/g-076-031.jpg",
+      "title": "forgotten",
+      "ref": "Genesis 40:14-23",
+      "poem": "remember me, Joseph said,\nwhen it goes well for you.\nand it went well for him.\nand he forgot.\ntwo more years\nin the dark.\nif you've been forgotten\nby someone who promised,\nyou are not forgotten\nby the One who did.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#534a3d",
+        "horizon": "#51483c",
+        "ground": "#5d5345",
+        "overall": "#544b3e",
+        "accent": "#f0e0c0"
+      }
+    },
+    {
+      "n": 32,
+      "file": "g-078-032.png",
+      "webSrc": "assets/genesis/web/g-078-032.jpg",
+      "heroSrc": "assets/genesis/web/g-078-032.jpg",
+      "title": "not in me",
+      "ref": "Genesis 41:14-16",
+      "poem": "shaved, dressed,\npulled from the prison,\nhe stands before the king of Egypt,\nwho says:\nI hear you can interpret dreams.\nit's his big chance.\nand his first words are:\nit isn't in me.\nthe most useful people God has\nare the ones\nwho know\nwhere the gift came from.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#857861",
+        "horizon": "#b3a88f",
+        "ground": "#857f70",
+        "overall": "#938975",
+        "accent": "#f1e3c9"
+      }
+    },
+    {
+      "n": 33,
+      "file": "g-080-033.png",
+      "webSrc": "assets/genesis/web/g-080-033.jpg",
+      "heroSrc": "assets/genesis/web/g-080-033.jpg",
+      "title": "faces to the earth",
+      "ref": "Genesis 42:6-8",
+      "poem": "they came for grain\nand bowed to the governor\nwith their faces in the dust.\nthey didn't know him.\nhe knew them.\nthe dream from the field,\nthe sheaves bowing down\u2014\ncome true\nin a way\nnobody wanted anymore.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#766958",
+        "horizon": "#8e7d67",
+        "ground": "#655846",
+        "overall": "#786a57",
+        "accent": "#f7efe0"
+      }
+    },
+    {
+      "n": 34,
+      "file": "g-082-034.png",
+      "webSrc": "assets/genesis/web/g-082-034.jpg",
+      "heroSrc": "assets/genesis/web/g-082-034.jpg",
+      "title": "instead of the boy",
+      "ref": "Genesis 44:30-34",
+      "poem": "Judah\u2014\nthe brother who once said\nlet's sell him\u2014\nnow says:\ntake me instead.\nlet the boy go home.\nit would kill our father.\nthat's how Joseph knew\nthey had changed.\na man who once sold a brother\nnow offers himself\nfor one.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c9bda3",
+        "horizon": "#8b7f66",
+        "ground": "#b2a385",
+        "overall": "#aa9d81",
+        "accent": "#dacdaf"
+      }
+    },
+    {
+      "n": 35,
+      "file": "g-084-035.png",
+      "webSrc": "assets/genesis/web/g-084-035.jpg",
+      "heroSrc": "assets/genesis/web/g-084-035.jpg",
+      "title": "come near",
+      "ref": "Genesis 45:1-4",
+      "poem": "he sent everyone out\nand wept so loud\nthe Egyptians heard it.\nI am Joseph.\nand they couldn't speak.\nthen the gentlest words\nin the whole long story:\ncome near to me.\nplease.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#726855",
+        "horizon": "#7c6f55",
+        "ground": "#827455",
+        "overall": "#7b6e54",
+        "accent": "#fcd880"
+      }
+    },
+    {
+      "n": 36,
+      "file": "g-086-036.png",
+      "webSrc": "assets/genesis/web/g-086-036.jpg",
+      "heroSrc": "assets/genesis/web/g-086-036.jpg",
+      "title": "sent",
+      "ref": "Genesis 45:5-8",
+      "poem": "don't be angry with yourselves,\nhe said.\nyou sold me.\nGod sent me.\nboth are true.\nhe doesn't pretend\nthe first one didn't happen.\nhe just refuses\nto let it be\nthe whole story.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c0b08c",
+        "horizon": "#9e8e6c",
+        "ground": "#8d7d5d",
+        "overall": "#a0906f",
+        "accent": "#e5c277"
+      }
+    },
+    {
+      "n": 37,
+      "file": "g-088-037.png",
+      "webSrc": "assets/genesis/web/g-088-037.jpg",
+      "heroSrc": "assets/genesis/web/g-088-037.jpg",
+      "title": "the wagons",
+      "ref": "Genesis 45:25-28",
+      "poem": "Joseph is alive, they said,\nand the old man\ndidn't believe them.\nthen he saw the wagons.\nsometimes it isn't the words\nthat raise a heart.\nit's the wagons\u2014\nproof you can touch\nthat someone\nis coming to carry you.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#dcceac",
+        "horizon": "#787260",
+        "ground": "#6a604b",
+        "overall": "#90856d",
+        "accent": "#eed9a9"
+      }
+    },
+    {
+      "n": 38,
+      "file": "g-090-038.png",
+      "webSrc": "assets/genesis/web/g-090-038.jpg",
+      "heroSrc": "assets/genesis/web/g-090-038.jpg",
+      "title": "a good while",
+      "ref": "Genesis 46:28-30",
+      "poem": "twenty-two years.\na chariot racing up from Egypt,\nan old man leaning on his staff,\nand the book, usually so brisk,\nslows down:\nhe wept on his neck\na good while.\nsome reunions\nyou don't hurry.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e1d4af",
+        "horizon": "#a99e79",
+        "ground": "#8b7e5d",
+        "overall": "#a99d7a",
+        "accent": "#f8ecc4"
+      }
+    },
+    {
+      "n": 39,
+      "file": "g-092-039.png",
+      "webSrc": "assets/genesis/web/g-092-039.jpg",
+      "heroSrc": "assets/genesis/web/g-092-039.jpg",
+      "title": "underneath",
+      "ref": "Genesis 50:15-21",
+      "poem": "you meant it for evil.\nGod meant it for good.\nnot: it wasn't evil.\nnot: it didn't hurt.\nbut underneath the worst thing\nanyone ever did to him,\nanother hand\nwas working\nthe whole time.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#dcd1b6",
+        "horizon": "#dad0b8",
+        "ground": "#97815f",
+        "overall": "#c2b397",
+        "accent": "#f1e4c2"
+      }
+    },
+    {
+      "n": 40,
+      "file": "g-094-040.png",
+      "webSrc": "assets/genesis/web/g-094-040.jpg",
+      "heroSrc": "assets/genesis/web/g-094-040.jpg",
+      "title": "the road home",
+      "ref": "Genesis 50:24-26",
+      "poem": "the book that began\nwith light and a garden\nends\nwith a coffin in Egypt.\nbut not with despair.\nJoseph's last words:\nGod will surely come for you.\ntake my bones with you\nwhen you go.\nGenesis ends\nwith a promise,\nand bones ready\nfor the road home.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e8cfa5",
+        "horizon": "#b79f7f",
+        "ground": "#6b6757",
+        "overall": "#a7977a",
+        "accent": "#facd93"
+      }
+    }
+  ]
+}

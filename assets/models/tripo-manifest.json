@@ -1,0 +1,151 @@
+{
+  "monthlyCreditBudget": 200,
+  "maxMonthlyModels": 13,
+  "studioUrl": "https://studio.tripo3d.ai/",
+  "instructions": "Upload the reference painting from Timothy Holt's book into Tripo3D Studio (Image-to-3D) or paste the Text-to-3D prompt. Export as .glb and save into assets/models/<id>.glb. The Pilgrim Walk engine automatically detects the .glb file, applies the painterly oil-on-linen shader, and swaps it into the 3D world.",
+  "models": [
+    {
+      "slot": 1,
+      "id": "pilgrim-lantern",
+      "file": "assets/models/pilgrim-lantern.glb",
+      "title": "The Pilgrim’s Brass & Parchment Lantern",
+      "district": "Gatehouse & All Streets",
+      "paintingRef": "assets/genesis/web/g-001-001.jpg",
+      "targetScale": 0.65,
+      "imageTo3DTip": "Use Text-to-3D prompt below for an antique Near-Eastern oil lantern.",
+      "textPrompt": "Handcrafted ancient Near-Eastern hammered brass and warm oiled parchment pilgrim lantern, warm glowing oil flame inside, painterly oil-on-linen texture, no modern glass, warm ochre and bronze patina"
+    },
+    {
+      "slot": 2,
+      "id": "sabbath-olive-tree",
+      "file": "assets/models/sabbath-olive-tree.glb",
+      "title": "Ancient Gnarled Sabbath Olive Tree",
+      "district": "District I · Genesis (No. 4 “the seventh day”)",
+      "paintingRef": "assets/genesis/web/g-001-004.jpg",
+      "targetScale": 5.2,
+      "imageTo3DTip": "Upload g-001-004.jpg (or use Text-to-3D) to generate the gnarled olive tree trunk and canopy.",
+      "textPrompt": "Ancient Mediterranean gnarled olive tree with twisted limestone-colored bark and warm sage-green painterly foliage canopy, classical oil painting texture, warm golden-hour lighting"
+    },
+    {
+      "slot": 3,
+      "id": "noah-stone-altar",
+      "file": "assets/models/noah-stone-altar.glb",
+      "title": "Uncut Fieldstone Covenant Altar",
+      "district": "District I · Genesis (No. 11 “the bow in the cloud”)",
+      "paintingRef": "assets/genesis/web/g-001-011.jpg",
+      "targetScale": 2.4,
+      "imageTo3DTip": "Upload g-001-011.jpg into Tripo3D Image-to-3D for the exact stacked stone altar.",
+      "textPrompt": "Biblical stacked uncut limestone fieldstone altar on a hillside, warm glowing embers and charred olive wood on top, painterly oil-on-canvas texture, earthy ochre and sienna tones"
+    },
+    {
+      "slot": 4,
+      "id": "joseph-coffin-chest",
+      "file": "assets/models/joseph-coffin-chest.glb",
+      "title": "Carved Cedar Chest of Joseph’s Bones",
+      "district": "District I · Genesis (No. 40) & District V · Joshua (No. 20)",
+      "paintingRef": "assets/joshua-judges/web/j-005-020.jpg",
+      "targetScale": 1.65,
+      "imageTo3DTip": "Upload j-005-020.jpg directly into Tripo3D Image-to-3D—the wooden chest in front of the Shechem tomb is a clean, isolated subject.",
+      "textPrompt": "Ancient weathered cedar and acacia wood burial chest with side carrying handles, hand-planed timber planks, warm umber oil painting brushwork"
+    },
+    {
+      "slot": 5,
+      "id": "burning-bush-crag",
+      "file": "assets/models/burning-bush-crag.glb",
+      "title": "Thornbush of Horeb on Desert Stone",
+      "district": "District II · Exodus (No. 5 “turn aside”)",
+      "paintingRef": "assets/exodus/web/e-002-005.jpg",
+      "targetScale": 3.0,
+      "imageTo3DTip": "Upload e-002-005.jpg into Tripo3D Image-to-3D to capture the desert acacia bramble.",
+      "textPrompt": "Desert Sinai thorny acacia shrub rooted in weathered sandstone rock, glowing golden-amber interior branches, painterly oil brushwork"
+    },
+    {
+      "slot": 6,
+      "id": "sinai-stone-tablets",
+      "file": "assets/models/sinai-stone-tablets.glb",
+      "title": "Two Carved Stone Tablets of Sinai",
+      "district": "District II · Exodus (No. 25 “written with the finger of God”)",
+      "paintingRef": "assets/exodus/web/e-002-025.jpg",
+      "targetScale": 1.6,
+      "imageTo3DTip": "Upload e-002-025.jpg into Tripo3D Image-to-3D.",
+      "textPrompt": "Two ancient chiseled rough-hewn stone tablets with paleo-Hebrew carvings leaning on desert rock, warm sunlit sandstone, painterly impasto texture"
+    },
+    {
+      "slot": 7,
+      "id": "bronze-altar-horns",
+      "file": "assets/models/bronze-altar-horns.glb",
+      "title": "Horned Bronze Altar of Perpetual Fire",
+      "district": "District III · Fire by Night (No. 5 “kept burning”)",
+      "paintingRef": "assets/fire-by-night/web/f-003-005.jpg",
+      "targetScale": 2.4,
+      "imageTo3DTip": "Upload f-003-005.jpg into Tripo3D Image-to-3D.",
+      "textPrompt": "Ancient biblical tabernacle bronze altar with four corner horns and carrying rings, weathered hammered bronze patina, glowing embers in grate, oil painting style"
+    },
+    {
+      "slot": 8,
+      "id": "golden-menorah",
+      "file": "assets/models/golden-menorah.glb",
+      "title": "Seven-Branched Hammered Gold Lampstand",
+      "district": "District III · Fire by Night (No. 21 “keep You”)",
+      "paintingRef": "assets/fire-by-night/web/f-003-021.jpg",
+      "targetScale": 2.2,
+      "imageTo3DTip": "Upload f-003-021.jpg into Tripo3D Image-to-3D for the almond-blossom hammered gold lampstand.",
+      "textPrompt": "Biblical seven-branched hammered pure gold menorah lampstand shaped like almond blossoms and calyxes, warm antique gold impasto texture"
+    },
+    {
+      "slot": 9,
+      "id": "nehushtan-bronze-serpent",
+      "file": "assets/models/nehushtan-bronze-serpent.glb",
+      "title": "Bronze Serpent on the Wilderness Standard",
+      "district": "District III · Fire by Night (No. 33 “look and live”)",
+      "paintingRef": "assets/fire-by-night/web/f-003-033.jpg",
+      "targetScale": 3.8,
+      "imageTo3DTip": "Upload f-003-033.jpg into Tripo3D Image-to-3D.",
+      "textPrompt": "Hammered copper-bronze serpent coiled around a tall weathered wooden T-shaped desert standard pole, warm sunset metallic gleam, painterly texture"
+    },
+    {
+      "slot": 10,
+      "id": "shechem-witness-stone",
+      "file": "assets/models/shechem-witness-stone.glb",
+      "title": "Great Standing Stone of Witness",
+      "district": "District IV · Choose Life (No. 30) & District V · Joshua (No. 19)",
+      "paintingRef": "assets/joshua-judges/web/j-005-019.jpg",
+      "targetScale": 3.2,
+      "imageTo3DTip": "Upload j-005-019.jpg directly into Tripo3D Image-to-3D—the upright monolith under the oak is centered and crisp.",
+      "textPrompt": "Tall ancient weathered limestone standing stone monolith with dappled sunlight and fallen oak leaves at base, painterly oil-on-linen texture"
+    },
+    {
+      "slot": 11,
+      "id": "jericho-rams-horn-shofar",
+      "file": "assets/models/jericho-rams-horn-shofar.glb",
+      "title": "Carved Ram’s Horn Shofar of Jericho",
+      "district": "District V · Joshua & Judges (No. 10 “the wall fell down flat”)",
+      "paintingRef": "assets/joshua-judges/web/j-005-010.jpg",
+      "targetScale": 1.5,
+      "imageTo3DTip": "Upload j-005-010.jpg directly into Tripo3D Image-to-3D—the curved ram's horn resting on the fallen Jericho stones is a perfect 3D subject.",
+      "textPrompt": "Ancient curved ivory-and-amber ram's horn shofar trumpet with engraved bronze collar bands resting on limestone blocks, painterly oil texture"
+    },
+    {
+      "slot": 12,
+      "id": "gideon-broken-pitcher",
+      "file": "assets/models/gideon-broken-pitcher.glb",
+      "title": "Gideon’s Shattered Clay Pitcher & Torch",
+      "district": "District V · Joshua & Judges (No. 33 “torches in jars”)",
+      "paintingRef": "assets/joshua-judges/web/j-005-033.jpg",
+      "targetScale": 1.6,
+      "imageTo3DTip": "Upload j-005-033.jpg directly into Tripo3D Image-to-3D—the broken terracotta jar with fire and ram's horn is a centerpiece still-life.",
+      "textPrompt": "Broken ancient terracotta clay pitcher shards surrounding a glowing fire torch on rocky ground beside a coiled ram's horn, warm painterly oil texture"
+    },
+    {
+      "slot": 13,
+      "id": "ruth-kinsman-sandal",
+      "file": "assets/models/ruth-kinsman-sandal.glb",
+      "title": "The Kinsman-Redeemer’s Leather Sandal",
+      "district": "District VI · Ruth (No. 20 “the sandal”)",
+      "paintingRef": "assets/ruth/web/r-006-020.jpg",
+      "targetScale": 1.25,
+      "imageTo3DTip": "Upload r-006-020.jpg directly into Tripo3D Image-to-3D—the leather sandal on the stone step is an ideal single-object 3D model.",
+      "textPrompt": "Ancient biblical hand-stitched brown leather sandal with untied strap resting on a carved limestone step at the Bethlehem gate, warm oil painting texture"
+    }
+  ]
+}

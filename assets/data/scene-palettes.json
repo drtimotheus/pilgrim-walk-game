@@ -1,0 +1,26 @@
+{
+ "1": {
+  "kind": "light",
+  "top": "#312f2b",
+  "horizon": "#88765c",
+  "ground": "#504232",
+  "accent": "#dbb87b",
+  "overall": "#584d3e"
+ },
+ "4": {
+  "kind": "garden",
+  "top": "#b79d7e",
+  "horizon": "#b69375",
+  "ground": "#686050",
+  "accent": "#d9b08b",
+  "overall": "#948067"
+ },
+ "11": {
+  "kind": "bow",
+  "top": "#c5baa4",
+  "horizon": "#cfc3ac",
+  "ground": "#645844",
+  "accent": "#efe3cb",
+  "overall": "#aa9f89"
+ }
+}

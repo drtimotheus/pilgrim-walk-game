@@ -1,0 +1,502 @@
+{
+  "district": 6,
+  "slug": "ruth",
+  "title": "Where You Go",
+  "subtitle": "Ruth in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/ruth/web/r-006-000.jpg",
+  "beforeYouBegin": "Ruth is a short story about a famine, three funerals, a foreign widow, and a field of barley. By the last page, an empty house is full and a family line runs toward David. This book walks through its four chapters in twenty-four short poems. Each poem sits beside a picture and under a single line of Scripture.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Empty",
+      "epigraph": "I went out full, and Yahweh has brought me home again empty.",
+      "epigraphRef": "Ruth 1:21",
+      "lightName": "Light of the Bethlehem Road",
+      "lightHint": "Beside the stone milestone where two roads meet toward Bethlehem"
+    },
+    {
+      "part": 2,
+      "title": "Gleaning",
+      "epigraph": "Who has not abandoned his kindness to the living and to the dead.",
+      "epigraphRef": "Ruth 2:20",
+      "lightName": "Light of the Gleaner’s Field",
+      "lightHint": "Among the golden barley sheaves and the cool water jars"
+    },
+    {
+      "part": 3,
+      "title": "The Threshing Floor",
+      "epigraph": "Shall I not seek rest for you, that it may be well with you?",
+      "epigraphRef": "Ruth 3:1",
+      "lightName": "Light of the Sheltering Wing",
+      "lightHint": "By the winnowing floor where the mantle of refuge is spread"
+    },
+    {
+      "part": 4,
+      "title": "Redeemed",
+      "epigraph": "Blessed be Yahweh, who has not left you today without a near kinsman.",
+      "epigraphRef": "Ruth 4:14",
+      "lightName": "Light of the House of Bread",
+      "lightHint": "Near the town gate elders’ bench before the Finale Plaza"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "house of bread",
+      "ref": "Ruth 1:1",
+      "epigraph": "“there was a famine in the land”",
+      "poem": "it begins with an empty field\nin a town called House of Bread.\n\na man looks at the dust\nand makes the choice\nhungry men have always made:\n\nhe packs what he can carry,\ntakes his wife and two sons,\nand walks toward the bread\nhe can see.",
+      "webSrc": "assets/ruth/web/r-006-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3d8c2",
+        "horizon": "#aca28e",
+        "ground": "#b19e7d",
+        "overall": "#beb197",
+        "accent": "#ecdfc4"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "one breath",
+      "ref": "Ruth 1:3–5",
+      "epigraph": "“the woman was bereaved of her two children and of her husband”",
+      "poem": "first her husband.\nthen, ten years on,\nboth of her sons.\n\nthe text says it in one breath,\nthe way grief does—\ntoo heavy to linger on,\ntoo heavy to put down.\n\nshe is left\nwith two daughters-in-law,\na word for what she is now,\nand no word\nfor what comes next.",
+      "webSrc": "assets/ruth/web/r-006-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#9c8d78",
+        "horizon": "#6e6556",
+        "ground": "#746756",
+        "overall": "#7e7260",
+        "accent": "#f6dcb5"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "news from home",
+      "ref": "Ruth 1:6",
+      "epigraph": "“Yahweh had visited his people in giving them bread”",
+      "poem": "news travels even to Moab:\nthere is bread in Bethlehem again.\n\nno angel, no voice from heaven—\njust word from a traveler,\na harvest on the other side of the hills.\n\nsometimes this is how God visits:\nthrough ordinary news\nthat it is time\nto go home.",
+      "webSrc": "assets/ruth/web/r-006-003.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5dbc2",
+        "horizon": "#9f9985",
+        "ground": "#706550",
+        "overall": "#a19782",
+        "accent": "#f1e6cb"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "where you go",
+      "ref": "Ruth 1:14–17",
+      "epigraph": "“where you go, I will go; and where you stay, I will stay”",
+      "poem": "Orpah kissed her and went back.\nno one blames her.\nit was the sensible road.\n\nbut Ruth stayed—\n\nyour road, my road.\nyour roof, my roof.\nyour people, my people.\nyour God, my God.\n\nshe had nothing to gain\nand everything to lose,\nand she chose\nan old woman's empty hands.",
+      "webSrc": "assets/ruth/web/r-006-004.jpg",
+      "heroSrc": "assets/ruth/hero/r-006-004-hero.jpg",
+      "isScene": true,
+      "sceneType": "ruth_road",
+      "palette": {
+        "top": "#dfd2bb",
+        "horizon": "#94866d",
+        "ground": "#bcab8f",
+        "overall": "#b9a990",
+        "accent": "#ede1cb"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "call me bitter",
+      "ref": "Ruth 1:19–21",
+      "epigraph": "“Don’t call me Naomi. Call me Mara”",
+      "poem": "the whole town came out:\nis this Naomi?\n\ndon't call me pleasant, she said.\ncall me bitter.\nI went out full\nand came home empty.\n\nshe said it plainly, about God,\nand the book keeps her words\nwithout correcting them.\n\nthere is room in Scripture\nfor a woman\nnot ready yet\nto say thank you.",
+      "webSrc": "assets/ruth/web/r-006-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#afa48a",
+        "horizon": "#8a8069",
+        "ground": "#a79b7f",
+        "overall": "#9f947a",
+        "accent": "#d2ab7e"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "barley harvest",
+      "ref": "Ruth 1:22",
+      "epigraph": "“They came to Bethlehem in the beginning of barley harvest.”",
+      "poem": "she said she came home empty.\nbut look who walked beside her.\n\nand look at the fields—\nthe first barley bending gold\nthe very season they arrived.\n\nthe story doesn't argue with her grief.\nit just sets the table\nand waits.",
+      "webSrc": "assets/ruth/web/r-006-006.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dacdac",
+        "horizon": "#988e71",
+        "ground": "#86744e",
+        "overall": "#a69875",
+        "accent": "#dbc184"
+      }
+    },
+    {
+      "n": 7,
+      "part": 2,
+      "title": "as it happened",
+      "ref": "Ruth 2:3",
+      "epigraph": "“she happened to come to the portion of the field belonging to Boaz”",
+      "poem": "she happened to come\nto the field of Boaz.\n\nthe storyteller almost smiles.\nhappened.\n\nas if a Moabite widow\nwandering among strangers' fields\njust chanced on the one man in Bethlehem\nwho was family.\n\ncall it luck\nif you want.\nthe book has another name for it\nand waits for you to notice.",
+      "webSrc": "assets/ruth/web/r-006-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e4d7bb",
+        "horizon": "#aca18a",
+        "ground": "#8b795e",
+        "overall": "#b3a488",
+        "accent": "#f7e8c4"
+      }
+    },
+    {
+      "n": 8,
+      "part": 2,
+      "title": "the edges",
+      "ref": "Ruth 2:2–7",
+      "epigraph": "“let me glean and gather after the reapers among the sheaves”",
+      "poem": "the law left the edges of the field\nfor the poor and the foreigner.\n\nshe was both.\n\nso she bent where others had already been,\nmorning into afternoon,\npicking up what fell.\n\nnot ashamed\nto begin with leftovers.\nso much grace\nstarts at the edges.",
+      "webSrc": "assets/ruth/web/r-006-008.jpg",
+      "heroSrc": "assets/ruth/hero/r-006-008-hero.jpg",
+      "isScene": true,
+      "sceneType": "ruth_gleaning",
+      "palette": {
+        "top": "#dbd1b6",
+        "horizon": "#9b8c72",
+        "ground": "#756751",
+        "overall": "#9c9078",
+        "accent": "#f1e6c7"
+      }
+    },
+    {
+      "n": 9,
+      "part": 2,
+      "title": "the water jars",
+      "ref": "Ruth 2:8–9",
+      "epigraph": "“When you are thirsty, go to the vessels, and drink from that which the young men have drawn.”",
+      "poem": "he told the young men\nto leave her alone.\n\nhe told her\nthe water was hers too.\n\nit isn't the grand gesture\nthat changes a life.\nit is someone with power\nsaying: you are safe here,\nand there is enough to drink.",
+      "webSrc": "assets/ruth/web/r-006-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b2a689",
+        "horizon": "#a09376",
+        "ground": "#90856d",
+        "overall": "#9f9479",
+        "accent": "#f1deb8"
+      }
+    },
+    {
+      "n": 10,
+      "part": 2,
+      "title": "under his wings",
+      "ref": "Ruth 2:11–12",
+      "epigraph": "“under whose wings you have come to take refuge”",
+      "poem": "Boaz blessed her\nwith a picture:\n\na young bird\nthat has flown a long way\nfrom the land of its birth,\ntucked now\nunder the wings of the God of Israel.\n\nhe doesn't know yet\nthat he will be\nthe answer\nto his own prayer.",
+      "webSrc": "assets/ruth/web/r-006-010.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d1c19d",
+        "horizon": "#a19476",
+        "ground": "#90846b",
+        "overall": "#a89a7c",
+        "accent": "#e6d6b1"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "carry some home",
+      "ref": "Ruth 2:14–18",
+      "epigraph": "“She ate, was satisfied, and left some of it.”",
+      "poem": "at mealtime he called her over.\nbread. a bowl to dip it in.\na handful of roasted grain\npassed hand to hand.\n\nshe ate until she was full,\nmaybe for the first time in a long time,\nand saved what was left\nfor Naomi.\n\nthat is how the hungry love:\neat,\nthen carry some home.",
+      "webSrc": "assets/ruth/web/r-006-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e6d8b9",
+        "horizon": "#b2a27f",
+        "ground": "#cbbc9e",
+        "overall": "#c7b797",
+        "accent": "#eed5a5"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "one of ours",
+      "ref": "Ruth 2:19–20",
+      "epigraph": "“The man is a close relative to us, one of our near kinsmen.”",
+      "poem": "she came home at dusk\nwith an ephah of barley\nand a name.\n\nBoaz? Naomi said,\nand something in her\nthat had lain still for years\nsat up.\n\nhe's one of ours.\na kinsman.\none who can redeem.\n\nthe first hope in the book\narrives in a sack of grain\nat the end of a long day.",
+      "webSrc": "assets/ruth/web/r-006-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#7f7057",
+        "horizon": "#71624c",
+        "ground": "#7d7058",
+        "overall": "#7b6d55",
+        "accent": "#e4c390"
+      }
+    },
+    {
+      "n": 13,
+      "part": 3,
+      "title": "all that you say",
+      "ref": "Ruth 3:1–6",
+      "epigraph": "“All that you say, I will do.”",
+      "poem": "wash. anoint yourself.\nput on your cloak.\ngo down to the floor.\n\nit was a strange, brave plan,\nolder than we understand,\nand Ruth trusted the woman\nwho had once said\ncall me bitter.\n\nall that you say, I will do—\n\nshe said it the way\nshe had once said\nyour God, my God:\nwith her whole life.",
+      "webSrc": "assets/ruth/web/r-006-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ab9c7f",
+        "horizon": "#6b5f49",
+        "ground": "#635745",
+        "overall": "#7a6d56",
+        "accent": "#cb9620"
+      }
+    },
+    {
+      "n": 14,
+      "part": 3,
+      "title": "the heap of grain",
+      "ref": "Ruth 3:7–8",
+      "epigraph": "“he went to lie down at the end of the heap of grain”",
+      "poem": "the harvest was in.\nthe work was done.\nthe heap of grain lay pale under the stars.\n\nand a woman came softly\nin the dark\nto ask a question\nwithout words.\n\nthe story tells it quietly.\nso will we.",
+      "webSrc": "assets/ruth/web/r-006-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#1f3c50",
+        "horizon": "#323b3d",
+        "ground": "#6a624f",
+        "overall": "#454d4b",
+        "accent": "#b6a484"
+      }
+    },
+    {
+      "n": 15,
+      "part": 3,
+      "title": "the corner of the cloak",
+      "ref": "Ruth 3:9",
+      "epigraph": "“spread the corner of your garment over your servant; for you are a near kinsman.”",
+      "poem": "spread your wing over me,\nshe said—\nthe same word\nhe had used for God.\n\nyou prayed that I would find shelter\nunder his wings.\nbe the answer, Boaz.\nbe the corner of the cloak.\n\nsometimes God's wings\nlook like a person\nwilling to be\nthe answer.",
+      "webSrc": "assets/ruth/web/r-006-015.jpg",
+      "heroSrc": "assets/ruth/hero/r-006-015-hero.jpg",
+      "isScene": true,
+      "sceneType": "threshing_cloak",
+      "palette": {
+        "top": "#6e6753",
+        "horizon": "#847558",
+        "ground": "#877257",
+        "overall": "#7d6c54",
+        "accent": "#c8b58f"
+      }
+    },
+    {
+      "n": 16,
+      "part": 3,
+      "title": "a worthy woman",
+      "ref": "Ruth 3:10–11",
+      "epigraph": "“all the city of my people knows that you are a worthy woman.”",
+      "poem": "don't be afraid, he said.\neveryone knows who you are.\n\nnot the Moabite.\nnot the widow.\nnot the foreigner at the edge of the field.\n\na worthy woman.\n\nthe town had been watching all along—\nevery sunrise in the barley,\nevery handful carried home—\nand had quietly\nchanged her name.",
+      "webSrc": "assets/ruth/web/r-006-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#494133",
+        "horizon": "#7f6a4c",
+        "ground": "#443a2c",
+        "overall": "#574b37",
+        "accent": "#eacea8"
+      }
+    },
+    {
+      "n": 17,
+      "part": 3,
+      "title": "not empty",
+      "ref": "Ruth 3:15–17",
+      "epigraph": "“Don’t go empty to your mother-in-law.”",
+      "poem": "he filled her mantle with barley\nbefore the sun came up.\n\ndon't go back empty, he said—\nnot knowing\nhe was answering\nthe bitterest thing Naomi ever said.\n\nempty is not\nthe last word.\nit never was.",
+      "webSrc": "assets/ruth/web/r-006-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddcaad",
+        "horizon": "#6d695a",
+        "ground": "#7c7464",
+        "overall": "#928976",
+        "accent": "#f8cbaa"
+      }
+    },
+    {
+      "n": 18,
+      "part": 3,
+      "title": "wait",
+      "ref": "Ruth 3:18",
+      "epigraph": "“Wait, my daughter, until you know what will happen”",
+      "poem": "wait, my daughter.\n\nthe hardest part of hope\nis the afternoon\nafter you have done everything you can.\n\nthe grain is measured.\nthe question is asked.\nsomewhere a man is walking to the gate.\n\nsit down.\nhe will not rest\nuntil it's settled.",
+      "webSrc": "assets/ruth/web/r-006-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c1b593",
+        "horizon": "#958b6c",
+        "ground": "#8d8368",
+        "overall": "#9e9375",
+        "accent": "#eee1c3"
+      }
+    },
+    {
+      "n": 19,
+      "part": 4,
+      "title": "at the gate",
+      "ref": "Ruth 4:1–2",
+      "epigraph": "“Boaz went up to the gate and sat down there.”",
+      "poem": "no swords, no speeches.\njust a man at the gate\nin the morning,\ncalling another man to sit,\ngathering ten elders\nas witnesses.\n\nthis is how redemption looks\nin a small town:\na bargain spoken aloud,\npatience,\nand someone who shows up early.",
+      "webSrc": "assets/ruth/web/r-006-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b5a688",
+        "horizon": "#938569",
+        "ground": "#94866d",
+        "overall": "#9e9074",
+        "accent": "#ecd6af"
+      }
+    },
+    {
+      "n": 20,
+      "part": 4,
+      "title": "the sandal",
+      "ref": "Ruth 4:6–8",
+      "epigraph": "“a man took off his sandal, and gave it to his neighbor”",
+      "poem": "the nearer kinsman\nwanted the field\nbut not the widow.\n\nso he untied his sandal\nand handed it over—\nthe old way of saying\nthis is yours now.\n\none man kept his inheritance safe.\nthe other gave himself away,\nand his is the name\nwe still say.",
+      "webSrc": "assets/ruth/web/r-006-020.jpg",
+      "heroSrc": "assets/ruth/hero/r-006-020-hero.jpg",
+      "isScene": true,
+      "sceneType": "kinsman_sandal",
+      "palette": {
+        "top": "#dccfb2",
+        "horizon": "#a5977c",
+        "ground": "#9f9075",
+        "overall": "#b1a387",
+        "accent": "#e6d2ae"
+      }
+    },
+    {
+      "n": 21,
+      "part": 4,
+      "title": "we are witnesses",
+      "ref": "Ruth 4:9–12",
+      "epigraph": "“We are witnesses.”",
+      "poem": "we are witnesses,\nsaid the whole gate.\n\nthey blessed a foreign woman\nwith the names of Rachel and Leah,\nthe mothers who built the house of Israel.\n\na Moabite\nwritten into the family prayer.\n\nthat is the kind of house\nGod builds:\nthe door stays open\nlong after\nyou'd think it would close.",
+      "webSrc": "assets/ruth/web/r-006-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e5dabe",
+        "horizon": "#a19881",
+        "ground": "#958c76",
+        "overall": "#b0a78f",
+        "accent": "#eee2c7"
+      }
+    },
+    {
+      "n": 22,
+      "part": 4,
+      "title": "a son",
+      "ref": "Ruth 4:13",
+      "epigraph": "“Yahweh enabled her to conceive, and she bore a son.”",
+      "poem": "after ten empty years in Moab,\na son.\n\nthe book is careful\nto say who gave him:\nthe Lord.\n\nevery birth is a gift.\nthis one\nwas also an answer.",
+      "webSrc": "assets/ruth/web/r-006-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a69984",
+        "horizon": "#978971",
+        "ground": "#6c5f53",
+        "overall": "#8b7d6a",
+        "accent": "#eddfca"
+      }
+    },
+    {
+      "n": 23,
+      "part": 4,
+      "title": "full",
+      "ref": "Ruth 4:14–16",
+      "epigraph": "“your daughter-in-law, who loves you, who is better to you than seven sons”",
+      "poem": "the women gathered around Naomi\nand counted it out like a blessing:\n\na restorer of life.\na nurse for your old age.\na daughter-in-law who loves you,\nbetter than seven sons.\n\nshe laid the child in her lap,\nthe woman who had come home empty,\n\nand her arms\nwere full.",
+      "webSrc": "assets/ruth/web/r-006-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b5a592",
+        "horizon": "#9b8a77",
+        "ground": "#75675c",
+        "overall": "#918272",
+        "accent": "#e8d3b7"
+      }
+    },
+    {
+      "n": 24,
+      "part": 4,
+      "title": "the family line",
+      "ref": "Ruth 4:17",
+      "epigraph": "“They named him Obed. He is the father of Jesse, the father of David.”",
+      "poem": "the neighbors named him.\na son is born to Naomi, they said.\n\nObed.\nfather of Jesse.\ngrandfather of a shepherd boy\nwho would be king.\n\nand from there the line runs on,\ngeneration after generation,\nto another child\nin the House of Bread.\n\na famine, a funeral, a foreigner, a field—\nand out of it,\nthe family of the Messiah.",
+      "webSrc": "assets/ruth/web/r-006-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dfcdaf",
+        "horizon": "#b09c8f",
+        "ground": "#5f574a",
+        "overall": "#9b8d7c",
+        "accent": "#e9d5b1"
+      }
+    }
+  ]
+}

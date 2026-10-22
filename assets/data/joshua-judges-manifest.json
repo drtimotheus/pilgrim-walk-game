@@ -1,0 +1,814 @@
+{
+  "district": 5,
+  "slug": "joshua-judges",
+  "title": "Be Strong and Courageous",
+  "subtitle": "Joshua & Judges in Poems & Pictures",
+  "author": "Timothy Holt",
+  "publisher": "Inspiring Your Faith · inspiringyourfaith.org",
+  "cover": "assets/joshua-judges/web/j-005-000.jpg",
+  "beforeYouBegin": "Joshua begins with a man told three times to be strong, standing where Moses used to stand. Then come a scarlet line tied in a window, priests stepping into a river in flood, twelve stones carried up from the riverbed, the last morning of manna, seven trumpets of rams' horns, an old man asking for the hard hill country, and a people told to choose today whom they will serve. Judges begins with a generation that forgot, and goes round and round: a woman judging under a palm tree, a farmer threshing wheat in a winepress, a fleece wet with dew, torches hidden in clay jars, a strong man whose hair began to grow again, and a last prayer between two pillars.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Be Strong and Courageous",
+      "epigraph": "Be strong and courageous. Don’t be afraid.",
+      "epigraphRef": "Joshua 1:9",
+      "lightName": "Light of the Jordan Crossing",
+      "lightHint": "Beside the twelve wet river stones stacked near the reeds of the bank"
+    },
+    {
+      "part": 2,
+      "title": "Not One Thing Has Failed",
+      "epigraph": "Not one thing has failed of all the good things which Yahweh your God spoke concerning you.",
+      "epigraphRef": "Joshua 23:14",
+      "lightName": "Light of the Covenant Oak",
+      "lightHint": "Under the ancient oak of Shechem beside the great witness stone"
+    },
+    {
+      "part": 3,
+      "title": "Another Generation",
+      "epigraph": "Another generation arose after them who didn’t know Yahweh.",
+      "epigraphRef": "Judges 2:10",
+      "lightName": "Light of Deborah’s Palm",
+      "lightHint": "In the shade of the hill-country palm tree between Ramah and Bethel"
+    },
+    {
+      "part": 4,
+      "title": "Mighty Man of Valor",
+      "epigraph": "Yahweh is with you, you mighty man of valor!",
+      "epigraphRef": "Judges 6:12",
+      "lightName": "Light of the Broken Pitcher",
+      "lightHint": "Where the clay pitcher shatters to let the hidden torchlight blaze"
+    },
+    {
+      "part": 5,
+      "title": "Remember Me",
+      "epigraph": "Remember me, please, and strengthen me, please, only this once.",
+      "epigraphRef": "Judges 16:28",
+      "lightName": "Light of the Answered Prayer",
+      "lightHint": "Near the olive and fig trees before the Finale Plaza"
+    }
+  ],
+  "paintings": [
+    {
+      "n": 1,
+      "part": 1,
+      "title": "after Moses",
+      "ref": "Joshua 1:1–9",
+      "epigraph": "“As I was with Moses, so I will be with you. I will not fail you nor forsake you.”",
+      "poem": "Moses is dead.\nthat is how it starts.\n\nthe one who talked with God\nlike a friend,\nthe one who held the staff\nover the sea,\ngone.\n\nand now it's you.\n\nthree times God says it:\nbe strong.\nbe strong.\nbe strong and courageous.\n\nnot because you are.\nbecause he is\ngoing with you,\nthe same as before.",
+      "webSrc": "assets/joshua-judges/web/j-005-001.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c9bb93",
+        "horizon": "#b29e70",
+        "ground": "#695d45",
+        "overall": "#9a8c68",
+        "accent": "#f6d986"
+      }
+    },
+    {
+      "n": 2,
+      "part": 1,
+      "title": "day and night",
+      "ref": "Joshua 1:8",
+      "epigraph": "“you shall meditate on it day and night”",
+      "poem": "before the river,\nbefore the walls,\na book.\n\nkeep it in your mouth,\nhe said.\nturn it over\nat noon,\nturn it over\nby lamplight.\n\nthe land was ahead.\nthe way into it\nwas words.",
+      "webSrc": "assets/joshua-judges/web/j-005-002.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#676154",
+        "horizon": "#6a624f",
+        "ground": "#796548",
+        "overall": "#726650",
+        "accent": "#c18f4d"
+      }
+    },
+    {
+      "n": 3,
+      "part": 1,
+      "title": "the scarlet line",
+      "ref": "Joshua 2:8–21",
+      "epigraph": "“Then she tied the scarlet line in the window.”",
+      "poem": "she had heard the stories.\nthe sea,\nthe kings across the river.\n\neveryone in Jericho had heard.\ntheir hearts melted.\n\nhers did something else.\n\nyour God, she said,\nis God in heaven above\nand on the earth beneath.\n\na woman on the wall,\nwith the wrong past\nand the right answer,\n\ntying a red thread\nto her window\nlike a knot in a promise:\n\nremember me.\nremember my house.",
+      "webSrc": "assets/joshua-judges/web/j-005-003.jpg",
+      "heroSrc": "assets/joshua-judges/hero/j-005-003-hero.jpg",
+      "isScene": true,
+      "sceneType": "scarlet_line",
+      "palette": {
+        "top": "#c2b089",
+        "horizon": "#cebb93",
+        "ground": "#a1916f",
+        "overall": "#bba984",
+        "accent": "#f0e1ba"
+      }
+    },
+    {
+      "n": 4,
+      "part": 1,
+      "title": "this way before",
+      "ref": "Joshua 3:1–6",
+      "epigraph": "“for you have not passed this way before.”",
+      "poem": "keep your distance\nfrom the ark, they were told.\nnot so you'd be far from God.\n\nso you could see\nwhere it was going.\n\nyou have not passed\nthis way before.\n\nnone of us have.\nthat's why we follow\nsomething we can see\na long way off.",
+      "webSrc": "assets/joshua-judges/web/j-005-004.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#f2ddb9",
+        "horizon": "#b5a88e",
+        "ground": "#8f836d",
+        "overall": "#b5a78b",
+        "accent": "#fce5ba"
+      }
+    },
+    {
+      "n": 5,
+      "part": 1,
+      "title": "the edge of the water",
+      "ref": "Joshua 3:14–17",
+      "epigraph": "“the feet of the priests who bore the ark had dipped in the edge of the water”",
+      "poem": "it was harvest.\nthe river was over its banks.\n\nof course it was.\n\nnothing moved\nuntil someone's feet\nwere wet.\n\nthen, far upstream,\nthe water stood still\nin a heap,\n\nand the priests\nstood in the middle\non dry ground\n\nuntil every last one\nhad crossed.\n\nsometimes the miracle\nwaits for your sandal\nto touch the flood.",
+      "webSrc": "assets/joshua-judges/web/j-005-005.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbccae",
+        "horizon": "#9f947f",
+        "ground": "#716452",
+        "overall": "#9f937d",
+        "accent": "#f7eed7"
+      }
+    },
+    {
+      "n": 6,
+      "part": 1,
+      "title": "what these stones mean",
+      "ref": "Joshua 4:1–24",
+      "epigraph": "“What do these stones mean?”",
+      "poem": "twelve men\nwaded back into the riverbed\nand each one\nlifted a stone\nto his shoulder.\n\nwet stones.\nheavy stones.\nfrom the place\nwhere the priests had stood.\n\nstack them, God said,\nwhere you camp tonight.\n\none day a child\nwill put a hand on them\nand ask.\n\nand you will get to say,\nwe walked through here\non dry ground.",
+      "webSrc": "assets/joshua-judges/web/j-005-006.jpg",
+      "heroSrc": "assets/joshua-judges/hero/j-005-006-hero.jpg",
+      "isScene": true,
+      "sceneType": "jordan_stones",
+      "palette": {
+        "top": "#c7b99d",
+        "horizon": "#ab9e85",
+        "ground": "#6b624c",
+        "overall": "#998d74",
+        "accent": "#d7c9ac"
+      }
+    },
+    {
+      "n": 7,
+      "part": 1,
+      "title": "the last morning of manna",
+      "ref": "Joshua 5:10–12",
+      "epigraph": "“The manna ceased on the next day, after they had eaten of the produce of the land.”",
+      "poem": "forty years\nof bread on the ground\nevery morning.\n\nthen one day\nthey ate the grain of the land,\nroasted,\n\nand the next morning\nthere was none.\n\nno one had announced it.\nno one had to.\n\nthe God who fed them\nin the desert\nwas feeding them now\nwith fields.\n\nsame hands.\ndifferent bread.",
+      "webSrc": "assets/joshua-judges/web/j-005-007.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d6c9ac",
+        "horizon": "#95886b",
+        "ground": "#b09e7c",
+        "overall": "#b3a485",
+        "accent": "#e0c99d"
+      }
+    },
+    {
+      "n": 8,
+      "part": 1,
+      "title": "holy ground",
+      "ref": "Joshua 5:13–15",
+      "epigraph": "“Take off your sandals, for the place on which you stand is holy.”",
+      "poem": "are you for us\nor for our enemies?\n\na fair question\noutside Jericho.\n\nno, came the answer.\n\nnot on your side.\nin charge.\n\nso Joshua did the only thing\nthat made sense.\n\nhe took off his sandals.",
+      "webSrc": "assets/joshua-judges/web/j-005-008.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c4a1",
+        "horizon": "#8c7e66",
+        "ground": "#88785c",
+        "overall": "#a29274",
+        "accent": "#f2e6c9"
+      }
+    },
+    {
+      "n": 9,
+      "part": 1,
+      "title": "seven days of silence",
+      "ref": "Joshua 6:1–16",
+      "epigraph": "“You shall not shout nor let your voice be heard”",
+      "poem": "once around.\nback to camp.\n\nonce around.\nback to camp.\n\nsix days of walking\npast a locked city\nwithout a word.\n\nonly the rams' horns\nand the sound of feet.\n\nit must have felt foolish.\nit must have felt like nothing.\n\nsome obedience\nis just keeping quiet\nand going around again.",
+      "webSrc": "assets/joshua-judges/web/j-005-009.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbceb1",
+        "horizon": "#998d78",
+        "ground": "#665e4b",
+        "overall": "#968c75",
+        "accent": "#f1ddb7"
+      }
+    },
+    {
+      "n": 10,
+      "part": 1,
+      "title": "the wall fell down flat",
+      "ref": "Joshua 6:15–20",
+      "epigraph": "“the wall fell down flat”",
+      "poem": "the seventh day.\nseven times around.\n\nthen the long blast,\nand the shout\nthey had been holding\nfor a week,\n\nand the stones\nthat had never moved\nfor anyone\n\nlay down.\n\nnot pushed.\nnot climbed.\n\njust\ntold.",
+      "webSrc": "assets/joshua-judges/web/j-005-010.jpg",
+      "heroSrc": "assets/joshua-judges/hero/j-005-010-hero.jpg",
+      "isScene": true,
+      "sceneType": "jericho_walls",
+      "palette": {
+        "top": "#e6d9b6",
+        "horizon": "#bab095",
+        "ground": "#a29375",
+        "overall": "#bbae90",
+        "accent": "#eedcb5"
+      }
+    },
+    {
+      "n": 11,
+      "part": 2,
+      "title": "in the middle of Israel",
+      "ref": "Joshua 6:22–25",
+      "epigraph": "“She lives in the middle of Israel to this day”",
+      "poem": "when the dust settled\nthere was one window\nstill tied with red.\n\nthey brought her out,\nand her father,\nand her mother,\nand her brothers,\nand all she had.\n\nthe outsider\nfrom the wall\n\nnow living\nin the middle\nof the people of God.\n\nthat was always\nhow the story\nwas meant to go.",
+      "webSrc": "assets/joshua-judges/web/j-005-011.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d9caa5",
+        "horizon": "#8c836c",
+        "ground": "#9e8d6c",
+        "overall": "#a7997b",
+        "accent": "#efdfba"
+      }
+    },
+    {
+      "n": 12,
+      "part": 2,
+      "title": "hidden in the ground",
+      "ref": "Joshua 7:19–26",
+      "epigraph": "“Tell me now what you have done! Don’t hide it from me!”",
+      "poem": "a beautiful robe.\nsome silver.\na bar of gold.\n\nI saw them, I wanted them,\nI took them, I hid them.\nthe oldest four steps there are.\n\nmy son, Joshua said,\ndon't hide it from me.\n\nthey raised a heap of stones\nin the valley of Achor,\nthe valley of trouble.\n\nmuch later, a prophet heard God promise\nto make that same valley\na door of hope.",
+      "webSrc": "assets/joshua-judges/web/j-005-012.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#403628",
+        "horizon": "#725f45",
+        "ground": "#5b4a35",
+        "overall": "#5b4b36",
+        "accent": "#b8a383"
+      }
+    },
+    {
+      "n": 13,
+      "part": 2,
+      "title": "the little ones and the foreigners",
+      "ref": "Joshua 8:30–35",
+      "epigraph": "“with the women, the little ones, and the foreigners who were among them.”",
+      "poem": "he read all of it.\nevery word.\n\nnot only to the elders.\nnot only to the men.\n\nto the women.\nto the little ones.\nto the foreigners\nstanding at the edges.\n\nno one was too small\nor too new\nto hear what God had said.",
+      "webSrc": "assets/joshua-judges/web/j-005-013.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e1d5b7",
+        "horizon": "#aea991",
+        "ground": "#615c46",
+        "overall": "#9e977f",
+        "accent": "#faefcd"
+      }
+    },
+    {
+      "n": 14,
+      "part": 2,
+      "title": "the day the sun stood still",
+      "ref": "Joshua 10:12–14",
+      "epigraph": "“There was no day like that before it or after it, that Yahweh listened to the voice of a man”",
+      "poem": "sun, stand still,\nhe said.\n\nand the sun\nstayed in the middle of the sky.\n\nthe text doesn't marvel\nat the sun.\n\nit marvels\nat this:\n\nGod listened\nto the voice\nof a man.",
+      "webSrc": "assets/joshua-judges/web/j-005-014.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dcceaa",
+        "horizon": "#c5b793",
+        "ground": "#746b54",
+        "overall": "#a79c7e",
+        "accent": "#f9e5ad"
+      }
+    },
+    {
+      "n": 15,
+      "part": 2,
+      "title": "give me this hill country",
+      "ref": "Joshua 14:6–14",
+      "epigraph": "“Now therefore give me this hill country”",
+      "poem": "forty years old\nwhen he went in as a spy.\neighty-five now,\nafter forty-five years of waiting.\n\nand he doesn't ask\nfor the easy valley.\n\nhe asks for the hill country,\nthe walled towns, the giants.\n\nI'm as strong now\nas I was then, he says.\n\nhe followed the LORD\nwholeheartedly.\n\nthat's what it looks like\nat eighty-five.",
+      "webSrc": "assets/joshua-judges/web/j-005-015.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dfd3bb",
+        "horizon": "#8b8575",
+        "ground": "#706653",
+        "overall": "#958c79",
+        "accent": "#f1e5cc"
+      }
+    },
+    {
+      "n": 16,
+      "part": 2,
+      "title": "springs of water",
+      "ref": "Joshua 15:16–19",
+      "epigraph": "“Give me a blessing.”",
+      "poem": "you gave me dry land,\nAchsah said to her father.\n\ngive me springs of water too.\n\nso he gave her\nthe upper springs\nand the lower springs.\n\nit is not greedy\nto ask a father\nfor water.",
+      "webSrc": "assets/joshua-judges/web/j-005-016.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d2c8b0",
+        "horizon": "#a59c84",
+        "ground": "#9a927c",
+        "overall": "#aea58d",
+        "accent": "#f1e5cb"
+      }
+    },
+    {
+      "n": 17,
+      "part": 2,
+      "title": "cities of refuge",
+      "ref": "Joshua 20:1–6",
+      "epigraph": "“Assign the cities of refuge”",
+      "poem": "six cities\nwith open gates.\n\nfor the one who did harm\nwithout meaning to,\nrunning with his heart in his throat.\n\nget inside, God said.\ntell the elders at the gate.\nthey will take you in.\n\neven in the law\nthere were doors\nleft open\nfor the ones\nwho didn't mean it.",
+      "webSrc": "assets/joshua-judges/web/j-005-017.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3a585",
+        "horizon": "#807359",
+        "ground": "#766a53",
+        "overall": "#8b7e63",
+        "accent": "#eed4a3"
+      }
+    },
+    {
+      "n": 18,
+      "part": 2,
+      "title": "as for me and my house",
+      "ref": "Joshua 24:14–15",
+      "epigraph": "“choose today whom you will serve”",
+      "poem": "the gods beyond the river.\nthe gods of the land.\nor the LORD.\n\nchoose, he said.\ntoday.\n\nnot someday.\nnot when the harvest is in.\n\nhe was an old man\nstanding in front of a nation,\nand he made his own choice\nout loud:\n\nas for me\nand my house,\nwe will serve the LORD.\n\na house is where\nit gets decided.",
+      "webSrc": "assets/joshua-judges/web/j-005-018.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#beae91",
+        "horizon": "#867964",
+        "ground": "#9e9177",
+        "overall": "#9f9178",
+        "accent": "#dfc49d"
+      }
+    },
+    {
+      "n": 19,
+      "part": 2,
+      "title": "the stone heard",
+      "ref": "Joshua 24:26–27",
+      "epigraph": "“it has heard all Yahweh’s words”",
+      "poem": "he set up a great stone\nunder the oak.\n\nthis stone has heard\neverything God said to us,\nhe told them.\n\na strange witness.\n\nit would never speak.\nnever move.\nnever forget.\n\njust stand there,\nyear after year,\nin case anyone\nneeded reminding.",
+      "webSrc": "assets/joshua-judges/web/j-005-019.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#89785f",
+        "horizon": "#b2a489",
+        "ground": "#9b8a70",
+        "overall": "#9d8e73",
+        "accent": "#ebdcbd"
+      }
+    },
+    {
+      "n": 20,
+      "part": 2,
+      "title": "Joseph's bones",
+      "ref": "Joshua 24:29–32",
+      "epigraph": "“They buried the bones of Joseph, which the children of Israel brought up out of Egypt, in Shechem”",
+      "poem": "Joshua died,\na hundred and ten years old.\n\nand they buried\none more thing.\n\na box of bones\ncarried all the way\nout of Egypt,\nthrough the sea,\nthrough forty years of sand,\nacross the river.\n\nJoseph had asked them\nnot to leave him there.\n\nthey didn't.\n\nevery promise\ncomes home.",
+      "webSrc": "assets/joshua-judges/web/j-005-020.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#bfb492",
+        "horizon": "#978e73",
+        "ground": "#95886b",
+        "overall": "#a19679",
+        "accent": "#e3d7b0"
+      }
+    },
+    {
+      "n": 21,
+      "part": 3,
+      "title": "who didn't know",
+      "ref": "Judges 2:7–10",
+      "epigraph": "“another generation arose after them who didn’t know Yahweh”",
+      "poem": "the ones who had seen it\ngrew old.\nthe ones who had crossed the river\nwere buried.\n\nand the stones\nwere still there.\n\nbut no one asked\nwhat they meant.\n\nforgetting\ndoesn't take a rebellion.\n\nonly\none generation\nthat isn't told.",
+      "webSrc": "assets/joshua-judges/web/j-005-021.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c3a7",
+        "horizon": "#988d71",
+        "ground": "#aea183",
+        "overall": "#aea185",
+        "accent": "#e4d7ba"
+      }
+    },
+    {
+      "n": 22,
+      "part": 3,
+      "title": "round again",
+      "ref": "Judges 2:11–19",
+      "epigraph": "“for it grieved Yahweh because of their groaning”",
+      "poem": "they forgot.\nthey turned to other gods.\nthey were crushed.\nthey cried out.\n\nGod raised up a judge,\nand the land had rest.\n\nthen the judge died,\nand they forgot.\n\naround and around,\nlike a donkey at the mill.\n\nthe wonder isn't\nthat they kept circling.\nit's that every time they groaned\nit grieved him,\n\nand every time,\nhe came.",
+      "webSrc": "assets/joshua-judges/web/j-005-022.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c7b896",
+        "horizon": "#878070",
+        "ground": "#9d917b",
+        "overall": "#a39781",
+        "accent": "#f0d8a7"
+      }
+    },
+    {
+      "n": 23,
+      "part": 3,
+      "title": "under the palm tree",
+      "ref": "Judges 4:4–5",
+      "epigraph": "“She lived under Deborah’s palm tree between Ramah and Bethel in the hill country of Ephraim”",
+      "poem": "no palace.\nno throne.\n\na palm tree\non a hill road\nbetween two towns.\n\nand the people\nkept walking up\nto sit in its shade\nand ask her\nwhat was right.\n\na prophet,\na judge,\nand later she would call herself\na mother in Israel.\n\nwisdom doesn't need a hall.\nit can sit\nunder a tree.",
+      "webSrc": "assets/joshua-judges/web/j-005-023.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#c5bca5",
+        "horizon": "#d0c5ac",
+        "ground": "#8b826c",
+        "overall": "#aca38d",
+        "accent": "#f3e8cc"
+      }
+    },
+    {
+      "n": 24,
+      "part": 3,
+      "title": "if you will go with me",
+      "ref": "Judges 4:6–14",
+      "epigraph": "“Hasn’t Yahweh gone out before you?”",
+      "poem": "if you'll go with me,\nI'll go, Barak said.\n\nif not,\nI won't.\n\nshe went.\n\nand when the day came\nshe didn't tell him\nto be brave.\n\nshe told him\nwho was already\nout in front.",
+      "webSrc": "assets/joshua-judges/web/j-005-024.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e2d1b1",
+        "horizon": "#b9b09c",
+        "ground": "#8e7f62",
+        "overall": "#b3a58b",
+        "accent": "#edddb7"
+      }
+    },
+    {
+      "n": 25,
+      "part": 3,
+      "title": "a jug of milk",
+      "ref": "Judges 5:24–25",
+      "epigraph": "“He asked for water. She gave him milk. She brought him butter in a lordly dish.”",
+      "poem": "he came running\nto a tent that looked safe.\n\nhe asked for water.\nshe gave him milk in her best dish\nand covered him with a rug.\n\nthe captain of nine hundred iron chariots\ncame to a tent\nand never left it.\n\nDeborah had said\nit would be a woman's hand.\n\nthe song calls her\nblessed among women in the tent.\n\nwe will leave the rest\nin the dark of the tent.",
+      "webSrc": "assets/joshua-judges/web/j-005-025.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#62594d",
+        "horizon": "#4c4438",
+        "ground": "#7a6a52",
+        "overall": "#625647",
+        "accent": "#f2e4ca"
+      }
+    },
+    {
+      "n": 26,
+      "part": 3,
+      "title": "the stars fought",
+      "ref": "Judges 5:4–21",
+      "epigraph": "“From the sky the stars fought.”",
+      "poem": "nine hundred chariots of iron.\n\nand then the clouds poured water,\nand the ancient river Kishon\nswept them away.\n\nfrom the sky\nthe stars fought,\nDeborah sang.\n\nwhen God goes out before you,\neven the rain\nis under orders.",
+      "webSrc": "assets/joshua-judges/web/j-005-026.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#474740",
+        "horizon": "#646054",
+        "ground": "#3e3b32",
+        "overall": "#4b483f",
+        "accent": "#b0a38e"
+      }
+    },
+    {
+      "n": 27,
+      "part": 3,
+      "title": "like the sun",
+      "ref": "Judges 5:31",
+      "epigraph": "“let those who love him be as the sun when it rises in its strength.”",
+      "poem": "the song ends\nnot with the battle\nbut with the morning.\n\nthose who love him\nwill be like the sun\nwhen it comes up\nin its strength.\n\nnot a flash.\nnot a fire.\n\nsteady.\nrising.\nwarming everything\nit touches.\n\nand the land had rest\nforty years.",
+      "webSrc": "assets/joshua-judges/web/j-005-027.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#e3cfae",
+        "horizon": "#ab9883",
+        "ground": "#71634d",
+        "overall": "#a39279",
+        "accent": "#fcd2a5"
+      }
+    },
+    {
+      "n": 28,
+      "part": 4,
+      "title": "in the winepress",
+      "ref": "Judges 6:11–12",
+      "epigraph": "“His son Gideon was beating out wheat in the wine press, to hide it from the Midianites.”",
+      "poem": "wheat belongs\non a threshing floor,\nin the open,\nin the wind.\n\nGideon was threshing\nin a hole in the rock,\nwhere no one could see.\n\nthat's where the angel\nfound him.\n\nand called him\nmighty man of valor.\n\nGod names you\nby what he sees coming,\nnot by where\nyou're hiding.",
+      "webSrc": "assets/joshua-judges/web/j-005-028.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a39b85",
+        "horizon": "#8f866d",
+        "ground": "#7d7360",
+        "overall": "#908771",
+        "accent": "#eee2ca"
+      }
+    },
+    {
+      "n": 29,
+      "part": 4,
+      "title": "the least",
+      "ref": "Judges 6:13–16",
+      "epigraph": "“I am the least in my father’s house.”",
+      "poem": "if God is with us,\nwhy all this?\nwhere are the wonders\nour fathers told us about?\n\nhonest questions.\nGod didn't scold them.\n\nmy clan is the poorest.\nI'm the least in my house.\n\nGod didn't argue that either.\n\nhe only said,\nI will be with you.\n\nthat was the answer\nto every one\nof Gideon's objections.",
+      "webSrc": "assets/joshua-judges/web/j-005-029.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d4c9b0",
+        "horizon": "#938268",
+        "ground": "#c3b598",
+        "overall": "#b5a78c",
+        "accent": "#eee1c4"
+      }
+    },
+    {
+      "n": 30,
+      "part": 4,
+      "title": "the LORD is peace",
+      "ref": "Judges 6:22–24",
+      "epigraph": "“Peace be to you! Don’t be afraid. You shall not die.”",
+      "poem": "he had seen the angel of the LORD\nface to face,\nand he was sure\nthat was the end of him.\n\npeace, God said.\ndon't be afraid.\nyou won't die.\n\nso he built an altar\nright there\nand named it\nthe LORD is peace.\n\na scared man\nnaming a stone\nafter the first thing\nGod told him.",
+      "webSrc": "assets/joshua-judges/web/j-005-030.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b4ac97",
+        "horizon": "#9fa297",
+        "ground": "#aa9d85",
+        "overall": "#a49e8c",
+        "accent": "#e9caa4"
+      }
+    },
+    {
+      "n": 31,
+      "part": 4,
+      "title": "the fleece",
+      "ref": "Judges 6:36–40",
+      "epigraph": "“wrung the dew out of the fleece, a bowl full of water.”",
+      "poem": "wet fleece,\ndry ground.\nhe wrung it out\nand filled a bowl.\n\nthen he asked again.\ndon't be angry with me.\njust once more.\n\ndry fleece,\nwet ground.\n\nGod did so,\nthe text says.\nno lecture. no thunder.\n\njust dew, exactly where\na frightened man\nneeded it.",
+      "webSrc": "assets/joshua-judges/web/j-005-031.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0c19e",
+        "horizon": "#918770",
+        "ground": "#aa9c7e",
+        "overall": "#aca082",
+        "accent": "#fbe5b4"
+      }
+    },
+    {
+      "n": 32,
+      "part": 4,
+      "title": "too many",
+      "ref": "Judges 7:2–7",
+      "epigraph": "“The people who are with you are too many for me”",
+      "poem": "thirty-two thousand.\ntoo many.\n\nlet the fearful go home.\nten thousand.\nstill too many.\n\ndown to the water.\nthree hundred.\n\nnot because God needed\nfewer men.\n\nbecause he wanted\nno one to say afterward,\nwe did this ourselves.",
+      "webSrc": "assets/joshua-judges/web/j-005-032.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#dbcfb7",
+        "horizon": "#948972",
+        "ground": "#ada48f",
+        "overall": "#ada38d",
+        "accent": "#efe3cb"
+      }
+    },
+    {
+      "n": 33,
+      "part": 4,
+      "title": "torches in jars",
+      "ref": "Judges 7:16–21",
+      "epigraph": "“empty pitchers, with torches within the pitchers.”",
+      "poem": "a trumpet in one hand.\na clay jar in the other,\nand a fire\nhidden inside it.\n\nin the middle of the night\nthey stood around the camp\nand broke the jars.\n\nthree hundred small lights\nblazing all at once.\n\nevery man stood in his place.\nthey didn't have to do more.\n\nsometimes the light\nonly gets out\nwhen the jar\nbreaks.",
+      "webSrc": "assets/joshua-judges/web/j-005-033.jpg",
+      "heroSrc": "assets/joshua-judges/hero/j-005-033-hero.jpg",
+      "isScene": true,
+      "sceneType": "torches_jars",
+      "palette": {
+        "top": "#9e9585",
+        "horizon": "#3c362d",
+        "ground": "#4c4337",
+        "overall": "#62594a",
+        "accent": "#f6af50"
+      }
+    },
+    {
+      "n": 34,
+      "part": 5,
+      "title": "the trees choose a king",
+      "ref": "Judges 9:7–15",
+      "epigraph": "“The trees set out to anoint a king over themselves.”",
+      "poem": "the trees wanted a king.\n\nthe olive said, and leave my oil?\nthe fig said, and leave my sweetness?\nthe vine said, and leave my wine?\n\neach one busy\nwith the good thing\nit was made to give.\n\nso they asked the bramble.\ncome, it said,\nrest in my shade.\n\na thornbush\nhas no shade.",
+      "webSrc": "assets/joshua-judges/web/j-005-034.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d7cbae",
+        "horizon": "#8c8873",
+        "ground": "#90856c",
+        "overall": "#a0977f",
+        "accent": "#e7d4ae"
+      }
+    },
+    {
+      "n": 35,
+      "part": 5,
+      "title": "with tambourines",
+      "ref": "Judges 11:30–40",
+      "epigraph": "“the daughters of Israel went yearly to celebrate the daughter of Jephthah”",
+      "poem": "a rash promise\nmade at the edge of a war.\n\nwhen he came home,\nhis only child ran out the door\ndancing, with tambourines.\n\nthis is one of the hardest pages\nin the book.\n\nshe asked for two months\non the mountains with her friends.\n\nand every year after,\nthe daughters of Israel\nwent out for four days\nto remember her.\n\nsome stories we can't explain.\nwe can only refuse to forget\nthe one who was hurt.",
+      "webSrc": "assets/joshua-judges/web/j-005-035.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a89887",
+        "horizon": "#645c52",
+        "ground": "#90826e",
+        "overall": "#8b7e6e",
+        "accent": "#cfc0a4"
+      }
+    },
+    {
+      "n": 36,
+      "part": 5,
+      "title": "a name too wonderful",
+      "ref": "Judges 13:15–23",
+      "epigraph": "“Why do you ask about my name, since it is incomprehensible?”",
+      "poem": "what's your name,\nManoah asked,\nso we can honor you?\n\nwhy ask, came the answer.\nit's beyond you.\n\nthen the flame went up\nfrom the rock,\nand the angel went up\nin the flame.\n\nwe're going to die,\nsaid Manoah.\n\nno, said his wife.\nif he wanted us dead\nhe wouldn't have told us\nall this.\n\nsometimes faith\nis the one in the room\nwho reasons it through.",
+      "webSrc": "assets/joshua-judges/web/j-005-036.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#d0bf97",
+        "horizon": "#a69472",
+        "ground": "#71644b",
+        "overall": "#9c8d6d",
+        "accent": "#f1d58e"
+      }
+    },
+    {
+      "n": 37,
+      "part": 5,
+      "title": "out of the strong",
+      "ref": "Judges 14:8–14",
+      "epigraph": "“Out of the strong came out sweetness.”",
+      "poem": "he found honey\nwhere no one would look.\n\ninside the thing\nthat had roared at him.\n\nhe ate it walking,\nand gave some to his parents,\nand never said\nwhere it came from.\n\nout of the eater, food.\nout of the strong, sweetness.\n\nthat riddle is bigger\nthan the man who told it.",
+      "webSrc": "assets/joshua-judges/web/j-005-037.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#ddcfaf",
+        "horizon": "#83765a",
+        "ground": "#857050",
+        "overall": "#9c8b6c",
+        "accent": "#f3e8c9"
+      }
+    },
+    {
+      "n": 38,
+      "part": 5,
+      "title": "but he didn't know",
+      "ref": "Judges 16:17–22",
+      "epigraph": "“However, the hair of his head began to grow again after he was shaved.”",
+      "poem": "I'll go out like before,\nhe said,\nand shake myself free.\n\nbut he didn't know\nthe LORD had left him.\n\nthat's the saddest line\nin his story.\n\nthey took his eyes.\nthey put him at the mill\nin bronze chains,\ngrinding in circles.\n\nand then this,\nquiet as anything:\n\nhis hair\nbegan to grow again.",
+      "webSrc": "assets/joshua-judges/web/j-005-038.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#a79c7c",
+        "horizon": "#7a765c",
+        "ground": "#887d5f",
+        "overall": "#8e8568",
+        "accent": "#fcf4e6"
+      }
+    },
+    {
+      "n": 39,
+      "part": 5,
+      "title": "remember me",
+      "ref": "Judges 16:25–30",
+      "epigraph": "“remember me, please, and strengthen me, please, only this once”",
+      "poem": "he asked the boy\nwho held his hand\nto let him feel the pillars.\n\na man who had once\ntorn gates from a city\nnow needing help\nto find a wall.\n\nand then he prayed.\nthe first real prayer\nwe hear from him\nin a long time.\n\nremember me.\nplease.\njust once more.\n\nand God\nremembered him.",
+      "webSrc": "assets/joshua-judges/web/j-005-039.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#6f6853",
+        "horizon": "#786e55",
+        "ground": "#6c624d",
+        "overall": "#716751",
+        "accent": "#c0b08a"
+      }
+    },
+    {
+      "n": 40,
+      "part": 5,
+      "title": "in his own eyes",
+      "ref": "Judges 21:25",
+      "epigraph": "“Everyone did that which was right in his own eyes.”",
+      "poem": "no king in Israel.\n\neveryone did\nwhat seemed right\nto them.\n\nthat's how the book ends.\nnot with a battle.\nwith a sentence.\n\nand the long wait begins\nfor a king\nwho would do\nwhat was right\nin God's eyes.",
+      "webSrc": "assets/joshua-judges/web/j-005-040.jpg",
+      "heroSrc": null,
+      "isScene": false,
+      "sceneType": null,
+      "palette": {
+        "top": "#b3a791",
+        "horizon": "#767165",
+        "ground": "#564f40",
+        "overall": "#7d7564",
+        "accent": "#e9cc99"
+      }
+    }
+  ]
+}

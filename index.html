@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>The Pilgrim Walk · Genesis — In the Beginning (Stage 1 Feel-Test)</title>
+  <style>
+    :root {
+      --bg-parchment: #f6efe2;
+      --bg-dark: rgba(28, 22, 16, 0.88);
+      --bg-panel: rgba(34, 27, 20, 0.94);
+      --gold: #dbb87b;
+      --gold-bright: #f5d79c;
+      --text-cream: #f7eedc;
+      --text-muted: #c2b093;
+      --font-serif: 'Georgia', 'Iowan Old Style', 'Palatino Linotype', serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #1f1a14;
+      font-family: var(--font-serif);
+      color: var(--text-cream);
+    }
+
+    body.large-text {
+      font-size: 120%;
+    }
+
+    #world-canvas {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      cursor: grab;
+    }
+    #world-canvas:active {
+      cursor: grabbing;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    /* Loading Screen */
+    #loading-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: radial-gradient(circle at center, #33291f 0%, #17120d 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+      transition: opacity 0.6s ease;
+    }
+    #loading-screen.fade-out {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .loading-eyebrow {
+      letter-spacing: 0.28em;
+      font-size: 0.78rem;
+      color: var(--gold);
+      margin-bottom: 0.8rem;
+      text-transform: uppercase;
+    }
+    .loading-title {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: normal;
+      color: var(--text-cream);
+      margin-bottom: 0.4rem;
+    }
+    .loading-sub {
+      font-style: italic;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    .loading-bar-track {
+      width: min(380px, 82vw);
+      height: 6px;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 99px;
+      overflow: hidden;
+      margin-bottom: 0.9rem;
+      border: 1px solid rgba(219, 184, 123, 0.35);
+    }
+    #loading-bar-fill {
+      width: 8%;
+      height: 100%;
+      background: linear-gradient(90deg, #b68d52, #f5d79c);
+      transition: width 0.2s ease;
+    }
+    #loading-status {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+    }
+
+    /* Top HUD Bar */
+    #top-hud {
+      position: fixed;
+      top: 14px;
+      left: 16px;
+      right: 16px;
+      z-index: 30;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      pointer-events: none;
+    }
+    .hud-cluster {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      pointer-events: auto;
+    }
+    .hud-pill {
+      background: var(--bg-dark);
+      border: 1px solid rgba(219, 184, 123, 0.42);
+      color: var(--text-cream);
+      padding: 7px 13px;
+      border-radius: 999px;
+      font-family: var(--font-serif);
+      font-size: 0.86rem;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      transition: background 0.18s, border-color 0.18s, transform 0.12s;
+    }
+    .hud-pill:hover {
+      background: rgba(58, 46, 33, 0.95);
+      border-color: var(--gold-bright);
+    }
+    .hud-pill.active-pill {
+      background: linear-gradient(135deg, rgba(219, 184, 123, 0.35), rgba(140, 100, 34, 0.55));
+      border-color: var(--gold-bright);
+      color: #fff6e0;
+      font-weight: bold;
+    }
+    .hud-stat {
+      cursor: default;
+      color: var(--gold-bright);
+    }
+
+    /* Stage 1 Prototype Scene Quick-Test Strip */
+    #prototype-scene-strip {
+      position: fixed;
+      top: 62px;
+      left: 16px;
+      z-index: 28;
+      background: rgba(28, 22, 16, 0.84);
+      border: 1px solid rgba(219, 184, 123, 0.4);
+      border-radius: 12px;
+      padding: 8px 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      backdrop-filter: blur(8px);
+    }
+    .strip-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--gold);
+      margin-right: 4px;
+    }
+    .scene-jump-btn {
+      background: rgba(219, 184, 123, 0.15);
+      border: 1px solid rgba(219, 184, 123, 0.5);
+      color: var(--text-cream);
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-family: var(--font-serif);
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .scene-jump-btn:hover {
+      background: rgba(219, 184, 123, 0.32);
+      border-color: var(--gold-bright);
+    }
+
+    /* UNMISSABLE "Back to the street" button (§5a Hard Requirement) */
+    #back-to-street-btn {
+      position: fixed;
+      top: 66px;
+      right: 18px;
+      z-index: 55;
+      background: linear-gradient(135deg, #d9ae66 0%, #b5843b 100%);
+      color: #1a130c;
+      border: 2px solid #fff1cf;
+      padding: 12px 22px;
+      border-radius: 999px;
+      font-family: var(--font-serif);
+      font-size: 1.02rem;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.65), 0 0 18px rgba(245, 215, 156, 0.55);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    #back-to-street-btn:hover {
+      transform: scale(1.04);
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.75), 0 0 26px rgba(245, 215, 156, 0.85);
+    }
+
+    /* Active Step-Through Scene Banner */
+    #scene-active-banner {
+      position: fixed;
+      top: 120px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 32;
+      background: rgba(28, 22, 16, 0.86);
+      border: 1px solid var(--gold);
+      padding: 10px 22px;
+      border-radius: 14px;
+      text-align: center;
+      pointer-events: none;
+      backdrop-filter: blur(6px);
+    }
+    #scene-banner-title {
+      font-size: 1.05rem;
+      color: var(--gold-bright);
+      margin-bottom: 3px;
+    }
+    #scene-banner-sub {
+      font-size: 0.86rem;
+      font-style: italic;
+      color: var(--text-cream);
+    }
+
+    /* Bottom Interaction Prompt Bar */
+    #interaction-bar {
+      position: fixed;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 40;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .primary-action-btn {
+      background: rgba(28, 22, 16, 0.94);
+      border: 2px solid var(--gold-bright);
+      color: var(--text-cream);
+      padding: 12px 24px;
+      border-radius: 999px;
+      font-family: var(--font-serif);
+      font-size: 1.02rem;
+      cursor: pointer;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6), 0 0 16px rgba(219, 184, 123, 0.35);
+      transition: background 0.15s, transform 0.12s;
+    }
+    .primary-action-btn:hover {
+      background: rgba(62, 48, 33, 0.98);
+      transform: translateY(-2px);
+    }
+    .secondary-action-btn {
+      background: rgba(28, 22, 16, 0.88);
+      border: 1px solid var(--gold);
+      color: var(--gold-bright);
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-family: var(--font-serif);
+      font-size: 0.92rem;
+      cursor: pointer;
+    }
+
+    /* Toast Notification */
+    #pilgrim-toast {
+      position: fixed;
+      bottom: 96px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 50;
+      background: rgba(30, 24, 17, 0.95);
+      border: 1px solid var(--gold-bright);
+      color: var(--gold-bright);
+      padding: 10px 22px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      text-align: center;
+      max-width: 90vw;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.55);
+      pointer-events: none;
+    }
+
+    /* Controls Help Footer */
+    #controls-hint {
+      position: fixed;
+      bottom: 10px;
+      right: 16px;
+      z-index: 25;
+      font-size: 0.78rem;
+      color: rgba(247, 238, 220, 0.65);
+      background: rgba(20, 16, 12, 0.65);
+      padding: 5px 11px;
+      border-radius: 8px;
+      pointer-events: none;
+    }
+
+    /* Mobile Touch Virtual Joystick */
+    #joystick-zone {
+      position: fixed;
+      bottom: 24px;
+      left: 24px;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: rgba(28, 22, 16, 0.55);
+      border: 1.5px solid rgba(219, 184, 123, 0.45);
+      z-index: 35;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      touch-action: none;
+    }
+    #joystick-knob {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(219, 184, 123, 0.8);
+      border: 2px solid #fff3d6;
+      pointer-events: none;
+    }
+    @media (pointer: coarse), (max-width: 820px) {
+      #joystick-zone {
+        display: flex;
+      }
+      #controls-hint {
+        display: none;
+      }
+    }
+
+    /* Modal Overlays (Poem Plaque, Gatehouse, Long Scroll, Cover Shelf) */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      background: rgba(14, 11, 8, 0.82);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-card {
+      background: var(--bg-parchment);
+      color: #241d15;
+      border: 2px solid #b89458;
+      border-radius: 16px;
+      max-width: 880px;
+      width: 100%;
+      max-height: 88vh;
+      overflow-y: auto;
+      padding: 28px 32px;
+      position: relative;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.75);
+      user-select: text;
+      -webkit-user-select: text;
+    }
+    .modal-close {
+      position: sticky;
+      top: 0;
+      float: right;
+      background: #2b2219;
+      color: #f7eedc;
+      border: 1px solid #b89458;
+      padding: 6px 14px;
+      border-radius: 99px;
+      font-family: var(--font-serif);
+      font-size: 0.88rem;
+      cursor: pointer;
+    }
+
+    /* Poem Plaque Layout */
+    .poem-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      align-items: center;
+      margin-top: 8px;
+    }
+    @media (max-width: 720px) {
+      .poem-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+    .poem-art-frame img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 3px solid #8c6d3f;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
+      display: block;
+    }
+    .poem-eyebrow {
+      font-size: 0.78rem;
+      letter-spacing: 0.2em;
+      color: #7d6338;
+      margin-bottom: 6px;
+    }
+    .poem-title {
+      font-size: 1.9rem;
+      font-weight: normal;
+      color: #1e1710;
+      margin-bottom: 4px;
+    }
+    .poem-ref {
+      font-style: italic;
+      color: #6b5635;
+      margin-bottom: 18px;
+      font-size: 1rem;
+    }
+    .poem-body {
+      white-space: pre-line;
+      line-height: 1.68;
+      font-size: 1.08rem;
+      color: #2b2118;
+      margin-bottom: 22px;
+    }
+    .gold-btn {
+      display: inline-block;
+      background: #2b2219;
+      color: #f5dfaf;
+      border: 1.5px solid #b89458;
+      padding: 10px 20px;
+      border-radius: 99px;
+      font-family: var(--font-serif);
+      font-size: 0.96rem;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .gold-btn:hover {
+      background: #423425;
+    }
+
+    /* Long Scroll Grid */
+    .scroll-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+    .scroll-card {
+      background: #ede2ce;
+      border: 1px solid #cbb389;
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .scroll-card.active-district {
+      border: 2px solid #8c6422;
+      background: #f5ebd6;
+    }
+    .scroll-card-cover {
+      position: relative;
+      width: 58px;
+      height: 58px;
+      flex-shrink: 0;
+      border-radius: 6px;
+      overflow: hidden;
+      background: #33291f;
+    }
+    .scroll-card-cover img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .scroll-num {
+      position: absolute;
+      bottom: 2px;
+      right: 4px;
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      font-size: 0.68rem;
+      padding: 1px 4px;
+      border-radius: 4px;
+    }
+    .scroll-card-info h4 {
+      font-size: 0.95rem;
+      margin-bottom: 2px;
+    }
+    .scroll-card-info p {
+      font-size: 0.78rem;
+      color: #5c4b32;
+      margin-bottom: 4px;
+    }
+    .scroll-status {
+      font-size: 0.72rem;
+      color: #7d5b21;
+      font-weight: bold;
+    }
+
+    /* Cover Shelf Card */
+    .shelf-book-card {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      background: #ede2ce;
+      border: 1px solid #c4a878;
+      border-radius: 12px;
+      padding: 18px;
+      margin-top: 16px;
+    }
+    .shelf-book-card img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #8c6d3f;
+    }
+    .shelf-sub {
+      font-style: italic;
+      color: #634f33;
+      margin: 4px 0 10px;
+    }
+    .shelf-desc {
+      margin-bottom: 14px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <!-- Loading Overlay -->
+  <div id="loading-screen">
+    <div class="loading-eyebrow">The Sixty-Six · Poems &amp; Pictures by Timothy Holt</div>
+    <h1 class="loading-title">The Pilgrim Walk</h1>
+    <p class="loading-sub">District I: In the Beginning — Genesis in Poems &amp; Pictures</p>
+    <div class="loading-bar-track">
+      <div id="loading-bar-fill"></div>
+    </div>
+    <div id="loading-status">Preparing painterly world from Timothy Holt’s paintings…</div>
+  </div>
+
+  <!-- Graceful WebGL Unavailable Fallback (§9) -->
+  <div id="webgl-fallback" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <h2>3D WebGL View Unavailable</h2>
+      <p style="margin-top:10px;line-height:1.6;">
+        Your browser or device currently has WebGL 3D hardware acceleration disabled. Please enable WebGL in your browser settings to walk through Timothy Holt’s paintings.
+      </p>
+    </div>
+  </div>
+
+  <!-- 3D World Canvas -->
+  <canvas id="world-canvas"></canvas>
+
+  <!-- Top HUD -->
+  <header id="top-hud">
+    <div class="hud-cluster">
+      <button id="btn-walk-gatehouse" class="hud-pill">⛩ 3D Gatehouse</button>
+      <button id="btn-district-genesis" class="hud-pill active-pill">🏛 I · Genesis</button>
+      <button id="btn-district-exodus" class="hud-pill">🔥 II · Exodus</button>
+      <button id="btn-district-fire-by-night" class="hud-pill">🕯 III · Fire by Night</button>
+      <button id="btn-district-choose-life" class="hud-pill">🌿 IV · Choose Life</button>
+      <button id="btn-district-joshua-judges" class="hud-pill">🎺 V · Joshua &amp; Judges</button>
+      <button id="btn-district-ruth" class="hud-pill">🌾 VI · Ruth</button>
+      <button id="btn-tripo-studio" class="hud-pill">🎨 Tripo3D (13 Relics)</button>
+      <button id="btn-gatehouse" class="hud-pill">📖 Intro</button>
+      <button id="btn-long-scroll" class="hud-pill">📜 44 Books</button>
+      <button id="btn-cover-shelf" class="hud-pill">📚 Shelf</button>
+    </div>
+    <div class="hud-cluster">
+      <span id="lantern-glow-indicator" class="hud-pill hud-stat">✦ Lantern lit</span>
+      <span id="hud-lights-count" class="hud-pill hud-stat">0 / 4 Lights</span>
+      <span id="hud-paintings-count" class="hud-pill hud-stat">0 / 40 Poems</span>
+      <button id="btn-mode-toggle" class="hud-pill">Mode: Story Walk</button>
+      <button id="btn-audio-toggle" class="hud-pill">Sound: On</button>
+      <button id="btn-a11y-motion" class="hud-pill">Motion: Standard</button>
+      <button id="btn-a11y-text" class="hud-pill">Text: Standard</button>
+    </div>
+  </header>
+
+  <!-- Step-Through Scene Quick-Jump Strip (dynamically updated for active district) -->
+  <nav id="prototype-scene-strip" aria-label="Step-Through Scenes"></nav>
+
+  <!-- HARD UX REQUIREMENT (§5a): Always-on-screen "Back to the street" control while inside any scene -->
+  <button id="back-to-street-btn" class="hidden" aria-label="Back to the street">
+    ← Back to the street
+  </button>
+
+  <!-- Active Step-Through Scene Banner -->
+  <div id="scene-active-banner" class="hidden">
+    <div id="scene-banner-title"></div>
+    <div id="scene-banner-sub"></div>
+  </div>
+
+  <!-- Bottom Interaction Prompt Bar -->
+  <div id="interaction-bar" class="hidden">
+    <button id="interact-prompt-btn" class="primary-action-btn"></button>
+    <button id="read-poem-secondary-btn" class="secondary-action-btn hidden"></button>
+  </div>
+
+  <!-- Toast Message -->
+  <div id="pilgrim-toast" class="hidden"></div>
+
+  <!-- Mobile Touch Joystick -->
+  <div id="joystick-zone">
+    <div id="joystick-knob"></div>
+  </div>
+
+  <!-- Desktop Controls Hint -->
+  <div id="controls-hint">
+    WASD / Arrows: Walk · Mouse / Drag: Look · [E]: Interact / Step Through Frame · [R]: Read Poem
+  </div>
+
+  <!-- POEM & PAINTING PLAQUE MODAL (§5) -->
+  <div id="poem-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <button class="modal-close" data-close-modal>Close [Esc]</button>
+      <div class="poem-layout">
+        <div class="poem-art-frame">
+          <img id="poem-modal-img" src="" alt="Painting by Timothy Holt" />
+        </div>
+        <div class="poem-text-col">
+          <div id="poem-modal-num" class="poem-eyebrow">GENESIS · NO. 1</div>
+          <h2 id="poem-modal-title" class="poem-title"></h2>
+          <div id="poem-modal-ref" class="poem-ref"></div>
+          <div id="poem-modal-body" class="poem-body"></div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;">
+            <button id="poem-modal-step-btn" class="gold-btn hidden">
+              ✦ Step Through Frame into this Painting
+            </button>
+            <button class="gold-btn" data-close-modal>Continue Walking</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GATEHOUSE HUB MODAL -->
+  <div id="gatehouse-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <button class="modal-close" data-close-modal>Close [Esc]</button>
+      <div class="poem-eyebrow">THE GATEHOUSE COURTYARD · BEFORE YOU BEGIN</div>
+      <h2 id="gatehouse-modal-title" class="poem-title">In the Beginning — Genesis in Poems &amp; Pictures</h2>
+      <p id="gatehouse-modal-sub" class="poem-ref">40 Paintings · 4 Parts · 4 Hidden Lights · Step-Through Scenes</p>
+      <div id="gatehouse-modal-body" class="poem-body" style="margin-bottom:20px;"></div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <button id="gatehouse-btn-courtyard" class="gold-btn">⛩ Walk 3D Gatehouse (44 Gates)</button>
+        <button id="gatehouse-btn-genesis" class="gold-btn">🏛 I: Genesis</button>
+        <button id="gatehouse-btn-exodus" class="gold-btn">🔥 II: Exodus</button>
+        <button id="gatehouse-btn-fire-by-night" class="gold-btn">🕯 III: Fire by Night</button>
+        <button id="gatehouse-btn-choose-life" class="gold-btn">🌿 IV: Choose Life</button>
+        <button id="gatehouse-btn-joshua-judges" class="gold-btn">🎺 V: Joshua &amp; Judges</button>
+        <button id="gatehouse-btn-ruth" class="gold-btn">🌾 VI: Ruth</button>
+        <button class="gold-btn" data-close-modal>Resume Current Walk</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRIPO3D STUDIO 13-RELIC WORKSHOP MODAL -->
+  <div id="tripo-modal" class="modal-backdrop hidden">
+    <div class="modal-card" style="max-width:960px;">
+      <button class="modal-close" data-close-modal>Close [Esc]</button>
+      <div class="poem-eyebrow">TRIPO3D STUDIO INTEGRATION · 200 MONTHLY CREDITS = 13 HERO RELICS</div>
+      <h2 class="poem-title">13 Sacred Hero Relics for Tripo3D Studio</h2>
+      <p class="poem-ref">
+        Your paintings already depict isolated sacred objects in studio-clean light. Click <strong>Download Reference Art</strong> on any slot below, upload it into <a href="https://studio.tripo3d.ai/" target="_blank" rel="noopener noreferrer" style="color:#6e4f1d;font-weight:bold;">studio.tripo3d.ai</a> (Image-to-3D), and either save the exported <code>.glb</code> into <code>assets/models/</code> or click <strong>Test .glb Now</strong> to hot-swap it live into your 3D world!
+      </p>
+      <div id="tripo-relics-list" style="display:flex;flex-direction:column;gap:14px;margin-top:14px;"></div>
+    </div>
+  </div>
+
+  <!-- THE LONG SCROLL (44 DISTRICTS MAP) MODAL -->
+  <div id="scroll-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <button class="modal-close" data-close-modal>Close [Esc]</button>
+      <div class="poem-eyebrow">THE LONG SCROLL · 44 BOOKS · 1,677 PAINTINGS</div>
+      <h2 class="poem-title">The Storyline of the Bible</h2>
+      <p class="poem-ref">Click any open district below to travel immediately to its street</p>
+      <div id="scroll-districts-list" class="scroll-grid"></div>
+    </div>
+  </div>
+
+  <!-- THE COVER SHELF MODAL (§4 Commerce Rule: Shop links exist ONLY here) -->
+  <div id="shelf-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <button class="modal-close" data-close-modal>Close [Esc]</button>
+      <div class="poem-eyebrow">THE GATEHOUSE COVER SHELF</div>
+      <h2 class="poem-title">Poems &amp; Pictures Books by Timothy Holt</h2>
+      <p class="poem-ref">Every district places its book cover here on the Gatehouse shelf.</p>
+      <div id="shelf-books-grid"></div>
+    </div>
+  </div>
+
+  <!-- AMEN GATE CEREMONY MODAL -->
+  <div id="amen-modal" class="modal-backdrop hidden">
+    <div class="modal-card" style="text-align:center;">
+      <button class="modal-close" data-close-modal>Close [Esc]</button>
+      <div id="amen-modal-eyebrow" class="poem-eyebrow">AMEN GATE · DISTRICT COMPLETED</div>
+      <h2 id="amen-modal-title" class="poem-title">In the Beginning — Completed</h2>
+      <p id="amen-modal-quote" class="poem-ref">“God will surely visit you… take my bones with you when you go.”</p>
+      <img id="amen-modal-cover" src="assets/genesis/web/g-001-000.jpg" alt="Book Cover" style="width:200px;height:200px;border-radius:10px;border:3px solid #8c6d3f;margin:14px auto;display:block;" />
+      <p id="amen-modal-desc" style="max-width:540px;margin:0 auto 20px;line-height:1.65;">
+        Your lantern brightens by one degree, and <em>In the Beginning</em> now rests on the Gatehouse Cover Shelf.
+      </p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+        <button id="amen-next-district-btn" class="gold-btn">✦ Continue to District II: Let My People Go (Exodus) →</button>
+        <button class="gold-btn" data-close-modal>Remain on This Road</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

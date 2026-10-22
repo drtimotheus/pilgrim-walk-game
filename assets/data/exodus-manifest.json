@@ -1,0 +1,807 @@
+{
+  "slug": "exodus",
+  "title": "Let My People Go",
+  "subtitle": "Exodus in Poems & Pictures",
+  "beforeYouBegin": "Exodus runs from brick kilns in Egypt to a tent in the desert with God living in the middle of the camp: a basket in the reeds, a burning bush, a marked doorway, a road through the sea, bread from the sky, a mountain on fire.\n\nThis book walks through it in forty short poems, in four parts. Each poem sits beside a picture and under a single line of Scripture. It doesn't cover every chapter; it stops at the moments that carry the story.\n\nThe poems are not the Bible. They are one reader's response to it. Open Exodus alongside this book, and let the real words have the last word.",
+  "parts": [
+    {
+      "index": 1,
+      "title": "Part One \u00b7 Out of the Reeds",
+      "epigraph": "God heard their groaning, and God remembered his covenant",
+      "epigraphRef": "EXODUS 2:24",
+      "startN": 1,
+      "endN": 10
+    },
+    {
+      "index": 2,
+      "title": "Part Two \u00b7 Let My People Go",
+      "epigraph": "Let my people go, that they may serve me.",
+      "epigraphRef": "EXODUS 8:1",
+      "startN": 11,
+      "endN": 18
+    },
+    {
+      "index": 3,
+      "title": "Part Three \u00b7 Through the Sea",
+      "epigraph": "Yahweh will fight for you, and you shall be still.",
+      "epigraphRef": "EXODUS 14:14",
+      "startN": 19,
+      "endN": 27
+    },
+    {
+      "index": 4,
+      "title": "Part Four \u00b7 The Mountain and the Tent",
+      "epigraph": "Yahweh's glory filled the tabernacle.",
+      "epigraphRef": "EXODUS 40:34",
+      "startN": 28,
+      "endN": 40
+    }
+  ],
+  "cover": "assets/exodus/web/e-002-000.jpg",
+  "paintings": [
+    {
+      "n": 1,
+      "file": "e-002-001.jpg",
+      "webSrc": "assets/exodus/web/e-002-001.jpg",
+      "heroSrc": "assets/exodus/web/e-002-001.jpg",
+      "title": "the midwives",
+      "ref": "Exodus 1:15-17",
+      "poem": "the first heroes of Exodus\naren't famous.\nShiphrah and Puah,\ntwo midwives.\nthe king of Egypt said:\nkill the boys.\nthey went back to work\nand delivered them.\nbefore the plagues,\nbefore the sea,\nthe rescue began\nwith two women\nwho feared God\nmore than Pharaoh.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#9b8c75",
+        "horizon": "#72624b",
+        "ground": "#948265",
+        "overall": "#8f7f65",
+        "accent": "#e8dbc5"
+      }
+    },
+    {
+      "n": 2,
+      "file": "e-002-002.jpg",
+      "webSrc": "assets/exodus/web/e-002-002.jpg",
+      "heroSrc": "assets/exodus/web/e-002-002.jpg",
+      "title": "the basket",
+      "ref": "Exodus 2:1-4",
+      "poem": "when she couldn't hide him any longer,\nshe did the only thing left:\nshe wove a basket,\nsealed it tight,\nand let go.\nthe same word as Noah's ark\u2014\na little ark,\nfloating on the river\nthat was meant to drown him.\nsometimes faith\nlooks like a mother's hands\nopening.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#dfcea6",
+        "horizon": "#b19f76",
+        "ground": "#71674e",
+        "overall": "#a89975",
+        "accent": "#e9d5a0"
+      }
+    },
+    {
+      "n": 3,
+      "file": "e-002-003.jpg",
+      "webSrc": "assets/exodus/web/e-002-003.jpg",
+      "heroSrc": "assets/exodus/web/e-002-003.jpg",
+      "title": "drawn out",
+      "ref": "Exodus 2:5-10",
+      "poem": "Pharaoh's own daughter\nfound him crying in the reeds,\nand pitied him.\nand the baby's sister\nstepped out of hiding:\nshall I find you a nurse?\nso his mother\nwas paid\nto raise her own son.\nshe named him Moses\u2014\ndrawn out.\na whole nation\nwould one day be drawn out\nbehind him.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cdbd99",
+        "horizon": "#9d906f",
+        "ground": "#7b7258",
+        "overall": "#9d9071",
+        "accent": "#e7dbb6"
+      }
+    },
+    {
+      "n": 4,
+      "file": "e-002-004.jpg",
+      "webSrc": "assets/exodus/web/e-002-004.jpg",
+      "heroSrc": "assets/exodus/web/e-002-004.jpg",
+      "title": "it went up",
+      "ref": "Exodus 2:23-25",
+      "poem": "the years went by.\nthe king died.\nthe bricks did not stop.\nand they groaned,\nand cried,\nand it went up.\nGod heard.\nGod remembered.\nGod saw.\nand he cared.\nno cry of yours\nhas ever stopped\nat the ceiling.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d8caa9",
+        "horizon": "#ad9b7c",
+        "ground": "#9b896c",
+        "overall": "#af9e80",
+        "accent": "#eae0c4"
+      }
+    },
+    {
+      "n": 5,
+      "file": "e-002-005.jpg",
+      "webSrc": "assets/exodus/web/e-002-005.jpg",
+      "heroSrc": "assets/exodus/hero/e-002-005.jpg",
+      "title": "turn aside",
+      "ref": "Exodus 3:1-3",
+      "poem": "eighty years old,\na shepherd now,\nfar from the palace\u2014\nand a bush onfire\nthat wouldn't burn up.\nhe turned aside to look.\nthat's all it took:\ncuriosity,\na detour,\na man willing to stop\nand see.",
+      "part": 1,
+      "isScene": true,
+      "sceneKind": "bush",
+      "palette": {
+        "top": "#c8b28f",
+        "horizon": "#ac8c61",
+        "ground": "#62543c",
+        "overall": "#97815f",
+        "accent": "#f3bb61",
+        "kind": "bush"
+      }
+    },
+    {
+      "n": 6,
+      "file": "e-002-006.jpg",
+      "webSrc": "assets/exodus/web/e-002-006.jpg",
+      "heroSrc": "assets/exodus/web/e-002-006.jpg",
+      "title": "holy ground",
+      "ref": "Exodus 3:4-5",
+      "poem": "take off  your sandals.\nthe same dirt he'd walked for years\nwith sheep.\nthe same rocks.\nholy ground.\nGod doesn't only meet us\nin temples.\nhe turns ordinary ground\nholy\nby showing up on it.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c4ab80",
+        "horizon": "#9d8560",
+        "ground": "#867050",
+        "overall": "#9f8762",
+        "accent": "#eeb55b"
+      }
+    },
+    {
+      "n": 7,
+      "file": "e-002-007.jpg",
+      "webSrc": "assets/exodus/web/e-002-007.jpg",
+      "heroSrc": "assets/exodus/web/e-002-007.jpg",
+      "title": "who am I?",
+      "ref": "Exodus 3:11-12",
+      "poem": "who am I? he asked.\na fair question.\na fugitive. a shepherd.\na man who ran from Egypt\nlong ago.\nand God didn't answer it.\nhe didn't say:\nyou are strong,\nyou are ready,\nyou are enough.\nhe said:\nI will be with you.\nthe answer\nto a better question.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#dacfb5",
+        "horizon": "#ada186",
+        "ground": "#8b7959",
+        "overall": "#ac9e80",
+        "accent": "#e3d8bb"
+      }
+    },
+    {
+      "n": 8,
+      "file": "e-002-008.jpg",
+      "webSrc": "assets/exodus/web/e-002-008.jpg",
+      "heroSrc": "assets/exodus/web/e-002-008.jpg",
+      "title": "I AM",
+      "ref": "Exodus 3:13-14",
+      "poem": "what's your name? Moses asked.\nthey'll want to know.\nand God gave a name\nthat is also a sentence:\nI am who I am.\nnot a title.\nnot a job.\nbeing itself,\nspeaking.\nyou don't need to know\nwhat I'll do, he seemed to say.\nyou need to know\nI am.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#353531",
+        "horizon": "#685b41",
+        "ground": "#312d24",
+        "overall": "#433e32",
+        "accent": "#ecc35c"
+      }
+    },
+    {
+      "n": 9,
+      "file": "e-002-009.jpg",
+      "webSrc": "assets/exodus/web/e-002-009.jpg",
+      "heroSrc": "assets/exodus/web/e-002-009.jpg",
+      "title": "in your hand",
+      "ref": "Exodus 4:1-5",
+      "poem": "what's in your hand?\na stick.\na shepherd's rod.\nnothing special.\nGod said: throw it down.\nand then: pick it up.\nthat stick\nwould one day split a sea.\nGod rarely asks\nfor what you don't have.\nhe asks\nfor what's already in your hand.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d8c8a5",
+        "horizon": "#c2ae8b",
+        "ground": "#a18e6b",
+        "overall": "#baa885",
+        "accent": "#e6d5ae"
+      }
+    },
+    {
+      "n": 10,
+      "file": "e-002-010.jpg",
+      "webSrc": "assets/exodus/web/e-002-010.jpg",
+      "heroSrc": "assets/exodus/web/e-002-010.jpg",
+      "title": "no straw",
+      "ref": "Exodus 5:6-9",
+      "poem": "Moses asked for freedom,\nand things got worse.\nno more straw.\nsame number of bricks.\nsometimes obedience\nis followed by a harder week,\nnot a better one.\nthe story isn't over\nin chapterfive.",
+      "part": 1,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cec4ad",
+        "horizon": "#aaa491",
+        "ground": "#65614e",
+        "overall": "#99927d",
+        "accent": "#e3d6bc"
+      }
+    },
+    {
+      "n": 11,
+      "file": "e-002-011.jpg",
+      "webSrc": "assets/exodus/web/e-002-011.jpg",
+      "heroSrc": "assets/exodus/web/e-002-011.jpg",
+      "title": "the river",
+      "ref": "Exodus 7:19-21",
+      "poem": "Egypt trusted the Nile.\nit fed them,\nwatered them\u2014\nand had drowned the Hebrew boys.\nso the first sign\nstruck the river.\nthe thing they trusted most\nturned against them.\nevery plague that followed\nasked the same question:\nwhich god\nis really God?",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d2c8af",
+        "horizon": "#aba28c",
+        "ground": "#645447",
+        "overall": "#9e927d",
+        "accent": "#efdcb6"
+      }
+    },
+    {
+      "n": 12,
+      "file": "e-002-012.jpg",
+      "webSrc": "assets/exodus/web/e-002-012.jpg",
+      "heroSrc": "assets/exodus/web/e-002-012.jpg",
+      "title": "tomorrow",
+      "ref": "Exodus 8:8-10",
+      "poem": "frogs in the ovens.\nfrogs in the beds.\nfrogs in the king's own room.\nwhen do you want them gone?\nMoses asked.\nand Pharaoh said:\ntomorrow.\none more night with the frogs.\nhow often\ndo we choose that\u2014\none more night\nwith the thing we're begging God\nto take away?",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c5b594",
+        "horizon": "#92856e",
+        "ground": "#97886b",
+        "overall": "#a19276",
+        "accent": "#e6cc99"
+      }
+    },
+    {
+      "n": 13,
+      "file": "e-002-013.jpg",
+      "webSrc": "assets/exodus/web/e-002-013.jpg",
+      "heroSrc": "assets/exodus/web/e-002-013.jpg",
+      "title": "light in Goshen",
+      "ref": "Exodus 10:21-23",
+      "poem": "darkness so thick\nyou could feel it.\nthree days.\nno one moved.\nand in Goshen,\nin the slaves' houses,\nlight.\nthe same land.\nthe same night.\na diff erent house.\nthe dark was real.\nso was the light\nin the homes\nthat belonged to him.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#1f1f1b",
+        "horizon": "#3e392f",
+        "ground": "#423b2e",
+        "overall": "#39342a",
+        "accent": "#be864b"
+      }
+    },
+    {
+      "n": 14,
+      "file": "e-002-014.jpg",
+      "webSrc": "assets/exodus/web/e-002-014.jpg",
+      "heroSrc": "assets/exodus/hero/e-002-014.jpg",
+      "title": "when I see",
+      "ref": "Exodus 12:7-13",
+      "poem": "a lamb for each house.\nits blood on the doorframe.\nhyssop in the hand.\nnot because God needed a sign\ntofind them.\nbecause they needed one\nto know\nwhere to stand.\nwhen I see the blood,\nI will pass over you.\nChristians have been reading\nthat line\never since.",
+      "part": 2,
+      "isScene": true,
+      "sceneKind": "passover",
+      "palette": {
+        "top": "#5d5244",
+        "horizon": "#78654e",
+        "ground": "#76674e",
+        "overall": "#6d5e49",
+        "accent": "#e7bf7b",
+        "kind": "passover"
+      }
+    },
+    {
+      "n": 15,
+      "file": "e-002-015.jpg",
+      "webSrc": "assets/exodus/web/e-002-015.jpg",
+      "heroSrc": "assets/exodus/web/e-002-015.jpg",
+      "title": "in haste",
+      "ref": "Exodus 12:8-11",
+      "poem": "eat it standing up.\nbelt fastened.\nsandals on.\nstaff  in hand.\nthis isn't a meal\nfor lingering.\nit's the last supper\nof slaves\nand the first breakfast\nof free people.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d5bf97",
+        "horizon": "#aa9978",
+        "ground": "#8e7d61",
+        "overall": "#ab9978",
+        "accent": "#edd7ab"
+      }
+    },
+    {
+      "n": 16,
+      "file": "e-002-016.jpg",
+      "webSrc": "assets/exodus/web/e-002-016.jpg",
+      "heroSrc": "assets/exodus/web/e-002-016.jpg",
+      "title": "no time to rise",
+      "ref": "Exodus 12:33-34",
+      "poem": "no time for the bread to rise.\nthey tied the dough in their cloaks,\nkneading bowls and all,\nand walked out of Egypt\nwith breakfast on their shoulders.\nfreedom came so fast\nthe bread\ncouldn't keep up.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c6b89a",
+        "horizon": "#a6997a",
+        "ground": "#9d9074",
+        "overall": "#aea183",
+        "accent": "#d3c7a8"
+      }
+    },
+    {
+      "n": 17,
+      "file": "e-002-017.jpg",
+      "webSrc": "assets/exodus/web/e-002-017.jpg",
+      "heroSrc": "assets/exodus/web/e-002-017.jpg",
+      "title": "remember",
+      "ref": "Exodus 13:3",
+      "poem": "remember.\nbecause you will forget.\nthe cracked hands.\nthe bricks.\nthe cry that went up.\nremembering\nisn't looking backward.\nit's how you stay free.\nevery year, at the same table,\ntell it again.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#676562",
+        "horizon": "#635a4e",
+        "ground": "#987e5a",
+        "overall": "#7a6c59",
+        "accent": "#efd0a1"
+      }
+    },
+    {
+      "n": 18,
+      "file": "e-002-018.jpg",
+      "webSrc": "assets/exodus/web/e-002-018.jpg",
+      "heroSrc": "assets/exodus/web/e-002-018.jpg",
+      "title": "the pillar",
+      "ref": "Exodus 13:21-22",
+      "poem": "by day, a cloud.\nby night, fire.\nthey never had a map.\nthey had a presence\nthat moved.\nwhen it went, they went.\nwhen it stopped, they stopped.\nit's a strange way to travel.\nit's how he has led\nhis people\never since.",
+      "part": 2,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#4e493b",
+        "horizon": "#8b7f64",
+        "ground": "#322f25",
+        "overall": "#5a5240",
+        "accent": "#fbd283"
+      }
+    },
+    {
+      "n": 19,
+      "file": "e-002-019.jpg",
+      "webSrc": "assets/exodus/web/e-002-019.jpg",
+      "heroSrc": "assets/exodus/web/e-002-019.jpg",
+      "title": "stand still",
+      "ref": "Exodus 14:10-14",
+      "poem": "the sea in front.\nthe army behind.\nnowhere to go.\nand Moses said:\ndon't be afraid.\nstand still.\nthe Lord will fight for you.\nsometimes faith\nis doing nothing\u2014\nnot out of fear,\nbut out of trust\nthat someone else\nis about to move.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#7b7c6e",
+        "horizon": "#8a8777",
+        "ground": "#3a423b",
+        "overall": "#686a5e",
+        "accent": "#fbe9c4"
+      }
+    },
+    {
+      "n": 20,
+      "file": "e-002-020.jpg",
+      "webSrc": "assets/exodus/web/e-002-020.jpg",
+      "heroSrc": "assets/exodus/hero/e-002-020.jpg",
+      "title": "a road through",
+      "ref": "Exodus 14:21-22",
+      "poem": "all night\nan east wind blew.\nand in the morning,\na road\nwhere the sea had been.\nwalls of water\non the right\nand on the left,\nand a whole people\nwalking through\non dry ground.\nhe doesn't always\ntake away the sea.\nsometimes\nhe makes a road through it.",
+      "part": 3,
+      "isScene": true,
+      "sceneKind": "redsea",
+      "palette": {
+        "top": "#ebe1cc",
+        "horizon": "#88907f",
+        "ground": "#92856b",
+        "overall": "#a7a18c",
+        "accent": "#f6f0dc",
+        "kind": "redsea"
+      }
+    },
+    {
+      "n": 21,
+      "file": "e-002-021.jpg",
+      "webSrc": "assets/exodus/web/e-002-021.jpg",
+      "heroSrc": "assets/exodus/web/e-002-021.jpg",
+      "title": "wet feet",
+      "ref": "Exodus 15:20-21",
+      "poem": "first the silence of the crossing,\nthen the far shore,\nthen Miriam\npicking up a tambourine.\nand every woman followed her,\ndancing on the sand.\nsing to the Lord,\nshe called\u2014\nand a song\nwas born\nwith wet feet.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cec09b",
+        "horizon": "#9d9376",
+        "ground": "#897c5f",
+        "overall": "#a29677",
+        "accent": "#ddd2b0"
+      }
+    },
+    {
+      "n": 22,
+      "file": "e-002-022.jpg",
+      "webSrc": "assets/exodus/web/e-002-022.jpg",
+      "heroSrc": "assets/exodus/web/e-002-022.jpg",
+      "title": "bitter water",
+      "ref": "Exodus 15:22-25",
+      "poem": "three days after the miracle\nthey were thirsty,\nand the water was bitter.\nit didn't take long\nto forget the sea.\nand God didn't scold.\nhe showed Moses a tree,\nand the tree went into the water,\nand the water turned sweet.\nhe is patient\nwith short memories.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c7bb9c",
+        "horizon": "#998d72",
+        "ground": "#7a6f58",
+        "overall": "#998d73",
+        "accent": "#dacba7"
+      }
+    },
+    {
+      "n": 23,
+      "file": "e-002-023.jpg",
+      "webSrc": "assets/exodus/web/e-002-023.jpg",
+      "heroSrc": "assets/exodus/web/e-002-023.jpg",
+      "title": "what is it?",
+      "ref": "Exodus 16:13-15",
+      "poem": "the name of the bread\nis a question:\nwhat is it?\nflakes like frost on the ground\nevery morning\nfor forty years.\nthey never could explain it.\nthey could only\ngather it\nand give thanks.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d1c5ab",
+        "horizon": "#a2957d",
+        "ground": "#b2a58e",
+        "overall": "#b1a58d",
+        "accent": "#e7d7b2"
+      }
+    },
+    {
+      "n": 24,
+      "file": "e-002-024.jpg",
+      "webSrc": "assets/exodus/web/e-002-024.jpg",
+      "heroSrc": "assets/exodus/web/e-002-024.jpg",
+      "title": "enough",
+      "ref": "Exodus 16:16-18",
+      "poem": "some gathered a lot.\nsome gathered a little.\nand when they measured it,\neveryone had enough.\nno one hoarding.\nno one hungry.\nit was bread.\nit was also a lesson\nin how God's economy\nworks.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e5d9b3",
+        "horizon": "#b9a780",
+        "ground": "#c5b389",
+        "overall": "#c7b58d",
+        "accent": "#ebe0b9"
+      }
+    },
+    {
+      "n": 25,
+      "file": "e-002-025.jpg",
+      "webSrc": "assets/exodus/web/e-002-025.jpg",
+      "heroSrc": "assets/exodus/web/e-002-025.jpg",
+      "title": "water from stone",
+      "ref": "Exodus 17:3-6",
+      "poem": "they argued.\nthey tested.\nthey nearly stoned him.\nand God said:\nI'll stand there on the rock.\nstrike it.\nwater from stone.\nwhen we are at our most unreasonable,\nhe is still\nbringing water\nout of the hardest place.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cdc4ad",
+        "horizon": "#968f7e",
+        "ground": "#716a5a",
+        "overall": "#958d7b",
+        "accent": "#ece4d4"
+      }
+    },
+    {
+      "n": 26,
+      "file": "e-002-026.jpg",
+      "webSrc": "assets/exodus/web/e-002-026.jpg",
+      "heroSrc": "assets/exodus/web/e-002-026.jpg",
+      "title": "held-up hands",
+      "ref": "Exodus 17:11-12",
+      "poem": "the battle went well\nwhile his hands were raised,\nand badly\nwhen they dropped.\nand his arms got tired.\nso they sat him on a stone,\nand two friends\nheld up his hands,\none on each side,\nuntil the sun went down.\nnobody can hold on\nall day alone.\nfind your Aaron.\nfind your Hur.\nbe one.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e4c898",
+        "horizon": "#a1855f",
+        "ground": "#957f5c",
+        "overall": "#b19870",
+        "accent": "#fdb66a"
+      }
+    },
+    {
+      "n": 27,
+      "file": "e-002-027.jpg",
+      "webSrc": "assets/exodus/web/e-002-027.jpg",
+      "heroSrc": "assets/exodus/web/e-002-027.jpg",
+      "title": "too heavy",
+      "ref": "Exodus 18:13-18",
+      "poem": "morning to evening,\nMoses settled every dispute\nhimself.\nhis father-in-law watched\nand said:\nthis isn't good.\nyou'll wear out.\nyou can't do this alone.\nsometimes the wisest advice\ncomes from your in-laws:\nget help.\nshare the load.",
+      "part": 3,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#ccb699",
+        "horizon": "#827462",
+        "ground": "#83725f",
+        "overall": "#95846e",
+        "accent": "#debb9e"
+      }
+    },
+    {
+      "n": 28,
+      "file": "e-002-028.jpg",
+      "webSrc": "assets/exodus/web/e-002-028.jpg",
+      "heroSrc": "assets/exodus/web/e-002-028.jpg",
+      "title": "eagles' wings",
+      "ref": "Exodus 19:3-4",
+      "poem": "before the rules,\na reminder:\nyou saw what I did.\nI carried you\non eagles' wings.\nI brought you\nto myself.\nnot to a place.\nnot to a law.\nto me.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c2c9ba",
+        "horizon": "#d3cab2",
+        "ground": "#a09274",
+        "overall": "#beb79f",
+        "accent": "#e9ddbe"
+      }
+    },
+    {
+      "n": 29,
+      "file": "e-002-029.jpg",
+      "webSrc": "assets/exodus/web/e-002-029.jpg",
+      "heroSrc": "assets/exodus/web/e-002-029.jpg",
+      "title": "the mountain smoked",
+      "ref": "Exodus 19:16-18",
+      "poem": "thunder. lightning.\na trumpet growing louder.\nthe whole mountain shaking.\nthis is not a tame God.\nand yet\u2014\nhe came down.\nto them.\nto talk.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c2b397",
+        "horizon": "#b3a88f",
+        "ground": "#8c7f67",
+        "overall": "#a99c82",
+        "accent": "#e9af67"
+      }
+    },
+    {
+      "n": 30,
+      "file": "e-002-030.jpg",
+      "webSrc": "assets/exodus/web/e-002-030.jpg",
+      "heroSrc": "assets/exodus/web/e-002-030.jpg",
+      "title": "who brought you out",
+      "ref": "Exodus 20:1-3",
+      "poem": "the commandments begin\nnot with a command\nbut with a rescue:\nI am the one who brought you out.\nfirst he saves them.\nthen he tells them\nhow free people live.\nthe law isn't the ladder\nout of Egypt.\nit's the shape of life\nafter.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#afa586",
+        "horizon": "#81755c",
+        "ground": "#6c6351",
+        "overall": "#857a63",
+        "accent": "#f7e18d"
+      }
+    },
+    {
+      "n": 31,
+      "file": "e-002-031.jpg",
+      "webSrc": "assets/exodus/web/e-002-031.jpg",
+      "heroSrc": "assets/exodus/web/e-002-031.jpg",
+      "title": "a day off",
+      "ref": "Exodus 20:8-11",
+      "poem": "slaves never get a day off .\nso one of the first things God gives\nfreed slaves,\nbuilt right into the law,\nis rest.\none day in seven\nto remember:\nyou are not bricks.\nyou are not Pharaoh's.\nyou are his.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#c0ad8b",
+        "horizon": "#8b765e",
+        "ground": "#9b8a6e",
+        "overall": "#9f8c70",
+        "accent": "#f4b58f"
+      }
+    },
+    {
+      "n": 32,
+      "file": "e-002-032.jpg",
+      "webSrc": "assets/exodus/web/e-002-032.jpg",
+      "heroSrc": "assets/exodus/web/e-002-032.jpg",
+      "title": "thick darkness",
+      "ref": "Exodus 20:18-21",
+      "poem": "the people stood far off .\nMoses went closer\u2014\ninto the thick darkness,\nwhere God was.\nwe expect tofind him\nin the light.\nsometimes he is waiting\nin the part\nwe can't see through.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#666252",
+        "horizon": "#887d65",
+        "ground": "#564d3b",
+        "overall": "#6c634f",
+        "accent": "#dec79e"
+      }
+    },
+    {
+      "n": 33,
+      "file": "e-002-033.jpg",
+      "webSrc": "assets/exodus/web/e-002-033.jpg",
+      "heroSrc": "assets/exodus/web/e-002-033.jpg",
+      "title": "the calf",
+      "ref": "Exodus 32:1-4",
+      "poem": "forty days is a long time\nto wait for a man on a mountain.\nso they took off  their earrings\nand made a god\nthey could see,\nand said:\nthis is the one who saved you.\nit was a calf.\nit couldn't save anything.\nwe still do it\u2014\nmelt down what God gave us\ninto something smaller\nwe can hold.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cab78b",
+        "horizon": "#7a6443",
+        "ground": "#51432d",
+        "overall": "#826f4f",
+        "accent": "#ebc784"
+      }
+    },
+    {
+      "n": 34,
+      "file": "e-002-034.jpg",
+      "webSrc": "assets/exodus/web/e-002-034.jpg",
+      "heroSrc": "assets/exodus/web/e-002-034.jpg",
+      "title": "blot me out",
+      "ref": "Exodus 32:30-32",
+      "poem": "forgive them, Moses prayed.\nand if you won't\u2014\nblot me out of your book instead.\nhe'd rather lose his own place\nthan lose them.\nit wouldn't be the last time\nsomeone stood\nbetween God's people\nand what they deserved,\nand off ered himself.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d8c5a1",
+        "horizon": "#9e8968",
+        "ground": "#75664d",
+        "overall": "#9f8d6e",
+        "accent": "#e4d0ad"
+      }
+    },
+    {
+      "n": 35,
+      "file": "e-002-035.jpg",
+      "webSrc": "assets/exodus/web/e-002-035.jpg",
+      "heroSrc": "assets/exodus/web/e-002-035.jpg",
+      "title": "as a friend",
+      "ref": "Exodus 33:7-11",
+      "poem": "not as a king to a servant.\nnot as a judge to the accused.\nas a man\nspeaks to his friend.\nthat was the tent's secret:\nthe God of the smoking mountain\nwanted someone\nto talk with.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#d0c19e",
+        "horizon": "#958c75",
+        "ground": "#716448",
+        "overall": "#96896d",
+        "accent": "#f6dba1"
+      }
+    },
+    {
+      "n": 36,
+      "file": "e-002-036.jpg",
+      "webSrc": "assets/exodus/web/e-002-036.jpg",
+      "heroSrc": "assets/exodus/web/e-002-036.jpg",
+      "title": "the cleft of the rock",
+      "ref": "Exodus 33:18-23",
+      "poem": "show me your glory, he asked.\nand God said:\nno one can see my face and live.\nbut I'll hide you in the rock,\nand cover you with my hand,\nand pass by,\nand you will see\nwhere I've been.\nsometimes that's how we see him:\nlooking back,\nfrom the cleft,\nat the glory\nthat just went by.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#b0a487",
+        "horizon": "#988b6e",
+        "ground": "#534a37",
+        "overall": "#857a60",
+        "accent": "#f8de9b"
+      }
+    },
+    {
+      "n": 37,
+      "file": "e-002-037.jpg",
+      "webSrc": "assets/exodus/web/e-002-037.jpg",
+      "heroSrc": "assets/exodus/web/e-002-037.jpg",
+      "title": "his name",
+      "ref": "Exodus 34:5-7",
+      "poem": "Moses asked to see his glory,\nand God answered\nwith his name:\nmerciful.\ngracious.\nslow to anger.\nover flowing with love\nand faithfulness.\nprophets would quote these lines\nfor centuries\u2014\neven Jonah,\ncomplaining.\nthis is who he said he is,\nthe morning after the calf.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#e2d3a3",
+        "horizon": "#c3b590",
+        "ground": "#645f4d",
+        "overall": "#a79c7c",
+        "accent": "#feeda2"
+      }
+    },
+    {
+      "n": 38,
+      "file": "e-002-038.jpg",
+      "webSrc": "assets/exodus/web/e-002-038.jpg",
+      "heroSrc": "assets/exodus/web/e-002-038.jpg",
+      "title": "shining",
+      "ref": "Exodus 34:29-35",
+      "poem": "he came down the mountain\nwith his face shining,\nand didn't know it.\nthat's the best kind of glow\u2014\nthe kind you don't notice\nyou're wearing.\ntime with God\nshows on people\nbefore they know it does.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#9e8f72",
+        "horizon": "#ac9369",
+        "ground": "#8c7856",
+        "overall": "#9c8865",
+        "accent": "#efce74"
+      }
+    },
+    {
+      "n": 39,
+      "file": "e-002-039.jpg",
+      "webSrc": "assets/exodus/web/e-002-039.jpg",
+      "heroSrc": "assets/exodus/web/e-002-039.jpg",
+      "title": "more than enough",
+      "ref": "Exodus 36:3-7",
+      "poem": "the same people who gave their gold\nto make a calf\nnow gave it\nto make a home for God\u2014\nso much\nthat Moses had to say:\nstop.\nwe have more than enough.\nimagine a building project\nwhere they had to tell people\nto stop giving.\ngrace does that\nto a closed hand.",
+      "part": 4,
+      "isScene": false,
+      "sceneKind": null,
+      "palette": {
+        "top": "#cfbf9a",
+        "horizon": "#887860",
+        "ground": "#a08c68",
+        "overall": "#a49272",
+        "accent": "#e3d4af"
+      }
+    },
+    {
+      "n": 40,
+      "file": "e-002-040.jpg",
+      "webSrc": "assets/exodus/web/e-002-040.jpg",
+      "heroSrc": "assets/exodus/hero/e-002-040.jpg",
+      "title": "moving in",
+      "ref": "Exodus 40:34-38",
+      "poem": "the book began\nwith slaves making bricks\nfor Pharaoh's cities.\nit ends\nwith free people\nsetting up a tent for God\u2014\nand God moving in.\ncloud by day.\nfire by night.\nthrough all their journeys.\nhe didn't just bring them out.\nhe came to live\nin the middle of the camp.",
+      "part": 4,
+      "isScene": true,
+      "sceneKind": "tabernacle",
+      "palette": {
+        "top": "#655b4b",
+        "horizon": "#756c5b",
+        "ground": "#574a38",
+        "overall": "#655a48",
+        "accent": "#eac87b",
+        "kind": "tabernacle"
+      }
+    }
+  ]
+}

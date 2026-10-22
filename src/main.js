@@ -12,14 +12,14 @@
 // ============================================================================
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { PainterlyEngine } from './painterly.js?v=44_6';
-import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_6';
-import { PainterlyPropBuilder } from './props.js?v=44_6';
-import { StepThroughSceneManager } from './scenes.js?v=44_6';
-import { GenesisDistrictBuilder } from './district.js?v=44_6';
-import { PilgrimAudio } from './audio.js?v=44_6';
-import { TripoRelicManager } from './tripo.js?v=44_6';
-import { DailyWalkManager } from './daily-walk.js?v=44_6';
+import { PainterlyEngine } from './painterly.js?v=44_7';
+import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_7';
+import { PainterlyPropBuilder } from './props.js?v=44_7';
+import { StepThroughSceneManager } from './scenes.js?v=44_7';
+import { GenesisDistrictBuilder } from './district.js?v=44_7';
+import { PilgrimAudio } from './audio.js?v=44_7';
+import { TripoRelicManager } from './tripo.js?v=44_7';
+import { DailyWalkManager } from './daily-walk.js?v=44_7';
 
 const SAVE_KEY = 'pilgrim_walk_save_v1';
 
@@ -504,8 +504,9 @@ class PilgrimWalkApp {
     this.district.streetGroup.visible = true;
     this.scene.add(this.district.streetGroup);
 
-    // Restore kindled Lights from localStorage
+    // Keep all Part roads open for devotional contemplation and restore any kindled Sanctuary Lights
     this.district.partGatesAndLights.forEach((lObj) => {
+      if (lObj.veilGroup) lObj.veilGroup.visible = false;
       if (this.saveData.lightsKindled.includes(lObj.id)) {
         this.markLightKindled(lObj, true);
       }
@@ -1118,8 +1119,8 @@ class PilgrimWalkApp {
       }
       this.showToast(
         this.walkMode === 'FREE'
-          ? 'Free Walk active: all parts & gates open to wander freely.'
-          : 'Story Walk active: find and kindle each Part’s hidden Light to open the next part.'
+          ? 'Free Walk active: all parts, paintings, and gates open to wander freely.'
+          : 'Story Walk active: walk freely through every part, painting, poem, and scene in storyline order.'
       );
     });
 
@@ -1457,29 +1458,16 @@ class PilgrimWalkApp {
         this.player.position.z = clampedZ;
         this.player.position.y = 1.72;
       } else if (this.mode === 'STREET' && this.district) {
-        // Check Story Walk Part Veil Locks (§4: One hidden Light per part gates the next part)
-        let blockedByVeil = false;
-        if (this.walkMode === 'STORY') {
-          for (const lObj of this.district.partGatesAndLights) {
-            if (!lObj.kindled && nextZ < lObj.veilZ && this.player.position.z >= lObj.veilZ) {
-              blockedByVeil = true;
-              this.showToast(`The road ahead is veiled. Seek and kindle ${lObj.name} (${lObj.hint})—or switch to Free Walk.`);
-              break;
-            }
-          }
-        }
-
-        if (!blockedByVeil) {
-          const minZ = this.district.amenPlaza ? this.district.amenPlaza.position.z - 6 : -444;
-          const clampedZ = Math.max(minZ, Math.min(20, nextZ));
-          const pathPt = this.districtBuilder.getPathPoint(clampedZ);
-          // Allow roaming up to 11.5m left/right of the road center to explore trees & hidden Lights
-          const maxLateral = 11.5;
-          const clampedX = Math.max(pathPt.x - maxLateral, Math.min(pathPt.x + maxLateral, nextX));
-          this.player.position.x = clampedX;
-          this.player.position.z = clampedZ;
-          this.player.position.y = pathPt.y + 1.72;
-        }
+        // Devotional Walk: all parts and transitions along the street are open without roadblocks
+        const minZ = this.district.amenPlaza ? this.district.amenPlaza.position.z - 6 : -444;
+        const clampedZ = Math.max(minZ, Math.min(20, nextZ));
+        const pathPt = this.districtBuilder.getPathPoint(clampedZ);
+        // Allow roaming up to 11.5m left/right of the road center to explore paintings, trees & sanctuary lights
+        const maxLateral = 11.5;
+        const clampedX = Math.max(pathPt.x - maxLateral, Math.min(pathPt.x + maxLateral, nextX));
+        this.player.position.x = clampedX;
+        this.player.position.z = clampedZ;
+        this.player.position.y = pathPt.y + 1.72;
       } else if (this.mode === 'SCENE') {
         // Inside Step-Through Scene: allow walking freely within 22m radius
         const distFromCenter = Math.hypot(nextX, nextZ);

@@ -988,16 +988,18 @@ export class GenesisDistrictBuilder {
           blending: THREE.AdditiveBlending
         })
       );
-      haloSprite.scale.set(2.4, 2.4, 1);
+      haloSprite.scale.set(3.2, 3.2, 1);
       lightGroup.add(haloSprite);
 
-      const pointLight = new THREE.PointLight(0xffe094, 1.8, 16);
+      const pointLight = new THREE.PointLight(0xffe094, 2.6, 16);
       lightGroup.add(pointLight);
       streetGroup.add(lightGroup);
 
       const veilPt = this.getPathPoint(cfg.veilZ);
       const veilGroup = new THREE.Group();
       veilGroup.position.set(veilPt.x, veilPt.y, veilPt.z);
+      // Devotional mode: no road-blocking veils; the entire street is open from the start
+      veilGroup.visible = false;
 
       const veilMat = new THREE.ShaderMaterial({
         transparent: true,

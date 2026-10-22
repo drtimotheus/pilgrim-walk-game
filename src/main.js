@@ -317,7 +317,7 @@ class PilgrimWalkApp {
   async ensureManifestLoaded(slug) {
     if (this.manifests[slug]) return this.manifests[slug];
     try {
-      const res = await fetch(`assets/data/${slug}-manifest.json`);
+      const res = await fetch(`assets/data/${slug}-manifest.json?v=44_4`);
       if (res.ok) {
         this.manifests[slug] = await res.json();
         return this.manifests[slug];
@@ -331,9 +331,9 @@ class PilgrimWalkApp {
   async bootstrap() {
     try {
       const [genRes, routeRes, coversRes] = await Promise.all([
-        fetch('assets/data/genesis-manifest.json'),
-        fetch('assets/data/route.json'),
-        fetch('assets/data/covers.json'),
+        fetch('assets/data/genesis-manifest.json?v=44_4'),
+        fetch('assets/data/route.json?v=44_4'),
+        fetch('assets/data/covers.json?v=44_4'),
         this.tripoManager.init()
       ]);
 

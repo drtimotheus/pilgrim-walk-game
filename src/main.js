@@ -12,14 +12,14 @@
 // ============================================================================
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { PainterlyEngine } from './painterly.js?v=44_5';
-import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_5';
-import { PainterlyPropBuilder } from './props.js?v=44_5';
-import { StepThroughSceneManager } from './scenes.js?v=44_5';
-import { GenesisDistrictBuilder } from './district.js?v=44_5';
-import { PilgrimAudio } from './audio.js?v=44_5';
-import { TripoRelicManager } from './tripo.js?v=44_5';
-import { DailyWalkManager } from './daily-walk.js?v=44_5';
+import { PainterlyEngine } from './painterly.js?v=44_6';
+import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_6';
+import { PainterlyPropBuilder } from './props.js?v=44_6';
+import { StepThroughSceneManager } from './scenes.js?v=44_6';
+import { GenesisDistrictBuilder } from './district.js?v=44_6';
+import { PilgrimAudio } from './audio.js?v=44_6';
+import { TripoRelicManager } from './tripo.js?v=44_6';
+import { DailyWalkManager } from './daily-walk.js?v=44_6';
 
 const SAVE_KEY = 'pilgrim_walk_save_v1';
 
@@ -857,16 +857,9 @@ class PilgrimWalkApp {
 
     const seleneBtn = document.getElementById('poem-modal-selene-btn');
     if (seleneBtn && this.dailyWalk) {
-      seleneBtn.textContent = '🔊 Listen (Selene Voice)';
+      seleneBtn.textContent = '🔊 Listen (Selene)';
       seleneBtn.onclick = () => {
-        this.dailyWalk.speakPaintingWithSelene(paintingData, seleneBtn, '🔊 Listen (Selene Voice)');
-      };
-    }
-
-    const fishStudioBtn = document.getElementById('poem-modal-fish-studio-btn');
-    if (fishStudioBtn && this.dailyWalk) {
-      fishStudioBtn.onclick = () => {
-        this.dailyWalk.openFishStudioForPainting(paintingData);
+        this.dailyWalk.speakPaintingWithSelene(paintingData, seleneBtn, '🔊 Listen (Selene)');
       };
     }
 

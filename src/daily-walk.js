@@ -589,7 +589,7 @@ export class DailyWalkManager {
     const b1 = document.getElementById('dw-btn-read-aloud');
     const b2 = document.getElementById('poem-modal-selene-btn');
     if (b1) b1.textContent = '🔊 Listen (Selene)';
-    if (b2) b2.textContent = '🔊 Listen (Selene Voice)';
+    if (b2) b2.textContent = '🔊 Listen (Selene)';
     if (btnEl) btnEl.textContent = defaultLabel;
   }
 
@@ -617,18 +617,12 @@ export class DailyWalkManager {
     }
 
     const dayNum = painting.dailyWalkDay || this.currentDay;
-    const cacheKey = `selene-day-${dayNum}`;
-
-    // 1. Check pre-saved file in assets/audio/selene/day-<N>.mp3
+    const staticUrl = `assets/audio/selene/day-${dayNum}.mp3`;
     try {
-      const staticUrl = `assets/audio/selene/day-${dayNum}.mp3`;
-      const headRes = await fetch(staticUrl, { method: 'HEAD' });
-      if (headRes.ok && (headRes.headers.get('content-type') || '').includes('audio')) {
-        await this.playAudioBlob(staticUrl, btnEl, defaultLabel);
-        return;
-      }
-    } catch (_) {
-      // Continue to IndexedDB cache check
+      await this.playAudioBlob(staticUrl, btnEl, defaultLabel);
+      return;
+    } catch (err) {
+      console.warn('Selene MP3 playback fallback:', err);
     }
 
     // 2. Check IndexedDB cached Selene MP3 (from Fish Audio API or attached .mp3)

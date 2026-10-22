@@ -12,14 +12,15 @@
 // ============================================================================
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { PainterlyEngine } from './painterly.js?v=44_8';
-import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_8';
-import { PainterlyPropBuilder } from './props.js?v=44_8';
-import { StepThroughSceneManager } from './scenes.js?v=44_8';
-import { GenesisDistrictBuilder } from './district.js?v=44_8';
-import { PilgrimAudio } from './audio.js?v=44_8';
-import { TripoRelicManager } from './tripo.js?v=44_8';
-import { DailyWalkManager } from './daily-walk.js?v=44_8';
+import { PainterlyEngine } from './painterly.js?v=44_9';
+import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_9';
+import { PainterlyPropBuilder } from './props.js?v=44_9';
+import { StepThroughSceneManager } from './scenes.js?v=44_9';
+import { GenesisDistrictBuilder } from './district.js?v=44_9';
+import { PilgrimAudio } from './audio.js?v=44_9';
+import { TripoRelicManager } from './tripo.js?v=44_9';
+import { DailyWalkManager } from './daily-walk.js?v=44_9';
+import { formatZh } from './zh-convert.js?v=44_9';
 
 const SAVE_KEY = 'pilgrim_walk_save_v1';
 
@@ -28,7 +29,7 @@ class PilgrimWalkApp {
     this.canvas = document.getElementById('world-canvas');
     this.mode = 'STREET'; // 'STREET' | 'SCENE'
     this.walkMode = 'STORY'; // 'STORY' | 'FREE'
-    this.lang = 'en'; // 'en' | 'zh'
+    this.lang = 'en'; // 'en' | 'zh' (Simplified CUV) | 'zh-TW' (Traditional CUV)
     this.reducedMotion = false;
     this.largeText = false;
 
@@ -371,6 +372,14 @@ class PilgrimWalkApp {
     }
   }
 
+  isZh() {
+    return this.lang === 'zh' || this.lang === 'zh-TW';
+  }
+
+  zh(text) {
+    return formatZh(text, this.lang);
+  }
+
   getZhBookTitle(slug) {
     const zhMap = {
       genesis: '创世记 · 起初',
@@ -418,16 +427,16 @@ class PilgrimWalkApp {
       'little-children': '约翰书信 · 小子们哪',
       'all-things-new': '启示录 · 我将一切都更新了'
     };
-    return zhMap[slug] || slug;
+    return this.zh(zhMap[slug] || slug);
   }
 
   updateActivePillHighlight() {
     const isGH = this.mode === 'GATEHOUSE';
-    const zh = this.lang === 'zh';
+    const zh = this.isZh();
     const elGH = document.getElementById('btn-walk-gatehouse');
     if (elGH) {
       elGH.classList.toggle('active-pill', isGH);
-      elGH.textContent = zh ? '⛩ 3D 城门庭院 (44 卷书门)' : '⛩ 3D Gatehouse (44 Gates)';
+      elGH.textContent = zh ? this.zh('⛩ 3D 城门庭院 (44 卷书门)') : '⛩ 3D Gatehouse (44 Gates)';
     }
 
     const sel = document.getElementById('hud-district-select');
@@ -610,14 +619,14 @@ class PilgrimWalkApp {
     const strip = document.getElementById('prototype-scene-strip');
     if (!strip) return;
 
-    const zh = this.lang === 'zh';
+    const zh = this.isZh();
     if (this.mode === 'GATEHOUSE') {
       strip.innerHTML = `
-        <span class="strip-label">${zh ? '3D 城门庭院（全部 44 卷书）：' : '3D Gatehouse Courtyard (44 Books):'}</span>
-        <button class="scene-jump-btn" data-gh-jump="-2" data-gh-yaw="0.45">${zh ? '摩西五经与历史书 (#1–#11)' : 'Torah &amp; History (#1–#11)'}</button>
-        <button class="scene-jump-btn" data-gh-jump="-55" data-gh-yaw="0.45">${zh ? '诗歌智慧书与大先知书 (#12–#22)' : 'Wisdom &amp; Major Prophets (#12–#22)'}</button>
-        <button class="scene-jump-btn" data-gh-jump="-2" data-gh-yaw="-0.45">${zh ? '小先知书与四福音书 (#23–#33)' : 'Minor Prophets &amp; Gospels (#23–#33)'}</button>
-        <button class="scene-jump-btn" data-gh-jump="-58" data-gh-yaw="-0.45">${zh ? '使徒书信与启示录 (#34–#44)' : 'Epistles &amp; Revelation (#34–#44)'}</button>
+        <span class="strip-label">${zh ? this.zh('3D 城门庭院（全部 44 卷书）：') : '3D Gatehouse Courtyard (44 Books):'}</span>
+        <button class="scene-jump-btn" data-gh-jump="-2" data-gh-yaw="0.45">${zh ? this.zh('摩西五经与历史书 (#1–#11)') : 'Torah &amp; History (#1–#11)'}</button>
+        <button class="scene-jump-btn" data-gh-jump="-55" data-gh-yaw="0.45">${zh ? this.zh('诗歌智慧书与大先知书 (#12–#22)') : 'Wisdom &amp; Major Prophets (#12–#22)'}</button>
+        <button class="scene-jump-btn" data-gh-jump="-2" data-gh-yaw="-0.45">${zh ? this.zh('小先知书与四福音书 (#23–#33)') : 'Minor Prophets &amp; Gospels (#23–#33)'}</button>
+        <button class="scene-jump-btn" data-gh-jump="-58" data-gh-yaw="-0.45">${zh ? this.zh('使徒书信与启示录 (#34–#44)') : 'Epistles &amp; Revelation (#34–#44)'}</button>
       `;
       strip.querySelectorAll('[data-gh-jump]').forEach((btn) => {
         btn.addEventListener('click', () => {
@@ -687,7 +696,7 @@ class PilgrimWalkApp {
       .map((p) => ({
         n: p.n,
         label: zh
-          ? `${p.n} · 《${p.zh_title || p.title}》（${p.zh_ref || p.ref}）`
+          ? this.zh(`${p.n} · 《${p.zh_title || p.title}》（${p.zh_ref || p.ref}）`)
           : `${p.n} · “${p.title}” (${p.ref})`
       }));
 
@@ -695,7 +704,7 @@ class PilgrimWalkApp {
     const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
     const lastN = this.manifest.paintings.length;
     const stripTitle = zh
-      ? `${this.getZhBookTitle(this.currentDistrictSlug).split(' · ')[0]} 3D 画境：`
+      ? this.zh(`${this.getZhBookTitle(this.currentDistrictSlug).split(' · ')[0]} 3D 画境：`)
       : `${meta.shortName} Scenes:`;
 
     strip.innerHTML = `
@@ -706,8 +715,8 @@ class PilgrimWalkApp {
             `<button class="scene-jump-btn" data-jump-scene="${s.n}" data-jump-mode="enter">${s.label}</button>`
         )
         .join('')}
-      <button class="scene-jump-btn" data-jump-scene="1" data-jump-mode="street">${zh ? '街道起点' : 'Walk Street Start'}</button>
-      <button class="scene-jump-btn" data-jump-scene="${lastN}" data-jump-mode="street">${zh ? '阿们终章广场' : 'Finale Plaza'}</button>
+      <button class="scene-jump-btn" data-jump-scene="1" data-jump-mode="street">${zh ? this.zh('街道起点') : 'Walk Street Start'}</button>
+      <button class="scene-jump-btn" data-jump-scene="${lastN}" data-jump-mode="street">${zh ? this.zh('阿们终章广场') : 'Finale Plaza'}</button>
     `;
 
     strip.querySelectorAll('[data-jump-scene]').forEach((btn) => {
@@ -908,16 +917,16 @@ class PilgrimWalkApp {
       this.persistSaveData();
     }
 
-    const zh = this.lang === 'zh';
+    const zh = this.isZh();
     const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
-    const pTitle = (zh && paintingData.zh_title) || paintingData.title;
-    const pRef = (zh && paintingData.zh_ref) || paintingData.ref;
-    const pPoem = (zh && paintingData.zh_poem) || paintingData.poem;
-    const pPrompt = (zh && paintingData.zh_reflectionPrompt) || paintingData.reflectionPrompt;
+    const pTitle = zh && paintingData.zh_title ? this.zh(paintingData.zh_title) : paintingData.title;
+    const pRef = zh && paintingData.zh_ref ? this.zh(paintingData.zh_ref) : paintingData.ref;
+    const pPoem = zh && paintingData.zh_poem ? this.zh(paintingData.zh_poem) : paintingData.poem;
+    const pPrompt = zh && paintingData.zh_reflectionPrompt ? this.zh(paintingData.zh_reflectionPrompt) : paintingData.reflectionPrompt;
     const bookLabel = zh ? this.getZhBookTitle(this.currentDistrictSlug) : meta.shortName.toUpperCase();
 
     document.getElementById('poem-modal-num').textContent = zh
-      ? `${bookLabel} · 第 ${paintingData.n} 幅`
+      ? this.zh(`${bookLabel} · 第 ${paintingData.n} 幅`)
       : `${bookLabel} · NO. ${paintingData.n}`;
     document.getElementById('poem-modal-title').textContent = pTitle;
     document.getElementById('poem-modal-ref').textContent = pRef;
@@ -928,7 +937,7 @@ class PilgrimWalkApp {
     const reflText = document.getElementById('poem-modal-reflection-text');
     const reflLabel = reflBox ? reflBox.querySelector('.reflection-callout-label') : null;
     if (reflLabel) {
-      reflLabel.textContent = zh ? '✦ 今日心灵默想' : '✦ Reflection Prompt';
+      reflLabel.textContent = zh ? this.zh('✦ 今日心灵默想') : '✦ Reflection Prompt';
     }
     if (reflBox && reflText) {
       if (pPrompt) {
@@ -940,14 +949,14 @@ class PilgrimWalkApp {
     }
 
     const stepBtn = document.getElementById('poem-modal-step-btn');
-    if (stepThroughCallback && this.mode === 'STREET') {
-      stepBtn.textContent = zh ? '✦ 步入此画作的 3D 秘境' : '✦ Step Through Frame into this Painting';
+    if (stepBtn && stepThroughCallback && this.mode === 'STREET') {
+      stepBtn.textContent = zh ? this.zh('✦ 步入此画作的 3D 秘境') : '✦ Step Through Frame into this Painting';
       stepBtn.classList.remove('hidden');
       stepBtn.onclick = () => {
         this.closePoemModal();
         stepThroughCallback();
       };
-    } else {
+    } else if (stepBtn) {
       stepBtn.classList.add('hidden');
     }
 
@@ -1202,7 +1211,9 @@ class PilgrimWalkApp {
     const btnLang = document.getElementById('btn-lang-toggle');
     if (btnLang) {
       btnLang.addEventListener('click', () => {
-        this.lang = this.lang === 'zh' ? 'en' : 'zh';
+        const order = ['en', 'zh', 'zh-TW'];
+        const nextIdx = (order.indexOf(this.lang) + 1) % order.length;
+        this.lang = order[nextIdx];
         this.saveData.lang = this.lang;
         if (this.dailyWalk) this.dailyWalk.stopActiveVoice();
         this.applyAccessibilitySettings();
@@ -1224,7 +1235,9 @@ class PilgrimWalkApp {
         }
         this.showToast(
           this.lang === 'zh'
-            ? '🌐 已切换为中文模式：全部 44 卷诗画、经文、默想与语音朗读已转换为中文。'
+            ? '🌐 已切换为【简体中文 · 和合本】：全部 44 卷诗画、经文、默想与 Selene 朗读已转换为简体中文（再次点击可切换繁體）。'
+            : this.lang === 'zh-TW'
+            ? '🌐 已切換為【繁體中文 · 和合本】：全部 44 卷詩畫、經文、默想與 Selene 朗讀已轉換為繁體中文（再次點擊可切換英文）。'
             : '🌐 Switched to English: All 44 books, poems, Scripture, reflections, and Selene audio are now in English.'
         );
       });
@@ -1277,11 +1290,16 @@ class PilgrimWalkApp {
   }
 
   applyAccessibilitySettings() {
-    const zh = this.lang === 'zh';
+    const zh = this.isZh();
     document.body.classList.toggle('large-text', this.largeText);
     const langBtn = document.getElementById('btn-lang-toggle');
     if (langBtn) {
-      langBtn.textContent = zh ? '🌐 English / 中文' : '🌐 中文 / EN';
+      langBtn.textContent =
+        this.lang === 'zh'
+          ? '🌐 简体中文 · 切换繁體'
+          : this.lang === 'zh-TW'
+          ? '🌐 繁體中文 · 切换英文'
+          : '🌐 中文 (简/繁) / EN';
     }
     const prevBtn = document.getElementById('btn-prev-district');
     const nextBtn = document.getElementById('btn-next-district');
@@ -1290,32 +1308,32 @@ class PilgrimWalkApp {
     const introBtn = document.getElementById('btn-gatehouse');
     const backStreetBtn = document.getElementById('back-to-street-btn');
     const hintEl = document.getElementById('controls-hint');
-    if (prevBtn) prevBtn.textContent = zh ? '◀ 上一卷' : '◀ Prev';
-    if (nextBtn) nextBtn.textContent = zh ? '下一卷 ▶' : 'Next ▶';
-    if (scrollBtn) scrollBtn.textContent = zh ? '📜 全部 44 卷' : '📜 All 44 Books';
-    if (shelfBtn) shelfBtn.textContent = zh ? '📚 44 卷书架' : '📚 44-Book Shelf';
-    if (introBtn) introBtn.textContent = zh ? '📖 导言' : '📖 Intro';
-    if (backStreetBtn) backStreetBtn.textContent = zh ? '← 返回主街道' : '← Back to the street';
+    if (prevBtn) prevBtn.textContent = zh ? this.zh('◀ 上一卷') : '◀ Prev';
+    if (nextBtn) nextBtn.textContent = zh ? this.zh('下一卷 ▶') : 'Next ▶';
+    if (scrollBtn) scrollBtn.textContent = zh ? this.zh('📜 全部 44 卷') : '📜 All 44 Books';
+    if (shelfBtn) shelfBtn.textContent = zh ? this.zh('📚 44 卷书架') : '📚 44-Book Shelf';
+    if (introBtn) introBtn.textContent = zh ? this.zh('📖 导言') : '📖 Intro';
+    if (backStreetBtn) backStreetBtn.textContent = zh ? this.zh('← 返回主街道') : '← Back to the street';
     if (hintEl) {
       hintEl.textContent = zh
-        ? 'WASD / 方向键：行走 · 鼠标拖拽：环视 · [E]：互动 / 步入画中 · [R]：阅读诗歌 · [J]：每日灵修'
+        ? this.zh('WASD / 方向键：行走 · 鼠标拖拽：环视 · [E]：互动 / 步入画中 · [R]：阅读诗歌 · [J]：每日灵修')
         : 'WASD / Arrows: Walk · Mouse / Drag: Look · [E]: Interact / Step Through Frame · [R]: Read Poem';
     }
 
     const mBtn = document.getElementById('btn-a11y-motion');
-    if (mBtn) mBtn.textContent = zh ? (this.reducedMotion ? '动态：平缓' : '动态：标准') : (this.reducedMotion ? 'Motion: Calm' : 'Motion: Standard');
+    if (mBtn) mBtn.textContent = zh ? this.zh(this.reducedMotion ? '动态：平缓' : '动态：标准') : (this.reducedMotion ? 'Motion: Calm' : 'Motion: Standard');
     const tBtn = document.getElementById('btn-a11y-text');
-    if (tBtn) tBtn.textContent = zh ? (this.largeText ? '字号：大字' : '字号：标准') : (this.largeText ? 'Text: Large' : 'Text: Standard');
+    if (tBtn) tBtn.textContent = zh ? this.zh(this.largeText ? '字号：大字' : '字号：标准') : (this.largeText ? 'Text: Large' : 'Text: Standard');
     const aBtn = document.getElementById('btn-audio-toggle');
-    if (aBtn) aBtn.textContent = zh ? (this.audio.muted ? '音效：关' : '音效：开') : (this.audio.muted ? 'Sound: Off' : 'Sound: On');
+    if (aBtn) aBtn.textContent = zh ? this.zh(this.audio.muted ? '音效：关' : '音效：开') : (this.audio.muted ? 'Sound: Off' : 'Sound: On');
     const wBtn = document.getElementById('btn-mode-toggle');
     if (wBtn) {
       wBtn.textContent =
         this.walkMode === 'STORY'
-          ? (zh ? '模式：书卷同行' : 'Mode: Story Walk')
+          ? (zh ? this.zh('模式：书卷同行') : 'Mode: Story Walk')
           : this.walkMode === 'FREE'
-          ? (zh ? '模式：自由漫步' : 'Mode: Free Walk')
-          : (zh ? '模式：每日灵修 🕯' : 'Mode: Daily Walk 🕯');
+          ? (zh ? this.zh('模式：自由漫步') : 'Mode: Free Walk')
+          : (zh ? this.zh('模式：每日灵修 🕯') : 'Mode: Daily Walk 🕯');
     }
   }
 
@@ -1345,15 +1363,15 @@ class PilgrimWalkApp {
     const totalLights = this.manifest && this.manifest.parts ? this.manifest.parts.length : 4;
     const totalPoems = this.manifest && this.manifest.paintings ? this.manifest.paintings.length : 40;
 
-    const zh = this.lang === 'zh';
-    if (elLights) elLights.textContent = zh ? `${districtLights} / ${totalLights} 盏明灯` : `${districtLights} / ${totalLights} Lights`;
-    if (elSeen) elSeen.textContent = zh ? `${districtPoems} / ${totalPoems} 首诗歌` : `${districtPoems} / ${totalPoems} Poems`;
+    const zh = this.isZh();
+    if (elLights) elLights.textContent = zh ? this.zh(`${districtLights} / ${totalLights} 盏明灯`) : `${districtLights} / ${totalLights} Lights`;
+    if (elSeen) elSeen.textContent = zh ? this.zh(`${districtPoems} / ${totalPoems} 首诗歌`) : `${districtPoems} / ${totalPoems} Poems`;
   }
 
   populateModals() {
     if (!this.routeData || !this.manifest) return;
 
-    const zh = this.lang === 'zh';
+    const zh = this.isZh();
     const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
     const totalParts = this.manifest.parts ? this.manifest.parts.length : 4;
     const totalPaintings = this.manifest.paintings ? this.manifest.paintings.length : 40;
@@ -1363,16 +1381,16 @@ class PilgrimWalkApp {
     const ghTitle = document.getElementById('gatehouse-modal-title');
     const ghSub = document.getElementById('gatehouse-modal-sub');
     const ghBody = document.getElementById('gatehouse-modal-body');
-    const mTitle = (zh && this.manifest.zh_title) || this.manifest.title;
-    const mSub = (zh && this.manifest.zh_subtitle) || this.manifest.subtitle;
+    const mTitle = zh && this.manifest.zh_title ? this.zh(this.manifest.zh_title) : this.manifest.title;
+    const mSub = zh && this.manifest.zh_subtitle ? this.zh(this.manifest.zh_subtitle) : this.manifest.subtitle;
     if (ghTitle) ghTitle.textContent = `${mTitle} — ${mSub}`;
     if (ghSub) {
       ghSub.textContent = zh
-        ? `第 ${meta.num} 卷 · ${totalPaintings} 幅画作与诗歌 · ${totalParts} 个篇章 · ${totalScenes} 处可步入的 3D 画境`
+        ? this.zh(`第 ${meta.num} 卷 · ${totalPaintings} 幅画作与诗歌 · ${totalParts} 个篇章 · ${totalScenes} 处可步入的 3D 画境`)
         : `District ${meta.num} · ${totalPaintings} Paintings · ${totalParts} Parts · ${totalParts} Hidden Lights · ${totalScenes} Step-Through Scenes`;
     }
     if (ghBody) {
-      ghBody.textContent = (zh && this.manifest.zh_beforeYouBegin) || this.manifest.beforeYouBegin;
+      ghBody.textContent = zh && this.manifest.zh_beforeYouBegin ? this.zh(this.manifest.zh_beforeYouBegin) : this.manifest.beforeYouBegin;
     }
 
     // 1. Long Scroll Modal (All 44 districts in storyline order — all 44 books are interactive!)
@@ -1391,8 +1409,8 @@ class PilgrimWalkApp {
           card.onclick = () => this.switchDistrict(playableSlug);
         }
         const coverSrc = this.coversData && this.coversData[d.slug] ? this.coversData[d.slug] : '';
-        const dTitle = (zh && d.zh_title) || (zh && this.getZhBookTitle(playableSlug)) || d.title;
-        const dSub = (zh && d.zh_subtitle) || d.subtitle;
+        const dTitle = zh ? this.zh(d.zh_title || this.getZhBookTitle(playableSlug) || d.title) : d.title;
+        const dSub = zh && d.zh_subtitle ? this.zh(d.zh_subtitle) : d.subtitle;
         card.innerHTML = `
           <div class="scroll-card-cover">
             ${coverSrc ? `<img src="${coverSrc}" alt="${dTitle}" loading="lazy"/>` : ''}
@@ -1403,10 +1421,10 @@ class PilgrimWalkApp {
             <p>${dSub}</p>
             <span class="scroll-status">${
               isDone
-                ? (zh ? '✦ 已走过（点击进入）' : '✦ Completed (Click to Walk)')
+                ? (zh ? this.zh('✦ 已走过（点击进入）') : '✦ Completed (Click to Walk)')
                 : isCurrent
-                ? (zh ? '● 当前所在书卷' : '● Walking Now')
-                : (zh ? '✦ 已开放 — 点击步入街道' : '✦ Open Now — Click to Enter')
+                ? (zh ? this.zh('● 当前所在书卷') : '● Walking Now')
+                : (zh ? this.zh('✦ 已开放 — 点击步入街道') : '✦ Open Now — Click to Enter')
             }</span>
           </div>
         `;
@@ -1425,22 +1443,22 @@ class PilgrimWalkApp {
           this.coversData && this.coversData[d.slug]
             ? this.coversData[d.slug]
             : `assets/${playableSlug}/web/b-${String(d.n).padStart(3, '0')}-000.jpg`;
-        const dTitle = (zh && d.zh_title) || (zh && this.getZhBookTitle(playableSlug)) || d.title;
-        const dSub = (zh && d.zh_subtitle) || d.subtitle;
+        const dTitle = zh ? this.zh(d.zh_title || this.getZhBookTitle(playableSlug) || d.title) : d.title;
+        const dSub = zh && d.zh_subtitle ? this.zh(d.zh_subtitle) : d.subtitle;
         const item = document.createElement('div');
         item.className = 'shelf-book-card';
         item.innerHTML = `
           <img src="${cover}" alt="${dTitle}" loading="lazy" />
           <div class="shelf-book-meta">
             <h3>#${d.n} · ${dTitle}</h3>
-            <p class="shelf-sub">${dSub} · Timothy Holt 著</p>
-            <p class="shelf-desc">${mInfo.amenQuote || '漫步于油画与诗歌的长街，随时步入发光的画框秘境。'}</p>
+            <p class="shelf-sub">${dSub} · ${zh ? this.zh('Timothy Holt 著') : 'by Timothy Holt'}</p>
+            <p class="shelf-desc">${mInfo.amenQuote || this.zh('漫步于油画与诗歌的长街，随时步入发光的画框秘境。')}</p>
             <div class="shelf-links" style="display:flex;gap:10px;flex-wrap:wrap;">
               <button class="gold-btn" data-shelf-enter="${playableSlug}">
-                ${zh ? `✦ 步入第 #${d.n} 卷：《${dTitle}》` : `✦ Walk District #${d.n}: ${d.title}`}
+                ${zh ? this.zh(`✦ 步入第 #${d.n} 卷：《${dTitle}》`) : `✦ Walk District #${d.n}: ${d.title}`}
               </button>
               <a href="https://inspiringyourfaith.org" target="_blank" rel="noopener noreferrer" class="gold-btn">
-                ${zh ? '访问 Timothy Holt 书房 (InspiringYourFaith.org) ↗' : 'Visit Timothy Holt’s Bookshop (InspiringYourFaith.org) ↗'}
+                ${zh ? this.zh('访问 Timothy Holt 书房 (InspiringYourFaith.org) ↗') : 'Visit Timothy Holt’s Bookshop (InspiringYourFaith.org) ↗'}
               </a>
             </div>
           </div>
@@ -1877,28 +1895,28 @@ class PilgrimWalkApp {
       this.player.position.z - this.district.amenPlaza.position.z
     );
 
-    const zh = this.lang === 'zh';
+    const zh = this.isZh();
     if (nearestUnkindledLight && nearestLightDist < 3.8) {
       this.currentInteractTarget = { type: 'KINDLE_LIGHT', lightObj: nearestUnkindledLight };
       promptBtn.textContent = zh
-        ? `✦ 点亮明灯：${nearestUnkindledLight.name} [E]`
+        ? this.zh(`✦ 点亮明灯：${nearestUnkindledLight.name} [E]`)
         : `✦ Kindle ${nearestUnkindledLight.name} [E]`;
       promptContainer.classList.remove('hidden');
     } else if (nearestNode && nearestDist < 4.6) {
       const p = nearestNode.data;
-      const pTitle = (zh && p.zh_title) || p.title;
-      const pRef = (zh && p.zh_ref) || p.ref;
+      const pTitle = zh && p.zh_title ? this.zh(p.zh_title) : p.title;
+      const pRef = zh && p.zh_ref ? this.zh(p.zh_ref) : p.ref;
       if (p.isScene) {
         this.currentInteractTarget = { type: 'STEP_THROUGH', node: nearestNode };
         promptBtn.textContent = zh
-          ? `✦ 步入画框秘境：《${pTitle}》（${pRef}）[E]`
+          ? this.zh(`✦ 步入画框秘境：《${pTitle}》（${pRef}）[E]`)
           : `✦ Step Through Frame into “${pTitle}” (${pRef}) [E]`;
-        secondaryBtn.textContent = zh ? `阅读诗歌 [R]` : `Read Poem [R]`;
+        secondaryBtn.textContent = zh ? this.zh(`阅读诗歌 [R]`) : `Read Poem [R]`;
         secondaryBtn.classList.remove('hidden');
       } else {
         this.currentInteractTarget = { type: 'READ_POEM', node: nearestNode };
         promptBtn.textContent = zh
-          ? `阅读诗歌 · 第 ${p.n} 幅《${pTitle}》（${pRef}）[E]`
+          ? this.zh(`阅读诗歌 · 第 ${p.n} 幅《${pTitle}》（${pRef}）[E]`)
           : `Read Poem · No. ${p.n} “${pTitle}” (${pRef}) [E]`;
       }
       promptContainer.classList.remove('hidden');
@@ -1906,13 +1924,13 @@ class PilgrimWalkApp {
       this.currentInteractTarget = { type: 'AMEN_GATE' };
       const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
       promptBtn.textContent = zh
-        ? `✦ 步入阿们之门 · 完成《${this.getZhBookTitle(this.currentDistrictSlug)}》[E]`
+        ? this.zh(`✦ 步入阿们之门 · 完成《${this.getZhBookTitle(this.currentDistrictSlug)}》[E]`)
         : `✦ Enter the Amen Gate & Complete ${meta.fullLabel} [E]`;
       promptContainer.classList.remove('hidden');
     } else if (this.player.position.z > 9.5) {
       this.currentInteractTarget = { type: 'GATEHOUSE_HUB' };
       promptBtn.textContent = zh
-        ? `打开城门导言与 3D 庭院 [E]`
+        ? this.zh(`打开城门导言与 3D 庭院 [E]`)
         : `Open Gatehouse Hub & Walk 3D Courtyard [E]`;
       promptContainer.classList.remove('hidden');
     } else {

@@ -9,6 +9,8 @@
 //   - Optional personal reflection journal persisted in localStorage + Read Aloud + Share
 // ============================================================================
 
+import { formatZh } from './zh-convert.js?v=44_9';
+
 const FISH_SELENE_MODEL_ID = 'b347db033a6549378b48d00acb0d06cd';
 const FISH_KEY_STORAGE = 'pilgrim_fish_audio_selene_key';
 const SELENE_DB_NAME = 'pilgrim_selene_voice_cache_v1';
@@ -161,11 +163,15 @@ export class DailyWalkManager {
   }
 
   isZh() {
-    return this.app.lang === 'zh';
+    return this.app.lang === 'zh' || this.app.lang === 'zh-TW';
+  }
+
+  zh(text) {
+    return formatZh(text, this.app.lang);
   }
 
   getListenBtnLabel() {
-    return this.isZh() ? '🔊 聆听朗读 (Selene)' : '🔊 Listen (Selene)';
+    return this.isZh() ? this.zh('🔊 聆听朗读 (Selene)') : '🔊 Listen (Selene)';
   }
 
   updateHUDCandlePill() {
@@ -176,7 +182,7 @@ export class DailyWalkManager {
     const zh = this.isZh();
     btn.classList.toggle('active-pill', isDailyMode);
     btn.textContent = zh
-      ? `🕯 每日同行 · 第 ${this.currentDay} 天 (已点亮 ${count})`
+      ? this.zh(`🕯 每日同行 · 第 ${this.currentDay} 天 (已点亮 ${count})`)
       : `🕯 Daily Walk · Day ${this.currentDay} (${count} Lit)`;
 
     // Update floating Daily Walk banner when walking in 3D Daily Walk mode
@@ -184,36 +190,36 @@ export class DailyWalkManager {
     if (banner) {
       if (isDailyMode && this.activeEntry && this.app.mode === 'STREET') {
         const e = this.activeEntry;
-        const pTitle = (zh && e.painting.zh_title) || e.painting.title;
-        const pRef = (zh && e.painting.zh_ref) || e.painting.ref;
-        const pPrompt = (zh && e.painting.zh_reflectionPrompt) || e.painting.reflectionPrompt;
-        const bTitle = (zh && e.bookInfo.zh_title) || e.bookInfo.title;
+        const pTitle = zh && e.painting.zh_title ? this.zh(e.painting.zh_title) : e.painting.title;
+        const pRef = zh && e.painting.zh_ref ? this.zh(e.painting.zh_ref) : e.painting.ref;
+        const pPrompt = zh && e.painting.zh_reflectionPrompt ? this.zh(e.painting.zh_reflectionPrompt) : e.painting.reflectionPrompt;
+        const bTitle = zh && e.bookInfo.zh_title ? this.zh(e.bookInfo.zh_title) : e.bookInfo.title;
         const doneBadge = this.isDayCompleted(e.day)
-          ? (zh ? '✦ 今日烛光已点亮' : '✦ Candle Kindled')
-          : (zh ? '🕯 烛光静候' : '🕯 Candle Waiting');
+          ? (zh ? this.zh('✦ 今日烛光已点亮') : '✦ Candle Kindled')
+          : (zh ? this.zh('🕯 烛光静候') : '🕯 Candle Waiting');
         banner.innerHTML = `
           <div class="dw-banner-top">
             <span class="dw-banner-eyebrow">${
               zh
-                ? `🕯 每日灵修同行 · 第 ${e.day} / ${this.getTotalDays()} 天（第 ${e.week} 周 · 第 ${e.dayOfWeek}/7 天）· ${doneBadge}`
+                ? this.zh(`🕯 每日灵修同行 · 第 ${e.day} / ${this.getTotalDays()} 天（第 ${e.week} 周 · 第 ${e.dayOfWeek}/7 天）· ${doneBadge}`)
                 : `🕯 DAILY WALK · DAY ${e.day} OF ${this.getTotalDays()} (WEEK ${e.week}, DAY ${e.dayOfWeek} OF 7) · ${doneBadge}`
             }</span>
             <span class="dw-banner-book">${
               zh
-                ? `第 #${e.bookInfo.bookNum} 卷：《${bTitle}》· 第 ${e.painting.n} 幅《${pTitle}》（${pRef}）`
+                ? this.zh(`第 #${e.bookInfo.bookNum} 卷：《${bTitle}》· 第 ${e.painting.n} 幅《${pTitle}》（${pRef}）`)
                 : `Book #${e.bookInfo.bookNum}: ${bTitle} · No. ${e.painting.n} “${pTitle}” (${pRef})`
             }</span>
           </div>
           <div class="dw-banner-prompt">
-            <strong>${zh ? '今日默想：' : 'Reflection Prompt:'}</strong> ${pPrompt}
+            <strong>${zh ? this.zh('今日默想：') : 'Reflection Prompt:'}</strong> ${pPrompt}
           </div>
           <div class="dw-banner-actions">
-            <button id="dw-banner-open-card" class="scene-jump-btn">${zh ? '📖 阅读诗歌与默想 [J]' : '📖 Read Poem &amp; Reflect [J]'}</button>
-            <button id="dw-banner-focus-art" class="scene-jump-btn">${zh ? '✦ 驻足画前' : '✦ Stand Before Painting'}</button>
-            <button id="dw-banner-prev-day" class="scene-jump-btn">◀ ${zh ? `第 ${Math.max(1, e.day - 1)} 天` : `Day ${Math.max(1, e.day - 1)}`}</button>
+            <button id="dw-banner-open-card" class="scene-jump-btn">${zh ? this.zh('📖 阅读诗歌与默想 [J]') : '📖 Read Poem &amp; Reflect [J]'}</button>
+            <button id="dw-banner-focus-art" class="scene-jump-btn">${zh ? this.zh('✦ 驻足画前') : '✦ Stand Before Painting'}</button>
+            <button id="dw-banner-prev-day" class="scene-jump-btn">◀ ${zh ? this.zh(`第 ${Math.max(1, e.day - 1)} 天`) : `Day ${Math.max(1, e.day - 1)}`}</button>
             <button id="dw-banner-complete-next" class="scene-jump-btn dw-gold-pill">${
               zh
-                ? `✦ 点亮第 ${e.day} 天烛光并前往第 ${Math.min(this.getTotalDays(), e.day + 1)} 天 →`
+                ? this.zh(`✦ 点亮第 ${e.day} 天烛光并前往第 ${Math.min(this.getTotalDays(), e.day + 1)} 天 →`)
                 : `✦ Complete Day ${e.day} &amp; Walk Day ${Math.min(this.getTotalDays(), e.day + 1)} →`
             }</button>
           </div>
@@ -240,7 +246,7 @@ export class DailyWalkManager {
           const nextP = this.activeEntry.painting;
           this.app.showToast(
             this.isZh()
-              ? `🕯 第 ${nextD - 1} 天烛光已点亮！正在前往第 ${nextD} 天：《${nextP.zh_title || nextP.title}》（${nextP.zh_ref || nextP.ref}）。`
+              ? this.zh(`🕯 第 ${nextD - 1} 天烛光已点亮！正在前往第 ${nextD} 天：《${nextP.zh_title || nextP.title}》（${nextP.zh_ref || nextP.ref}）。`)
               : `🕯 Day ${nextD - 1} candle kindled! Now walking Day ${nextD}: “${nextP.title}” (${nextP.ref}).`
           );
         });
@@ -399,26 +405,26 @@ export class DailyWalkManager {
     const modalSubEl = document.querySelector('#daily-walk-modal > .modal-card > .poem-ref');
     if (eyebrowEl) {
       eyebrowEl.textContent = zh
-        ? `每日灵修同行 · 第 ${entry.day} / ${totalDays} 天 · 第 ${entry.week} 周（第 ${entry.dayOfWeek} / 7 天）`
+        ? this.zh(`每日灵修同行 · 第 ${entry.day} / ${totalDays} 天 · 第 ${entry.week} 周（第 ${entry.dayOfWeek} / 7 天）`)
         : `THE DAILY WALK · DAY ${entry.day} OF ${totalDays} · WEEK ${entry.week} (DAY ${entry.dayOfWeek} OF 7)`;
     }
     if (modalTitleEl) {
-      modalTitleEl.textContent = zh ? '每日同行 · 圣经诗画灵修与默想' : 'Daily Walk Devotional & Reflection';
+      modalTitleEl.textContent = zh ? this.zh('每日同行 · 圣经诗画灵修与默想') : 'Daily Walk Devotional & Reflection';
     }
     if (modalSubEl) {
       modalSubEl.textContent = zh
-        ? '按圣经叙事顺序走过全部 44 卷书，每日一幅画作、一首诗歌、一段经文与一句心灵默想。'
+        ? this.zh('按圣经叙事顺序走过全部 44 卷书，每日一幅画作、一首诗歌、一段经文与一句心灵默想。')
         : 'One painting, poem, Scripture, and reflection prompt a day across all 44 books in storyline order.';
     }
     if (candleStatusEl) {
       candleStatusEl.innerHTML = zh
-        ? `
+        ? this.zh(`
         <span class="dw-flame-icon">🕯</span>
         <span>
           <strong>已点亮 ${completedCount} 天</strong> ·
           ${isCompleted ? '✦ 今日烛光已点亮' : '这盏烛火永不熄灭——它总是安静地等候你归来'}
         </span>
-      `
+      `)
         : `
         <span class="dw-flame-icon">🕯</span>
         <span>
@@ -437,7 +443,7 @@ export class DailyWalkManager {
         opt.value = b.startDay;
         const bName = (zh && b.zh_title) || b.title;
         opt.textContent = zh
-          ? `#${b.bookNum} · 《${bName}》（第 ${b.startDay}–${b.endDay} 天）`
+          ? this.zh(`#${b.bookNum} · 《${bName}》（第 ${b.startDay}–${b.endDay} 天）`)
           : `#${b.bookNum} · ${b.title} (Days ${b.startDay}–${b.endDay})`;
         bookSelect.appendChild(opt);
       });
@@ -457,7 +463,7 @@ export class DailyWalkManager {
       const weekEndDay = Math.min(totalDays, weekStartDay + 6);
       let html = `
         <button class="scene-jump-btn" id="dw-prev-week-btn" ${weekStartDay <= 1 ? 'disabled' : ''}>◀ ${
-          zh ? `第 ${entry.week - 1} 周` : `Week ${entry.week - 1}`
+          zh ? this.zh(`第 ${entry.week - 1} 周`) : `Week ${entry.week - 1}`
         }</button>
       `;
       for (let d = weekStartDay; d <= weekEndDay; d++) {
@@ -466,14 +472,14 @@ export class DailyWalkManager {
         const active = d === entry.day;
         html += `
           <button class="dw-week-day-btn ${active ? 'active-day' : ''} ${done ? 'completed-day' : ''}" data-dw-day="${d}">
-            <span class="dw-wd-top">${zh ? `第 ${dayIdxInWeek} 天` : `Day ${dayIdxInWeek}`}</span>
-            <span class="dw-wd-sub">${done ? (zh ? '✦ 已亮' : '✦ Lit') : '○'} #${d}</span>
+            <span class="dw-wd-top">${zh ? this.zh(`第 ${dayIdxInWeek} 天`) : `Day ${dayIdxInWeek}`}</span>
+            <span class="dw-wd-sub">${done ? (zh ? this.zh('✦ 已亮') : '✦ Lit') : '○'} #${d}</span>
           </button>
         `;
       }
       html += `
         <button class="scene-jump-btn" id="dw-next-week-btn" ${weekEndDay >= totalDays ? 'disabled' : ''}>${
-          zh ? `第 ${entry.week + 1} 周` : `Week ${entry.week + 1}`
+          zh ? this.zh(`第 ${entry.week + 1} 周`) : `Week ${entry.week + 1}`
         } ▶</button>
       `;
       weekStrip.innerHTML = html;
@@ -514,13 +520,13 @@ export class DailyWalkManager {
     const promptLabelEl = document.querySelector('#daily-walk-modal .reflection-callout-label');
     const journalLabelEl = document.querySelector('#daily-walk-modal .dw-journal-box label');
 
-    const pTitle = (zh && entry.painting.zh_title) || entry.painting.title;
-    const pRef = (zh && entry.painting.zh_ref) || entry.painting.ref;
-    const pPoem = (zh && entry.painting.zh_poem) || entry.painting.poem;
-    const pPrompt = (zh && entry.painting.zh_reflectionPrompt) || entry.painting.reflectionPrompt;
-    const pEpigraph = (zh && entry.painting.zh_epigraph) || entry.painting.epigraph;
-    const bTitle = (zh && entry.bookInfo.zh_title) || entry.bookInfo.title;
-    const partTitle = entry.partObj ? ((zh && entry.partObj.zh_title) || entry.partObj.title) : '';
+    const pTitle = zh && entry.painting.zh_title ? this.zh(entry.painting.zh_title) : entry.painting.title;
+    const pRef = zh && entry.painting.zh_ref ? this.zh(entry.painting.zh_ref) : entry.painting.ref;
+    const pPoem = zh && entry.painting.zh_poem ? this.zh(entry.painting.zh_poem) : entry.painting.poem;
+    const pPrompt = zh && entry.painting.zh_reflectionPrompt ? this.zh(entry.painting.zh_reflectionPrompt) : entry.painting.reflectionPrompt;
+    const pEpigraph = zh && entry.painting.zh_epigraph ? this.zh(entry.painting.zh_epigraph) : entry.painting.epigraph;
+    const bTitle = zh && entry.bookInfo.zh_title ? this.zh(entry.bookInfo.zh_title) : entry.bookInfo.title;
+    const partTitle = entry.partObj ? (zh && entry.partObj.zh_title ? this.zh(entry.partObj.zh_title) : entry.partObj.title) : '';
 
     if (imgEl) {
       imgEl.src = entry.painting.webSrc;
@@ -529,7 +535,7 @@ export class DailyWalkManager {
     if (bookBadgeEl) {
       const partLabel = partTitle ? ` · ${partTitle}` : '';
       bookBadgeEl.textContent = zh
-        ? `第 #${entry.bookInfo.bookNum} 卷：《${bTitle}》· 第 ${entry.painting.n} / ${entry.bookInfo.count} 首${partLabel}`
+        ? this.zh(`第 #${entry.bookInfo.bookNum} 卷：《${bTitle}》· 第 ${entry.painting.n} / ${entry.bookInfo.count} 首${partLabel}`)
         : `BOOK #${entry.bookInfo.bookNum}: ${bTitle.toUpperCase()} · POEM NO. ${entry.painting.n} OF ${entry.bookInfo.count}${partLabel.toUpperCase()}`;
     }
     if (titleEl) titleEl.textContent = pTitle;
@@ -544,13 +550,13 @@ export class DailyWalkManager {
     }
     if (poemEl) poemEl.textContent = pPoem;
     if (promptLabelEl) {
-      promptLabelEl.textContent = zh ? '✦ 今日心灵默想' : '✦ Today’s Reflection Prompt';
+      promptLabelEl.textContent = zh ? this.zh('✦ 今日心灵默想') : '✦ Today’s Reflection Prompt';
     }
     if (promptEl) {
       promptEl.textContent =
         pPrompt ||
         (zh
-          ? `在今天的旅途中，你在何处看见《${pTitle}》（${pRef}）中的这一幕？`
+          ? this.zh(`在今天的旅途中，你在何处看见《${pTitle}》（${pRef}）中的这一幕？`)
           : `Where do you recognize this moment from “${pTitle}” (${pRef}) on your own walk today?`);
     }
 
@@ -558,12 +564,12 @@ export class DailyWalkManager {
     const noteEl = document.getElementById('daily-journal-input');
     if (journalLabelEl) {
       journalLabelEl.textContent = zh
-        ? '个人灵修 / 祷告笔记（保存在您的浏览器中）：'
+        ? this.zh('个人灵修 / 祷告笔记（保存在您的浏览器中）：')
         : 'Personal Reflection / Prayer Note (Saved in Your Browser):';
     }
     if (noteEl) {
       noteEl.placeholder = zh
-        ? '写下今日同行的一行安静默想或祷告……'
+        ? this.zh('写下今日同行的一行安静默想或祷告……')
         : 'Write a quiet line of reflection or prayer for today’s walk…';
       noteEl.value = this.app.saveData.dailyWalk?.journalNotes?.[entry.day] || '';
     }
@@ -573,26 +579,26 @@ export class DailyWalkManager {
     const nextBtn = document.getElementById('dw-btn-next-day');
     const readAloudBtn = document.getElementById('dw-btn-read-aloud');
     const shareBtn = document.getElementById('dw-btn-share');
-    if (prevBtn) prevBtn.textContent = zh ? '◀ 上一天' : '◀ Prev Day';
-    if (nextBtn) nextBtn.textContent = zh ? '下一天 ▶' : 'Next Day ▶';
+    if (prevBtn) prevBtn.textContent = zh ? this.zh('◀ 上一天') : '◀ Prev Day';
+    if (nextBtn) nextBtn.textContent = zh ? this.zh('下一天 ▶') : 'Next Day ▶';
     if (readAloudBtn && !this.isSpeaking) {
       readAloudBtn.textContent = this.getListenBtnLabel();
     }
-    if (shareBtn) shareBtn.textContent = zh ? '📋 复制灵修内容' : '📋 Copy Devotional';
+    if (shareBtn) shareBtn.textContent = zh ? this.zh('📋 复制灵修内容') : '📋 Copy Devotional';
 
     const walk3DBtn = document.getElementById('dw-btn-walk-3d');
     if (walk3DBtn) {
       walk3DBtn.textContent = entry.painting.isScene
-        ? (zh ? `✦ 步入 3D 画境：《${pTitle}》` : `✦ Walk & Step Inside “${pTitle}” in 3D`)
-        : (zh ? `✦ 在 3D 街道驻足《${pTitle}》画前` : `✦ Stand Before “${pTitle}” on the 3D Street`);
+        ? (zh ? this.zh(`✦ 步入 3D 画境：《${pTitle}》`) : `✦ Walk & Step Inside “${pTitle}” in 3D`)
+        : (zh ? this.zh(`✦ 在 3D 街道驻足《${pTitle}》画前`) : `✦ Stand Before “${pTitle}” on the 3D Street`);
     }
 
     const completeBtn = document.getElementById('dw-btn-complete-day');
     if (completeBtn) {
       const nextDay = Math.min(totalDays, entry.day + 1);
       completeBtn.textContent = isCompleted
-        ? (zh ? `✦ 第 ${entry.day} 天已点亮 · 继续前往第 ${nextDay} 天 →` : `✦ Day ${entry.day} Lit · Continue to Day ${nextDay} →`)
-        : (zh ? `🕯 点亮第 ${entry.day} 天烛光并前往第 ${nextDay} 天 →` : `🕯 Light Day ${entry.day}’s Candle & Continue to Day ${nextDay} →`);
+        ? (zh ? this.zh(`✦ 第 ${entry.day} 天已点亮 · 继续前往第 ${nextDay} 天 →`) : `✦ Day ${entry.day} Lit · Continue to Day ${nextDay} →`)
+        : (zh ? this.zh(`🕯 点亮第 ${entry.day} 天烛光并前往第 ${nextDay} 天 →`) : `🕯 Light Day ${entry.day}’s Candle & Continue to Day ${nextDay} →`);
     }
   }
 
@@ -715,7 +721,7 @@ export class DailyWalkManager {
     const audio = new Audio(url);
     this.activeAudioEl = audio;
     this.isSpeaking = true;
-    if (btnEl) btnEl.textContent = this.isZh() ? '⏹ 停止朗读' : '⏹ Stop Selene';
+    if (btnEl) btnEl.textContent = this.isZh() ? this.zh('⏹ 停止朗读') : '⏹ Stop Selene';
     audio.onended = () => {
       this.stopActiveVoice(btnEl, lbl);
     };
@@ -762,7 +768,7 @@ export class DailyWalkManager {
         this.stopActiveVoice(btnEl, lbl);
       };
       this.isSpeaking = true;
-      if (btnEl) btnEl.textContent = zh ? '⏹ 停止朗读' : '⏹ Stop Reading';
+      if (btnEl) btnEl.textContent = zh ? this.zh('⏹ 停止朗读') : '⏹ Stop Reading';
       synth.speak(utter);
     }
   }
@@ -777,28 +783,51 @@ export class DailyWalkManager {
     if (!this.activeEntry) return;
     this.saveCurrentJournalNote();
     const e = this.activeEntry;
+    const zh = this.isZh();
     const note = this.app.saveData.dailyWalk?.journalNotes?.[e.day];
-    const shareText = [
-      `🕯 The Pilgrim Walk — Daily Walk (Day ${e.day} of ${this.getTotalDays()})`,
-      `Book #${e.bookInfo.bookNum}: ${e.bookInfo.title} (${e.bookInfo.subtitle})`,
-      `Poem No. ${e.painting.n}: “${e.painting.title}” — ${e.painting.ref}`,
-      e.painting.epigraph ? `${e.painting.epigraph}` : null,
-      '',
-      e.painting.poem,
-      '',
-      `✦ Reflection Prompt: ${e.painting.reflectionPrompt}`,
-      note ? `\nMy Reflection:\n${note}` : null,
-      '',
-      'Poems & Pictures by Timothy Holt · InspiringYourFaith.org'
-    ]
-      .filter((line) => line !== null)
-      .join('\n');
+    const shareText = zh
+      ? this.zh(
+          [
+            `🕯 天路同行 — 每日灵修（第 ${e.day} / ${this.getTotalDays()} 天）`,
+            `第 #${e.bookInfo.bookNum} 卷：《${e.bookInfo.zh_title || e.bookInfo.title}》（${e.bookInfo.zh_subtitle || e.bookInfo.subtitle}）`,
+            `第 ${e.painting.n} 首：《${e.painting.zh_title || e.painting.title}》 — ${e.painting.zh_ref || e.painting.ref}`,
+            e.painting.zh_epigraph || e.painting.epigraph || null,
+            '',
+            e.painting.zh_poem || e.painting.poem,
+            '',
+            `✦ 今日心灵默想：${e.painting.zh_reflectionPrompt || e.painting.reflectionPrompt}`,
+            note ? `\n我的默想笔记：\n${note}` : null,
+            '',
+            'Poems & Pictures by Timothy Holt · InspiringYourFaith.org'
+          ]
+            .filter((line) => line !== null)
+            .join('\n')
+        )
+      : [
+          `🕯 The Pilgrim Walk — Daily Walk (Day ${e.day} of ${this.getTotalDays()})`,
+          `Book #${e.bookInfo.bookNum}: ${e.bookInfo.title} (${e.bookInfo.subtitle})`,
+          `Poem No. ${e.painting.n}: “${e.painting.title}” — ${e.painting.ref}`,
+          e.painting.epigraph ? `${e.painting.epigraph}` : null,
+          '',
+          e.painting.poem,
+          '',
+          `✦ Reflection Prompt: ${e.painting.reflectionPrompt}`,
+          note ? `\nMy Reflection:\n${note}` : null,
+          '',
+          'Poems & Pictures by Timothy Holt · InspiringYourFaith.org'
+        ]
+          .filter((line) => line !== null)
+          .join('\n');
 
     try {
       await navigator.clipboard.writeText(shareText);
-      this.app.showToast('📋 Copied today’s poem, Scripture & reflection to your clipboard!');
+      this.app.showToast(
+        zh
+          ? this.zh('📋 已复制今日诗歌、经文与默想到剪贴板！')
+          : '📋 Copied today’s poem, Scripture & reflection to your clipboard!'
+      );
     } catch (_) {
-      this.app.showToast('Prepared today’s devotional reflection.');
+      this.app.showToast(zh ? this.zh('已准备今日灵修内容。') : 'Prepared today’s devotional reflection.');
     }
   }
 

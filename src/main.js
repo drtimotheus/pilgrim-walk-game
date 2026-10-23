@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_24';
-import { StepThroughSceneManager } from './scenes.js?v=44_24';
-import { GenesisDistrictBuilder } from './district.js?v=44_24';
+import { PainterlyPropBuilder } from './props.js?v=44_25';
+import { StepThroughSceneManager } from './scenes.js?v=44_25';
+import { GenesisDistrictBuilder } from './district.js?v=44_25';
 import { PilgrimAudio } from './audio.js?v=44_12';
 import { TripoRelicManager } from './tripo.js?v=44_21';
 import { DailyWalkManager } from './daily-walk.js?v=44_12';
@@ -181,7 +181,7 @@ class PilgrimWalkApp {
       [12, 'XII', 'out-of-the-whirlwind', 'Job', 'Out of the Whirlwind (Job)', '“I had heard of you by the hearing of the ear, but now my eye sees you.”'],
       [13, 'XIII', 'psalms-1', 'Psalms 1–41', 'Planted by the Water (Psalms 1–41)', '“Blessed be Yahweh, the God of Israel, from everlasting and to everlasting! Amen and amen.”'],
       [14, 'XIV', 'psalms-2', 'Psalms 42–72', 'As the Deer (Psalms 42–72)', '“He will come down like rain on the mown grass… The prayers of David the son of Jesse are ended.”'],
-      [15, 'XV', 'psalms-3', 'Psalms 73–106', 'A Day in Your Courts (Psalms 73–106)', '“For a day in your courts is better than a thousand.”'],
+      [15, 'XV', 'psalms-3', 'Psalms 73–106', 'A Day in Your Courts (Psalms 73–106)', '“For a day in your courts is better than a thousand… Let all the people say, ‘Amen.’ Praise Yah!”'],
       [16, 'XVI', 'psalms-4', 'Psalms 107–150', 'Everything That Has Breath (Psalms 107–150)', '“Your word is a lamp to my feet, and a light for my path.”'],
       [17, 'XVII', 'the-beginning-of-wisdom', 'Proverbs', 'The Beginning of Wisdom (Proverbs)', '“Trust in Yahweh with all your heart, and don’t lean on your own understanding.”'],
       [18, 'XVIII', 'eternity-in-their-hearts', 'Ecclesiastes', 'Eternity in Their Hearts (Ecclesiastes)', '“He has made everything beautiful in its time. He has also set eternity in their hearts.”'],
@@ -453,7 +453,7 @@ class PilgrimWalkApp {
   async ensureManifestLoaded(slug) {
     if (this.manifests[slug]) return this.manifests[slug];
     try {
-      const res = await fetch(`assets/data/${slug}-manifest.json?v=44_24`);
+      const res = await fetch(`assets/data/${slug}-manifest.json?v=44_25`);
       if (res.ok) {
         this.manifests[slug] = await res.json();
         return this.manifests[slug];
@@ -934,6 +934,12 @@ class PilgrimWalkApp {
         { n: 5, label: '5 · “be still” (Broken Bow & Still Waters)' },
         { n: 15, label: '15 · “your bottle” (Tear-Bottle at the Window)' },
         { n: 20, label: '20 · “higher than I” (The High Rock & Winding Trail)' }
+      ],
+      'psalms-3': [
+        { n: 1, label: '1 · “until I walked in” (Sanctuary Portal & Menorah)' },
+        { n: 12, label: '12 · “the sparrow’s nest” (Sparrow’s Nest by the Altar)' },
+        { n: 19, label: '19 · “under his feathers” (Shadow of His Wings)' },
+        { n: 31, label: '31 · “east from west” (Sunlit Terrace & Horizon)' }
       ],
       'all-things-new': [
         { n: 4, label: '4 · “among the lampstands” (7 Golden Lampstands)' },

@@ -56,7 +56,6 @@ export class GenesisDistrictBuilder {
       'genesis',
       'ruth',
       'samuel',
-      'psalms-3',
       'psalms-4',
       'many-waters',
       'good-news-of-great-joy',
@@ -104,6 +103,28 @@ export class GenesisDistrictBuilder {
         fogColor: '#8f846f',
         starIntensity: 0.06,
         sunbeamColor: '#ffebad'
+      };
+    }
+
+    if (slug === 'psalms-3') {
+      return {
+        biome: 'temple_courts',
+        groundColor: '#7a6f59',
+        groundAccent: '#e8d4a2',
+        pathColor: '#b3a384',
+        pathAccent: '#f5e8ca',
+        waterDeep: '#2e4a52',
+        waterShallow: '#8ea8a6',
+        grassCount: 1500,
+        grassPalette: { ground: '#6e6c4e', accent: '#e8d49e', horizon: '#b5a37e' },
+        hasBridges: true,
+        bridgePalette: { ground: '#8c7e65', accent: '#ebd9b2' },
+        skyTop: '#425d75',
+        skyMid: '#949c8e',
+        skyHorizon: '#f5dd9d',
+        fogColor: '#9c8d72',
+        starIntensity: 0.08,
+        sunbeamColor: '#ffe599'
       };
     }
 
@@ -745,6 +766,36 @@ export class GenesisDistrictBuilder {
         }
       }
     }
+
+    if (biomeCfg.biome === 'temple_courts') {
+      // District XV: A Day in Your Courts (Psalms 73–106)
+      // Limestone temple colonnades & sanctuary portals (Psalm 73:17), sparrow nests by the altar (Psalm 84:3),
+      // and flourishing courtyard palms & cedars ("still green in old age", Psalm 92:12–14)
+      for (let i = 0; i < 12; i++) {
+        const rz = -16 - i * 30.0;
+        const pt = this.getPathPoint(rz);
+        if (i === 0 || i === 5 || i === 9) {
+          const portal = this.propBuilder.createPsalm73SanctuaryPortalEnsemble(null, pal, false);
+          if (portal.sanctuaryLight) portal.group.remove(portal.sanctuaryLight);
+          portal.group.scale.setScalar(0.86);
+          portal.group.position.set(pt.x + 11.4, pt.y + 0.1, rz);
+          portal.group.lookAt(pt.x, pt.y + 0.4, rz + 3.0);
+          streetGroup.add(portal.group);
+        } else if (i === 3 || i === 7) {
+          const sparrowAltar = this.propBuilder.createPsalm84SparrowNestAltarEnsemble(null, pal);
+          if (sparrowAltar.altarLight) sparrowAltar.group.remove(sparrowAltar.altarLight);
+          sparrowAltar.group.scale.setScalar(0.88);
+          sparrowAltar.group.position.set(pt.x - 8.4, pt.y + 0.08, rz);
+          sparrowAltar.group.lookAt(pt.x, pt.y + 0.3, rz + 2.0);
+          streetGroup.add(sparrowAltar.group);
+        } else {
+          const courtTree = this.propBuilder.createGreatPainterlyTree(null, pal, 0.92 + (i % 3) * 0.16);
+          courtTree.position.set(pt.x + (i % 2 === 0 ? -8.8 : 10.6), pt.y, rz);
+          courtTree.rotation.y = i * 0.9;
+          streetGroup.add(courtTree);
+        }
+      }
+    }
   }
 
   loadTextureAsync(url) {
@@ -808,7 +859,8 @@ export class GenesisDistrictBuilder {
         slug !== 'greatly-beloved' &&
         slug !== 'all-things-new' &&
         slug !== 'psalms-1' &&
-        slug !== 'psalms-2'
+        slug !== 'psalms-2' &&
+        slug !== 'psalms-3'
       ) {
         const focal = this.propBuilder.createFocalPropForScene(pData.sceneType, null, pal);
         if (focal && focal.group) {
@@ -1098,6 +1150,60 @@ export class GenesisDistrictBuilder {
         streetGroup.add(likeRain);
         return;
       }
+    } else if (slug === 'psalms-3') {
+      if (pData.n === 1) {
+        const portal = this.propBuilder.createPsalm73SanctuaryPortalEnsemble(null, pal, false);
+        if (portal.sanctuaryLight) portal.group.remove(portal.sanctuaryLight);
+        portal.group.scale.setScalar(0.68);
+        portal.group.position.set(wx + side * 3.0, wy, wz - 2.4);
+        portal.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(portal.group);
+        return;
+      }
+      if (pData.n === 12) {
+        const sparrowAltar = this.propBuilder.createPsalm84SparrowNestAltarEnsemble(null, pal);
+        if (sparrowAltar.altarLight) sparrowAltar.group.remove(sparrowAltar.altarLight);
+        sparrowAltar.group.scale.setScalar(0.74);
+        sparrowAltar.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        sparrowAltar.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(sparrowAltar.group);
+        return;
+      }
+      if (pData.n === 19) {
+        const wing = this.propBuilder.createPsalm91ShadowOfWingsEnsemble(null, pal);
+        if (wing.wingLight) wing.group.remove(wing.wingLight);
+        wing.group.scale.setScalar(0.74);
+        wing.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        wing.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(wing.group);
+        return;
+      }
+      if (pData.n === 28) {
+        const portal = this.propBuilder.createPsalm73SanctuaryPortalEnsemble(null, pal, false);
+        if (portal.sanctuaryLight) portal.group.remove(portal.sanctuaryLight);
+        portal.group.scale.setScalar(0.65);
+        portal.group.position.set(wx + side * 3.0, wy, wz - 1.6);
+        portal.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(portal.group);
+        return;
+      }
+      if (pData.n === 31) {
+        const terrace = this.propBuilder.createPsalm103EastFromWestTerraceEnsemble(null, pal);
+        if (terrace.horizonLight) terrace.group.remove(terrace.horizonLight);
+        terrace.group.scale.setScalar(0.68);
+        terrace.group.position.set(wx + side * 3.0, wy, wz - 2.4);
+        terrace.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(terrace.group);
+        return;
+      }
+      if (pData.n === 34) {
+        const amenShofar = this.propBuilder.createPsalm106AmenShofarAltarEnsemble(null, pal, false);
+        amenShofar.scale.setScalar(0.78);
+        amenShofar.position.set(wx + side * 2.8, wy, wz - 1.2);
+        amenShofar.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(amenShofar);
+        return;
+      }
     }
 
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
@@ -1183,6 +1289,7 @@ export class GenesisDistrictBuilder {
       kings: 'DISTRICT VIII · A STILL SMALL VOICE — 1 & 2 KINGS',
       'psalms-1': 'DISTRICT XIII · PLANTED BY THE WATER — PSALMS 1–41',
       'psalms-2': 'DISTRICT XIV · AS THE DEER — PSALMS 42–72',
+      'psalms-3': 'DISTRICT XV · A DAY IN YOUR COURTS — PSALMS 73–106',
       'all-things-new': 'DISTRICT XLIV · ALL THINGS NEW — REVELATION'
     };
 
@@ -1797,6 +1904,48 @@ export class GenesisDistrictBuilder {
           height: 1.72,
           veilZ: -332.0
         }
+      ],
+      'psalms-3': [
+        {
+          part: 1,
+          id: 'psalms-3-light-1',
+          name: 'The Light of the Sanctuary Threshold',
+          hint: 'Shining beside the open golden sanctuary doorway near “no footprints” & “turn us again” (Part One)',
+          z: -62.0,
+          lateral: 6.2,
+          height: 1.75,
+          veilZ: -82.0
+        },
+        {
+          part: 2,
+          id: 'psalms-3-light-2',
+          name: 'The Light of the Sparrow’s Altar',
+          hint: 'Glowing beside the sparrow’s nest & altar lamp near “the sparrow’s nest” & “the first line and the last” (Part Two)',
+          z: -146.0,
+          lateral: -6.2,
+          height: 1.68,
+          veilZ: -178.0
+        },
+        {
+          part: 3,
+          id: 'psalms-3-light-3',
+          name: 'The Light of the Shadow of His Wings',
+          hint: 'Resting beneath the gold-tipped wing & crag near “under his feathers” & “the trees sing” (Part Three)',
+          z: -218.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -254.0
+        },
+        {
+          part: 4,
+          id: 'psalms-3-light-4',
+          name: 'The Light of the Courts of Praise',
+          hint: 'Shining by the sunlit terrace & shofar altar near “east from west” & “amen” before the Amen Gate (Part Four)',
+          z: -332.0,
+          lateral: -5.8,
+          height: 1.72,
+          veilZ: -360.0
+        }
       ]
     };
 
@@ -1931,6 +2080,8 @@ export class GenesisDistrictBuilder {
       ? -268
       : slug === 'psalms-2'
       ? -342
+      : slug === 'psalms-3'
+      ? -370
       : slug === 'choose-life'
       ? -398
       : ['genesis', 'exodus', 'fire-by-night', 'joshua-judges', 'samuel', 'kings', 'psalms-1', 'all-things-new'].includes(slug)
@@ -2011,6 +2162,16 @@ export class GenesisDistrictBuilder {
       );
       psalms2Finale.position.set(0, 0.1, -3.8);
       group.add(psalms2Finale);
+    } else if (slug === 'psalms-3') {
+      // District XV Finale: The Shofar & Prayer Cloth on the Temple Steps ("Let all the people say, 'Amen.' Praise Yah!", Psalm 106:48)
+      // paired with the Sparrow's Nest by the Altar ("For a day in your courts is better than a thousand", Psalm 84:3, 10)
+      const psalms3Finale = this.propBuilder.createPsalm106AmenShofarAltarEnsemble(
+        null,
+        { ground: '#8c7e65', horizon: '#b5a37e', accent: '#f5e2a8' },
+        true
+      );
+      psalms3Finale.position.set(0, 0.1, -3.8);
+      group.add(psalms3Finale);
     } else if (slug === 'all-things-new') {
       // District XLIV Finale: The Tree of Life, the Stone Bench beneath the Tree (answering Genesis's Sabbath Bench),
       // the Great Lantern of the Lamb ("its lamp is the Lamb"), and a Gate of Pearl
@@ -2105,6 +2266,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · AS THE DEER COMPLETED',
         epigraph: 'He will come down like rain on the mown grass — The prayers of David the son of Jesse are ended.',
         epigraphRef: 'PSALM 72:6–20 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XV: A DAY IN YOUR COURTS'
+      },
+      'psalms-3': {
+        title: 'AMEN GATE · A DAY IN YOUR COURTS COMPLETED',
+        epigraph: 'Blessed be Yahweh, the God of Israel, from everlasting even to everlasting! Let all the people say, “Amen.” Praise Yah!',
+        epigraphRef: 'PSALM 106:48 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XVI: EVERYTHING THAT HAS BREATH'
       },
       'all-things-new': {
         title: 'AMEN GATE · ALL THINGS NEW COMPLETED',

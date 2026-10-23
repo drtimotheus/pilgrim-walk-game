@@ -226,6 +226,14 @@ export class StepThroughSceneManager {
       signatureState = this.populatePsalms56TearBottleScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'rock_higher') {
       signatureState = this.populatePsalms61RockHigherScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'sanctuary_lamps') {
+      signatureState = this.populatePsalms73SanctuaryScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'sparrow_altar') {
+      signatureState = this.populatePsalms84SparrowAltarScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'shadow_of_wings') {
+      signatureState = this.populatePsalms91ShadowOfWingsScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'east_from_west') {
+      signatureState = this.populatePsalms103EastFromWestScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -256,7 +264,8 @@ export class StepThroughSceneManager {
         'ruth_gleaning', 'samuel_lamp', 'five_smooth_stones', 'temple_cloud', 'carmel_fire',
         'seven_golden_lampstands', 'behold_i_stand_and_knock', 'emerald_rainbow_throne', 'river_of_life_new_jerusalem',
         'streams_of_water', 'moon_and_stars', 'green_pastures', 'house_of_the_lord',
-        'deer_brook', 'be_still_waters', 'tears_in_bottle', 'rock_higher'
+        'deer_brook', 'be_still_waters', 'tears_in_bottle', 'rock_higher',
+        'sanctuary_lamps', 'sparrow_altar', 'shadow_of_wings', 'east_from_west'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -2940,6 +2949,184 @@ export class StepThroughSceneManager {
         const val = this._psalm61RockLatched || 0;
 
         rockRig.rockLight.intensity = 3.2 + val * 3.8 + Math.sin(time * 2.0) * 0.24;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XV (A DAY IN YOUR COURTS / PSALMS 73–106) SCENE 1:
+  // No. 1 — "until I walked in" (Psalm 73:13–26)
+  //   - Monumental Jerusalem limestone sanctuary portal with tall golden door leaf
+  //     standing open to reveal the glowing 7-branched Golden Menorah inside
+  //   - Carved wooden temple cart on the left & forecourt table on the right (matching painting #1)
+  // ==========================================================================
+  populatePsalms73SanctuaryScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    const sanctuaryPos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const sanctuaryRig = this.propBuilder.createPsalm73SanctuaryPortalEnsemble(derived.propTex, pal, true);
+    sanctuaryRig.group.position.copy(sanctuaryPos);
+    group.add(sanctuaryRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        sanctuaryRig.group,
+        'psalms-3',
+        1,
+        { targetHeight: 3.1, yOffset: 0.24 }
+      );
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.85, 3.6, '#ffe599');
+    shaft.position.set(0.65, 6.4, -5.8);
+    group.add(shaft);
+
+    return {
+      signatureTarget: sanctuaryPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Step Into the Sanctuary Threshold Beside the Golden Lampstand',
+      signatureActivatedText: '“When I tried to understand this, it was too painful for me; until I entered God’s sanctuary, and considered their latter end… God is the strength of my heart and my portion forever.” (Psalm 73:16–17, 26)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._psalm73SanctuaryLatched = Math.min(1.0, (this._psalm73SanctuaryLatched || 0) + dt * 0.5);
+        const val = this._psalm73SanctuaryLatched || 0;
+
+        sanctuaryRig.doorPivot.rotation.y = 1.12 + val * 0.25;
+        sanctuaryRig.sanctuaryLight.intensity = 3.4 + val * 3.8 + Math.sin(time * 2.4) * 0.22;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XV (A DAY IN YOUR COURTS / PSALMS 73–106) SCENE 2:
+  // No. 12 — "the sparrow's nest" (Psalm 84:1–6)
+  //   - Carved limestone altar ledge with burning clay oil lamp, two rolled scrolls on fringed linen, & clay vessels
+  //   - Weathered temple stone wall with recessed niche holding the woven twig Sparrow's Nest & olive branch (matching painting #12)
+  // ==========================================================================
+  populatePsalms84SparrowAltarScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    const altarPos = new THREE.Vector3(0.0, 0.0, -5.5);
+    const altarRig = this.propBuilder.createPsalm84SparrowNestAltarEnsemble(derived.propTex, pal);
+    altarRig.group.position.copy(altarPos);
+    group.add(altarRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        altarRig.group,
+        'psalms-3',
+        12,
+        { targetHeight: 2.9, yOffset: 0.22 }
+      );
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.80, 3.2, '#ffe8a8');
+    shaft.position.set(0.0, 6.2, -5.5);
+    group.add(shaft);
+
+    return {
+      signatureTarget: altarPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Pause Beside the Sparrow’s Nest Tucked in the Stones Near the Altar',
+      signatureActivatedText: '“Yes, the sparrow has found a home, and the swallow a nest for herself, where she may have her young, near your altars, Yahweh of Armies, my King, and my God… For a day in your courts is better than a thousand.” (Psalm 84:3, 10)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._psalm84SparrowLatched = Math.min(1.0, (this._psalm84SparrowLatched || 0) + dt * 0.5);
+        const val = this._psalm84SparrowLatched || 0;
+
+        altarRig.altarLight.intensity = 3.0 + val * 3.6 + Math.sin(time * 3.0) * 0.22;
+        altarRig.flameMesh.scale.setScalar(1.0 + val * 0.25 + Math.sin(time * 5.0) * 0.08);
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XV (A DAY IN YOUR COURTS / PSALMS 73–106) SCENE 3:
+  // No. 19 — "under his feathers" (Psalm 91:1–15)
+  //   - Rocky sanctuary crag overlooking the walled city & terraced hills
+  //   - Overarching gold-tipped mother-bird wing curving protectively over three chicks in a nest
+  //   - Foreground draped cloth & rolled scroll of Psalm 91 (matching painting #19)
+  // ==========================================================================
+  populatePsalms91ShadowOfWingsScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    const wingPos = new THREE.Vector3(0.0, 0.0, -5.5);
+    const wingRig = this.propBuilder.createPsalm91ShadowOfWingsEnsemble(derived.propTex, pal);
+    wingRig.group.position.copy(wingPos);
+    group.add(wingRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        wingRig.group,
+        'psalms-3',
+        19,
+        { targetHeight: 2.9, yOffset: 0.22 }
+      );
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.86, 3.6, '#ffea9f');
+    shaft.position.set(0.0, 6.4, -5.6);
+    group.add(shaft);
+
+    return {
+      signatureTarget: wingPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Rest Under the Shadow of the Gold-Edged Wing & Nest',
+      signatureActivatedText: '“He who dwells in the secret place of the Most High will rest in the shadow of the Almighty… He will cover you with his feathers. Under his wings you will take refuge.” (Psalm 91:1, 4)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._psalm91WingLatched = Math.min(1.0, (this._psalm91WingLatched || 0) + dt * 0.5);
+        const val = this._psalm91WingLatched || 0;
+
+        wingRig.wingCanopy.rotation.x = Math.sin(time * 1.2) * 0.025 - val * 0.06;
+        wingRig.wingLight.intensity = 3.2 + val * 3.6 + Math.sin(time * 2.2) * 0.20;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XV (A DAY IN YOUR COURTS / PSALMS 73–106) SCENE 4:
+  // No. 31 — "east from west" (Psalm 103:1–14)
+  //   - Left stone parapet wall under an olive tree with clay jars, bowl, and striped prayer shawl
+  //   - Right stone terrace platform with golden grain carpet, winnowing basket, and wooden shade arbor
+  //   - Sunlit horizon stretching from east to west (matching painting #31)
+  // ==========================================================================
+  populatePsalms103EastFromWestScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    const terracePos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const terraceRig = this.propBuilder.createPsalm103EastFromWestTerraceEnsemble(derived.propTex, pal);
+    terraceRig.group.position.copy(terracePos);
+    group.add(terraceRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        terraceRig.group,
+        'psalms-3',
+        31,
+        { targetHeight: 2.9, yOffset: 0.22 }
+      );
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.88, 3.8, '#ffe285');
+    shaft.position.set(0.0, 6.6, -6.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: terracePos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Stand on the Sunlit Terrace Looking from the East to the West',
+      signatureActivatedText: '“Praise Yahweh, my soul, and don’t forget all his benefits… As far as the east is from the west, so far has he removed our transgressions from us… For he knows how we are made. He remembers that we are dust.” (Psalm 103:2, 12, 14)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._psalm103EastWestLatched = Math.min(1.0, (this._psalm103EastWestLatched || 0) + dt * 0.5);
+        const val = this._psalm103EastWestLatched || 0;
+
+        terraceRig.horizonLight.intensity = 3.4 + val * 3.8 + Math.sin(time * 1.8) * 0.22;
         return near || val > 0.85;
       }
     };

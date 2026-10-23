@@ -6488,4 +6488,654 @@ export class PainterlyPropBuilder {
 
     return group;
   }
+
+  // ============================================================================
+  // DISTRICT XV: A DAY IN YOUR COURTS (PSALMS 73–106) BESPOKE 3D PROP ENSEMBLES
+  // Crafted directly from Timothy Holt's paintings (#1, #12, #19, #31, #34)
+  // ============================================================================
+
+  // Psalm 73:13–26 (#1 "until I walked in"):
+  //   - Monumental Jerusalem limestone sanctuary portal flanked by carved columns
+  //   - Tall golden-paneled sanctuary door standing open on the right, revealing the glowing
+  //     7-branched Golden Menorah inside the temple
+  //   - Forecourt merchant/offering table on the right under a linen canopy with clay amphorae & woven baskets
+  //   - Carved wooden temple cart on the left with spoked wheels & golden corner finials
+  // (matching assets/psalms-3/web/b-015-001.jpg)
+  createPsalm73SanctuaryPortalEnsemble(propTex = null, pal = {}, includeCart = true) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const limestoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a69a82',
+      accentColor: '#ede2ca',
+      roughness: 0.86
+    });
+    const goldMat = new THREE.MeshStandardMaterial({
+      color: '#e8bd5a',
+      emissive: '#b8821e',
+      emissiveIntensity: 0.42,
+      roughness: 0.28,
+      metalness: 0.82
+    });
+    const darkWoodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4f3e2b',
+      accentColor: '#8c7252',
+      roughness: 0.82
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#876d4f',
+      accentColor: '#c7ab88',
+      roughness: 0.84
+    });
+
+    // 1. Limestone Sanctuary Portal & Open Golden Doorway on the right (matching painting #1 right architecture)
+    const portalGroup = new THREE.Group();
+    portalGroup.position.set(includeCart ? 0.65 : 0.0, 0, -0.35);
+    portalGroup.userData.keepWithGlb = true;
+
+    for (const sx of [-1.45, 1.45]) {
+      const wallPier = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.95, 3.85, 1.15, 4, 8, 4), 0.025, 3.2),
+        limestoneMat
+      );
+      wallPier.position.set(sx, 1.92, 0);
+      portalGroup.add(wallPier);
+
+      const column = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CylinderGeometry(0.22, 0.26, 3.25, 16), 0.015, 3.5),
+        limestoneMat
+      );
+      column.position.set(sx * 0.68, 1.78, 0.56);
+      portalGroup.add(column);
+    }
+
+    const entablature = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(3.95, 0.72, 1.32, 8, 3, 4), 0.025, 3.2),
+      limestoneMat
+    );
+    entablature.position.set(0, 4.15, 0.05);
+    portalGroup.add(entablature);
+
+    for (let s = 0; s < 3; s++) {
+      const step = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(3.25 + s * 0.35, 0.14, 0.95 + s * 0.36, 8, 2, 4), 0.015, 3.5),
+        limestoneMat
+      );
+      step.position.set(0, (3 - s) * 0.12 - 0.05, 0.35 + s * 0.22);
+      portalGroup.add(step);
+    }
+
+    // Open golden-paneled sanctuary door leaf ("until I entered God's sanctuary")
+    const doorPivot = new THREE.Group();
+    doorPivot.position.set(-0.78, 0.36, 0.12);
+    doorPivot.rotation.y = 1.12;
+    const doorLeaf = new THREE.Mesh(new THREE.BoxGeometry(0.88, 3.10, 0.10), goldMat);
+    doorLeaf.position.set(0.44, 1.55, 0);
+    doorPivot.add(doorLeaf);
+    portalGroup.add(doorPivot);
+
+    // 7-Branched Golden Menorah glowing inside the sanctuary threshold (matching painting #1 open doorway)
+    const innerMenorah = this.createGoldenMenorah(propTex, pal);
+    innerMenorah.scale.setScalar(0.58);
+    innerMenorah.position.set(0.18, 0.52, -0.55);
+    portalGroup.add(innerMenorah);
+
+    // Forecourt offering table with clay jars & baskets on the right (matching painting #1 lower right)
+    const tableBench = new THREE.Mesh(new THREE.BoxGeometry(1.15, 0.65, 0.72), darkWoodMat);
+    tableBench.position.set(1.55, 0.34, 1.15);
+    portalGroup.add(tableBench);
+
+    for (let j = 0; j < 3; j++) {
+      const jar = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.15, 0.36, 14), clayMat);
+      jar.position.set(1.25 + j * 0.28, 0.84, 1.12 + (j % 2) * 0.12);
+      portalGroup.add(jar);
+    }
+
+    group.add(portalGroup);
+
+    // 2. Carved Wooden Temple Cart with Golden Corner Finials & Spoked Wheels on the left (matching painting #1 left)
+    if (includeCart) {
+      const cartGroup = new THREE.Group();
+      cartGroup.position.set(-1.65, 0.04, 0.35);
+      cartGroup.rotation.y = 0.38;
+      cartGroup.userData.keepWithGlb = true;
+
+      const cartChest = new THREE.Mesh(new THREE.BoxGeometry(1.35, 1.05, 1.05), darkWoodMat);
+      cartChest.position.y = 0.88;
+      cartGroup.add(cartChest);
+
+      // Golden rosette medallion & corner finials on the cart chest
+      const rosette = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.28, 0.04, 20), goldMat);
+      rosette.rotation.x = Math.PI / 2;
+      rosette.position.set(0, 0.88, 0.54);
+      cartGroup.add(rosette);
+
+      for (const [fx, fz] of [[-0.64, -0.48], [0.64, -0.48], [-0.64, 0.48], [0.64, 0.48]]) {
+        const finial = new THREE.Mesh(new THREE.ConeGeometry(0.065, 0.18, 10), goldMat);
+        finial.position.set(fx, 1.48, fz);
+        cartGroup.add(finial);
+      }
+
+      for (const wz of [-0.58, 0.58]) {
+        const wheel = new THREE.Mesh(new THREE.TorusGeometry(0.46, 0.048, 10, 24), darkWoodMat);
+        wheel.position.set(0, 0.48, wz);
+        cartGroup.add(wheel);
+      }
+
+      group.add(cartGroup);
+    }
+
+    const sanctuaryLight = new THREE.PointLight('#ffe28a', 3.4, 24);
+    sanctuaryLight.position.set(includeCart ? 0.65 : 0.0, 2.35, -0.15);
+    group.add(sanctuaryLight);
+
+    return { group, portalGroup, doorPivot, innerMenorah, sanctuaryLight };
+  }
+
+  // Psalm 84:1–6 (#12 "the sparrow's nest" — Signature Symbolic Element of District XV):
+  //   - Carved limestone altar ledge on the left with a burning clay oil lamp, two rolled scrolls
+  //     on a fringed white linen cloth, and two clay vessels (round jar & slender flask)
+  //   - Weathered temple limestone wall on the right with a recessed stone niche holding the
+  //     woven twig Sparrow's Nest ("the sparrow has found a home, and the swallow a nest for herself... near your altars")
+  //   - Olive branch framing the right edge (matching assets/psalms-3/web/b-015-012.jpg)
+  createPsalm84SparrowNestAltarEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const limestoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a89d86',
+      accentColor: '#ede4cf',
+      roughness: 0.88
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#ded5bf',
+      accentColor: '#faf4e6',
+      roughness: 0.82
+    });
+    const twigMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#544531',
+      accentColor: '#968060',
+      roughness: 0.92
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c7a61',
+      accentColor: '#ccb99b',
+      roughness: 0.82
+    });
+    const leafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c6b47',
+      accentColor: '#9cad80',
+      roughness: 0.80
+    });
+
+    // 1. Left Carved Temple Altar Ledge with Burning Clay Lamp, Fringed Cloth, Two Scrolls & Clay Vessels (exact match to painting #12 left)
+    const altarLedgeGroup = new THREE.Group();
+    altarLedgeGroup.position.set(-0.92, 0.0, 0.15);
+    altarLedgeGroup.userData.keepWithGlb = true;
+
+    const pillar = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.32, 0.36, 1.35, 16), 0.02, 3.5),
+      limestoneMat
+    );
+    pillar.position.set(-0.15, 0.68, 0);
+    altarLedgeGroup.add(pillar);
+
+    const corniceSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.75, 0.28, 1.25, 6, 2, 6), 0.018, 3.5),
+      limestoneMat
+    );
+    corniceSlab.position.set(0, 1.42, 0);
+    altarLedgeGroup.add(corniceSlab);
+
+    // Fringed white linen altar cloth hanging down the front edge
+    const clothHang = new THREE.Mesh(new THREE.BoxGeometry(0.68, 0.65, 0.05), linenMat);
+    clothHang.position.set(0.22, 1.24, 0.62);
+    altarLedgeGroup.add(clothHang);
+
+    const clothTop = new THREE.Mesh(new THREE.BoxGeometry(0.72, 0.03, 0.76), linenMat);
+    clothTop.position.set(0.22, 1.57, 0.24);
+    altarLedgeGroup.add(clothTop);
+
+    // Two rolled Torah scrolls resting on the linen cloth (matching painting #12 center-left)
+    for (let s = 0; s < 2; s++) {
+      const scroll = new THREE.Mesh(new THREE.CylinderGeometry(0.052, 0.052, 0.72, 14), linenMat);
+      scroll.rotation.z = Math.PI / 2;
+      scroll.rotation.y = 0.28;
+      scroll.position.set(0.18 + s * 0.14, 1.63, 0.24 + s * 0.10);
+      altarLedgeGroup.add(scroll);
+    }
+
+    // Burning clay oil lamp on the left corner of the altar slab (matching painting #12 left)
+    const oilLamp = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.12, 0.11, 16), clayMat);
+    oilLamp.position.set(-0.52, 1.61, 0.22);
+    altarLedgeGroup.add(oilLamp);
+
+    const flameMesh = new THREE.Mesh(
+      new THREE.ConeGeometry(0.045, 0.14, 10),
+      new THREE.MeshBasicMaterial({ color: '#ffefb0' })
+    );
+    flameMesh.position.set(-0.52, 1.72, 0.22);
+    altarLedgeGroup.add(flameMesh);
+
+    // Round clay jar & slender long-necked flask behind the scrolls (matching painting #12)
+    const roundJar = new THREE.Mesh(new THREE.SphereGeometry(0.22, 16, 14), clayMat);
+    roundJar.scale.set(1.0, 1.18, 1.0);
+    roundJar.position.set(-0.12, 1.78, -0.18);
+    altarLedgeGroup.add(roundJar);
+
+    const tallFlask = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.16, 0.56, 16), clayMat);
+    tallFlask.position.set(0.22, 1.84, -0.12);
+    altarLedgeGroup.add(tallFlask);
+
+    group.add(altarLedgeGroup);
+
+    // 2. Right Weathered Temple Stone Wall with the Recessed Niche & Woven Twig Sparrow's Nest (exact match to painting #12 right)
+    const nestWallGroup = new THREE.Group();
+    nestWallGroup.position.set(0.78, 0.0, -0.10);
+    nestWallGroup.userData.keepWithGlb = true;
+
+    const stoneWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.75, 2.85, 1.15, 8, 10, 6), 0.045, 2.8),
+      limestoneMat
+    );
+    stoneWall.position.set(0, 1.42, 0);
+    nestWallGroup.add(stoneWall);
+
+    // Woven twig Sparrow's Nest tucked in the stone niche at eye level (matching painting #12)
+    const nestGroup = new THREE.Group();
+    nestGroup.position.set(-0.12, 1.56, 0.54);
+
+    const nestBowl = new THREE.Mesh(
+      this.displaceGeometry(new THREE.TorusGeometry(0.32, 0.14, 12, 24), 0.035, 5.0),
+      twigMat
+    );
+    nestBowl.rotation.x = Math.PI / 2 - 0.22;
+    nestGroup.add(nestBowl);
+
+    for (let t = 0; t < 18; t++) {
+      const twig = new THREE.Mesh(new THREE.CylinderGeometry(0.008, 0.010, 0.56, 6), twigMat);
+      const ang = (t / 18) * Math.PI * 2;
+      twig.position.set(Math.cos(ang) * 0.28, (t % 3) * 0.04 - 0.04, Math.sin(ang) * 0.24);
+      twig.rotation.set(Math.sin(ang) * 0.4, ang, Math.PI / 2 + 0.25);
+      nestGroup.add(twig);
+    }
+
+    // Small sculpted sparrow resting inside the nest near the altar
+    const sparrowBody = new THREE.Mesh(new THREE.SphereGeometry(0.11, 12, 10), clayMat);
+    sparrowBody.scale.set(1.25, 0.88, 0.92);
+    sparrowBody.position.set(0, 0.06, 0.04);
+    nestGroup.add(sparrowBody);
+
+    const sparrowHead = new THREE.Mesh(new THREE.SphereGeometry(0.068, 10, 10), clayMat);
+    sparrowHead.position.set(-0.10, 0.14, 0.06);
+    nestGroup.add(sparrowHead);
+
+    nestWallGroup.add(nestGroup);
+
+    // Olive branch framing the right side of the stone wall (matching painting #12 right)
+    for (let l = 0; l < 14; l++) {
+      const leaf = new THREE.Mesh(new THREE.SphereGeometry(0.075, 8, 6), leafMat);
+      leaf.scale.set(2.2, 0.26, 0.72);
+      leaf.position.set(0.68 + (l % 2) * 0.14, 0.65 + l * 0.14, 0.58);
+      leaf.rotation.z = l % 2 === 0 ? 0.52 : -0.48;
+      nestWallGroup.add(leaf);
+    }
+
+    group.add(nestWallGroup);
+
+    const altarLight = new THREE.PointLight('#ffe599', 3.0, 20);
+    altarLight.position.set(-0.52, 2.05, 0.55);
+    group.add(altarLight);
+
+    return { group, altarLedgeGroup, nestWallGroup, nestGroup, flameMesh, altarLight };
+  }
+
+  // Psalm 91:1–15 (#19 "under his feathers"):
+  //   - Rocky cliff-top sanctuary crag overlooking the walled city & terraced hills
+  //   - Large overarching gold-tipped eagle/mother-bird wing ("He will cover you with his feathers. Under his wings you will take refuge")
+  //     curving protectively over a twig nest holding three nestled chicks
+  //   - Foreground draped cloth, rolled scroll of Psalm 91, and olive branch with olives (matching assets/psalms-3/web/b-015-019.jpg)
+  createPsalm91ShadowOfWingsEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const rockMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8f8167',
+      accentColor: '#dfd0b2',
+      roughness: 0.90
+    });
+    const featherDarkMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4f493e',
+      accentColor: '#8c8068',
+      roughness: 0.76
+    });
+    const featherGoldMat = new THREE.MeshStandardMaterial({
+      color: '#deb864',
+      emissive: '#8f6b1e',
+      emissiveIntensity: 0.32,
+      roughness: 0.38,
+      metalness: 0.62
+    });
+    const twigMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c4b35',
+      accentColor: '#9e8664',
+      roughness: 0.92
+    });
+    const chickMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9e9482',
+      accentColor: '#ded5c3',
+      roughness: 0.86
+    });
+    const clothMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6d7060',
+      accentColor: '#aeb39d',
+      roughness: 0.86
+    });
+    const scrollMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#bda373',
+      accentColor: '#e8d3a7',
+      roughness: 0.80
+    });
+
+    const cragGroup = new THREE.Group();
+    cragGroup.userData.keepWithGlb = true;
+
+    // 1. Sculpted Limestone Crag Ledge (matching painting #19 lower half)
+    const cragBase = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.65, 2.15, 1.12, 18, 6), 0.08, 3.0),
+      rockMat
+    );
+    cragBase.position.y = 0.56;
+    cragGroup.add(cragBase);
+
+    // 2. Woven Twig Nest & Three Sheltered Chicks on the Crag (exact match to center of painting #19)
+    const nestRing = new THREE.Mesh(
+      this.displaceGeometry(new THREE.TorusGeometry(0.68, 0.18, 12, 28), 0.04, 4.5),
+      twigMat
+    );
+    nestRing.rotation.x = Math.PI / 2;
+    nestRing.position.set(0, 1.18, 0);
+    cragGroup.add(nestRing);
+
+    const chickOffsets = [
+      [-0.22, 1.28, 0.14],
+      [0.14, 1.32, -0.06],
+      [0.32, 1.26, 0.16]
+    ];
+    chickOffsets.forEach(([cx, cy, cz], idx) => {
+      const body = new THREE.Mesh(new THREE.SphereGeometry(0.18, 14, 12), chickMat);
+      body.scale.set(1.25, 0.92, 1.0);
+      body.position.set(cx, cy, cz);
+      cragGroup.add(body);
+
+      const head = new THREE.Mesh(new THREE.SphereGeometry(0.11, 12, 10), chickMat);
+      head.position.set(cx - 0.14, cy + 0.12, cz + 0.04);
+      cragGroup.add(head);
+    });
+
+    // 3. Overarching Gold-Edged Wing Canopy curving over the Nest ("He will cover you with his feathers", painting #19)
+    const wingCanopy = new THREE.Group();
+    wingCanopy.position.set(0, 1.32, -0.12);
+
+    const mainWingShell = new THREE.Mesh(
+      this.displaceGeometry(
+        new THREE.SphereGeometry(1.12, 24, 16, 0, Math.PI * 1.15, 0, Math.PI * 0.58),
+        0.03,
+        4.0
+      ),
+      featherDarkMat
+    );
+    mainWingShell.rotation.x = -0.25;
+    mainWingShell.scale.set(1.32, 0.95, 1.08);
+    wingCanopy.add(mainWingShell);
+
+    // Layered gold-tipped flight feathers cascading down the arch
+    for (let f = 0; f < 14; f++) {
+      const ang = -0.85 + (f / 13) * 1.85;
+      const feather = new THREE.Mesh(new THREE.ConeGeometry(0.14, 0.78, 8), f % 2 === 0 ? featherGoldMat : featherDarkMat);
+      feather.scale.set(1.0, 1.0, 0.25);
+      feather.position.set(Math.sin(ang) * 0.96, 0.38 - Math.abs(ang) * 0.28, Math.cos(ang) * 0.55);
+      feather.rotation.z = -ang * 0.75;
+      feather.rotation.x = 0.35;
+      wingCanopy.add(feather);
+    }
+
+    cragGroup.add(wingCanopy);
+
+    // 4. Foreground Draped Cloth & Rolled Scroll of Psalm 91 on the lower-left rock (matching painting #19 bottom left)
+    const clothDrape = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.35, 0.14, 0.85, 6, 2, 6), 0.03, 3.8),
+      clothMat
+    );
+    clothDrape.position.set(-0.48, 0.98, 0.86);
+    clothDrape.rotation.z = -0.18;
+    cragGroup.add(clothDrape);
+
+    const scroll = new THREE.Mesh(new THREE.CylinderGeometry(0.075, 0.075, 0.86, 16), scrollMat);
+    scroll.rotation.z = Math.PI / 2 - 0.22;
+    scroll.rotation.y = -0.52;
+    scroll.position.set(-0.62, 1.08, 0.92);
+    cragGroup.add(scroll);
+
+    group.add(cragGroup);
+
+    const wingLight = new THREE.PointLight('#ffe396', 3.2, 22);
+    wingLight.position.set(0, 2.45, 0.45);
+    group.add(wingLight);
+
+    return { group, cragGroup, wingCanopy, wingLight };
+  }
+
+  // Psalm 103:1–14 (#31 "east from west"):
+  //   - Two stone rooftop/hillside terraces overlooking a vast sunlit plain stretching from east to west
+  //   - Left stone parapet wall under an olive tree with two clay jars, a shallow clay bowl, and a striped woven prayer shawl
+  //   - Right stone threshing/rooftop platform with golden grain, woven winnowing basket, blue-slate garment, and wooden shade arbor
+  // (matching assets/psalms-3/web/b-015-031.jpg)
+  createPsalm103EastFromWestTerraceEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#877a63',
+      accentColor: '#dfd1b4',
+      roughness: 0.88
+    });
+    const shawlMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b5a282',
+      accentColor: '#ede0c7',
+      roughness: 0.84
+    });
+    const grainMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c9a959',
+      accentColor: '#f5dc93',
+      roughness: 0.82
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7d684f',
+      accentColor: '#bfa685',
+      roughness: 0.84
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#59452f',
+      accentColor: '#967856',
+      roughness: 0.85
+    });
+
+    // 1. Left Stone Parapet Wall with Olive Tree, Striped Shawl, Clay Bowl & Two Jars (matching painting #31 lower left)
+    const leftParapet = new THREE.Group();
+    leftParapet.position.set(-1.35, 0.0, 0.35);
+    leftParapet.userData.keepWithGlb = true;
+
+    const wallBlock = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.85, 0.88, 1.15, 6, 4, 4), 0.03, 3.2),
+      stoneMat
+    );
+    wallBlock.position.y = 0.44;
+    leftParapet.add(wallBlock);
+
+    const shawl = new THREE.Mesh(new THREE.BoxGeometry(0.68, 0.82, 0.08), shawlMat);
+    shawl.position.set(0.32, 0.48, 0.58);
+    shawl.rotation.x = -0.14;
+    leftParapet.add(shawl);
+
+    const bowl = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.14, 0.12, 18), clayMat);
+    bowl.position.set(0.18, 0.94, 0.18);
+    leftParapet.add(bowl);
+
+    for (let j = 0; j < 2; j++) {
+      const jar = new THREE.Mesh(new THREE.SphereGeometry(0.18 - j * 0.03, 14, 12), clayMat);
+      jar.scale.set(1.0, 1.22, 1.0);
+      jar.position.set(-0.48 + j * 0.34, 1.02, 0.22);
+      leftParapet.add(jar);
+    }
+
+    const oliveTree = this.createGreatPainterlyTree(propTex, pal, 0.95);
+    oliveTree.position.set(-0.65, 0.85, -0.25);
+    leftParapet.add(oliveTree);
+
+    group.add(leftParapet);
+
+    // 2. Right Stone Terrace Platform with Golden Grain Carpet, Woven Basket & Wooden Shade Arbor (matching painting #31 lower right)
+    const rightTerrace = new THREE.Group();
+    rightTerrace.position.set(1.25, 0.0, -0.15);
+    rightTerrace.userData.keepWithGlb = true;
+
+    const platform = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.35, 0.72, 1.95, 8, 3, 8), 0.025, 3.0),
+      stoneMat
+    );
+    platform.position.y = 0.36;
+    rightTerrace.add(platform);
+
+    const grainCarpet = new THREE.Mesh(new THREE.BoxGeometry(1.55, 0.04, 1.25), grainMat);
+    grainCarpet.position.set(0.05, 0.74, 0.05);
+    rightTerrace.add(grainCarpet);
+
+    const winnowBasket = new THREE.Mesh(new THREE.CylinderGeometry(0.26, 0.20, 0.12, 16), clayMat);
+    winnowBasket.position.set(-0.52, 0.79, 0.18);
+    rightTerrace.add(winnowBasket);
+
+    for (const [px, pz] of [[0.45, -0.65], [1.05, -0.65], [0.85, 0.45]]) {
+      const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.032, 0.038, 1.85, 8), woodMat);
+      pole.position.set(px, 1.62, pz);
+      rightTerrace.add(pole);
+    }
+
+    const shadeCloth = new THREE.Mesh(new THREE.BoxGeometry(0.85, 0.04, 1.18), shawlMat);
+    shadeCloth.position.set(0.78, 2.48, -0.10);
+    shadeCloth.rotation.z = -0.12;
+    rightTerrace.add(shadeCloth);
+
+    group.add(rightTerrace);
+
+    const horizonLight = new THREE.PointLight('#ffe08c', 3.4, 26);
+    horizonLight.position.set(0.0, 2.8, -1.2);
+    group.add(horizonLight);
+
+    return { group, leftParapet, rightTerrace, horizonLight };
+  }
+
+  // Psalm 106:1–48 (#34 "amen" & District XV Finale Plaza):
+  //   - Circular stone pedestal on the temple court steps holding a large curved ram's horn Shofar
+  //     with an engraved silver-gold mouthpiece collar ("Let all the people say, 'Amen.' Praise Yah!")
+  //   - Right stone altar block draped with a fringed tallit/prayer cloth and a carved stone offering bowl
+  //   - When isFinalePlaza = true, pairs with the signature Sparrow's Nest by the Altar (Psalm 84:3)
+  // (matching assets/psalms-3/web/b-015-034.jpg)
+  createPsalm106AmenShofarAltarEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c7e65',
+      accentColor: '#e3d4b6',
+      roughness: 0.88
+    });
+    const hornMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e5a3e',
+      accentColor: '#bfa47a',
+      roughness: 0.72
+    });
+    const collarMat = new THREE.MeshStandardMaterial({
+      color: '#c9b077',
+      roughness: 0.35,
+      metalness: 0.78
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d6c8ad',
+      accentColor: '#f5ecda',
+      roughness: 0.82
+    });
+
+    // 1. Foreground Circular Stone Pedestal & Curved Ram's Horn Shofar (exact match to painting #34 foreground)
+    const shofarGroup = new THREE.Group();
+    shofarGroup.position.set(isFinalePlaza ? -0.85 : 0.0, 0.02, 0.35);
+    shofarGroup.userData.keepWithGlb = true;
+
+    const roundSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.18, 1.24, 0.24, 28), 0.02, 3.2),
+      stoneMat
+    );
+    roundSlab.position.y = 0.12;
+    shofarGroup.add(roundSlab);
+
+    // Sculpted curved Shofar horn resting on the circular stone slab
+    const hornCurve = new THREE.Mesh(
+      new THREE.TorusGeometry(0.56, 0.11, 14, 28, Math.PI * 0.72),
+      hornMat
+    );
+    hornCurve.rotation.z = Math.PI * 0.82;
+    hornCurve.position.set(0.05, 0.68, 0.08);
+    shofarGroup.add(hornCurve);
+
+    const mouthpiece = new THREE.Mesh(new THREE.CylinderGeometry(0.038, 0.068, 0.38, 14), collarMat);
+    mouthpiece.rotation.z = Math.PI / 2 - 0.22;
+    mouthpiece.position.set(-0.56, 0.38, 0.08);
+    shofarGroup.add(mouthpiece);
+
+    group.add(shofarGroup);
+
+    // 2. Right Stone Altar Block with Draped Fringed Prayer Cloth & Stone Bowl (exact match to painting #34 right)
+    const altarBlockGroup = new THREE.Group();
+    altarBlockGroup.position.set(isFinalePlaza ? 0.55 : 0.95, 0.02, -0.45);
+    altarBlockGroup.userData.keepWithGlb = true;
+
+    const altarBlock = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.65, 1.48, 1.18, 6, 6, 6), 0.025, 3.0),
+      stoneMat
+    );
+    altarBlock.position.y = 0.74;
+    altarBlockGroup.add(altarBlock);
+
+    const altarCap = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.82, 0.22, 1.32, 6, 2, 6), 0.02, 3.2),
+      stoneMat
+    );
+    altarCap.position.y = 1.56;
+    altarBlockGroup.add(altarCap);
+
+    const drapedTallit = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.68, 1.18, 0.12, 6, 8, 2), 0.02, 4.0),
+      linenMat
+    );
+    drapedTallit.position.set(0.18, 1.08, 0.62);
+    drapedTallit.rotation.z = -0.08;
+    altarBlockGroup.add(drapedTallit);
+
+    const stoneBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.16, 0.14, 18), stoneMat);
+    stoneBowl.position.set(-0.38, 1.74, 0.12);
+    altarBlockGroup.add(stoneBowl);
+
+    group.add(altarBlockGroup);
+
+    // 3. When isFinalePlaza = true, pair with the signature Sparrow's Nest by the Altar (Psalm 84:3)
+    if (isFinalePlaza) {
+      const sparrowAltar = this.createPsalm84SparrowNestAltarEnsemble(propTex, pal);
+      if (sparrowAltar.altarLight) sparrowAltar.group.remove(sparrowAltar.altarLight);
+      sparrowAltar.group.scale.setScalar(0.88);
+      sparrowAltar.group.position.set(1.75, 0, -1.35);
+      group.add(sparrowAltar.group);
+    }
+
+    return group;
+  }
 }

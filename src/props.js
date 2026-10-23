@@ -3696,4 +3696,484 @@ export class PainterlyPropBuilder {
     const kind = map[slug] || 'river_of_life_new_jerusalem';
     return this.createFocalPropForScene(kind, null, pal).group;
   }
+
+  // ============================================================================
+  // BOOK-SPECIFIC STREET BIOME LANDMARKS & FORTIFIED EVENT MONUMENTS
+  // Populates the street background & roadside overlooks so each Bible book's
+  // street environment matches its setting and iconic events (e.g. Daniel's
+  // Fiery Furnace & Lions' Den, Wilderness Camps & Crags, Fortified Walls, etc.)
+  // ============================================================================
+
+  // Daniel 3:19–25 — Large-scale Babylonian Vaulted Brick Fiery Furnace with
+  // Roaring Flames and Four Figures Walking Unharmed in the Midst of the Fire
+  createBabylonFieryFurnaceLandmark(pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const brickMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8f4326',
+      accentColor: '#eb8346',
+      roughness: 0.78,
+      bumpScale: 0.06
+    });
+    brickMat.emissive = new THREE.Color('#4d1f0c');
+    brickMat.emissiveIntensity = 0.65;
+    const lapisMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#284d8a',
+      accentColor: '#f5c463',
+      roughness: 0.62
+    });
+    lapisMat.emissive = new THREE.Color('#162c52');
+    lapisMat.emissiveIntensity = 0.6;
+    const ironMat = new THREE.MeshStandardMaterial({
+      color: '#2e2b29',
+      roughness: 0.45,
+      metalness: 0.78
+    });
+    const coalMat = new THREE.MeshStandardMaterial({
+      color: '#ff6a00',
+      emissive: '#ff3c00',
+      emissiveIntensity: 1.8,
+      roughness: 0.4
+    });
+
+    // Stepped Babylonian brick plinth
+    const plinth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(5.6, 0.48, 4.4, 8, 2, 6), 0.03, 3.0),
+      lapisMat
+    );
+    plinth.position.y = 0.24;
+    group.add(plinth);
+
+    // Massive vaulted brick furnace chamber (wide open archway so the 4 figures in the fire are clearly visible)
+    for (const sx of [-2.1, 2.1]) {
+      const pier = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(1.15, 3.8, 1.65, 4, 8, 4), 0.04, 2.8),
+        brickMat
+      );
+      pier.position.set(sx, 2.1, -0.2);
+      group.add(pier);
+    }
+    const backWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(5.2, 3.8, 0.85, 8, 8, 3), 0.04, 2.8),
+      brickMat
+    );
+    backWall.position.set(0, 2.1, -1.15);
+    group.add(backWall);
+
+    const archTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.1, 2.55, 1.4, 18), 0.04, 3.0),
+      brickMat
+    );
+    archTop.position.set(0, 4.35, -0.2);
+    group.add(archTop);
+
+    // Chimney crown with lapis & gold crenellations
+    const crown = new THREE.Mesh(
+      new THREE.CylinderGeometry(1.45, 1.75, 1.2, 16, 1, true),
+      lapisMat
+    );
+    crown.position.set(0, 5.45, -0.2);
+    group.add(crown);
+
+    // Glowing bed of roaring coals inside the furnace mouth
+    const coalBed = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.75, 1.9, 0.38, 18), 0.04, 4.0),
+      coalMat
+    );
+    coalBed.position.set(0, 0.62, 0.25);
+    group.add(coalBed);
+
+    // Iron furnace bars framing the lower opening
+    for (const bx of [-1.45, -0.85, 0.85, 1.45]) {
+      const bar = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.04, 1.15, 8), ironMat);
+      bar.position.set(bx, 1.02, 1.15);
+      group.add(bar);
+    }
+
+    // Four luminous figures walking unharmed inside the fire (Daniel 3:25 — "the fourth is like a son of the gods")
+    const figureMat = new THREE.MeshBasicMaterial({
+      color: '#ffe08c',
+      transparent: true,
+      opacity: 0.95
+    });
+    const fourthMat = new THREE.MeshBasicMaterial({
+      color: '#ffffff',
+      transparent: true,
+      opacity: 1.0
+    });
+    const figPositions = [
+      [-0.95, 1.62, 0.35, false],
+      [-0.35, 1.68, 0.50, false],
+      [0.28, 1.85, 0.62, true], // The radiant Fourth Figure in the fire
+      [0.92, 1.65, 0.40, false]
+    ];
+    figPositions.forEach(([fx, fy, fz, isFourth]) => {
+      const mat = isFourth ? fourthMat : figureMat;
+      const body = new THREE.Mesh(new THREE.CapsuleGeometry(isFourth ? 0.18 : 0.15, isFourth ? 0.88 : 0.76, 6, 10), mat);
+      body.position.set(fx, fy, fz);
+      group.add(body);
+      const head = new THREE.Mesh(new THREE.SphereGeometry(isFourth ? 0.16 : 0.13, 10, 10), mat);
+      head.position.set(fx, fy + (isFourth ? 0.66 : 0.58), fz);
+      group.add(head);
+    });
+
+    // Roaring volumetric fire sprites inside the furnace & rising out of the chimney
+    const glowTex = this.painterly.createGlowSpriteTexture('#ff8c24');
+    for (let f = 0; f < 8; f++) {
+      const sp = new THREE.Sprite(
+        new THREE.SpriteMaterial({
+          map: glowTex,
+          color: f === 2 ? '#fff6cc' : f % 2 === 0 ? '#ffae38' : '#ff5514',
+          transparent: true,
+          opacity: 0.85,
+          blending: THREE.AdditiveBlending
+        })
+      );
+      sp.position.set(
+        (f % 3 - 1) * 0.55,
+        1.45 + f * 0.58,
+        f < 5 ? 0.45 : -0.15
+      );
+      sp.scale.set(2.8 - f * 0.12, 3.1, 1);
+      group.add(sp);
+    }
+
+    // Also mount the 3D GLB model alongside on the flanking plinth so the furnace mouth stays completely open
+    if (this.tripo) {
+      const glbSlot = new THREE.Group();
+      glbSlot.position.set(-3.1, 0.25, 0.65);
+      group.add(glbSlot);
+      this.tripo.mountSceneGlbIfAvailable(glbSlot, 'greatly-beloved', 14, {
+        targetHeight: 2.2,
+        yOffset: 0.1
+      });
+    }
+
+    return group;
+  }
+
+  // Daniel 6:16–22 — Sunken Stone Lions' Den with Sculpted Golden Lions,
+  // Rolled Stone Rim, and Heavenly Angel Shaft of Light
+  createDanielLionsDenLandmark(pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c7a62',
+      accentColor: '#e3c698',
+      roughness: 0.82,
+      bumpScale: 0.06
+    });
+    stoneMat.emissive = new THREE.Color('#3b3226');
+    stoneMat.emissiveIntensity = 0.55;
+    const lionFurMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d99e4c',
+      accentColor: '#ffe094',
+      roughness: 0.72
+    });
+    lionFurMat.emissive = new THREE.Color('#66461b');
+    lionFurMat.emissiveIntensity = 0.65;
+    const maneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#965d25',
+      accentColor: '#e8a858',
+      roughness: 0.78
+    });
+    maneMat.emissive = new THREE.Color('#472a0e');
+    maneMat.emissiveIntensity = 0.6;
+
+    // Low stone pit curb in front & rocky cavern arch behind so the Golden Lions are in full view
+    const pitWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.8, 3.1, 0.42, 24), 0.04, 3.0),
+      stoneMat
+    );
+    pitWall.position.y = 0.21;
+    group.add(pitWall);
+
+    // Cavern back-arch & boulders rising behind the pit
+    for (let i = 0; i < 7; i++) {
+      const ang = (i / 6) * Math.PI;
+      const rx = Math.cos(ang) * 2.55;
+      const ry = Math.sin(ang) * 2.4 + 1.1;
+      const boulder = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(0.85, 1), 0.08, 2.5),
+        stoneMat
+      );
+      boulder.position.set(rx, ry, -1.2 - Math.sin(ang) * 0.5);
+      boulder.scale.set(1.25, 1.1, 1.1);
+      group.add(boulder);
+    }
+
+    // The great round sealing stone rolled to the side (Daniel 6:17)
+    const sealStone = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.05, 1.05, 0.34, 24), 0.04, 3.5),
+      stoneMat
+    );
+    sealStone.rotation.x = Math.PI / 2;
+    sealStone.rotation.y = -0.35;
+    sealStone.position.set(2.35, 1.15, 0.65);
+    group.add(sealStone);
+
+    // Sculpted Resting Lions with peaceful closed mouths in the foreground of the den
+    const buildLion = (lx, ly, lz, rotY) => {
+      const lGroup = new THREE.Group();
+      lGroup.position.set(lx, ly, lz);
+      lGroup.rotation.y = rotY;
+      lGroup.scale.setScalar(1.25);
+
+      const body = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CapsuleGeometry(0.32, 0.75, 8, 12), 0.02, 4.0),
+        lionFurMat
+      );
+      body.rotation.x = Math.PI / 2;
+      body.position.set(0, 0.34, 0);
+      lGroup.add(body);
+
+      const mane = new THREE.Mesh(
+        this.displaceGeometry(new THREE.SphereGeometry(0.42, 14, 12), 0.035, 4.5),
+        maneMat
+      );
+      mane.scale.set(1.0, 1.15, 0.85);
+      mane.position.set(0, 0.58, 0.42);
+      lGroup.add(mane);
+
+      const head = new THREE.Mesh(
+        this.displaceGeometry(new THREE.SphereGeometry(0.26, 12, 10), 0.02, 5.0),
+        lionFurMat
+      );
+      head.scale.set(0.95, 0.9, 1.15);
+      head.position.set(0, 0.58, 0.60);
+      lGroup.add(head);
+
+      // Front paws stretched peacefully forward
+      for (const px of [-0.16, 0.16]) {
+        const paw = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.12, 0.45), lionFurMat);
+        paw.position.set(px, 0.10, 0.68);
+        lGroup.add(paw);
+      }
+      return lGroup;
+    };
+
+    group.add(buildLion(-1.15, 0.42, 0.55, 0.35));
+    group.add(buildLion(1.12, 0.42, 0.50, -0.35));
+    group.add(buildLion(0.0, 0.55, -0.25, 0.0));
+
+    // Heavenly Angel Shaft of Golden Light + Halo descending into the Lions' Den
+    const angelShaft = this.createKomorebiSunbeamShaft(11, 0.65, 2.5, '#ffeaa3');
+    angelShaft.position.set(0, 4.8, 0.2);
+    group.add(angelShaft);
+
+    const glowTex = this.painterly.createGlowSpriteTexture('#ffe294');
+    const angelHalo = new THREE.Sprite(
+      new THREE.SpriteMaterial({
+        map: glowTex,
+        color: '#ffefb8',
+        transparent: true,
+        opacity: 0.85,
+        blending: THREE.AdditiveBlending
+      })
+    );
+    angelHalo.position.set(0, 1.45, 0.25);
+    angelHalo.scale.set(3.8, 3.2, 1);
+    group.add(angelHalo);
+
+    // Mount the 3D GLB sculpture of the Lions' Den on the flanking ledge so the 3 sculpted lions are unobstructed
+    if (this.tripo) {
+      const glbSlot = new THREE.Group();
+      glbSlot.position.set(-2.95, 0.25, 0.65);
+      group.add(glbSlot);
+      this.tripo.mountSceneGlbIfAvailable(glbSlot, 'greatly-beloved', 26, {
+        targetHeight: 2.3,
+        yOffset: 0.1
+      });
+    }
+
+    return group;
+  }
+
+  // Babylonian / Royal Fortress Wall & Crenellated Tower Segment (Daniel, Esther, Kings, Chronicles)
+  createBabylonFortressWallSegment(pal = {}, isLapis = true) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const wallMat = this.painterly.createPainterlyMaterial({
+      baseColor: isLapis ? '#263b5e' : '#857158',
+      accentColor: isLapis ? '#e3b459' : '#dec398',
+      roughness: 0.78,
+      bumpScale: 0.05
+    });
+    wallMat.emissive = new THREE.Color(isLapis ? '#142238' : '#382f24');
+    wallMat.emissiveIntensity = 0.55;
+    const goldMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c99636',
+      accentColor: '#ffe28a',
+      roughness: 0.42
+    });
+    goldMat.emissive = new THREE.Color('#5c4214');
+    goldMat.emissiveIntensity = 0.6;
+
+    const wall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(5.8, 4.2, 1.15, 8, 6, 3), 0.03, 3.0),
+      wallMat
+    );
+    wall.position.y = 2.1;
+    group.add(wall);
+
+    // Decorative gold relief frieze band across the wall
+    const frieze = new THREE.Mesh(new THREE.BoxGeometry(5.9, 0.36, 1.22), goldMat);
+    frieze.position.y = 3.2;
+    group.add(frieze);
+
+    // Stepped battlements / merlons along the top
+    for (let m = -2; m <= 2; m++) {
+      const merlon = new THREE.Mesh(new THREE.BoxGeometry(0.75, 0.65, 1.18), wallMat);
+      merlon.position.set(m * 1.15, 4.5, 0);
+      group.add(merlon);
+    }
+
+    // Flanking fortress watchtower with blazing fire-brazier on top
+    const tower = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.1, 5.6, 2.1, 4, 8, 4), 0.03, 3.0),
+      wallMat
+    );
+    tower.position.set(3.2, 2.8, 0.15);
+    group.add(tower);
+
+    const glowTex = this.painterly.createGlowSpriteTexture('#ffae38');
+    const flame = new THREE.Sprite(
+      new THREE.SpriteMaterial({
+        map: glowTex,
+        color: '#ffb84d',
+        transparent: true,
+        opacity: 0.85,
+        blending: THREE.AdditiveBlending
+      })
+    );
+    flame.position.set(3.2, 6.2, 0.15);
+    flame.scale.set(2.2, 2.6, 1);
+    group.add(flame);
+
+    return group;
+  }
+
+  // Wilderness Encampment Tent, Sandstone Crag & Bronze Fire-Brazier (Exodus, Leviticus/Numbers, Deuteronomy, Job)
+  createWildernessCampAndCrag(pal = {}, idx = 0) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const tentMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#544332',
+      accentColor: '#b89468',
+      roughness: 0.92,
+      bumpScale: 0.06
+    });
+    const rockMat = this.painterly.createPainterlyMaterial({
+      baseColor: pal.ground || '#8c6946',
+      accentColor: pal.accent || '#e0b478',
+      roughness: 0.9,
+      bumpScale: 0.07
+    });
+
+    // Sculpted desert sandstone hoodoo / crag
+    const crag = new THREE.Mesh(
+      this.displaceGeometry(new THREE.ConeGeometry(1.65, 4.2 + (idx % 3) * 1.1, 9, 6), 0.18, 2.2),
+      rockMat
+    );
+    crag.position.set(-1.4, 2.0, -0.8);
+    crag.scale.set(1.2, 1.0, 0.9);
+    group.add(crag);
+
+    // Nomad goat-hair tent pitched beside the rock crag
+    if (idx % 2 === 0) {
+      const tentRoof = new THREE.Mesh(
+        this.displaceGeometry(new THREE.ConeGeometry(2.1, 1.65, 6), 0.05, 3.0),
+        tentMat
+      );
+      tentRoof.position.set(1.35, 1.15, 0.35);
+      tentRoof.scale.set(1.35, 0.85, 1.0);
+      group.add(tentRoof);
+
+      const glowTex = this.painterly.createGlowSpriteTexture('#ffae42');
+      const campfire = new THREE.Sprite(
+        new THREE.SpriteMaterial({
+          map: glowTex,
+          color: '#ffc25c',
+          transparent: true,
+          opacity: 0.78,
+          blending: THREE.AdditiveBlending
+        })
+      );
+      campfire.position.set(1.35, 0.55, 1.65);
+      campfire.scale.set(1.4, 1.6, 1);
+      group.add(campfire);
+    }
+
+    return group;
+  }
+
+  // Maritime Sea-Stack, Great Fish Breach & Harbor Anchor Monument (Jonah, Mark, Acts, James)
+  createMaritimeCoastalMonument(pal = {}, idx = 0, isJonah = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const basaltMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#3d4c54',
+      accentColor: '#9eb3b8',
+      roughness: 0.84
+    });
+
+    if (isJonah && idx % 3 === 1) {
+      // Sculpted Great Whale / Leviathan arching out of the sea waves (Jonah 1:17 / 2:10)
+      const whaleMat = this.painterly.createPainterlyMaterial({
+        baseColor: '#2b4759',
+        accentColor: '#8cb8c9',
+        roughness: 0.62
+      });
+      const bodyCurve = new THREE.CatmullRomCurve3([
+        new THREE.Vector3(-2.2, -0.4, 0),
+        new THREE.Vector3(-0.8, 1.85, 0.2),
+        new THREE.Vector3(0.9, 1.55, -0.1),
+        new THREE.Vector3(2.4, -0.3, 0)
+      ]);
+      const whaleBody = new THREE.Mesh(
+        new THREE.TubeGeometry(bodyCurve, 24, 0.68, 14, false),
+        whaleMat
+      );
+      group.add(whaleBody);
+
+      const flukeL = new THREE.Mesh(new THREE.ConeGeometry(0.45, 1.2, 8), whaleMat);
+      flukeL.position.set(2.3, 0.45, 0.42);
+      flukeL.rotation.x = 0.6;
+      group.add(flukeL);
+      const flukeR = new THREE.Mesh(new THREE.ConeGeometry(0.45, 1.2, 8), whaleMat);
+      flukeR.position.set(2.3, 0.45, -0.42);
+      flukeR.rotation.x = -0.6;
+      group.add(flukeR);
+      return group;
+    }
+
+    // Coastal sea-stack arch & lighthouse beacon
+    const stack = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.95, 1.55, 3.8, 12, 6), 0.14, 2.5),
+      basaltMat
+    );
+    stack.position.y = 1.9;
+    group.add(stack);
+
+    const glowTex = this.painterly.createGlowSpriteTexture('#ffe29c');
+    const beacon = new THREE.Sprite(
+      new THREE.SpriteMaterial({
+        map: glowTex,
+        color: '#ffe8a8',
+        transparent: true,
+        opacity: 0.78,
+        blending: THREE.AdditiveBlending
+      })
+    );
+    beacon.position.set(0, 4.1, 0);
+    beacon.scale.set(2.1, 2.1, 1);
+    group.add(beacon);
+
+    return group;
+  }
 }

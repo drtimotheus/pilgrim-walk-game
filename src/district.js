@@ -8,7 +8,7 @@
 //   - 40 paintings in book order across 4 parts + 4 hidden Lights + Amen Gate
 // ============================================================================
 
-import { createKomorebiWaterMaterial } from './postprocess.js?v=44_2';
+import { createKomorebiWaterMaterial } from './postprocess.js?v=44_17';
 
 export class GenesisDistrictBuilder {
   constructor(THREE, painterly, propBuilder) {
@@ -16,6 +16,207 @@ export class GenesisDistrictBuilder {
     this.painterly = painterly;
     this.propBuilder = propBuilder;
     this.textureLoader = new THREE.TextureLoader();
+  }
+
+  getDistrictBiomeConfig(slug = 'genesis') {
+    const wildernessSlugs = new Set([
+      'exodus',
+      'fire-by-night',
+      'choose-life',
+      'out-of-the-whirlwind',
+      'a-door-of-hope'
+    ]);
+    const babylonSlugs = new Set([
+      'greatly-beloved',
+      'for-such-a-time-as-this'
+    ]);
+    const citadelSlugs = new Set([
+      'joshua-judges',
+      'kings',
+      'our-eyes-are-on-you',
+      'rise-up-and-build',
+      'a-future-and-a-hope',
+      'new-every-morning',
+      'the-day-of-small-things'
+    ]);
+    const maritimeSlugs = new Set([
+      'out-of-the-deep',
+      'peace-be-still',
+      'to-the-ends-of-the-earth',
+      'doers-of-the-word'
+    ]);
+    const sanctuarySlugs = new Set([
+      'arise-shine',
+      'can-these-bones-live',
+      'anchor-of-the-soul',
+      'all-things-new',
+      'come-and-see'
+    ]);
+    const harvestSlugs = new Set([
+      'genesis',
+      'ruth',
+      'samuel',
+      'psalms-1',
+      'psalms-2',
+      'psalms-3',
+      'psalms-4',
+      'many-waters',
+      'good-news-of-great-joy',
+      'i-am-with-you-always'
+    ]);
+
+    if (babylonSlugs.has(slug)) {
+      return {
+        biome: 'babylon_fortress',
+        groundColor: '#3d394a',
+        groundAccent: '#cf9e57',
+        pathColor: '#9c8462',
+        pathAccent: '#f0d49c',
+        waterDeep: '#1a3652',
+        waterShallow: '#5e768f',
+        grassCount: 700,
+        grassPalette: { ground: '#595142', accent: '#e3ba78', horizon: '#9c8260' },
+        hasBridges: true,
+        bridgePalette: { ground: '#2e4566', accent: '#ebb963' },
+        skyTop: '#1c2f4f',
+        skyMid: '#455c80',
+        skyHorizon: '#e6ae65',
+        fogColor: '#7a6858',
+        starIntensity: 0.28,
+        sunbeamColor: '#ffd48a'
+      };
+    }
+
+    if (wildernessSlugs.has(slug)) {
+      const isNightFire = slug === 'fire-by-night' || slug === 'out-of-the-whirlwind';
+      return {
+        biome: 'wilderness',
+        groundColor: '#8c6142',
+        groundAccent: '#e0b079',
+        pathColor: '#c49d6e',
+        pathAccent: '#f2d8ab',
+        waterDeep: '#264d59',
+        waterShallow: '#9e825c',
+        grassCount: 620,
+        grassPalette: { ground: '#7d6845', accent: '#e6c687', horizon: '#c99b6d' },
+        hasBridges: false,
+        bridgePalette: { ground: '#8c694b', accent: '#dfb57c' },
+        skyTop: isNightFire ? '#212b42' : '#42596e',
+        skyMid: isNightFire ? '#5c4c48' : '#96795c',
+        skyHorizon: isNightFire ? '#e69b56' : '#f0c786',
+        fogColor: isNightFire ? '#7d634e' : '#a88967',
+        starIntensity: isNightFire ? 0.38 : 0.08,
+        sunbeamColor: '#ffd994'
+      };
+    }
+
+    if (citadelSlugs.has(slug)) {
+      return {
+        biome: 'walled_citadel',
+        groundColor: '#6b5d4b',
+        groundAccent: '#c9a877',
+        pathColor: '#9e8c73',
+        pathAccent: '#e3d2b6',
+        waterDeep: '#2f4b4f',
+        waterShallow: '#7e826e',
+        grassCount: 1100,
+        grassPalette: { ground: '#666347', accent: '#dec085', horizon: '#b0926e' },
+        hasBridges: true,
+        bridgePalette: { ground: '#786955', accent: '#dec089' },
+        skyTop: '#354c63',
+        skyMid: '#738287',
+        skyHorizon: '#e8c289',
+        fogColor: '#8f7d66',
+        starIntensity: 0.1,
+        sunbeamColor: '#ffe09e'
+      };
+    }
+
+    if (maritimeSlugs.has(slug)) {
+      return {
+        biome: 'maritime_sea',
+        groundColor: '#3f5059',
+        groundAccent: '#93aab3',
+        pathColor: '#878071',
+        pathAccent: '#cfc7b6',
+        waterDeep: '#12374f',
+        waterShallow: '#467d8f',
+        grassCount: 920,
+        grassPalette: { ground: '#496159', accent: '#b8ccb8', horizon: '#799196' },
+        hasBridges: true,
+        bridgePalette: { ground: '#59666e', accent: '#b8c4c9' },
+        skyTop: '#1f3f54',
+        skyMid: '#4f7385',
+        skyHorizon: '#cfe0e3',
+        fogColor: '#6d858f',
+        starIntensity: 0.12,
+        sunbeamColor: '#d9f0ff'
+      };
+    }
+
+    if (sanctuarySlugs.has(slug)) {
+      return {
+        biome: 'prophetic_sanctuary',
+        groundColor: '#525163',
+        groundAccent: '#dec082',
+        pathColor: '#b59f7e',
+        pathAccent: '#f7e6c4',
+        waterDeep: '#20526e',
+        waterShallow: '#78c4d4',
+        grassCount: 1350,
+        grassPalette: { ground: '#5c6954', accent: '#f2d894', horizon: '#b8a27e' },
+        hasBridges: true,
+        bridgePalette: { ground: '#7a7368', accent: '#f5da9b' },
+        skyTop: '#283d66',
+        skyMid: '#68789e',
+        skyHorizon: '#ffe09e',
+        fogColor: '#8c8378',
+        starIntensity: 0.22,
+        sunbeamColor: '#fff0bd'
+      };
+    }
+
+    if (harvestSlugs.has(slug)) {
+      return {
+        biome: 'harvest_pasture',
+        groundColor: '#626346',
+        groundAccent: '#d6b26f',
+        pathColor: '#ab9271',
+        pathAccent: '#ebd3ab',
+        waterDeep: '#365449',
+        waterShallow: '#899474',
+        grassCount: 2300,
+        grassPalette: { ground: '#646848', accent: '#e6c384', horizon: '#b69375' },
+        hasBridges: true,
+        bridgePalette: { ground: '#756856', accent: '#dbb87b' },
+        skyTop: '#4a6b82',
+        skyMid: '#8fa69e',
+        skyHorizon: '#f2d399',
+        fogColor: '#948067',
+        starIntensity: 0.0,
+        sunbeamColor: '#ffe4a3'
+      };
+    }
+
+    return {
+      biome: 'epistle_colonnade',
+      groundColor: '#695f50',
+      groundAccent: '#cfa974',
+      pathColor: '#a89378',
+      pathAccent: '#e6d4b7',
+      waterDeep: '#334d54',
+      waterShallow: '#7f8c84',
+      grassCount: 1450,
+      grassPalette: { ground: '#636649', accent: '#dfc088', horizon: '#b39474' },
+      hasBridges: true,
+      bridgePalette: { ground: '#7d705d', accent: '#e3c38d' },
+      skyTop: '#3f5b73',
+      skyMid: '#829699',
+      skyHorizon: '#edd09b',
+      fogColor: '#8f7e68',
+      starIntensity: 0.05,
+      sunbeamColor: '#ffe4a6'
+    };
   }
 
   getPathPoint(zDist) {
@@ -41,17 +242,19 @@ export class GenesisDistrictBuilder {
     const THREE = this.THREE;
     const streetGroup = new THREE.Group();
     const paintings = manifest.paintings;
-    const isExodus = manifest.slug === 'exodus';
+    const slug = manifest.slug || 'genesis';
+    const isExodus = slug === 'exodus';
+    const biomeCfg = this.getDistrictBiomeConfig(slug);
 
     const groundMat = this.painterly.createPainterlyMaterial({
-      baseColor: isExodus ? '#735b43' : '#686050',
-      accentColor: isExodus ? '#cfa36e' : '#b69375',
+      baseColor: biomeCfg.groundColor,
+      accentColor: biomeCfg.groundAccent,
       roughness: 0.90,
       bumpScale: 0.06
     });
     const pathMat = this.painterly.createPainterlyMaterial({
-      baseColor: isExodus ? '#b5946d' : '#a68f71',
-      accentColor: isExodus ? '#edd1a4' : '#dfcaa8',
+      baseColor: biomeCfg.pathColor,
+      accentColor: biomeCfg.pathAccent,
       roughness: 0.84,
       bumpScale: 0.05
     });
@@ -60,6 +263,7 @@ export class GenesisDistrictBuilder {
     const terrainGeo = new THREE.PlaneGeometry(160, 520, 96, 220);
     terrainGeo.rotateX(-Math.PI / 2);
     const tPos = terrainGeo.attributes.position;
+    const ridgeMultiplier = biomeCfg.biome === 'wilderness' ? 1.35 : biomeCfg.biome === 'babylon_fortress' ? 0.85 : 1.0;
     for (let i = 0; i < tPos.count; i++) {
       const vx = tPos.getX(i);
       const vz = tPos.getZ(i) - 210;
@@ -68,7 +272,7 @@ export class GenesisDistrictBuilder {
       const pathPt = this.getPathPoint(vz);
       const distFromPath = Math.abs(vx - pathPt.x);
 
-      // Carve a shallow channel on the left side (vx < pathPt.x - 5.5) for the Genesis River
+      // Carve a shallow channel on the left side (vx < pathPt.x - 5.5) for the River / Wadi / Canal
       const riverDist = Math.abs(vx - (pathPt.x - 10.5));
       let riverCarve = 0;
       if (riverDist < 6.2) {
@@ -78,7 +282,8 @@ export class GenesisDistrictBuilder {
       const hillFactor = Math.max(0, (distFromPath - 4.8) / 18.0);
       const hillHeight =
         Math.pow(Math.min(2.5, hillFactor), 1.35) *
-        (2.8 + Math.sin(vz * 0.04 + vx * 0.08) * 1.6 + Math.cos(vz * 0.025) * 1.2);
+        (2.8 + Math.sin(vz * 0.04 + vx * 0.08) * 1.6 + Math.cos(vz * 0.025) * 1.2) *
+        ridgeMultiplier;
       tPos.setY(i, pathPt.y + (riverDist < 6.2 ? riverCarve : hillHeight));
     }
     terrainGeo.computeVertexNormals();
@@ -122,7 +327,7 @@ export class GenesisDistrictBuilder {
     roadMesh.receiveShadow = true;
     streetGroup.add(roadMesh);
 
-    // 3. Komorebi Animated Reflective River Running Alongside the Garden Path
+    // 3. Komorebi Animated Reflective River / Wadi / Canal / Sea Channel Running Alongside the Path
     const riverGeo = new THREE.PlaneGeometry(11.5, 470, 24, 180);
     riverGeo.rotateX(-Math.PI / 2);
     const rPos = riverGeo.attributes.position;
@@ -136,9 +341,9 @@ export class GenesisDistrictBuilder {
     }
     riverGeo.computeVertexNormals();
     const riverMat = createKomorebiWaterMaterial(THREE, {
-      deepColor: isExodus ? '#264754' : '#485449',
-      shallowColor: isExodus ? '#8c7a5b' : '#8d8b74',
-      sunColor: '#ffe3a6',
+      deepColor: biomeCfg.waterDeep,
+      shallowColor: biomeCfg.waterShallow,
+      sunColor: biomeCfg.sunbeamColor || '#ffe3a6',
       opacity: 0.90
     });
     const riverMesh = new THREE.Mesh(riverGeo, riverMat);
@@ -155,14 +360,13 @@ export class GenesisDistrictBuilder {
       riverLanterns.push({ mesh: lantern, baseY: pt.y - 0.10, phase: i * 1.3 });
     }
 
-    for (const bridgeZ of [-35, -145, -245, -355]) {
-      const pt = this.getPathPoint(bridgeZ);
-      const bridge = this.propBuilder.createStoneFootbridge({
-        ground: isExodus ? '#82694f' : '#756856',
-        accent: '#dbb87b'
-      });
-      bridge.position.set(pt.x - 10.5, pt.y - 0.1, bridgeZ);
-      streetGroup.add(bridge);
+    if (biomeCfg.hasBridges) {
+      for (const bridgeZ of [-35, -145, -245, -355]) {
+        const pt = this.getPathPoint(bridgeZ);
+        const bridge = this.propBuilder.createStoneFootbridge(biomeCfg.bridgePalette);
+        bridge.position.set(pt.x - 10.5, pt.y - 0.1, bridgeZ);
+        streetGroup.add(bridge);
+      }
     }
 
     // For Exodus Part 1, line the Nile riverbank with swaying Papyrus Reed Clusters & Moses' basket
@@ -179,9 +383,9 @@ export class GenesisDistrictBuilder {
       }
     }
 
-    // 4. 2,600 Wind-Swaying Instanced Golden Meadow Grass & Wildflowers lining both sides of the Street
+    // 4. Biome-Tuned Instanced Grass / Desert Scrub / Barley / Coastal Dune Grass
     const streetGrass = this.propBuilder.createInstancedMeadowGrass(
-      2600,
+      biomeCfg.grassCount,
       (idx, totalCount) => {
         const z = 20 - (idx / totalCount) * 460 + (Math.random() - 0.5) * 3.0;
         const pt = this.getPathPoint(z);
@@ -195,25 +399,27 @@ export class GenesisDistrictBuilder {
         const hillFactor = Math.max(0, (distFromPath - 4.8) / 18.0);
         const hillHeight =
           Math.pow(Math.min(2.5, hillFactor), 1.35) *
-          (2.8 + Math.sin(z * 0.04 + x * 0.08) * 1.6 + Math.cos(z * 0.025) * 1.2);
+          (2.8 + Math.sin(z * 0.04 + x * 0.08) * 1.6 + Math.cos(z * 0.025) * 1.2) *
+          ridgeMultiplier;
         return {
           x,
           y: pt.y + (side < 0 && offset < 5.0 ? 0.0 : hillHeight),
           z,
-          scale: 0.75 + Math.random() * 0.7
+          scale: (biomeCfg.biome === 'wilderness' ? 0.58 : 0.75) + Math.random() * 0.65
         };
       },
-      isExodus
-        ? { ground: '#6e6444', accent: '#ebd094', horizon: '#c49d74' }
-        : { ground: '#646848', accent: '#e2bd84', horizon: '#b69375' }
+      biomeCfg.grassPalette
     );
     streetGroup.add(streetGrass);
+
+    // 4b. Populate the Street Background Hills & Ridges with Book-Specific Architecture & Iconic Event Landmarks
+    this.buildDistrictBiomeRidges(streetGroup, slug, biomeCfg);
 
     // 5. Angled 3D Komorebi Sunbeam Shafts slanting down across the road at intervals
     for (let s = 0; s < 22; s++) {
       const sz = 4 - s * 20.5;
       const pt = this.getPathPoint(sz);
-      const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.8, 3.2, '#ffe4a3');
+      const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.8, 3.2, biomeCfg.sunbeamColor || '#ffe4a3');
       shaft.position.set(pt.x + (s % 2 === 0 ? 2.5 : -2.5), pt.y + 7.2, sz);
       streetGroup.add(shaft);
     }
@@ -234,7 +440,7 @@ export class GenesisDistrictBuilder {
       streetGroup.add(banner);
     });
 
-    // 8. Place all 40 Paintings along the Genesis Path in exact Book Order
+    // 8. Place all Paintings along the Path in exact Book Order
     const paintingNodes = [];
     const total = paintings.length;
 
@@ -267,7 +473,7 @@ export class GenesisDistrictBuilder {
 
       streetGroup.add(monument);
 
-      this.dressPaintingSurroundings(streetGroup, worldX, worldY, worldZ, side, p, manifest.slug);
+      this.dressPaintingSurroundings(streetGroup, worldX, worldY, worldZ, side, p, slug, biomeCfg);
 
       paintingNodes.push({
         data: p,
@@ -282,7 +488,7 @@ export class GenesisDistrictBuilder {
     // District 3 (Fire by Night) Signature Street Element (§7):
     // The Pillar of Fire that goes BEFORE the pilgrim at night — moves ahead as you walk, waits when you stop
     let guidingPillar = null;
-    if (manifest.slug === 'fire-by-night') {
+    if (slug === 'fire-by-night') {
       guidingPillar = this.propBuilder.createGuidingPillarOfFire();
       const startGuidePt = this.getPathPoint(1.0);
       guidingPillar.position.set(startGuidePt.x, startGuidePt.y, startGuidePt.z);
@@ -308,8 +514,116 @@ export class GenesisDistrictBuilder {
       streetMotes,
       riverMat,
       riverLanterns,
-      guidingPillar
+      guidingPillar,
+      biomeCfg
     };
+  }
+
+  // Populates the outer ridges and street vistas with book-specific fortifications, wilderness crags,
+  // maritime whales/lighthouses, and iconic biblical event models (such as Daniel's Fiery Furnace & Lions' Den)
+  buildDistrictBiomeRidges(streetGroup, slug, biomeCfg) {
+    const pal = {
+      ground: biomeCfg.groundColor,
+      accent: biomeCfg.groundAccent,
+      horizon: biomeCfg.skyHorizon
+    };
+
+    if (slug === 'greatly-beloved') {
+      // Book 24: DANIEL ("Greatly Beloved") — Fortified Babylonian Lapis-Brick Citadel
+      // with prominent 3D monuments of the Fiery Furnace and the Lions' Den along the street!
+      for (let i = 0; i < 14; i++) {
+        const rz = -14 - i * 31.0;
+        const pt = this.getPathPoint(rz);
+        const side = i % 2 === 0 ? 1 : -1;
+        const wall = this.propBuilder.createBabylonFortressWallSegment(pal, true);
+        const wx = pt.x + (side > 0 ? 13.5 : -17.5);
+        wall.position.set(wx, pt.y + 0.8, rz);
+        wall.lookAt(pt.x, pt.y + 0.8, rz);
+        streetGroup.add(wall);
+      }
+
+      // Iconic Event 1 at the Street Entrance Vista & Part One/Two: Daniel's Fiery Furnace (Daniel 3:19–27)
+      for (const fCfg of [
+        { z: -5.5, offset: 5.4, scale: 0.92 },
+        { z: -136, offset: 6.4, scale: 1.15 }
+      ]) {
+        const pt = this.getPathPoint(fCfg.z);
+        const furnace = this.propBuilder.createBabylonFieryFurnaceLandmark(pal);
+        furnace.scale.setScalar(fCfg.scale);
+        furnace.position.set(pt.x + fCfg.offset, pt.y + 0.12, fCfg.z);
+        furnace.lookAt(pt.x, pt.y + 0.5, fCfg.z + 9.0);
+        streetGroup.add(furnace);
+      }
+
+      // Iconic Event 2 at the Street Entrance Vista & Part Three: Daniel in the Lions' Den (Daniel 6:16–23)
+      for (const lCfg of [
+        { z: -14.5, offset: -5.4, scale: 0.92 },
+        { z: -250, offset: 6.4, scale: 1.15 }
+      ]) {
+        const pt = this.getPathPoint(lCfg.z);
+        const lionsDen = this.propBuilder.createDanielLionsDenLandmark(pal);
+        lionsDen.scale.setScalar(lCfg.scale);
+        lionsDen.position.set(pt.x + lCfg.offset, pt.y + 0.08, lCfg.z);
+        lionsDen.lookAt(pt.x, pt.y + 0.4, lCfg.z + 9.0);
+        streetGroup.add(lionsDen);
+      }
+      return;
+    }
+
+    if (biomeCfg.biome === 'babylon_fortress' || biomeCfg.biome === 'walled_citadel') {
+      const isLapis = slug === 'for-such-a-time-as-this';
+      for (let i = 0; i < 14; i++) {
+        const rz = -16 - i * 30.5;
+        const pt = this.getPathPoint(rz);
+        const side = i % 2 === 0 ? 1 : -1;
+        const wall = this.propBuilder.createBabylonFortressWallSegment(pal, isLapis);
+        const wx = pt.x + (side > 0 ? 12.8 : -17.2);
+        wall.position.set(wx, pt.y + 0.7, rz);
+        wall.lookAt(pt.x, pt.y + 0.7, rz);
+        streetGroup.add(wall);
+      }
+      return;
+    }
+
+    if (biomeCfg.biome === 'wilderness') {
+      for (let i = 0; i < 18; i++) {
+        const rz = -12 - i * 24.5;
+        const pt = this.getPathPoint(rz);
+        const side = i % 2 === 0 ? 1 : -1;
+        const crag = this.propBuilder.createWildernessCampAndCrag(pal, i);
+        const wx = pt.x + (side > 0 ? 10.5 + (i % 3) * 2.2 : -16.8 - (i % 2) * 2.0);
+        crag.position.set(wx, pt.y + 0.3, rz);
+        crag.lookAt(pt.x, pt.y + 0.3, rz);
+        streetGroup.add(crag);
+      }
+      return;
+    }
+
+    if (biomeCfg.biome === 'maritime_sea') {
+      const isJonah = slug === 'out-of-the-deep';
+      for (let i = 0; i < 14; i++) {
+        const rz = -15 - i * 29.0;
+        const pt = this.getPathPoint(rz);
+        const monument = this.propBuilder.createMaritimeCoastalMonument(pal, i, isJonah && i % 2 === 0);
+        const wx = i % 2 === 0 ? pt.x - 10.8 : pt.x + 11.2;
+        monument.position.set(wx, pt.y - 0.05, rz);
+        monument.lookAt(pt.x, pt.y + 0.4, rz + 3.0);
+        streetGroup.add(monument);
+      }
+      return;
+    }
+
+    if (biomeCfg.biome === 'prophetic_sanctuary') {
+      for (let i = 0; i < 12; i++) {
+        const rz = -18 - i * 34.0;
+        const pt = this.getPathPoint(rz);
+        const side = i % 2 === 0 ? 1 : -1;
+        const menorah = this.propBuilder.createGoldenMenorah(null, pal);
+        menorah.scale.setScalar(0.85);
+        menorah.position.set(pt.x + (side > 0 ? 9.5 : -16.2), pt.y + 0.3, rz);
+        streetGroup.add(menorah);
+      }
+    }
   }
 
   loadTextureAsync(url) {
@@ -328,12 +642,13 @@ export class GenesisDistrictBuilder {
     });
   }
 
-  dressPaintingSurroundings(streetGroup, wx, wy, wz, side, pData, slug = 'genesis') {
+  dressPaintingSurroundings(streetGroup, wx, wy, wz, side, pData, slug = 'genesis', biomeCfg = null) {
     const THREE = this.THREE;
     const pal = pData.palette || {};
+    const bCfg = biomeCfg || this.getDistrictBiomeConfig(slug);
     const stoneMat = this.painterly.createPainterlyMaterial({
-      baseColor: pal.ground || '#686050',
-      accentColor: pal.accent || '#dbb87b',
+      baseColor: pal.ground || bCfg.groundColor || '#686050',
+      accentColor: pal.accent || bCfg.groundAccent || '#dbb87b',
       roughness: 0.92
     });
 
@@ -345,10 +660,83 @@ export class GenesisDistrictBuilder {
       streetGroup.add(rock);
     }
 
+    // 1. For EVERY step-through scene painting across all 44 books, mount its 3D .glb sculpture
+    //    and its 3D event focal prop right beside the painting on the street!
+    const isDanielSpecialMonument =
+      slug === 'greatly-beloved' && (pData.n === 11 || pData.n === 14 || pData.n === 25 || pData.n === 26);
+
+    if (pData.isScene && this.propBuilder.tripo && !isDanielSpecialMonument) {
+      const plinthGroup = new THREE.Group();
+      const plinth = new THREE.Mesh(
+        this.propBuilder.displaceGeometry(new THREE.CylinderGeometry(1.15, 1.35, 0.24, 18), 0.02, 3.0),
+        stoneMat
+      );
+      plinth.position.y = 0.12;
+      plinthGroup.add(plinth);
+
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(plinthGroup, slug, pData.n, {
+        targetHeight: 2.35,
+        yOffset: 0.22
+      });
+      plinthGroup.position.set(wx + side * 0.4, wy, wz - 3.4);
+      plinthGroup.lookAt(wx - side * 3.0, wy, wz + 3.0);
+      streetGroup.add(plinthGroup);
+
+      if (pData.sceneType && slug !== 'greatly-beloved') {
+        const focal = this.propBuilder.createFocalPropForScene(pData.sceneType, null, pal);
+        if (focal && focal.group) {
+          if (focal.focalLight) focal.group.remove(focal.focalLight);
+          focal.group.scale.setScalar(0.78);
+          focal.group.position.set(wx + side * 2.2, wy, wz - 4.6);
+          focal.group.lookAt(wx - side * 3.0, wy, wz + 2.5);
+          streetGroup.add(focal.group);
+        }
+      }
+    }
+
+    // 2. Book-Specific Iconic Event Models along the Street
+    if (slug === 'greatly-beloved') {
+      // Daniel 3: Fiery Furnace paintings (#10–#15)
+      if (pData.n === 11 || pData.n === 14) {
+        const furnace = this.propBuilder.createBabylonFieryFurnaceLandmark(pal);
+        furnace.scale.setScalar(pData.n === 14 ? 0.92 : 0.78);
+        furnace.position.set(wx + side * 0.5, wy, wz - 4.2);
+        furnace.lookAt(wx - side * 3.5, wy, wz + 1.2);
+        streetGroup.add(furnace);
+        return;
+      }
+      // Daniel 6: Lions' Den paintings (#25–#27)
+      if (pData.n === 25 || pData.n === 26) {
+        const den = this.propBuilder.createDanielLionsDenLandmark(pal);
+        den.scale.setScalar(pData.n === 26 ? 0.92 : 0.78);
+        den.position.set(wx + side * 0.5, wy, wz - 4.2);
+        den.lookAt(wx - side * 3.5, wy, wz + 1.2);
+        streetGroup.add(den);
+        return;
+      }
+      if (pData.sceneType) {
+        const focal = this.propBuilder.createFocalPropForScene(pData.sceneType, null, pal);
+        if (focal && focal.group) {
+          if (focal.focalLight) focal.group.remove(focal.focalLight);
+          focal.group.scale.setScalar(0.88);
+          focal.group.position.set(wx + side * 4.4, wy, wz - 1.0);
+          focal.group.lookAt(wx - side * 2.0, wy, wz + 2.0);
+          streetGroup.add(focal.group);
+          return;
+        }
+      }
+      const wall = this.propBuilder.createBabylonFortressWallSegment(pal, true);
+      wall.scale.setScalar(0.65);
+      wall.position.set(wx + side * 4.6, wy, wz - 1.6);
+      wall.lookAt(wx, wy, wz);
+      streetGroup.add(wall);
+      return;
+    }
+
     if (slug === 'exodus') {
-      if (pData.n === 6 || pData.n === 8) {
+      if (pData.n === 5 || pData.n === 6 || pData.n === 8) {
         const bush = this.propBuilder.createBurningBush(null, pal, 0.78);
-        bush.position.set(wx + side * 3.0, wy, wz - 1.2);
+        bush.position.set(wx + side * 3.2, wy, wz - 1.2);
         streetGroup.add(bush);
         return;
       }
@@ -359,11 +747,18 @@ export class GenesisDistrictBuilder {
         return;
       }
     } else if (slug === 'fire-by-night') {
-      if (pData.n === 2) {
+      if (pData.n === 2 || pData.n === 5) {
         const altar = this.propBuilder.createPerpetualFireAltar(null, pal);
-        altar.scale.setScalar(0.65);
-        altar.position.set(wx + side * 2.8, wy, wz - 1.0);
+        altar.scale.setScalar(0.68);
+        altar.position.set(wx + side * 3.0, wy, wz - 1.0);
         streetGroup.add(altar);
+        return;
+      }
+      if (pData.n === 33) {
+        const serpent = this.propBuilder.createBronzeSerpentPole(null, pal);
+        serpent.scale.setScalar(0.75);
+        serpent.position.set(wx + side * 3.2, wy, wz - 1.0);
+        streetGroup.add(serpent);
         return;
       }
     } else if (slug === 'choose-life') {
@@ -381,9 +776,9 @@ export class GenesisDistrictBuilder {
         return;
       }
     } else if (slug === 'ruth') {
-      if (pData.n === 6 || pData.n === 12) {
+      if (pData.n === 6 || pData.n === 8 || pData.n === 12) {
         const sheaf = this.propBuilder.createForgottenSheafField(null, pal);
-        sheaf.position.set(wx + side * 2.4, wy, wz - 0.8);
+        sheaf.position.set(wx + side * 2.6, wy, wz - 0.8);
         streetGroup.add(sheaf);
         return;
       }
@@ -413,6 +808,41 @@ export class GenesisDistrictBuilder {
         streetGroup.add(steps);
         return;
       }
+    }
+
+    // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
+    if (bCfg.biome === 'wilderness') {
+      const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
+      crag.scale.setScalar(0.62);
+      crag.position.set(wx + side * 3.8, wy, wz - 1.5);
+      crag.rotation.y = pData.n * 0.9;
+      streetGroup.add(crag);
+      return;
+    }
+
+    if (bCfg.biome === 'babylon_fortress' || (bCfg.biome === 'walled_citadel' && pData.n % 2 === 0)) {
+      const bastion = this.propBuilder.createBabylonFortressWallSegment(
+        pal,
+        slug === 'for-such-a-time-as-this'
+      );
+      bastion.scale.setScalar(0.58);
+      bastion.position.set(wx + side * 4.4, wy, wz - 1.6);
+      bastion.lookAt(wx, wy, wz);
+      streetGroup.add(bastion);
+      return;
+    }
+
+    if (bCfg.biome === 'maritime_sea') {
+      const seaProp = this.propBuilder.createMaritimeCoastalMonument(
+        pal,
+        pData.n,
+        slug === 'out-of-the-deep' && pData.n % 3 === 0
+      );
+      seaProp.scale.setScalar(0.68);
+      seaProp.position.set(wx + side * 4.2, wy - 0.1, wz - 1.4);
+      seaProp.lookAt(wx, wy, wz);
+      streetGroup.add(seaProp);
+      return;
     }
 
     const tree = this.propBuilder.createGreatPainterlyTree(null, pal, 0.72 + (pData.n % 3) * 0.16);

@@ -14,9 +14,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_15';
+import { PainterlyPropBuilder } from './props.js?v=44_17';
 import { StepThroughSceneManager } from './scenes.js?v=44_16';
-import { GenesisDistrictBuilder } from './district.js?v=44_12';
+import { GenesisDistrictBuilder } from './district.js?v=44_17';
 import { PilgrimAudio } from './audio.js?v=44_12';
 import { TripoRelicManager } from './tripo.js?v=44_14';
 import { DailyWalkManager } from './daily-walk.js?v=44_12';
@@ -369,11 +369,11 @@ class PilgrimWalkApp {
     this.scene.add(this.skyDome);
 
     // Warm Golden-Hour Hemisphere & Directional Sun Light + Pilgrim's Lantern Light
-    this.hemiLight = new THREE.HemisphereLight('#dfcaa8', '#5e503f', 1.15);
+    this.hemiLight = new THREE.HemisphereLight('#f2dfc2', '#8f795e', 1.65);
     this.scene.add(this.hemiLight);
 
-    this.dirLight = new THREE.DirectionalLight('#ffe4b5', 1.65);
-    this.dirLight.position.set(18, 32, -25);
+    this.dirLight = new THREE.DirectionalLight('#ffe8bf', 1.85);
+    this.dirLight.position.set(18, 36, 28);
     this.scene.add(this.dirLight);
 
     // The Pilgrim's Lantern (carried by the player, brightens with progress & glows when facing a hidden Light)
@@ -663,6 +663,19 @@ class PilgrimWalkApp {
     this.district = this.districtCache[slug];
     this.district.streetGroup.visible = true;
     this.scene.add(this.district.streetGroup);
+    this._lastPaletteNode = null;
+    if (this.skyDome && this.skyDome.material && this.skyDome.material.uniforms) {
+      const bCfg = this.district.biomeCfg || this.districtBuilder.getDistrictBiomeConfig(slug);
+      this.skyDome.material.uniforms.uStarIntensity.value = bCfg.starIntensity || 0.0;
+      this.skyDome.material.uniforms.uRainbowIntensity.value = 0.0;
+      this.skyDome.material.uniforms.uTopColor.value.set(bCfg.skyTop || '#4a6b82');
+      this.skyDome.material.uniforms.uHorizonColor.value.set(bCfg.skyHorizon || '#f2d399');
+      this.skyDome.material.uniforms.uGroundColor.value.set(bCfg.groundColor || '#686050');
+      this.skyDome.material.uniforms.uAccentColor.value.set(bCfg.groundAccent || '#d9b08b');
+      if (this.scene && this.scene.fog) {
+        this.scene.fog.color.set(bCfg.fogColor || '#948067');
+      }
+    }
 
     // Keep all Part roads open for devotional contemplation and restore any kindled Sanctuary Lights
     this.district.partGatesAndLights.forEach((lObj) => {
@@ -882,9 +895,11 @@ class PilgrimWalkApp {
     this.player.yaw = this.streetReturnState.yaw;
     this.player.pitch = this.streetReturnState.pitch;
 
-    // Reset sky dome special uniforms
-    this.skyDome.material.uniforms.uStarIntensity.value = 0.0;
+    // Reset sky dome special uniforms to the book's street biome
+    const bCfg = (this.district && this.district.biomeCfg) || this.districtBuilder.getDistrictBiomeConfig(this.currentDistrictSlug);
+    this.skyDome.material.uniforms.uStarIntensity.value = bCfg.starIntensity || 0.0;
     this.skyDome.material.uniforms.uRainbowIntensity.value = 0.0;
+    this._lastPaletteNode = null;
 
     // Hide the scene-only UI
     document.getElementById('back-to-street-btn').classList.add('hidden');
@@ -2076,17 +2091,18 @@ class PilgrimWalkApp {
       }
     }
 
-    // Smoothly color-grade Sky Dome & Fog from the nearest painting's sampled palette (§2.2) without per-frame allocations
+    // Smoothly color-grade Sky Dome & Fog from the nearest painting's sampled palette blended with the book's Street Biome
     if (nearestNode && nearestNode.data.palette) {
       const pal = nearestNode.data.palette;
+      const bCfg = this.district.biomeCfg || this.districtBuilder.getDistrictBiomeConfig(this.currentDistrictSlug);
       const lerpAlpha = Math.min(1, dt * 1.5);
       if (this._lastPaletteNode !== nearestNode) {
         this._lastPaletteNode = nearestNode;
-        this._colorTop.set(pal.top || '#b79d7e');
-        this._colorHorizon.set(pal.horizon || '#b69375');
-        this._colorGround.set(pal.ground || '#686050');
-        this._colorAccent.set(pal.accent || '#d9b08b');
-        this._colorFog.set(pal.horizon || '#948067');
+        this._colorTop.set(bCfg.skyTop || '#4a6b82').lerp(new THREE.Color(pal.top || '#b79d7e'), 0.35);
+        this._colorHorizon.set(bCfg.skyHorizon || '#f2d399').lerp(new THREE.Color(pal.horizon || '#b69375'), 0.42);
+        this._colorGround.set(bCfg.groundColor || '#686050').lerp(new THREE.Color(pal.ground || '#686050'), 0.45);
+        this._colorAccent.set(bCfg.groundAccent || '#d9b08b').lerp(new THREE.Color(pal.accent || '#d9b08b'), 0.5);
+        this._colorFog.set(bCfg.fogColor || '#948067').lerp(new THREE.Color(pal.horizon || '#948067'), 0.35);
       }
       this.skyDome.material.uniforms.uTopColor.value.lerp(this._colorTop, lerpAlpha);
       this.skyDome.material.uniforms.uHorizonColor.value.lerp(this._colorHorizon, lerpAlpha);

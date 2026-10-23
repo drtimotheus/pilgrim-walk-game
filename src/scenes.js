@@ -19,14 +19,14 @@ export class StepThroughSceneManager {
     this.activeScene = null;
   }
 
-  buildStepThroughWorld(paintingData, rawTexture, skyDome) {
+  buildStepThroughWorld(paintingData, rawTexture, skyDome, districtSlug = 'genesis') {
     const THREE = this.THREE;
     const group = new THREE.Group();
     const n = paintingData.n;
     const pal = paintingData.palette || {};
     const kind = paintingData.sceneKind || paintingData.sceneType || (n === 1 ? 'light' : n === 4 ? 'garden' : 'bow');
 
-    // Derive depth map, 360° outpainted surround texture, ground texture, and prop texture from the painting image
+    // Derive depth map, 360° outpainted surround texture, ground texture, prop texture & multi-plane cutouts from the painting
     const img = rawTexture.image;
     const derived = this.painterly.deriveSceneMapsFromImage(img, kind);
 
@@ -65,23 +65,10 @@ export class StepThroughSceneManager {
     surroundMesh.position.y = surroundHeight * 0.36;
     group.add(surroundMesh);
 
-    // 3. Sculpted 3D Relief Backdrop of the Painting in front of the player (z = -22)
-    const reliefW = 32;
-    const reliefH = 23;
-    const reliefGeo = new THREE.PlaneGeometry(reliefW, reliefH, 96, 96);
-    const reliefMat = new THREE.MeshStandardMaterial({
-      map: rawTexture,
-      displacementMap: derived.depthTex,
-      displacementScale: -4.4,
-      displacementBias: 1.6,
-      bumpMap: this.painterly.canvasNoiseTex,
-      bumpScale: 0.04,
-      roughness: 0.88,
-      metalness: 0.02
-    });
-    const reliefMesh = new THREE.Mesh(reliefGeo, reliefMat);
-    reliefMesh.position.set(0, 8.0, -22.5);
-    group.add(reliefMesh);
+    // 3. Wrap-Around 200° Curved 3D Sculpted Painting Amphitheater + Multi-Plane Walk-Through Painting Wings
+    // So stepping through the frame surrounds the player with the actual layered artwork of this exact painting!
+    const dioramaGroup = this.createLayeredPaintingDiorama(rawTexture, derived, pal);
+    group.add(dioramaGroup);
 
     // 4. Sculpted Painterly Terrain Floor derived from the bottom of the painting
     const terrainGeo = new THREE.PlaneGeometry(92, 92, 72, 72);
@@ -213,7 +200,36 @@ export class StepThroughSceneManager {
         derived,
         pal,
         getTerrainHeight,
-        skyDome
+        skyDome,
+        districtSlug
+      );
+    }
+
+    // For Book 1-8 custom scenes that don't go through populateBook9To44StepThroughScene,
+    // also mount a scene-specific 3D GLB model at the signatureTarget if one exists in assets/models/scenes/<slug>-<n>.glb
+    if (
+      this.propBuilder &&
+      this.propBuilder.tripo &&
+      districtSlug &&
+      paintingData &&
+      paintingData.n &&
+      signatureState &&
+      signatureState.signatureTarget &&
+      ![
+        'light', 'garden', 'bow', 'bush', 'passover', 'redsea', 'tabernacle',
+        'altar_fire', 'menorah', 'rock_water', 'bronze_serpent',
+        'mezuzah', 'sheaf', 'two_roads', 'nebo', 'jordan_stones', 'jericho_walls',
+        'ruth_gleaning', 'samuel_lamp', 'five_smooth_stones', 'temple_cloud', 'carmel_fire'
+      ].includes(kind)
+    ) {
+      const customSceneGlbHolder = new THREE.Group();
+      customSceneGlbHolder.position.copy(signatureState.signatureTarget);
+      group.add(customSceneGlbHolder);
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        customSceneGlbHolder,
+        districtSlug,
+        paintingData.n,
+        { targetHeight: 3.0, yOffset: 0.25 }
       );
     }
 
@@ -227,6 +243,145 @@ export class StepThroughSceneManager {
       mistGroup,
       ...signatureState
     };
+  }
+
+  // ==========================================================================
+  // LAYERED 3D PAINTING DIORAMA (Curved 3D Relief Amphitheater + Walk-Through Wings)
+  // Surrounds the pilgrim with multi-plane 3D artwork extracted from the exact painting
+  // ==========================================================================
+  createLayeredPaintingDiorama(rawTexture, derived, pal) {
+    const THREE = this.THREE;
+    const dGroup = new THREE.Group();
+
+    // 1. 210° Wrap-Around Curved 3D Sculpted Painting Amphitheater
+    // Instead of a flat distant rectangle, the painting wraps around the front, left, and right
+    const radius = 14.8;
+    const height = 17.5;
+    const arcGeo = new THREE.CylinderGeometry(
+      radius,
+      radius,
+      height,
+      96,
+      48,
+      true,
+      Math.PI * 0.42,
+      Math.PI * 1.16
+    );
+    // Flip U horizontally so inside of cylinder shows painting right-way-round
+    const arcUv = arcGeo.attributes.uv;
+    for (let i = 0; i < arcUv.count; i++) {
+      arcUv.setX(i, 1.0 - arcUv.getX(i));
+    }
+    const arcMat = new THREE.MeshStandardMaterial({
+      map: rawTexture,
+      displacementMap: derived.depthTex,
+      displacementScale: -2.4,
+      displacementBias: 0.8,
+      roughness: 0.78,
+      metalness: 0.05,
+      side: THREE.DoubleSide
+    });
+    const arcMesh = new THREE.Mesh(arcGeo, arcMat);
+    arcMesh.position.set(0, height * 0.44 - 0.5, -2.2);
+    dGroup.add(arcMesh);
+
+    // 2. Multi-Plane Walk-Through 3D Painting Cutout Wings (Left & Right Foreground & Midground)
+    const makeWing = (tex, w, h, x, y, z, rotY, dispScale = 1.1) => {
+      if (!tex) return;
+      const geo = new THREE.PlaneGeometry(w, h, 40, 40);
+      const mat = new THREE.MeshStandardMaterial({
+        map: tex,
+        displacementMap: derived.depthTex,
+        displacementScale: dispScale,
+        displacementBias: -dispScale * 0.4,
+        roughness: 0.80,
+        metalness: 0.04,
+        transparent: true,
+        alphaTest: 0.03,
+        side: THREE.DoubleSide
+      });
+      const mesh = new THREE.Mesh(geo, mat);
+      mesh.position.set(x, y, z);
+      mesh.rotation.y = rotY;
+      dGroup.add(mesh);
+    };
+
+    // Near foreground left & right painting wings (player walks right between them)
+    makeWing(derived.leftWingTex, 7.2, 9.2, -5.6, 4.1, -3.0, 0.42, 1.05);
+    makeWing(derived.rightWingTex, 7.2, 9.2, 5.6, 4.1, -3.0, -0.42, 1.05);
+
+    // Mid-depth left & right painting wings framing the central sanctuary
+    makeWing(derived.midLeftTex, 8.8, 10.8, -6.8, 4.8, -7.8, 0.34, 1.35);
+    makeWing(derived.midRightTex, 8.8, 10.8, 6.8, 4.8, -7.8, -0.34, 1.35);
+
+    // Deep-mid framing wings behind the central sculpture
+    makeWing(derived.leftWingTex, 9.5, 11.5, -5.2, 5.2, -11.6, 0.20, 1.55);
+    makeWing(derived.rightWingTex, 9.5, 11.5, 5.2, 5.2, -11.6, -0.20, 1.55);
+
+    // 3. Overhead Painted Canopy / Vault Arch from the top of the painting
+    if (derived.canopyArchTex) {
+      const archVaultGeo = new THREE.PlaneGeometry(18.0, 9.5, 36, 24);
+      const vPos = archVaultGeo.attributes.position;
+      for (let i = 0; i < vPos.count; i++) {
+        const vx = vPos.getX(i);
+        const vy = vPos.getY(i);
+        // Curve gently downward at the left/right edges like a vaulted ceiling
+        const drop = (vx * vx) * 0.045;
+        vPos.setZ(i, -drop + Math.sin(vy * 0.5) * 0.3);
+      }
+      archVaultGeo.computeVertexNormals();
+      const archVaultMat = new THREE.MeshStandardMaterial({
+        map: derived.canopyArchTex,
+        roughness: 0.85,
+        transparent: true,
+        opacity: 0.92,
+        side: THREE.DoubleSide
+      });
+      const archVault = new THREE.Mesh(archVaultGeo, archVaultMat);
+      archVault.rotation.x = Math.PI * 0.44;
+      archVault.position.set(0, 8.6, -5.4);
+      dGroup.add(archVault);
+    }
+
+    // 4. Sculpted Painting-Textured Foreground Rock Outcrops / Sanctuary Plinth Stones along the sides
+    const outcropMat = this.painterly.createPainterlyMaterial({
+      map: derived.propTex,
+      baseColor: pal.ground || '#5c4e3e',
+      accentColor: pal.accent || '#deb878',
+      roughness: 0.88,
+      bumpScale: 0.08
+    });
+    const outcropCoords = [
+      { x: -4.4, z: -2.2, sx: 1.5, sy: 0.9, sz: 1.3 },
+      { x: 4.5, z: -2.4, sx: 1.6, sy: 0.85, sz: 1.4 },
+      { x: -5.8, z: -5.6, sx: 2.1, sy: 1.35, sz: 1.7 },
+      { x: 5.9, z: -5.5, sx: 2.0, sy: 1.30, sz: 1.6 },
+      { x: -4.8, z: -9.4, sx: 2.4, sy: 1.65, sz: 1.9 },
+      { x: 4.9, z: -9.2, sx: 2.3, sy: 1.60, sz: 1.8 }
+    ];
+    outcropCoords.forEach((oc, idx) => {
+      const geo = this.propBuilder.displaceGeometry(
+        new THREE.DodecahedronGeometry(1.0, 2),
+        0.14,
+        2.4 + idx * 0.3
+      );
+      const mesh = new THREE.Mesh(geo, outcropMat);
+      mesh.position.set(oc.x, oc.sy * 0.42, oc.z);
+      mesh.scale.set(oc.sx, oc.sy, oc.sz);
+      mesh.rotation.y = idx * 1.1;
+      dGroup.add(mesh);
+    });
+
+    // Warm gallery stage lights illuminating the curved painting wings
+    const leftWingLight = new THREE.PointLight(pal.accent || 0xffe29c, 1.6, 22);
+    leftWingLight.position.set(-4.5, 4.2, -4.5);
+    dGroup.add(leftWingLight);
+
+    const rightWingLight = new THREE.PointLight(pal.accent || 0xffe29c, 1.6, 22);
+    rightWingLight.position.set(4.5, 4.2, -4.5);
+    dGroup.add(rightWingLight);
+
+    return dGroup;
   }
 
   // Creates drifting translucent Komorebi valley mist layers hugging the ground/water
@@ -798,20 +953,6 @@ export class StepThroughSceneManager {
     bushLight.position.set(0.0, 2.5, -6.0);
     group.add(bushLight);
 
-    // Desert scrub tufts swaying in the warm mountain breeze
-    const desertScrub = this.propBuilder.createInstancedMeadowGrass(
-      420,
-      () => {
-        const ang = Math.random() * Math.PI * 2;
-        const rad = 3.2 + Math.random() * 15.0;
-        const x = Math.cos(ang) * rad;
-        const z = Math.sin(ang) * rad - 4.0;
-        return { x, y: getTerrainHeight(x, z), z, scale: 0.65 + Math.random() * 0.45 };
-      },
-      { ground: '#6e583b', accent: '#e6b86a', horizon: pal.horizon || '#a8825c' }
-    );
-    group.add(desertScrub);
-
     return {
       signatureTarget: bushPos,
       signatureRadius: 4.0,
@@ -1031,19 +1172,6 @@ export class StepThroughSceneManager {
     fireLight.position.set(0, 2.6, -6.2);
     group.add(fireLight);
 
-    const grass = this.propBuilder.createInstancedMeadowGrass(
-      450,
-      () => {
-        const ang = Math.random() * Math.PI * 2;
-        const rad = 3.2 + Math.random() * 14.0;
-        const x = Math.cos(ang) * rad;
-        const z = Math.sin(ang) * rad - 4.0;
-        return { x, y: getTerrainHeight(x, z), z };
-      },
-      pal
-    );
-    group.add(grass);
-
     return {
       signatureTarget: altarPos,
       signatureRadius: 4.0,
@@ -1160,19 +1288,6 @@ export class StepThroughSceneManager {
     const bronzeLight = new THREE.PointLight(0xffd478, 3.0, 28);
     bronzeLight.position.set(0, 4.5, -5.5);
     group.add(bronzeLight);
-
-    const scrub = this.propBuilder.createInstancedMeadowGrass(
-      380,
-      () => {
-        const ang = Math.random() * Math.PI * 2;
-        const rad = 2.8 + Math.random() * 14.0;
-        const x = Math.cos(ang) * rad;
-        const z = Math.sin(ang) * rad - 4.0;
-        return { x, y: getTerrainHeight(x, z), z };
-      },
-      pal
-    );
-    group.add(scrub);
 
     return {
       signatureTarget: polePos,
@@ -1988,7 +2103,16 @@ export class StepThroughSceneManager {
   // ==========================================================================
   // DISTRICTS IX–XLIV (BOOKS #9 TO #44) — 144 WALKABLE 3D STEP-THROUGH SCENES
   // ==========================================================================
-  populateBook9To44StepThroughScene(kind, paintingData, group, derived, pal, getTerrainHeight, skyDome) {
+  populateBook9To44StepThroughScene(
+    kind,
+    paintingData,
+    group,
+    derived,
+    pal,
+    getTerrainHeight,
+    skyDome,
+    districtSlug = 'genesis'
+  ) {
     const THREE = this.THREE;
     const focalPos = new THREE.Vector3(0.0, 0.0, -5.6);
 
@@ -1997,16 +2121,28 @@ export class StepThroughSceneManager {
     focalRig.group.position.copy(focalPos);
     group.add(focalRig.group);
 
+    // Mount 3D GLB Sculpture generated from this exact painting (if present in assets/models/scenes/<slug>-<n>.glb)
+    if (this.propBuilder && this.propBuilder.tripo && paintingData && paintingData.n) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        focalRig.group,
+        districtSlug,
+        paintingData.n,
+        { targetHeight: 3.1, yOffset: 0.28 }
+      );
+    }
+
     // 2. Water / River / Brook / Sea / Well / Fountain Scenes: Add shimmering Komorebi water & floating lanterns
-    const isWaterScene = [
-      'streams_of_water', 'scent_of_water', 'deer_brook', 'be_still_waters',
-      'storm_stilled_haven', 'wellspring_of_life', 'rivers_to_the_sea',
-      'locked_garden_fountain', 'many_waters_flame', 'night_watch_water',
-      'temple_river_trees', 'tarshish_storm_ship', 'depths_of_the_sea',
-      'walking_on_the_sea', 'peace_be_still_boat', 'jacob_well_jar',
-      'galilee_charcoal_fire', 'malta_four_anchors', 'fresh_spring_well',
-      'cast_your_cares_shore', 'river_of_life_new_jerusalem'
-    ].includes(kind);
+    const isWaterScene =
+      (derived.waterRatio && derived.waterRatio > 0.22) ||
+      [
+        'streams_of_water', 'scent_of_water', 'deer_brook', 'be_still_waters',
+        'storm_stilled_haven', 'wellspring_of_life', 'rivers_to_the_sea',
+        'locked_garden_fountain', 'many_waters_flame', 'night_watch_water',
+        'temple_river_trees', 'tarshish_storm_ship', 'depths_of_the_sea',
+        'walking_on_the_sea', 'peace_be_still_boat', 'jacob_well_jar',
+        'galilee_charcoal_fire', 'malta_four_anchors', 'fresh_spring_well',
+        'cast_your_cares_shore', 'river_of_life_new_jerusalem'
+      ].includes(kind);
 
     let waterMat = null;
     const riverLanterns = [];
@@ -2051,37 +2187,95 @@ export class StepThroughSceneManager {
       }
     }
 
-    // 4. Grove of Painterly Trees & 760 Wind-Swaying Instanced Meadow Grass & Wildflowers
-    const grovePositions = [
-      { x: -4.2, z: -7.2, s: 0.92 },
-      { x: 4.4, z: -6.8, s: 1.02 },
-      { x: -6.8, z: -12.5, s: 0.85 },
-      { x: 6.5, z: -13.0, s: 0.96 }
-    ];
-    grovePositions.forEach((gp) => {
-      const t = this.propBuilder.createGreatPainterlyTree(derived.propTex, pal, gp.s);
-      t.position.set(gp.x, getTerrainHeight ? getTerrainHeight(gp.x, gp.z) : 0, gp.z);
-      t.rotation.y = gp.x * 0.6;
-      group.add(t);
-    });
+    // 4. Painting-Matched 3D Surrounding Architecture / Rocks / Trees (NO generic moving grass on non-garden scenes!)
+    const isGardenOrTreeScene = [
+      'streams_of_water', 'scent_of_water', 'cedar_of_lebanon', 'apple_tree_shade',
+      'locked_garden_fountain', 'fig_blossom', 'shoot_of_jesse', 'temple_river_trees',
+      'cedar_top_twig', 'almond_branch', 'plumb_line_olive_trees', 'mustard_seed_tree',
+      'true_vine_branches', 'garden_empty_tomb', 'wild_olive_graft', 'sower_good_soil',
+      'patient_farmer_rain', 'river_of_life_new_jerusalem'
+    ].includes(kind);
 
-    const meadowGrass = this.propBuilder.createInstancedMeadowGrass(
-      760,
-      () => {
-        const ang = Math.random() * Math.PI * 2;
-        const rad = 2.4 + Math.random() * 15.0;
-        const x = Math.cos(ang) * rad;
-        const z = Math.sin(ang) * rad - 4.0;
-        return {
-          x,
-          y: getTerrainHeight ? getTerrainHeight(x, z) : 0,
-          z,
-          scale: 0.8 + Math.random() * 0.5
-        };
-      },
-      pal
-    );
-    group.add(meadowGrass);
+    const isSanctuaryOrHallScene = [
+      'solomon_prayer_scroll', 'eyes_upon_you_banner', 'temple_foundations',
+      'kings_scepter_scroll', 'banquet_banner', 'wisdom_seven_pillars',
+      'throne_seraphim_coal', 'baruch_scroll', 'Open_scroll_daniel',
+      'upper_room_basin', 'pentecost_upper_room', 'Emmaus_breaking_bread',
+      'royal_priesthood_cornerstone', 'holiest_curtain_anchor',
+      'seven_golden_lampstands', 'emerald_rainbow_throne', 'open_door_philadelphia'
+    ].includes(kind);
+
+    if (isGardenOrTreeScene) {
+      const grovePositions = [
+        { x: -4.6, z: -7.0, s: 0.94 },
+        { x: 4.6, z: -6.8, s: 1.00 }
+      ];
+      grovePositions.forEach((gp) => {
+        const t = this.propBuilder.createGreatPainterlyTree(derived.propTex, pal, gp.s);
+        t.position.set(gp.x, getTerrainHeight ? getTerrainHeight(gp.x, gp.z) : 0, gp.z);
+        t.rotation.y = gp.x * 0.6;
+        group.add(t);
+      });
+    } else if (isSanctuaryOrHallScene) {
+      // Sculpted Sanctuary Columns textured from the painting's palette & brushwork
+      const colMat = this.painterly.createPainterlyMaterial({
+        map: derived.propTex,
+        baseColor: pal.ground || '#705e4a',
+        accentColor: pal.accent || '#e6c587',
+        roughness: 0.68,
+        bumpScale: 0.06
+      });
+      const colCoords = [
+        { x: -3.8, z: -3.8, h: 4.8 },
+        { x: 3.8, z: -3.8, h: 4.8 },
+        { x: -4.4, z: -8.2, h: 5.6 },
+        { x: 4.4, z: -8.2, h: 5.6 }
+      ];
+      colCoords.forEach((cc) => {
+        const cGeo = this.propBuilder.displaceGeometry(
+          new THREE.CylinderGeometry(0.34, 0.42, cc.h, 16, 12),
+          0.025,
+          3.0
+        );
+        const col = new THREE.Mesh(cGeo, colMat);
+        const by = getTerrainHeight ? getTerrainHeight(cc.x, cc.z) : 0;
+        col.position.set(cc.x, by + cc.h * 0.5, cc.z);
+        group.add(col);
+
+        const capGeo = new THREE.BoxGeometry(0.98, 0.28, 0.98);
+        const cap = new THREE.Mesh(capGeo, colMat);
+        cap.position.set(cc.x, by + cc.h + 0.1, cc.z);
+        group.add(cap);
+      });
+    } else {
+      // Sculpted Painting-Textured Monoliths & Cairns flanking the sanctuary path
+      const monoMat = this.painterly.createPainterlyMaterial({
+        map: derived.propTex,
+        baseColor: pal.ground || '#615141',
+        accentColor: pal.accent || '#dfb97a',
+        roughness: 0.86,
+        bumpScale: 0.08
+      });
+      const monoCoords = [
+        { x: -4.2, z: -4.6, sx: 1.1, sy: 2.3, sz: 1.0 },
+        { x: 4.2, z: -4.6, sx: 1.1, sy: 2.2, sz: 1.0 },
+        { x: -5.4, z: -8.6, sx: 1.5, sy: 3.1, sz: 1.3 },
+        { x: 5.4, z: -8.6, sx: 1.5, sy: 3.0, sz: 1.3 }
+      ];
+      monoCoords.forEach((mc, idx) => {
+        const mGeo = this.propBuilder.displaceGeometry(
+          new THREE.DodecahedronGeometry(1.0, 2),
+          0.12,
+          2.6 + idx * 0.4
+        );
+        const mono = new THREE.Mesh(mGeo, monoMat);
+        const by = getTerrainHeight ? getTerrainHeight(mc.x, mc.z) : 0;
+        mono.position.set(mc.x, by + mc.sy * 0.42, mc.z);
+        mono.scale.set(mc.sx, mc.sy, mc.sz);
+        mono.rotation.y = idx * 0.9;
+        group.add(mono);
+      });
+    }
 
     // 5. Angled 3D Komorebi Volumetric Sunbeam / Starlight Shafts onto the Focal Centerpiece
     const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.82, 3.3, pal.accent || '#ffe49e');

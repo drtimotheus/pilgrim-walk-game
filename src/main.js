@@ -12,15 +12,15 @@
 // ============================================================================
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { PainterlyEngine } from './painterly.js?v=44_11';
-import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_11';
-import { PainterlyPropBuilder } from './props.js?v=44_11';
-import { StepThroughSceneManager } from './scenes.js?v=44_11';
-import { GenesisDistrictBuilder } from './district.js?v=44_11';
-import { PilgrimAudio } from './audio.js?v=44_11';
-import { TripoRelicManager } from './tripo.js?v=44_11';
-import { DailyWalkManager } from './daily-walk.js?v=44_11';
-import { formatZh } from './zh-convert.js?v=44_11';
+import { PainterlyEngine } from './painterly.js?v=44_12';
+import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_12';
+import { PainterlyPropBuilder } from './props.js?v=44_12';
+import { StepThroughSceneManager } from './scenes.js?v=44_12';
+import { GenesisDistrictBuilder } from './district.js?v=44_12';
+import { PilgrimAudio } from './audio.js?v=44_12';
+import { TripoRelicManager } from './tripo.js?v=44_12';
+import { DailyWalkManager } from './daily-walk.js?v=44_12';
+import { formatZh } from './zh-convert.js?v=44_12';
 
 const SAVE_KEY = 'pilgrim_walk_save_v1';
 
@@ -760,7 +760,8 @@ class PilgrimWalkApp {
     this.activeSceneObj = this.sceneManager.buildStepThroughWorld(
       paintingNode.data,
       paintingNode.texture,
-      this.skyDome
+      this.skyDome,
+      this.currentDistrictSlug
     );
     this.scene.add(this.activeSceneObj.group);
 

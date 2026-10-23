@@ -250,7 +250,88 @@ export class PainterlyEngine {
     propTex.wrapT = THREE.RepeatWrapping;
     propTex.colorSpace = THREE.SRGBColorSpace;
 
-    return { depthTex, panoTex, groundTex, propTex, pixels, w, h };
+    // 5. Extract Multi-Plane 3D Scenery Cutout Textures directly from the painting's
+    // left wing, right wing, midground, and upper arch so stepping into the frame
+    // surrounds the pilgrim with the actual layered scenery of that specific painting!
+    const makeWingCutoutTex = (cropX, cropY, cropW, cropH, flipFadeSide = 'inner') => {
+      const cw = 384;
+      const ch = 384;
+      const wc = document.createElement('canvas');
+      wc.width = cw;
+      wc.height = ch;
+      const wCtx = wc.getContext('2d');
+      wCtx.drawImage(
+        img,
+        img.width * cropX,
+        img.height * cropY,
+        img.width * cropW,
+        img.height * cropH,
+        0,
+        0,
+        cw,
+        ch
+      );
+      const wImg = wCtx.getImageData(0, 0, cw, ch);
+      const wd = wImg.data;
+      for (let py = 0; py < ch; py++) {
+        const ny = py / (ch - 1); // 0 top, 1 bottom
+        for (let px = 0; px < cw; px++) {
+          const nx = px / (cw - 1); // 0 left, 1 right
+          const idx = (py * cw + px) * 4;
+          // Organic silhouette mask: solid at bottom/outer edge, soft feathered painterly silhouette at top and inner edge
+          const topFade = Math.min(1.0, ny / 0.22);
+          const bottomFade = Math.min(1.0, (1.0 - ny) / 0.06);
+          const leftFade = flipFadeSide === 'left' ? Math.min(1.0, nx / 0.32) : Math.min(1.0, nx / 0.12);
+          const rightFade = flipFadeSide === 'right' ? Math.min(1.0, (1.0 - nx) / 0.32) : Math.min(1.0, (1.0 - nx) / 0.12);
+          const wave = 0.08 * Math.sin(nx * 14.0 + ny * 9.0) + 0.05 * Math.cos(ny * 19.0);
+          const alpha = Math.max(0, Math.min(1, topFade * bottomFade * leftFade * rightFade + wave * 0.25));
+          wd[idx + 3] = Math.floor(alpha * 255);
+        }
+      }
+      wCtx.putImageData(wImg, 0, 0);
+      const tex = new THREE.CanvasTexture(wc);
+      tex.colorSpace = THREE.SRGBColorSpace;
+      return tex;
+    };
+
+    const leftWingTex = makeWingCutoutTex(0.0, 0.12, 0.42, 0.88, 'right');
+    const rightWingTex = makeWingCutoutTex(0.58, 0.12, 0.42, 0.88, 'left');
+    const midLeftTex = makeWingCutoutTex(0.08, 0.22, 0.44, 0.78, 'right');
+    const midRightTex = makeWingCutoutTex(0.48, 0.22, 0.44, 0.78, 'left');
+    const canopyArchTex = makeWingCutoutTex(0.05, 0.0, 0.90, 0.45, 'inner');
+
+    // 6. Analyze painting lower-half pixels to determine if the painting actually depicts green grass/foliage
+    let greenPixels = 0;
+    let waterPixels = 0;
+    let totalLower = 0;
+    for (let y = Math.floor(h * 0.55); y < h; y++) {
+      for (let x = 0; x < w; x++) {
+        const i = (y * w + x) * 4;
+        const r = pixels[i], g = pixels[i + 1], b = pixels[i + 2];
+        totalLower++;
+        if (g > r * 1.06 && g > b * 1.16 && g > 45) greenPixels++;
+        if (b > r * 1.08 && b > 50) waterPixels++;
+      }
+    }
+    const greenRatio = greenPixels / Math.max(1, totalLower);
+    const waterRatio = waterPixels / Math.max(1, totalLower);
+
+    return {
+      depthTex,
+      panoTex,
+      groundTex,
+      propTex,
+      leftWingTex,
+      rightWingTex,
+      midLeftTex,
+      midRightTex,
+      canopyArchTex,
+      greenRatio,
+      waterRatio,
+      pixels,
+      w,
+      h
+    };
   }
 
   // Creates a painterly material derived from a palette or sampled texture with canvas grain & warm rim lighting

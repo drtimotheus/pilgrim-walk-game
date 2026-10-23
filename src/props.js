@@ -3130,13 +3130,22 @@ export class PainterlyPropBuilder {
       metalness: 0.72
     });
 
-    // Base stone dais / sanctuary hearth circle
+    // Base stone dais / sanctuary hearth circle (preserved underneath imported .glb sculptures)
     const dais = new THREE.Mesh(
-      this.displaceGeometry(new THREE.CylinderGeometry(1.75, 1.95, 0.18, 28), 0.025, 3.0),
+      this.displaceGeometry(new THREE.CylinderGeometry(1.85, 2.05, 0.18, 28), 0.025, 3.0),
       stoneMat
     );
     dais.position.y = 0.09;
+    dais.userData.keepWithGlb = true;
     group.add(dais);
+
+    const innerPlinth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.15, 1.32, 0.14, 24), 0.02, 3.5),
+      stoneMat
+    );
+    innerPlinth.position.y = 0.22;
+    innerPlinth.userData.keepWithGlb = true;
+    group.add(innerPlinth);
 
     const glowTex = this.painterly.createGlowSpriteTexture(pal.accent || '#ffe29c');
     const focalHalo = new THREE.Sprite(

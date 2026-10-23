@@ -1,12 +1,13 @@
 // ============================================================================
-// THE PILGRIM WALK — Tripo3D Studio (.glb) Hero Relic Loader & Painterly Adapter
-// Connects Timothy Holt's 200-credit (13-model) Tripo3D Studio plan directly
-// to the 3D world:
-//   1. Checks assets/models/<id>.glb for any of the 13 Hero Relics.
-//   2. Adapts imported GLTF/GLB PBR materials to match the warm oil-on-linen
+// THE PILGRIM WALK — 3D (.glb) Relic Loader & Painterly Adapter (All 175 Scenes)
+// Supports:
+//   1. All 16 named Hero Relics in assets/models/<id>.glb
+//   2. All 175 Step-Through Painting Scenes across all 44 Books in
+//      assets/models/scenes/<districtSlug>-<paintingNum>.glb (or Music/<folder>/scene-<N>.glb)
+//   3. Adapts imported GLTF/GLB PBR materials to match the warm oil-on-linen
 //      painterly aesthetic (softened specular, linen micro-bump, warm shadows).
-//   3. Supports live browser drag-and-drop of .glb files downloaded from
-//      https://studio.tripo3d.ai/ so Timothy can preview any model immediately!
+//   4. Supports live browser drag-and-drop / upload of .glb files from
+//      Tripo3D Studio or Microsoft TRELLIS!
 // ============================================================================
 
 export class TripoRelicManager {
@@ -17,6 +18,7 @@ export class TripoRelicManager {
     this.manifest = null;
     this.modelCache = new Map(); // id -> THREE.Group template
     this.statusMap = new Map();  // id -> 'loaded' | 'procedural'
+    this.loadingSet = new Set(); // id currently probing/loading
     this.activeMountPoints = new Map(); // id -> Set of { group, scale, yOffset }
   }
 
@@ -33,21 +35,21 @@ export class TripoRelicManager {
 
   async init() {
     try {
-      const res = await fetch('assets/models/tripo-manifest.json');
+      const res = await fetch('assets/models/tripo-manifest.json?v=44_12');
       this.manifest = await res.json();
     } catch (e) {
       console.warn('Tripo manifest load fallback:', e);
       this.manifest = { models: [] };
     }
 
-    // Probe which .glb files are already saved in assets/models/
+    // Probe which named .glb files are already saved in assets/models/
     if (this.manifest && this.manifest.models) {
       await Promise.all(
         this.manifest.models.map(async (item) => {
           try {
             const headRes = await fetch(item.file, { method: 'HEAD' });
-            if (headRes.ok && headRes.headers.get('content-type') !== 'text/html') {
-              await this.loadGlbFromUrl(item.id, item.file, item.targetScale || 2.0);
+            if (headRes.ok && !(headRes.headers.get('content-type') || '').includes('text/html')) {
+              await this.loadGlbFromUrl(item.id, item.file, item.targetScale || 2.2);
             } else {
               this.statusMap.set(item.id, 'procedural');
             }
@@ -59,10 +61,10 @@ export class TripoRelicManager {
     }
   }
 
-  // Applies warm oil-on-linen painterly surface grading to any imported Tripo3D mesh
+  // Applies warm oil-on-linen painterly surface grading to any imported Tripo3D or TRELLIS mesh
   applyPainterlyAdaptation(rootObj) {
     const THREE = this.THREE;
-    const bumpTex = this.painterly ? this.painterly.canvasBumpTex : null;
+    const bumpTex = this.painterly ? this.painterly.canvasNoiseTex : null;
 
     rootObj.traverse((child) => {
       if (child.isMesh && child.material) {
@@ -70,18 +72,18 @@ export class TripoRelicManager {
         mats.forEach((mat) => {
           // Remove harsh CGI plastic shine & add linen canvas micro-relief
           if ('roughness' in mat) {
-            mat.roughness = Math.max(0.76, mat.roughness || 0.85);
+            mat.roughness = Math.max(0.74, mat.roughness || 0.84);
           }
           if ('metalness' in mat) {
-            mat.metalness = Math.min(0.32, mat.metalness || 0.05);
+            mat.metalness = Math.min(0.32, mat.metalness || 0.06);
           }
           if (bumpTex && !mat.bumpMap) {
             mat.bumpMap = bumpTex;
-            mat.bumpScale = 0.018;
+            mat.bumpScale = 0.016;
           }
           if (mat.color) {
             // Subtle warm golden-hour tint to harmonize with Timothy's palettes
-            const warm = new THREE.Color('#fff5e4');
+            const warm = new THREE.Color('#fff6e8');
             mat.color.multiply(warm);
           }
           mat.needsUpdate = true;
@@ -92,7 +94,7 @@ export class TripoRelicManager {
     });
   }
 
-  normalizeAndCenterModel(gltfScene, targetExtent = 2.0) {
+  normalizeAndCenterModel(gltfScene, targetExtent = 2.4) {
     const THREE = this.THREE;
     const wrapper = new THREE.Group();
     const clone = gltfScene.clone(true);
@@ -120,7 +122,7 @@ export class TripoRelicManager {
     return wrapper;
   }
 
-  async loadGlbFromUrl(id, url, targetScale = 2.0) {
+  async loadGlbFromUrl(id, url, targetScale = 2.4) {
     const loader = await this.ensureLoader();
     if (!loader) {
       this.statusMap.set(id, 'procedural');
@@ -148,20 +150,20 @@ export class TripoRelicManager {
   // Hot-swap a .glb file dropped by the user directly into the browser window!
   async loadGlbFromFile(id, fileObj) {
     const item = this.manifest?.models?.find((m) => m.id === id);
-    const targetScale = item ? item.targetScale : 2.0;
+    const targetScale = item ? item.targetScale : 2.4;
     const blobUrl = URL.createObjectURL(fileObj);
     const ok = await this.loadGlbFromUrl(id, blobUrl, targetScale);
     return ok;
   }
 
-  // Called by props/scenes to register a mount point for one of the 13 Hero Relics
+  // Called by props/scenes to register a mount point for a named Hero Relic
   mountRelic(targetGroup, id, options = {}) {
     const scale = options.scale || 1.0;
     const yOffset = options.yOffset || 0.0;
 
     // Mark current children of targetGroup as procedural fallback so they hide if GLB loads
     targetGroup.children.forEach((ch) => {
-      if (!ch.userData.isTripoMesh && !ch.isLight) {
+      if (!ch.userData.isTripoMesh && !ch.isLight && !ch.isSprite) {
         ch.userData.isProceduralFallback = true;
       }
     });
@@ -176,18 +178,72 @@ export class TripoRelicManager {
     }
   }
 
+  // Automatically probes and mounts a .glb model for ANY of the 175 Step-Through Painting Scenes!
+  async mountSceneGlbIfAvailable(targetGroup, districtSlug, paintingNum, options = {}) {
+    if (!targetGroup || !districtSlug || !paintingNum) return;
+    const sceneKey = `scene-${districtSlug}-${paintingNum}`;
+    const scale = options.scale || 1.0;
+    const yOffset = options.yOffset ?? 0.18;
+    const targetExtent = options.targetExtent || 2.6;
+
+    // Also check if one of the 16 named hero relics corresponds to this exact (districtSlug, paintingNum)
+    const namedMap = {
+      'genesis-4': 'sabbath-olive-tree',
+      'genesis-11': 'noah-stone-altar',
+      'exodus-5': 'burning-bush-crag',
+      'exodus-25': 'sinai-stone-tablets',
+      'fire-by-night-5': 'bronze-altar-horns',
+      'fire-by-night-21': 'golden-menorah',
+      'fire-by-night-33': 'nehushtan-bronze-serpent',
+      'choose-life-30': 'shechem-witness-stone',
+      'joshua-judges-10': 'jericho-rams-horn-shofar',
+      'joshua-judges-19': 'shechem-witness-stone',
+      'joshua-judges-20': 'joseph-coffin-chest',
+      'joshua-judges-33': 'gideon-broken-pitcher',
+      'ruth-20': 'ruth-kinsman-sandal',
+      'samuel-6': 'samuel-clay-lamp',
+      'samuel-15': 'samuel-anointing-horn',
+      'kings-21': 'elijah-folded-mantle'
+    };
+    const namedId = namedMap[`${districtSlug}-${paintingNum}`];
+    if (namedId && this.modelCache.has(namedId)) {
+      this.mountRelic(targetGroup, namedId, { scale, yOffset });
+      return;
+    }
+
+    this.mountRelic(targetGroup, sceneKey, { scale, yOffset });
+    if (this.modelCache.has(sceneKey) || this.loadingSet.has(sceneKey)) return;
+
+    this.loadingSet.add(sceneKey);
+    const candidateUrls = [
+      `assets/models/scenes/${districtSlug}-${paintingNum}.glb`,
+      ...(namedId ? [`assets/models/${namedId}.glb`] : [])
+    ];
+
+    for (const url of candidateUrls) {
+      try {
+        const headRes = await fetch(url, { method: 'HEAD' });
+        if (headRes.ok && !(headRes.headers.get('content-type') || '').includes('text/html')) {
+          const loaded = await this.loadGlbFromUrl(sceneKey, url, targetExtent);
+          if (loaded) break;
+        }
+      } catch (_) {}
+    }
+    this.loadingSet.delete(sceneKey);
+  }
+
   injectCachedModelIntoGroup(id, targetGroup, scale, yOffset) {
     const template = this.modelCache.get(id);
     if (!template) return;
 
-    // Hide procedural fallback children (keep lights!)
+    // Hide procedural fallback children (keep lights, halos & base stone plinth!)
     targetGroup.children.forEach((ch) => {
-      if (ch.userData.isProceduralFallback) {
+      if (ch.userData.isProceduralFallback && !ch.userData.keepWithGlb) {
         ch.visible = false;
       }
     });
 
-    // Remove any previous Tripo instance on this group
+    // Remove any previous Tripo/TRELLIS instance on this group
     const prev = targetGroup.children.find((ch) => ch.userData.isTripoMesh);
     if (prev) targetGroup.remove(prev);
 

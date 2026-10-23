@@ -210,6 +210,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateRevelation13LambThroneScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'river_of_life_new_jerusalem') {
       signatureState = this.populateRevelation38TreeOfLifeScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'streams_of_water') {
+      signatureState = this.populatePsalms1PlantedScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'moon_and_stars') {
+      signatureState = this.populatePsalms8MoonAndStarsScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'green_pastures') {
+      signatureState = this.populatePsalms23GreenPasturesScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'house_of_the_lord') {
+      signatureState = this.populatePsalms27HouseOfTheLordScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -238,7 +246,8 @@ export class StepThroughSceneManager {
         'altar_fire', 'menorah', 'rock_water', 'bronze_serpent',
         'mezuzah', 'sheaf', 'two_roads', 'nebo', 'jordan_stones', 'jericho_walls',
         'ruth_gleaning', 'samuel_lamp', 'five_smooth_stones', 'temple_cloud', 'carmel_fire',
-        'seven_golden_lampstands', 'behold_i_stand_and_knock', 'emerald_rainbow_throne', 'river_of_life_new_jerusalem'
+        'seven_golden_lampstands', 'behold_i_stand_and_knock', 'emerald_rainbow_throne', 'river_of_life_new_jerusalem',
+        'streams_of_water', 'moon_and_stars', 'green_pastures', 'house_of_the_lord'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -2415,6 +2424,280 @@ export class StepThroughSceneManager {
         sunShafts.forEach((sh, idx) => {
           sh.material.uniforms.uOpacity.value = (0.22 + val * 0.20) * (0.88 + 0.12 * Math.sin(time * 1.2 + idx));
         });
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XIII (PLANTED BY THE WATER / PSALMS 1–41) SCENE 1:
+  // No. 1 — "planted" (Psalm 1:1–3)
+  // Signature Symbolic Element of District XIII:
+  //   - Clear pebble-lined stream ("streams of water") flowing past a dry-stone bank
+  //   - Great fruit-bearing fig tree with exposed roots reaching into the stream
+  //   - Woven harvest basket with white linen cloth on the stone wall & riverside stone bench
+  //   - Judean village well with wooden tripod frame across the stream (matching painting #1)
+  // ==========================================================================
+  populatePsalms1PlantedScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    // 1. Crystal-clear Pebble Stream flowing down the center-left of the scene (matching painting #1)
+    const streamGeo = new THREE.PlaneGeometry(14, 46, 36, 48);
+    streamGeo.rotateX(-Math.PI / 2);
+    const streamMat = createKomorebiWaterMaterial(THREE, {
+      deepColor: '#2f544a',
+      shallowColor: '#8ba893',
+      sunColor: '#fff2c9',
+      opacity: 0.90
+    });
+    const stream = new THREE.Mesh(streamGeo, streamMat);
+    stream.position.set(-1.6, 0.04, -10.0);
+    group.add(stream);
+
+    // Floating river lanterns drifting along the stream
+    const lanterns = [];
+    for (let i = 0; i < 6; i++) {
+      const l = this.propBuilder.createFloatingRiverLantern('#ffeaa6');
+      l.position.set(-2.4 + (i % 3) * 0.9, 0.08, -4.2 - i * 2.6);
+      group.add(l);
+      lanterns.push(l);
+    }
+
+    // 2. The Tree Planted by the Streams of Water, Exposed Roots, Figs, Basket & Well
+    const plantedPos = new THREE.Vector3(0.35, 0.0, -5.6);
+    const plantedRig = this.propBuilder.createPlantedByWaterTreeEnsemble(derived.propTex, pal, true);
+    plantedRig.group.position.copy(plantedPos);
+    group.add(plantedRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        plantedRig.group,
+        'psalms-1',
+        1,
+        { targetHeight: 3.0, yOffset: 0.22 }
+      );
+    }
+
+    // Background olive & cypress trees along the stream valley (matching painting #1)
+    for (const [tx, tz, ts] of [[-5.4, -7.8, 0.92], [5.2, -9.6, 0.98], [-4.6, -13.5, 0.88]]) {
+      const t = this.propBuilder.createGreatPainterlyTree(derived.propTex, pal, ts);
+      t.position.set(tx, getTerrainHeight ? getTerrainHeight(tx, tz) : 0, tz);
+      group.add(t);
+    }
+
+    const sunShafts = [];
+    for (let i = 0; i < 3; i++) {
+      const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.75, 3.0, '#fff0bd');
+      shaft.position.set(0.4 + (i - 1) * 1.4, 6.2, -5.4 + (i % 2) * 0.8);
+      group.add(shaft);
+      sunShafts.push(shaft);
+    }
+
+    return {
+      signatureTarget: plantedPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Rest Beneath the Tree Planted by the Streams of Water',
+      signatureActivatedText: '“He will be like a tree planted by the streams of water, that produces its fruit in its season, whose leaf also does not wither.” — Stay near the water. (Psalm 1:1–3)',
+      updateScene: (dt, time, distToSignature, skyDome, cameraPos) => {
+        streamMat.uniforms.uTime.value = time;
+        if (cameraPos) streamMat.uniforms.uCameraPos.value.copy(cameraPos);
+
+        lanterns.forEach((l, idx) => {
+          l.position.y = 0.08 + Math.sin(time * 1.6 + idx) * 0.03;
+        });
+
+        const near = distToSignature < 4.2;
+        if (near) this._psalm1PlantedLatched = Math.min(1.0, (this._psalm1PlantedLatched || 0) + dt * 0.5);
+        const val = this._psalm1PlantedLatched || 0;
+
+        plantedRig.streamLight.intensity = 2.8 + val * 3.4 + Math.sin(time * 2.0) * 0.22;
+        sunShafts.forEach((sh, idx) => {
+          sh.material.uniforms.uOpacity.value = (0.22 + val * 0.18) * (0.88 + 0.12 * Math.sin(time * 1.3 + idx));
+        });
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XIII (PLANTED BY THE WATER / PSALMS 1–41) SCENE 2:
+  // No. 8 — "the work of your fingers" (Psalm 8:3–4)
+  //   - Nocturnal hillside under a luminous Full Moon & Starry Heavens ("the moon and the stars, which you have ordained")
+  //   - Ancient olive tree on the left, shepherd's boulder seat, cloak & curved crook
+  //   - Peaceful flock of 7 woolly sheep resting in the hillside grass (matching painting #8)
+  // ==========================================================================
+  populatePsalms8MoonAndStarsScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+
+    if (skyDome && skyDome.material && skyDome.material.uniforms && skyDome.material.uniforms.uStarIntensity) {
+      skyDome.material.uniforms.uStarIntensity.value = 0.94;
+    }
+
+    const hillsidePos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const shepherdRig = this.propBuilder.createPsalm8ShepherdHillsideEnsemble(derived.propTex, pal, true);
+    shepherdRig.group.position.copy(hillsidePos);
+    group.add(shepherdRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        shepherdRig.group,
+        'psalms-1',
+        8,
+        { targetHeight: 2.9, yOffset: 0.22 }
+      );
+    }
+
+    // Ancient gnarled olive tree on the left framing the moonlit sky (matching painting #8 left side)
+    const leftOlive = this.propBuilder.createGreatPainterlyTree(
+      derived.propTex,
+      { ground: '#3e3930', horizon: '#4c5742', accent: '#b8c4a6' },
+      1.32
+    );
+    leftOlive.position.set(-3.4, getTerrainHeight ? getTerrainHeight(-3.4, -5.8) : 0, -5.8);
+    group.add(leftOlive);
+
+    // Moonbeam shaft slanting down onto the shepherd's hillside
+    const moonShaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.82, 3.4, '#dce8ff');
+    moonShaft.position.set(-0.6, 6.4, -5.6);
+    group.add(moonShaft);
+
+    return {
+      signatureTarget: hillsidePos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Sit by the Shepherd’s Crook & Flock Under the Moon and Stars',
+      signatureActivatedText: '“When I consider your heavens, the work of your fingers, the moon and the stars, which you have ordained; what is man, that you think of him?” (Psalm 8:3–4)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._psalm8StarsLatched = Math.min(1.0, (this._psalm8StarsLatched || 0) + dt * 0.5);
+        const val = this._psalm8StarsLatched || 0;
+
+        shepherdRig.moonLight.intensity = 2.8 + val * 3.6 + Math.sin(time * 2.2) * 0.2;
+        if (shepherdRig.moonHalo) {
+          shepherdRig.moonHalo.scale.setScalar(4.4 + val * 1.4 + Math.sin(time * 1.8) * 0.25);
+        }
+        shepherdRig.starSprites.forEach((st, idx) => {
+          const baseS = idx === 0 ? 1.35 : 0.78;
+          st.scale.setScalar((baseS + val * 0.35) * (0.88 + 0.16 * Math.sin(time * 3.4 + idx * 1.1)));
+        });
+        shepherdRig.sheepFlock.forEach((sh, idx) => {
+          sh.position.y = 0.08 + Math.sin(time * 1.5 + idx * 0.8) * 0.012;
+        });
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XIII (PLANTED BY THE WATER / PSALMS 1–41) SCENE 3:
+  // No. 22 — "through the valley" (Psalm 23:1–6)
+  //   - Shadowed canyon walls opening toward sunlit green pastures & still waters
+  //   - Left rocky ledge with striped shepherd's cloak, wooden rod & curved staff,
+  //     clay anointing oil jug, overflowing cup, and table before the pilgrim (matching painting #22)
+  // ==========================================================================
+  populatePsalms23GreenPasturesScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    // Still waters brook winding beside the valley path ("He leads me beside still waters", Psalm 23:2)
+    const brookGeo = new THREE.PlaneGeometry(10, 42, 28, 40);
+    brookGeo.rotateX(-Math.PI / 2);
+    const brookMat = createKomorebiWaterMaterial(THREE, {
+      deepColor: '#365249',
+      shallowColor: '#8ea894',
+      sunColor: '#ffe8ad',
+      opacity: 0.88
+    });
+    const brook = new THREE.Mesh(brookGeo, brookMat);
+    brook.position.set(3.8, 0.03, -10.5);
+    group.add(brook);
+
+    const valleyPos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const valleyRig = this.propBuilder.createPsalm23ValleyRodAndTable(derived.propTex, pal);
+    valleyRig.group.position.copy(valleyPos);
+    group.add(valleyRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        valleyRig.group,
+        'psalms-1',
+        22,
+        { targetHeight: 2.9, yOffset: 0.22 }
+      );
+    }
+
+    // Canyon crags on left and right framing the sunlit vista ahead (matching painting #22)
+    for (const [cx, cz, cs] of [[-5.6, -7.2, 0.95], [5.8, -8.4, 0.90]]) {
+      const crag = this.propBuilder.createWildernessCampAndCrag(pal, cx < 0 ? 1 : 2);
+      crag.scale.setScalar(cs);
+      crag.position.set(cx, getTerrainHeight ? getTerrainHeight(cx, cz) : 0, cz);
+      group.add(crag);
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.88, 3.6, '#ffea9f');
+    shaft.position.set(0.2, 6.5, -6.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: valleyPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Pause Beside the Shepherd’s Rod, Staff & Prepared Table in the Valley',
+      signatureActivatedText: '“Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me… My cup runs over.” (Psalm 23:4–5)',
+      updateScene: (dt, time, distToSignature, skyDome, cameraPos) => {
+        brookMat.uniforms.uTime.value = time;
+        if (cameraPos) brookMat.uniforms.uCameraPos.value.copy(cameraPos);
+
+        const near = distToSignature < 4.2;
+        if (near) this._psalm23ValleyLatched = Math.min(1.0, (this._psalm23ValleyLatched || 0) + dt * 0.5);
+        const val = this._psalm23ValleyLatched || 0;
+
+        valleyRig.valleyLight.intensity = 3.0 + val * 3.8 + Math.sin(time * 2.0) * 0.22;
+        shaft.material.uniforms.uOpacity.value = (0.24 + val * 0.22) * (0.9 + 0.1 * Math.sin(time * 1.4));
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XIII (PLANTED BY THE WATER / PSALMS 1–41) SCENE 4:
+  // No. 26 — "one thing" (Psalm 27:4)
+  //   - Open stone doorway of the House of the Lord with water jar & olive branch on the step
+  //   - Heavy timber door swinging gently open to reveal the three-chain hanging bronze sanctuary lamp,
+  //     rolled reed prayer mat, and golden-draped inner table (matching painting #26)
+  // ==========================================================================
+  populatePsalms27HouseOfTheLordScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    const housePos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const houseRig = this.propBuilder.createPsalm27OpenHouseThreshold(derived.propTex, pal);
+    houseRig.group.position.copy(housePos);
+    group.add(houseRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        houseRig.group,
+        'psalms-1',
+        26,
+        { targetHeight: 3.0, yOffset: 0.22 }
+      );
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.80, 3.2, '#ffe291');
+    shaft.position.set(0.0, 6.2, -5.4);
+    group.add(shaft);
+
+    return {
+      signatureTarget: housePos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Step Across the Open Threshold of the House of the Lord',
+      signatureActivatedText: '“One thing I have asked of Yahweh, that I will seek after: that I may dwell in the house of Yahweh all the days of my life, to behold Yahweh’s beauty, and to inquire in his temple.” (Psalm 27:4)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._psalm27HouseLatched = Math.min(1.0, (this._psalm27HouseLatched || 0) + dt * 0.5);
+        const val = this._psalm27HouseLatched || 0;
+
+        houseRig.doorPivot.rotation.y = 1.05 + val * 0.28;
+        houseRig.hangingLamp.rotation.z = Math.sin(time * 1.4) * 0.03;
+        houseRig.sanctuaryLight.intensity = 3.2 + val * 3.6 + Math.sin(time * 3.0) * 0.22;
+        houseRig.lampHalo.scale.setScalar(2.4 + val * 0.85 + Math.sin(time * 2.6) * 0.15);
         return near || val > 0.85;
       }
     };

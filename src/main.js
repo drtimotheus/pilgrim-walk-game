@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_22';
-import { StepThroughSceneManager } from './scenes.js?v=44_22';
-import { GenesisDistrictBuilder } from './district.js?v=44_22';
+import { PainterlyPropBuilder } from './props.js?v=44_23';
+import { StepThroughSceneManager } from './scenes.js?v=44_23';
+import { GenesisDistrictBuilder } from './district.js?v=44_23';
 import { PilgrimAudio } from './audio.js?v=44_12';
 import { TripoRelicManager } from './tripo.js?v=44_21';
 import { DailyWalkManager } from './daily-walk.js?v=44_12';
@@ -179,7 +179,7 @@ class PilgrimWalkApp {
       [10, 'X', 'rise-up-and-build', 'Ezra & Nehemiah', 'Rise Up and Build (Ezra & Nehemiah)', '“Don’t be grieved, for the joy of Yahweh is your strength.”'],
       [11, 'XI', 'for-such-a-time-as-this', 'Esther', 'For Such a Time as This (Esther)', '“Who knows if you haven’t come to the kingdom for such a time as this?”'],
       [12, 'XII', 'out-of-the-whirlwind', 'Job', 'Out of the Whirlwind (Job)', '“I had heard of you by the hearing of the ear, but now my eye sees you.”'],
-      [13, 'XIII', 'psalms-1', 'Psalms 1–41', 'Planted by the Water (Psalms 1–41)', '“He will be like a tree planted by the streams of water.”'],
+      [13, 'XIII', 'psalms-1', 'Psalms 1–41', 'Planted by the Water (Psalms 1–41)', '“Blessed be Yahweh, the God of Israel, from everlasting and to everlasting! Amen and amen.”'],
       [14, 'XIV', 'psalms-2', 'Psalms 42–72', 'As the Deer (Psalms 42–72)', '“Lead me to the rock that is higher than I.”'],
       [15, 'XV', 'psalms-3', 'Psalms 73–106', 'A Day in Your Courts (Psalms 73–106)', '“For a day in your courts is better than a thousand.”'],
       [16, 'XVI', 'psalms-4', 'Psalms 107–150', 'Everything That Has Breath (Psalms 107–150)', '“Your word is a lamp to my feet, and a light for my path.”'],
@@ -922,6 +922,12 @@ class PilgrimWalkApp {
         { n: 18, label: '18 · “fire on Carmel” (12-Stone Altar)' },
         { n: 21, label: '21 · “a still small voice” (Horeb Cave)' },
         { n: 32, label: '32 · “more with us” (Chariots of Fire)' }
+      ],
+      'psalms-1': [
+        { n: 1, label: '1 · “planted” (Tree by the Streams)' },
+        { n: 8, label: '8 · “the work of your fingers” (Shepherd Under Stars)' },
+        { n: 22, label: '22 · “through the valley” (Rod, Staff & Table)' },
+        { n: 26, label: '26 · “one thing” (Open Threshold of the Lord’s House)' }
       ],
       'all-things-new': [
         { n: 4, label: '4 · “among the lampstands” (7 Golden Lampstands)' },

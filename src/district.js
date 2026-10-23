@@ -56,7 +56,6 @@ export class GenesisDistrictBuilder {
       'genesis',
       'ruth',
       'samuel',
-      'psalms-1',
       'psalms-2',
       'psalms-3',
       'psalms-4',
@@ -64,6 +63,28 @@ export class GenesisDistrictBuilder {
       'good-news-of-great-joy',
       'i-am-with-you-always'
     ]);
+
+    if (slug === 'psalms-1') {
+      return {
+        biome: 'planted_by_water',
+        groundColor: '#586646',
+        groundAccent: '#dbbe7c',
+        pathColor: '#a8916f',
+        pathAccent: '#ebd5ae',
+        waterDeep: '#264f47',
+        waterShallow: '#84b099',
+        grassCount: 2500,
+        grassPalette: { ground: '#596b47', accent: '#e8c987', horizon: '#b59672' },
+        hasBridges: true,
+        bridgePalette: { ground: '#786b58', accent: '#dfbe82' },
+        skyTop: '#42667d',
+        skyMid: '#88a399',
+        skyHorizon: '#f5d69b',
+        fogColor: '#918068',
+        starIntensity: 0.08,
+        sunbeamColor: '#ffe8a8'
+      };
+    }
 
     if (babylonSlugs.has(slug)) {
       return {
@@ -646,6 +667,31 @@ export class GenesisDistrictBuilder {
         menorah.position.set(pt.x + (side > 0 ? 9.5 : -16.2), pt.y + 0.3, rz);
         streetGroup.add(menorah);
       }
+      return;
+    }
+
+    if (biomeCfg.biome === 'planted_by_water') {
+      // District XIII: Planted by the Water (Psalms 1–41)
+      // Riverbank fig & olive trees with roots reaching into the stream, stone watchtowers of refuge (Psalm 9),
+      // and shepherd hills along the 5 parts
+      for (let i = 0; i < 12; i++) {
+        const rz = -16 - i * 35.0;
+        const pt = this.getPathPoint(rz);
+        if (i === 2 || i === 7) {
+          const tower = this.propBuilder.createPsalm9HighTower(pal);
+          tower.scale.setScalar(0.95);
+          tower.position.set(pt.x + 11.5, pt.y + 0.4, rz);
+          tower.lookAt(pt.x, pt.y + 0.5, rz + 4.0);
+          streetGroup.add(tower);
+        } else {
+          const riversideTree = this.propBuilder.createPlantedByWaterTreeEnsemble(null, pal, false);
+          if (riversideTree.streamLight) riversideTree.group.remove(riversideTree.streamLight);
+          riversideTree.group.scale.setScalar(0.82);
+          riversideTree.group.position.set(pt.x - 7.8, pt.y - 0.05, rz);
+          riversideTree.group.lookAt(pt.x, pt.y, rz);
+          streetGroup.add(riversideTree.group);
+        }
+      }
     }
   }
 
@@ -705,7 +751,7 @@ export class GenesisDistrictBuilder {
       plinthGroup.lookAt(wx - side * 3.0, wy, wz + 3.0);
       streetGroup.add(plinthGroup);
 
-      if (pData.sceneType && slug !== 'greatly-beloved' && slug !== 'all-things-new') {
+      if (pData.sceneType && slug !== 'greatly-beloved' && slug !== 'all-things-new' && slug !== 'psalms-1') {
         const focal = this.propBuilder.createFocalPropForScene(pData.sceneType, null, pal);
         if (focal && focal.group) {
           if (focal.focalLight) focal.group.remove(focal.focalLight);
@@ -876,6 +922,73 @@ export class GenesisDistrictBuilder {
         streetGroup.add(treeBench.group);
         return;
       }
+    } else if (slug === 'psalms-1') {
+      if (pData.n === 1) {
+        const planted = this.propBuilder.createPlantedByWaterTreeEnsemble(null, pal, false);
+        if (planted.streamLight) planted.group.remove(planted.streamLight);
+        planted.group.scale.setScalar(0.72);
+        planted.group.position.set(wx + side * 2.8, wy, wz - 2.4);
+        planted.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(planted.group);
+        return;
+      }
+      if (pData.n === 8) {
+        const shepherd = this.propBuilder.createPsalm8ShepherdHillsideEnsemble(null, pal, false);
+        if (shepherd.moonLight) shepherd.group.remove(shepherd.moonLight);
+        shepherd.group.scale.setScalar(0.74);
+        shepherd.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        shepherd.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(shepherd.group);
+        return;
+      }
+      if (pData.n === 9) {
+        const tower = this.propBuilder.createPsalm9HighTower(pal);
+        tower.scale.setScalar(0.78);
+        tower.position.set(wx + side * 3.2, wy, wz - 1.4);
+        tower.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(tower);
+        return;
+      }
+      if (pData.n === 12) {
+        const furnace = this.propBuilder.createPsalm12RefiningFurnace(pal);
+        furnace.scale.setScalar(0.84);
+        furnace.position.set(wx + side * 2.6, wy, wz - 1.0);
+        furnace.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(furnace);
+        return;
+      }
+      if (pData.n === 22) {
+        const valley = this.propBuilder.createPsalm23ValleyRodAndTable(null, pal);
+        if (valley.valleyLight) valley.group.remove(valley.valleyLight);
+        valley.group.scale.setScalar(0.72);
+        valley.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        valley.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(valley.group);
+        return;
+      }
+      if (pData.n === 26) {
+        const house = this.propBuilder.createPsalm27OpenHouseThreshold(null, pal);
+        if (house.sanctuaryLight) house.group.remove(house.sanctuaryLight);
+        house.group.scale.setScalar(0.68);
+        house.group.position.set(wx + side * 3.0, wy, wz - 2.4);
+        house.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(house.group);
+        return;
+      }
+      if (pData.n === 32) {
+        const harp = this.propBuilder.createDavidHarp(1.1);
+        harp.position.set(wx + side * 2.4, wy, wz - 0.6);
+        streetGroup.add(harp);
+        return;
+      }
+      if (pData.n === 40) {
+        const amenTable = this.propBuilder.createPsalm41AmenTableEnsemble(null, pal, false);
+        amenTable.scale.setScalar(0.82);
+        amenTable.position.set(wx + side * 2.6, wy, wz - 1.0);
+        amenTable.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(amenTable);
+        return;
+      }
     }
 
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
@@ -959,6 +1072,7 @@ export class GenesisDistrictBuilder {
       ruth: 'DISTRICT VI · WHERE YOU GO — RUTH',
       samuel: 'DISTRICT VII · THE LAMP HAD NOT GONE OUT — 1–2 SAMUEL',
       kings: 'DISTRICT VIII · A STILL SMALL VOICE — 1 & 2 KINGS',
+      'psalms-1': 'DISTRICT XIII · PLANTED BY THE WATER — PSALMS 1–41',
       'all-things-new': 'DISTRICT XLIV · ALL THINGS NEW — REVELATION'
     };
 
@@ -1479,6 +1593,58 @@ export class GenesisDistrictBuilder {
           height: 1.75,
           veilZ: -428.0
         }
+      ],
+      'psalms-1': [
+        {
+          part: 1,
+          id: 'psalms-1-light-1',
+          name: 'The Light of the Streams of Water',
+          hint: 'Shimmering beside the stream bank & roots near “watch” & “the work of your fingers” (Part One)',
+          z: -62.0,
+          lateral: -6.2,
+          height: 1.72,
+          veilZ: -82.0
+        },
+        {
+          part: 2,
+          id: 'psalms-1-light-2',
+          name: 'The Light of the Refiner’s Furnace',
+          hint: 'Glowing beside the clay refining furnace near “seven times” & “how long?” (Part Two)',
+          z: -136.0,
+          lateral: 6.2,
+          height: 1.68,
+          veilZ: -168.0
+        },
+        {
+          part: 3,
+          id: 'psalms-1-light-3',
+          name: 'The Light of the Shepherd’s Lamp',
+          hint: 'Shining beside the shepherd’s staff and table near “my lamp” & “through the valley” (Part Three)',
+          z: -224.0,
+          lateral: -6.0,
+          height: 1.75,
+          veilZ: -254.0
+        },
+        {
+          part: 4,
+          id: 'psalms-1-light-4',
+          name: 'The Light of the Open Threshold',
+          hint: 'Glowing between the open doorway & the ten-string lyre near “one thing” & “a new song” (Part Four)',
+          z: -312.0,
+          lateral: 6.0,
+          height: 1.68,
+          veilZ: -340.0
+        },
+        {
+          part: 5,
+          id: 'psalms-1-light-5',
+          name: 'The Light of the Spring of Life',
+          hint: 'Shining by the mended vessel & spring of life near “in your light” & “amen and amen” before the Amen Gate (Part Five)',
+          z: -404.0,
+          lateral: -5.8,
+          height: 1.75,
+          veilZ: -426.0
+        }
       ]
     };
 
@@ -1613,7 +1779,7 @@ export class GenesisDistrictBuilder {
       ? -268
       : slug === 'choose-life'
       ? -398
-      : ['genesis', 'exodus', 'fire-by-night', 'joshua-judges', 'samuel', 'kings', 'all-things-new'].includes(slug)
+      : ['genesis', 'exodus', 'fire-by-night', 'joshua-judges', 'samuel', 'kings', 'psalms-1', 'all-things-new'].includes(slug)
       ? -436
       : computedLastZ - 14.0;
     const pt = this.getPathPoint(plazaZ);
@@ -1671,6 +1837,16 @@ export class GenesisDistrictBuilder {
       const sanctuary = this.propBuilder.createCedarTempleSanctuary();
       sanctuary.group.position.set(0, 0.1, -4.4);
       group.add(sanctuary.group);
+    } else if (slug === 'psalms-1') {
+      // District XIII Finale: The Amen Table of Book One (tied scroll, bread basket for the poor, clay cup)
+      // paired with the Tree Planted by the Streams of Water (Psalm 1) and David's 10-String Harp
+      const psalms1Finale = this.propBuilder.createPsalm41AmenTableEnsemble(
+        null,
+        { ground: '#786c5a', horizon: '#688252', accent: '#f5e2a8' },
+        true
+      );
+      psalms1Finale.position.set(0, 0.1, -3.8);
+      group.add(psalms1Finale);
     } else if (slug === 'all-things-new') {
       // District XLIV Finale: The Tree of Life, the Stone Bench beneath the Tree (answering Genesis's Sabbath Bench),
       // the Great Lantern of the Lamb ("its lamp is the Lamb"), and a Gate of Pearl
@@ -1755,6 +1931,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · A STILL SMALL VOICE COMPLETED',
         epigraph: 'After the fire, there was a still small voice — a lamp still burning',
         epigraphRef: 'APPROACH & PRESS [E] TO CONTINUE TO DISTRICT IX: OUR EYES ARE ON YOU'
+      },
+      'psalms-1': {
+        title: 'AMEN GATE · PLANTED BY THE WATER COMPLETED',
+        epigraph: 'Blessed be Yahweh, the God of Israel, from everlasting and to everlasting! Amen and amen.',
+        epigraphRef: 'PSALM 41:13 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XIV: AS THE DEER'
       },
       'all-things-new': {
         title: 'AMEN GATE · ALL THINGS NEW COMPLETED',

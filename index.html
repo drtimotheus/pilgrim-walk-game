@@ -184,6 +184,63 @@
       font-size: 0.81rem;
     }
 
+    /* Clean Art View / Minimized HUD Mode (Default on Mobile, Optional [H] / Button on Desktop) */
+    body.hud-minimized .hud-collapsible,
+    body.hud-minimized #all-44-ribbon,
+    body.hud-minimized #prototype-scene-strip {
+      display: none !important;
+    }
+    body.hud-minimized #daily-walk-hud-banner {
+      top: 58px;
+    }
+    body.hud-minimized #top-hud {
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    @media (max-width: 820px) {
+      #top-hud {
+        top: 8px;
+        left: 8px;
+        right: 8px;
+        gap: 6px;
+      }
+      .hud-pill {
+        padding: 5px 10px;
+        font-size: 0.78rem;
+      }
+      #hud-district-select {
+        max-width: 148px !important;
+      }
+      body:not(.hud-minimized) #top-hud {
+        background: rgba(22, 17, 12, 0.94);
+        border: 1px solid rgba(219, 184, 123, 0.5);
+        border-radius: 14px;
+        padding: 10px;
+        max-height: 54vh;
+        overflow-y: auto;
+        pointer-events: auto;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+      }
+      body:not(.hud-minimized) #prototype-scene-strip {
+        top: auto;
+        bottom: 146px;
+        left: 8px;
+        right: 8px;
+        max-height: 22vh;
+        overflow-y: auto;
+      }
+      #daily-walk-hud-banner {
+        left: 8px;
+        right: 8px;
+        max-width: calc(100vw - 16px);
+        padding: 8px 11px;
+      }
+      .dw-banner-prompt {
+        display: none;
+      }
+    }
+
     /* Stage 1 Prototype Scene Quick-Test Strip */
     #prototype-scene-strip {
       position: fixed;
@@ -788,8 +845,8 @@
   <!-- Top HUD -->
   <header id="top-hud">
     <div class="hud-cluster">
-      <button id="btn-walk-gatehouse" class="hud-pill">⛩ 3D Gatehouse (44 Gates)</button>
-      <button id="btn-prev-district" class="hud-pill" title="Previous Book">◀ Prev</button>
+      <button id="btn-walk-gatehouse" class="hud-pill hud-collapsible">⛩ 3D Gatehouse (44 Gates)</button>
+      <button id="btn-prev-district" class="hud-pill hud-collapsible" title="Previous Book">◀ Prev</button>
       <select id="hud-district-select" class="hud-pill active-pill" aria-label="Jump to any of the 44 Books" style="max-width: 280px;">
         <option value="genesis">I · #1 Genesis — In the Beginning</option>
         <option value="exodus">II · #2 Exodus — Let My People Go</option>
@@ -836,22 +893,23 @@
         <option value="little-children">XLIII · #43 1–3 John — Little Children</option>
         <option value="all-things-new">XLIV · #44 Revelation — All Things New</option>
       </select>
-      <button id="btn-next-district" class="hud-pill" title="Next Book">Next ▶</button>
+      <button id="btn-next-district" class="hud-pill hud-collapsible" title="Next Book">Next ▶</button>
       <button id="btn-daily-walk" class="hud-pill">🕯 Daily Walk · Day 1</button>
-      <button id="btn-long-scroll" class="hud-pill">📜 All 44 Books</button>
-      <button id="btn-cover-shelf" class="hud-pill">📚 44-Book Shelf</button>
-      <button id="btn-gatehouse" class="hud-pill">📖 Intro</button>
-      <button id="btn-tripo-studio" class="hud-pill">🎨 Tripo3D</button>
+      <button id="btn-long-scroll" class="hud-pill hud-collapsible">📜 All 44 Books</button>
+      <button id="btn-cover-shelf" class="hud-pill hud-collapsible">📚 44-Book Shelf</button>
+      <button id="btn-gatehouse" class="hud-pill hud-collapsible">📖 Intro</button>
+      <button id="btn-tripo-studio" class="hud-pill hud-collapsible">🎨 Tripo3D</button>
     </div>
     <div class="hud-cluster">
       <button id="btn-lang-toggle" class="hud-pill dw-gold-pill" title="Switch Language: English / 简体中文 / 繁體中文">🌐 中文 (简/繁) / EN</button>
-      <span id="lantern-glow-indicator" class="hud-pill hud-stat">✦ Lantern lit</span>
-      <span id="hud-lights-count" class="hud-pill hud-stat">0 / 4 Lights</span>
-      <span id="hud-paintings-count" class="hud-pill hud-stat">0 / 40 Poems</span>
-      <button id="btn-mode-toggle" class="hud-pill">Mode: Story Walk</button>
-      <button id="btn-audio-toggle" class="hud-pill">Sound: On</button>
-      <button id="btn-a11y-motion" class="hud-pill">Motion: Standard</button>
-      <button id="btn-a11y-text" class="hud-pill">Text: Standard</button>
+      <button id="btn-hud-collapse" class="hud-pill" title="Hide or Show Screen Icons [H]">👁 Hide Icons</button>
+      <span id="lantern-glow-indicator" class="hud-pill hud-stat hud-collapsible">✦ Lantern lit</span>
+      <span id="hud-lights-count" class="hud-pill hud-stat hud-collapsible">0 / 4 Lights</span>
+      <span id="hud-paintings-count" class="hud-pill hud-stat hud-collapsible">0 / 40 Poems</span>
+      <button id="btn-mode-toggle" class="hud-pill hud-collapsible">Mode: Story Walk</button>
+      <button id="btn-audio-toggle" class="hud-pill hud-collapsible">Sound: On</button>
+      <button id="btn-a11y-motion" class="hud-pill hud-collapsible">Motion: Standard</button>
+      <button id="btn-a11y-text" class="hud-pill hud-collapsible">Text: Standard</button>
     </div>
     <!-- Scrollable Pill Bar of All 44 Districts (I through XLIV) -->
     <div id="all-44-ribbon" aria-label="All 44 Districts Ribbon"></div>
@@ -1057,6 +1115,6 @@
     </div>
   </div>
 
-  <script type="module" src="src/main.js?v=44_10"></script>
+  <script type="module" src="src/main.js?v=44_11"></script>
 </body>
 </html>

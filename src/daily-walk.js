@@ -9,7 +9,7 @@
 //   - Optional personal reflection journal persisted in localStorage + Read Aloud + Share
 // ============================================================================
 
-import { formatZh } from './zh-convert.js?v=44_10';
+import { formatZh } from './zh-convert.js?v=44_11';
 
 const FISH_SELENE_MODEL_ID = 'b347db033a6549378b48d00acb0d06cd';
 const FISH_KEY_STORAGE = 'pilgrim_fish_audio_selene_key';
@@ -180,10 +180,17 @@ export class DailyWalkManager {
     const count = this.getCompletedCount();
     const isDailyMode = this.app.walkMode === 'DAILY';
     const zh = this.isZh();
+    const isCompactMobile = window.innerWidth <= 820 && this.app.hudMinimized;
     btn.classList.toggle('active-pill', isDailyMode);
-    btn.textContent = zh
-      ? this.zh(`🕯 每日同行 · 第 ${this.currentDay} 天 (已点亮 ${count})`)
-      : `🕯 Daily Walk · Day ${this.currentDay} (${count} Lit)`;
+    if (isCompactMobile) {
+      btn.textContent = zh
+        ? this.zh(`🕯 第 ${this.currentDay} 天`)
+        : `🕯 Day ${this.currentDay}`;
+    } else {
+      btn.textContent = zh
+        ? this.zh(`🕯 每日同行 · 第 ${this.currentDay} 天 (已点亮 ${count})`)
+        : `🕯 Daily Walk · Day ${this.currentDay} (${count} Lit)`;
+    }
 
     // Update floating Daily Walk banner when walking in 3D Daily Walk mode
     const banner = document.getElementById('daily-walk-hud-banner');
@@ -774,6 +781,9 @@ export class DailyWalkManager {
         this.stopActiveVoice(btnEl, lbl);
       };
       this.isSpeaking = true;
+      if (this.app.audio && this.app.audio.setVoiceDucking) {
+        this.app.audio.setVoiceDucking(true);
+      }
       if (btnEl) btnEl.textContent = zh ? this.zh('⏹ 停止朗读') : '⏹ Stop Reading';
       synth.speak(utter);
     }

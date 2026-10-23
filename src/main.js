@@ -12,15 +12,15 @@
 // ============================================================================
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { PainterlyEngine } from './painterly.js?v=44_10';
-import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_10';
-import { PainterlyPropBuilder } from './props.js?v=44_10';
-import { StepThroughSceneManager } from './scenes.js?v=44_10';
-import { GenesisDistrictBuilder } from './district.js?v=44_10';
-import { PilgrimAudio } from './audio.js?v=44_10';
-import { TripoRelicManager } from './tripo.js?v=44_10';
-import { DailyWalkManager } from './daily-walk.js?v=44_10';
-import { formatZh } from './zh-convert.js?v=44_10';
+import { PainterlyEngine } from './painterly.js?v=44_11';
+import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_11';
+import { PainterlyPropBuilder } from './props.js?v=44_11';
+import { StepThroughSceneManager } from './scenes.js?v=44_11';
+import { GenesisDistrictBuilder } from './district.js?v=44_11';
+import { PilgrimAudio } from './audio.js?v=44_11';
+import { TripoRelicManager } from './tripo.js?v=44_11';
+import { DailyWalkManager } from './daily-walk.js?v=44_11';
+import { formatZh } from './zh-convert.js?v=44_11';
 
 const SAVE_KEY = 'pilgrim_walk_save_v1';
 
@@ -32,6 +32,8 @@ class PilgrimWalkApp {
     this.lang = 'en'; // 'en' | 'zh' (Simplified CUV) | 'zh-TW' (Traditional CUV)
     this.reducedMotion = false;
     this.largeText = false;
+    // Start minimized automatically on mobile/tablet screens so the artwork is unobstructed
+    this.hudMinimized = window.innerWidth <= 900;
 
     // Saved progress in localStorage (§4 & §5d)
     this.saveData = this.loadSaveData();
@@ -612,6 +614,10 @@ class PilgrimWalkApp {
     if (!isInitialBoot && loadScreen) {
       loadScreen.classList.add('fade-out');
       setTimeout(() => loadScreen.classList.add('hidden'), 500);
+      if (window.innerWidth <= 900 && !this.hudMinimized) {
+        this.hudMinimized = true;
+        this.applyAccessibilitySettings();
+      }
       this.showToast(`Entered District ${meta.num} · ${meta.fullLabel}`);
     }
   }
@@ -1018,6 +1024,9 @@ class PilgrimWalkApp {
       if (e.code === 'KeyE') {
         e.preventDefault();
         this.triggerPrimaryInteract();
+      } else if (e.code === 'KeyH') {
+        e.preventDefault();
+        this.toggleHudMinimized();
       } else if (e.code === 'KeyR' && this.currentInteractTarget && this.currentInteractTarget.node) {
         e.preventDefault();
         const node = this.currentInteractTarget.node;
@@ -1246,6 +1255,13 @@ class PilgrimWalkApp {
       });
     }
 
+    const btnHudCollapse = document.getElementById('btn-hud-collapse');
+    if (btnHudCollapse) {
+      btnHudCollapse.addEventListener('click', () => {
+        this.toggleHudMinimized();
+      });
+    }
+
     document.getElementById('btn-mode-toggle').addEventListener('click', () => {
       const modes = ['STORY', 'FREE', 'DAILY'];
       const nextIdx = (modes.indexOf(this.walkMode) + 1) % modes.length;
@@ -1292,17 +1308,33 @@ class PilgrimWalkApp {
     });
   }
 
+  toggleHudMinimized() {
+    this.hudMinimized = !this.hudMinimized;
+    this.applyAccessibilitySettings();
+    if (this.dailyWalk) {
+      this.dailyWalk.updateHUDCandlePill();
+    }
+  }
+
   applyAccessibilitySettings() {
     const zh = this.isZh();
     document.body.classList.toggle('large-text', this.largeText);
+    document.body.classList.toggle('hud-minimized', !!this.hudMinimized);
+    const hudCollapseBtn = document.getElementById('btn-hud-collapse');
+    if (hudCollapseBtn) {
+      hudCollapseBtn.textContent = this.hudMinimized
+        ? (zh ? this.zh('☰ 菜单') : '☰ Menu')
+        : (zh ? this.zh('👁 隐藏图标') : '👁 Hide Icons');
+    }
     const langBtn = document.getElementById('btn-lang-toggle');
     if (langBtn) {
+      const isCompact = window.innerWidth <= 820 && this.hudMinimized;
       langBtn.textContent =
         this.lang === 'zh'
-          ? '🌐 简体中文 · 切换繁體'
+          ? (isCompact ? '🌐 简→繁' : '🌐 简体中文 · 切换繁體')
           : this.lang === 'zh-TW'
-          ? '🌐 繁體中文 · 切换英文'
-          : '🌐 中文 (简/繁) / EN';
+          ? (isCompact ? '🌐 繁→EN' : '🌐 繁體中文 · 切换英文')
+          : (isCompact ? '🌐 中文/EN' : '🌐 中文 (简/繁) / EN');
     }
     const prevBtn = document.getElementById('btn-prev-district');
     const nextBtn = document.getElementById('btn-next-district');

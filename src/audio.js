@@ -6,6 +6,8 @@
 //     stepping through a painting doorway, and smoothly crossfades back to the street
 //     ambient track when returning to the main path.
 //   - Soft Web Audio harmonic chimes & gentle breeze bed.
+//   - Deep voice ducking (drops music & ambient to a 3.5% whisper via Web Audio GainNode
+//     so it works on iPhone/iOS as well as desktop whenever Selene reads a poem/devotional).
 // ============================================================================
 
 const DISTRICT_MUSIC_FOLDERS = {
@@ -62,10 +64,12 @@ export class PilgrimAudio {
     this.initialized = false;
     this.masterGain = null;
     this.windGain = null;
+    this.musicBusGain = null;
     this.lastChimeTime = 0;
 
     // Background Music State
-    this.baseMusicVolume = 0.44;
+    this.baseMusicVolume = 0.26;
+    this.duckedMusicVolume = 0.035; // Whisper-quiet (3.5%) when Selene is reading aloud
     this.voiceDucked = false;
     this.currentTrackUrl = null;
     this.currentAudio = null;
@@ -77,6 +81,9 @@ export class PilgrimAudio {
 
     // Unlock audio playback on first user gesture if browser deferred autoplay
     const unlock = () => {
+      if (this.ctx && this.ctx.state === 'suspended') {
+        this.ctx.resume().catch(() => {});
+      }
       if (this.currentAudio && this.currentAudio.paused && !this.muted) {
         this.currentAudio.play().catch(() => {});
       }
@@ -87,6 +94,9 @@ export class PilgrimAudio {
   }
 
   init() {
+    if (this.ctx && this.ctx.state === 'suspended') {
+      this.ctx.resume().catch(() => {});
+    }
     if (this.currentAudio && this.currentAudio.paused && !this.muted) {
       this.currentAudio.play().catch(() => {});
     }
@@ -95,8 +105,18 @@ export class PilgrimAudio {
     if (!AudioCtx) return;
     this.ctx = new AudioCtx();
     this.masterGain = this.ctx.createGain();
-    this.masterGain.gain.value = this.muted ? 0.0 : 0.25;
+    this.masterGain.gain.value = this.muted ? 0.0 : 0.22;
     this.masterGain.connect(this.ctx.destination);
+
+    // Dedicated Web Audio bus for background MP3 music so volume & ducking work even on iOS Safari
+    this.musicBusGain = this.ctx.createGain();
+    this.musicBusGain.gain.value = this.muted ? 0.0 : (this.voiceDucked ? 0.14 : 1.0);
+    this.musicBusGain.connect(this.ctx.destination);
+
+    // Attach existing currentAudio to Web Audio bus if it was created before init()
+    if (this.currentAudio && !this.currentAudio._webAudioRouted) {
+      this.routeElementThroughWebAudio(this.currentAudio);
+    }
 
     // Subtle garden breeze bed underneath the music
     const bufferSize = this.ctx.sampleRate * 4;
@@ -107,7 +127,7 @@ export class PilgrimAudio {
       const white = Math.random() * 2 - 1;
       output[i] = (lastOut + 0.02 * white) / 1.02;
       lastOut = output[i];
-      output[i] *= 0.14;
+      output[i] *= 0.12;
     }
 
     const breezeSource = this.ctx.createBufferSource();
@@ -120,7 +140,7 @@ export class PilgrimAudio {
     filter.Q.value = 1.8;
 
     this.windGain = this.ctx.createGain();
-    this.windGain.gain.value = 0.12;
+    this.windGain.gain.value = this.voiceDucked ? 0.01 : 0.08;
 
     breezeSource.connect(filter);
     filter.connect(this.windGain);
@@ -130,22 +150,69 @@ export class PilgrimAudio {
     this.initialized = true;
   }
 
+  routeElementThroughWebAudio(audioEl) {
+    if (!audioEl || audioEl._webAudioRouted || !this.ctx || !this.musicBusGain) return;
+    try {
+      const srcNode = this.ctx.createMediaElementSource(audioEl);
+      const trackGain = this.ctx.createGain();
+      trackGain.gain.value = 1.0;
+      srcNode.connect(trackGain);
+      trackGain.connect(this.musicBusGain);
+      audioEl._trackGainNode = trackGain;
+      audioEl._webAudioRouted = true;
+    } catch (_) {
+      // Fallback to standard HTMLAudioElement volume if createMediaElementSource is not supported
+    }
+  }
+
   getTargetMusicVolume() {
     if (this.muted) return 0.0;
-    return this.voiceDucked ? this.baseMusicVolume * 0.22 : this.baseMusicVolume;
+    return this.voiceDucked ? this.duckedMusicVolume : this.baseMusicVolume;
   }
 
   setVoiceDucking(ducked) {
     this.voiceDucked = !!ducked;
+    if (!this.initialized) this.init();
+    if (this.ctx && this.ctx.state === 'suspended') {
+      this.ctx.resume().catch(() => {});
+    }
     if (this.currentAudio) {
+      if (!this.currentAudio._webAudioRouted) {
+        this.routeElementThroughWebAudio(this.currentAudio);
+      }
       this.currentAudio.volume = this.getTargetMusicVolume();
+      // On iOS devices where HTMLAudioElement.volume is locked at 1.0 if not routed prior to play,
+      // gently pause the background music while Selene speaks and resume when she finishes
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      if (isIOS && !this.currentAudio._webAudioRouted) {
+        if (this.voiceDucked && !this.currentAudio.paused) {
+          this.currentAudio._pausedForVoice = true;
+          this.currentAudio.pause();
+        } else if (!this.voiceDucked && this.currentAudio._pausedForVoice && !this.muted) {
+          this.currentAudio._pausedForVoice = false;
+          this.currentAudio.play().catch(() => {});
+        }
+      }
+    }
+    if (this.musicBusGain && this.ctx) {
+      const targetBus = this.muted ? 0.0 : (this.voiceDucked ? 0.08 : 1.0);
+      this.musicBusGain.gain.setTargetAtTime(targetBus, this.ctx.currentTime, 0.10);
+    }
+    if (this.windGain && this.ctx) {
+      const targetWind = this.voiceDucked ? 0.002 : 0.07;
+      this.windGain.gain.setTargetAtTime(targetWind, this.ctx.currentTime, 0.10);
     }
   }
 
   setMuted(muted) {
     this.muted = muted;
     if (this.masterGain && this.ctx) {
-      this.masterGain.gain.setTargetAtTime(muted ? 0.0 : 0.25, this.ctx.currentTime, 0.15);
+      this.masterGain.gain.setTargetAtTime(muted ? 0.0 : 0.22, this.ctx.currentTime, 0.15);
+    }
+    if (this.musicBusGain && this.ctx) {
+      const targetBus = muted ? 0.0 : (this.voiceDucked ? 0.14 : 1.0);
+      this.musicBusGain.gain.setTargetAtTime(targetBus, this.ctx.currentTime, 0.15);
     }
     if (this.currentAudio) {
       this.currentAudio.volume = this.getTargetMusicVolume();
@@ -228,8 +295,11 @@ export class PilgrimAudio {
     let step = 0;
     const timer = setInterval(() => {
       step++;
-      const nextVol = Math.max(0, startVol * (1 - step / steps));
-      audioEl.volume = nextVol;
+      const frac = Math.max(0, 1 - step / steps);
+      audioEl.volume = startVol * frac;
+      if (audioEl._trackGainNode && this.ctx) {
+        audioEl._trackGainNode.gain.setValueAtTime(frac, this.ctx.currentTime);
+      }
       if (step >= steps) {
         clearInterval(timer);
         audioEl.pause();
@@ -284,6 +354,9 @@ export class PilgrimAudio {
 
     this.currentAudio = nextAudio;
     this.currentTrackUrl = chosenUrl;
+    if (this.initialized) {
+      this.routeElementThroughWebAudio(nextAudio);
+    }
     if (startTime > 0 && nextAudio.duration && startTime < nextAudio.duration - 2) {
       try {
         nextAudio.currentTime = startTime;
@@ -291,6 +364,9 @@ export class PilgrimAudio {
     }
 
     nextAudio.volume = 0.0;
+    if (nextAudio._trackGainNode && this.ctx) {
+      nextAudio._trackGainNode.gain.setValueAtTime(0.0, this.ctx.currentTime);
+    }
     if (!this.muted) {
       nextAudio.play().catch(() => {});
     }
@@ -304,8 +380,12 @@ export class PilgrimAudio {
         return;
       }
       step++;
+      const frac = Math.min(1, step / steps);
       const targetVol = this.getTargetMusicVolume();
-      nextAudio.volume = Math.min(targetVol, targetVol * (step / steps));
+      nextAudio.volume = targetVol * frac;
+      if (nextAudio._trackGainNode && this.ctx) {
+        nextAudio._trackGainNode.gain.setValueAtTime(frac, this.ctx.currentTime);
+      }
       if (step >= steps) {
         clearInterval(timer);
       }

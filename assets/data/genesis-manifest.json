@@ -342,8 +342,9 @@
       "ref": "Genesis 11:1-9",
       "poem": "come, let's build.\nlet's reach the sky.\nlet's make a name—\nthe oldest plan in the world.\nthey wanted height.\nGod wanted them spread across the earth.\na chapter later,\nhe calls one man\nand says:\nI will make your name great.\nthe name you build\nfalls.\nthe name you're given\nstands.",
       "part": 1,
-      "isScene": false,
-      "sceneKind": null,
+      "isScene": true,
+      "sceneKind": "babel",
+      "sceneType": "city",
       "palette": {
         "top": "#d1bf9b",
         "horizon": "#bbab87",

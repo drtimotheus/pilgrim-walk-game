@@ -1,13 +1,12 @@
 // ============================================================================
 // THE PILGRIM WALK — 3D (.glb) Relic Loader & Painterly Adapter (All 175 Scenes)
 // Supports:
-//   1. All 16 named Hero Relics in assets/models/<id>.glb
+//   1. All Sacred Hero Relics in assets/models/<id>.glb (modeled with the Relic Maker)
 //   2. All 175 Step-Through Painting Scenes across all 44 Books in
-//      assets/models/scenes/<districtSlug>-<paintingNum>.glb (or Music/<folder>/scene-<N>.glb)
+//      assets/models/scenes/<districtSlug>-<paintingNum>.glb
 //   3. Adapts imported GLTF/GLB PBR materials to match the warm oil-on-linen
 //      painterly aesthetic (softened specular, linen micro-bump, warm shadows).
-//   4. Supports live browser drag-and-drop / upload of .glb files from
-//      Tripo3D Studio or Microsoft TRELLIS!
+//   4. Supports live browser drag-and-drop / upload of .glb files in The Relic Workshop!
 // ============================================================================
 
 export class TripoRelicManager {
@@ -23,7 +22,7 @@ export class TripoRelicManager {
     this.activeMountPoints = new Map(); // id -> Set of { group, scale, yOffset }
     this.relicById = new Map(); // id -> manifest item
     this.districtRelicMap = {
-      genesis: ['pilgrim-lantern', 'sabbath-olive-tree', 'noah-stone-altar', 'joseph-coffin-chest'],
+      genesis: ['pilgrim-lantern', 'sabbath-olive-tree', 'noah-stone-altar', 'tower-of-babel', 'joseph-coffin-chest'],
       exodus: ['burning-bush-crag', 'sinai-stone-tablets'],
       'fire-by-night': ['bronze-altar-horns', 'golden-menorah', 'nehushtan-bronze-serpent'],
       'choose-life': ['shechem-witness-stone'],
@@ -35,6 +34,7 @@ export class TripoRelicManager {
     this.namedSceneRelicMap = {
       'genesis-4': 'sabbath-olive-tree',
       'genesis-11': 'noah-stone-altar',
+      'genesis-12': 'tower-of-babel',
       'exodus-5': 'burning-bush-crag',
       'exodus-25': 'sinai-stone-tablets',
       'fire-by-night-5': 'bronze-altar-horns',
@@ -71,7 +71,7 @@ export class TripoRelicManager {
 
   async init() {
     try {
-      const res = await fetch('assets/models/tripo-manifest.json?v=44_19');
+      const res = await fetch('assets/models/tripo-manifest.json?v=44_21');
       this.manifest = await res.json();
     } catch (e) {
       console.warn('Tripo manifest load fallback:', e);
@@ -147,8 +147,14 @@ export class TripoRelicManager {
 
     rootObj.traverse((child) => {
       if (child.isMesh && child.material) {
+        const hasVertexColors = Boolean(
+          child.geometry && child.geometry.attributes && child.geometry.attributes.color
+        );
         const mats = Array.isArray(child.material) ? child.material : [child.material];
         mats.forEach((mat) => {
+          if (hasVertexColors) {
+            mat.vertexColors = true;
+          }
           // Remove harsh CGI plastic shine & add linen canvas micro-relief
           if ('roughness' in mat) {
             mat.roughness = Math.max(0.74, mat.roughness || 0.84);

@@ -916,7 +916,7 @@
       <button id="btn-long-scroll" class="hud-pill hud-collapsible">📜 All 44 Books</button>
       <button id="btn-cover-shelf" class="hud-pill hud-collapsible">📚 44-Book Shelf</button>
       <button id="btn-gatehouse" class="hud-pill hud-collapsible">📖 Intro</button>
-      <button id="btn-tripo-studio" class="hud-pill hud-collapsible">🎨 Tripo3D</button>
+      <button id="btn-tripo-studio" class="hud-pill hud-collapsible">🗿 Relic Workshop</button>
     </div>
     <div class="hud-cluster">
       <button id="btn-lang-toggle" class="hud-pill dw-gold-pill" title="Switch Language: English / 简体中文 / 繁體中文">🌐 中文 (简/繁) / EN</button>
@@ -1015,14 +1015,14 @@
     </div>
   </div>
 
-  <!-- TRIPO3D STUDIO 13-RELIC WORKSHOP MODAL -->
+  <!-- THE RELIC WORKSHOP MODAL -->
   <div id="tripo-modal" class="modal-backdrop hidden">
     <div class="modal-card" style="max-width:960px;">
       <button class="modal-close" data-close-modal>Close [Esc]</button>
-      <div class="poem-eyebrow">TRIPO3D STUDIO INTEGRATION · 200 MONTHLY CREDITS = 13 HERO RELICS</div>
-      <h2 class="poem-title">13 Sacred Hero Relics for Tripo3D Studio</h2>
-      <p class="poem-ref">
-        Your paintings already depict isolated sacred objects in studio-clean light. Click <strong>Download Reference Art</strong> on any slot below, upload it into <a href="https://studio.tripo3d.ai/" target="_blank" rel="noopener noreferrer" style="color:#6e4f1d;font-weight:bold;">studio.tripo3d.ai</a> (Image-to-3D), and either save the exported <code>.glb</code> into <code>assets/models/</code> or click <strong>Test .glb Now</strong> to hot-swap it live into your 3D world!
+      <div id="workshop-modal-eyebrow" class="poem-eyebrow">THE RELIC WORKSHOP · RELIC MAKER (HUNYUAN3D + PAINTING PROJECTION)</div>
+      <h2 id="workshop-modal-title" class="poem-title">The Relic Workshop</h2>
+      <p id="workshop-modal-desc" class="poem-ref">
+        Each sacred relic is modeled from Timothy Holt’s paintings with the <strong>Relic Maker</strong> (Hunyuan3D shapes with textures projected directly from the paintings, plus curated reference paintings in <code>Relic-Reference-Paintings/</code>) and finished with the warm oil-on-linen shader. Use any card below to download its reference painting, copy its reference prompt, or click <strong>Test .glb File Live</strong> to hot-swap a <code>.glb</code> model straight into the 3D world.
       </p>
       <div id="tripo-relics-list" style="display:flex;flex-direction:column;gap:14px;margin-top:14px;"></div>
     </div>
@@ -1133,6 +1133,6 @@
     </div>
   </div>
 
-  <script type="module" src="src/main.js?v=44_19"></script>
+  <script type="module" src="src/main.js?v=44_21"></script>
 </body>
 </html>

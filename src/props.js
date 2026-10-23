@@ -1441,6 +1441,7 @@ export class PainterlyPropBuilder {
         stoneMat
       );
       rock.position.set(Math.cos(ang) * 0.55, 0.18, Math.sin(ang) * 0.55);
+      rock.userData.keepWithGlb = true;
       group.add(rock);
     }
 

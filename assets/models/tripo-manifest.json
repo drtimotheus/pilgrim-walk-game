@@ -1,8 +1,8 @@
 {
-  "monthlyCreditBudget": 200,
-  "maxMonthlyModels": 13,
-  "studioUrl": "https://studio.tripo3d.ai/",
-  "instructions": "Upload the reference painting from Timothy Holt's book into Tripo3D Studio (Image-to-3D) or paste the Text-to-3D prompt. Export as .glb and save into assets/models/<id>.glb. The Pilgrim Walk engine automatically detects the .glb file, applies the painterly oil-on-linen shader, and swaps it into the 3D world.",
+  "workshopTitle": "The Relic Workshop",
+  "pipeline": "Relic Maker (Hunyuan3D shapes + textures projected from Timothy Holt's paintings)",
+  "referenceFolder": "Relic-Reference-Paintings",
+  "instructions": "Each sacred hero relic is modeled from Timothy Holt's paintings with the Relic Maker (Hunyuan3D shapes + textures projected from the paintings). Export as .glb and save into assets/models/<id>.glb, or use Test .glb File Live below to hot-swap any .glb directly into the 3D world with the warm oil-on-linen shader.",
   "models": [
     {
       "slot": 1,
@@ -12,7 +12,7 @@
       "district": "Gatehouse & All Streets",
       "paintingRef": "assets/genesis/web/g-010-001.jpg",
       "targetScale": 0.65,
-      "imageTo3DTip": "Use Text-to-3D prompt below for an antique Near-Eastern oil lantern.",
+      "imageTo3DTip": "Modeled from the antique Near-Eastern oil lantern reference prompt and projected with warm brass & oiled parchment tones.",
       "textPrompt": "Handcrafted ancient Near-Eastern hammered brass and warm oiled parchment pilgrim lantern, warm glowing oil flame inside, painterly oil-on-linen texture, no modern glass, warm ochre and bronze patina"
     },
     {
@@ -23,7 +23,7 @@
       "district": "District I · Genesis (No. 4 “the seventh day”)",
       "paintingRef": "assets/genesis/web/g-016-004.jpg",
       "targetScale": 5.2,
-      "imageTo3DTip": "Upload g-016-004.jpg (or use Text-to-3D) to generate the gnarled olive tree trunk and canopy.",
+      "imageTo3DTip": "Modeled from g-016-004.jpg (Relic-Reference-Paintings/01-genesis-4__sabbath-olive-tree.jpg) with the Relic Maker to capture the gnarled olive trunk and canopy.",
       "textPrompt": "Ancient Mediterranean gnarled olive tree with twisted limestone-colored bark and warm sage-green painterly foliage canopy, classical oil painting texture, warm golden-hour lighting"
     },
     {
@@ -34,7 +34,7 @@
       "district": "District I · Genesis (No. 11 “the bow in the cloud”)",
       "paintingRef": "assets/genesis/web/g-030-011.jpg",
       "targetScale": 2.4,
-      "imageTo3DTip": "Upload g-030-011.jpg into Tripo3D Image-to-3D for the exact stacked stone altar.",
+      "imageTo3DTip": "Modeled from g-030-011.jpg with the Relic Maker for the stacked uncut fieldstone altar.",
       "textPrompt": "Biblical stacked uncut limestone fieldstone altar on a hillside, warm glowing embers and charred olive wood on top, painterly oil-on-canvas texture, earthy ochre and sienna tones"
     },
     {
@@ -45,7 +45,7 @@
       "district": "District I · Genesis (No. 40) & District V · Joshua (No. 20)",
       "paintingRef": "assets/joshua-judges/web/j-005-020.jpg",
       "targetScale": 1.65,
-      "imageTo3DTip": "Upload j-005-020.jpg directly into Tripo3D Image-to-3D—the wooden chest in front of the Shechem tomb is a clean, isolated subject.",
+      "imageTo3DTip": "Modeled from j-005-020.jpg with the Relic Maker—the wooden chest in front of the Shechem tomb is an isolated subject.",
       "textPrompt": "Ancient weathered cedar and acacia wood burial chest with side carrying handles, hand-planed timber planks, warm umber oil painting brushwork"
     },
     {
@@ -56,7 +56,7 @@
       "district": "District II · Exodus (No. 5 “turn aside”)",
       "paintingRef": "assets/exodus/web/e-002-005.jpg",
       "targetScale": 3.0,
-      "imageTo3DTip": "Upload e-002-005.jpg into Tripo3D Image-to-3D to capture the desert acacia bramble.",
+      "imageTo3DTip": "Modeled from e-002-005.jpg (Relic-Reference-Paintings/02-exodus-5__burning-bush-crag.jpg) with the Relic Maker to capture the desert acacia bramble.",
       "textPrompt": "Desert Sinai thorny acacia shrub rooted in weathered sandstone rock, glowing golden-amber interior branches, painterly oil brushwork"
     },
     {
@@ -67,7 +67,7 @@
       "district": "District II · Exodus (No. 25 “written with the finger of God”)",
       "paintingRef": "assets/exodus/web/e-002-025.jpg",
       "targetScale": 1.6,
-      "imageTo3DTip": "Upload e-002-025.jpg into Tripo3D Image-to-3D.",
+      "imageTo3DTip": "Modeled from e-002-025.jpg with the Relic Maker and projected with Timothy Holt's sunlit sandstone brushwork.",
       "textPrompt": "Two ancient chiseled rough-hewn stone tablets with paleo-Hebrew carvings leaning on desert rock, warm sunlit sandstone, painterly impasto texture"
     },
     {
@@ -78,7 +78,7 @@
       "district": "District III · Fire by Night (No. 5 “kept burning”)",
       "paintingRef": "assets/fire-by-night/web/f-003-005.jpg",
       "targetScale": 2.4,
-      "imageTo3DTip": "Upload f-003-005.jpg into Tripo3D Image-to-3D.",
+      "imageTo3DTip": "Modeled from f-003-005.jpg with the Relic Maker for the four-horned bronze altar and glowing embers.",
       "textPrompt": "Ancient biblical tabernacle bronze altar with four corner horns and carrying rings, weathered hammered bronze patina, glowing embers in grate, oil painting style"
     },
     {
@@ -89,7 +89,7 @@
       "district": "District III · Fire by Night (No. 21 “keep You”)",
       "paintingRef": "assets/fire-by-night/web/f-003-021.jpg",
       "targetScale": 2.2,
-      "imageTo3DTip": "Upload f-003-021.jpg into Tripo3D Image-to-3D for the almond-blossom hammered gold lampstand.",
+      "imageTo3DTip": "Modeled from f-003-021.jpg (Relic-Reference-Paintings/03-fire-by-night-21__golden-menorah.jpg) with the Relic Maker for the almond-blossom hammered gold lampstand.",
       "textPrompt": "Biblical seven-branched hammered pure gold menorah lampstand shaped like almond blossoms and calyxes, warm antique gold impasto texture"
     },
     {
@@ -100,7 +100,7 @@
       "district": "District III · Fire by Night (No. 33 “look and live”)",
       "paintingRef": "assets/fire-by-night/web/f-003-033.jpg",
       "targetScale": 3.8,
-      "imageTo3DTip": "Upload f-003-033.jpg into Tripo3D Image-to-3D.",
+      "imageTo3DTip": "Modeled from f-003-033.jpg (Relic-Reference-Paintings/04-fire-by-night-33__nehushtan-bronze-serpent.jpg) with the Relic Maker.",
       "textPrompt": "Hammered copper-bronze serpent coiled around a tall weathered wooden T-shaped desert standard pole, warm sunset metallic gleam, painterly texture"
     },
     {
@@ -111,7 +111,7 @@
       "district": "District IV · Choose Life (No. 30) & District V · Joshua (No. 19)",
       "paintingRef": "assets/joshua-judges/web/j-005-019.jpg",
       "targetScale": 3.2,
-      "imageTo3DTip": "Upload j-005-019.jpg directly into Tripo3D Image-to-3D—the upright monolith under the oak is centered and crisp.",
+      "imageTo3DTip": "Modeled from j-005-019.jpg with the Relic Maker—the upright monolith under the oak is centered and crisp.",
       "textPrompt": "Tall ancient weathered limestone standing stone monolith with dappled sunlight and fallen oak leaves at base, painterly oil-on-linen texture"
     },
     {
@@ -122,7 +122,7 @@
       "district": "District V · Joshua & Judges (No. 10 “the wall fell down flat”)",
       "paintingRef": "assets/joshua-judges/web/j-005-010.jpg",
       "targetScale": 1.5,
-      "imageTo3DTip": "Upload j-005-010.jpg directly into Tripo3D Image-to-3D—the curved ram's horn resting on the fallen Jericho stones is a perfect 3D subject.",
+      "imageTo3DTip": "Modeled from j-005-010.jpg with the Relic Maker—the curved ram's horn resting on the fallen Jericho stones.",
       "textPrompt": "Ancient curved ivory-and-amber ram's horn shofar trumpet with engraved bronze collar bands resting on limestone blocks, painterly oil texture"
     },
     {
@@ -133,7 +133,7 @@
       "district": "District V · Joshua & Judges (No. 33 “torches in jars”)",
       "paintingRef": "assets/joshua-judges/web/j-005-033.jpg",
       "targetScale": 1.6,
-      "imageTo3DTip": "Upload j-005-033.jpg directly into Tripo3D Image-to-3D—the broken terracotta jar with fire and ram's horn is a centerpiece still-life.",
+      "imageTo3DTip": "Modeled from j-005-033.jpg with the Relic Maker—the broken terracotta jar with fire and ram's horn.",
       "textPrompt": "Broken ancient terracotta clay pitcher shards surrounding a glowing fire torch on rocky ground beside a coiled ram's horn, warm painterly oil texture"
     },
     {
@@ -144,7 +144,7 @@
       "district": "District VI · Ruth (No. 20 “the sandal”)",
       "paintingRef": "assets/ruth/web/r-006-020.jpg",
       "targetScale": 1.25,
-      "imageTo3DTip": "Upload r-006-020.jpg directly into Tripo3D Image-to-3D—the leather sandal on the stone step is an ideal single-object 3D model.",
+      "imageTo3DTip": "Modeled from r-006-020.jpg with the Relic Maker—the leather sandal resting on the stone step at the Bethlehem gate.",
       "textPrompt": "Ancient biblical hand-stitched brown leather sandal with untied strap resting on a carved limestone step at the Bethlehem gate, warm oil painting texture"
     },
     {
@@ -155,7 +155,7 @@
       "district": "District VII · 1–2 Samuel (No. 6 “speak”)",
       "paintingRef": "assets/samuel/web/s-007-006.jpg",
       "targetScale": 1.15,
-      "imageTo3DTip": "Upload s-007-006.jpg directly into Tripo3D Image-to-3D—the clay oil lamp on the sanctuary stone floor is a clean still-life relic.",
+      "imageTo3DTip": "Modeled from s-007-006.jpg with the Relic Maker—the clay oil lamp on the sanctuary stone floor.",
       "textPrompt": "Ancient biblical pinched-spout terracotta clay oil lamp resting on a weathered limestone block, warm golden oil flame at wick, painterly oil-on-linen texture"
     },
     {
@@ -166,7 +166,7 @@
       "district": "District VII · 1–2 Samuel (No. 15 “the youngest”)",
       "paintingRef": "assets/samuel/web/s-007-015.jpg",
       "targetScale": 1.35,
-      "imageTo3DTip": "Upload s-007-015.jpg directly into Tripo3D Image-to-3D—the carved horn of golden olive oil on the stone ledge is an isolated single object.",
+      "imageTo3DTip": "Modeled from s-007-015.jpg with the Relic Maker—the carved horn of golden olive oil on the stone ledge.",
       "textPrompt": "Ancient carved ram's horn vessel filled with glistening golden olive oil resting on a fieldstone ledge, warm brass collar band, painterly impasto texture"
     },
     {
@@ -177,8 +177,19 @@
       "district": "District VIII · 1 & 2 Kings (No. 21 “a still small voice” & No. 22 “the mantle”)",
       "paintingRef": "assets/kings/web/k-008-022.jpg",
       "targetScale": 1.4,
-      "imageTo3DTip": "Upload k-008-022.jpg into Tripo3D Image-to-3D for the woven wool prophet's cloak.",
+      "imageTo3DTip": "Modeled from k-008-022.jpg with the Relic Maker for the woven wool prophet's cloak.",
       "textPrompt": "Ancient coarse-woven brown and ochre wool prophet's mantle cloak draped over weathered rock, tactile hand-spun fabric folds, painterly oil brushwork"
+    },
+    {
+      "slot": 17,
+      "id": "tower-of-babel",
+      "file": "assets/models/tower-of-babel.glb",
+      "title": "The Unfinished Brick Ziggurat of Babel",
+      "district": "District I · Genesis (No. 12 “a name for ourselves”)",
+      "paintingRef": "assets/genesis/web/g-032-012.jpg",
+      "targetScale": 3.8,
+      "imageTo3DTip": "Modeled from g-032-012.jpg (Relic-Reference-Paintings/14-genesis-12__tower-of-babel.jpg) with the Relic Maker.",
+      "textPrompt": "Ancient Mesopotamian stepped mud-brick ziggurat tower of Babel rising into dusty golden clouds on the plain of Shinar, unfinished upper tiers and scaffolding ramps, painterly oil-on-linen brushwork"
     }
   ]
 }

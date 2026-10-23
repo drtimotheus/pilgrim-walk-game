@@ -1,24 +1,23 @@
 // ============================================================================
-// THE PILGRIM WALK — Main Game Controller (Stage 1: Genesis + 3 Step-Through Scenes)
+// THE PILGRIM WALK — Main 3D Game Controller (All 44 Books · 1,677 Paintings)
 // Implements:
-//   - First-person controls (WASD/Arrows + PointerLock / drag look + Mobile touch)
+//   - All 44 Books in Bible storyline order as data-driven painterly 3D streets
+//   - 175 Step-Through Painting Scenes with .glb sculptures & 16+ Sacred Hero Relics
+//   - Story Walk (part Light-gates & Amen Gates), Free Walk, and 1,633-Day Daily Walk
 //   - Unmissable Scene Exits (§5: persistent "Back to the street" button on screen,
-//     lit exit doorway inside every scene, exact street position & facing restoration,
-//     page refresh safe landing at Gatehouse with progress preserved in localStorage)
-//   - Dynamic palette color grading as the pilgrim walks along Genesis Street
-//   - Hidden Lights proximity glow & soft harmonic chime (§4)
-//   - Quick-travel scene jump bar so Timothy can test the 3 Step-Through Scenes
-//     ("let there be", "the seventh day", "the bow in the cloud") immediately or walk the street
+//     lit exit doorway inside every scene, exact street position & facing restoration)
+//   - Dynamic palette color grading, book-specific street biomes, & lazy-loaded districts
+//   - Per-book & per-scene MP3 music, Selene voice narration with music ducking, & Mandarin toggle
 // ============================================================================
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_17';
+import { PainterlyPropBuilder } from './props.js?v=44_21';
 import { StepThroughSceneManager } from './scenes.js?v=44_16';
-import { GenesisDistrictBuilder } from './district.js?v=44_19';
+import { GenesisDistrictBuilder } from './district.js?v=44_21';
 import { PilgrimAudio } from './audio.js?v=44_12';
-import { TripoRelicManager } from './tripo.js?v=44_19';
+import { TripoRelicManager } from './tripo.js?v=44_21';
 import { DailyWalkManager } from './daily-walk.js?v=44_12';
 import { formatZh } from './zh-convert.js?v=44_12';
 
@@ -454,7 +453,7 @@ class PilgrimWalkApp {
   async ensureManifestLoaded(slug) {
     if (this.manifests[slug]) return this.manifests[slug];
     try {
-      const res = await fetch(`assets/data/${slug}-manifest.json?v=44_8`);
+      const res = await fetch(`assets/data/${slug}-manifest.json?v=44_21`);
       if (res.ok) {
         this.manifests[slug] = await res.json();
         return this.manifests[slug];
@@ -879,7 +878,8 @@ class PilgrimWalkApp {
       genesis: [
         { n: 1, label: '1 · “let there be” (Light on the Deep)' },
         { n: 4, label: '4 · “the seventh day” (Stone Bench & Tree)' },
-        { n: 11, label: '11 · “the bow in the cloud” (Stone Altar & Rainbow)' }
+        { n: 11, label: '11 · “the bow in the cloud” (Stone Altar & Rainbow)' },
+        { n: 12, label: '12 · “a name for ourselves” (Tower of Babel)' }
       ],
       exodus: [
         { n: 5, label: '5 · “turn aside” (Burning Bush)' },
@@ -1677,6 +1677,7 @@ class PilgrimWalkApp {
     const scrollBtn = document.getElementById('btn-long-scroll');
     const shelfBtn = document.getElementById('btn-cover-shelf');
     const introBtn = document.getElementById('btn-gatehouse');
+    const workshopBtn = document.getElementById('btn-tripo-studio');
     const backStreetBtn = document.getElementById('back-to-street-btn');
     const hintEl = document.getElementById('controls-hint');
     if (prevBtn) prevBtn.textContent = zh ? this.zh('◀ 上一卷') : '◀ Prev';
@@ -1684,6 +1685,7 @@ class PilgrimWalkApp {
     if (scrollBtn) scrollBtn.textContent = zh ? this.zh('📜 全部 44 卷') : '📜 All 44 Books';
     if (shelfBtn) shelfBtn.textContent = zh ? this.zh('📚 44 卷书架') : '📚 44-Book Shelf';
     if (introBtn) introBtn.textContent = zh ? this.zh('📖 导言') : '📖 Intro';
+    if (workshopBtn) workshopBtn.textContent = zh ? this.zh('🗿 圣物工坊') : '🗿 Relic Workshop';
     if (backStreetBtn) backStreetBtn.textContent = zh ? this.zh('← 返回主街道') : '← Back to the street';
     if (hintEl) {
       hintEl.textContent = zh
@@ -1890,7 +1892,7 @@ class PilgrimWalkApp {
       amenNextBtn.textContent = `✦ Continue to ${meta.nextLabel} →`;
     }
 
-    // 4. Tripo3D Studio 13-Relic Workshop Modal
+    // 4. The Relic Workshop Modal
     if (isModalActive('tripo-modal')) {
       this.renderTripoWorkshopModal();
     }
@@ -1902,6 +1904,16 @@ class PilgrimWalkApp {
 
     container.innerHTML = '';
     const models = this.tripoManager.manifest.models || [];
+    const relicCount = models.length;
+    const eyebrowEl = document.getElementById('workshop-modal-eyebrow');
+    const titleEl = document.getElementById('workshop-modal-title');
+    if (eyebrowEl) {
+      eyebrowEl.textContent = `THE RELIC WORKSHOP · ${relicCount} SACRED HERO RELICS · RELIC MAKER PIPELINE`;
+    }
+    if (titleEl) {
+      titleEl.textContent = `The Relic Workshop (${relicCount} Relics)`;
+    }
+
     models.forEach((m) => {
       const status = this.tripoManager.statusMap.get(m.id) || 'procedural';
       const isLoaded = status === 'loaded';
@@ -1909,24 +1921,24 @@ class PilgrimWalkApp {
       card.className = 'shelf-book-card';
       card.style.marginTop = '0';
       card.innerHTML = `
-        <img src="${m.paintingRef}" alt="${m.title}" style="width:128px;height:128px;" />
+        <img src="${m.paintingRef}" alt="${m.title}" style="width:128px;height:128px;" loading="lazy" />
         <div class="shelf-book-meta" style="flex:1;">
           <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
             <h3 style="font-size:1.15rem;">#${m.slot} · ${m.title}</h3>
             <span style="font-size:0.8rem;font-weight:bold;padding:3px 10px;border-radius:99px;background:${
               isLoaded ? '#2e4d28' : '#524024'
             };color:#f7eedc;">
-              ${isLoaded ? '✦ Tripo3D .glb Active' : '● Painterly Procedural Active (Ready for .glb)'}
+              ${isLoaded ? '✦ Relic .glb Active' : '● Painterly Procedural Active (Ready for .glb)'}
             </span>
           </div>
           <p class="shelf-sub" style="margin:3px 0 6px;">${m.district} · Target file: <code>${m.file}</code></p>
-          <p class="shelf-desc" style="font-size:0.88rem;margin-bottom:8px;"><strong>Image-to-3D Tip:</strong> ${m.imageTo3DTip}</p>
+          <p class="shelf-desc" style="font-size:0.88rem;margin-bottom:8px;"><strong>Relic Maker Note:</strong> ${m.imageTo3DTip}</p>
           <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
             <a href="${m.paintingRef}" download="${m.id}-reference.jpg" class="gold-btn" style="padding:6px 13px;font-size:0.84rem;">
               ⬇ Download Reference Painting
             </a>
             <button class="gold-btn" data-copy-prompt="${encodeURIComponent(m.textPrompt)}" style="padding:6px 13px;font-size:0.84rem;">
-              📋 Copy Text-to-3D Prompt
+              📋 Copy Reference Prompt
             </button>
             <label class="gold-btn" style="padding:6px 13px;font-size:0.84rem;cursor:pointer;">
               ⚡ Test .glb File Live
@@ -1942,7 +1954,7 @@ class PilgrimWalkApp {
       btn.addEventListener('click', () => {
         const prompt = decodeURIComponent(btn.getAttribute('data-copy-prompt'));
         navigator.clipboard?.writeText(prompt);
-        this.showToast('Copied Tripo3D Text-to-3D prompt to clipboard!');
+        this.showToast('Copied Relic Maker reference prompt to clipboard!');
       });
     });
 

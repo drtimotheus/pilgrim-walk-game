@@ -18,7 +18,7 @@ import { PainterlyPropBuilder } from './props.js?v=44_12';
 import { StepThroughSceneManager } from './scenes.js?v=44_12';
 import { GenesisDistrictBuilder } from './district.js?v=44_12';
 import { PilgrimAudio } from './audio.js?v=44_12';
-import { TripoRelicManager } from './tripo.js?v=44_13';
+import { TripoRelicManager } from './tripo.js?v=44_14';
 import { DailyWalkManager } from './daily-walk.js?v=44_12';
 import { formatZh } from './zh-convert.js?v=44_12';
 

@@ -25,8 +25,14 @@ export class TripoRelicManager {
   async ensureLoader() {
     if (this.loader) return this.loader;
     try {
-      const mod = await import('https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/loaders/GLTFLoader.js');
+      const [mod, meshoptMod] = await Promise.all([
+        import('https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/loaders/GLTFLoader.js'),
+        import('https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/libs/meshopt_decoder.module.js').catch(() => null)
+      ]);
       this.loader = new mod.GLTFLoader();
+      if (meshoptMod && meshoptMod.MeshoptDecoder) {
+        this.loader.setMeshoptDecoder(meshoptMod.MeshoptDecoder);
+      }
     } catch (e) {
       console.warn('GLTFLoader fallback to procedural models:', e);
     }

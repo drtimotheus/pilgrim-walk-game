@@ -10,7 +10,7 @@
       "file": "assets/models/pilgrim-lantern.glb",
       "title": "The Pilgrim’s Brass & Parchment Lantern",
       "district": "Gatehouse & All Streets",
-      "paintingRef": "assets/genesis/web/g-001-001.jpg",
+      "paintingRef": "assets/genesis/web/g-010-001.jpg",
       "targetScale": 0.65,
       "imageTo3DTip": "Use Text-to-3D prompt below for an antique Near-Eastern oil lantern.",
       "textPrompt": "Handcrafted ancient Near-Eastern hammered brass and warm oiled parchment pilgrim lantern, warm glowing oil flame inside, painterly oil-on-linen texture, no modern glass, warm ochre and bronze patina"
@@ -21,9 +21,9 @@
       "file": "assets/models/sabbath-olive-tree.glb",
       "title": "Ancient Gnarled Sabbath Olive Tree",
       "district": "District I · Genesis (No. 4 “the seventh day”)",
-      "paintingRef": "assets/genesis/web/g-001-004.jpg",
+      "paintingRef": "assets/genesis/web/g-016-004.jpg",
       "targetScale": 5.2,
-      "imageTo3DTip": "Upload g-001-004.jpg (or use Text-to-3D) to generate the gnarled olive tree trunk and canopy.",
+      "imageTo3DTip": "Upload g-016-004.jpg (or use Text-to-3D) to generate the gnarled olive tree trunk and canopy.",
       "textPrompt": "Ancient Mediterranean gnarled olive tree with twisted limestone-colored bark and warm sage-green painterly foliage canopy, classical oil painting texture, warm golden-hour lighting"
     },
     {
@@ -32,9 +32,9 @@
       "file": "assets/models/noah-stone-altar.glb",
       "title": "Uncut Fieldstone Covenant Altar",
       "district": "District I · Genesis (No. 11 “the bow in the cloud”)",
-      "paintingRef": "assets/genesis/web/g-001-011.jpg",
+      "paintingRef": "assets/genesis/web/g-030-011.jpg",
       "targetScale": 2.4,
-      "imageTo3DTip": "Upload g-001-011.jpg into Tripo3D Image-to-3D for the exact stacked stone altar.",
+      "imageTo3DTip": "Upload g-030-011.jpg into Tripo3D Image-to-3D for the exact stacked stone altar.",
       "textPrompt": "Biblical stacked uncut limestone fieldstone altar on a hillside, warm glowing embers and charred olive wood on top, painterly oil-on-canvas texture, earthy ochre and sienna tones"
     },
     {

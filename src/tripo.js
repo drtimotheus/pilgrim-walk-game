@@ -118,7 +118,15 @@ export class TripoRelicManager {
       -center.z * scale
     );
 
+    let isPaintingSculpture = false;
+    clone.traverse((ch) => {
+      if (ch.name === 'PaintingSculptureMonument' || ch.name === 'PaintingSculptureMesh') {
+        isPaintingSculpture = true;
+      }
+    });
+
     wrapper.add(clone);
+    wrapper.userData.isPaintingSculpture = isPaintingSculpture;
     return wrapper;
   }
 
@@ -236,20 +244,28 @@ export class TripoRelicManager {
     const template = this.modelCache.get(id);
     if (!template) return;
 
-    // Hide procedural fallback children (keep lights, halos & base stone plinth!)
-    targetGroup.children.forEach((ch) => {
-      if (ch.userData.isProceduralFallback && !ch.userData.keepWithGlb) {
-        ch.visible = false;
-      }
-    });
+    const isPaintingSculpture = Boolean(template.userData && template.userData.isPaintingSculpture);
+
+    // If this is a standalone Tripo3D / TRELLIS 3D object, hide procedural fallback children (keeping base plinth)
+    // If this is a 3D Sculpted Painting Monument, keep the central 3D symbol on the plinth and rise as a 3D sculpted altarpiece behind it!
+    if (!isPaintingSculpture) {
+      targetGroup.children.forEach((ch) => {
+        if (ch.userData.isProceduralFallback && !ch.userData.keepWithGlb) {
+          ch.visible = false;
+        }
+      });
+    }
 
     // Remove any previous Tripo/TRELLIS instance on this group
     const prev = targetGroup.children.find((ch) => ch.userData.isTripoMesh);
     if (prev) targetGroup.remove(prev);
 
     const instance = template.clone(true);
-    instance.scale.multiplyScalar(scale);
+    instance.scale.multiplyScalar(isPaintingSculpture ? scale * 1.18 : scale);
     instance.position.y += yOffset;
+    if (isPaintingSculpture) {
+      instance.position.z -= 1.38;
+    }
     instance.userData.isTripoMesh = true;
     targetGroup.add(instance);
   }

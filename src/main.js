@@ -13,9 +13,9 @@
 
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
-import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_12';
+import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
 import { PainterlyPropBuilder } from './props.js?v=44_15';
-import { StepThroughSceneManager } from './scenes.js?v=44_15';
+import { StepThroughSceneManager } from './scenes.js?v=44_16';
 import { GenesisDistrictBuilder } from './district.js?v=44_12';
 import { PilgrimAudio } from './audio.js?v=44_12';
 import { TripoRelicManager } from './tripo.js?v=44_14';
@@ -38,6 +38,35 @@ class PilgrimWalkApp {
     // Saved progress in localStorage (§4 & §5d)
     this.saveData = this.loadSaveData();
     this.lang = this.saveData.lang || 'en';
+    this.graphicsQuality = ['balanced', 'eco', 'high'].includes(this.saveData.graphicsQuality)
+      ? this.saveData.graphicsQuality
+      : 'balanced';
+
+    // Pre-allocated scratch colors & cached UI state to avoid per-frame allocations and DOM churn
+    this._colorTop = new THREE.Color();
+    this._colorHorizon = new THREE.Color();
+    this._colorGround = new THREE.Color();
+    this._colorAccent = new THREE.Color();
+    this._colorFog = new THREE.Color();
+    this._ghTopColor = new THREE.Color('#6a8298');
+    this._ghHorizonColor = new THREE.Color('#d2ab7a');
+    this._ghGroundColor = new THREE.Color('#695843');
+    this._ghAccentColor = new THREE.Color('#f5d79c');
+    this._ghFogColor = new THREE.Color('#b69772');
+    this._domCache = {};
+    this._uiState = {
+      promptHidden: null,
+      promptText: '',
+      secondaryHidden: null,
+      secondaryText: '',
+      lanternOpacity: '',
+      lanternText: ''
+    };
+    this._rafId = null;
+    this._isLoopRunning = false;
+    this._lastFrameTime = 0;
+    this._wasModalOpen = false;
+    this._needsRender = true;
 
     // Player transform state
     this.player = {
@@ -222,6 +251,9 @@ class PilgrimWalkApp {
           districtsCompleted: parsed.districtsCompleted || [],
           walkMode: parsed.walkMode || 'STORY',
           lang: parsed.lang || 'en',
+          graphicsQuality: ['balanced', 'eco', 'high'].includes(parsed.graphicsQuality)
+            ? parsed.graphicsQuality
+            : 'balanced',
           reducedMotion: !!parsed.reducedMotion,
           largeText: !!parsed.largeText,
           dailyWalk: parsed.dailyWalk || {
@@ -243,6 +275,7 @@ class PilgrimWalkApp {
       districtsCompleted: [],
       walkMode: 'STORY',
       lang: 'en',
+      graphicsQuality: 'balanced',
       reducedMotion: false,
       largeText: false,
       dailyWalk: {
@@ -263,19 +296,53 @@ class PilgrimWalkApp {
     this.updateHUDProgress();
   }
 
+  getTargetPixelRatio(tier = this.graphicsQuality) {
+    const dpr = window.devicePixelRatio || 1;
+    if (tier === 'eco') return 1.0;
+    if (tier === 'balanced') return Math.min(dpr, 1.5);
+    return Math.min(dpr, 2.0);
+  }
+
+  getTargetFrameIntervalMs(tier = this.graphicsQuality) {
+    if (tier === 'high') return 0; // Native display refresh rate (60+ FPS)
+    return 1000 / 30; // 30 FPS max in Balanced & Eco
+  }
+
+  applyGraphicsQuality(tier = this.graphicsQuality) {
+    const validTier = ['balanced', 'eco', 'high'].includes(tier) ? tier : 'balanced';
+    this.graphicsQuality = validTier;
+    this.saveData.graphicsQuality = validTier;
+
+    const pr = this.getTargetPixelRatio(validTier);
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+    if (this.renderer) {
+      this.renderer.setPixelRatio(pr);
+      this.renderer.setSize(w, h);
+    }
+    if (this.postProcess) {
+      this.postProcess.setQuality(validTier, w, h, pr);
+    }
+    this._needsRender = true;
+    if (this.scene && this.camera && this.postProcess && this.isAnyModalOpen() && !document.hidden) {
+      this.postProcess.render(this.scene, this.camera, this.clock.getElapsedTime());
+      this._needsRender = false;
+    }
+  }
+
   initRenderer() {
     try {
       this.renderer = new THREE.WebGLRenderer({
         canvas: this.canvas,
         antialias: true,
-        powerPreference: 'high-performance'
+        powerPreference: 'default'
       });
     } catch (err) {
       document.getElementById('webgl-fallback').classList.remove('hidden');
       throw err;
     }
 
-    const pr = Math.min(window.devicePixelRatio || 1, 2);
+    const pr = this.getTargetPixelRatio(this.graphicsQuality);
     this.renderer.setPixelRatio(pr);
     this.renderer.setSize(window.innerWidth, window.innerHeight);
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
@@ -295,7 +362,7 @@ class PilgrimWalkApp {
     this.propBuilder.setTripoManager(this.tripoManager);
     this.sceneManager = new StepThroughSceneManager(THREE, this.painterly, this.propBuilder);
     this.districtBuilder = new GenesisDistrictBuilder(THREE, this.painterly, this.propBuilder);
-    this.postProcess = new PainterlyPostProcess(THREE, this.renderer, this.painterly);
+    this.postProcess = new PainterlyPostProcess(THREE, this.renderer, this.painterly, this.graphicsQuality);
     this.dailyWalk = new DailyWalkManager(this);
 
     this.skyDome = createPainterlySkyDome(THREE, 280);
@@ -314,10 +381,17 @@ class PilgrimWalkApp {
     this.scene.add(this.lanternLight);
 
     window.addEventListener('resize', () => {
+      const nextPr = this.getTargetPixelRatio(this.graphicsQuality);
       this.camera.aspect = window.innerWidth / window.innerHeight;
       this.camera.updateProjectionMatrix();
+      this.renderer.setPixelRatio(nextPr);
       this.renderer.setSize(window.innerWidth, window.innerHeight);
-      this.postProcess.setSize(window.innerWidth, window.innerHeight);
+      this.postProcess.setSize(window.innerWidth, window.innerHeight, nextPr);
+      this._needsRender = true;
+      if (this.isAnyModalOpen() && !document.hidden) {
+        this.postProcess.render(this.scene, this.camera, this.clock.getElapsedTime());
+        this._needsRender = false;
+      }
     });
   }
 
@@ -364,7 +438,7 @@ class PilgrimWalkApp {
         if (loadingScreen) loadingScreen.classList.add('hidden');
       }, 650);
 
-      this.animate();
+      this.startRenderLoop();
     } catch (err) {
       console.error('Bootstrap error:', err);
       const status = document.getElementById('loading-status');
@@ -1290,6 +1364,31 @@ class PilgrimWalkApp {
       document.getElementById('btn-audio-toggle').textContent = this.audio.muted ? 'Sound: Off' : 'Sound: On';
     });
 
+    const btnGraphics = document.getElementById('btn-graphics-quality');
+    if (btnGraphics) {
+      btnGraphics.addEventListener('click', () => {
+        const order = ['balanced', 'eco', 'high'];
+        const nextIdx = (order.indexOf(this.graphicsQuality) + 1) % order.length;
+        const nextTier = order[nextIdx];
+        this.applyGraphicsQuality(nextTier);
+        this.applyAccessibilitySettings();
+        this.persistSaveData();
+        const zh = this.isZh();
+        const msgMap = {
+          balanced: zh
+            ? this.zh('⚡ 画质已设为【均衡 (Balanced)】：30 FPS · 1.5x 像素比 · 智能降噪油画滤镜，兼顾清晰度与笔记本清凉续航。')
+            : '⚡ Graphics: Balanced — 30 FPS max, 1.5x pixel ratio, optimized painterly shaders.',
+          eco: zh
+            ? this.zh('🌿 画质已设为【省电 (Eco)】：30 FPS · 1.0x 像素比 · 轻量化油画渲染，大幅降低发热与电池消耗。')
+            : '🌿 Graphics: Eco — 30 FPS max, 1.0x pixel ratio for coolest laptop temperature & longest battery life.',
+          high: zh
+            ? this.zh('✦ 画质已设为【高画质 (High Quality)】：60 FPS · 最高 2.0x 视网膜像素比 · 全分辨率油画笔触与圣光。')
+            : '✦ Graphics: High Quality — 60 FPS, up to 2.0x Retina pixel ratio, full-resolution brushwork & god-rays.'
+        };
+        this.showToast(msgMap[nextTier]);
+      });
+    }
+
     document.getElementById('btn-a11y-motion').addEventListener('click', () => {
       this.reducedMotion = !this.reducedMotion;
       this.saveData.reducedMotion = this.reducedMotion;
@@ -1306,6 +1405,25 @@ class PilgrimWalkApp {
 
     document.querySelectorAll('[data-close-modal]').forEach((btn) => {
       btn.addEventListener('click', () => this.closeAllModals());
+    });
+
+    // Pause rendering and world updates when the browser tab is hidden; resume cleanly without time jumps
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        this.keys = {};
+        this.isDraggingLook = false;
+        this.stopRenderLoop();
+      } else {
+        this.clock.getDelta(); // Discard accumulated hidden-tab time delta
+        this._lastFrameTime = performance.now();
+        this._needsRender = true;
+        this.startRenderLoop();
+      }
+    });
+
+    window.addEventListener('blur', () => {
+      this.keys = {};
+      this.isDraggingLook = false;
     });
   }
 
@@ -1356,6 +1474,16 @@ class PilgrimWalkApp {
         : 'WASD / Arrows: Walk · Mouse / Drag: Look · [E]: Interact / Step Through Frame · [R]: Read Poem';
     }
 
+    const gBtn = document.getElementById('btn-graphics-quality');
+    if (gBtn) {
+      if (this.graphicsQuality === 'eco') {
+        gBtn.textContent = zh ? this.zh('🌿 画质：省电') : '🌿 Graphics: Eco';
+      } else if (this.graphicsQuality === 'high') {
+        gBtn.textContent = zh ? this.zh('✦ 画质：高画质') : '✦ Graphics: High Quality';
+      } else {
+        gBtn.textContent = zh ? this.zh('⚡ 画质：均衡') : '⚡ Graphics: Balanced';
+      }
+    }
     const mBtn = document.getElementById('btn-a11y-motion');
     if (mBtn) mBtn.textContent = zh ? this.zh(this.reducedMotion ? '动态：平缓' : '动态：标准') : (this.reducedMotion ? 'Motion: Calm' : 'Motion: Standard');
     const tBtn = document.getElementById('btn-a11y-text');
@@ -1621,8 +1749,56 @@ class PilgrimWalkApp {
   // ==========================================================================
   // MAIN GAME LOOP: Movement, Lantern Proximity Glow, Palette Color Grading
   // ==========================================================================
-  animate() {
-    requestAnimationFrame(() => this.animate());
+  startRenderLoop() {
+    if (this._isLoopRunning || document.hidden) return;
+    this._isLoopRunning = true;
+    this.clock.getDelta();
+    this._lastFrameTime = performance.now();
+    this._rafId = requestAnimationFrame((now) => this.animate(now));
+  }
+
+  stopRenderLoop() {
+    this._isLoopRunning = false;
+    if (this._rafId !== null) {
+      cancelAnimationFrame(this._rafId);
+      this._rafId = null;
+    }
+  }
+
+  animate(now = performance.now()) {
+    if (!this._isLoopRunning || document.hidden) {
+      this._isLoopRunning = false;
+      this._rafId = null;
+      return;
+    }
+
+    this._rafId = requestAnimationFrame((nextNow) => this.animate(nextNow));
+
+    // Suspend 3D world updates and postprocessing while a reading modal covers the world,
+    // preserving the last rendered frame behind translucent backdrops and resuming cleanly without jumps
+    const modalOpen = this.isAnyModalOpen();
+    if (modalOpen) {
+      this.clock.getDelta();
+      if (!this._wasModalOpen || this._needsRender) {
+        this._wasModalOpen = true;
+        this._needsRender = false;
+        this.postProcess.render(this.scene, this.camera, this.clock.getElapsedTime());
+      }
+      return;
+    }
+    if (this._wasModalOpen) {
+      this._wasModalOpen = false;
+      this.clock.getDelta(); // Flush delta so closing a modal never causes a movement jump
+      this._lastFrameTime = now;
+    }
+
+    // Enforce frame-rate cap in Balanced (30 FPS) and Eco (30 FPS) while keeping High Quality uncapped
+    const minInterval = this.getTargetFrameIntervalMs(this.graphicsQuality);
+    if (minInterval > 0) {
+      const elapsedSinceLast = now - this._lastFrameTime;
+      if (elapsedSinceLast < minInterval - 0.5) return;
+      this._lastFrameTime = now - (elapsedSinceLast % minInterval);
+    }
 
     const dt = Math.min(this.clock.getDelta(), 0.1);
     const elapsed = this.clock.getElapsedTime();
@@ -1716,14 +1892,51 @@ class PilgrimWalkApp {
     );
   }
 
-  updateWorldAndInteractions(dt, elapsed) {
-    const promptContainer = document.getElementById('interaction-bar');
-    const promptBtn = document.getElementById('interact-prompt-btn');
-    const secondaryBtn = document.getElementById('read-poem-secondary-btn');
-    const lanternIndicator = document.getElementById('lantern-glow-indicator');
+  _setPromptUI(hidden, primaryText = '', secondaryHidden = true, secondaryText = '') {
+    if (!this._domCache.promptContainer) {
+      this._domCache.promptContainer = document.getElementById('interaction-bar');
+      this._domCache.promptBtn = document.getElementById('interact-prompt-btn');
+      this._domCache.secondaryBtn = document.getElementById('read-poem-secondary-btn');
+    }
+    const { promptContainer, promptBtn, secondaryBtn } = this._domCache;
+    if (promptBtn && !hidden && this._uiState.promptText !== primaryText) {
+      promptBtn.textContent = primaryText;
+      this._uiState.promptText = primaryText;
+    }
+    if (promptContainer && this._uiState.promptHidden !== hidden) {
+      promptContainer.classList.toggle('hidden', hidden);
+      this._uiState.promptHidden = hidden;
+    }
+    if (secondaryBtn) {
+      if (!secondaryHidden && this._uiState.secondaryText !== secondaryText) {
+        secondaryBtn.textContent = secondaryText;
+        this._uiState.secondaryText = secondaryText;
+      }
+      if (this._uiState.secondaryHidden !== secondaryHidden) {
+        secondaryBtn.classList.toggle('hidden', secondaryHidden);
+        this._uiState.secondaryHidden = secondaryHidden;
+      }
+    }
+  }
 
+  _setLanternUI(opacityStr, textStr) {
+    if (!this._domCache.lanternIndicator) {
+      this._domCache.lanternIndicator = document.getElementById('lantern-glow-indicator');
+    }
+    const el = this._domCache.lanternIndicator;
+    if (!el) return;
+    if (this._uiState.lanternOpacity !== opacityStr) {
+      el.style.opacity = opacityStr;
+      this._uiState.lanternOpacity = opacityStr;
+    }
+    if (this._uiState.lanternText !== textStr) {
+      el.textContent = textStr;
+      this._uiState.lanternText = textStr;
+    }
+  }
+
+  updateWorldAndInteractions(dt, elapsed) {
     this.currentInteractTarget = null;
-    secondaryBtn.classList.add('hidden');
 
     // ========================================================================
     // 3D WALKABLE GATEHOUSE COURTYARD MODE (All 44 Book Gates)
@@ -1734,12 +1947,13 @@ class PilgrimWalkApp {
         this.gatehouseHubWorld.riverMat.uniforms.uCameraPos.value.copy(this.camera.position);
       }
 
-      // Warm golden-hour courtyard sky palette
-      this.skyDome.material.uniforms.uTopColor.value.lerp(new THREE.Color('#6a8298'), dt * 1.5);
-      this.skyDome.material.uniforms.uHorizonColor.value.lerp(new THREE.Color('#d2ab7a'), dt * 1.5);
-      this.skyDome.material.uniforms.uGroundColor.value.lerp(new THREE.Color('#695843'), dt * 1.5);
-      this.skyDome.material.uniforms.uAccentColor.value.lerp(new THREE.Color('#f5d79c'), dt * 1.5);
-      this.scene.fog.color.lerp(new THREE.Color('#b69772'), dt * 1.5);
+      // Warm golden-hour courtyard sky palette (using pre-allocated Color instances)
+      const lerpAlpha = Math.min(1, dt * 1.5);
+      this.skyDome.material.uniforms.uTopColor.value.lerp(this._ghTopColor, lerpAlpha);
+      this.skyDome.material.uniforms.uHorizonColor.value.lerp(this._ghHorizonColor, lerpAlpha);
+      this.skyDome.material.uniforms.uGroundColor.value.lerp(this._ghGroundColor, lerpAlpha);
+      this.skyDome.material.uniforms.uAccentColor.value.lerp(this._ghAccentColor, lerpAlpha);
+      this.scene.fog.color.lerp(this._ghFogColor, lerpAlpha);
 
       let nearestGate = null;
       let nearestGateDist = Infinity;
@@ -1757,14 +1971,12 @@ class PilgrimWalkApp {
       if (nearestGate && nearestGateDist < 4.5) {
         this.currentInteractTarget = { type: 'ENTER_BOOK_GATE', gate: nearestGate };
         const b = nearestGate.bookData;
-        if (nearestGate.playableSlug) {
-          promptBtn.textContent = `✦ Step Through Book Gate #${b.n} · “${b.title}” (${b.subtitle}) [E]`;
-        } else {
-          promptBtn.textContent = `Inspect Book Gate #${b.n} · “${b.title}” (${b.subtitle}) [E]`;
-        }
-        promptContainer.classList.remove('hidden');
+        const label = nearestGate.playableSlug
+          ? `✦ Step Through Book Gate #${b.n} · “${b.title}” (${b.subtitle}) [E]`
+          : `Inspect Book Gate #${b.n} · “${b.title}” (${b.subtitle}) [E]`;
+        this._setPromptUI(false, label, true);
       } else {
-        promptContainer.classList.add('hidden');
+        this._setPromptUI(true);
       }
       return;
     }
@@ -1806,24 +2018,21 @@ class PilgrimWalkApp {
       if (distToExit < 3.4) {
         this.currentInteractTarget = { type: 'EXIT_SCENE' };
         const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
-        promptBtn.textContent = `← Step Back to ${meta.shortName} Street [E]`;
-        promptContainer.classList.remove('hidden');
+        this._setPromptUI(false, `← Step Back to ${meta.shortName} Street [E]`, true);
       } else if (distToSig < sc.signatureRadius) {
         this.currentInteractTarget = {
           type: 'SIGNATURE_ELEMENT',
           text: sc.signatureActivatedText
         };
-        promptBtn.textContent = `✦ ${sc.signatureLabel} [E]`;
-        promptContainer.classList.remove('hidden');
+        this._setPromptUI(false, `✦ ${sc.signatureLabel} [E]`, true);
       } else if (distToAnchor < 3.5) {
         this.currentInteractTarget = {
           type: 'READ_POEM',
           node: { data: sc.paintingData }
         };
-        promptBtn.textContent = `Read Poem · “${sc.paintingData.title}” (${sc.paintingData.ref}) [E]`;
-        promptContainer.classList.remove('hidden');
+        this._setPromptUI(false, `Read Poem · “${sc.paintingData.title}” (${sc.paintingData.ref}) [E]`, true);
       } else {
-        promptContainer.classList.add('hidden');
+        this._setPromptUI(true);
       }
       return;
     }
@@ -1867,14 +2076,23 @@ class PilgrimWalkApp {
       }
     }
 
-    // Smoothly color-grade Sky Dome & Fog from the nearest painting's sampled palette (§2.2)
+    // Smoothly color-grade Sky Dome & Fog from the nearest painting's sampled palette (§2.2) without per-frame allocations
     if (nearestNode && nearestNode.data.palette) {
       const pal = nearestNode.data.palette;
-      this.skyDome.material.uniforms.uTopColor.value.lerp(new THREE.Color(pal.top || '#b79d7e'), dt * 1.5);
-      this.skyDome.material.uniforms.uHorizonColor.value.lerp(new THREE.Color(pal.horizon || '#b69375'), dt * 1.5);
-      this.skyDome.material.uniforms.uGroundColor.value.lerp(new THREE.Color(pal.ground || '#686050'), dt * 1.5);
-      this.skyDome.material.uniforms.uAccentColor.value.lerp(new THREE.Color(pal.accent || '#d9b08b'), dt * 1.5);
-      this.scene.fog.color.lerp(new THREE.Color(pal.horizon || '#948067'), dt * 1.5);
+      const lerpAlpha = Math.min(1, dt * 1.5);
+      if (this._lastPaletteNode !== nearestNode) {
+        this._lastPaletteNode = nearestNode;
+        this._colorTop.set(pal.top || '#b79d7e');
+        this._colorHorizon.set(pal.horizon || '#b69375');
+        this._colorGround.set(pal.ground || '#686050');
+        this._colorAccent.set(pal.accent || '#d9b08b');
+        this._colorFog.set(pal.horizon || '#948067');
+      }
+      this.skyDome.material.uniforms.uTopColor.value.lerp(this._colorTop, lerpAlpha);
+      this.skyDome.material.uniforms.uHorizonColor.value.lerp(this._colorHorizon, lerpAlpha);
+      this.skyDome.material.uniforms.uGroundColor.value.lerp(this._colorGround, lerpAlpha);
+      this.skyDome.material.uniforms.uAccentColor.value.lerp(this._colorAccent, lerpAlpha);
+      this.scene.fog.color.lerp(this._colorFog, lerpAlpha);
     }
 
     // Update Part Veils & sense nearest un-kindled Hidden Light (§4 Lantern warm glow + chime)
@@ -1909,20 +2127,16 @@ class PilgrimWalkApp {
       const prox = 1.0 - nearestLightDist / 28.0;
       const resonance = prox * (0.45 + 0.55 * bestLightAlignment);
       this.lanternLight.intensity = baseLantern + resonance * 2.8;
-      if (lanternIndicator) {
-        lanternIndicator.style.opacity = (0.35 + resonance * 0.65).toFixed(2);
-        lanternIndicator.textContent =
-          resonance > 0.35 ? `✦ Lantern warms: a hidden Light shimmers nearby` : `✦ Lantern lit`;
-      }
+      this._setLanternUI(
+        (0.35 + resonance * 0.65).toFixed(2),
+        resonance > 0.35 ? `✦ Lantern warms: a hidden Light shimmers nearby` : `✦ Lantern lit`
+      );
       if (resonance > 0.58) {
         this.audio.playLightChime(resonance, false);
       }
     } else {
       this.lanternLight.intensity = baseLantern;
-      if (lanternIndicator) {
-        lanternIndicator.style.opacity = '0.55';
-        lanternIndicator.textContent = `✦ Lantern lit`;
-      }
+      this._setLanternUI('0.55', `✦ Lantern lit`);
     }
 
     // Determine active Street interaction prompt
@@ -1934,43 +2148,58 @@ class PilgrimWalkApp {
     const zh = this.isZh();
     if (nearestUnkindledLight && nearestLightDist < 3.8) {
       this.currentInteractTarget = { type: 'KINDLE_LIGHT', lightObj: nearestUnkindledLight };
-      promptBtn.textContent = zh
-        ? this.zh(`✦ 点亮明灯：${nearestUnkindledLight.name} [E]`)
-        : `✦ Kindle ${nearestUnkindledLight.name} [E]`;
-      promptContainer.classList.remove('hidden');
+      this._setPromptUI(
+        false,
+        zh
+          ? this.zh(`✦ 点亮明灯：${nearestUnkindledLight.name} [E]`)
+          : `✦ Kindle ${nearestUnkindledLight.name} [E]`,
+        true
+      );
     } else if (nearestNode && nearestDist < 4.6) {
       const p = nearestNode.data;
       const pTitle = zh && p.zh_title ? this.zh(p.zh_title) : p.title;
       const pRef = zh && p.zh_ref ? this.zh(p.zh_ref) : p.ref;
       if (p.isScene) {
         this.currentInteractTarget = { type: 'STEP_THROUGH', node: nearestNode };
-        promptBtn.textContent = zh
-          ? this.zh(`✦ 步入画框秘境：《${pTitle}》（${pRef}）[E]`)
-          : `✦ Step Through Frame into “${pTitle}” (${pRef}) [E]`;
-        secondaryBtn.textContent = zh ? this.zh(`阅读诗歌 [R]`) : `Read Poem [R]`;
-        secondaryBtn.classList.remove('hidden');
+        this._setPromptUI(
+          false,
+          zh
+            ? this.zh(`✦ 步入画框秘境：《${pTitle}》（${pRef}）[E]`)
+            : `✦ Step Through Frame into “${pTitle}” (${pRef}) [E]`,
+          false,
+          zh ? this.zh(`阅读诗歌 [R]`) : `Read Poem [R]`
+        );
       } else {
         this.currentInteractTarget = { type: 'READ_POEM', node: nearestNode };
-        promptBtn.textContent = zh
-          ? this.zh(`阅读诗歌 · 第 ${p.n} 幅《${pTitle}》（${pRef}）[E]`)
-          : `Read Poem · No. ${p.n} “${pTitle}” (${pRef}) [E]`;
+        this._setPromptUI(
+          false,
+          zh
+            ? this.zh(`阅读诗歌 · 第 ${p.n} 幅《${pTitle}》（${pRef}）[E]`)
+            : `Read Poem · No. ${p.n} “${pTitle}” (${pRef}) [E]`,
+          true
+        );
       }
-      promptContainer.classList.remove('hidden');
     } else if (distToAmen < 6.5) {
       this.currentInteractTarget = { type: 'AMEN_GATE' };
       const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
-      promptBtn.textContent = zh
-        ? this.zh(`✦ 步入阿们之门 · 完成《${this.getZhBookTitle(this.currentDistrictSlug)}》[E]`)
-        : `✦ Enter the Amen Gate & Complete ${meta.fullLabel} [E]`;
-      promptContainer.classList.remove('hidden');
+      this._setPromptUI(
+        false,
+        zh
+          ? this.zh(`✦ 步入阿们之门 · 完成《${this.getZhBookTitle(this.currentDistrictSlug)}》[E]`)
+          : `✦ Enter the Amen Gate & Complete ${meta.fullLabel} [E]`,
+        true
+      );
     } else if (this.player.position.z > 9.5) {
       this.currentInteractTarget = { type: 'GATEHOUSE_HUB' };
-      promptBtn.textContent = zh
-        ? this.zh(`打开城门导言与 3D 庭院 [E]`)
-        : `Open Gatehouse Hub & Walk 3D Courtyard [E]`;
-      promptContainer.classList.remove('hidden');
+      this._setPromptUI(
+        false,
+        zh
+          ? this.zh(`打开城门导言与 3D 庭院 [E]`)
+          : `Open Gatehouse Hub & Walk 3D Courtyard [E]`,
+        true
+      );
     } else {
-      promptContainer.classList.add('hidden');
+      this._setPromptUI(true);
     }
   }
 }

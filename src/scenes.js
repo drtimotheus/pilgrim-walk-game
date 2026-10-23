@@ -30,19 +30,28 @@ export class StepThroughSceneManager {
     const img = rawTexture.image;
     const derived = this.painterly.deriveSceneMapsFromImage(img, kind);
 
-    // 1. Update Sky Dome to match this painting's sampled sky/horizon/ground/accent colors
-    skyDome.material.uniforms.uTopColor.value.set(pal.top || '#312f2b');
-    skyDome.material.uniforms.uHorizonColor.value.set(pal.horizon || '#88765c');
-    skyDome.material.uniforms.uGroundColor.value.set(pal.ground || '#504232');
-    skyDome.material.uniforms.uAccentColor.value.set(pal.accent || '#dbb87b');
+    // 1. Update Sky Dome to match this painting's sampled sky/horizon/ground/accent colors,
+    // lifting dark palettes so the step-through sanctuary feels luminous and colorful
+    const liftColor = (hex, minLum = 0.42, warmTint = '#fff2d8') => {
+      const c = new THREE.Color(hex || '#7a6a55');
+      const lum = c.r * 0.299 + c.g * 0.587 + c.b * 0.114;
+      if (lum < minLum) {
+        c.lerp(new THREE.Color(warmTint), Math.min(0.65, (minLum - lum) * 1.35));
+      }
+      return c;
+    };
+    skyDome.material.uniforms.uTopColor.value.copy(liftColor(pal.top || '#4f6278', 0.36, '#6e88a6'));
+    skyDome.material.uniforms.uHorizonColor.value.copy(liftColor(pal.horizon || '#b89b78', 0.54, '#f0d4a8'));
+    skyDome.material.uniforms.uGroundColor.value.copy(liftColor(pal.ground || '#6e5c46', 0.38, '#a68c6b'));
+    skyDome.material.uniforms.uAccentColor.value.copy(liftColor(pal.accent || '#e8c482', 0.68, '#ffe6a8'));
     skyDome.material.uniforms.uStarIntensity.value =
       (kind === 'light' || kind === 'passover' || kind === 'tabernacle') ? 0.55 : 0.0;
-    skyDome.material.uniforms.uRainbowIntensity.value = kind === 'bow' ? 0.48 : 0.0;
+    skyDome.material.uniforms.uRainbowIntensity.value = kind === 'bow' ? 0.92 : 0.0;
 
-    // 2. 360° Outpainted Painterly Surround Cylinder (the player stands *inside* the extended painting)
-    const surroundRadius = 48;
-    const surroundHeight = 36;
-    const surroundGeo = new THREE.CylinderGeometry(surroundRadius, surroundRadius, surroundHeight, 64, 24, true);
+    // 2. 360° Outpainted Painterly Horizon Cylinder (low enough so the open sky, clouds & rainbow shine overhead!)
+    const surroundRadius = 46;
+    const surroundHeight = 16;
+    const surroundGeo = new THREE.CylinderGeometry(surroundRadius, surroundRadius, surroundHeight, 64, 16, true);
     const pos = surroundGeo.attributes.position;
     const uv = surroundGeo.attributes.uv;
     for (let i = 0; i < pos.count; i++) {
@@ -59,14 +68,14 @@ export class StepThroughSceneManager {
       map: derived.panoTex,
       side: THREE.BackSide,
       transparent: true,
-      opacity: 0.90
+      opacity: 0.72
     });
     const surroundMesh = new THREE.Mesh(surroundGeo, surroundMat);
-    surroundMesh.position.y = surroundHeight * 0.36;
+    surroundMesh.position.y = surroundHeight * 0.28;
     group.add(surroundMesh);
 
-    // 3. Wrap-Around 200° Curved 3D Sculpted Painting Amphitheater + Multi-Plane Walk-Through Painting Wings
-    // So stepping through the frame surrounds the player with the actual layered artwork of this exact painting!
+    // 3. Wrap-Around 210° Curved 3D Sculpted Painting Amphitheater + Multi-Plane Walk-Through Painting Wings
+    // So stepping through the frame surrounds the player with the actual vibrant layered artwork of this exact painting!
     const dioramaGroup = this.createLayeredPaintingDiorama(rawTexture, derived, pal);
     group.add(dioramaGroup);
 
@@ -96,12 +105,13 @@ export class StepThroughSceneManager {
     }
     terrainGeo.computeVertexNormals();
 
-    const terrainMat = this.painterly.createPainterlyMaterial({
+    const terrainMat = new THREE.MeshStandardMaterial({
       map: derived.groundTex,
-      baseColor: pal.ground || '#686050',
-      accentColor: pal.accent || '#d9b08b',
-      roughness: kind === 'bow' ? 0.52 : 0.88,
-      bumpScale: 0.06
+      emissiveMap: derived.groundTex,
+      emissive: new THREE.Color('#ffffff'),
+      emissiveIntensity: 0.42,
+      roughness: kind === 'bow' ? 0.52 : 0.85,
+      metalness: 0.04
     });
     const terrainMesh = new THREE.Mesh(terrainGeo, terrainMat);
     terrainMesh.receiveShadow = true;
@@ -254,48 +264,55 @@ export class StepThroughSceneManager {
     const dGroup = new THREE.Group();
 
     // 1. 210° Wrap-Around Curved 3D Sculpted Painting Amphitheater
-    // Instead of a flat distant rectangle, the painting wraps around the front, left, and right
-    const radius = 14.8;
-    const height = 17.5;
+    // Uses self-illuminated emissiveMap so the exact vivid colors of the painting glow brightly,
+    // and keeps height at 10.6m so the sky dome, clouds, and rainbow arch shine clearly above!
+    const radius = 15.2;
+    const height = 10.6;
     const arcGeo = new THREE.CylinderGeometry(
       radius,
       radius,
       height,
-      96,
-      48,
+      72,
+      32,
       true,
       Math.PI * 0.42,
       Math.PI * 1.16
     );
-    // Flip U horizontally so inside of cylinder shows painting right-way-round
     const arcUv = arcGeo.attributes.uv;
     for (let i = 0; i < arcUv.count; i++) {
       arcUv.setX(i, 1.0 - arcUv.getX(i));
     }
     const arcMat = new THREE.MeshStandardMaterial({
       map: rawTexture,
+      emissiveMap: rawTexture,
+      emissive: new THREE.Color('#ffffff'),
+      emissiveIntensity: 0.72,
       displacementMap: derived.depthTex,
-      displacementScale: -2.4,
-      displacementBias: 0.8,
-      roughness: 0.78,
-      metalness: 0.05,
+      displacementScale: -2.2,
+      displacementBias: 0.7,
+      roughness: 0.68,
+      metalness: 0.04,
       side: THREE.DoubleSide
     });
     const arcMesh = new THREE.Mesh(arcGeo, arcMat);
-    arcMesh.position.set(0, height * 0.44 - 0.5, -2.2);
+    arcMesh.position.set(0, height * 0.46 - 0.4, -2.2);
     dGroup.add(arcMesh);
 
     // 2. Multi-Plane Walk-Through 3D Painting Cutout Wings (Left & Right Foreground & Midground)
+    // Self-illuminated with the painting's own colors so every wing is rich, bright, and true to the art
     const makeWing = (tex, w, h, x, y, z, rotY, dispScale = 1.1) => {
       if (!tex) return;
-      const geo = new THREE.PlaneGeometry(w, h, 40, 40);
+      const geo = new THREE.PlaneGeometry(w, h, 32, 32);
       const mat = new THREE.MeshStandardMaterial({
         map: tex,
+        emissiveMap: tex,
+        emissive: new THREE.Color('#ffffff'),
+        emissiveIntensity: 0.74,
         displacementMap: derived.depthTex,
         displacementScale: dispScale,
         displacementBias: -dispScale * 0.4,
-        roughness: 0.80,
-        metalness: 0.04,
+        roughness: 0.72,
+        metalness: 0.03,
         transparent: true,
         alphaTest: 0.03,
         side: THREE.DoubleSide
@@ -307,49 +324,25 @@ export class StepThroughSceneManager {
     };
 
     // Near foreground left & right painting wings (player walks right between them)
-    makeWing(derived.leftWingTex, 7.2, 9.2, -5.6, 4.1, -3.0, 0.42, 1.05);
-    makeWing(derived.rightWingTex, 7.2, 9.2, 5.6, 4.1, -3.0, -0.42, 1.05);
+    makeWing(derived.leftWingTex, 7.2, 8.6, -5.6, 3.8, -3.0, 0.42, 1.05);
+    makeWing(derived.rightWingTex, 7.2, 8.6, 5.6, 3.8, -3.0, -0.42, 1.05);
 
     // Mid-depth left & right painting wings framing the central sanctuary
-    makeWing(derived.midLeftTex, 8.8, 10.8, -6.8, 4.8, -7.8, 0.34, 1.35);
-    makeWing(derived.midRightTex, 8.8, 10.8, 6.8, 4.8, -7.8, -0.34, 1.35);
+    makeWing(derived.midLeftTex, 8.8, 9.6, -6.8, 4.3, -7.8, 0.34, 1.35);
+    makeWing(derived.midRightTex, 8.8, 9.6, 6.8, 4.3, -7.8, -0.34, 1.35);
 
     // Deep-mid framing wings behind the central sculpture
-    makeWing(derived.leftWingTex, 9.5, 11.5, -5.2, 5.2, -11.6, 0.20, 1.55);
-    makeWing(derived.rightWingTex, 9.5, 11.5, 5.2, 5.2, -11.6, -0.20, 1.55);
+    makeWing(derived.leftWingTex, 9.5, 10.2, -5.2, 4.6, -11.6, 0.20, 1.50);
+    makeWing(derived.rightWingTex, 9.5, 10.2, 5.2, 4.6, -11.6, -0.20, 1.50);
 
-    // 3. Overhead Painted Canopy / Vault Arch from the top of the painting
-    if (derived.canopyArchTex) {
-      const archVaultGeo = new THREE.PlaneGeometry(18.0, 9.5, 36, 24);
-      const vPos = archVaultGeo.attributes.position;
-      for (let i = 0; i < vPos.count; i++) {
-        const vx = vPos.getX(i);
-        const vy = vPos.getY(i);
-        // Curve gently downward at the left/right edges like a vaulted ceiling
-        const drop = (vx * vx) * 0.045;
-        vPos.setZ(i, -drop + Math.sin(vy * 0.5) * 0.3);
-      }
-      archVaultGeo.computeVertexNormals();
-      const archVaultMat = new THREE.MeshStandardMaterial({
-        map: derived.canopyArchTex,
-        roughness: 0.85,
-        transparent: true,
-        opacity: 0.92,
-        side: THREE.DoubleSide
-      });
-      const archVault = new THREE.Mesh(archVaultGeo, archVaultMat);
-      archVault.rotation.x = Math.PI * 0.44;
-      archVault.position.set(0, 8.6, -5.4);
-      dGroup.add(archVault);
-    }
-
-    // 4. Sculpted Painting-Textured Foreground Rock Outcrops / Sanctuary Plinth Stones along the sides
-    const outcropMat = this.painterly.createPainterlyMaterial({
+    // 3. Sculpted Painting-Textured Foreground Rock Outcrops / Sanctuary Plinth Stones along the sides
+    const outcropMat = new THREE.MeshStandardMaterial({
       map: derived.propTex,
-      baseColor: pal.ground || '#5c4e3e',
-      accentColor: pal.accent || '#deb878',
-      roughness: 0.88,
-      bumpScale: 0.08
+      emissiveMap: derived.propTex,
+      emissive: new THREE.Color('#ffffff'),
+      emissiveIntensity: 0.48,
+      roughness: 0.80,
+      metalness: 0.05
     });
     const outcropCoords = [
       { x: -4.4, z: -2.2, sx: 1.5, sy: 0.9, sz: 1.3 },
@@ -372,16 +365,80 @@ export class StepThroughSceneManager {
       dGroup.add(mesh);
     });
 
-    // Warm gallery stage lights illuminating the curved painting wings
-    const leftWingLight = new THREE.PointLight(pal.accent || 0xffe29c, 1.6, 22);
-    leftWingLight.position.set(-4.5, 4.2, -4.5);
+    // 4. Warm Sanctuary Hemisphere + Gallery Stage Lights so no step-through scene ever feels dark!
+    const sceneHemi = new THREE.HemisphereLight(0xfff4de, pal.ground || 0x8a7356, 1.25);
+    dGroup.add(sceneHemi);
+
+    const centerSanctuaryLight = new THREE.PointLight(0xfff2d6, 2.8, 38);
+    centerSanctuaryLight.position.set(0, 7.2, -5.0);
+    dGroup.add(centerSanctuaryLight);
+
+    const leftWingLight = new THREE.PointLight(pal.accent || 0xffe29c, 2.0, 26);
+    leftWingLight.position.set(-4.5, 4.5, -4.5);
     dGroup.add(leftWingLight);
 
-    const rightWingLight = new THREE.PointLight(pal.accent || 0xffe29c, 1.6, 22);
-    rightWingLight.position.set(4.5, 4.2, -4.5);
+    const rightWingLight = new THREE.PointLight(pal.accent || 0xffe29c, 2.0, 26);
+    rightWingLight.position.set(4.5, 4.5, -4.5);
     dGroup.add(rightWingLight);
 
     return dGroup;
+  }
+
+  // Builds a bright, multi-layered 3D Rainbow Arch + Double-Rainbow Halo in the sky
+  createVividRainbowSkyArch() {
+    const THREE = this.THREE;
+    const bowGroup = new THREE.Group();
+    bowGroup.position.set(0, 1.2, -10.6);
+
+    const bowColors = [
+      0xff3b30, // Vivid Crimson Red
+      0xff9500, // Luminous Amber Orange
+      0xffe629, // Sunlit Covenant Gold
+      0x34c759, // Emerald Green
+      0x32ade6, // Cerulean Sky Blue
+      0x5856d6, // Sapphire Indigo
+      0xaf52de  // Royal Violet
+    ];
+    const bowMeshes = [];
+
+    // Primary bright 7-band rainbow arch inside the amphitheater sky
+    bowColors.forEach((hex, idx) => {
+      const rInner = 7.4 + (6 - idx) * 0.34;
+      const rOuter = rInner + 0.42;
+      const arcGeo = new THREE.RingGeometry(rInner, rOuter, 72, 1, 0.08, Math.PI - 0.16);
+      const arcMat = new THREE.MeshBasicMaterial({
+        color: hex,
+        transparent: true,
+        opacity: 0.78,
+        side: THREE.DoubleSide,
+        blending: THREE.AdditiveBlending,
+        depthWrite: false
+      });
+      const arc = new THREE.Mesh(arcGeo, arcMat);
+      bowGroup.add(arc);
+      bowMeshes.push(arc);
+    });
+
+    // Secondary outer double-rainbow arch high in the clouds
+    bowColors.forEach((hex, idx) => {
+      const rInner = 11.2 + idx * 0.28;
+      const rOuter = rInner + 0.32;
+      const arcGeo = new THREE.RingGeometry(rInner, rOuter, 72, 1, 0.10, Math.PI - 0.20);
+      const arcMat = new THREE.MeshBasicMaterial({
+        color: hex,
+        transparent: true,
+        opacity: 0.38,
+        side: THREE.DoubleSide,
+        blending: THREE.AdditiveBlending,
+        depthWrite: false
+      });
+      const arc = new THREE.Mesh(arcGeo, arcMat);
+      arc.position.z = -1.2;
+      bowGroup.add(arc);
+      bowMeshes.push(arc);
+    });
+
+    return { bowGroup, bowMeshes };
   }
 
   // Creates drifting translucent Komorebi valley mist layers hugging the ground/water
@@ -859,31 +916,11 @@ export class StepThroughSceneManager {
     );
     group.add(hillsideGrass);
 
-    // 4. Great 3D Painterly Rainbow Arch spanning the sky over the valley & altar
-    const bowGroup = new THREE.Group();
-    bowGroup.position.set(0, -1.5, -18.5);
-    const bowColors = [0xd96b52, 0xe69d56, 0xe8cf6b, 0x7fb872, 0x6ba3c7, 0x8574b5];
-    const bowMeshes = [];
-
-    bowColors.forEach((hex, idx) => {
-      const rInner = 16.5 + idx * 0.44;
-      const rOuter = rInner + 0.50;
-      const arcGeo = new THREE.RingGeometry(rInner, rOuter, 64, 1, 0.15, Math.PI - 0.3);
-      const arcMat = new THREE.MeshBasicMaterial({
-        color: hex,
-        transparent: true,
-        opacity: 0.25,
-        side: THREE.DoubleSide,
-        blending: THREE.AdditiveBlending,
-        depthWrite: false
-      });
-      const arc = new THREE.Mesh(arcGeo, arcMat);
-      bowGroup.add(arc);
-      bowMeshes.push(arc);
-    });
+    // 4. Great Vivid 3D Painterly Rainbow Arch + Double-Rainbow spanning the sky over the valley & altar
+    const { bowGroup, bowMeshes } = this.createVividRainbowSkyArch();
     group.add(bowGroup);
 
-    const altarLight = new THREE.PointLight(0xffe8b0, 2.0, 22);
+    const altarLight = new THREE.PointLight(0xffe8b0, 2.8, 26);
     altarLight.position.set(-2.4, 2.5, -5.8);
     group.add(altarLight);
 
@@ -900,11 +937,12 @@ export class StepThroughSceneManager {
         if (nearAltar) this._bowLatched = Math.min(1.0, (this._bowLatched || 0) + dt * 0.45);
         const bowVal = this._bowLatched || 0;
 
-        skyDome.material.uniforms.uRainbowIntensity.value = 0.45 + bowVal * 0.55;
+        skyDome.material.uniforms.uRainbowIntensity.value = 0.85 + bowVal * 0.15;
         bowMeshes.forEach((m, i) => {
-          m.material.opacity = 0.25 + bowVal * 0.45 + Math.sin(time * 1.4 + i * 0.4) * 0.03;
+          const baseOp = i < 7 ? 0.76 : 0.36;
+          m.material.opacity = Math.min(0.98, baseOp + bowVal * 0.22 + Math.sin(time * 1.4 + i * 0.4) * 0.04);
         });
-        altarLight.intensity = 2.0 + bowVal * 3.4;
+        altarLight.intensity = 2.8 + bowVal * 3.4;
         altarShaft.material.uniforms.uOpacity.value = 0.22 + bowVal * 0.25;
         if (stoneAltar.userData.emberSprite) {
           stoneAltar.userData.emberSprite.scale.setScalar(1.8 + bowVal * 1.4 + Math.sin(time * 3.0) * 0.15);
@@ -2186,7 +2224,9 @@ export class StepThroughSceneManager {
         skyDome.material.uniforms.uStarIntensity.value = 0.78;
       }
       if ((kind === 'chebar_rainbow_throne' || kind === 'emerald_rainbow_throne') && skyDome.material.uniforms.uRainbowIntensity) {
-        skyDome.material.uniforms.uRainbowIntensity.value = 0.62;
+        skyDome.material.uniforms.uRainbowIntensity.value = 0.90;
+        const { bowGroup } = this.createVividRainbowSkyArch();
+        group.add(bowGroup);
       }
     }
 
@@ -2221,12 +2261,13 @@ export class StepThroughSceneManager {
       });
     } else if (isSanctuaryOrHallScene) {
       // Sculpted Sanctuary Columns textured from the painting's palette & brushwork
-      const colMat = this.painterly.createPainterlyMaterial({
+      const colMat = new THREE.MeshStandardMaterial({
         map: derived.propTex,
-        baseColor: pal.ground || '#705e4a',
-        accentColor: pal.accent || '#e6c587',
+        emissiveMap: derived.propTex,
+        emissive: new THREE.Color('#ffffff'),
+        emissiveIntensity: 0.48,
         roughness: 0.68,
-        bumpScale: 0.06
+        metalness: 0.05
       });
       const colCoords = [
         { x: -3.8, z: -3.8, h: 4.8 },
@@ -2252,12 +2293,13 @@ export class StepThroughSceneManager {
       });
     } else {
       // Sculpted Painting-Textured Monoliths & Cairns flanking the sanctuary path
-      const monoMat = this.painterly.createPainterlyMaterial({
+      const monoMat = new THREE.MeshStandardMaterial({
         map: derived.propTex,
-        baseColor: pal.ground || '#615141',
-        accentColor: pal.accent || '#dfb97a',
-        roughness: 0.86,
-        bumpScale: 0.08
+        emissiveMap: derived.propTex,
+        emissive: new THREE.Color('#ffffff'),
+        emissiveIntensity: 0.48,
+        roughness: 0.80,
+        metalness: 0.05
       });
       const monoCoords = [
         { x: -4.2, z: -4.6, sx: 1.1, sy: 2.3, sz: 1.0 },

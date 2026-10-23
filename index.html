@@ -243,18 +243,17 @@
 
     /* Stage 1 Prototype Scene Quick-Test Strip */
     #prototype-scene-strip {
-      position: fixed;
-      top: 104px;
-      left: 16px;
+      position: relative;
       z-index: 28;
       background: rgba(28, 22, 16, 0.84);
       border: 1px solid rgba(219, 184, 123, 0.4);
       border-radius: 12px;
-      padding: 8px 12px;
+      padding: 6px 12px;
       display: flex;
       align-items: center;
       gap: 8px;
       flex-wrap: wrap;
+      pointer-events: auto;
       backdrop-filter: blur(8px);
     }
     .strip-label {
@@ -908,15 +907,15 @@
       <span id="hud-paintings-count" class="hud-pill hud-stat hud-collapsible">0 / 40 Poems</span>
       <button id="btn-mode-toggle" class="hud-pill hud-collapsible">Mode: Story Walk</button>
       <button id="btn-audio-toggle" class="hud-pill hud-collapsible">Sound: On</button>
+      <button id="btn-graphics-quality" class="hud-pill hud-collapsible" title="Graphics Quality: Balanced / Eco / High Quality">⚡ Graphics: Balanced</button>
       <button id="btn-a11y-motion" class="hud-pill hud-collapsible">Motion: Standard</button>
       <button id="btn-a11y-text" class="hud-pill hud-collapsible">Text: Standard</button>
     </div>
     <!-- Scrollable Pill Bar of All 44 Districts (I through XLIV) -->
     <div id="all-44-ribbon" aria-label="All 44 Districts Ribbon"></div>
+    <!-- Step-Through Scene Quick-Jump Strip (dynamically updated for active district) -->
+    <nav id="prototype-scene-strip" aria-label="Step-Through Scenes"></nav>
   </header>
-
-  <!-- Step-Through Scene Quick-Jump Strip (dynamically updated for active district) -->
-  <nav id="prototype-scene-strip" aria-label="Step-Through Scenes"></nav>
 
   <!-- Phase 4: Floating 3D Daily Walk Devotional Banner (visible while walking in Daily Walk mode) -->
   <div id="daily-walk-hud-banner" class="hidden" aria-live="polite"></div>
@@ -1115,6 +1114,6 @@
     </div>
   </div>
 
-  <script type="module" src="src/main.js?v=44_15"></script>
+  <script type="module" src="src/main.js?v=44_16"></script>
 </body>
 </html>

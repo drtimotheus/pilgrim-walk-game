@@ -56,7 +56,6 @@ export class GenesisDistrictBuilder {
       'genesis',
       'ruth',
       'samuel',
-      'psalms-2',
       'psalms-3',
       'psalms-4',
       'many-waters',
@@ -83,6 +82,28 @@ export class GenesisDistrictBuilder {
         fogColor: '#918068',
         starIntensity: 0.08,
         sunbeamColor: '#ffe8a8'
+      };
+    }
+
+    if (slug === 'psalms-2') {
+      return {
+        biome: 'deer_and_forest',
+        groundColor: '#5c5a47',
+        groundAccent: '#d6c69c',
+        pathColor: '#9c8d71',
+        pathAccent: '#e6d8bc',
+        waterDeep: '#284744',
+        waterShallow: '#83a89a',
+        grassCount: 2400,
+        grassPalette: { ground: '#576246', accent: '#dfd09e', horizon: '#a3977b' },
+        hasBridges: true,
+        bridgePalette: { ground: '#786e5a', accent: '#dfd2b2' },
+        skyTop: '#496373',
+        skyMid: '#8c9c94',
+        skyHorizon: '#f0ddb2',
+        fogColor: '#8f846f',
+        starIntensity: 0.06,
+        sunbeamColor: '#ffebad'
       };
     }
 
@@ -693,6 +714,37 @@ export class GenesisDistrictBuilder {
         }
       }
     }
+
+    if (biomeCfg.biome === 'deer_and_forest') {
+      // District XIV: As the Deer (Psalms 42–72)
+      // Forest olive & cedar groves, deer drinking along the water brook (Psalm 42:1),
+      // and high rock mesas ("the rock that is higher than I", Psalm 61:2)
+      for (let i = 0; i < 11; i++) {
+        const rz = -14 - i * 30.0;
+        const pt = this.getPathPoint(rz);
+        if (i === 0 || i === 4 || i === 8) {
+          const deer = this.propBuilder.createPsalm42DeerBrookEnsemble(null, pal, false);
+          if (deer.brookLight) deer.group.remove(deer.brookLight);
+          if (deer.rightBank) deer.group.remove(deer.rightBank);
+          deer.group.scale.setScalar(0.90);
+          deer.group.position.set(pt.x - 7.4, pt.y + 0.04, rz);
+          deer.group.lookAt(pt.x - 10.5, pt.y, rz - 2.0);
+          streetGroup.add(deer.group);
+        } else if (i === 6) {
+          const highRock = this.propBuilder.createPsalm61RockHigherEnsemble(null, pal);
+          if (highRock.rockLight) highRock.group.remove(highRock.rockLight);
+          highRock.group.scale.setScalar(0.88);
+          highRock.group.position.set(pt.x + 12.2, pt.y + 0.2, rz);
+          highRock.group.lookAt(pt.x, pt.y + 0.4, rz + 4.0);
+          streetGroup.add(highRock.group);
+        } else {
+          const forestTree = this.propBuilder.createGreatPainterlyTree(null, pal, 0.95 + (i % 3) * 0.18);
+          forestTree.position.set(pt.x + (i % 2 === 0 ? -8.6 : 10.2), pt.y, rz);
+          forestTree.rotation.y = i * 1.1;
+          streetGroup.add(forestTree);
+        }
+      }
+    }
   }
 
   loadTextureAsync(url) {
@@ -751,7 +803,13 @@ export class GenesisDistrictBuilder {
       plinthGroup.lookAt(wx - side * 3.0, wy, wz + 3.0);
       streetGroup.add(plinthGroup);
 
-      if (pData.sceneType && slug !== 'greatly-beloved' && slug !== 'all-things-new' && slug !== 'psalms-1') {
+      if (
+        pData.sceneType &&
+        slug !== 'greatly-beloved' &&
+        slug !== 'all-things-new' &&
+        slug !== 'psalms-1' &&
+        slug !== 'psalms-2'
+      ) {
         const focal = this.propBuilder.createFocalPropForScene(pData.sceneType, null, pal);
         if (focal && focal.group) {
           if (focal.focalLight) focal.group.remove(focal.focalLight);
@@ -989,6 +1047,57 @@ export class GenesisDistrictBuilder {
         streetGroup.add(amenTable);
         return;
       }
+    } else if (slug === 'psalms-2') {
+      if (pData.n === 1) {
+        const deerBrook = this.propBuilder.createPsalm42DeerBrookEnsemble(null, pal, false);
+        if (deerBrook.brookLight) deerBrook.group.remove(deerBrook.brookLight);
+        deerBrook.group.scale.setScalar(0.74);
+        deerBrook.group.position.set(wx + side * 2.8, wy, wz - 2.4);
+        deerBrook.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(deerBrook.group);
+        return;
+      }
+      if (pData.n === 5) {
+        const beStill = this.propBuilder.createPsalm46BeStillShorelineEnsemble(null, pal);
+        if (beStill.stillLight) beStill.group.remove(beStill.stillLight);
+        beStill.group.scale.setScalar(0.78);
+        beStill.group.position.set(wx + side * 2.6, wy, wz - 2.2);
+        beStill.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(beStill.group);
+        return;
+      }
+      if (pData.n === 15) {
+        const bottle = this.propBuilder.createPsalm56TearBottleWindowEnsemble(null, pal);
+        if (bottle.windowLight) bottle.group.remove(bottle.windowLight);
+        bottle.group.scale.setScalar(0.70);
+        bottle.group.position.set(wx + side * 3.0, wy, wz - 2.4);
+        bottle.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(bottle.group);
+        return;
+      }
+      if (pData.n === 16) {
+        const harp = this.propBuilder.createDavidHarp(1.1);
+        harp.position.set(wx + side * 2.4, wy, wz - 0.6);
+        streetGroup.add(harp);
+        return;
+      }
+      if (pData.n === 20) {
+        const highRock = this.propBuilder.createPsalm61RockHigherEnsemble(null, pal);
+        if (highRock.rockLight) highRock.group.remove(highRock.rockLight);
+        highRock.group.scale.setScalar(0.68);
+        highRock.group.position.set(wx + side * 3.2, wy, wz - 2.6);
+        highRock.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(highRock.group);
+        return;
+      }
+      if (pData.n === 31) {
+        const likeRain = this.propBuilder.createPsalm72LikeRainFinaleEnsemble(null, pal, false);
+        likeRain.scale.setScalar(0.78);
+        likeRain.position.set(wx + side * 2.8, wy, wz - 1.2);
+        likeRain.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(likeRain);
+        return;
+      }
     }
 
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
@@ -1073,6 +1182,7 @@ export class GenesisDistrictBuilder {
       samuel: 'DISTRICT VII · THE LAMP HAD NOT GONE OUT — 1–2 SAMUEL',
       kings: 'DISTRICT VIII · A STILL SMALL VOICE — 1 & 2 KINGS',
       'psalms-1': 'DISTRICT XIII · PLANTED BY THE WATER — PSALMS 1–41',
+      'psalms-2': 'DISTRICT XIV · AS THE DEER — PSALMS 42–72',
       'all-things-new': 'DISTRICT XLIV · ALL THINGS NEW — REVELATION'
     };
 
@@ -1645,6 +1755,48 @@ export class GenesisDistrictBuilder {
           height: 1.75,
           veilZ: -426.0
         }
+      ],
+      'psalms-2': [
+        {
+          part: 1,
+          id: 'psalms-2-light-1',
+          name: 'The Light of the Water Brook',
+          hint: 'Shimmering beside the deer & broken bow on the shore near “two lamps” & “be still” (Part One)',
+          z: -52.0,
+          lateral: -6.2,
+          height: 1.72,
+          veilZ: -82.0
+        },
+        {
+          part: 2,
+          id: 'psalms-2-light-2',
+          name: 'The Light of the Tear-Bottle',
+          hint: 'Glowing beside the sunlit window sill & terracotta bottle near “your bottle” & “I will wake the dawn” (Part Two)',
+          z: -146.0,
+          lateral: 6.2,
+          height: 1.68,
+          veilZ: -168.0
+        },
+        {
+          part: 3,
+          id: 'psalms-2-light-3',
+          name: 'The Light of the High Rock',
+          hint: 'Shining along the winding trail of the mesa near “higher than I” & “harvest hymn” (Part Three)',
+          z: -218.0,
+          lateral: -6.0,
+          height: 1.75,
+          veilZ: -254.0
+        },
+        {
+          part: 4,
+          id: 'psalms-2-light-4',
+          name: 'The Light of the Rain on Mown Grass',
+          hint: 'Glowing among the golden sheaves & Book Two scrolls near “old and gray” & “like rain” before the Amen Gate (Part Four)',
+          z: -312.0,
+          lateral: 5.8,
+          height: 1.72,
+          veilZ: -332.0
+        }
       ]
     };
 
@@ -1777,6 +1929,8 @@ export class GenesisDistrictBuilder {
     const computedLastZ = -9.0 - ((totalPaintings - 1) * 9.8 + (totalParts - 1) * 7.5);
     const plazaZ = slug === 'ruth'
       ? -268
+      : slug === 'psalms-2'
+      ? -342
       : slug === 'choose-life'
       ? -398
       : ['genesis', 'exodus', 'fire-by-night', 'joshua-judges', 'samuel', 'kings', 'psalms-1', 'all-things-new'].includes(slug)
@@ -1847,6 +2001,16 @@ export class GenesisDistrictBuilder {
       );
       psalms1Finale.position.set(0, 0.1, -3.8);
       group.add(psalms1Finale);
+    } else if (slug === 'psalms-2') {
+      // District XIV Finale: The Rain on the Mown Grass Harvest Sheaves & Stone Table with Book Two Scrolls
+      // ("The prayers of David the son of Jesse are ended", Psalm 72:20) paired with the Deer by the Water Brook (Psalm 42:1)
+      const psalms2Finale = this.propBuilder.createPsalm72LikeRainFinaleEnsemble(
+        null,
+        { ground: '#786e5a', horizon: '#768265', accent: '#f5e6b8' },
+        true
+      );
+      psalms2Finale.position.set(0, 0.1, -3.8);
+      group.add(psalms2Finale);
     } else if (slug === 'all-things-new') {
       // District XLIV Finale: The Tree of Life, the Stone Bench beneath the Tree (answering Genesis's Sabbath Bench),
       // the Great Lantern of the Lamb ("its lamp is the Lamb"), and a Gate of Pearl
@@ -1936,6 +2100,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · PLANTED BY THE WATER COMPLETED',
         epigraph: 'Blessed be Yahweh, the God of Israel, from everlasting and to everlasting! Amen and amen.',
         epigraphRef: 'PSALM 41:13 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XIV: AS THE DEER'
+      },
+      'psalms-2': {
+        title: 'AMEN GATE · AS THE DEER COMPLETED',
+        epigraph: 'He will come down like rain on the mown grass — The prayers of David the son of Jesse are ended.',
+        epigraphRef: 'PSALM 72:6–20 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XV: A DAY IN YOUR COURTS'
       },
       'all-things-new': {
         title: 'AMEN GATE · ALL THINGS NEW COMPLETED',

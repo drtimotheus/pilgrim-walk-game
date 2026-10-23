@@ -5837,4 +5837,655 @@ export class PainterlyPropBuilder {
 
     return group;
   }
+
+  // ============================================================================
+  // DISTRICT XIV: AS THE DEER (PSALMS 42–72) BESPOKE 3D PROP ENSEMBLES
+  // Crafted directly from Timothy Holt's paintings (#1, #5, #15, #20, #31)
+  // ============================================================================
+
+  // Psalm 42:1–5 (#1 "preach to yourself" — Signature Symbolic Element of District XIV):
+  //   - Graceful sculpted doe/deer on the left rocky bank bending down to drink from the brook
+  //   - Right-bank stone boulder ledge draped with plaid/striped pilgrim cloak, open scroll,
+  //     two woven baskets, leaning walking staff, and rustic stone porch shelter
+  // (matching assets/psalms-2/web/b-014-001.jpg)
+  createPsalm42DeerBrookEnsemble(propTex = null, pal = {}, includePorch = true) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const coatMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c7252',
+      accentColor: '#c9ad86',
+      roughness: 0.84
+    });
+    const underbellyMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9cbb4',
+      accentColor: '#f5ede0',
+      roughness: 0.86
+    });
+    const hoofMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#3d3328',
+      accentColor: '#635443',
+      roughness: 0.78
+    });
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: pal.ground || '#857d6d',
+      accentColor: pal.accent || '#dfd7c4',
+      roughness: 0.90
+    });
+    const cloakMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e6455',
+      accentColor: '#bfb39e',
+      roughness: 0.86
+    });
+    const basketMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7d6340',
+      accentColor: '#baa077',
+      roughness: 0.86
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c4630',
+      accentColor: '#9c7c58',
+      roughness: 0.84
+    });
+    const parchmentMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#dfd3ba',
+      accentColor: '#f7f0df',
+      roughness: 0.78
+    });
+
+    // 1. The Signature Deer at the Water Brook on the left bank (exact match to painting #1)
+    const deerGroup = new THREE.Group();
+    deerGroup.position.set(-1.15, 0.08, -0.25);
+    deerGroup.rotation.y = 0.48;
+    deerGroup.userData.keepWithGlb = true;
+
+    const torso = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.28, 0.32, 1.18, 14), 0.018, 4.0),
+      coatMat
+    );
+    torso.rotation.z = Math.PI / 2 - 0.14;
+    torso.position.set(0, 0.92, 0);
+    deerGroup.add(torso);
+
+    const chest = new THREE.Mesh(new THREE.SphereGeometry(0.30, 14, 12), underbellyMat);
+    chest.scale.set(1.1, 0.95, 0.88);
+    chest.position.set(0.46, 0.84, 0);
+    deerGroup.add(chest);
+
+    const haunch = new THREE.Mesh(new THREE.SphereGeometry(0.32, 14, 12), coatMat);
+    haunch.scale.set(1.1, 1.05, 0.92);
+    haunch.position.set(-0.48, 0.98, 0);
+    deerGroup.add(haunch);
+
+    const tail = new THREE.Mesh(new THREE.ConeGeometry(0.08, 0.24, 8), underbellyMat);
+    tail.position.set(-0.78, 1.02, 0);
+    tail.rotation.z = 0.65;
+    deerGroup.add(tail);
+
+    // Four slender legs standing on the creek bank stones
+    const legCoords = [
+      [0.44, 0.45, -0.14, 0.08],
+      [0.38, 0.45, 0.14, 0.02],
+      [-0.44, 0.48, -0.15, -0.06],
+      [-0.50, 0.48, 0.15, -0.10]
+    ];
+    legCoords.forEach(([lx, ly, lz, lTilt]) => {
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.036, 0.92, 10), coatMat);
+      leg.position.set(lx, ly, lz);
+      leg.rotation.z = lTilt;
+      deerGroup.add(leg);
+
+      const hoof = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.048, 0.08, 8), hoofMat);
+      hoof.position.set(lx + lTilt * 0.3, 0.04, lz);
+      deerGroup.add(hoof);
+    });
+
+    // Neck & Head pivot dipping down to touch the brook water (matching painting #1)
+    const neckPivot = new THREE.Group();
+    neckPivot.position.set(0.56, 0.82, 0);
+    neckPivot.rotation.z = -1.08;
+
+    const neck = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.17, 0.72, 12), coatMat);
+    neck.position.set(0, 0.34, 0);
+    neckPivot.add(neck);
+
+    const head = new THREE.Mesh(new THREE.ConeGeometry(0.14, 0.42, 12), coatMat);
+    head.rotation.z = -Math.PI / 2 - 0.32;
+    head.position.set(0.16, 0.68, 0);
+    neckPivot.add(head);
+
+    const muzzle = new THREE.Mesh(new THREE.SphereGeometry(0.055, 10, 10), hoofMat);
+    muzzle.position.set(0.35, 0.62, 0);
+    neckPivot.add(muzzle);
+
+    for (const ez of [-0.11, 0.11]) {
+      const ear = new THREE.Mesh(new THREE.SphereGeometry(0.06, 8, 6), coatMat);
+      ear.scale.set(0.65, 1.85, 0.45);
+      ear.position.set(-0.02, 0.78, ez);
+      ear.rotation.z = 0.45;
+      ear.rotation.x = ez * 2.2;
+      neckPivot.add(ear);
+    }
+
+    deerGroup.add(neckPivot);
+    group.add(deerGroup);
+
+    // 2. Right-Bank Stone Ledge with Draped Pilgrim Cloak, Open Scroll, Baskets & Walking Staff (exact match to painting #1 right foreground)
+    const rightBank = new THREE.Group();
+    rightBank.position.set(1.55, 0.06, 0.35);
+    rightBank.userData.keepWithGlb = true;
+
+    const mainBoulder = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.65, 0.92, 1.45, 6, 4, 6), 0.04, 3.0),
+      stoneMat
+    );
+    mainBoulder.position.set(0.25, 0.46, 0);
+    rightBank.add(mainBoulder);
+
+    const lowerStep = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.15, 0.42, 1.05, 6, 2, 6), 0.03, 3.2),
+      stoneMat
+    );
+    lowerStep.position.set(-0.32, 0.21, 0.55);
+    rightBank.add(lowerStep);
+
+    // Draped woven cloak cascading down the boulder face
+    const cloakDrape = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.74, 0.86, 0.14, 6, 6, 2), 0.02, 4.0),
+      cloakMat
+    );
+    cloakDrape.position.set(-0.18, 0.56, 0.68);
+    cloakDrape.rotation.x = -0.18;
+    rightBank.add(cloakDrape);
+
+    // Open parchment pages on the lower stone step ("preach to yourself", painting #1)
+    const openScroll = new THREE.Mesh(new THREE.BoxGeometry(0.56, 0.02, 0.42), parchmentMat);
+    openScroll.position.set(-0.38, 0.43, 0.62);
+    openScroll.rotation.y = 0.28;
+    rightBank.add(openScroll);
+
+    // Woven baskets & leaning wooden walking staff
+    const topBasket = new THREE.Mesh(new THREE.CylinderGeometry(0.26, 0.22, 0.22, 16), basketMat);
+    topBasket.position.set(-0.12, 1.02, 0.18);
+    rightBank.add(topBasket);
+
+    const lowBasket = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.20, 0.28, 16), basketMat);
+    lowBasket.position.set(0.22, 0.56, 0.72);
+    rightBank.add(lowBasket);
+
+    const staff = new THREE.Mesh(new THREE.CylinderGeometry(0.026, 0.032, 1.65, 10), woodMat);
+    staff.position.set(0.18, 0.78, 0.66);
+    staff.rotation.z = -0.22;
+    rightBank.add(staff);
+
+    // Rustic stone shelter & wooden porch posts in the upper right (matching painting #1 right midground)
+    if (includePorch) {
+      const porchWall = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(1.8, 2.35, 1.4, 4, 6, 4), 0.03, 3.0),
+        stoneMat
+      );
+      porchWall.position.set(1.65, 1.35, -1.35);
+      rightBank.add(porchWall);
+
+      for (const pz of [-0.65, -1.95]) {
+        const post = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.065, 2.15, 8), woodMat);
+        post.position.set(0.65, 1.25, pz);
+        rightBank.add(post);
+      }
+      const roofBeam = new THREE.Mesh(new THREE.BoxGeometry(1.35, 0.14, 1.65), woodMat);
+      roofBeam.position.set(1.15, 2.35, -1.30);
+      roofBeam.rotation.z = 0.18;
+      rightBank.add(roofBeam);
+    }
+
+    group.add(rightBank);
+
+    const brookLight = new THREE.PointLight('#fff0c4', 2.9, 22);
+    brookLight.position.set(-0.4, 2.6, 0.2);
+    group.add(brookLight);
+
+    return { group, deerGroup, neckPivot, rightBank, brookLight };
+  }
+
+  // Psalm 46:1–11 (#5 "be still"):
+  // Mirror-still lake shore with:
+  //   - Broken wooden bow ("He breaks the bow")
+  //   - Shattered/laid-down iron-tipped spear bound with cord ("and shatters the spear", Psalm 46:9)
+  //   - Discarded dark slate warrior's cloak on the shore stones
+  // (matching assets/psalms-2/web/b-014-005.jpg)
+  createPsalm46BeStillShorelineEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#59442e',
+      accentColor: '#967653',
+      roughness: 0.85
+    });
+    const ironMat = new THREE.MeshStandardMaterial({
+      color: '#52585e',
+      roughness: 0.42,
+      metalness: 0.78
+    });
+    const slateClothMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#3f4852',
+      accentColor: '#737e8a',
+      roughness: 0.88
+    });
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: pal.ground || '#756e5f',
+      accentColor: pal.accent || '#d6ccb8',
+      roughness: 0.90
+    });
+
+    const shoreGroup = new THREE.Group();
+    shoreGroup.userData.keepWithGlb = true;
+
+    // 1. Broken Wooden Bow on the left shore (exact match to foreground of painting #5)
+    const bowHalf1 = new THREE.Mesh(
+      new THREE.TorusGeometry(0.95, 0.048, 10, 22, Math.PI * 0.45),
+      woodMat
+    );
+    bowHalf1.rotation.x = Math.PI / 2;
+    bowHalf1.rotation.z = -0.35;
+    bowHalf1.position.set(-0.95, 0.08, 0.35);
+    shoreGroup.add(bowHalf1);
+
+    const bowHalf2 = new THREE.Mesh(
+      new THREE.TorusGeometry(0.88, 0.046, 10, 22, Math.PI * 0.42),
+      woodMat
+    );
+    bowHalf2.rotation.x = Math.PI / 2;
+    bowHalf2.rotation.z = 0.55;
+    bowHalf2.position.set(-0.42, 0.07, -0.45);
+    shoreGroup.add(bowHalf2);
+
+    // 2. Iron-Tipped Spear laid down across the center shore (matching painting #5)
+    const spearGroup = new THREE.Group();
+    spearGroup.position.set(0.15, 0.08, 0.25);
+    spearGroup.rotation.y = 0.52;
+
+    const spearShaft = new THREE.Mesh(new THREE.CylinderGeometry(0.032, 0.036, 2.45, 10), woodMat);
+    spearShaft.rotation.z = Math.PI / 2;
+    spearGroup.add(spearShaft);
+
+    const spearHead = new THREE.Mesh(new THREE.ConeGeometry(0.095, 0.38, 4), ironMat);
+    spearHead.rotation.z = Math.PI / 2;
+    spearHead.scale.set(0.35, 1.0, 1.0);
+    spearHead.position.set(-1.38, 0, 0);
+    spearGroup.add(spearHead);
+
+    shoreGroup.add(spearGroup);
+
+    // 3. Discarded dark blue-slate cloak & shoreline stones on the right (matching painting #5 lower right)
+    const cloak = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.56, 14, 10), 0.06, 3.8),
+      slateClothMat
+    );
+    cloak.scale.set(1.35, 0.28, 1.05);
+    cloak.position.set(1.12, 0.14, 0.52);
+    shoreGroup.add(cloak);
+
+    for (let r = 0; r < 7; r++) {
+      const rock = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(0.28 + (r % 3) * 0.12, 1), 0.04, 3.2),
+        stoneMat
+      );
+      rock.scale.set(1.35, 0.62, 1.15);
+      rock.position.set(-1.6 + r * 0.56, 0.12, -0.55 + (r % 2) * 0.85);
+      shoreGroup.add(rock);
+    }
+
+    group.add(shoreGroup);
+
+    const stillLight = new THREE.PointLight('#e8f0ff', 2.8, 22);
+    stillLight.position.set(0, 2.6, -0.4);
+    group.add(stillLight);
+
+    return { group, shoreGroup, spearGroup, stillLight };
+  }
+
+  // Psalm 56:3–8 (#15 "your bottle"):
+  // Sunlit plastered stone window sill ("You put my tears into your container. Aren't they in your book?")
+  //   - Slender terracotta lachrymatory tear-bottle at the center of the stone sill with a glistening teardrop at its rim
+  //   - Fringed woven cloth on the right holding the rolled Book of Remembrance scroll & shallow clay dish
+  //   - Olive branch framing the left window opening (matching assets/psalms-2/web/b-014-015.jpg)
+  createPsalm56TearBottleWindowEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const plasterMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9ceb4',
+      accentColor: '#f5ebd4',
+      roughness: 0.86
+    });
+    const terracottaMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a66338',
+      accentColor: '#de9868',
+      roughness: 0.68
+    });
+    const clothMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8d8b78',
+      accentColor: '#c9c6b2',
+      roughness: 0.86
+    });
+    const scrollMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#bda982',
+      accentColor: '#e8d8b5',
+      roughness: 0.80
+    });
+    const leafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c6e46',
+      accentColor: '#9eb082',
+      roughness: 0.80
+    });
+    const tearMat = new THREE.MeshPhysicalMaterial({
+      color: '#e8f6ff',
+      transmission: 0.75,
+      opacity: 0.92,
+      transparent: true,
+      roughness: 0.08,
+      metalness: 0.1
+    });
+
+    // 1. Plastered Stone Window Frame & Deep Sill (matching painting #15)
+    const windowGroup = new THREE.Group();
+    windowGroup.userData.keepWithGlb = true;
+
+    const sill = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(3.4, 0.88, 1.35, 8, 4, 6), 0.02, 3.2),
+      plasterMat
+    );
+    sill.position.set(0, 0.44, 0);
+    windowGroup.add(sill);
+
+    for (const sx of [-1.42, 1.42]) {
+      const jamb = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.68, 2.25, 1.15, 4, 6, 4), 0.02, 3.2),
+        plasterMat
+      );
+      jamb.position.set(sx, 1.95, -0.05);
+      windowGroup.add(jamb);
+    }
+
+    const lintel = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(3.5, 0.52, 1.18, 8, 2, 4), 0.02, 3.2),
+      plasterMat
+    );
+    lintel.position.set(0, 3.28, -0.05);
+    windowGroup.add(lintel);
+
+    // 2. The Terracotta Tear-Bottle (Lachrymatory) standing in the sunlight at the center of the sill (exact match to painting #15)
+    const bottleGroup = new THREE.Group();
+    bottleGroup.position.set(-0.15, 0.88, 0.12);
+
+    const bottleBelly = new THREE.Mesh(new THREE.SphereGeometry(0.28, 20, 16), terracottaMat);
+    bottleBelly.scale.set(1.0, 1.28, 1.0);
+    bottleBelly.position.y = 0.32;
+    bottleGroup.add(bottleBelly);
+
+    const bottleNeck = new THREE.Mesh(new THREE.CylinderGeometry(0.095, 0.18, 0.56, 18), terracottaMat);
+    bottleNeck.position.y = 0.72;
+    bottleGroup.add(bottleNeck);
+
+    const bottleRim = new THREE.Mesh(new THREE.TorusGeometry(0.105, 0.026, 10, 20), terracottaMat);
+    bottleRim.rotation.x = Math.PI / 2;
+    bottleRim.position.y = 1.00;
+    bottleGroup.add(bottleRim);
+
+    // Glistening teardrop on the rim (exact detail from painting #15)
+    const teardrop = new THREE.Mesh(new THREE.SphereGeometry(0.032, 12, 12), tearMat);
+    teardrop.scale.set(0.85, 1.35, 0.85);
+    teardrop.position.set(0.04, 0.97, 0.11);
+    bottleGroup.add(teardrop);
+
+    windowGroup.add(bottleGroup);
+
+    // 3. Fringed Cloth, Rolled Book of Remembrance Scroll & Small Clay Dish on the right sill (matching painting #15 right side)
+    const cloth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.05, 0.06, 0.82, 6, 2, 6), 0.015, 4.0),
+      clothMat
+    );
+    cloth.position.set(0.76, 0.90, 0.22);
+    windowGroup.add(cloth);
+
+    const scroll = new THREE.Mesh(new THREE.CylinderGeometry(0.085, 0.085, 0.82, 16), scrollMat);
+    scroll.rotation.z = Math.PI / 2;
+    scroll.rotation.y = 0.26;
+    scroll.position.set(0.68, 0.99, 0.05);
+    windowGroup.add(scroll);
+
+    const dish = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.12, 0.07, 16), scrollMat);
+    dish.position.set(0.92, 0.96, 0.32);
+    windowGroup.add(dish);
+
+    // 4. Olive foliage outside the left side of the window opening (matching painting #15 left window view)
+    const foliageGroup = new THREE.Group();
+    foliageGroup.position.set(-0.78, 1.65, -0.58);
+    for (let l = 0; l < 18; l++) {
+      const lf = new THREE.Mesh(new THREE.SphereGeometry(0.09, 8, 6), leafMat);
+      lf.scale.set(2.1, 0.28, 0.75);
+      lf.position.set((l % 3) * 0.22 - 0.15, (l % 6) * 0.18 - 0.35, (l % 2) * 0.12);
+      lf.rotation.z = (l % 2 === 0 ? 0.45 : -0.45);
+      foliageGroup.add(lf);
+    }
+    windowGroup.add(foliageGroup);
+
+    group.add(windowGroup);
+
+    const windowLight = new THREE.PointLight('#fff0c2', 3.1, 22);
+    windowLight.position.set(-0.15, 2.2, 0.8);
+    group.add(windowLight);
+
+    return { group, windowGroup, bottleGroup, teardrop, windowLight };
+  }
+
+  // Psalm 61:1–3 (#20 "higher than I"):
+  //   - Towering sunlit flat-topped cliff/mesa ("the rock that is higher than I") with a winding footpath
+  //     climbing up its face to olive trees at the summit
+  //   - Foreground terraced stone courtyard with circular winnowing grain ring on woven reed mats,
+  //     two clay storage amphorae against the dry-stone wall, and shaded arbor
+  // (matching assets/psalms-2/web/b-014-020.jpg)
+  createPsalm61RockHigherEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const cliffMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9c8a6b',
+      accentColor: '#ebd09b',
+      roughness: 0.88
+    });
+    const pathMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9c59e',
+      accentColor: '#f7ead0',
+      roughness: 0.84
+    });
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8a7d67',
+      accentColor: '#dfd2b8',
+      roughness: 0.90
+    });
+    const grainMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c9a65b',
+      accentColor: '#f2d994',
+      roughness: 0.82
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#82674a',
+      accentColor: '#bfa07d',
+      roughness: 0.84
+    });
+
+    // 1. The Towering Flat-Topped Rock Higher Than I with Winding Footpath & Summit Olive Trees (matching painting #20 center)
+    const highRockGroup = new THREE.Group();
+    highRockGroup.position.set(0.35, 0.0, -2.45);
+    highRockGroup.userData.keepWithGlb = true;
+
+    const mesaCore = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.85, 2.85, 4.45, 22, 12), 0.09, 2.6),
+      cliffMat
+    );
+    mesaCore.position.y = 2.22;
+    highRockGroup.add(mesaCore);
+
+    // Winding stepped trail ascending the cliff face ("one higher than me, and a hand to lead me up")
+    for (let s = 0; s < 16; s++) {
+      const t = s / 15;
+      const ang = -0.35 + Math.sin(t * Math.PI * 1.6) * 0.55;
+      const rad = 2.65 - t * 0.82;
+      const step = new THREE.Mesh(new THREE.BoxGeometry(0.46, 0.10, 0.34), pathMat);
+      step.position.set(Math.sin(ang) * rad, 0.25 + t * 4.15, Math.cos(ang) * rad);
+      step.rotation.y = ang;
+      highRockGroup.add(step);
+    }
+
+    // Olive trees crowning the summit plateau (exact match to painting #20 top of mesa)
+    for (const [tx, tz, ts] of [[-0.35, 0.15, 0.52], [0.55, -0.22, 0.44]]) {
+      const summitTree = this.createGreatPainterlyTree(propTex, pal, ts);
+      summitTree.position.set(tx, 4.42, tz);
+      highRockGroup.add(summitTree);
+    }
+    group.add(highRockGroup);
+
+    // 2. Foreground Terraced Stone Courtyard with Circular Grain Ring, Woven Mats & Clay Jars (matching painting #20 lower foreground)
+    const terraceGroup = new THREE.Group();
+    terraceGroup.position.set(0.0, 0.06, 0.65);
+    terraceGroup.userData.keepWithGlb = true;
+
+    // Woven reed mats & circular grain sieve ring in the center foreground
+    const matSlab = new THREE.Mesh(new THREE.BoxGeometry(1.55, 0.03, 1.15), pathMat);
+    matSlab.position.set(-0.25, 0.02, 0.25);
+    terraceGroup.add(matSlab);
+
+    const sieveRing = new THREE.Mesh(new THREE.TorusGeometry(0.42, 0.045, 10, 24), stoneMat);
+    sieveRing.rotation.x = Math.PI / 2;
+    sieveRing.position.set(-0.25, 0.07, 0.18);
+    terraceGroup.add(sieveRing);
+
+    const grainDisk = new THREE.Mesh(new THREE.CylinderGeometry(0.39, 0.39, 0.04, 20), grainMat);
+    grainDisk.position.set(-0.25, 0.06, 0.18);
+    terraceGroup.add(grainDisk);
+
+    // Dry-stone wall & two terracotta storage jars on the right (matching painting #20 lower right)
+    for (let w = 0; w < 7; w++) {
+      const wStone = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.42, 0.32, 0.36, 4, 2, 4), 0.025, 3.2),
+        stoneMat
+      );
+      wStone.position.set(0.75 + w * 0.24, 0.18, 0.55 - w * 0.28);
+      wStone.rotation.y = 0.72;
+      terraceGroup.add(wStone);
+    }
+
+    for (let j = 0; j < 2; j++) {
+      const jar = new THREE.Mesh(new THREE.SphereGeometry(0.22, 14, 12), clayMat);
+      jar.scale.set(0.95, 1.25, 0.95);
+      jar.position.set(1.65 + j * 0.36, 0.32, -0.25 - j * 0.15);
+      terraceGroup.add(jar);
+    }
+
+    group.add(terraceGroup);
+
+    const rockLight = new THREE.PointLight('#ffe8a6', 3.2, 24);
+    rockLight.position.set(0.35, 4.9, -1.8);
+    group.add(rockLight);
+
+    return { group, highRockGroup, terraceGroup, rockLight };
+  }
+
+  // Psalm 72:6–20 (#31 "like rain" & District XIV Finale Plaza):
+  //   - Left stone slab table under an olive tree holding a cloth-draped woven basket,
+  //     clay pitcher, and the rolled scroll of Book Two ("The prayers of David the son of Jesse are ended")
+  //   - Four golden bound grain sheaves standing in the mown rain-washed meadow ("like rain on the mown grass")
+  //   - When isFinalePlaza = true, pairs with the signature Deer by the Water Brook (Psalm 42:1)
+  // (matching assets/psalms-2/web/b-014-031.jpg)
+  createPsalm72LikeRainFinaleEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#827966',
+      accentColor: '#dfd5be',
+      roughness: 0.88
+    });
+    const sheafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a89258',
+      accentColor: '#e6d396',
+      roughness: 0.84
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7d684f',
+      accentColor: '#bfa686',
+      roughness: 0.82
+    });
+    const scrollMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9c8a3',
+      accentColor: '#f5ebd2',
+      roughness: 0.78
+    });
+
+    // 1. Left Stone Slab Table atop Dry-Stone Terrace Wall with Basket, Pitcher & Scroll of Book Two (matching painting #31 left foreground)
+    const tableGroup = new THREE.Group();
+    tableGroup.position.set(isFinalePlaza ? -1.45 : -0.85, 0.06, 0.45);
+    tableGroup.userData.keepWithGlb = true;
+
+    const stoneSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.85, 0.36, 1.35, 6, 2, 6), 0.025, 3.2),
+      stoneMat
+    );
+    stoneSlab.position.y = 0.32;
+    tableGroup.add(stoneSlab);
+
+    const basket = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.24, 0.26, 16), clayMat);
+    basket.position.set(-0.38, 0.63, 0.08);
+    tableGroup.add(basket);
+
+    const pitcher = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.18, 0.44, 16), clayMat);
+    pitcher.position.set(0.08, 0.72, -0.12);
+    tableGroup.add(pitcher);
+
+    for (let s = 0; s < 2; s++) {
+      const scroll = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.055, 0.56, 14), scrollMat);
+      scroll.rotation.z = Math.PI / 2;
+      scroll.rotation.y = 0.32 + s * 0.18;
+      scroll.position.set(0.32 + s * 0.10, 0.56, 0.18 + s * 0.08);
+      tableGroup.add(scroll);
+    }
+
+    group.add(tableGroup);
+
+    // 2. Four Bound Golden Grain Sheaves standing in a row across the mown meadow (exact match to center of painting #31)
+    const sheavesGroup = new THREE.Group();
+    sheavesGroup.position.set(isFinalePlaza ? 0.85 : 0.65, 0.05, -0.35);
+    sheavesGroup.userData.keepWithGlb = true;
+
+    for (let i = 0; i < 4; i++) {
+      const sheaf = new THREE.Group();
+      sheaf.position.set(-0.95 + i * 0.68, 0, -i * 0.25);
+
+      const lowerCone = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.26, 0.48, 12), sheafMat);
+      lowerCone.position.y = 0.24;
+      sheaf.add(lowerCone);
+
+      const upperCrown = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.12, 0.38, 12), sheafMat);
+      upperCrown.position.y = 0.64;
+      sheaf.add(upperCrown);
+
+      sheavesGroup.add(sheaf);
+    }
+    group.add(sheavesGroup);
+
+    // 3. When isFinalePlaza = true, pair with the signature Deer by the Water Brook (Psalm 42:1) & Olive Tree
+    if (isFinalePlaza) {
+      const deerEnsemble = this.createPsalm42DeerBrookEnsemble(propTex, pal, false);
+      deerEnsemble.group.position.set(1.25, 0, -1.55);
+      group.add(deerEnsemble.group);
+
+      const oliveTree = this.createGreatPainterlyTree(propTex, pal, 1.25);
+      oliveTree.position.set(-2.35, 0.1, -1.15);
+      group.add(oliveTree);
+    }
+
+    return group;
+  }
 }

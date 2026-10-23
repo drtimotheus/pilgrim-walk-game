@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_23';
-import { StepThroughSceneManager } from './scenes.js?v=44_23';
-import { GenesisDistrictBuilder } from './district.js?v=44_23';
+import { PainterlyPropBuilder } from './props.js?v=44_24';
+import { StepThroughSceneManager } from './scenes.js?v=44_24';
+import { GenesisDistrictBuilder } from './district.js?v=44_24';
 import { PilgrimAudio } from './audio.js?v=44_12';
 import { TripoRelicManager } from './tripo.js?v=44_21';
 import { DailyWalkManager } from './daily-walk.js?v=44_12';
@@ -180,7 +180,7 @@ class PilgrimWalkApp {
       [11, 'XI', 'for-such-a-time-as-this', 'Esther', 'For Such a Time as This (Esther)', '“Who knows if you haven’t come to the kingdom for such a time as this?”'],
       [12, 'XII', 'out-of-the-whirlwind', 'Job', 'Out of the Whirlwind (Job)', '“I had heard of you by the hearing of the ear, but now my eye sees you.”'],
       [13, 'XIII', 'psalms-1', 'Psalms 1–41', 'Planted by the Water (Psalms 1–41)', '“Blessed be Yahweh, the God of Israel, from everlasting and to everlasting! Amen and amen.”'],
-      [14, 'XIV', 'psalms-2', 'Psalms 42–72', 'As the Deer (Psalms 42–72)', '“Lead me to the rock that is higher than I.”'],
+      [14, 'XIV', 'psalms-2', 'Psalms 42–72', 'As the Deer (Psalms 42–72)', '“He will come down like rain on the mown grass… The prayers of David the son of Jesse are ended.”'],
       [15, 'XV', 'psalms-3', 'Psalms 73–106', 'A Day in Your Courts (Psalms 73–106)', '“For a day in your courts is better than a thousand.”'],
       [16, 'XVI', 'psalms-4', 'Psalms 107–150', 'Everything That Has Breath (Psalms 107–150)', '“Your word is a lamp to my feet, and a light for my path.”'],
       [17, 'XVII', 'the-beginning-of-wisdom', 'Proverbs', 'The Beginning of Wisdom (Proverbs)', '“Trust in Yahweh with all your heart, and don’t lean on your own understanding.”'],
@@ -453,7 +453,7 @@ class PilgrimWalkApp {
   async ensureManifestLoaded(slug) {
     if (this.manifests[slug]) return this.manifests[slug];
     try {
-      const res = await fetch(`assets/data/${slug}-manifest.json?v=44_22`);
+      const res = await fetch(`assets/data/${slug}-manifest.json?v=44_24`);
       if (res.ok) {
         this.manifests[slug] = await res.json();
         return this.manifests[slug];
@@ -928,6 +928,12 @@ class PilgrimWalkApp {
         { n: 8, label: '8 · “the work of your fingers” (Shepherd Under Stars)' },
         { n: 22, label: '22 · “through the valley” (Rod, Staff & Table)' },
         { n: 26, label: '26 · “one thing” (Open Threshold of the Lord’s House)' }
+      ],
+      'psalms-2': [
+        { n: 1, label: '1 · “preach to yourself” (Deer by the Water Brook)' },
+        { n: 5, label: '5 · “be still” (Broken Bow & Still Waters)' },
+        { n: 15, label: '15 · “your bottle” (Tear-Bottle at the Window)' },
+        { n: 20, label: '20 · “higher than I” (The High Rock & Winding Trail)' }
       ],
       'all-things-new': [
         { n: 4, label: '4 · “among the lampstands” (7 Golden Lampstands)' },

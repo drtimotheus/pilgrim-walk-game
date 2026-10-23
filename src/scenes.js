@@ -218,6 +218,14 @@ export class StepThroughSceneManager {
       signatureState = this.populatePsalms23GreenPasturesScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'house_of_the_lord') {
       signatureState = this.populatePsalms27HouseOfTheLordScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'deer_brook') {
+      signatureState = this.populatePsalms42DeerBrookScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'be_still_waters') {
+      signatureState = this.populatePsalms46BeStillScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'tears_in_bottle') {
+      signatureState = this.populatePsalms56TearBottleScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'rock_higher') {
+      signatureState = this.populatePsalms61RockHigherScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -247,7 +255,8 @@ export class StepThroughSceneManager {
         'mezuzah', 'sheaf', 'two_roads', 'nebo', 'jordan_stones', 'jericho_walls',
         'ruth_gleaning', 'samuel_lamp', 'five_smooth_stones', 'temple_cloud', 'carmel_fire',
         'seven_golden_lampstands', 'behold_i_stand_and_knock', 'emerald_rainbow_throne', 'river_of_life_new_jerusalem',
-        'streams_of_water', 'moon_and_stars', 'green_pastures', 'house_of_the_lord'
+        'streams_of_water', 'moon_and_stars', 'green_pastures', 'house_of_the_lord',
+        'deer_brook', 'be_still_waters', 'tears_in_bottle', 'rock_higher'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -2698,6 +2707,239 @@ export class StepThroughSceneManager {
         houseRig.hangingLamp.rotation.z = Math.sin(time * 1.4) * 0.03;
         houseRig.sanctuaryLight.intensity = 3.2 + val * 3.6 + Math.sin(time * 3.0) * 0.22;
         houseRig.lampHalo.scale.setScalar(2.4 + val * 0.85 + Math.sin(time * 2.6) * 0.15);
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XIV (AS THE DEER / PSALMS 42–72) SCENE 1:
+  // No. 1 — "preach to yourself" (Psalm 42:1–5)
+  //   - Signature Deer/Doe bending its neck to drink from the rocky water brook beneath olive boughs
+  //   - Right-bank boulder ledge with plaid pilgrim cloak, open scroll, woven baskets, walking staff & stone porch
+  //     (matching painting #1)
+  // ==========================================================================
+  populatePsalms42DeerBrookScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    const brookGeo = new THREE.PlaneGeometry(14, 42, 32, 42);
+    brookGeo.rotateX(-Math.PI / 2);
+    const brookMat = createKomorebiWaterMaterial(THREE, {
+      deepColor: '#2d4d48',
+      shallowColor: '#8db2a2',
+      sunColor: '#fff2c4',
+      opacity: 0.90
+    });
+    const brook = new THREE.Mesh(brookGeo, brookMat);
+    brook.position.set(-0.2, 0.04, -10.0);
+    group.add(brook);
+
+    const deerPos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const deerRig = this.propBuilder.createPsalm42DeerBrookEnsemble(derived.propTex, pal, true);
+    deerRig.group.position.copy(deerPos);
+    group.add(deerRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        deerRig.group,
+        'psalms-2',
+        1,
+        { targetHeight: 2.9, yOffset: 0.22 }
+      );
+    }
+
+    // Olive & forest trees on the left bank shading the deer (matching painting #1 left)
+    for (const [tx, tz, ts] of [[-4.2, -5.8, 1.05], [-5.4, -9.2, 0.92], [4.8, -8.8, 0.88]]) {
+      const tree = this.propBuilder.createGreatPainterlyTree(derived.propTex, pal, ts);
+      tree.position.set(tx, getTerrainHeight ? getTerrainHeight(tx, tz) : 0, tz);
+      group.add(tree);
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.84, 3.4, '#ffebad');
+    shaft.position.set(-0.8, 6.4, -5.8);
+    group.add(shaft);
+
+    return {
+      signatureTarget: deerPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Kneel Beside the Deer at the Water Brook & Open Scroll',
+      signatureActivatedText: '“As the deer pants for the water brooks, so my soul pants after you, God… Why are you in despair, my soul? Why are you disturbed within me? Hope in God! For I shall still praise him.” (Psalm 42:1–5)',
+      updateScene: (dt, time, distToSignature, skyDome, cameraPos) => {
+        brookMat.uniforms.uTime.value = time;
+        if (cameraPos) brookMat.uniforms.uCameraPos.value.copy(cameraPos);
+
+        const near = distToSignature < 4.2;
+        if (near) this._psalm42DeerLatched = Math.min(1.0, (this._psalm42DeerLatched || 0) + dt * 0.5);
+        const val = this._psalm42DeerLatched || 0;
+
+        deerRig.neckPivot.rotation.z = -1.08 + val * 0.24 + Math.sin(time * 1.4) * 0.04;
+        deerRig.brookLight.intensity = 2.9 + val * 3.5 + Math.sin(time * 2.2) * 0.22;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XIV (AS THE DEER / PSALMS 42–72) SCENE 2:
+  // No. 5 — "be still" (Psalm 46:1–11)
+  //   - Mirror-still mountain lake reflecting distant peaks
+  //   - Broken wooden bow, shattered/laid-down iron-headed spear & discarded warrior's cloak on the shore
+  //   - Signature Deer standing quietly at the water's edge (matching painting #5)
+  // ==========================================================================
+  populatePsalms46BeStillScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    const lakeGeo = new THREE.PlaneGeometry(56, 36, 48, 48);
+    lakeGeo.rotateX(-Math.PI / 2);
+    const lakeMat = createKomorebiWaterMaterial(THREE, {
+      deepColor: '#2b3e4f',
+      shallowColor: '#8aa1ad',
+      sunColor: '#f5ebd6',
+      opacity: 0.92
+    });
+    const lake = new THREE.Mesh(lakeGeo, lakeMat);
+    lake.position.set(0.0, 0.05, -13.5);
+    group.add(lake);
+
+    const shorePos = new THREE.Vector3(0.0, 0.0, -5.4);
+    const shoreRig = this.propBuilder.createPsalm46BeStillShorelineEnsemble(derived.propTex, pal);
+    shoreRig.group.position.copy(shorePos);
+    group.add(shoreRig.group);
+
+    // District XIV Signature Symbolic Element: quiet deer resting on the left bank of the still waters
+    const quietDeer = this.propBuilder.createPsalm42DeerBrookEnsemble(derived.propTex, pal, false);
+    if (quietDeer.brookLight) quietDeer.group.remove(quietDeer.brookLight);
+    if (quietDeer.rightBank) quietDeer.group.remove(quietDeer.rightBank);
+    quietDeer.neckPivot.rotation.z = -0.32;
+    quietDeer.group.position.set(-2.4, 0.04, -6.8);
+    quietDeer.group.rotation.y = 0.35;
+    group.add(quietDeer.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        shoreRig.group,
+        'psalms-2',
+        5,
+        { targetHeight: 2.8, yOffset: 0.22 }
+      );
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.85, 3.6, '#f5ebd6');
+    shaft.position.set(0.0, 6.5, -5.8);
+    group.add(shaft);
+
+    return {
+      signatureTarget: shorePos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Stand Still Beside the Broken Bow & Laid-Down Spear on the Shore',
+      signatureActivatedText: '“He makes wars cease to the end of the earth. He breaks the bow, and shatters the spear… Be still, and know that I am God.” (Psalm 46:9–10)',
+      updateScene: (dt, time, distToSignature, skyDome, cameraPos) => {
+        lakeMat.uniforms.uTime.value = time * 0.45;
+        if (cameraPos) lakeMat.uniforms.uCameraPos.value.copy(cameraPos);
+
+        const near = distToSignature < 4.2;
+        if (near) this._psalm46StillLatched = Math.min(1.0, (this._psalm46StillLatched || 0) + dt * 0.5);
+        const val = this._psalm46StillLatched || 0;
+
+        shoreRig.stillLight.intensity = 2.8 + val * 3.4 + Math.sin(time * 1.8) * 0.18;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XIV (AS THE DEER / PSALMS 42–72) SCENE 3:
+  // No. 15 — "your bottle" (Psalm 56:3–8)
+  //   - Sunlit plastered stone window sill with the slender terracotta tear-bottle (lachrymatory)
+  //     and a glistening teardrop at its rim
+  //   - Fringed cloth, rolled Book of Remembrance scroll & olive branch framing the window (matching painting #15)
+  // ==========================================================================
+  populatePsalms56TearBottleScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    const bottlePos = new THREE.Vector3(0.0, 0.0, -5.5);
+    const bottleRig = this.propBuilder.createPsalm56TearBottleWindowEnsemble(derived.propTex, pal);
+    bottleRig.group.position.copy(bottlePos);
+    group.add(bottleRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        bottleRig.group,
+        'psalms-2',
+        15,
+        { targetHeight: 2.8, yOffset: 0.22 }
+      );
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.78, 3.2, '#ffebba');
+    shaft.position.set(-0.15, 6.2, -5.4);
+    group.add(shaft);
+
+    return {
+      signatureTarget: bottlePos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Pause at the Sunlit Window Beside the Tear-Bottle & Book of Remembrance',
+      signatureActivatedText: '“You number my wanderings. You put my tears into your container. Aren’t they in your book? … What time I am afraid, I will put my trust in you.” (Psalm 56:3–8)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._psalm56BottleLatched = Math.min(1.0, (this._psalm56BottleLatched || 0) + dt * 0.5);
+        const val = this._psalm56BottleLatched || 0;
+
+        bottleRig.windowLight.intensity = 3.1 + val * 3.5 + Math.sin(time * 2.4) * 0.22;
+        bottleRig.teardrop.position.y = 0.97 + Math.sin(time * 2.0) * 0.012;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XIV (AS THE DEER / PSALMS 42–72) SCENE 4:
+  // No. 20 — "higher than I" (Psalm 61:1–3)
+  //   - Towering sunlit flat-topped cliff/mesa ("the rock that is higher than I") with winding footpath
+  //     climbing to olive trees on the summit
+  //   - Foreground terraced courtyard with circular winnowing grain sieve ring, woven mats & clay jars (matching painting #20)
+  // ==========================================================================
+  populatePsalms61RockHigherScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    const rockPos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const rockRig = this.propBuilder.createPsalm61RockHigherEnsemble(derived.propTex, pal);
+    rockRig.group.position.copy(rockPos);
+    group.add(rockRig.group);
+
+    // Signature Deer looking up toward the high rock on the left terrace
+    const deer = this.propBuilder.createPsalm42DeerBrookEnsemble(derived.propTex, pal, false);
+    if (deer.brookLight) deer.group.remove(deer.brookLight);
+    if (deer.rightBank) deer.group.remove(deer.rightBank);
+    deer.neckPivot.rotation.z = -0.18;
+    deer.group.position.set(-2.6, 0.04, -5.2);
+    deer.group.rotation.y = 0.55;
+    group.add(deer.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        rockRig.group,
+        'psalms-2',
+        20,
+        { targetHeight: 3.1, yOffset: 0.24 }
+      );
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.88, 3.8, '#ffe7a3');
+    shaft.position.set(0.35, 6.8, -6.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: rockPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Look Up the Winding Path to the Rock Higher Than I',
+      signatureActivatedText: '“From the end of the earth, I will call to you when my heart is overwhelmed. Lead me to the rock that is higher than I. For you have been a refuge for me, a strong tower from the enemy.” (Psalm 61:2–3)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._psalm61RockLatched = Math.min(1.0, (this._psalm61RockLatched || 0) + dt * 0.5);
+        const val = this._psalm61RockLatched || 0;
+
+        rockRig.rockLight.intensity = 3.2 + val * 3.8 + Math.sin(time * 2.0) * 0.24;
         return near || val > 0.85;
       }
     };

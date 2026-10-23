@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_21';
-import { StepThroughSceneManager } from './scenes.js?v=44_16';
-import { GenesisDistrictBuilder } from './district.js?v=44_21';
+import { PainterlyPropBuilder } from './props.js?v=44_22';
+import { StepThroughSceneManager } from './scenes.js?v=44_22';
+import { GenesisDistrictBuilder } from './district.js?v=44_22';
 import { PilgrimAudio } from './audio.js?v=44_12';
 import { TripoRelicManager } from './tripo.js?v=44_21';
 import { DailyWalkManager } from './daily-walk.js?v=44_12';
@@ -210,7 +210,7 @@ class PilgrimWalkApp {
       [41, 'XLI', 'doers-of-the-word', 'James', 'Doers of the Word (James)', '“Every good gift and every perfect gift is from above, coming down from the Father of lights.”'],
       [42, 'XLII', 'a-living-hope', '1–2 Peter & Jude', 'A Living Hope (1–2 Peter & Jude)', '“Until the day dawns, and the morning star arises in your hearts.”'],
       [43, 'XLIII', 'little-children', '1–3 John', 'Little Children (The Letters of John)', '“There is no fear in love; but perfect love casts out fear.”'],
-      [44, 'XLIV', 'all-things-new', 'Revelation', 'All Things New (Revelation)', '“Behold, I am making all things new… Yes, come, Lord Jesus.”']
+      [44, 'XLIV', 'all-things-new', 'Revelation', 'All Things New (Revelation)', '“Yes, come, Lord Jesus. The grace of the Lord Jesus be with all the saints. Amen.”']
     ];
 
     remaining36.forEach(([idx, rom, slug, shortName, fullLabel, amenQuote], i) => {
@@ -453,7 +453,7 @@ class PilgrimWalkApp {
   async ensureManifestLoaded(slug) {
     if (this.manifests[slug]) return this.manifests[slug];
     try {
-      const res = await fetch(`assets/data/${slug}-manifest.json?v=44_21`);
+      const res = await fetch(`assets/data/${slug}-manifest.json?v=44_22`);
       if (res.ok) {
         this.manifests[slug] = await res.json();
         return this.manifests[slug];
@@ -922,6 +922,12 @@ class PilgrimWalkApp {
         { n: 18, label: '18 · “fire on Carmel” (12-Stone Altar)' },
         { n: 21, label: '21 · “a still small voice” (Horeb Cave)' },
         { n: 32, label: '32 · “more with us” (Chariots of Fire)' }
+      ],
+      'all-things-new': [
+        { n: 4, label: '4 · “among the lampstands” (7 Golden Lampstands)' },
+        { n: 8, label: '8 · “knocking” (Door & Supper Table)' },
+        { n: 13, label: '13 · “the Lion is a Lamb” (Lamb & Emerald Throne)' },
+        { n: 38, label: '38 · “leaves for healing” (Tree of Life & Bench)' }
       ]
     };
 
@@ -1874,10 +1880,16 @@ class PilgrimWalkApp {
     const amenNextBtn = document.getElementById('amen-next-district-btn');
 
     if (amenEyebrow) {
-      amenEyebrow.textContent = `AMEN GATE · DISTRICT ${meta.num} COMPLETED`;
+      amenEyebrow.textContent =
+        this.currentDistrictSlug === 'all-things-new'
+          ? 'AMEN GATE · DISTRICT XLIV COMPLETED · THE GREAT LANTERN'
+          : `AMEN GATE · DISTRICT ${meta.num} COMPLETED`;
     }
     if (amenTitle) {
-      amenTitle.textContent = `${this.manifest.title} — Completed`;
+      amenTitle.textContent =
+        this.currentDistrictSlug === 'all-things-new'
+          ? `${this.manifest.title} — All 44 Books Completed`
+          : `${this.manifest.title} — Completed`;
     }
     if (amenQuote) {
       amenQuote.textContent = meta.amenQuote;
@@ -1886,10 +1898,16 @@ class PilgrimWalkApp {
       amenCover.src = this.manifest.cover;
     }
     if (amenDesc) {
-      amenDesc.innerHTML = `Your lantern shines brighter, and <em>${this.manifest.title}</em> now rests on the Gatehouse Cover Shelf. Next on your pilgrimage: <strong>${meta.nextLabel}</strong>.`;
+      amenDesc.innerHTML =
+        this.currentDistrictSlug === 'all-things-new'
+          ? `The Great Lantern shines at full radiance beneath the Tree of Life, and the Stone Bench by the River of Water of Life answers the Sabbath Bench where your walk began in Genesis. <em>${this.manifest.title}</em> now rests on the Gatehouse Cover Shelf. Return to <strong>${meta.nextLabel}</strong>.`
+          : `Your lantern shines brighter, and <em>${this.manifest.title}</em> now rests on the Gatehouse Cover Shelf. Next on your pilgrimage: <strong>${meta.nextLabel}</strong>.`;
     }
     if (amenNextBtn) {
-      amenNextBtn.textContent = `✦ Continue to ${meta.nextLabel} →`;
+      amenNextBtn.textContent =
+        this.currentDistrictSlug === 'all-things-new'
+          ? `✦ Return to ${meta.nextLabel} →`
+          : `✦ Continue to ${meta.nextLabel} →`;
     }
 
     // 4. The Relic Workshop Modal

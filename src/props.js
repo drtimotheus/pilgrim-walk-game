@@ -4177,4 +4177,702 @@ export class PainterlyPropBuilder {
 
     return group;
   }
+
+  // ============================================================================
+  // DISTRICT XLIV (REVELATION — "ALL THINGS NEW") BESPOKE SANCTUARY PROPS
+  // Matching Timothy Holt's paintings #4, #8, #13, #36, #38 & the Finale Plaza:
+  //   1. Seven Golden Lampstands & Unrolled Prophecy Scroll (Rev 1:12–20, #4)
+  //   2. Laodicea Threshold Door, Wall Niche Lamp & Supper Table (Rev 3:14–20, #8)
+  //   3. The Lamb Standing in Concentric Golden Rings + Emerald Rainbow (Rev 5:5–6, #13)
+  //   4. New Jerusalem Twelve-Foundation Wall & Gate of Pearl Archway (Rev 21:14–21, #36)
+  //   5. Tree of Life with 12 Monthly Fruits, Stone Bench of Rest & Great Lantern (Rev 22:1–5, #38)
+  // ============================================================================
+
+  // Revelation 1:12–20 (#4 "among the lampstands"): Semicircle of Seven Tall Ornate
+  // Golden Lampstands with living flames and the Unrolled Prophecy Scroll on a linen cloth
+  createSevenGoldenLampstandsCircle(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#85775f',
+      accentColor: pal.accent || '#eecb8c',
+      roughness: 0.86,
+      bumpScale: 0.05
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#e8dec8',
+      accentColor: '#faf3e3',
+      roughness: 0.9
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c4128',
+      accentColor: '#9e744b',
+      roughness: 0.8
+    });
+    const goldMat = new THREE.MeshStandardMaterial({
+      color: '#e5bc63',
+      emissive: '#594214',
+      emissiveIntensity: 0.58,
+      roughness: 0.32,
+      metalness: 0.78
+    });
+
+    const dais = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(3.4, 3.7, 0.18, 36), 0.025, 3.0),
+      stoneMat
+    );
+    dais.position.y = 0.09;
+    dais.userData.keepWithGlb = true;
+    group.add(dais);
+
+    const glowTex = this.painterly.createGlowSpriteTexture('#ffe294');
+    const flames = [];
+    const halos = [];
+
+    // Seven ornate pedestal lampstands arranged in a welcoming semicircle (matching painting #4)
+    for (let i = 0; i < 7; i++) {
+      const t = (i - 3) / 3; // -1 .. +1
+      const ang = t * 1.18;
+      const rad = 2.45;
+      const lx = Math.sin(ang) * rad;
+      const lz = -Math.cos(ang) * rad * 0.72;
+      const heightBoost = (1.0 - Math.abs(t) * 0.16);
+
+      const standGroup = new THREE.Group();
+      standGroup.position.set(lx, 0.18, lz);
+      standGroup.userData.keepWithGlb = true;
+
+      // Stepped ornate round base
+      const baseFoot = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.36, 0.16, 18), goldMat);
+      baseFoot.position.y = 0.08;
+      standGroup.add(baseFoot);
+
+      const baseTier = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.24, 0.14, 16), goldMat);
+      baseTier.position.y = 0.22;
+      standGroup.add(baseTier);
+
+      // Baluster stem with three carved knops
+      const stemH = 1.48 * heightBoost;
+      const stem = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.075, stemH, 14), goldMat);
+      stem.position.y = 0.28 + stemH * 0.5;
+      standGroup.add(stem);
+
+      for (const kf of [0.28, 0.55, 0.82]) {
+        const knop = new THREE.Mesh(new THREE.SphereGeometry(0.095, 12, 10), goldMat);
+        knop.scale.set(1.15, 0.68, 1.15);
+        knop.position.y = 0.28 + stemH * kf;
+        standGroup.add(knop);
+      }
+
+      // Flared oil basin bowl at top with four rimwick prongs
+      const bowlY = 0.28 + stemH + 0.08;
+      const bowl = new THREE.Mesh(new THREE.CylinderGeometry(0.30, 0.11, 0.20, 18), goldMat);
+      bowl.position.y = bowlY;
+      standGroup.add(bowl);
+
+      const rim = new THREE.Mesh(new THREE.TorusGeometry(0.30, 0.022, 8, 22), goldMat);
+      rim.rotation.x = Math.PI / 2;
+      rim.position.y = bowlY + 0.09;
+      standGroup.add(rim);
+
+      // Living golden flame & warm halo
+      const flame = new THREE.Mesh(
+        new THREE.ConeGeometry(0.085, 0.30, 12),
+        new THREE.MeshBasicMaterial({ color: '#fff3ba' })
+      );
+      flame.position.y = bowlY + 0.24;
+      standGroup.add(flame);
+      flames.push(flame);
+
+      const halo = new THREE.Sprite(
+        new THREE.SpriteMaterial({
+          map: glowTex,
+          color: '#ffd882',
+          transparent: true,
+          opacity: 0.84,
+          blending: THREE.AdditiveBlending
+        })
+      );
+      halo.position.y = bowlY + 0.28;
+      halo.scale.set(1.55, 1.55, 1);
+      standGroup.add(halo);
+      halos.push(halo);
+
+      group.add(standGroup);
+    }
+
+    // Foreground linen cloth & unrolled Prophecy Scroll ("Blessed is he who reads", matching painting #4)
+    const scrollGroup = new THREE.Group();
+    scrollGroup.position.set(-0.68, 0.20, 1.15);
+    scrollGroup.rotation.y = 0.48;
+    scrollGroup.userData.keepWithGlb = true;
+
+    const cloth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.35, 0.04, 0.92, 8, 2, 6), 0.015, 4.0),
+      linenMat
+    );
+    scrollGroup.add(cloth);
+
+    const scrollRoll = new THREE.Mesh(new THREE.CylinderGeometry(0.095, 0.095, 1.05, 16), linenMat);
+    scrollRoll.rotation.z = Math.PI / 2;
+    scrollRoll.position.set(0, 0.11, 0);
+    scrollGroup.add(scrollRoll);
+
+    for (const sx of [-0.56, 0.56]) {
+      const finial = new THREE.Mesh(new THREE.CylinderGeometry(0.045, 0.065, 0.18, 12), woodMat);
+      finial.rotation.z = Math.PI / 2;
+      finial.position.set(sx, 0.11, 0);
+      scrollGroup.add(finial);
+    }
+    group.add(scrollGroup);
+
+    const lampLight = new THREE.PointLight('#ffdf94', 2.9, 18);
+    lampLight.position.set(0, 2.2, 0.2);
+    group.add(lampLight);
+
+    return { group, flames, halos, lampLight };
+  }
+
+  // Revelation 3:14–20 (#8 "knocking"): Weathered Wooden Threshold Door with Golden Light
+  // Streaming Under the Crack, Arched Wall Niche Oil Lamp, and Supper Table Set with Bread, Olives & Lantern
+  createLaodiceaDoorAndSupperTable(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const plasterMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.horizon || '#b8a282',
+      accentColor: pal.accent || '#f5d79c',
+      roughness: 0.88,
+      bumpScale: 0.05
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c432b',
+      accentColor: '#96704c',
+      roughness: 0.84,
+      bumpScale: 0.05
+    });
+    const ironMat = new THREE.MeshStandardMaterial({
+      color: '#3a352f',
+      roughness: 0.5,
+      metalness: 0.72
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#966846',
+      accentColor: '#cfa078',
+      roughness: 0.82
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#dfd3bc',
+      accentColor: '#f7efe0',
+      roughness: 0.9
+    });
+
+    // Plastered stone wall framing the wooden door (matching painting #8)
+    const leftWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.65, 3.5, 0.42, 6, 8, 3), 0.025, 3.0),
+      plasterMat
+    );
+    leftWall.position.set(-1.65, 1.75, -0.4);
+    leftWall.userData.keepWithGlb = true;
+    group.add(leftWall);
+
+    const rightWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.65, 3.5, 0.42, 6, 8, 3), 0.025, 3.0),
+      plasterMat
+    );
+    rightWall.position.set(1.65, 1.75, -0.4);
+    rightWall.userData.keepWithGlb = true;
+    group.add(rightWall);
+
+    const lintelWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(4.95, 0.68, 0.44, 10, 3, 3), 0.025, 3.0),
+      plasterMat
+    );
+    lintelWall.position.set(0, 3.65, -0.4);
+    lintelWall.userData.keepWithGlb = true;
+    group.add(lintelWall);
+
+    // Timber door with iron straps & latch bar slightly ajar, warm golden light glowing along the bottom & edge
+    const doorPivot = new THREE.Group();
+    doorPivot.position.set(-0.82, 0.08, -0.36);
+    doorPivot.userData.keepWithGlb = true;
+
+    const doorPlanks = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.62, 3.18, 0.14, 6, 10, 2), 0.015, 4.0),
+      woodMat
+    );
+    doorPlanks.position.set(0.81, 1.59, 0);
+    doorPivot.add(doorPlanks);
+
+    for (const by of [0.58, 2.65]) {
+      const strap = new THREE.Mesh(new THREE.BoxGeometry(1.54, 0.10, 0.17), ironMat);
+      strap.position.set(0.81, by, 0);
+      doorPivot.add(strap);
+    }
+    const latch = new THREE.Mesh(new THREE.BoxGeometry(0.46, 0.09, 0.20), ironMat);
+    latch.position.set(1.38, 1.52, 0.02);
+    doorPivot.add(latch);
+    doorPivot.rotation.y = 0.14;
+    group.add(doorPivot);
+
+    // Golden light crack along the threshold and right door seam (matching painting #8)
+    const crackMat = new THREE.MeshBasicMaterial({
+      color: '#ffd97d',
+      transparent: true,
+      opacity: 0.95
+    });
+    const bottomCrack = new THREE.Mesh(new THREE.PlaneGeometry(1.68, 0.18), crackMat);
+    bottomCrack.rotation.x = -Math.PI / 2;
+    bottomCrack.position.set(0, 0.03, -0.25);
+    bottomCrack.userData.keepWithGlb = true;
+    group.add(bottomCrack);
+
+    const sideCrack = new THREE.Mesh(new THREE.PlaneGeometry(0.08, 3.15), crackMat);
+    sideCrack.position.set(0.80, 1.62, -0.35);
+    sideCrack.userData.keepWithGlb = true;
+    group.add(sideCrack);
+
+    // Wall niche clay oil lamp on the left wall + terracotta amphora below (matching painting #8)
+    const nicheLampFlame = new THREE.Mesh(
+      new THREE.ConeGeometry(0.06, 0.22, 10),
+      new THREE.MeshBasicMaterial({ color: '#ffea9f' })
+    );
+    nicheLampFlame.position.set(-1.62, 1.78, -0.14);
+    nicheLampFlame.userData.keepWithGlb = true;
+    group.add(nicheLampFlame);
+
+    const nicheBowl = new THREE.Mesh(new THREE.SphereGeometry(0.14, 12, 10), clayMat);
+    nicheBowl.scale.set(1.3, 0.55, 0.95);
+    nicheBowl.position.set(-1.62, 1.62, -0.14);
+    nicheBowl.userData.keepWithGlb = true;
+    group.add(nicheBowl);
+
+    const leftJar = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.32, 0.86, 16), clayMat);
+    leftJar.position.set(-1.65, 0.45, 0.22);
+    leftJar.userData.keepWithGlb = true;
+    group.add(leftJar);
+
+    // Foreground right: Wooden Supper Table with fringed linen runner, bread, olives, glass lantern & olive branch in pitcher
+    const tableGroup = new THREE.Group();
+    tableGroup.position.set(1.22, 0, 0.92);
+    tableGroup.userData.keepWithGlb = true;
+
+    const tableTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.55, 0.10, 1.12, 6, 2, 6), 0.015, 4.0),
+      woodMat
+    );
+    tableTop.position.y = 0.84;
+    tableGroup.add(tableTop);
+
+    for (const [lx, lz] of [[-0.65, -0.44], [0.65, -0.44], [-0.65, 0.44], [0.65, 0.44]]) {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.11, 0.84, 0.11), woodMat);
+      leg.position.set(lx, 0.42, lz);
+      tableGroup.add(leg);
+    }
+
+    const runner = new THREE.Mesh(new THREE.BoxGeometry(0.88, 0.03, 1.16), linenMat);
+    runner.position.set(-0.22, 0.90, 0);
+    tableGroup.add(runner);
+
+    // Hexagonal glass-and-iron table lantern with glowing candle inside
+    const lanternFrame = new THREE.Mesh(new THREE.CylinderGeometry(0.20, 0.20, 0.54, 6), ironMat);
+    lanternFrame.position.set(0.05, 1.18, -0.08);
+    tableGroup.add(lanternFrame);
+
+    const lanternGlass = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.17, 0.17, 0.46, 6),
+      new THREE.MeshBasicMaterial({ color: '#ffd97d', transparent: true, opacity: 0.88 })
+    );
+    lanternGlass.position.set(0.05, 1.18, -0.08);
+    tableGroup.add(lanternGlass);
+
+    // Plate of flat loaves & bowl of olives
+    const breadLoaf = new THREE.Mesh(new THREE.SphereGeometry(0.22, 12, 10), linenMat);
+    breadLoaf.scale.set(1.3, 0.35, 1.0);
+    breadLoaf.position.set(0.34, 0.95, 0.22);
+    tableGroup.add(breadLoaf);
+
+    const oliveBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.10, 0.09, 14), clayMat);
+    oliveBowl.position.set(-0.34, 0.95, 0.18);
+    tableGroup.add(oliveBowl);
+
+    const rightPitcher = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.22, 0.48, 14), clayMat);
+    rightPitcher.position.set(0.45, 1.14, -0.25);
+    tableGroup.add(rightPitcher);
+
+    group.add(tableGroup);
+
+    const doorLight = new THREE.PointLight('#ffd275', 2.8, 18);
+    doorLight.position.set(0.2, 1.6, 0.5);
+    group.add(doorLight);
+
+    return { group, doorPivot, doorLight, lanternGlass, bottomCrack };
+  }
+
+  // Revelation 5:5–8 (#13 "the Lion is a Lamb"): The Lamb Standing at the Center of
+  // Concentric Golden Rings on the Sea of Glass, flanked by Shepherd's Staff on White Linen,
+  // Golden Bowls of Incense (Prayers of the Saints), Olive Branch & Twenty-Four Crowns
+  createLambOnThroneRings(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#ede4cf',
+      accentColor: '#fff9eb',
+      roughness: 0.88
+    });
+    const woolMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#f5efe0',
+      accentColor: '#ffffff',
+      roughness: 0.92,
+      bumpScale: 0.06
+    });
+    woolMat.emissive = new THREE.Color('#6e6248');
+    woolMat.emissiveIntensity = 0.45;
+
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e5034',
+      accentColor: '#b38960',
+      roughness: 0.82
+    });
+    const oliveLeafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c6e49',
+      accentColor: '#a8ba88',
+      roughness: 0.8
+    });
+    const goldMat = new THREE.MeshStandardMaterial({
+      color: '#f2ca68',
+      emissive: '#6e4c14',
+      emissiveIntensity: 0.65,
+      roughness: 0.28,
+      metalness: 0.8
+    });
+
+    // Concentric golden light rings on the ground (matching painting #13)
+    const rings = [];
+    for (const r of [0.95, 1.55, 2.25, 2.95]) {
+      const rMesh = new THREE.Mesh(
+        new THREE.RingGeometry(r, r + 0.055, 48),
+        new THREE.MeshBasicMaterial({
+          color: '#ffdf88',
+          side: THREE.DoubleSide,
+          transparent: true,
+          opacity: 0.78,
+          blending: THREE.AdditiveBlending
+        })
+      );
+      rMesh.rotation.x = -Math.PI / 2;
+      rMesh.position.y = 0.04;
+      rMesh.userData.keepWithGlb = true;
+      group.add(rMesh);
+      rings.push(rMesh);
+    }
+
+    // Sculpted Gentle Lamb standing in the center of the golden rings (fallback & companion to GLB)
+    const lambGroup = new THREE.Group();
+    lambGroup.position.set(0, 0.06, 0);
+
+    const torso = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CapsuleGeometry(0.28, 0.58, 8, 14), 0.025, 6.0),
+      woolMat
+    );
+    torso.rotation.x = Math.PI / 2;
+    torso.position.set(0, 0.68, 0);
+    lambGroup.add(torso);
+
+    const neck = new THREE.Mesh(new THREE.CapsuleGeometry(0.16, 0.28, 6, 10), woolMat);
+    neck.position.set(0, 0.92, 0.28);
+    neck.rotation.x = -0.35;
+    lambGroup.add(neck);
+
+    const head = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.21, 14, 12), 0.015, 5.0),
+      woolMat
+    );
+    head.scale.set(0.92, 0.95, 1.22);
+    head.position.set(0, 1.12, 0.42);
+    lambGroup.add(head);
+
+    for (const sx of [-1, 1]) {
+      const ear = new THREE.Mesh(new THREE.SphereGeometry(0.08, 8, 8), woolMat);
+      ear.scale.set(1.6, 0.45, 0.65);
+      ear.position.set(sx * 0.22, 1.16, 0.36);
+      ear.rotation.z = sx * -0.25;
+      lambGroup.add(ear);
+    }
+
+    for (const [lx, lz] of [[-0.15, 0.22], [0.15, 0.22], [-0.15, -0.24], [0.15, -0.24]]) {
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.042, 0.62, 8), woolMat);
+      leg.position.set(lx, 0.31, lz);
+      lambGroup.add(leg);
+    }
+    group.add(lambGroup);
+
+    // Foreground Left: Draped white linen garment & wooden shepherd's staff (matching painting #13)
+    const leftRelic = new THREE.Group();
+    leftRelic.position.set(-1.55, 0.08, 1.10);
+    leftRelic.userData.keepWithGlb = true;
+
+    const linenFold = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.52, 14, 10), 0.06, 3.5),
+      linenMat
+    );
+    linenFold.scale.set(1.35, 0.36, 1.1);
+    leftRelic.add(linenFold);
+
+    const staff = new THREE.Mesh(new THREE.CylinderGeometry(0.028, 0.032, 1.65, 10), woodMat);
+    staff.rotation.z = Math.PI / 2 - 0.18;
+    staff.rotation.y = 0.55;
+    staff.position.set(0.12, 0.18, 0.05);
+    leftRelic.add(staff);
+    group.add(leftRelic);
+
+    // Foreground Right: Golden Bowls of Incense (Rev 5:8), White Linen & Green Olive Branch (matching painting #13)
+    const rightRelic = new THREE.Group();
+    rightRelic.position.set(1.52, 0.08, 1.05);
+    rightRelic.userData.keepWithGlb = true;
+
+    const incenseBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.16, 0.22, 18), goldMat);
+    incenseBowl.position.set(0, 0.14, 0);
+    rightRelic.add(incenseBowl);
+
+    const branchStem = new THREE.Mesh(new THREE.CylinderGeometry(0.015, 0.02, 0.85, 8), woodMat);
+    branchStem.rotation.z = Math.PI / 2;
+    branchStem.rotation.y = -0.45;
+    branchStem.position.set(-0.22, 0.06, 0.38);
+    rightRelic.add(branchStem);
+
+    for (let l = 0; l < 7; l++) {
+      const leaf = new THREE.Mesh(new THREE.SphereGeometry(0.065, 8, 6), oliveLeafMat);
+      leaf.scale.set(1.8, 0.25, 0.7);
+      leaf.position.set(-0.45 + l * 0.11, 0.08, 0.35 + (l % 2 === 0 ? 0.08 : -0.08));
+      rightRelic.add(leaf);
+    }
+    group.add(rightRelic);
+
+    // Golden crowns cast down around the outer ring (Revelation 4:10 — "crowns on the floor")
+    const crowns = [];
+    for (let c = 0; c < 6; c++) {
+      const ang = (c / 6) * Math.PI * 1.4 - 0.7 + Math.PI;
+      const crown = new THREE.Mesh(new THREE.TorusGeometry(0.18, 0.038, 8, 18), goldMat);
+      crown.rotation.x = Math.PI / 2 + 0.15;
+      crown.position.set(Math.sin(ang) * 2.55, 0.09, Math.cos(ang) * 2.25);
+      crown.userData.keepWithGlb = true;
+      group.add(crown);
+      crowns.push(crown);
+    }
+
+    const throneLight = new THREE.PointLight('#fff0ba', 3.2, 22);
+    throneLight.position.set(0, 2.6, 0.4);
+    group.add(throneLight);
+
+    return { group, rings, crowns, throneLight };
+  }
+
+  // Revelation 21:14–21 (#36 "gates of pearl"): Luminous Archway of Single Pearl
+  // set upon Twelve Jewel-Toned Foundation Stones along the New Jerusalem Street
+  createGatesOfPearlArchway(pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c9bfab',
+      accentColor: '#f7e6bd',
+      roughness: 0.76
+    });
+    const pearlMat = new THREE.MeshStandardMaterial({
+      color: '#fcf8ee',
+      emissive: '#80755c',
+      emissiveIntensity: 0.55,
+      roughness: 0.18,
+      metalness: 0.25
+    });
+    const goldMat = new THREE.MeshStandardMaterial({
+      color: '#f2ca68',
+      emissive: '#593b08',
+      emissiveIntensity: 0.55,
+      roughness: 0.28,
+      metalness: 0.8
+    });
+
+    // Stepped jasper & gold foundation wall
+    for (const sx of [-1.45, 1.45]) {
+      const pier = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.95, 3.2, 0.95, 4, 8, 4), 0.025, 3.0),
+        stoneMat
+      );
+      pier.position.set(sx, 1.6, 0);
+      group.add(pier);
+    }
+
+    // Iridescent Pearl Arch & Crown Sphere
+    const pearlRing = new THREE.Mesh(new THREE.TorusGeometry(1.45, 0.28, 16, 36, Math.PI), pearlMat);
+    pearlRing.position.set(0, 3.1, 0);
+    group.add(pearlRing);
+
+    const pearlOrb = new THREE.Mesh(new THREE.SphereGeometry(0.42, 20, 20), pearlMat);
+    pearlOrb.position.set(0, 4.78, 0);
+    group.add(pearlOrb);
+
+    const goldBand = new THREE.Mesh(new THREE.TorusGeometry(0.46, 0.035, 10, 24), goldMat);
+    goldBand.rotation.x = Math.PI / 2;
+    goldBand.position.set(0, 4.55, 0);
+    group.add(goldBand);
+
+    return group;
+  }
+
+  // Revelation 22:1–5 (#38 "leaves for healing" & Finale Plaza):
+  // The Tree of Life with Twelve Manner of Golden-Green Fruits, the Stone Bench of Rest
+  // beneath its boughs (answering Genesis No. 4's Sabbath Bench), Terracotta Water Jars,
+  // Unrolled Scroll, Bronze Bowl of Healing Leaves, and the Great Lantern of the Lamb
+  createTreeOfLifeAndBenchSanctuary(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    // 1. The Great Tree of Life rising on the terraced stone embankment (matching painting #38)
+    const tree = this.createGreatPainterlyTree(
+      propTex,
+      {
+        ground: '#594a38',
+        horizon: '#687d4e',
+        accent: '#e8dfa8'
+      },
+      isFinalePlaza ? 1.52 : 1.38
+    );
+    tree.position.set(isFinalePlaza ? 0 : 2.35, 0.15, isFinalePlaza ? -2.2 : -1.4);
+    tree.userData.keepWithGlb = true;
+    group.add(tree);
+
+    // Twelve luminous golden-green fruits hanging from the boughs ("fruit every month", Rev 22:2)
+    const fruitMat = new THREE.MeshStandardMaterial({
+      color: '#d9e38a',
+      emissive: '#6a7526',
+      emissiveIntensity: 0.72,
+      roughness: 0.35,
+      metalness: 0.15
+    });
+    const fruits = [];
+    for (let f = 0; f < 12; f++) {
+      const ang = (f / 12) * Math.PI * 2;
+      const rad = 1.55 + (f % 3) * 0.55;
+      const fruit = new THREE.Mesh(new THREE.SphereGeometry(0.14, 12, 12), fruitMat);
+      fruit.position.set(
+        tree.position.x + Math.cos(ang) * rad,
+        2.75 + (f % 4) * 0.45,
+        tree.position.z + Math.sin(ang) * rad
+      );
+      fruit.userData.keepWithGlb = true;
+      group.add(fruit);
+      fruits.push(fruit);
+    }
+
+    // 2. THE SIGNATURE BOOKEND ELEMENT: The Stone Bench beneath the Tree of Life
+    // Answers Genesis No. 4's Sabbath Bench — with woven linen cloth, unrolled scroll, water jars & bowl of healing leaves
+    const bench = this.createStoneBench(propTex, {
+      ground: '#827968',
+      accent: '#f0dfba'
+    });
+    bench.position.set(isFinalePlaza ? 0 : 0.65, 0.12, isFinalePlaza ? 0.65 : 0.45);
+    bench.rotation.y = isFinalePlaza ? 0 : -0.28;
+    bench.userData.keepWithGlb = true;
+    group.add(bench);
+
+    // Bronze bowl filled with green healing leaves ("The leaves of the tree were for the healing of the nations", painting #38)
+    const bronzeMat = new THREE.MeshStandardMaterial({
+      color: '#a87d46',
+      roughness: 0.42,
+      metalness: 0.68
+    });
+    const leafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#567042',
+      accentColor: '#9eb87d',
+      roughness: 0.78
+    });
+    const bowlGroup = new THREE.Group();
+    bowlGroup.position.set(bench.position.x - 0.85, 0.22, bench.position.z + 0.68);
+    bowlGroup.userData.keepWithGlb = true;
+
+    const leafBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.34, 0.18, 0.12, 18), bronzeMat);
+    bowlGroup.add(leafBowl);
+    for (let l = 0; l < 9; l++) {
+      const lf = new THREE.Mesh(new THREE.SphereGeometry(0.09, 8, 6), leafMat);
+      lf.scale.set(1.7, 0.25, 0.85);
+      const a = (l / 9) * Math.PI * 2;
+      lf.position.set(Math.cos(a) * 0.14, 0.06 + (l % 2) * 0.02, Math.sin(a) * 0.14);
+      lf.rotation.y = a;
+      bowlGroup.add(lf);
+    }
+    group.add(bowlGroup);
+
+    // Classical stone fountain basin on the opposite bank of the River of Life (matching painting #38 left side)
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#968d7a',
+      accentColor: '#e6dcc5',
+      roughness: 0.84
+    });
+    const fountainGroup = new THREE.Group();
+    fountainGroup.position.set(isFinalePlaza ? -3.6 : -2.85, 0.12, -0.85);
+    fountainGroup.userData.keepWithGlb = true;
+
+    const fPedestal = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.46, 1.25, 16), stoneMat);
+    fPedestal.position.y = 0.62;
+    fountainGroup.add(fPedestal);
+
+    const fBasin = new THREE.Mesh(new THREE.CylinderGeometry(0.95, 0.38, 0.28, 22), stoneMat);
+    fBasin.position.y = 1.32;
+    fountainGroup.add(fBasin);
+    group.add(fountainGroup);
+
+    // 3. The Great Lantern of the Lamb ("its lamp is the Lamb", Rev 21:23)
+    const goldMat = new THREE.MeshStandardMaterial({
+      color: '#f7d474',
+      emissive: '#785314',
+      emissiveIntensity: 0.75,
+      roughness: 0.25,
+      metalness: 0.82
+    });
+    const greatLantern = new THREE.Group();
+    greatLantern.position.set(isFinalePlaza ? 2.85 : -1.45, 0.15, isFinalePlaza ? 0.35 : 0.85);
+    greatLantern.userData.keepWithGlb = true;
+
+    const lPillar = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.28, 1.95, 14), stoneMat);
+    lPillar.position.y = 0.98;
+    greatLantern.add(lPillar);
+
+    const lCage = new THREE.Mesh(new THREE.CylinderGeometry(0.34, 0.28, 0.68, 8), goldMat);
+    lCage.position.y = 2.25;
+    greatLantern.add(lCage);
+
+    const lCore = new THREE.Mesh(
+      new THREE.SphereGeometry(0.22, 16, 16),
+      new THREE.MeshBasicMaterial({ color: '#fff8d6' })
+    );
+    lCore.position.y = 2.25;
+    greatLantern.add(lCore);
+
+    const glowTex = this.painterly.createGlowSpriteTexture('#ffe6a3');
+    const lHalo = new THREE.Sprite(
+      new THREE.SpriteMaterial({
+        map: glowTex,
+        color: '#ffe8a8',
+        transparent: true,
+        opacity: 0.92,
+        blending: THREE.AdditiveBlending
+      })
+    );
+    lHalo.position.y = 2.28;
+    lHalo.scale.set(3.6, 3.6, 1);
+    greatLantern.add(lHalo);
+    group.add(greatLantern);
+
+    const sanctuaryLight = new THREE.PointLight('#ffe8a3', 3.4, 26);
+    sanctuaryLight.position.set(0, 3.4, 0.5);
+    group.add(sanctuaryLight);
+
+    return { group, bench, fruits, greatLantern, lHalo, sanctuaryLight };
+  }
 }

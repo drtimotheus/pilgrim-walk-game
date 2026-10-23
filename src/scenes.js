@@ -202,6 +202,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateKingsStillSmallVoiceScene(group, derived, pal, getTerrainHeight);
     } else if (kind === 'chariots_of_fire') {
       signatureState = this.populateKingsChariotsOfFireScene(group, derived, pal, getTerrainHeight);
+    } else if (kind === 'seven_golden_lampstands') {
+      signatureState = this.populateRevelation4LampstandsScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'behold_i_stand_and_knock') {
+      signatureState = this.populateRevelation8KnockingDoorScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'emerald_rainbow_throne') {
+      signatureState = this.populateRevelation13LambThroneScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'river_of_life_new_jerusalem') {
+      signatureState = this.populateRevelation38TreeOfLifeScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -215,7 +223,7 @@ export class StepThroughSceneManager {
       );
     }
 
-    // For Book 1-8 custom scenes that don't go through populateBook9To44StepThroughScene,
+    // For Book 1-8 & Book 44 custom scenes that don't go through populateBook9To44StepThroughScene,
     // also mount a scene-specific 3D GLB model at the signatureTarget if one exists in assets/models/scenes/<slug>-<n>.glb
     if (
       this.propBuilder &&
@@ -229,7 +237,8 @@ export class StepThroughSceneManager {
         'light', 'garden', 'bow', 'bush', 'passover', 'redsea', 'tabernacle',
         'altar_fire', 'menorah', 'rock_water', 'bronze_serpent',
         'mezuzah', 'sheaf', 'two_roads', 'nebo', 'jordan_stones', 'jericho_walls',
-        'ruth_gleaning', 'samuel_lamp', 'five_smooth_stones', 'temple_cloud', 'carmel_fire'
+        'ruth_gleaning', 'samuel_lamp', 'five_smooth_stones', 'temple_cloud', 'carmel_fire',
+        'seven_golden_lampstands', 'behold_i_stand_and_knock', 'emerald_rainbow_throne', 'river_of_life_new_jerusalem'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -2135,6 +2144,276 @@ export class StepThroughSceneManager {
         fieryRig.chariots.forEach((ch, idx) => {
           ch.cGroup.position.y += Math.sin(time * 2.5 + idx) * 0.002;
           ch.halo.scale.set((2.8 + val * 1.1), (2.2 + val * 0.9), 1);
+        });
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XLIV (ALL THINGS NEW / REVELATION) SCENE 1:
+  // No. 4 — "among the lampstands" (Revelation 1:12–20)
+  // ==========================================================================
+  populateRevelation4LampstandsScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const lampPos = new THREE.Vector3(0.0, 0.0, -5.8);
+    const lampRig = this.propBuilder.createSevenGoldenLampstandsCircle(derived.propTex, pal);
+    lampRig.group.position.copy(lampPos);
+    group.add(lampRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        lampRig.group,
+        'all-things-new',
+        4,
+        { targetHeight: 3.0, yOffset: 0.22 }
+      );
+    }
+
+    if (skyDome && skyDome.material && skyDome.material.uniforms && skyDome.material.uniforms.uStarIntensity) {
+      skyDome.material.uniforms.uStarIntensity.value = 0.72;
+    }
+
+    // Patmos coastal olive & cypress trees framing the sanctuary clearing (matching painting #4)
+    for (const [tx, tz, ts] of [[-5.6, -7.8, 0.92], [5.4, -7.5, 0.88]]) {
+      const tree = this.propBuilder.createGreatPainterlyTree(derived.propTex, pal, ts);
+      tree.position.set(tx, getTerrainHeight ? getTerrainHeight(tx, tz) : 0, tz);
+      group.add(tree);
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.85, 3.4, '#ffea9f');
+    shaft.position.set(0, 6.4, -5.8);
+    group.add(shaft);
+
+    return {
+      signatureTarget: lampPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Walk Among the Seven Golden Lampstands & Unrolled Prophecy Scroll',
+      signatureActivatedText: '“The seven lampstands are seven assemblies… your little church is not forgotten. He is walking right there.” (Revelation 1:12–20)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._revLampstandsLatched = Math.min(1.0, (this._revLampstandsLatched || 0) + dt * 0.5);
+        const val = this._revLampstandsLatched || 0;
+        const pulse = 1.0 + Math.sin(time * 4.2) * 0.10;
+        lampRig.lampLight.intensity = (2.9 + val * 3.5) * pulse;
+        lampRig.flames.forEach((fl, i) => {
+          const fPulse = 1.0 + Math.sin(time * 5.5 + i * 0.9) * 0.14;
+          fl.scale.set(1.0 + val * 0.25, (1.0 + val * 0.38) * fPulse, 1.0 + val * 0.25);
+        });
+        lampRig.halos.forEach((hl, i) => {
+          const hPulse = 1.0 + Math.sin(time * 3.8 + i * 0.7) * 0.08;
+          hl.scale.setScalar((1.55 + val * 0.55) * hPulse);
+        });
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XLIV (ALL THINGS NEW / REVELATION) SCENE 2:
+  // No. 8 — "knocking" (Revelation 3:14–20)
+  // ==========================================================================
+  populateRevelation8KnockingDoorScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const doorPos = new THREE.Vector3(0.0, 0.0, -5.6);
+    const doorRig = this.propBuilder.createLaodiceaDoorAndSupperTable(derived.propTex, pal);
+    doorRig.group.position.copy(doorPos);
+    group.add(doorRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        doorRig.group,
+        'all-things-new',
+        8,
+        { targetHeight: 3.0, yOffset: 0.22 }
+      );
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.78, 3.0, '#ffd884');
+    shaft.position.set(0.3, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: doorPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Open the Threshold Door & Sit at the Supper Table',
+      signatureActivatedText: '“Behold, I stand at the door and knock. If anyone hears my voice and opens the door, then I will come in to him, and will dine with him, and he with me.” (Revelation 3:20)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.2;
+        if (near) this._revDoorLatched = Math.min(1.0, (this._revDoorLatched || 0) + dt * 0.5);
+        const val = this._revDoorLatched || 0;
+        // Gently swing the wooden door further open as the pilgrim approaches
+        doorRig.doorPivot.rotation.y = 0.14 + val * 0.42;
+        doorRig.doorLight.intensity = 2.8 + val * 3.6 + Math.sin(time * 3.2) * 0.22;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XLIV (ALL THINGS NEW / REVELATION) SCENE 3:
+  // No. 13 — "the Lion is a Lamb" (Revelation 5:5–6)
+  // ==========================================================================
+  populateRevelation13LambThroneScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const thronePos = new THREE.Vector3(0.0, 0.0, -5.8);
+    const lambRig = this.propBuilder.createLambOnThroneRings(derived.propTex, pal);
+    lambRig.group.position.copy(thronePos);
+    group.add(lambRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        lambRig.group,
+        'all-things-new',
+        13,
+        { targetHeight: 2.9, yOffset: 0.12 }
+      );
+    }
+
+    // Sea of Glass crystal water reflection on the left (matching the waterfall & pool in painting #13)
+    const glassSeaGeo = new THREE.PlaneGeometry(46, 24, 40, 40);
+    glassSeaGeo.rotateX(-Math.PI / 2);
+    const glassSeaMat = createKomorebiWaterMaterial(THREE, {
+      deepColor: '#5c7873',
+      shallowColor: '#d9d0b4',
+      sunColor: '#fff2c2',
+      opacity: 0.86
+    });
+    const glassSea = new THREE.Mesh(glassSeaGeo, glassSeaMat);
+    glassSea.position.set(-8.5, 0.03, -9.8);
+    group.add(glassSea);
+
+    // Emerald-and-gold rainbow arch over the Throne (Revelation 4:3 & 5:6)
+    if (skyDome && skyDome.material && skyDome.material.uniforms && skyDome.material.uniforms.uRainbowIntensity) {
+      skyDome.material.uniforms.uRainbowIntensity.value = 0.92;
+    }
+    const { bowGroup, bowMeshes } = this.createVividRainbowSkyArch();
+    group.add(bowGroup);
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.92, 3.8, '#fff0b8');
+    shaft.position.set(0, 6.6, -5.8);
+    group.add(shaft);
+
+    return {
+      signatureTarget: thronePos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Stand Before the Lamb in the Midst of the Throne & Golden Bowls of Prayer',
+      signatureActivatedText: '“Don’t weep… a Lamb standing, as though it had been slain.” — This is the whole secret of the book: the Lion wins by being the Lamb. (Revelation 5:5–6)',
+      updateScene: (dt, time, distToSignature, activeSkyDome, cameraPos) => {
+        glassSeaMat.uniforms.uTime.value = time;
+        if (cameraPos) glassSeaMat.uniforms.uCameraPos.value.copy(cameraPos);
+
+        const near = distToSignature < 4.2;
+        if (near) this._revLambLatched = Math.min(1.0, (this._revLambLatched || 0) + dt * 0.5);
+        const val = this._revLambLatched || 0;
+
+        lambRig.throneLight.intensity = 3.2 + val * 3.8;
+        lambRig.rings.forEach((r, idx) => {
+          r.scale.setScalar(1.0 + Math.sin(time * 1.8 + idx * 0.6) * 0.03 + val * 0.06);
+        });
+        bowMeshes.forEach((m, i) => {
+          const baseOp = i < 7 ? 0.76 : 0.36;
+          m.material.opacity = Math.min(0.98, baseOp + val * 0.20 + Math.sin(time * 1.4 + i * 0.4) * 0.04);
+        });
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XLIV (ALL THINGS NEW / REVELATION) SCENE 4:
+  // No. 38 — "leaves for healing" (Revelation 22:1–2)
+  // Bookends Genesis No. 4 ("the seventh day"):
+  //   - Crystal-clear River of Water of Life with floating lanterns & arched stone footbridge
+  //   - The Tree of Life with 12 manner of fruits and healing leaves
+  //   - THE SIGNATURE BENCH BENEATH THE TREE OF LIFE (answering Genesis's Sabbath Bench)
+  //   - The Great Lantern of the Lamb ("its lamp is the Lamb", Rev 21:23)
+  // ==========================================================================
+  populateRevelation38TreeOfLifeScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+
+    // 1. Crystal-clear River of Water of Life flowing down the middle of the New Jerusalem street (matching painting #38)
+    const riverGeo = new THREE.PlaneGeometry(18, 48, 40, 48);
+    riverGeo.rotateX(-Math.PI / 2);
+    const riverMat = createKomorebiWaterMaterial(THREE, {
+      deepColor: '#36686e',
+      shallowColor: '#98c4bc',
+      sunColor: '#fff6d6',
+      opacity: 0.92
+    });
+    const river = new THREE.Mesh(riverGeo, riverMat);
+    river.position.set(-2.2, 0.05, -10.5);
+    group.add(river);
+
+    // Arched stone bridge in the distance (matching the bridge at the center of painting #38)
+    const bridge = this.propBuilder.createStoneFootbridge({
+      ground: '#9e9583',
+      accent: '#f2e4c2'
+    });
+    bridge.position.set(-2.2, 0.02, -14.5);
+    group.add(bridge);
+
+    // Floating golden lanterns on the River of Life
+    const riverLanterns = [];
+    for (let i = 0; i < 8; i++) {
+      const l = this.propBuilder.createFloatingRiverLantern('#ffeba8');
+      l.position.set(-3.8 + (i % 3) * 1.4, 0.08, -4.5 - i * 2.2);
+      group.add(l);
+      riverLanterns.push(l);
+    }
+
+    // 2. The Tree of Life, Stone Bench of Rest, Bowl of Healing Leaves & Great Lantern of the Lamb
+    const sanctuaryPos = new THREE.Vector3(0.4, 0.0, -5.4);
+    const treeRig = this.propBuilder.createTreeOfLifeAndBenchSanctuary(derived.propTex, pal, false);
+    treeRig.group.position.copy(sanctuaryPos);
+    group.add(treeRig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        treeRig.group,
+        'all-things-new',
+        38,
+        { targetHeight: 3.1, yOffset: 0.22 }
+      );
+    }
+
+    // Secondary trees on both banks of the river ("on this side of the river and on that was the tree of life", Rev 22:2)
+    for (const [tx, tz, ts] of [[-5.6, -6.5, 1.05], [-5.2, -11.5, 0.95], [5.4, -10.8, 1.0]]) {
+      const t = this.propBuilder.createGreatPainterlyTree(derived.propTex, pal, ts);
+      t.position.set(tx, getTerrainHeight ? getTerrainHeight(tx, tz) : 0, tz);
+      group.add(t);
+    }
+
+    // Volumetric golden sunbeam shafts slanting through the Tree of Life boughs onto the Stone Bench
+    const sunShafts = [];
+    for (let i = 0; i < 4; i++) {
+      const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.72, 2.9, '#fff0b8');
+      shaft.position.set(0.2 + (i - 1.5) * 1.3, 6.2, -5.2 + (i % 2) * 0.8);
+      group.add(shaft);
+      sunShafts.push(shaft);
+    }
+
+    return {
+      signatureTarget: sanctuaryPos,
+      signatureRadius: 4.2,
+      signatureLabel: 'Rest on the Stone Bench Beneath the Tree of Life by the River',
+      signatureActivatedText: '“The leaves of the tree were for the healing of the nations.” — The Bible ends where it began: a garden, a river, a tree, a bench of rest, and God.',
+      updateScene: (dt, time, distToSignature, skyDome, cameraPos) => {
+        riverMat.uniforms.uTime.value = time;
+        if (cameraPos) riverMat.uniforms.uCameraPos.value.copy(cameraPos);
+
+        riverLanterns.forEach((l, idx) => {
+          l.position.y = 0.08 + Math.sin(time * 1.7 + idx) * 0.03;
+        });
+
+        const near = distToSignature < 4.2;
+        if (near) this._revTreeLatched = Math.min(1.0, (this._revTreeLatched || 0) + dt * 0.45);
+        const val = this._revTreeLatched || 0;
+
+        treeRig.sanctuaryLight.intensity = 3.4 + val * 3.8 + Math.sin(time * 1.8) * 0.25;
+        treeRig.lHalo.scale.setScalar(3.6 + val * 1.6 + Math.sin(time * 2.4) * 0.2);
+        sunShafts.forEach((sh, idx) => {
+          sh.material.uniforms.uOpacity.value = (0.22 + val * 0.20) * (0.88 + 0.12 * Math.sin(time * 1.2 + idx));
         });
         return near || val > 0.85;
       }

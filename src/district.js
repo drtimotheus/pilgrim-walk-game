@@ -614,6 +614,29 @@ export class GenesisDistrictBuilder {
     }
 
     if (biomeCfg.biome === 'prophetic_sanctuary') {
+      if (slug === 'all-things-new') {
+        // District XLIV (Revelation — "All Things New"):
+        // Part 1–2: Seven Golden Lampstands & Throne Sanctuary
+        // Part 5: New Jerusalem Twelve Gates of Pearl along the River of Water of Life
+        for (let i = 0; i < 12; i++) {
+          const rz = -18 - i * 34.0;
+          const pt = this.getPathPoint(rz);
+          const side = i % 2 === 0 ? 1 : -1;
+          if (rz < -290) {
+            const pearlGate = this.propBuilder.createGatesOfPearlArchway(pal);
+            pearlGate.scale.setScalar(0.82);
+            pearlGate.position.set(pt.x + (side > 0 ? 9.8 : -16.2), pt.y + 0.15, rz);
+            pearlGate.lookAt(pt.x, pt.y + 0.5, rz);
+            streetGroup.add(pearlGate);
+          } else {
+            const menorah = this.propBuilder.createGoldenMenorah(null, pal);
+            menorah.scale.setScalar(0.85);
+            menorah.position.set(pt.x + (side > 0 ? 9.5 : -16.2), pt.y + 0.3, rz);
+            streetGroup.add(menorah);
+          }
+        }
+        return;
+      }
       for (let i = 0; i < 12; i++) {
         const rz = -18 - i * 34.0;
         const pt = this.getPathPoint(rz);
@@ -682,7 +705,7 @@ export class GenesisDistrictBuilder {
       plinthGroup.lookAt(wx - side * 3.0, wy, wz + 3.0);
       streetGroup.add(plinthGroup);
 
-      if (pData.sceneType && slug !== 'greatly-beloved') {
+      if (pData.sceneType && slug !== 'greatly-beloved' && slug !== 'all-things-new') {
         const focal = this.propBuilder.createFocalPropForScene(pData.sceneType, null, pal);
         if (focal && focal.group) {
           if (focal.focalLight) focal.group.remove(focal.focalLight);
@@ -808,6 +831,51 @@ export class GenesisDistrictBuilder {
         streetGroup.add(steps);
         return;
       }
+    } else if (slug === 'all-things-new') {
+      if (pData.n === 4) {
+        const lamps = this.propBuilder.createSevenGoldenLampstandsCircle(null, pal);
+        if (lamps.lampLight) lamps.group.remove(lamps.lampLight);
+        lamps.group.scale.setScalar(0.68);
+        lamps.group.position.set(wx + side * 3.0, wy, wz - 2.4);
+        lamps.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(lamps.group);
+        return;
+      }
+      if (pData.n === 8) {
+        const door = this.propBuilder.createLaodiceaDoorAndSupperTable(null, pal);
+        if (door.doorLight) door.group.remove(door.doorLight);
+        door.group.scale.setScalar(0.68);
+        door.group.position.set(wx + side * 3.0, wy, wz - 2.4);
+        door.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(door.group);
+        return;
+      }
+      if (pData.n === 12 || pData.n === 13 || pData.n === 14) {
+        const lambRings = this.propBuilder.createLambOnThroneRings(null, pal);
+        if (lambRings.throneLight) lambRings.group.remove(lambRings.throneLight);
+        lambRings.group.scale.setScalar(0.72);
+        lambRings.group.position.set(wx + side * 3.0, wy, wz - 2.2);
+        lambRings.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(lambRings.group);
+        return;
+      }
+      if (pData.n === 36) {
+        const pearlGate = this.propBuilder.createGatesOfPearlArchway(pal);
+        pearlGate.scale.setScalar(0.76);
+        pearlGate.position.set(wx + side * 3.2, wy, wz - 1.2);
+        pearlGate.lookAt(wx - side * 2.0, wy, wz + 2.0);
+        streetGroup.add(pearlGate);
+        return;
+      }
+      if (pData.n === 38) {
+        const treeBench = this.propBuilder.createTreeOfLifeAndBenchSanctuary(null, pal, false);
+        if (treeBench.sanctuaryLight) treeBench.group.remove(treeBench.sanctuaryLight);
+        treeBench.group.scale.setScalar(0.72);
+        treeBench.group.position.set(wx + side * 3.0, wy, wz - 2.6);
+        treeBench.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(treeBench.group);
+        return;
+      }
     }
 
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
@@ -890,7 +958,8 @@ export class GenesisDistrictBuilder {
       'joshua-judges': 'DISTRICT V · BE STRONG AND COURAGEOUS — JOSHUA & JUDGES',
       ruth: 'DISTRICT VI · WHERE YOU GO — RUTH',
       samuel: 'DISTRICT VII · THE LAMP HAD NOT GONE OUT — 1–2 SAMUEL',
-      kings: 'DISTRICT VIII · A STILL SMALL VOICE — 1 & 2 KINGS'
+      kings: 'DISTRICT VIII · A STILL SMALL VOICE — 1 & 2 KINGS',
+      'all-things-new': 'DISTRICT XLIV · ALL THINGS NEW — REVELATION'
     };
 
     const gatePt = this.getPathPoint(6);
@@ -1358,6 +1427,58 @@ export class GenesisDistrictBuilder {
           height: 1.75,
           veilZ: -426.0
         }
+      ],
+      'all-things-new': [
+        {
+          part: 1,
+          id: 'all-things-new-light-1',
+          name: 'The Light of the Seven Lampstands',
+          hint: 'Shining beside the white stone & knocking door near “a white stone” & “knocking” (Part One)',
+          z: -62.0,
+          lateral: 6.2,
+          height: 1.78,
+          veilZ: -82.0
+        },
+        {
+          part: 2,
+          id: 'all-things-new-light-2',
+          name: 'The Light of the Emerald Throne',
+          hint: 'Glowing beside the golden bowls of incense near “the Lion is a Lamb” & “golden bowls” (Part Two)',
+          z: -136.0,
+          lateral: -6.2,
+          height: 1.65,
+          veilZ: -158.0
+        },
+        {
+          part: 3,
+          id: 'all-things-new-light-3',
+          name: 'The Light of the Golden Censer',
+          hint: 'Resting in the stillness near “half an hour” & “what goes up” (Part Three)',
+          z: -214.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -234.0
+        },
+        {
+          part: 4,
+          id: 'all-things-new-light-4',
+          name: 'The Light of the Wedding Supper',
+          hint: 'Shimmering by the sea of glass & wedding table near “hallelujah” & “the wedding” (Part Four)',
+          z: -302.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -320.0
+        },
+        {
+          part: 5,
+          id: 'all-things-new-light-5',
+          name: 'The Light of the River of Life',
+          hint: 'Glowing beneath the Tree of Life near “leaves for healing” & “come, Lord Jesus” before the Amen Gate (Part Five)',
+          z: -404.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -428.0
+        }
       ]
     };
 
@@ -1492,7 +1613,7 @@ export class GenesisDistrictBuilder {
       ? -268
       : slug === 'choose-life'
       ? -398
-      : ['genesis', 'exodus', 'fire-by-night', 'joshua-judges', 'samuel', 'kings'].includes(slug)
+      : ['genesis', 'exodus', 'fire-by-night', 'joshua-judges', 'samuel', 'kings', 'all-things-new'].includes(slug)
       ? -436
       : computedLastZ - 14.0;
     const pt = this.getPathPoint(plazaZ);
@@ -1550,6 +1671,25 @@ export class GenesisDistrictBuilder {
       const sanctuary = this.propBuilder.createCedarTempleSanctuary();
       sanctuary.group.position.set(0, 0.1, -4.4);
       group.add(sanctuary.group);
+    } else if (slug === 'all-things-new') {
+      // District XLIV Finale: The Tree of Life, the Stone Bench beneath the Tree (answering Genesis's Sabbath Bench),
+      // the Great Lantern of the Lamb ("its lamp is the Lamb"), and a Gate of Pearl
+      const newJerusalemFinale = this.propBuilder.createTreeOfLifeAndBenchSanctuary(
+        null,
+        { ground: '#786c5a', horizon: '#b8b08e', accent: '#ffeba6' },
+        true
+      );
+      newJerusalemFinale.group.position.set(0, 0.1, -3.8);
+      group.add(newJerusalemFinale.group);
+
+      const pearlGate = this.propBuilder.createGatesOfPearlArchway({
+        ground: '#c9bfab',
+        accent: '#f7e6bd'
+      });
+      pearlGate.scale.setScalar(0.92);
+      pearlGate.position.set(-5.2, 0.1, -4.5);
+      pearlGate.rotation.y = 0.45;
+      group.add(pearlGate);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -1615,6 +1755,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · A STILL SMALL VOICE COMPLETED',
         epigraph: 'After the fire, there was a still small voice — a lamp still burning',
         epigraphRef: 'APPROACH & PRESS [E] TO CONTINUE TO DISTRICT IX: OUR EYES ARE ON YOU'
+      },
+      'all-things-new': {
+        title: 'AMEN GATE · ALL THINGS NEW COMPLETED',
+        epigraph: 'Yes, come, Lord Jesus — The grace of the Lord Jesus be with all the saints. Amen.',
+        epigraphRef: 'REVELATION 22:20–21 · APPROACH & PRESS [E] TO KINDLE THE GREAT LANTERN'
       }
     };
 

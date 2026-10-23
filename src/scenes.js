@@ -702,6 +702,9 @@ export class StepThroughSceneManager {
     // 2. THE GREAT TREE OF THE SEVENTH DAY on the gentle rise + surrounding olive grove
     const treePos = new THREE.Vector3(3.4, 0.4, -6.8);
     const greatTree = this.propBuilder.createGreatPainterlyTree(derived.propTex, pal, 1.42);
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountRelic(greatTree, 'sabbath-olive-tree', { scale: 1.0, yOffset: 0 });
+    }
     greatTree.position.copy(treePos);
     group.add(greatTree);
 

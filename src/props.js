@@ -864,6 +864,7 @@ export class PainterlyPropBuilder {
       const ang = (f / 10) * Math.PI;
       fPlane.position.set(Math.cos(ang) * 0.25, 1.75 + (f % 3) * 0.2, Math.sin(ang) * 0.25);
       fPlane.rotation.y = ang;
+      fPlane.userData.keepWithGlb = true;
       group.add(fPlane);
     }
 
@@ -893,7 +894,12 @@ export class PainterlyPropBuilder {
       const sandal = new THREE.Mesh(new THREE.BoxGeometry(0.16, 0.035, 0.34), leatherMat);
       sandal.position.set(sx, 0.04, 2.15 + (sx > 0 ? 0.08 : 0));
       sandal.rotation.y = sx * 0.6;
+      sandal.userData.keepWithGlb = true;
       group.add(sandal);
+    }
+
+    if (this.tripo) {
+      this.tripo.mountRelic(group, 'burning-bush-crag', { scale: 1.0, yOffset: 0 });
     }
 
     group.scale.setScalar(scale);

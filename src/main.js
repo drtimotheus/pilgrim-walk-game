@@ -14,8 +14,8 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_12';
-import { PainterlyPropBuilder } from './props.js?v=44_12';
-import { StepThroughSceneManager } from './scenes.js?v=44_12';
+import { PainterlyPropBuilder } from './props.js?v=44_15';
+import { StepThroughSceneManager } from './scenes.js?v=44_15';
 import { GenesisDistrictBuilder } from './district.js?v=44_12';
 import { PilgrimAudio } from './audio.js?v=44_12';
 import { TripoRelicManager } from './tripo.js?v=44_14';

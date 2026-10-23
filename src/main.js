@@ -16,7 +16,7 @@ import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
 import { PainterlyPropBuilder } from './props.js?v=44_17';
 import { StepThroughSceneManager } from './scenes.js?v=44_16';
-import { GenesisDistrictBuilder } from './district.js?v=44_17';
+import { GenesisDistrictBuilder } from './district.js?v=44_18';
 import { PilgrimAudio } from './audio.js?v=44_12';
 import { TripoRelicManager } from './tripo.js?v=44_14';
 import { DailyWalkManager } from './daily-walk.js?v=44_12';
@@ -506,6 +506,68 @@ class PilgrimWalkApp {
     return this.zh(zhMap[slug] || slug);
   }
 
+  isDistrictUnlocked(slug) {
+    if (!slug) return false;
+    if (this.walkMode === 'FREE' || this.walkMode === 'DAILY') return true;
+    if (slug === 'genesis') return true;
+    if (this.saveData.districtsCompleted.includes(slug)) return true;
+    if (this.saveData.currentDistrictSlug === slug) return true;
+    if (this.saveData.lightsKindled.some((id) => typeof id === 'string' && id.startsWith(`${slug}-`))) {
+      return true;
+    }
+    if (this.saveData.paintingsSeen.some((id) => typeof id === 'string' && id.startsWith(`${slug}-`))) {
+      return true;
+    }
+    const allSlugs = Object.keys(this.districtMeta);
+    const idx = allSlugs.indexOf(slug);
+    if (idx > 0) {
+      const prevSlug = allSlugs[idx - 1];
+      if (this.saveData.districtsCompleted.includes(prevSlug)) return true;
+      const prevPartsCount = this.manifests[prevSlug]?.parts?.length || 4;
+      const prevKindledCount = this.saveData.lightsKindled.filter(
+        (id) => typeof id === 'string' && id.startsWith(`${prevSlug}-`)
+      ).length;
+      if (prevKindledCount >= prevPartsCount) return true;
+    }
+    return false;
+  }
+
+  getFirstBlockingVeil() {
+    if (this.walkMode !== 'STORY' || !this.district || !this.district.partGatesAndLights) {
+      return null;
+    }
+    if (this.saveData.districtsCompleted.includes(this.currentDistrictSlug)) {
+      return null;
+    }
+    for (const lObj of this.district.partGatesAndLights) {
+      if (!lObj.kindled) {
+        return lObj;
+      }
+    }
+    return null;
+  }
+
+  syncPartVeilsWithMode() {
+    if (!this.district || !this.district.partGatesAndLights) return;
+    const isCompletedDistrict = this.saveData.districtsCompleted.includes(this.currentDistrictSlug);
+    const isStory = this.walkMode === 'STORY';
+    this.district.partGatesAndLights.forEach((lObj) => {
+      const isKindled = this.saveData.lightsKindled.includes(lObj.id);
+      lObj.kindled = isKindled;
+      if (isKindled) {
+        lObj.haloSprite.scale.set(3.6, 3.6, 1);
+        lObj.pointLight.intensity = 3.4;
+      } else {
+        lObj.haloSprite.scale.set(3.2, 3.2, 1);
+        lObj.pointLight.intensity = 2.6;
+      }
+      if (lObj.veilGroup) {
+        lObj.veilGroup.visible = isStory && !isCompletedDistrict && !isKindled;
+      }
+    });
+    this._needsRender = true;
+  }
+
   updateActivePillHighlight() {
     const isGH = this.mode === 'GATEHOUSE';
     const zh = this.isZh();
@@ -522,9 +584,11 @@ class PilgrimWalkApp {
         const slug = opt.value;
         const m = this.districtMeta[slug];
         if (m) {
+          const unlocked = this.isDistrictUnlocked(slug);
+          const lockPrefix = unlocked ? '' : '🔒 ';
           opt.textContent = zh
-            ? `${m.num} · #${i + 1} ${this.getZhBookTitle(slug)}`
-            : `${m.num} · #${i + 1} ${m.fullLabel}`;
+            ? `${lockPrefix}${m.num} · #${i + 1} ${this.getZhBookTitle(slug)}`
+            : `${lockPrefix}${m.num} · #${i + 1} ${m.fullLabel}`;
         }
       });
       if (!isGH) sel.value = this.currentDistrictSlug;
@@ -542,15 +606,17 @@ class PilgrimWalkApp {
           ribbon.appendChild(btn);
         });
       }
-      const entries = Object.entries(this.districtMeta);
       ribbon.querySelectorAll('[data-district-pill]').forEach((btn, idx) => {
         const slug = btn.dataset.districtPill;
         const m = this.districtMeta[slug];
+        const unlocked = this.isDistrictUnlocked(slug);
+        const lockPrefix = unlocked ? '' : '🔒 ';
         if (m) {
           btn.textContent = zh
-            ? `${m.num} · #${idx + 1} ${this.getZhBookTitle(slug).split(' · ')[0]}`
-            : `${m.num} · #${idx + 1} ${m.shortName}`;
+            ? `${lockPrefix}${m.num} · #${idx + 1} ${this.getZhBookTitle(slug).split(' · ')[0]}`
+            : `${lockPrefix}${m.num} · #${idx + 1} ${m.shortName}`;
         }
+        btn.style.opacity = unlocked ? '1' : '0.62';
         const active = !isGH && slug === this.currentDistrictSlug;
         btn.classList.toggle('active-pill', active);
         if (active) {
@@ -598,7 +664,8 @@ class PilgrimWalkApp {
       this.routeData,
       this.coversData,
       this.saveData,
-      playableRouteSlugs
+      playableRouteSlugs,
+      (slug) => this.isDistrictUnlocked(slug)
     );
     this.scene.add(this.gatehouseHubWorld.group);
     this.mode = 'GATEHOUSE';
@@ -617,8 +684,20 @@ class PilgrimWalkApp {
   }
 
   async switchDistrict(slug, isInitialBoot = false) {
+    if (!isInitialBoot && this.walkMode === 'STORY' && !this.isDistrictUnlocked(slug)) {
+      const lockedMeta = this.districtMeta[slug] || { fullLabel: slug };
+      const sel = document.getElementById('hud-district-select');
+      if (sel && this.mode !== 'GATEHOUSE') sel.value = this.currentDistrictSlug;
+      this.showToast(
+        this.isZh()
+          ? this.zh(`✦ 书卷同行模式：请先点亮上一卷书的明灯并步入阿们之门以解锁《${this.getZhBookTitle(slug)}》（或切换为自由漫步模式）。`)
+          : `✦ Locked in Story Walk — kindle the previous book’s Lights and pass through its Amen Gate to unlock ${lockedMeta.fullLabel} (or switch to Free Walk).`
+      );
+      return false;
+    }
+
     await this.ensureManifestLoaded(slug);
-    if (!this.manifests[slug]) return;
+    if (!this.manifests[slug]) return false;
     this.closeAllModals();
     if (this.mode === 'SCENE') {
       this.exitStepThroughSceneToStreet();
@@ -644,6 +723,7 @@ class PilgrimWalkApp {
     this.currentDistrictSlug = slug;
     this.saveData.currentDistrictSlug = slug;
     this.manifest = this.manifests[slug];
+    this._amenTriggeredOnWalk = false;
     const meta = this.districtMeta[slug] || this.districtMeta.genesis;
 
     if (loadSub) {
@@ -677,13 +757,13 @@ class PilgrimWalkApp {
       }
     }
 
-    // Keep all Part roads open for devotional contemplation and restore any kindled Sanctuary Lights
+    // Restore any kindled Sanctuary Lights and sync Part Veils with active Walk Mode (Story Walk vs Free Walk)
     this.district.partGatesAndLights.forEach((lObj) => {
-      if (lObj.veilGroup) lObj.veilGroup.visible = false;
       if (this.saveData.lightsKindled.includes(lObj.id)) {
         this.markLightKindled(lObj, true);
       }
     });
+    this.syncPartVeilsWithMode();
 
     // Land at the Gatehouse courtyard start of the district
     const startPt = this.districtBuilder.getPathPoint(12.0);
@@ -918,6 +998,21 @@ class PilgrimWalkApp {
     const targetNode = this.district.paintingNodes.find((n) => n.data.n === paintingNum);
     if (!targetNode) return;
 
+    const blockingVeil = this.getFirstBlockingVeil();
+    if (blockingVeil && targetNode.roadPosition.z < blockingVeil.veilZ) {
+      const veilPt = this.districtBuilder.getPathPoint(blockingVeil.veilZ + 1.8);
+      this.player.position.set(veilPt.x, veilPt.y + 1.72, veilPt.z);
+      this.player.yaw = 0.0;
+      this.player.pitch = 0.0;
+      this._needsRender = true;
+      this.showToast(
+        this.isZh()
+          ? this.zh(`✦ 前往第 ${blockingVeil.part + 1} 篇章的道路被金色帷幕遮蔽——请先点亮【${blockingVeil.name}】（或切换为自由漫步模式）。`)
+          : `✦ The way ahead is veiled in Story Walk — kindle ${blockingVeil.name} first (${blockingVeil.hint}), or switch to Free Walk.`
+      );
+      return;
+    }
+
     // Place pilgrim on the road 3.6m in front of the painting, facing it
     const roadPt = targetNode.roadPosition;
     const dx = targetNode.position.x - roadPt.x;
@@ -963,6 +1058,13 @@ class PilgrimWalkApp {
       this.openPoemModal(t.node.data, t.node.data.isScene ? () => this.enterStepThroughScene(t.node) : null);
     } else if (t.type === 'KINDLE_LIGHT') {
       this.markLightKindled(t.lightObj, false);
+    } else if (t.type === 'VEIL_LOCKED' || t.type === 'VEIL_BLOCKED') {
+      this.audio.playLightChime(0.45, false);
+      this.showToast(
+        this.isZh()
+          ? this.zh(`✦ 道路尚待开启——请先寻找并点亮本篇的明灯：【${t.lightObj.name}】（${t.lightObj.hint}）`)
+          : `✦ Kindle this part’s Light to open the veil: ${t.lightObj.name} — ${t.lightObj.hint}`
+      );
     } else if (t.type === 'SIGNATURE_ELEMENT') {
       this.showToast(t.text);
       this.audio.playLightChime(0.8, true);
@@ -992,18 +1094,44 @@ class PilgrimWalkApp {
       this.saveData.lightsKindled.push(lightObj.id);
       this.persistSaveData();
     }
+    const allKindled =
+      this.district &&
+      this.district.partGatesAndLights &&
+      this.district.partGatesAndLights.length > 0 &&
+      this.district.partGatesAndLights.every((l) => l.kindled);
+
+    if (allKindled) {
+      this.updateActivePillHighlight();
+    }
+    this._needsRender = true;
+
     if (!silent) {
       this.audio.playLightChime(1.0, true);
-      this.showToast(`✦ Kindled ${lightObj.name}! The way ahead opens.`);
+      if (allKindled) {
+        const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
+        this.showToast(
+          `✦ Kindled ${lightObj.name}! All Lights of ${meta.shortName} shine — the Amen Gate is open & ${meta.nextLabel} is unlocked!`
+        );
+      } else {
+        this.showToast(`✦ Kindled ${lightObj.name}! The veil dissolves and the way to Part ${lightObj.part + 1} opens.`);
+      }
     }
   }
 
   triggerAmenGateCeremony() {
+    const blockingVeil = this.getFirstBlockingVeil();
+    if (blockingVeil) {
+      this.audio.playLightChime(0.45, false);
+      this.showToast(`✦ Kindle ${blockingVeil.name} first to open the Amen Gate (${blockingVeil.hint}).`);
+      return;
+    }
     const slug = this.currentDistrictSlug;
     if (!this.saveData.districtsCompleted.includes(slug)) {
       this.saveData.districtsCompleted.push(slug);
       this.persistSaveData();
     }
+    this.syncPartVeilsWithMode();
+    this.updateActivePillHighlight();
     this.audio.playLightChime(1.0, true);
     this.openModal('amen-modal');
   }
@@ -1358,7 +1486,20 @@ class PilgrimWalkApp {
       this.walkMode = modes[nextIdx];
       this.saveData.walkMode = this.walkMode;
       this.applyAccessibilitySettings();
+      this.syncPartVeilsWithMode();
+      this.updateActivePillHighlight();
+      this.populateModals();
       this.persistSaveData();
+      if (this.mode === 'GATEHOUSE') {
+        this.enterGatehouse3DHub();
+      } else if (this.mode === 'STREET' && this.walkMode === 'STORY') {
+        const blockingVeil = this.getFirstBlockingVeil();
+        if (blockingVeil && this.player.position.z < blockingVeil.veilZ + 1.15) {
+          const safeZ = blockingVeil.veilZ + 1.8;
+          const roadPt = this.districtBuilder.getPathPoint(safeZ);
+          this.player.position.set(roadPt.x, roadPt.y + 1.72, safeZ);
+        }
+      }
       if (this.dailyWalk) {
         this.dailyWalk.updateHUDCandlePill();
         if (this.walkMode === 'DAILY') {
@@ -1369,7 +1510,7 @@ class PilgrimWalkApp {
       this.showToast(
         this.walkMode === 'FREE'
           ? 'Free Walk active: all parts, paintings, and gates open to wander freely.'
-          : 'Story Walk active: walk freely through every part, painting, poem, and scene in storyline order.'
+          : 'Story Walk active: each part’s hidden Light unlocks the veil to the next part.'
       );
     });
 
@@ -1582,6 +1723,7 @@ class PilgrimWalkApp {
         const playableSlug = routeSlugMap[d.slug] || d.slug;
         const isCurrent = this.mode !== 'GATEHOUSE' && playableSlug === this.currentDistrictSlug;
         const isDone = playableSlug && this.saveData.districtsCompleted.includes(playableSlug);
+        const isUnlocked = playableSlug && this.isDistrictUnlocked(playableSlug);
         card.className = `scroll-card ${isCurrent ? 'active-district' : ''} ${isDone ? 'completed-district' : ''}`;
         if (playableSlug) {
           card.style.cursor = 'pointer';
@@ -1603,7 +1745,9 @@ class PilgrimWalkApp {
                 ? (zh ? this.zh('✦ 已走过（点击进入）') : '✦ Completed (Click to Walk)')
                 : isCurrent
                 ? (zh ? this.zh('● 当前所在书卷') : '● Walking Now')
-                : (zh ? this.zh('✦ 已开放 — 点击步入街道') : '✦ Open Now — Click to Enter')
+                : isUnlocked
+                ? (zh ? this.zh('✦ 已开放 — 点击步入街道') : '✦ Open Now — Click to Enter')
+                : (zh ? this.zh('🔒 书卷同行模式待解锁') : '🔒 Veiled in Story Walk')
             }</span>
           </div>
         `;
@@ -1866,8 +2010,10 @@ class PilgrimWalkApp {
         this.player.position.z = clampedZ;
         this.player.position.y = 1.72;
       } else if (this.mode === 'STREET' && this.district) {
-        // Devotional Walk: all parts and transitions along the street are open without roadblocks
-        const minZ = this.district.amenPlaza ? this.district.amenPlaza.position.z - 6 : -444;
+        // In Story Walk mode, each part's veil blocks passage until that part's Light is kindled
+        const defaultMinZ = this.district.amenPlaza ? this.district.amenPlaza.position.z - 6 : -444;
+        const blockingVeil = this.getFirstBlockingVeil();
+        const minZ = blockingVeil ? Math.max(defaultMinZ, blockingVeil.veilZ + 1.15) : defaultMinZ;
         const clampedZ = Math.max(minZ, Math.min(20, nextZ));
         const pathPt = this.districtBuilder.getPathPoint(clampedZ);
         // Allow roaming up to 11.5m left/right of the road center to explore paintings, trees & sanctuary lights
@@ -1986,9 +2132,10 @@ class PilgrimWalkApp {
       if (nearestGate && nearestGateDist < 4.5) {
         this.currentInteractTarget = { type: 'ENTER_BOOK_GATE', gate: nearestGate };
         const b = nearestGate.bookData;
-        const label = nearestGate.playableSlug
+        const isGateOpen = nearestGate.playableSlug && this.isDistrictUnlocked(nearestGate.playableSlug);
+        const label = isGateOpen
           ? `✦ Step Through Book Gate #${b.n} · “${b.title}” (${b.subtitle}) [E]`
-          : `Inspect Book Gate #${b.n} · “${b.title}” (${b.subtitle}) [E]`;
+          : `🔒 Book Gate #${b.n} · “${b.title}” — Complete previous District or switch to Free Walk [E]`;
         this._setPromptUI(false, label, true);
       } else {
         this._setPromptUI(true);
@@ -2137,8 +2284,10 @@ class PilgrimWalkApp {
       }
     }
 
-    // Lantern proximity & facing feedback (§4)
-    const baseLantern = 1.4 + this.saveData.lightsKindled.length * 0.35;
+    // Lantern proximity & facing feedback (§4 — lantern brightens per district completed & light kindled)
+    const completedCount = (this.saveData.districtsCompleted || []).length;
+    const baseLantern = 1.4 + completedCount * 0.45 + this.saveData.lightsKindled.length * 0.18;
+    this.lanternLight.distance = 14 + completedCount * 1.5;
     if (nearestUnkindledLight && nearestLightDist < 28.0) {
       const prox = 1.0 - nearestLightDist / 28.0;
       const resonance = prox * (0.45 + 0.55 * bestLightAlignment);
@@ -2160,6 +2309,8 @@ class PilgrimWalkApp {
       this.player.position.x - this.district.amenPlaza.position.x,
       this.player.position.z - this.district.amenPlaza.position.z
     );
+    const blockingVeil = this.getFirstBlockingVeil();
+    const distToBlockingVeil = blockingVeil ? Math.abs(this.player.position.z - blockingVeil.veilZ) : Infinity;
 
     const zh = this.isZh();
     if (nearestUnkindledLight && nearestLightDist < 3.8) {
@@ -2169,6 +2320,18 @@ class PilgrimWalkApp {
         zh
           ? this.zh(`✦ 点亮明灯：${nearestUnkindledLight.name} [E]`)
           : `✦ Kindle ${nearestUnkindledLight.name} [E]`,
+        true
+      );
+    } else if (blockingVeil && distToBlockingVeil < 4.5) {
+      this.currentInteractTarget = { type: 'VEIL_BLOCKED', lightObj: blockingVeil };
+      const totalParts = this.district.partGatesAndLights ? this.district.partGatesAndLights.length : 4;
+      const nextPartLabel =
+        blockingVeil.part < totalParts ? `Part ${blockingVeil.part + 1}` : 'the Amen Gate';
+      this._setPromptUI(
+        false,
+        zh
+          ? this.zh(`✦ 前路尚在帷幕之中 — 请先点亮本篇的「${blockingVeil.name}」（提示：${blockingVeil.hint}）[E]`)
+          : `✦ Way to ${nextPartLabel} is veiled — Kindle this part’s Light: ${blockingVeil.name} (${blockingVeil.hint}) [E]`,
         true
       );
     } else if (nearestNode && nearestDist < 4.6) {
@@ -2195,7 +2358,7 @@ class PilgrimWalkApp {
           true
         );
       }
-    } else if (distToAmen < 6.5) {
+    } else if (distToAmen < 6.5 && !blockingVeil) {
       this.currentInteractTarget = { type: 'AMEN_GATE' };
       const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
       this._setPromptUI(

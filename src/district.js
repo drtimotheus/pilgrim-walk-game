@@ -1425,11 +1425,14 @@ export class GenesisDistrictBuilder {
       lightGroup.add(pointLight);
       streetGroup.add(lightGroup);
 
-      const veilPt = this.getPathPoint(cfg.veilZ);
+      const partNodes = paintingNodes.filter((n) => n.part === cfg.part);
+      const partLastNode = partNodes[partNodes.length - 1];
+      const effectiveVeilZ = partLastNode ? Math.min(cfg.veilZ, partLastNode.roadPosition.z - 4.4) : cfg.veilZ;
+      const veilPt = this.getPathPoint(effectiveVeilZ);
       const veilGroup = new THREE.Group();
       veilGroup.position.set(veilPt.x, veilPt.y, veilPt.z);
-      // Devotional mode: no road-blocking veils; the entire street is open from the start
-      veilGroup.visible = false;
+      // Story Walk mode gates each part with a shimmering veil until this part's Light is kindled
+      veilGroup.visible = true;
 
       const veilMat = new THREE.ShaderMaterial({
         transparent: true,
@@ -1466,6 +1469,7 @@ export class GenesisDistrictBuilder {
 
       return {
         ...cfg,
+        veilZ: effectiveVeilZ,
         kindled: false,
         position: new THREE.Vector3(wx, wy, wz),
         lightGroup,
@@ -1643,7 +1647,7 @@ export class GenesisDistrictBuilder {
   // ============================================================================
   // THE 3D WALKABLE GATEHOUSE COURTYARD HUB (All 44 Book Gates in Storyline Order)
   // ============================================================================
-  async buildGatehouseHubWorld(routeData, coversData, saveData, playableRouteSlugs) {
+  async buildGatehouseHubWorld(routeData, coversData, saveData, playableRouteSlugs, isDistrictUnlockedFn = null) {
     const THREE = this.THREE;
     const hubGroup = new THREE.Group();
 
@@ -1707,7 +1711,8 @@ export class GenesisDistrictBuilder {
       const gz = -2.0 - rowIdx * 4.8;
 
       const internalSlug = playableRouteSlugs[d.slug] || null;
-      const isPlayable = !!internalSlug;
+      const isUnlocked = internalSlug ? (isDistrictUnlockedFn ? isDistrictUnlockedFn(internalSlug) : true) : false;
+      const isPlayable = isUnlocked;
       const isCompleted = internalSlug && saveData.districtsCompleted.includes(internalSlug);
       const lightsCount = internalSlug
         ? saveData.lightsKindled.filter((id) => id.startsWith(`${internalSlug}-`)).length

@@ -16,9 +16,9 @@ import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
 import { PainterlyPropBuilder } from './props.js?v=44_17';
 import { StepThroughSceneManager } from './scenes.js?v=44_16';
-import { GenesisDistrictBuilder } from './district.js?v=44_18';
+import { GenesisDistrictBuilder } from './district.js?v=44_19';
 import { PilgrimAudio } from './audio.js?v=44_12';
-import { TripoRelicManager } from './tripo.js?v=44_14';
+import { TripoRelicManager } from './tripo.js?v=44_19';
 import { DailyWalkManager } from './daily-walk.js?v=44_12';
 import { formatZh } from './zh-convert.js?v=44_12';
 
@@ -38,9 +38,7 @@ class PilgrimWalkApp {
     // Saved progress in localStorage (§4 & §5d)
     this.saveData = this.loadSaveData();
     this.lang = this.saveData.lang || 'en';
-    this.graphicsQuality = ['balanced', 'eco', 'high'].includes(this.saveData.graphicsQuality)
-      ? this.saveData.graphicsQuality
-      : 'balanced';
+    this.graphicsQuality = this.resolveInitialGraphicsQuality();
 
     // Pre-allocated scratch colors & cached UI state to avoid per-frame allocations and DOM churn
     this._colorTop = new THREE.Color();
@@ -253,7 +251,8 @@ class PilgrimWalkApp {
           lang: parsed.lang || 'en',
           graphicsQuality: ['balanced', 'eco', 'high'].includes(parsed.graphicsQuality)
             ? parsed.graphicsQuality
-            : 'balanced',
+            : null,
+          graphicsQualityUserSet: !!parsed.graphicsQualityUserSet,
           reducedMotion: !!parsed.reducedMotion,
           largeText: !!parsed.largeText,
           dailyWalk: parsed.dailyWalk || {
@@ -275,7 +274,8 @@ class PilgrimWalkApp {
       districtsCompleted: [],
       walkMode: 'STORY',
       lang: 'en',
-      graphicsQuality: 'balanced',
+      graphicsQuality: null,
+      graphicsQualityUserSet: false,
       reducedMotion: false,
       largeText: false,
       dailyWalk: {
@@ -294,6 +294,62 @@ class PilgrimWalkApp {
       console.warn('localStorage write fallback', e);
     }
     this.updateHUDProgress();
+  }
+
+  detectDefaultGraphicsQuality() {
+    try {
+      const ua = navigator.userAgent || '';
+      const isMobileUA =
+        Boolean(navigator.userAgentData && navigator.userAgentData.mobile) ||
+        /Android|iPhone|iPad|iPod|Mobile|BlackBerry|IEMobile|Opera Mini|Kindle|Silk/i.test(ua) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      const isCoarseSmallScreen =
+        Boolean(window.matchMedia && window.matchMedia('(pointer: coarse)').matches) &&
+        window.innerWidth <= 960;
+      const isLowMemoryOrCores =
+        (typeof navigator.deviceMemory === 'number' && navigator.deviceMemory <= 4) ||
+        (typeof navigator.hardwareConcurrency === 'number' && navigator.hardwareConcurrency <= 4);
+
+      if (isMobileUA || isCoarseSmallScreen || isLowMemoryOrCores) {
+        return 'eco';
+      }
+
+      const probeCanvas = document.createElement('canvas');
+      const gl =
+        probeCanvas.getContext('webgl2') ||
+        probeCanvas.getContext('webgl') ||
+        probeCanvas.getContext('experimental-webgl');
+      if (gl) {
+        const dbg = gl.getExtension('WEBGL_debug_renderer_info');
+        const rendererStr = dbg
+          ? String(gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL) || '')
+          : String(gl.getParameter(gl.RENDERER) || '');
+        if (
+          /Mali-|Adreno|PowerVR|Apple A(7|8|9|10|11|12|13|14|15)\b|Intel\(R\) (HD|UHD) Graphics|Intel HD Graphics|Vivante|VideoCore|Tegra|GMA /i.test(
+            rendererStr
+          )
+        ) {
+          return 'eco';
+        }
+      }
+    } catch (_) {}
+    return 'balanced';
+  }
+
+  resolveInitialGraphicsQuality() {
+    const saved = this.saveData && this.saveData.graphicsQuality;
+    const userSet = Boolean(this.saveData && this.saveData.graphicsQualityUserSet);
+    if (userSet && ['balanced', 'eco', 'high'].includes(saved)) {
+      return saved;
+    }
+    if (saved === 'eco' || saved === 'high') {
+      return saved;
+    }
+    const detected = this.detectDefaultGraphicsQuality();
+    if (this.saveData) {
+      this.saveData.graphicsQuality = detected;
+    }
+    return detected;
   }
 
   getTargetPixelRatio(tier = this.graphicsQuality) {
@@ -411,14 +467,14 @@ class PilgrimWalkApp {
 
   async bootstrap() {
     try {
-      const [genRes, routeRes, coversRes] = await Promise.all([
-        fetch('assets/data/genesis-manifest.json?v=44_8'),
+      const initialSlug = this.districtMeta[this.currentDistrictSlug] ? this.currentDistrictSlug : 'genesis';
+      const [, routeRes, coversRes] = await Promise.all([
+        this.ensureManifestLoaded(initialSlug),
         fetch('assets/data/route.json?v=44_8'),
         fetch('assets/data/covers.json?v=44_8'),
         this.tripoManager.init()
       ]);
 
-      this.manifests['genesis'] = await genRes.json();
       this.routeData = await routeRes.json();
       this.coversData = await coversRes.json();
 
@@ -427,8 +483,6 @@ class PilgrimWalkApp {
       this.largeText = !!this.saveData.largeText;
       this.applyAccessibilitySettings();
 
-      const initialSlug = this.districtMeta[this.currentDistrictSlug] ? this.currentDistrictSlug : 'genesis';
-      await this.ensureManifestLoaded(initialSlug);
       await this.switchDistrict(initialSlug, true);
       await this.dailyWalk.init();
 
@@ -731,13 +785,19 @@ class PilgrimWalkApp {
     }
 
     if (!this.districtCache[slug]) {
-      this.districtCache[slug] = await this.districtBuilder.buildDistrict(this.manifest, (loaded, total) => {
-        const pct = Math.round((loaded / total) * 100);
-        if (loadBar) loadBar.style.width = `${pct}%`;
-        if (loadStatus) {
-          loadStatus.textContent = `Dressing ${meta.fullLabel} Street from Timothy Holt’s paintings (${loaded}/${total})…`;
-        }
-      });
+      const [builtDistrict] = await Promise.all([
+        this.districtBuilder.buildDistrict(this.manifest, (loaded, total) => {
+          const pct = Math.round((loaded / total) * 100);
+          if (loadBar) loadBar.style.width = `${pct}%`;
+          if (loadStatus) {
+            loadStatus.textContent = `Dressing ${meta.fullLabel} Street from Timothy Holt’s paintings (${loaded}/${total})…`;
+          }
+        }),
+        this.tripoManager.preloadDistrictModels(slug, this.manifest)
+      ]);
+      this.districtCache[slug] = builtDistrict;
+    } else {
+      await this.tripoManager.preloadDistrictModels(slug, this.manifest);
     }
 
     this.district = this.districtCache[slug];
@@ -1207,7 +1267,7 @@ class PilgrimWalkApp {
   }
 
   openModal(id) {
-    this.populateModals();
+    this.populateModals(id);
     document.getElementById(id).classList.remove('hidden');
     if (document.pointerLockElement) document.exitPointerLock();
   }
@@ -1526,6 +1586,7 @@ class PilgrimWalkApp {
         const order = ['balanced', 'eco', 'high'];
         const nextIdx = (order.indexOf(this.graphicsQuality) + 1) % order.length;
         const nextTier = order[nextIdx];
+        this.saveData.graphicsQualityUserSet = true;
         this.applyGraphicsQuality(nextTier);
         this.applyAccessibilitySettings();
         this.persistSaveData();
@@ -1688,7 +1749,7 @@ class PilgrimWalkApp {
     if (elSeen) elSeen.textContent = zh ? this.zh(`${districtPoems} / ${totalPoems} 首诗歌`) : `${districtPoems} / ${totalPoems} Poems`;
   }
 
-  populateModals() {
+  populateModals(targetModalId = null) {
     if (!this.routeData || !this.manifest) return;
 
     const zh = this.isZh();
@@ -1696,6 +1757,12 @@ class PilgrimWalkApp {
     const totalParts = this.manifest.parts ? this.manifest.parts.length : 4;
     const totalPaintings = this.manifest.paintings ? this.manifest.paintings.length : 40;
     const totalScenes = this.manifest.paintings ? this.manifest.paintings.filter((p) => p.isScene).length : 4;
+
+    const isModalActive = (id) => {
+      if (targetModalId === id) return true;
+      const el = document.getElementById(id);
+      return Boolean(el && !el.classList.contains('hidden'));
+    };
 
     // 0. Gatehouse Hub Modal
     const ghTitle = document.getElementById('gatehouse-modal-title');
@@ -1713,10 +1780,10 @@ class PilgrimWalkApp {
       ghBody.textContent = zh && this.manifest.zh_beforeYouBegin ? this.zh(this.manifest.zh_beforeYouBegin) : this.manifest.beforeYouBegin;
     }
 
-    // 1. Long Scroll Modal (All 44 districts in storyline order — all 44 books are interactive!)
+    // 1. Long Scroll Modal (rendered when opened so other districts' covers are not eagerly fetched on initial boot)
     const routeSlugMap = this.getRouteSlugMap();
     const scrollGrid = document.getElementById('scroll-districts-list');
-    if (scrollGrid) {
+    if (scrollGrid && isModalActive('scroll-modal')) {
       scrollGrid.innerHTML = '';
       this.routeData.forEach((d) => {
         const card = document.createElement('div');
@@ -1757,7 +1824,7 @@ class PilgrimWalkApp {
 
     // 2. Gatehouse Cover Shelf Modal (Commerce rule §4: shop links live ONLY here at the Gatehouse Cover Shelf)
     const shelfContainer = document.getElementById('shelf-books-grid');
-    if (shelfContainer) {
+    if (shelfContainer && isModalActive('shelf-modal')) {
       shelfContainer.innerHTML = '';
       this.routeData.forEach((d) => {
         const playableSlug = routeSlugMap[d.slug] || d.slug;
@@ -1824,7 +1891,9 @@ class PilgrimWalkApp {
     }
 
     // 4. Tripo3D Studio 13-Relic Workshop Modal
-    this.renderTripoWorkshopModal();
+    if (isModalActive('tripo-modal')) {
+      this.renderTripoWorkshopModal();
+    }
   }
 
   renderTripoWorkshopModal() {

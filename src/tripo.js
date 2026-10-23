@@ -19,7 +19,37 @@ export class TripoRelicManager {
     this.modelCache = new Map(); // id -> THREE.Group template
     this.statusMap = new Map();  // id -> 'loaded' | 'procedural'
     this.loadingSet = new Set(); // id currently probing/loading
+    this.loadingPromises = new Map(); // id -> Promise<boolean>
     this.activeMountPoints = new Map(); // id -> Set of { group, scale, yOffset }
+    this.relicById = new Map(); // id -> manifest item
+    this.districtRelicMap = {
+      genesis: ['pilgrim-lantern', 'sabbath-olive-tree', 'noah-stone-altar', 'joseph-coffin-chest'],
+      exodus: ['burning-bush-crag', 'sinai-stone-tablets'],
+      'fire-by-night': ['bronze-altar-horns', 'golden-menorah', 'nehushtan-bronze-serpent'],
+      'choose-life': ['shechem-witness-stone'],
+      'joshua-judges': ['jericho-rams-horn-shofar', 'shechem-witness-stone', 'joseph-coffin-chest', 'gideon-broken-pitcher'],
+      ruth: ['ruth-kinsman-sandal'],
+      samuel: ['samuel-clay-lamp', 'samuel-anointing-horn'],
+      kings: ['elijah-folded-mantle']
+    };
+    this.namedSceneRelicMap = {
+      'genesis-4': 'sabbath-olive-tree',
+      'genesis-11': 'noah-stone-altar',
+      'exodus-5': 'burning-bush-crag',
+      'exodus-25': 'sinai-stone-tablets',
+      'fire-by-night-5': 'bronze-altar-horns',
+      'fire-by-night-21': 'golden-menorah',
+      'fire-by-night-33': 'nehushtan-bronze-serpent',
+      'choose-life-30': 'shechem-witness-stone',
+      'joshua-judges-10': 'jericho-rams-horn-shofar',
+      'joshua-judges-19': 'shechem-witness-stone',
+      'joshua-judges-20': 'joseph-coffin-chest',
+      'joshua-judges-33': 'gideon-broken-pitcher',
+      'ruth-20': 'ruth-kinsman-sandal',
+      'samuel-6': 'samuel-clay-lamp',
+      'samuel-15': 'samuel-anointing-horn',
+      'kings-21': 'elijah-folded-mantle'
+    };
   }
 
   async ensureLoader() {
@@ -41,30 +71,73 @@ export class TripoRelicManager {
 
   async init() {
     try {
-      const res = await fetch('assets/models/tripo-manifest.json?v=44_12');
+      const res = await fetch('assets/models/tripo-manifest.json?v=44_19');
       this.manifest = await res.json();
     } catch (e) {
       console.warn('Tripo manifest load fallback:', e);
       this.manifest = { models: [] };
     }
 
-    // Probe which named .glb files are already saved in assets/models/
+    // Register manifest metadata without eagerly downloading all 16 .glb binaries on initial boot;
+    // each district lazy-loads only its own relics and scene sculptures on entry.
     if (this.manifest && this.manifest.models) {
-      await Promise.all(
-        this.manifest.models.map(async (item) => {
-          try {
-            const headRes = await fetch(item.file, { method: 'HEAD' });
-            if (headRes.ok && !(headRes.headers.get('content-type') || '').includes('text/html')) {
-              await this.loadGlbFromUrl(item.id, item.file, item.targetScale || 2.2);
-            } else {
-              this.statusMap.set(item.id, 'procedural');
-            }
-          } catch (_) {
-            this.statusMap.set(item.id, 'procedural');
-          }
-        })
-      );
+      this.manifest.models.forEach((item) => {
+        this.relicById.set(item.id, item);
+        this.statusMap.set(item.id, 'loaded');
+      });
     }
+  }
+
+  async ensureRelicLoaded(id) {
+    if (!id) return false;
+    if (this.modelCache.has(id)) return true;
+    if (this.loadingPromises.has(id)) return this.loadingPromises.get(id);
+
+    const item = this.relicById.get(id);
+    if (!item || !item.file) {
+      return false;
+    }
+
+    const p = this.loadGlbFromUrl(item.id, item.file, item.targetScale || 2.2).finally(() => {
+      this.loadingPromises.delete(id);
+    });
+    this.loadingPromises.set(id, p);
+    return p;
+  }
+
+  async preloadDistrictModels(districtSlug, manifest) {
+    if (!districtSlug) return;
+    const tasks = [];
+    const relicIds = this.districtRelicMap[districtSlug] || [];
+    for (const rId of relicIds) {
+      tasks.push(this.ensureRelicLoaded(rId));
+    }
+    if (manifest && Array.isArray(manifest.paintings)) {
+      for (const p of manifest.paintings) {
+        if (p.isScene) {
+          tasks.push(this.ensureSceneGlbLoaded(districtSlug, p.n));
+        }
+      }
+    }
+    await Promise.all(tasks);
+  }
+
+  async ensureSceneGlbLoaded(districtSlug, paintingNum, targetExtent = 2.6) {
+    if (!districtSlug || !paintingNum) return false;
+    const namedId = this.namedSceneRelicMap[`${districtSlug}-${paintingNum}`];
+    if (namedId) {
+      return this.ensureRelicLoaded(namedId);
+    }
+    const sceneKey = `scene-${districtSlug}-${paintingNum}`;
+    if (this.modelCache.has(sceneKey)) return true;
+    if (this.loadingPromises.has(sceneKey)) return this.loadingPromises.get(sceneKey);
+
+    const url = `assets/models/scenes/${districtSlug}-${paintingNum}.glb`;
+    const p = this.loadGlbFromUrl(sceneKey, url, targetExtent).finally(() => {
+      this.loadingPromises.delete(sceneKey);
+    });
+    this.loadingPromises.set(sceneKey, p);
+    return p;
   }
 
   // Applies warm oil-on-linen painterly surface grading to any imported Tripo3D or TRELLIS mesh
@@ -189,6 +262,8 @@ export class TripoRelicManager {
 
     if (this.modelCache.has(id)) {
       this.injectCachedModelIntoGroup(id, targetGroup, scale, yOffset);
+    } else if (this.relicById.has(id)) {
+      this.ensureRelicLoaded(id);
     }
   }
 
@@ -200,50 +275,15 @@ export class TripoRelicManager {
     const yOffset = options.yOffset ?? 0.18;
     const targetExtent = options.targetExtent || 2.6;
 
-    // Also check if one of the 16 named hero relics corresponds to this exact (districtSlug, paintingNum)
-    const namedMap = {
-      'genesis-4': 'sabbath-olive-tree',
-      'genesis-11': 'noah-stone-altar',
-      'exodus-5': 'burning-bush-crag',
-      'exodus-25': 'sinai-stone-tablets',
-      'fire-by-night-5': 'bronze-altar-horns',
-      'fire-by-night-21': 'golden-menorah',
-      'fire-by-night-33': 'nehushtan-bronze-serpent',
-      'choose-life-30': 'shechem-witness-stone',
-      'joshua-judges-10': 'jericho-rams-horn-shofar',
-      'joshua-judges-19': 'shechem-witness-stone',
-      'joshua-judges-20': 'joseph-coffin-chest',
-      'joshua-judges-33': 'gideon-broken-pitcher',
-      'ruth-20': 'ruth-kinsman-sandal',
-      'samuel-6': 'samuel-clay-lamp',
-      'samuel-15': 'samuel-anointing-horn',
-      'kings-21': 'elijah-folded-mantle'
-    };
-    const namedId = namedMap[`${districtSlug}-${paintingNum}`];
-    if (namedId && this.modelCache.has(namedId)) {
+    const namedId = this.namedSceneRelicMap[`${districtSlug}-${paintingNum}`];
+    if (namedId) {
       this.mountRelic(targetGroup, namedId, { scale, yOffset });
+      await this.ensureRelicLoaded(namedId);
       return;
     }
 
     this.mountRelic(targetGroup, sceneKey, { scale, yOffset });
-    if (this.modelCache.has(sceneKey) || this.loadingSet.has(sceneKey)) return;
-
-    this.loadingSet.add(sceneKey);
-    const candidateUrls = [
-      `assets/models/scenes/${districtSlug}-${paintingNum}.glb`,
-      ...(namedId ? [`assets/models/${namedId}.glb`] : [])
-    ];
-
-    for (const url of candidateUrls) {
-      try {
-        const headRes = await fetch(url, { method: 'HEAD' });
-        if (headRes.ok && !(headRes.headers.get('content-type') || '').includes('text/html')) {
-          const loaded = await this.loadGlbFromUrl(sceneKey, url, targetExtent);
-          if (loaded) break;
-        }
-      } catch (_) {}
-    }
-    this.loadingSet.delete(sceneKey);
+    await this.ensureSceneGlbLoaded(districtSlug, paintingNum, targetExtent);
   }
 
   injectCachedModelIntoGroup(id, targetGroup, scale, yOffset) {

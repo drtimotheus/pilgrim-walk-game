@@ -53,7 +53,11 @@ export class TripoRelicManager {
       'i-am-with-you-always': ['bethlehem-star'],
       'peace-be-still': ['galilee-boat'],
       'come-and-see': ['rolled-away-stone'],
-      'to-the-ends-of-the-earth': ['pentecost-flame']
+      'to-the-ends-of-the-earth': ['pentecost-flame'],
+      'nothing-can-separate': ['grafted-branch'],
+      'treasure-in-clay-jars': ['treasure-jar'],
+      'rooted-and-free': ['shield-of-faith'],
+      'joy-in-chains': ['open-shackles']
     };
     this.districtHeroRelicPlacement = {
       'our-eyes-are-on-you': { id: 'choir-army-trumpet', paintingNum: 25, scale: 1.0, yOffset: 0.24 },
@@ -79,7 +83,11 @@ export class TripoRelicManager {
       'i-am-with-you-always': { id: 'bethlehem-star', paintingNum: 4, scale: 1.0, yOffset: 0.24 },
       'peace-be-still': { id: 'galilee-boat', paintingNum: 11, scale: 1.0, yOffset: 0.24 },
       'come-and-see': { id: 'rolled-away-stone', paintingNum: 36, scale: 1.0, yOffset: 0.24 },
-      'to-the-ends-of-the-earth': { id: 'pentecost-flame', paintingNum: 5, scale: 1.0, yOffset: 0.24 }
+      'to-the-ends-of-the-earth': { id: 'pentecost-flame', paintingNum: 5, scale: 1.0, yOffset: 0.24 },
+      'nothing-can-separate': { id: 'grafted-branch', paintingNum: 30, scale: 1.0, yOffset: 0.24 },
+      'treasure-in-clay-jars': { id: 'treasure-jar', paintingNum: 29, scale: 1.0, yOffset: 0.24 },
+      'rooted-and-free': { id: 'shield-of-faith', paintingNum: 39, scale: 1.0, yOffset: 0.24 },
+      'joy-in-chains': { id: 'open-shackles', paintingNum: 10, scale: 1.0, yOffset: 0.24 }
     };
     this.namedSceneRelicMap = {
       'genesis-4': 'sabbath-olive-tree',

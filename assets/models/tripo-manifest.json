@@ -454,6 +454,50 @@
       "targetScale": 2.7,
       "imageTo3DTip": "Modeled from b-032-005.jpg — a monumental sculpted cloven tongue of fire rising from a Herodian terracotta oil lamp basin on a carved Jerusalem stone base (“And there appeared unto them cloven tongues like as of fire”, Acts 2:3).",
       "textPrompt": "Monumental sculpted swirling cloven tongue of golden-amber fire rising from a terracotta lamp basin on a carved Jerusalem limestone pedestal, warm oil-on-linen brushwork"
+    },
+    {
+      "slot": 42,
+      "id": "grafted-branch",
+      "file": "assets/models/grafted-branch.glb",
+      "title": "The Grafted Branch",
+      "district": "District XXXIII · Nothing Can Separate (No. 30 “the olive tree”)",
+      "paintingRef": "assets/nothing-can-separate/web/b-033-030.jpg",
+      "targetScale": 2.5,
+      "imageTo3DTip": "Modeled from b-033-030.jpg — the graft union of a living olive branch bound with hemp twine into the cleft of a sawn gnarled olive trunk section (“wert graffed in among them, and with them partakest of the root and fatness of the olive tree”, Romans 11:17–24).",
+      "textPrompt": "Gnarled sawn ancient olive tree trunk section with a living olive scion branch bound into a cleft graft union with coarse hemp twine and sprouting fresh silver-green olive leaves, warm oil painting texture"
+    },
+    {
+      "slot": 43,
+      "id": "treasure-jar",
+      "file": "assets/models/treasure-jar.glb",
+      "title": "The Treasure Jar",
+      "district": "District XXXIV · Treasure in Clay Jars (No. 29 “clay jars”)",
+      "paintingRef": "assets/treasure-in-clay-jars/web/b-034-029.jpg",
+      "targetScale": 2.4,
+      "imageTo3DTip": "Modeled from b-034-029.jpg — a whole globular earthen jar with warm golden light glowing through its cracks and open rim (“But we have this treasure in earthen vessels”, 2 Corinthians 4:7).",
+      "textPrompt": "Whole ancient Judean terracotta clay jar with warm radiant golden-white light glowing through a vertical crack seam and from inside the rim, painterly oil-on-linen brushwork"
+    },
+    {
+      "slot": 44,
+      "id": "shield-of-faith",
+      "file": "assets/models/shield-of-faith.glb",
+      "title": "The Shield of Faith",
+      "district": "District XXXV · Rooted and Free (No. 39 “the armor on the table”)",
+      "paintingRef": "assets/rooted-and-free/web/b-035-039.jpg",
+      "targetScale": 2.6,
+      "imageTo3DTip": "Modeled from b-035-039.jpg — the great standing bronze-rimmed shield with embossed central umbo boss and radial reinforcement ribs on a stone armor stand (“Above all, taking the shield of faith”, Ephesians 6:16).",
+      "textPrompt": "Great standing ancient Roman-Hellenistic patinated bronze and iron round shield with embossed golden-bronze central umbo boss, four radial ribs, and riveted rim on a stone stand, warm oil painting texture"
+    },
+    {
+      "slot": 45,
+      "id": "open-shackles",
+      "file": "assets/models/open-shackles.glb",
+      "title": "The Open Shackles †",
+      "district": "District XXXVI · Joy in Chains (No. 10 “one window”)",
+      "paintingRef": "assets/joy-in-chains/web/b-036-010.jpg",
+      "targetScale": 2.3,
+      "imageTo3DTip": "† Concept-modeled in the twilight limestone and warm window-gold palette of b-036-010.jpg — heavy forged-iron Roman prison shackles, sprung wide open with a sundered chain link atop a rough prison stone (Philippians 1:12–14).",
+      "textPrompt": "Heavy forged-iron Roman prison wrist shackles sprung wide open with broken iron chain links resting on a rough-hewn limestone prison block touched by warm golden window light, painterly oil texture"
     }
   ]
 }

@@ -45,7 +45,11 @@ export class TripoRelicManager {
       'a-future-and-a-hope': ['potters-wheel'],
       'new-every-morning': ['ruined-watchtower'],
       'can-these-bones-live': ['wheel-within-a-wheel'],
-      'a-door-of-hope': ['door-of-hope']
+      'a-door-of-hope': ['door-of-hope'],
+      'greatly-beloved': ['stone-cut-without-hands'],
+      'out-of-the-deep': ['great-fish'],
+      'the-day-of-small-things': ['zerubbabels-plumb-line'],
+      'good-news-of-great-joy': ['the-manger']
     };
     this.districtHeroRelicPlacement = {
       'our-eyes-are-on-you': { id: 'choir-army-trumpet', paintingNum: 25, scale: 1.0, yOffset: 0.24 },
@@ -63,7 +67,11 @@ export class TripoRelicManager {
       'a-future-and-a-hope': { id: 'potters-wheel', paintingNum: 16, scale: 1.0, yOffset: 0.24 },
       'new-every-morning': { id: 'ruined-watchtower', paintingNum: 24, scale: 1.0, yOffset: 0.24 },
       'can-these-bones-live': { id: 'wheel-within-a-wheel', paintingNum: 2, scale: 1.0, yOffset: 0.24 },
-      'a-door-of-hope': { id: 'door-of-hope', paintingNum: 6, scale: 1.0, yOffset: 0.24 }
+      'a-door-of-hope': { id: 'door-of-hope', paintingNum: 6, scale: 1.0, yOffset: 0.24 },
+      'greatly-beloved': { id: 'stone-cut-without-hands', paintingNum: 10, scale: 1.0, yOffset: 0.24 },
+      'out-of-the-deep': { id: 'great-fish', paintingNum: 7, scale: 1.0, yOffset: 0.24 },
+      'the-day-of-small-things': { id: 'zerubbabels-plumb-line', paintingNum: 29, scale: 1.0, yOffset: 0.24 },
+      'good-news-of-great-joy': { id: 'the-manger', paintingNum: 8, scale: 1.0, yOffset: 0.24 }
     };
     this.namedSceneRelicMap = {
       'genesis-4': 'sabbath-olive-tree',

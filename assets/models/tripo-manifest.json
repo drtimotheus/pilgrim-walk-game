@@ -366,6 +366,50 @@
       "targetScale": 3.0,
       "imageTo3DTip": "Modeled in the golden valley palette of b-025-006.jpg — a freestanding weathered timber door in its dressed stone frame standing wide open in the Valley of Achor with a sunlit vineyard vine climbing the post (Hosea 2:15).",
       "textPrompt": "Freestanding ancient wooden planked door with wrought-iron hinge straps standing wide open inside a dressed limestone doorframe in a sunlit valley with a green grapevine climbing the stone jamb, warm oil-on-linen brushwork"
+    },
+    {
+      "slot": 34,
+      "id": "stone-cut-without-hands",
+      "file": "assets/models/stone-cut-without-hands.glb",
+      "title": "The Stone Cut Without Hands",
+      "district": "District XXIV · Greatly Beloved (No. 10 “a stone cut without hands”)",
+      "paintingRef": "assets/greatly-beloved/web/b-024-010.jpg",
+      "targetScale": 2.8,
+      "imageTo3DTip": "Modeled from b-024-010.jpg — one great uncut mountain boulder with natural craggy facets and zero tool marks resting amid shattered fragments on the Babylonian terrace (Daniel 2:34–35).",
+      "textPrompt": "One great rugged uncut mountain boulder with natural geological facets and no chisel marks resting on a shattered stone pavement, warm golden-dust oil painting texture"
+    },
+    {
+      "slot": 35,
+      "id": "great-fish",
+      "file": "assets/models/great-fish.glb",
+      "title": "The Great Fish",
+      "district": "District XXVI · Out of the Deep (No. 7 “prepared”)",
+      "paintingRef": "assets/out-of-the-deep/web/b-026-007.jpg",
+      "targetScale": 3.5,
+      "imageTo3DTip": "Modeled from b-026-007.jpg (TRELLIS/sculpted fallback after Muse’s pass failed the breaching-pose silhouette test) — the prepared great fish in a monument-scale breaching pose rising out of churning sea-foam waves (Jonah 1:17).",
+      "textPrompt": "Monument-scale ancient biblical great whale-fish breaching dynamically out of churning Mediterranean sea-foam waves with sweeping pectoral fins and broad tail flukes, deep sea-slate and golden oil-on-linen brushwork"
+    },
+    {
+      "slot": 36,
+      "id": "zerubbabels-plumb-line",
+      "file": "assets/models/zerubbabels-plumb-line.glb",
+      "title": "Zerubbabel’s Plumb Line †",
+      "district": "District XXVII · The Day of Small Things (No. 29 “the day of small things”)",
+      "paintingRef": "assets/the-day-of-small-things/web/b-027-029.jpg",
+      "targetScale": 2.7,
+      "imageTo3DTip": "† Concept-modeled from the bronze plummet of b-027-029.jpg (replacing the painting’s hand with a mason’s timber-and-stone builder’s stand per the silhouette rule) — the heavy conical bronze plumb bob suspended on a taut cord over a dressed Jerusalem cornerstone (Zechariah 4:10).",
+      "textPrompt": "Heavy conical turned-bronze plumb bob suspended on a taut cord from a timber mason's builder stand directly over a dressed Jerusalem limestone cornerstone, warm oil painting texture"
+    },
+    {
+      "slot": 37,
+      "id": "the-manger",
+      "file": "assets/models/the-manger.glb",
+      "title": "The Manger",
+      "district": "District XXVIII · Good News of Great Joy (No. 8 “the sign”)",
+      "paintingRef": "assets/good-news-of-great-joy/web/b-028-008.jpg",
+      "targetScale": 2.5,
+      "imageTo3DTip": "Modeled from b-028-008.jpg with the Relic Maker (Muse lane) — the wooden feeding trough filled with golden straw, white swaddling cloths, and the leaning shepherd’s crook (Luke 2:12).",
+      "textPrompt": "Ancient rustic wooden feeding manger trough on four timber legs filled with golden straw and draped with white woven swaddling cloths beside a leaning wooden shepherd's crook, warm candlelit oil-on-linen brushwork"
     }
   ]
 }

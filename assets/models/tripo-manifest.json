@@ -278,6 +278,50 @@
       "targetScale": 2.5,
       "imageTo3DTip": "† Concept-modeled in the golden-hour palette and brushwork of b-016-044.jpg — a pair of great hammered bronze sanctuary cymbals with braided leather straps on a carved praise stand (“Praise him upon the high sounding cymbals”, Psalm 150:5).",
       "textPrompt": "Pair of great hammered ancient bronze sanctuary cymbals with central domes and braided leather straps mounted on a carved timber and limestone stand, radiant golden-hour oil-on-linen texture"
+    },
+    {
+      "slot": 26,
+      "id": "apples-of-gold",
+      "file": "assets/models/apples-of-gold.glb",
+      "title": "Apples of Gold in Settings of Silver",
+      "district": "District XVII · The Beginning of Wisdom (No. 14 “apples of gold”)",
+      "paintingRef": "assets/the-beginning-of-wisdom/web/b-017-014.jpg",
+      "targetScale": 2.2,
+      "imageTo3DTip": "Modeled from b-017-014.jpg — the ornate silver filigree fruit stand bearing four luminous golden apples with sculpted leaves (“A word fitly spoken is like apples of gold in pictures of silver”, Proverbs 25:11).",
+      "textPrompt": "Ornate antique silver filigree footed fruit bowl bearing four luminous golden apples with stems and leaves atop a weathered cedar ledge, warm oil-on-linen brushwork"
+    },
+    {
+      "slot": 27,
+      "id": "threefold-cord",
+      "file": "assets/models/threefold-cord.glb",
+      "title": "The Threefold Cord",
+      "district": "District XVIII · Eternity in Their Hearts (No. 16 “a threefold cord”)",
+      "paintingRef": "assets/eternity-in-their-hearts/web/b-018-016.jpg",
+      "targetScale": 2.3,
+      "imageTo3DTip": "Modeled from b-018-016.jpg — the thick three-strand braided rope coiled on the dressed limestone slab and knotted fast around the timber pillar (“a threefold cord is not quickly broken”, Ecclesiastes 4:12).",
+      "textPrompt": "Thick three-strand braided hemp rope cord coiled on a dressed Judean limestone block and tied in a strong knot around a weathered timber pillar, warm sunlit oil painting texture"
+    },
+    {
+      "slot": 28,
+      "id": "sealed-fountain",
+      "file": "assets/models/sealed-fountain.glb",
+      "title": "The Sealed Fountain",
+      "district": "District XIX · Many Waters (No. 14 “the enclosed garden”)",
+      "paintingRef": "assets/many-waters/web/b-019-014.jpg",
+      "targetScale": 2.6,
+      "imageTo3DTip": "Modeled from b-019-014.jpg — the carved garden stone fountain basin on its octagonal plinth, locked with a wrought-bronze seal bar and sealed spouts (“A garden inclosed… a spring shut up, a fountain sealed”, Song of Songs 4:12).",
+      "textPrompt": "Ancient carved limestone garden fountain with octagonal base, deep stone basin, central column, and bronze-sealed spouts locked by a wrought-bronze bar, warm oil-on-linen brushwork"
+    },
+    {
+      "slot": 29,
+      "id": "live-coal-tongs",
+      "file": "assets/models/live-coal-tongs.glb",
+      "title": "The Live Coal in the Seraph’s Tongs",
+      "district": "District XX · Arise, Shine (No. 3 “undone”)",
+      "paintingRef": "assets/arise-shine/web/b-020-003.jpg",
+      "targetScale": 2.5,
+      "imageTo3DTip": "Modeled from b-020-003.jpg — the long forged-bronze altar tongs holding one radiant glowing ember coal above the horned temple altar stone (“having a live coal in his hand, which he had taken with the tongs from off the altar”, Isaiah 6:6–7).",
+      "textPrompt": "Long forged bronze temple altar tongs holding a radiant glowing crimson-and-gold ember coal above a carved horned limestone altar block, atmospheric temple smoke oil painting texture"
     }
   ]
 }

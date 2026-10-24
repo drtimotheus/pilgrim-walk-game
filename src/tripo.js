@@ -37,7 +37,11 @@ export class TripoRelicManager {
       'psalms-1': ['shepherds-rod-and-staff'],
       'psalms-2': ['davids-harp'],
       'psalms-3': ['sparrows-nest-altar'],
-      'psalms-4': ['praise-cymbals']
+      'psalms-4': ['praise-cymbals'],
+      'the-beginning-of-wisdom': ['apples-of-gold'],
+      'eternity-in-their-hearts': ['threefold-cord'],
+      'many-waters': ['sealed-fountain'],
+      'arise-shine': ['live-coal-tongs']
     };
     this.districtHeroRelicPlacement = {
       'our-eyes-are-on-you': { id: 'choir-army-trumpet', paintingNum: 25, scale: 1.0, yOffset: 0.24 },
@@ -47,7 +51,11 @@ export class TripoRelicManager {
       'psalms-1': { id: 'shepherds-rod-and-staff', paintingNum: 22, scale: 1.0, yOffset: 0.24 },
       'psalms-2': { id: 'davids-harp', paintingNum: 16, scale: 1.0, yOffset: 0.24 },
       'psalms-3': { id: 'sparrows-nest-altar', paintingNum: 12, scale: 1.0, yOffset: 0.24 },
-      'psalms-4': { id: 'praise-cymbals', paintingNum: 44, scale: 1.0, yOffset: 0.24 }
+      'psalms-4': { id: 'praise-cymbals', paintingNum: 44, scale: 1.0, yOffset: 0.24 },
+      'the-beginning-of-wisdom': { id: 'apples-of-gold', paintingNum: 14, scale: 1.0, yOffset: 0.24 },
+      'eternity-in-their-hearts': { id: 'threefold-cord', paintingNum: 16, scale: 1.0, yOffset: 0.24 },
+      'many-waters': { id: 'sealed-fountain', paintingNum: 14, scale: 1.0, yOffset: 0.24 },
+      'arise-shine': { id: 'live-coal-tongs', paintingNum: 3, scale: 1.0, yOffset: 0.24 }
     };
     this.namedSceneRelicMap = {
       'genesis-4': 'sabbath-olive-tree',

@@ -7742,4 +7742,419 @@ export class PainterlyPropBuilder {
 
     return { group, praiseLight, harpGroup, timbrelGroup };
   }
+
+  // =========================================================================
+  // DISTRICT XXIV (GREATLY BELOVED — DANIEL) BESPOKE PROPS
+  // Crafted directly from Timothy's paintings for Book 24 (Daniel):
+  //   - #4 "ten days" (Daniel 1:12–15, b-024-004.jpg): Weathered wooden table
+  //     beside a blue-glazed Babylonian brick wall & sandstone column; wide
+  //     terracotta bowl filled with green lentils/pulse, cucumber slices & fresh
+  //     herbs on the left; tall handled water pitcher, fringed linen cloth &
+  //     rolled Hebrew scroll on the right.
+  //   - #14 "a fourth in the fire" (Daniel 3:24–25, b-024-014.jpg): Babylonian
+  //     lapis-brick Fiery Furnace with 4 figures walking unbound in the golden
+  //     fire + foreground courtyard jars, woven basket & rolled scrolls.
+  //   - #24 "windows open toward Jerusalem" (Daniel 6:10, b-024-024.jpg):
+  //     Upstairs chamber with blue-glazed tile dado, wide open window framed by
+  //     carved wooden mashrabiya lattice shutters looking toward Jerusalem,
+  //     woven reed prayer mat on the floor, low wooden scroll table on the left,
+  //     and large woven basket with clay jars & prayer shawl on the right.
+  //   - #26 "the lions' den" (Daniel 6:21–23, b-024-026.jpg): Stone cavern of
+  //     the Lions' Den with resting golden-maned lions, rolled seal stone,
+  //     overhead sunbeam shaft, and right stone ledge with jars & scroll.
+  //   - #40 "go your way" (Daniel 12:8–13, b-024-040.jpg): Flat-topped river
+  //     boulder beside the Ulai/Tigris river road holding the Sealed Scroll of
+  //     the End of Days bound with a golden cord & wax seal.
+  // =========================================================================
+
+  // Painting #4: "ten days" (Daniel 1:12–15) — Table of Pulse/Vegetables, Water Pitcher & Scroll
+  createDaniel1PulseTableEnsemble(propTex, pal) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const woodMat = new THREE.MeshStandardMaterial({
+      color: 0x624830,
+      map: propTex || null,
+      roughness: 0.88
+    });
+    const lapisWallMat = new THREE.MeshStandardMaterial({
+      color: 0x3b5268,
+      map: propTex || null,
+      roughness: 0.80
+    });
+    const stoneColMat = new THREE.MeshStandardMaterial({
+      color: 0xc8b28c,
+      map: propTex || null,
+      roughness: 0.84
+    });
+    const clayMat = new THREE.MeshStandardMaterial({
+      color: 0xb8966e,
+      map: propTex || null,
+      roughness: 0.80
+    });
+    const herbGreenMat = new THREE.MeshStandardMaterial({
+      color: 0x486e34,
+      roughness: 0.78,
+      emissive: 0x1c3210,
+      emissiveIntensity: 0.16
+    });
+    const lentilMat = new THREE.MeshStandardMaterial({
+      color: 0x6e6832,
+      roughness: 0.82
+    });
+    const linenMat = new THREE.MeshStandardMaterial({
+      color: 0xe6dac0,
+      map: propTex || null,
+      roughness: 0.84
+    });
+
+    // 1. Left Blue-Glazed Babylonian Brick Wall & Right Sandstone Balcony Column (exact match to painting #4 backdrop)
+    const wallGroup = new THREE.Group();
+    wallGroup.position.set(-1.35, 0.02, -0.85);
+    wallGroup.userData.keepWithGlb = true;
+
+    const brickWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.65, 2.45, 0.36, 6, 8, 2), 0.018, 3.5),
+      lapisWallMat
+    );
+    brickWall.position.y = 1.22;
+    wallGroup.add(brickWall);
+
+    const sandstoneTrim = new THREE.Mesh(new THREE.BoxGeometry(0.26, 2.48, 0.40), stoneColMat);
+    sandstoneTrim.position.set(0.84, 1.24, 0);
+    wallGroup.add(sandstoneTrim);
+    group.add(wallGroup);
+
+    const colGroup = new THREE.Group();
+    colGroup.position.set(1.45, 0.02, -0.95);
+    colGroup.userData.keepWithGlb = true;
+    const colBase = new THREE.Mesh(new THREE.BoxGeometry(0.76, 0.36, 0.76), stoneColMat);
+    colBase.position.y = 0.18;
+    colGroup.add(colBase);
+    const colShaft = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.32, 2.35, 18), stoneColMat);
+    colShaft.position.y = 1.48;
+    colGroup.add(colShaft);
+    group.add(colGroup);
+
+    // 2. Foreground Weathered Wooden Table with Pulse Bowl, Water Pitcher & Hebrew Scroll (exact match to painting #4)
+    const tableGroup = new THREE.Group();
+    tableGroup.position.set(0, 0.02, 0.25);
+    tableGroup.userData.keepWithGlb = true;
+
+    const tableTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.65, 0.14, 1.28, 8, 2, 5), 0.015, 3.8),
+      woodMat
+    );
+    tableTop.position.y = 0.86;
+    tableGroup.add(tableTop);
+
+    for (const [lx, lz] of [[-1.12, -0.48], [1.12, -0.48], [-1.12, 0.48], [1.12, 0.48]]) {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.86, 0.14), woodMat);
+      leg.position.set(lx, 0.43, lz);
+      tableGroup.add(leg);
+    }
+
+    // Wide Terracotta Bowl of Pulse (Lentils, Cucumbers & Fresh Herbs) on the left
+    const pulseBowl = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.52, 0.32, 0.28, 24, 2), 0.012, 4.0),
+      clayMat
+    );
+    pulseBowl.position.set(-0.52, 1.06, 0.06);
+    tableGroup.add(pulseBowl);
+
+    const lentilMound = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.44, 18, 12), 0.025, 5.0),
+      lentilMat
+    );
+    lentilMound.scale.set(1.0, 0.32, 1.0);
+    lentilMound.position.set(-0.56, 1.16, 0.08);
+    tableGroup.add(lentilMound);
+
+    for (let h = 0; h < 6; h++) {
+      const herbCluster = new THREE.Mesh(
+        this.displaceGeometry(new THREE.SphereGeometry(0.16, 10, 8), 0.028, 4.5),
+        herbGreenMat
+      );
+      herbCluster.position.set(-0.36 + (h % 3) * 0.12, 1.26 + (h % 2) * 0.06, -0.04 + Math.floor(h / 3) * 0.14);
+      tableGroup.add(herbCluster);
+    }
+
+    // Tall Handled Terracotta Water Pitcher on the right
+    const pitcherBody = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.28, 18, 14), 0.012, 4.0),
+      clayMat
+    );
+    pitcherBody.scale.set(1.0, 1.28, 1.0);
+    pitcherBody.position.set(0.48, 1.22, -0.08);
+    tableGroup.add(pitcherBody);
+
+    const pitcherNeck = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.19, 0.28, 18), clayMat);
+    pitcherNeck.position.set(0.48, 1.56, -0.08);
+    tableGroup.add(pitcherNeck);
+
+    const pitcherHandle = new THREE.Mesh(new THREE.TorusGeometry(0.16, 0.032, 10, 18, Math.PI), clayMat);
+    pitcherHandle.rotation.z = -Math.PI / 2;
+    pitcherHandle.position.set(0.72, 1.36, -0.08);
+    tableGroup.add(pitcherHandle);
+
+    // Fringed Linen Cloth & Rolled Hebrew Scroll on the lower right corner of the table
+    const cloth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.86, 0.03, 0.72, 5, 2, 5), 0.01, 4.2),
+      linenMat
+    );
+    cloth.position.set(0.56, 0.94, 0.28);
+    cloth.rotation.y = 0.22;
+    tableGroup.add(cloth);
+
+    const scrollRoll = new THREE.Mesh(new THREE.CylinderGeometry(0.065, 0.065, 0.68, 16), linenMat);
+    scrollRoll.rotation.z = Math.PI / 2;
+    scrollRoll.rotation.y = 0.38;
+    scrollRoll.position.set(0.64, 1.01, 0.30);
+    tableGroup.add(scrollRoll);
+
+    group.add(tableGroup);
+
+    const pulseLight = new THREE.PointLight(0xffe098, 1.35, 10.0);
+    pulseLight.position.set(0, 1.85, 0.45);
+    group.add(pulseLight);
+
+    return { group, pulseLight };
+  }
+
+  // Painting #24: "windows open toward Jerusalem" (Daniel 6:10) — Open Latticework Window, Prayer Mat & Scroll Table
+  // Signature Symbolic Element of District XXIV (Daniel)
+  createDaniel6OpenWindowJerusalemEnsemble(propTex, pal, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const brickMat = new THREE.MeshStandardMaterial({
+      color: 0x8e795e,
+      map: propTex || null,
+      roughness: 0.88
+    });
+    const glazedTileMat = new THREE.MeshStandardMaterial({
+      color: 0x2b4c62,
+      map: propTex || null,
+      roughness: 0.72
+    });
+    const latticeWoodMat = new THREE.MeshStandardMaterial({
+      color: 0x5c4228,
+      map: propTex || null,
+      roughness: 0.82
+    });
+    const matStrawMat = new THREE.MeshStandardMaterial({
+      color: 0xc8ad78,
+      map: propTex || null,
+      roughness: 0.90,
+      emissive: 0x5a4218,
+      emissiveIntensity: 0.18
+    });
+    const clayMat = new THREE.MeshStandardMaterial({
+      color: 0x9c683c,
+      map: propTex || null,
+      roughness: 0.82
+    });
+    const linenMat = new THREE.MeshStandardMaterial({
+      color: 0xe8dcc2,
+      map: propTex || null,
+      roughness: 0.84
+    });
+
+    // 1. Upstairs Chamber Wall with Blue-Glazed Tile Dado & Wide Open Window Framed by Carved Lattice Shutters
+    const windowWallGroup = new THREE.Group();
+    windowWallGroup.position.set(0, 0.02, -0.95);
+    windowWallGroup.userData.keepWithGlb = true;
+
+    // Lower sill wall with blue-glazed Babylonian tile dado (exact match to painting #24)
+    const lowerWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(3.85, 0.96, 0.42, 8, 3, 2), 0.018, 3.2),
+      brickMat
+    );
+    lowerWall.position.y = 0.48;
+    windowWallGroup.add(lowerWall);
+
+    const tileDado = new THREE.Mesh(new THREE.BoxGeometry(3.88, 0.52, 0.45), glazedTileMat);
+    tileDado.position.y = 0.34;
+    windowWallGroup.add(tileDado);
+
+    // Left & right window piers + upper lintel leaving the wide Jerusalem window open in the center
+    for (const wx of [-1.48, 1.48]) {
+      const pier = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.88, 2.35, 0.42, 3, 6, 2), 0.018, 3.2),
+        brickMat
+      );
+      pier.position.set(wx, 2.12, 0);
+      windowWallGroup.add(pier);
+    }
+
+    const lintel = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(3.85, 0.44, 0.44, 8, 2, 2), 0.018, 3.2),
+      brickMat
+    );
+    lintel.position.set(0, 3.42, 0);
+    windowWallGroup.add(lintel);
+
+    // Carved Wooden Mashrabiya Lattice Shutters swung open on left and right of the window frame
+    for (const [sx, rotY] of [[-0.96, 0.52], [0.96, -0.52]]) {
+      const shutter = new THREE.Group();
+      shutter.position.set(sx, 2.10, 0.18);
+      shutter.rotation.y = rotY;
+      shutter.userData.keepWithGlb = true;
+
+      const frameOuter = new THREE.Mesh(new THREE.BoxGeometry(0.56, 2.18, 0.06), latticeWoodMat);
+      shutter.add(frameOuter);
+
+      for (let r = -3; r <= 3; r++) {
+        const rung = new THREE.Mesh(new THREE.CylinderGeometry(0.016, 0.016, 0.52, 8), latticeWoodMat);
+        rung.rotation.z = Math.PI / 2;
+        rung.position.y = r * 0.28;
+        shutter.add(rung);
+      }
+      windowWallGroup.add(shutter);
+    }
+
+    group.add(windowWallGroup);
+
+    // 2. Woven Reed Prayer Mat on the Chamber Floor Bathed in Golden Light Toward Jerusalem (exact match to painting #24 center)
+    const prayerMat = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.75, 0.035, 1.38, 8, 2, 6), 0.012, 4.5),
+      matStrawMat
+    );
+    prayerMat.position.set(-0.08, 0.03, 0.32);
+    prayerMat.rotation.y = -0.08;
+    prayerMat.userData.keepWithGlb = true;
+    group.add(prayerMat);
+
+    // 3. Left Low Wooden Prayer Table with Rolled & Open Scrolls (exact match to painting #24 lower left)
+    const leftTable = new THREE.Group();
+    leftTable.position.set(-1.32, 0.02, 0.65);
+    leftTable.rotation.y = 0.24;
+    leftTable.userData.keepWithGlb = true;
+
+    const tTop = new THREE.Mesh(new THREE.BoxGeometry(0.92, 0.08, 0.64), latticeWoodMat);
+    tTop.position.y = 0.42;
+    leftTable.add(tTop);
+
+    for (const [lx, lz] of [[-0.36, -0.24], [0.36, -0.24], [-0.36, 0.24], [0.36, 0.24]]) {
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.045, 0.045, 0.42, 10), latticeWoodMat);
+      leg.position.set(lx, 0.21, lz);
+      leftTable.add(leg);
+    }
+
+    const scroll = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.055, 0.54, 14), linenMat);
+    scroll.rotation.z = Math.PI / 2;
+    scroll.rotation.y = 0.35;
+    scroll.position.set(0.06, 0.50, 0.04);
+    leftTable.add(scroll);
+    group.add(leftTable);
+
+    // 4. Right Woven Basket with Clay Jars & Draped Prayer Shawl (exact match to painting #24 lower right)
+    const rightBasketGroup = new THREE.Group();
+    rightBasketGroup.position.set(1.28, 0.02, 0.42);
+    rightBasketGroup.userData.keepWithGlb = true;
+
+    const wideBasket = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.48, 0.38, 0.52, 20, 2), 0.018, 4.0),
+      latticeWoodMat
+    );
+    wideBasket.position.y = 0.26;
+    rightBasketGroup.add(wideBasket);
+
+    const tallJar = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.22, 0.58, 16), clayMat);
+    tallJar.position.set(-0.14, 0.62, -0.06);
+    rightBasketGroup.add(tallJar);
+
+    const drapedShawl = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.52, 0.48, 0.38, 4, 4, 4), 0.022, 3.8),
+      glazedTileMat
+    );
+    drapedShawl.position.set(0.24, 0.28, 0.28);
+    rightBasketGroup.add(drapedShawl);
+
+    group.add(rightBasketGroup);
+
+    const windowLight = new THREE.PointLight(0xffd878, 1.55, 12.0);
+    windowLight.position.set(0, 2.05, -0.35);
+    group.add(windowLight);
+
+    return { group, windowLight, prayerMat };
+  }
+
+  // Painting #40: "go your way" (Daniel 12:8–13) — Flat River Stone & Sealed Scroll of the End of Days
+  createDaniel12GoYourWayFinaleEnsemble(propTex, pal, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = new THREE.MeshStandardMaterial({
+      color: 0x8e8068,
+      map: propTex || null,
+      roughness: 0.88
+    });
+    const parchmentMat = new THREE.MeshStandardMaterial({
+      color: 0xf0e2be,
+      map: propTex || null,
+      roughness: 0.78,
+      emissive: 0xffe098,
+      emissiveIntensity: 0.18
+    });
+    const cordMat = new THREE.MeshStandardMaterial({
+      color: 0x9c6e28,
+      roughness: 0.65,
+      metalness: 0.35
+    });
+    const sealWaxMat = new THREE.MeshStandardMaterial({
+      color: 0xb87828,
+      roughness: 0.45,
+      metalness: 0.48,
+      emissive: 0x6e3e08,
+      emissiveIntensity: 0.28
+    });
+
+    // 1. Flat-Topped River Boulder by the Ulai/Tigris Road with the Sealed Scroll & Wax Seal (exact match to painting #40 foreground)
+    const stoneScrollGroup = new THREE.Group();
+    stoneScrollGroup.position.set(isFinalePlaza ? -0.85 : 0.45, 0.02, 0.45);
+    stoneScrollGroup.userData.keepWithGlb = true;
+
+    const riverBoulder = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.92, 1.08, 0.64, 22, 3), 0.038, 3.0),
+      stoneMat
+    );
+    riverBoulder.position.y = 0.32;
+    stoneScrollGroup.add(riverBoulder);
+
+    const sealedScroll = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.095, 0.095, 0.88, 20),
+      parchmentMat
+    );
+    sealedScroll.rotation.z = Math.PI / 2;
+    sealedScroll.rotation.y = -0.38;
+    sealedScroll.position.set(0.04, 0.72, 0.02);
+    stoneScrollGroup.add(sealedScroll);
+
+    const tieRing = new THREE.Mesh(new THREE.TorusGeometry(0.10, 0.022, 10, 20), cordMat);
+    tieRing.rotation.y = -0.38 + Math.PI / 2;
+    tieRing.position.set(0.04, 0.72, 0.02);
+    stoneScrollGroup.add(tieRing);
+
+    const waxSeal = new THREE.Mesh(new THREE.CylinderGeometry(0.068, 0.068, 0.028, 16), sealWaxMat);
+    waxSeal.rotation.x = Math.PI / 3;
+    waxSeal.position.set(-0.04, 0.69, 0.12);
+    stoneScrollGroup.add(waxSeal);
+
+    group.add(stoneScrollGroup);
+
+    // 2. When isFinalePlaza = true, pair with the Open Window Toward Jerusalem (Daniel 6:10) & the Lions' Den Landmark (Daniel 6:22)
+    if (isFinalePlaza) {
+      const openWin = this.createDaniel6OpenWindowJerusalemEnsemble(propTex, pal, true);
+      if (openWin.windowLight) openWin.group.remove(openWin.windowLight);
+      openWin.group.scale.setScalar(0.84);
+      openWin.group.position.set(0.85, 0, -1.25);
+      group.add(openWin.group);
+    }
+
+    return group;
+  }
 }

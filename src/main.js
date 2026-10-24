@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_26';
-import { StepThroughSceneManager } from './scenes.js?v=44_26';
-import { GenesisDistrictBuilder } from './district.js?v=44_26';
+import { PainterlyPropBuilder } from './props.js?v=44_27';
+import { StepThroughSceneManager } from './scenes.js?v=44_27';
+import { GenesisDistrictBuilder } from './district.js?v=44_27';
 import { PilgrimAudio } from './audio.js?v=44_12';
 import { TripoRelicManager } from './tripo.js?v=44_21';
 import { DailyWalkManager } from './daily-walk.js?v=44_12';
@@ -190,7 +190,7 @@ class PilgrimWalkApp {
       [21, 'XXI', 'a-future-and-a-hope', 'Jeremiah', 'A Future and a Hope (Jeremiah)', '“Thoughts of peace, and not of evil, to give you hope and a future.”'],
       [22, 'XXII', 'new-every-morning', 'Lamentations', 'New Every Morning (Lamentations)', '“They are new every morning. Great is your faithfulness.”'],
       [23, 'XXIII', 'can-these-bones-live', 'Ezekiel', 'Can These Bones Live? (Ezekiel)', '“Everything will live wherever the river comes.”'],
-      [24, 'XXIV', 'greatly-beloved', 'Daniel', 'Greatly Beloved (Daniel)', '“Greatly beloved man, don’t be afraid. Peace be to you.”'],
+      [24, 'XXIV', 'greatly-beloved', 'Daniel', 'Greatly Beloved (Daniel)', '“Greatly beloved man, don’t be afraid… Go your way until the end; for you will rest, and will stand in your allotted inheritance at the end of the days.”'],
       [25, 'XXV', 'a-door-of-hope', 'Hosea–Obadiah', 'A Door of Hope (Hosea, Joel, Amos & Obadiah)', '“I will give her vineyards from there, and the valley of Achor for a door of hope.”'],
       [26, 'XXVI', 'out-of-the-deep', 'Jonah', 'Out of the Deep (Jonah)', '“When my soul fainted within me, I remembered Yahweh.”'],
       [27, 'XXVII', 'the-day-of-small-things', 'Micah–Malachi', 'The Day of Small Things (Micah to Malachi)', '“Not by might, nor by power, but by my Spirit, says Yahweh of Armies.”'],
@@ -946,6 +946,12 @@ class PilgrimWalkApp {
         { n: 13, label: '13 · “come find me” (Lamp to My Feet & Lost Sheep)' },
         { n: 20, label: '20 · “sow in tears” (Golden Harvest Sheaves)' },
         { n: 44, label: '44 · “if you’re breathing” (Symphony of Praise)' }
+      ],
+      'greatly-beloved': [
+        { n: 4, label: '4 · “ten days” (Table of Pulse & Water)' },
+        { n: 14, label: '14 · “a fourth in the fire” (The Fiery Furnace)' },
+        { n: 24, label: '24 · “windows open toward Jerusalem” (Open Window & Prayer Mat)' },
+        { n: 26, label: '26 · “the lions’ den” (Peaceful Lions & Light Shaft)' }
       ],
       'all-things-new': [
         { n: 4, label: '4 · “among the lampstands” (7 Golden Lampstands)' },

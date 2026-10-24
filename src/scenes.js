@@ -242,6 +242,14 @@ export class StepThroughSceneManager {
       signatureState = this.populatePsalms126GoldenSheavesScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'symphony_of_praise') {
       signatureState = this.populatePsalms150SymphonyOfPraiseScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'daniel_pulse_table') {
+      signatureState = this.populateDaniel4PulseTableScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'fiery_furnace') {
+      signatureState = this.populateDaniel14FieryFurnaceScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'open_window_jerusalem') {
+      signatureState = this.populateDaniel24OpenWindowScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'lions_den_light') {
+      signatureState = this.populateDaniel26LionsDenScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -3624,6 +3632,195 @@ export class StepThroughSceneManager {
         if (praiseEnsemble.timbrelGroup) {
           praiseEnsemble.timbrelGroup.rotation.z = -0.35 + Math.sin(time * 3.6) * (0.04 + val * 0.08);
         }
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // =========================================================================
+  // DISTRICT XXIV (GREATLY BELOVED — DANIEL) STEP-THROUGH SCENES
+  // =========================================================================
+
+  // Scene 1: Painting #4 "ten days" (Daniel 1:12–15) — Table of Pulse/Vegetables, Water Pitcher & Scroll
+  populateDaniel4PulseTableScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.0);
+
+    const pulseEnsemble = this.propBuilder.createDaniel1PulseTableEnsemble(derived.propTex, pal);
+    pulseEnsemble.group.position.copy(focalPos);
+    group.add(pulseEnsemble.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        pulseEnsemble.group,
+        'greatly-beloved',
+        4,
+        { targetHeight: 2.8, yOffset: 0.22 }
+      );
+    }
+
+    for (const [wx, wz, ry] of [[-5.2, -5.8, 0.35], [5.2, -5.8, -0.35]]) {
+      const wall = this.propBuilder.createBabylonFortressWallSegment(pal, true);
+      wall.scale.setScalar(0.68);
+      wall.position.set(wx, getTerrainHeight(wx, wz), wz);
+      wall.rotation.y = ry;
+      group.add(wall);
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.84, 3.3, '#ffe298');
+    shaft.position.set(0, 6.2, -5.0);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Ten-Day Table of Pulse, Herbs & Water in Babylon',
+      signatureActivatedText:
+        '“Please test your servants for ten days; and let them give us vegetables to eat, and water to drink… At the end of ten days, their faces appeared fairer, and they were fatter in flesh, than all the youths who ate of the king’s delicacies.” (Daniel 1:12, 15)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) {
+          this._dan4Latch = Math.min(1.0, (this._dan4Latch || 0) + dt * 0.65);
+        }
+        const val = this._dan4Latch || 0;
+        if (pulseEnsemble.pulseLight) {
+          pulseEnsemble.pulseLight.intensity = (1.5 + val * 2.4) * (1.0 + Math.sin(time * 2.4) * 0.08);
+        }
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // Scene 2: Painting #14 "a fourth in the fire" (Daniel 3:24–25) — The Fiery Furnace & Four Unbound Figures
+  populateDaniel14FieryFurnaceScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.8);
+
+    const furnace = this.propBuilder.createBabylonFieryFurnaceLandmark(pal);
+    furnace.traverse((c) => {
+      c.userData.keepWithGlb = true;
+    });
+    furnace.position.copy(focalPos);
+    group.add(furnace);
+
+    for (const [wx, wz, ry] of [[-5.6, -6.4, 0.38], [5.6, -6.4, -0.38]]) {
+      const wall = this.propBuilder.createBabylonFortressWallSegment(pal, true);
+      wall.scale.setScalar(0.72);
+      wall.position.set(wx, getTerrainHeight(wx, wz), wz);
+      wall.rotation.y = ry;
+      group.add(wall);
+    }
+
+    const furnaceLight = new THREE.PointLight(0xff9e2c, 3.2, 20);
+    furnaceLight.position.set(0, 2.4, -4.6);
+    group.add(furnaceLight);
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.90, 3.6, '#ffbe48');
+    shaft.position.set(0, 6.4, -5.8);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.8,
+      signatureLabel: 'Look Into the Blazing Furnace Where Four Walk Unbound in the Fire',
+      signatureActivatedText:
+        '“He answered, ‘Look! I see four men loose, walking in the middle of the fire, and they are unharmed; and the aspect of the fourth is like a son of the gods!’” (Daniel 3:25)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.8;
+        if (near) {
+          this._dan14Latch = Math.min(1.0, (this._dan14Latch || 0) + dt * 0.65);
+        }
+        const val = this._dan14Latch || 0;
+        const flicker = 1.0 + Math.sin(time * 5.8) * 0.12;
+        furnaceLight.intensity = (3.2 + val * 2.8) * flicker;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // Scene 3: Painting #24 "windows open toward Jerusalem" (Daniel 6:10) — Open Latticework Window & Prayer Mat
+  populateDaniel24OpenWindowScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -4.8);
+
+    const windowEnsemble = this.propBuilder.createDaniel6OpenWindowJerusalemEnsemble(derived.propTex, pal, false);
+    windowEnsemble.group.position.copy(focalPos);
+    group.add(windowEnsemble.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        windowEnsemble.group,
+        'greatly-beloved',
+        24,
+        { targetHeight: 2.8, yOffset: 0.22 }
+      );
+    }
+
+    for (const [wx, wz, ry] of [[-5.2, -5.6, 0.32], [5.2, -5.6, -0.32]]) {
+      const wall = this.propBuilder.createBabylonFortressWallSegment(pal, true);
+      wall.scale.setScalar(0.66);
+      wall.position.set(wx, getTerrainHeight(wx, wz), wz);
+      wall.rotation.y = ry;
+      group.add(wall);
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.6, '#ffe088');
+    shaft.position.set(0, 6.2, -4.8);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Kneel on the Woven Prayer Mat Before the Windows Open Toward Jerusalem',
+      signatureActivatedText:
+        '“When Daniel knew that the writing was signed, he went into his house (now his windows were open in his chamber toward Jerusalem) and he kneeled on his knees three times a day, and prayed, and gave thanks before his God, as he did before.” (Daniel 6:10)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) {
+          this._dan24Latch = Math.min(1.0, (this._dan24Latch || 0) + dt * 0.65);
+        }
+        const val = this._dan24Latch || 0;
+        if (windowEnsemble.windowLight) {
+          windowEnsemble.windowLight.intensity = (1.8 + val * 2.6) * (1.0 + Math.sin(time * 2.4) * 0.08);
+        }
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // Scene 4: Painting #26 "the lions' den" (Daniel 6:21–23) — Resting Lions & Morning Light Shaft in the Den
+  populateDaniel26LionsDenScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.4);
+
+    const lionsDen = this.propBuilder.createDanielLionsDenLandmark(pal);
+    lionsDen.traverse((c) => {
+      c.userData.keepWithGlb = true;
+    });
+    lionsDen.position.copy(focalPos);
+    group.add(lionsDen);
+
+    const denLight = new THREE.PointLight(0xffe294, 2.8, 18);
+    denLight.position.set(0, 3.2, -5.0);
+    group.add(denLight);
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.90, 3.6, '#ffea9c');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand in the Morning Light Shaft Among the Peaceful Lions of the Den',
+      signatureActivatedText:
+        '“My God has sent his angel, and has shut the lions’ mouths, and they have not hurt me… So Daniel was taken up out of the den, and no kind of harm was found on him, because he had trusted in his God.” (Daniel 6:22–23)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) {
+          this._dan26Latch = Math.min(1.0, (this._dan26Latch || 0) + dt * 0.65);
+        }
+        const val = this._dan26Latch || 0;
+        denLight.intensity = (2.8 + val * 2.8) * (1.0 + Math.sin(time * 2.2) * 0.08);
         return near || val > 0.85;
       }
     };

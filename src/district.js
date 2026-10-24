@@ -1296,6 +1296,49 @@ export class GenesisDistrictBuilder {
         streetGroup.add(praise.group);
         return;
       }
+    } else if (slug === 'greatly-beloved') {
+      if (pData.n === 4) {
+        const pulse = this.propBuilder.createDaniel1PulseTableEnsemble(null, pal);
+        if (pulse.pulseLight) pulse.group.remove(pulse.pulseLight);
+        pulse.group.scale.setScalar(0.74);
+        pulse.group.position.set(wx + side * 2.8, wy, wz - 2.0);
+        pulse.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(pulse.group);
+        return;
+      }
+      if (pData.n === 14) {
+        const furnace = this.propBuilder.createBabylonFieryFurnaceLandmark(pal);
+        furnace.scale.setScalar(0.68);
+        furnace.position.set(wx + side * 3.2, wy, wz - 2.2);
+        furnace.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(furnace);
+        return;
+      }
+      if (pData.n === 24) {
+        const openWin = this.propBuilder.createDaniel6OpenWindowJerusalemEnsemble(null, pal, false);
+        if (openWin.windowLight) openWin.group.remove(openWin.windowLight);
+        openWin.group.scale.setScalar(0.72);
+        openWin.group.position.set(wx + side * 2.8, wy, wz - 2.0);
+        openWin.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(openWin.group);
+        return;
+      }
+      if (pData.n === 26) {
+        const den = this.propBuilder.createDanielLionsDenLandmark(pal);
+        den.scale.setScalar(0.68);
+        den.position.set(wx + side * 3.2, wy, wz - 2.2);
+        den.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(den);
+        return;
+      }
+      if (pData.n === 40) {
+        const goYourWay = this.propBuilder.createDaniel12GoYourWayFinaleEnsemble(null, pal, false);
+        goYourWay.scale.setScalar(0.78);
+        goYourWay.position.set(wx + side * 2.8, wy, wz - 1.4);
+        goYourWay.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(goYourWay);
+        return;
+      }
     }
 
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
@@ -1383,6 +1426,7 @@ export class GenesisDistrictBuilder {
       'psalms-2': 'DISTRICT XIV · AS THE DEER — PSALMS 42–72',
       'psalms-3': 'DISTRICT XV · A DAY IN YOUR COURTS — PSALMS 73–106',
       'psalms-4': 'DISTRICT XVI · EVERYTHING THAT HAS BREATH — PSALMS 107–150',
+      'greatly-beloved': 'DISTRICT XXIV · GREATLY BELOVED — DANIEL',
       'all-things-new': 'DISTRICT XLIV · ALL THINGS NEW — REVELATION'
     };
 
@@ -2091,6 +2135,58 @@ export class GenesisDistrictBuilder {
           height: 1.75,
           veilZ: -466.4
         }
+      ],
+      'greatly-beloved': [
+        {
+          part: 1,
+          id: 'greatly-beloved-light-1',
+          name: 'The Light of the Ten-Day Table & the Night Lamp',
+          hint: 'Shining beside the table of vegetables & the four around a lamp near “the light lives with him” & “not me” (Part One)',
+          z: -68.0,
+          lateral: 6.2,
+          height: 1.75,
+          veilZ: -90.4
+        },
+        {
+          part: 2,
+          id: 'greatly-beloved-light-2',
+          name: 'The Light of the Fourth in the Fire',
+          hint: 'Glowing beside the blazing Babylonian furnace near “a fourth in the fire” & “not even the smell” (Part Two)',
+          z: -148.0,
+          lateral: -6.2,
+          height: 1.72,
+          veilZ: -186.1
+        },
+        {
+          part: 3,
+          id: 'greatly-beloved-light-3',
+          name: 'The Light of the Open Window & the Lions’ Den',
+          hint: 'Resting between the open window toward Jerusalem & the lions’ den near “windows open toward Jerusalem” & “the lions’ den” (Part Three)',
+          z: -258.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -281.8
+        },
+        {
+          part: 4,
+          id: 'greatly-beloved-light-4',
+          name: 'The Light of the Evening Oblation',
+          hint: 'Shining beside the scroll of seventy years near “Lord, hear” & “the evening hour” (Part Four)',
+          z: -348.0,
+          lateral: -6.0,
+          height: 1.72,
+          veilZ: -367.7
+        },
+        {
+          part: 5,
+          id: 'greatly-beloved-light-5',
+          name: 'The Light of those Who Shine Like the Stars',
+          hint: 'Shining beside the sealed scroll on the river stone near “like the stars” & “go your way” before the Amen Gate (Part Five)',
+          z: -414.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -427.2
+        }
       ]
     };
 
@@ -2231,7 +2327,7 @@ export class GenesisDistrictBuilder {
       ? -398
       : slug === 'psalms-4'
       ? -476
-      : ['genesis', 'exodus', 'fire-by-night', 'joshua-judges', 'samuel', 'kings', 'psalms-1', 'all-things-new'].includes(slug)
+      : ['genesis', 'exodus', 'fire-by-night', 'joshua-judges', 'samuel', 'kings', 'psalms-1', 'greatly-beloved', 'all-things-new'].includes(slug)
       ? -436
       : computedLastZ - 14.0;
     const pt = this.getPathPoint(plazaZ);
@@ -2338,6 +2434,26 @@ export class GenesisDistrictBuilder {
       finaleSheaves.position.set(3.2, 0.1, -4.6);
       finaleSheaves.rotation.y = -0.35;
       group.add(finaleSheaves);
+    } else if (slug === 'greatly-beloved') {
+      // District XXIV Finale: The Sealed Scroll on the River Stone ("But go your way until the end; for you will rest", Daniel 12:13)
+      // paired with the Open Window Toward Jerusalem (Daniel 6:10) and the Peaceful Lions of the Den (Daniel 6:22)
+      const danielFinale = this.propBuilder.createDaniel12GoYourWayFinaleEnsemble(
+        null,
+        { ground: '#3d394a', horizon: '#e6ae65', accent: '#cf9e57' },
+        true
+      );
+      danielFinale.position.set(0, 0.1, -3.8);
+      group.add(danielFinale);
+
+      const finaleDen = this.propBuilder.createDanielLionsDenLandmark({
+        ground: '#3d394a',
+        horizon: '#e6ae65',
+        accent: '#cf9e57'
+      });
+      finaleDen.scale.setScalar(0.72);
+      finaleDen.position.set(-3.4, 0.1, -4.8);
+      finaleDen.rotation.y = 0.38;
+      group.add(finaleDen);
     } else if (slug === 'all-things-new') {
       // District XLIV Finale: The Tree of Life, the Stone Bench beneath the Tree (answering Genesis's Sabbath Bench),
       // the Great Lantern of the Lamb ("its lamp is the Lamb"), and a Gate of Pearl
@@ -2442,6 +2558,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · EVERYTHING THAT HAS BREATH COMPLETED',
         epigraph: 'Praise him with harp and lyre! Praise him with tambourine and dancing! Let everything that has breath praise Yah! Praise Yah!',
         epigraphRef: 'PSALM 150:3–6 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XVII: PROVERBS'
+      },
+      'greatly-beloved': {
+        title: 'AMEN GATE · GREATLY BELOVED COMPLETED',
+        epigraph: 'But go your way until the end; for you will rest, and will stand in your allotted inheritance at the end of the days.',
+        epigraphRef: 'DANIEL 12:13 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXV: A DOOR OF HOPE'
       },
       'all-things-new': {
         title: 'AMEN GATE · ALL THINGS NEW COMPLETED',

@@ -290,6 +290,54 @@ export class StepThroughSceneManager {
       signatureState = this.populateJohn13UpperRoomBasinScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'galilee_charcoal_fire') {
       signatureState = this.populateJohn21CharcoalBreakfastScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'job_ash_heap') {
+      signatureState = this.populateJob6AshHeapScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'scent_of_water') {
+      signatureState = this.populateJob16ScentOfWaterScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'redeemer_rock') {
+      signatureState = this.populateJob19RedeemerRockScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'whirlwind_stars') {
+      signatureState = this.populateJob32WhirlwindStarsScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'watching_almond_branch') {
+      signatureState = this.populateJeremiah3AlmondBranchScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'jeremiah_potter_wheel') {
+      signatureState = this.populateJeremiah16PottersWheelScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'exile_letter_scroll') {
+      signatureState = this.populateJeremiah24ExileLetterScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'anathoth_deed_jars') {
+      signatureState = this.populateJeremiah30AnathothDeedScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'chebar_rainbow_throne') {
+      signatureState = this.populateEzekiel3ChebarWheelThroneScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'heart_of_flesh') {
+      signatureState = this.populateEzekiel30HeartOfFleshScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'valley_of_dry_bones') {
+      signatureState = this.populateEzekiel32DryBonesScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'temple_river_trees') {
+      signatureState = this.populateEzekiel38TempleRiverScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'tarshish_storm_ship') {
+      signatureState = this.populateJonah3StormShipScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'depths_of_the_sea') {
+      signatureState = this.populateJonah8DepthsOfSeaScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'nineveh_sackcloth_throne') {
+      signatureState = this.populateJonah16NinevehThroneScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'jonah_booth_vine') {
+      signatureState = this.populateJonah22BoothVineScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'pentecost_upper_room') {
+      signatureState = this.populateActs5PentecostRoomScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'gate_called_beautiful') {
+      signatureState = this.populateActs9BeautifulGateScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'philippi_midnight_chains') {
+      signatureState = this.populateActs29PhilippiMidnightScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'malta_four_anchors') {
+      signatureState = this.populateActs37MaltaAnchorsScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'throne_of_grace') {
+      signatureState = this.populateHebrews16ThroneOfGraceScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'anchor_of_the_soul') {
+      signatureState = this.populateHebrews19AnchorOfSoulScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'opened_curtain_way') {
+      signatureState = this.populateHebrews23OpenedCurtainScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'cloud_of_witnesses_arena') {
+      signatureState = this.populateHebrews33CloudOfWitnessesScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -328,7 +376,13 @@ export class StepThroughSceneManager {
         'bethlehem_manger', 'good_samaritan_inn', 'prodigal_road_home', 'emmaus_table_bread',
         'magi_star_gifts', 'sermon_mount_lamp', 'walking_on_the_sea', 'rolled_away_stone',
         'peace_be_still_boat', 'five_thousand_baskets', 'bartimaeus_cloak', 'alabaster_jar',
-        'cana_stone_jars', 'jacob_well_jar', 'upper_room_basin', 'galilee_charcoal_fire'
+        'cana_stone_jars', 'jacob_well_jar', 'upper_room_basin', 'galilee_charcoal_fire',
+        'job_ash_heap', 'scent_of_water', 'redeemer_rock', 'whirlwind_stars',
+        'watching_almond_branch', 'jeremiah_potter_wheel', 'exile_letter_scroll', 'anathoth_deed_jars',
+        'chebar_rainbow_throne', 'heart_of_flesh', 'valley_of_dry_bones', 'temple_river_trees',
+        'tarshish_storm_ship', 'depths_of_the_sea', 'nineveh_sackcloth_throne', 'jonah_booth_vine',
+        'pentecost_upper_room', 'gate_called_beautiful', 'philippi_midnight_chains', 'malta_four_anchors',
+        'throne_of_grace', 'anchor_of_the_soul', 'opened_curtain_way', 'cloud_of_witnesses_arena'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -4605,6 +4659,827 @@ export class StepThroughSceneManager {
         if (near) this._jn21Latch = Math.min(1.0, (this._jn21Latch || 0) + dt * 0.65);
         const val = this._jn21Latch || 0;
         rig.charcoalLight.intensity = (2.6 + val * 3.0) * (1.0 + Math.sin(time * 4.8) * 0.12);
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // =========================================================================
+  // DISTRICT XII (OUT OF THE WHIRLWIND — JOB) STEP-THROUGH SCENES
+  // =========================================================================
+
+  populateJob6AshHeapScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJob2AshHeapPotsherdEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'out-of-the-whirlwind', 6, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#ffcf86');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Sit in Silence Beside the Ash Heap & Three Stones',
+      signatureActivatedText:
+        '“So they sat down with him on the ground seven days and seven nights, and none spoke a word to him, for they saw that his grief was very great.” (Job 2:13)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._job6Latch = Math.min(1.0, (this._job6Latch || 0) + dt * 0.65);
+        const val = this._job6Latch || 0;
+        rig.ashLight.intensity = (2.3 + val * 2.6) * (1.0 + Math.sin(time * 3.2) * 0.1);
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJob16ScentOfWaterScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJob14ScentOfWaterStumpEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'out-of-the-whirlwind', 16, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#d9f598');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Approach the Hewn Stump Budding at the Scent of Water',
+      signatureActivatedText:
+        '“For there is hope for a tree, if it is cut down, that it will sprout again… Yet through the scent of water it will bud, and sprout boughs like a plant.” (Job 14:7, 9)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._job16Latch = Math.min(1.0, (this._job16Latch || 0) + dt * 0.65);
+        const val = this._job16Latch || 0;
+        rig.shootGroup.scale.setScalar(1.0 + val * 0.25);
+        rig.sproutLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJob19RedeemerRockScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.4);
+    const rig = this.propBuilder.createJob19RedeemerRockInscriptionEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'out-of-the-whirlwind', 19, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.6, '#ffe494');
+    shaft.position.set(0, 6.4, -5.4);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Trace the Words Graven with Iron & Lead in the Rock Forever',
+      signatureActivatedText:
+        '“Oh that my words were now written!… That with an iron pen and lead they were engraved in the rock forever! But as for me, I know that my Redeemer lives.” (Job 19:23–25)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._job19Latch = Math.min(1.0, (this._job19Latch || 0) + dt * 0.65);
+        const val = this._job19Latch || 0;
+        rig.rockLight.intensity = (2.5 + val * 3.0) * (1.0 + Math.sin(time * 2.4) * 0.08);
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJob32WhirlwindStarsScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.4);
+    if (skyDome && skyDome.material && skyDome.material.uniforms && skyDome.material.uniforms.uStarIntensity) {
+      skyDome.material.uniforms.uStarIntensity.value = 0.85;
+    }
+
+    const rig = this.propBuilder.createJob38WhirlwindAndStarsEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'out-of-the-whirlwind', 32, { targetHeight: 3.1, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.8, '#ffea9e');
+    shaft.position.set(0, 6.6, -5.4);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand Before the Whirlwind Under the Pleiades & Orion',
+      signatureActivatedText:
+        '“Then Yahweh answered Job out of the whirlwind… ‘Can you bind the cluster of the Pleiades, or loosen the cords of Orion?’” (Job 38:1, 31)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._job32Latch = Math.min(1.0, (this._job32Latch || 0) + dt * 0.65);
+        const val = this._job32Latch || 0;
+        rig.vortexGroup.rotation.y = time * (1.2 + val * 0.8);
+        rig.starLight.intensity = 2.7 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // =========================================================================
+  // DISTRICT XXI (A FUTURE AND A HOPE — JEREMIAH) STEP-THROUGH SCENES
+  // =========================================================================
+
+  populateJeremiah3AlmondBranchScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJeremiah1AlmondBranchEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-future-and-a-hope', 3, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#ffe6ee');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Look Upon the Early-Waking Almond Branch in Blossom',
+      signatureActivatedText:
+        '“‘Jeremiah, what do you see?’ I said, ‘I see a branch of an almond tree.’ Then Yahweh said to me, ‘You have seen well; for I watch over my word to perform it.’” (Jeremiah 1:11–12)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._jer3Latch = Math.min(1.0, (this._jer3Latch || 0) + dt * 0.65);
+        const val = this._jer3Latch || 0;
+        rig.almondLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJeremiah16PottersWheelScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJeremiah18PottersWheelEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-future-and-a-hope', 16, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#ffdf96');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Watch the Clay Vessel Reshaped Upon the Potter’s Wheel',
+      signatureActivatedText:
+        '“When the vessel that he made of the clay was marred in the hand of the potter, he made it again another vessel, as seemed good to the potter to make it.” (Jeremiah 18:4)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._jer16Latch = Math.min(1.0, (this._jer16Latch || 0) + dt * 0.65);
+        const val = this._jer16Latch || 0;
+        rig.wheelGroup.rotation.y = time * (1.8 + val * 1.4);
+        rig.potterLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJeremiah24ExileLetterScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJeremiah29ExileLetterScrollEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-future-and-a-hope', 24, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#ffe49e');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Read the Open Letter Sent to the Exiles in Babylon',
+      signatureActivatedText:
+        '“‘For I know the thoughts that I think toward you,’ says Yahweh, ‘thoughts of peace, and not of evil, to give you hope and a future.’” (Jeremiah 29:11)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._jer24Latch = Math.min(1.0, (this._jer24Latch || 0) + dt * 0.65);
+        const val = this._jer24Latch || 0;
+        rig.scrollLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJeremiah30AnathothDeedScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJeremiah32AnathothDeedJarsEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-future-and-a-hope', 30, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#ffe299');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Before the Earthenware Jar Holding the Anathoth Deeds',
+      signatureActivatedText:
+        '“‘Take these deeds, this purchase deed which is sealed, and this deed which is open, and put them in an earthen vessel, that they may continue many days.’ For thus says Yahweh of Armies: ‘Houses and fields and vineyards shall again be bought in this land.’” (Jeremiah 32:14–15)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._jer30Latch = Math.min(1.0, (this._jer30Latch || 0) + dt * 0.65);
+        const val = this._jer30Latch || 0;
+        rig.deedLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // =========================================================================
+  // DISTRICT XXIII (CAN THESE BONES LIVE — EZEKIEL) STEP-THROUGH SCENES
+  // =========================================================================
+
+  populateEzekiel3ChebarWheelThroneScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.4);
+    if (skyDome && skyDome.material && skyDome.material.uniforms && skyDome.material.uniforms.uRainbowIntensity) {
+      skyDome.material.uniforms.uRainbowIntensity.value = 0.75;
+    }
+
+    const rig = this.propBuilder.createEzekiel1ChebarWheelThroneEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'can-these-bones-live', 3, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.8, '#ffea9e');
+    shaft.position.set(0, 6.5, -5.4);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand Before the Interlocked Beryl Wheels & Rainbow Glory',
+      signatureActivatedText:
+        '“Their work was like a wheel within a wheel… As the appearance of the bow that is in the cloud in the day of rain, so was the appearance of the brightness all around.” (Ezekiel 1:16, 28)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._ez3Latch = Math.min(1.0, (this._ez3Latch || 0) + dt * 0.65);
+        const val = this._ez3Latch || 0;
+        rig.wheelsGroup.rotation.y = time * (0.95 + val * 0.8);
+        rig.wheelsGroup.rotation.x = Math.sin(time * 0.7) * 0.25;
+        rig.wheelLight.intensity = 2.7 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEzekiel30HeartOfFleshScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEzekiel36HeartOfFleshAltarEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'can-these-bones-live', 30, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#ffd2c8');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Witness the Stone Parting Around a New Heart of Flesh',
+      signatureActivatedText:
+        '“I will also give you a new heart, and I will put a new spirit within you. I will take away the stony heart out of your flesh, and I will give you a heart of flesh.” (Ezekiel 36:26)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._ez30Latch = Math.min(1.0, (this._ez30Latch || 0) + dt * 0.65);
+        const val = this._ez30Latch || 0;
+        const pulse = 1.0 + Math.sin(time * 3.4) * 0.08;
+        rig.heartCore.scale.set(pulse, 1.18 * pulse, 0.82 * pulse);
+        rig.heartLight.intensity = 2.5 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEzekiel32DryBonesScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.4);
+    const rig = this.propBuilder.createEzekiel37ValleyOfDryBonesEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'can-these-bones-live', 32, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.6, '#ffebb0');
+    shaft.position.set(0, 6.4, -5.4);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Prophesy to the Breath in the Valley of Dry Bones',
+      signatureActivatedText:
+        '“‘Come from the four winds, breath, and breathe on these slain, that they may live!’ So I prophesied as he commanded me, and the breath came into them, and they lived, and stood up on their feet.” (Ezekiel 37:9–10)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._ez32Latch = Math.min(1.0, (this._ez32Latch || 0) + dt * 0.65);
+        const val = this._ez32Latch || 0;
+        rig.ribsGroup.position.y = val * 0.25;
+        rig.breathLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEzekiel38TempleRiverScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const waterMat = createKomorebiWaterMaterial(THREE, {
+      deepColor: '#1b5a73',
+      shallowColor: '#56b8cc',
+      sunColor: '#ffea9c',
+      opacity: 0.92
+    });
+    const riverGeo = new THREE.PlaneGeometry(14, 34, 24, 36);
+    riverGeo.rotateX(-Math.PI / 2);
+    const riverMesh = new THREE.Mesh(riverGeo, waterMat);
+    riverMesh.position.set(0, 0.05, -7.2);
+    group.add(riverMesh);
+
+    const rig = this.propBuilder.createEzekiel47TempleRiverTreesEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'can-these-bones-live', 38, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    for (const [tx, tz, sc] of [[-4.2, -5.5, 1.05], [4.2, -5.5, 1.02]]) {
+      const tree = this.propBuilder.createGreatPainterlyTree(derived.propTex, pal, sc);
+      tree.position.set(tx, getTerrainHeight(tx, tz), tz);
+      group.add(tree);
+    }
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Walk Beside the Temple River & Trees Bearing Leaves for Healing',
+      signatureActivatedText:
+        '“Everything will live wherever the river comes… Their fruit will be for food, and their leaf for healing.” (Ezekiel 47:9, 12)',
+      updateScene: (dt, time, distToSignature, activeSkyDome, cameraPos) => {
+        waterMat.uniforms.uTime.value = time * 0.55;
+        if (cameraPos) waterMat.uniforms.uCameraPos.value.copy(cameraPos);
+        const near = distToSignature < 4.5;
+        if (near) this._ez38Latch = Math.min(1.0, (this._ez38Latch || 0) + dt * 0.65);
+        const val = this._ez38Latch || 0;
+        rig.riverLight.intensity = 2.5 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // =========================================================================
+  // DISTRICT XXVI (OUT OF THE DEEP — JONAH) STEP-THROUGH SCENES
+  // =========================================================================
+
+  populateJonah3StormShipScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.4);
+    const waterMat = createKomorebiWaterMaterial(THREE, {
+      deepColor: '#162f42',
+      shallowColor: '#3d6e85',
+      sunColor: '#ffe094',
+      opacity: 0.92
+    });
+    const seaGeo = new THREE.PlaneGeometry(52, 32, 48, 36);
+    seaGeo.rotateX(-Math.PI / 2);
+    const seaMesh = new THREE.Mesh(seaGeo, waterMat);
+    seaMesh.position.set(0, 0.05, -8.5);
+    group.add(seaMesh);
+
+    const rig = this.propBuilder.createJonah1TarshishStormShipEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'out-of-the-deep', 3, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand by the Storm-Tossed Tarshish Ship & Hold Lantern',
+      signatureActivatedText:
+        '“But Yahweh sent out a great wind on the sea, and there was a mighty tempest on the sea, so that the ship was likely to break up… But Jonah had gone down into the innermost parts of the ship, and he was fast asleep.” (Jonah 1:4–5)',
+      updateScene: (dt, time, distToSignature, activeSkyDome, cameraPos) => {
+        waterMat.uniforms.uTime.value = time * 0.85;
+        if (cameraPos) waterMat.uniforms.uCameraPos.value.copy(cameraPos);
+        rig.group.rotation.z = Math.sin(time * 1.8) * 0.08;
+        const near = distToSignature < 4.5;
+        if (near) this._jn3Latch = Math.min(1.0, (this._jn3Latch || 0) + dt * 0.65);
+        return near || (this._jn3Latch || 0) > 0.85;
+      }
+    };
+  }
+
+  populateJonah8DepthsOfSeaScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.4);
+    const rig = this.propBuilder.createJonah2GreatFishDepthsEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'out-of-the-deep', 8, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.9, 3.8, '#8ae6ff');
+    shaft.position.set(0, 6.5, -5.4);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Look Upward from the Roots of the Mountains Toward the Temple Light',
+      signatureActivatedText:
+        '“I went down to the bottoms of the mountains… Yet you have brought up my life from the pit, Yahweh my God. When my soul fainted within me, I remembered Yahweh.” (Jonah 2:6–7)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._jn8Latch = Math.min(1.0, (this._jn8Latch || 0) + dt * 0.65);
+        const val = this._jn8Latch || 0;
+        rig.deepLight.intensity = 2.5 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJonah16NinevehThroneScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJonah3NinevehEmptyThroneEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'out-of-the-deep', 16, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#ffe09c');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Approach the Empty Throne of Nineveh & Crown in the Ashes',
+      signatureActivatedText:
+        '“The news reached the king of Nineveh, and he arose from his throne, and took off his royal robe, covered himself with sackcloth, and sat in ashes.” (Jonah 3:6)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._jn16Latch = Math.min(1.0, (this._jn16Latch || 0) + dt * 0.65);
+        const val = this._jn16Latch || 0;
+        rig.throneLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJonah22BoothVineScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJonah4EastHillBoothVineEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'out-of-the-deep', 22, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#ffe69c');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Rest Under the Shade of the Appointed Vine on the East Hill',
+      signatureActivatedText:
+        '“Yahweh God prepared a vine, and made it come up over Jonah, that it might be a shade over his head, to deliver him from his discomfort.” (Jonah 4:6)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._jn22Latch = Math.min(1.0, (this._jn22Latch || 0) + dt * 0.65);
+        const val = this._jn22Latch || 0;
+        rig.vineLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // =========================================================================
+  // DISTRICT XXXII (TO THE ENDS OF THE EARTH — ACTS) STEP-THROUGH SCENES
+  // =========================================================================
+
+  populateActs5PentecostRoomScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createActs2PentecostUpperRoomEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'to-the-ends-of-the-earth', 5, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.6, '#ffb85c');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand in the Upper Room Beneath the Tongues Like Fire',
+      signatureActivatedText:
+        '“Suddenly there came from the sky a sound like the rushing of a mighty wind, and it filled all the house where they were sitting. Tongues like fire appeared and were distributed to them, and one sat on each of them.” (Acts 2:2–3)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._acts5Latch = Math.min(1.0, (this._acts5Latch || 0) + dt * 0.65);
+        const val = this._acts5Latch || 0;
+        rig.flamesGroup.rotation.y = time * 0.45;
+        rig.pentecostLight.intensity = (2.8 + val * 3.0) * (1.0 + Math.sin(time * 4.2) * 0.1);
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateActs9BeautifulGateScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createActs3GateCalledBeautifulEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'to-the-ends-of-the-earth', 9, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#ffe296');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Approach the Gate Called Beautiful & the Left-Behind Mat',
+      signatureActivatedText:
+        '“But Peter said, ‘Silver and gold have I none, but what I have, that I give you. In the name of Jesus Christ of Nazareth, get up and walk!’… And leaping up, he stood, and began to walk.” (Acts 3:6, 8)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._acts9Latch = Math.min(1.0, (this._acts9Latch || 0) + dt * 0.65);
+        const val = this._acts9Latch || 0;
+        rig.gateLight.intensity = 2.5 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateActs29PhilippiMidnightScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createActs16PhilippiMidnightPrisonEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'to-the-ends-of-the-earth', 29, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.6, '#ffcf78');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Among the Unfastened Chains at Midnight in Philippi',
+      signatureActivatedText:
+        '“But about midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them. Suddenly there was a great earthquake… and immediately all the doors were opened, and everyone’s bonds were loosened.” (Acts 16:25–26)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._acts29Latch = Math.min(1.0, (this._acts29Latch || 0) + dt * 0.65);
+        const val = this._acts29Latch || 0;
+        rig.prisonLight.intensity = 2.5 + val * 2.9;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateActs37MaltaAnchorsScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const waterMat = createKomorebiWaterMaterial(THREE, {
+      deepColor: '#1a3a4c',
+      shallowColor: '#4c7e94',
+      sunColor: '#ffe09c',
+      opacity: 0.91
+    });
+    const seaGeo = new THREE.PlaneGeometry(52, 28, 44, 32);
+    seaGeo.rotateX(-Math.PI / 2);
+    const seaMesh = new THREE.Mesh(seaGeo, waterMat);
+    seaMesh.position.set(0, 0.04, -9.5);
+    group.add(seaMesh);
+
+    const rig = this.propBuilder.createActs27MaltaFourAnchorsEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'to-the-ends-of-the-earth', 37, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand by the Four Stern Anchors & Wish for the Dawn',
+      signatureActivatedText:
+        '“Fearing that we would run aground on rocky ground, they let go four anchors from the stern, and wished for the daylight.” (Acts 27:29)',
+      updateScene: (dt, time, distToSignature, activeSkyDome, cameraPos) => {
+        waterMat.uniforms.uTime.value = time * 0.6;
+        if (cameraPos) waterMat.uniforms.uCameraPos.value.copy(cameraPos);
+        const near = distToSignature < 4.5;
+        if (near) this._acts37Latch = Math.min(1.0, (this._acts37Latch || 0) + dt * 0.65);
+        const val = this._acts37Latch || 0;
+        rig.anchorLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // =========================================================================
+  // DISTRICT XL (ANCHOR OF THE SOUL — HEBREWS) STEP-THROUGH SCENES
+  // =========================================================================
+
+  populateHebrews16ThroneOfGraceScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createHebrews4ThroneOfGraceEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'anchor-of-the-soul', 16, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.6, '#ffea9c');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Draw Near with Boldness to the Throne of Grace',
+      signatureActivatedText:
+        '“Let’s therefore draw near with boldness to the throne of grace, that we may receive mercy and may find grace for help in time of need.” (Hebrews 4:16)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._heb16Latch = Math.min(1.0, (this._heb16Latch || 0) + dt * 0.65);
+        const val = this._heb16Latch || 0;
+        rig.graceLight.intensity = 2.7 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateHebrews19AnchorOfSoulScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createHebrews6AnchorOfTheSoulEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'anchor-of-the-soul', 19, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.6, '#ffe69c');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Lay Hold of the Hope Set Before Us — The Anchor of the Soul',
+      signatureActivatedText:
+        '“This hope we have as an anchor of the soul, a hope both sure and steadfast and entering into that which is within the veil.” (Hebrews 6:19)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._heb19Latch = Math.min(1.0, (this._heb19Latch || 0) + dt * 0.65);
+        const val = this._heb19Latch || 0;
+        rig.soulLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateHebrews23OpenedCurtainScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createHebrews10OpenedCurtainWayEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'anchor-of-the-soul', 23, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.6, '#ffea9c');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Step Through the New and Living Way Opened Through the Veil',
+      signatureActivatedText:
+        '“Having therefore, brothers, boldness to enter into the holy place by the blood of Jesus, by the way which he dedicated for us, a new and living way, through the veil…” (Hebrews 10:19–20)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._heb23Latch = Math.min(1.0, (this._heb23Latch || 0) + dt * 0.65);
+        const val = this._heb23Latch || 0;
+        rig.veilLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateHebrews33CloudOfWitnessesScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createHebrews12CloudOfWitnessesArenaEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'anchor-of-the-soul', 33, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.8, '#ffea9e');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand Within the Amphitheater of the Great Cloud of Witnesses',
+      signatureActivatedText:
+        '“Therefore let’s also, seeing we are surrounded by so great a cloud of witnesses, lay aside every weight and the sin which so easily entangles us, and let’s run with endurance the race that is set before us.” (Hebrews 12:1)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._heb33Latch = Math.min(1.0, (this._heb33Latch || 0) + dt * 0.65);
+        const val = this._heb33Latch || 0;
+        rig.witnessesGroup.rotation.y = time * 0.28;
+        rig.arenaLight.intensity = 2.7 + val * 3.2;
         return near || val > 0.85;
       }
     };

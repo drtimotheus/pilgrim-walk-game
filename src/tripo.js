@@ -449,7 +449,7 @@ export class TripoRelicManager {
 
     if (this.modelCache.has(id)) {
       this.injectCachedModelIntoGroup(id, targetGroup, scale, yOffset);
-    } else if (this.relicById.has(id)) {
+    } else if (this.relicById.has(id) && !options.deferLoad) {
       this.ensureRelicLoaded(id);
     }
   }

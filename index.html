@@ -1014,6 +1014,7 @@
       <button id="btn-cover-shelf" class="hud-pill hud-collapsible">📚 44-Book Shelf</button>
       <button id="btn-gatehouse" class="hud-pill hud-collapsible">📖 Intro</button>
       <button id="btn-tripo-studio" class="hud-pill hud-collapsible">🗿 Relic Workshop</button>
+      <button id="btn-postcard-snapshot" class="hud-pill hud-collapsible" title="Capture a Framed Pilgrim Postcard [P]">📷 Postcard</button>
     </div>
     <div class="hud-cluster">
       <button id="btn-lang-toggle" class="hud-pill dw-gold-pill" title="Switch Language: English / 简体中文 / 繁體中文">🌐 中文 (简/繁) / EN</button>
@@ -1021,6 +1022,7 @@
       <span id="lantern-glow-indicator" class="hud-pill hud-stat hud-collapsible">✦ Lantern lit</span>
       <span id="hud-lights-count" class="hud-pill hud-stat hud-collapsible">0 / 4 Lights</span>
       <span id="hud-paintings-count" class="hud-pill hud-stat hud-collapsible">0 / 40 Poems</span>
+      <span id="hud-relics-count" class="hud-pill hud-stat hud-collapsible" title="Hero Relics Inspected on the Road">0 / 53 Relics</span>
       <button id="btn-mode-toggle" class="hud-pill hud-collapsible">Mode: Story Walk</button>
       <button id="btn-audio-toggle" class="hud-pill hud-collapsible">Sound: On</button>
       <div id="hud-volume-pill" class="hud-pill hud-collapsible hud-volume-pill" role="group" aria-label="Volume Controls">
@@ -1161,11 +1163,31 @@
         <div id="tripo-filter-pills" style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
           <button type="button" class="gold-btn active-workshop-filter" data-relic-filter="all" style="padding:5px 12px;font-size:0.8rem;">All (53)</button>
           <button type="button" class="gold-btn" data-relic-filter="current" style="padding:5px 12px;font-size:0.8rem;">Current Book</button>
+          <button type="button" class="gold-btn" data-relic-filter="inspected" style="padding:5px 12px;font-size:0.8rem;">✦ Inspected</button>
           <button type="button" class="gold-btn" data-relic-filter="concept" style="padding:5px 12px;font-size:0.8rem;">† Concept-Modeled (5)</button>
           <button type="button" class="gold-btn" data-relic-filter="muse" style="padding:5px 12px;font-size:0.8rem;">Muse Lane (6)</button>
           <button type="button" class="gold-btn" data-relic-filter="flagged" style="padding:5px 12px;font-size:0.8rem;">Source Flagged (3)</button>
         </div>
         <input id="tripo-search-input" type="search" placeholder="Search 53 relics by name, book, or #slot…" aria-label="Search Hero Relics" style="flex:1 1 210px;max-width:300px;padding:6px 11px;border-radius:8px;border:1px solid #bfa06f;background:#fbf6ec;color:#261b0e;font-family:var(--font-serif);font-size:0.86rem;" />
+      </div>
+      <!-- Interactive 3D Relic Turntable Stage (Upgrade 2) -->
+      <div id="tripo-turntable-stage" class="hidden" style="display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin:0 0 14px;padding:14px;background:linear-gradient(135deg,#2a1f14 0%,#1d150d 100%);border:2px solid #c99d52;border-radius:12px;color:#f7eedc;">
+        <div style="position:relative;width:260px;height:260px;flex-shrink:0;border-radius:10px;overflow:hidden;border:1px solid rgba(235,204,142,0.45);background:radial-gradient(circle at 50% 42%,#473521 0%,#1a120b 100%);">
+          <canvas id="tripo-turntable-canvas" width="260" height="260" style="width:260px;height:260px;display:block;cursor:grab;" title="Drag to rotate · Scroll to zoom"></canvas>
+          <div style="position:absolute;bottom:6px;left:8px;right:8px;text-align:center;font-size:0.72rem;color:#e6cfa3;pointer-events:none;background:rgba(20,14,8,0.65);border-radius:6px;padding:2px 6px;">
+            ↻ Drag to orbit · Scroll to zoom
+          </div>
+        </div>
+        <div style="flex:1 1 280px;">
+          <div id="tripo-turntable-eyebrow" style="font-size:0.76rem;letter-spacing:0.08em;text-transform:uppercase;color:#e6be74;margin-bottom:4px;">3D RELIC TURNTABLE INSPECTOR</div>
+          <h3 id="tripo-turntable-title" style="font-size:1.3rem;margin:0 0 6px;color:#fff6e5;">#1 · The Pilgrim’s Lantern</h3>
+          <p id="tripo-turntable-district" style="font-size:0.9rem;color:#dec392;margin:0 0 8px;"></p>
+          <p id="tripo-turntable-note" style="font-size:0.88rem;line-height:1.55;color:#f2e6cf;margin:0 0 12px;"></p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <button id="tripo-turntable-visit-btn" type="button" class="gold-btn" style="padding:6px 14px;font-size:0.85rem;">✦ Stand Before Relic in 3D</button>
+            <button id="tripo-turntable-close-btn" type="button" class="gold-btn" style="padding:6px 12px;font-size:0.82rem;opacity:0.88;">Hide Turntable</button>
+          </div>
+        </div>
       </div>
       <div id="tripo-relics-list" style="display:flex;flex-direction:column;gap:14px;margin-top:10px;"></div>
     </div>
@@ -1276,6 +1298,6 @@
     </div>
   </div>
 
-  <script type="module" src="src/main.js?v=44_54"></script>
+  <script type="module" src="src/main.js?v=44_55"></script>
 </body>
 </html>

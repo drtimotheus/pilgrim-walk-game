@@ -13,11 +13,11 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_54';
-import { StepThroughSceneManager } from './scenes.js?v=44_54';
-import { GenesisDistrictBuilder } from './district.js?v=44_54';
+import { PainterlyPropBuilder } from './props.js?v=44_55';
+import { StepThroughSceneManager } from './scenes.js?v=44_55';
+import { GenesisDistrictBuilder } from './district.js?v=44_55';
 import { PilgrimAudio } from './audio.js?v=44_54';
-import { TripoRelicManager } from './tripo.js?v=44_54';
+import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
 import { formatZh } from './zh-convert.js?v=44_12';
 
@@ -258,6 +258,7 @@ class PilgrimWalkApp {
       lightsKindled: Array.isArray(src.lightsKindled) ? [...new Set(src.lightsKindled)] : [],
       paintingsSeen: Array.isArray(src.paintingsSeen) ? [...new Set(src.paintingsSeen)] : [],
       scenesVisited: Array.isArray(src.scenesVisited) ? [...new Set(src.scenesVisited)] : [],
+      relicsInspected: Array.isArray(src.relicsInspected) ? [...new Set(src.relicsInspected)] : [],
       districtsCompleted: Array.isArray(src.districtsCompleted) ? [...new Set(src.districtsCompleted)] : [],
       walkMode: ['STORY', 'FREE', 'DAILY'].includes(src.walkMode) ? src.walkMode : 'STORY',
       lang: ['en', 'zh', 'zh-TW'].includes(src.lang) ? src.lang : 'en',
@@ -999,6 +1000,42 @@ class PilgrimWalkApp {
         { n: 8, label: '8 · “knocking” (Door & Supper Table)' },
         { n: 13, label: '13 · “the Lion is a Lamb” (Lamb & Emerald Throne)' },
         { n: 38, label: '38 · “leaves for healing” (Tree of Life & Bench)' }
+      ],
+      'out-of-the-whirlwind': [
+        { n: 6, label: '6 · “the ash heap” (Ash-Heap & Potsherd)' },
+        { n: 16, label: '16 · “at the scent of water” (Cut Stump & Tender Shoot)' },
+        { n: 19, label: '19 · “with an iron pen” (Redeemer Rock Inscription)' },
+        { n: 32, label: '32 · “out of the whirlwind” (Whirlwind & Morning Stars)' }
+      ],
+      'a-future-and-a-hope': [
+        { n: 3, label: '3 · “an almond branch” (Blossoming Almond Branch)' },
+        { n: 16, label: '16 · “the potter’s house” (Potter’s Wheel & Clay)' },
+        { n: 24, label: '24 · “build houses, plant gardens” (Exile Letter & Figs)' },
+        { n: 30, label: '30 · “the deed in the jar” (Anathoth Deed Jars)' }
+      ],
+      'can-these-bones-live': [
+        { n: 3, label: '3 · “the bow in the cloud” (Chebar Wheels & Sapphire Throne)' },
+        { n: 30, label: '30 · “a heart of flesh” (Clean Water & Heart of Flesh)' },
+        { n: 32, label: '32 · “can these bones live” (Valley of Dry Bones)' },
+        { n: 38, label: '38 · “wherever the river goes” (Temple River & Healing Trees)' }
+      ],
+      'out-of-the-deep': [
+        { n: 3, label: '3 · “fast asleep in the hold” (Tarshish Ship in the Storm)' },
+        { n: 8, label: '8 · “the roots of the mountains” (Great Fish & Sea Depths)' },
+        { n: 16, label: '16 · “sackcloth and ashes” (Nineveh’s Empty Throne)' },
+        { n: 22, label: '22 · “the little vine” (East Hill Booth & Vine)' }
+      ],
+      'to-the-ends-of-the-earth': [
+        { n: 5, label: '5 · “tongues like fire” (Pentecost Upper Room)' },
+        { n: 9, label: '9 · “silver and gold have I none” (Gate Called Beautiful)' },
+        { n: 29, label: '29 · “at midnight” (Philippi Prison & Sprung Shackles)' },
+        { n: 37, label: '37 · “not one of you will be lost” (Malta Ship & 4 Anchors)' }
+      ],
+      'anchor-of-the-soul': [
+        { n: 16, label: '16 · “boldly” (Throne of Grace)' },
+        { n: 19, label: '19 · “the anchor” (Anchor of the Soul)' },
+        { n: 23, label: '23 · “through the curtain” (Parted Veil & Living Way)' },
+        { n: 33, label: '33 · “so great a cloud” (Cloud of Witnesses Arena)' }
       ]
     };
 
@@ -1236,6 +1273,7 @@ class PilgrimWalkApp {
 
       const rItem = this.tripoManager?.relicById?.get(targetRelicNode.id);
       const rTitle = rItem ? rItem.title : targetRelicNode.id;
+      this.markRelicInspected(targetRelicNode.id, true);
       this.showToast(
         this.isZh()
           ? this.zh(`🗿 已抵达本卷圣物：#${rItem?.slot || ''} ${rTitle} — 按 [E] 瞻仰圣物并阅读第 ${targetRelicNode.paintingNum} 首诗歌`)
@@ -1248,9 +1286,34 @@ class PilgrimWalkApp {
     const loc =
       (relicId && this.tripoManager?.getRelicLocationInfo(relicId)) ||
       this.tripoManager?.getDistrictPrimaryRelicInfo(this.currentDistrictSlug);
+    if (loc && loc.id) {
+      this.markRelicInspected(loc.id, true);
+    }
     if (loc && loc.paintingNum) {
       this.jumpToPaintingOnStreet(loc.paintingNum, Boolean(loc.enterScene));
     }
+  }
+
+  markRelicInspected(relicId, silent = false) {
+    if (!relicId || typeof relicId !== 'string') return false;
+    if (!Array.isArray(this.saveData.relicsInspected)) {
+      this.saveData.relicsInspected = [];
+    }
+    if (!this.saveData.relicsInspected.includes(relicId)) {
+      this.saveData.relicsInspected.push(relicId);
+      this.persistSaveData();
+      if (!silent) {
+        const rItem = this.tripoManager?.relicById?.get(relicId);
+        const total = this.tripoManager?.manifest?.models?.length || 53;
+        const count = this.saveData.relicsInspected.length;
+        if (rItem) {
+          this.showToast(`🗿 Discovered #${rItem.slot} · ${rItem.title} (${count} / ${total} Hero Relics Inspected)`);
+        }
+      }
+      return true;
+    }
+    this.updateHUDProgress();
+    return false;
   }
 
   async standBeforeRelicIn3D(relicId) {
@@ -1258,6 +1321,7 @@ class PilgrimWalkApp {
     const loc = this.tripoManager.getRelicLocationInfo(relicId);
     if (!loc) return;
 
+    this.markRelicInspected(relicId, true);
     this.closeAllModals();
 
     // Ensure Free Walk if the target district or part is veiled in Story Walk so Workshop inspection is immediate
@@ -1311,6 +1375,10 @@ class PilgrimWalkApp {
     } else if (t.type === 'READ_POEM') {
       this.openPoemModal(t.node.data, t.node.data.isScene ? () => this.enterStepThroughScene(t.node) : null);
     } else if (t.type === 'INSPECT_HERO_RELIC') {
+      const inspectedId = t.relicNode?.id || t.relicMeta?.id;
+      if (inspectedId) {
+        this.markRelicInspected(inspectedId, true);
+      }
       const pData = t.relicNode?.paintingData;
       const pNode =
         this.district?.paintingNodes?.find((n) => n.data.n === t.relicNode?.paintingNum) ||
@@ -1479,6 +1547,7 @@ class PilgrimWalkApp {
 
   closeAllModals() {
     this.closePoemModal();
+    this.stopTurntableLoop();
     if (this.dailyWalk) {
       this.dailyWalk.saveCurrentJournalNote();
       this.dailyWalk.stopActiveVoice();
@@ -1510,6 +1579,9 @@ class PilgrimWalkApp {
       } else if (e.code === 'KeyH') {
         e.preventDefault();
         this.toggleHudMinimized();
+      } else if (e.code === 'KeyP' && !this.isAnyModalOpen()) {
+        e.preventDefault();
+        this.capturePilgrimPostcard();
       } else if (e.code === 'KeyR' && this.currentInteractTarget && this.currentInteractTarget.node) {
         e.preventDefault();
         const node = this.currentInteractTarget.node;
@@ -1647,6 +1719,14 @@ class PilgrimWalkApp {
     document.getElementById('btn-cover-shelf').addEventListener('click', () => this.openModal('shelf-modal'));
     const btnTripo = document.getElementById('btn-tripo-studio');
     if (btnTripo) btnTripo.addEventListener('click', () => this.openModal('tripo-modal'));
+    const hudRelicsPill = document.getElementById('hud-relics-pill');
+    if (hudRelicsPill) {
+      hudRelicsPill.addEventListener('click', () => this.openModal('tripo-modal'));
+    }
+    const btnPostcard = document.getElementById('btn-postcard-snapshot');
+    if (btnPostcard) {
+      btnPostcard.addEventListener('click', () => this.capturePilgrimPostcard());
+    }
 
     const btnWalkGH = document.getElementById('btn-walk-gatehouse');
     if (btnWalkGH) btnWalkGH.addEventListener('click', () => this.enterGatehouse3DHub());
@@ -1937,6 +2017,7 @@ class PilgrimWalkApp {
     const shelfBtn = document.getElementById('btn-cover-shelf');
     const introBtn = document.getElementById('btn-gatehouse');
     const workshopBtn = document.getElementById('btn-tripo-studio');
+    const postcardBtn = document.getElementById('btn-postcard-snapshot');
     const backStreetBtn = document.getElementById('back-to-street-btn');
     const hintEl = document.getElementById('controls-hint');
     if (prevBtn) prevBtn.textContent = zh ? this.zh('◀ 上一卷') : '◀ Prev';
@@ -1945,11 +2026,12 @@ class PilgrimWalkApp {
     if (shelfBtn) shelfBtn.textContent = zh ? this.zh('📚 44 卷书架') : '📚 44-Book Shelf';
     if (introBtn) introBtn.textContent = zh ? this.zh('📖 导言') : '📖 Intro';
     if (workshopBtn) workshopBtn.textContent = zh ? this.zh('🗿 圣物工坊') : '🗿 Relic Workshop';
+    if (postcardBtn) postcardBtn.textContent = zh ? this.zh('📷 明信片') : '📷 Postcard';
     if (backStreetBtn) backStreetBtn.textContent = zh ? this.zh('← 返回主街道') : '← Back to the street';
     if (hintEl) {
       hintEl.textContent = zh
-        ? this.zh('WASD / 方向键：行走 · 鼠标拖拽：环视 · [E]：互动 / 步入画中 · [R]：阅读诗歌 · [J]：每日灵修')
-        : 'WASD / Arrows: Walk · Mouse / Drag: Look · [E]: Interact / Step Through Frame · [R]: Read Poem';
+        ? this.zh('WASD / 方向键：行走 · 鼠标拖拽：环视 · [E]：互动 / 步入画中 · [R]：阅读诗歌 · [P]：保存明信片')
+        : 'WASD / Arrows: Walk · Mouse / Drag: Look · [E]: Interact / Step Through Frame · [R]: Read Poem · [P]: Postcard';
     }
 
     const gBtn = document.getElementById('btn-graphics-quality');
@@ -2079,14 +2161,15 @@ class PilgrimWalkApp {
     const lights = (save.lightsKindled || []).length;
     const books = (save.districtsCompleted || []).length;
     const poems = (save.paintingsSeen || []).length;
+    const relics = (save.relicsInspected || []).length;
     const candles = (save.dailyWalk?.completedDays || []).length;
     const notes = Object.keys(save.dailyWalk?.journalNotes || {}).length;
     if (zh) {
       return this.zh(
-        `当前存档进度（v1）：已点亮 ${lights} 盏明灯 · 已完成 ${books} 卷书 · 已读 ${poems} 首诗歌 · 每日灵修已点亮 ${candles} 天烛光 · ${notes} 篇默想笔记`
+        `当前存档进度（v1）：已点亮 ${lights} 盏明灯 · 已完成 ${books} 卷书 · 已读 ${poems} 首诗歌 · 已瞻仰 ${relics} 尊圣物 · 每日灵修已点亮 ${candles} 天烛光 · ${notes} 篇默想笔记`
       );
     }
-    return `Current save (v1): ${lights} Lights kindled · ${books} Books completed · ${poems} Poems read · ${candles} Daily Walk candles · ${notes} Journal notes`;
+    return `Current save (v1): ${lights} Lights kindled · ${books} Books completed · ${poems} Poems read · ${relics} Relics inspected · ${candles} Daily Walk candles · ${notes} Journal notes`;
   }
 
   refreshProgressCodeUI(customStatusMsg = null) {
@@ -2229,6 +2312,18 @@ class PilgrimWalkApp {
   updateHUDProgress() {
     const elLights = document.getElementById('hud-lights-count');
     const elSeen = document.getElementById('hud-paintings-count');
+    const elRelics = document.getElementById('hud-relics-count');
+    const zh = this.isZh();
+
+    const totalRelics = this.tripoManager?.manifest?.models?.length || 53;
+    const inspectedRelics = Array.isArray(this.saveData.relicsInspected)
+      ? this.saveData.relicsInspected.length
+      : 0;
+    if (elRelics) {
+      elRelics.textContent = zh
+        ? this.zh(`${inspectedRelics} / ${totalRelics} 尊圣物`)
+        : `${inspectedRelics} / ${totalRelics} Relics`;
+    }
 
     if (this.mode === 'GATEHOUSE') {
       if (elLights) elLights.textContent = `${this.saveData.lightsKindled.length} Total Lights`;
@@ -2245,7 +2340,6 @@ class PilgrimWalkApp {
     const totalLights = this.manifest && this.manifest.parts ? this.manifest.parts.length : 4;
     const totalPoems = this.manifest && this.manifest.paintings ? this.manifest.paintings.length : 40;
 
-    const zh = this.isZh();
     if (elLights) elLights.textContent = zh ? this.zh(`${districtLights} / ${totalLights} 盏明灯`) : `${districtLights} / ${totalLights} Lights`;
     if (elSeen) elSeen.textContent = zh ? this.zh(`${districtPoems} / ${totalPoems} 首诗歌`) : `${districtPoems} / ${totalPoems} Poems`;
   }
@@ -2301,6 +2395,18 @@ class PilgrimWalkApp {
         const coverSrc = this.coversData && this.coversData[d.slug] ? this.coversData[d.slug] : '';
         const dTitle = zh ? this.zh(d.zh_title || this.getZhBookTitle(playableSlug) || d.title) : d.title;
         const dSub = zh && d.zh_subtitle ? this.zh(d.zh_subtitle) : d.subtitle;
+        const primaryRelic = this.tripoManager?.getDistrictPrimaryRelicInfo(playableSlug);
+        const isRelicInspected =
+          primaryRelic &&
+          Array.isArray(this.saveData.relicsInspected) &&
+          this.saveData.relicsInspected.includes(primaryRelic.id);
+        const relicLineHtml = primaryRelic
+          ? `<div class="scroll-relic-badge" style="font-size:0.74rem;margin-top:4px;color:${
+              isRelicInspected ? '#f7d88b' : '#bda37c'
+            };">🗿 #${primaryRelic.slot || ''} ${primaryRelic.title}${
+              isRelicInspected ? (zh ? this.zh(' · ✦ 已瞻仰') : ' · ✦ Inspected') : ''
+            }</div>`
+          : '';
         card.innerHTML = `
           <div class="scroll-card-cover">
             ${coverSrc ? `<img src="${coverSrc}" alt="${dTitle}" loading="lazy"/>` : ''}
@@ -2309,6 +2415,7 @@ class PilgrimWalkApp {
           <div class="scroll-card-info">
             <h4>${dTitle}</h4>
             <p>${dSub}</p>
+            ${relicLineHtml}
             <span class="scroll-status">${
               isDone
                 ? (zh ? this.zh('✦ 已走过（点击进入）') : '✦ Completed (Click to Walk)')
@@ -2427,12 +2534,16 @@ class PilgrimWalkApp {
 
     const activeFilter = this._workshopFilter || 'all';
     const searchQuery = (this._workshopSearch || '').trim().toLowerCase();
+    const inspectedSet = new Set(Array.isArray(this.saveData.relicsInspected) ? this.saveData.relicsInspected : []);
 
     // Wire filter buttons & search input once
     const filterContainer = document.getElementById('tripo-filter-pills');
     if (filterContainer) {
       filterContainer.querySelectorAll('[data-relic-filter]').forEach((btn) => {
         const fKey = btn.getAttribute('data-relic-filter');
+        if (fKey === 'inspected') {
+          btn.textContent = `✦ Inspected (${inspectedSet.size}/${relicCount})`;
+        }
         const isAct = fKey === activeFilter;
         btn.style.background = isAct
           ? 'linear-gradient(135deg, #d7ab61 0%, #b58338 100%)'
@@ -2462,6 +2573,9 @@ class PilgrimWalkApp {
       if (activeFilter === 'current' && loc && loc.slug !== this.currentDistrictSlug) {
         return false;
       }
+      if (activeFilter === 'inspected' && !inspectedSet.has(m.id)) {
+        return false;
+      }
       if (activeFilter === 'concept' && (!loc || !loc.isConceptModeled)) {
         return false;
       }
@@ -2483,8 +2597,12 @@ class PilgrimWalkApp {
       const status = this.tripoManager.statusMap.get(m.id) || 'procedural';
       const isLoaded = status === 'loaded';
       const loc = this.tripoManager.getRelicLocationInfo(m.id);
+      const isInspected = inspectedSet.has(m.id);
 
       let extraBadges = '';
+      if (isInspected) {
+        extraBadges += `<span class="relic-inspected-badge" style="font-size:0.76rem;font-weight:bold;padding:3px 9px;border-radius:99px;background:#8c6822;color:#fff7e2;">✦ Inspected</span>`;
+      }
       if (loc && loc.isConceptModeled) {
         extraBadges += `<span style="font-size:0.76rem;font-weight:bold;padding:3px 9px;border-radius:99px;background:#7a4b1e;color:#fff4dc;">† Concept-Modeled</span>`;
       }
@@ -2515,6 +2633,9 @@ class PilgrimWalkApp {
           <p class="shelf-sub" style="margin:3px 0 6px;">${m.district} · Target file: <code>${m.file}</code></p>
           <p class="shelf-desc" style="font-size:0.88rem;margin-bottom:8px;"><strong>Relic Maker Note:</strong> ${m.imageTo3DTip}</p>
           <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+            <button type="button" class="gold-btn" data-preview-relic="${m.id}" style="padding:6px 13px;font-size:0.84rem;">
+              🔍 Spin 3D Relic
+            </button>
             <button type="button" class="gold-btn" data-visit-relic="${m.id}" style="padding:6px 13px;font-size:0.84rem;">
               ✦ Stand Before Relic in 3D
             </button>
@@ -2532,6 +2653,13 @@ class PilgrimWalkApp {
         </div>
       `;
       container.appendChild(card);
+    });
+
+    container.querySelectorAll('[data-preview-relic]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const relicId = btn.getAttribute('data-preview-relic');
+        this.previewRelicOnTurntable(relicId);
+      });
     });
 
     container.querySelectorAll('[data-visit-relic]').forEach((btn) => {
@@ -2564,6 +2692,303 @@ class PilgrimWalkApp {
         }
       });
     });
+  }
+
+  stopTurntableLoop() {
+    if (this._turntableRafId) {
+      cancelAnimationFrame(this._turntableRafId);
+      this._turntableRafId = null;
+    }
+  }
+
+  async previewRelicOnTurntable(relicId) {
+    if (!relicId || !this.tripoManager) return;
+    const item = this.tripoManager.relicById?.get(relicId);
+    if (!item) return;
+
+    this.markRelicInspected(relicId, true);
+    this.renderTripoWorkshopModal();
+
+    const stageEl = document.getElementById('tripo-turntable-stage');
+    const canvasEl = document.getElementById('tripo-turntable-canvas');
+    const titleEl = document.getElementById('tripo-turntable-title');
+    const distEl = document.getElementById('tripo-turntable-district');
+    const noteEl = document.getElementById('tripo-turntable-note');
+    const visitBtn = document.getElementById('tripo-turntable-visit-btn');
+    const closeBtn = document.getElementById('tripo-turntable-close-btn');
+
+    if (!stageEl || !canvasEl) return;
+
+    if (titleEl) titleEl.textContent = `#${item.slot} · ${item.title}`;
+    if (distEl) distEl.textContent = `${item.district} · ${item.file}`;
+    if (noteEl) noteEl.textContent = item.imageTo3DTip || '';
+    if (visitBtn) {
+      visitBtn.onclick = () => this.standBeforeRelicIn3D(relicId);
+    }
+    if (closeBtn) {
+      closeBtn.onclick = () => {
+        this.stopTurntableLoop();
+        stageEl.classList.add('hidden');
+      };
+    }
+
+    stageEl.classList.remove('hidden');
+    stageEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+    if (!this._turntable) {
+      const scene = new THREE.Scene();
+      scene.background = new THREE.Color('#19120b');
+      const camera = new THREE.PerspectiveCamera(42, canvasEl.width / canvasEl.height, 0.1, 50);
+      camera.position.set(0, 2.25, 5.4);
+      camera.lookAt(0, 1.25, 0);
+
+      const hemi = new THREE.HemisphereLight('#f8e4be', '#5e462d', 1.85);
+      scene.add(hemi);
+      const dir = new THREE.DirectionalLight('#ffdf9e', 2.2);
+      dir.position.set(3.5, 6.0, 4.5);
+      scene.add(dir);
+      const rim = new THREE.PointLight('#f3be68', 1.5, 12);
+      rim.position.set(-3.2, 2.8, -2.8);
+      scene.add(rim);
+
+      const pedestal = new THREE.Group();
+      const basePlinth = new THREE.Mesh(
+        new THREE.CylinderGeometry(1.35, 1.52, 0.28, 28),
+        this.painterly.createPainterlyMaterial({
+          baseColor: '#7d674d',
+          accentColor: '#c8a36a',
+          roughness: 0.85
+        })
+      );
+      basePlinth.position.y = 0.14;
+      const goldRing = new THREE.Mesh(
+        new THREE.TorusGeometry(1.36, 0.04, 10, 32),
+        this.painterly.createPainterlyMaterial({
+          baseColor: '#d9af62',
+          accentColor: '#fff0c4',
+          roughness: 0.35
+        })
+      );
+      goldRing.rotation.x = Math.PI / 2;
+      goldRing.position.y = 0.28;
+      pedestal.add(basePlinth, goldRing);
+      scene.add(pedestal);
+
+      const modelRoot = new THREE.Group();
+      modelRoot.position.y = 0.28;
+      scene.add(modelRoot);
+
+      const ctx2d = canvasEl.getContext('2d');
+
+      this._turntable = {
+        scene,
+        camera,
+        pedestal,
+        modelRoot,
+        ctx2d,
+        yaw: 0.35,
+        zoom: 4.8,
+        isDragging: false,
+        lastX: 0
+      };
+
+      canvasEl.addEventListener('mousedown', (e) => {
+        this._turntable.isDragging = true;
+        this._turntable.lastX = e.clientX;
+      });
+      window.addEventListener('mouseup', () => {
+        if (this._turntable) this._turntable.isDragging = false;
+      });
+      window.addEventListener('mousemove', (e) => {
+        if (this._turntable && this._turntable.isDragging) {
+          const dx = e.clientX - this._turntable.lastX;
+          this._turntable.lastX = e.clientX;
+          this._turntable.yaw += dx * 0.012;
+        }
+      });
+      canvasEl.addEventListener(
+        'wheel',
+        (e) => {
+          e.preventDefault();
+          this._turntable.zoom = Math.max(2.8, Math.min(8.5, this._turntable.zoom + e.deltaY * 0.004));
+        },
+        { passive: false }
+      );
+    }
+
+    const tt = this._turntable;
+    while (tt.modelRoot.children.length > 0) {
+      tt.modelRoot.remove(tt.modelRoot.children[0]);
+    }
+    const fallbackCrystal = new THREE.Group();
+    const fallbackMesh = new THREE.Mesh(
+      new THREE.OctahedronGeometry(0.55, 1),
+      this.painterly.createPainterlyMaterial({
+        baseColor: '#d8b068',
+        accentColor: '#fff1c4',
+        roughness: 0.4
+      })
+    );
+    fallbackMesh.position.y = 0.85;
+    fallbackCrystal.add(fallbackMesh);
+    tt.modelRoot.add(fallbackCrystal);
+
+    this.tripoManager.mountRelic(tt.modelRoot, relicId, {
+      scale: 0.88,
+      yOffset: 0.0
+    });
+    await this.tripoManager.ensureRelicLoaded(relicId);
+
+    this.stopTurntableLoop();
+    const renderStep = () => {
+      if (stageEl.classList.contains('hidden') || !this.isAnyModalOpen()) {
+        this._turntableRafId = null;
+        return;
+      }
+      this._turntableRafId = requestAnimationFrame(renderStep);
+      if (!tt.isDragging) {
+        tt.yaw += 0.012;
+      }
+      tt.modelRoot.rotation.y = tt.yaw;
+      tt.pedestal.rotation.y = tt.yaw;
+      tt.camera.position.set(0, 2.15, tt.zoom);
+      tt.camera.lookAt(0, 1.25, 0);
+      if (this.renderer && tt.ctx2d) {
+        this.renderer.setRenderTarget(null);
+        this.renderer.render(tt.scene, tt.camera);
+        tt.ctx2d.clearRect(0, 0, canvasEl.width, canvasEl.height);
+        tt.ctx2d.drawImage(this.canvas, 0, 0, canvasEl.width, canvasEl.height);
+        if (this.postProcess) {
+          this.postProcess.render(this.scene, this.camera, this.clock.getElapsedTime());
+        }
+      }
+    };
+    renderStep();
+  }
+
+  capturePilgrimPostcard() {
+    if (!this.renderer || !this.scene || !this.camera) return null;
+    const elapsed = this.clock ? this.clock.getElapsedTime() : 0;
+    const bobOffset = this.reducedMotion ? 0 : Math.sin(this.player.bobPhase || 0) * 0.045;
+    this.camera.position.set(
+      this.player.position.x,
+      this.player.position.y + bobOffset,
+      this.player.position.z
+    );
+    this.camera.rotation.y = this.player.yaw;
+    this.camera.rotation.x = this.player.pitch;
+    if (this.skyDome) {
+      this.skyDome.position.copy(this.player.position);
+      if (this.skyDome.material?.uniforms?.uTime) {
+        this.skyDome.material.uniforms.uTime.value = elapsed;
+      }
+    }
+    if (this.postProcess) {
+      this.postProcess.render(this.scene, this.camera, elapsed);
+    } else {
+      this.renderer.render(this.scene, this.camera);
+    }
+
+    const zh = this.isZh();
+    const meta = this.districtMeta[this.currentDistrictSlug] || this.districtMeta.genesis;
+    const bookHeading =
+      this.mode === 'GATEHOUSE'
+        ? (zh ? this.zh('天路同行 · 3D 城门庭院（全部 44 卷书门）') : 'The Pilgrim Walk · 3D Gatehouse Courtyard (All 44 Books)')
+        : (zh ? `第 ${meta.num} 卷 · 《${this.getZhBookTitle(this.currentDistrictSlug)}》` : `District ${meta.num} · ${meta.fullLabel}`);
+
+    let subHeading = '';
+    if (this.mode === 'SCENE' && this.activeSceneObj && this.activeSceneObj.paintingData) {
+      const p = this.activeSceneObj.paintingData;
+      const pTitle = zh && p.zh_title ? this.zh(p.zh_title) : p.title;
+      const pRef = zh && p.zh_ref ? this.zh(p.zh_ref) : p.ref;
+      subHeading = `No. ${p.n} · “${pTitle}” (${pRef})`;
+    } else if (this.district && this.district.paintingNodes && this.district.paintingNodes.length > 0) {
+      let nearest = this.district.paintingNodes[0];
+      let bestD = Infinity;
+      for (const n of this.district.paintingNodes) {
+        const d = Math.hypot(this.player.position.x - n.position.x, this.player.position.z - n.position.z);
+        if (d < bestD) {
+          bestD = d;
+          nearest = n;
+        }
+      }
+      if (nearest && nearest.data) {
+        const p = nearest.data;
+        const pTitle = zh && p.zh_title ? this.zh(p.zh_title) : p.title;
+        const pRef = zh && p.zh_ref ? this.zh(p.zh_ref) : p.ref;
+        subHeading = `No. ${p.n} · “${pTitle}” (${pRef})`;
+      }
+    }
+
+    const quoteLine = meta.amenQuote || '“Your word is a lamp to my feet, and a light for my path.”';
+
+    const outCanvas = document.createElement('canvas');
+    outCanvas.width = 1600;
+    outCanvas.height = 1040;
+    const ctx = outCanvas.getContext('2d');
+
+    // Warm archival parchment background & double-gold rules
+    ctx.fillStyle = '#f4ead5';
+    ctx.fillRect(0, 0, 1600, 1040);
+
+    ctx.strokeStyle = '#b68942';
+    ctx.lineWidth = 4;
+    ctx.strokeRect(24, 24, 1552, 992);
+    ctx.strokeStyle = '#d6b47c';
+    ctx.lineWidth = 1.5;
+    ctx.strokeRect(34, 34, 1532, 972);
+
+    // Draw the live 3D painterly viewport into the upper frame
+    try {
+      ctx.drawImage(this.canvas, 48, 48, 1504, 800);
+    } catch (_) {}
+
+    ctx.strokeStyle = '#9e7432';
+    ctx.lineWidth = 2;
+    ctx.strokeRect(48, 48, 1504, 800);
+
+    // Calligraphed keepsake inscriptions in the bottom parchment margin
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#2d1e10';
+    ctx.font = 'bold 30px Georgia, "Songti SC", serif';
+    ctx.fillText(bookHeading, 800, 892);
+
+    if (subHeading) {
+      ctx.fillStyle = '#6e4d25';
+      ctx.font = 'italic 23px Georgia, "Songti SC", serif';
+      ctx.fillText(subHeading, 800, 928);
+    }
+
+    ctx.fillStyle = '#3d2b18';
+    ctx.font = 'italic 19px Georgia, "Songti SC", serif';
+    ctx.fillText(quoteLine.slice(0, 128), 800, 962);
+
+    ctx.fillStyle = '#826138';
+    ctx.font = '16px Georgia, serif';
+    ctx.fillText('THE PILGRIM WALK · POEMS & PICTURES BY TIMOTHY HOLT · INSPIRINGYOURFAITH.ORG', 800, 994);
+
+    let dataUrl = '';
+    try {
+      dataUrl = outCanvas.toDataURL('image/png');
+      this._lastPostcardDataUrl = dataUrl;
+      const a = document.createElement('a');
+      const slugPart = this.mode === 'GATEHOUSE' ? 'gatehouse-courtyard' : this.currentDistrictSlug;
+      a.href = dataUrl;
+      a.download = `pilgrim-walk-postcard-${slugPart}.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    } catch (err) {
+      console.warn('Postcard export note:', err);
+    }
+
+    this.audio.playLightChime(0.75, false);
+    this.showToast(
+      zh
+        ? this.zh(`📷 已保存天路留念明信片：${bookHeading}${subHeading ? ` · ${subHeading}` : ''}`)
+        : `📷 Saved Pilgrim’s Postcard: ${bookHeading}${subHeading ? ` · ${subHeading}` : ''}`
+    );
+    return dataUrl;
   }
 
   showToast(msg) {
@@ -2795,6 +3220,10 @@ class PilgrimWalkApp {
           this.player.position.x - g.position.x,
           this.player.position.z - g.position.z
         );
+        if (d < 28 && g.relicId && !g._relicEnsureTriggered && this.tripoManager) {
+          g._relicEnsureTriggered = true;
+          this.tripoManager.ensureRelicLoaded(g.relicId);
+        }
         if (d < nearestGateDist) {
           nearestGateDist = d;
           nearestGate = g;
@@ -2805,9 +3234,10 @@ class PilgrimWalkApp {
         this.currentInteractTarget = { type: 'ENTER_BOOK_GATE', gate: nearestGate };
         const b = nearestGate.bookData;
         const isGateOpen = nearestGate.playableSlug && this.isDistrictUnlocked(nearestGate.playableSlug);
+        const relicNote = nearestGate.relicTitle ? ` · 🗿 ${nearestGate.relicTitle}` : '';
         const label = isGateOpen
-          ? `✦ Step Through Book Gate #${b.n} · “${b.title}” (${b.subtitle}) [E]`
-          : `🔒 Book Gate #${b.n} · “${b.title}” — Complete previous District or switch to Free Walk [E]`;
+          ? `✦ Step Through Book Gate #${b.n} · “${b.title}” (${b.subtitle})${relicNote} [E]`
+          : `🔒 Book Gate #${b.n} · “${b.title}”${relicNote} — Complete previous District or switch to Free Walk [E]`;
         this._setPromptUI(false, label, true);
       } else {
         this._setPromptUI(true);

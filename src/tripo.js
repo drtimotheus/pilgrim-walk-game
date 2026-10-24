@@ -41,7 +41,11 @@ export class TripoRelicManager {
       'the-beginning-of-wisdom': ['apples-of-gold'],
       'eternity-in-their-hearts': ['threefold-cord'],
       'many-waters': ['sealed-fountain'],
-      'arise-shine': ['live-coal-tongs']
+      'arise-shine': ['live-coal-tongs'],
+      'a-future-and-a-hope': ['potters-wheel'],
+      'new-every-morning': ['ruined-watchtower'],
+      'can-these-bones-live': ['wheel-within-a-wheel'],
+      'a-door-of-hope': ['door-of-hope']
     };
     this.districtHeroRelicPlacement = {
       'our-eyes-are-on-you': { id: 'choir-army-trumpet', paintingNum: 25, scale: 1.0, yOffset: 0.24 },
@@ -55,7 +59,11 @@ export class TripoRelicManager {
       'the-beginning-of-wisdom': { id: 'apples-of-gold', paintingNum: 14, scale: 1.0, yOffset: 0.24 },
       'eternity-in-their-hearts': { id: 'threefold-cord', paintingNum: 16, scale: 1.0, yOffset: 0.24 },
       'many-waters': { id: 'sealed-fountain', paintingNum: 14, scale: 1.0, yOffset: 0.24 },
-      'arise-shine': { id: 'live-coal-tongs', paintingNum: 3, scale: 1.0, yOffset: 0.24 }
+      'arise-shine': { id: 'live-coal-tongs', paintingNum: 3, scale: 1.0, yOffset: 0.24 },
+      'a-future-and-a-hope': { id: 'potters-wheel', paintingNum: 16, scale: 1.0, yOffset: 0.24 },
+      'new-every-morning': { id: 'ruined-watchtower', paintingNum: 24, scale: 1.0, yOffset: 0.24 },
+      'can-these-bones-live': { id: 'wheel-within-a-wheel', paintingNum: 2, scale: 1.0, yOffset: 0.24 },
+      'a-door-of-hope': { id: 'door-of-hope', paintingNum: 6, scale: 1.0, yOffset: 0.24 }
     };
     this.namedSceneRelicMap = {
       'genesis-4': 'sabbath-olive-tree',

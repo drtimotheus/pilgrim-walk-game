@@ -322,6 +322,50 @@
       "targetScale": 2.5,
       "imageTo3DTip": "Modeled from b-020-003.jpg — the long forged-bronze altar tongs holding one radiant glowing ember coal above the horned temple altar stone (“having a live coal in his hand, which he had taken with the tongs from off the altar”, Isaiah 6:6–7).",
       "textPrompt": "Long forged bronze temple altar tongs holding a radiant glowing crimson-and-gold ember coal above a carved horned limestone altar block, atmospheric temple smoke oil painting texture"
+    },
+    {
+      "slot": 30,
+      "id": "potters-wheel",
+      "file": "assets/models/potters-wheel.glb",
+      "title": "The Potter’s Wheel",
+      "district": "District XXI · A Future and a Hope (No. 16 “the potter’s house”)",
+      "paintingRef": "assets/a-future-and-a-hope/web/b-021-016.jpg",
+      "targetScale": 2.5,
+      "imageTo3DTip": "Modeled from b-021-016.jpg — the stone kick-flywheel, wooden spindle, and upper throwing wheel head with a wet clay vessel mid-forming (“Then I went down to the potter’s house, and, behold, he wrought a work on the wheels”, Jeremiah 18:3–4).",
+      "textPrompt": "Ancient Judean double-stone potter's wheel with wooden axle and a wet terracotta clay jar mid-forming on the upper wheel head beside a lump of raw clay, warm oil-on-linen brushwork"
+    },
+    {
+      "slot": 31,
+      "id": "ruined-watchtower",
+      "file": "assets/models/ruined-watchtower.glb",
+      "title": "The Ruined Watchtower",
+      "district": "District XXII · New Every Morning (No. 24 “the watchtower”)",
+      "paintingRef": "assets/new-every-morning/web/b-022-024.jpg",
+      "targetScale": 3.2,
+      "imageTo3DTip": "Modeled from b-022-024.jpg — the broken, roofless stone watchtower of the ruined city with golden dawn light shining through its portal and a bronze watchfire brazier on the parapet (Lamentations 4:17; 3:22–23).",
+      "textPrompt": "Broken roofless ancient Jerusalem limestone watchtower with shattered battlements, bronze parapet brazier, and warm golden dawn light glowing in its arched window, painterly oil texture"
+    },
+    {
+      "slot": 32,
+      "id": "wheel-within-a-wheel",
+      "file": "assets/models/wheel-within-a-wheel.glb",
+      "title": "The Wheel Within a Wheel",
+      "district": "District XXIII · Can These Bones Live (No. 2 “wherever the spirit went”)",
+      "paintingRef": "assets/can-these-bones-live/web/b-023-002.jpg",
+      "targetScale": 2.8,
+      "imageTo3DTip": "Modeled in the beryl-and-amber whirlwind palette of b-023-002.jpg — two great interlocked upright gyre wheels studded with beryl eyes above the River Chebar cairn stone (“their work was as it were a wheel in the middle of a wheel”, Ezekiel 1:16).",
+      "textPrompt": "Two great interlocked upright bronze-and-beryl celestial gyre wheels with spokes and rim eyes rising above a River Chebar stone cairn and prophetic scroll, luminous oil painting texture"
+    },
+    {
+      "slot": 33,
+      "id": "door-of-hope",
+      "file": "assets/models/door-of-hope.glb",
+      "title": "The Door of Hope",
+      "district": "District XXV · A Door of Hope (No. 6 “a door of hope”)",
+      "paintingRef": "assets/a-door-of-hope/web/b-025-006.jpg",
+      "targetScale": 3.0,
+      "imageTo3DTip": "Modeled in the golden valley palette of b-025-006.jpg — a freestanding weathered timber door in its dressed stone frame standing wide open in the Valley of Achor with a sunlit vineyard vine climbing the post (Hosea 2:15).",
+      "textPrompt": "Freestanding ancient wooden planked door with wrought-iron hinge straps standing wide open inside a dressed limestone doorframe in a sunlit valley with a green grapevine climbing the stone jamb, warm oil-on-linen brushwork"
     }
   ]
 }

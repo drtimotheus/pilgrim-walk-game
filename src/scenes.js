@@ -338,6 +338,54 @@ export class StepThroughSceneManager {
       signatureState = this.populateHebrews23OpenedCurtainScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'cloud_of_witnesses_arena') {
       signatureState = this.populateHebrews33CloudOfWitnessesScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'chron_thresholds') {
+      signatureState = this.populateChronicles4ThresholdsScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'chron_ark_feast') {
+      signatureState = this.populateChronicles8ArkFeastScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'chron_one_sound') {
+      signatureState = this.populateChronicles18OneSoundScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'chron_eyes_on_you') {
+      signatureState = this.populateChronicles24EyesOnYouScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'ezra_altar') {
+      signatureState = this.populateEzra4AltarOnItsBaseScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'nehemiah_night_ride') {
+      signatureState = this.populateNehemiah23NightRideScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'trowel_and_sword') {
+      signatureState = this.populateNehemiah29TrowelAndSwordScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'water_gate_scroll') {
+      signatureState = this.populateNehemiah34WaterGateScrollScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'susa_courtyard') {
+      signatureState = this.populateEsther4SusaCourtyardScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'esther_fast') {
+      signatureState = this.populateEsther16ThreeDayFastScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'golden_scepter') {
+      signatureState = this.populateEsther18GoldenScepterScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'sleepless_chronicles') {
+      signatureState = this.populateEsther21SleeplessChroniclesScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'wellspring_of_life') {
+      signatureState = this.populateProverbs6WellspringScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'apples_of_gold') {
+      signatureState = this.populateProverbs14ApplesOfGoldScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'iron_sharpens_iron') {
+      signatureState = this.populateProverbs25IronSharpensIronScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'lamp_before_dawn') {
+      signatureState = this.populateProverbs38LampBeforeDawnScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'rivers_to_the_sea') {
+      signatureState = this.populateEcclesiastes4RiversToSeaScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'sundial_of_seasons') {
+      signatureState = this.populateEcclesiastes13SundialSeasonsScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'threefold_cord') {
+      signatureState = this.populateEcclesiastes16ThreefoldCordScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'blossoming_almond') {
+      signatureState = this.populateEcclesiastes34BlossomingAlmondScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'banner_of_love') {
+      signatureState = this.populateSong5BannerOfLoveScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'winter_is_past') {
+      signatureState = this.populateSong7WinterIsPastScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'locked_garden_fountain') {
+      signatureState = this.populateSong14EnclosedGardenScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'many_waters_flame') {
+      signatureState = this.populateSong29ManyWatersFlameScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -5480,6 +5528,783 @@ export class StepThroughSceneManager {
         const val = this._heb33Latch || 0;
         rig.witnessesGroup.rotation.y = time * 0.28;
         rig.arenaLight.intensity = 2.7 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // BATCH 3 DEEPENED STEP-THROUGH SCENES (BOOKS IX, X, XI, XVII, XVIII, XIX)
+  // ==========================================================================
+
+  // --- District IX: 1 & 2 Chronicles (our-eyes-are-on-you) ---
+  populateChronicles4ThresholdsScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createChronicles9ThresholdKeepersEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'our-eyes-are-on-you', 4, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffe296');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand at the Temple Threshold Gate & Morning Key',
+      signatureActivatedText:
+        '“They lodged around God’s house, because the duty of opening it every morning was theirs.” (1 Chronicles 9:27)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._chron4Latch = Math.min(1.0, (this._chron4Latch || 0) + dt * 0.65);
+        const val = this._chron4Latch || 0;
+        rig.keyGroup.rotation.y = Math.sin(time * 1.4) * 0.35 + val * 0.6;
+        rig.thresholdLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateChronicles8ArkFeastScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createChronicles16ArkTentFeastEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'our-eyes-are-on-you', 8, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffdf91');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Approach the Tent Table of Bread & Raisin Cakes',
+      signatureActivatedText:
+        '“He dealt to everyone of Israel, both man and woman, to everyone a loaf of bread, a portion of meat, and a cake of raisins.” (1 Chronicles 16:3)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._chron8Latch = Math.min(1.0, (this._chron8Latch || 0) + dt * 0.65);
+        const val = this._chron8Latch || 0;
+        rig.feastGroup.rotation.y = time * 0.32;
+        rig.feastLight.intensity = 2.3 + val * 2.7;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateChronicles18OneSoundScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createChronicles5OneSoundTrumpetsEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'our-eyes-are-on-you', 18, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.8, '#ffea9c');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand Within the 120 Silver Trumpets & Cloud of Glory',
+      signatureActivatedText:
+        '“When the trumpeters and singers were as one, to make one sound to be heard in praising and thanking Yahweh… the house was filled with a cloud.” (2 Chronicles 5:13)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._chron18Latch = Math.min(1.0, (this._chron18Latch || 0) + dt * 0.65);
+        const val = this._chron18Latch || 0;
+        rig.gloryCloud.position.y = Math.sin(time * 1.5) * 0.08;
+        rig.gloryLight.intensity = 2.7 + val * 3.1;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateChronicles24EyesOnYouScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createChronicles20EyesOnYouCourtyardEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'our-eyes-are-on-you', 24, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.94, 3.6, '#ffe699');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand in Jehoshaphat’s Courtyard & Lift Your Eyes',
+      signatureActivatedText:
+        '“For we have no might against this great company that comes against us; neither know we what to do, but our eyes are on you.” (2 Chronicles 20:12)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._chron24Latch = Math.min(1.0, (this._chron24Latch || 0) + dt * 0.65);
+        const val = this._chron24Latch || 0;
+        rig.beaconOrb.rotation.y = time * 0.85;
+        rig.eyesLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District X: Ezra & Nehemiah (rise-up-and-build) ---
+  populateEzra4AltarOnItsBaseScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEzra3AltarOnItsBaseEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'rise-up-and-build', 4, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffd269');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Approach the Rebuilt Stone Altar Set on Its Base',
+      signatureActivatedText:
+        '“They set the altar on its base; for fear was on them because of the peoples of the surrounding lands, and they offered burnt offerings on it to Yahweh, even burnt offerings morning and evening.” (Ezra 3:3)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._ezra4Latch = Math.min(1.0, (this._ezra4Latch || 0) + dt * 0.65);
+        const val = this._ezra4Latch || 0;
+        rig.flame.scale.y = 1.0 + Math.sin(time * 5.2) * 0.14 + val * 0.25;
+        rig.altarLight.intensity = 2.5 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateNehemiah23NightRideScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    if (skyDome && skyDome.material && skyDome.material.uniforms) {
+      skyDome.material.uniforms.uStarIntensity.value = 0.85;
+    }
+    const rig = this.propBuilder.createNehemiah2NightRideWallEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'rise-up-and-build', 23, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.88, 3.2, '#ffea9c');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Inspect the Moonlit Wall Stones by Lantern Light',
+      signatureActivatedText:
+        '“I arose in the night, I and a few men with me; neither told I any man what my God put into my heart to do for Jerusalem…” (Nehemiah 2:12)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._neh23Latch = Math.min(1.0, (this._neh23Latch || 0) + dt * 0.65);
+        const val = this._neh23Latch || 0;
+        rig.lanternOrb.position.y = 1.62 + Math.sin(time * 2.1) * 0.06;
+        rig.nightLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateNehemiah29TrowelAndSwordScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createNehemiah4TrowelAndSwordWallEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'rise-up-and-build', 29, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffdf94');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Builder’s Trowel & Sword on the Wall',
+      signatureActivatedText:
+        '“Everyone with one of his hands wrought in the work, and with the other held his weapon; and the builders, everyone had his sword strapped to his side, and so built.” (Nehemiah 4:17–18)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._neh29Latch = Math.min(1.0, (this._neh29Latch || 0) + dt * 0.65);
+        const val = this._neh29Latch || 0;
+        rig.wallLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateNehemiah34WaterGateScrollScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createNehemiah8WaterGateScrollEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'rise-up-and-build', 34, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.6, '#ffe69c');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand Before the Wooden Platform & Open Scroll at the Water Gate',
+      signatureActivatedText:
+        '“Ezra opened the book in the sight of all the people… and when he opened it, all the people stood up… ‘Don’t be grieved, for the joy of Yahweh is your strength.’” (Nehemiah 8:5, 10)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._neh34Latch = Math.min(1.0, (this._neh34Latch || 0) + dt * 0.65);
+        const val = this._neh34Latch || 0;
+        rig.scrollLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XI: Esther (for-such-a-time-as-this) ---
+  populateEsther4SusaCourtyardScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEsther2SusaMosaicCourtyardEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'for-such-a-time-as-this', 4, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffe194');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Walk the Susa Mosaic Courtyard of Mordecai’s Watch',
+      signatureActivatedText:
+        '“Mordecai walked every day in front of the court of the women’s house, to find out how Esther was doing, and what would become of her.” (Esther 2:11)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._est4Latch = Math.min(1.0, (this._est4Latch || 0) + dt * 0.65);
+        const val = this._est4Latch || 0;
+        rig.courtLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEsther16ThreeDayFastScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEsther4ThreeDayFastEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'for-such-a-time-as-this', 16, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffd67d');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Keep Vigil Beside the Folded Royal Robe & Lamp',
+      signatureActivatedText:
+        '“Go, gather together all the Jews who are present in Shushan, and fast for me… and so I will go in to the king, which is against the law; and if I perish, I perish.” (Esther 4:16)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._est16Latch = Math.min(1.0, (this._est16Latch || 0) + dt * 0.65);
+        const val = this._est16Latch || 0;
+        rig.vigilFlame.scale.setScalar(1.0 + Math.sin(time * 4.2) * 0.1 + val * 0.2);
+        rig.fastLight.intensity = 2.3 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEsther18GoldenScepterScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEsther5GoldenScepterThroneEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'for-such-a-time-as-this', 18, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.6, '#ffea96');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Approach & Touch the Tip of the Extended Golden Scepter',
+      signatureActivatedText:
+        '“When the king saw Esther the queen standing in the court, she obtained favor in his sight; and the king held out to Esther the golden scepter that was in his hand. So Esther came near, and touched the top of the scepter.” (Esther 5:2)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._est18Latch = Math.min(1.0, (this._est18Latch || 0) + dt * 0.65);
+        const val = this._est18Latch || 0;
+        rig.scepterLight.intensity = 2.7 + val * 3.1;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEsther21SleeplessChroniclesScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    if (skyDome && skyDome.material && skyDome.material.uniforms) {
+      skyDome.material.uniforms.uStarIntensity.value = 0.82;
+    }
+    const rig = this.propBuilder.createEsther6SleeplessChroniclesEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'for-such-a-time-as-this', 21, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffe08c');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Open Book of Records on the Sleepless Night',
+      signatureActivatedText:
+        '“On that night, the king couldn’t sleep. He commanded the book of records of the chronicles to be brought, and they were read before the king.” (Esther 6:1)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._est21Latch = Math.min(1.0, (this._est21Latch || 0) + dt * 0.65);
+        const val = this._est21Latch || 0;
+        rig.lampLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XVII: Proverbs (the-beginning-of-wisdom) ---
+  populateProverbs6WellspringScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createProverbs4WellspringOfLifeEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'the-beginning-of-wisdom', 6, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.5, '#a6f0ff');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Pause Beside the Guarded Wellspring of Life',
+      signatureActivatedText:
+        '“Keep your heart with all diligence, for out of it is the wellspring of life.” (Proverbs 4:23)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._prov6Latch = Math.min(1.0, (this._prov6Latch || 0) + dt * 0.65);
+        const val = this._prov6Latch || 0;
+        rig.springDome.scale.y = 0.45 + Math.sin(time * 2.6) * 0.05 + val * 0.08;
+        rig.springLight.intensity = 2.5 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateProverbs14ApplesOfGoldScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createProverbs25ApplesOfGoldEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'the-beginning-of-wisdom', 14, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.5, '#ffe48f');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Admire the Apples of Gold in Settings of Silver',
+      signatureActivatedText:
+        '“A word fitly spoken is like apples of gold in settings of silver.” (Proverbs 25:11)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._prov14Latch = Math.min(1.0, (this._prov14Latch || 0) + dt * 0.65);
+        const val = this._prov14Latch || 0;
+        rig.applesGroup.rotation.y = time * 0.42;
+        rig.applesLight.intensity = 2.5 + val * 2.9;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateProverbs25IronSharpensIronScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createProverbs27IronSharpensIronEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'the-beginning-of-wisdom', 25, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffc966');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Forge Where Iron Sharpens Iron',
+      signatureActivatedText:
+        '“Iron sharpens iron; so a man sharpens his friend’s countenance.” (Proverbs 27:17)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._prov25Latch = Math.min(1.0, (this._prov25Latch || 0) + dt * 0.65);
+        const val = this._prov25Latch || 0;
+        rig.forgeLight.intensity = 2.4 + val * 2.9;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateProverbs38LampBeforeDawnScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createProverbs31LampBeforeDawnEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'the-beginning-of-wisdom', 38, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.94, 3.6, '#ffe28a');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand by Wisdom’s Loom & the Lamp That Does Not Go Out by Night',
+      signatureActivatedText:
+        '“She rises also while it is yet night, and gives food to her household… Her lamp doesn’t go out by night.” (Proverbs 31:15, 18)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._prov38Latch = Math.min(1.0, (this._prov38Latch || 0) + dt * 0.65);
+        const val = this._prov38Latch || 0;
+        rig.dawnFlame.scale.setScalar(1.0 + Math.sin(time * 4.5) * 0.1 + val * 0.2);
+        rig.dawnLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XVIII: Ecclesiastes (eternity-in-their-hearts) ---
+  populateEcclesiastes4RiversToSeaScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEcclesiastes1RiversToTheSeaEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'eternity-in-their-hearts', 4, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#9ce8ff');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Watch the Rivers Returning in Their Courses to the Sea',
+      signatureActivatedText:
+        '“All the rivers run into the sea, yet the sea is not full. To the place where the rivers flow, there they flow again.” (Ecclesiastes 1:7)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._ecc4Latch = Math.min(1.0, (this._ecc4Latch || 0) + dt * 0.65);
+        const val = this._ecc4Latch || 0;
+        rig.seaWheel.rotation.z = time * 0.5;
+        rig.seaLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEcclesiastes13SundialSeasonsScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEcclesiastes3SundialOfSeasonsEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'eternity-in-their-hearts', 13, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.94, 3.6, '#ffea96');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Before the Sundial of Seasons & Ring of Eternity',
+      signatureActivatedText:
+        '“He has made everything beautiful in its time. He has also set eternity in their hearts…” (Ecclesiastes 3:11)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._ecc13Latch = Math.min(1.0, (this._ecc13Latch || 0) + dt * 0.65);
+        const val = this._ecc13Latch || 0;
+        rig.eternityRings.rotation.y = time * 0.45;
+        rig.eternityRings.rotation.x = Math.sin(time * 0.6) * 0.25;
+        rig.sundialLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEcclesiastes16ThreefoldCordScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEcclesiastes4ThreefoldCordEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'eternity-in-their-hearts', 16, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffe28f');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Behold the Threefold Braided Golden Cord',
+      signatureActivatedText:
+        '“Two are better than one… Aelliance of three strands is not quickly broken.” (Ecclesiastes 4:9, 12)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._ecc16Latch = Math.min(1.0, (this._ecc16Latch || 0) + dt * 0.65);
+        const val = this._ecc16Latch || 0;
+        rig.cordGroup.rotation.y = time * 0.38;
+        rig.cordLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEcclesiastes34BlossomingAlmondScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEcclesiastes12BlossomingAlmondEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'eternity-in-their-hearts', 34, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.94, 3.6, '#fff0c9');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Pause Beneath the White-Blossoming Almond Tree',
+      signatureActivatedText:
+        '“Remember also your Creator in the days of your youth… when the almond tree blossoms…” (Ecclesiastes 12:1, 5)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._ecc34Latch = Math.min(1.0, (this._ecc34Latch || 0) + dt * 0.65);
+        const val = this._ecc34Latch || 0;
+        rig.almondLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XIX: Song of Songs (many-waters) ---
+  populateSong5BannerOfLoveScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createSong2BannerOfLoveEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'many-waters', 5, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffd699');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beneath the Canopy of the Banqueting House',
+      signatureActivatedText:
+        '“He brought me to the banquet hall. His banner over me is love.” (Song of Songs 2:4)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._song5Latch = Math.min(1.0, (this._song5Latch || 0) + dt * 0.65);
+        const val = this._song5Latch || 0;
+        rig.bannerLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateSong7WinterIsPastScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createSong2WinterIsPastLatticeEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'many-waters', 7, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.5, '#ffe6b3');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Look Through the Blossoming Lattice Window Into Spring',
+      signatureActivatedText:
+        '“For, behold, the winter is past. The rain is over and gone. The flowers appear on the earth; the time of the singing has come…” (Song of Songs 2:11–12)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._song7Latch = Math.min(1.0, (this._song7Latch || 0) + dt * 0.65);
+        const val = this._song7Latch || 0;
+        rig.springLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateSong14EnclosedGardenScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createSong4EnclosedGardenFountainEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'many-waters', 14, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.5, '#b8f4ff');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Pause by the Enclosed Garden Fountain of Living Waters',
+      signatureActivatedText:
+        '“A locked up garden is my sister, my bride; a locked up spring, a sealed fountain… a fountain of gardens, a well of living waters, and flowing streams from Lebanon.” (Song of Songs 4:12, 15)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._song14Latch = Math.min(1.0, (this._song14Latch || 0) + dt * 0.65);
+        const val = this._song14Latch || 0;
+        rig.waterCrown.scale.y = 1.0 + Math.sin(time * 3.2) * 0.12 + val * 0.18;
+        rig.fountainLight.intensity = 2.5 + val * 2.9;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateSong29ManyWatersFlameScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createSong8ManyWatersSealFlameEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'many-waters', 29, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.8, '#ffc966');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand Before the Signet Seal & Unquenchable Flame of Love',
+      signatureActivatedText:
+        '“Set me as a seal on your heart, as a seal on your arm; for love is strong as death… Many waters can’t quench love, neither can floods drown it.” (Song of Songs 8:6–7)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._song29Latch = Math.min(1.0, (this._song29Latch || 0) + dt * 0.65);
+        const val = this._song29Latch || 0;
+        rig.signetRing.rotation.y = time * 0.45;
+        rig.sealFlame.scale.y = 1.0 + Math.sin(time * 5.0) * 0.14 + val * 0.22;
+        rig.sealLight.intensity = 2.7 + val * 3.2;
         return near || val > 0.85;
       }
     };

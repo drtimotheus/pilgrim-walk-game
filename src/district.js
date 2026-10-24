@@ -997,7 +997,13 @@ export class GenesisDistrictBuilder {
         slug !== 'can-these-bones-live' &&
         slug !== 'out-of-the-deep' &&
         slug !== 'to-the-ends-of-the-earth' &&
-        slug !== 'anchor-of-the-soul'
+        slug !== 'anchor-of-the-soul' &&
+        slug !== 'our-eyes-are-on-you' &&
+        slug !== 'rise-up-and-build' &&
+        slug !== 'for-such-a-time-as-this' &&
+        slug !== 'the-beginning-of-wisdom' &&
+        slug !== 'eternity-in-their-hearts' &&
+        slug !== 'many-waters'
       ) {
         const focal = this.propBuilder.createFocalPropForScene(pData.sceneType, null, pal);
         if (focal && focal.group) {
@@ -1862,6 +1868,228 @@ export class GenesisDistrictBuilder {
         streetGroup.add(arena.group);
         return;
       }
+    } else if (slug === 'our-eyes-are-on-you') {
+      if (pData.n === 4) {
+        const thresh = this.propBuilder.createChronicles9ThresholdKeepersEnsemble(null, pal, false);
+        if (thresh.thresholdLight) thresh.group.remove(thresh.thresholdLight);
+        thresh.group.scale.setScalar(0.74);
+        thresh.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        thresh.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(thresh.group);
+        return;
+      }
+      if (pData.n === 8) {
+        const feast = this.propBuilder.createChronicles16ArkTentFeastEnsemble(null, pal, false);
+        if (feast.feastLight) feast.group.remove(feast.feastLight);
+        feast.group.scale.setScalar(0.74);
+        feast.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        feast.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(feast.group);
+        return;
+      }
+      if (pData.n === 18) {
+        const sound = this.propBuilder.createChronicles5OneSoundTrumpetsEnsemble(null, pal, false);
+        if (sound.gloryLight) sound.group.remove(sound.gloryLight);
+        sound.group.scale.setScalar(0.74);
+        sound.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        sound.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(sound.group);
+        return;
+      }
+      if (pData.n === 24 || pData.n === 36) {
+        const eyes = this.propBuilder.createChronicles20EyesOnYouCourtyardEnsemble(null, pal, false);
+        if (eyes.eyesLight) eyes.group.remove(eyes.eyesLight);
+        eyes.group.scale.setScalar(0.74);
+        eyes.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        eyes.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(eyes.group);
+        return;
+      }
+    } else if (slug === 'rise-up-and-build') {
+      if (pData.n === 4) {
+        const altar = this.propBuilder.createEzra3AltarOnItsBaseEnsemble(null, pal, false);
+        if (altar.altarLight) altar.group.remove(altar.altarLight);
+        altar.group.scale.setScalar(0.74);
+        altar.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        altar.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(altar.group);
+        return;
+      }
+      if (pData.n === 23) {
+        const ride = this.propBuilder.createNehemiah2NightRideWallEnsemble(null, pal, false);
+        if (ride.nightLight) ride.group.remove(ride.nightLight);
+        ride.group.scale.setScalar(0.74);
+        ride.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        ride.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(ride.group);
+        return;
+      }
+      if (pData.n === 29) {
+        const wall = this.propBuilder.createNehemiah4TrowelAndSwordWallEnsemble(null, pal, false);
+        if (wall.wallLight) wall.group.remove(wall.wallLight);
+        wall.group.scale.setScalar(0.74);
+        wall.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        wall.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(wall.group);
+        return;
+      }
+      if (pData.n === 34 || pData.n === 40) {
+        const scroll = this.propBuilder.createNehemiah8WaterGateScrollEnsemble(null, pal, false);
+        if (scroll.scrollLight) scroll.group.remove(scroll.scrollLight);
+        scroll.group.scale.setScalar(0.74);
+        scroll.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        scroll.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(scroll.group);
+        return;
+      }
+    } else if (slug === 'for-such-a-time-as-this') {
+      if (pData.n === 4) {
+        const court = this.propBuilder.createEsther2SusaMosaicCourtyardEnsemble(null, pal, false);
+        if (court.courtLight) court.group.remove(court.courtLight);
+        court.group.scale.setScalar(0.74);
+        court.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        court.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(court.group);
+        return;
+      }
+      if (pData.n === 16) {
+        const fast = this.propBuilder.createEsther4ThreeDayFastEnsemble(null, pal, false);
+        if (fast.fastLight) fast.group.remove(fast.fastLight);
+        fast.group.scale.setScalar(0.74);
+        fast.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        fast.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(fast.group);
+        return;
+      }
+      if (pData.n === 18 || pData.n === 32) {
+        const scepter = this.propBuilder.createEsther5GoldenScepterThroneEnsemble(null, pal, false);
+        if (scepter.scepterLight) scepter.group.remove(scepter.scepterLight);
+        scepter.group.scale.setScalar(0.74);
+        scepter.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        scepter.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(scepter.group);
+        return;
+      }
+      if (pData.n === 21) {
+        const chron = this.propBuilder.createEsther6SleeplessChroniclesEnsemble(null, pal, false);
+        if (chron.lampLight) chron.group.remove(chron.lampLight);
+        chron.group.scale.setScalar(0.74);
+        chron.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        chron.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(chron.group);
+        return;
+      }
+    } else if (slug === 'the-beginning-of-wisdom') {
+      if (pData.n === 6) {
+        const spring = this.propBuilder.createProverbs4WellspringOfLifeEnsemble(null, pal, false);
+        if (spring.springLight) spring.group.remove(spring.springLight);
+        spring.group.scale.setScalar(0.74);
+        spring.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        spring.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(spring.group);
+        return;
+      }
+      if (pData.n === 14) {
+        const apples = this.propBuilder.createProverbs25ApplesOfGoldEnsemble(null, pal, false);
+        if (apples.applesLight) apples.group.remove(apples.applesLight);
+        apples.group.scale.setScalar(0.74);
+        apples.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        apples.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(apples.group);
+        return;
+      }
+      if (pData.n === 25) {
+        const iron = this.propBuilder.createProverbs27IronSharpensIronEnsemble(null, pal, false);
+        if (iron.forgeLight) iron.group.remove(iron.forgeLight);
+        iron.group.scale.setScalar(0.74);
+        iron.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        iron.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(iron.group);
+        return;
+      }
+      if (pData.n === 38 || pData.n === 40) {
+        const dawn = this.propBuilder.createProverbs31LampBeforeDawnEnsemble(null, pal, false);
+        if (dawn.dawnLight) dawn.group.remove(dawn.dawnLight);
+        dawn.group.scale.setScalar(0.74);
+        dawn.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        dawn.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(dawn.group);
+        return;
+      }
+    } else if (slug === 'eternity-in-their-hearts') {
+      if (pData.n === 4) {
+        const sea = this.propBuilder.createEcclesiastes1RiversToTheSeaEnsemble(null, pal, false);
+        if (sea.seaLight) sea.group.remove(sea.seaLight);
+        sea.group.scale.setScalar(0.74);
+        sea.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        sea.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(sea.group);
+        return;
+      }
+      if (pData.n === 13 || pData.n === 36) {
+        const sundial = this.propBuilder.createEcclesiastes3SundialOfSeasonsEnsemble(null, pal, false);
+        if (sundial.sundialLight) sundial.group.remove(sundial.sundialLight);
+        sundial.group.scale.setScalar(0.74);
+        sundial.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        sundial.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(sundial.group);
+        return;
+      }
+      if (pData.n === 16) {
+        const cord = this.propBuilder.createEcclesiastes4ThreefoldCordEnsemble(null, pal, false);
+        if (cord.cordLight) cord.group.remove(cord.cordLight);
+        cord.group.scale.setScalar(0.74);
+        cord.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        cord.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(cord.group);
+        return;
+      }
+      if (pData.n === 34) {
+        const almond = this.propBuilder.createEcclesiastes12BlossomingAlmondEnsemble(null, pal, false);
+        if (almond.almondLight) almond.group.remove(almond.almondLight);
+        almond.group.scale.setScalar(0.74);
+        almond.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        almond.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(almond.group);
+        return;
+      }
+    } else if (slug === 'many-waters') {
+      if (pData.n === 5) {
+        const banner = this.propBuilder.createSong2BannerOfLoveEnsemble(null, pal, false);
+        if (banner.bannerLight) banner.group.remove(banner.bannerLight);
+        banner.group.scale.setScalar(0.74);
+        banner.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        banner.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(banner.group);
+        return;
+      }
+      if (pData.n === 7) {
+        const spring = this.propBuilder.createSong2WinterIsPastLatticeEnsemble(null, pal, false);
+        if (spring.springLight) spring.group.remove(spring.springLight);
+        spring.group.scale.setScalar(0.74);
+        spring.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        spring.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(spring.group);
+        return;
+      }
+      if (pData.n === 14) {
+        const garden = this.propBuilder.createSong4EnclosedGardenFountainEnsemble(null, pal, false);
+        if (garden.fountainLight) garden.group.remove(garden.fountainLight);
+        garden.group.scale.setScalar(0.74);
+        garden.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        garden.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(garden.group);
+        return;
+      }
+      if (pData.n === 29 || pData.n === 32) {
+        const seal = this.propBuilder.createSong8ManyWatersSealFlameEnsemble(null, pal, false);
+        if (seal.sealLight) seal.group.remove(seal.sealLight);
+        seal.group.scale.setScalar(0.74);
+        seal.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        seal.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(seal.group);
+        return;
+      }
     }
 
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
@@ -1961,6 +2189,12 @@ export class GenesisDistrictBuilder {
       'come-and-see': 'DISTRICT XXXI · COME AND SEE — JOHN',
       'to-the-ends-of-the-earth': 'DISTRICT XXXII · TO THE ENDS OF THE EARTH — ACTS',
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
+      'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
+      'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
+      'for-such-a-time-as-this': 'DISTRICT XI · FOR SUCH A TIME AS THIS — ESTHER',
+      'the-beginning-of-wisdom': 'DISTRICT XVII · THE BEGINNING OF WISDOM — PROVERBS',
+      'eternity-in-their-hearts': 'DISTRICT XVIII · ETERNITY IN THEIR HEARTS — ECCLESIASTES',
+      'many-waters': 'DISTRICT XIX · MANY WATERS — SONG OF SONGS',
       'all-things-new': 'DISTRICT XLIV · ALL THINGS NEW — REVELATION'
     };
 
@@ -2954,6 +3188,126 @@ export class GenesisDistrictBuilder {
           name: 'The Light of the Great Cloud of Witnesses',
           hint: 'Glowing within the amphitheater colonnade near “cloud of witnesses” before the Amen Gate (Part Five)'
         }
+      ],
+      'our-eyes-are-on-you': [
+        {
+          name: 'The Light of the Keepers of the Thresholds',
+          hint: 'Shining beside the temple threshold gate & morning key near “keepers of the thresholds” (Part One)'
+        },
+        {
+          name: 'The Light of the Ark Tent & Feast of Joy',
+          hint: 'Glowing beside the tent table of bread & raisin cakes near “a loaf and a raisin cake” (Part Two)'
+        },
+        {
+          name: 'The Light of the House Built for His Name',
+          hint: 'Resting along the cedar-lined sanctuary road near “yours is the kingdom” (Part Three)'
+        },
+        {
+          name: 'The Light of One Sound & Eyes Upon Yahweh',
+          hint: 'Shining beside the 120 silver trumpets & Jehoshaphat’s courtyard near “one sound” & “our eyes are on you” (Part Four)'
+        },
+        {
+          name: 'The Light of the Proclamation to Go Up & Build',
+          hint: 'Glowing before the Amen Gate near “whoever is among you of all his people” (Part Five)'
+        }
+      ],
+      'rise-up-and-build': [
+        {
+          name: 'The Light of the Altar Set on Its Base',
+          hint: 'Shining beside the rebuilt stone altar near “on its base” (Part One)'
+        },
+        {
+          name: 'The Light of the Good Hand of Our God',
+          hint: 'Resting along the return road near “the good hand of our God” (Part Two)'
+        },
+        {
+          name: 'The Light of the Moonlit Night Ride',
+          hint: 'Glowing beside the breached wall stones & lantern near “the night ride” (Part Three)'
+        },
+        {
+          name: 'The Light of the Trowel & the Sword',
+          hint: 'Shining on the rising parapet beside the builder’s trowel & bronze sword near “one hand” (Part Four)'
+        },
+        {
+          name: 'The Light of the Water Gate Scroll & Joy of Yahweh',
+          hint: 'Glowing beside the wooden platform at the Water Gate near “all the people stood” before the Amen Gate (Part Five)'
+        }
+      ],
+      'for-such-a-time-as-this': [
+        {
+          name: 'The Light of the Susa Mosaic Courtyard',
+          hint: 'Shining beside the palace colonnade & mosaic pavement near “every day by the court” (Part One)'
+        },
+        {
+          name: 'The Light of the Three-Day Vigil',
+          hint: 'Glowing beside the folded royal robe & fast lamp near “if I perish” (Part Two)'
+        },
+        {
+          name: 'The Light of the Extended Golden Scepter & Sleepless Night',
+          hint: 'Shining beside the golden scepter & open Book of Chronicles near “the golden scepter” & “the sleepless king” (Part Three)'
+        },
+        {
+          name: 'The Light of Gladness & Light for the People',
+          hint: 'Glowing before the Amen Gate near “light and gladness, joy and honor” (Part Four)'
+        }
+      ],
+      'the-beginning-of-wisdom': [
+        {
+          name: 'The Light of the Guarded Wellspring of Life',
+          hint: 'Shining beside the stone basin of living water near “the wellspring” (Part One)'
+        },
+        {
+          name: 'The Light of Apples of Gold in Settings of Silver',
+          hint: 'Glowing beside the silver filigree bowl & golden apples near “apples of gold” (Part Two)'
+        },
+        {
+          name: 'The Light of the Just Balance & Quiet Work',
+          hint: 'Resting along the colonnade of wisdom near “commit your works” (Part Three)'
+        },
+        {
+          name: 'The Light of Iron Sharpening Iron',
+          hint: 'Shining beside the forge anvil & crossed blades near “iron” (Part Four)'
+        },
+        {
+          name: 'The Light of the Lamp That Does Not Go Out Before Dawn',
+          hint: 'Glowing beside Wisdom’s loom & night lamp near “before dawn” before the Amen Gate (Part Five)'
+        }
+      ],
+      'eternity-in-their-hearts': [
+        {
+          name: 'The Light of the Rivers Returning to the Sea',
+          hint: 'Shining beside the stone sea-basin near “the wind and the sea” (Part One)'
+        },
+        {
+          name: 'The Light of Eternity in Their Hearts & the Threefold Cord',
+          hint: 'Glowing beside the Sundial of Seasons & braided golden cord near “eternity in their hearts” & “a threefold cord” (Part Two)'
+        },
+        {
+          name: 'The Light of Quiet Wisdom & Bread Upon the Waters',
+          hint: 'Resting along the limestone terrace near “better is the end” (Part Three)'
+        },
+        {
+          name: 'The Light of the Blossoming Almond Tree',
+          hint: 'Shining beneath the white-blossoming almond tree near “the almond tree” before the Amen Gate (Part Four)'
+        }
+      ],
+      'many-waters': [
+        {
+          name: 'The Light of the Banner of Love & Blossoming Lattice',
+          hint: 'Shining beneath the crimson-gold canopy & spring lattice window near “the banner” & “the winter is past” (Part One)'
+        },
+        {
+          name: 'The Light of the Enclosed Garden Fountain',
+          hint: 'Glowing beside the walled garden well of living waters near “the enclosed garden” (Part Two)'
+        },
+        {
+          name: 'The Light of the Beloved in the Garden of Spices',
+          hint: 'Resting along the vineyard terrace near “my beloved is mine” (Part Three)'
+        },
+        {
+          name: 'The Light of the Signet Seal & Unquenchable Flame',
+          hint: 'Shining beside the golden signet seal & flame over many waters near “the seal” before the Amen Gate (Part Four)'
+        }
       ]
     };
 
@@ -3482,6 +3836,120 @@ export class GenesisDistrictBuilder {
       veilFinale.group.position.set(-3.4, 0.1, -4.6);
       veilFinale.group.rotation.y = 0.36;
       group.add(veilFinale.group);
+    } else if (slug === 'our-eyes-are-on-you') {
+      const chronFinale = this.propBuilder.createChronicles20EyesOnYouCourtyardEnsemble(
+        null,
+        { ground: '#7a6c58', horizon: '#dfc08a', accent: '#ffe699' },
+        true
+      );
+      chronFinale.group.position.set(0, 0.1, -3.8);
+      group.add(chronFinale.group);
+
+      const soundFinale = this.propBuilder.createChronicles5OneSoundTrumpetsEnsemble(
+        null,
+        { ground: '#7a6c58', horizon: '#dfc08a', accent: '#ffe699' },
+        false
+      );
+      if (soundFinale.gloryLight) soundFinale.group.remove(soundFinale.gloryLight);
+      soundFinale.group.scale.setScalar(0.74);
+      soundFinale.group.position.set(-3.4, 0.1, -4.6);
+      soundFinale.group.rotation.y = 0.36;
+      group.add(soundFinale.group);
+    } else if (slug === 'rise-up-and-build') {
+      const scrollFinale = this.propBuilder.createNehemiah8WaterGateScrollEnsemble(
+        null,
+        { ground: '#7a6a55', horizon: '#deb97e', accent: '#ffe69c' },
+        true
+      );
+      scrollFinale.group.position.set(0, 0.1, -3.8);
+      group.add(scrollFinale.group);
+
+      const wallFinale = this.propBuilder.createNehemiah4TrowelAndSwordWallEnsemble(
+        null,
+        { ground: '#7a6a55', horizon: '#deb97e', accent: '#ffe69c' },
+        false
+      );
+      if (wallFinale.wallLight) wallFinale.group.remove(wallFinale.wallLight);
+      wallFinale.group.scale.setScalar(0.74);
+      wallFinale.group.position.set(-3.4, 0.1, -4.6);
+      wallFinale.group.rotation.y = 0.36;
+      group.add(wallFinale.group);
+    } else if (slug === 'for-such-a-time-as-this') {
+      const scepterFinale = this.propBuilder.createEsther5GoldenScepterThroneEnsemble(
+        null,
+        { ground: '#382c42', horizon: '#d9b571', accent: '#ffea96' },
+        true
+      );
+      scepterFinale.group.position.set(0, 0.1, -3.8);
+      group.add(scepterFinale.group);
+
+      const chronBookFinale = this.propBuilder.createEsther6SleeplessChroniclesEnsemble(
+        null,
+        { ground: '#382c42', horizon: '#d9b571', accent: '#ffea96' },
+        false
+      );
+      if (chronBookFinale.lampLight) chronBookFinale.group.remove(chronBookFinale.lampLight);
+      chronBookFinale.group.scale.setScalar(0.74);
+      chronBookFinale.group.position.set(-3.4, 0.1, -4.6);
+      chronBookFinale.group.rotation.y = 0.36;
+      group.add(chronBookFinale.group);
+    } else if (slug === 'the-beginning-of-wisdom') {
+      const dawnFinale = this.propBuilder.createProverbs31LampBeforeDawnEnsemble(
+        null,
+        { ground: '#786b59', horizon: '#dfc38d', accent: '#ffe28a' },
+        true
+      );
+      dawnFinale.group.position.set(0, 0.1, -3.8);
+      group.add(dawnFinale.group);
+
+      const applesFinale = this.propBuilder.createProverbs25ApplesOfGoldEnsemble(
+        null,
+        { ground: '#786b59', horizon: '#dfc38d', accent: '#ffe28a' },
+        false
+      );
+      if (applesFinale.applesLight) applesFinale.group.remove(applesFinale.applesLight);
+      applesFinale.group.scale.setScalar(0.74);
+      applesFinale.group.position.set(-3.4, 0.1, -4.6);
+      applesFinale.group.rotation.y = 0.36;
+      group.add(applesFinale.group);
+    } else if (slug === 'eternity-in-their-hearts') {
+      const sundialFinale = this.propBuilder.createEcclesiastes3SundialOfSeasonsEnsemble(
+        null,
+        { ground: '#7a6c58', horizon: '#e3c58d', accent: '#ffea96' },
+        true
+      );
+      sundialFinale.group.position.set(0, 0.1, -3.8);
+      group.add(sundialFinale.group);
+
+      const almondFinale = this.propBuilder.createEcclesiastes12BlossomingAlmondEnsemble(
+        null,
+        { ground: '#7a6c58', horizon: '#e3c58d', accent: '#ffea96' },
+        false
+      );
+      if (almondFinale.almondLight) almondFinale.group.remove(almondFinale.almondLight);
+      almondFinale.group.scale.setScalar(0.74);
+      almondFinale.group.position.set(-3.4, 0.1, -4.6);
+      almondFinale.group.rotation.y = 0.36;
+      group.add(almondFinale.group);
+    } else if (slug === 'many-waters') {
+      const sealFinale = this.propBuilder.createSong8ManyWatersSealFlameEnsemble(
+        null,
+        { ground: '#7a6d5a', horizon: '#e0c48e', accent: '#ffc966' },
+        true
+      );
+      sealFinale.group.position.set(0, 0.1, -3.8);
+      group.add(sealFinale.group);
+
+      const gardenFinale = this.propBuilder.createSong4EnclosedGardenFountainEnsemble(
+        null,
+        { ground: '#7a6d5a', horizon: '#e0c48e', accent: '#ffc966' },
+        false
+      );
+      if (gardenFinale.fountainLight) gardenFinale.group.remove(gardenFinale.fountainLight);
+      gardenFinale.group.scale.setScalar(0.74);
+      gardenFinale.group.position.set(-3.4, 0.1, -4.6);
+      gardenFinale.group.rotation.y = 0.36;
+      group.add(gardenFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -3664,6 +4132,36 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · ANCHOR OF THE SOUL COMPLETED',
         epigraph: 'This hope we have as an anchor of the soul, a hope both sure and steadfast — looking to Jesus, the author and perfecter of faith.',
         epigraphRef: 'HEBREWS 6:19 & 12:2 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XLI: DOERS OF THE WORD'
+      },
+      'our-eyes-are-on-you': {
+        title: 'AMEN GATE · OUR EYES ARE ON YOU COMPLETED',
+        epigraph: 'We don’t know what to do, but our eyes are on you — Yahweh your God is with you; let him go up!',
+        epigraphRef: '2 CHRONICLES 20:12 & 36:23 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT X: RISE UP AND BUILD'
+      },
+      'rise-up-and-build': {
+        title: 'AMEN GATE · RISE UP AND BUILD COMPLETED',
+        epigraph: 'So we built the wall… Don’t be grieved, for the joy of Yahweh is your strength.',
+        epigraphRef: 'NEHEMIAH 4:6 & 8:10 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XI: FOR SUCH A TIME AS THIS'
+      },
+      'for-such-a-time-as-this': {
+        title: 'AMEN GATE · FOR SUCH A TIME AS THIS COMPLETED',
+        epigraph: 'Who knows if you haven’t come to the kingdom for such a time as this? — The Jews had light and gladness, joy and honor.',
+        epigraphRef: 'ESTHER 4:14 & 8:16 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XII: OUT OF THE WHIRLWIND'
+      },
+      'the-beginning-of-wisdom': {
+        title: 'AMEN GATE · THE BEGINNING OF WISDOM COMPLETED',
+        epigraph: 'Trust in Yahweh with all your heart… Keep your heart with all diligence, for out of it is the wellspring of life.',
+        epigraphRef: 'PROVERBS 3:5 & 4:23 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XVIII: ETERNITY IN THEIR HEARTS'
+      },
+      'eternity-in-their-hearts': {
+        title: 'AMEN GATE · ETERNITY IN THEIR HEARTS COMPLETED',
+        epigraph: 'He has made everything beautiful in its time. He has also set eternity in their hearts.',
+        epigraphRef: 'ECCLESIASTES 3:11 & 12:13 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XIX: MANY WATERS'
+      },
+      'many-waters': {
+        title: 'AMEN GATE · MANY WATERS COMPLETED',
+        epigraph: 'Set me as a seal on your heart… Many waters can’t quench love, neither can floods drown it.',
+        epigraphRef: 'SONG OF SONGS 8:6–7 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XX: ARISE, SHINE'
       },
       'all-things-new': {
         title: 'AMEN GATE · ALL THINGS NEW COMPLETED',

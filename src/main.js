@@ -238,6 +238,9 @@ class PilgrimWalkApp {
       if (this.dailyWalk && typeof this.dailyWalk.syncVoiceVolume === 'function') {
         this.dailyWalk.syncVoiceVolume();
       }
+      if (this._introAudioEl) {
+        this._introAudioEl.volume = this.audio.getEffectiveVoiceVolume();
+      }
     };
     this.clock = new THREE.Clock();
 
@@ -260,6 +263,7 @@ class PilgrimWalkApp {
       scenesVisited: Array.isArray(src.scenesVisited) ? [...new Set(src.scenesVisited)] : [],
       relicsInspected: Array.isArray(src.relicsInspected) ? [...new Set(src.relicsInspected)] : [],
       districtsCompleted: Array.isArray(src.districtsCompleted) ? [...new Set(src.districtsCompleted)] : [],
+      introNarrated: !!src.introNarrated,
       walkMode: ['STORY', 'FREE', 'DAILY'].includes(src.walkMode) ? src.walkMode : 'STORY',
       lang: ['en', 'zh', 'zh-TW'].includes(src.lang) ? src.lang : 'en',
       graphicsQuality: ['balanced', 'eco', 'high'].includes(src.graphicsQuality)
@@ -496,6 +500,7 @@ class PilgrimWalkApp {
 
       await this.switchDistrict(initialSlug, true);
       await this.dailyWalk.init();
+      this.initOneTimeIntroNarrator();
 
       const loadingScreen = document.getElementById('loading-screen');
       if (loadingScreen) loadingScreen.classList.add('fade-out');
@@ -1036,6 +1041,42 @@ class PilgrimWalkApp {
         { n: 19, label: '19 · “the anchor” (Anchor of the Soul)' },
         { n: 23, label: '23 · “through the curtain” (Parted Veil & Living Way)' },
         { n: 33, label: '33 · “so great a cloud” (Cloud of Witnesses Arena)' }
+      ],
+      'our-eyes-are-on-you': [
+        { n: 4, label: '4 · “keepers of the thresholds” (Temple Threshold Gates)' },
+        { n: 8, label: '8 · “a loaf and a raisin cake” (Ark Tent & Feast)' },
+        { n: 18, label: '18 · “one sound” (120 Silver Trumpets & Cloud)' },
+        { n: 24, label: '24 · “our eyes are on you” (Jehoshaphat’s Courtyard)' }
+      ],
+      'rise-up-and-build': [
+        { n: 4, label: '4 · “on its base” (Rebuilt Altar on Its Base)' },
+        { n: 23, label: '23 · “the night ride” (Moonlit Wall Inspection)' },
+        { n: 29, label: '29 · “one hand” (Trowel, Sword & Shofar Wall)' },
+        { n: 34, label: '34 · “all the people stood” (Water Gate Scroll Platform)' }
+      ],
+      'for-such-a-time-as-this': [
+        { n: 4, label: '4 · “every day by the court” (Susa Mosaic Courtyard)' },
+        { n: 16, label: '16 · “if I perish” (Three-Day Fast & Unlit Lamp)' },
+        { n: 18, label: '18 · “the golden scepter” (Extended Golden Scepter)' },
+        { n: 21, label: '21 · “the sleepless king” (Book of Chronicles by Night)' }
+      ],
+      'the-beginning-of-wisdom': [
+        { n: 6, label: '6 · “the wellspring” (Guarded Wellspring of Life)' },
+        { n: 14, label: '14 · “apples of gold” (Apples of Gold in Silver Filigree)' },
+        { n: 25, label: '25 · “iron” (Iron Sharpens Iron Forge)' },
+        { n: 38, label: '38 · “before dawn” (Spindle, Loom & Lamp Before Dawn)' }
+      ],
+      'eternity-in-their-hearts': [
+        { n: 4, label: '4 · “the wind and the sea” (Rivers Flowing to the Sea)' },
+        { n: 13, label: '13 · “eternity in their hearts” (Sundial of Seasons)' },
+        { n: 16, label: '16 · “a threefold cord” (Threefold Braided Golden Cord)' },
+        { n: 34, label: '34 · “the almond tree” (Blossoming Almond & Silver Cord)' }
+      ],
+      'many-waters': [
+        { n: 5, label: '5 · “the banner” (Banqueting House & Banner of Love)' },
+        { n: 7, label: '7 · “the winter is past” (Lattice Window, Fig & Vine)' },
+        { n: 14, label: '14 · “the enclosed garden” (Walled Garden & Living Fountain)' },
+        { n: 29, label: '29 · “the seal” (Signet Seal & Unquenchable Flame)' }
       ]
     };
 
@@ -1919,6 +1960,28 @@ class PilgrimWalkApp {
       });
     }
 
+    // One-Time Intro Audible Narrator & Replay Controls
+    const btnIntroToggle = document.getElementById('btn-intro-narrator-toggle');
+    if (btnIntroToggle) {
+      btnIntroToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.toggleIntroWelcomeNarration();
+      });
+    }
+    const btnIntroDismiss = document.getElementById('btn-intro-narrator-dismiss');
+    if (btnIntroDismiss) {
+      btnIntroDismiss.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.dismissIntroWelcomeBanner();
+      });
+    }
+    const btnGatehouseIntro = document.getElementById('gatehouse-btn-listen-intro');
+    if (btnGatehouseIntro) {
+      btnGatehouseIntro.addEventListener('click', () => {
+        this.toggleIntroWelcomeNarration();
+      });
+    }
+
     const btnGraphics = document.getElementById('btn-graphics-quality');
     if (btnGraphics) {
       btnGraphics.addEventListener('click', () => {
@@ -2094,6 +2157,7 @@ class PilgrimWalkApp {
     if (vMaster) vMaster.textContent = `${masterPct}%`;
     if (vMusic) vMusic.textContent = `${musicPct}%`;
     if (vVoice) vVoice.textContent = `${voicePct}%`;
+    this.syncIntroNarratorUI();
   }
 
   encodeProgressCode() {
@@ -3000,6 +3064,245 @@ class PilgrimWalkApp {
     this._toastTimer = setTimeout(() => {
       toast.classList.add('hidden');
     }, 4200);
+  }
+
+  // ==========================================================================
+  // ONE-TIME INTRO AUDIBLE NARRATOR & HOW-TO-PLAY GUIDE
+  // ==========================================================================
+  getIntroWelcomeText() {
+    if (this.isZh()) {
+      return this.zh(
+        '欢迎你，天路客，来到《天路同行》——这是一座穿越圣经四十四卷书的彩绘灵修圣所，从创世记的黎明一直延伸到启示录的新耶路撒冷。以下是漫步与享受这个世界的方式：使用 W、A、S、D 键或方向键，在移动端也可使用触控摇杆，沿着灯火辉映的书卷长街缓步前行。在任意一幅画作前驻足，即可阅读经文与诗歌；按下 R 键，便可聆听完整的有声灵修默想。留意那些闪耀着金色光芒的画框：走近并按下 E 键，即可步入一百七十五处沉浸式三维步入画境。在剧情漫步模式中，寻访每一篇章隐藏的圣所之光，按下 F 键将其点亮，开启下一道拱门；若想自由探索，也可随时点击顶部导航栏切换为自由漫步模式。旅途之中，按 J 键可点亮每日同行烛光，在三维工坊中鉴赏五十三件圣经圣物雕塑，也可随时按 P 键珍藏天路明信片。请放慢脚步，静心呼吸，在光中同行。'
+      );
+    }
+    return 'Welcome, pilgrim, to The Pilgrim Walk — a living painted sanctuary through forty-four books of Scripture, from the dawn of Genesis to the New Jerusalem of Revelation. Here is how to walk and enjoy this world: Move gently down each lantern-lit Book Street using W, A, S, D, or the Arrow keys — or with the touch joystick on mobile. Pause before any of the sixteen hundred and thirty-one paintings to read its scripture and poem, and press R to hear the full devotional reflection read aloud. Watch for paintings framed in living golden light: approach them and press E to step inside one hundred and seventy-five three-dimensional Step-Through Scenes. In Story Walk mode, seek out the hidden Sanctuary Light in each chapter part and press F to kindle it and unlock the next gate — or toggle Free Walk at the top of the screen whenever you wish to wander without barriers. Along the way, press J to light your Daily Walk candle, inspect the fifty-three sculpted Hero Relics in the 3D Workshop, and press P at any moment to save a keepsake Pilgrim Postcard. Take your time, breathe deeply, and walk in the light.';
+  }
+
+  initOneTimeIntroNarrator() {
+    this._introSpeaking = false;
+    this._introAudioEl = null;
+    this.syncIntroNarratorUI();
+
+    if (!this.saveData.introNarrated) {
+      const banner = document.getElementById('intro-narrator-banner');
+      if (banner) banner.classList.remove('hidden');
+
+      const onFirstGesture = (e) => {
+        if (this.saveData.introNarrated) {
+          cleanupGesture();
+          return;
+        }
+        const target = e && e.target;
+        if (
+          target &&
+          target.closest &&
+          (target.closest('#btn-intro-narrator-dismiss') ||
+            target.closest('#btn-audio-toggle') ||
+            target.closest('#btn-intro-narrator-toggle') ||
+            target.closest('#gatehouse-btn-listen-intro'))
+        ) {
+          return;
+        }
+        cleanupGesture();
+        this.playIntroWelcomeNarration();
+      };
+
+      const cleanupGesture = () => {
+        window.removeEventListener('pointerdown', onFirstGesture);
+        window.removeEventListener('keydown', onFirstGesture);
+        window.removeEventListener('touchstart', onFirstGesture);
+      };
+
+      window.addEventListener('pointerdown', onFirstGesture, { passive: true });
+      window.addEventListener('keydown', onFirstGesture, { passive: true });
+      window.addEventListener('touchstart', onFirstGesture, { passive: true });
+    }
+  }
+
+  syncIntroNarratorUI() {
+    const zh = this.isZh();
+    const statusLabel = document.getElementById('intro-narrator-status-label');
+    const toggleBtn = document.getElementById('btn-intro-narrator-toggle');
+    const dismissBtn = document.getElementById('btn-intro-narrator-dismiss');
+    const textEl = document.getElementById('intro-narrator-text');
+    const keysEl = document.getElementById('intro-narrator-keys');
+    const ghBtn = document.getElementById('gatehouse-btn-listen-intro');
+    const ghEyebrow = document.getElementById('gh-howto-eyebrow');
+    const ghSub = document.getElementById('gh-howto-sub');
+
+    if (statusLabel) {
+      statusLabel.textContent = this._introSpeaking
+        ? (zh ? this.zh('🔊 正在播放：天路同行 · 新手漫步有声导览 (Selene)') : '🔊 Playing Now · Welcome & How-to-Play Guide (Selene)')
+        : (zh ? this.zh('🔊 天路同行 · 漫步与游玩有声导览 (Selene)') : '🔊 Welcome & How-to-Play Guide · Narrated by Selene');
+    }
+    if (toggleBtn) {
+      toggleBtn.textContent = this._introSpeaking
+        ? (zh ? this.zh('⏹ 停止导览语音') : '⏹ Stop Welcome Guide')
+        : (zh ? this.zh('🔊 聆听漫步导览') : '🔊 Listen to Welcome Guide');
+    }
+    if (dismissBtn) {
+      dismissBtn.textContent = zh ? this.zh('✕ 收起') : '✕ Dismiss';
+    }
+    if (textEl) {
+      textEl.innerHTML = zh
+        ? this.zh('欢迎来到<strong>《天路同行》</strong>——穿越圣经 44 卷书、1,631 幅画作与 175 处 3D 步入画境的彩绘灵修圣所。')
+        : 'Welcome, pilgrim, to <em>The Pilgrim Walk</em> — a living painted sanctuary through 44 books of Scripture, 1,631 paintings, and 175 3D Step-Through Scenes.';
+    }
+    if (keysEl) {
+      keysEl.innerHTML = zh
+        ? this.zh('<strong>WASD / 方向键</strong>（或触控摇杆）：漫步 · <strong>[R]</strong>：品读诗歌与聆听朗读 · <strong>[E]</strong>：步入发光画框 · <strong>[F]</strong>：点亮圣所之光（或切换自由漫步） · <strong>[J]</strong>：每日同行烛光 · <strong>[P]</strong>：保存天路明信片')
+        : '<strong>WASD / Arrows</strong> (or Touch Joystick): Walk · <strong>[R]</strong>: Read Poem &amp; Listen · <strong>[E]</strong>: Step Inside 175 Glowing Paintings · <strong>[F]</strong>: Kindle Sanctuary Lights (or toggle Free Walk) · <strong>[J]</strong>: Daily Walk Candle · <strong>[P]</strong>: Save Postcard';
+    }
+    if (ghBtn) {
+      ghBtn.textContent = this._introSpeaking
+        ? (zh ? this.zh('⏹ 停止漫步有声导览 (Selene)') : '⏹ Stop Welcome & How-to-Play Guide')
+        : (zh ? this.zh('🔊 聆听天路漫步与游玩有声导览 (Selene)') : '🔊 Listen to Welcome & How-to-Play Guide');
+    }
+    if (ghEyebrow) {
+      ghEyebrow.textContent = zh
+        ? this.zh('✦ 有声迎宾导览 · 如何漫步与享受《天路同行》')
+        : '✦ AUDIBLE WELCOME GUIDE · HOW TO WALK & ENJOY';
+    }
+    if (ghSub) {
+      ghSub.textContent = zh
+        ? this.zh('随时聆听 Selene 温柔讲解如何漫步 44 卷书街、步入 3D 画境、点亮圣所之光与鉴赏圣物。')
+        : 'Hear Selene’s narrated introduction to walking the 44 Book Streets, stepping inside paintings, and kindling Sanctuary Lights.';
+    }
+  }
+
+  toggleIntroWelcomeNarration() {
+    if (this._introSpeaking) {
+      this.stopIntroWelcomeNarration();
+    } else {
+      this.playIntroWelcomeNarration();
+    }
+  }
+
+  dismissIntroWelcomeBanner() {
+    this.stopIntroWelcomeNarration();
+    if (!this.saveData.introNarrated) {
+      this.saveData.introNarrated = true;
+      this.persistSaveData();
+    }
+    const banner = document.getElementById('intro-narrator-banner');
+    if (banner) banner.classList.add('hidden');
+  }
+
+  stopIntroWelcomeNarration() {
+    this._introSpeaking = false;
+    if (this._introAudioEl) {
+      try {
+        this._introAudioEl.pause();
+        this._introAudioEl.currentTime = 0;
+      } catch (_) {}
+      this._introAudioEl = null;
+    }
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      try {
+        window.speechSynthesis.cancel();
+      } catch (_) {}
+    }
+    if (this.audio && typeof this.audio.setVoiceDucking === 'function') {
+      this.audio.setVoiceDucking(false);
+    }
+    this.syncIntroNarratorUI();
+  }
+
+  async playIntroWelcomeNarration() {
+    if (this.dailyWalk && typeof this.dailyWalk.stopActiveVoice === 'function') {
+      this.dailyWalk.stopActiveVoice();
+    }
+    this.stopIntroWelcomeNarration();
+
+    if (!this.saveData.introNarrated) {
+      this.saveData.introNarrated = true;
+      this.persistSaveData();
+    }
+
+    const banner = document.getElementById('intro-narrator-banner');
+    if (banner) banner.classList.remove('hidden');
+
+    if (this.audio) {
+      this.audio.init();
+      if (typeof this.audio.setVoiceDucking === 'function') {
+        this.audio.setVoiceDucking(true);
+      }
+    }
+
+    this._introSpeaking = true;
+    this.syncIntroNarratorUI();
+
+    const zh = this.isZh();
+    const audioUrl = zh
+      ? 'assets/audio/selene-zh/intro-welcome.m4a'
+      : 'assets/audio/selene/intro-welcome.m4a';
+
+    try {
+      const audio = new Audio(audioUrl);
+      audio.preload = 'auto';
+      audio.volume = this.audio ? this.audio.getEffectiveVoiceVolume() : 1.0;
+      this._introAudioEl = audio;
+
+      audio.onended = () => {
+        this._introSpeaking = false;
+        this._introAudioEl = null;
+        if (this.audio && typeof this.audio.setVoiceDucking === 'function') {
+          this.audio.setVoiceDucking(false);
+        }
+        this.syncIntroNarratorUI();
+      };
+
+      audio.onerror = () => {
+        if (this._introSpeaking) {
+          this._playIntroWelcomeSpeechFallback();
+        }
+      };
+
+      await audio.play();
+      return true;
+    } catch (_) {
+      return this._playIntroWelcomeSpeechFallback();
+    }
+  }
+
+  _playIntroWelcomeSpeechFallback() {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      this._introSpeaking = false;
+      if (this.audio && typeof this.audio.setVoiceDucking === 'function') {
+        this.audio.setVoiceDucking(false);
+      }
+      this.syncIntroNarratorUI();
+      return false;
+    }
+    try {
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(this.getIntroWelcomeText());
+      const zh = this.isZh();
+      utter.lang = zh ? (this.lang === 'zh-TW' ? 'zh-TW' : 'zh-CN') : 'en-US';
+      utter.rate = zh ? 0.94 : 0.92;
+      utter.pitch = 1.02;
+      utter.volume = this.audio ? this.audio.getEffectiveVoiceVolume() : 1.0;
+      utter.onend = () => {
+        this._introSpeaking = false;
+        if (this.audio && typeof this.audio.setVoiceDucking === 'function') {
+          this.audio.setVoiceDucking(false);
+        }
+        this.syncIntroNarratorUI();
+      };
+      utter.onerror = () => {
+        this._introSpeaking = false;
+        if (this.audio && typeof this.audio.setVoiceDucking === 'function') {
+          this.audio.setVoiceDucking(false);
+        }
+        this.syncIntroNarratorUI();
+      };
+      window.speechSynthesis.speak(utter);
+      return true;
+    } catch (_) {
+      this._introSpeaking = false;
+      this.syncIntroNarratorUI();
+      return false;
+    }
   }
 
   // ==========================================================================

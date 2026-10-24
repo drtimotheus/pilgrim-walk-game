@@ -410,6 +410,50 @@
       "targetScale": 2.5,
       "imageTo3DTip": "Modeled from b-028-008.jpg with the Relic Maker (Muse lane) — the wooden feeding trough filled with golden straw, white swaddling cloths, and the leaning shepherd’s crook (Luke 2:12).",
       "textPrompt": "Ancient rustic wooden feeding manger trough on four timber legs filled with golden straw and draped with white woven swaddling cloths beside a leaning wooden shepherd's crook, warm candlelit oil-on-linen brushwork"
+    },
+    {
+      "slot": 38,
+      "id": "bethlehem-star",
+      "file": "assets/models/bethlehem-star.glb",
+      "title": "The Bethlehem Star",
+      "district": "District XXIX · I Am With You Always (No. 4 “the star”)",
+      "paintingRef": "assets/i-am-with-you-always/web/b-029-004.jpg",
+      "targetScale": 2.9,
+      "imageTo3DTip": "Modeled from b-029-004.jpg — the radiant eight-point golden star mounted atop a tall wrought-bronze astrolabe and limestone sanctuary stand (“lo, the star, which they saw in the east, went before them”, Matthew 2:9).",
+      "textPrompt": "Radiant eight-point golden star mounted atop a tall wrought-bronze sanctuary stand on a carved Bethlehem limestone pedestal, nocturnal indigo and gold oil-on-linen brushwork"
+    },
+    {
+      "slot": 39,
+      "id": "galilee-boat",
+      "file": "assets/models/galilee-boat.glb",
+      "title": "The Galilee Boat",
+      "district": "District XXX · Peace Be Still (No. 11 “the cushion”)",
+      "paintingRef": "assets/peace-be-still/web/b-030-011.jpg",
+      "targetScale": 3.0,
+      "imageTo3DTip": "Modeled from b-030-011.jpg — the wooden Sea of Galilee fishing boat with curved ribs, coiled stern rope, and the woven leather cushion resting on the stern bench (“And he was in the hinder part of the ship, asleep on a pillow”, Mark 4:38).",
+      "textPrompt": "Ancient wooden Sea of Galilee fishing boat with planked hull, thwarts, coiled mooring rope, and a worn leather cushion resting on the stern bench, warm oil painting texture"
+    },
+    {
+      "slot": 40,
+      "id": "rolled-away-stone",
+      "file": "assets/models/rolled-away-stone.glb",
+      "title": "The Rolled-Away Stone",
+      "district": "District XXXI · Come and See (No. 36 “while it was still dark”)",
+      "paintingRef": "assets/come-and-see/web/b-031-036.jpg",
+      "targetScale": 3.1,
+      "imageTo3DTip": "Modeled from b-031-036.jpg — the great circular rolling tomb stone resting in its stone track beside the dark rock-hewn tomb doorway and folded burial linen (“and seeth the stone taken away from the sepulchre”, John 20:1).",
+      "textPrompt": "Great round chiseled limestone rolling tomb stone resting beside a dark rock-hewn garden tomb entrance with folded white linen inside at dawn, painterly oil-on-linen texture"
+    },
+    {
+      "slot": 41,
+      "id": "pentecost-flame",
+      "file": "assets/models/pentecost-flame.glb",
+      "title": "The Pentecost Flame",
+      "district": "District XXXII · To the Ends of the Earth (No. 5 “tongues like fire”)",
+      "paintingRef": "assets/to-the-ends-of-the-earth/web/b-032-005.jpg",
+      "targetScale": 2.7,
+      "imageTo3DTip": "Modeled from b-032-005.jpg — a monumental sculpted cloven tongue of fire rising from a Herodian terracotta oil lamp basin on a carved Jerusalem stone base (“And there appeared unto them cloven tongues like as of fire”, Acts 2:3).",
+      "textPrompt": "Monumental sculpted swirling cloven tongue of golden-amber fire rising from a terracotta lamp basin on a carved Jerusalem limestone pedestal, warm oil-on-linen brushwork"
     }
   ]
 }

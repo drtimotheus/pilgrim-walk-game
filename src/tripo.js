@@ -49,7 +49,11 @@ export class TripoRelicManager {
       'greatly-beloved': ['stone-cut-without-hands'],
       'out-of-the-deep': ['great-fish'],
       'the-day-of-small-things': ['zerubbabels-plumb-line'],
-      'good-news-of-great-joy': ['the-manger']
+      'good-news-of-great-joy': ['the-manger'],
+      'i-am-with-you-always': ['bethlehem-star'],
+      'peace-be-still': ['galilee-boat'],
+      'come-and-see': ['rolled-away-stone'],
+      'to-the-ends-of-the-earth': ['pentecost-flame']
     };
     this.districtHeroRelicPlacement = {
       'our-eyes-are-on-you': { id: 'choir-army-trumpet', paintingNum: 25, scale: 1.0, yOffset: 0.24 },
@@ -71,7 +75,11 @@ export class TripoRelicManager {
       'greatly-beloved': { id: 'stone-cut-without-hands', paintingNum: 10, scale: 1.0, yOffset: 0.24 },
       'out-of-the-deep': { id: 'great-fish', paintingNum: 7, scale: 1.0, yOffset: 0.24 },
       'the-day-of-small-things': { id: 'zerubbabels-plumb-line', paintingNum: 29, scale: 1.0, yOffset: 0.24 },
-      'good-news-of-great-joy': { id: 'the-manger', paintingNum: 8, scale: 1.0, yOffset: 0.24 }
+      'good-news-of-great-joy': { id: 'the-manger', paintingNum: 8, scale: 1.0, yOffset: 0.24 },
+      'i-am-with-you-always': { id: 'bethlehem-star', paintingNum: 4, scale: 1.0, yOffset: 0.24 },
+      'peace-be-still': { id: 'galilee-boat', paintingNum: 11, scale: 1.0, yOffset: 0.24 },
+      'come-and-see': { id: 'rolled-away-stone', paintingNum: 36, scale: 1.0, yOffset: 0.24 },
+      'to-the-ends-of-the-earth': { id: 'pentecost-flame', paintingNum: 5, scale: 1.0, yOffset: 0.24 }
     };
     this.namedSceneRelicMap = {
       'genesis-4': 'sabbath-olive-tree',

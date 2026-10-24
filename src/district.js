@@ -956,6 +956,7 @@ export class GenesisDistrictBuilder {
       heroPedestal.position.set(wx + side * 2.8, wy, offsetZ);
       heroPedestal.lookAt(wx - side * 2.5, wy + 0.5, wz + 2.5);
       streetGroup.add(heroPedestal);
+      return;
     }
 
     // 2. Book-Specific Iconic Event Models along the Street

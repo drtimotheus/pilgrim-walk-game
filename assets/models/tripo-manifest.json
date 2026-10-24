@@ -234,6 +234,50 @@
       "targetScale": 2.6,
       "imageTo3DTip": "Modeled from b-012-004.jpg — the monumental cracked Edomite clay storage vessel and broken dark-banded terracotta potsherd resting on a grey ash mound (Job 2:7–8).",
       "textPrompt": "Monumental cracked ancient clay storage vessel and jagged broken terracotta potsherd with dark painted bands resting on a weathered grey ash mound, warm dawn oil painting texture"
+    },
+    {
+      "slot": 22,
+      "id": "shepherds-rod-and-staff",
+      "file": "assets/models/shepherds-rod-and-staff.glb",
+      "title": "The Shepherd’s Rod & Staff",
+      "district": "District XIII · Planted by the Water (No. 22 “through the valley”)",
+      "paintingRef": "assets/psalms-1/web/b-013-022.jpg",
+      "targetScale": 2.8,
+      "imageTo3DTip": "Modeled from b-013-022.jpg — the crossed oak shepherd’s club-rod and curved crook-staff resting against the valley stone with the folded woven cloak (“thy rod and thy staff they comfort me”, Psalm 23:4).",
+      "textPrompt": "Ancient biblical carved oak shepherd's club-rod crossed with a tall curved wooden shepherd's crook-staff resting against a valley stone beside a folded woven wool cloak, warm oil painting texture"
+    },
+    {
+      "slot": 23,
+      "id": "davids-harp",
+      "file": "assets/models/davids-harp.glb",
+      "title": "David’s Harp",
+      "district": "District XIV · As the Deer (No. 16 “I will wake the dawn”)",
+      "paintingRef": "assets/psalms-2/web/b-014-016.jpg",
+      "targetScale": 2.6,
+      "imageTo3DTip": "Modeled from b-014-016.jpg — the standing carved wooden kinnor lyre-harp with ten golden strings resting at the dawn cave mouth (“Awake, psaltery and harp: I myself will awake early”, Psalm 57:8).",
+      "textPrompt": "Ancient Israelite standing carved wooden kinnor lyre-harp with curved arms, crossbar tuning pegs, and ten golden strings on a cave threshold stone, dawn oil-on-linen brushwork"
+    },
+    {
+      "slot": 24,
+      "id": "sparrows-nest-altar",
+      "file": "assets/models/sparrows-nest-altar.glb",
+      "title": "The Sparrow’s Nest at the Altar",
+      "district": "District XV · A Day in Your Courts (No. 12 “the sparrow’s nest”)",
+      "paintingRef": "assets/psalms-3/web/b-015-012.jpg",
+      "targetScale": 2.3,
+      "imageTo3DTip": "Modeled from b-015-012.jpg — the woven twig nest cradling two warm eggs beside an olive branch on the horned limestone temple altar ledge (“Yea, the sparrow hath found an house… even thine altars”, Psalm 84:3).",
+      "textPrompt": "Woven twig sparrow's nest holding two speckled eggs beside a green olive branch atop a carved Jerusalem limestone horned altar ledge, warm golden sunlight oil painting texture"
+    },
+    {
+      "slot": 25,
+      "id": "praise-cymbals",
+      "file": "assets/models/praise-cymbals.glb",
+      "title": "The Praise Cymbals of Psalm 150 †",
+      "district": "District XVI · Everything That Has Breath (No. 44 “if you’re breathing”)",
+      "paintingRef": "assets/psalms-4/web/b-016-044.jpg",
+      "targetScale": 2.5,
+      "imageTo3DTip": "† Concept-modeled in the golden-hour palette and brushwork of b-016-044.jpg — a pair of great hammered bronze sanctuary cymbals with braided leather straps on a carved praise stand (“Praise him upon the high sounding cymbals”, Psalm 150:5).",
+      "textPrompt": "Pair of great hammered ancient bronze sanctuary cymbals with central domes and braided leather straps mounted on a carved timber and limestone stand, radiant golden-hour oil-on-linen texture"
     }
   ]
 }

@@ -33,13 +33,21 @@ export class TripoRelicManager {
       'our-eyes-are-on-you': ['choir-army-trumpet'],
       'rise-up-and-build': ['trowel-and-sword'],
       'for-such-a-time-as-this': ['golden-scepter'],
-      'out-of-the-whirlwind': ['ash-heap-potsherd']
+      'out-of-the-whirlwind': ['ash-heap-potsherd'],
+      'psalms-1': ['shepherds-rod-and-staff'],
+      'psalms-2': ['davids-harp'],
+      'psalms-3': ['sparrows-nest-altar'],
+      'psalms-4': ['praise-cymbals']
     };
     this.districtHeroRelicPlacement = {
       'our-eyes-are-on-you': { id: 'choir-army-trumpet', paintingNum: 25, scale: 1.0, yOffset: 0.24 },
       'rise-up-and-build': { id: 'trowel-and-sword', paintingNum: 29, scale: 1.0, yOffset: 0.24 },
       'for-such-a-time-as-this': { id: 'golden-scepter', paintingNum: 18, scale: 1.0, yOffset: 0.34, royalCushion: true },
-      'out-of-the-whirlwind': { id: 'ash-heap-potsherd', paintingNum: 4, scale: 1.0, yOffset: 0.24 }
+      'out-of-the-whirlwind': { id: 'ash-heap-potsherd', paintingNum: 4, scale: 1.0, yOffset: 0.24 },
+      'psalms-1': { id: 'shepherds-rod-and-staff', paintingNum: 22, scale: 1.0, yOffset: 0.24 },
+      'psalms-2': { id: 'davids-harp', paintingNum: 16, scale: 1.0, yOffset: 0.24 },
+      'psalms-3': { id: 'sparrows-nest-altar', paintingNum: 12, scale: 1.0, yOffset: 0.24 },
+      'psalms-4': { id: 'praise-cymbals', paintingNum: 44, scale: 1.0, yOffset: 0.24 }
     };
     this.namedSceneRelicMap = {
       'genesis-4': 'sabbath-olive-tree',

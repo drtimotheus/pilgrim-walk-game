@@ -724,11 +724,20 @@ export class DailyWalkManager {
     if (btnEl) btnEl.textContent = lbl;
   }
 
+  syncVoiceVolume() {
+    if (this.activeAudioEl && this.app.audio && typeof this.app.audio.getEffectiveVoiceVolume === 'function') {
+      this.activeAudioEl.volume = this.app.audio.getEffectiveVoiceVolume();
+    }
+  }
+
   async playAudioBlob(blobOrUrl, btnEl, defaultLabel) {
     const lbl = defaultLabel || this.getListenBtnLabel();
     this.stopActiveVoice(btnEl, lbl);
     const url = typeof blobOrUrl === 'string' ? blobOrUrl : URL.createObjectURL(blobOrUrl);
     const audio = new Audio(url);
+    if (this.app.audio && typeof this.app.audio.getEffectiveVoiceVolume === 'function') {
+      audio.volume = this.app.audio.getEffectiveVoiceVolume();
+    }
     this.activeAudioEl = audio;
     this.isSpeaking = true;
     if (this.app.audio && this.app.audio.setVoiceDucking) {
@@ -777,6 +786,9 @@ export class DailyWalkManager {
       if (targetVoice) utter.voice = targetVoice;
       utter.rate = zh ? 0.92 : 0.86;
       utter.pitch = 0.96;
+      if (this.app.audio && typeof this.app.audio.getEffectiveVoiceVolume === 'function') {
+        utter.volume = this.app.audio.getEffectiveVoiceVolume();
+      }
       utter.onend = () => {
         this.stopActiveVoice(btnEl, lbl);
       };

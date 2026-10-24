@@ -67,6 +67,12 @@ export class PilgrimAudio {
     this.musicBusGain = null;
     this.lastChimeTime = 0;
 
+    // Master, Music & Voice Volume Controls (0.0 .. 1.0, persisted in saveData)
+    this.masterVolume = 1.0;
+    this.musicVolume = 1.0;
+    this.voiceVolume = 1.0;
+    this.onVolumeChange = null;
+
     // Background Music State
     this.baseMusicVolume = 0.26;
     this.duckedMusicVolume = 0.035; // Whisper-quiet (3.5%) when Selene is reading aloud
@@ -105,12 +111,12 @@ export class PilgrimAudio {
     if (!AudioCtx) return;
     this.ctx = new AudioCtx();
     this.masterGain = this.ctx.createGain();
-    this.masterGain.gain.value = this.muted ? 0.0 : 0.22;
+    this.masterGain.gain.value = this.getEffectiveMasterGain();
     this.masterGain.connect(this.ctx.destination);
 
     // Dedicated Web Audio bus for background MP3 music so volume & ducking work even on iOS Safari
     this.musicBusGain = this.ctx.createGain();
-    this.musicBusGain.gain.value = this.muted ? 0.0 : (this.voiceDucked ? 0.14 : 1.0);
+    this.musicBusGain.gain.value = this.getEffectiveMusicBusGain();
     this.musicBusGain.connect(this.ctx.destination);
 
     // Attach existing currentAudio to Web Audio bus if it was created before init()
@@ -165,9 +171,60 @@ export class PilgrimAudio {
     }
   }
 
+  getEffectiveMasterGain() {
+    if (this.muted) return 0.0;
+    return 0.22 * this.masterVolume;
+  }
+
+  getEffectiveMusicBusGain() {
+    if (this.muted) return 0.0;
+    const duckFactor = this.voiceDucked ? 0.14 : 1.0;
+    return duckFactor * this.masterVolume * this.musicVolume;
+  }
+
+  getEffectiveVoiceVolume() {
+    if (this.muted) return 0.0;
+    return Math.max(0.0, Math.min(1.0, this.masterVolume * this.voiceVolume));
+  }
+
   getTargetMusicVolume() {
     if (this.muted) return 0.0;
-    return this.voiceDucked ? this.duckedMusicVolume : this.baseMusicVolume;
+    const base = this.voiceDucked ? this.duckedMusicVolume : this.baseMusicVolume;
+    return Math.max(0.0, Math.min(1.0, base * this.masterVolume * this.musicVolume));
+  }
+
+  setVolumes({ master, music, voice, muted } = {}) {
+    if (typeof master === 'number' && !Number.isNaN(master)) {
+      this.masterVolume = Math.max(0.0, Math.min(1.0, master));
+    }
+    if (typeof music === 'number' && !Number.isNaN(music)) {
+      this.musicVolume = Math.max(0.0, Math.min(1.0, music));
+    }
+    if (typeof voice === 'number' && !Number.isNaN(voice)) {
+      this.voiceVolume = Math.max(0.0, Math.min(1.0, voice));
+    }
+    if (typeof muted === 'boolean') {
+      this.muted = muted;
+    }
+    this.applyVolumeState();
+  }
+
+  applyVolumeState() {
+    if (this.masterGain && this.ctx) {
+      this.masterGain.gain.setTargetAtTime(this.getEffectiveMasterGain(), this.ctx.currentTime, 0.08);
+    }
+    if (this.musicBusGain && this.ctx) {
+      this.musicBusGain.gain.setTargetAtTime(this.getEffectiveMusicBusGain(), this.ctx.currentTime, 0.08);
+    }
+    if (this.currentAudio) {
+      this.currentAudio.volume = this.getTargetMusicVolume();
+      if (!this.muted && this.masterVolume > 0 && this.musicVolume > 0 && this.currentAudio.paused && !this.voiceDucked) {
+        this.currentAudio.play().catch(() => {});
+      }
+    }
+    if (typeof this.onVolumeChange === 'function') {
+      this.onVolumeChange(this);
+    }
   }
 
   setVoiceDucking(ducked) {
@@ -196,8 +253,7 @@ export class PilgrimAudio {
       }
     }
     if (this.musicBusGain && this.ctx) {
-      const targetBus = this.muted ? 0.0 : (this.voiceDucked ? 0.08 : 1.0);
-      this.musicBusGain.gain.setTargetAtTime(targetBus, this.ctx.currentTime, 0.10);
+      this.musicBusGain.gain.setTargetAtTime(this.getEffectiveMusicBusGain(), this.ctx.currentTime, 0.10);
     }
     if (this.windGain && this.ctx) {
       const targetWind = this.voiceDucked ? 0.002 : 0.07;
@@ -206,20 +262,8 @@ export class PilgrimAudio {
   }
 
   setMuted(muted) {
-    this.muted = muted;
-    if (this.masterGain && this.ctx) {
-      this.masterGain.gain.setTargetAtTime(muted ? 0.0 : 0.22, this.ctx.currentTime, 0.15);
-    }
-    if (this.musicBusGain && this.ctx) {
-      const targetBus = muted ? 0.0 : (this.voiceDucked ? 0.14 : 1.0);
-      this.musicBusGain.gain.setTargetAtTime(targetBus, this.ctx.currentTime, 0.15);
-    }
-    if (this.currentAudio) {
-      this.currentAudio.volume = this.getTargetMusicVolume();
-      if (!muted && this.currentAudio.paused) {
-        this.currentAudio.play().catch(() => {});
-      }
-    }
+    this.muted = !!muted;
+    this.applyVolumeState();
   }
 
   getStreetCandidates(slug) {

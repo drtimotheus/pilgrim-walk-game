@@ -16,9 +16,9 @@ import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v
 import { PainterlyPropBuilder } from './props.js?v=44_27';
 import { StepThroughSceneManager } from './scenes.js?v=44_27';
 import { GenesisDistrictBuilder } from './district.js?v=44_27';
-import { PilgrimAudio } from './audio.js?v=44_12';
+import { PilgrimAudio } from './audio.js?v=44_28';
 import { TripoRelicManager } from './tripo.js?v=44_21';
-import { DailyWalkManager } from './daily-walk.js?v=44_12';
+import { DailyWalkManager } from './daily-walk.js?v=44_28';
 import { formatZh } from './zh-convert.js?v=44_12';
 
 const SAVE_KEY = 'pilgrim_walk_save_v1';
@@ -228,6 +228,17 @@ class PilgrimWalkApp {
     });
 
     this.audio = new PilgrimAudio();
+    this.audio.setVolumes({
+      master: this.saveData.masterVolume,
+      music: this.saveData.musicVolume,
+      voice: this.saveData.voiceVolume,
+      muted: this.saveData.audioMuted
+    });
+    this.audio.onVolumeChange = () => {
+      if (this.dailyWalk && typeof this.dailyWalk.syncVoiceVolume === 'function') {
+        this.dailyWalk.syncVoiceVolume();
+      }
+    };
     this.clock = new THREE.Clock();
 
     this.initRenderer();
@@ -235,55 +246,54 @@ class PilgrimWalkApp {
     this.bootstrap();
   }
 
+  normalizeSaveData(parsed = {}) {
+    const src = parsed && typeof parsed === 'object' ? parsed : {};
+    const clamp01 = (v, def = 1.0) =>
+      typeof v === 'number' && !Number.isNaN(v) ? Math.max(0.0, Math.min(1.0, v)) : def;
+    const dw = src.dailyWalk && typeof src.dailyWalk === 'object' ? src.dailyWalk : {};
+    return {
+      currentDistrictSlug: typeof src.currentDistrictSlug === 'string' && src.currentDistrictSlug
+        ? src.currentDistrictSlug
+        : 'genesis',
+      lightsKindled: Array.isArray(src.lightsKindled) ? [...new Set(src.lightsKindled)] : [],
+      paintingsSeen: Array.isArray(src.paintingsSeen) ? [...new Set(src.paintingsSeen)] : [],
+      scenesVisited: Array.isArray(src.scenesVisited) ? [...new Set(src.scenesVisited)] : [],
+      districtsCompleted: Array.isArray(src.districtsCompleted) ? [...new Set(src.districtsCompleted)] : [],
+      walkMode: ['STORY', 'FREE', 'DAILY'].includes(src.walkMode) ? src.walkMode : 'STORY',
+      lang: ['en', 'zh', 'zh-TW'].includes(src.lang) ? src.lang : 'en',
+      graphicsQuality: ['balanced', 'eco', 'high'].includes(src.graphicsQuality)
+        ? src.graphicsQuality
+        : null,
+      graphicsQualityUserSet: !!src.graphicsQualityUserSet,
+      reducedMotion: !!src.reducedMotion,
+      largeText: !!src.largeText,
+      audioMuted: typeof src.audioMuted === 'boolean' ? src.audioMuted : false,
+      masterVolume: clamp01(src.masterVolume, 1.0),
+      musicVolume: clamp01(src.musicVolume, 1.0),
+      voiceVolume: clamp01(src.voiceVolume, 1.0),
+      dailyWalk: {
+        currentDay:
+          typeof dw.currentDay === 'number' && !Number.isNaN(dw.currentDay)
+            ? Math.max(1, Math.min(1633, Math.floor(dw.currentDay)))
+            : 1,
+        completedDays: Array.isArray(dw.completedDays) ? [...new Set(dw.completedDays)] : [],
+        journalNotes: dw.journalNotes && typeof dw.journalNotes === 'object' ? { ...dw.journalNotes } : {},
+        lastWalkedDate: typeof dw.lastWalkedDate === 'string' ? dw.lastWalkedDate : null
+      }
+    };
+  }
+
   loadSaveData() {
     try {
       const raw = localStorage.getItem(SAVE_KEY);
       if (raw) {
         const parsed = JSON.parse(raw);
-        return {
-          currentDistrictSlug: parsed.currentDistrictSlug || 'genesis',
-          lightsKindled: parsed.lightsKindled || [],
-          paintingsSeen: parsed.paintingsSeen || [],
-          scenesVisited: parsed.scenesVisited || [],
-          districtsCompleted: parsed.districtsCompleted || [],
-          walkMode: parsed.walkMode || 'STORY',
-          lang: parsed.lang || 'en',
-          graphicsQuality: ['balanced', 'eco', 'high'].includes(parsed.graphicsQuality)
-            ? parsed.graphicsQuality
-            : null,
-          graphicsQualityUserSet: !!parsed.graphicsQualityUserSet,
-          reducedMotion: !!parsed.reducedMotion,
-          largeText: !!parsed.largeText,
-          dailyWalk: parsed.dailyWalk || {
-            currentDay: 1,
-            completedDays: [],
-            journalNotes: {},
-            lastWalkedDate: null
-          }
-        };
+        return this.normalizeSaveData(parsed);
       }
     } catch (e) {
       console.warn('localStorage load fallback', e);
     }
-    return {
-      currentDistrictSlug: 'genesis',
-      lightsKindled: [],
-      paintingsSeen: [],
-      scenesVisited: [],
-      districtsCompleted: [],
-      walkMode: 'STORY',
-      lang: 'en',
-      graphicsQuality: null,
-      graphicsQualityUserSet: false,
-      reducedMotion: false,
-      largeText: false,
-      dailyWalk: {
-        currentDay: 1,
-        completedDays: [],
-        journalNotes: {},
-        lastWalkedDate: null
-      }
-    };
+    return this.normalizeSaveData({});
   }
 
   persistSaveData() {
@@ -293,6 +303,7 @@ class PilgrimWalkApp {
       console.warn('localStorage write fallback', e);
     }
     this.updateHUDProgress();
+    this.refreshProgressCodeUI();
   }
 
   detectDefaultGraphicsQuality() {
@@ -1612,9 +1623,63 @@ class PilgrimWalkApp {
 
     document.getElementById('btn-audio-toggle').addEventListener('click', () => {
       this.audio.init();
-      this.audio.setMuted(!this.audio.muted);
-      document.getElementById('btn-audio-toggle').textContent = this.audio.muted ? 'Sound: Off' : 'Sound: On';
+      const nextMuted = !this.audio.muted;
+      this.audio.setMuted(nextMuted);
+      this.saveData.audioMuted = nextMuted;
+      this.syncAudioUI();
+      this.persistSaveData();
     });
+
+    const bindVolumeSlider = (sliderId, key, audioProp) => {
+      const slider = document.getElementById(sliderId);
+      if (!slider) return;
+      const onInput = () => {
+        this.audio.init();
+        const pct = Math.max(0, Math.min(100, parseInt(slider.value, 10) || 0));
+        const val01 = pct / 100;
+        this.saveData[key] = val01;
+        const updatePayload = { [audioProp]: val01 };
+        // If user drags a slider above 0 while muted, automatically unmute so sound plays immediately
+        if (val01 > 0 && this.audio.muted) {
+          this.saveData.audioMuted = false;
+          updatePayload.muted = false;
+        }
+        this.audio.setVolumes(updatePayload);
+        this.syncAudioUI();
+        this.persistSaveData();
+      };
+      slider.addEventListener('input', onInput);
+      slider.addEventListener('change', onInput);
+    };
+
+    bindVolumeSlider('slider-master-vol', 'masterVolume', 'master');
+    bindVolumeSlider('slider-music-vol', 'musicVolume', 'music');
+    bindVolumeSlider('slider-voice-vol', 'voiceVolume', 'voice');
+
+    // Progress Export / Import controls in Intro / Gatehouse Modal
+    const copyProgressBtn = document.getElementById('gh-btn-copy-progress');
+    if (copyProgressBtn) {
+      copyProgressBtn.addEventListener('click', () => this.copyProgressCode());
+    }
+    const progressOutEl = document.getElementById('gh-progress-code-output');
+    if (progressOutEl) {
+      progressOutEl.addEventListener('click', () => {
+        progressOutEl.select();
+      });
+    }
+    const restoreProgressBtn = document.getElementById('gh-btn-restore-progress');
+    const restoreProgressInput = document.getElementById('gh-progress-code-input');
+    if (restoreProgressBtn && restoreProgressInput) {
+      restoreProgressBtn.addEventListener('click', () => {
+        this.restoreProgressFromCode(restoreProgressInput.value);
+      });
+      restoreProgressInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          this.restoreProgressFromCode(restoreProgressInput.value);
+        }
+      });
+    }
 
     const btnGraphics = document.getElementById('btn-graphics-quality');
     if (btnGraphics) {
@@ -1745,6 +1810,7 @@ class PilgrimWalkApp {
     if (tBtn) tBtn.textContent = zh ? this.zh(this.largeText ? '字号：大字' : '字号：标准') : (this.largeText ? 'Text: Large' : 'Text: Standard');
     const aBtn = document.getElementById('btn-audio-toggle');
     if (aBtn) aBtn.textContent = zh ? this.zh(this.audio.muted ? '音效：关' : '音效：开') : (this.audio.muted ? 'Sound: Off' : 'Sound: On');
+    this.syncAudioUI();
     const wBtn = document.getElementById('btn-mode-toggle');
     if (wBtn) {
       wBtn.textContent =
@@ -1754,6 +1820,245 @@ class PilgrimWalkApp {
           ? (zh ? this.zh('模式：自由漫步') : 'Mode: Free Walk')
           : (zh ? this.zh('模式：每日灵修 🕯') : 'Mode: Daily Walk 🕯');
     }
+  }
+
+  syncAudioUI() {
+    const zh = this.isZh();
+    const aBtn = document.getElementById('btn-audio-toggle');
+    if (aBtn) {
+      aBtn.textContent = zh
+        ? this.zh(this.audio.muted ? '音效：关' : '音效：开')
+        : (this.audio.muted ? 'Sound: Off' : 'Sound: On');
+    }
+    const lblMaster = document.getElementById('lbl-master-vol');
+    const lblMusic = document.getElementById('lbl-music-vol');
+    const lblVoice = document.getElementById('lbl-voice-vol');
+    if (lblMaster) lblMaster.textContent = zh ? this.zh('总音量') : 'Vol';
+    if (lblMusic) lblMusic.textContent = zh ? this.zh('配乐') : 'Music';
+    if (lblVoice) lblVoice.textContent = zh ? this.zh('朗读') : 'Voice';
+
+    const masterPct = Math.round((this.audio.masterVolume ?? 1) * 100);
+    const musicPct = Math.round((this.audio.musicVolume ?? 1) * 100);
+    const voicePct = Math.round((this.audio.voiceVolume ?? 1) * 100);
+
+    const sMaster = document.getElementById('slider-master-vol');
+    const sMusic = document.getElementById('slider-music-vol');
+    const sVoice = document.getElementById('slider-voice-vol');
+    if (sMaster && document.activeElement !== sMaster) sMaster.value = String(masterPct);
+    if (sMusic && document.activeElement !== sMusic) sMusic.value = String(musicPct);
+    if (sVoice && document.activeElement !== sVoice) sVoice.value = String(voicePct);
+
+    const vMaster = document.getElementById('val-master-vol');
+    const vMusic = document.getElementById('val-music-vol');
+    const vVoice = document.getElementById('val-voice-vol');
+    if (vMaster) vMaster.textContent = `${masterPct}%`;
+    if (vMusic) vMusic.textContent = `${musicPct}%`;
+    if (vVoice) vVoice.textContent = `${voicePct}%`;
+  }
+
+  encodeProgressCode() {
+    const payload = {
+      v: 1,
+      key: SAVE_KEY,
+      exportedAt: new Date().toISOString(),
+      data: this.saveData
+    };
+    const jsonStr = JSON.stringify(payload);
+    const bytes = new TextEncoder().encode(jsonStr);
+    let bin = '';
+    for (let i = 0; i < bytes.length; i++) {
+      bin += String.fromCharCode(bytes[i]);
+    }
+    const b64url = btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    return `PW1-${b64url}`;
+  }
+
+  decodeProgressCode(rawText) {
+    if (typeof rawText !== 'string') {
+      throw new Error('Empty progress code');
+    }
+    const cleaned = rawText.trim().replace(/^["'`]+|["'`]+$/g, '').trim();
+    if (!cleaned) {
+      throw new Error('Empty progress code');
+    }
+
+    let parsedObj = null;
+    if (cleaned.startsWith('{')) {
+      parsedObj = JSON.parse(cleaned);
+    } else {
+      const match = cleaned.match(/^PW(\d+)[-.:](.+)$/i);
+      if (!match) {
+        throw new Error('Unrecognized progress code prefix (expected PW1-...)');
+      }
+      const version = parseInt(match[1], 10);
+      if (version !== 1) {
+        throw new Error(`Unsupported progress code version: PW${version}`);
+      }
+      const body = match[2].replace(/\s+/g, '').replace(/-/g, '+').replace(/_/g, '/');
+      const padLen = (4 - (body.length % 4)) % 4;
+      const b64 = body + '='.repeat(padLen);
+      const bin = atob(b64);
+      const bytes = new Uint8Array(bin.length);
+      for (let i = 0; i < bin.length; i++) {
+        bytes[i] = bin.charCodeAt(i);
+      }
+      const jsonStr = new TextDecoder().decode(bytes);
+      parsedObj = JSON.parse(jsonStr);
+    }
+
+    if (!parsedObj || typeof parsedObj !== 'object') {
+      throw new Error('Invalid progress payload');
+    }
+    const saveCandidate =
+      parsedObj.v === 1 && parsedObj.data && typeof parsedObj.data === 'object'
+        ? parsedObj.data
+        : parsedObj;
+    return this.normalizeSaveData(saveCandidate);
+  }
+
+  getProgressSummaryText(save = this.saveData) {
+    const zh = this.isZh();
+    const lights = (save.lightsKindled || []).length;
+    const books = (save.districtsCompleted || []).length;
+    const poems = (save.paintingsSeen || []).length;
+    const candles = (save.dailyWalk?.completedDays || []).length;
+    const notes = Object.keys(save.dailyWalk?.journalNotes || {}).length;
+    if (zh) {
+      return this.zh(
+        `当前存档进度（v1）：已点亮 ${lights} 盏明灯 · 已完成 ${books} 卷书 · 已读 ${poems} 首诗歌 · 每日灵修已点亮 ${candles} 天烛光 · ${notes} 篇默想笔记`
+      );
+    }
+    return `Current save (v1): ${lights} Lights kindled · ${books} Books completed · ${poems} Poems read · ${candles} Daily Walk candles · ${notes} Journal notes`;
+  }
+
+  refreshProgressCodeUI(customStatusMsg = null) {
+    const zh = this.isZh();
+    const eyebrow = document.getElementById('gh-transfer-eyebrow');
+    const desc = document.getElementById('gh-transfer-desc');
+    const copyBtn = document.getElementById('gh-btn-copy-progress');
+    const restoreBtn = document.getElementById('gh-btn-restore-progress');
+    const outInput = document.getElementById('gh-progress-code-output');
+    const inInput = document.getElementById('gh-progress-code-input');
+    const statusEl = document.getElementById('gh-progress-transfer-status');
+
+    if (eyebrow) {
+      eyebrow.textContent = zh
+        ? this.zh('✦ 天路同行进度码 (PW1) · 备份与跨网址迁移')
+        : '✦ PILGRIM PROGRESS CODE · BACKUP & ADDRESS BRIDGE';
+    }
+    if (desc) {
+      desc.textContent = zh
+        ? this.zh(
+            '浏览器存档与当前网址绑定。点击下方「复制我的进度码」可保存您的全部明灯、已完成书卷、每日灵修烛光与默想笔记；若将来更换网址或设备，只需粘贴进度码即可完整恢复。'
+          )
+        : 'Saves are stored per web address. Copy your progress code below to back up your walk or carry your kindled Lights, completed Books, Daily Walk streak, and journal notes to a new web address or device.';
+    }
+    if (copyBtn) {
+      copyBtn.textContent = zh ? this.zh('📋 复制我的进度码') : '📋 Copy My Progress Code';
+    }
+    if (restoreBtn) {
+      restoreBtn.textContent = zh ? this.zh('✦ 从进度码恢复') : '✦ Restore from Code';
+    }
+    if (inInput) {
+      inInput.placeholder = zh
+        ? this.zh('在此粘贴您的 PW1-... 进度码以恢复存档…')
+        : 'Paste your PW1-... progress code here to restore…';
+    }
+    if (outInput) {
+      try {
+        outInput.value = this.encodeProgressCode();
+      } catch (_) {}
+    }
+    if (statusEl) {
+      statusEl.textContent = customStatusMsg || this.getProgressSummaryText(this.saveData);
+    }
+  }
+
+  async copyProgressCode() {
+    const zh = this.isZh();
+    const code = this.encodeProgressCode();
+    const outInput = document.getElementById('gh-progress-code-output');
+    if (outInput) {
+      outInput.value = code;
+      outInput.focus();
+      outInput.select();
+    }
+    let copied = false;
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(code);
+        copied = true;
+      }
+    } catch (_) {}
+    if (!copied && outInput) {
+      try {
+        copied = document.execCommand('copy');
+      } catch (_) {}
+    }
+    const msg = zh
+      ? this.zh(`📋 已复制您的天路进度码！(${this.getProgressSummaryText(this.saveData)})`)
+      : `📋 Copied your Pilgrim Progress Code! (${this.getProgressSummaryText(this.saveData)})`;
+    this.refreshProgressCodeUI(msg);
+    this.showToast(msg);
+  }
+
+  async restoreProgressFromCode(rawText) {
+    const zh = this.isZh();
+    let restored;
+    try {
+      restored = this.decodeProgressCode(rawText);
+    } catch (err) {
+      const errMsg = zh
+        ? this.zh('⚠ 进度码格式无效，请确认粘贴了完整的 PW1-... 进度码。')
+        : '⚠ Invalid progress code. Please paste a complete PW1-... progress code.';
+      this.refreshProgressCodeUI(errMsg);
+      this.showToast(errMsg);
+      return false;
+    }
+
+    this.saveData = restored;
+    try {
+      localStorage.setItem(SAVE_KEY, JSON.stringify(this.saveData));
+    } catch (e) {
+      console.warn('localStorage write fallback', e);
+    }
+
+    this.lang = this.saveData.lang || 'en';
+    this.walkMode = this.saveData.walkMode || 'STORY';
+    this.reducedMotion = !!this.saveData.reducedMotion;
+    this.largeText = !!this.saveData.largeText;
+    const nextGraphics = this.resolveInitialGraphicsQuality();
+    this.applyGraphicsQuality(nextGraphics);
+    this.audio.setVolumes({
+      master: this.saveData.masterVolume,
+      music: this.saveData.musicVolume,
+      voice: this.saveData.voiceVolume,
+      muted: this.saveData.audioMuted
+    });
+    this.applyAccessibilitySettings();
+
+    if (this.dailyWalk) {
+      const dw = this.saveData.dailyWalk || {};
+      this.dailyWalk.currentDay = dw.currentDay || 1;
+      await this.dailyWalk.loadDayEntry(this.dailyWalk.currentDay);
+      this.dailyWalk.updateHUDCandlePill();
+    }
+
+    const targetSlug = this.districtMeta[this.saveData.currentDistrictSlug]
+      ? this.saveData.currentDistrictSlug
+      : 'genesis';
+    await this.switchDistrict(targetSlug, true);
+
+    const inInput = document.getElementById('gh-progress-code-input');
+    if (inInput) inInput.value = '';
+
+    const okMsg = zh
+      ? this.zh(`✦ 已成功从进度码恢复存档！${this.getProgressSummaryText(this.saveData)}`)
+      : `✦ Progress restored from code! ${this.getProgressSummaryText(this.saveData)}`;
+    this.populateModals('gatehouse-modal');
+    this.refreshProgressCodeUI(okMsg);
+    this.showToast(okMsg);
+    return true;
   }
 
   isAnyModalOpen() {
@@ -1817,6 +2122,7 @@ class PilgrimWalkApp {
     if (ghBody) {
       ghBody.textContent = zh && this.manifest.zh_beforeYouBegin ? this.zh(this.manifest.zh_beforeYouBegin) : this.manifest.beforeYouBegin;
     }
+    this.refreshProgressCodeUI();
 
     // 1. Long Scroll Modal (rendered when opened so other districts' covers are not eagerly fetched on initial boot)
     const routeSlugMap = this.getRouteSlugMap();

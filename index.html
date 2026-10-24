@@ -185,6 +185,103 @@
       color: var(--gold-bright);
     }
 
+    /* HUD Volume Sliders Pill (next to Sound toggle) */
+    .hud-volume-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 5px 12px;
+      cursor: default;
+      flex-wrap: wrap;
+    }
+    .hud-vol-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.78rem;
+      color: var(--text-cream);
+      white-space: nowrap;
+    }
+    .hud-vol-group label {
+      cursor: pointer;
+      color: var(--gold-bright);
+      font-weight: 600;
+    }
+    .hud-vol-slider {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 58px;
+      height: 5px;
+      border-radius: 999px;
+      background: rgba(219, 184, 123, 0.28);
+      outline: none;
+      cursor: pointer;
+    }
+    .hud-vol-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: var(--gold-bright);
+      border: 1.5px solid #2b2219;
+      box-shadow: 0 0 6px rgba(245, 215, 156, 0.7);
+      cursor: pointer;
+    }
+    .hud-vol-slider::-moz-range-thumb {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: var(--gold-bright);
+      border: 1.5px solid #2b2219;
+      box-shadow: 0 0 6px rgba(245, 215, 156, 0.7);
+      cursor: pointer;
+    }
+    .hud-vol-pct {
+      min-width: 31px;
+      font-size: 0.73rem;
+      color: rgba(247, 238, 220, 0.85);
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+    .hud-vol-sep {
+      color: rgba(219, 184, 123, 0.45);
+      font-size: 0.75rem;
+      user-select: none;
+    }
+
+    /* Progress Export / Import Card in Intro / Gatehouse Modal */
+    .progress-transfer-card {
+      margin-top: 18px;
+      padding: 16px 18px;
+      background: rgba(43, 34, 25, 0.08);
+      border: 1.5px solid #b89458;
+      border-radius: 12px;
+    }
+    .progress-transfer-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+    .progress-code-field {
+      flex: 1 1 260px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.82rem;
+      padding: 8px 11px;
+      border-radius: 8px;
+      border: 1.5px solid #8c6d3f;
+      background: #fffaf0;
+      color: #241d15;
+    }
+    .progress-transfer-status {
+      margin-top: 8px;
+      font-size: 0.85rem;
+      color: #5b4629;
+      font-style: italic;
+    }
+
     #all-44-ribbon {
       width: 100%;
       display: flex;
@@ -926,6 +1023,25 @@
       <span id="hud-paintings-count" class="hud-pill hud-stat hud-collapsible">0 / 40 Poems</span>
       <button id="btn-mode-toggle" class="hud-pill hud-collapsible">Mode: Story Walk</button>
       <button id="btn-audio-toggle" class="hud-pill hud-collapsible">Sound: On</button>
+      <div id="hud-volume-pill" class="hud-pill hud-collapsible hud-volume-pill" role="group" aria-label="Volume Controls">
+        <span class="hud-vol-group" title="Master Volume (All Sound)">
+          <label id="lbl-master-vol" for="slider-master-vol">Vol</label>
+          <input id="slider-master-vol" class="hud-vol-slider" type="range" min="0" max="100" step="1" value="100" aria-label="Master Volume" />
+          <span id="val-master-vol" class="hud-vol-pct">100%</span>
+        </span>
+        <span class="hud-vol-sep">·</span>
+        <span class="hud-vol-group" title="Background Music Volume">
+          <label id="lbl-music-vol" for="slider-music-vol">Music</label>
+          <input id="slider-music-vol" class="hud-vol-slider" type="range" min="0" max="100" step="1" value="100" aria-label="Music Volume" />
+          <span id="val-music-vol" class="hud-vol-pct">100%</span>
+        </span>
+        <span class="hud-vol-sep">·</span>
+        <span class="hud-vol-group" title="Selene Narration Volume">
+          <label id="lbl-voice-vol" for="slider-voice-vol">Voice</label>
+          <input id="slider-voice-vol" class="hud-vol-slider" type="range" min="0" max="100" step="1" value="100" aria-label="Narration Volume" />
+          <span id="val-voice-vol" class="hud-vol-pct">100%</span>
+        </span>
+      </div>
       <button id="btn-graphics-quality" class="hud-pill hud-collapsible" title="Graphics Quality: Balanced / Eco / High Quality">⚡ Graphics: Balanced</button>
       <button id="btn-a11y-motion" class="hud-pill hud-collapsible">Motion: Standard</button>
       <button id="btn-a11y-text" class="hud-pill hud-collapsible">Text: Standard</button>
@@ -1011,6 +1127,23 @@
       <div id="gatehouse-all-44-buttons" style="display:flex;gap:8px;flex-wrap:wrap;max-height:260px;overflow-y:auto;padding:8px 0;">
         <button id="gatehouse-btn-courtyard" class="gold-btn">⛩ Walk 3D Gatehouse (44 Gates)</button>
         <button class="gold-btn" data-close-modal>Resume Current Walk</button>
+      </div>
+
+      <!-- Progress Export / Import (Bridge across web addresses & browsers) -->
+      <div id="gatehouse-progress-transfer" class="progress-transfer-card">
+        <div id="gh-transfer-eyebrow" class="poem-eyebrow" style="margin-bottom:4px;">✦ PILGRIM PROGRESS CODE · BACKUP &amp; ADDRESS BRIDGE</div>
+        <div id="gh-transfer-desc" style="font-size:0.9rem;line-height:1.5;color:#3a2e21;">
+          Saves are stored per web address. Copy your progress code below to back up your walk or carry your kindled Lights, completed Books, Daily Walk streak, and journal notes to a new web address or device.
+        </div>
+        <div class="progress-transfer-row">
+          <input id="gh-progress-code-output" class="progress-code-field" type="text" readonly aria-label="Your Pilgrim Progress Code" value="" />
+          <button id="gh-btn-copy-progress" class="gold-btn" type="button" style="padding:8px 16px;font-size:0.88rem;">📋 Copy My Progress Code</button>
+        </div>
+        <div class="progress-transfer-row">
+          <input id="gh-progress-code-input" class="progress-code-field" type="text" aria-label="Paste Progress Code to Restore" placeholder="Paste your PW1-... progress code here to restore…" />
+          <button id="gh-btn-restore-progress" class="gold-btn" type="button" style="padding:8px 16px;font-size:0.88rem;">✦ Restore from Code</button>
+        </div>
+        <div id="gh-progress-transfer-status" class="progress-transfer-status"></div>
       </div>
     </div>
   </div>
@@ -1133,6 +1266,6 @@
     </div>
   </div>
 
-  <script type="module" src="src/main.js?v=44_27"></script>
+  <script type="module" src="src/main.js?v=44_28"></script>
 </body>
 </html>

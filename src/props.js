@@ -7138,4 +7138,608 @@ export class PainterlyPropBuilder {
 
     return group;
   }
+
+  // =========================================================================
+  // DISTRICT XVI (EVERYTHING THAT HAS BREATH — PSALMS 107–150) BESPOKE PROPS
+  // Crafted directly from Timothy's paintings for Book 16 (Psalms Book Five):
+  //   - #1 "say so" (Psalm 107:23–30, b-016-001.jpg): Sunlit stone harbor terrace
+  //     with wooden sailing ship & square sail gliding into the calm Desired Haven,
+  //     striped cloth on a low stone bench, basket of olives, clay amphorae, and
+  //     circular grain sieve tray on a stone pedestal.
+  //   - #13 "come find me" (Psalm 119:105–176, b-016-013.jpg): Nocturnal stone-walled
+  //     hillside path with a glowing terracotta oil lamp on a flat stone ("a lamp
+  //     to my feet") and a lone white-fleeced sheep looking back up the path.
+  //   - #20 "sow in tears" (Psalm 126:1–6, b-016-020.jpg): Dark rain-furrowed
+  //     plowed earth on the left with a sower's seed bag & scattered grain seeds,
+  //     and 6 bound golden wheat sheaves standing in the sunlight on the right.
+  //   - #44 "if you're breathing" (Psalm 150:1–6, b-016-044.jpg) & #43 "needs your
+  //     feet" (Psalm 149:3–4, b-016-043.jpg): Sunlit stone rooftop & circular praise
+  //     courtyard dressed with the instruments of Psalm 149–150 — carved 10-string
+  //     harp/lyre, brass-jingle tambourine/timbrel, curved trumpet/horn, clashing
+  //     bronze cymbals, scattered white & rose praise petals, and woven baskets.
+  // =========================================================================
+
+  // Painting #1: "say so" (Psalm 107:23–30) — Desired Haven Ship & Harbor Terrace
+  createPsalm107HavenShipTerraceEnsemble(propTex, pal, includeShip = true) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = new THREE.MeshStandardMaterial({
+      color: 0xa89272,
+      map: propTex || null,
+      roughness: 0.88
+    });
+    const hullMat = new THREE.MeshStandardMaterial({
+      color: 0x5c3a20,
+      map: propTex || null,
+      roughness: 0.85
+    });
+    const sailMat = new THREE.MeshStandardMaterial({
+      color: 0xf4ead2,
+      map: propTex || null,
+      roughness: 0.78,
+      emissive: 0xffe098,
+      emissiveIntensity: 0.16,
+      side: THREE.DoubleSide
+    });
+    const clayMat = new THREE.MeshStandardMaterial({
+      color: 0x9c6238,
+      map: propTex || null,
+      roughness: 0.84
+    });
+    const clothMat = new THREE.MeshStandardMaterial({
+      color: 0xd8c49e,
+      map: propTex || null,
+      roughness: 0.82
+    });
+    const stripeMat = new THREE.MeshStandardMaterial({
+      color: 0x3b4d5e,
+      roughness: 0.82
+    });
+
+    // 1. Left Harbor Terrace Wall, Low Bench, Striped Cloth, Basket of Olives & Amphorae
+    const leftTerrace = new THREE.Group();
+    leftTerrace.position.set(-1.35, 0.02, 0.25);
+    leftTerrace.userData.keepWithGlb = true;
+
+    const benchSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.75, 0.56, 0.88, 6, 3, 4), 0.022, 3.2),
+      stoneMat
+    );
+    benchSlab.position.y = 0.28;
+    leftTerrace.add(benchSlab);
+
+    const stripedCloth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.96, 0.06, 0.78, 5, 2, 4), 0.012, 4.0),
+      clothMat
+    );
+    stripedCloth.position.set(-0.22, 0.58, 0.04);
+    leftTerrace.add(stripedCloth);
+
+    for (const sx of [-0.46, 0.02]) {
+      const stripe = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.065, 0.79), stripeMat);
+      stripe.position.set(sx, 0.582, 0.04);
+      leftTerrace.add(stripe);
+    }
+
+    const oliveBasket = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.20, 0.26, 16), clayMat);
+    oliveBasket.position.set(0.42, 0.68, 0.02);
+    leftTerrace.add(oliveBasket);
+
+    const amphora = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.22, 0.68, 16), clayMat);
+    amphora.position.set(-0.98, 0.34, 0.35);
+    amphora.rotation.z = 0.14;
+    leftTerrace.add(amphora);
+
+    group.add(leftTerrace);
+
+    // 2. Right Stone Block & Circular Winnowing Sieve Tray (exact match to painting #1 lower right)
+    const rightBlockGroup = new THREE.Group();
+    rightBlockGroup.position.set(1.42, 0.02, 0.35);
+    rightBlockGroup.userData.keepWithGlb = true;
+
+    const stonePedestal = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.18, 0.64, 0.96, 5, 3, 5), 0.022, 3.0),
+      stoneMat
+    );
+    stonePedestal.position.y = 0.32;
+    rightBlockGroup.add(stonePedestal);
+
+    const sieveTray = new THREE.Mesh(new THREE.CylinderGeometry(0.46, 0.42, 0.10, 22), clayMat);
+    sieveTray.position.set(0, 0.69, 0.02);
+    rightBlockGroup.add(sieveTray);
+
+    group.add(rightBlockGroup);
+
+    // 3. Wooden Sailing Ship with Mast & Square Sail in the Calm Harbor (exact match to painting #1 center-left bay)
+    if (includeShip) {
+      const shipGroup = new THREE.Group();
+      shipGroup.position.set(-0.45, 0.08, -2.65);
+      shipGroup.rotation.y = 0.28;
+      shipGroup.userData.keepWithGlb = true;
+
+      const hull = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(2.35, 0.52, 0.78, 8, 3, 4), 0.025, 2.8),
+        hullMat
+      );
+      hull.position.y = 0.26;
+      shipGroup.add(hull);
+
+      const prow = new THREE.Mesh(new THREE.ConeGeometry(0.38, 0.78, 8), hullMat);
+      prow.rotation.z = -Math.PI / 2 + 0.25;
+      prow.position.set(1.38, 0.38, 0);
+      shipGroup.add(prow);
+
+      const stern = new THREE.Mesh(new THREE.ConeGeometry(0.36, 0.68, 8), hullMat);
+      stern.rotation.z = Math.PI / 2 - 0.25;
+      stern.position.set(-1.32, 0.38, 0);
+      shipGroup.add(stern);
+
+      const mast = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.075, 2.65, 12), hullMat);
+      mast.position.set(0.05, 1.52, 0);
+      shipGroup.add(mast);
+
+      const yardarm = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.04, 1.85, 10), hullMat);
+      yardarm.rotation.x = Math.PI / 2;
+      yardarm.position.set(0.05, 2.38, 0);
+      shipGroup.add(yardarm);
+
+      const squareSail = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.14, 1.48, 1.68, 3, 6, 8), 0.035, 2.5),
+        sailMat
+      );
+      squareSail.position.set(0.16, 1.62, 0);
+      shipGroup.add(squareSail);
+
+      group.add(shipGroup);
+    }
+
+    return group;
+  }
+
+  // Painting #13: "come find me" (Psalm 119:105–176) — Terracotta Lamp to My Feet & Lost Sheep on the Path
+  createPsalm119LampAndLostSheepEnsemble(propTex, pal) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = new THREE.MeshStandardMaterial({
+      color: 0x6e5e4c,
+      map: propTex || null,
+      roughness: 0.90
+    });
+    const lampClayMat = new THREE.MeshStandardMaterial({
+      color: 0xb86832,
+      map: propTex || null,
+      roughness: 0.78,
+      emissive: 0x4a2008,
+      emissiveIntensity: 0.24
+    });
+    const flameMat = new THREE.MeshStandardMaterial({
+      color: 0xfff2b2,
+      emissive: 0xffaa28,
+      emissiveIntensity: 1.75,
+      roughness: 0.18
+    });
+    const fleeceMat = new THREE.MeshStandardMaterial({
+      color: 0xf4eee0,
+      map: propTex || null,
+      roughness: 0.85,
+      emissive: 0xffe2a0,
+      emissiveIntensity: 0.15
+    });
+    const legMat = new THREE.MeshStandardMaterial({
+      color: 0x3e3228,
+      roughness: 0.88
+    });
+
+    // 1. Right Foreground Flat Path Stone & Glowing Terracotta Oil Lamp ("Your word is a lamp to my feet")
+    const lampStoneGroup = new THREE.Group();
+    lampStoneGroup.position.set(0.88, 0.02, 0.55);
+    lampStoneGroup.userData.keepWithGlb = true;
+
+    const flatStone = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.72, 0.84, 0.34, 16, 2), 0.028, 3.2),
+      stoneMat
+    );
+    flatStone.position.y = 0.17;
+    lampStoneGroup.add(flatStone);
+
+    const lampBowl = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.26, 0.18, 0.16, 18), 0.012, 4.0),
+      lampClayMat
+    );
+    lampBowl.position.set(-0.06, 0.42, 0.04);
+    lampStoneGroup.add(lampBowl);
+
+    const lampNozzle = new THREE.Mesh(new THREE.ConeGeometry(0.11, 0.24, 12), lampClayMat);
+    lampNozzle.rotation.z = Math.PI / 2 - 0.18;
+    lampNozzle.position.set(-0.26, 0.44, 0.04);
+    lampStoneGroup.add(lampNozzle);
+
+    const lampHandle = new THREE.Mesh(new THREE.TorusGeometry(0.09, 0.024, 10, 16), lampClayMat);
+    lampHandle.position.set(0.18, 0.46, 0.04);
+    lampStoneGroup.add(lampHandle);
+
+    const flame = new THREE.Mesh(new THREE.ConeGeometry(0.085, 0.28, 12), flameMat);
+    flame.position.set(-0.34, 0.60, 0.04);
+    lampStoneGroup.add(flame);
+
+    const haloMat = new THREE.MeshBasicMaterial({
+      color: 0xffbe44,
+      transparent: true,
+      opacity: 0.30,
+      depthWrite: false
+    });
+    const halo = new THREE.Mesh(new THREE.SphereGeometry(0.42, 14, 12), haloMat);
+    halo.position.set(-0.34, 0.58, 0.04);
+    lampStoneGroup.add(halo);
+
+    group.add(lampStoneGroup);
+
+    // 2. Left Dry-Stone Hillside Wall Along the Path (exact match to painting #13 left wall)
+    const wallGroup = new THREE.Group();
+    wallGroup.position.set(-1.45, 0.02, -0.35);
+    wallGroup.rotation.y = 0.26;
+    wallGroup.userData.keepWithGlb = true;
+
+    const wallMesh = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.62, 0.92, 2.85, 4, 4, 8), 0.038, 3.0),
+      stoneMat
+    );
+    wallMesh.position.y = 0.46;
+    wallGroup.add(wallMesh);
+    group.add(wallGroup);
+
+    // 3. Lone White-Fleeced Sheep Standing Further Up the Path Looking Back ("I have gone astray like a lost sheep")
+    const sheepGroup = new THREE.Group();
+    sheepGroup.position.set(-0.18, 0.02, -1.35);
+    sheepGroup.rotation.y = 0.42;
+    sheepGroup.userData.keepWithGlb = true;
+
+    const body = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.42, 16, 12), 0.025, 4.2),
+      fleeceMat
+    );
+    body.scale.set(1.38, 0.92, 0.88);
+    body.position.set(0, 0.62, 0);
+    sheepGroup.add(body);
+
+    const neck = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.19, 0.36, 12), fleeceMat);
+    neck.position.set(0.42, 0.82, 0.08);
+    neck.rotation.z = -0.35;
+    sheepGroup.add(neck);
+
+    const head = new THREE.Mesh(new THREE.SphereGeometry(0.18, 14, 12), legMat);
+    head.scale.set(1.25, 0.88, 0.82);
+    head.position.set(0.54, 0.98, 0.16);
+    head.rotation.y = 0.48; // looking back toward the lamp & pilgrim
+    sheepGroup.add(head);
+
+    const woolCrown = new THREE.Mesh(new THREE.SphereGeometry(0.14, 12, 10), fleeceMat);
+    woolCrown.position.set(0.48, 1.08, 0.14);
+    sheepGroup.add(woolCrown);
+
+    for (const [lx, lz] of [[-0.32, -0.18], [-0.32, 0.18], [0.30, -0.18], [0.30, 0.18]]) {
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.048, 0.038, 0.56, 10), legMat);
+      leg.position.set(lx, 0.28, lz);
+      sheepGroup.add(leg);
+    }
+
+    group.add(sheepGroup);
+
+    const lampLight = new THREE.PointLight(0xffb438, 1.35, 9.5);
+    lampLight.position.set(0.54, 0.72, 0.58);
+    group.add(lampLight);
+
+    return { group, lampLight, flame };
+  }
+
+  // Painting #20: "sow in tears" (Psalm 126:1–6) — Furrowed Seed Earth & Six Bound Golden Wheat Sheaves
+  createPsalm126SowInTearsSheavesEnsemble(propTex, pal) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const furrowMat = new THREE.MeshStandardMaterial({
+      color: 0x3e2d1e,
+      map: propTex || null,
+      roughness: 0.94
+    });
+    const sackMat = new THREE.MeshStandardMaterial({
+      color: 0xc8b08a,
+      map: propTex || null,
+      roughness: 0.84
+    });
+    const sheafMat = new THREE.MeshStandardMaterial({
+      color: 0xe8b844,
+      map: propTex || null,
+      roughness: 0.72,
+      emissive: 0xd8961e,
+      emissiveIntensity: 0.24
+    });
+    const cordMat = new THREE.MeshStandardMaterial({
+      color: 0x7c4e20,
+      roughness: 0.80
+    });
+    const stoneMat = new THREE.MeshStandardMaterial({
+      color: 0x8c7a62,
+      map: propTex || null,
+      roughness: 0.90
+    });
+
+    // 1. Left Rain-Furrowed Plowed Earth with Sower's Seed Bag & Golden Seeds (exact match to painting #20 left)
+    const furrowGroup = new THREE.Group();
+    furrowGroup.position.set(-1.35, 0.02, 0.15);
+    furrowGroup.userData.keepWithGlb = true;
+
+    for (let i = 0; i < 4; i++) {
+      const ridge = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.36, 0.22, 2.35, 3, 2, 8), 0.025, 3.5),
+        furrowMat
+      );
+      ridge.position.set(-0.54 + i * 0.38, 0.11, 0);
+      furrowGroup.add(ridge);
+    }
+
+    const seedBag = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.32, 14, 12), 0.025, 4.0),
+      sackMat
+    );
+    seedBag.scale.set(1.12, 0.85, 0.95);
+    seedBag.position.set(0.18, 0.34, 0.45);
+    furrowGroup.add(seedBag);
+
+    // Scattered golden seeds along the furrows
+    for (let s = 0; s < 14; s++) {
+      const seed = new THREE.Mesh(new THREE.SphereGeometry(0.032, 8, 6), sheafMat);
+      seed.position.set(-0.45 + (s % 4) * 0.28, 0.23, -0.75 + Math.floor(s / 4) * 0.42);
+      furrowGroup.add(seed);
+    }
+
+    group.add(furrowGroup);
+
+    // 2. Right Sunlit Harvest Field with 6 Bound Golden Grain Sheaves & Stone Cairn (exact match to painting #20 right)
+    const harvestGroup = new THREE.Group();
+    harvestGroup.position.set(1.25, 0.02, -0.15);
+    harvestGroup.userData.keepWithGlb = true;
+
+    const sheafPositions = [
+      [0.0, 0.35, 1.08, 0.04],
+      [-0.56, 0.12, 0.96, -0.08],
+      [0.58, 0.08, 1.02, 0.09],
+      [-0.28, -0.52, 1.12, -0.05],
+      [0.34, -0.56, 1.05, 0.06],
+      [0.04, -1.08, 0.98, -0.03]
+    ];
+
+    for (const [sx, sz, sc, tilt] of sheafPositions) {
+      const sheaf = new THREE.Group();
+      sheaf.position.set(sx, 0, sz);
+      sheaf.scale.setScalar(sc);
+      sheaf.rotation.z = tilt;
+      sheaf.userData.keepWithGlb = true;
+
+      const lowerStalks = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CylinderGeometry(0.18, 0.32, 0.68, 14, 3), 0.022, 4.2),
+        sheafMat
+      );
+      lowerStalks.position.y = 0.34;
+      sheaf.add(lowerStalks);
+
+      const upperHeads = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CylinderGeometry(0.34, 0.18, 0.72, 14, 3), 0.028, 4.2),
+        sheafMat
+      );
+      upperHeads.position.y = 0.98;
+      sheaf.add(upperHeads);
+
+      const tieCord = new THREE.Mesh(new THREE.TorusGeometry(0.19, 0.032, 10, 18), cordMat);
+      tieCord.rotation.x = Math.PI / 2;
+      tieCord.position.y = 0.66;
+      sheaf.add(tieCord);
+
+      harvestGroup.add(sheaf);
+    }
+
+    // Dry-stone cairn wall & olive branch on the far right (matching painting #20 lower right)
+    const cairn = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.82, 0.68, 0.74, 5, 4, 4), 0.035, 3.2),
+      stoneMat
+    );
+    cairn.position.set(0.95, 0.34, 0.48);
+    harvestGroup.add(cairn);
+
+    group.add(harvestGroup);
+    return group;
+  }
+
+  // Painting #44: "if you're breathing" (Psalm 150:1–6) & #43: "needs your feet" (Psalm 149:3–4)
+  // Signature Symbolic Element of District XVI — The Symphony of Praise (10-String Harp, Timbrel, Trumpet & Cymbals)
+  createPsalm150EverythingThatHasBreathEnsemble(propTex, pal, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = new THREE.MeshStandardMaterial({
+      color: 0xd4be98,
+      map: propTex || null,
+      roughness: 0.85
+    });
+    const woodMat = new THREE.MeshStandardMaterial({
+      color: 0x6e3e1c,
+      map: propTex || null,
+      roughness: 0.72,
+      emissive: 0x3a1c08,
+      emissiveIntensity: 0.14
+    });
+    const goldBronzeMat = new THREE.MeshStandardMaterial({
+      color: 0xe8b43c,
+      roughness: 0.28,
+      metalness: 0.68,
+      emissive: 0xd4921c,
+      emissiveIntensity: 0.32
+    });
+    const drumheadMat = new THREE.MeshStandardMaterial({
+      color: 0xf4ead2,
+      map: propTex || null,
+      roughness: 0.74
+    });
+    const stringMat = new THREE.MeshStandardMaterial({
+      color: 0xfff0b8,
+      emissive: 0xffd264,
+      emissiveIntensity: 0.45,
+      roughness: 0.30
+    });
+    const petalRoseMat = new THREE.MeshStandardMaterial({
+      color: 0xd85868,
+      roughness: 0.75,
+      emissive: 0x6a1c28,
+      emissiveIntensity: 0.20
+    });
+    const petalWhiteMat = new THREE.MeshStandardMaterial({
+      color: 0xfaf4e8,
+      roughness: 0.75,
+      emissive: 0xffe8b0,
+      emissiveIntensity: 0.18
+    });
+
+    // 1. Circular Sunlit Praise Terrace Dais with Scattered White & Rose Petals (matching #43 & #44)
+    const daisRadius = isFinalePlaza ? 2.45 : 2.05;
+    const dais = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(daisRadius, daisRadius + 0.22, 0.28, 28, 2), 0.018, 3.0),
+      stoneMat
+    );
+    dais.position.y = 0.14;
+    group.add(dais);
+
+    for (let p = 0; p < 22; p++) {
+      const angle = (p / 22) * Math.PI * 2 + (p % 3) * 0.18;
+      const rad = 0.45 + (p % 5) * 0.32;
+      const petal = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.055, 0.055, 0.015, 8),
+        p % 2 === 0 ? petalRoseMat : petalWhiteMat
+      );
+      petal.position.set(Math.cos(angle) * rad, 0.29, Math.sin(angle) * rad);
+      group.add(petal);
+    }
+
+    // 2. Left Stone Bench with Carved 10-String Kinnor Harp/Lyre & Timbrel/Tambourine (exact match to #44 foreground)
+    const harpBenchGroup = new THREE.Group();
+    harpBenchGroup.position.set(isFinalePlaza ? -0.95 : -1.12, 0.28, 0.18);
+    harpBenchGroup.rotation.y = 0.24;
+    harpBenchGroup.userData.keepWithGlb = true;
+
+    const stoneBench = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.48, 0.56, 0.78, 6, 3, 4), 0.02, 3.2),
+      stoneMat
+    );
+    stoneBench.position.y = 0.28;
+    harpBenchGroup.add(stoneBench);
+
+    // Carved wooden 10-string harp (Kinnor) resting on the bench
+    const harpGroup = new THREE.Group();
+    harpGroup.position.set(-0.22, 0.56, 0);
+    harpGroup.rotation.z = -0.14;
+    harpGroup.userData.keepWithGlb = true;
+
+    const soundbox = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.58, 0.32, 0.22, 4, 3, 3), 0.012, 4.0),
+      woodMat
+    );
+    soundbox.position.y = 0.16;
+    harpGroup.add(soundbox);
+
+    for (const [ax, rotZ] of [[-0.26, 0.16], [0.26, -0.16]]) {
+      const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.032, 0.042, 0.88, 12), woodMat);
+      arm.position.set(ax, 0.68, 0);
+      arm.rotation.z = rotZ;
+      harpGroup.add(arm);
+    }
+
+    const crossbar = new THREE.Mesh(new THREE.CylinderGeometry(0.034, 0.034, 0.78, 12), goldBronzeMat);
+    crossbar.rotation.z = Math.PI / 2;
+    crossbar.position.set(0, 1.08, 0);
+    harpGroup.add(crossbar);
+
+    for (let s = 0; s < 10; s++) {
+      const sx = -0.22 + (s / 9) * 0.44;
+      const str = new THREE.Mesh(new THREE.CylinderGeometry(0.006, 0.006, 0.78, 6), stringMat);
+      str.position.set(sx, 0.68, 0);
+      harpGroup.add(str);
+    }
+
+    harpBenchGroup.add(harpGroup);
+
+    // Tambourine / Timbrel with brass jingles resting beside the harp ("Praise him with tambourine and dancing!")
+    const timbrelGroup = new THREE.Group();
+    timbrelGroup.position.set(0.42, 0.68, 0.12);
+    timbrelGroup.rotation.set(0.45, 0.22, -0.35);
+    timbrelGroup.userData.keepWithGlb = true;
+
+    const drumRim = new THREE.Mesh(new THREE.TorusGeometry(0.26, 0.045, 12, 24), woodMat);
+    timbrelGroup.add(drumRim);
+
+    const drumSkin = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.25, 0.02, 22), drumheadMat);
+    drumSkin.rotation.x = Math.PI / 2;
+    timbrelGroup.add(drumSkin);
+
+    for (let j = 0; j < 6; j++) {
+      const ja = (j / 6) * Math.PI * 2;
+      const jingle = new THREE.Mesh(new THREE.CylinderGeometry(0.042, 0.042, 0.018, 12), goldBronzeMat);
+      jingle.position.set(Math.cos(ja) * 0.26, Math.sin(ja) * 0.26, 0.035);
+      timbrelGroup.add(jingle);
+    }
+
+    harpBenchGroup.add(timbrelGroup);
+    group.add(harpBenchGroup);
+
+    // 3. Right Stone Pedestal with Bronze Cymbals & Curved Praise Trumpet/Horn ("Praise him with the sounding of the trumpet… Praise him with loud cymbals!")
+    const rightPraiseGroup = new THREE.Group();
+    rightPraiseGroup.position.set(isFinalePlaza ? 0.98 : 1.15, 0.28, -0.12);
+    rightPraiseGroup.rotation.y = -0.24;
+    rightPraiseGroup.userData.keepWithGlb = true;
+
+    const rightPedestal = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.56, 0.64, 0.62, 18, 2), 0.02, 3.2),
+      stoneMat
+    );
+    rightPedestal.position.y = 0.31;
+    rightPraiseGroup.add(rightPedestal);
+
+    // Pair of Clashing Bronze Cymbals
+    for (const [cx, cy, cz, rx, rz] of [[-0.18, 0.72, 0.08, 0.35, 0.28], [0.16, 0.76, -0.06, -0.32, -0.24]]) {
+      const cymbal = new THREE.Mesh(new THREE.ConeGeometry(0.28, 0.08, 22), goldBronzeMat);
+      cymbal.position.set(cx, cy, cz);
+      cymbal.rotation.set(rx, 0, rz);
+      rightPraiseGroup.add(cymbal);
+    }
+
+    // Curved Praise Trumpet / Shofar Horn
+    const trumpetCurve = new THREE.CatmullRomCurve3([
+      new THREE.Vector3(-0.38, 0.66, -0.22),
+      new THREE.Vector3(0.02, 0.74, -0.18),
+      new THREE.Vector3(0.36, 0.96, -0.08),
+      new THREE.Vector3(0.54, 1.24, 0.04)
+    ]);
+    const trumpetTube = new THREE.Mesh(
+      new THREE.TubeGeometry(trumpetCurve, 20, 0.048, 12, false),
+      goldBronzeMat
+    );
+    rightPraiseGroup.add(trumpetTube);
+
+    const trumpetBell = new THREE.Mesh(new THREE.ConeGeometry(0.14, 0.26, 16, 1, true), goldBronzeMat);
+    trumpetBell.position.set(0.56, 1.28, 0.05);
+    trumpetBell.rotation.z = 2.45;
+    rightPraiseGroup.add(trumpetBell);
+
+    group.add(rightPraiseGroup);
+
+    const praiseLight = new THREE.PointLight(0xffd268, 1.25, 11.0);
+    praiseLight.position.set(0, 1.65, 0.25);
+    group.add(praiseLight);
+
+    return { group, praiseLight, harpGroup, timbrelGroup };
+  }
 }

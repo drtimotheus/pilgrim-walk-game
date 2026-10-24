@@ -234,6 +234,14 @@ export class StepThroughSceneManager {
       signatureState = this.populatePsalms91ShadowOfWingsScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'east_from_west') {
       signatureState = this.populatePsalms103EastFromWestScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'storm_stilled_haven') {
+      signatureState = this.populatePsalms107HavenScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'lamp_to_my_feet') {
+      signatureState = this.populatePsalms119LampToMyFeetScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'golden_sheaves') {
+      signatureState = this.populatePsalms126GoldenSheavesScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'symphony_of_praise') {
+      signatureState = this.populatePsalms150SymphonyOfPraiseScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -3397,6 +3405,228 @@ export class StepThroughSceneManager {
       pAttr.needsUpdate = true;
     };
     return points;
+  }
+
+  // =========================================================================
+  // DISTRICT XVI (EVERYTHING THAT HAS BREATH — PSALMS 107–150) STEP-THROUGH SCENES
+  // =========================================================================
+
+  // Scene 1: Painting #1 "say so" (Psalm 107:23–30) — Desired Haven Ship & Harbor Terrace
+  populatePsalms107HavenScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+
+    const waterMat = createKomorebiWaterMaterial(THREE, {
+      deepColor: pal.waterDeep || '#1b3e4f',
+      shallowColor: pal.waterShallow || '#468499',
+      sunColor: pal.accent || '#ffe298',
+      opacity: 0.92
+    });
+    const bayGeo = new THREE.PlaneGeometry(36, 22, 36, 28);
+    bayGeo.rotateX(-Math.PI / 2);
+    const bayMesh = new THREE.Mesh(bayGeo, waterMat);
+    bayMesh.position.set(0, 0.04, -10.2);
+    group.add(bayMesh);
+
+    const havenEnsemble = this.propBuilder.createPsalm107HavenShipTerraceEnsemble(derived.propTex, pal, true);
+    havenEnsemble.position.copy(focalPos);
+    group.add(havenEnsemble);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        havenEnsemble,
+        'psalms-4',
+        1,
+        { targetHeight: 3.0, yOffset: 0.22 }
+      );
+    }
+
+    for (const [tx, tz, sc] of [[-4.2, -3.8, 1.05], [4.4, -4.2, 0.98]]) {
+      const tree = this.propBuilder.createGreatPainterlyTree(derived.foliageTex, pal, sc);
+      tree.position.set(tx, getTerrainHeight(tx, tz), tz);
+      group.add(tree);
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.85, 3.4, pal.accent || '#ffe298');
+    shaft.position.set(0, 6.2, -5.8);
+    group.add(shaft);
+
+    const havenLight = new THREE.PointLight(0xffdc88, 2.2, 16);
+    havenLight.position.set(0, 3.2, -5.4);
+    group.add(havenLight);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand on the Harbor Terrace & Watch the Ship Glide into the Desired Haven',
+      signatureActivatedText:
+        '“He makes the storm a calm, so that its waves are still. Then they are glad because it is calm, so he brings them to their desired haven. Let them praise Yahweh for his loving kindness!” (Psalm 107:29–31)',
+      updateScene: (dt, time, distToSignature, activeSkyDome, cameraPos) => {
+        waterMat.uniforms.uTime.value = time * 0.45;
+        if (cameraPos) waterMat.uniforms.uCameraPos.value.copy(cameraPos);
+        const near = distToSignature < 4.5;
+        if (near) {
+          this._ps107Latch = Math.min(1.0, (this._ps107Latch || 0) + dt * 0.6);
+        }
+        const val = this._ps107Latch || 0;
+        havenLight.intensity = (2.2 + val * 2.4) * (1.0 + Math.sin(time * 2.2) * 0.08);
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // Scene 2: Painting #13 "come find me" (Psalm 119:105–176) — Terracotta Lamp to My Feet & Lost Sheep
+  populatePsalms119LampToMyFeetScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -4.8);
+
+    const lampEnsemble = this.propBuilder.createPsalm119LampAndLostSheepEnsemble(derived.propTex, pal);
+    lampEnsemble.group.position.copy(focalPos);
+    group.add(lampEnsemble.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        lampEnsemble.group,
+        'psalms-4',
+        13,
+        { targetHeight: 2.8, yOffset: 0.22 }
+      );
+    }
+
+    for (const [rx, rz, sc] of [[-4.2, -5.2, 0.92], [4.4, -5.6, 0.96]]) {
+      const tree = this.propBuilder.createGreatPainterlyTree(derived.foliageTex, pal, sc);
+      tree.position.set(rx, getTerrainHeight(rx, rz), rz);
+      group.add(tree);
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(15, 0.72, 2.8, '#ffbe48');
+    shaft.position.set(0.55, 5.6, -4.3);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.4,
+      signatureLabel: 'Kneel Beside the Terracotta Lamp & the Lost Sheep on the Path',
+      signatureActivatedText:
+        '“Your word is a lamp to my feet, and a light for my path… I have gone astray like a lost sheep. Seek your servant, for I don’t forget your commandments.” (Psalm 119:105, 176)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.4;
+        if (near) {
+          this._ps119Latch = Math.min(1.0, (this._ps119Latch || 0) + dt * 0.65);
+        }
+        const val = this._ps119Latch || 0;
+        const flicker = 1.0 + Math.sin(time * 5.2) * 0.10;
+        if (lampEnsemble.lampLight) {
+          lampEnsemble.lampLight.intensity = (1.5 + val * 2.5) * flicker;
+        }
+        if (lampEnsemble.flame) {
+          lampEnsemble.flame.scale.set(1.0, (1.0 + val * 0.25) * flicker, 1.0);
+        }
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // Scene 3: Painting #20 "sow in tears" (Psalm 126:1–6) — Furrowed Seed Earth & Six Bound Golden Wheat Sheaves
+  populatePsalms126GoldenSheavesScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.0);
+
+    const sheavesEnsemble = this.propBuilder.createPsalm126SowInTearsSheavesEnsemble(derived.propTex, pal);
+    sheavesEnsemble.position.copy(focalPos);
+    group.add(sheavesEnsemble);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        sheavesEnsemble,
+        'psalms-4',
+        20,
+        { targetHeight: 2.9, yOffset: 0.22 }
+      );
+    }
+
+    for (const [tx, tz, sc] of [[-4.4, -4.4, 0.98], [4.6, -4.6, 1.04]]) {
+      const tree = this.propBuilder.createGreatPainterlyTree(derived.foliageTex, pal, sc);
+      tree.position.set(tx, getTerrainHeight(tx, tz), tz);
+      group.add(tree);
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(16, 0.88, 3.5, '#ffe082');
+    shaft.position.set(1.1, 6.2, -5.2);
+    group.add(shaft);
+
+    const harvestLight = new THREE.PointLight(0xffd464, 2.3, 16);
+    harvestLight.position.set(1.1, 2.8, -5.0);
+    group.add(harvestLight);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Step Between the Weeping Furrows & the Bound Golden Sheaves',
+      signatureActivatedText:
+        '“Those who sow in tears will reap in joy. He who goes out weeping, carrying seed for sowing, will certainly come again with joy, carrying his sheaves.” (Psalm 126:5–6)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) {
+          this._ps126Latch = Math.min(1.0, (this._ps126Latch || 0) + dt * 0.6);
+        }
+        const val = this._ps126Latch || 0;
+        harvestLight.intensity = (2.3 + val * 2.5) * (1.0 + Math.sin(time * 2.4) * 0.08);
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // Scene 4: Painting #44 "if you're breathing" (Psalm 150:1–6) — The Symphony of Praise (Harp, Timbrel, Trumpet & Cymbals)
+  populatePsalms150SymphonyOfPraiseScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.0);
+
+    const praiseEnsemble = this.propBuilder.createPsalm150EverythingThatHasBreathEnsemble(derived.propTex, pal, false);
+    praiseEnsemble.group.position.copy(focalPos);
+    group.add(praiseEnsemble.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(
+        praiseEnsemble.group,
+        'psalms-4',
+        44,
+        { targetHeight: 2.9, yOffset: 0.22 }
+      );
+    }
+
+    for (const [tx, tz, sc] of [[-4.4, -4.6, 1.02], [4.5, -4.8, 1.02]]) {
+      const tree = this.propBuilder.createGreatPainterlyTree(derived.foliageTex, pal, sc);
+      tree.position.set(tx, getTerrainHeight(tx, tz), tz);
+      group.add(tree);
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.8, '#ffe698');
+    shaft.position.set(0, 6.4, -5.0);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Join the Symphony of Harp, Timbrel, Trumpet & Cymbals with Everything That Has Breath',
+      signatureActivatedText:
+        '“Praise him with the sounding of the trumpet! Praise him with harp and lyre! Praise him with tambourine and dancing!… Let everything that has breath praise Yah! Praise Yah!” (Psalm 150:3–4, 6)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) {
+          this._ps150Latch = Math.min(1.0, (this._ps150Latch || 0) + dt * 0.65);
+        }
+        const val = this._ps150Latch || 0;
+        const pulse = 1.0 + Math.sin(time * 3.0) * 0.10;
+        if (praiseEnsemble.praiseLight) {
+          praiseEnsemble.praiseLight.intensity = (1.8 + val * 2.8) * pulse;
+        }
+        if (praiseEnsemble.timbrelGroup) {
+          praiseEnsemble.timbrelGroup.rotation.z = -0.35 + Math.sin(time * 3.6) * (0.04 + val * 0.08);
+        }
+        return near || val > 0.85;
+      }
+    };
   }
 }
 

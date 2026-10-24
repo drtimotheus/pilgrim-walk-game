@@ -128,6 +128,28 @@ export class GenesisDistrictBuilder {
       };
     }
 
+    if (slug === 'psalms-4') {
+      return {
+        biome: 'breath_and_praise',
+        groundColor: '#726a52',
+        groundAccent: '#f0da9e',
+        pathColor: '#b8a682',
+        pathAccent: '#faeed0',
+        waterDeep: '#244b5c',
+        waterShallow: '#6ba0ab',
+        grassCount: 1650,
+        grassPalette: { ground: '#6a6c48', accent: '#f0dc9c', horizon: '#bfa878' },
+        hasBridges: true,
+        bridgePalette: { ground: '#8f7f64', accent: '#f2dfb4' },
+        skyTop: '#355878',
+        skyMid: '#8a9c94',
+        skyHorizon: '#ffe49e',
+        fogColor: '#9e8f72',
+        starIntensity: 0.10,
+        sunbeamColor: '#ffe89e'
+      };
+    }
+
     if (babylonSlugs.has(slug)) {
       return {
         biome: 'babylon_fortress',
@@ -796,6 +818,41 @@ export class GenesisDistrictBuilder {
         }
       }
     }
+
+    if (biomeCfg.biome === 'breath_and_praise') {
+      // District XVI: Everything That Has Breath (Psalms 107–150)
+      // Desired Haven ships (Psalm 107:30), golden harvest sheaves (Psalm 126:6),
+      // and open-air praise terraces with harp, timbrel, trumpet & cymbals (Psalm 150:1–6)
+      for (let i = 0; i < 14; i++) {
+        const rz = -16 - i * 32.0;
+        const pt = this.getPathPoint(rz);
+        if (i === 0) {
+          const haven = this.propBuilder.createPsalm107HavenShipTerraceEnsemble(null, pal, true);
+          haven.scale.setScalar(0.86);
+          haven.position.set(pt.x - 8.6, pt.y + 0.06, rz);
+          haven.lookAt(pt.x, pt.y + 0.3, rz + 3.0);
+          streetGroup.add(haven);
+        } else if (i === 5 || i === 8) {
+          const sheaves = this.propBuilder.createPsalm126SowInTearsSheavesEnsemble(null, pal);
+          sheaves.scale.setScalar(0.88);
+          sheaves.position.set(pt.x + 10.4, pt.y + 0.06, rz);
+          sheaves.lookAt(pt.x, pt.y + 0.2, rz + 2.0);
+          streetGroup.add(sheaves);
+        } else if (i === 11 || i === 13) {
+          const praise = this.propBuilder.createPsalm150EverythingThatHasBreathEnsemble(null, pal, false);
+          if (praise.praiseLight) praise.group.remove(praise.praiseLight);
+          praise.group.scale.setScalar(0.85);
+          praise.group.position.set(pt.x + (i % 2 === 0 ? -8.6 : 10.4), pt.y + 0.06, rz);
+          praise.group.lookAt(pt.x, pt.y + 0.3, rz + 2.5);
+          streetGroup.add(praise.group);
+        } else {
+          const praiseTree = this.propBuilder.createGreatPainterlyTree(null, pal, 0.94 + (i % 3) * 0.16);
+          praiseTree.position.set(pt.x + (i % 2 === 0 ? -8.8 : 10.6), pt.y, rz);
+          praiseTree.rotation.y = i * 1.05;
+          streetGroup.add(praiseTree);
+        }
+      }
+    }
   }
 
   loadTextureAsync(url) {
@@ -1204,6 +1261,41 @@ export class GenesisDistrictBuilder {
         streetGroup.add(amenShofar);
         return;
       }
+    } else if (slug === 'psalms-4') {
+      if (pData.n === 1) {
+        const haven = this.propBuilder.createPsalm107HavenShipTerraceEnsemble(null, pal, true);
+        haven.scale.setScalar(0.72);
+        haven.position.set(wx + side * 2.8, wy, wz - 2.2);
+        haven.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(haven);
+        return;
+      }
+      if (pData.n === 13) {
+        const lampSheep = this.propBuilder.createPsalm119LampAndLostSheepEnsemble(null, pal);
+        if (lampSheep.lampLight) lampSheep.group.remove(lampSheep.lampLight);
+        lampSheep.group.scale.setScalar(0.76);
+        lampSheep.group.position.set(wx + side * 2.8, wy, wz - 2.0);
+        lampSheep.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(lampSheep.group);
+        return;
+      }
+      if (pData.n === 20) {
+        const sheaves = this.propBuilder.createPsalm126SowInTearsSheavesEnsemble(null, pal);
+        sheaves.scale.setScalar(0.76);
+        sheaves.position.set(wx + side * 2.8, wy, wz - 2.0);
+        sheaves.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(sheaves);
+        return;
+      }
+      if (pData.n === 43 || pData.n === 44) {
+        const praise = this.propBuilder.createPsalm150EverythingThatHasBreathEnsemble(null, pal, false);
+        if (praise.praiseLight) praise.group.remove(praise.praiseLight);
+        praise.group.scale.setScalar(0.74);
+        praise.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        praise.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(praise.group);
+        return;
+      }
     }
 
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
@@ -1290,6 +1382,7 @@ export class GenesisDistrictBuilder {
       'psalms-1': 'DISTRICT XIII · PLANTED BY THE WATER — PSALMS 1–41',
       'psalms-2': 'DISTRICT XIV · AS THE DEER — PSALMS 42–72',
       'psalms-3': 'DISTRICT XV · A DAY IN YOUR COURTS — PSALMS 73–106',
+      'psalms-4': 'DISTRICT XVI · EVERYTHING THAT HAS BREATH — PSALMS 107–150',
       'all-things-new': 'DISTRICT XLIV · ALL THINGS NEW — REVELATION'
     };
 
@@ -1946,6 +2039,58 @@ export class GenesisDistrictBuilder {
           height: 1.72,
           veilZ: -360.0
         }
+      ],
+      'psalms-4': [
+        {
+          part: 1,
+          id: 'psalms-4-light-1',
+          name: 'The Light of the Desired Haven & the Cornerstone',
+          hint: 'Shining beside the harbor ship & stone terrace near “because he listened” & “the cornerstone” (Part One)',
+          z: -108.0,
+          lateral: 6.2,
+          height: 1.75,
+          veilZ: -129.6
+        },
+        {
+          part: 2,
+          id: 'psalms-4-light-2',
+          name: 'The Light of the Lamp to My Feet & the Golden Sheaves',
+          hint: 'Glowing beside the path lamp & golden harvest sheaves near “surrounded” & “sow in tears” (Part Two)',
+          z: -198.0,
+          lateral: -6.2,
+          height: 1.68,
+          veilZ: -225.3
+        },
+        {
+          part: 3,
+          id: 'psalms-4-light-3',
+          name: 'The Light of the Watchman for the Morning',
+          hint: 'Resting beside the steps of ascent near “the night shift” & “forever” (Part Three)',
+          z: -298.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -321.0
+        },
+        {
+          part: 4,
+          id: 'psalms-4-light-4',
+          name: 'The Light of Evening Incense & Morning Mercy',
+          hint: 'Shining beside the incense bowl & loom near “in the morning” & “a breath” (Part Four)',
+          z: -386.0,
+          lateral: -6.0,
+          height: 1.72,
+          veilZ: -406.9
+        },
+        {
+          part: 5,
+          id: 'psalms-4-light-5',
+          name: 'The Light of Everything That Has Breath',
+          hint: 'Shining beside the ten-string harp, timbrel & cymbals near “needs your feet” & “if you’re breathing” before the Amen Gate (Part Five)',
+          z: -454.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -466.4
+        }
       ]
     };
 
@@ -2084,6 +2229,8 @@ export class GenesisDistrictBuilder {
       ? -370
       : slug === 'choose-life'
       ? -398
+      : slug === 'psalms-4'
+      ? -476
       : ['genesis', 'exodus', 'fire-by-night', 'joshua-judges', 'samuel', 'kings', 'psalms-1', 'all-things-new'].includes(slug)
       ? -436
       : computedLastZ - 14.0;
@@ -2172,6 +2319,25 @@ export class GenesisDistrictBuilder {
       );
       psalms3Finale.position.set(0, 0.1, -3.8);
       group.add(psalms3Finale);
+    } else if (slug === 'psalms-4') {
+      // District XVI Finale: The Symphony of Praise — 10-String Harp, Timbrel, Trumpet & Cymbals on the Circular Praise Dais
+      // ("Let everything that has breath praise Yah! Praise Yah!", Psalm 150:1–6) paired with the Golden Wheat Sheaves (Psalm 126:6)
+      const psalms4Finale = this.propBuilder.createPsalm150EverythingThatHasBreathEnsemble(
+        null,
+        { ground: '#8f7f64', horizon: '#bfa878', accent: '#ffe49e' },
+        true
+      );
+      psalms4Finale.group.position.set(0, 0.1, -3.8);
+      group.add(psalms4Finale.group);
+
+      const finaleSheaves = this.propBuilder.createPsalm126SowInTearsSheavesEnsemble(
+        null,
+        { ground: '#8f7f64', horizon: '#bfa878', accent: '#ffe49e' }
+      );
+      finaleSheaves.scale.setScalar(0.84);
+      finaleSheaves.position.set(3.2, 0.1, -4.6);
+      finaleSheaves.rotation.y = -0.35;
+      group.add(finaleSheaves);
     } else if (slug === 'all-things-new') {
       // District XLIV Finale: The Tree of Life, the Stone Bench beneath the Tree (answering Genesis's Sabbath Bench),
       // the Great Lantern of the Lamb ("its lamp is the Lamb"), and a Gate of Pearl
@@ -2271,6 +2437,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · A DAY IN YOUR COURTS COMPLETED',
         epigraph: 'Blessed be Yahweh, the God of Israel, from everlasting even to everlasting! Let all the people say, “Amen.” Praise Yah!',
         epigraphRef: 'PSALM 106:48 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XVI: EVERYTHING THAT HAS BREATH'
+      },
+      'psalms-4': {
+        title: 'AMEN GATE · EVERYTHING THAT HAS BREATH COMPLETED',
+        epigraph: 'Praise him with harp and lyre! Praise him with tambourine and dancing! Let everything that has breath praise Yah! Praise Yah!',
+        epigraphRef: 'PSALM 150:3–6 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XVII: PROVERBS'
       },
       'all-things-new': {
         title: 'AMEN GATE · ALL THINGS NEW COMPLETED',

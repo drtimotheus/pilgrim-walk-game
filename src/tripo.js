@@ -57,7 +57,11 @@ export class TripoRelicManager {
       'nothing-can-separate': ['grafted-branch'],
       'treasure-in-clay-jars': ['treasure-jar'],
       'rooted-and-free': ['shield-of-faith'],
-      'joy-in-chains': ['open-shackles']
+      'joy-in-chains': ['open-shackles'],
+      'held-together': ['the-keystone'],
+      'children-of-the-day': ['helmet-of-hope'],
+      'grace-mercy-and-peace': ['cloak-and-parchments'],
+      'anchor-of-the-soul': ['anchor-of-the-soul']
     };
     this.districtHeroRelicPlacement = {
       'our-eyes-are-on-you': { id: 'choir-army-trumpet', paintingNum: 25, scale: 1.0, yOffset: 0.24 },
@@ -87,7 +91,11 @@ export class TripoRelicManager {
       'nothing-can-separate': { id: 'grafted-branch', paintingNum: 30, scale: 1.0, yOffset: 0.24 },
       'treasure-in-clay-jars': { id: 'treasure-jar', paintingNum: 29, scale: 1.0, yOffset: 0.24 },
       'rooted-and-free': { id: 'shield-of-faith', paintingNum: 39, scale: 1.0, yOffset: 0.24 },
-      'joy-in-chains': { id: 'open-shackles', paintingNum: 10, scale: 1.0, yOffset: 0.24 }
+      'joy-in-chains': { id: 'open-shackles', paintingNum: 10, scale: 1.0, yOffset: 0.24 },
+      'held-together': { id: 'the-keystone', paintingNum: 6, scale: 1.0, yOffset: 0.24 },
+      'children-of-the-day': { id: 'helmet-of-hope', paintingNum: 22, scale: 1.0, yOffset: 0.24 },
+      'grace-mercy-and-peace': { id: 'cloak-and-parchments', paintingNum: 29, scale: 1.0, yOffset: 0.24 },
+      'anchor-of-the-soul': { id: 'anchor-of-the-soul', paintingNum: 19, scale: 1.0, yOffset: 0.24 }
     };
     this.namedSceneRelicMap = {
       'genesis-4': 'sabbath-olive-tree',

@@ -498,6 +498,50 @@
       "targetScale": 2.3,
       "imageTo3DTip": "† Concept-modeled in the twilight limestone and warm window-gold palette of b-036-010.jpg — heavy forged-iron Roman prison shackles, sprung wide open with a sundered chain link atop a rough prison stone (Philippians 1:12–14).",
       "textPrompt": "Heavy forged-iron Roman prison wrist shackles sprung wide open with broken iron chain links resting on a rough-hewn limestone prison block touched by warm golden window light, painterly oil texture"
+    },
+    {
+      "slot": 46,
+      "id": "the-keystone",
+      "file": "assets/models/the-keystone.glb",
+      "title": "The Keystone †",
+      "district": "District XXXVII · Held Together (No. 6 “held together”)",
+      "paintingRef": "assets/held-together/web/b-037-006.jpg",
+      "targetScale": 3.1,
+      "imageTo3DTip": "† Concept-modeled from b-037-006.jpg — a freestanding stone arch of two ashlar pillars locked at the crown by a great warm rose-terracotta wedge keystone (“And he is before all things, and by him all things consist”, Colossians 1:17).",
+      "textPrompt": "Freestanding ancient Romanesque limestone arch of two ashlar pillars locked at the crown by a prominent warm rose-ochre wedge keystone, sunlit meadow oil-on-linen brushwork"
+    },
+    {
+      "slot": 47,
+      "id": "helmet-of-hope",
+      "file": "assets/models/helmet-of-hope.glb",
+      "title": "The Helmet of Hope",
+      "district": "District XXXVIII · Children of the Day (No. 22 “breastplate and helmet”)",
+      "paintingRef": "assets/children-of-the-day/web/b-038-022.jpg",
+      "targetScale": 2.3,
+      "imageTo3DTip": "Modeled from b-038-022.jpg — the standing patinated bronze helmet of salvation with hinged cheekguards, double brow ridge, and crest finial on a timber-and-stone armor stand, visually paired with XXXV’s Shield of Faith (1 Thessalonians 5:8).",
+      "textPrompt": "Standing ancient patinated bronze helmet of salvation with hinged cheekguards, embossed brow ridges, and crest finial mounted on a carved timber and limestone stand, warm oil painting texture"
+    },
+    {
+      "slot": 48,
+      "id": "cloak-and-parchments",
+      "file": "assets/models/cloak-and-parchments.glb",
+      "title": "Paul’s Cloak & the Parchments",
+      "district": "District XXXIX · Grace, Mercy and Peace (No. 29 “the cloak and the parchments”)",
+      "paintingRef": "assets/grace-mercy-and-peace/web/b-039-029.jpg",
+      "targetScale": 2.2,
+      "imageTo3DTip": "Modeled from b-039-029.jpg — the heavy folded terracotta-brown wool travel cloak on a stone bench beside a leather-bound parchment codex and a bundle of twine-tied rolled scrolls (“The cloke that I left at Troas… and the books, but especially the parchments”, 2 Timothy 4:13).",
+      "textPrompt": "Heavy folded terracotta-brown wool travel cloak with woven stripe and fringe resting on a stone ledge beside a leather-bound parchment codex and rolled parchment scrolls tied with twine, warm oil-on-linen brushwork"
+    },
+    {
+      "slot": 49,
+      "id": "anchor-of-the-soul",
+      "file": "assets/models/anchor-of-the-soul.glb",
+      "title": "The Anchor",
+      "district": "District XL · Anchor of the Soul (No. 19 “anchor of the soul”)",
+      "paintingRef": "assets/anchor-of-the-soul/web/b-040-019.jpg",
+      "targetScale": 2.9,
+      "imageTo3DTip": "Modeled from b-040-019.jpg with the Relic Maker (Muse lane, cleaned of floating background fragments and Meshopt-compressed) — the great ancient stone-and-iron anchor with heavy coiled hawser rope at its base (“Which hope we have as an anchor of the soul, both sure and stedfast”, Hebrews 6:19).",
+      "textPrompt": "Monumental ancient Mediterranean stone-and-iron ship's anchor with curved flukes, top ring, and thick braided hemp hawser rope coiled around the base on wet coastal sand, luminous oil painting texture"
     }
   ]
 }

@@ -281,7 +281,9 @@ export class StepThroughSceneManager {
         'seven_golden_lampstands', 'behold_i_stand_and_knock', 'emerald_rainbow_throne', 'river_of_life_new_jerusalem',
         'streams_of_water', 'moon_and_stars', 'green_pastures', 'house_of_the_lord',
         'deer_brook', 'be_still_waters', 'tears_in_bottle', 'rock_higher',
-        'sanctuary_lamps', 'sparrow_altar', 'shadow_of_wings', 'east_from_west'
+        'sanctuary_lamps', 'sparrow_altar', 'shadow_of_wings', 'east_from_west',
+        'storm_stilled_haven', 'lamp_to_my_feet', 'golden_sheaves', 'symphony_of_praise',
+        'daniel_pulse_table', 'fiery_furnace', 'open_window_jerusalem', 'lions_den_light'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();

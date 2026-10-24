@@ -57,6 +57,21 @@ const DISTRICT_MUSIC_FOLDERS = {
   'all-things-new': { num: 44, folder: '44-all-things-new' }
 };
 
+// Known dedicated step-through scene MP3 tracks across the 44 Music folders
+// (prevents 404 network probes on scenes that keep their book's street music playing)
+const KNOWN_SCENE_TRACKS = {
+  genesis: new Set([1, 4, 11]),
+  exodus: new Set([5, 14, 20, 40]),
+  'fire-by-night': new Set([5, 21, 32, 33]),
+  'choose-life': new Set([10, 25, 30, 35]),
+  'psalms-1': new Set([22]),
+  'psalms-2': new Set([1, 5]),
+  'psalms-3': new Set([19, 31]),
+  'psalms-4': new Set([44]),
+  'the-beginning-of-wisdom': new Set([6, 14, 25, 38]),
+  'many-waters': new Set([5, 7, 14, 29])
+};
+
 export class PilgrimAudio {
   constructor() {
     this.ctx = null;
@@ -268,6 +283,9 @@ export class PilgrimAudio {
 
   getStreetCandidates(slug) {
     const info = DISTRICT_MUSIC_FOLDERS[slug] || DISTRICT_MUSIC_FOLDERS.genesis;
+    if (info.num === 1) {
+      return [`Music/${info.folder}/street.mp3`];
+    }
     return [
       `Music/${info.folder}/street${info.num}.mp3`,
       `Music/${info.folder}/street.mp3`
@@ -276,10 +294,11 @@ export class PilgrimAudio {
 
   getSceneCandidates(slug, paintingNum) {
     const info = DISTRICT_MUSIC_FOLDERS[slug] || DISTRICT_MUSIC_FOLDERS.genesis;
-    return [
-      `Music/${info.folder}/scene-${paintingNum}.mp3`,
-      `Music/${info.folder}/Scene-${paintingNum}.mp3`
-    ];
+    const known = KNOWN_SCENE_TRACKS[slug];
+    if (!known || !known.has(Number(paintingNum))) {
+      return [];
+    }
+    return [`Music/${info.folder}/scene-${paintingNum}.mp3`];
   }
 
   async playStreetMusic(slug) {

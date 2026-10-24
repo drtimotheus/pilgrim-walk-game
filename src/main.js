@@ -2,7 +2,7 @@
 // THE PILGRIM WALK — Main 3D Game Controller (All 44 Books · 1,677 Paintings)
 // Implements:
 //   - All 44 Books in Bible storyline order as data-driven painterly 3D streets
-//   - 175 Step-Through Painting Scenes with .glb sculptures & 16+ Sacred Hero Relics
+//   - 175 Step-Through Painting Scenes with .glb sculptures & 53 Sacred Hero Relics
 //   - Story Walk (part Light-gates & Amen Gates), Free Walk, and 1,633-Day Daily Walk
 //   - Unmissable Scene Exits (§5: persistent "Back to the street" button on screen,
 //     lit exit doorway inside every scene, exact street position & facing restoration)
@@ -14,10 +14,10 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.m
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
 import { PainterlyPropBuilder } from './props.js?v=44_27';
-import { StepThroughSceneManager } from './scenes.js?v=44_27';
-import { GenesisDistrictBuilder } from './district.js?v=44_27';
-import { PilgrimAudio } from './audio.js?v=44_28';
-import { TripoRelicManager } from './tripo.js?v=44_21';
+import { StepThroughSceneManager } from './scenes.js?v=44_53';
+import { GenesisDistrictBuilder } from './district.js?v=44_53';
+import { PilgrimAudio } from './audio.js?v=44_53';
+import { TripoRelicManager } from './tripo.js?v=44_53';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
 import { formatZh } from './zh-convert.js?v=44_12';
 

@@ -542,6 +542,50 @@
       "targetScale": 2.9,
       "imageTo3DTip": "Modeled from b-040-019.jpg with the Relic Maker (Muse lane, cleaned of floating background fragments and Meshopt-compressed) — the great ancient stone-and-iron anchor with heavy coiled hawser rope at its base (“Which hope we have as an anchor of the soul, both sure and stedfast”, Hebrews 6:19).",
       "textPrompt": "Monumental ancient Mediterranean stone-and-iron ship's anchor with curved flukes, top ring, and thick braided hemp hawser rope coiled around the base on wet coastal sand, luminous oil painting texture"
+    },
+    {
+      "slot": 50,
+      "id": "bronze-mirror",
+      "file": "assets/models/bronze-mirror.glb",
+      "title": "The Bronze Mirror",
+      "district": "District XLI · Doers of the Word (No. 5 “the mirror”)",
+      "paintingRef": "assets/doers-of-the-word/web/b-041-005.jpg",
+      "targetScale": 2.4,
+      "imageTo3DTip": "Modeled from b-041-005.jpg — the polished circular bronze mirror with warm reflective face and ornate engraved handle standing in its stone-and-bronze cradle beside the water basin (James 1:23–25).",
+      "textPrompt": "Polished circular ancient bronze mirror with warm reflective face and ornate engraved scroll rim and handle mounted upright on a carved limestone base beside a bronze basin, warm oil-on-linen brushwork"
+    },
+    {
+      "slot": 51,
+      "id": "living-cornerstone",
+      "file": "assets/models/living-cornerstone.glb",
+      "title": "The Living Cornerstone",
+      "district": "District XLII · A Living Hope (No. 10 “the cornerstone”)",
+      "paintingRef": "assets/a-living-hope/web/b-042-010.jpg",
+      "targetScale": 2.4,
+      "imageTo3DTip": "Modeled from b-042-010.jpg (without hands per the silhouette rule) — the dressed ashlar cornerstone block with a living green shoot and leaves growing from its mortar seam (“To whom coming, as unto a living stone… a chief corner stone, elect, precious”, 1 Peter 2:4–6).",
+      "textPrompt": "Dressed ancient Judean limestone chief cornerstone block resting on ashlar courses with a tender living green vine shoot and leaves growing out of its mortar seam, warm coastal sunset oil painting texture"
+    },
+    {
+      "slot": 52,
+      "id": "childs-sandals",
+      "file": "assets/models/childs-sandals.glb",
+      "title": "The Little Child’s Sandals †",
+      "district": "District XLIII · Little Children (No. 14 “what manner of love”)",
+      "paintingRef": "assets/little-children/web/b-043-014.jpg",
+      "targetScale": 2.1,
+      "imageTo3DTip": "† Concept-modeled in the warm sunlit limestone, leather, and rose palette of b-043-014.jpg — one small matched pair of hand-stitched child’s leather sandals resting side by side on a warm path stone (“Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God”, 1 John 3:1).",
+      "textPrompt": "One small pair of ancient hand-stitched brown leather child's sandals resting side by side on a warm sunlit limestone path stone beside a small rosebud, monument scale, tender oil-on-linen brushwork"
+    },
+    {
+      "slot": 53,
+      "id": "white-stone-new-name",
+      "file": "assets/models/white-stone-new-name.glb",
+      "title": "The White Stone with the New Name",
+      "district": "District XLIV · All Things New (No. 7 “the white stone”)",
+      "paintingRef": "assets/all-things-new/web/b-044-007.jpg",
+      "targetScale": 1.85,
+      "imageTo3DTip": "Modeled from b-044-007.jpg (mounted on a carved sanctuary plinth without hands per the silhouette rule, and placed beside the Tree of Life stone bench) — a smooth, luminous white stone with a subtle golden line across its face (“and will give him a white stone, and in the stone a new name written”, Revelation 2:17).",
+      "textPrompt": "Smooth luminous alabaster-white river stone with a delicate glowing golden calligraphic line inscribed across its face resting on a carved New Jerusalem stone plinth with golden molding, warm oil painting texture"
     }
   ]
 }

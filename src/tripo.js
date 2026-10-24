@@ -61,7 +61,11 @@ export class TripoRelicManager {
       'held-together': ['the-keystone'],
       'children-of-the-day': ['helmet-of-hope'],
       'grace-mercy-and-peace': ['cloak-and-parchments'],
-      'anchor-of-the-soul': ['anchor-of-the-soul']
+      'anchor-of-the-soul': ['anchor-of-the-soul'],
+      'doers-of-the-word': ['bronze-mirror'],
+      'a-living-hope': ['living-cornerstone'],
+      'little-children': ['childs-sandals'],
+      'all-things-new': ['white-stone-new-name']
     };
     this.districtHeroRelicPlacement = {
       'our-eyes-are-on-you': { id: 'choir-army-trumpet', paintingNum: 25, scale: 1.0, yOffset: 0.24 },
@@ -95,7 +99,11 @@ export class TripoRelicManager {
       'held-together': { id: 'the-keystone', paintingNum: 6, scale: 1.0, yOffset: 0.24 },
       'children-of-the-day': { id: 'helmet-of-hope', paintingNum: 22, scale: 1.0, yOffset: 0.24 },
       'grace-mercy-and-peace': { id: 'cloak-and-parchments', paintingNum: 29, scale: 1.0, yOffset: 0.24 },
-      'anchor-of-the-soul': { id: 'anchor-of-the-soul', paintingNum: 19, scale: 1.0, yOffset: 0.24 }
+      'anchor-of-the-soul': { id: 'anchor-of-the-soul', paintingNum: 19, scale: 1.0, yOffset: 0.24 },
+      'doers-of-the-word': { id: 'bronze-mirror', paintingNum: 5, scale: 1.0, yOffset: 0.24 },
+      'a-living-hope': { id: 'living-cornerstone', paintingNum: 10, scale: 1.0, yOffset: 0.24 },
+      'little-children': { id: 'childs-sandals', paintingNum: 14, scale: 1.0, yOffset: 0.24 },
+      'all-things-new': { id: 'white-stone-new-name', paintingNum: 7, scale: 1.0, yOffset: 0.24 }
     };
     this.namedSceneRelicMap = {
       'genesis-4': 'sabbath-olive-tree',
@@ -137,7 +145,7 @@ export class TripoRelicManager {
 
   async init() {
     try {
-      const res = await fetch('assets/models/tripo-manifest.json?v=44_29');
+      const res = await fetch('assets/models/tripo-manifest.json?v=44_53');
       this.manifest = await res.json();
     } catch (e) {
       console.warn('Tripo manifest load fallback:', e);

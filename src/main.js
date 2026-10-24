@@ -13,11 +13,11 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_27';
-import { StepThroughSceneManager } from './scenes.js?v=44_53';
-import { GenesisDistrictBuilder } from './district.js?v=44_53';
-import { PilgrimAudio } from './audio.js?v=44_53';
-import { TripoRelicManager } from './tripo.js?v=44_53';
+import { PainterlyPropBuilder } from './props.js?v=44_54';
+import { StepThroughSceneManager } from './scenes.js?v=44_54';
+import { GenesisDistrictBuilder } from './district.js?v=44_54';
+import { PilgrimAudio } from './audio.js?v=44_54';
+import { TripoRelicManager } from './tripo.js?v=44_54';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
 import { formatZh } from './zh-convert.js?v=44_12';
 
@@ -964,6 +964,36 @@ class PilgrimWalkApp {
         { n: 24, label: '24 · “windows open toward Jerusalem” (Open Window & Prayer Mat)' },
         { n: 26, label: '26 · “the lions’ den” (Peaceful Lions & Light Shaft)' }
       ],
+      'arise-shine': [
+        { n: 3, label: '3 · “undone” (Seraph’s Live Coal & Altar)' },
+        { n: 9, label: '9 · “the wolf and the lamb” (Peaceable Kingdom Meadow)' },
+        { n: 19, label: '19 · “wings like eagles” (High Crag & Rising Eagle)' },
+        { n: 35, label: '35 · “arise, shine” (Open Gates of Dawn)' }
+      ],
+      'good-news-of-great-joy': [
+        { n: 5, label: '5 · “no room” (Bethlehem Manger & Lantern)' },
+        { n: 19, label: '19 · “two denarii” (Good Samaritan’s Inn)' },
+        { n: 27, label: '27 · “a long way off” (Prodigal’s Road Home)' },
+        { n: 40, label: '40 · “he broke the bread” (Emmaus Supper Table)' }
+      ],
+      'i-am-with-you-always': [
+        { n: 4, label: '4 · “the star” (Bethlehem Star & Three Gifts)' },
+        { n: 13, label: '13 · “a lamp on a stand” (Hillside Lampstand)' },
+        { n: 26, label: '26 · “little faith” (Walking on the Sea)' },
+        { n: 39, label: '39 · “he is not here” (Empty Garden Tomb)' }
+      ],
+      'peace-be-still': [
+        { n: 11, label: '11 · “the cushion” (Galilee Boat in the Storm)' },
+        { n: 18, label: '18 · “twelve baskets” (Green Grass & 12 Baskets)' },
+        { n: 27, label: '27 · “he threw off his cloak” (Bartimaeus’s Cloak)' },
+        { n: 30, label: '30 · “she broke the jar” (Broken Alabaster Jar)' }
+      ],
+      'come-and-see': [
+        { n: 6, label: '6 · “the best for last” (Six Stone Jars at Cana)' },
+        { n: 9, label: '9 · “the jar left behind” (Jacob’s Well at Noon)' },
+        { n: 25, label: '25 · “twelve pairs” (Upper Room Basin & Towel)' },
+        { n: 39, label: '39 · “a charcoal fire” (Galilee Beach Breakfast)' }
+      ],
       'all-things-new': [
         { n: 4, label: '4 · “among the lampstands” (7 Golden Lampstands)' },
         { n: 8, label: '8 · “knocking” (Door & Supper Table)' },
@@ -987,6 +1017,16 @@ class PilgrimWalkApp {
     const stripTitle = zh
       ? this.zh(`${this.getZhBookTitle(this.currentDistrictSlug).split(' · ')[0]} 3D 画境：`)
       : `${meta.shortName} Scenes:`;
+    const primaryRelic = this.tripoManager?.getDistrictPrimaryRelicInfo(this.currentDistrictSlug);
+    const relicPillHtml = primaryRelic
+      ? `<button class="scene-jump-btn" data-jump-relic="${primaryRelic.id}" title="${
+          zh ? this.zh('前往本卷圣物纪念碑') : 'Stand before this district’s Hero Relic'
+        }">🗿 ${
+          zh
+            ? this.zh(`圣物 · #${primaryRelic.slot || ''} ${primaryRelic.title}`)
+            : `Relic · ${primaryRelic.title}`
+        }</button>`
+      : '';
 
     strip.innerHTML = `
       <span class="strip-label">${stripTitle}</span>
@@ -996,6 +1036,7 @@ class PilgrimWalkApp {
             `<button class="scene-jump-btn" data-jump-scene="${s.n}" data-jump-mode="enter">${s.label}</button>`
         )
         .join('')}
+      ${relicPillHtml}
       <button class="scene-jump-btn" data-jump-scene="1" data-jump-mode="street">${zh ? this.zh('街道起点') : 'Walk Street Start'}</button>
       <button class="scene-jump-btn" data-jump-scene="${lastN}" data-jump-mode="street">${zh ? this.zh('阿们终章广场') : 'Finale Plaza'}</button>
     `;
@@ -1005,6 +1046,13 @@ class PilgrimWalkApp {
         const num = parseInt(btn.getAttribute('data-jump-scene'), 10);
         const mode = btn.getAttribute('data-jump-mode');
         this.jumpToPaintingOnStreet(num, mode === 'enter');
+      });
+    });
+
+    strip.querySelectorAll('[data-jump-relic]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const relicId = btn.getAttribute('data-jump-relic');
+        this.jumpToHeroRelicOnStreet(relicId);
       });
     });
   }
@@ -1142,6 +1190,105 @@ class PilgrimWalkApp {
     }
   }
 
+  jumpToHeroRelicOnStreet(relicId = null, bypassVeilCheck = false) {
+    if (!this.district) return;
+    if (this.mode === 'SCENE') {
+      this.exitStepThroughSceneToStreet();
+    }
+
+    const relicNodes = this.district.heroRelicNodes || [];
+    const targetRelicNode =
+      (relicId && relicNodes.find((rn) => rn.id === relicId && !rn.isFinale)) ||
+      relicNodes.find((rn) => !rn.isFinale) ||
+      relicNodes[0];
+
+    if (targetRelicNode) {
+      const blockingVeil = bypassVeilCheck ? null : this.getFirstBlockingVeil();
+      if (blockingVeil && targetRelicNode.position.z < blockingVeil.veilZ) {
+        const veilPt = this.districtBuilder.getPathPoint(blockingVeil.veilZ + 1.8);
+        this.player.position.set(veilPt.x, veilPt.y + 1.72, veilPt.z);
+        this.player.yaw = 0.0;
+        this.player.pitch = 0.0;
+        this._needsRender = true;
+        this.showToast(
+          this.isZh()
+            ? this.zh(
+                `✦ 前往圣物纪念碑的道路被金色帷幕遮蔽——请先点亮【${blockingVeil.name}】（或切换为自由漫步模式）。`
+              )
+            : `✦ The way to this Hero Relic is veiled in Story Walk — kindle ${blockingVeil.name} first (${blockingVeil.hint}), or switch to Free Walk.`
+        );
+        return;
+      }
+
+      const roadPt = targetRelicNode.roadPosition;
+      const dx = targetRelicNode.position.x - roadPt.x;
+      const dz = targetRelicNode.position.z - roadPt.z;
+      const yawToRelic = Math.atan2(-dx, -dz);
+
+      this.player.position.set(roadPt.x, roadPt.y + 1.72, roadPt.z);
+      this.player.yaw = yawToRelic;
+      this.player.pitch = 0.0;
+
+      this.streetReturnState.position.copy(this.player.position);
+      this.streetReturnState.yaw = this.player.yaw;
+      this.streetReturnState.pitch = 0.0;
+      this._needsRender = true;
+
+      const rItem = this.tripoManager?.relicById?.get(targetRelicNode.id);
+      const rTitle = rItem ? rItem.title : targetRelicNode.id;
+      this.showToast(
+        this.isZh()
+          ? this.zh(`🗿 已抵达本卷圣物：#${rItem?.slot || ''} ${rTitle} — 按 [E] 瞻仰圣物并阅读第 ${targetRelicNode.paintingNum} 首诗歌`)
+          : `🗿 Standing before Hero Relic · #${rItem?.slot || ''} ${rTitle} (No. ${targetRelicNode.paintingNum}) — Press [E] to inspect & read source poem.`
+      );
+      return;
+    }
+
+    // Fallback for Districts I–VIII whose Hero Relics live at a specific painting or step-through scene
+    const loc =
+      (relicId && this.tripoManager?.getRelicLocationInfo(relicId)) ||
+      this.tripoManager?.getDistrictPrimaryRelicInfo(this.currentDistrictSlug);
+    if (loc && loc.paintingNum) {
+      this.jumpToPaintingOnStreet(loc.paintingNum, Boolean(loc.enterScene));
+    }
+  }
+
+  async standBeforeRelicIn3D(relicId) {
+    if (!relicId || !this.tripoManager) return;
+    const loc = this.tripoManager.getRelicLocationInfo(relicId);
+    if (!loc) return;
+
+    this.closeAllModals();
+
+    // Ensure Free Walk if the target district or part is veiled in Story Walk so Workshop inspection is immediate
+    if (this.walkMode === 'STORY') {
+      this.walkMode = 'FREE';
+      this.saveData.walkMode = 'FREE';
+      this.persistSaveData();
+      this.syncPartVeilsWithMode();
+      this.updateActivePillHighlight();
+      this.updateHUDProgress();
+    }
+
+    if (this.currentDistrictSlug !== loc.slug || this.mode !== 'STREET') {
+      await this.switchDistrict(loc.slug);
+    }
+
+    await this.tripoManager.ensureRelicLoaded(relicId);
+
+    if (relicId === 'pilgrim-lantern') {
+      const startPt = this.districtBuilder.getPathPoint(11.5);
+      this.player.position.set(startPt.x, startPt.y + 1.72, startPt.z);
+      this.player.yaw = 0.0;
+      this.player.pitch = 0.0;
+      this._needsRender = true;
+      this.showToast('🗿 Standing with #1 · The Pilgrim’s Brass & Parchment Lantern at the Gatehouse threshold.');
+      return;
+    }
+
+    this.jumpToHeroRelicOnStreet(relicId, true);
+  }
+
   // ==========================================================================
   // INTERACTIONS: Poems, Hidden Lights, Step-Through Frames, Amen Gate, 3D Gatehouse Gates
   // ==========================================================================
@@ -1163,6 +1310,17 @@ class PilgrimWalkApp {
       this.enterStepThroughScene(t.node);
     } else if (t.type === 'READ_POEM') {
       this.openPoemModal(t.node.data, t.node.data.isScene ? () => this.enterStepThroughScene(t.node) : null);
+    } else if (t.type === 'INSPECT_HERO_RELIC') {
+      const pData = t.relicNode?.paintingData;
+      const pNode =
+        this.district?.paintingNodes?.find((n) => n.data.n === t.relicNode?.paintingNum) ||
+        (pData ? { data: pData } : null);
+      if (t.relicMeta) {
+        this.showToast(`🗿 #${t.relicMeta.slot} · ${t.relicMeta.title} — ${t.relicMeta.imageTo3DTip}`);
+      }
+      if (pNode && pNode.data) {
+        this.openPoemModal(pNode.data, pNode.data.isScene ? () => this.enterStepThroughScene(pNode) : null);
+      }
     } else if (t.type === 'KINDLE_LIGHT') {
       this.markLightKindled(t.lightObj, false);
     } else if (t.type === 'VEIL_LOCKED' || t.type === 'VEIL_BLOCKED') {
@@ -2256,9 +2414,8 @@ class PilgrimWalkApp {
     const container = document.getElementById('tripo-relics-list');
     if (!container || !this.tripoManager || !this.tripoManager.manifest) return;
 
-    container.innerHTML = '';
-    const models = this.tripoManager.manifest.models || [];
-    const relicCount = models.length;
+    const allModels = this.tripoManager.manifest.models || [];
+    const relicCount = allModels.length;
     const eyebrowEl = document.getElementById('workshop-modal-eyebrow');
     const titleEl = document.getElementById('workshop-modal-title');
     if (eyebrowEl) {
@@ -2268,9 +2425,76 @@ class PilgrimWalkApp {
       titleEl.textContent = `The Relic Workshop (${relicCount} Relics)`;
     }
 
-    models.forEach((m) => {
+    const activeFilter = this._workshopFilter || 'all';
+    const searchQuery = (this._workshopSearch || '').trim().toLowerCase();
+
+    // Wire filter buttons & search input once
+    const filterContainer = document.getElementById('tripo-filter-pills');
+    if (filterContainer) {
+      filterContainer.querySelectorAll('[data-relic-filter]').forEach((btn) => {
+        const fKey = btn.getAttribute('data-relic-filter');
+        const isAct = fKey === activeFilter;
+        btn.style.background = isAct
+          ? 'linear-gradient(135deg, #d7ab61 0%, #b58338 100%)'
+          : '';
+        btn.style.color = isAct ? '#1c1309' : '';
+        if (!btn.dataset.boundFilter) {
+          btn.dataset.boundFilter = '1';
+          btn.addEventListener('click', () => {
+            this._workshopFilter = fKey;
+            this.renderTripoWorkshopModal();
+          });
+        }
+      });
+    }
+
+    const searchInput = document.getElementById('tripo-search-input');
+    if (searchInput && !searchInput.dataset.boundSearch) {
+      searchInput.dataset.boundSearch = '1';
+      searchInput.addEventListener('input', () => {
+        this._workshopSearch = searchInput.value || '';
+        this.renderTripoWorkshopModal();
+      });
+    }
+
+    const filteredModels = allModels.filter((m) => {
+      const loc = this.tripoManager.getRelicLocationInfo(m.id);
+      if (activeFilter === 'current' && loc && loc.slug !== this.currentDistrictSlug) {
+        return false;
+      }
+      if (activeFilter === 'concept' && (!loc || !loc.isConceptModeled)) {
+        return false;
+      }
+      if (activeFilter === 'muse' && (!loc || !loc.isMuseLane)) {
+        return false;
+      }
+      if (activeFilter === 'flagged' && (!loc || !loc.isSourceFlagged)) {
+        return false;
+      }
+      if (searchQuery) {
+        const hay = `${m.slot} #${m.slot} ${m.title} ${m.district} ${m.id} ${m.imageTo3DTip || ''}`.toLowerCase();
+        if (!hay.includes(searchQuery)) return false;
+      }
+      return true;
+    });
+
+    container.innerHTML = '';
+    filteredModels.forEach((m) => {
       const status = this.tripoManager.statusMap.get(m.id) || 'procedural';
       const isLoaded = status === 'loaded';
+      const loc = this.tripoManager.getRelicLocationInfo(m.id);
+
+      let extraBadges = '';
+      if (loc && loc.isConceptModeled) {
+        extraBadges += `<span style="font-size:0.76rem;font-weight:bold;padding:3px 9px;border-radius:99px;background:#7a4b1e;color:#fff4dc;">† Concept-Modeled</span>`;
+      }
+      if (loc && loc.isMuseLane) {
+        extraBadges += `<span style="font-size:0.76rem;font-weight:bold;padding:3px 9px;border-radius:99px;background:#2b4c6f;color:#eef6ff;">✦ Muse Lane</span>`;
+      }
+      if (loc && loc.isSourceFlagged) {
+        extraBadges += `<span style="font-size:0.76rem;font-weight:bold;padding:3px 9px;border-radius:99px;background:#6e3b3b;color:#ffecec;">⚑ Source Painting Flagged</span>`;
+      }
+
       const card = document.createElement('div');
       card.className = 'shelf-book-card';
       card.style.marginTop = '0';
@@ -2279,19 +2503,25 @@ class PilgrimWalkApp {
         <div class="shelf-book-meta" style="flex:1;">
           <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
             <h3 style="font-size:1.15rem;">#${m.slot} · ${m.title}</h3>
-            <span style="font-size:0.8rem;font-weight:bold;padding:3px 10px;border-radius:99px;background:${
-              isLoaded ? '#2e4d28' : '#524024'
-            };color:#f7eedc;">
-              ${isLoaded ? '✦ Relic .glb Active' : '● Painterly Procedural Active (Ready for .glb)'}
-            </span>
+            <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
+              ${extraBadges}
+              <span style="font-size:0.8rem;font-weight:bold;padding:3px 10px;border-radius:99px;background:${
+                isLoaded ? '#2e4d28' : '#524024'
+              };color:#f7eedc;">
+                ${isLoaded ? '✦ Relic .glb Active' : '● Painterly Procedural Active (Ready for .glb)'}
+              </span>
+            </div>
           </div>
           <p class="shelf-sub" style="margin:3px 0 6px;">${m.district} · Target file: <code>${m.file}</code></p>
           <p class="shelf-desc" style="font-size:0.88rem;margin-bottom:8px;"><strong>Relic Maker Note:</strong> ${m.imageTo3DTip}</p>
           <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+            <button type="button" class="gold-btn" data-visit-relic="${m.id}" style="padding:6px 13px;font-size:0.84rem;">
+              ✦ Stand Before Relic in 3D
+            </button>
             <a href="${m.paintingRef}" download="${m.id}-reference.jpg" class="gold-btn" style="padding:6px 13px;font-size:0.84rem;">
               ⬇ Download Reference Painting
             </a>
-            <button class="gold-btn" data-copy-prompt="${encodeURIComponent(m.textPrompt)}" style="padding:6px 13px;font-size:0.84rem;">
+            <button type="button" class="gold-btn" data-copy-prompt="${encodeURIComponent(m.textPrompt)}" style="padding:6px 13px;font-size:0.84rem;">
               📋 Copy Reference Prompt
             </button>
             <label class="gold-btn" style="padding:6px 13px;font-size:0.84rem;cursor:pointer;">
@@ -2302,6 +2532,13 @@ class PilgrimWalkApp {
         </div>
       `;
       container.appendChild(card);
+    });
+
+    container.querySelectorAll('[data-visit-relic]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const relicId = btn.getAttribute('data-visit-relic');
+        this.standBeforeRelicIn3D(relicId);
+      });
     });
 
     container.querySelectorAll('[data-copy-prompt]').forEach((btn) => {
@@ -2531,7 +2768,7 @@ class PilgrimWalkApp {
     }
   }
 
-  updateWorldAndInteractions(dt, elapsed) {
+  updateWorldAndInteractions(dt = 0.016, elapsed = 0) {
     this.currentInteractTarget = null;
 
     // ========================================================================
@@ -2740,6 +2977,21 @@ class PilgrimWalkApp {
     }
 
     // Determine active Street interaction prompt
+    let nearestRelicNode = null;
+    let nearestRelicDist = Infinity;
+    if (this.district.heroRelicNodes) {
+      for (const rNode of this.district.heroRelicNodes) {
+        const rd = Math.hypot(
+          this.player.position.x - rNode.position.x,
+          this.player.position.z - rNode.position.z
+        );
+        if (rd < nearestRelicDist) {
+          nearestRelicDist = rd;
+          nearestRelicNode = rNode;
+        }
+      }
+    }
+
     const distToAmen = Math.hypot(
       this.player.position.x - this.district.amenPlaza.position.x,
       this.player.position.z - this.district.amenPlaza.position.z
@@ -2767,6 +3019,23 @@ class PilgrimWalkApp {
         zh
           ? this.zh(`✦ 前路尚在帷幕之中 — 请先点亮本篇的「${blockingVeil.name}」（提示：${blockingVeil.hint}）[E]`)
           : `✦ Way to ${nextPartLabel} is veiled — Kindle this part’s Light: ${blockingVeil.name} (${blockingVeil.hint}) [E]`,
+        true
+      );
+    } else if (nearestRelicNode && nearestRelicDist < 4.2 && nearestRelicDist <= nearestDist + 0.4) {
+      const relicMeta = this.tripoManager?.relicById?.get(nearestRelicNode.id) || null;
+      const rTitle = relicMeta ? relicMeta.title : nearestRelicNode.id;
+      const p = nearestRelicNode.paintingData || { n: nearestRelicNode.paintingNum, title: '' };
+      const pTitle = zh && p.zh_title ? this.zh(p.zh_title) : p.title;
+      this.currentInteractTarget = {
+        type: 'INSPECT_HERO_RELIC',
+        relicNode: nearestRelicNode,
+        relicMeta
+      };
+      this._setPromptUI(
+        false,
+        zh
+          ? this.zh(`🗿 瞻仰圣物 · #${relicMeta?.slot || ''}「${rTitle}」· 阅读第 ${p.n} 首《${pTitle}》[E]`)
+          : `🗿 Inspect Hero Relic · #${relicMeta?.slot || ''} “${rTitle}” · Read Poem No. ${p.n} “${pTitle}” [E]`,
         true
       );
     } else if (nearestNode && nearestDist < 4.6) {

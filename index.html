@@ -1150,14 +1150,24 @@
 
   <!-- THE RELIC WORKSHOP MODAL -->
   <div id="tripo-modal" class="modal-backdrop hidden">
-    <div class="modal-card" style="max-width:960px;">
+    <div class="modal-card" style="max-width:980px;">
       <button class="modal-close" data-close-modal>Close [Esc]</button>
-      <div id="workshop-modal-eyebrow" class="poem-eyebrow">THE RELIC WORKSHOP · RELIC MAKER (HUNYUAN3D + PAINTING PROJECTION)</div>
-      <h2 id="workshop-modal-title" class="poem-title">The Relic Workshop</h2>
+      <div id="workshop-modal-eyebrow" class="poem-eyebrow">THE RELIC WORKSHOP · 53 SACRED HERO RELICS · RELIC MAKER PIPELINE</div>
+      <h2 id="workshop-modal-title" class="poem-title">The Relic Workshop (53 Relics)</h2>
       <p id="workshop-modal-desc" class="poem-ref">
-        Each sacred relic is modeled from Timothy Holt’s paintings with the <strong>Relic Maker</strong> (Hunyuan3D shapes with textures projected directly from the paintings, plus curated reference paintings in <code>Relic-Reference-Paintings/</code>) and finished with the warm oil-on-linen shader. Use any card below to download its reference painting, copy its reference prompt, or click <strong>Test .glb File Live</strong> to hot-swap a <code>.glb</code> model straight into the 3D world.
+        Each sacred relic is modeled from Timothy Holt’s paintings with the <strong>Relic Maker</strong> and finished with the warm oil-on-linen shader. Click <strong>✦ Stand Before Relic in 3D</strong> on any card to travel straight to its monument on the street, download its reference painting, copy its reference prompt, or hot-swap a <code>.glb</code> model live.
       </p>
-      <div id="tripo-relics-list" style="display:flex;flex-direction:column;gap:14px;margin-top:14px;"></div>
+      <div id="tripo-workshop-toolbar" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin:10px 0 12px;padding:10px 12px;background:rgba(58,43,24,0.08);border:1px solid rgba(156,122,70,0.35);border-radius:10px;">
+        <div id="tripo-filter-pills" style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
+          <button type="button" class="gold-btn active-workshop-filter" data-relic-filter="all" style="padding:5px 12px;font-size:0.8rem;">All (53)</button>
+          <button type="button" class="gold-btn" data-relic-filter="current" style="padding:5px 12px;font-size:0.8rem;">Current Book</button>
+          <button type="button" class="gold-btn" data-relic-filter="concept" style="padding:5px 12px;font-size:0.8rem;">† Concept-Modeled (5)</button>
+          <button type="button" class="gold-btn" data-relic-filter="muse" style="padding:5px 12px;font-size:0.8rem;">Muse Lane (6)</button>
+          <button type="button" class="gold-btn" data-relic-filter="flagged" style="padding:5px 12px;font-size:0.8rem;">Source Flagged (3)</button>
+        </div>
+        <input id="tripo-search-input" type="search" placeholder="Search 53 relics by name, book, or #slot…" aria-label="Search Hero Relics" style="flex:1 1 210px;max-width:300px;padding:6px 11px;border-radius:8px;border:1px solid #bfa06f;background:#fbf6ec;color:#261b0e;font-family:var(--font-serif);font-size:0.86rem;" />
+      </div>
+      <div id="tripo-relics-list" style="display:flex;flex-direction:column;gap:14px;margin-top:10px;"></div>
     </div>
   </div>
 
@@ -1266,6 +1276,6 @@
     </div>
   </div>
 
-  <script type="module" src="src/main.js?v=44_53"></script>
+  <script type="module" src="src/main.js?v=44_54"></script>
 </body>
 </html>

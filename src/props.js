@@ -8157,4 +8157,1065 @@ export class PainterlyPropBuilder {
 
     return group;
   }
+
+  // =========================================================================
+  // DISTRICT XX: ARISE, SHINE (ISAIAH) BESPOKE 3D PROP ENSEMBLES
+  // =========================================================================
+
+  // Isaiah 6:1–7 (#3 "undone") — Temple Threshold Pillars, Horned Incense Altar & Live Coal in Golden Tongs
+  createIsaiah6LiveCoalAltarEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#786958',
+      accentColor: pal.accent || '#f0cc84',
+      roughness: 0.86
+    });
+    const bronzeMat = new THREE.MeshStandardMaterial({
+      color: 0xb88642,
+      roughness: 0.38,
+      metalness: 0.72
+    });
+    const coalMat = new THREE.MeshStandardMaterial({
+      color: 0xff6e1a,
+      emissive: 0xff3b00,
+      emissiveIntensity: 1.35,
+      roughness: 0.25
+    });
+
+    for (const sx of [-1.85, 1.85]) {
+      const col = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CylinderGeometry(0.32, 0.38, 3.6, 16, 8), 0.02, 3.2),
+        stoneMat
+      );
+      col.position.set(sx, 1.8, -0.65);
+      col.userData.keepWithGlb = true;
+      group.add(col);
+    }
+
+    const altar = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.35, 1.08, 1.35, 6, 4, 6), 0.025, 3.2),
+      stoneMat
+    );
+    altar.position.set(0, 0.54, 0);
+    altar.userData.keepWithGlb = true;
+    group.add(altar);
+
+    for (const [hx, hz] of [[-0.58, -0.58], [0.58, -0.58], [-0.58, 0.58], [0.58, 0.58]]) {
+      const horn = new THREE.Mesh(new THREE.ConeGeometry(0.14, 0.34, 8), bronzeMat);
+      horn.position.set(hx, 1.22, hz);
+      horn.userData.keepWithGlb = true;
+      group.add(horn);
+    }
+
+    for (const side of [-1, 1]) {
+      const tong = new THREE.Mesh(new THREE.CylinderGeometry(0.026, 0.032, 1.15, 10), bronzeMat);
+      tong.position.set(side * 0.14, 1.48, 0);
+      tong.rotation.z = side * -0.22;
+      tong.userData.keepWithGlb = true;
+      group.add(tong);
+    }
+
+    const liveCoal = new THREE.Mesh(
+      this.displaceGeometry(new THREE.DodecahedronGeometry(0.24, 1), 0.03, 4.0),
+      coalMat
+    );
+    liveCoal.position.set(0, 1.72, 0);
+    liveCoal.userData.keepWithGlb = true;
+    group.add(liveCoal);
+
+    const emberLight = new THREE.PointLight(0xff8c38, 2.6, 16);
+    emberLight.position.set(0, 1.95, 0.25);
+    group.add(emberLight);
+
+    return { group, liveCoal, emberLight };
+  }
+
+  // Isaiah 11:1–9 (#9 "the wolf and the lamb") — Shoot from the Stump of Jesse & Wolf and Lamb Resting Together
+  createIsaiah11WolfAndLambMeadowEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const barkMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c4630',
+      accentColor: '#9c7d58',
+      roughness: 0.9
+    });
+    const leafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4c7538',
+      accentColor: '#9ed468',
+      roughness: 0.72
+    });
+    const wolfMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6b6e75',
+      accentColor: '#aeb3bd',
+      roughness: 0.85
+    });
+    const lambMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#ede6d6',
+      accentColor: '#ffffff',
+      roughness: 0.88
+    });
+
+    const stump = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.56, 0.74, 0.78, 16, 4), 0.04, 3.2),
+      barkMat
+    );
+    stump.position.set(-1.15, 0.39, -0.35);
+    stump.userData.keepWithGlb = true;
+    group.add(stump);
+
+    const shootStem = new THREE.Mesh(new THREE.CylinderGeometry(0.045, 0.065, 1.25, 10), leafMat);
+    shootStem.position.set(-0.95, 1.18, -0.28);
+    shootStem.rotation.z = -0.22;
+    shootStem.userData.keepWithGlb = true;
+    group.add(shootStem);
+
+    for (let i = 0; i < 7; i++) {
+      const leaf = new THREE.Mesh(new THREE.SphereGeometry(0.12, 10, 8), leafMat);
+      leaf.scale.set(1.8, 0.28, 0.85);
+      leaf.position.set(-0.88 + Math.cos(i) * 0.22, 1.15 + i * 0.1, -0.28 + Math.sin(i) * 0.22);
+      leaf.rotation.y = i * 0.9;
+      leaf.userData.keepWithGlb = true;
+      group.add(leaf);
+    }
+
+    // Sculpted resting wolf on the left-center
+    const wolfBody = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.46, 14, 12), 0.03, 3.5),
+      wolfMat
+    );
+    wolfBody.scale.set(1.45, 0.78, 0.92);
+    wolfBody.position.set(0.35, 0.36, -0.15);
+    wolfBody.userData.keepWithGlb = true;
+    group.add(wolfBody);
+
+    const wolfHead = new THREE.Mesh(new THREE.ConeGeometry(0.24, 0.48, 10), wolfMat);
+    wolfHead.rotation.z = Math.PI / 2 - 0.25;
+    wolfHead.position.set(0.88, 0.62, -0.05);
+    wolfHead.userData.keepWithGlb = true;
+    group.add(wolfHead);
+
+    // Sculpted white lamb nestled peacefully beside the wolf
+    const lambBody = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.34, 14, 12), 0.035, 4.0),
+      lambMat
+    );
+    lambBody.scale.set(1.3, 0.82, 0.9);
+    lambBody.position.set(0.95, 0.28, 0.48);
+    lambBody.userData.keepWithGlb = true;
+    group.add(lambBody);
+
+    const lambHead = new THREE.Mesh(new THREE.SphereGeometry(0.17, 10, 10), lambMat);
+    lambHead.position.set(0.58, 0.44, 0.52);
+    lambHead.userData.keepWithGlb = true;
+    group.add(lambHead);
+
+    const meadowLight = new THREE.PointLight(0xffe69c, 2.2, 15);
+    meadowLight.position.set(0, 2.2, 0.2);
+    group.add(meadowLight);
+
+    return { group, meadowLight };
+  }
+
+  // Isaiah 40:28–31 (#19 "wings like eagles") — High Mountain Aerie Crag, Bronze-Gold Eagle Wings & Pilgrim Staff
+  createIsaiah40EagleWingsCragEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const rockMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#6b5e4c',
+      accentColor: pal.accent || '#f0cf88',
+      roughness: 0.88
+    });
+    const wingMat = new THREE.MeshStandardMaterial({
+      color: 0xd9a84e,
+      emissive: 0x5c3d0c,
+      emissiveIntensity: 0.38,
+      roughness: 0.36,
+      metalness: 0.64
+    });
+
+    const summitRock = new THREE.Mesh(
+      this.displaceGeometry(new THREE.DodecahedronGeometry(1.18, 1), 0.1, 2.8),
+      rockMat
+    );
+    summitRock.scale.set(1.45, 0.92, 1.15);
+    summitRock.position.set(0, 0.58, 0);
+    summitRock.userData.keepWithGlb = true;
+    group.add(summitRock);
+
+    const wingsGroup = new THREE.Group();
+    wingsGroup.position.set(0, 1.65, -0.15);
+    wingsGroup.userData.keepWithGlb = true;
+    for (const side of [-1, 1]) {
+      for (let f = 0; f < 6; f++) {
+        const feather = new THREE.Mesh(new THREE.BoxGeometry(0.95 - f * 0.1, 0.12, 0.22), wingMat);
+        feather.position.set(side * (0.48 + f * 0.22), f * 0.14, -f * 0.04);
+        feather.rotation.z = side * (0.32 + f * 0.08);
+        feather.userData.keepWithGlb = true;
+        wingsGroup.add(feather);
+      }
+    }
+    group.add(wingsGroup);
+
+    const eagleLight = new THREE.PointLight(0xffe294, 2.4, 16);
+    eagleLight.position.set(0, 2.6, 0.35);
+    group.add(eagleLight);
+
+    return { group, wingsGroup, eagleLight };
+  }
+
+  // Isaiah 60:1–3 (#35 "arise, shine" & Finale Plaza) — Eastern Gate of Zion Sunrise Arch & Seven Parapet Lamps
+  createIsaiah60AriseShineGateEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#8c7a62',
+      accentColor: pal.accent || '#ffdf94',
+      roughness: 0.84
+    });
+    const sunGoldMat = new THREE.MeshStandardMaterial({
+      color: 0xffd86b,
+      emissive: 0xff9d1a,
+      emissiveIntensity: 0.95,
+      roughness: 0.22,
+      metalness: 0.78
+    });
+
+    for (const sx of [-1.75, 1.75]) {
+      const pier = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.88, 3.4, 0.88, 4, 8, 4), 0.025, 3.2),
+        stoneMat
+      );
+      pier.position.set(sx, 1.7, -0.4);
+      pier.userData.keepWithGlb = true;
+      group.add(pier);
+    }
+
+    const sunArch = new THREE.Mesh(new THREE.TorusGeometry(1.75, 0.22, 14, 36, Math.PI), sunGoldMat);
+    sunArch.position.set(0, 3.2, -0.4);
+    sunArch.userData.keepWithGlb = true;
+    group.add(sunArch);
+
+    for (let r = 0; r < 7; r++) {
+      const ang = (r / 6) * Math.PI;
+      const ray = new THREE.Mesh(new THREE.ConeGeometry(0.08, 1.15, 8), sunGoldMat);
+      ray.position.set(Math.cos(ang) * 2.25, 3.2 + Math.sin(ang) * 2.25, -0.4);
+      ray.rotation.z = ang - Math.PI / 2;
+      ray.userData.keepWithGlb = true;
+      group.add(ray);
+    }
+
+    const shineLight = new THREE.PointLight(0xffe28a, isFinalePlaza ? 3.2 : 2.5, 20);
+    shineLight.position.set(0, 3.0, 0.5);
+    group.add(shineLight);
+
+    return { group, sunArch, shineLight };
+  }
+
+  // =========================================================================
+  // DISTRICTS XXVIII–XXXI: THE FOUR GOSPELS BESPOKE 3D PROP ENSEMBLES
+  // =========================================================================
+
+  // Luke 2:7 (#5 "no room") — Bethlehem Limestone Cave-Stable Arch, Feeding Trough & Oil Lamp
+  createLuke2BethlehemMangerEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#706250',
+      accentColor: pal.accent || '#f0cc82',
+      roughness: 0.88
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6b4c30',
+      accentColor: '#b5895a',
+      roughness: 0.84
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#f2ead8',
+      accentColor: '#ffffff',
+      roughness: 0.82
+    });
+
+    const caveArch = new THREE.Mesh(
+      this.displaceGeometry(new THREE.TorusGeometry(2.15, 0.46, 12, 28, Math.PI), 0.06, 2.8),
+      stoneMat
+    );
+    caveArch.position.set(0, 1.2, -1.15);
+    caveArch.userData.keepWithGlb = true;
+    group.add(caveArch);
+
+    const trough = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.28, 0.48, 0.74, 6, 3, 4), 0.02, 3.5),
+      woodMat
+    );
+    trough.position.set(0, 0.56, 0.15);
+    trough.userData.keepWithGlb = true;
+    group.add(trough);
+
+    const swaddling = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.36, 14, 10), 0.025, 4.0),
+      linenMat
+    );
+    swaddling.scale.set(1.45, 0.45, 0.85);
+    swaddling.position.set(0, 0.84, 0.15);
+    swaddling.userData.keepWithGlb = true;
+    group.add(swaddling);
+
+    const mangerLight = new THREE.PointLight(0xffdf8c, 2.6, 16);
+    mangerLight.position.set(0, 2.1, 0.35);
+    group.add(mangerLight);
+
+    return { group, mangerLight };
+  }
+
+  // Luke 10:33–34 (#19 "the Samaritan") — Lantern-Lit Roadside Inn Arch, Oil & Wine Flasks & Two Silver Denarii
+  createLuke10GoodSamaritanInnEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#85745e',
+      accentColor: pal.accent || '#f0cf8e',
+      roughness: 0.86
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a66540',
+      accentColor: '#de9f73',
+      roughness: 0.8
+    });
+    const silverMat = new THREE.MeshStandardMaterial({
+      color: 0xe6ecf5,
+      roughness: 0.28,
+      metalness: 0.85
+    });
+
+    const ledge = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.75, 0.76, 1.05, 6, 4, 4), 0.025, 3.2),
+      stoneMat
+    );
+    ledge.position.set(0, 0.38, 0);
+    ledge.userData.keepWithGlb = true;
+    group.add(ledge);
+
+    for (const [fx, fz, sc] of [[-0.45, 0.05, 1.0], [-0.12, -0.12, 0.88]]) {
+      const flask = new THREE.Mesh(new THREE.CylinderGeometry(0.11 * sc, 0.2 * sc, 0.52 * sc, 16), clayMat);
+      flask.position.set(fx, 0.76 + 0.26 * sc, fz);
+      flask.userData.keepWithGlb = true;
+      group.add(flask);
+    }
+
+    for (const cx of [0.32, 0.52]) {
+      const coin = new THREE.Mesh(new THREE.CylinderGeometry(0.075, 0.075, 0.02, 16), silverMat);
+      coin.position.set(cx, 0.78, 0.14);
+      coin.userData.keepWithGlb = true;
+      group.add(coin);
+    }
+
+    const innLight = new THREE.PointLight(0xffdc88, 2.4, 15);
+    innLight.position.set(0, 2.0, 0.3);
+    group.add(innLight);
+
+    return { group, innLight };
+  }
+
+  // Luke 15:20–22 (#27 "while still far off") — Father's Courtyard Gate, Best Robe, Signet Ring & Sandals
+  createLuke15ProdigalWelcomeEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#87765e',
+      accentColor: pal.accent || '#f5d996',
+      roughness: 0.86
+    });
+    const robeMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a2e2e',
+      accentColor: '#e8b668',
+      roughness: 0.82
+    });
+    const goldMat = new THREE.MeshStandardMaterial({
+      color: 0xf7ce65,
+      roughness: 0.28,
+      metalness: 0.82
+    });
+
+    const bench = this.createStoneBench(propTex, pal);
+    bench.position.set(0, 0.06, 0);
+    bench.userData.keepWithGlb = true;
+    group.add(bench);
+
+    const robe = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.78, 0.18, 0.56, 6, 2, 6), 0.02, 3.8),
+      robeMat
+    );
+    robe.position.set(-0.28, 0.68, 0.04);
+    robe.userData.keepWithGlb = true;
+    group.add(robe);
+
+    const ring = new THREE.Mesh(new THREE.TorusGeometry(0.08, 0.022, 10, 22), goldMat);
+    ring.rotation.x = Math.PI / 2;
+    ring.position.set(0.36, 0.66, 0.08);
+    ring.userData.keepWithGlb = true;
+    group.add(ring);
+
+    const welcomeLight = new THREE.PointLight(0xffe296, 2.5, 16);
+    welcomeLight.position.set(0, 2.2, 0.35);
+    group.add(welcomeLight);
+
+    return { group, welcomeLight };
+  }
+
+  // Luke 24:30–32 (#40 "burning hearts" & Finale Plaza) — Emmaus Table with Broken Bread Halves, Cup & Oil Lamp
+  createLuke24EmmausTableEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#694a2e',
+      accentColor: '#b38556',
+      roughness: 0.84
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#f5ecda',
+      accentColor: '#ffffff',
+      roughness: 0.86
+    });
+    const breadMat = new THREE.MeshStandardMaterial({
+      color: 0xd99b4e,
+      emissive: 0xffb84d,
+      emissiveIntensity: 0.42,
+      roughness: 0.65
+    });
+
+    const tableTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.95, 0.12, 1.18, 8, 2, 6), 0.015, 4.0),
+      woodMat
+    );
+    tableTop.position.y = 0.86;
+    tableTop.userData.keepWithGlb = true;
+    group.add(tableTop);
+
+    for (const [lx, lz] of [[-0.8, -0.45], [0.8, -0.45], [-0.8, 0.45], [0.8, 0.45]]) {
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.05, 0.82, 10), woodMat);
+      leg.position.set(lx, 0.42, lz);
+      leg.userData.keepWithGlb = true;
+      group.add(leg);
+    }
+
+    const runner = new THREE.Mesh(new THREE.BoxGeometry(1.05, 0.03, 1.22), linenMat);
+    runner.position.set(0, 0.93, 0);
+    runner.userData.keepWithGlb = true;
+    group.add(runner);
+
+    for (const bx of [-0.22, 0.16]) {
+      const halfLoaf = new THREE.Mesh(
+        this.displaceGeometry(new THREE.SphereGeometry(0.2, 14, 10), 0.02, 4.2),
+        breadMat
+      );
+      halfLoaf.scale.set(1.15, 0.62, 0.95);
+      halfLoaf.position.set(bx, 1.02, 0.06);
+      halfLoaf.userData.keepWithGlb = true;
+      group.add(halfLoaf);
+    }
+
+    const emmausLight = new THREE.PointLight(0xffdc84, isFinalePlaza ? 3.0 : 2.5, 16);
+    emmausLight.position.set(0, 2.0, 0.25);
+    group.add(emmausLight);
+
+    return { group, emmausLight };
+  }
+
+  // Matthew 2:1–11 (#4 "the star") — Radiant Bethlehem Star & Three Open Coffers of Gold, Frankincense & Myrrh
+  createMatthew2MagiStarGiftsEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#5c5248',
+      accentColor: pal.accent || '#f5d488',
+      roughness: 0.86
+    });
+    const goldMat = new THREE.MeshStandardMaterial({
+      color: 0xffd466,
+      emissive: 0x8c5e10,
+      emissiveIntensity: 0.65,
+      roughness: 0.25,
+      metalness: 0.84
+    });
+
+    const plinth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.65, 1.85, 0.24, 24), 0.02, 3.0),
+      stoneMat
+    );
+    plinth.position.y = 0.12;
+    plinth.userData.keepWithGlb = true;
+    group.add(plinth);
+
+    for (const [cx, cz, ry] of [[-0.68, 0.22, 0.35], [0, -0.28, 0], [0.68, 0.22, -0.35]]) {
+      const coffer = new THREE.Mesh(new THREE.BoxGeometry(0.46, 0.32, 0.34), goldMat);
+      coffer.position.set(cx, 0.4, cz);
+      coffer.rotation.y = ry;
+      coffer.userData.keepWithGlb = true;
+      group.add(coffer);
+    }
+
+    const starLight = new THREE.PointLight(0xffe89e, 2.8, 18);
+    starLight.position.set(0, 2.6, 0);
+    group.add(starLight);
+
+    return { group, starLight };
+  }
+
+  // Matthew 5:14–16 (#13 "on a stand") — Tall Lampstand with Blazing Oil Lamp & Overturned Bushel Basket
+  createMatthew5LampOnStandEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const bronzeMat = new THREE.MeshStandardMaterial({
+      color: 0xc49248,
+      roughness: 0.35,
+      metalness: 0.72
+    });
+    const basketMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7d5e3b',
+      accentColor: '#c49e6c',
+      roughness: 0.88
+    });
+
+    const standShaft = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.24, 1.65, 14), bronzeMat);
+    standShaft.position.set(0, 0.85, 0);
+    standShaft.userData.keepWithGlb = true;
+    group.add(standShaft);
+
+    const lampBody = new THREE.Mesh(new THREE.SphereGeometry(0.24, 14, 10), bronzeMat);
+    lampBody.scale.set(1.35, 0.62, 0.95);
+    lampBody.position.set(0, 1.72, 0);
+    lampBody.userData.keepWithGlb = true;
+    group.add(lampBody);
+
+    const flame = new THREE.Mesh(
+      new THREE.ConeGeometry(0.11, 0.32, 10),
+      new THREE.MeshBasicMaterial({ color: 0xfff0a8 })
+    );
+    flame.position.set(0.22, 1.92, 0);
+    flame.userData.keepWithGlb = true;
+    group.add(flame);
+
+    const bushel = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.42, 0.48, 16), basketMat);
+    bushel.position.set(-0.85, 0.28, 0.25);
+    bushel.rotation.z = 1.15;
+    bushel.userData.keepWithGlb = true;
+    group.add(bushel);
+
+    const lampStandLight = new THREE.PointLight(0xffe08c, 2.6, 16);
+    lampStandLight.position.set(0.22, 2.05, 0);
+    group.add(lampStandLight);
+
+    return { group, flame, lampStandLight };
+  }
+
+  // Matthew 28:1–10 (#39 "just like he said" & Finale Plaza) — Garden Tomb Facade & Rolled-Away Circular Stone
+  createMatthew28EmptyTombEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#8a7c66',
+      accentColor: pal.accent || '#f7dfa0',
+      roughness: 0.86
+    });
+
+    const tombFacade = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(3.4, 2.65, 1.45, 8, 6, 4), 0.045, 2.8),
+      stoneMat
+    );
+    tombFacade.position.set(-0.35, 1.32, -0.65);
+    tombFacade.userData.keepWithGlb = true;
+    group.add(tombFacade);
+
+    const rolledStone = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.98, 0.98, 0.34, 28), 0.025, 3.2),
+      stoneMat
+    );
+    rolledStone.rotation.x = Math.PI / 2;
+    rolledStone.rotation.z = -0.18;
+    rolledStone.position.set(1.25, 0.98, 0.24);
+    rolledStone.userData.keepWithGlb = true;
+    group.add(rolledStone);
+
+    const tombLight = new THREE.PointLight(0xffe89e, isFinalePlaza ? 3.1 : 2.6, 18);
+    tombLight.position.set(-0.35, 1.65, 0.35);
+    group.add(tombLight);
+
+    return { group, rolledStone, tombLight };
+  }
+
+  // Mark 6:37–42 (#18 "green grass") — Five Barley Loaves, Two Fish & Twelve Overflowing Wicker Baskets
+  createMark6GreenGrassBasketsEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const basketMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#82613c',
+      accentColor: '#c9a16b',
+      roughness: 0.86
+    });
+    const loafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c78c46',
+      accentColor: '#f5ca86',
+      roughness: 0.8
+    });
+
+    for (let i = 0; i < 12; i++) {
+      const ang = (i / 11) * Math.PI * 1.15 - 0.18;
+      const rad = 1.45 + (i % 2) * 0.32;
+      const basket = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.17, 0.34, 14), basketMat);
+      basket.position.set(Math.cos(ang) * rad, 0.17, -Math.sin(ang) * rad + 0.35);
+      basket.userData.keepWithGlb = true;
+      group.add(basket);
+
+      const topBread = new THREE.Mesh(new THREE.SphereGeometry(0.18, 10, 8), loafMat);
+      topBread.scale.set(1.1, 0.55, 1.0);
+      topBread.position.set(basket.position.x, 0.35, basket.position.z);
+      topBread.userData.keepWithGlb = true;
+      group.add(topBread);
+    }
+
+    const basketsLight = new THREE.PointLight(0xffe296, 2.4, 16);
+    basketsLight.position.set(0, 2.1, 0);
+    group.add(basketsLight);
+
+    return { group, basketsLight };
+  }
+
+  // Mark 10:46–52 (#27 "the cloak") — Jericho Roadside Stone, Cast-Off Striped Cloak & Walking Stick
+  createMark10BartimaeusCloakEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#8a7962',
+      accentColor: pal.accent || '#f0cf88',
+      roughness: 0.88
+    });
+    const cloakMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a4e32',
+      accentColor: '#d9a46c',
+      roughness: 0.86
+    });
+
+    const roadStone = new THREE.Mesh(
+      this.displaceGeometry(new THREE.DodecahedronGeometry(0.76, 1), 0.05, 3.0),
+      stoneMat
+    );
+    roadStone.scale.set(1.4, 0.72, 1.15);
+    roadStone.position.set(-0.35, 0.38, 0);
+    roadStone.userData.keepWithGlb = true;
+    group.add(roadStone);
+
+    const cloak = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.15, 0.22, 0.88, 8, 3, 6), 0.035, 3.8),
+      cloakMat
+    );
+    cloak.position.set(0.12, 0.62, 0.14);
+    cloak.rotation.z = -0.22;
+    cloak.userData.keepWithGlb = true;
+    group.add(cloak);
+
+    const cloakLight = new THREE.PointLight(0xffe294, 2.4, 15);
+    cloakLight.position.set(0, 2.1, 0.25);
+    group.add(cloakLight);
+
+    return { group, cloakLight };
+  }
+
+  // Mark 14:3–9 (#30 "broken open" & Finale Plaza) — Broken Alabaster Flask & Pooling Golden Nard Oil
+  createMark14AlabasterJarEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#7d6e5a',
+      accentColor: pal.accent || '#f2d290',
+      roughness: 0.86
+    });
+    const alabasterMat = new THREE.MeshStandardMaterial({
+      color: 0xfaf5eb,
+      emissive: 0xffe8b8,
+      emissiveIntensity: 0.28,
+      roughness: 0.26,
+      metalness: 0.08
+    });
+    const nardMat = new THREE.MeshStandardMaterial({
+      color: 0xf5be42,
+      emissive: 0xd98c14,
+      emissiveIntensity: 0.62,
+      roughness: 0.18,
+      metalness: 0.35
+    });
+
+    const table = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.35, 1.52, 0.42, 24), 0.02, 3.2),
+      stoneMat
+    );
+    table.position.y = 0.21;
+    table.userData.keepWithGlb = true;
+    group.add(table);
+
+    const flaskBody = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.28, 0.68, 18), alabasterMat);
+    flaskBody.position.set(-0.22, 0.62, 0);
+    flaskBody.rotation.z = 0.95;
+    flaskBody.userData.keepWithGlb = true;
+    group.add(flaskBody);
+
+    const brokenNeck = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.12, 0.28, 14), alabasterMat);
+    brokenNeck.position.set(0.34, 0.5, 0.18);
+    brokenNeck.rotation.z = -1.2;
+    brokenNeck.userData.keepWithGlb = true;
+    group.add(brokenNeck);
+
+    const nardPool = new THREE.Mesh(new THREE.CylinderGeometry(0.56, 0.58, 0.03, 24), nardMat);
+    nardPool.position.set(0.12, 0.43, 0.04);
+    nardPool.userData.keepWithGlb = true;
+    group.add(nardPool);
+
+    const nardLight = new THREE.PointLight(0xffdc80, isFinalePlaza ? 2.9 : 2.5, 16);
+    nardLight.position.set(0, 2.0, 0.25);
+    group.add(nardLight);
+
+    return { group, nardLight };
+  }
+
+  // John 2:1–10 (#6 "the good wine") — Six Carved Limestone Waterpots at Cana Brimming with Ruby-Gold Wine
+  createJohn2CanaStoneJarsEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#9c8d74',
+      accentColor: pal.accent || '#f5dfab',
+      roughness: 0.84
+    });
+    const wineMat = new THREE.MeshStandardMaterial({
+      color: 0x8c1d2e,
+      emissive: 0x59101c,
+      emissiveIntensity: 0.55,
+      roughness: 0.18,
+      metalness: 0.25
+    });
+
+    for (let i = 0; i < 6; i++) {
+      const ang = (i / 5) * Math.PI * 0.85 + 0.22;
+      const rad = 1.38;
+      const jx = Math.cos(ang) * rad;
+      const jz = -Math.sin(ang) * rad + 0.35;
+
+      const jar = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CylinderGeometry(0.24, 0.28, 0.82, 18, 4), 0.018, 3.5),
+        stoneMat
+      );
+      jar.position.set(jx, 0.41, jz);
+      jar.userData.keepWithGlb = true;
+      group.add(jar);
+
+      const wineTop = new THREE.Mesh(new THREE.CylinderGeometry(0.21, 0.21, 0.03, 16), wineMat);
+      wineTop.position.set(jx, 0.82, jz);
+      wineTop.userData.keepWithGlb = true;
+      group.add(wineTop);
+    }
+
+    const canaLight = new THREE.PointLight(0xffdc8c, 2.5, 16);
+    canaLight.position.set(0, 2.1, 0.2);
+    group.add(canaLight);
+
+    return { group, canaLight };
+  }
+
+  // John 4:13–28 (#9 "the jar left behind") — Stone-Curbed Well of Jacob & Left-Behind Terracotta Water Jar
+  createJohn4JacobsWellJarEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#8c7d66',
+      accentColor: pal.accent || '#f2d89c',
+      roughness: 0.86
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b06b42',
+      accentColor: '#e8a87c',
+      roughness: 0.8
+    });
+
+    const wellCurb = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.05, 1.18, 0.78, 22, 3), 0.03, 3.0),
+      stoneMat
+    );
+    wellCurb.position.y = 0.39;
+    wellCurb.userData.keepWithGlb = true;
+    group.add(wellCurb);
+
+    const jar = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.26, 0.62, 18), clayMat);
+    jar.position.set(0.72, 0.96, 0.35);
+    jar.rotation.z = -0.18;
+    jar.userData.keepWithGlb = true;
+    group.add(jar);
+
+    const wellLight = new THREE.PointLight(0xffe296, 2.5, 16);
+    wellLight.position.set(0, 2.1, 0.25);
+    group.add(wellLight);
+
+    return { group, wellLight };
+  }
+
+  // John 13:3–5 (#25 "twelve pairs") — Upper Room Foot-Washing Basin, Linen Towel & Circle of Sandals
+  createJohn13UpperRoomBasinEnsemble(propTex = null, pal = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const bronzeMat = new THREE.MeshStandardMaterial({
+      color: 0xc28e46,
+      roughness: 0.34,
+      metalness: 0.72
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#f5ede0',
+      accentColor: '#ffffff',
+      roughness: 0.84
+    });
+    const leatherMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#69482c',
+      accentColor: '#ab7e54',
+      roughness: 0.86
+    });
+
+    const basin = new THREE.Mesh(new THREE.CylinderGeometry(0.56, 0.38, 0.24, 24), bronzeMat);
+    basin.position.set(0, 0.28, 0);
+    basin.userData.keepWithGlb = true;
+    group.add(basin);
+
+    const towel = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.58, 0.08, 0.36, 6, 2, 4), 0.015, 4.0),
+      linenMat
+    );
+    towel.position.set(0.56, 0.26, 0.14);
+    towel.rotation.y = -0.35;
+    towel.userData.keepWithGlb = true;
+    group.add(towel);
+
+    for (let i = 0; i < 12; i++) {
+      const ang = (i / 12) * Math.PI * 2;
+      const rad = 1.48;
+      const sandal = new THREE.Mesh(new THREE.BoxGeometry(0.18, 0.04, 0.32), leatherMat);
+      sandal.position.set(Math.cos(ang) * rad, 0.08, Math.sin(ang) * rad);
+      sandal.rotation.y = -ang + Math.PI / 2;
+      sandal.userData.keepWithGlb = true;
+      group.add(sandal);
+    }
+
+    const basinLight = new THREE.PointLight(0xffdc88, 2.5, 16);
+    basinLight.position.set(0, 2.0, 0.2);
+    group.add(basinLight);
+
+    return { group, basinLight };
+  }
+
+  // John 21:9–12 (#39 "breakfast" & Finale Plaza) — Galilee Beach Charcoal Fire, Fish & Round Barley Loaf
+  createJohn21CharcoalBreakfastEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      map: propTex,
+      baseColor: pal.ground || '#6b655c',
+      accentColor: pal.accent || '#f5cf86',
+      roughness: 0.88
+    });
+    const emberMat = new THREE.MeshStandardMaterial({
+      color: 0xff6a18,
+      emissive: 0xff3b00,
+      emissiveIntensity: 1.35,
+      roughness: 0.3
+    });
+    const loafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c98e46',
+      accentColor: '#f5ca86',
+      roughness: 0.82
+    });
+
+    for (let i = 0; i < 10; i++) {
+      const ang = (i / 10) * Math.PI * 2;
+      const rStone = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(0.22, 1), 0.03, 3.5),
+        stoneMat
+      );
+      rStone.position.set(Math.cos(ang) * 0.68, 0.16, Math.sin(ang) * 0.68);
+      rStone.userData.keepWithGlb = true;
+      group.add(rStone);
+    }
+
+    const coals = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.54, 0.58, 0.16, 18), 0.03, 4.0),
+      emberMat
+    );
+    coals.position.y = 0.12;
+    coals.userData.keepWithGlb = true;
+    group.add(coals);
+
+    const breadLoaf = new THREE.Mesh(new THREE.SphereGeometry(0.22, 12, 10), loafMat);
+    breadLoaf.scale.set(1.2, 0.55, 1.0);
+    breadLoaf.position.set(0.95, 0.24, 0.25);
+    breadLoaf.userData.keepWithGlb = true;
+    group.add(breadLoaf);
+
+    const charcoalLight = new THREE.PointLight(0xff9438, isFinalePlaza ? 3.0 : 2.6, 16);
+    charcoalLight.position.set(0, 1.65, 0.15);
+    group.add(charcoalLight);
+
+    return { group, coals, charcoalLight, fireLight: charcoalLight };
+  }
+
+  // Revelation 8:3–5 (#17 "golden censer") — Horned Golden Altar & Angel's Censer of Prayers
+  createRevelation8GoldenCenserAltarEnsemble(propTex = null, pal = {}, withLight = true) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const goldMat = new THREE.MeshStandardMaterial({
+      color: 0xf7d26a,
+      emissive: 0x7a5410,
+      emissiveIntensity: 0.65,
+      roughness: 0.25,
+      metalness: 0.84
+    });
+
+    const emberMat = new THREE.MeshStandardMaterial({
+      color: 0xff6e24,
+      emissive: 0xff4500,
+      emissiveIntensity: 1.5,
+      roughness: 0.35
+    });
+
+    const altar = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.05, 1.25, 1.05, 4, 6, 4), 0.02, 4.0),
+      goldMat
+    );
+    altar.position.y = 0.62;
+    altar.userData.keepWithGlb = true;
+    group.add(altar);
+
+    // Four golden altar horns
+    for (const [hx, hz] of [[-0.46, -0.46], [0.46, -0.46], [-0.46, 0.46], [0.46, 0.46]]) {
+      const horn = new THREE.Mesh(new THREE.ConeGeometry(0.11, 0.28, 8), goldMat);
+      horn.position.set(hx, 1.36, hz);
+      horn.userData.keepWithGlb = true;
+      group.add(horn);
+    }
+
+    const censer = new THREE.Mesh(new THREE.SphereGeometry(0.26, 16, 12), goldMat);
+    censer.position.set(0, 1.54, 0);
+    censer.userData.keepWithGlb = true;
+    group.add(censer);
+
+    const coals = new THREE.Mesh(new THREE.SphereGeometry(0.18, 12, 10), emberMat);
+    coals.scale.set(1.1, 0.5, 1.1);
+    coals.position.set(0, 1.68, 0);
+    coals.userData.keepWithGlb = true;
+    group.add(coals);
+
+    let censerLight = null;
+    if (withLight) {
+      censerLight = new THREE.PointLight(0xffb84d, 2.5, 15);
+      censerLight.position.set(0, 2.0, 0);
+      group.add(censerLight);
+    }
+
+    return { group, censer, coals, censerLight };
+  }
+
+  // Mark 4:38 / Matthew 14:24 — Galilee Wooden Fishing Boat with Stern Cushion & Lantern
+  createStormBoatAndCushion(propTex = null, pal = {}, withLight = true) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c422c',
+      accentColor: '#9e7852',
+      roughness: 0.88,
+      map: propTex
+    });
+    const cushionMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c3b2b',
+      accentColor: '#e09a6c',
+      roughness: 0.84
+    });
+
+    const hull = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.95, 0.65, 2.8, 14), 0.03, 3.0),
+      woodMat
+    );
+    hull.rotation.z = Math.PI / 2;
+    hull.scale.set(0.55, 1.0, 0.85);
+    hull.position.y = 0.42;
+    hull.userData.keepWithGlb = true;
+    group.add(hull);
+
+    const cushion = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.58, 0.22, 0.68, 4, 2, 4), 0.02, 4.0),
+      cushionMat
+    );
+    cushion.position.set(-0.78, 0.56, 0);
+    cushion.userData.keepWithGlb = true;
+    group.add(cushion);
+
+    const mast = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.06, 2.1, 8), woodMat);
+    mast.position.set(0.2, 1.35, 0);
+    mast.userData.keepWithGlb = true;
+    group.add(mast);
+
+    let lanternLight = null;
+    if (withLight) {
+      lanternLight = new THREE.PointLight(0xffe299, 2.4, 15);
+      lanternLight.position.set(-0.5, 1.4, 0);
+      group.add(lanternLight);
+    }
+
+    return { group, hull, cushion, lanternLight };
+  }
 }

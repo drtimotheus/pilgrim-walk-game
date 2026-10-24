@@ -162,6 +162,113 @@ export class TripoRelicManager {
     }
   }
 
+  getRelicLocationInfo(relicId) {
+    if (!relicId) return null;
+    const item = this.relicById.get(relicId) || null;
+    const isConceptModeled = [
+      'praise-cymbals',
+      'zerubbabels-plumb-line',
+      'open-shackles',
+      'the-keystone',
+      'childs-sandals'
+    ].includes(relicId);
+    const isMuseLane = [
+      'nehushtan-bronze-serpent',
+      'tower-of-babel',
+      'golden-scepter',
+      'great-fish',
+      'the-manger',
+      'anchor-of-the-soul'
+    ].includes(relicId);
+    const isSourceFlagged = [
+      'choir-army-trumpet',
+      'wheel-within-a-wheel',
+      'door-of-hope'
+    ].includes(relicId);
+
+    const earlyRelicLocations = {
+      'pilgrim-lantern': { slug: 'genesis', paintingNum: 1, enterScene: false },
+      'sabbath-olive-tree': { slug: 'genesis', paintingNum: 4, enterScene: true },
+      'noah-stone-altar': { slug: 'genesis', paintingNum: 11, enterScene: true },
+      'tower-of-babel': { slug: 'genesis', paintingNum: 12, enterScene: true },
+      'burning-bush-crag': { slug: 'exodus', paintingNum: 5, enterScene: true },
+      'sinai-stone-tablets': { slug: 'exodus', paintingNum: 25, enterScene: false },
+      'bronze-altar-horns': { slug: 'fire-by-night', paintingNum: 5, enterScene: true },
+      'golden-menorah': { slug: 'fire-by-night', paintingNum: 21, enterScene: true },
+      'nehushtan-bronze-serpent': { slug: 'fire-by-night', paintingNum: 33, enterScene: true },
+      'shechem-witness-stone': { slug: 'choose-life', paintingNum: 30, enterScene: true },
+      'jericho-rams-horn-shofar': { slug: 'joshua-judges', paintingNum: 10, enterScene: true },
+      'joseph-coffin-chest': { slug: 'joshua-judges', paintingNum: 20, enterScene: false },
+      'gideon-broken-pitcher': { slug: 'joshua-judges', paintingNum: 33, enterScene: true },
+      'ruth-kinsman-sandal': { slug: 'ruth', paintingNum: 20, enterScene: true },
+      'samuel-clay-lamp': { slug: 'samuel', paintingNum: 6, enterScene: true },
+      'samuel-anointing-horn': { slug: 'samuel', paintingNum: 15, enterScene: true },
+      'elijah-folded-mantle': { slug: 'kings', paintingNum: 21, enterScene: true }
+    };
+
+    if (earlyRelicLocations[relicId]) {
+      return {
+        id: relicId,
+        item,
+        ...earlyRelicLocations[relicId],
+        isConceptModeled,
+        isMuseLane,
+        isSourceFlagged
+      };
+    }
+
+    for (const [slug, cfg] of Object.entries(this.districtHeroRelicPlacement)) {
+      if (cfg.id === relicId) {
+        return {
+          id: relicId,
+          item,
+          slug,
+          paintingNum: cfg.paintingNum,
+          enterScene: false,
+          isConceptModeled,
+          isMuseLane,
+          isSourceFlagged
+        };
+      }
+    }
+
+    return {
+      id: relicId,
+      item,
+      slug: 'genesis',
+      paintingNum: 1,
+      enterScene: false,
+      isConceptModeled,
+      isMuseLane,
+      isSourceFlagged
+    };
+  }
+
+  getDistrictPrimaryRelicInfo(slug) {
+    if (!slug) return null;
+    const earlyPrimary = {
+      genesis: { id: 'sabbath-olive-tree', paintingNum: 4, enterScene: true },
+      exodus: { id: 'burning-bush-crag', paintingNum: 5, enterScene: true },
+      'fire-by-night': { id: 'nehushtan-bronze-serpent', paintingNum: 33, enterScene: true },
+      'choose-life': { id: 'shechem-witness-stone', paintingNum: 30, enterScene: true },
+      'joshua-judges': { id: 'jericho-rams-horn-shofar', paintingNum: 10, enterScene: true },
+      ruth: { id: 'ruth-kinsman-sandal', paintingNum: 20, enterScene: true },
+      samuel: { id: 'samuel-clay-lamp', paintingNum: 6, enterScene: true },
+      kings: { id: 'elijah-folded-mantle', paintingNum: 21, enterScene: true }
+    };
+    const cfg = this.districtHeroRelicPlacement[slug] || earlyPrimary[slug];
+    if (!cfg) return null;
+    const item = this.relicById.get(cfg.id) || null;
+    return {
+      id: cfg.id,
+      title: item ? item.title : cfg.id,
+      slot: item ? item.slot : null,
+      paintingNum: cfg.paintingNum,
+      enterScene: Boolean(cfg.enterScene),
+      item
+    };
+  }
+
   async ensureRelicLoaded(id) {
     if (!id) return false;
     if (this.modelCache.has(id)) return true;

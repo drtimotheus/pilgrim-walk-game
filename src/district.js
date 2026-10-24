@@ -608,9 +608,15 @@ export class GenesisDistrictBuilder {
     const streetMotes = this.createStreetAtmosphereMotes(380);
     streetGroup.add(streetMotes);
 
+    const heroRelicNodes = [
+      ...(streetGroup.userData.heroRelicNodes || []),
+      ...(amenPlaza.group.userData.finaleHeroRelicNode ? [amenPlaza.group.userData.finaleHeroRelicNode] : [])
+    ];
+
     return {
       streetGroup,
       paintingNodes,
+      heroRelicNodes,
       partGatesAndLights,
       amenPlaza,
       streetMotes,
@@ -719,6 +725,7 @@ export class GenesisDistrictBuilder {
       if (slug === 'all-things-new') {
         // District XLIV (Revelation — "All Things New"):
         // Part 1–2: Seven Golden Lampstands & Throne Sanctuary
+        // Part 3: Golden Censer Altar ("half an hour", Rev 8:1–4)
         // Part 5: New Jerusalem Twelve Gates of Pearl along the River of Water of Life
         for (let i = 0; i < 12; i++) {
           const rz = -18 - i * 34.0;
@@ -730,10 +737,54 @@ export class GenesisDistrictBuilder {
             pearlGate.position.set(pt.x + (side > 0 ? 9.8 : -16.2), pt.y + 0.15, rz);
             pearlGate.lookAt(pt.x, pt.y + 0.5, rz);
             streetGroup.add(pearlGate);
+          } else if (i === 5 || i === 6) {
+            const censer = this.propBuilder.createRevelation8GoldenCenserAltarEnsemble(null, pal, false);
+            if (censer.censerLight) censer.group.remove(censer.censerLight);
+            censer.group.scale.setScalar(0.84);
+            censer.group.position.set(pt.x + (side > 0 ? 9.6 : -15.8), pt.y + 0.15, rz);
+            censer.group.lookAt(pt.x, pt.y + 0.5, rz);
+            streetGroup.add(censer.group);
           } else {
             const menorah = this.propBuilder.createGoldenMenorah(null, pal);
             menorah.scale.setScalar(0.85);
             menorah.position.set(pt.x + (side > 0 ? 9.5 : -16.2), pt.y + 0.3, rz);
+            streetGroup.add(menorah);
+          }
+        }
+        return;
+      }
+      if (slug === 'arise-shine') {
+        // District XX (Isaiah — "Arise, Shine"):
+        // Temple seraph altar braziers, peaceable kingdom olive groves, eagle crags, and radiant Zion gates
+        for (let i = 0; i < 12; i++) {
+          const rz = -18 - i * 34.0;
+          const pt = this.getPathPoint(rz);
+          const side = i % 2 === 0 ? 1 : -1;
+          if (i === 1) {
+            const altar = this.propBuilder.createIsaiah6LiveCoalAltarEnsemble(null, pal, false);
+            if (altar.coalLight) altar.group.remove(altar.coalLight);
+            altar.group.scale.setScalar(0.82);
+            altar.group.position.set(pt.x + (side > 0 ? 9.6 : -10.2), pt.y + 0.15, rz);
+            altar.group.lookAt(pt.x, pt.y + 0.4, rz);
+            streetGroup.add(altar.group);
+          } else if (i === 5 || i === 7) {
+            const crag = this.propBuilder.createIsaiah40EagleWingsCragEnsemble(null, pal, false);
+            if (crag.cragLight) crag.group.remove(crag.cragLight);
+            crag.group.scale.setScalar(0.82);
+            crag.group.position.set(pt.x + (side > 0 ? 10.4 : -10.8), pt.y + 0.1, rz);
+            crag.group.lookAt(pt.x, pt.y + 0.4, rz);
+            streetGroup.add(crag.group);
+          } else if (i >= 9) {
+            const gate = this.propBuilder.createIsaiah60AriseShineGateEnsemble(null, pal, false);
+            if (gate.dawnLight) gate.group.remove(gate.dawnLight);
+            gate.group.scale.setScalar(0.76);
+            gate.group.position.set(pt.x + (side > 0 ? 10.2 : -10.8), pt.y + 0.1, rz);
+            gate.group.lookAt(pt.x, pt.y + 0.5, rz);
+            streetGroup.add(gate.group);
+          } else {
+            const menorah = this.propBuilder.createGoldenMenorah(null, pal);
+            menorah.scale.setScalar(0.85);
+            menorah.position.set(pt.x + (side > 0 ? 9.5 : -10.2), pt.y + 0.3, rz);
             streetGroup.add(menorah);
           }
         }
@@ -934,7 +985,13 @@ export class GenesisDistrictBuilder {
         slug !== 'all-things-new' &&
         slug !== 'psalms-1' &&
         slug !== 'psalms-2' &&
-        slug !== 'psalms-3'
+        slug !== 'psalms-3' &&
+        slug !== 'psalms-4' &&
+        slug !== 'arise-shine' &&
+        slug !== 'good-news-of-great-joy' &&
+        slug !== 'i-am-with-you-always' &&
+        slug !== 'peace-be-still' &&
+        slug !== 'come-and-see'
       ) {
         const focal = this.propBuilder.createFocalPropForScene(pData.sceneType, null, pal);
         if (focal && focal.group) {
@@ -953,9 +1010,24 @@ export class GenesisDistrictBuilder {
     if (heroRelicCfg && heroRelicCfg.paintingNum === pData.n) {
       const heroPedestal = this.createHeroRelicSanctuaryPedestal(heroRelicCfg, pal);
       const offsetZ = pData.isScene ? wz - 5.2 : wz - 2.4;
-      heroPedestal.position.set(wx + side * 2.8, wy, offsetZ);
+      const rx = wx + side * 2.8;
+      heroPedestal.position.set(rx, wy, offsetZ);
       heroPedestal.lookAt(wx - side * 2.5, wy + 0.5, wz + 2.5);
       streetGroup.add(heroPedestal);
+
+      if (!streetGroup.userData.heroRelicNodes) {
+        streetGroup.userData.heroRelicNodes = [];
+      }
+      const roadPt = this.getPathPoint(offsetZ);
+      streetGroup.userData.heroRelicNodes.push({
+        id: heroRelicCfg.id,
+        paintingNum: pData.n,
+        paintingData: pData,
+        position: new THREE.Vector3(rx, wy, offsetZ),
+        roadPosition: new THREE.Vector3(rx - side * 2.3, roadPt.y, offsetZ + 1.6),
+        pedestalGroup: heroPedestal,
+        isFinale: false
+      });
       return;
     }
 
@@ -1099,6 +1171,15 @@ export class GenesisDistrictBuilder {
         lambRings.group.position.set(wx + side * 3.0, wy, wz - 2.2);
         lambRings.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
         streetGroup.add(lambRings.group);
+        return;
+      }
+      if (pData.n === 17 || pData.n === 18) {
+        const censer = this.propBuilder.createRevelation8GoldenCenserAltarEnsemble(null, pal, false);
+        if (censer.censerLight) censer.group.remove(censer.censerLight);
+        censer.group.scale.setScalar(0.74);
+        censer.group.position.set(wx + side * 3.0, wy, wz - 2.2);
+        censer.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(censer.group);
         return;
       }
       if (pData.n === 36) {
@@ -1368,6 +1449,191 @@ export class GenesisDistrictBuilder {
         streetGroup.add(goYourWay);
         return;
       }
+    } else if (slug === 'arise-shine') {
+      if (pData.n === 3 || pData.n === 4) {
+        const altar = this.propBuilder.createIsaiah6LiveCoalAltarEnsemble(null, pal, false);
+        if (altar.coalLight) altar.group.remove(altar.coalLight);
+        altar.group.scale.setScalar(0.74);
+        altar.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        altar.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(altar.group);
+        return;
+      }
+      if (pData.n === 9) {
+        const meadow = this.propBuilder.createIsaiah11WolfAndLambMeadowEnsemble(null, pal, false);
+        if (meadow.meadowLight) meadow.group.remove(meadow.meadowLight);
+        meadow.group.scale.setScalar(0.74);
+        meadow.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        meadow.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(meadow.group);
+        return;
+      }
+      if (pData.n === 19) {
+        const crag = this.propBuilder.createIsaiah40EagleWingsCragEnsemble(null, pal, false);
+        if (crag.cragLight) crag.group.remove(crag.cragLight);
+        crag.group.scale.setScalar(0.72);
+        crag.group.position.set(wx + side * 3.0, wy, wz - 2.4);
+        crag.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(crag.group);
+        return;
+      }
+      if (pData.n === 35 || pData.n === 40) {
+        const gate = this.propBuilder.createIsaiah60AriseShineGateEnsemble(null, pal, false);
+        if (gate.dawnLight) gate.group.remove(gate.dawnLight);
+        gate.group.scale.setScalar(0.72);
+        gate.group.position.set(wx + side * 3.0, wy, wz - 2.2);
+        gate.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(gate.group);
+        return;
+      }
+    } else if (slug === 'good-news-of-great-joy') {
+      if (pData.n === 5 || pData.n === 7) {
+        const manger = this.propBuilder.createLuke2BethlehemMangerEnsemble(null, pal, false);
+        if (manger.mangerLight) manger.group.remove(manger.mangerLight);
+        manger.group.scale.setScalar(0.74);
+        manger.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        manger.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(manger.group);
+        return;
+      }
+      if (pData.n === 19) {
+        const inn = this.propBuilder.createLuke10GoodSamaritanInnEnsemble(null, pal, false);
+        if (inn.innLight) inn.group.remove(inn.innLight);
+        inn.group.scale.setScalar(0.72);
+        inn.group.position.set(wx + side * 3.0, wy, wz - 2.2);
+        inn.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(inn.group);
+        return;
+      }
+      if (pData.n === 27) {
+        const prodigal = this.propBuilder.createLuke15ProdigalWelcomeEnsemble(null, pal, false);
+        if (prodigal.roadLight) prodigal.group.remove(prodigal.roadLight);
+        prodigal.group.scale.setScalar(0.72);
+        prodigal.group.position.set(wx + side * 3.0, wy, wz - 2.2);
+        prodigal.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(prodigal.group);
+        return;
+      }
+      if (pData.n === 40) {
+        const emmaus = this.propBuilder.createLuke24EmmausTableEnsemble(null, pal, false);
+        if (emmaus.tableLight) emmaus.group.remove(emmaus.tableLight);
+        emmaus.group.scale.setScalar(0.76);
+        emmaus.group.position.set(wx + side * 2.8, wy, wz - 2.0);
+        emmaus.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(emmaus.group);
+        return;
+      }
+    } else if (slug === 'i-am-with-you-always') {
+      if (pData.n === 4 || pData.n === 5) {
+        const magi = this.propBuilder.createMatthew2MagiStarGiftsEnsemble(null, pal, false);
+        if (magi.starLight) magi.group.remove(magi.starLight);
+        magi.group.scale.setScalar(0.74);
+        magi.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        magi.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(magi.group);
+        return;
+      }
+      if (pData.n === 13) {
+        const lamp = this.propBuilder.createMatthew5LampOnStandEnsemble(null, pal, false);
+        if (lamp.lampLight) lamp.group.remove(lamp.lampLight);
+        lamp.group.scale.setScalar(0.76);
+        lamp.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        lamp.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(lamp.group);
+        return;
+      }
+      if (pData.n === 26) {
+        const boat = this.propBuilder.createStormBoatAndCushion(null, pal);
+        if (boat.lanternLight) boat.group.remove(boat.lanternLight);
+        boat.group.scale.setScalar(0.72);
+        boat.group.position.set(wx + side * 3.0, wy, wz - 2.4);
+        boat.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(boat.group);
+        return;
+      }
+      if (pData.n === 39 || pData.n === 40) {
+        const tomb = this.propBuilder.createMatthew28EmptyTombEnsemble(null, pal, false);
+        if (tomb.tombLight) tomb.group.remove(tomb.tombLight);
+        tomb.group.scale.setScalar(0.72);
+        tomb.group.position.set(wx + side * 3.0, wy, wz - 2.4);
+        tomb.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(tomb.group);
+        return;
+      }
+    } else if (slug === 'peace-be-still') {
+      if (pData.n === 11 || pData.n === 12) {
+        const boat = this.propBuilder.createStormBoatAndCushion(null, pal);
+        if (boat.lanternLight) boat.group.remove(boat.lanternLight);
+        boat.group.scale.setScalar(0.72);
+        boat.group.position.set(wx + side * 3.0, wy, wz - 2.4);
+        boat.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(boat.group);
+        return;
+      }
+      if (pData.n === 18) {
+        const baskets = this.propBuilder.createMark6GreenGrassBasketsEnsemble(null, pal, false);
+        if (baskets.basketLight) baskets.group.remove(baskets.basketLight);
+        baskets.group.scale.setScalar(0.74);
+        baskets.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        baskets.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(baskets.group);
+        return;
+      }
+      if (pData.n === 27) {
+        const cloak = this.propBuilder.createMark10BartimaeusCloakEnsemble(null, pal, false);
+        if (cloak.cloakLight) cloak.group.remove(cloak.cloakLight);
+        cloak.group.scale.setScalar(0.76);
+        cloak.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        cloak.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(cloak.group);
+        return;
+      }
+      if (pData.n === 30) {
+        const jar = this.propBuilder.createMark14AlabasterJarEnsemble(null, pal, false);
+        if (jar.jarLight) jar.group.remove(jar.jarLight);
+        jar.group.scale.setScalar(0.76);
+        jar.group.position.set(wx + side * 2.8, wy, wz - 2.0);
+        jar.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(jar.group);
+        return;
+      }
+    } else if (slug === 'come-and-see') {
+      if (pData.n === 6) {
+        const jars = this.propBuilder.createJohn2CanaStoneJarsEnsemble(null, pal, false);
+        if (jars.canaLight) jars.group.remove(jars.canaLight);
+        jars.group.scale.setScalar(0.74);
+        jars.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        jars.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(jars.group);
+        return;
+      }
+      if (pData.n === 9) {
+        const well = this.propBuilder.createJohn4JacobsWellJarEnsemble(null, pal, false);
+        if (well.wellLight) well.group.remove(well.wellLight);
+        well.group.scale.setScalar(0.74);
+        well.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        well.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(well.group);
+        return;
+      }
+      if (pData.n === 25) {
+        const basin = this.propBuilder.createJohn13UpperRoomBasinEnsemble(null, pal, false);
+        if (basin.basinLight) basin.group.remove(basin.basinLight);
+        basin.group.scale.setScalar(0.74);
+        basin.group.position.set(wx + side * 2.8, wy, wz - 2.0);
+        basin.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(basin.group);
+        return;
+      }
+      if (pData.n === 39 || pData.n === 40) {
+        const charcoal = this.propBuilder.createJohn21CharcoalBreakfastEnsemble(null, pal, false);
+        if (charcoal.fireLight) charcoal.group.remove(charcoal.fireLight);
+        charcoal.group.scale.setScalar(0.76);
+        charcoal.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        charcoal.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(charcoal.group);
+        return;
+      }
     }
 
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
@@ -1455,7 +1721,12 @@ export class GenesisDistrictBuilder {
       'psalms-2': 'DISTRICT XIV · AS THE DEER — PSALMS 42–72',
       'psalms-3': 'DISTRICT XV · A DAY IN YOUR COURTS — PSALMS 73–106',
       'psalms-4': 'DISTRICT XVI · EVERYTHING THAT HAS BREATH — PSALMS 107–150',
+      'arise-shine': 'DISTRICT XX · ARISE, SHINE — ISAIAH',
       'greatly-beloved': 'DISTRICT XXIV · GREATLY BELOVED — DANIEL',
+      'good-news-of-great-joy': 'DISTRICT XXVIII · GOOD NEWS OF GREAT JOY — LUKE',
+      'i-am-with-you-always': 'DISTRICT XXIX · I AM WITH YOU ALWAYS — MATTHEW',
+      'peace-be-still': 'DISTRICT XXX · PEACE, BE STILL — MARK',
+      'come-and-see': 'DISTRICT XXXI · COME AND SEE — JOHN',
       'all-things-new': 'DISTRICT XLIV · ALL THINGS NEW — REVELATION'
     };
 
@@ -2219,6 +2490,115 @@ export class GenesisDistrictBuilder {
       ]
     };
 
+    const customLightMetaBySlug = {
+      'arise-shine': [
+        {
+          name: 'The Light of the Seraph’s Live Coal',
+          hint: 'Glowing beside the smoking altar & live coal in the tongs near “undone” & “the wolf and the lamb” (Part One)'
+        },
+        {
+          name: 'The Light of the Desert Rose & Watchman’s Wall',
+          hint: 'Shining beside the blossoming desert & watchtower near “the feast on the mountain” & “blossom in the desert” (Part Two)'
+        },
+        {
+          name: 'The Light of Comfort & Eagle’s Wings',
+          hint: 'Resting beside the high mountain crag & rising eagle near “comfort” & “wings like eagles” (Part Three)'
+        },
+        {
+          name: 'The Light of the Suffering Servant',
+          hint: 'Glowing beside the tender shoot out of dry ground near “can a mother forget?” & “no beauty” (Part Four)'
+        },
+        {
+          name: 'The Light of New Heavens & New Earth',
+          hint: 'Shining before the open radiant gates of Zion near “arise, shine” & “new heavens and a new earth” before the Amen Gate (Part Five)'
+        }
+      ],
+      'good-news-of-great-joy': [
+        {
+          name: 'The Light of the Bethlehem Manger',
+          hint: 'Shining beside the limestone feeding trough & shepherds’ lantern near “no room” & “the sign” (Part One)'
+        },
+        {
+          name: 'The Light of the Open Scroll & Bursting Nets',
+          hint: 'Glowing beside the synagogue scroll & Galilee shore near “the scroll” & “don’t be afraid” (Part Two)'
+        },
+        {
+          name: 'The Light of the Good Samaritan’s Inn',
+          hint: 'Resting beside the Jericho road inn threshold, oil flask & two silver coins near “two denarii” & “one thing” (Part Three)'
+        },
+        {
+          name: 'The Light of the Father’s Road Home',
+          hint: 'Shining beside the open courtyard gate, best robe, ring & sandals near “a long way off” & “up in a tree” (Part Four)'
+        },
+        {
+          name: 'The Light of the Emmaus Table & Burning Hearts',
+          hint: 'Glowing beside the broken loaf & warm oil lamp near “why do you look here?” & “he broke the bread” before the Amen Gate (Part Five)'
+        }
+      ],
+      'i-am-with-you-always': [
+        {
+          name: 'The Light of the Star Over the House',
+          hint: 'Shining beside the gold, frankincense & myrrh caskets under the Bethlehem star near “the star” & “by night” (Part One)'
+        },
+        {
+          name: 'The Light of the Lamp on the Stand',
+          hint: 'Glowing on the Galilean hillside beside the tall wooden lampstand near “a lamp on a stand” & “consider the lilies” (Part Two)'
+        },
+        {
+          name: 'The Light of the Easy Yoke & Rest',
+          hint: 'Resting beside the carpenter’s smooth wooden yoke near “two sparrows” & “my yoke is easy” (Part Three)'
+        },
+        {
+          name: 'The Light of the Hand on the Waves',
+          hint: 'Shining above the dark Galilee swells near “Immediately Jesus stretched out his hand” & “on this rock” (Part Four)'
+        },
+        {
+          name: 'The Light of the Rolled-Away Stone & Always',
+          hint: 'Glowing beside the empty garden tomb & folded linen near “he is not here” & “always” before the Amen Gate (Part Five)'
+        }
+      ],
+      'peace-be-still': [
+        {
+          name: 'The Light of the Dropped Nets & Open Roof',
+          hint: 'Shining along the Capernaum shore near “immediately they left their nets” & “through the roof” (Part One)'
+        },
+        {
+          name: 'The Light of the Cushion in the Stern',
+          hint: 'Glowing beside the Galilee fishing boat & green grass baskets near “the cushion” & “twelve baskets” (Part Two)'
+        },
+        {
+          name: 'The Light of Bartimaeus’s Thrown-Off Cloak',
+          hint: 'Resting beside the Jericho roadside stone & cast-aside cloak near “help my unbelief” & “he threw off his cloak” (Part Three)'
+        },
+        {
+          name: 'The Light of the Broken Alabaster Jar & Empty Tomb',
+          hint: 'Shining beside the fragrant nard & open garden tomb near “she broke the jar” & “and Peter” before the Amen Gate (Part Four)'
+        }
+      ],
+      'come-and-see': [
+        {
+          name: 'The Light of the Six Stone Jars at Cana',
+          hint: 'Shining beside the six limestone waterpots brimming with ruby wine near “come and see” & “the best for last” (Part One)'
+        },
+        {
+          name: 'The Light of Jacob’s Well at Noon',
+          hint: 'Glowing beside the forgotten clay water jar on the well curb near “the jar left behind” & “five barley loaves” (Part Two)'
+        },
+        {
+          name: 'The Light of the Good Shepherd’s Gate',
+          hint: 'Resting beside the sheepfold threshold & Bethany tomb near “I was blind, now I see” & “Lazarus, come out” (Part Three)'
+        },
+        {
+          name: 'The Light of the Basin & the Linen Towel',
+          hint: 'Shining in the Upper Room beside the bronze foot-washing basin near “twelve pairs” & “the vine and the branches” (Part Four)'
+        },
+        {
+          name: 'The Light of the Charcoal Fire on the Beach',
+          hint: 'Glowing beside the Sea of Galilee embers, fish & bread near “while it was still dark” & “a charcoal fire” before the Amen Gate (Part Five)'
+        }
+      ]
+    };
+
     let lightConfigs = lightsBySlug[slug];
     if (!lightConfigs && manifest.parts) {
       lightConfigs = manifest.parts.map((p) => {
@@ -2228,11 +2608,12 @@ export class GenesisDistrictBuilder {
         const midNode = partNodes[Math.max(0, partNodes.length - 2)];
         const lightZ = midNode ? midNode.roadPosition.z - 2.4 : -60.0 * partNum;
         const veilZ = lastNode ? lastNode.roadPosition.z - 4.4 : lightZ - 18.0;
+        const meta = customLightMetaBySlug[slug]?.[partNum - 1];
         return {
           part: partNum,
           id: `${slug}-light-${partNum}`,
-          name: p.lightName || `The Light of ${p.title}`,
-          hint: p.lightHint || `Glowing near Part ${partNum}: ${p.title} (${p.epigraphRef || ''})`,
+          name: meta?.name || p.lightName || `The Light of ${p.title}`,
+          hint: meta?.hint || p.lightHint || `Glowing near Part ${partNum}: ${p.title} (${p.epigraphRef || ''})`,
           z: lightZ,
           lateral: partNum % 2 === 1 ? 6.0 : -6.0,
           height: 1.72,
@@ -2502,6 +2883,121 @@ export class GenesisDistrictBuilder {
       pearlGate.position.set(-5.2, 0.1, -4.5);
       pearlGate.rotation.y = 0.45;
       group.add(pearlGate);
+
+      const censerFinale = this.propBuilder.createRevelation8GoldenCenserAltarEnsemble(
+        null,
+        { ground: '#786c5a', horizon: '#b8b08e', accent: '#ffeba6' },
+        false
+      );
+      if (censerFinale.censerLight) censerFinale.group.remove(censerFinale.censerLight);
+      censerFinale.group.scale.setScalar(0.76);
+      censerFinale.group.position.set(-2.8, 0.1, -5.6);
+      censerFinale.group.rotation.y = 0.28;
+      group.add(censerFinale.group);
+    } else if (slug === 'arise-shine') {
+      // District XX Finale (Isaiah): The Open Gates of Zion ("Arise, shine; for your light has come", Isa 60:1)
+      // paired with the Peaceable Kingdom Meadow (Wolf & Lamb, Isa 11:6)
+      const isaiahGate = this.propBuilder.createIsaiah60AriseShineGateEnsemble(
+        null,
+        { ground: '#7c6b54', horizon: '#e6b873', accent: '#ffe69e' },
+        true
+      );
+      isaiahGate.group.position.set(0, 0.1, -4.0);
+      group.add(isaiahGate.group);
+
+      const wolfLamb = this.propBuilder.createIsaiah11WolfAndLambMeadowEnsemble(
+        null,
+        { ground: '#6d7854', horizon: '#d9bc82', accent: '#f7df9c' },
+        false
+      );
+      if (wolfLamb.meadowLight) wolfLamb.group.remove(wolfLamb.meadowLight);
+      wolfLamb.group.scale.setScalar(0.78);
+      wolfLamb.group.position.set(-3.4, 0.1, -4.4);
+      wolfLamb.group.rotation.y = 0.35;
+      group.add(wolfLamb.group);
+    } else if (slug === 'good-news-of-great-joy') {
+      // District XXVIII Finale (Luke): The Emmaus Supper Table ("he took the bread and blessed; and breaking it, he gave to them", Luke 24:30–32)
+      // paired with the Father's Open Road Home (Luke 15:20)
+      const emmausFinale = this.propBuilder.createLuke24EmmausTableEnsemble(
+        null,
+        { ground: '#756450', horizon: '#d9a66c', accent: '#ffe099' },
+        true
+      );
+      emmausFinale.group.position.set(0, 0.1, -3.8);
+      group.add(emmausFinale.group);
+
+      const prodigalFinale = this.propBuilder.createLuke15ProdigalWelcomeEnsemble(
+        null,
+        { ground: '#786854', horizon: '#deb278', accent: '#ffe3a3' },
+        false
+      );
+      if (prodigalFinale.roadLight) prodigalFinale.group.remove(prodigalFinale.roadLight);
+      prodigalFinale.group.scale.setScalar(0.74);
+      prodigalFinale.group.position.set(-3.4, 0.1, -4.6);
+      prodigalFinale.group.rotation.y = 0.36;
+      group.add(prodigalFinale.group);
+    } else if (slug === 'i-am-with-you-always') {
+      // District XXIX Finale (Matthew): The Empty Garden Tomb with Rolled-Away Stone (Matt 28:2–6)
+      // paired with the Lamp on the Stand on the Mountain of Galilaean Commissioning ("I am with you always", Matt 28:20)
+      const tombFinale = this.propBuilder.createMatthew28EmptyTombEnsemble(
+        null,
+        { ground: '#786d5c', horizon: '#dec088', accent: '#ffe8a8' },
+        true
+      );
+      tombFinale.group.position.set(0, 0.1, -4.0);
+      group.add(tombFinale.group);
+
+      const lampStandFinale = this.propBuilder.createMatthew5LampOnStandEnsemble(
+        null,
+        { ground: '#786d5c', horizon: '#dec088', accent: '#ffe8a8' },
+        false
+      );
+      if (lampStandFinale.lampLight) lampStandFinale.group.remove(lampStandFinale.lampLight);
+      lampStandFinale.group.scale.setScalar(0.78);
+      lampStandFinale.group.position.set(-3.4, 0.1, -4.4);
+      lampStandFinale.group.rotation.y = 0.35;
+      group.add(lampStandFinale.group);
+    } else if (slug === 'peace-be-still') {
+      // District XXX Finale (Mark): The Broken Alabaster Jar of Spikenard ("Wherever this Good News is preached...", Mark 14:3–9)
+      // paired with the Galilee Boat & Stern Cushion ("Peace, be still!", Mark 4:38–39)
+      const alabasterFinale = this.propBuilder.createMark14AlabasterJarEnsemble(
+        null,
+        { ground: '#736553', horizon: '#c9a878', accent: '#ffe29e' },
+        true
+      );
+      alabasterFinale.group.position.set(0, 0.1, -3.8);
+      group.add(alabasterFinale.group);
+
+      const markBoatFinale = this.propBuilder.createStormBoatAndCushion(
+        null,
+        { ground: '#5c5244', horizon: '#9cb0b8', accent: '#ffe29e' }
+      );
+      if (markBoatFinale.lanternLight) markBoatFinale.group.remove(markBoatFinale.lanternLight);
+      markBoatFinale.group.scale.setScalar(0.68);
+      markBoatFinale.group.position.set(-3.4, 0.1, -4.6);
+      markBoatFinale.group.rotation.y = 0.38;
+      group.add(markBoatFinale.group);
+    } else if (slug === 'come-and-see') {
+      // District XXXI Finale (John): The Charcoal Fire on the Galilee Beach ("Come and eat breakfast", John 21:9–12)
+      // paired with the Six Stone Jars of Cana (John 2:6–10)
+      const charcoalFinale = this.propBuilder.createJohn21CharcoalBreakfastEnsemble(
+        null,
+        { ground: '#756856', horizon: '#cfa974', accent: '#ffe4a0' },
+        true
+      );
+      charcoalFinale.group.position.set(0, 0.1, -3.8);
+      group.add(charcoalFinale.group);
+
+      const canaFinale = this.propBuilder.createJohn2CanaStoneJarsEnsemble(
+        null,
+        { ground: '#786c5a', horizon: '#cfa974', accent: '#ffe4a0' },
+        false
+      );
+      if (canaFinale.canaLight) canaFinale.group.remove(canaFinale.canaLight);
+      canaFinale.group.scale.setScalar(0.74);
+      canaFinale.group.position.set(-3.4, 0.1, -4.6);
+      canaFinale.group.rotation.y = 0.36;
+      group.add(canaFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -2532,22 +3028,36 @@ export class GenesisDistrictBuilder {
     const finaleRelicCfg = this.propBuilder.tripo?.districtHeroRelicPlacement?.[slug];
     if (finaleRelicCfg) {
       const lastPainting = manifest.paintings && manifest.paintings[manifest.paintings.length - 1];
-      const finalePal = (lastPainting && lastPainting.palette) || {
+      const sourcePainting =
+        (manifest.paintings || []).find((p) => p.n === finaleRelicCfg.paintingNum) || lastPainting;
+      const finalePal = (sourcePainting && sourcePainting.palette) || {
         ground: '#786c5a',
         accent: '#f0d298',
         horizon: '#c9a874'
       };
       const finaleRelicPedestal = this.createHeroRelicSanctuaryPedestal(finaleRelicCfg, finalePal);
+      const relX = slug === 'all-things-new' ? 2.4 : 4.2;
+      const relZ = slug === 'all-things-new' ? -2.8 : -3.4;
       if (slug === 'all-things-new') {
         finaleRelicPedestal.scale.setScalar(0.82);
-        finaleRelicPedestal.position.set(2.4, 0.1, -2.8);
+        finaleRelicPedestal.position.set(relX, 0.1, relZ);
         finaleRelicPedestal.rotation.y = -0.35;
       } else {
         finaleRelicPedestal.scale.setScalar(0.95);
-        finaleRelicPedestal.position.set(4.2, 0.1, -3.4);
+        finaleRelicPedestal.position.set(relX, 0.1, relZ);
         finaleRelicPedestal.lookAt(0, 0.5, 4.0);
       }
       group.add(finaleRelicPedestal);
+
+      group.userData.finaleHeroRelicNode = {
+        id: finaleRelicCfg.id,
+        paintingNum: finaleRelicCfg.paintingNum,
+        paintingData: sourcePainting,
+        position: new THREE.Vector3(pt.x + relX, pt.y + 0.1, pt.z + relZ),
+        roadPosition: new THREE.Vector3(pt.x + relX * 0.35, pt.y, pt.z + relZ + 2.8),
+        pedestalGroup: finaleRelicPedestal,
+        isFinale: true
+      };
     }
 
     const amenConfigs = {
@@ -2615,6 +3125,31 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · GREATLY BELOVED COMPLETED',
         epigraph: 'But go your way until the end; for you will rest, and will stand in your allotted inheritance at the end of the days.',
         epigraphRef: 'DANIEL 12:13 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXV: A DOOR OF HOPE'
+      },
+      'arise-shine': {
+        title: 'AMEN GATE · ARISE, SHINE COMPLETED',
+        epigraph: 'Arise, shine; for your light has come, and Yahweh’s glory has risen on you — Behold, I create new heavens and a new earth.',
+        epigraphRef: 'ISAIAH 60:1 & 65:17 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXI: A FUTURE AND A HOPE'
+      },
+      'good-news-of-great-joy': {
+        title: 'AMEN GATE · GOOD NEWS OF GREAT JOY COMPLETED',
+        epigraph: 'Weren’t our hearts burning within us, while he spoke to us along the way, and while he opened the Scriptures to us?',
+        epigraphRef: 'LUKE 24:32 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXIX: I AM WITH YOU ALWAYS'
+      },
+      'i-am-with-you-always': {
+        title: 'AMEN GATE · I AM WITH YOU ALWAYS COMPLETED',
+        epigraph: 'Behold, I am with you always, even to the end of the age. Amen.',
+        epigraphRef: 'MATTHEW 28:20 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXX: PEACE, BE STILL'
+      },
+      'peace-be-still': {
+        title: 'AMEN GATE · PEACE, BE STILL COMPLETED',
+        epigraph: 'Don’t be amazed. You seek Jesus, the Nazarene, who has been crucified. He has risen! Go, tell his disciples and Peter.',
+        epigraphRef: 'MARK 16:6–7 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXI: COME AND SEE'
+      },
+      'come-and-see': {
+        title: 'AMEN GATE · COME AND SEE COMPLETED',
+        epigraph: 'Jesus said to them, “Come and eat breakfast.” — These are written, that you may believe that Jesus is the Christ, the Son of God.',
+        epigraphRef: 'JOHN 20:31 & 21:12 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXII: TO THE ENDS OF THE EARTH'
       },
       'all-things-new': {
         title: 'AMEN GATE · ALL THINGS NEW COMPLETED',
@@ -2815,6 +3350,22 @@ export class GenesisDistrictBuilder {
     trimRing.position.y = 0.24;
     trimRing.userData.keepWithGlb = true;
     outer.add(trimRing);
+
+    // Carved brass & limestone inscription plaque on the front of the sanctuary pedestal (+Z facing the street)
+    const plaqueStand = new THREE.Mesh(
+      this.propBuilder.displaceGeometry(new THREE.BoxGeometry(0.68, 0.24, 0.14, 3, 2, 2), 0.01, 2.5),
+      stoneMat
+    );
+    plaqueStand.position.set(0, 0.18, 1.24);
+    plaqueStand.rotation.x = -0.36;
+    plaqueStand.userData.keepWithGlb = true;
+    outer.add(plaqueStand);
+
+    const brassFace = new THREE.Mesh(new THREE.BoxGeometry(0.58, 0.16, 0.03), goldMat);
+    brassFace.position.set(0, 0.20, 1.30);
+    brassFace.rotation.x = -0.36;
+    brassFace.userData.keepWithGlb = true;
+    outer.add(brassFace);
 
     const mountGroup = new THREE.Group();
     if (relicCfg.royalCushion) {

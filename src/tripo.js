@@ -29,7 +29,17 @@ export class TripoRelicManager {
       'joshua-judges': ['jericho-rams-horn-shofar', 'shechem-witness-stone', 'joseph-coffin-chest', 'gideon-broken-pitcher'],
       ruth: ['ruth-kinsman-sandal'],
       samuel: ['samuel-clay-lamp', 'samuel-anointing-horn'],
-      kings: ['elijah-folded-mantle']
+      kings: ['elijah-folded-mantle'],
+      'our-eyes-are-on-you': ['choir-army-trumpet'],
+      'rise-up-and-build': ['trowel-and-sword'],
+      'for-such-a-time-as-this': ['golden-scepter'],
+      'out-of-the-whirlwind': ['ash-heap-potsherd']
+    };
+    this.districtHeroRelicPlacement = {
+      'our-eyes-are-on-you': { id: 'choir-army-trumpet', paintingNum: 25, scale: 1.0, yOffset: 0.24 },
+      'rise-up-and-build': { id: 'trowel-and-sword', paintingNum: 29, scale: 1.0, yOffset: 0.24 },
+      'for-such-a-time-as-this': { id: 'golden-scepter', paintingNum: 18, scale: 1.0, yOffset: 0.34, royalCushion: true },
+      'out-of-the-whirlwind': { id: 'ash-heap-potsherd', paintingNum: 4, scale: 1.0, yOffset: 0.24 }
     };
     this.namedSceneRelicMap = {
       'genesis-4': 'sabbath-olive-tree',
@@ -71,7 +81,7 @@ export class TripoRelicManager {
 
   async init() {
     try {
-      const res = await fetch('assets/models/tripo-manifest.json?v=44_21');
+      const res = await fetch('assets/models/tripo-manifest.json?v=44_29');
       this.manifest = await res.json();
     } catch (e) {
       console.warn('Tripo manifest load fallback:', e);

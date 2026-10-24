@@ -190,6 +190,50 @@
       "targetScale": 3.8,
       "imageTo3DTip": "Modeled from g-032-012.jpg (Relic-Reference-Paintings/14-genesis-12__tower-of-babel.jpg) with the Relic Maker.",
       "textPrompt": "Ancient Mesopotamian stepped mud-brick ziggurat tower of Babel rising into dusty golden clouds on the plain of Shinar, unfinished upper tiers and scaffolding ramps, painterly oil-on-linen brushwork"
+    },
+    {
+      "slot": 18,
+      "id": "choir-army-trumpet",
+      "file": "assets/models/choir-army-trumpet.glb",
+      "title": "The Choir-Army Trumpet",
+      "district": "District IX · Our Eyes Are on You (No. 25 “the singers went first”)",
+      "paintingRef": "assets/our-eyes-are-on-you/web/b-009-025.jpg",
+      "targetScale": 2.8,
+      "imageTo3DTip": "Modeled in the sunlit Judean stone and silver-gold palette of b-009-025.jpg (and companion trumpet paintings b-009-018.jpg / b-009-026.jpg) — the long silver temple trumpet of the singers who went before the army (2 Chr 20:20–22).",
+      "textPrompt": "Ancient biblical long hammered silver temple trumpet (chatsotserah) with engraved golden bands and braided gold tassel cord resting on a carved Judean limestone pedestal, warm oil-on-linen brushwork"
+    },
+    {
+      "slot": 19,
+      "id": "trowel-and-sword",
+      "file": "assets/models/trowel-and-sword.glb",
+      "title": "The Trowel & the Sword",
+      "district": "District X · Rise Up and Build (No. 29 “one hand”)",
+      "paintingRef": "assets/rise-up-and-build/web/b-010-029.jpg",
+      "targetScale": 2.5,
+      "imageTo3DTip": "Modeled from b-010-029.jpg — the builder’s mason trowel and short sword crossed upon the dressed Jerusalem wall stones (“with one of his hands wrought in the work, and with the other held a weapon”, Neh 4:16–18).",
+      "textPrompt": "Ancient iron mason's builder trowel with wooden handle crossed over a bronze-hilted short sword atop dressed Jerusalem limestone wall blocks, warm golden-hour oil painting texture"
+    },
+    {
+      "slot": 20,
+      "id": "golden-scepter",
+      "file": "assets/models/golden-scepter.glb",
+      "title": "The Golden Scepter",
+      "district": "District XI · For Such a Time as This (No. 18 “the golden scepter”)",
+      "paintingRef": "assets/for-such-a-time-as-this/web/b-011-018.jpg",
+      "targetScale": 2.6,
+      "imageTo3DTip": "Modeled from b-011-018.jpg with the Relic Maker (Muse lane) — the king’s extended golden scepter on a royal Persian cushion base (Esther 5:2).",
+      "textPrompt": "Ancient Persian royal golden scepter with fluted lotus crown head and engraved gold shaft resting on a royal cushion base, warm oil-on-linen brushwork"
+    },
+    {
+      "slot": 21,
+      "id": "ash-heap-potsherd",
+      "file": "assets/models/ash-heap-potsherd.glb",
+      "title": "The Ash-Heap Potsherd",
+      "district": "District XII · Out of the Whirlwind (No. 4 “the ash heap”)",
+      "paintingRef": "assets/out-of-the-whirlwind/web/b-012-004.jpg",
+      "targetScale": 2.6,
+      "imageTo3DTip": "Modeled from b-012-004.jpg — the monumental cracked Edomite clay storage vessel and broken dark-banded terracotta potsherd resting on a grey ash mound (Job 2:7–8).",
+      "textPrompt": "Monumental cracked ancient clay storage vessel and jagged broken terracotta potsherd with dark painted bands resting on a weathered grey ash mound, warm dawn oil painting texture"
     }
   ]
 }

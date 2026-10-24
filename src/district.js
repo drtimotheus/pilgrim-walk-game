@@ -513,6 +513,23 @@ export class GenesisDistrictBuilder {
     const gatehouseArch = this.buildGatehouseCourtyard(manifest);
     streetGroup.add(gatehouseArch);
 
+    // 6b. Mount District Hero Relic at the Street Entrance Approach Overlook (Districts IX–XLIV)
+    //     Visible immediately on approach after passing the Gatehouse Arch, clear of the road & veils
+    const heroRelicCfg = this.propBuilder.tripo?.districtHeroRelicPlacement?.[slug];
+    if (heroRelicCfg) {
+      const firstPal = (paintings[0] && paintings[0].palette) || {
+        ground: biomeCfg.groundColor,
+        accent: biomeCfg.groundAccent,
+        horizon: biomeCfg.skyHorizon
+      };
+      const heroEntrance = this.createHeroRelicSanctuaryPedestal(heroRelicCfg, firstPal);
+      const hrZ = -3.6;
+      const hrPt = this.getPathPoint(hrZ);
+      heroEntrance.position.set(hrPt.x + 5.0, hrPt.y, hrZ);
+      heroEntrance.lookAt(hrPt.x, hrPt.y + 0.6, hrZ + 8.0);
+      streetGroup.add(heroEntrance);
+    }
+
     // 7. Place Part Banners dynamically aligned with each Part's starting painting
     manifest.parts.forEach((part) => {
       const startIdx = Math.max(0, (part.startN || 1) - 1);
@@ -928,6 +945,17 @@ export class GenesisDistrictBuilder {
           streetGroup.add(focal.group);
         }
       }
+    }
+
+    // 1b. If this painting is the named Source Painting for the District's Hero Relic (Districts IX–XLIV),
+    //     mount the Hero Relic on its sculpted Sanctuary Pedestal right beside this painting!
+    const heroRelicCfg = this.propBuilder.tripo?.districtHeroRelicPlacement?.[slug];
+    if (heroRelicCfg && heroRelicCfg.paintingNum === pData.n) {
+      const heroPedestal = this.createHeroRelicSanctuaryPedestal(heroRelicCfg, pal);
+      const offsetZ = pData.isScene ? wz - 5.2 : wz - 2.4;
+      heroPedestal.position.set(wx + side * 2.8, wy, offsetZ);
+      heroPedestal.lookAt(wx - side * 2.5, wy + 0.5, wz + 2.5);
+      streetGroup.add(heroPedestal);
     }
 
     // 2. Book-Specific Iconic Event Models along the Street
@@ -2498,6 +2526,29 @@ export class GenesisDistrictBuilder {
       group.add(finaleBench);
     }
 
+    // Mount the District's Hero Relic in the Finale Plaza to rhyme with the book's culmination
+    // (For XLIV Revelation, place the White Stone right beside the Tree of Life Stone Bench!)
+    const finaleRelicCfg = this.propBuilder.tripo?.districtHeroRelicPlacement?.[slug];
+    if (finaleRelicCfg) {
+      const lastPainting = manifest.paintings && manifest.paintings[manifest.paintings.length - 1];
+      const finalePal = (lastPainting && lastPainting.palette) || {
+        ground: '#786c5a',
+        accent: '#f0d298',
+        horizon: '#c9a874'
+      };
+      const finaleRelicPedestal = this.createHeroRelicSanctuaryPedestal(finaleRelicCfg, finalePal);
+      if (slug === 'all-things-new') {
+        finaleRelicPedestal.scale.setScalar(0.82);
+        finaleRelicPedestal.position.set(2.4, 0.1, -2.8);
+        finaleRelicPedestal.rotation.y = -0.35;
+      } else {
+        finaleRelicPedestal.scale.setScalar(0.95);
+        finaleRelicPedestal.position.set(4.2, 0.1, -3.4);
+        finaleRelicPedestal.lookAt(0, 0.5, 4.0);
+      }
+      group.add(finaleRelicPedestal);
+    }
+
     const amenConfigs = {
       genesis: {
         title: 'AMEN GATE · IN THE BEGINNING COMPLETED',
@@ -2730,6 +2781,78 @@ export class GenesisDistrictBuilder {
       minZ: -112,
       maxZ: 14
     };
+  }
+
+  createHeroRelicSanctuaryPedestal(relicCfg, pal = {}) {
+    const THREE = this.THREE;
+    const outer = new THREE.Group();
+    outer.name = `HeroRelicPedestal_${relicCfg.id}`;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: pal.ground || '#786a56',
+      accentColor: pal.accent || '#e6c687',
+      roughness: 0.86,
+      bumpScale: 0.05
+    });
+    const goldMat = this.painterly.createPainterlyMaterial({
+      baseColor: pal.accent || '#dfb870',
+      accentColor: '#fff1c2',
+      roughness: 0.42
+    });
+
+    // Stepped sanctuary plinth grounded at y = 0
+    const basePlinth = new THREE.Mesh(
+      this.propBuilder.displaceGeometry(new THREE.CylinderGeometry(1.18, 1.38, 0.24, 20), 0.02, 3.0),
+      stoneMat
+    );
+    basePlinth.position.y = 0.12;
+    basePlinth.userData.keepWithGlb = true;
+    outer.add(basePlinth);
+
+    const trimRing = new THREE.Mesh(new THREE.TorusGeometry(1.16, 0.032, 10, 32), goldMat);
+    trimRing.rotation.x = Math.PI / 2;
+    trimRing.position.y = 0.24;
+    trimRing.userData.keepWithGlb = true;
+    outer.add(trimRing);
+
+    const mountGroup = new THREE.Group();
+    if (relicCfg.royalCushion) {
+      // Royal Persian lapis-and-gold fringed cushion base for Esther's Golden Scepter
+      const cushionMat = this.painterly.createPainterlyMaterial({
+        baseColor: '#2c4a7a',
+        accentColor: pal.accent || '#f0c86e',
+        roughness: 0.68
+      });
+      const cushion = new THREE.Mesh(
+        this.propBuilder.displaceGeometry(new THREE.BoxGeometry(1.15, 0.22, 1.15, 6, 3, 6), 0.025, 3.2),
+        cushionMat
+      );
+      cushion.position.y = 0.32;
+      cushion.userData.keepWithGlb = true;
+      outer.add(cushion);
+
+      const cordRim = new THREE.Mesh(
+        this.propBuilder.displaceGeometry(new THREE.BoxGeometry(1.22, 0.06, 1.22, 4, 2, 4), 0.015, 2.5),
+        goldMat
+      );
+      cordRim.position.y = 0.32;
+      cordRim.userData.keepWithGlb = true;
+      outer.add(cordRim);
+
+      // Angle the king's extended golden scepter upward from the royal cushion
+      mountGroup.rotation.x = -0.62;
+    }
+
+    outer.add(mountGroup);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountRelic(mountGroup, relicCfg.id, {
+        scale: relicCfg.scale || 1.0,
+        yOffset: relicCfg.yOffset ?? 0.24
+      });
+    }
+
+    return outer;
   }
 
   createStreetAtmosphereMotes(count = 380) {

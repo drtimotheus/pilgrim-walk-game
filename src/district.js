@@ -2414,6 +2414,53 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'joy-in-chains') {
+      if (pData.n === 3 || pData.n === 4) {
+        const guardTable = this.propBuilder.createPhilippians1PraetorianHelmetAndScrollTableEnsemble({
+          isFinalePlaza: false
+        });
+        if (guardTable.guardLight) guardTable.group.remove(guardTable.guardLight);
+        guardTable.group.scale.setScalar(0.74);
+        guardTable.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        guardTable.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(guardTable.group);
+        return;
+      }
+      if (pData.n === 7 || pData.n === 8) {
+        const servantBasin = this.propBuilder.createPhilippians2ServantBasinAndTowelStairsEnsemble({
+          isFinalePlaza: false
+        });
+        if (servantBasin.servantLight) servantBasin.group.remove(servantBasin.servantLight);
+        servantBasin.group.scale.setScalar(0.74);
+        servantBasin.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        servantBasin.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(servantBasin.group);
+        return;
+      }
+      if (pData.n === 14 || pData.n === 17) {
+        const stadiumTrack = this.propBuilder.createPhilippians3StadiumTrackAndFinishWreathEnsemble({
+          isFinalePlaza: false
+        });
+        if (stadiumTrack.trackLight) stadiumTrack.group.remove(stadiumTrack.trackLight);
+        stadiumTrack.group.scale.setScalar(0.72);
+        stadiumTrack.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        stadiumTrack.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(stadiumTrack.group);
+        return;
+      }
+      if (pData.n === 21 || pData.n === 24) {
+        const sentryGate = this.propBuilder.createPhilippians4SentryGateAndLanternEnsemble({
+          isFinalePlaza: false
+        });
+        if (sentryGate.sentryLight) sentryGate.group.remove(sentryGate.sentryLight);
+        sentryGate.group.scale.setScalar(0.72);
+        sentryGate.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        sentryGate.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(sentryGate.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2516,6 +2563,7 @@ export class GenesisDistrictBuilder {
       'nothing-can-separate': 'DISTRICT XXXIII · NOTHING CAN SEPARATE — ROMANS',
       'treasure-in-clay-jars': 'DISTRICT XXXIV · TREASURE IN CLAY JARS — 1 & 2 CORINTHIANS',
       'rooted-and-free': 'DISTRICT XXXV · ROOTED AND FREE — GALATIANS & EPHESIANS',
+      'joy-in-chains': 'DISTRICT XXXVI · JOY IN CHAINS — PHILIPPIANS',
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
       'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
       'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
@@ -3594,6 +3642,48 @@ export class GenesisDistrictBuilder {
           lateral: -5.8,
           height: 1.75,
           veilZ: -426.0
+        }
+      ],
+      'joy-in-chains': [
+        {
+          part: 1,
+          id: 'joy-in-chains-light-1',
+          name: 'The Light of the Palace Guard & Unhindered Gospel',
+          hint: 'Shining beside the Praetorian helmet, crimson cloak & letter scroll near “the palace guard” & “two doors” (Part One)',
+          z: -44.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -62.5
+        },
+        {
+          part: 2,
+          id: 'joy-in-chains-light-2',
+          name: 'The Light of the Servant’s Basin & Window Lamp',
+          hint: 'Glowing beside the foot-washing basin, folded towel & open shackles near “the way down” & “one window” (Part Two)',
+          z: -108.0,
+          lateral: -6.0,
+          height: 1.72,
+          veilZ: -128.8
+        },
+        {
+          part: 3,
+          id: 'joy-in-chains-light-3',
+          name: 'The Light of the Upward Call & Finish-Line Wreath',
+          hint: 'Shining along the stadium track toward the olive victory wreath near “one thing” & “citizens” (Part Three)',
+          z: -182.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -195.2
+        },
+        {
+          part: 4,
+          id: 'joy-in-chains-light-4',
+          name: 'The Light of Peace Standing Sentry',
+          hint: 'Glowing from the night watch-lantern at the arched city gate near “the sentry” & “fragrance” before the Amen Gate (Part Four)',
+          z: -242.0,
+          lateral: -5.8,
+          height: 1.75,
+          veilZ: -261.5
         }
       ]
     };
@@ -4700,6 +4790,21 @@ export class GenesisDistrictBuilder {
       armorFinale.group.position.set(-3.4, 0.1, -4.6);
       armorFinale.group.rotation.y = 0.36;
       group.add(armorFinale.group);
+    } else if (slug === 'joy-in-chains') {
+      const sentryFinale = this.propBuilder.createPhilippians4SentryGateAndLanternEnsemble({
+        isFinalePlaza: true
+      });
+      sentryFinale.group.position.set(0, 0.1, -3.8);
+      group.add(sentryFinale.group);
+
+      const basinFinale = this.propBuilder.createPhilippians2ServantBasinAndTowelStairsEnsemble({
+        isFinalePlaza: false
+      });
+      if (basinFinale.servantLight) basinFinale.group.remove(basinFinale.servantLight);
+      basinFinale.group.scale.setScalar(0.74);
+      basinFinale.group.position.set(-3.4, 0.1, -4.6);
+      basinFinale.group.rotation.y = 0.36;
+      group.add(basinFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -4907,6 +5012,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · ROOTED AND FREE COMPLETED',
         epigraph: 'Being rooted and grounded in love — take up the whole armor of God, and having done all, to stand.',
         epigraphRef: 'EPHESIANS 3:17 & 6:13 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXVI: JOY IN CHAINS'
+      },
+      'joy-in-chains': {
+        title: 'AMEN GATE · JOY IN CHAINS COMPLETED',
+        epigraph: 'Rejoice in the Lord always! And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.',
+        epigraphRef: 'PHILIPPIANS 4:4–7 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXVII: HELD TOGETHER'
       },
       'anchor-of-the-soul': {
         title: 'AMEN GATE · ANCHOR OF THE SOUL COMPLETED',

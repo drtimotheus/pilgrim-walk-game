@@ -434,6 +434,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateEphesians30RootedInLoveTreeScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'armor_of_god_table') {
       signatureState = this.populateEphesians39ArmorOfGodTableScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'praetorian_scroll_chain') {
+      signatureState = this.populatePhilippians4PraetorianGuardScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'servant_towel_crown') {
+      signatureState = this.populatePhilippians8ServantBasinScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'finish_line_pillar') {
+      signatureState = this.populatePhilippians17FinishLinePillarScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'peace_on_guard_lantern') {
+      signatureState = this.populatePhilippians21SentryGateScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -484,7 +492,8 @@ export class StepThroughSceneManager {
         'vine_and_fig_tree', 'habakkuk_watchtower', 'zechariah_olive_lampstand', 'book_of_remembrance',
         'grace_where_we_stand', 'spirit_of_adoption', 'nothing_can_separate_rock', 'grafted_olive_tree',
         'communion_cup_loaf', 'bronze_mirror_face', 'treasure_in_clay_jars', 'sufficient_grace_thorn',
-        'fruit_of_the_spirit_grove', 'broken_dividing_wall', 'rooted_in_love_tree', 'armor_of_god_table'
+        'fruit_of_the_spirit_grove', 'broken_dividing_wall', 'rooted_in_love_tree', 'armor_of_god_table',
+        'praetorian_scroll_chain', 'servant_towel_crown', 'finish_line_pillar', 'peace_on_guard_lantern'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -7138,6 +7147,148 @@ export class StepThroughSceneManager {
         if (near) this._eph39Latch = Math.min(1.0, (this._eph39Latch || 0) + dt * 0.65);
         const val = this._eph39Latch || 0;
         rig.armorLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XXXVI: Philippians (joy-in-chains) ---
+  populatePhilippians4PraetorianGuardScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createPhilippians1PraetorianHelmetAndScrollTableEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'joy-in-chains', 4, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.6, '#ffe3a3');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Praetorian Guard’s Helmet, Crimson Cloak & Letter Scroll',
+      signatureActivatedText:
+        '“…so that it became evident to the whole palace guard, and to all the rest, that my bonds are in Christ.” (Philippians 1:13)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._phil4Latch = Math.min(1.0, (this._phil4Latch || 0) + dt * 0.65);
+        const val = this._phil4Latch || 0;
+        rig.guardLight.intensity = 2.7 + val * 3.1;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populatePhilippians8ServantBasinScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createPhilippians2ServantBasinAndTowelStairsEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'joy-in-chains', 8, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.8, '#fff0c4');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Kneel Beside the Servant’s Water Basin & Folded Towel at the Foot of the Stairs',
+      signatureActivatedText:
+        '“…who, existing in the form of God, didn’t consider equality with God a thing to be grasped, but emptied himself, taking the form of a servant…” (Philippians 2:6–7)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._phil8Latch = Math.min(1.0, (this._phil8Latch || 0) + dt * 0.65);
+        const val = this._phil8Latch || 0;
+        rig.waterDisc.position.y = 0.22 + Math.sin(time * 2.2) * 0.008;
+        rig.servantLight.intensity = 2.7 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populatePhilippians17FinishLinePillarScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createPhilippians3StadiumTrackAndFinishWreathEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'joy-in-chains', 17, { targetHeight: 3.1, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.98, 3.8, '#ffe6a6');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Press Forward Along the Stadium Track Toward the Finish-Line Wreath',
+      signatureActivatedText:
+        '“…forgetting the things which are behind, and stretching forward to the things which are before, I press on toward the goal for the prize of the high calling of God in Christ Jesus.” (Philippians 3:13–14)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._phil17Latch = Math.min(1.0, (this._phil17Latch || 0) + dt * 0.65);
+        const val = this._phil17Latch || 0;
+        rig.victoryWreath.rotation.y = Math.sin(time * 1.4) * 0.08;
+        rig.trackLight.intensity = 2.8 + val * 3.3;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populatePhilippians21SentryGateScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    if (skyDome && skyDome.material && skyDome.material.uniforms) {
+      skyDome.material.uniforms.uStarIntensity.value = 0.85;
+    }
+    const rig = this.propBuilder.createPhilippians4SentryGateAndLanternEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'joy-in-chains', 21, { targetHeight: 3.1, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffcf78');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand Beside the Night Sentry Gate & Watch-Lantern of Peace',
+      signatureActivatedText:
+        '“And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.” (Philippians 4:7)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._phil21Latch = Math.min(1.0, (this._phil21Latch || 0) + dt * 0.65);
+        const val = this._phil21Latch || 0;
+        rig.sentryLight.intensity = 2.9 + Math.sin(time * 3.2) * 0.2 + val * 3.3;
         return near || val > 0.85;
       }
     };

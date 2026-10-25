@@ -13615,4 +13615,524 @@ export class PainterlyPropBuilder {
 
     return { group, breastplateGroup, shieldGroup, helmetGroup, swordGroup, armorLight };
   }
+
+  // =========================================================================
+  // DISTRICT XXXVI: JOY IN CHAINS (Philippians)
+  // =========================================================================
+
+  /**
+   * Philippians 1:13 (#4 "the palace guard"):
+   * A heavy wooden table beside an open sunlit doorway into the Roman courtyard; resting on
+   * the table are a Roman Praetorian guard's bronze helmet with a tall crimson-red plume crest,
+   * a draped crimson military cloak on the left, a small clay cup, and an unrolled parchment
+   * letter scroll on the right.
+   */
+  createPhilippians1PraetorianHelmetAndScrollTableEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Philippians1PraetorianHelmetAndScrollTableEnsemble';
+
+    const woodTableMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c4b37',
+      accentColor: '#917a5c',
+      roughness: 0.84,
+      map: propTex
+    });
+    const bronzeHelmetMat = new THREE.MeshStandardMaterial({
+      color: 0x8f805c,
+      emissive: 0x261f10,
+      emissiveIntensity: 0.22,
+      roughness: 0.35,
+      metalness: 0.74
+    });
+    const crimsonCrestMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e342d',
+      accentColor: '#a65449',
+      roughness: 0.78,
+      map: propTex
+    });
+    const parchmentMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#dfd1b2',
+      accentColor: '#f7eed8',
+      roughness: 0.65,
+      map: propTex
+    });
+    const clayCupMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#756046',
+      accentColor: '#ab916f',
+      roughness: 0.80,
+      map: propTex
+    });
+
+    // Heavy wooden guardroom table top & legs
+    const tableTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.15, 0.14, 1.25, 6, 2, 4), 0.015, 3.4),
+      woodTableMat
+    );
+    tableTop.position.y = 0.76;
+    tableTop.userData.keepWithGlb = true;
+    group.add(tableTop);
+
+    for (const [lx, lz] of [[-0.82, -0.42], [0.82, -0.42], [-0.82, 0.42], [0.82, 0.42]]) {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.18, 0.70, 0.18), woodTableMat);
+      leg.position.set(lx, 0.35, lz);
+      leg.userData.keepWithGlb = true;
+      group.add(leg);
+    }
+
+    // Draped crimson Praetorian cloak cascading over the left edge of the table
+    const cloakTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.76, 0.18, 0.92, 5, 2, 5), 0.025, 3.6),
+      crimsonCrestMat
+    );
+    cloakTop.position.set(-0.68, 0.88, 0.04);
+    cloakTop.rotation.y = 0.14;
+    cloakTop.userData.keepWithGlb = true;
+    group.add(cloakTop);
+
+    const cloakDrape = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.32, 0.64, 0.78, 3, 5, 4), 0.028, 3.8),
+      crimsonCrestMat
+    );
+    cloakDrape.position.set(-0.98, 0.56, 0.08);
+    cloakDrape.rotation.z = 0.16;
+    cloakDrape.userData.keepWithGlb = true;
+    group.add(cloakDrape);
+
+    // Roman Praetorian bronze helmet with tall crimson plume crest at center-left
+    const helmetGroup = new THREE.Group();
+    helmetGroup.position.set(-0.14, 1.06, 0.04);
+    helmetGroup.rotation.y = 0.32;
+    helmetGroup.userData.keepWithGlb = true;
+
+    const helmetBowl = new THREE.Mesh(
+      new THREE.SphereGeometry(0.28, 20, 16, 0, Math.PI * 2, 0, Math.PI * 0.58),
+      bronzeHelmetMat
+    );
+    const browRidge = new THREE.Mesh(new THREE.TorusGeometry(0.285, 0.026, 10, 24), bronzeHelmetMat);
+    browRidge.rotation.x = Math.PI / 2;
+    const neckGuard = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.36, 0.12, 16, 1, true, Math.PI * 0.65, Math.PI * 0.7), bronzeHelmetMat);
+    neckGuard.position.set(0, -0.06, -0.05);
+    helmetGroup.add(helmetBowl, browRidge, neckGuard);
+
+    // Cheek guards (bucculae)
+    for (const cx of [-0.22, 0.22]) {
+      const cheekGuard = new THREE.Mesh(new THREE.BoxGeometry(0.036, 0.24, 0.18), bronzeHelmetMat);
+      cheekGuard.position.set(cx, -0.12, 0.10);
+      cheekGuard.rotation.y = cx < 0 ? 0.18 : -0.18;
+      helmetGroup.add(cheekGuard);
+    }
+
+    // Bronze crest holder & tall crimson horsehair plume arc
+    const crestHolder = new THREE.Mesh(new THREE.TorusGeometry(0.29, 0.025, 8, 18, Math.PI * 0.85), bronzeHelmetMat);
+    crestHolder.rotation.y = Math.PI / 2;
+    crestHolder.rotation.z = 0.12;
+    const crimsonPlume = new THREE.Mesh(
+      this.displaceGeometry(new THREE.TorusGeometry(0.36, 0.095, 10, 24, Math.PI * 0.92), 0.012, 5.0),
+      crimsonCrestMat
+    );
+    crimsonPlume.scale.set(1.0, 1.0, 0.42);
+    crimsonPlume.rotation.y = Math.PI / 2;
+    crimsonPlume.rotation.z = 0.08;
+    helmetGroup.add(crestHolder, crimsonPlume);
+    group.add(helmetGroup);
+
+    // Small clay bowl & unrolled parchment letter scroll on the right side of the table
+    const clayBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.08, 0.12, 16), clayCupMat);
+    clayBowl.position.set(0.28, 0.89, -0.12);
+    clayBowl.userData.keepWithGlb = true;
+    group.add(clayBowl);
+
+    const scrollGroup = new THREE.Group();
+    scrollGroup.position.set(0.56, 0.85, 0.12);
+    scrollGroup.rotation.y = -0.24;
+    scrollGroup.userData.keepWithGlb = true;
+
+    const parchmentSheet = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.48, 0.025, 0.36, 4, 1, 4), 0.008, 4.2),
+      parchmentMat
+    );
+    const scrollRoll = new THREE.Mesh(new THREE.CylinderGeometry(0.036, 0.036, 0.38, 14), parchmentMat);
+    scrollRoll.rotation.x = Math.PI / 2;
+    scrollRoll.position.set(0.22, 0.02, 0);
+    scrollGroup.add(parchmentSheet, scrollRoll);
+    group.add(scrollGroup);
+
+    const guardLight = new THREE.PointLight(0xffe3a3, isFinalePlaza ? 3.2 : 2.7, 18);
+    guardLight.position.set(0.25, 1.85, 0.45);
+    group.add(guardLight);
+
+    return { group, helmetGroup, scrollGroup, guardLight };
+  }
+
+  /**
+   * Philippians 2:6–8 (#8 "the way down"):
+   * At the foot of sunlit descending stone steps sits a wide terracotta foot-washing basin
+   * filled with clear water, a softly folded fringed cream linen servant's towel resting on
+   * the stone floor in front-right, and a tall clay water amphora with an olive branch.
+   */
+  createPhilippians2ServantBasinAndTowelStairsEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Philippians2ServantBasinAndTowelStairsEnsemble';
+
+    const stoneStepMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b5a990',
+      accentColor: '#ebe0c5',
+      roughness: 0.86,
+      map: propTex
+    });
+    const terracottaMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8f7555',
+      accentColor: '#c9b08e',
+      roughness: 0.76,
+      map: propTex
+    });
+    const waterMat = new THREE.MeshStandardMaterial({
+      color: 0x566c75,
+      emissive: 0x1b282e,
+      emissiveIntensity: 0.25,
+      roughness: 0.16,
+      metalness: 0.22,
+      transparent: true,
+      opacity: 0.90
+    });
+    const linenTowelMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9ceb4',
+      accentColor: '#fcf3e0',
+      roughness: 0.68,
+      map: propTex
+    });
+    const oliveLeafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#697352',
+      accentColor: '#9da882',
+      roughness: 0.74,
+      map: propTex
+    });
+
+    // Flagstone landing & three descending limestone steps in the background ("came down the stairs")
+    const floorLanding = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.35, 0.14, 1.85, 6, 2, 6), 0.016, 3.2),
+      stoneStepMat
+    );
+    floorLanding.position.set(0, 0.07, 0.15);
+    floorLanding.userData.keepWithGlb = true;
+    group.add(floorLanding);
+
+    for (let s = 0; s < 3; s++) {
+      const step = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(1.95, 0.22, 0.42, 6, 2, 3), 0.018, 3.6),
+        stoneStepMat
+      );
+      step.position.set(-0.08, 0.24 + s * 0.21, -0.48 - s * 0.36);
+      step.userData.keepWithGlb = true;
+      group.add(step);
+    }
+
+    // Wide terracotta foot-washing basin filled with water at center-left
+    const basinGroup = new THREE.Group();
+    basinGroup.position.set(-0.14, 0.14, 0.24);
+    basinGroup.userData.keepWithGlb = true;
+
+    const basinWall = new THREE.Mesh(new THREE.CylinderGeometry(0.58, 0.36, 0.28, 28), terracottaMat);
+    basinWall.position.y = 0.14;
+    const basinRim = new THREE.Mesh(new THREE.TorusGeometry(0.57, 0.038, 12, 28), terracottaMat);
+    basinRim.rotation.x = Math.PI / 2;
+    basinRim.position.y = 0.27;
+    const waterDisc = new THREE.Mesh(new THREE.CylinderGeometry(0.52, 0.50, 0.04, 26), waterMat);
+    waterDisc.position.y = 0.22;
+    basinGroup.add(basinWall, basinRim, waterDisc);
+    group.add(basinGroup);
+
+    // Softly folded fringed cream linen servant's towel resting on the stone landing in front-right
+    const towelGroup = new THREE.Group();
+    towelGroup.position.set(0.32, 0.22, 0.56);
+    towelGroup.rotation.y = -0.34;
+    towelGroup.userData.keepWithGlb = true;
+
+    const towelLowerFold = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.68, 0.11, 0.54, 6, 2, 5), 0.022, 3.8),
+      linenTowelMat
+    );
+    const towelUpperCrest = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.54, 0.14, 0.42, 5, 2, 4), 0.025, 4.2),
+      linenTowelMat
+    );
+    towelUpperCrest.position.set(-0.06, 0.10, -0.04);
+    towelUpperCrest.rotation.z = 0.18;
+    towelGroup.add(towelLowerFold, towelUpperCrest);
+    group.add(towelGroup);
+
+    // Tall clay water amphora with olive branch on the right
+    const amphoraGroup = new THREE.Group();
+    amphoraGroup.position.set(0.84, 0.14, -0.12);
+    amphoraGroup.userData.keepWithGlb = true;
+
+    const jarBody = new THREE.Mesh(new THREE.SphereGeometry(0.28, 16, 14), terracottaMat);
+    jarBody.scale.set(1.0, 1.38, 1.0);
+    jarBody.position.y = 0.36;
+    const jarRim = new THREE.Mesh(new THREE.TorusGeometry(0.18, 0.032, 10, 20), terracottaMat);
+    jarRim.rotation.x = Math.PI / 2;
+    jarRim.position.y = 0.72;
+    const oliveSprig = new THREE.Mesh(new THREE.BoxGeometry(0.42, 0.36, 0.08), oliveLeafMat);
+    oliveSprig.position.set(-0.08, 0.92, 0);
+    oliveSprig.rotation.z = 0.35;
+    amphoraGroup.add(jarBody, jarRim, oliveSprig);
+    group.add(amphoraGroup);
+
+    const servantLight = new THREE.PointLight(0xfff0c4, isFinalePlaza ? 3.2 : 2.7, 18);
+    servantLight.position.set(0.0, 1.88, 0.35);
+    group.add(servantLight);
+
+    return { group, basinGroup, towelGroup, waterDisc, servantLight };
+  }
+
+  /**
+   * Philippians 3:13–14 (#17 "one thing"):
+   * A sunlit stadium track bordered by stone seating tiers on the left, leading to twin
+   * finish-line stone pillars crowned with a suspended olive victory wreath; in the foreground
+   * sit a wooden bench draped with a white linen tunic, kicked-off leather sandals, and a fresh
+   * olive branch beside runner's footprints pressing toward the goal.
+   */
+  createPhilippians3StadiumTrackAndFinishWreathEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Philippians3StadiumTrackAndFinishWreathEnsemble';
+
+    const trackSandMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b8aa8c',
+      accentColor: '#ebe0c5',
+      roughness: 0.86,
+      map: propTex
+    });
+    const stoneTierMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a3967a',
+      accentColor: '#dfd3b8',
+      roughness: 0.88,
+      map: propTex
+    });
+    const woodBenchMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e5b43',
+      accentColor: '#a38c6d',
+      roughness: 0.82,
+      map: propTex
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#dfd5be',
+      accentColor: '#faf3e1',
+      roughness: 0.68,
+      map: propTex
+    });
+    const leatherMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c4631',
+      accentColor: '#8f7255',
+      roughness: 0.76,
+      map: propTex
+    });
+    const oliveWreathMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#596343',
+      accentColor: '#98a679',
+      roughness: 0.68,
+      map: propTex
+    });
+
+    // Sunlit stadium track bed with stepped stone stadium wall on the left
+    const trackSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.45, 0.12, 3.1, 6, 1, 8), 0.015, 3.0),
+      trackSandMat
+    );
+    trackSlab.position.y = 0.06;
+    trackSlab.userData.keepWithGlb = true;
+    group.add(trackSlab);
+
+    for (let t = 0; t < 2; t++) {
+      const tierWall = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.42, 0.34 + t * 0.24, 2.85, 2, 2, 6), 0.018, 3.6),
+        stoneTierMat
+      );
+      tierWall.position.set(-0.98 - t * 0.34, 0.23 + t * 0.12, 0);
+      tierWall.userData.keepWithGlb = true;
+      group.add(tierWall);
+    }
+
+    // Twin finish-line pillars at the far end of the track with suspended olive victory wreath ("the prize of the high calling")
+    const finishGateGroup = new THREE.Group();
+    finishGateGroup.position.set(0.18, 0.12, -1.15);
+    finishGateGroup.userData.keepWithGlb = true;
+
+    for (const px of [-0.68, 0.68]) {
+      const pillar = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CylinderGeometry(0.11, 0.13, 1.95, 12, 4), 0.012, 3.5),
+        stoneTierMat
+      );
+      pillar.position.set(px, 0.97, 0);
+      const cap = new THREE.Mesh(new THREE.BoxGeometry(0.30, 0.10, 0.30), stoneTierMat);
+      cap.position.set(px, 1.96, 0);
+      finishGateGroup.add(pillar, cap);
+    }
+
+    const garlandCord = new THREE.Mesh(new THREE.CylinderGeometry(0.018, 0.018, 1.36, 8), oliveWreathMat);
+    garlandCord.rotation.z = Math.PI / 2;
+    garlandCord.position.set(0, 1.82, 0);
+    const victoryWreath = new THREE.Mesh(new THREE.TorusGeometry(0.20, 0.045, 10, 24), oliveWreathMat);
+    victoryWreath.position.set(0, 1.58, 0);
+    finishGateGroup.add(garlandCord, victoryWreath);
+    group.add(finishGateGroup);
+
+    // Foreground wooden bench with draped white linen tunic & kicked-off runner's sandals ("forgetting the things which are behind")
+    const benchTop = new THREE.Mesh(new THREE.BoxGeometry(0.46, 0.08, 0.92), woodBenchMat);
+    benchTop.position.set(-0.62, 0.48, 0.68);
+    benchTop.userData.keepWithGlb = true;
+    group.add(benchTop);
+
+    for (const bz of [0.34, 1.02]) {
+      const bLeg = new THREE.Mesh(new THREE.BoxGeometry(0.10, 0.44, 0.10), woodBenchMat);
+      bLeg.position.set(-0.62, 0.22, bz);
+      bLeg.userData.keepWithGlb = true;
+      group.add(bLeg);
+    }
+
+    const runnerTunic = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.42, 0.38, 0.46, 4, 4, 4), 0.022, 4.0),
+      linenMat
+    );
+    runnerTunic.position.set(-0.56, 0.44, 0.78);
+    runnerTunic.rotation.z = -0.18;
+    runnerTunic.userData.keepWithGlb = true;
+    group.add(runnerTunic);
+
+    for (const [sx, sz, rotY] of [[-0.28, 0.68, 0.42], [-0.14, 0.76, -0.25]]) {
+      const sandal = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.04, 0.30), leatherMat);
+      sandal.position.set(sx, 0.14, sz);
+      sandal.rotation.y = rotY;
+      sandal.userData.keepWithGlb = true;
+      group.add(sandal);
+    }
+
+    const trackLight = new THREE.PointLight(0xffe6a6, isFinalePlaza ? 3.2 : 2.7, 19);
+    trackLight.position.set(0.18, 2.05, 0.25);
+    group.add(trackLight);
+
+    return { group, finishGateGroup, victoryWreath, trackLight };
+  }
+
+  /**
+   * Philippians 4:6–7 (#21 "the sentry"):
+   * A tall arched stone city gate with closed iron-strapped double wooden doors under a starry
+   * night watch; a warm glowing iron wall lantern mounted on the left stone pier casts golden
+   * light across the cobblestones, flanked by a small stone sentry guardhouse niche and spear.
+   */
+  createPhilippians4SentryGateAndLanternEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Philippians4SentryGateAndLanternEnsemble';
+
+    const gateStoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c584d',
+      accentColor: '#b89b6a',
+      roughness: 0.88,
+      map: propTex
+    });
+    const timberDoorMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4a3d2b',
+      accentColor: '#7d684a',
+      roughness: 0.84,
+      map: propTex
+    });
+    const ironMat = new THREE.MeshStandardMaterial({
+      color: 0x2e2b27,
+      roughness: 0.48,
+      metalness: 0.68
+    });
+    const lanternGlowMat = new THREE.MeshStandardMaterial({
+      color: 0xffefc2,
+      emissive: 0xe69f2e,
+      emissiveIntensity: 1.55,
+      roughness: 0.18
+    });
+
+    // Cobblestone threshold & twin stone gate piers supporting the arched parapet wall
+    const cobbleSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.65, 0.14, 1.65, 7, 2, 5), 0.018, 3.4),
+      gateStoneMat
+    );
+    cobbleSlab.position.y = 0.07;
+    cobbleSlab.userData.keepWithGlb = true;
+    group.add(cobbleSlab);
+
+    for (const px of [-0.92, 0.92]) {
+      const pier = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.62, 2.35, 0.58, 4, 6, 4), 0.022, 3.6),
+        gateStoneMat
+      );
+      pier.position.set(px, 1.24, -0.18);
+      pier.userData.keepWithGlb = true;
+      group.add(pier);
+    }
+
+    const upperParapet = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.48, 0.62, 0.56, 6, 3, 3), 0.022, 3.6),
+      gateStoneMat
+    );
+    upperParapet.position.set(0, 2.58, -0.18);
+    upperParapet.userData.keepWithGlb = true;
+    group.add(upperParapet);
+
+    // Closed iron-strapped double wooden gate doors ("guard your hearts and your thoughts")
+    const doubleDoors = new THREE.Mesh(new THREE.BoxGeometry(1.24, 2.15, 0.22), timberDoorMat);
+    doubleDoors.position.set(0, 1.18, -0.22);
+    doubleDoors.userData.keepWithGlb = true;
+    group.add(doubleDoors);
+
+    for (const by of [0.52, 1.16, 1.78]) {
+      const strap = new THREE.Mesh(new THREE.BoxGeometry(1.22, 0.06, 0.25), ironMat);
+      strap.position.set(0, by, -0.22);
+      strap.userData.keepWithGlb = true;
+      group.add(strap);
+    }
+
+    // Small stone sentry guardhouse niche on the left & upright sentry spear on the right
+    const sentryNiche = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.56, 0.92, 0.48, 3, 4, 3), 0.018, 3.8),
+      gateStoneMat
+    );
+    sentryNiche.position.set(-1.38, 0.58, 0.06);
+    sentryNiche.userData.keepWithGlb = true;
+    group.add(sentryNiche);
+
+    const sentryRoof = new THREE.Mesh(new THREE.ConeGeometry(0.44, 0.26, 4), gateStoneMat);
+    sentryRoof.position.set(-1.38, 1.16, 0.06);
+    sentryRoof.rotation.y = Math.PI / 4;
+    sentryRoof.userData.keepWithGlb = true;
+    group.add(sentryRoof);
+
+    const spearShaft = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.024, 1.85, 8), timberDoorMat);
+    spearShaft.position.set(0.88, 0.98, 0.22);
+    spearShaft.rotation.z = -0.12;
+    spearShaft.userData.keepWithGlb = true;
+    group.add(spearShaft);
+
+    // Warm glowing iron wall lantern mounted on the left stone pier ("awake while you sleep")
+    const lanternGroup = new THREE.Group();
+    lanternGroup.position.set(-0.74, 1.46, 0.24);
+    lanternGroup.userData.keepWithGlb = true;
+
+    const bracket = new THREE.Mesh(new THREE.BoxGeometry(0.04, 0.18, 0.24), ironMat);
+    bracket.position.set(0, 0.14, -0.08);
+    const lanternCap = new THREE.Mesh(new THREE.ConeGeometry(0.13, 0.12, 6), ironMat);
+    lanternCap.position.y = 0.11;
+    const lanternCore = new THREE.Mesh(new THREE.CylinderGeometry(0.085, 0.07, 0.18, 6), lanternGlowMat);
+    lanternGroup.add(bracket, lanternCap, lanternCore);
+    group.add(lanternGroup);
+
+    const sentryLight = new THREE.PointLight(0xffcf78, isFinalePlaza ? 3.4 : 2.9, 19);
+    sentryLight.position.set(-0.68, 1.48, 0.48);
+    group.add(sentryLight);
+
+    return { group, lanternGroup, lanternCore, sentryLight };
+  }
 }

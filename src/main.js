@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_62';
-import { StepThroughSceneManager } from './scenes.js?v=44_62';
-import { GenesisDistrictBuilder } from './district.js?v=44_62';
+import { PainterlyPropBuilder } from './props.js?v=44_63';
+import { StepThroughSceneManager } from './scenes.js?v=44_63';
+import { GenesisDistrictBuilder } from './district.js?v=44_63';
 import { PilgrimAudio } from './audio.js?v=44_57';
 import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
@@ -1138,6 +1138,12 @@ class PilgrimWalkApp {
         { n: 27, label: '27 · “the wall” (Broken Dividing Wall & Homeward Path)' },
         { n: 30, label: '30 · “rooted” (Deep-Rooted Olive Tree on the Ridge)' },
         { n: 39, label: '39 · “the armor on the table” (Whole Armor of God on Timber Table)' }
+      ],
+      'joy-in-chains': [
+        { n: 4, label: '4 · “the palace guard” (Praetorian Helmet, Cloak & Scroll)' },
+        { n: 8, label: '8 · “the way down” (Servant’s Water Basin & Folded Towel)' },
+        { n: 17, label: '17 · “one thing” (Stadium Track & Finish-Line Wreath)' },
+        { n: 21, label: '21 · “the sentry” (Night Sentry Gate & Watch-Lantern)' }
       ]
     };
 

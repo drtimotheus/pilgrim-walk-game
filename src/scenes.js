@@ -458,6 +458,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateThessalonians21DawnWindowsillLampScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'quiet_table_loaf') {
       signatureState = this.populateThessalonians34QuietWorkTableLoafScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'pillar_of_truth') {
+      signatureState = this.populateTimothy7CourtyardPillarAndTableScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'lois_eunice_scrolls') {
+      signatureState = this.populate2Timothy18LoisAndEuniceLampAndScrollScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'crown_of_righteousness') {
+      signatureState = this.populate2Timothy28StadiumFinishStoneAndLaurelCrownScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'cloak_and_parchments') {
+      signatureState = this.populate2Timothy29CloakAndParchmentsBenchScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -511,7 +519,8 @@ export class StepThroughSceneManager {
         'fruit_of_the_spirit_grove', 'broken_dividing_wall', 'rooted_in_love_tree', 'armor_of_god_table',
         'praetorian_scroll_chain', 'servant_towel_crown', 'finish_line_pillar', 'peace_on_guard_lantern',
         'held_together_cosmos', 'cancelled_scroll_cross', 'psalms_hymns_table', 'philemon_guest_room',
-        'cradle_lamp_warmth', 'tentmaker_loom_lamp', 'children_of_the_day_dawn', 'quiet_table_loaf'
+        'cradle_lamp_warmth', 'tentmaker_loom_lamp', 'children_of_the_day_dawn', 'quiet_table_loaf',
+        'pillar_of_truth', 'lois_eunice_scrolls', 'crown_of_righteousness', 'cloak_and_parchments'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -7590,6 +7599,150 @@ export class StepThroughSceneManager {
         const val = this._thess34Latch || 0;
         rig.loafGroup.position.y = 0.88 + Math.sin(time * 2.2) * 0.015 * val;
         rig.tableLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XXXIX — GRACE, MERCY, AND PEACE (1 & 2 Timothy & Titus)
+  // ==========================================================================
+
+  populateTimothy7CourtyardPillarAndTableScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createTimothy3CourtyardPillarAndTableEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'grace-mercy-and-peace', 7, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe19c');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Courtyard Pillar of Truth & Shared Loaf Table',
+      signatureActivatedText:
+        '“But if I wait long, that you may know how men ought to behave themselves in God’s house, which is the assembly of the living God, the pillar and ground of the truth.” (1 Timothy 3:15)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._tim7Latch = Math.min(1.0, (this._tim7Latch || 0) + dt * 0.65);
+        const val = this._tim7Latch || 0;
+        rig.lampFlame.scale.setScalar(1.0 + Math.sin(time * 3.8) * 0.1 + val * 0.2);
+        rig.pillarLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populate2Timothy18LoisAndEuniceLampAndScrollScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create2Timothy1LoisAndEuniceLampAndScrollTableEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'grace-mercy-and-peace', 18, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.6, '#ffd682');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Gather at the Family Table of Lois & Eunice Beside the Lit Lamp & Scroll',
+      signatureActivatedText:
+        '“Having been reminded of the sincere faith that is in you, which lived first in your grandmother Lois, and your mother Eunice, and, I am persuaded, in you also.” (2 Timothy 1:5)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._tim18Latch = Math.min(1.0, (this._tim18Latch || 0) + dt * 0.65);
+        const val = this._tim18Latch || 0;
+        rig.lampFlame.scale.setScalar(1.0 + Math.sin(time * 4.0) * 0.1 + val * 0.22);
+        rig.lampLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populate2Timothy28StadiumFinishStoneAndLaurelCrownScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create2Timothy4StadiumFinishStoneAndLaurelCrownEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'grace-mercy-and-peace', 28, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.98, 3.8, '#ffe79e');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Approach the Stadium Finish Stone & Woven Laurel Crown of Righteousness',
+      signatureActivatedText:
+        '“I have fought the good fight. I have finished the course. I have kept the faith. From now on, the crown of righteousness is stored up for me, which the Lord, the righteous judge, will give to me on that day.” (2 Timothy 4:7–8)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._tim28Latch = Math.min(1.0, (this._tim28Latch || 0) + dt * 0.65);
+        const val = this._tim28Latch || 0;
+        rig.wreathGroup.position.y = 1.14 + Math.sin(time * 2.1) * 0.015 * val;
+        rig.crownLight.intensity = 3.0 + val * 3.4;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populate2Timothy29CloakAndParchmentsBenchScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create2Timothy4CloakAndParchmentsStoneBenchEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'grace-mercy-and-peace', 29, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe4a0');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Touch the Warm Troas Cloak, Leather Codex & Rolled Parchments',
+      signatureActivatedText:
+        '“Be diligent to come to me soon… Bring the cloak that I left at Troas with Carpus when you come, and the books, especially the parchments.” (2 Timothy 4:9, 13)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._tim29Latch = Math.min(1.0, (this._tim29Latch || 0) + dt * 0.65);
+        const val = this._tim29Latch || 0;
+        rig.booksGroup.position.y = 0.86 + Math.sin(time * 2.0) * 0.012 * val;
+        rig.benchLight.intensity = 2.8 + val * 3.2;
         return near || val > 0.85;
       }
     };

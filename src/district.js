@@ -2555,6 +2555,53 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'grace-mercy-and-peace') {
+      if (pData.n === 6 || pData.n === 7) {
+        const pillarTable = this.propBuilder.createTimothy3CourtyardPillarAndTableEnsemble({
+          isFinalePlaza: false
+        });
+        if (pillarTable.pillarLight) pillarTable.group.remove(pillarTable.pillarLight);
+        pillarTable.group.scale.setScalar(0.72);
+        pillarTable.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        pillarTable.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(pillarTable.group);
+        return;
+      }
+      if (pData.n === 12 || pData.n === 18) {
+        const loisTable = this.propBuilder.create2Timothy1LoisAndEuniceLampAndScrollTableEnsemble({
+          isFinalePlaza: false
+        });
+        if (loisTable.lampLight) loisTable.group.remove(loisTable.lampLight);
+        loisTable.group.scale.setScalar(0.74);
+        loisTable.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        loisTable.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(loisTable.group);
+        return;
+      }
+      if (pData.n === 27 || pData.n === 28) {
+        const finishStone = this.propBuilder.create2Timothy4StadiumFinishStoneAndLaurelCrownEnsemble({
+          isFinalePlaza: false
+        });
+        if (finishStone.crownLight) finishStone.group.remove(finishStone.crownLight);
+        finishStone.group.scale.setScalar(0.74);
+        finishStone.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        finishStone.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(finishStone.group);
+        return;
+      }
+      if (pData.n === 30 || pData.n === 39) {
+        const cloakBench = this.propBuilder.create2Timothy4CloakAndParchmentsStoneBenchEnsemble({
+          isFinalePlaza: false
+        });
+        if (cloakBench.benchLight) cloakBench.group.remove(cloakBench.benchLight);
+        cloakBench.group.scale.setScalar(0.74);
+        cloakBench.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        cloakBench.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(cloakBench.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2660,6 +2707,7 @@ export class GenesisDistrictBuilder {
       'joy-in-chains': 'DISTRICT XXXVI · JOY IN CHAINS — PHILIPPIANS',
       'held-together': 'DISTRICT XXXVII · HELD TOGETHER — COLOSSIANS & PHILEMON',
       'children-of-the-day': 'DISTRICT XXXVIII · CHILDREN OF THE DAY — 1 & 2 THESSALONIANS',
+      'grace-mercy-and-peace': 'DISTRICT XXXIX · GRACE, MERCY, AND PEACE — 1 & 2 TIMOTHY & TITUS',
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
       'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
       'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
@@ -3875,6 +3923,58 @@ export class GenesisDistrictBuilder {
           height: 1.75,
           veilZ: -386.4
         }
+      ],
+      'grace-mercy-and-peace': [
+        {
+          part: 1,
+          id: 'grace-mercy-and-peace-light-1',
+          name: 'The Light of the Courtyard Pillar of Truth',
+          hint: 'Shining beside the sunlit limestone pillar & shared loaf table near “my true child” & “a pillar” (Part One)',
+          z: -64.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -82.0
+        },
+        {
+          part: 2,
+          id: 'grace-mercy-and-peace-light-2',
+          name: 'The Light of the Widow’s Night-Lamp & Contentment',
+          hint: 'Glowing beside the widow’s windowsill lamp & prayer stool near “night and day” & “guard it” (Part Two)',
+          z: -150.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -167.9
+        },
+        {
+          part: 3,
+          id: 'grace-mercy-and-peace-light-3',
+          name: 'The Light of Lois & Eunice’s Unfeigned Faith',
+          hint: 'Shining beside the family table lamp, scroll & banked embers near “Lois and Eunice” & “stir it up” (Part Three)',
+          z: -234.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -253.8
+        },
+        {
+          part: 4,
+          id: 'grace-mercy-and-peace-light-4',
+          name: 'The Light of the Finish-Line Crown & Troas Cloak',
+          hint: 'Glowing beside the stadium laurel wreath, warm Troas cloak & parchments near “fought, finished, kept” & “the cloak and the parchments” (Part Four)',
+          z: -302.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -320.1
+        },
+        {
+          part: 5,
+          id: 'grace-mercy-and-peace-light-5',
+          name: 'The Light of Grace Appeared & Poured Out Richly',
+          hint: 'Shining beside the overflowing water jar & Crete harbor road near “grace has appeared” & “poured out richly” before the Amen Gate (Part Five)',
+          z: -406.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -425.6
+        }
       ]
     };
 
@@ -5025,6 +5125,21 @@ export class GenesisDistrictBuilder {
       loafFinale.group.position.set(-3.4, 0.1, -4.6);
       loafFinale.group.rotation.y = 0.36;
       group.add(loafFinale.group);
+    } else if (slug === 'grace-mercy-and-peace') {
+      const cloakFinale = this.propBuilder.create2Timothy4CloakAndParchmentsStoneBenchEnsemble({
+        isFinalePlaza: true
+      });
+      cloakFinale.group.position.set(0, 0.1, -3.8);
+      group.add(cloakFinale.group);
+
+      const crownFinale = this.propBuilder.create2Timothy4StadiumFinishStoneAndLaurelCrownEnsemble({
+        isFinalePlaza: false
+      });
+      if (crownFinale.crownLight) crownFinale.group.remove(crownFinale.crownLight);
+      crownFinale.group.scale.setScalar(0.74);
+      crownFinale.group.position.set(-3.4, 0.1, -4.6);
+      crownFinale.group.rotation.y = 0.36;
+      group.add(crownFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -5247,6 +5362,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · CHILDREN OF THE DAY COMPLETED',
         epigraph: 'You are all children of light and children of the day — Now may the Lord of peace himself give you peace at all times in all ways.',
         epigraphRef: '1 THESSALONIANS 5:5 & 2 THESSALONIANS 3:16 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXIX: GRACE, MERCY, AND PEACE'
+      },
+      'grace-mercy-and-peace': {
+        title: 'AMEN GATE · GRACE, MERCY, AND PEACE COMPLETED',
+        epigraph: 'I have fought the good fight. I have finished the course. I have kept the faith — For the grace of God has appeared, bringing salvation to all men.',
+        epigraphRef: '2 TIMOTHY 4:7 & TITUS 2:11 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XL: ANCHOR OF THE SOUL'
       },
       'anchor-of-the-soul': {
         title: 'AMEN GATE · ANCHOR OF THE SOUL COMPLETED',

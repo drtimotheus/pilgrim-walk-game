@@ -15249,4 +15249,478 @@ export class PainterlyPropBuilder {
 
     return { group, loafGroup, gloveGroup, tableLight };
   }
+
+  // ==========================================================================
+  // DISTRICT XXXIX — GRACE, MERCY, AND PEACE (1 & 2 Timothy & Titus)
+  // ==========================================================================
+
+  // 1. 1 Timothy 3:14–15 (#7 "a pillar", b-039-007.jpg)
+  //    Sunlit courtyard stone plinth with a tall carved limestone pillar on
+  //    a square molded base on the left, and a rough-hewn timber table on
+  //    the right holding a round loaf on a wooden plate, fringed linen cloth,
+  //    bread knife, and lit clay oil lamp bowl.
+  createTimothy3CourtyardPillarAndTableEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const isFinalePlaza = Boolean(options.isFinalePlaza);
+    const propTex = options.propTex || null;
+    const group = new THREE.Group();
+    group.name = 'Timothy3CourtyardPillarAndTableEnsemble';
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a6967a',
+      accentColor: '#d9caa8',
+      roughness: 0.88,
+      map: propTex
+    });
+    const tableWoodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#665038',
+      accentColor: '#967a58',
+      roughness: 0.84,
+      map: propTex
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9ceb4',
+      accentColor: '#f3ead4',
+      roughness: 0.74,
+      map: propTex
+    });
+    const breadMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#be8e4a',
+      accentColor: '#e4b872',
+      roughness: 0.78,
+      map: propTex
+    });
+    const clayLampMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a5436',
+      accentColor: '#ab7b52',
+      roughness: 0.80,
+      map: propTex
+    });
+    const flameMat = new THREE.MeshBasicMaterial({ color: 0xffe492 });
+
+    const plinth = new THREE.Mesh(new THREE.CylinderGeometry(2.15, 2.4, 0.16, 24), stoneMat);
+    plinth.position.y = 0.08;
+    plinth.receiveShadow = true;
+    group.add(plinth);
+
+    // Tall monolithic carved limestone pillar on the left (as in b-039-007.jpg)
+    const pillarGroup = new THREE.Group();
+    pillarGroup.position.set(-0.68, 0.16, -0.18);
+    const basePlinth = new THREE.Mesh(new THREE.BoxGeometry(0.86, 0.18, 0.86), stoneMat);
+    basePlinth.position.y = 0.09;
+    basePlinth.castShadow = true;
+    const baseTorus = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.42, 0.16, 20), stoneMat);
+    baseTorus.position.y = 0.26;
+    const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.31, 0.34, 2.65, 22), stoneMat);
+    shaft.position.y = 1.66;
+    shaft.castShadow = true;
+    shaft.receiveShadow = true;
+    const neckRing = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.32, 0.12, 20), stoneMat);
+    neckRing.position.y = 3.04;
+    const abacus = new THREE.Mesh(new THREE.BoxGeometry(0.88, 0.22, 0.88), stoneMat);
+    abacus.position.y = 3.21;
+    abacus.castShadow = true;
+    pillarGroup.add(basePlinth, baseTorus, shaft, neckRing, abacus);
+    group.add(pillarGroup);
+
+    // Rough-hewn courtyard wooden table on the right foreground
+    const tableGroup = new THREE.Group();
+    tableGroup.position.set(0.42, 0.16, 0.22);
+    tableGroup.userData.keepWithGlb = true;
+    const tableTop = new THREE.Mesh(new THREE.BoxGeometry(1.36, 0.09, 0.92), tableWoodMat);
+    tableTop.position.y = 0.72;
+    tableTop.castShadow = true;
+    tableTop.receiveShadow = true;
+    tableGroup.add(tableTop);
+
+    [[-0.56, -0.34], [0.56, -0.34], [-0.56, 0.34], [0.56, 0.34]].forEach(([lx, lz]) => {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.09, 0.68, 0.09), tableWoodMat);
+      leg.position.set(lx, 0.36, lz);
+      leg.castShadow = true;
+      tableGroup.add(leg);
+    });
+
+    // Draped fringed linen cloth on the right side of the table
+    const clothTop = new THREE.Mesh(new THREE.BoxGeometry(0.68, 0.035, 0.76), linenMat);
+    clothTop.position.set(0.26, 0.78, 0.04);
+    tableGroup.add(clothTop);
+    const clothDrop = new THREE.Mesh(new THREE.BoxGeometry(0.58, 0.32, 0.035), linenMat);
+    clothDrop.position.set(0.30, 0.62, 0.44);
+    clothDrop.rotation.x = 0.14;
+    tableGroup.add(clothDrop);
+
+    // Round wooden plate & crusty round loaf of bread
+    const plate = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.21, 0.035, 18), tableWoodMat);
+    plate.position.set(0.16, 0.80, -0.02);
+    const loaf = new THREE.Mesh(new THREE.SphereGeometry(0.19, 18, 14), breadMat);
+    loaf.scale.set(1.08, 0.70, 0.98);
+    loaf.position.set(0.16, 0.88, -0.02);
+    loaf.castShadow = true;
+    tableGroup.add(plate, loaf);
+
+    // Small lit clay lamp bowl on the left side of the table
+    const lampBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.07, 0.08, 16), clayLampMat);
+    lampBowl.position.set(-0.34, 0.80, -0.08);
+    const lampFlame = new THREE.Mesh(new THREE.ConeGeometry(0.026, 0.10, 8), flameMat);
+    lampFlame.position.set(-0.34, 0.88, -0.08);
+    tableGroup.add(lampBowl, lampFlame);
+    group.add(tableGroup);
+
+    const pillarLight = new THREE.PointLight(0xffe19c, isFinalePlaza ? 3.2 : 2.8, 18);
+    pillarLight.position.set(0.08, 1.55, 0.28);
+    group.add(pillarLight);
+
+    return { group, pillarGroup, tableGroup, lampFlame, pillarLight };
+  }
+
+  // 2. 2 Timothy 1:5 (#18 "Lois and Eunice", b-039-018.jpg)
+  //    Family timber table with a lit terracotta nozzle oil lamp on the left,
+  //    a rolled parchment scroll tied with a leather thong on the right,
+  //    a folded sage-green wool shawl at the front edge, and an olive-branch
+  //    amphora in the rear corner.
+  create2Timothy1LoisAndEuniceLampAndScrollTableEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const isFinalePlaza = Boolean(options.isFinalePlaza);
+    const propTex = options.propTex || null;
+    const group = new THREE.Group();
+    group.name = '2Timothy1LoisAndEuniceLampAndScrollTableEnsemble';
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c7e66',
+      accentColor: '#bfb094',
+      roughness: 0.88,
+      map: propTex
+    });
+    const tableWoodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6b563c',
+      accentColor: '#9c8260',
+      roughness: 0.84,
+      map: propTex
+    });
+    const clayLampMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a66838',
+      accentColor: '#d99862',
+      roughness: 0.76,
+      map: propTex
+    });
+    const scrollMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9caa4',
+      accentColor: '#f3e6c4',
+      roughness: 0.72,
+      map: propTex
+    });
+    const sageShawlMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#646e5a',
+      accentColor: '#919c84',
+      roughness: 0.82,
+      map: propTex
+    });
+    const jarMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#94846b',
+      accentColor: '#c4b498',
+      roughness: 0.85,
+      map: propTex
+    });
+    const oliveLeafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#62704b',
+      accentColor: '#8e9e72',
+      roughness: 0.78,
+      map: propTex
+    });
+    const flameMat = new THREE.MeshBasicMaterial({ color: 0xffdf88 });
+
+    const plinth = new THREE.Mesh(new THREE.CylinderGeometry(2.05, 2.3, 0.16, 24), stoneMat);
+    plinth.position.y = 0.08;
+    plinth.receiveShadow = true;
+    group.add(plinth);
+
+    // Family timber table
+    const tableTop = new THREE.Mesh(new THREE.BoxGeometry(1.86, 0.12, 1.06), tableWoodMat);
+    tableTop.position.set(0, 0.78, 0.06);
+    tableTop.castShadow = true;
+    tableTop.receiveShadow = true;
+    group.add(tableTop);
+
+    [[-0.76, -0.38], [0.76, -0.38], [-0.76, 0.38], [0.76, 0.38]].forEach(([lx, lz]) => {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.11, 0.68, 0.11), tableWoodMat);
+      leg.position.set(lx, 0.42, 0.06 + lz);
+      leg.castShadow = true;
+      group.add(leg);
+    });
+
+    // Lit terracotta nozzle oil lamp on the front-left of the table (as in b-039-018.jpg)
+    const lampGroup = new THREE.Group();
+    lampGroup.position.set(-0.48, 0.84, 0.14);
+    lampGroup.userData.keepWithGlb = true;
+    const lampBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.19, 0.12, 0.11, 18), clayLampMat);
+    lampBowl.scale.set(1.22, 1.0, 0.94);
+    lampBowl.position.y = 0.055;
+    lampBowl.castShadow = true;
+    const lampNozzle = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.07, 0.13, 12), clayLampMat);
+    lampNozzle.rotation.z = -Math.PI * 0.36;
+    lampNozzle.position.set(0.19, 0.07, 0);
+    const lampFlame = new THREE.Mesh(new THREE.ConeGeometry(0.032, 0.13, 10), flameMat);
+    lampFlame.position.set(0.11, 0.16, 0);
+    lampGroup.add(lampBowl, lampNozzle, lampFlame);
+    group.add(lampGroup);
+
+    // Folded sage-green wool shawl at the front-left edge
+    const shawl = new THREE.Mesh(new THREE.BoxGeometry(0.68, 0.055, 0.34), sageShawlMat);
+    shawl.position.set(-0.38, 0.86, 0.40);
+    shawl.rotation.y = 0.14;
+    shawl.userData.keepWithGlb = true;
+    group.add(shawl);
+
+    // Rolled parchment scroll of the Scriptures on the right with leather tie
+    const scrollGroup = new THREE.Group();
+    scrollGroup.position.set(0.38, 0.90, 0.18);
+    scrollGroup.rotation.y = 0.46;
+    scrollGroup.userData.keepWithGlb = true;
+    const scrollCylinder = new THREE.Mesh(new THREE.CylinderGeometry(0.062, 0.062, 0.72, 18), scrollMat);
+    scrollCylinder.rotation.z = Math.PI / 2;
+    scrollCylinder.castShadow = true;
+    const tieRing = new THREE.Mesh(new THREE.TorusGeometry(0.066, 0.008, 8, 16), tableWoodMat);
+    tieRing.rotation.y = Math.PI / 2;
+    scrollGroup.add(scrollCylinder, tieRing);
+    group.add(scrollGroup);
+
+    // Tall clay jar with olive branches behind the right corner of the table
+    const jarBody = new THREE.Mesh(new THREE.SphereGeometry(0.28, 18, 14), jarMat);
+    jarBody.scale.set(1.0, 1.32, 1.0);
+    jarBody.position.set(0.66, 0.56, -0.58);
+    jarBody.castShadow = true;
+    const jarNeck = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.17, 0.18, 16), jarMat);
+    jarNeck.position.set(0.66, 0.94, -0.58);
+    group.add(jarBody, jarNeck);
+
+    for (let i = 0; i < 7; i++) {
+      const leaf = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.016, 0.04), oliveLeafMat);
+      leaf.position.set(0.58 + (i % 3) * 0.08, 1.12 + i * 0.06, -0.58 + (i % 2) * 0.06);
+      leaf.rotation.z = (i % 2 === 0 ? 1 : -1) * 0.38;
+      group.add(leaf);
+    }
+
+    const lampLight = new THREE.PointLight(0xffd682, isFinalePlaza ? 3.2 : 2.8, 16);
+    lampLight.position.set(-0.22, 1.45, 0.22);
+    group.add(lampLight);
+
+    return { group, lampGroup, lampFlame, scrollGroup, lampLight };
+  }
+
+  // 3. 2 Timothy 4:6–8 (#28 "fought, finished, kept", b-039-028.jpg)
+  //    Carved stone finish-line pedestal at the end of a sandy stadium course,
+  //    crowned with a woven green laurel/olive wreath ("the crown of
+  //    righteousness") and a draped linen mantle.
+  create2Timothy4StadiumFinishStoneAndLaurelCrownEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const isFinalePlaza = Boolean(options.isFinalePlaza);
+    const propTex = options.propTex || null;
+    const group = new THREE.Group();
+    group.name = '2Timothy4StadiumFinishStoneAndLaurelCrownEnsemble';
+
+    const sandTrackMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#bca981',
+      accentColor: '#e4d4ae',
+      roughness: 0.90,
+      map: propTex
+    });
+    const carvedStoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9c8f73',
+      accentColor: '#cfc1a2',
+      roughness: 0.86,
+      map: propTex
+    });
+    const laurelGreenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4e6338',
+      accentColor: '#7e965e',
+      roughness: 0.74,
+      map: propTex
+    });
+    const goldLeafAccentMat = new THREE.MeshStandardMaterial({
+      color: 0xd8b458,
+      roughness: 0.36,
+      metalness: 0.45
+    });
+    const mantleMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a7258',
+      accentColor: '#a89f82',
+      roughness: 0.82,
+      map: propTex
+    });
+
+    const trackPlinth = new THREE.Mesh(new THREE.CylinderGeometry(2.1, 2.35, 0.16, 24), sandTrackMat);
+    trackPlinth.position.y = 0.08;
+    trackPlinth.receiveShadow = true;
+    group.add(trackPlinth);
+
+    // Carved stone finish-line pedestal block in the foreground (as in b-039-028.jpg)
+    const pedestalBlock = new THREE.Mesh(new THREE.BoxGeometry(1.38, 0.88, 1.04), carvedStoneMat);
+    pedestalBlock.position.set(0.14, 0.56, 0.12);
+    pedestalBlock.castShadow = true;
+    pedestalBlock.receiveShadow = true;
+    group.add(pedestalBlock);
+
+    const pedestalCap = new THREE.Mesh(new THREE.BoxGeometry(1.48, 0.12, 1.12), carvedStoneMat);
+    pedestalCap.position.set(0.14, 1.04, 0.12);
+    pedestalCap.castShadow = true;
+    group.add(pedestalCap);
+
+    // Draped runner's mantle over the front-right corner of the pedestal
+    const mantle = new THREE.Mesh(new THREE.BoxGeometry(0.54, 0.62, 0.42), mantleMat);
+    mantle.position.set(0.68, 0.76, 0.36);
+    mantle.rotation.z = -0.22;
+    mantle.userData.keepWithGlb = true;
+    group.add(mantle);
+
+    // Woven green laurel/olive wreath ("the crown of righteousness") resting on top
+    const wreathGroup = new THREE.Group();
+    wreathGroup.position.set(0.06, 1.14, 0.08);
+    wreathGroup.userData.keepWithGlb = true;
+    const wreathRing = new THREE.Mesh(new THREE.TorusGeometry(0.34, 0.055, 12, 28), laurelGreenMat);
+    wreathRing.rotation.x = Math.PI / 2;
+    wreathRing.castShadow = true;
+    wreathGroup.add(wreathRing);
+
+    for (let i = 0; i < 18; i++) {
+      const ang = (i / 18) * Math.PI * 2;
+      const leaf = new THREE.Mesh(
+        new THREE.BoxGeometry(0.14, 0.018, 0.048),
+        i % 4 === 0 ? goldLeafAccentMat : laurelGreenMat
+      );
+      leaf.position.set(Math.cos(ang) * 0.35, 0.03 + (i % 2) * 0.015, Math.sin(ang) * 0.35);
+      leaf.rotation.y = -ang + 0.45;
+      leaf.rotation.z = 0.22;
+      wreathGroup.add(leaf);
+    }
+    group.add(wreathGroup);
+
+    // Low stadium colonnade parapet wall on the left
+    const stadiumWall = new THREE.Mesh(new THREE.BoxGeometry(0.32, 0.64, 1.95), carvedStoneMat);
+    stadiumWall.position.set(-1.18, 0.44, -0.18);
+    stadiumWall.rotation.y = 0.18;
+    stadiumWall.castShadow = true;
+    group.add(stadiumWall);
+
+    const crownLight = new THREE.PointLight(0xffe79e, isFinalePlaza ? 3.4 : 3.0, 18);
+    crownLight.position.set(0.06, 1.75, 0.18);
+    group.add(crownLight);
+
+    return { group, wreathGroup, crownLight };
+  }
+
+  // 4. 2 Timothy 4:9–13 (#29 "the cloak and the parchments", b-039-029.jpg)
+  //    Stone bench beneath a sunlit prison window shaft, with a heavy warm
+  //    rust-terracotta wool cloak draped on the left and a leather-bound
+  //    codex book, stitched parchment sheets, and two tied parchment scrolls
+  //    stacked on the right.
+  create2Timothy4CloakAndParchmentsStoneBenchEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const isFinalePlaza = Boolean(options.isFinalePlaza);
+    const propTex = options.propTex || null;
+    const group = new THREE.Group();
+    group.name = '2Timothy4CloakAndParchmentsStoneBenchEnsemble';
+
+    const stoneBenchMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9e8f75',
+      accentColor: '#cfc1a6',
+      roughness: 0.88,
+      map: propTex
+    });
+    const rustCloakMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9c4e32',
+      accentColor: '#c97250',
+      roughness: 0.78,
+      map: propTex
+    });
+    const cloakStripeMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4e3c2e',
+      accentColor: '#735b48',
+      roughness: 0.84,
+      map: propTex
+    });
+    const leatherCodexMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#735334',
+      accentColor: '#a37b52',
+      roughness: 0.76,
+      map: propTex
+    });
+    const parchmentMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#dfd1b0',
+      accentColor: '#f6ebd0',
+      roughness: 0.68,
+      map: propTex
+    });
+
+    const plinth = new THREE.Mesh(new THREE.CylinderGeometry(2.1, 2.35, 0.16, 24), stoneBenchMat);
+    plinth.position.y = 0.08;
+    plinth.receiveShadow = true;
+    group.add(plinth);
+
+    // Wide stone bench ledge (as in b-039-029.jpg)
+    const benchBlock = new THREE.Mesh(new THREE.BoxGeometry(2.16, 0.74, 1.12), stoneBenchMat);
+    benchBlock.position.set(0, 0.48, 0);
+    benchBlock.castShadow = true;
+    benchBlock.receiveShadow = true;
+    group.add(benchBlock);
+
+    // Heavy warm rust-terracotta wool traveler's cloak draped over the left side
+    const cloakGroup = new THREE.Group();
+    cloakGroup.position.set(-0.42, 0.86, 0.06);
+    cloakGroup.userData.keepWithGlb = true;
+    const cloakFoldTop = new THREE.Mesh(new THREE.BoxGeometry(0.98, 0.22, 0.84), rustCloakMat);
+    cloakFoldTop.position.set(0, 0.08, -0.04);
+    cloakFoldTop.rotation.y = 0.16;
+    cloakFoldTop.castShadow = true;
+    const cloakFoldUpper = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.26, 0.88, 16), rustCloakMat);
+    cloakFoldUpper.rotation.z = Math.PI * 0.46;
+    cloakFoldUpper.rotation.y = 0.24;
+    cloakFoldUpper.position.set(0.06, 0.20, -0.08);
+    cloakFoldUpper.castShadow = true;
+    const cloakHang = new THREE.Mesh(new THREE.BoxGeometry(0.76, 0.64, 0.14), rustCloakMat);
+    cloakHang.position.set(-0.08, -0.22, 0.42);
+    cloakHang.rotation.x = 0.18;
+    cloakHang.rotation.z = 0.12;
+    cloakHang.castShadow = true;
+    const borderStripe = new THREE.Mesh(new THREE.BoxGeometry(0.78, 0.06, 0.15), cloakStripeMat);
+    borderStripe.position.set(-0.06, -0.06, 0.43);
+    borderStripe.rotation.z = 0.12;
+    cloakGroup.add(cloakFoldTop, cloakFoldUpper, cloakHang, borderStripe);
+    group.add(cloakGroup);
+
+    // Leather-bound codex, stitched parchment sheets & two rolled scrolls on the right
+    const booksGroup = new THREE.Group();
+    booksGroup.position.set(0.46, 0.86, 0.04);
+    booksGroup.userData.keepWithGlb = true;
+
+    const codex = new THREE.Mesh(new THREE.BoxGeometry(0.68, 0.08, 0.54), leatherCodexMat);
+    codex.position.set(0.06, 0.04, 0.02);
+    codex.rotation.y = -0.32;
+    codex.castShadow = true;
+
+    const parchmentQuire = new THREE.Mesh(new THREE.BoxGeometry(0.64, 0.07, 0.50), parchmentMat);
+    parchmentQuire.position.set(-0.08, 0.10, 0.04);
+    parchmentQuire.rotation.y = -0.18;
+    parchmentQuire.castShadow = true;
+
+    const scroll1 = new THREE.Mesh(new THREE.CylinderGeometry(0.056, 0.056, 0.62, 16), parchmentMat);
+    scroll1.rotation.z = Math.PI / 2;
+    scroll1.rotation.y = -0.36;
+    scroll1.position.set(0.08, 0.18, -0.04);
+    scroll1.castShadow = true;
+
+    const scroll2 = new THREE.Mesh(new THREE.CylinderGeometry(0.058, 0.058, 0.54, 16), parchmentMat);
+    scroll2.rotation.z = Math.PI / 2;
+    scroll2.rotation.y = -0.22;
+    scroll2.position.set(0.12, 0.27, -0.12);
+    scroll2.castShadow = true;
+
+    booksGroup.add(codex, parchmentQuire, scroll1, scroll2);
+    group.add(booksGroup);
+
+    const benchLight = new THREE.PointLight(0xffe4a0, isFinalePlaza ? 3.2 : 2.8, 18);
+    benchLight.position.set(-0.15, 1.65, 0.25);
+    group.add(benchLight);
+
+    return { group, cloakGroup, booksGroup, benchLight };
+  }
 }

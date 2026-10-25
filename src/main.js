@@ -2,7 +2,7 @@
 // THE PILGRIM WALK — Main 3D Game Controller (All 44 Books · 1,677 Paintings)
 // Implements:
 //   - All 44 Books in Bible storyline order as data-driven painterly 3D streets
-//   - 175 Step-Through Painting Scenes with .glb sculptures & 53 Sacred Hero Relics
+//   - 176 Step-Through Painting Scenes with .glb sculptures & 53 Sacred Hero Relics
 //   - Story Walk (part Light-gates & Amen Gates), Free Walk, and 1,633-Day Daily Walk
 //   - Unmissable Scene Exits (§5: persistent "Back to the street" button on screen,
 //     lit exit doorway inside every scene, exact street position & facing restoration)
@@ -13,11 +13,11 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_69';
-import { StepThroughSceneManager } from './scenes.js?v=44_69';
-import { GenesisDistrictBuilder } from './district.js?v=44_69';
+import { PainterlyPropBuilder } from './props.js?v=44_70';
+import { StepThroughSceneManager } from './scenes.js?v=44_70';
+import { GenesisDistrictBuilder } from './district.js?v=44_70';
 import { PilgrimAudio } from './audio.js?v=44_57';
-import { TripoRelicManager } from './tripo.js?v=44_55';
+import { TripoRelicManager } from './tripo.js?v=44_70';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
 import { formatZh } from './zh-convert.js?v=44_12';
 
@@ -3183,13 +3183,38 @@ class PilgrimWalkApp {
   // ==========================================================================
   // ONE-TIME INTRO AUDIBLE NARRATOR & HOW-TO-PLAY GUIDE
   // ==========================================================================
+  getTotalSceneCount() {
+    if (Array.isArray(this.routeData) && this.routeData.length > 0) {
+      return this.routeData.reduce((sum, d) => sum + (Number(d.sceneCount) || 4), 0);
+    }
+    const loadedSlugs = Object.keys(this.manifests || {});
+    if (loadedSlugs.length > 0) {
+      return Object.keys(this.districtMeta).reduce((sum, slug) => {
+        const m = this.manifests[slug];
+        if (m && Array.isArray(m.paintings)) {
+          return sum + m.paintings.filter((p) => p.isScene).length;
+        }
+        return sum + 4;
+      }, 0);
+    }
+    return 176;
+  }
+
+  getTotalPaintingCount() {
+    if (Array.isArray(this.routeData) && this.routeData.length > 0) {
+      const streetCount = this.routeData.reduce((sum, d) => sum + (Number(d.paintingCount) || 0), 0);
+      return streetCount > 0 ? streetCount + this.routeData.length : 1677;
+    }
+    return 1677;
+  }
+
   getIntroWelcomeText() {
     if (this.isZh()) {
       return this.zh(
-        '欢迎你，天路客，来到《天路同行》——这是一座穿越圣经四十四卷书的彩绘灵修圣所，从创世记的黎明一直延伸到启示录的新耶路撒冷。以下是漫步与享受这个世界的方式：使用 W、A、S、D 键或方向键，在移动端也可使用触控摇杆，沿着灯火辉映的书卷长街缓步前行。在任意一幅画作前驻足，即可阅读经文与诗歌；按下 R 键，便可聆听完整的有声灵修默想。留意那些闪耀着金色光芒的画框：走近并按下 E 键，即可步入一百七十五处沉浸式三维步入画境。在剧情漫步模式中，寻访每一篇章隐藏的圣所之光，按下 F 键将其点亮，开启下一道拱门；若想自由探索，也可随时点击顶部导航栏切换为自由漫步模式。旅途之中，按 J 键可点亮每日同行烛光，在三维工坊中鉴赏五十三件圣经圣物雕塑，也可随时按 P 键珍藏天路明信片。请放慢脚步，静心呼吸，在光中同行。'
+        '欢迎你，天路客，来到《天路同行》——这是一座穿越圣经四十四卷书的彩绘灵修圣所，从创世记的黎明一直延伸到启示录的新耶路撒冷。以下是漫步与享受这个世界的方式：使用 W、A、S、D 键或方向键，在移动端也可使用触控摇杆，沿着灯火辉映的书卷长街缓步前行。在任意一幅画作前驻足，即可阅读经文与诗歌；按下 R 键，便可聆听完整的有声灵修默想。留意那些闪耀着金色光芒的画框：走近并按下 E 键，即可步入一百七十六处沉浸式三维步入画境。在剧情漫步模式中，寻访每一篇章隐藏的圣所之光，按下 F 键将其点亮，开启下一道拱门；若想自由探索，也可随时点击顶部导航栏切换为自由漫步模式。旅途之中，按 J 键可点亮每日同行烛光，在三维工坊中鉴赏五十三件圣经圣物雕塑，也可随时按 P 键珍藏天路明信片。请放慢脚步，静心呼吸，在光中同行。'
       );
     }
-    return 'Welcome, pilgrim, to The Pilgrim Walk — a living painted sanctuary through forty-four books of Scripture, from the dawn of Genesis to the New Jerusalem of Revelation. Here is how to walk and enjoy this world: Move gently down each lantern-lit Book Street using W, A, S, D, or the Arrow keys — or with the touch joystick on mobile. Pause before any of the sixteen hundred and thirty-one paintings to read its scripture and poem, and press R to hear the full devotional reflection read aloud. Watch for paintings framed in living golden light: approach them and press E to step inside one hundred and seventy-five three-dimensional Step-Through Scenes. In Story Walk mode, seek out the hidden Sanctuary Light in each chapter part and press F to kindle it and unlock the next gate — or toggle Free Walk at the top of the screen whenever you wish to wander without barriers. Along the way, press J to light your Daily Walk candle, inspect the fifty-three sculpted Hero Relics in the 3D Workshop, and press P at any moment to save a keepsake Pilgrim Postcard. Take your time, breathe deeply, and walk in the light.';
+    return 'Welcome, pilgrim, to The Pilgrim Walk — a living painted sanctuary through forty-four books of Scripture, from the dawn of Genesis to the New Jerusalem of Revelation. Here is how to walk and enjoy this world: Move gently down each lantern-lit Book Street using W, A, S, D, or the Arrow keys — or with the touch joystick on mobile. Pause before any of the sixteen hundred and seventy-seven paintings to read its scripture and poem, and press R to hear the full devotional reflection read aloud. Watch for paintings framed in living golden light: approach them and press E to step inside one hundred and seventy-six three-dimensional Step-Through Scenes. In Story Walk mode, seek out the hidden Sanctuary Light in each chapter part and press F to kindle it and unlock the next gate — or toggle Free Walk at the top of the screen whenever you wish to wander without barriers. Along the way, press J to light your Daily Walk candle, inspect the fifty-three sculpted Hero Relics in the 3D Workshop, and press P at any moment to save a keepsake Pilgrim Postcard. Take your time, breathe deeply, and walk in the light.';
   }
 
   initOneTimeIntroNarrator() {
@@ -3205,6 +3230,8 @@ class PilgrimWalkApp {
 
   syncIntroNarratorUI() {
     const zh = this.isZh();
+    const totalScenes = this.getTotalSceneCount();
+    const totalPaintingsFmt = this.getTotalPaintingCount().toLocaleString('en-US');
     const statusLabel = document.getElementById('intro-narrator-status-label');
     const toggleBtn = document.getElementById('btn-intro-narrator-toggle');
     const dismissBtn = document.getElementById('btn-intro-narrator-dismiss');
@@ -3213,6 +3240,7 @@ class PilgrimWalkApp {
     const ghBtn = document.getElementById('gatehouse-btn-listen-intro');
     const ghEyebrow = document.getElementById('gh-howto-eyebrow');
     const ghSub = document.getElementById('gh-howto-sub');
+    const ghScenesEl = document.getElementById('gh-howto-scenes');
 
     if (statusLabel) {
       statusLabel.textContent = this._introSpeaking
@@ -3229,13 +3257,18 @@ class PilgrimWalkApp {
     }
     if (textEl) {
       textEl.innerHTML = zh
-        ? this.zh('欢迎来到<strong>《天路同行》</strong>——穿越圣经 44 卷书、1,631 幅画作与 175 处 3D 步入画境的彩绘灵修圣所。')
-        : 'Welcome, pilgrim, to <em>The Pilgrim Walk</em> — a living painted sanctuary through 44 books of Scripture, 1,631 paintings, and 175 3D Step-Through Scenes.';
+        ? this.zh(`欢迎来到<strong>《天路同行》</strong>——穿越圣经 44 卷书、${totalPaintingsFmt} 幅画作与 ${totalScenes} 处 3D 步入画境的彩绘灵修圣所。`)
+        : `Welcome, pilgrim, to <em>The Pilgrim Walk</em> — a living painted sanctuary through 44 books of Scripture, ${totalPaintingsFmt} paintings, and ${totalScenes} 3D Step-Through Scenes.`;
     }
     if (keysEl) {
       keysEl.innerHTML = zh
-        ? this.zh('<strong>WASD / 方向键</strong>（或触控摇杆）：漫步 · <strong>[R]</strong>：品读诗歌与聆听朗读 · <strong>[E]</strong>：步入发光画框 · <strong>[F]</strong>：点亮圣所之光（或切换自由漫步） · <strong>[J]</strong>：每日同行烛光 · <strong>[P]</strong>：保存天路明信片')
-        : '<strong>WASD / Arrows</strong> (or Touch Joystick): Walk · <strong>[R]</strong>: Read Poem &amp; Listen · <strong>[E]</strong>: Step Inside 175 Glowing Paintings · <strong>[F]</strong>: Kindle Sanctuary Lights (or toggle Free Walk) · <strong>[J]</strong>: Daily Walk Candle · <strong>[P]</strong>: Save Postcard';
+        ? this.zh(`<strong>WASD / 方向键</strong>（或触控摇杆）：漫步 · <strong>[R]</strong>：品读诗歌与聆听朗读 · <strong>[E]</strong>：步入 ${totalScenes} 处发光画框 · <strong>[F]</strong>：点亮圣所之光（或切换自由漫步） · <strong>[J]</strong>：每日同行烛光 · <strong>[P]</strong>：保存天路明信片`)
+        : `<strong>WASD / Arrows</strong> (or Touch Joystick): Walk · <strong>[R]</strong>: Read Poem &amp; Listen · <strong>[E]</strong>: Step Inside ${totalScenes} Glowing Paintings · <strong>[F]</strong>: Kindle Sanctuary Lights (or toggle Free Walk) · <strong>[J]</strong>: Daily Walk Candle · <strong>[P]</strong>: Save Postcard`;
+    }
+    if (ghScenesEl) {
+      ghScenesEl.innerHTML = zh
+        ? this.zh(`<strong>✦ 步入画境：</strong>走近泛起金色光晕的画框并按 <code>[E]</code>，步入 ${totalScenes} 处 3D 步入画境。`)
+        : `<strong>✦ Step Inside Art:</strong> Approach golden-halo frames and press <code>[E]</code> to enter ${totalScenes} 3D Step-Through Scenes.`;
     }
     if (ghBtn) {
       ghBtn.textContent = this._introSpeaking

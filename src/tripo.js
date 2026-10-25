@@ -1,8 +1,8 @@
 // ============================================================================
-// THE PILGRIM WALK — 3D (.glb) Relic Loader & Painterly Adapter (All 175 Scenes)
+// THE PILGRIM WALK — 3D (.glb) Relic Loader & Painterly Adapter (All 176 Scenes)
 // Supports:
 //   1. All Sacred Hero Relics in assets/models/<id>.glb (modeled with the Relic Maker)
-//   2. All 175 Step-Through Painting Scenes across all 44 Books in
+//   2. All 176 Step-Through Painting Scenes across all 44 Books in
 //      assets/models/scenes/<districtSlug>-<paintingNum>.glb
 //   3. Adapts imported GLTF/GLB PBR materials to match the warm oil-on-linen
 //      painterly aesthetic (softened specular, linen micro-bump, warm shadows).
@@ -454,7 +454,7 @@ export class TripoRelicManager {
     }
   }
 
-  // Automatically probes and mounts a .glb model for ANY of the 175 Step-Through Painting Scenes!
+  // Automatically probes and mounts a .glb model for ANY of the 176 Step-Through Painting Scenes!
   async mountSceneGlbIfAvailable(targetGroup, districtSlug, paintingNum, options = {}) {
     if (!targetGroup || !districtSlug || !paintingNum) return;
     const sceneKey = `scene-${districtSlug}-${paintingNum}`;

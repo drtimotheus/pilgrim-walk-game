@@ -5,7 +5,9 @@
     "title": "Genesis",
     "subtitle": "In the Beginning — Genesis in Poems & Pictures",
     "zh_title": "起初",
-    "zh_subtitle": "创世记诗画集"
+    "zh_subtitle": "创世记诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 2,
@@ -13,7 +15,9 @@
     "title": "Let My People Go",
     "subtitle": "Exodus in Poems & Pictures",
     "zh_title": "容我的百姓去",
-    "zh_subtitle": "出埃及记诗画集"
+    "zh_subtitle": "出埃及记诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 3,
@@ -21,7 +25,9 @@
     "title": "Fire by Night",
     "subtitle": "Leviticus & Numbers in Poems & Pictures",
     "zh_title": "夜间火柱",
-    "zh_subtitle": "利未记与民数记诗画集"
+    "zh_subtitle": "利未记与民数记诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 4,
@@ -29,7 +35,9 @@
     "title": "Choose Life",
     "subtitle": "Deuteronomy in Poems & Pictures",
     "zh_title": "拣选生命",
-    "zh_subtitle": "申命记诗画集"
+    "zh_subtitle": "申命记诗画集",
+    "sceneCount": 4,
+    "paintingCount": 36
   },
   {
     "n": 5,
@@ -37,7 +45,9 @@
     "title": "Be Strong and Courageous",
     "subtitle": "Joshua & Judges in Poems & Pictures",
     "zh_title": "刚强壮胆",
-    "zh_subtitle": "约书亚记与士师记诗画集"
+    "zh_subtitle": "约书亚记与士师记诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 6,
@@ -45,7 +55,9 @@
     "title": "Where You Go",
     "subtitle": "Ruth in Poems & Pictures",
     "zh_title": "你往哪里去",
-    "zh_subtitle": "路得记诗画集"
+    "zh_subtitle": "路得记诗画集",
+    "sceneCount": 4,
+    "paintingCount": 24
   },
   {
     "n": 7,
@@ -53,7 +65,9 @@
     "title": "The Lamp Had Not Gone Out",
     "subtitle": "1–2 Samuel in Poems & Pictures",
     "zh_title": "神的灯尚未熄灭",
-    "zh_subtitle": "撒母耳记上下诗画集"
+    "zh_subtitle": "撒母耳记上下诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 8,
@@ -61,7 +75,9 @@
     "title": "A Still Small Voice",
     "subtitle": "1 & 2 Kings in Poems & Pictures",
     "zh_title": "微小的声音",
-    "zh_subtitle": "列王纪上下诗画集"
+    "zh_subtitle": "列王纪上下诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 9,
@@ -69,7 +85,9 @@
     "title": "Our Eyes Are on You",
     "subtitle": "1 & 2 Chronicles in Poems & Pictures",
     "zh_title": "我们的眼目仰望你",
-    "zh_subtitle": "历代志上下诗画集"
+    "zh_subtitle": "历代志上下诗画集",
+    "sceneCount": 4,
+    "paintingCount": 36
   },
   {
     "n": 10,
@@ -77,7 +95,9 @@
     "title": "Rise Up and Build",
     "subtitle": "Ezra & Nehemiah in Poems & Pictures",
     "zh_title": "起来建造",
-    "zh_subtitle": "以斯拉记与尼希米记诗画集"
+    "zh_subtitle": "以斯拉记与尼希米记诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 11,
@@ -85,7 +105,9 @@
     "title": "For Such a Time as This",
     "subtitle": "Esther in Poems & Pictures",
     "zh_title": "焉知不为现今的机会",
-    "zh_subtitle": "以斯帖记诗画集"
+    "zh_subtitle": "以斯帖记诗画集",
+    "sceneCount": 4,
+    "paintingCount": 32
   },
   {
     "n": 12,
@@ -93,7 +115,9 @@
     "title": "Out of the Whirlwind",
     "subtitle": "Job in Poems & Pictures",
     "zh_title": "旋风中的回答",
-    "zh_subtitle": "约伯记诗画集"
+    "zh_subtitle": "约伯记诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 13,
@@ -101,7 +125,9 @@
     "title": "Planted by the Water",
     "subtitle": "Psalms 1–41 in Poems & Pictures",
     "zh_title": "栽在溪水旁",
-    "zh_subtitle": "诗篇 1–41 诗画集"
+    "zh_subtitle": "诗篇 1–41 诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 14,
@@ -109,7 +135,9 @@
     "title": "As the Deer",
     "subtitle": "Psalms 42–72 in Poems & Pictures",
     "zh_title": "如鹿切慕溪水",
-    "zh_subtitle": "诗篇 42–72 诗画集"
+    "zh_subtitle": "诗篇 42–72 诗画集",
+    "sceneCount": 4,
+    "paintingCount": 31
   },
   {
     "n": 15,
@@ -117,7 +145,9 @@
     "title": "A Day in Your Courts",
     "subtitle": "Psalms 73–106 in Poems & Pictures",
     "zh_title": "在你的院宇住一日",
-    "zh_subtitle": "诗篇 73–106 诗画集"
+    "zh_subtitle": "诗篇 73–106 诗画集",
+    "sceneCount": 4,
+    "paintingCount": 34
   },
   {
     "n": 16,
@@ -125,7 +155,9 @@
     "title": "Everything That Has Breath",
     "subtitle": "Psalms 107–150 in Poems & Pictures",
     "zh_title": "凡有气息的",
-    "zh_subtitle": "诗篇 107–150 诗画集"
+    "zh_subtitle": "诗篇 107–150 诗画集",
+    "sceneCount": 4,
+    "paintingCount": 44
   },
   {
     "n": 17,
@@ -133,7 +165,9 @@
     "title": "The Beginning of Wisdom",
     "subtitle": "Proverbs in Poems & Pictures",
     "zh_title": "智慧的开端",
-    "zh_subtitle": "箴言诗画集"
+    "zh_subtitle": "箴言诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 18,
@@ -141,7 +175,9 @@
     "title": "Eternity in Their Hearts",
     "subtitle": "Ecclesiastes in Poems & Pictures",
     "zh_title": "将永恒安置在世人心里",
-    "zh_subtitle": "传道书诗画集"
+    "zh_subtitle": "传道书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 36
   },
   {
     "n": 19,
@@ -149,7 +185,9 @@
     "title": "Many Waters",
     "subtitle": "The Song of Songs in Poems & Pictures",
     "zh_title": "众水不能熄灭",
-    "zh_subtitle": "雅歌诗画集"
+    "zh_subtitle": "雅歌诗画集",
+    "sceneCount": 4,
+    "paintingCount": 32
   },
   {
     "n": 20,
@@ -157,7 +195,9 @@
     "title": "Arise, Shine",
     "subtitle": "Isaiah in Poems & Pictures",
     "zh_title": "兴起发光",
-    "zh_subtitle": "以赛亚书诗画集"
+    "zh_subtitle": "以赛亚书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 21,
@@ -165,7 +205,9 @@
     "title": "A Future and a Hope",
     "subtitle": "Jeremiah in Poems & Pictures",
     "zh_title": "有指望的未来",
-    "zh_subtitle": "耶利米书诗画集"
+    "zh_subtitle": "耶利米书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 22,
@@ -173,7 +215,9 @@
     "title": "New Every Morning",
     "subtitle": "Lamentations in Poems & Pictures",
     "zh_title": "每早晨都是新的",
-    "zh_subtitle": "耶利米哀歌诗画集"
+    "zh_subtitle": "耶利米哀歌诗画集",
+    "sceneCount": 4,
+    "paintingCount": 30
   },
   {
     "n": 23,
@@ -181,7 +225,9 @@
     "title": "Can These Bones Live?",
     "subtitle": "Ezekiel in Poems & Pictures",
     "zh_title": "这些骸骨能复活吗？",
-    "zh_subtitle": "以西结书诗画集"
+    "zh_subtitle": "以西结书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 24,
@@ -189,7 +235,9 @@
     "title": "Greatly Beloved",
     "subtitle": "Daniel in Poems & Pictures",
     "zh_title": "大蒙眷爱的人",
-    "zh_subtitle": "但以理书诗画集"
+    "zh_subtitle": "但以理书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 25,
@@ -197,7 +245,9 @@
     "title": "A Door of Hope",
     "subtitle": "Hosea, Joel, Amos & Obadiah in Poems & Pictures",
     "zh_title": "指望之门",
-    "zh_subtitle": "何西阿书、约珥书、阿摩司书与俄巴底亚书诗画集"
+    "zh_subtitle": "何西阿书、约珥书、阿摩司书与俄巴底亚书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 26,
@@ -205,7 +255,9 @@
     "title": "Out of the Deep",
     "subtitle": "Jonah in Poems & Pictures",
     "zh_title": "从深处求告",
-    "zh_subtitle": "约拿书诗画集"
+    "zh_subtitle": "约拿书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 24
   },
   {
     "n": 27,
@@ -213,7 +265,9 @@
     "title": "The Day of Small Things",
     "subtitle": "Micah to Malachi in Poems & Pictures",
     "zh_title": "小事之日",
-    "zh_subtitle": "弥迦书至玛拉基书诗画集"
+    "zh_subtitle": "弥迦书至玛拉基书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 28,
@@ -221,7 +275,9 @@
     "title": "Good News of Great Joy",
     "subtitle": "Luke in Poems & Pictures",
     "zh_title": "大喜的好信息",
-    "zh_subtitle": "路加福音诗画集"
+    "zh_subtitle": "路加福音诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 29,
@@ -229,7 +285,9 @@
     "title": "I Am With You Always",
     "subtitle": "Matthew in Poems & Pictures",
     "zh_title": "我常与你们同在",
-    "zh_subtitle": "马太福音诗画集"
+    "zh_subtitle": "马太福音诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 30,
@@ -237,7 +295,9 @@
     "title": "Peace, Be Still",
     "subtitle": "Mark in Poems & Pictures",
     "zh_title": "住了吧！静了吧！",
-    "zh_subtitle": "马可福音诗画集"
+    "zh_subtitle": "马可福音诗画集",
+    "sceneCount": 4,
+    "paintingCount": 36
   },
   {
     "n": 31,
@@ -245,7 +305,9 @@
     "title": "Come and See",
     "subtitle": "John in Poems & Pictures",
     "zh_title": "你们来看",
-    "zh_subtitle": "约翰福音诗画集"
+    "zh_subtitle": "约翰福音诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 32,
@@ -253,7 +315,9 @@
     "title": "To the Ends of the Earth",
     "subtitle": "Acts in Poems & Pictures",
     "zh_title": "直到地极",
-    "zh_subtitle": "使徒行传诗画集"
+    "zh_subtitle": "使徒行传诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 33,
@@ -261,7 +325,9 @@
     "title": "Nothing Can Separate",
     "subtitle": "Romans in Poems & Pictures",
     "zh_title": "绝不能隔绝",
-    "zh_subtitle": "罗马书诗画集"
+    "zh_subtitle": "罗马书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 34,
@@ -269,7 +335,9 @@
     "title": "Treasure in Clay Jars",
     "subtitle": "1 and 2 Corinthians in Poems & Pictures",
     "zh_title": "瓦器里的宝贝",
-    "zh_subtitle": "哥林多前后书诗画集"
+    "zh_subtitle": "哥林多前后书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 35,
@@ -277,7 +345,9 @@
     "title": "Rooted and Free",
     "subtitle": "Galatians & Ephesians in Poems & Pictures",
     "zh_title": "扎根与自由",
-    "zh_subtitle": "加拉太书与以弗所书诗画集"
+    "zh_subtitle": "加拉太书与以弗所书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 36,
@@ -285,7 +355,9 @@
     "title": "Joy in Chains",
     "subtitle": "Philippians in Poems & Pictures",
     "zh_title": "锁链中的喜乐",
-    "zh_subtitle": "腓立比书诗画集"
+    "zh_subtitle": "腓立比书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 24
   },
   {
     "n": 37,
@@ -293,7 +365,9 @@
     "title": "Held Together",
     "subtitle": "Colossians & Philemon in Poems & Pictures",
     "zh_title": "万有靠他而立",
-    "zh_subtitle": "歌罗西书与腓利门书诗画集"
+    "zh_subtitle": "歌罗西书与腓利门书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 32
   },
   {
     "n": 38,
@@ -301,7 +375,9 @@
     "title": "Children of the Day",
     "subtitle": "1 & 2 Thessalonians in Poems & Pictures",
     "zh_title": "光明之子",
-    "zh_subtitle": "帖撒罗尼迦前后书诗画集"
+    "zh_subtitle": "帖撒罗尼迦前后书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 36
   },
   {
     "n": 39,
@@ -309,7 +385,9 @@
     "title": "Grace, Mercy, and Peace",
     "subtitle": "1–2 Timothy & Titus in Poems & Pictures",
     "zh_title": "恩惠、怜悯与平安",
-    "zh_subtitle": "提摩太前后书与提多书诗画集"
+    "zh_subtitle": "提摩太前后书与提多书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 40,
@@ -317,7 +395,9 @@
     "title": "Anchor of the Soul",
     "subtitle": "Hebrews in Poems & Pictures",
     "zh_title": "灵魂的锚",
-    "zh_subtitle": "希伯来书诗画集"
+    "zh_subtitle": "希伯来书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 41,
@@ -325,7 +405,9 @@
     "title": "Doers of the Word",
     "subtitle": "James in Poems & Pictures",
     "zh_title": "行道的人",
-    "zh_subtitle": "雅各书诗画集"
+    "zh_subtitle": "雅各书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 30
   },
   {
     "n": 42,
@@ -333,7 +415,9 @@
     "title": "A Living Hope",
     "subtitle": "1–2 Peter & Jude in Poems & Pictures",
     "zh_title": "活泼的盼望",
-    "zh_subtitle": "彼得前后书与犹大书诗画集"
+    "zh_subtitle": "彼得前后书与犹大书诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   },
   {
     "n": 43,
@@ -341,7 +425,9 @@
     "title": "Little Children",
     "subtitle": "The Letters of John in Poems & Pictures",
     "zh_title": "小子们哪",
-    "zh_subtitle": "约翰书信诗画集"
+    "zh_subtitle": "约翰书信诗画集",
+    "sceneCount": 4,
+    "paintingCount": 36
   },
   {
     "n": 44,
@@ -349,6 +435,8 @@
     "title": "All Things New",
     "subtitle": "Revelation in Poems & Pictures",
     "zh_title": "我将一切都更新了",
-    "zh_subtitle": "启示录诗画集"
+    "zh_subtitle": "启示录诗画集",
+    "sceneCount": 4,
+    "paintingCount": 40
   }
 ]

@@ -14613,4 +14613,640 @@ export class PainterlyPropBuilder {
 
     return { group, bedGroup, lampFlame, guestLight };
   }
+
+  // ==========================================================================
+  // DISTRICT XXXVIII — CHILDREN OF THE DAY (1 & 2 Thessalonians)
+  // ==========================================================================
+
+  // 1. 1 Thessalonians 2:7 (#8 "like a nursing mother", b-038-008.jpg)
+  //    Warm bedside table & stone ledge with a lit handled clay cup-lamp,
+  //    cream & peach-coral swaddling cloths, woven basket with olive branch,
+  //    and a tall terracotta water pitcher & carved wooden tray.
+  createThessalonians2CradleLampAndSwaddlingTableEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const isFinalePlaza = Boolean(options.isFinalePlaza);
+    const propTex = options.propTex || null;
+    const group = new THREE.Group();
+    group.name = 'Thessalonians2CradleLampAndSwaddlingTableEnsemble';
+
+    const stoneLedgeMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9a866e',
+      accentColor: '#cab89e',
+      roughness: 0.88,
+      map: propTex
+    });
+    const woodTableMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e543b',
+      accentColor: '#9e805e',
+      roughness: 0.82,
+      map: propTex
+    });
+    const clayLampMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b47348',
+      accentColor: '#e09d6e',
+      roughness: 0.76,
+      map: propTex
+    });
+    const creamLinenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#e3d6be',
+      accentColor: '#faf0db',
+      roughness: 0.70,
+      map: propTex
+    });
+    const peachLinenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#e2986d',
+      accentColor: '#f7bc97',
+      roughness: 0.72,
+      map: propTex
+    });
+    const basketMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a48358',
+      accentColor: '#cfb082',
+      roughness: 0.84,
+      map: propTex
+    });
+    const oliveLeafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6c7a52',
+      accentColor: '#98a878',
+      roughness: 0.78,
+      map: propTex
+    });
+    const flameMat = new THREE.MeshBasicMaterial({ color: 0xffd884 });
+
+    // Ground stone plinth
+    const plinth = new THREE.Mesh(new THREE.CylinderGeometry(2.0, 2.25, 0.16, 24), stoneLedgeMat);
+    plinth.position.y = 0.08;
+    plinth.receiveShadow = true;
+    group.add(plinth);
+
+    // Foreground low wooden table holding the cup-lamp, swaddling cloths & olive basket
+    const tableTop = new THREE.Mesh(new THREE.BoxGeometry(1.75, 0.10, 1.05), woodTableMat);
+    tableTop.position.set(0, 0.72, 0.12);
+    tableTop.castShadow = true;
+    tableTop.receiveShadow = true;
+    group.add(tableTop);
+
+    [[-0.74, -0.40], [0.74, -0.40], [-0.74, 0.40], [0.74, 0.40]].forEach(([lx, lz]) => {
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.048, 0.62, 10), woodTableMat);
+      leg.position.set(lx, 0.38, 0.12 + lz);
+      leg.castShadow = true;
+      group.add(leg);
+    });
+
+    // Cream swaddling cloth draped across the center-left of the table
+    const creamCloth = new THREE.Mesh(new THREE.BoxGeometry(1.18, 0.06, 0.78), creamLinenMat);
+    creamCloth.position.set(-0.08, 0.79, 0.14);
+    creamCloth.rotation.y = 0.08;
+    creamCloth.userData.keepWithGlb = true;
+    group.add(creamCloth);
+
+    // Gently bundled swaddling roll in the center
+    const swaddleRoll = new THREE.Mesh(new THREE.CylinderGeometry(0.20, 0.22, 0.62, 16), creamLinenMat);
+    swaddleRoll.rotation.z = Math.PI * 0.48;
+    swaddleRoll.rotation.y = 0.22;
+    swaddleRoll.position.set(-0.06, 0.96, 0.08);
+    swaddleRoll.castShadow = true;
+    swaddleRoll.userData.keepWithGlb = true;
+    group.add(swaddleRoll);
+
+    // Warm peach-coral cloth folded at the front-right corner (as in b-038-008.jpg)
+    const peachCloth = new THREE.Mesh(new THREE.BoxGeometry(0.56, 0.075, 0.44), peachLinenMat);
+    peachCloth.position.set(0.32, 0.81, 0.34);
+    peachCloth.rotation.y = -0.18;
+    peachCloth.userData.keepWithGlb = true;
+    group.add(peachCloth);
+
+    // Lit handled clay cup-lamp on the front-left corner
+    const cupGroup = new THREE.Group();
+    cupGroup.position.set(-0.56, 0.78, 0.30);
+    cupGroup.userData.keepWithGlb = true;
+    const cupBody = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.10, 0.22, 16), clayLampMat);
+    cupBody.position.y = 0.11;
+    cupBody.castShadow = true;
+    const cupHandle = new THREE.Mesh(new THREE.TorusGeometry(0.065, 0.018, 8, 14, Math.PI * 1.15), clayLampMat);
+    cupHandle.position.set(-0.13, 0.12, 0);
+    cupHandle.rotation.z = Math.PI * 0.5;
+    const cupFlame = new THREE.Mesh(new THREE.ConeGeometry(0.032, 0.11, 10), flameMat);
+    cupFlame.position.set(0, 0.26, 0);
+    cupGroup.add(cupBody, cupHandle, cupFlame);
+    group.add(cupGroup);
+
+    // Woven shallow basket on the right with a fresh olive branch
+    const basketRim = new THREE.Mesh(new THREE.TorusGeometry(0.26, 0.026, 8, 20), basketMat);
+    basketRim.rotation.x = Math.PI / 2;
+    basketRim.position.set(0.46, 0.83, 0.02);
+    basketRim.userData.keepWithGlb = true;
+    const basketBase = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.22, 0.04, 18), creamLinenMat);
+    basketBase.position.set(0.46, 0.81, 0.02);
+    basketBase.userData.keepWithGlb = true;
+    group.add(basketRim, basketBase);
+
+    for (let i = 0; i < 7; i++) {
+      const leaf = new THREE.Mesh(new THREE.BoxGeometry(0.11, 0.014, 0.036), oliveLeafMat);
+      leaf.position.set(0.38 + i * 0.035, 0.85 + (i % 2) * 0.015, -0.04 + (i % 3) * 0.04);
+      leaf.rotation.y = (i - 3) * 0.28;
+      leaf.userData.keepWithGlb = true;
+      group.add(leaf);
+    }
+
+    // Rear stone ledge with tall terracotta pitcher & carved wooden round tray
+    const stoneShelf = new THREE.Mesh(new THREE.BoxGeometry(1.85, 0.92, 0.58), stoneLedgeMat);
+    stoneShelf.position.set(0.18, 0.54, -0.62);
+    stoneShelf.castShadow = true;
+    stoneShelf.receiveShadow = true;
+    group.add(stoneShelf);
+
+    const pitcherBody = new THREE.Mesh(new THREE.SphereGeometry(0.22, 16, 14), clayLampMat);
+    pitcherBody.scale.set(1.0, 1.38, 1.0);
+    pitcherBody.position.set(0.22, 1.28, -0.60);
+    pitcherBody.castShadow = true;
+    pitcherBody.userData.keepWithGlb = true;
+    const pitcherNeck = new THREE.Mesh(new THREE.CylinderGeometry(0.085, 0.11, 0.22, 14), clayLampMat);
+    pitcherNeck.position.set(0.22, 1.56, -0.60);
+    pitcherNeck.userData.keepWithGlb = true;
+    const pitcherHandle = new THREE.Mesh(new THREE.TorusGeometry(0.10, 0.02, 8, 14, Math.PI * 1.1), clayLampMat);
+    pitcherHandle.position.set(0.09, 1.44, -0.60);
+    pitcherHandle.rotation.z = Math.PI * 0.5;
+    pitcherHandle.userData.keepWithGlb = true;
+    group.add(pitcherBody, pitcherNeck, pitcherHandle);
+
+    const carvedTray = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.24, 0.035, 20), basketMat);
+    carvedTray.rotation.x = Math.PI * 0.44;
+    carvedTray.position.set(0.62, 1.22, -0.68);
+    carvedTray.userData.keepWithGlb = true;
+    group.add(carvedTray);
+
+    const lampLight = new THREE.PointLight(0xffcf86, isFinalePlaza ? 3.2 : 2.8, 16);
+    lampLight.position.set(-0.45, 1.35, 0.35);
+    group.add(lampLight);
+
+    return { group, cupGroup, cupFlame, lampLight };
+  }
+
+  // 2. 1 Thessalonians 2:9 (#10 "night and day", b-038-010.jpg)
+  //    Pegged rough-hewn timber tentmaker's workbench with coarse goat-hair
+  //    tent cloth, curved iron needle & hemp twine, wound twine spool,
+  //    lit clay nozzle lamp, and woven fiber basket underneath.
+  createThessalonians2TentmakerWorkbenchAndNeedleEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const isFinalePlaza = Boolean(options.isFinalePlaza);
+    const propTex = options.propTex || null;
+    const group = new THREE.Group();
+    group.name = 'Thessalonians2TentmakerWorkbenchAndNeedleEnsemble';
+
+    const stoneFloorMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#837a64',
+      accentColor: '#b5aa8e',
+      roughness: 0.90,
+      map: propTex
+    });
+    const benchWoodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6b563e',
+      accentColor: '#9c8364',
+      roughness: 0.84,
+      map: propTex
+    });
+    const tentClothMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c5544',
+      accentColor: '#8a8068',
+      roughness: 0.92,
+      map: propTex
+    });
+    const twineMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c8b48a',
+      accentColor: '#e8d8b2',
+      roughness: 0.82,
+      map: propTex
+    });
+    const ironNeedleMat = new THREE.MeshStandardMaterial({
+      color: 0x9a9ea4,
+      roughness: 0.35,
+      metalness: 0.72
+    });
+    const clayLampMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8e633b',
+      accentColor: '#bd8c5c',
+      roughness: 0.78,
+      map: propTex
+    });
+    const basketMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#786042',
+      accentColor: '#a68b66',
+      roughness: 0.86,
+      map: propTex
+    });
+    const flameMat = new THREE.MeshBasicMaterial({ color: 0xffe08a });
+
+    const plinth = new THREE.Mesh(new THREE.CylinderGeometry(2.05, 2.3, 0.16, 24), stoneFloorMat);
+    plinth.position.y = 0.08;
+    plinth.receiveShadow = true;
+    group.add(plinth);
+
+    // Heavy timber workbench slab with mortise pegs
+    const benchSlab = new THREE.Mesh(new THREE.BoxGeometry(1.92, 0.16, 0.98), benchWoodMat);
+    benchSlab.position.set(0, 0.82, 0);
+    benchSlab.castShadow = true;
+    benchSlab.receiveShadow = true;
+    group.add(benchSlab);
+
+    const legCoords = [
+      [-0.76, -0.34, -0.08, -0.04],
+      [0.76, -0.34, 0.08, -0.04],
+      [-0.76, 0.34, -0.08, 0.04],
+      [0.76, 0.34, 0.08, 0.04]
+    ];
+    legCoords.forEach(([lx, lz, rx, rz]) => {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.13, 0.74, 0.13), benchWoodMat);
+      leg.position.set(lx, 0.44, lz);
+      leg.rotation.z = rx;
+      leg.rotation.x = rz;
+      leg.castShadow = true;
+      group.add(leg);
+    });
+
+    // Side stretcher bar with protruding wooden tenon pegs
+    const stretcher = new THREE.Mesh(new THREE.BoxGeometry(2.08, 0.08, 0.84), benchWoodMat);
+    stretcher.position.set(0, 0.70, 0);
+    group.add(stretcher);
+
+    // Coarse goat-hair tent cloth draped over the left side of the bench
+    const clothTop = new THREE.Mesh(new THREE.BoxGeometry(1.06, 0.045, 0.96), tentClothMat);
+    clothTop.position.set(-0.38, 0.92, 0.02);
+    clothTop.rotation.y = 0.12;
+    clothTop.castShadow = true;
+    clothTop.userData.keepWithGlb = true;
+    group.add(clothTop);
+
+    const clothDrop = new THREE.Mesh(new THREE.BoxGeometry(0.86, 0.44, 0.045), tentClothMat);
+    clothDrop.position.set(-0.46, 0.72, 0.49);
+    clothDrop.rotation.x = 0.18;
+    clothDrop.rotation.z = -0.14;
+    clothDrop.castShadow = true;
+    clothDrop.userData.keepWithGlb = true;
+    group.add(clothDrop);
+
+    // Large tentmaker's needle resting on the coarse cloth with loops of hemp twine
+    const needle = new THREE.Mesh(new THREE.CylinderGeometry(0.008, 0.018, 0.46, 10), ironNeedleMat);
+    needle.rotation.z = Math.PI * 0.48;
+    needle.rotation.y = -0.35;
+    needle.position.set(-0.38, 0.96, 0.12);
+    needle.userData.keepWithGlb = true;
+    group.add(needle);
+
+    for (let t = 0; t < 2; t++) {
+      const loop = new THREE.Mesh(new THREE.TorusGeometry(0.11 + t * 0.03, 0.006, 8, 24), twineMat);
+      loop.rotation.x = Math.PI / 2;
+      loop.position.set(-0.24 + t * 0.12, 0.95, 0.04 + t * 0.05);
+      loop.userData.keepWithGlb = true;
+      group.add(loop);
+    }
+
+    // Wound spool of hemp twine near the back center of the bench
+    const spool = new THREE.Mesh(new THREE.CylinderGeometry(0.13, 0.14, 0.22, 18), twineMat);
+    spool.position.set(0.02, 1.01, -0.22);
+    spool.castShadow = true;
+    spool.userData.keepWithGlb = true;
+    group.add(spool);
+
+    // Lit terracotta nozzle lamp on the right end of the workbench
+    const lampGroup = new THREE.Group();
+    lampGroup.position.set(0.54, 0.90, 0.06);
+    lampGroup.userData.keepWithGlb = true;
+    const lampBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.11, 0.11, 18), clayLampMat);
+    lampBowl.scale.set(1.25, 1.0, 0.92);
+    lampBowl.position.y = 0.055;
+    lampBowl.castShadow = true;
+    const lampNozzle = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.065, 0.12, 12), clayLampMat);
+    lampNozzle.rotation.z = Math.PI * 0.36;
+    lampNozzle.position.set(-0.18, 0.07, 0);
+    const lampFlame = new THREE.Mesh(new THREE.ConeGeometry(0.032, 0.13, 10), flameMat);
+    lampFlame.position.set(-0.12, 0.16, 0);
+    lampGroup.add(lampBowl, lampNozzle, lampFlame);
+    group.add(lampGroup);
+
+    // Woven basket of raw hemp fiber underneath the workbench
+    const fiberBasket = new THREE.Mesh(new THREE.CylinderGeometry(0.38, 0.30, 0.22, 18), basketMat);
+    fiberBasket.position.set(-0.34, 0.27, 0.08);
+    fiberBasket.castShadow = true;
+    fiberBasket.userData.keepWithGlb = true;
+    const rawFiberMound = new THREE.Mesh(new THREE.SphereGeometry(0.33, 14, 10), twineMat);
+    rawFiberMound.scale.set(1.0, 0.52, 1.0);
+    rawFiberMound.position.set(-0.34, 0.38, 0.08);
+    rawFiberMound.userData.keepWithGlb = true;
+    group.add(fiberBasket, rawFiberMound);
+
+    const benchLight = new THREE.PointLight(0xffd480, isFinalePlaza ? 3.2 : 2.8, 16);
+    benchLight.position.set(0.42, 1.45, 0.15);
+    group.add(benchLight);
+
+    return { group, lampGroup, lampFlame, benchLight };
+  }
+
+  // 3. 1 Thessalonians 5:4–5 (#21 "a thief in the night", b-038-021.jpg)
+  //    Stone windowsill & open wooden shutter looking toward dawn, with a
+  //    lit terracotta oil lamp on the right, and a rolled parchment scroll,
+  //    draped linen cloth, and small clay bowl on the left.
+  createThessalonians5DawnWindowsillLampAndScrollEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const isFinalePlaza = Boolean(options.isFinalePlaza);
+    const propTex = options.propTex || null;
+    const group = new THREE.Group();
+    group.name = 'Thessalonians5DawnWindowsillLampAndScrollEnsemble';
+
+    const stoneWallMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7c7058',
+      accentColor: '#ae9f82',
+      roughness: 0.90,
+      map: propTex
+    });
+    const sillStoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9b8d72',
+      accentColor: '#cfc0a2',
+      roughness: 0.86,
+      map: propTex
+    });
+    const shutterWoodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5a4c3b',
+      accentColor: '#87755e',
+      roughness: 0.84,
+      map: propTex
+    });
+    const clayLampMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a67344',
+      accentColor: '#d99e66',
+      roughness: 0.76,
+      map: propTex
+    });
+    const scrollMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#dacba8',
+      accentColor: '#f5e8ca',
+      roughness: 0.72,
+      map: propTex
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c8bc9e',
+      accentColor: '#e6dcc2',
+      roughness: 0.78,
+      map: propTex
+    });
+    const bowlMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#746550',
+      accentColor: '#a39178',
+      roughness: 0.84,
+      map: propTex
+    });
+    const flameMat = new THREE.MeshBasicMaterial({ color: 0xffe494 });
+
+    const plinth = new THREE.Mesh(new THREE.CylinderGeometry(2.1, 2.35, 0.16, 24), stoneWallMat);
+    plinth.position.y = 0.08;
+    plinth.receiveShadow = true;
+    group.add(plinth);
+
+    // Broad stone windowsill bench
+    const sillBase = new THREE.Mesh(new THREE.BoxGeometry(2.15, 0.76, 1.08), stoneWallMat);
+    sillBase.position.set(0, 0.46, 0);
+    sillBase.castShadow = true;
+    sillBase.receiveShadow = true;
+    group.add(sillBase);
+
+    const sillTop = new THREE.Mesh(new THREE.BoxGeometry(2.26, 0.12, 1.16), sillStoneMat);
+    sillTop.position.set(0, 0.88, 0);
+    sillTop.castShadow = true;
+    sillTop.receiveShadow = true;
+    group.add(sillTop);
+
+    // Left stone window jamb pillar & right open wooden shutter
+    const leftJamb = new THREE.Mesh(new THREE.BoxGeometry(0.38, 1.85, 0.56), stoneWallMat);
+    leftJamb.position.set(-0.94, 1.82, -0.26);
+    leftJamb.castShadow = true;
+    group.add(leftJamb);
+
+    const rightJamb = new THREE.Mesh(new THREE.BoxGeometry(0.34, 1.85, 0.52), stoneWallMat);
+    rightJamb.position.set(0.96, 1.82, -0.26);
+    rightJamb.castShadow = true;
+    group.add(rightJamb);
+
+    const openShutter = new THREE.Mesh(new THREE.BoxGeometry(0.68, 1.76, 0.08), shutterWoodMat);
+    openShutter.position.set(0.76, 1.80, 0.12);
+    openShutter.rotation.y = -1.12;
+    openShutter.castShadow = true;
+    openShutter.userData.keepWithGlb = true;
+    group.add(openShutter);
+
+    // Draped linen cloth, rolled scroll & clay bowl on the left side of the sill
+    const linenCloth = new THREE.Mesh(new THREE.BoxGeometry(0.88, 0.045, 0.72), linenMat);
+    linenCloth.position.set(-0.46, 0.96, 0.08);
+    linenCloth.rotation.y = 0.14;
+    linenCloth.userData.keepWithGlb = true;
+    group.add(linenCloth);
+
+    const scrollRoll = new THREE.Mesh(new THREE.CylinderGeometry(0.058, 0.058, 0.58, 16), scrollMat);
+    scrollRoll.rotation.z = Math.PI / 2;
+    scrollRoll.rotation.y = -0.42;
+    scrollRoll.position.set(-0.52, 1.02, 0.22);
+    scrollRoll.castShadow = true;
+    scrollRoll.userData.keepWithGlb = true;
+    group.add(scrollRoll);
+
+    const clayBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.11, 0.11, 18), bowlMat);
+    clayBowl.position.set(-0.56, 1.03, -0.10);
+    clayBowl.castShadow = true;
+    clayBowl.userData.keepWithGlb = true;
+    group.add(clayBowl);
+
+    // Lit terracotta spouted oil lamp with loop handle on the right side of the sill
+    const lampGroup = new THREE.Group();
+    lampGroup.position.set(0.34, 0.94, 0.08);
+    lampGroup.userData.keepWithGlb = true;
+    const lampBody = new THREE.Mesh(new THREE.SphereGeometry(0.18, 18, 14), clayLampMat);
+    lampBody.scale.set(1.22, 0.68, 0.95);
+    lampBody.position.y = 0.11;
+    lampBody.castShadow = true;
+    const lampSpout = new THREE.Mesh(new THREE.ConeGeometry(0.075, 0.22, 14), clayLampMat);
+    lampSpout.rotation.z = Math.PI * 0.46;
+    lampSpout.position.set(-0.22, 0.11, 0);
+    const lampHandle = new THREE.Mesh(new THREE.TorusGeometry(0.068, 0.022, 8, 14, Math.PI * 1.25), clayLampMat);
+    lampHandle.position.set(0.18, 0.19, 0);
+    lampHandle.rotation.z = -0.35;
+    const lampFlame = new THREE.Mesh(new THREE.ConeGeometry(0.036, 0.16, 10), flameMat);
+    lampFlame.position.set(-0.30, 0.22, 0);
+    lampGroup.add(lampBody, lampSpout, lampHandle, lampFlame);
+    group.add(lampGroup);
+
+    const dawnLight = new THREE.PointLight(0xffd888, isFinalePlaza ? 3.4 : 3.0, 18);
+    dawnLight.position.set(0.12, 1.48, 0.24);
+    group.add(dawnLight);
+
+    return { group, lampGroup, lampFlame, dawnLight };
+  }
+
+  // 4. 2 Thessalonians 3:10–12 (#34 "your own bread", b-038-034.jpg)
+  //    Workman's quiet table with a crusty round golden-brown loaf of bread
+  //    on fringed cream linen, an olive branch, a stoneware water pitcher,
+  //    a shallow clay bowl of golden olive oil, and heavy leather work gloves.
+  create2Thessalonians3QuietWorkTableLoafAndGlovesEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const isFinalePlaza = Boolean(options.isFinalePlaza);
+    const propTex = options.propTex || null;
+    const group = new THREE.Group();
+    group.name = '2Thessalonians3QuietWorkTableLoafAndGlovesEnsemble';
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a89878',
+      accentColor: '#d8c9a8',
+      roughness: 0.88,
+      map: propTex
+    });
+    const tableWoodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c7352',
+      accentColor: '#bca07a',
+      roughness: 0.82,
+      map: propTex
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#dcd2bc',
+      accentColor: '#f5ede0',
+      roughness: 0.72,
+      map: propTex
+    });
+    const breadCrustMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c89652',
+      accentColor: '#ecc07c',
+      roughness: 0.78,
+      map: propTex
+    });
+    const breadSlashMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#e4c47e',
+      accentColor: '#fadfa4',
+      roughness: 0.76,
+      map: propTex
+    });
+    const pitcherMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9a8c74',
+      accentColor: '#cabba0',
+      roughness: 0.82,
+      map: propTex
+    });
+    const oliveOilMat = new THREE.MeshStandardMaterial({
+      color: 0xb89e30,
+      roughness: 0.22,
+      metalness: 0.08
+    });
+    const leatherGloveMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7c6b52',
+      accentColor: '#ab987a',
+      roughness: 0.86,
+      map: propTex
+    });
+    const oliveLeafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6c7852',
+      accentColor: '#9aa87c',
+      roughness: 0.78,
+      map: propTex
+    });
+
+    const plinth = new THREE.Mesh(new THREE.CylinderGeometry(2.05, 2.3, 0.16, 24), stoneMat);
+    plinth.position.y = 0.08;
+    plinth.receiveShadow = true;
+    group.add(plinth);
+
+    // Sturdy workman's wooden table
+    const tableTop = new THREE.Mesh(new THREE.BoxGeometry(1.88, 0.12, 1.08), tableWoodMat);
+    tableTop.position.set(0, 0.78, 0);
+    tableTop.castShadow = true;
+    tableTop.receiveShadow = true;
+    group.add(tableTop);
+
+    [[-0.78, -0.40], [0.78, -0.40], [-0.78, 0.40], [0.78, 0.40]].forEach(([lx, lz]) => {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.11, 0.68, 0.11), tableWoodMat);
+      leg.position.set(lx, 0.42, lz);
+      leg.castShadow = true;
+      group.add(leg);
+    });
+
+    // Fringed cream linen cloth draped under the loaf and hanging over the front edge
+    const clothTop = new THREE.Mesh(new THREE.BoxGeometry(1.04, 0.04, 0.82), linenMat);
+    clothTop.position.set(-0.24, 0.86, 0.04);
+    clothTop.rotation.y = 0.10;
+    clothTop.userData.keepWithGlb = true;
+    group.add(clothTop);
+
+    const clothHang = new THREE.Mesh(new THREE.BoxGeometry(0.52, 0.34, 0.04), linenMat);
+    clothHang.position.set(-0.28, 0.72, 0.48);
+    clothHang.rotation.z = 0.12;
+    clothHang.userData.keepWithGlb = true;
+    group.add(clothHang);
+
+    // Crusty round golden-brown artisan loaf of bread on the left-center
+    const loafGroup = new THREE.Group();
+    loafGroup.position.set(-0.22, 0.88, -0.02);
+    loafGroup.userData.keepWithGlb = true;
+    const loafDome = new THREE.Mesh(new THREE.SphereGeometry(0.34, 22, 16), breadCrustMat);
+    loafDome.scale.set(1.12, 0.68, 0.96);
+    loafDome.position.y = 0.14;
+    loafDome.castShadow = true;
+    const loafSlash = new THREE.Mesh(new THREE.BoxGeometry(0.28, 0.05, 0.08), breadSlashMat);
+    loafSlash.position.set(-0.04, 0.35, 0.04);
+    loafSlash.rotation.y = -0.48;
+    loafGroup.add(loafDome, loafSlash);
+    group.add(loafGroup);
+
+    // Olive branch beside the loaf on the left
+    for (let i = 0; i < 8; i++) {
+      const leaf = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.015, 0.038), oliveLeafMat);
+      leaf.position.set(-0.68 + i * 0.045, 0.90 + i * 0.032, -0.18 + (i % 2) * 0.05);
+      leaf.rotation.z = 0.42;
+      leaf.rotation.y = (i % 2 === 0 ? 1 : -1) * 0.45;
+      leaf.userData.keepWithGlb = true;
+      group.add(leaf);
+    }
+
+    // Stoneware water pitcher behind the olive oil bowl on the right
+    const pitcherBody = new THREE.Mesh(new THREE.SphereGeometry(0.22, 18, 14), pitcherMat);
+    pitcherBody.scale.set(1.0, 1.24, 1.0);
+    pitcherBody.position.set(0.36, 1.10, -0.18);
+    pitcherBody.castShadow = true;
+    pitcherBody.userData.keepWithGlb = true;
+    const pitcherNeck = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.13, 0.16, 16), pitcherMat);
+    pitcherNeck.position.set(0.36, 1.36, -0.18);
+    pitcherNeck.userData.keepWithGlb = true;
+    const pitcherHandle = new THREE.Mesh(new THREE.TorusGeometry(0.095, 0.022, 8, 14, Math.PI * 1.15), pitcherMat);
+    pitcherHandle.position.set(0.50, 1.22, -0.18);
+    pitcherHandle.rotation.z = -Math.PI * 0.5;
+    pitcherHandle.userData.keepWithGlb = true;
+    group.add(pitcherBody, pitcherNeck, pitcherHandle);
+
+    // Shallow clay bowl of golden olive oil in front
+    const oilBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.19, 0.12, 0.09, 20), pitcherMat);
+    oilBowl.position.set(0.18, 0.90, 0.24);
+    oilBowl.castShadow = true;
+    oilBowl.userData.keepWithGlb = true;
+    const oilSurface = new THREE.Mesh(new THREE.CylinderGeometry(0.165, 0.165, 0.015, 20), oliveOilMat);
+    oilSurface.position.set(0.18, 0.935, 0.24);
+    oilSurface.userData.keepWithGlb = true;
+    group.add(oilBowl, oilSurface);
+
+    // Heavy leather work gloves resting on the right front corner of the table
+    const gloveGroup = new THREE.Group();
+    gloveGroup.position.set(0.58, 0.88, 0.18);
+    gloveGroup.rotation.y = -0.28;
+    gloveGroup.userData.keepWithGlb = true;
+    const glovePalm = new THREE.Mesh(new THREE.BoxGeometry(0.28, 0.055, 0.24), leatherGloveMat);
+    glovePalm.position.set(0, 0.03, -0.06);
+    glovePalm.castShadow = true;
+    gloveGroup.add(glovePalm);
+    for (let f = 0; f < 4; f++) {
+      const finger = new THREE.Mesh(new THREE.CylinderGeometry(0.028, 0.026, 0.16, 8), leatherGloveMat);
+      finger.rotation.x = Math.PI / 2;
+      finger.position.set(-0.09 + f * 0.06, 0.028, 0.12);
+      gloveGroup.add(finger);
+    }
+    group.add(gloveGroup);
+
+    const tableLight = new THREE.PointLight(0xffe59e, isFinalePlaza ? 3.2 : 2.8, 16);
+    tableLight.position.set(0.0, 1.55, 0.25);
+    group.add(tableLight);
+
+    return { group, loafGroup, gloveGroup, tableLight };
+  }
 }

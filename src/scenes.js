@@ -450,6 +450,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateColossians19CourtyardLyreScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'philemon_guest_room') {
       signatureState = this.populatePhilemon32PreparedGuestRoomScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'cradle_lamp_warmth') {
+      signatureState = this.populateThessalonians8CradleLampWarmthScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'tentmaker_loom_lamp') {
+      signatureState = this.populateThessalonians10TentmakerWorkbenchScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'children_of_the_day_dawn') {
+      signatureState = this.populateThessalonians21DawnWindowsillLampScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'quiet_table_loaf') {
+      signatureState = this.populateThessalonians34QuietWorkTableLoafScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -502,7 +510,8 @@ export class StepThroughSceneManager {
         'communion_cup_loaf', 'bronze_mirror_face', 'treasure_in_clay_jars', 'sufficient_grace_thorn',
         'fruit_of_the_spirit_grove', 'broken_dividing_wall', 'rooted_in_love_tree', 'armor_of_god_table',
         'praetorian_scroll_chain', 'servant_towel_crown', 'finish_line_pillar', 'peace_on_guard_lantern',
-        'held_together_cosmos', 'cancelled_scroll_cross', 'psalms_hymns_table', 'philemon_guest_room'
+        'held_together_cosmos', 'cancelled_scroll_cross', 'psalms_hymns_table', 'philemon_guest_room',
+        'cradle_lamp_warmth', 'tentmaker_loom_lamp', 'children_of_the_day_dawn', 'quiet_table_loaf'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -7437,6 +7446,150 @@ export class StepThroughSceneManager {
         const val = this._phlm32Latch || 0;
         rig.lampFlame.scale.setScalar(1.0 + Math.sin(time * 3.8) * 0.1 + val * 0.2);
         rig.guestLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XXXVIII — CHILDREN OF THE DAY (1 & 2 Thessalonians)
+  // ==========================================================================
+
+  populateThessalonians8CradleLampWarmthScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createThessalonians2CradleLampAndSwaddlingTableEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'children-of-the-day', 8, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffcf86');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Draw Near the Handled Clay Lamp & Warm Swaddling Cloths',
+      signatureActivatedText:
+        '“But we were gentle among you, like a nursing mother cherishes her own children. Even so, affectionately longing for you, we were well pleased to impart to you not the Good News of God only, but also our own souls.” (1 Thessalonians 2:7–8)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._thess8Latch = Math.min(1.0, (this._thess8Latch || 0) + dt * 0.65);
+        const val = this._thess8Latch || 0;
+        rig.cupFlame.scale.setScalar(1.0 + Math.sin(time * 3.8) * 0.1 + val * 0.2);
+        rig.lampLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateThessalonians10TentmakerWorkbenchScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createThessalonians2TentmakerWorkbenchAndNeedleEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'children-of-the-day', 10, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.6, '#ffd480');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Tentmaker’s Workbench, Needle & Night-Lamp',
+      signatureActivatedText:
+        '“For you remember, brothers, our labor and travail; for working night and day, that we might not burden any of you, we preached to you the Good News of God.” (1 Thessalonians 2:9)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._thess10Latch = Math.min(1.0, (this._thess10Latch || 0) + dt * 0.65);
+        const val = this._thess10Latch || 0;
+        rig.lampFlame.scale.setScalar(1.0 + Math.sin(time * 4.1) * 0.1 + val * 0.22);
+        rig.benchLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateThessalonians21DawnWindowsillLampScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createThessalonians5DawnWindowsillLampAndScrollEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'children-of-the-day', 21, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.98, 3.8, '#ffe494');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Keep Watch Beside the Lit Dawn-Windowsill Lamp & Scroll',
+      signatureActivatedText:
+        '“But you, brothers, aren’t in darkness, that the day should overtake you like a thief. You are all children of light and children of the day. We don’t belong to the night, nor to darkness.” (1 Thessalonians 5:4–5)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._thess21Latch = Math.min(1.0, (this._thess21Latch || 0) + dt * 0.65);
+        const val = this._thess21Latch || 0;
+        rig.lampFlame.scale.setScalar(1.0 + Math.sin(time * 4.0) * 0.12 + val * 0.24);
+        rig.dawnLight.intensity = 3.0 + val * 3.4;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateThessalonians34QuietWorkTableLoafScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create2Thessalonians3QuietWorkTableLoafAndGlovesEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'children-of-the-day', 34, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe59e');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Sit by the Workman’s Quiet Table, Daily Loaf & Leather Gloves',
+      signatureActivatedText:
+        '“Now those who are that way, we command and exhort in the Lord Jesus Christ, that they work with quietness and eat their own bread. But you, brothers, don’t be weary in doing what is right.” (2 Thessalonians 3:12–13)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._thess34Latch = Math.min(1.0, (this._thess34Latch || 0) + dt * 0.65);
+        const val = this._thess34Latch || 0;
+        rig.loafGroup.position.y = 0.88 + Math.sin(time * 2.2) * 0.015 * val;
+        rig.tableLight.intensity = 2.8 + val * 3.2;
         return near || val > 0.85;
       }
     };

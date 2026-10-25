@@ -2508,6 +2508,53 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'children-of-the-day') {
+      if (pData.n === 5 || pData.n === 8) {
+        const cradleTable = this.propBuilder.createThessalonians2CradleLampAndSwaddlingTableEnsemble({
+          isFinalePlaza: false
+        });
+        if (cradleTable.lampLight) cradleTable.group.remove(cradleTable.lampLight);
+        cradleTable.group.scale.setScalar(0.74);
+        cradleTable.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        cradleTable.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(cradleTable.group);
+        return;
+      }
+      if (pData.n === 10 || pData.n === 16) {
+        const tentBench = this.propBuilder.createThessalonians2TentmakerWorkbenchAndNeedleEnsemble({
+          isFinalePlaza: false
+        });
+        if (tentBench.benchLight) tentBench.group.remove(tentBench.benchLight);
+        tentBench.group.scale.setScalar(0.74);
+        tentBench.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        tentBench.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(tentBench.group);
+        return;
+      }
+      if (pData.n === 21 || pData.n === 24) {
+        const dawnSill = this.propBuilder.createThessalonians5DawnWindowsillLampAndScrollEnsemble({
+          isFinalePlaza: false
+        });
+        if (dawnSill.dawnLight) dawnSill.group.remove(dawnSill.dawnLight);
+        dawnSill.group.scale.setScalar(0.72);
+        dawnSill.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        dawnSill.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(dawnSill.group);
+        return;
+      }
+      if (pData.n === 30 || pData.n === 34) {
+        const loafTable = this.propBuilder.create2Thessalonians3QuietWorkTableLoafAndGlovesEnsemble({
+          isFinalePlaza: false
+        });
+        if (loafTable.tableLight) loafTable.group.remove(loafTable.tableLight);
+        loafTable.group.scale.setScalar(0.74);
+        loafTable.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        loafTable.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(loafTable.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2612,6 +2659,7 @@ export class GenesisDistrictBuilder {
       'rooted-and-free': 'DISTRICT XXXV · ROOTED AND FREE — GALATIANS & EPHESIANS',
       'joy-in-chains': 'DISTRICT XXXVI · JOY IN CHAINS — PHILIPPIANS',
       'held-together': 'DISTRICT XXXVII · HELD TOGETHER — COLOSSIANS & PHILEMON',
+      'children-of-the-day': 'DISTRICT XXXVIII · CHILDREN OF THE DAY — 1 & 2 THESSALONIANS',
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
       'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
       'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
@@ -3775,6 +3823,58 @@ export class GenesisDistrictBuilder {
           height: 1.75,
           veilZ: -340.0
         }
+      ],
+      'children-of-the-day': [
+        {
+          part: 1,
+          id: 'children-of-the-day-light-1',
+          name: 'The Light of the Empty Idol Niche & Warm Lamp',
+          hint: 'Shining beside the handled clay cup-lamp & swaddling cloths near “turned” & “like a nursing mother” (Part One)',
+          z: -74.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -91.8
+        },
+        {
+          part: 2,
+          id: 'children-of-the-day-light-2',
+          name: 'The Light of the Tentmaker’s Night-Lamp',
+          hint: 'Glowing beside the tentmaker’s timber workbench, needle & coarse cloth near “night and day” & “with your own hands” (Part Two)',
+          z: -150.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -167.9
+        },
+        {
+          part: 3,
+          id: 'children-of-the-day-light-3',
+          name: 'The Light of the Dawn Windowsill & Helmet of Hope',
+          hint: 'Shining on the stone windowsill overlooking the breaking dawn near “a thief in the night” & “breastplate and helmet” (Part Three)',
+          z: -234.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -253.8
+        },
+        {
+          part: 4,
+          id: 'children-of-the-day-light-4',
+          name: 'The Light of the Banked Hearth & Steadfast Hope',
+          hint: 'Glowing beside the banked night-hearth & olive sapling in rocky ground near “growing” & “good hope” (Part Four)',
+          z: -302.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -320.1
+        },
+        {
+          part: 5,
+          id: 'children-of-the-day-light-5',
+          name: 'The Light of the Quiet Work-Table & Daily Loaf',
+          hint: 'Glowing beside the workman’s crusty round loaf, olive oil bowl & leather gloves near “your own bread” & “in my own hand” before the Amen Gate (Part Five)',
+          z: -368.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -386.4
+        }
       ]
     };
 
@@ -4910,6 +5010,21 @@ export class GenesisDistrictBuilder {
       tabletFinale.group.position.set(-3.4, 0.1, -4.6);
       tabletFinale.group.rotation.y = 0.36;
       group.add(tabletFinale.group);
+    } else if (slug === 'children-of-the-day') {
+      const dawnFinale = this.propBuilder.createThessalonians5DawnWindowsillLampAndScrollEnsemble({
+        isFinalePlaza: true
+      });
+      dawnFinale.group.position.set(0, 0.1, -3.8);
+      group.add(dawnFinale.group);
+
+      const loafFinale = this.propBuilder.create2Thessalonians3QuietWorkTableLoafAndGlovesEnsemble({
+        isFinalePlaza: false
+      });
+      if (loafFinale.tableLight) loafFinale.group.remove(loafFinale.tableLight);
+      loafFinale.group.scale.setScalar(0.74);
+      loafFinale.group.position.set(-3.4, 0.1, -4.6);
+      loafFinale.group.rotation.y = 0.36;
+      group.add(loafFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -5127,6 +5242,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · HELD TOGETHER COMPLETED',
         epigraph: 'He is before all things, and in him all things are held together — no longer as a slave, but more than a slave, a beloved brother.',
         epigraphRef: 'COLOSSIANS 1:17 & PHILEMON 1:16 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXVIII: CHILDREN OF THE DAY'
+      },
+      'children-of-the-day': {
+        title: 'AMEN GATE · CHILDREN OF THE DAY COMPLETED',
+        epigraph: 'You are all children of light and children of the day — Now may the Lord of peace himself give you peace at all times in all ways.',
+        epigraphRef: '1 THESSALONIANS 5:5 & 2 THESSALONIANS 3:16 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXIX: GRACE, MERCY, AND PEACE'
       },
       'anchor-of-the-soul': {
         title: 'AMEN GATE · ANCHOR OF THE SOUL COMPLETED',

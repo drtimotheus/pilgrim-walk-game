@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_64';
-import { StepThroughSceneManager } from './scenes.js?v=44_64';
-import { GenesisDistrictBuilder } from './district.js?v=44_64';
+import { PainterlyPropBuilder } from './props.js?v=44_65';
+import { StepThroughSceneManager } from './scenes.js?v=44_65';
+import { GenesisDistrictBuilder } from './district.js?v=44_65';
 import { PilgrimAudio } from './audio.js?v=44_57';
 import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
@@ -1150,6 +1150,12 @@ class PilgrimWalkApp {
         { n: 12, label: '12 · “wiped clean” (Wiped-Clean Wax Tablet & Bronze Stylus)' },
         { n: 19, label: '19 · “dwell richly” (Courtyard Lyre, Scroll & Benches)' },
         { n: 32, label: '32 · “the guest room” (Prepared Guest Room & Lit Lamp)' }
+      ],
+      'children-of-the-day': [
+        { n: 8, label: '8 · “like a nursing mother” (Clay Lamp & Swaddling Cloths)' },
+        { n: 10, label: '10 · “night and day” (Tentmaker’s Workbench & Needle)' },
+        { n: 21, label: '21 · “a thief in the night” (Dawn Windowsill Lamp & Scroll)' },
+        { n: 34, label: '34 · “your own bread” (Quiet Work-Table, Loaf & Gloves)' }
       ]
     };
 

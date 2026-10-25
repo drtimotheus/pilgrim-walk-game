@@ -2367,6 +2367,53 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'rooted-and-free') {
+      if (pData.n === 7 || pData.n === 17) {
+        const fruitBowl = this.propBuilder.createGalatians5FruitOfTheSpiritBowlEnsemble({
+          isFinalePlaza: false
+        });
+        if (fruitBowl.fruitLight) fruitBowl.group.remove(fruitBowl.fruitLight);
+        fruitBowl.group.scale.setScalar(0.74);
+        fruitBowl.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        fruitBowl.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(fruitBowl.group);
+        return;
+      }
+      if (pData.n === 23 || pData.n === 27) {
+        const brokenWall = this.propBuilder.createEphesians2BrokenDividingWallGapEnsemble({
+          isFinalePlaza: false
+        });
+        if (brokenWall.peaceLight) brokenWall.group.remove(brokenWall.peaceLight);
+        brokenWall.group.scale.setScalar(0.72);
+        brokenWall.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        brokenWall.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(brokenWall.group);
+        return;
+      }
+      if (pData.n === 29 || pData.n === 30) {
+        const rootedTree = this.propBuilder.createEphesians3RootedOliveTreeAndBasketEnsemble({
+          isFinalePlaza: false
+        });
+        if (rootedTree.rootedLight) rootedTree.group.remove(rootedTree.rootedLight);
+        rootedTree.group.scale.setScalar(0.74);
+        rootedTree.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        rootedTree.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(rootedTree.group);
+        return;
+      }
+      if (pData.n === 35 || pData.n === 40) {
+        const armorTable = this.propBuilder.createEphesians6ArmorOfGodTableEnsemble({
+          isFinalePlaza: false
+        });
+        if (armorTable.armorLight) armorTable.group.remove(armorTable.armorLight);
+        armorTable.group.scale.setScalar(0.74);
+        armorTable.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        armorTable.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(armorTable.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2468,6 +2515,7 @@ export class GenesisDistrictBuilder {
       'to-the-ends-of-the-earth': 'DISTRICT XXXII · TO THE ENDS OF THE EARTH — ACTS',
       'nothing-can-separate': 'DISTRICT XXXIII · NOTHING CAN SEPARATE — ROMANS',
       'treasure-in-clay-jars': 'DISTRICT XXXIV · TREASURE IN CLAY JARS — 1 & 2 CORINTHIANS',
+      'rooted-and-free': 'DISTRICT XXXV · ROOTED AND FREE — GALATIANS & EPHESIANS',
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
       'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
       'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
@@ -3492,6 +3540,58 @@ export class GenesisDistrictBuilder {
           hint: 'Shining beside the open clay jar resting in window sunlight near “the thorn” & “when I am weak” before the Amen Gate (Part Five)',
           z: -414.0,
           lateral: 5.8,
+          height: 1.75,
+          veilZ: -426.0
+        }
+      ],
+      'rooted-and-free': [
+        {
+          part: 1,
+          id: 'rooted-and-free-light-1',
+          name: 'The Light of Christ Living in Me',
+          hint: 'Shining beside the table at Antioch & baptismal garment near “who loved me” & “all one” (Part One)',
+          z: -80.0,
+          lateral: -6.0,
+          height: 1.72,
+          veilZ: -102.0
+        },
+        {
+          part: 2,
+          id: 'rooted-and-free-light-2',
+          name: 'The Light of the Fruit of the Spirit & Shared Burden',
+          hint: 'Glowing beside the harvest bowl of figs, grapes & pomegranate near “the fruit” & “large letters” (Part Two)',
+          z: -182.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -207.2
+        },
+        {
+          part: 3,
+          id: 'rooted-and-free-light-3',
+          name: 'The Light of the Broken Dividing Wall of Peace',
+          hint: 'Shining beside the open gap in the stone wall & worn homeward path near “the wall” & “no longer strangers” (Part Three)',
+          z: -280.0,
+          lateral: -6.0,
+          height: 1.75,
+          veilZ: -293.2
+        },
+        {
+          part: 4,
+          id: 'rooted-and-free-light-4',
+          name: 'The Light of Love Rooted & Grounded',
+          hint: 'Glowing beneath the deep-rooted olive tree on the sunlit ridge near “rooted” & “before sundown” (Part Four)',
+          z: -336.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -359.5
+        },
+        {
+          part: 5,
+          id: 'rooted-and-free-light-5',
+          name: 'The Light of the Whole Armor of God',
+          hint: 'Shining beside the timber table set with breastplate, shield, helmet & sword near “the armor on the table” & “to stand” before the Amen Gate (Part Five)',
+          z: -414.0,
+          lateral: -5.8,
           height: 1.75,
           veilZ: -426.0
         }
@@ -4585,6 +4685,21 @@ export class GenesisDistrictBuilder {
       mirrorFinale.group.position.set(-3.4, 0.1, -4.6);
       mirrorFinale.group.rotation.y = 0.36;
       group.add(mirrorFinale.group);
+    } else if (slug === 'rooted-and-free') {
+      const rootedFinale = this.propBuilder.createEphesians3RootedOliveTreeAndBasketEnsemble({
+        isFinalePlaza: true
+      });
+      rootedFinale.group.position.set(0, 0.1, -3.8);
+      group.add(rootedFinale.group);
+
+      const armorFinale = this.propBuilder.createEphesians6ArmorOfGodTableEnsemble({
+        isFinalePlaza: false
+      });
+      if (armorFinale.armorLight) armorFinale.group.remove(armorFinale.armorLight);
+      armorFinale.group.scale.setScalar(0.74);
+      armorFinale.group.position.set(-3.4, 0.1, -4.6);
+      armorFinale.group.rotation.y = 0.36;
+      group.add(armorFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -4787,6 +4902,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · TREASURE IN CLAY JARS COMPLETED',
         epigraph: 'We have this treasure in clay vessels — My grace is sufficient for you, for my power is made perfect in weakness.',
         epigraphRef: '2 CORINTHIANS 4:7 & 12:9 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXV: ROOTED AND FREE'
+      },
+      'rooted-and-free': {
+        title: 'AMEN GATE · ROOTED AND FREE COMPLETED',
+        epigraph: 'Being rooted and grounded in love — take up the whole armor of God, and having done all, to stand.',
+        epigraphRef: 'EPHESIANS 3:17 & 6:13 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXVI: JOY IN CHAINS'
       },
       'anchor-of-the-soul': {
         title: 'AMEN GATE · ANCHOR OF THE SOUL COMPLETED',

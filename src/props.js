@@ -12963,4 +12963,656 @@ export class PainterlyPropBuilder {
 
     return { group, openJarGroup, weaknessLight };
   }
+
+  // =========================================================================
+  // DISTRICT XXXV: ROOTED AND FREE (Galatians & Ephesians)
+  // =========================================================================
+
+  /**
+   * Galatians 5:22–23 (#17 "the fruit"):
+   * A warm limestone table holding a wide carved wooden bowl overflowing with the Fruit of
+   * the Spirit harvest — golden-green and purple grapes, ripe figs, olive sprigs, and a split
+   * ruby-seeded pomegranate — flanked by a tall clay pitcher, a small stone bowl, a burning
+   * terracotta oil lamp, and a folded linen cloth.
+   */
+  createGalatians5FruitOfTheSpiritBowlEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Galatians5FruitOfTheSpiritBowlEnsemble';
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b3a384',
+      accentColor: '#e2d0a6',
+      roughness: 0.85,
+      map: propTex
+    });
+    const woodBowlMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a5d3b',
+      accentColor: '#b59264',
+      roughness: 0.72,
+      map: propTex
+    });
+    const clayPitcherMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a68f6d',
+      accentColor: '#dbc9a8',
+      roughness: 0.78,
+      map: propTex
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9ceb4',
+      accentColor: '#f2e8cf',
+      roughness: 0.68,
+      map: propTex
+    });
+    const pomegranateRindMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8d3b2b',
+      accentColor: '#c96f53',
+      roughness: 0.65,
+      map: propTex
+    });
+    const pomegranateSeedMat = new THREE.MeshStandardMaterial({
+      color: 0x8f1d18,
+      emissive: 0x4a0c08,
+      emissiveIntensity: 0.35,
+      roughness: 0.28,
+      metalness: 0.12
+    });
+    const goldenGrapeMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#bca96b',
+      accentColor: '#e3d398',
+      roughness: 0.45,
+      map: propTex
+    });
+    const purpleGrapeMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4c424c',
+      accentColor: '#786b78',
+      roughness: 0.48,
+      map: propTex
+    });
+    const figMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7b7852',
+      accentColor: '#a8a477',
+      roughness: 0.62,
+      map: propTex
+    });
+    const leafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#69704e',
+      accentColor: '#98a178',
+      roughness: 0.72,
+      map: propTex
+    });
+    const flameMat = new THREE.MeshStandardMaterial({
+      color: 0xffeb9c,
+      emissive: 0xe69c24,
+      emissiveIntensity: 1.35,
+      roughness: 0.2
+    });
+
+    // Warm limestone table slab
+    const tableSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.25, 0.68, 1.35, 6, 3, 5), 0.022, 3.2),
+      stoneMat
+    );
+    tableSlab.position.y = 0.34;
+    tableSlab.userData.keepWithGlb = true;
+    group.add(tableSlab);
+
+    // Wide carved wooden harvest bowl in center
+    const harvestBowlGroup = new THREE.Group();
+    harvestBowlGroup.position.set(0.0, 0.72, 0.04);
+    harvestBowlGroup.userData.keepWithGlb = true;
+
+    const bowlBase = new THREE.Mesh(new THREE.CylinderGeometry(0.56, 0.32, 0.22, 24), woodBowlMat);
+    bowlBase.position.y = 0.11;
+    const bowlRim = new THREE.Mesh(new THREE.TorusGeometry(0.55, 0.038, 12, 28), woodBowlMat);
+    bowlRim.rotation.x = Math.PI / 2;
+    bowlRim.position.y = 0.21;
+    harvestBowlGroup.add(bowlBase, bowlRim);
+
+    // Split-open ruby-seeded pomegranate resting at the front-right of the bowl
+    const pomGroup = new THREE.Group();
+    pomGroup.position.set(0.18, 0.31, 0.16);
+    pomGroup.rotation.set(0.32, -0.24, 0.12);
+    const pomRind = new THREE.Mesh(new THREE.SphereGeometry(0.19, 16, 12, 0, Math.PI * 2, 0, Math.PI * 0.65), pomegranateRindMat);
+    pomRind.rotation.x = -Math.PI * 0.42;
+    const pomInterior = new THREE.Mesh(new THREE.CircleGeometry(0.17, 18), linenMat);
+    pomInterior.position.z = 0.03;
+    pomGroup.add(pomRind, pomInterior);
+
+    for (const [sx, sy] of [[-0.06, 0.04], [0.06, 0.04], [0.0, -0.06]]) {
+      const seedCluster = new THREE.Mesh(new THREE.SphereGeometry(0.055, 10, 8), pomegranateSeedMat);
+      seedCluster.scale.set(1.1, 0.95, 0.45);
+      seedCluster.position.set(sx, sy, 0.045);
+      pomGroup.add(seedCluster);
+    }
+    harvestBowlGroup.add(pomGroup);
+
+    // Ripe figs nestled in the center
+    for (const [fx, fy, fz, mat] of [
+      [-0.14, 0.28, 0.14, purpleGrapeMat],
+      [-0.22, 0.31, -0.02, figMat],
+      [0.04, 0.34, -0.05, figMat],
+      [-0.04, 0.30, 0.06, purpleGrapeMat]
+    ]) {
+      const fig = new THREE.Mesh(new THREE.ConeGeometry(0.10, 0.20, 12), mat);
+      fig.position.set(fx, fy, fz);
+      harvestBowlGroup.add(fig);
+    }
+
+    // Golden-green grape clusters on left & dark purple grape clusters at back-top
+    for (let i = 0; i < 14; i++) {
+      const angle = (i / 14) * Math.PI * 1.3 + 1.6;
+      const r = 0.16 + (i % 3) * 0.09;
+      const gSphere = new THREE.Mesh(new THREE.SphereGeometry(0.048, 10, 8), goldenGrapeMat);
+      gSphere.position.set(Math.cos(angle) * r - 0.12, 0.28 + (i % 4) * 0.045, Math.sin(angle) * r * 0.8);
+      harvestBowlGroup.add(gSphere);
+    }
+    for (let i = 0; i < 12; i++) {
+      const pSphere = new THREE.Mesh(new THREE.SphereGeometry(0.052, 10, 8), purpleGrapeMat);
+      pSphere.position.set(0.06 + ((i % 4) - 1.5) * 0.08, 0.36 + Math.floor(i / 4) * 0.055, -0.14 - (i % 2) * 0.06);
+      harvestBowlGroup.add(pSphere);
+    }
+
+    // Olive sprigs radiating from the bowl and resting on the stone table
+    for (const [lx, ly, lz, ry] of [
+      [-0.52, 0.04, 0.36, 0.45],
+      [0.46, 0.22, 0.10, -0.52],
+      [-0.44, 0.26, -0.18, 0.85]
+    ]) {
+      const sprig = new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.02, 0.09), leafMat);
+      sprig.position.set(lx, ly, lz);
+      sprig.rotation.y = ry;
+      harvestBowlGroup.add(sprig);
+    }
+    group.add(harvestBowlGroup);
+
+    // Tall earthenware pitcher & small stone bowl on the left
+    const pitcherGroup = new THREE.Group();
+    pitcherGroup.position.set(-0.66, 0.68, -0.22);
+    pitcherGroup.userData.keepWithGlb = true;
+    const pitcherBelly = new THREE.Mesh(new THREE.SphereGeometry(0.24, 16, 14), clayPitcherMat);
+    pitcherBelly.scale.set(1, 1.25, 1);
+    pitcherBelly.position.y = 0.26;
+    const pitcherNeck = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.14, 0.32, 14), clayPitcherMat);
+    pitcherNeck.position.y = 0.54;
+    const pitcherHandle = new THREE.Mesh(new THREE.TorusGeometry(0.14, 0.026, 8, 16, Math.PI * 1.15), clayPitcherMat);
+    pitcherHandle.position.set(-0.16, 0.48, 0);
+    pitcherHandle.rotation.z = Math.PI * 0.48;
+    pitcherGroup.add(pitcherBelly, pitcherNeck, pitcherHandle);
+    group.add(pitcherGroup);
+
+    const smallLeftBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.20, 0.12, 0.15, 16), stoneMat);
+    smallLeftBowl.position.set(-0.86, 0.76, 0.08);
+    smallLeftBowl.userData.keepWithGlb = true;
+    group.add(smallLeftBowl);
+
+    // Burning terracotta oil lamp on the back-right & folded linen cloth in front-right
+    const oilLampGroup = new THREE.Group();
+    oilLampGroup.position.set(0.74, 0.76, -0.10);
+    oilLampGroup.userData.keepWithGlb = true;
+    const lampBody = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.11, 0.14, 16), clayPitcherMat);
+    const lampFlame = new THREE.Mesh(new THREE.ConeGeometry(0.036, 0.13, 10), flameMat);
+    lampFlame.position.set(0.06, 0.13, 0.02);
+    oilLampGroup.add(lampBody, lampFlame);
+    group.add(oilLampGroup);
+
+    const foldedLinen = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.56, 0.045, 0.46, 5, 1, 4), 0.014, 4.2),
+      linenMat
+    );
+    foldedLinen.position.set(0.62, 0.71, 0.34);
+    foldedLinen.rotation.y = -0.28;
+    foldedLinen.userData.keepWithGlb = true;
+    group.add(foldedLinen);
+
+    const fruitLight = new THREE.PointLight(0xffe096, isFinalePlaza ? 3.2 : 2.7, 17);
+    fruitLight.position.set(0.15, 1.75, 0.35);
+    group.add(fruitLight);
+
+    return { group, harvestBowlGroup, oilLampGroup, fruitLight };
+  }
+
+  /**
+   * Ephesians 2:13–14 (#27 "the wall"):
+   * A weathered dry-stone dividing wall broken wide open in the center, with a sunlit dirt
+   * footpath worn smooth through the gap ("by all the feet coming home from both sides"),
+   * a tall terracotta water jar, folded cream linen cloak, and woven basket beside the left
+   * wall-stump, and scattered stones in the grass.
+   */
+  createEphesians2BrokenDividingWallGapEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Ephesians2BrokenDividingWallGapEnsemble';
+
+    const stoneWallMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9e937b',
+      accentColor: '#d9ccb0',
+      roughness: 0.88,
+      map: propTex
+    });
+    const pathMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#cbbd9c',
+      accentColor: '#fdedcc',
+      roughness: 0.82,
+      map: propTex
+    });
+    const clayJarMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c6643',
+      accentColor: '#c79b6d',
+      roughness: 0.72,
+      map: propTex
+    });
+    const linenCloakMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d8cdb4',
+      accentColor: '#f5ebd3',
+      roughness: 0.70,
+      map: propTex
+    });
+
+    // Sunlit worn footpath slab passing right through the broken wall gap
+    const wornPath = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.45, 0.08, 3.2, 5, 1, 8), 0.016, 2.8),
+      pathMat
+    );
+    wornPath.position.y = 0.04;
+    wornPath.userData.keepWithGlb = true;
+    group.add(wornPath);
+
+    // Left stepped dry-stone wall section ending at the central breach
+    const leftWallGroup = new THREE.Group();
+    leftWallGroup.position.set(-1.38, 0, 0);
+    leftWallGroup.userData.keepWithGlb = true;
+
+    for (let row = 0; row < 4; row++) {
+      const blocksInRow = row === 3 ? 2 : 4;
+      for (let col = 0; col < blocksInRow; col++) {
+        const bw = 0.42 + ((row + col) % 2) * 0.06;
+        const bh = 0.28;
+        const block = new THREE.Mesh(
+          this.displaceGeometry(new THREE.BoxGeometry(bw, bh, 0.46, 3, 2, 2), 0.018, 4.0),
+          stoneWallMat
+        );
+        const xOff = -0.68 + col * 0.44 + (row % 2) * 0.10;
+        block.position.set(xOff, 0.14 + row * 0.27, 0);
+        leftWallGroup.add(block);
+      }
+    }
+    group.add(leftWallGroup);
+
+    // Right stepped dry-stone wall section across the open gap
+    const rightWallGroup = new THREE.Group();
+    rightWallGroup.position.set(1.38, 0, 0);
+    rightWallGroup.userData.keepWithGlb = true;
+
+    for (let row = 0; row < 4; row++) {
+      const blocksInRow = row === 3 ? 1 : (row === 2 ? 3 : 4);
+      for (let col = 0; col < blocksInRow; col++) {
+        const bw = 0.42 + ((row + col) % 2) * 0.05;
+        const bh = 0.28;
+        const block = new THREE.Mesh(
+          this.displaceGeometry(new THREE.BoxGeometry(bw, bh, 0.46, 3, 2, 2), 0.018, 4.0),
+          stoneWallMat
+        );
+        const xOff = -0.64 + col * 0.44;
+        block.position.set(xOff, 0.14 + row * 0.27, 0);
+        rightWallGroup.add(block);
+      }
+    }
+    group.add(rightWallGroup);
+
+    // Fallen stones in the grass beside the gap
+    for (const [sx, sz, rotY] of [
+      [-0.68, 0.28, 0.35],
+      [0.66, 0.24, -0.42],
+      [0.52, -0.26, 0.22],
+      [-0.58, -0.22, -0.18]
+    ]) {
+      const fallenStone = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.28, 0.18, 0.24, 2, 2, 2), 0.02, 4.5),
+        stoneWallMat
+      );
+      fallenStone.position.set(sx, 0.09, sz);
+      fallenStone.rotation.y = rotY;
+      fallenStone.userData.keepWithGlb = true;
+      group.add(fallenStone);
+    }
+
+    // Tall terracotta water jar, folded linen cloak, and low woven basket resting in front of left wall
+    const waterJar = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.16, 0.56, 16), clayJarMat);
+    waterJar.position.set(-1.72, 0.28, 0.42);
+    waterJar.userData.keepWithGlb = true;
+    group.add(waterJar);
+
+    const drapedCloak = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.58, 0.12, 0.44, 5, 2, 4), 0.024, 3.8),
+      linenCloakMat
+    );
+    drapedCloak.position.set(-1.26, 0.08, 0.48);
+    drapedCloak.rotation.y = 0.24;
+    drapedCloak.userData.keepWithGlb = true;
+    group.add(drapedCloak);
+
+    const lowBasket = new THREE.Mesh(new THREE.CylinderGeometry(0.20, 0.15, 0.12, 16), clayJarMat);
+    lowBasket.position.set(-0.92, 0.07, 0.42);
+    lowBasket.userData.keepWithGlb = true;
+    group.add(lowBasket);
+
+    const peaceLight = new THREE.PointLight(0xffe7ab, isFinalePlaza ? 3.2 : 2.7, 19);
+    peaceLight.position.set(0, 1.85, 0.35);
+    group.add(peaceLight);
+
+    return { group, leftWallGroup, rightWallGroup, peaceLight };
+  }
+
+  /**
+   * Ephesians 3:17–19 (#30 "rooted"):
+   * An ancient gnarled olive tree on a sunlit coastal limestone ridge with deep braided roots
+   * gripping the stone, and a woven basket of fresh olives, a handled clay pitcher, a small
+   * terracotta dish, and a folded linen cloth resting beside the roots.
+   */
+  createEphesians3RootedOliveTreeAndBasketEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Ephesians3RootedOliveTreeAndBasketEnsemble';
+
+    const barkMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e6555',
+      accentColor: '#aba08b',
+      roughness: 0.88,
+      map: propTex
+    });
+    const leafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#677052',
+      accentColor: '#a2ad87',
+      roughness: 0.76,
+      map: propTex
+    });
+    const rockMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9c927d',
+      accentColor: '#d9ceb4',
+      roughness: 0.88,
+      map: propTex
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#91836c',
+      accentColor: '#cfc1a7',
+      roughness: 0.78,
+      map: propTex
+    });
+    const basketMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8a7656',
+      accentColor: '#bfa882',
+      roughness: 0.82,
+      map: propTex
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d1c6ae',
+      accentColor: '#f2e8cf',
+      roughness: 0.70,
+      map: propTex
+    });
+
+    // Sunlit limestone ridge mound
+    const ridgeMound = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.25, 1.55, 0.42, 16, 3), 0.045, 2.8),
+      rockMat
+    );
+    ridgeMound.position.y = 0.21;
+    ridgeMound.userData.keepWithGlb = true;
+    group.add(ridgeMound);
+
+    // Ancient gnarled olive trunk & deep braided roots gripping the rock ("roots don't understand the soil. they just go down.")
+    const oliveTreeGroup = new THREE.Group();
+    oliveTreeGroup.position.set(0.08, 0.38, -0.08);
+    oliveTreeGroup.userData.keepWithGlb = true;
+
+    const mainTrunk = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.32, 0.52, 1.65, 14, 5), 0.045, 3.6),
+      barkMat
+    );
+    mainTrunk.position.y = 0.82;
+    mainTrunk.rotation.z = 0.08;
+    oliveTreeGroup.add(mainTrunk);
+
+    // Deep braided surface roots reaching down into the limestone
+    for (let i = 0; i < 6; i++) {
+      const angle = (i / 6) * Math.PI * 2 + 0.25;
+      const rootTendril = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CylinderGeometry(0.08, 0.16, 0.95, 10, 3), 0.025, 4.0),
+        barkMat
+      );
+      rootTendril.position.set(Math.cos(angle) * 0.44, 0.18, Math.sin(angle) * 0.44);
+      rootTendril.rotation.z = -Math.cos(angle) * 0.72;
+      rootTendril.rotation.x = Math.sin(angle) * 0.72;
+      oliveTreeGroup.add(rootTendril);
+    }
+
+    // Spreading silver-green olive canopy domes
+    for (const [cx, cy, cz, r] of [
+      [0.0, 2.05, 0.0, 0.76],
+      [-0.58, 1.85, 0.16, 0.58],
+      [0.54, 1.92, -0.14, 0.62],
+      [-0.22, 2.28, -0.26, 0.54]
+    ]) {
+      const canopyCluster = new THREE.Mesh(
+        this.displaceGeometry(new THREE.SphereGeometry(r, 14, 12), 0.055, 2.6),
+        leafMat
+      );
+      canopyCluster.scale.set(1.18, 0.74, 1.12);
+      canopyCluster.position.set(cx, cy, cz);
+      oliveTreeGroup.add(canopyCluster);
+    }
+    group.add(oliveTreeGroup);
+
+    // Foreground still-life beside the roots: woven olive basket, clay pitcher, small dish & folded linen
+    const oliveBasket = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.18, 0.18, 16), basketMat);
+    oliveBasket.position.set(0.46, 0.49, 0.52);
+    oliveBasket.userData.keepWithGlb = true;
+    group.add(oliveBasket);
+
+    const clayPitcher = new THREE.Mesh(new THREE.CylinderGeometry(0.13, 0.17, 0.42, 16), clayMat);
+    clayPitcher.position.set(0.78, 0.61, 0.46);
+    clayPitcher.userData.keepWithGlb = true;
+    group.add(clayPitcher);
+
+    const smallDish = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.09, 0.07, 14), basketMat);
+    smallDish.position.set(0.14, 0.44, 0.66);
+    smallDish.userData.keepWithGlb = true;
+    group.add(smallDish);
+
+    const linenCloth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.54, 0.04, 0.36, 4, 1, 3), 0.012, 4.0),
+      linenMat
+    );
+    linenCloth.position.set(0.68, 0.43, 0.68);
+    linenCloth.rotation.y = -0.22;
+    linenCloth.userData.keepWithGlb = true;
+    group.add(linenCloth);
+
+    const rootedLight = new THREE.PointLight(0xffe6a3, isFinalePlaza ? 3.2 : 2.7, 18);
+    rootedLight.position.set(0.15, 2.15, 0.55);
+    group.add(rootedLight);
+
+    return { group, oliveTreeGroup, rootedLight };
+  }
+
+  /**
+   * Ephesians 6:10–11 (#39 "the armor on the table"):
+   * A heavy timber table where the whole Armor of God is laid out piece by piece:
+   * an upright sculpted bronze breastplate of righteousness at center, a round bronze-rimmed
+   * shield of faith leaning behind it, a crested bronze helmet of salvation on a linen cloth
+   * to the right, a sheathed sword of the Spirit in front, and a buckled leather belt of truth
+   * and pair of strapped sandals of peace on the left.
+   */
+  createEphesians6ArmorOfGodTableEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Ephesians6ArmorOfGodTableEnsemble';
+
+    const woodTableMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e5c45',
+      accentColor: '#a69172',
+      roughness: 0.84,
+      map: propTex
+    });
+    const bronzeArmorMat = new THREE.MeshStandardMaterial({
+      color: 0x8f7748,
+      emissive: 0x291e0b,
+      emissiveIntensity: 0.24,
+      roughness: 0.36,
+      metalness: 0.72
+    });
+    const shieldFieldMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4e5246',
+      accentColor: '#858a78',
+      roughness: 0.62,
+      map: propTex
+    });
+    const leatherMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4d3927',
+      accentColor: '#826449',
+      roughness: 0.74,
+      map: propTex
+    });
+    const crestPlumeMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#2b241c',
+      accentColor: '#544739',
+      roughness: 0.88,
+      map: propTex
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b5a68c',
+      accentColor: '#dfd1b6',
+      roughness: 0.76,
+      map: propTex
+    });
+
+    // Heavy timber table top & sturdy legs
+    const tableTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.25, 0.14, 1.32, 6, 2, 4), 0.014, 3.4),
+      woodTableMat
+    );
+    tableTop.position.y = 0.74;
+    tableTop.userData.keepWithGlb = true;
+    group.add(tableTop);
+
+    for (const [lx, lz] of [[-0.86, -0.44], [0.86, -0.44], [-0.86, 0.44], [0.86, 0.44]]) {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.18, 0.68, 0.18), woodTableMat);
+      leg.position.set(lx, 0.34, lz);
+      leg.userData.keepWithGlb = true;
+      group.add(leg);
+    }
+
+    // 1. Breastplate of Righteousness standing upright at center
+    const breastplateGroup = new THREE.Group();
+    breastplateGroup.position.set(-0.08, 1.18, -0.04);
+    breastplateGroup.rotation.y = 0.18;
+    breastplateGroup.userData.keepWithGlb = true;
+
+    const cuirassTorso = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.25, 0.72, 18), bronzeArmorMat);
+    cuirassTorso.scale.set(1.12, 1.0, 0.72);
+    breastplateGroup.add(cuirassTorso);
+
+    for (const sx of [-0.18, 0.18]) {
+      const shoulderStrap = new THREE.Mesh(new THREE.BoxGeometry(0.11, 0.16, 0.24), bronzeArmorMat);
+      shoulderStrap.position.set(sx, 0.38, 0);
+      breastplateGroup.add(shoulderStrap);
+    }
+    group.add(breastplateGroup);
+
+    // 2. Round Bronze-Rimmed Shield of Faith leaning behind the breastplate & helmet
+    const shieldGroup = new THREE.Group();
+    shieldGroup.position.set(0.46, 1.28, -0.34);
+    shieldGroup.rotation.set(-0.22, -0.26, 0.06);
+    shieldGroup.userData.keepWithGlb = true;
+
+    const shieldDisc = new THREE.Mesh(new THREE.CylinderGeometry(0.54, 0.54, 0.045, 28), shieldFieldMat);
+    shieldDisc.rotation.x = Math.PI / 2;
+    const shieldRim = new THREE.Mesh(new THREE.TorusGeometry(0.54, 0.032, 12, 32), bronzeArmorMat);
+    const shieldBoss = new THREE.Mesh(new THREE.SphereGeometry(0.13, 16, 12, 0, Math.PI * 2, 0, Math.PI * 0.55), bronzeArmorMat);
+    shieldBoss.rotation.x = Math.PI / 2;
+    shieldBoss.position.z = 0.02;
+    shieldGroup.add(shieldDisc, shieldRim, shieldBoss);
+    group.add(shieldGroup);
+
+    // 3. Crested Bronze Helmet of Salvation on a folded linen cloth to the right
+    const helmetLinen = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.68, 0.05, 0.54, 4, 1, 4), 0.015, 4.0),
+      linenMat
+    );
+    helmetLinen.position.set(0.48, 0.83, 0.08);
+    helmetLinen.userData.keepWithGlb = true;
+    group.add(helmetLinen);
+
+    const helmetGroup = new THREE.Group();
+    helmetGroup.position.set(0.46, 0.98, 0.10);
+    helmetGroup.rotation.y = -0.38;
+    helmetGroup.userData.keepWithGlb = true;
+
+    const helmetDome = new THREE.Mesh(new THREE.SphereGeometry(0.21, 18, 14, 0, Math.PI * 2, 0, Math.PI * 0.58), bronzeArmorMat);
+    const helmetBrow = new THREE.Mesh(new THREE.TorusGeometry(0.21, 0.022, 8, 22), bronzeArmorMat);
+    helmetBrow.rotation.x = Math.PI / 2;
+    const helmetCrest = new THREE.Mesh(new THREE.TorusGeometry(0.22, 0.055, 8, 16, Math.PI * 0.95), crestPlumeMat);
+    helmetCrest.position.y = 0.06;
+    helmetCrest.rotation.y = Math.PI / 2;
+    helmetGroup.add(helmetDome, helmetBrow, helmetCrest);
+
+    for (const cx of [-0.17, 0.17]) {
+      const cheekGuard = new THREE.Mesh(new THREE.BoxGeometry(0.03, 0.18, 0.14), bronzeArmorMat);
+      cheekGuard.position.set(cx, -0.09, 0.08);
+      helmetGroup.add(cheekGuard);
+    }
+    group.add(helmetGroup);
+
+    // 4. Sheathed Sword of the Spirit (gladius) lying across the front-right of the table
+    const swordGroup = new THREE.Group();
+    swordGroup.position.set(0.32, 0.85, 0.42);
+    swordGroup.rotation.set(0, -0.14, Math.PI / 2);
+    swordGroup.userData.keepWithGlb = true;
+
+    const scabbard = new THREE.Mesh(new THREE.CylinderGeometry(0.048, 0.032, 0.72, 12), leatherMat);
+    const chape = new THREE.Mesh(new THREE.ConeGeometry(0.048, 0.16, 12), bronzeArmorMat);
+    chape.position.y = -0.42;
+    chape.rotation.x = Math.PI;
+    const hiltGrip = new THREE.Mesh(new THREE.CylinderGeometry(0.028, 0.028, 0.18, 10), leatherMat);
+    hiltGrip.position.y = 0.45;
+    const pommel = new THREE.Mesh(new THREE.SphereGeometry(0.044, 12, 10), bronzeArmorMat);
+    pommel.position.y = 0.55;
+    swordGroup.add(scabbard, chape, hiltGrip, pommel);
+    group.add(swordGroup);
+
+    // 5. Coiled Leather Belt of Truth with bronze buckle & Pair of Sandals of Peace on the left
+    const beltCoil = new THREE.Mesh(new THREE.TorusGeometry(0.16, 0.038, 10, 22), leatherMat);
+    beltCoil.rotation.x = Math.PI / 2;
+    beltCoil.position.set(-0.42, 0.85, 0.34);
+    beltCoil.userData.keepWithGlb = true;
+    group.add(beltCoil);
+
+    const beltBuckle = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.06, 0.05), bronzeArmorMat);
+    beltBuckle.position.set(-0.34, 0.85, 0.49);
+    beltBuckle.userData.keepWithGlb = true;
+    group.add(beltBuckle);
+
+    for (const [sx, sz, rotY] of [[-0.78, 0.14, 0.36], [-0.58, 0.18, 0.32]]) {
+      const sandalSole = new THREE.Mesh(new THREE.BoxGeometry(0.16, 0.03, 0.36), leatherMat);
+      sandalSole.position.set(sx, 0.825, sz);
+      sandalSole.rotation.y = rotY;
+      sandalSole.userData.keepWithGlb = true;
+      const sandalStraps = new THREE.Mesh(new THREE.CylinderGeometry(0.065, 0.075, 0.12, 10, 1, true), leatherMat);
+      sandalStraps.position.set(sx, 0.89, sz - 0.03);
+      sandalStraps.rotation.y = rotY;
+      sandalStraps.userData.keepWithGlb = true;
+      group.add(sandalSole, sandalStraps);
+    }
+
+    const armorLight = new THREE.PointLight(0xffe099, isFinalePlaza ? 3.2 : 2.7, 18);
+    armorLight.position.set(-0.1, 1.88, 0.45);
+    group.add(armorLight);
+
+    return { group, breastplateGroup, shieldGroup, helmetGroup, swordGroup, armorLight };
+  }
 }

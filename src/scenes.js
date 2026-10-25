@@ -426,6 +426,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateCorinthians29TreasureInClayJarsScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'sufficient_grace_thorn') {
       signatureState = this.populateCorinthians40WhenIAmWeakScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'fruit_of_the_spirit_grove') {
+      signatureState = this.populateGalatians17FruitOfTheSpiritScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'broken_dividing_wall') {
+      signatureState = this.populateEphesians27BrokenDividingWallScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'rooted_in_love_tree') {
+      signatureState = this.populateEphesians30RootedInLoveTreeScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'armor_of_god_table') {
+      signatureState = this.populateEphesians39ArmorOfGodTableScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -475,7 +483,8 @@ export class StepThroughSceneManager {
         'valley_of_achor_door', 'lily_and_olive_dew', 'restored_harvest_floor', 'amos_plumb_line',
         'vine_and_fig_tree', 'habakkuk_watchtower', 'zechariah_olive_lampstand', 'book_of_remembrance',
         'grace_where_we_stand', 'spirit_of_adoption', 'nothing_can_separate_rock', 'grafted_olive_tree',
-        'communion_cup_loaf', 'bronze_mirror_face', 'treasure_in_clay_jars', 'sufficient_grace_thorn'
+        'communion_cup_loaf', 'bronze_mirror_face', 'treasure_in_clay_jars', 'sufficient_grace_thorn',
+        'fruit_of_the_spirit_grove', 'broken_dividing_wall', 'rooted_in_love_tree', 'armor_of_god_table'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -6991,6 +7000,144 @@ export class StepThroughSceneManager {
         if (near) this._cor40Latch = Math.min(1.0, (this._cor40Latch || 0) + dt * 0.65);
         const val = this._cor40Latch || 0;
         rig.weaknessLight.intensity = 2.7 + val * 3.1;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XXXV: Galatians & Ephesians (rooted-and-free) ---
+  populateGalatians17FruitOfTheSpiritScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createGalatians5FruitOfTheSpiritBowlEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'rooted-and-free', 17, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.6, '#ffe096');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Harvest Bowl of the Fruit of the Spirit & Oil Lamp',
+      signatureActivatedText:
+        '“But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control. Against such things there is no law.” (Galatians 5:22–23)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._gal17Latch = Math.min(1.0, (this._gal17Latch || 0) + dt * 0.65);
+        const val = this._gal17Latch || 0;
+        rig.fruitLight.intensity = 2.7 + val * 3.1;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEphesians27BrokenDividingWallScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEphesians2BrokenDividingWallGapEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'rooted-and-free', 27, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.8, '#ffe7ab');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Walk Through the Open Gap in the Broken Dividing Wall of Separation',
+      signatureActivatedText:
+        '“For he is our peace, who made both one, and broke down the middle wall of separation… so making peace.” (Ephesians 2:14–15)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._eph27Latch = Math.min(1.0, (this._eph27Latch || 0) + dt * 0.65);
+        const val = this._eph27Latch || 0;
+        rig.peaceLight.intensity = 2.7 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEphesians30RootedInLoveTreeScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEphesians3RootedOliveTreeAndBasketEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'rooted-and-free', 30, { targetHeight: 3.2, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.98, 3.8, '#ffe6a3');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand Beside the Deep-Rooted Olive Tree on the Sunlit Ridge',
+      signatureActivatedText:
+        '“…that you, being rooted and grounded in love, may be strengthened to comprehend with all the saints what is the width and length and height and depth, and to know Christ’s love which surpasses knowledge…” (Ephesians 3:17–19)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._eph30Latch = Math.min(1.0, (this._eph30Latch || 0) + dt * 0.65);
+        const val = this._eph30Latch || 0;
+        rig.oliveTreeGroup.rotation.z = Math.sin(time * 1.1) * 0.015;
+        rig.rootedLight.intensity = 2.8 + val * 3.3;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateEphesians39ArmorOfGodTableScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createEphesians6ArmorOfGodTableEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'rooted-and-free', 39, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe099');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Approach the Timber Table Set with the Whole Armor of God',
+      signatureActivatedText:
+        '“Finally, be strong in the Lord, and in the strength of his might. Put on the whole armor of God, that you may be able to stand…” (Ephesians 6:10–11)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._eph39Latch = Math.min(1.0, (this._eph39Latch || 0) + dt * 0.65);
+        const val = this._eph39Latch || 0;
+        rig.armorLight.intensity = 2.8 + val * 3.2;
         return near || val > 0.85;
       }
     };

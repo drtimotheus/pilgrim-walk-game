@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_59';
-import { StepThroughSceneManager } from './scenes.js?v=44_59';
-import { GenesisDistrictBuilder } from './district.js?v=44_59';
+import { PainterlyPropBuilder } from './props.js?v=44_60';
+import { StepThroughSceneManager } from './scenes.js?v=44_60';
+import { GenesisDistrictBuilder } from './district.js?v=44_60';
 import { PilgrimAudio } from './audio.js?v=44_57';
 import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
@@ -1120,6 +1120,12 @@ class PilgrimWalkApp {
         { n: 12, label: '12 · “the watchtower” (Watchman’s Rampart & Tablets)' },
         { n: 28, label: '28 · “seven lamps” (Golden Lampstand & Olive Trees)' },
         { n: 38, label: '38 · “a book of memory” (Scroll of Remembrance & Cups)' }
+      ],
+      'nothing-can-separate': [
+        { n: 9, label: '9 · “where we stand” (Open Door of Grace & Courtyard)' },
+        { n: 19, label: '19 · “Abba” (Child’s & Father’s Sandals on the Threshold)' },
+        { n: 25, label: '25 · “nothing” (Starlit Parapet Table & Scroll)' },
+        { n: 30, label: '30 · “the olive tree” (Wild Olive Grafted Into the Root)' }
       ]
     };
 

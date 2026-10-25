@@ -410,6 +410,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateZechariah28OliveLampstandScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'book_of_remembrance') {
       signatureState = this.populateMalachi38BookOfRemembranceScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'grace_where_we_stand') {
+      signatureState = this.populateRomans9GraceWhereWeStandScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'spirit_of_adoption') {
+      signatureState = this.populateRomans19SpiritOfAdoptionScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'nothing_can_separate_rock') {
+      signatureState = this.populateRomans25NothingCanSeparateScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'grafted_olive_tree') {
+      signatureState = this.populateRomans30GraftedOliveTreeScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -457,7 +465,8 @@ export class StepThroughSceneManager {
         'throne_of_grace', 'anchor_of_the_soul', 'opened_curtain_way', 'cloud_of_witnesses_arena',
         'solitary_city_lantern', 'night_watch_water', 'new_every_morning_dawn', 'restored_lyre',
         'valley_of_achor_door', 'lily_and_olive_dew', 'restored_harvest_floor', 'amos_plumb_line',
-        'vine_and_fig_tree', 'habakkuk_watchtower', 'zechariah_olive_lampstand', 'book_of_remembrance'
+        'vine_and_fig_tree', 'habakkuk_watchtower', 'zechariah_olive_lampstand', 'book_of_remembrance',
+        'grace_where_we_stand', 'spirit_of_adoption', 'nothing_can_separate_rock', 'grafted_olive_tree'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -6718,6 +6727,135 @@ export class StepThroughSceneManager {
         if (near) this._mal38Latch = Math.min(1.0, (this._mal38Latch || 0) + dt * 0.65);
         const val = this._mal38Latch || 0;
         rig.memoryLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XXXIII: Romans (nothing-can-separate) ---
+  populateRomans9GraceWhereWeStandScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createRomans5OpenDoorOfGraceCourtyardEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'nothing-can-separate', 9, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.8, '#ffe8a3');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Step Through the Open Door of Grace Into the Sunlit Courtyard',
+      signatureActivatedText:
+        '“Being therefore justified by faith, we have peace with God through our Lord Jesus Christ; through whom we also have our access by faith into this grace in which we stand.” (Romans 5:1–2)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._rom9Latch = Math.min(1.0, (this._rom9Latch || 0) + dt * 0.65);
+        const val = this._rom9Latch || 0;
+        rig.graceLight.intensity = 2.7 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateRomans19SpiritOfAdoptionScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createRomans8AbbaThresholdSandalsEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'nothing-can-separate', 19, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.5, '#ffeac2');
+    shaft.position.set(0, 6.3, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Pause Beside the Child’s & Father’s Sandals on the Home Threshold',
+      signatureActivatedText:
+        '“For you didn’t receive the spirit of bondage again to fear, but you received the Spirit of adoption, by whom we cry, ‘Abba! Father!’” (Romans 8:15)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._rom19Latch = Math.min(1.0, (this._rom19Latch || 0) + dt * 0.65);
+        const val = this._rom19Latch || 0;
+        rig.adoptionLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateRomans25NothingCanSeparateScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    if (skyDome && skyDome.material && skyDome.material.uniforms) {
+      skyDome.material.uniforms.uStarIntensity.value = 0.88;
+    }
+    const rig = this.propBuilder.createRomans8NothingCanSeparateParapetEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'nothing-can-separate', 25, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.8, '#ffe08c');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand by the Starlit Parapet Table & Unrolled Letter of Unfailing Love',
+      signatureActivatedText:
+        '“Nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord.” (Romans 8:39)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._rom25Latch = Math.min(1.0, (this._rom25Latch || 0) + dt * 0.65);
+        const val = this._rom25Latch || 0;
+        rig.loveLight.intensity = 2.9 + val * 3.4;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateRomans30GraftedOliveTreeScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createRomans11GraftedOliveTreeEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'nothing-can-separate', 30, { targetHeight: 3.1, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.94, 3.6, '#ffebb5');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Touch the Wild Olive Shoot Bound Into the Deep-Rooted Olive Trunk',
+      signatureActivatedText:
+        '“If you, being a wild olive, were grafted in among them, and became partaker with them of the root and of the richness of the olive tree, don’t boast over the branches… it is not you who support the root, but the root supports you.” (Romans 11:17–18)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._rom30Latch = Math.min(1.0, (this._rom30Latch || 0) + dt * 0.65);
+        const val = this._rom30Latch || 0;
+        rig.graftGroup.rotation.z = Math.sin(time * 1.4) * 0.025;
+        rig.graftLight.intensity = 2.7 + val * 3.1;
         return near || val > 0.85;
       }
     };

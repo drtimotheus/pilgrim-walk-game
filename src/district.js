@@ -2289,6 +2289,45 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'nothing-can-separate') {
+      if (pData.n === 4 || pData.n === 9) {
+        const openDoor = this.propBuilder.createRomans5OpenDoorOfGraceCourtyardEnsemble(null, pal, false);
+        if (openDoor.graceLight) openDoor.group.remove(openDoor.graceLight);
+        openDoor.group.scale.setScalar(0.74);
+        openDoor.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        openDoor.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(openDoor.group);
+        return;
+      }
+      if (pData.n === 14 || pData.n === 19) {
+        const abbaStep = this.propBuilder.createRomans8AbbaThresholdSandalsEnsemble(null, pal, false);
+        if (abbaStep.adoptionLight) abbaStep.group.remove(abbaStep.adoptionLight);
+        abbaStep.group.scale.setScalar(0.74);
+        abbaStep.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        abbaStep.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(abbaStep.group);
+        return;
+      }
+      if (pData.n === 23 || pData.n === 25) {
+        const parapet = this.propBuilder.createRomans8NothingCanSeparateParapetEnsemble(null, pal, false);
+        if (parapet.loveLight) parapet.group.remove(parapet.loveLight);
+        parapet.group.scale.setScalar(0.74);
+        parapet.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        parapet.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(parapet.group);
+        return;
+      }
+      if (pData.n === 30 || pData.n === 37) {
+        const oliveGraft = this.propBuilder.createRomans11GraftedOliveTreeEnsemble(null, pal, false);
+        if (oliveGraft.graftLight) oliveGraft.group.remove(oliveGraft.graftLight);
+        oliveGraft.group.scale.setScalar(0.74);
+        oliveGraft.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        oliveGraft.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(oliveGraft.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2388,6 +2427,7 @@ export class GenesisDistrictBuilder {
       'peace-be-still': 'DISTRICT XXX · PEACE, BE STILL — MARK',
       'come-and-see': 'DISTRICT XXXI · COME AND SEE — JOHN',
       'to-the-ends-of-the-earth': 'DISTRICT XXXII · TO THE ENDS OF THE EARTH — ACTS',
+      'nothing-can-separate': 'DISTRICT XXXIII · NOTHING CAN SEPARATE — ROMANS',
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
       'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
       'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
@@ -3308,6 +3348,58 @@ export class GenesisDistrictBuilder {
           hint: 'Shining beside the open scroll of memory & two clay cups near “a book of memory” & “turn the hearts” before the Amen Gate (Part Five)',
           z: -414.0,
           lateral: 5.8,
+          height: 1.75,
+          veilZ: -426.0
+        }
+      ],
+      'nothing-can-separate': [
+        {
+          part: 1,
+          id: 'nothing-can-separate-light-1',
+          name: 'The Light of Free Grace & Abraham’s Stars',
+          hint: 'Shining beside the unsealed pardon & starry sky near “freely” & “counted” (Part One)',
+          z: -62.0,
+          lateral: -6.0,
+          height: 1.72,
+          veilZ: -81.8
+        },
+        {
+          part: 2,
+          id: 'nothing-can-separate-light-2',
+          name: 'The Light of the Open Door of Grace',
+          hint: 'Glowing beside the open wooden door & sunlit courtyard fountain near “where we stand” & “the open lock” (Part Two)',
+          z: -156.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -177.5
+        },
+        {
+          part: 3,
+          id: 'nothing-can-separate-light-3',
+          name: 'The Light of Abba’s Threshold & Unseparable Love',
+          hint: 'Shining between the child’s & father’s sandals and the starlit parapet table near “Abba” & “nothing” (Part Three)',
+          z: -242.0,
+          lateral: -6.0,
+          height: 1.75,
+          veilZ: -263.5
+        },
+        {
+          part: 4,
+          id: 'nothing-can-separate-light-4',
+          name: 'The Light of the Grafted Olive Branch',
+          hint: 'Glowing beside the wild olive shoot bound into the ancient trunk near “the olive tree” & “the depth” (Part Four)',
+          z: -318.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -329.8
+        },
+        {
+          part: 5,
+          id: 'nothing-can-separate-light-5',
+          name: 'The Light of the Welcoming Table & God of Hope',
+          hint: 'Shining beside the open fellowship table & overflowing jar near “welcome” & “greet them all” before the Amen Gate (Part Five)',
+          z: -414.0,
+          lateral: -5.8,
           height: 1.75,
           veilZ: -426.0
         }
@@ -4363,6 +4455,25 @@ export class GenesisDistrictBuilder {
       memoryFinale.group.position.set(-3.4, 0.1, -4.6);
       memoryFinale.group.rotation.y = 0.36;
       group.add(memoryFinale.group);
+    } else if (slug === 'nothing-can-separate') {
+      const oliveFinale = this.propBuilder.createRomans11GraftedOliveTreeEnsemble(
+        null,
+        { ground: '#817665', horizon: '#9c917a', accent: '#eee2c0' },
+        true
+      );
+      oliveFinale.group.position.set(0, 0.1, -3.8);
+      group.add(oliveFinale.group);
+
+      const graceDoorFinale = this.propBuilder.createRomans5OpenDoorOfGraceCourtyardEnsemble(
+        null,
+        { ground: '#685f53', horizon: '#716654', accent: '#d9b36f' },
+        false
+      );
+      if (graceDoorFinale.graceLight) graceDoorFinale.group.remove(graceDoorFinale.graceLight);
+      graceDoorFinale.group.scale.setScalar(0.74);
+      graceDoorFinale.group.position.set(-3.4, 0.1, -4.6);
+      graceDoorFinale.group.rotation.y = 0.36;
+      group.add(graceDoorFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -4555,6 +4666,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · TO THE ENDS OF THE EARTH COMPLETED',
         epigraph: 'Preaching the Kingdom of God, and teaching the things concerning the Lord Jesus Christ with all boldness, without hindrance.',
         epigraphRef: 'ACTS 28:31 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXIII: NOTHING CAN SEPARATE'
+      },
+      'nothing-can-separate': {
+        title: 'AMEN GATE · NOTHING CAN SEPARATE COMPLETED',
+        epigraph: 'Nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord.',
+        epigraphRef: 'ROMANS 8:39 & 15:13 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXIV: TREASURE IN CLAY JARS'
       },
       'anchor-of-the-soul': {
         title: 'AMEN GATE · ANCHOR OF THE SOUL COMPLETED',

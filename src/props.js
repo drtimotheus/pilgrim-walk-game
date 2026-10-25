@@ -12265,4 +12265,355 @@ export class PainterlyPropBuilder {
 
     return { group, scrollGroup, lampGroup, memoryLight };
   }
+
+  // ============================================================================
+  // DISTRICT XXXIII (ROMANS): NOTHING CAN SEPARATE — BESPOKE ENSEMBLES
+  // ============================================================================
+
+  // 1. Romans 5:1–2 (#9 "where we stand") — Open Iron-Studded Wooden Door, Hanging Chain Oil Lamp, Table with Pitcher & Sunlit Courtyard Fountain
+  createRomans5OpenDoorOfGraceCourtyardEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a7060',
+      accentColor: '#dfd2b5',
+      roughness: 0.88,
+      map: propTex
+    });
+    const oakMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c452d',
+      accentColor: '#c9a675',
+      roughness: 0.82,
+      map: propTex
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#857056',
+      accentColor: '#dec8a4',
+      roughness: 0.74
+    });
+    const sunBeamMat = new THREE.MeshStandardMaterial({
+      color: 0xfff3c4,
+      emissive: 0xd9a038,
+      emissiveIntensity: 0.92,
+      roughness: 0.28,
+      transparent: true,
+      opacity: 0.85
+    });
+
+    // Stone doorway frame (left & right jambs + lintel + threshold step)
+    const threshold = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.15, 0.20, 0.86, 6, 2, 4), 0.02, 3.2),
+      stoneMat
+    );
+    threshold.position.set(0.15, 0.10, -0.15);
+    threshold.userData.keepWithGlb = true;
+    group.add(threshold);
+
+    for (const jx of [-0.62, 0.92]) {
+      const jamb = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.32, 2.45, 0.42, 4, 8, 4), 0.025, 3.5),
+        stoneMat
+      );
+      jamb.position.set(jx, 1.25, -0.15);
+      jamb.userData.keepWithGlb = true;
+      group.add(jamb);
+    }
+
+    const lintel = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.96, 0.32, 0.46, 6, 3, 4), 0.025, 3.5),
+      stoneMat
+    );
+    lintel.position.set(0.15, 2.52, -0.15);
+    lintel.userData.keepWithGlb = true;
+    group.add(lintel);
+
+    // Heavy iron-studded wooden door swung wide open inward ("a door that doesn't close behind you")
+    const doorGroup = new THREE.Group();
+    doorGroup.position.set(-0.46, 0.20, -0.05);
+    doorGroup.rotation.y = 0.92;
+    doorGroup.userData.keepWithGlb = true;
+    const doorSlab = new THREE.Mesh(new THREE.BoxGeometry(0.95, 2.18, 0.10), oakMat);
+    doorSlab.position.set(0.47, 1.09, 0);
+    doorGroup.add(doorSlab);
+    group.add(doorGroup);
+
+    // Sunlit stone courtyard fountain basin beyond the open doorway
+    const fountainGroup = new THREE.Group();
+    fountainGroup.position.set(0.28, 0, -0.82);
+    fountainGroup.userData.keepWithGlb = true;
+    const pedestal = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.26, 0.56, 14), stoneMat);
+    pedestal.position.y = 0.28;
+    const basin = new THREE.Mesh(new THREE.CylinderGeometry(0.52, 0.32, 0.26, 18), stoneMat);
+    basin.position.y = 0.64;
+    const spout = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.08, 0.38, 12), sunBeamMat);
+    spout.position.y = 0.88;
+    fountainGroup.add(pedestal, basin, spout);
+    group.add(fountainGroup);
+
+    // Wooden side table on the left with terracotta water pitcher & folded linen cloth
+    const sideTable = new THREE.Mesh(new THREE.BoxGeometry(0.76, 0.64, 0.54), oakMat);
+    sideTable.position.set(-0.96, 0.32, 0.32);
+    sideTable.userData.keepWithGlb = true;
+    group.add(sideTable);
+
+    const pitcher = new THREE.Mesh(new THREE.CylinderGeometry(0.13, 0.19, 0.46, 14), clayMat);
+    pitcher.position.set(-0.96, 0.86, 0.32);
+    pitcher.userData.keepWithGlb = true;
+    group.add(pitcher);
+
+    const graceLight = new THREE.PointLight(0xffe8a3, isFinalePlaza ? 3.2 : 2.7, 17);
+    graceLight.position.set(0.18, 1.92, 0.25);
+    group.add(graceLight);
+
+    return { group, doorGroup, fountainGroup, graceLight };
+  }
+
+  // 2. Romans 8:15–16 (#19 "Abba") — Sunlit Stone Threshold Step with Child's & Father's Sandals Side by Side, Clay Water Jar & Folded Linen
+  createRomans8AbbaThresholdSandalsEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a6987e',
+      accentColor: '#efe2c5',
+      roughness: 0.88,
+      map: propTex
+    });
+    const leatherMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#755336',
+      accentColor: '#d4ab7d',
+      roughness: 0.76
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9c8b70',
+      accentColor: '#e8d9bc',
+      roughness: 0.72
+    });
+
+    // Broad sunlit limestone threshold step
+    const stepStone = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.18, 0.38, 1.16, 8, 3, 5), 0.022, 3.4),
+      stoneMat
+    );
+    stepStone.position.set(0, 0.19, 0);
+    stepStone.userData.keepWithGlb = true;
+    group.add(stepStone);
+
+    // Doorjamb posts framing the threshold
+    for (const jx of [-0.96, 0.96]) {
+      const post = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.28, 1.85, 0.36, 4, 6, 4), 0.02, 3.2),
+        stoneMat
+      );
+      post.position.set(jx, 1.10, -0.34);
+      post.userData.keepWithGlb = true;
+      group.add(post);
+    }
+
+    const sandalsGroup = new THREE.Group();
+    sandalsGroup.userData.keepWithGlb = true;
+
+    // Helper to build a sculpted leather sandal with sole & straps
+    const makeSandal = (scale, x, z, rotY) => {
+      const s = new THREE.Group();
+      const sole = new THREE.Mesh(new THREE.BoxGeometry(0.22 * scale, 0.035, 0.48 * scale), leatherMat);
+      const strap1 = new THREE.Mesh(new THREE.TorusGeometry(0.10 * scale, 0.018 * scale, 8, 16, Math.PI), leatherMat);
+      strap1.position.set(0, 0.02, 0.06 * scale);
+      const strap2 = new THREE.Mesh(new THREE.TorusGeometry(0.10 * scale, 0.018 * scale, 8, 16, Math.PI), leatherMat);
+      strap2.position.set(0, 0.02, -0.08 * scale);
+      s.add(sole, strap1, strap2);
+      s.position.set(x, 0.40, z);
+      s.rotation.y = rotY;
+      return s;
+    };
+
+    // Small child's sandals on the left + father's larger sandals beside them on the stone step
+    sandalsGroup.add(
+      makeSandal(0.68, -0.58, 0.12, 0.06),
+      makeSandal(0.68, -0.34, 0.12, -0.04),
+      makeSandal(1.08, -0.02, 0.08, 0.08),
+      makeSandal(1.08, 0.30, 0.08, -0.05)
+    );
+    group.add(sandalsGroup);
+
+    // Round-bellied clay water jar & folded linen towel on the right side of the threshold
+    const jar = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.26, 0.58, 16), clayMat);
+    jar.position.set(0.68, 0.67, -0.08);
+    jar.userData.keepWithGlb = true;
+    group.add(jar);
+
+    const adoptionLight = new THREE.PointLight(0xffeac2, isFinalePlaza ? 3.1 : 2.6, 16);
+    adoptionLight.position.set(0, 1.75, 0.32);
+    group.add(adoptionLight);
+
+    return { group, sandalsGroup, adoptionLight };
+  }
+
+  // 3. Romans 8:38–39 (#25 "nothing") — Coastal Parapet Table Under Starry Sky & Dawn Horizon with Unrolled Letter Scroll, Lit Clay Lamp & Amphora
+  createRomans8NothingCanSeparateParapetEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c5547',
+      accentColor: '#c9b38c',
+      roughness: 0.88,
+      map: propTex
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5e4831',
+      accentColor: '#c7a477',
+      roughness: 0.82
+    });
+    const parchmentMat = new THREE.MeshStandardMaterial({
+      color: 0xf7e7be,
+      emissive: 0xc49238,
+      emissiveIntensity: 0.78,
+      roughness: 0.38
+    });
+    const flameMat = new THREE.MeshStandardMaterial({
+      color: 0xfff5c0,
+      emissive: 0xffaa2b,
+      emissiveIntensity: 1.75,
+      roughness: 0.18
+    });
+
+    // Low stone coastal terrace parapet wall overlooking the sea & stars
+    const parapet = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.25, 0.68, 0.44, 8, 4, 4), 0.025, 3.5),
+      stoneMat
+    );
+    parapet.position.set(0, 0.34, -0.46);
+    parapet.userData.keepWithGlb = true;
+    group.add(parapet);
+
+    // Round wooden writing table beside the parapet
+    const tableGroup = new THREE.Group();
+    tableGroup.position.set(-0.28, 0, 0.12);
+    tableGroup.userData.keepWithGlb = true;
+
+    const tableTop = new THREE.Mesh(new THREE.CylinderGeometry(0.68, 0.68, 0.08, 20), woodMat);
+    tableTop.position.y = 0.76;
+    tableGroup.add(tableTop);
+
+    for (const [lx, lz] of [[-0.36, -0.36], [0.36, -0.36], [-0.36, 0.36], [0.36, 0.36]]) {
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.045, 0.045, 0.76, 8), woodMat);
+      leg.position.set(lx, 0.38, lz);
+      tableGroup.add(leg);
+    }
+
+    // Unrolled Romans 8 parchment scroll, clay cup & glowing oil lamp on the table
+    const scroll = new THREE.Mesh(new THREE.BoxGeometry(0.52, 0.025, 0.38), parchmentMat);
+    scroll.position.set(-0.08, 0.82, 0.12);
+    scroll.rotation.y = 0.32;
+    const roller = new THREE.Mesh(new THREE.CylinderGeometry(0.038, 0.038, 0.42, 12), parchmentMat);
+    roller.rotation.x = Math.PI / 2;
+    roller.position.set(0.16, 0.83, 0.18);
+    roller.rotation.z = 0.32;
+    tableGroup.add(scroll, roller);
+
+    const lampBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.06, 0.07, 14), stoneMat);
+    lampBowl.position.set(-0.18, 0.83, -0.18);
+    const flame = new THREE.Mesh(new THREE.ConeGeometry(0.038, 0.15, 10), flameMat);
+    flame.position.set(-0.18, 0.93, -0.18);
+    tableGroup.add(lampBowl, flame);
+
+    const cup = new THREE.Mesh(new THREE.CylinderGeometry(0.068, 0.056, 0.14, 12), woodMat);
+    cup.position.set(0.28, 0.87, 0.04);
+    tableGroup.add(cup);
+    group.add(tableGroup);
+
+    // Terracotta planter amphora on the right side of the terrace
+    const planter = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.28, 0.68, 16), stoneMat);
+    planter.position.set(0.76, 0.34, 0.08);
+    planter.userData.keepWithGlb = true;
+    group.add(planter);
+
+    const loveLight = new THREE.PointLight(0xffe08c, isFinalePlaza ? 3.4 : 2.9, 18);
+    loveLight.position.set(-0.22, 1.65, 0.25);
+    group.add(loveLight);
+
+    return { group, tableGroup, loveLight };
+  }
+
+  // 4. Romans 11:17–24 (#30 "the olive tree") — Ancient Gnarled Olive Trunk with Bound Wild Olive Shoot Grafted In & Wicker Pruning Basket
+  createRomans11GraftedOliveTreeEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const barkMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#695e4e',
+      accentColor: '#cfc2a9',
+      roughness: 0.88,
+      map: propTex
+    });
+    const cordMat = new THREE.MeshStandardMaterial({
+      color: 0xd9bf8c,
+      emissive: 0x8c6d32,
+      emissiveIntensity: 0.55,
+      roughness: 0.55
+    });
+    const leafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#566347',
+      accentColor: '#c2cc9b',
+      roughness: 0.62
+    });
+    const wickerMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#786246',
+      accentColor: '#d9c098',
+      roughness: 0.82
+    });
+
+    // Ancient deep-rooted olive tree trunk ("it is not you who support the root, but the root supports you")
+    const trunk = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.42, 0.64, 2.35, 14, 8), 0.042, 3.6),
+      barkMat
+    );
+    trunk.position.set(0, 1.18, -0.12);
+    trunk.userData.keepWithGlb = true;
+    group.add(trunk);
+
+    // Grafted wild olive branch bound tightly to the trunk with hemp twine
+    const graftGroup = new THREE.Group();
+    graftGroup.position.set(0.06, 0.85, 0.32);
+    graftGroup.userData.keepWithGlb = true;
+
+    const scionStem = new THREE.Mesh(new THREE.CylinderGeometry(0.065, 0.085, 0.72, 10), barkMat);
+    scionStem.rotation.z = -0.10;
+    graftGroup.add(scionStem);
+
+    // Five wraps of hemp grafting twine binding the wild shoot into the ancient trunk
+    for (let w = 0; w < 5; w++) {
+      const twine = new THREE.Mesh(new THREE.TorusGeometry(0.11, 0.016, 8, 20), cordMat);
+      twine.rotation.x = Math.PI / 2 + (w % 2 === 0 ? 0.14 : -0.14);
+      twine.position.y = -0.16 + w * 0.08;
+      graftGroup.add(twine);
+    }
+
+    // Living green-silver olive shoots & leaves springing upward from the graft
+    for (const [lx, ly, rotZ] of [[-0.18, 0.62, 0.38], [0, 0.78, -0.05], [0.20, 0.58, -0.42]]) {
+      const shoot = new THREE.Mesh(new THREE.ConeGeometry(0.18, 0.58, 10), leafMat);
+      shoot.position.set(lx, ly, 0.05);
+      shoot.rotation.z = rotZ;
+      graftGroup.add(shoot);
+    }
+    group.add(graftGroup);
+
+    // Wicker basket of olive twigs & terracotta oil jar on the left
+    const basket = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.28, 0.34, 16), wickerMat);
+    basket.position.set(-0.78, 0.17, 0.18);
+    basket.userData.keepWithGlb = true;
+    group.add(basket);
+
+    const graftLight = new THREE.PointLight(0xffebb5, isFinalePlaza ? 3.2 : 2.7, 17);
+    graftLight.position.set(0.12, 1.75, 0.48);
+    group.add(graftLight);
+
+    return { group, graftGroup, graftLight };
+  }
 }

@@ -13,10 +13,10 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_55';
-import { StepThroughSceneManager } from './scenes.js?v=44_55';
-import { GenesisDistrictBuilder } from './district.js?v=44_55';
-import { PilgrimAudio } from './audio.js?v=44_54';
+import { PainterlyPropBuilder } from './props.js?v=44_57';
+import { StepThroughSceneManager } from './scenes.js?v=44_57';
+import { GenesisDistrictBuilder } from './district.js?v=44_57';
+import { PilgrimAudio } from './audio.js?v=44_57';
 import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
 import { formatZh } from './zh-convert.js?v=44_12';
@@ -483,6 +483,8 @@ class PilgrimWalkApp {
   async bootstrap() {
     try {
       const initialSlug = this.districtMeta[this.currentDistrictSlug] ? this.currentDistrictSlug : 'genesis';
+      // Start streaming the district's street music immediately in parallel with asset loading
+      this.audio.playStreetMusic(initialSlug);
       const [, routeRes, coversRes] = await Promise.all([
         this.ensureManifestLoaded(initialSlug),
         fetch('assets/data/route.json?v=44_8'),
@@ -766,6 +768,8 @@ class PilgrimWalkApp {
       return false;
     }
 
+    // Begin streaming the new district's street music immediately (before waiting on 40 painting textures)
+    this.audio.playStreetMusic(slug);
     await this.ensureManifestLoaded(slug);
     if (!this.manifests[slug]) return false;
     this.closeAllModals();
@@ -1077,6 +1081,12 @@ class PilgrimWalkApp {
         { n: 7, label: '7 · “the winter is past” (Lattice Window, Fig & Vine)' },
         { n: 14, label: '14 · “the enclosed garden” (Walled Garden & Living Fountain)' },
         { n: 29, label: '29 · “the seal” (Signet Seal & Unquenchable Flame)' }
+      ],
+      'new-every-morning': [
+        { n: 1, label: '1 · “how” (Solitary City Well & Lantern)' },
+        { n: 10, label: '10 · “pour out your heart” (Overturned Night-Watch Jar)' },
+        { n: 14, label: '14 · “new every morning” (Morning Light Over Dew-Wet Stones)' },
+        { n: 30, label: '30 · “renew our days” (Restored Lyre by the Dawn Wall)' }
       ]
     };
 
@@ -1589,8 +1599,11 @@ class PilgrimWalkApp {
   closeAllModals() {
     this.closePoemModal();
     this.stopTurntableLoop();
+    const dailyWalkEl = document.getElementById('daily-walk-modal');
     if (this.dailyWalk) {
-      this.dailyWalk.saveCurrentJournalNote();
+      if (dailyWalkEl && !dailyWalkEl.classList.contains('hidden')) {
+        this.dailyWalk.saveCurrentJournalNote();
+      }
       this.dailyWalk.stopActiveVoice();
     }
     ['gatehouse-modal', 'scroll-modal', 'shelf-modal', 'amen-modal', 'tripo-modal', 'daily-walk-modal'].forEach((id) => {
@@ -3086,36 +3099,6 @@ class PilgrimWalkApp {
     if (!this.saveData.introNarrated) {
       const banner = document.getElementById('intro-narrator-banner');
       if (banner) banner.classList.remove('hidden');
-
-      const onFirstGesture = (e) => {
-        if (this.saveData.introNarrated) {
-          cleanupGesture();
-          return;
-        }
-        const target = e && e.target;
-        if (
-          target &&
-          target.closest &&
-          (target.closest('#btn-intro-narrator-dismiss') ||
-            target.closest('#btn-audio-toggle') ||
-            target.closest('#btn-intro-narrator-toggle') ||
-            target.closest('#gatehouse-btn-listen-intro'))
-        ) {
-          return;
-        }
-        cleanupGesture();
-        this.playIntroWelcomeNarration();
-      };
-
-      const cleanupGesture = () => {
-        window.removeEventListener('pointerdown', onFirstGesture);
-        window.removeEventListener('keydown', onFirstGesture);
-        window.removeEventListener('touchstart', onFirstGesture);
-      };
-
-      window.addEventListener('pointerdown', onFirstGesture, { passive: true });
-      window.addEventListener('keydown', onFirstGesture, { passive: true });
-      window.addEventListener('touchstart', onFirstGesture, { passive: true });
     }
   }
 

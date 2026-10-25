@@ -11371,4 +11371,232 @@ export class PainterlyPropBuilder {
 
     return { group, signetRing, sealFlame, sealLight };
   }
+
+  // ============================================================================
+  // DISTRICT XXII — NEW EVERY MORNING (LAMENTATIONS) BESPOKE ENSEMBLES
+  // ============================================================================
+
+  // 1. Lamentations 1:1 (#1 "how") — Empty Market Stall Arch, Stone Well with Rope & Solitary Lantern
+  createLamentations1SolitaryCityWellEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5e554b',
+      accentColor: '#c4ab82',
+      roughness: 0.88,
+      map: propTex
+    });
+    const ropeMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9c7c50',
+      accentColor: '#dfc292',
+      roughness: 0.82
+    });
+    const flameMat = new THREE.MeshStandardMaterial({
+      color: 0xffdf8c,
+      emissive: 0xff9424,
+      emissiveIntensity: 1.45,
+      roughness: 0.24
+    });
+
+    const wellCurb = new THREE.Mesh(
+      this.displaceGeometry(new THREE.TorusGeometry(0.76, 0.22, 12, 24), 0.02, 3.4),
+      stoneMat
+    );
+    wellCurb.rotation.x = Math.PI / 2;
+    wellCurb.position.set(-0.35, 0.28, 0);
+    wellCurb.userData.keepWithGlb = true;
+    group.add(wellCurb);
+
+    for (const px of [-0.95, 0.25]) {
+      const post = new THREE.Mesh(new THREE.BoxGeometry(0.16, 1.75, 0.16), stoneMat);
+      post.position.set(px, 0.88, 0);
+      post.userData.keepWithGlb = true;
+      group.add(post);
+    }
+    const crossBeam = new THREE.Mesh(new THREE.BoxGeometry(1.48, 0.16, 0.2), stoneMat);
+    crossBeam.position.set(-0.35, 1.78, 0);
+    crossBeam.userData.keepWithGlb = true;
+    group.add(crossBeam);
+
+    const ropeGroup = new THREE.Group();
+    ropeGroup.userData.keepWithGlb = true;
+    const hangingRope = new THREE.Mesh(new THREE.CylinderGeometry(0.032, 0.032, 1.15, 8), ropeMat);
+    hangingRope.position.set(-0.35, 1.12, 0);
+    const coil = new THREE.Mesh(new THREE.TorusGeometry(0.18, 0.045, 8, 18), ropeMat);
+    coil.rotation.x = Math.PI / 2;
+    coil.position.set(-0.35, 0.48, 0.56);
+    ropeGroup.add(hangingRope, coil);
+    group.add(ropeGroup);
+
+    const lanternFlame = new THREE.Mesh(new THREE.SphereGeometry(0.15, 12, 12), flameMat);
+    lanternFlame.position.set(0.68, 0.65, 0.22);
+    lanternFlame.userData.keepWithGlb = true;
+    group.add(lanternFlame);
+
+    const wellLight = new THREE.PointLight(0xffd27d, isFinalePlaza ? 2.9 : 2.4, 15);
+    wellLight.position.set(0.45, 1.45, 0.25);
+    group.add(wellLight);
+
+    return { group, ropeGroup, lanternFlame, wellLight };
+  }
+
+  // 2. Lamentations 2:19 (#10 "pour out your heart") — Overturned Earthenware Jar Pouring Water in the Night Watch
+  createLamentations2PourOutWaterJarEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8f5536',
+      accentColor: '#deb07e',
+      roughness: 0.78,
+      map: propTex
+    });
+    const waterMat = new THREE.MeshStandardMaterial({
+      color: 0x8ae6ff,
+      emissive: 0x3596b5,
+      emissiveIntensity: 1.15,
+      roughness: 0.16,
+      transparent: true,
+      opacity: 0.88
+    });
+
+    const stoneSlab = new THREE.Mesh(new THREE.CylinderGeometry(1.28, 1.38, 0.22, 24), clayMat);
+    stoneSlab.position.y = 0.11;
+    stoneSlab.userData.keepWithGlb = true;
+    group.add(stoneSlab);
+
+    const jarBody = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.38, 0.88, 16), clayMat);
+    jarBody.position.set(-0.32, 0.92, 0);
+    jarBody.rotation.z = -1.18;
+    jarBody.userData.keepWithGlb = true;
+    group.add(jarBody);
+
+    const streamGroup = new THREE.Group();
+    streamGroup.userData.keepWithGlb = true;
+    const pourArc = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.22, 0.82, 14), waterMat);
+    pourArc.position.set(0.18, 0.56, 0);
+    pourArc.rotation.z = -0.32;
+    const pool = new THREE.Mesh(new THREE.CylinderGeometry(0.68, 0.72, 0.06, 22), waterMat);
+    pool.position.set(0.28, 0.24, 0);
+    streamGroup.add(pourArc, pool);
+    group.add(streamGroup);
+
+    const watchLight = new THREE.PointLight(0xb8f2ff, isFinalePlaza ? 3.0 : 2.5, 16);
+    watchLight.position.set(0.18, 1.55, 0.2);
+    group.add(watchLight);
+
+    return { group, streamGroup, watchLight };
+  }
+
+  // 3. Lamentations 3:22–23 (#14 "new every morning") — Dew-Wet Ruined Stones & Rising Golden Sun of Mercy
+  createLamentations3NewEveryMorningDawnEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const rubbleMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#665a4c',
+      accentColor: '#e6c687',
+      roughness: 0.86,
+      map: propTex
+    });
+    const dawnMat = new THREE.MeshStandardMaterial({
+      color: 0xffea94,
+      emissive: 0xffa826,
+      emissiveIntensity: 1.55,
+      roughness: 0.2
+    });
+
+    for (let i = 0; i < 5; i++) {
+      const block = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.66, 0.44 + (i % 2) * 0.28, 0.54, 4, 4, 4), 0.03, 3.6),
+        rubbleMat
+      );
+      const ang = (i / 5) * Math.PI * 1.4 - Math.PI * 0.7;
+      block.position.set(Math.sin(ang) * 0.85, 0.26 + (i % 2) * 0.14, Math.cos(ang) * 0.55 - 0.2);
+      block.rotation.y = ang * 0.5;
+      block.userData.keepWithGlb = true;
+      group.add(block);
+    }
+
+    const dawnSunGroup = new THREE.Group();
+    dawnSunGroup.userData.keepWithGlb = true;
+    const sunOrb = new THREE.Mesh(new THREE.SphereGeometry(0.46, 20, 18), dawnMat);
+    const haloRing = new THREE.Mesh(new THREE.TorusGeometry(0.72, 0.045, 12, 32), dawnMat);
+    dawnSunGroup.add(sunOrb, haloRing);
+    dawnSunGroup.position.set(0, 1.48, -0.15);
+    group.add(dawnSunGroup);
+
+    const mercyLight = new THREE.PointLight(0xffe48c, isFinalePlaza ? 3.3 : 2.8, 18);
+    mercyLight.position.set(0, 1.85, 0.2);
+    group.add(mercyLight);
+
+    return { group, dawnSunGroup, mercyLight };
+  }
+
+  // 4. Lamentations 5:21–22 (#30 "renew our days") — Restored Ten-String Lyre Against Broken Wall in Morning Light
+  createLamentations5RestoredLyreDawnWallEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const wallMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#736452',
+      accentColor: '#e3c388',
+      roughness: 0.86,
+      map: propTex
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#784e2b',
+      accentColor: '#dfb06d',
+      roughness: 0.68
+    });
+    const goldStringMat = new THREE.MeshStandardMaterial({
+      color: 0xffdf82,
+      emissive: 0xc4871e,
+      emissiveIntensity: 0.95,
+      roughness: 0.25,
+      metalness: 0.85
+    });
+
+    const brokenWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.95, 1.18, 0.62, 6, 4, 4), 0.03, 3.6),
+      wallMat
+    );
+    brokenWall.position.set(0, 0.59, -0.25);
+    brokenWall.userData.keepWithGlb = true;
+    group.add(brokenWall);
+
+    const lyreGroup = new THREE.Group();
+    lyreGroup.userData.keepWithGlb = true;
+    const soundbox = new THREE.Mesh(new THREE.BoxGeometry(0.68, 0.36, 0.18), woodMat);
+    soundbox.position.y = 0.82;
+    for (const lx of [-0.28, 0.28]) {
+      const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.05, 0.72, 10), woodMat);
+      arm.position.set(lx, 1.28, 0);
+      arm.rotation.z = lx < 0 ? 0.15 : -0.15;
+      lyreGroup.add(arm);
+    }
+    const yoke = new THREE.Mesh(new THREE.CylinderGeometry(0.038, 0.038, 0.78, 10), woodMat);
+    yoke.rotation.z = Math.PI / 2;
+    yoke.position.set(0, 1.62, 0);
+    lyreGroup.add(soundbox, yoke);
+
+    for (let s = -2; s <= 2; s++) {
+      const str = new THREE.Mesh(new THREE.CylinderGeometry(0.008, 0.008, 0.66, 6), goldStringMat);
+      str.position.set(s * 0.09, 1.28, 0);
+      lyreGroup.add(str);
+    }
+    lyreGroup.position.set(0, 0.35, 0.16);
+    group.add(lyreGroup);
+
+    const renewLight = new THREE.PointLight(0xffe696, isFinalePlaza ? 3.2 : 2.7, 17);
+    renewLight.position.set(0, 1.95, 0.35);
+    group.add(renewLight);
+
+    return { group, lyreGroup, renewLight };
+  }
 }

@@ -286,10 +286,7 @@ export class PilgrimAudio {
     if (info.num === 1) {
       return [`Music/${info.folder}/street.mp3`];
     }
-    return [
-      `Music/${info.folder}/street${info.num}.mp3`,
-      `Music/${info.folder}/street.mp3`
-    ];
+    return [`Music/${info.folder}/street${info.num}.mp3`];
   }
 
   getSceneCandidates(slug, paintingNum) {
@@ -336,11 +333,16 @@ export class PilgrimAudio {
       const finish = (ok) => {
         if (settled) return;
         settled = true;
+        audio.onloadedmetadata = null;
+        audio.oncanplay = null;
         audio.oncanplaythrough = null;
         audio.onloadeddata = null;
         audio.onerror = null;
         resolve(ok ? audio : null);
       };
+      // Resolve as soon as stream metadata or first frame arrives so playback starts immediately
+      audio.onloadedmetadata = () => finish(true);
+      audio.oncanplay = () => finish(true);
       audio.oncanplaythrough = () => finish(true);
       audio.onloadeddata = () => finish(true);
       audio.onerror = () => finish(false);
@@ -434,8 +436,8 @@ export class PilgrimAudio {
       nextAudio.play().catch(() => {});
     }
 
-    // Smooth fade-in
-    const steps = 18;
+    // Quick, responsive fade-in (~0.35s) so street music is heard right away
+    const steps = 8;
     let step = 0;
     const timer = setInterval(() => {
       if (this.currentAudio !== nextAudio) {
@@ -452,7 +454,7 @@ export class PilgrimAudio {
       if (step >= steps) {
         clearInterval(timer);
       }
-    }, 65);
+    }, 45);
 
     return true;
   }

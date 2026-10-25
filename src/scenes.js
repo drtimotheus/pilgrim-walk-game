@@ -386,6 +386,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateSong14EnclosedGardenScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'many_waters_flame') {
       signatureState = this.populateSong29ManyWatersFlameScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'solitary_city_lantern') {
+      signatureState = this.populateLamentations1SolitaryWellScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'night_watch_water') {
+      signatureState = this.populateLamentations10PourOutWaterScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'new_every_morning_dawn') {
+      signatureState = this.populateLamentations14NewEveryMorningScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'restored_lyre') {
+      signatureState = this.populateLamentations30RestoredLyreScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -6305,6 +6313,136 @@ export class StepThroughSceneManager {
         rig.signetRing.rotation.y = time * 0.45;
         rig.sealFlame.scale.y = 1.0 + Math.sin(time * 5.0) * 0.14 + val * 0.22;
         rig.sealLight.intensity = 2.7 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XXII: Lamentations (new-every-morning) ---
+  populateLamentations1SolitaryWellScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createLamentations1SolitaryCityWellEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'new-every-morning', 1, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.88, 3.4, '#ffd27d');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Pause Beside the Solitary Well, Coiled Rope & Low-Burning Lantern',
+      signatureActivatedText:
+        '“How the city sits solitary, that was full of people! She has become as a widow, who was great among the nations!” (Lamentations 1:1)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._lam1Latch = Math.min(1.0, (this._lam1Latch || 0) + dt * 0.65);
+        const val = this._lam1Latch || 0;
+        rig.lanternFlame.scale.setScalar(1.0 + Math.sin(time * 3.8) * 0.1 + val * 0.2);
+        rig.wellLight.intensity = 2.4 + val * 2.8;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateLamentations10PourOutWaterScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    if (skyDome && skyDome.material && skyDome.material.uniforms) {
+      skyDome.material.uniforms.uStarIntensity.value = 0.84;
+    }
+    const rig = this.propBuilder.createLamentations2PourOutWaterJarEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'new-every-morning', 10, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#b8f2ff');
+    shaft.position.set(0, 6.2, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Kneel Beside the Overturned Jar Pouring Out Water in the Night Watch',
+      signatureActivatedText:
+        '“Arise, cry out in the night, at the beginning of the watches! Pour out your heart like water before the face of the Lord!” (Lamentations 2:19)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._lam10Latch = Math.min(1.0, (this._lam10Latch || 0) + dt * 0.65);
+        const val = this._lam10Latch || 0;
+        rig.watchLight.intensity = 2.5 + val * 2.9;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateLamentations14NewEveryMorningScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createLamentations3NewEveryMorningDawnEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'new-every-morning', 14, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.8, '#ffe48c');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Watch Morning Light Rise Fresh Over the Dew-Wet Stones',
+      signatureActivatedText:
+        '“It is because of Yahweh’s loving kindnesses that we are not consumed, because his compassion doesn’t fail. They are new every morning. Great is your faithfulness.” (Lamentations 3:22–23)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._lam14Latch = Math.min(1.0, (this._lam14Latch || 0) + dt * 0.65);
+        const val = this._lam14Latch || 0;
+        rig.dawnSunGroup.position.y = 1.48 + Math.sin(time * 1.4) * 0.06 + val * 0.18;
+        rig.mercyLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateLamentations30RestoredLyreScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createLamentations5RestoredLyreDawnWallEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'new-every-morning', 30, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.6, '#ffe696');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Restored Lyre Against the Morning-Lit Wall',
+      signatureActivatedText:
+        '“Turn us to yourself, Yahweh, and we will be turned. Renew our days as of old.” (Lamentations 5:21)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._lam30Latch = Math.min(1.0, (this._lam30Latch || 0) + dt * 0.65);
+        const val = this._lam30Latch || 0;
+        rig.renewLight.intensity = 2.7 + val * 3.1;
         return near || val > 0.85;
       }
     };

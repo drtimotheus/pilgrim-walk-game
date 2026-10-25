@@ -1003,7 +1003,8 @@ export class GenesisDistrictBuilder {
         slug !== 'for-such-a-time-as-this' &&
         slug !== 'the-beginning-of-wisdom' &&
         slug !== 'eternity-in-their-hearts' &&
-        slug !== 'many-waters'
+        slug !== 'many-waters' &&
+        slug !== 'new-every-morning'
       ) {
         const focal = this.propBuilder.createFocalPropForScene(pData.sceneType, null, pal);
         if (focal && focal.group) {
@@ -2090,6 +2091,43 @@ export class GenesisDistrictBuilder {
         streetGroup.add(seal.group);
         return;
       }
+    } else if (slug === 'new-every-morning') {
+      if (pData.n === 1) {
+        const well = this.propBuilder.createLamentations1SolitaryCityWellEnsemble(null, pal, false);
+        if (well.wellLight) well.group.remove(well.wellLight);
+        well.group.scale.setScalar(0.74);
+        well.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        well.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(well.group);
+        return;
+      }
+      if (pData.n === 10 || pData.n === 22) {
+        const jar = this.propBuilder.createLamentations2PourOutWaterJarEnsemble(null, pal, false);
+        if (jar.watchLight) jar.group.remove(jar.watchLight);
+        jar.group.scale.setScalar(0.74);
+        jar.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        jar.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(jar.group);
+        return;
+      }
+      if (pData.n === 14) {
+        const dawn = this.propBuilder.createLamentations3NewEveryMorningDawnEnsemble(null, pal, false);
+        if (dawn.mercyLight) dawn.group.remove(dawn.mercyLight);
+        dawn.group.scale.setScalar(0.74);
+        dawn.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        dawn.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(dawn.group);
+        return;
+      }
+      if (pData.n === 28 || pData.n === 30) {
+        const lyre = this.propBuilder.createLamentations5RestoredLyreDawnWallEnsemble(null, pal, false);
+        if (lyre.renewLight) lyre.group.remove(lyre.renewLight);
+        lyre.group.scale.setScalar(0.74);
+        lyre.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        lyre.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(lyre.group);
+        return;
+      }
     }
 
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
@@ -2180,6 +2218,7 @@ export class GenesisDistrictBuilder {
       'out-of-the-whirlwind': 'DISTRICT XII · OUT OF THE WHIRLWIND — JOB',
       'arise-shine': 'DISTRICT XX · ARISE, SHINE — ISAIAH',
       'a-future-and-a-hope': 'DISTRICT XXI · A FUTURE AND A HOPE — JEREMIAH',
+      'new-every-morning': 'DISTRICT XXII · NEW EVERY MORNING — LAMENTATIONS',
       'can-these-bones-live': 'DISTRICT XXIII · CAN THESE BONES LIVE — EZEKIEL',
       'greatly-beloved': 'DISTRICT XXIV · GREATLY BELOVED — DANIEL',
       'out-of-the-deep': 'DISTRICT XXVI · OUT OF THE DEEP — JONAH',
@@ -2836,10 +2875,10 @@ export class GenesisDistrictBuilder {
           id: 'psalms-3-light-3',
           name: 'The Light of the Shadow of His Wings',
           hint: 'Resting beneath the gold-tipped wing & crag near “under his feathers” & “the trees sing” (Part Three)',
-          z: -218.0,
+          z: -232.0,
           lateral: 6.0,
           height: 1.72,
-          veilZ: -254.0
+          veilZ: -263.5
         },
         {
           part: 4,
@@ -2954,6 +2993,58 @@ export class GenesisDistrictBuilder {
           lateral: 5.8,
           height: 1.75,
           veilZ: -427.2
+        }
+      ],
+      'new-every-morning': [
+        {
+          part: 1,
+          id: 'new-every-morning-light-1',
+          name: 'The Light of the Solitary Well & Empty Street',
+          hint: 'Shining beside the well-rope & open hands near “how” & “open hands” (Part One)',
+          z: -39.5,
+          lateral: -6.0,
+          height: 1.72,
+          veilZ: -52.5
+        },
+        {
+          part: 2,
+          id: 'new-every-morning-light-2',
+          name: 'The Light of the Night Watch & Poured-Out Jar',
+          hint: 'Glowing beside the overturned water jar at the beginning of the watches near “pour out your heart” (Part Two)',
+          z: -96.0,
+          lateral: 6.0,
+          height: 1.70,
+          veilZ: -109.0
+        },
+        {
+          part: 3,
+          id: 'new-every-morning-light-3',
+          name: 'The Light of Mercies New Every Morning',
+          hint: 'Rising over the dew-wet stones at the heart of the book near “new every morning” & “wait quietly” (Part Three)',
+          z: -162.0,
+          lateral: 6.2,
+          height: 1.75,
+          veilZ: -214.5
+        },
+        {
+          part: 4,
+          id: 'new-every-morning-light-4',
+          name: 'The Light of the Earthenware Pitchers & Watchtower',
+          hint: 'Glowing beside the scattered sanctuary stones & clay jars near “clay jars” & “the watchtower” (Part Four)',
+          z: -258.0,
+          lateral: -6.0,
+          height: 1.70,
+          veilZ: -271.0
+        },
+        {
+          part: 5,
+          id: 'new-every-morning-light-5',
+          name: 'The Light of Dawn Over the Broken Walls',
+          hint: 'Shining beside the lyre in the ruins near “the lyre” & “renew our days” before the Amen Gate (Part Five)',
+          z: -315.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -327.6
         }
       ]
     };
@@ -3950,6 +4041,25 @@ export class GenesisDistrictBuilder {
       gardenFinale.group.position.set(-3.4, 0.1, -4.6);
       gardenFinale.group.rotation.y = 0.36;
       group.add(gardenFinale.group);
+    } else if (slug === 'new-every-morning') {
+      const dawnFinale = this.propBuilder.createLamentations3NewEveryMorningDawnEnsemble(
+        null,
+        { ground: '#665a4c', horizon: '#e6c687', accent: '#ffe48c' },
+        true
+      );
+      dawnFinale.group.position.set(0, 0.1, -3.8);
+      group.add(dawnFinale.group);
+
+      const lyreFinale = this.propBuilder.createLamentations5RestoredLyreDawnWallEnsemble(
+        null,
+        { ground: '#665a4c', horizon: '#e6c687', accent: '#ffe48c' },
+        false
+      );
+      if (lyreFinale.renewLight) lyreFinale.group.remove(lyreFinale.renewLight);
+      lyreFinale.group.scale.setScalar(0.74);
+      lyreFinale.group.position.set(-3.4, 0.1, -4.6);
+      lyreFinale.group.rotation.y = 0.36;
+      group.add(lyreFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -4112,6 +4222,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · A FUTURE AND A HOPE COMPLETED',
         epigraph: 'For I know the thoughts that I think toward you, says Yahweh, thoughts of peace, and not of evil, to give you hope and a future.',
         epigraphRef: 'JEREMIAH 29:11 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXII: NEW EVERY MORNING'
+      },
+      'new-every-morning': {
+        title: 'AMEN GATE · NEW EVERY MORNING COMPLETED',
+        epigraph: 'They are new every morning. Great is your faithfulness — Turn us to yourself, Yahweh, and we will be turned. Renew our days as of old.',
+        epigraphRef: 'LAMENTATIONS 3:23 & 5:21 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXIII: CAN THESE BONES LIVE'
       },
       'can-these-bones-live': {
         title: 'AMEN GATE · CAN THESE BONES LIVE COMPLETED',

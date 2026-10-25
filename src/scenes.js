@@ -474,6 +474,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateJames17RockySpringAndFigBoughScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'early_and_late_rain_field') {
       signatureState = this.populateJames26PlowedBarleyFieldAndRainStaffScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'crucible_of_gold') {
+      signatureState = this.populate1Peter4GoldsmithCrucibleScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'living_stones_cornerstone') {
+      signatureState = this.populate1Peter10LivingStonesCornerstoneScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'cast_your_cares_shore') {
+      signatureState = this.populate1Peter21CastYourCaresBasketScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'morning_star_lamp') {
+      signatureState = this.populate2Peter27MorningStarLampScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -529,7 +537,8 @@ export class StepThroughSceneManager {
         'held_together_cosmos', 'cancelled_scroll_cross', 'psalms_hymns_table', 'philemon_guest_room',
         'cradle_lamp_warmth', 'tentmaker_loom_lamp', 'children_of_the_day_dawn', 'quiet_table_loaf',
         'pillar_of_truth', 'lois_eunice_scrolls', 'crown_of_righteousness', 'cloak_and_parchments',
-        'doers_mirror_table', 'wooden_rudder_helm', 'fresh_spring_well', 'early_and_late_rain_field'
+        'doers_mirror_table', 'wooden_rudder_helm', 'fresh_spring_well', 'early_and_late_rain_field',
+        'crucible_of_gold', 'living_stones_cornerstone', 'cast_your_cares_shore', 'morning_star_lamp'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -7895,6 +7904,153 @@ export class StepThroughSceneManager {
         const val = this._james26Latch || 0;
         rig.shootsGroup.scale.y = 1.0 + val * 0.22 + Math.sin(time * 2.2) * 0.025;
         rig.rainLight.intensity = 2.9 + val * 3.3;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XLII — A LIVING HOPE (1 & 2 PETER & JUDE) BESPOKE SCENES
+  // ==========================================================================
+  populate1Peter4GoldsmithCrucibleScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create1Peter1GoldsmithCrucibleAndTongsHearthEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-living-hope', 4, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffcf6e');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Goldsmith’s Crucible & Glowing Hearth Embers',
+      signatureActivatedText:
+        '“That the proof of your faith, which is more precious than gold that perishes even though it is tested by fire, may be found to result in praise, glory, and honor at the revelation of Jesus Christ.” (1 Peter 1:7)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._peter4Latch = Math.min(1.0, (this._peter4Latch || 0) + dt * 0.65);
+        const val = this._peter4Latch || 0;
+        rig.moltenPool.position.y = 0.16 + Math.sin(time * 3.0) * 0.01 + val * 0.02;
+        rig.crucibleLight.intensity = 3.1 + val * 3.4 + Math.sin(time * 3.8) * 0.18;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populate1Peter10LivingStonesCornerstoneScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create1Peter2LivingStonesWallAndCornerstoneEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-living-hope', 10, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe4a0');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Lay a Hand on the Living Cornerstone & Rising Wall',
+      signatureActivatedText:
+        '“Coming to him, a living stone, rejected indeed by men, but chosen by God, precious. You also, as living stones, are built up as a spiritual house.” (1 Peter 2:4–5)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._peter10Latch = Math.min(1.0, (this._peter10Latch || 0) + dt * 0.65);
+        const val = this._peter10Latch || 0;
+        rig.upperLivingStone.rotation.z = -0.08 * (1.0 - val);
+        rig.upperLivingStone.position.y = 1.28 - val * 0.04;
+        rig.cornerstoneLight.intensity = 2.9 + val * 3.3;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populate1Peter21CastYourCaresBasketScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create1Peter5WovenBurdenBasketAndWindowTableEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-living-hope', 21, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe7a3');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Set Down the Heavy Woven Basket of Worries by the Open Window',
+      signatureActivatedText:
+        '“Humble yourselves therefore under the mighty hand of God, that he may exalt you in due time, casting all your worries on him, because he cares for you.” (1 Peter 5:6–7)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._peter21Latch = Math.min(1.0, (this._peter21Latch || 0) + dt * 0.65);
+        const val = this._peter21Latch || 0;
+        rig.careLight.intensity = 2.9 + val * 3.3;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populate2Peter27MorningStarLampScene(group, derived, pal, getTerrainHeight, skyDome) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create2Peter1DarkPlaceClayLampAndMorningStarSillEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-living-hope', 27, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.94, 3.6, '#ffe28a');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Tend the Clay Lamp on the Window Ledge Until the Morning Star Rises',
+      signatureActivatedText:
+        '“We have the more certainiggling prophetic word; and you do well that you heed it, as to a lamp shining in a dark place, until the day dawns, and the morning star arises in your hearts.” (2 Peter 1:19)'.replace('certainiggling ', 'certain '),
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._peter27Latch = Math.min(1.0, (this._peter27Latch || 0) + dt * 0.65);
+        const val = this._peter27Latch || 0;
+        rig.lampFlame.scale.setScalar(1.0 + Math.sin(time * 4.2) * 0.12 + val * 0.25);
+        rig.morningStar.scale.setScalar(1.0 + val * 0.65 + Math.sin(time * 3.0) * 0.12);
+        rig.lampLight.intensity = 3.1 + val * 3.5;
+        if (skyDome && skyDome.material?.uniforms?.uStarIntensity) {
+          skyDome.material.uniforms.uStarIntensity.value = Math.max(0.45, val * 0.85);
+        }
         return near || val > 0.85;
       }
     };

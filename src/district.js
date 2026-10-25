@@ -2649,6 +2649,53 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'a-living-hope') {
+      if (pData.n === 4 || pData.n === 8) {
+        const crucibleHearth = this.propBuilder.create1Peter1GoldsmithCrucibleAndTongsHearthEnsemble({
+          isFinalePlaza: false
+        });
+        if (crucibleHearth.crucibleLight) crucibleHearth.group.remove(crucibleHearth.crucibleLight);
+        crucibleHearth.group.scale.setScalar(0.74);
+        crucibleHearth.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        crucibleHearth.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(crucibleHearth.group);
+        return;
+      }
+      if (pData.n === 9 || pData.n === 11) {
+        const stonesWall = this.propBuilder.create1Peter2LivingStonesWallAndCornerstoneEnsemble({
+          isFinalePlaza: false
+        });
+        if (stonesWall.cornerstoneLight) stonesWall.group.remove(stonesWall.cornerstoneLight);
+        stonesWall.group.scale.setScalar(0.72);
+        stonesWall.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        stonesWall.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(stonesWall.group);
+        return;
+      }
+      if (pData.n === 21 || pData.n === 22) {
+        const burdenBasket = this.propBuilder.create1Peter5WovenBurdenBasketAndWindowTableEnsemble({
+          isFinalePlaza: false
+        });
+        if (burdenBasket.careLight) burdenBasket.group.remove(burdenBasket.careLight);
+        burdenBasket.group.scale.setScalar(0.72);
+        burdenBasket.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        burdenBasket.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(burdenBasket.group);
+        return;
+      }
+      if (pData.n === 27 || pData.n === 38) {
+        const morningLamp = this.propBuilder.create2Peter1DarkPlaceClayLampAndMorningStarSillEnsemble({
+          isFinalePlaza: false
+        });
+        if (morningLamp.lampLight) morningLamp.group.remove(morningLamp.lampLight);
+        morningLamp.group.scale.setScalar(0.74);
+        morningLamp.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        morningLamp.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(morningLamp.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2757,6 +2804,7 @@ export class GenesisDistrictBuilder {
       'grace-mercy-and-peace': 'DISTRICT XXXIX · GRACE, MERCY, AND PEACE — 1 & 2 TIMOTHY & TITUS',
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
       'doers-of-the-word': 'DISTRICT XLI · DOERS OF THE WORD — JAMES',
+      'a-living-hope': 'DISTRICT XLII · A LIVING HOPE — 1 & 2 PETER & JUDE',
       'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
       'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
       'for-such-a-time-as-this': 'DISTRICT XI · FOR SUCH A TIME AS THIS — ESTHER',
@@ -4075,6 +4123,58 @@ export class GenesisDistrictBuilder {
           height: 1.75,
           veilZ: -327.6
         }
+      ],
+      'a-living-hope': [
+        {
+          part: 1,
+          id: 'a-living-hope-light-1',
+          name: 'The Light of the Goldsmith’s Crucible & Living Stones',
+          hint: 'Shining beside the molten-gold crucible & cornerstone wall near “tested by fire” & “living stones” (Part One)',
+          z: -94.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -111.4
+        },
+        {
+          part: 2,
+          id: 'a-living-hope-light-2',
+          name: 'The Light of Cast-Down Burdens & the Open Window',
+          hint: 'Glowing beside the woven basket of worries set down on the table near “he cares for you” & “settled” (Part Two)',
+          z: -208.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -226.7
+        },
+        {
+          part: 3,
+          id: 'a-living-hope-light-3',
+          name: 'The Light of the Clay Lamp & Rising Morning Star',
+          hint: 'Shining on the pre-dawn stone windowsill near “eyewitnesses” & “a lamp in a dark place” (Part Three)',
+          z: -275.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -293.0
+        },
+        {
+          part: 4,
+          id: 'a-living-hope-light-4',
+          name: 'The Light of the Open Door & Staked Sapling',
+          hint: 'Glowing beside the open courtyard doorway & young olive tree near “patient” & “grow” (Part Four)',
+          z: -341.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -359.3
+        },
+        {
+          part: 5,
+          id: 'a-living-hope-light-5',
+          name: 'The Light of the Warm Hearth & Faultless Joy',
+          hint: 'Shining beside the night-hearth fire & starry threshold near “keep yourselves” & “able” before the Amen Gate (Part Five)',
+          z: -407.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -425.6
+        }
       ]
     };
 
@@ -5255,6 +5355,21 @@ export class GenesisDistrictBuilder {
       rainFieldFinale.group.position.set(-3.4, 0.1, -4.6);
       rainFieldFinale.group.rotation.y = 0.36;
       group.add(rainFieldFinale.group);
+    } else if (slug === 'a-living-hope') {
+      const lampFinale = this.propBuilder.create2Peter1DarkPlaceClayLampAndMorningStarSillEnsemble({
+        isFinalePlaza: true
+      });
+      lampFinale.group.position.set(0, 0.1, -3.8);
+      group.add(lampFinale.group);
+
+      const stonesFinale = this.propBuilder.create1Peter2LivingStonesWallAndCornerstoneEnsemble({
+        isFinalePlaza: false
+      });
+      if (stonesFinale.cornerstoneLight) stonesFinale.group.remove(stonesFinale.cornerstoneLight);
+      stonesFinale.group.scale.setScalar(0.74);
+      stonesFinale.group.position.set(-3.4, 0.1, -4.6);
+      stonesFinale.group.rotation.y = 0.36;
+      group.add(stonesFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -5492,6 +5607,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · DOERS OF THE WORD COMPLETED',
         epigraph: 'Be doers of the word, and not only hearers — The fruit of righteousness is sown in peace by those who make peace.',
         epigraphRef: 'JAMES 1:22 & 3:18 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XLII: A LIVING HOPE'
+      },
+      'a-living-hope': {
+        title: 'AMEN GATE · A LIVING HOPE COMPLETED',
+        epigraph: 'Born again to a living hope — a lamp shining in a dark place, until the day dawns, and the morning star arises in your hearts.',
+        epigraphRef: '1 PETER 1:3 & 2 PETER 1:19 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XLIII: LITTLE CHILDREN'
       },
       'our-eyes-are-on-you': {
         title: 'AMEN GATE · OUR EYES ARE ON YOU COMPLETED',

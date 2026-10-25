@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_67';
-import { StepThroughSceneManager } from './scenes.js?v=44_67';
-import { GenesisDistrictBuilder } from './district.js?v=44_67';
+import { PainterlyPropBuilder } from './props.js?v=44_68';
+import { StepThroughSceneManager } from './scenes.js?v=44_68';
+import { GenesisDistrictBuilder } from './district.js?v=44_68';
 import { PilgrimAudio } from './audio.js?v=44_57';
 import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
@@ -1168,6 +1168,12 @@ class PilgrimWalkApp {
         { n: 14, label: '14 · “small things steer” (Harbor Boat Stern & Timber Rudder)' },
         { n: 17, label: '17 · “the spring” (Fresh Limestone Spring & Fig Bough)' },
         { n: 26, label: '26 · “the farmer” (Sprouting Barley Furrows & Farmer’s Staff)' }
+      ],
+      'a-living-hope': [
+        { n: 4, label: '4 · “tested by fire” (Goldsmith’s Crucible & Glowing Embers)' },
+        { n: 10, label: '10 · “living stones” (Living Cornerstone & Rising Wall)' },
+        { n: 21, label: '21 · “he cares for you” (Woven Basket of Worries & Open Window)' },
+        { n: 27, label: '27 · “a lamp in a dark place” (Clay Lamp & Rising Morning Star)' }
       ]
     };
 

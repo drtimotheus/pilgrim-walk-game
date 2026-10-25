@@ -16223,4 +16223,534 @@ export class PainterlyPropBuilder {
 
     return { group, shootsGroup, staffGroup, rainLight };
   }
+
+  // ==========================================================================
+  // DISTRICT XLII — A LIVING HOPE (1 & 2 PETER & JUDE) BESPOKE ENSEMBLES
+  // ==========================================================================
+  create1Peter1GoldsmithCrucibleAndTongsHearthEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const hearthStoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8d7d66',
+      accentColor: '#d1bf9a',
+      roughness: 0.88,
+      map: propTex
+    });
+    const crucibleMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9c7850',
+      accentColor: '#e2b578',
+      roughness: 0.72,
+      map: propTex
+    });
+    const moltenGoldMat = new THREE.MeshStandardMaterial({
+      color: 0xffcf48,
+      emissive: 0xf59e0b,
+      emissiveIntensity: 0.88,
+      roughness: 0.18,
+      metalness: 0.78
+    });
+    const emberMat = new THREE.MeshStandardMaterial({
+      color: 0x3b2820,
+      emissive: 0xe85d1a,
+      emissiveIntensity: 0.76,
+      roughness: 0.82
+    });
+    const ironMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#48433d',
+      accentColor: '#857d73',
+      roughness: 0.56
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#e5d8be',
+      accentColor: '#faf2e1',
+      roughness: 0.76
+    });
+    const oliveLeafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5a7046',
+      accentColor: '#9bb37e',
+      roughness: 0.74
+    });
+
+    // Recessed stone forge hearth base (#4 "tested by fire")
+    const hearthBase = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.15, 2.38, 0.36, 24), 0.03, 3.2),
+      hearthStoneMat
+    );
+    hearthBase.position.y = 0.18;
+    hearthBase.receiveShadow = true;
+    group.add(hearthBase);
+
+    // Back stone forge curb wall
+    const backCurb = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.85, 0.52, 0.56, 8, 3, 4), 0.025, 3.0),
+      hearthStoneMat
+    );
+    backCurb.position.set(0, 0.58, -1.05);
+    backCurb.castShadow = true;
+    group.add(backCurb);
+
+    // Glowing bed of red-orange charcoal embers in the center pit
+    const emberGroup = new THREE.Group();
+    emberGroup.position.set(0, 0.38, 0.0);
+    for (let i = 0; i < 18; i++) {
+      const ang = (i / 18) * Math.PI * 2;
+      const rad = 0.22 + (i % 3) * 0.22;
+      const coal = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(0.13, 1), 0.025, 3.5),
+        emberMat
+      );
+      coal.position.set(Math.cos(ang) * rad, (i % 2) * 0.04, Math.sin(ang) * rad);
+      emberGroup.add(coal);
+    }
+    group.add(emberGroup);
+
+    // Spouted clay-and-stone goldsmith's crucible glowing with molten gold inside
+    const crucibleGroup = new THREE.Group();
+    crucibleGroup.position.set(0, 0.44, 0.0);
+
+    const crucibleWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.42, 0.28, 0.58, 24, 4, true), 0.015, 3.2),
+      crucibleMat
+    );
+    crucibleWall.position.y = 0.29;
+    crucibleWall.castShadow = true;
+
+    const crucibleRim = new THREE.Mesh(new THREE.TorusGeometry(0.41, 0.042, 10, 28), crucibleMat);
+    crucibleRim.rotation.x = Math.PI / 2;
+    crucibleRim.position.y = 0.58;
+    crucibleRim.scale.set(1.0, 1.14, 1.0);
+
+    const moltenPool = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.26, 0.14, 24), moltenGoldMat);
+    moltenPool.position.y = 0.16;
+
+    crucibleGroup.add(crucibleWall, crucibleRim, moltenPool);
+    group.add(crucibleGroup);
+
+    // Forged iron crucible tongs resting on the right stone hearth
+    const tongsGroup = new THREE.Group();
+    tongsGroup.position.set(0.76, 0.40, 0.34);
+    tongsGroup.rotation.y = -0.58;
+    for (const s of [-1, 1]) {
+      const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.026, 0.028, 1.32, 10), ironMat);
+      arm.rotation.x = Math.PI / 2;
+      arm.rotation.z = s * 0.05;
+      arm.position.set(s * 0.045, 0, 0);
+      tongsGroup.add(arm);
+
+      const jaw = new THREE.Mesh(new THREE.TorusGeometry(0.14, 0.028, 8, 16, Math.PI * 0.85), ironMat);
+      jaw.rotation.x = Math.PI / 2;
+      jaw.rotation.z = s === -1 ? 0.25 : Math.PI - 0.25;
+      jaw.position.set(s * 0.02, 0, 0.72);
+      tongsGroup.add(jaw);
+    }
+    group.add(tongsGroup);
+
+    // Folded coarse linen cloth & clay cooling bowl on the left
+    const clothFold = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.72, 0.14, 0.88, 6, 2, 6), 0.025, 3.0),
+      linenMat
+    );
+    clothFold.position.set(-0.92, 0.43, 0.16);
+    clothFold.rotation.y = 0.22;
+    group.add(clothFold);
+
+    const clayBowl = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.38, 0.26, 0.32, 20), 0.015, 3.0),
+      hearthStoneMat
+    );
+    clayBowl.position.set(-1.05, 0.52, -0.56);
+    group.add(clayBowl);
+
+    // Olive branch resting on the back stone ledge
+    const branchGroup = new THREE.Group();
+    branchGroup.position.set(0.68, 0.86, -0.98);
+    const stem = new THREE.Mesh(new THREE.CylinderGeometry(0.016, 0.022, 0.92, 8), crucibleMat);
+    stem.rotation.z = Math.PI / 2 - 0.12;
+    branchGroup.add(stem);
+    for (let l = -3; l <= 3; l++) {
+      const leaf = new THREE.Mesh(new THREE.ConeGeometry(0.045, 0.18, 6), oliveLeafMat);
+      leaf.position.set(l * 0.11, 0.03, (l % 2 === 0 ? 1 : -1) * 0.06);
+      leaf.rotation.x = (l % 2 === 0 ? 1 : -1) * 0.65;
+      branchGroup.add(leaf);
+    }
+    group.add(branchGroup);
+
+    const crucibleLight = new THREE.PointLight(0xffb84d, isFinalePlaza ? 3.5 : 3.1, 18);
+    crucibleLight.position.set(0.0, 1.55, 0.15);
+    group.add(crucibleLight);
+
+    return { group, crucibleGroup, moltenPool, tongsGroup, emberGroup, crucibleLight };
+  }
+
+  create1Peter2LivingStonesWallAndCornerstoneEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const limestoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#918166',
+      accentColor: '#e2ceb0',
+      roughness: 0.86,
+      map: propTex
+    });
+    const cornerstoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a8926e',
+      accentColor: '#f6dcaf',
+      roughness: 0.72,
+      map: propTex
+    });
+    const basketMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a6242',
+      accentColor: '#bfa176',
+      roughness: 0.84
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5e4329',
+      accentColor: '#9e7852',
+      roughness: 0.78
+    });
+
+    // Earth & dressed stone foundation terrace (#10 "living stones")
+    const terraceBase = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.25, 2.48, 0.22, 24), 0.03, 3.0),
+      limestoneMat
+    );
+    terraceBase.position.y = 0.11;
+    terraceBase.receiveShadow = true;
+    group.add(terraceBase);
+
+    // Rising wall of rough-hewn living stones meeting at a true square cornerstone
+    const wallGroup = new THREE.Group();
+    wallGroup.position.set(0, 0.22, -0.15);
+
+    // Massive dressed Cornerstone at the front corner
+    const cornerstone = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.92, 0.62, 0.92, 6, 4, 6), 0.018, 2.8),
+      cornerstoneMat
+    );
+    cornerstone.position.set(0.38, 0.31, 0.24);
+    cornerstone.castShadow = true;
+    cornerstone.receiveShadow = true;
+    wallGroup.add(cornerstone);
+
+    // Interlocking courses of odd-shaped living stones ("odd shapes, chipped edges, stones nobody chose")
+    const courses = [
+      [-0.48, 0.26, 0.24, 0.78, 0.52, 0.68],
+      [-1.22, 0.25, 0.22, 0.68, 0.50, 0.66],
+      [0.42, 0.26, -0.58, 0.74, 0.52, 0.72],
+      [-0.36, 0.76, 0.22, 0.74, 0.48, 0.64],
+      [-1.08, 0.74, 0.20, 0.66, 0.46, 0.62],
+      [0.36, 0.88, 0.22, 0.76, 0.50, 0.68]
+    ];
+    for (const [bx, by, bz, bw, bh, bd] of courses) {
+      const block = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(bw, bh, bd, 5, 4, 5), 0.028, 3.2),
+        limestoneMat
+      );
+      block.position.set(bx, by, bz);
+      block.castShadow = true;
+      block.receiveShadow = true;
+      wallGroup.add(block);
+    }
+
+    // Upper living stone being set into place atop the wall
+    const upperLivingStone = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.72, 0.50, 0.66, 5, 4, 5), 0.025, 3.0),
+      cornerstoneMat
+    );
+    upperLivingStone.position.set(-0.22, 1.28, 0.22);
+    upperLivingStone.rotation.z = -0.08;
+    upperLivingStone.castShadow = true;
+    wallGroup.add(upperLivingStone);
+    group.add(wallGroup);
+
+    // Stone-mason's woven mortar basket & wooden mallet handle on the left
+    const mortarBasket = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.38, 0.28, 0.36, 18), 0.02, 3.4),
+      basketMat
+    );
+    mortarBasket.position.set(-1.18, 0.40, 0.82);
+    mortarBasket.castShadow = true;
+    group.add(mortarBasket);
+
+    const toolHandle = new THREE.Mesh(new THREE.CylinderGeometry(0.032, 0.038, 0.58, 10), woodMat);
+    toolHandle.position.set(-1.24, 0.62, 0.78);
+    toolHandle.rotation.z = 0.48;
+    group.add(toolHandle);
+
+    const cornerstoneLight = new THREE.PointLight(0xffe5a3, isFinalePlaza ? 3.3 : 2.9, 18);
+    cornerstoneLight.position.set(0.1, 1.85, 0.35);
+    group.add(cornerstoneLight);
+
+    return { group, wallGroup, upperLivingStone, cornerstoneLight };
+  }
+
+  create1Peter5WovenBurdenBasketAndWindowTableEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8b795e',
+      accentColor: '#d8c8ae',
+      roughness: 0.88,
+      map: propTex
+    });
+    const timberMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#695138',
+      accentColor: '#ab8c68',
+      roughness: 0.80,
+      map: propTex
+    });
+    const basketMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a5f3e',
+      accentColor: '#c4a376',
+      roughness: 0.84
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#e6dac2',
+      accentColor: '#fbf5e8',
+      roughness: 0.74
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a67b56',
+      accentColor: '#dfb892',
+      roughness: 0.76
+    });
+
+    // Stone floor slab (#21 "he cares for you")
+    const floorSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.15, 2.38, 0.16, 24), 0.025, 3.0),
+      stoneMat
+    );
+    floorSlab.position.y = 0.08;
+    floorSlab.receiveShadow = true;
+    group.add(floorSlab);
+
+    // Weathered wooden table in the foreground where the heavy basket is set down
+    const tableTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.38, 0.14, 1.36, 8, 2, 6), 0.015, 3.2),
+      timberMat
+    );
+    tableTop.position.set(0, 0.86, 0.12);
+    tableTop.castShadow = true;
+    tableTop.receiveShadow = true;
+    group.add(tableTop);
+
+    for (const [lx, lz] of [
+      [-0.98, -0.36],
+      [0.98, -0.36],
+      [-0.98, 0.60],
+      [0.98, 0.60]
+    ]) {
+      const leg = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.18, 0.76, 0.18, 2, 4, 2), 0.01, 2.5),
+        timberMat
+      );
+      leg.position.set(lx, 0.44, lz);
+      leg.castShadow = true;
+      group.add(leg);
+    }
+
+    // Sunlit stone window frame behind the table overlooking the sea
+    for (const sx of [-1.22, 1.22]) {
+      const jamb = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.38, 2.35, 0.44, 3, 8, 3), 0.02, 3.0),
+        stoneMat
+      );
+      jamb.position.set(sx, 1.62, -0.82);
+      jamb.castShadow = true;
+      group.add(jamb);
+    }
+    const sill = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.88, 0.24, 0.56, 8, 2, 4), 0.02, 3.0),
+      stoneMat
+    );
+    sill.position.set(0, 0.98, -0.82);
+    group.add(sill);
+
+    const lintel = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.92, 0.32, 0.48, 8, 2, 3), 0.02, 3.0),
+      stoneMat
+    );
+    lintel.position.set(0, 2.88, -0.82);
+    group.add(lintel);
+
+    // Large two-handled woven reed basket of burdens set down on the left of the table ("put it down")
+    const basketGroup = new THREE.Group();
+    basketGroup.position.set(-0.52, 0.93, 0.14);
+
+    const basketBody = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.56, 0.42, 0.68, 22, 5), 0.025, 3.6),
+      basketMat
+    );
+    basketBody.position.y = 0.34;
+    basketBody.castShadow = true;
+    basketGroup.add(basketBody);
+
+    const basketRim = new THREE.Mesh(new THREE.TorusGeometry(0.56, 0.045, 10, 26), basketMat);
+    basketRim.rotation.x = Math.PI / 2;
+    basketRim.position.y = 0.68;
+    basketGroup.add(basketRim);
+
+    // Two braided rope handles on the basket rim
+    for (const hx of [-0.28, 0.28]) {
+      const handle = new THREE.Mesh(new THREE.TorusGeometry(0.14, 0.032, 8, 18, Math.PI), basketMat);
+      handle.position.set(hx, 0.68, 0);
+      basketGroup.add(handle);
+    }
+
+    // Folded heavy linen cloth bundles resting inside the basket
+    const clothBundle1 = new THREE.Mesh(
+      this.displaceGeometry(new THREE.DodecahedronGeometry(0.38, 1), 0.03, 3.0),
+      linenMat
+    );
+    clothBundle1.scale.set(1.25, 0.62, 1.15);
+    clothBundle1.position.set(0, 0.66, 0.04);
+    basketGroup.add(clothBundle1);
+    group.add(basketGroup);
+
+    // Clay water pitcher & small handled cup-bowl on the sunlit window sill
+    const clayPitcher = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.12, 0.18, 0.42, 16), 0.012, 3.0),
+      clayMat
+    );
+    clayPitcher.position.set(0.78, 1.31, -0.78);
+    clayPitcher.castShadow = true;
+    group.add(clayPitcher);
+
+    const clayCup = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.14, 0.09, 0.16, 16), 0.01, 3.0),
+      clayMat
+    );
+    clayCup.position.set(0.42, 1.18, -0.76);
+    group.add(clayCup);
+
+    const careLight = new THREE.PointLight(0xffe7a3, isFinalePlaza ? 3.3 : 2.9, 18);
+    careLight.position.set(0.0, 1.90, 0.25);
+    group.add(careLight);
+
+    return { group, basketGroup, careLight };
+  }
+
+  create2Peter1DarkPlaceClayLampAndMorningStarSillEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const sillStoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#726b5d',
+      accentColor: '#b8ae99',
+      roughness: 0.88,
+      map: propTex
+    });
+    const terracottaMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9e683c',
+      accentColor: '#dca06a',
+      roughness: 0.72,
+      map: propTex
+    });
+    const parchmentMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#e8d9bc',
+      accentColor: '#fff4dc',
+      roughness: 0.68
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#c9bca3',
+      accentColor: '#ece1cc',
+      roughness: 0.78
+    });
+    const flameMat = new THREE.MeshBasicMaterial({
+      color: 0xffe484
+    });
+    const starMat = new THREE.MeshBasicMaterial({
+      color: 0xfff8d6
+    });
+
+    // Deep-cut stone window ledge & embrasure (#27 "a lamp in a dark place")
+    const basePlinth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.15, 2.38, 0.18, 24), 0.025, 3.0),
+      sillStoneMat
+    );
+    basePlinth.position.y = 0.09;
+    basePlinth.receiveShadow = true;
+    group.add(basePlinth);
+
+    const stoneLedge = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.55, 0.72, 1.42, 8, 4, 6), 0.025, 3.2),
+      sillStoneMat
+    );
+    stoneLedge.position.set(0, 0.54, 0);
+    stoneLedge.castShadow = true;
+    stoneLedge.receiveShadow = true;
+    group.add(stoneLedge);
+
+    for (const sx of [-1.18, 1.18]) {
+      const casementWall = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.46, 2.25, 0.92, 4, 8, 4), 0.025, 3.0),
+        sillStoneMat
+      );
+      casementWall.position.set(sx, 1.98, -0.18);
+      casementWall.castShadow = true;
+      group.add(casementWall);
+    }
+
+    // Spouted terracotta oil lamp burning on the left of the stone windowsill
+    const lampGroup = new THREE.Group();
+    lampGroup.position.set(-0.48, 0.92, 0.14);
+    lampGroup.rotation.y = 0.25;
+
+    const lampBody = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.28, 18, 14), 0.012, 3.2),
+      terracottaMat
+    );
+    lampBody.scale.set(1.38, 0.56, 0.95);
+    lampBody.position.y = 0.14;
+    lampBody.castShadow = true;
+
+    const lampNozzle = new THREE.Mesh(new THREE.CylinderGeometry(0.065, 0.09, 0.24, 12), terracottaMat);
+    lampNozzle.rotation.z = Math.PI / 2 - 0.22;
+    lampNozzle.position.set(-0.34, 0.19, 0);
+
+    const lampHandle = new THREE.Mesh(new THREE.TorusGeometry(0.085, 0.026, 8, 16), terracottaMat);
+    lampHandle.position.set(0.34, 0.18, 0);
+
+    const lampFlame = new THREE.Mesh(new THREE.ConeGeometry(0.068, 0.26, 12), flameMat);
+    lampFlame.position.set(-0.38, 0.36, 0);
+
+    lampGroup.add(lampBody, lampNozzle, lampHandle, lampFlame);
+    group.add(lampGroup);
+
+    // Rolled prophetic parchment scroll on a folded linen cloth & small clay jar on the right
+    const scrollCloth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.86, 0.08, 0.78, 6, 2, 6), 0.018, 3.0),
+      linenMat
+    );
+    scrollCloth.position.set(0.46, 0.94, 0.12);
+    group.add(scrollCloth);
+
+    const propheticScroll = new THREE.Mesh(new THREE.CylinderGeometry(0.068, 0.068, 0.72, 16), parchmentMat);
+    propheticScroll.rotation.z = Math.PI / 2;
+    propheticScroll.rotation.y = -0.38;
+    propheticScroll.position.set(0.44, 1.04, 0.10);
+    propheticScroll.castShadow = true;
+    group.add(propheticScroll);
+
+    const smallJar = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.14, 0.18, 0.32, 16), 0.012, 3.0),
+      terracottaMat
+    );
+    smallJar.position.set(0.66, 1.08, -0.22);
+    smallJar.castShadow = true;
+    group.add(smallJar);
+
+    // Rising Morning Star beacon suspended in the window opening ("until the day dawns, and the morning star arises")
+    const morningStar = new THREE.Mesh(new THREE.OctahedronGeometry(0.11, 0), starMat);
+    morningStar.position.set(0.28, 2.25, -0.85);
+    group.add(morningStar);
+
+    const lampLight = new THREE.PointLight(0xffd97d, isFinalePlaza ? 3.5 : 3.1, 18);
+    lampLight.position.set(-0.35, 1.55, 0.25);
+    group.add(lampLight);
+
+    return { group, lampGroup, lampFlame, morningStar, lampLight };
+  }
 }

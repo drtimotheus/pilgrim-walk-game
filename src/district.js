@@ -2328,6 +2328,45 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'treasure-in-clay-jars') {
+      if (pData.n === 8 || pData.n === 15) {
+        const table = this.propBuilder.createCorinthians11CommunionTableAndCushionsEnsemble(null, pal, false);
+        if (table.tableLight) table.group.remove(table.tableLight);
+        table.group.scale.setScalar(0.74);
+        table.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        table.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(table.group);
+        return;
+      }
+      if (pData.n === 18 || pData.n === 27) {
+        const mirror = this.propBuilder.createCorinthians13PolishedBronzeMirrorEnsemble(null, pal, false);
+        if (mirror.mirrorLight) mirror.group.remove(mirror.mirrorLight);
+        mirror.group.scale.setScalar(0.74);
+        mirror.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        mirror.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(mirror.group);
+        return;
+      }
+      if (pData.n === 23 || pData.n === 29) {
+        const crackedJar = this.propBuilder.createCorinthians4CrackedClayJarLightEnsemble(null, pal, false);
+        if (crackedJar.treasureLight) crackedJar.group.remove(crackedJar.treasureLight);
+        crackedJar.group.scale.setScalar(0.74);
+        crackedJar.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        crackedJar.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(crackedJar.group);
+        return;
+      }
+      if (pData.n === 39 || pData.n === 40) {
+        const openJar = this.propBuilder.createCorinthians12OpenJarInSunlightEnsemble(null, pal, false);
+        if (openJar.weaknessLight) openJar.group.remove(openJar.weaknessLight);
+        openJar.group.scale.setScalar(0.74);
+        openJar.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        openJar.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(openJar.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2428,6 +2467,7 @@ export class GenesisDistrictBuilder {
       'come-and-see': 'DISTRICT XXXI · COME AND SEE — JOHN',
       'to-the-ends-of-the-earth': 'DISTRICT XXXII · TO THE ENDS OF THE EARTH — ACTS',
       'nothing-can-separate': 'DISTRICT XXXIII · NOTHING CAN SEPARATE — ROMANS',
+      'treasure-in-clay-jars': 'DISTRICT XXXIV · TREASURE IN CLAY JARS — 1 & 2 CORINTHIANS',
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
       'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
       'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
@@ -3400,6 +3440,58 @@ export class GenesisDistrictBuilder {
           hint: 'Shining beside the open fellowship table & overflowing jar near “welcome” & “greet them all” before the Amen Gate (Part Five)',
           z: -414.0,
           lateral: -5.8,
+          height: 1.75,
+          veilZ: -426.0
+        }
+      ],
+      'treasure-in-clay-jars': [
+        {
+          part: 1,
+          id: 'treasure-in-clay-jars-light-1',
+          name: 'The Light of the True Foundation & Tentmaker’s Lamp',
+          hint: 'Shining beside the laid foundation stone & night needle lamp near “the foundation” & “with our own hands” (Part One)',
+          z: -54.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -72.0
+        },
+        {
+          part: 2,
+          id: 'treasure-in-clay-jars-light-2',
+          name: 'The Light of the New Loaf & Way of Escape',
+          hint: 'Glowing beside the unleavened loaf & open alley gate near “the new loaf” & “the way out” (Part Two)',
+          z: -126.0,
+          lateral: -6.0,
+          height: 1.72,
+          veilZ: -148.0
+        },
+        {
+          part: 3,
+          id: 'treasure-in-clay-jars-light-3',
+          name: 'The Light of the Broken Loaf & Bronze Mirror',
+          hint: 'Shining between the low communion table & polished bronze mirror near “wait for one another” & “dimly” (Part Three)',
+          z: -214.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -234.0
+        },
+        {
+          part: 4,
+          id: 'treasure-in-clay-jars-light-4',
+          name: 'The Light of the Treasure in Clay Jars',
+          hint: 'Glowing through the golden seam of the cracked clay vessel near “out of darkness” & “clay jars” (Part Four)',
+          z: -312.0,
+          lateral: -6.0,
+          height: 1.75,
+          veilZ: -329.8
+        },
+        {
+          part: 5,
+          id: 'treasure-in-clay-jars-light-5',
+          name: 'The Light of Sufficient Grace in Weakness',
+          hint: 'Shining beside the open clay jar resting in window sunlight near “the thorn” & “when I am weak” before the Amen Gate (Part Five)',
+          z: -414.0,
+          lateral: 5.8,
           height: 1.75,
           veilZ: -426.0
         }
@@ -4474,6 +4566,25 @@ export class GenesisDistrictBuilder {
       graceDoorFinale.group.position.set(-3.4, 0.1, -4.6);
       graceDoorFinale.group.rotation.y = 0.36;
       group.add(graceDoorFinale.group);
+    } else if (slug === 'treasure-in-clay-jars') {
+      const jarFinale = this.propBuilder.createCorinthians4CrackedClayJarLightEnsemble(
+        null,
+        { ground: '#6e634e', horizon: '#80755d', accent: '#e9cb8b' },
+        true
+      );
+      jarFinale.group.position.set(0, 0.1, -3.8);
+      group.add(jarFinale.group);
+
+      const mirrorFinale = this.propBuilder.createCorinthians13PolishedBronzeMirrorEnsemble(
+        null,
+        { ground: '#a38f6e', horizon: '#8e7b5b', accent: '#ffe3af' },
+        false
+      );
+      if (mirrorFinale.mirrorLight) mirrorFinale.group.remove(mirrorFinale.mirrorLight);
+      mirrorFinale.group.scale.setScalar(0.74);
+      mirrorFinale.group.position.set(-3.4, 0.1, -4.6);
+      mirrorFinale.group.rotation.y = 0.36;
+      group.add(mirrorFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -4671,6 +4782,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · NOTHING CAN SEPARATE COMPLETED',
         epigraph: 'Nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord.',
         epigraphRef: 'ROMANS 8:39 & 15:13 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXIV: TREASURE IN CLAY JARS'
+      },
+      'treasure-in-clay-jars': {
+        title: 'AMEN GATE · TREASURE IN CLAY JARS COMPLETED',
+        epigraph: 'We have this treasure in clay vessels — My grace is sufficient for you, for my power is made perfect in weakness.',
+        epigraphRef: '2 CORINTHIANS 4:7 & 12:9 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXV: ROOTED AND FREE'
       },
       'anchor-of-the-soul': {
         title: 'AMEN GATE · ANCHOR OF THE SOUL COMPLETED',

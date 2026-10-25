@@ -418,6 +418,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateRomans25NothingCanSeparateScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'grafted_olive_tree') {
       signatureState = this.populateRomans30GraftedOliveTreeScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'communion_cup_loaf') {
+      signatureState = this.populateCorinthians15CommunionTableScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'bronze_mirror_face') {
+      signatureState = this.populateCorinthians18BronzeMirrorScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'treasure_in_clay_jars') {
+      signatureState = this.populateCorinthians29TreasureInClayJarsScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'sufficient_grace_thorn') {
+      signatureState = this.populateCorinthians40WhenIAmWeakScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -466,7 +474,8 @@ export class StepThroughSceneManager {
         'solitary_city_lantern', 'night_watch_water', 'new_every_morning_dawn', 'restored_lyre',
         'valley_of_achor_door', 'lily_and_olive_dew', 'restored_harvest_floor', 'amos_plumb_line',
         'vine_and_fig_tree', 'habakkuk_watchtower', 'zechariah_olive_lampstand', 'book_of_remembrance',
-        'grace_where_we_stand', 'spirit_of_adoption', 'nothing_can_separate_rock', 'grafted_olive_tree'
+        'grace_where_we_stand', 'spirit_of_adoption', 'nothing_can_separate_rock', 'grafted_olive_tree',
+        'communion_cup_loaf', 'bronze_mirror_face', 'treasure_in_clay_jars', 'sufficient_grace_thorn'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -6856,6 +6865,132 @@ export class StepThroughSceneManager {
         const val = this._rom30Latch || 0;
         rig.graftGroup.rotation.z = Math.sin(time * 1.4) * 0.025;
         rig.graftLight.intensity = 2.7 + val * 3.1;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XXXIV: 1 & 2 Corinthians (treasure-in-clay-jars) ---
+  populateCorinthians15CommunionTableScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createCorinthians11CommunionTableAndCushionsEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'treasure-in-clay-jars', 15, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.94, 3.6, '#ffe2a0');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Wait at the Low Table Beside the Broken Loaf & Clay Cup',
+      signatureActivatedText:
+        '“He took bread; and when he had given thanks, he broke it and said, ‘Take, eat. This is my body, which is broken for you. Do this in memory of me.’” (1 Corinthians 11:23–24)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._cor15Latch = Math.min(1.0, (this._cor15Latch || 0) + dt * 0.65);
+        const val = this._cor15Latch || 0;
+        rig.tableLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateCorinthians18BronzeMirrorScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createCorinthians13PolishedBronzeMirrorEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'treasure-in-clay-jars', 18, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.6, '#ffe3af');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Look Into the Polished Corinthian Bronze Mirror Resting on Linen',
+      signatureActivatedText:
+        '“For now we see in a mirror, dimly, but then face to face. Now I know in part, but then I will know fully, even as I was also fully known.” (1 Corinthians 13:12)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._cor18Latch = Math.min(1.0, (this._cor18Latch || 0) + dt * 0.65);
+        const val = this._cor18Latch || 0;
+        rig.mirrorGroup.rotation.y = 0.18 + Math.sin(time * 1.4) * 0.04;
+        rig.mirrorLight.intensity = 2.7 + val * 3.1;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateCorinthians29TreasureInClayJarsScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createCorinthians4CrackedClayJarLightEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'treasure-in-clay-jars', 29, { targetHeight: 3.1, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.98, 3.8, '#ffe082');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Behold the Cracked Clay Jar Shining with Golden Light Through Its Seam',
+      signatureActivatedText:
+        '“But we have this treasure in clay vessels, that the exceeding greatness of the power may be of God, and not from ourselves.” (2 Corinthians 4:7)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._cor29Latch = Math.min(1.0, (this._cor29Latch || 0) + dt * 0.65);
+        const val = this._cor29Latch || 0;
+        rig.treasureLight.intensity = 3.0 + Math.sin(time * 2.8) * 0.25 + val * 3.5;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateCorinthians40WhenIAmWeakScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createCorinthians12OpenJarInSunlightEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'treasure-in-clay-jars', 40, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe294');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Kneel Beside the Open Earthenware Jar Resting in Window Sunlight',
+      signatureActivatedText:
+        '“He has said to me, ‘My grace is sufficient for you, for my power is made perfect in weakness.’… For when I am weak, then am I strong.” (2 Corinthians 12:9–10)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._cor40Latch = Math.min(1.0, (this._cor40Latch || 0) + dt * 0.65);
+        const val = this._cor40Latch || 0;
+        rig.weaknessLight.intensity = 2.7 + val * 3.1;
         return near || val > 0.85;
       }
     };

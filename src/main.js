@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_60';
-import { StepThroughSceneManager } from './scenes.js?v=44_60';
-import { GenesisDistrictBuilder } from './district.js?v=44_60';
+import { PainterlyPropBuilder } from './props.js?v=44_61';
+import { StepThroughSceneManager } from './scenes.js?v=44_61';
+import { GenesisDistrictBuilder } from './district.js?v=44_61';
 import { PilgrimAudio } from './audio.js?v=44_57';
 import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
@@ -1126,6 +1126,12 @@ class PilgrimWalkApp {
         { n: 19, label: '19 · “Abba” (Child’s & Father’s Sandals on the Threshold)' },
         { n: 25, label: '25 · “nothing” (Starlit Parapet Table & Scroll)' },
         { n: 30, label: '30 · “the olive tree” (Wild Olive Grafted Into the Root)' }
+      ],
+      'treasure-in-clay-jars': [
+        { n: 15, label: '15 · “wait for one another” (Low Table, Loaf & Cup)' },
+        { n: 18, label: '18 · “dimly” (Polished Bronze Mirror on Linen)' },
+        { n: 29, label: '29 · “clay jars” (Cracked Clay Jar Shining with Light)' },
+        { n: 40, label: '40 · “when I am weak” (Open Jar in Window Sunlight)' }
       ]
     };
 

@@ -12616,4 +12616,351 @@ export class PainterlyPropBuilder {
 
     return { group, graftGroup, graftLight };
   }
+
+  // ============================================================================
+  // DISTRICT XXXIV (1 & 2 CORINTHIANS): TREASURE IN CLAY JARS — BESPOKE ENSEMBLES
+  // ============================================================================
+
+  // 1. 1 Corinthians 11:21–26 (#15 "wait for one another") — Low Wooden Communion Table Surrounded by Floor Cushions with Broken Loaf & Clay Chalice
+  createCorinthians11CommunionTableAndCushionsEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#66523b',
+      accentColor: '#c9ab80',
+      roughness: 0.84,
+      map: propTex
+    });
+    const cushionMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9c8c72',
+      accentColor: '#e6d7ba',
+      roughness: 0.78
+    });
+    const breadMat = new THREE.MeshStandardMaterial({
+      color: 0xe6be7e,
+      emissive: 0xa6742b,
+      emissiveIntensity: 0.65,
+      roughness: 0.55
+    });
+    const cupMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#825638',
+      accentColor: '#d99e6c',
+      roughness: 0.68
+    });
+
+    // Low Corinthian fellowship wooden table
+    const tableGroup = new THREE.Group();
+    tableGroup.userData.keepWithGlb = true;
+    const plankTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.68, 0.09, 1.12, 6, 2, 5), 0.015, 3.2),
+      woodMat
+    );
+    plankTop.position.y = 0.42;
+    tableGroup.add(plankTop);
+
+    for (const [lx, lz] of [[-0.68, -0.42], [0.68, -0.42], [-0.68, 0.42], [0.68, 0.42]]) {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.42, 0.14), woodMat);
+      leg.position.set(lx, 0.21, lz);
+      tableGroup.add(leg);
+    }
+
+    // Broken loaf of bread & footed terracotta chalice in the center ("remember him by leaving room")
+    const loafHalf1 = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.17, 12, 10), 0.02, 3.2),
+      breadMat
+    );
+    loafHalf1.scale.set(1.25, 0.68, 0.95);
+    loafHalf1.position.set(-0.14, 0.52, 0.04);
+    const loafHalf2 = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.13, 10, 8), 0.02, 3.2),
+      breadMat
+    );
+    loafHalf2.scale.set(1.1, 0.62, 0.85);
+    loafHalf2.position.set(0.06, 0.50, 0.08);
+
+    const chaliceStem = new THREE.Mesh(new THREE.CylinderGeometry(0.038, 0.068, 0.14, 14), cupMat);
+    chaliceStem.position.set(0.18, 0.53, -0.06);
+    const chaliceBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.095, 0.045, 0.14, 16), cupMat);
+    chaliceBowl.position.set(0.18, 0.65, -0.06);
+    tableGroup.add(loafHalf1, loafHalf2, chaliceStem, chaliceBowl);
+    group.add(tableGroup);
+
+    // Woven floor cushions arranged around the low table with room left for the latecomer
+    const cushionCoords = [
+      [-1.18, -0.28, 0.08],
+      [-1.18, 0.28, -0.06],
+      [1.18, -0.28, -0.05],
+      [1.18, 0.28, 0.06],
+      [0, 0.86, 0.02],
+      [0, -0.82, -0.04]
+    ];
+    for (const [cx, cz, rotY] of cushionCoords) {
+      const cushion = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.56, 0.15, 0.46, 5, 2, 5), 0.018, 3.0),
+        cushionMat
+      );
+      cushion.position.set(cx, 0.08, cz);
+      cushion.rotation.y = rotY;
+      cushion.userData.keepWithGlb = true;
+      group.add(cushion);
+    }
+
+    const tableLight = new THREE.PointLight(0xffe2a0, isFinalePlaza ? 3.1 : 2.6, 17);
+    tableLight.position.set(0, 1.65, 0.25);
+    group.add(tableLight);
+
+    return { group, tableGroup, tableLight };
+  }
+
+  // 2. 1 Corinthians 13:12 (#18 "dimly") — Polished Ancient Bronze Hand Mirror on Draped Linen with Olive Sprig, Scroll & Clay Jar
+  createCorinthians13PolishedBronzeMirrorEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8d7a5c',
+      accentColor: '#dec8a0',
+      roughness: 0.86,
+      map: propTex
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#cfc2a6',
+      accentColor: '#f7eed8',
+      roughness: 0.74
+    });
+    const bronzeRimMat = new THREE.MeshStandardMaterial({
+      color: 0xb88b4a,
+      emissive: 0x6e4b1a,
+      emissiveIntensity: 0.65,
+      roughness: 0.32,
+      metalness: 0.82
+    });
+    const mirrorFaceMat = new THREE.MeshStandardMaterial({
+      color: 0xffdf96,
+      emissive: 0xc98f2e,
+      emissiveIntensity: 0.95,
+      roughness: 0.18,
+      metalness: 0.92
+    });
+
+    // Workbench plinth draped with soft linen cloth
+    const bench = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.92, 0.62, 1.08, 6, 3, 5), 0.02, 3.2),
+      stoneMat
+    );
+    bench.position.y = 0.31;
+    bench.userData.keepWithGlb = true;
+    group.add(bench);
+
+    const cloth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.42, 0.10, 0.88, 8, 2, 6), 0.025, 3.6),
+      linenMat
+    );
+    cloth.position.set(0, 0.65, 0.04);
+    cloth.userData.keepWithGlb = true;
+    group.add(cloth);
+
+    // Tilted ancient Corinthian polished bronze hand mirror (circular disc, raised bezel rim & turned handle)
+    const mirrorGroup = new THREE.Group();
+    mirrorGroup.position.set(-0.06, 0.92, 0.06);
+    mirrorGroup.rotation.set(-0.62, 0.18, -0.46);
+    mirrorGroup.userData.keepWithGlb = true;
+
+    const disc = new THREE.Mesh(new THREE.CylinderGeometry(0.46, 0.46, 0.04, 28), mirrorFaceMat);
+    disc.rotation.x = Math.PI / 2;
+    const rim = new THREE.Mesh(new THREE.TorusGeometry(0.46, 0.035, 12, 32), bronzeRimMat);
+    const handle = new THREE.Mesh(new THREE.CylinderGeometry(0.052, 0.072, 0.48, 14), bronzeRimMat);
+    handle.position.set(0, -0.66, 0);
+    mirrorGroup.add(disc, rim, handle);
+    group.add(mirrorGroup);
+
+    // Earthenware jar on the left rear corner
+    const jar = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.25, 0.58, 16), stoneMat);
+    jar.position.set(-0.68, 0.91, -0.22);
+    jar.userData.keepWithGlb = true;
+    group.add(jar);
+
+    const mirrorLight = new THREE.PointLight(0xffe3af, isFinalePlaza ? 3.2 : 2.7, 17);
+    mirrorLight.position.set(0.12, 1.75, 0.38);
+    group.add(mirrorLight);
+
+    return { group, mirrorGroup, mirrorLight };
+  }
+
+  // 3. 2 Corinthians 4:7 (#29 "clay jars") — Cracked Terracotta Vessel Radiating Golden Light Through Its Seam on a Wooden Ledge with Scroll
+  createCorinthians4CrackedClayJarLightEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#69563e',
+      accentColor: '#c9b086',
+      roughness: 0.85,
+      map: propTex
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a6c56',
+      accentColor: '#d4c2a1',
+      roughness: 0.82,
+      map: propTex
+    });
+    const goldSeamMat = new THREE.MeshStandardMaterial({
+      color: 0xfff6c4,
+      emissive: 0xffb830,
+      emissiveIntensity: 1.95,
+      roughness: 0.14
+    });
+    const parchmentMat = new THREE.MeshStandardMaterial({
+      color: 0xe8d7b0,
+      emissive: 0xa67c2e,
+      emissiveIntensity: 0.55,
+      roughness: 0.45
+    });
+
+    // Potter's wooden table ledge
+    const ledge = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.96, 0.58, 1.04, 6, 3, 5), 0.02, 3.2),
+      woodMat
+    );
+    ledge.position.y = 0.29;
+    ledge.userData.keepWithGlb = true;
+    group.add(ledge);
+
+    // Central round-bellied clay vessel with glowing interior & radiant vertical crack seam ("if you're cracked, that's just where it gets out")
+    const jarGroup = new THREE.Group();
+    jarGroup.position.set(0, 0.58, 0);
+    jarGroup.userData.keepWithGlb = true;
+
+    const belly = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.48, 20, 16), 0.018, 3.4),
+      clayMat
+    );
+    belly.scale.set(1.0, 1.08, 1.0);
+    belly.position.y = 0.48;
+    jarGroup.add(belly);
+
+    const neck = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.32, 0.18, 20), clayMat);
+    neck.position.y = 0.96;
+    jarGroup.add(neck);
+
+    // Radiant golden treasure light pool inside the open mouth of the jar
+    const innerGlow = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.24, 0.06, 20), goldSeamMat);
+    innerGlow.position.y = 1.02;
+    jarGroup.add(innerGlow);
+
+    // Jagged vertical kintsugi-like crack of living light down the front belly of the clay jar
+    const crackSegments = [
+      [0.02, 0.84, 0.44, 0.16, 0.18],
+      [-0.03, 0.68, 0.47, 0.18, -0.24],
+      [-0.01, 0.50, 0.48, 0.20, 0.28],
+      [0.05, 0.32, 0.45, 0.18, -0.20],
+      [0.03, 0.18, 0.39, 0.14, 0.15]
+    ];
+    for (const [cx, cy, cz, len, rotZ] of crackSegments) {
+      const seam = new THREE.Mesh(new THREE.BoxGeometry(0.026, len, 0.04), goldSeamMat);
+      seam.position.set(cx, cy, cz);
+      seam.rotation.z = rotZ;
+      jarGroup.add(seam);
+    }
+    group.add(jarGroup);
+
+    // Rolled parchment scroll on the right & shallow clay bowl on the left
+    const scroll = new THREE.Mesh(new THREE.CylinderGeometry(0.065, 0.065, 0.56, 14), parchmentMat);
+    scroll.rotation.z = Math.PI / 2;
+    scroll.position.set(0.58, 0.65, 0.22);
+    scroll.userData.keepWithGlb = true;
+    group.add(scroll);
+
+    const bowl = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.14, 0.14, 16), clayMat);
+    bowl.position.set(-0.64, 0.65, 0.14);
+    bowl.userData.keepWithGlb = true;
+    group.add(bowl);
+
+    const treasureLight = new THREE.PointLight(0xffe082, isFinalePlaza ? 3.5 : 3.0, 18);
+    treasureLight.position.set(0, 1.48, 0.45);
+    group.add(treasureLight);
+
+    return { group, jarGroup, treasureLight };
+  }
+
+  // 4. 2 Corinthians 12:9–10 (#40 "when I am weak") — Open Earthenware Jar Resting on Its Side in Window Sunlight with Linen Cloth & Olive Bowl
+  createCorinthians12OpenJarInSunlightEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9c8b6e',
+      accentColor: '#e6d4b0',
+      roughness: 0.86,
+      map: propTex
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a68f68',
+      accentColor: '#f0d8a8',
+      roughness: 0.76,
+      map: propTex
+    });
+    const goldInteriorMat = new THREE.MeshStandardMaterial({
+      color: 0xffe49c,
+      emissive: 0xc98e2b,
+      emissiveIntensity: 1.05,
+      roughness: 0.25
+    });
+
+    // Sunlit stone floor plinth & window sill wall
+    const floorSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.05, 0.24, 1.24, 6, 2, 5), 0.02, 3.2),
+      stoneMat
+    );
+    floorSlab.position.y = 0.12;
+    floorSlab.userData.keepWithGlb = true;
+    group.add(floorSlab);
+
+    const windowWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.95, 1.15, 0.34, 6, 4, 3), 0.022, 3.4),
+      stoneMat
+    );
+    windowWall.position.set(0, 0.78, -0.46);
+    windowWall.userData.keepWithGlb = true;
+    group.add(windowWall);
+
+    // Open two-handled clay amphora resting on its side, its wide mouth glowing with warm golden light ("the open jar fills")
+    const openJarGroup = new THREE.Group();
+    openJarGroup.position.set(0.08, 0.56, 0.08);
+    openJarGroup.rotation.set(1.18, -0.34, 0.22);
+    openJarGroup.userData.keepWithGlb = true;
+
+    const jarBody = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.36, 0.72, 20), clayMat);
+    const jarRim = new THREE.Mesh(new THREE.TorusGeometry(0.28, 0.042, 12, 24), clayMat);
+    jarRim.rotation.x = Math.PI / 2;
+    jarRim.position.y = 0.36;
+    const innerSunPool = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.26, 0.12, 18), goldInteriorMat);
+    innerSunPool.position.y = 0.28;
+    openJarGroup.add(jarBody, jarRim, innerSunPool);
+
+    for (const hx of [-0.30, 0.30]) {
+      const handle = new THREE.Mesh(new THREE.TorusGeometry(0.11, 0.024, 8, 16, Math.PI), clayMat);
+      handle.position.set(hx, 0.18, 0);
+      handle.rotation.z = hx < 0 ? Math.PI / 2 : -Math.PI / 2;
+      openJarGroup.add(handle);
+    }
+    group.add(openJarGroup);
+
+    // Shallow clay bowl with olive sprigs on the left
+    const oliveBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.26, 0.16, 0.14, 16), stoneMat);
+    oliveBowl.position.set(-0.68, 0.31, -0.08);
+    oliveBowl.userData.keepWithGlb = true;
+    group.add(oliveBowl);
+
+    const weaknessLight = new THREE.PointLight(0xffe294, isFinalePlaza ? 3.2 : 2.7, 17);
+    weaknessLight.position.set(0.05, 1.68, 0.38);
+    group.add(weaknessLight);
+
+    return { group, openJarGroup, weaknessLight };
+  }
 }

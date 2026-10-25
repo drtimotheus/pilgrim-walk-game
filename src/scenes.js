@@ -394,6 +394,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateLamentations14NewEveryMorningScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'restored_lyre') {
       signatureState = this.populateLamentations30RestoredLyreScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'valley_of_achor_door') {
+      signatureState = this.populateHosea6DoorOfHopeScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'lily_and_olive_dew') {
+      signatureState = this.populateHosea16DewLilyScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'restored_harvest_floor') {
+      signatureState = this.populateJoel23RestoredHarvestScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'amos_plumb_line') {
+      signatureState = this.populateAmos33PlumbLineScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -6443,6 +6451,134 @@ export class StepThroughSceneManager {
         if (near) this._lam30Latch = Math.min(1.0, (this._lam30Latch || 0) + dt * 0.65);
         const val = this._lam30Latch || 0;
         rig.renewLight.intensity = 2.7 + val * 3.1;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XXV: Hosea, Joel, Amos & Obadiah (a-door-of-hope) ---
+  populateHosea6DoorOfHopeScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createHosea2ValleyOfAchorDoorEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-door-of-hope', 6, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.8, '#ffe69c');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Step Toward the Cleft Door of Hope in the Valley of Achor & Sunlit Vine',
+      signatureActivatedText:
+        '“I will give her vineyards from there, and the valley of Achor for a door of hope; and she will respond there, as in the days of her youth.” (Hosea 2:15)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._hosea6Latch = Math.min(1.0, (this._hosea6Latch || 0) + dt * 0.65);
+        const val = this._hosea6Latch || 0;
+        rig.doorPortalGroup.scale.y = 1.0 + Math.sin(time * 2.2) * 0.06 + val * 0.14;
+        rig.doorLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateHosea16DewLilyScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createHosea14DewLilyAndOliveEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-door-of-hope', 16, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.5, '#fff4cc');
+    shaft.position.set(0, 6.3, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Pause Beside the Dew-Covered Lily & Deep-Rooted Olive Shade',
+      signatureActivatedText:
+        '“I will be like the dew to Israel. He will blossom like the lily, and send down his roots like Lebanon… From me is your fruit found.” (Hosea 14:5, 8)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._hosea16Latch = Math.min(1.0, (this._hosea16Latch || 0) + dt * 0.65);
+        const val = this._hosea16Latch || 0;
+        rig.lilyGroup.rotation.z = Math.sin(time * 1.4) * 0.04;
+        rig.dewLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJoel23RestoredHarvestScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJoel2RestoredHarvestBasketEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-door-of-hope', 23, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.94, 3.6, '#ffe396');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Before the Restored Harvest Basket of Figs, Grapes, Grain & Oil',
+      signatureActivatedText:
+        '“I will restore to you the years that the swarming locust has eaten… You will have plenty to eat, and be satisfied, and will praise the name of Yahweh, your God.” (Joel 2:25–26)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._joel23Latch = Math.min(1.0, (this._joel23Latch || 0) + dt * 0.65);
+        const val = this._joel23Latch || 0;
+        rig.harvestLight.intensity = 2.7 + val * 3.1;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateAmos33PlumbLineScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createAmos7PlumbLineWallEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'a-door-of-hope', 33, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.9, 3.4, '#ffebb3');
+    shaft.position.set(0, 6.3, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Behold the Plumb Line Held Still Beside the Stone Wall',
+      signatureActivatedText:
+        '“Behold, the Lord stood on a wall made by a plumb line, with a plumb line in his hand… ‘Behold, I will set a plumb line in the middle of my people Israel.’” (Amos 7:7–8)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._amos33Latch = Math.min(1.0, (this._amos33Latch || 0) + dt * 0.65);
+        const val = this._amos33Latch || 0;
+        rig.plumbGroup.rotation.z = Math.sin(time * 1.8) * (0.045 * (1.0 - val * 0.85));
+        rig.plumbLight.intensity = 2.6 + val * 3.0;
         return near || val > 0.85;
       }
     };

@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_57';
-import { StepThroughSceneManager } from './scenes.js?v=44_57';
-import { GenesisDistrictBuilder } from './district.js?v=44_57';
+import { PainterlyPropBuilder } from './props.js?v=44_58';
+import { StepThroughSceneManager } from './scenes.js?v=44_58';
+import { GenesisDistrictBuilder } from './district.js?v=44_58';
 import { PilgrimAudio } from './audio.js?v=44_57';
 import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
@@ -433,6 +433,9 @@ class PilgrimWalkApp {
     this.propBuilder.setTripoManager(this.tripoManager);
     this.sceneManager = new StepThroughSceneManager(THREE, this.painterly, this.propBuilder);
     this.districtBuilder = new GenesisDistrictBuilder(THREE, this.painterly, this.propBuilder);
+    this.districtBuilder.onTextureStreamed = () => {
+      this._needsRender = true;
+    };
     this.postProcess = new PainterlyPostProcess(THREE, this.renderer, this.painterly, this.graphicsQuality);
     this.dailyWalk = new DailyWalkManager(this);
 
@@ -482,7 +485,17 @@ class PilgrimWalkApp {
 
   async bootstrap() {
     try {
-      const initialSlug = this.districtMeta[this.currentDistrictSlug] ? this.currentDistrictSlug : 'genesis';
+      const urlParams = new URLSearchParams(window.location.search || '');
+      const urlBook = urlParams.get('book') || urlParams.get('district');
+      const initialSlug =
+        urlBook && this.districtMeta[urlBook]
+          ? urlBook
+          : this.districtMeta[this.currentDistrictSlug]
+          ? this.currentDistrictSlug
+          : 'genesis';
+      if (urlBook && this.districtMeta[urlBook]) {
+        this.currentDistrictSlug = urlBook;
+      }
       // Start streaming the district's street music immediately in parallel with asset loading
       this.audio.playStreetMusic(initialSlug);
       const [, routeRes, coversRes] = await Promise.all([
@@ -510,6 +523,7 @@ class PilgrimWalkApp {
         if (loadingScreen) loadingScreen.classList.add('hidden');
       }, 650);
 
+      this._isBootstrapped = true;
       this.startRenderLoop();
     } catch (err) {
       console.error('Bootstrap error:', err);
@@ -841,6 +855,13 @@ class PilgrimWalkApp {
     this.district.partGatesAndLights.forEach((lObj) => {
       if (this.saveData.lightsKindled.includes(lObj.id)) {
         this.markLightKindled(lObj, true);
+      } else {
+        lObj.kindled = false;
+        lObj.haloSprite.scale.set(3.2, 3.2, 1);
+        lObj.pointLight.intensity = 2.6;
+        if (lObj.veilGroup) {
+          lObj.veilGroup.visible = true;
+        }
       }
     });
     this.syncPartVeilsWithMode();
@@ -1087,6 +1108,12 @@ class PilgrimWalkApp {
         { n: 10, label: '10 · “pour out your heart” (Overturned Night-Watch Jar)' },
         { n: 14, label: '14 · “new every morning” (Morning Light Over Dew-Wet Stones)' },
         { n: 30, label: '30 · “renew our days” (Restored Lyre by the Dawn Wall)' }
+      ],
+      'a-door-of-hope': [
+        { n: 6, label: '6 · “a door of hope” (Valley of Achor Door & Vine)' },
+        { n: 16, label: '16 · “like the dew” (Dew-Covered Lily & Olive Tree)' },
+        { n: 23, label: '23 · “the years the locust ate” (Restored Harvest Basket)' },
+        { n: 33, label: '33 · “the plumb line” (Amos’s Plumb Line & Stone Wall)' }
       ]
     };
 
@@ -1148,9 +1175,13 @@ class PilgrimWalkApp {
   // ==========================================================================
   // STEP-THROUGH SCENE ENTRY & UNMISSABLE EXIT (§5 & §6)
   // ==========================================================================
-  enterStepThroughScene(paintingNode) {
+  async enterStepThroughScene(paintingNode) {
     if (!paintingNode || !paintingNode.data.isScene) return;
     this.closePoemModal();
+
+    if (!paintingNode.textureLoaded && this.districtBuilder) {
+      await this.districtBuilder.ensureNodeTextureLoaded(paintingNode);
+    }
 
     // Save exact street position and facing before entering (§5c)
     if (this.mode === 'STREET') {
@@ -1271,8 +1302,12 @@ class PilgrimWalkApp {
     this.streetReturnState.yaw = this.player.yaw;
     this.streetReturnState.pitch = 0.0;
 
+    if (!targetNode.textureLoaded && this.districtBuilder) {
+      this.districtBuilder.ensureNodeTextureLoaded(targetNode);
+    }
+
     if (enterSceneImmediately && targetNode.data.isScene) {
-      this.enterStepThroughScene(targetNode);
+      return this.enterStepThroughScene(targetNode);
     } else {
       this.showToast(`Moved to No. ${targetNode.data.n} · “${targetNode.data.title}”`);
     }
@@ -3617,6 +3652,9 @@ class PilgrimWalkApp {
         this.player.position.x - node.position.x,
         this.player.position.z - node.position.z
       );
+      if (d < 36.0 && !node.textureLoaded && !node._loadPromise && this.districtBuilder) {
+        this.districtBuilder.ensureNodeTextureLoaded(node);
+      }
       if (d < nearestDist) {
         nearestDist = d;
         nearestNode = node;

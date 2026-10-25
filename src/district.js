@@ -543,8 +543,22 @@ export class GenesisDistrictBuilder {
     });
 
     // 8. Place all Paintings along the Path in exact Book Order
+    //    Progressive Near-to-Far Streaming: await the first 8 paintings (Part 1 near the Gatehouse)
+    //    in parallel so the street opens in under 1 second, while Parts 2–5 stream in the background!
     const paintingNodes = [];
     const total = paintings.length;
+    const nearCount = Math.min(total, 8);
+    let nearLoaded = 0;
+
+    const nearTextures = await Promise.all(
+      paintings.slice(0, nearCount).map(async (p) => {
+        const tex = await this.loadTextureAsync(p.isScene ? p.heroSrc : p.webSrc);
+        tex.colorSpace = THREE.SRGBColorSpace;
+        nearLoaded++;
+        if (onProgress) onProgress(nearLoaded, nearCount);
+        return tex;
+      })
+    );
 
     for (let idx = 0; idx < total; idx++) {
       const p = paintings[idx];
@@ -562,9 +576,8 @@ export class GenesisDistrictBuilder {
       const worldY = pt.y;
       const worldZ = pt.z + nz * lateralOffset;
 
-      const tex = await this.loadTextureAsync(p.isScene ? p.heroSrc : p.webSrc);
-      tex.colorSpace = THREE.SRGBColorSpace;
-      if (onProgress) onProgress(idx + 1, total);
+      const isNearLoaded = idx < nearCount;
+      const tex = isNearLoaded ? nearTextures[idx] : this.createPalettePlaceholderTexture(p.palette);
 
       const monument = this.propBuilder.createPaintingMonument(p, tex, p.isScene);
       monument.position.set(worldX, worldY, worldZ);
@@ -577,14 +590,20 @@ export class GenesisDistrictBuilder {
 
       this.dressPaintingSurroundings(streetGroup, worldX, worldY, worldZ, side, p, slug, biomeCfg);
 
-      paintingNodes.push({
+      const node = {
         data: p,
         meshGroup: monument,
         texture: tex,
+        textureLoaded: isNearLoaded,
         position: new THREE.Vector3(worldX, worldY, worldZ),
         roadPosition: new THREE.Vector3(pt.x, pt.y, pt.z),
         part: p.part
-      });
+      };
+      paintingNodes.push(node);
+    }
+
+    if (total > nearCount) {
+      this.streamFarPaintingTextures(paintingNodes);
     }
 
     // District 3 (Fire by Night) Signature Street Element (§7):
@@ -937,6 +956,68 @@ export class GenesisDistrictBuilder {
         }
       );
     });
+  }
+
+  createPalettePlaceholderTexture(palette = {}) {
+    const THREE = this.THREE;
+    const c = document.createElement('canvas');
+    c.width = 64;
+    c.height = 64;
+    const ctx = c.getContext('2d');
+    if (ctx && typeof ctx.createLinearGradient === 'function') {
+      const grad = ctx.createLinearGradient(0, 0, 0, 64);
+      grad.addColorStop(0.0, palette.top || '#4f6278');
+      grad.addColorStop(0.45, palette.horizon || '#c7a474');
+      grad.addColorStop(0.75, palette.accent || '#dbb87b');
+      grad.addColorStop(1.0, palette.ground || '#5e5242');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, 64, 64);
+    }
+    const tex = new THREE.CanvasTexture(c);
+    tex.colorSpace = THREE.SRGBColorSpace;
+    tex.userData = { isPlaceholder: true };
+    return tex;
+  }
+
+  async ensureNodeTextureLoaded(node) {
+    if (!node || !node.data) return null;
+    if (node.textureLoaded && node.texture && !node.texture.userData?.isPlaceholder) {
+      return node.texture;
+    }
+    if (node._loadPromise) {
+      return node._loadPromise;
+    }
+    const url = node.data.isScene ? node.data.heroSrc : node.data.webSrc;
+    node._loadPromise = this.loadTextureAsync(url).then((tex) => {
+      tex.colorSpace = this.THREE.SRGBColorSpace;
+      node.texture = tex;
+      node.textureLoaded = true;
+      const artMat = node.meshGroup?.userData?.artMat;
+      if (artMat) {
+        artMat.map = tex;
+        artMat.needsUpdate = true;
+      }
+      if (typeof this.onTextureStreamed === 'function') {
+        this.onTextureStreamed(node);
+      }
+      return tex;
+    });
+    return node._loadPromise;
+  }
+
+  async streamFarPaintingTextures(paintingNodes) {
+    for (let i = 0; i < paintingNodes.length; i++) {
+      const node = paintingNodes[i];
+      if (!node || node.textureLoaded) continue;
+      // Load in small concurrent pairs of 2 from near to far so the main thread & network stay silky smooth
+      const pair = [this.ensureNodeTextureLoaded(node)];
+      const nextNode = paintingNodes[i + 1];
+      if (nextNode && !nextNode.textureLoaded) {
+        pair.push(this.ensureNodeTextureLoaded(nextNode));
+        i++;
+      }
+      await Promise.all(pair);
+    }
   }
 
   dressPaintingSurroundings(streetGroup, wx, wy, wz, side, pData, slug = 'genesis', biomeCfg = null) {
@@ -2130,6 +2211,45 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'a-door-of-hope') {
+      if (pData.n === 1 || pData.n === 6) {
+        const door = this.propBuilder.createHosea2ValleyOfAchorDoorEnsemble(null, pal, false);
+        if (door.doorLight) door.group.remove(door.doorLight);
+        door.group.scale.setScalar(0.74);
+        door.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        door.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(door.group);
+        return;
+      }
+      if (pData.n === 14 || pData.n === 16) {
+        const lily = this.propBuilder.createHosea14DewLilyAndOliveEnsemble(null, pal, false);
+        if (lily.dewLight) lily.group.remove(lily.dewLight);
+        lily.group.scale.setScalar(0.74);
+        lily.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        lily.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(lily.group);
+        return;
+      }
+      if (pData.n === 22 || pData.n === 23) {
+        const harvest = this.propBuilder.createJoel2RestoredHarvestBasketEnsemble(null, pal, false);
+        if (harvest.harvestLight) harvest.group.remove(harvest.harvestLight);
+        harvest.group.scale.setScalar(0.74);
+        harvest.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        harvest.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(harvest.group);
+        return;
+      }
+      if (pData.n === 33 || pData.n === 35) {
+        const plumb = this.propBuilder.createAmos7PlumbLineWallEnsemble(null, pal, false);
+        if (plumb.plumbLight) plumb.group.remove(plumb.plumbLight);
+        plumb.group.scale.setScalar(0.74);
+        plumb.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        plumb.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(plumb.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2219,6 +2339,7 @@ export class GenesisDistrictBuilder {
       'arise-shine': 'DISTRICT XX · ARISE, SHINE — ISAIAH',
       'a-future-and-a-hope': 'DISTRICT XXI · A FUTURE AND A HOPE — JEREMIAH',
       'new-every-morning': 'DISTRICT XXII · NEW EVERY MORNING — LAMENTATIONS',
+      'a-door-of-hope': 'DISTRICT XXV · A DOOR OF HOPE — HOSEA, JOEL, AMOS & OBADIAH',
       'can-these-bones-live': 'DISTRICT XXIII · CAN THESE BONES LIVE — EZEKIEL',
       'greatly-beloved': 'DISTRICT XXIV · GREATLY BELOVED — DANIEL',
       'out-of-the-deep': 'DISTRICT XXVI · OUT OF THE DEEP — JONAH',
@@ -3045,6 +3166,58 @@ export class GenesisDistrictBuilder {
           lateral: 5.8,
           height: 1.75,
           veilZ: -327.6
+        }
+      ],
+      'a-door-of-hope': [
+        {
+          part: 1,
+          id: 'a-door-of-hope-light-1',
+          name: 'The Light of the Door of Hope in the Valley of Achor',
+          hint: 'Shining beside the cleft rock pass & sunlit vine near “a door of hope” & “go again” (Part One)',
+          z: -62.0,
+          lateral: -6.0,
+          height: 1.72,
+          veilZ: -81.8
+        },
+        {
+          part: 2,
+          id: 'a-door-of-hope-light-2',
+          name: 'The Light of Cords of Love & Morning Dew',
+          hint: 'Glowing beside the dew-covered lily & olive tree near “learning to walk” & “like the dew” (Part Two)',
+          z: -148.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -167.8
+        },
+        {
+          part: 3,
+          id: 'a-door-of-hope-light-3',
+          name: 'The Light of the Years Restored',
+          hint: 'Shining beside the overflowing harvest basket of figs, grapes & grain near “the years the locust ate” (Part Three)',
+          z: -242.0,
+          lateral: -6.0,
+          height: 1.75,
+          veilZ: -263.5
+        },
+        {
+          part: 4,
+          id: 'a-door-of-hope-light-4',
+          name: 'The Light of the Plumb Line & Justice Like Rivers',
+          hint: 'Glowing beside the builder’s plumb line & raised tent near “the plumb line” & “the fallen tent” (Part Four)',
+          z: -346.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -378.8
+        },
+        {
+          part: 5,
+          id: 'a-door-of-hope-light-5',
+          name: 'The Light of Mount Zion & the Kingdom of Yahweh',
+          hint: 'Shining above the threshold stone & olive hill near “the clefts of the rock” & “the kingdom” before the Amen Gate (Part Five)',
+          z: -414.0,
+          lateral: -5.8,
+          height: 1.75,
+          veilZ: -426.0
         }
       ]
     };
@@ -4060,6 +4233,25 @@ export class GenesisDistrictBuilder {
       lyreFinale.group.position.set(-3.4, 0.1, -4.6);
       lyreFinale.group.rotation.y = 0.36;
       group.add(lyreFinale.group);
+    } else if (slug === 'a-door-of-hope') {
+      const doorFinale = this.propBuilder.createHosea2ValleyOfAchorDoorEnsemble(
+        null,
+        { ground: '#665942', horizon: '#a69673', accent: '#fef0bb' },
+        true
+      );
+      doorFinale.group.position.set(0, 0.1, -3.8);
+      group.add(doorFinale.group);
+
+      const lilyFinale = this.propBuilder.createHosea14DewLilyAndOliveEnsemble(
+        null,
+        { ground: '#726954', horizon: '#a79a7e', accent: '#e3d4b0' },
+        false
+      );
+      if (lilyFinale.dewLight) lilyFinale.group.remove(lilyFinale.dewLight);
+      lilyFinale.group.scale.setScalar(0.74);
+      lilyFinale.group.position.set(-3.4, 0.1, -4.6);
+      lilyFinale.group.rotation.y = 0.36;
+      group.add(lilyFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -4227,6 +4419,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · NEW EVERY MORNING COMPLETED',
         epigraph: 'They are new every morning. Great is your faithfulness — Turn us to yourself, Yahweh, and we will be turned. Renew our days as of old.',
         epigraphRef: 'LAMENTATIONS 3:23 & 5:21 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXIII: CAN THESE BONES LIVE'
+      },
+      'a-door-of-hope': {
+        title: 'AMEN GATE · A DOOR OF HOPE COMPLETED',
+        epigraph: 'I will give her vineyards from there, and the valley of Achor for a door of hope — And the kingdom will be Yahweh’s.',
+        epigraphRef: 'HOSEA 2:15 & OBADIAH 1:21 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXVI: OUT OF THE DEEP'
       },
       'can-these-bones-live': {
         title: 'AMEN GATE · CAN THESE BONES LIVE COMPLETED',

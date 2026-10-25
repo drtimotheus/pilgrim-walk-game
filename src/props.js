@@ -618,6 +618,8 @@ export class PainterlyPropBuilder {
     const artMesh = new THREE.Mesh(artGeo, artMat);
     artMesh.position.set(0, centerY, 0.03);
     group.add(artMesh);
+    group.userData.artMesh = artMesh;
+    group.userData.artMat = artMat;
 
     // Subtle back-panel so frame isn't hollow from behind
     const backGeo = new THREE.BoxGeometry(frameW + 0.08, frameH + 0.08, 0.08);
@@ -11598,5 +11600,273 @@ export class PainterlyPropBuilder {
     group.add(renewLight);
 
     return { group, lyreGroup, renewLight };
+  }
+
+  // ============================================================================
+  // DISTRICT XXV — A DOOR OF HOPE (HOSEA, JOEL, AMOS & OBADIAH) BESPOKE ENSEMBLES
+  // ============================================================================
+
+  // 1. Hosea 2:15 (#6 "a door of hope") — Valley of Achor Cleft Rock Pass, Sunlit Vineyard Shoot & Threshold Table
+  createHosea2ValleyOfAchorDoorEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const cliffMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a6b53',
+      accentColor: '#ebd59b',
+      roughness: 0.88,
+      map: propTex
+    });
+    const vineMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c7838',
+      accentColor: '#e8d868',
+      roughness: 0.72
+    });
+    const dawnMat = new THREE.MeshStandardMaterial({
+      color: 0xfff0b3,
+      emissive: 0xffb838,
+      emissiveIntensity: 1.5,
+      roughness: 0.2,
+      transparent: true,
+      opacity: 0.9
+    });
+
+    // Twin cleft limestone crags framing the narrow Door of Hope pass
+    for (const side of [-1, 1]) {
+      const crag = new THREE.Mesh(
+        this.displaceGeometry(new THREE.ConeGeometry(0.88, 2.75, 9), 0.08, 3.2),
+        cliffMat
+      );
+      crag.position.set(side * 1.05, 1.35, -0.35);
+      crag.rotation.z = side * -0.12;
+      crag.userData.keepWithGlb = true;
+      group.add(crag);
+    }
+
+    // Golden sun-portal glowing in the cleft between the rocks
+    const doorPortalGroup = new THREE.Group();
+    doorPortalGroup.userData.keepWithGlb = true;
+    const portalDisc = new THREE.Mesh(new THREE.CylinderGeometry(0.52, 0.65, 2.15, 16), dawnMat);
+    portalDisc.scale.set(0.75, 1.0, 0.22);
+    portalDisc.position.set(0, 1.15, -0.45);
+    doorPortalGroup.add(portalDisc);
+    group.add(doorPortalGroup);
+
+    // Young sunlit grapevine shoot & stone threshold table with grain platter and clay jar
+    const vineGroup = new THREE.Group();
+    vineGroup.userData.keepWithGlb = true;
+    const stem = new THREE.Mesh(new THREE.CylinderGeometry(0.032, 0.048, 1.32, 8), vineMat);
+    stem.position.set(0.32, 0.66, 0.35);
+    vineGroup.add(stem);
+    for (let l = 0; l < 6; l++) {
+      const leaf = new THREE.Mesh(new THREE.SphereGeometry(0.14, 10, 8), vineMat);
+      leaf.scale.set(1.2, 0.45, 1.0);
+      leaf.position.set(0.32 + Math.sin(l * 1.4) * 0.18, 0.45 + l * 0.16, 0.35 + Math.cos(l * 1.4) * 0.14);
+      vineGroup.add(leaf);
+    }
+    group.add(vineGroup);
+
+    const tableStone = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.95, 0.42, 0.68, 4, 3, 4), 0.025, 3.5),
+      cliffMat
+    );
+    tableStone.position.set(-0.62, 0.21, 0.48);
+    tableStone.userData.keepWithGlb = true;
+    group.add(tableStone);
+
+    const doorLight = new THREE.PointLight(0xffe69c, isFinalePlaza ? 3.3 : 2.8, 18);
+    doorLight.position.set(0, 1.75, 0.2);
+    group.add(doorLight);
+
+    return { group, doorPortalGroup, vineGroup, doorLight };
+  }
+
+  // 2. Hosea 14:4–7 (#16 "like the dew") — Dew-Covered White Lily, Gnarled Olive Tree & Morning Dewdrops
+  createHosea14DewLilyAndOliveEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#786d58',
+      accentColor: '#e0d0ad',
+      roughness: 0.88,
+      map: propTex
+    });
+    const stemMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4e6642',
+      accentColor: '#b8cfa0',
+      roughness: 0.74
+    });
+    const petalMat = new THREE.MeshStandardMaterial({
+      color: 0xfcf9ef,
+      emissive: 0xd9cfa8,
+      emissiveIntensity: 0.45,
+      roughness: 0.28
+    });
+    const dewMat = new THREE.MeshStandardMaterial({
+      color: 0xe6f9ff,
+      emissive: 0x8ad4eb,
+      emissiveIntensity: 1.2,
+      roughness: 0.1,
+      transparent: true,
+      opacity: 0.9
+    });
+
+    const cairnBase = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.15, 1.32, 0.26, 20), 0.025, 3.4),
+      stoneMat
+    );
+    cairnBase.position.y = 0.13;
+    cairnBase.userData.keepWithGlb = true;
+    group.add(cairnBase);
+
+    const lilyGroup = new THREE.Group();
+    lilyGroup.userData.keepWithGlb = true;
+    const stalk = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.055, 1.25, 10), stemMat);
+    stalk.position.y = 0.72;
+    lilyGroup.add(stalk);
+
+    // 6 sculpted white lily petals opening in a trumpet crown
+    for (let p = 0; p < 6; p++) {
+      const ang = (p / 6) * Math.PI * 2;
+      const petal = new THREE.Mesh(new THREE.ConeGeometry(0.18, 0.56, 8), petalMat);
+      petal.scale.set(0.85, 1.0, 0.28);
+      petal.position.set(Math.cos(ang) * 0.22, 1.38, Math.sin(ang) * 0.22);
+      petal.rotation.z = -Math.cos(ang) * 0.72;
+      petal.rotation.x = Math.sin(ang) * 0.72;
+      lilyGroup.add(petal);
+
+      const dewdrop = new THREE.Mesh(new THREE.SphereGeometry(0.038, 8, 8), dewMat);
+      dewdrop.position.set(Math.cos(ang) * 0.34, 1.42 + (p % 2) * 0.06, Math.sin(ang) * 0.34);
+      lilyGroup.add(dewdrop);
+    }
+    group.add(lilyGroup);
+
+    const dewLight = new THREE.PointLight(0xfff4cc, isFinalePlaza ? 3.1 : 2.6, 16);
+    dewLight.position.set(0, 1.85, 0.25);
+    group.add(dewLight);
+
+    return { group, lilyGroup, dewLight };
+  }
+
+  // 3. Joel 2:25–26 (#23 "the years the locust ate") — Restored Harvest Basket of Figs, Grapes, Bread Loaves & Oil Jar
+  createJoel2RestoredHarvestBasketEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e583f',
+      accentColor: '#d9be8c',
+      roughness: 0.85,
+      map: propTex
+    });
+    const wickerMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c6b43',
+      accentColor: '#edd49f',
+      roughness: 0.8
+    });
+    const figMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4f3854',
+      accentColor: '#b58ea8',
+      roughness: 0.62
+    });
+    const goldGrainMat = new THREE.MeshStandardMaterial({
+      color: 0xf7dc88,
+      emissive: 0xc49228,
+      emissiveIntensity: 0.75,
+      roughness: 0.35
+    });
+
+    const tableBench = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.95, 0.52, 0.92, 6, 3, 4), 0.02, 3.2),
+      woodMat
+    );
+    tableBench.position.set(0, 0.26, 0);
+    tableBench.userData.keepWithGlb = true;
+    group.add(tableBench);
+
+    const basketGroup = new THREE.Group();
+    basketGroup.userData.keepWithGlb = true;
+    const basketBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.58, 0.42, 0.38, 18), wickerMat);
+    basketBowl.position.set(-0.28, 0.71, 0);
+    basketGroup.add(basketBowl);
+
+    for (let f = 0; f < 7; f++) {
+      const ang = (f / 7) * Math.PI * 2;
+      const fig = new THREE.Mesh(new THREE.SphereGeometry(0.12, 10, 10), f % 2 === 0 ? figMat : goldGrainMat);
+      fig.position.set(-0.28 + Math.cos(ang) * 0.26, 0.94 + (f % 2) * 0.06, Math.sin(ang) * 0.24);
+      basketGroup.add(fig);
+    }
+
+    // Tall earthenware oil & new-wine amphora beside the overflowing basket
+    const jar = new THREE.Mesh(new THREE.CylinderGeometry(0.20, 0.28, 0.78, 16), wickerMat);
+    jar.position.set(0.54, 0.91, -0.05);
+    basketGroup.add(jar);
+    group.add(basketGroup);
+
+    const harvestLight = new THREE.PointLight(0xffe396, isFinalePlaza ? 3.2 : 2.7, 17);
+    harvestLight.position.set(0, 1.85, 0.3);
+    group.add(harvestLight);
+
+    return { group, basketGroup, harvestLight };
+  }
+
+  // 4. Amos 7:7–8 (#33 "the plumb line") — Ashlar Stone Wall, Wooden Bracket, Cord & Suspended Lead Plumb Bob
+  createAmos7PlumbLineWallEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9e9278',
+      accentColor: '#e6d9b8',
+      roughness: 0.88,
+      map: propTex
+    });
+    const beamMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#695036',
+      accentColor: '#c9a677',
+      roughness: 0.82
+    });
+    const leadMat = new THREE.MeshStandardMaterial({
+      color: 0x6e7882,
+      emissive: 0x3b4854,
+      emissiveIntensity: 0.65,
+      roughness: 0.28,
+      metalness: 0.85
+    });
+
+    const wall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.15, 2.35, 0.95, 6, 8, 6), 0.025, 3.6),
+      stoneMat
+    );
+    wall.position.set(0.38, 1.18, -0.15);
+    wall.userData.keepWithGlb = true;
+    group.add(wall);
+
+    const bracketBeam = new THREE.Mesh(new THREE.BoxGeometry(0.86, 0.14, 0.14), beamMat);
+    bracketBeam.position.set(-0.18, 2.18, -0.15);
+    bracketBeam.userData.keepWithGlb = true;
+    group.add(bracketBeam);
+
+    const plumbGroup = new THREE.Group();
+    plumbGroup.position.set(-0.48, 2.18, -0.15);
+    plumbGroup.userData.keepWithGlb = true;
+    const cord = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, 1.42, 8), beamMat);
+    cord.position.y = -0.71;
+    const bob = new THREE.Mesh(new THREE.ConeGeometry(0.16, 0.42, 16), leadMat);
+    bob.rotation.x = Math.PI;
+    bob.position.y = -1.55;
+    plumbGroup.add(cord, bob);
+    group.add(plumbGroup);
+
+    const plumbLight = new THREE.PointLight(0xffebb3, isFinalePlaza ? 3.1 : 2.6, 16);
+    plumbLight.position.set(-0.35, 1.65, 0.35);
+    group.add(plumbLight);
+
+    return { group, plumbGroup, plumbLight };
   }
 }

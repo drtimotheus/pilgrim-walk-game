@@ -15723,4 +15723,504 @@ export class PainterlyPropBuilder {
 
     return { group, cloakGroup, booksGroup, benchLight };
   }
+
+  // ==========================================================================
+  // DISTRICT XLI — DOERS OF THE WORD (JAMES) BESPOKE ENSEMBLES
+  // ==========================================================================
+  createJames1BronzeMirrorAndWaterBasinTableEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8d7a62',
+      accentColor: '#d4be9b',
+      roughness: 0.88,
+      map: propTex
+    });
+    const timberMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c4128',
+      accentColor: '#9c7852',
+      roughness: 0.80,
+      map: propTex
+    });
+    const bronzeMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a67b3c',
+      accentColor: '#f6d88c',
+      roughness: 0.32
+    });
+    const mirrorSurfaceMat = new THREE.MeshStandardMaterial({
+      color: 0xf4dca0,
+      emissive: 0xd8a848,
+      emissiveIntensity: 0.28,
+      roughness: 0.16,
+      metalness: 0.72
+    });
+    const waterMat = new THREE.MeshStandardMaterial({
+      color: 0x3b7c8c,
+      emissive: 0x245668,
+      emissiveIntensity: 0.34,
+      roughness: 0.14,
+      metalness: 0.25,
+      transparent: true,
+      opacity: 0.88
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#ebe0c9',
+      accentColor: '#ffffff',
+      roughness: 0.74
+    });
+
+    // Flagstone threshold base
+    const baseSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.15, 2.38, 0.16, 24), 0.025, 3.0),
+      stoneMat
+    );
+    baseSlab.position.y = 0.08;
+    baseSlab.receiveShadow = true;
+    group.add(baseSlab);
+
+    // Rough-hewn timber table beside the open stone doorway (#5 "the mirror")
+    const tableTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.35, 0.14, 1.35, 8, 2, 6), 0.015, 3.2),
+      timberMat
+    );
+    tableTop.position.set(0, 0.86, 0);
+    tableTop.castShadow = true;
+    tableTop.receiveShadow = true;
+    group.add(tableTop);
+
+    for (const [lx, lz] of [
+      [-0.96, -0.48],
+      [0.96, -0.48],
+      [-0.96, 0.48],
+      [0.96, 0.48]
+    ]) {
+      const leg = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.18, 0.76, 0.18, 2, 4, 2), 0.01, 2.5),
+        timberMat
+      );
+      leg.position.set(lx, 0.44, lz);
+      leg.castShadow = true;
+      group.add(leg);
+    }
+
+    // Open stone doorway arch behind the table overlooking the bay
+    for (const sx of [-1.25, 1.25]) {
+      const jamb = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.36, 2.65, 0.42, 3, 8, 3), 0.02, 3.0),
+        stoneMat
+      );
+      jamb.position.set(sx, 1.40, -0.82);
+      jamb.castShadow = true;
+      group.add(jamb);
+    }
+    const lintel = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.96, 0.34, 0.48, 8, 2, 3), 0.02, 3.0),
+      stoneMat
+    );
+    lintel.position.set(0, 2.86, -0.82);
+    lintel.castShadow = true;
+    group.add(lintel);
+
+    // Ornate polished bronze hand-mirror resting in the foreground of the table
+    const mirrorGroup = new THREE.Group();
+    mirrorGroup.position.set(0.12, 0.96, 0.22);
+    mirrorGroup.rotation.y = -0.28;
+
+    const mirrorRim = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.38, 0.045, 28), bronzeMat);
+    mirrorRim.castShadow = true;
+    const mirrorFace = new THREE.Mesh(new THREE.CylinderGeometry(0.31, 0.31, 0.05, 28), mirrorSurfaceMat);
+    mirrorFace.position.y = 0.005;
+    const mirrorHandle = new THREE.Mesh(new THREE.CylinderGeometry(0.042, 0.056, 0.42, 14), bronzeMat);
+    mirrorHandle.rotation.x = Math.PI / 2;
+    mirrorHandle.position.set(0, 0, 0.52);
+    mirrorHandle.castShadow = true;
+    mirrorGroup.add(mirrorRim, mirrorFace, mirrorHandle);
+    group.add(mirrorGroup);
+
+    // Deep ribbed bronze water basin filled with still water set beside the mirror ("it is a basin of water set beside it")
+    const basinGroup = new THREE.Group();
+    basinGroup.position.set(-0.56, 0.93, -0.10);
+
+    const basinBowl = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.46, 0.32, 0.34, 24), 0.01, 3.2),
+      bronzeMat
+    );
+    basinBowl.position.y = 0.17;
+    basinBowl.castShadow = true;
+    const basinLip = new THREE.Mesh(new THREE.TorusGeometry(0.46, 0.032, 10, 28), bronzeMat);
+    basinLip.rotation.x = Math.PI / 2;
+    basinLip.position.y = 0.34;
+    const basinWater = new THREE.Mesh(new THREE.CylinderGeometry(0.42, 0.42, 0.03, 24), waterMat);
+    basinWater.position.y = 0.30;
+    basinGroup.add(basinBowl, basinLip, basinWater);
+    group.add(basinGroup);
+
+    // Folded fringed cream linen towel on the right side of the table
+    const towelGroup = new THREE.Group();
+    towelGroup.position.set(0.68, 0.96, -0.06);
+    towelGroup.rotation.y = 0.24;
+    const towelFold1 = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.54, 0.07, 0.68, 5, 2, 5), 0.012, 3.0),
+      linenMat
+    );
+    const towelFold2 = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.48, 0.06, 0.60, 5, 2, 5), 0.012, 3.0),
+      linenMat
+    );
+    towelFold2.position.set(-0.02, 0.06, 0.02);
+    towelGroup.add(towelFold1, towelFold2);
+    group.add(towelGroup);
+
+    const mirrorLight = new THREE.PointLight(0xffe59e, isFinalePlaza ? 3.4 : 2.9, 18);
+    mirrorLight.position.set(0.0, 1.85, 0.25);
+    group.add(mirrorLight);
+
+    return { group, mirrorGroup, basinGroup, basinWater, towelGroup, mirrorLight };
+  }
+
+  createJames3BoatSternAndTimberRudderEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const quayStoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7f7360',
+      accentColor: '#c8b698',
+      roughness: 0.88,
+      map: propTex
+    });
+    const hullBlueMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#3a5d6c',
+      accentColor: '#789ca8',
+      roughness: 0.78,
+      map: propTex
+    });
+    const timberMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#69492c',
+      accentColor: '#b58b60',
+      roughness: 0.76,
+      map: propTex
+    });
+    const ropeMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#bfa272',
+      accentColor: '#ebd4a8',
+      roughness: 0.82
+    });
+    const seaMat = new THREE.MeshStandardMaterial({
+      color: 0x2b697c,
+      emissive: 0x194252,
+      emissiveIntensity: 0.30,
+      roughness: 0.20,
+      metalness: 0.18
+    });
+
+    // Harbor water & stone quay steps (#14 "small things steer")
+    const waterPool = new THREE.Mesh(new THREE.CylinderGeometry(2.45, 2.55, 0.14, 28), seaMat);
+    waterPool.position.y = 0.07;
+    group.add(waterPool);
+
+    const quayBlock = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.75, 0.48, 1.55, 6, 3, 6), 0.025, 3.2),
+      quayStoneMat
+    );
+    quayBlock.position.set(-1.05, 0.24, 0.35);
+    quayBlock.castShadow = true;
+    quayBlock.receiveShadow = true;
+    group.add(quayBlock);
+
+    // Weathered blue-green planked wooden boat stern moored beside the quay
+    const sternGroup = new THREE.Group();
+    sternGroup.position.set(0.32, 0.26, -0.10);
+    sternGroup.rotation.y = -0.22;
+
+    const hullBody = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(1.18, 0.82, 0.76, 18, 4), 0.025, 2.8),
+      hullBlueMat
+    );
+    hullBody.scale.set(1.05, 1.0, 1.48);
+    hullBody.position.y = 0.32;
+    hullBody.castShadow = true;
+    sternGroup.add(hullBody);
+
+    const sternDeck = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.78, 0.10, 2.15, 6, 2, 6), 0.015, 3.0),
+      timberMat
+    );
+    sternDeck.position.set(0, 0.68, 0);
+    sternDeck.castShadow = true;
+    sternGroup.add(sternDeck);
+
+    // Coiled hemp mooring rope on the stern deck
+    for (let r = 0; r < 3; r++) {
+      const coil = new THREE.Mesh(new THREE.TorusGeometry(0.28 - r * 0.04, 0.042, 10, 24), ropeMat);
+      coil.rotation.x = Math.PI / 2;
+      coil.position.set(-0.34, 0.76 + r * 0.055, 0.38);
+      sternGroup.add(coil);
+    }
+
+    // Heavy timber steering rudder & tiller arm angled into the water
+    const rudderGroup = new THREE.Group();
+    rudderGroup.position.set(0.42, 0.76, -0.78);
+
+    const rudderPost = new THREE.Mesh(new THREE.CylinderGeometry(0.068, 0.068, 1.48, 14), timberMat);
+    rudderPost.rotation.x = 0.42;
+    rudderPost.position.set(0, -0.22, -0.24);
+    rudderPost.castShadow = true;
+
+    const rudderBlade = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.10, 0.86, 0.56, 2, 5, 4), 0.012, 3.0),
+      timberMat
+    );
+    rudderBlade.rotation.x = 0.42;
+    rudderBlade.position.set(0, -0.58, -0.48);
+    rudderBlade.castShadow = true;
+
+    const tillerArm = new THREE.Mesh(new THREE.CylinderGeometry(0.048, 0.058, 1.32, 12), timberMat);
+    tillerArm.rotation.x = Math.PI / 2 - 0.16;
+    tillerArm.position.set(0, 0.32, 0.48);
+    tillerArm.castShadow = true;
+
+    rudderGroup.add(rudderPost, rudderBlade, tillerArm);
+    sternGroup.add(rudderGroup);
+    group.add(sternGroup);
+
+    // Woven fisherman's basket on the stone quay
+    const basket = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.32, 0.24, 0.38, 16), 0.018, 3.5),
+      ropeMat
+    );
+    basket.position.set(-1.12, 0.66, 0.36);
+    basket.castShadow = true;
+    group.add(basket);
+
+    const rudderLight = new THREE.PointLight(0xffe29c, isFinalePlaza ? 3.2 : 2.8, 18);
+    rudderLight.position.set(0.2, 1.85, 0.2);
+    group.add(rudderLight);
+
+    return { group, sternGroup, rudderGroup, rudderLight };
+  }
+
+  createJames3RockySpringPoolAndFigBoughEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const limestoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8d806a',
+      accentColor: '#d7c8ae',
+      roughness: 0.88,
+      map: propTex
+    });
+    const springWaterMat = new THREE.MeshStandardMaterial({
+      color: 0x358c9b,
+      emissive: 0x1d5f6e,
+      emissiveIntensity: 0.36,
+      roughness: 0.14,
+      metalness: 0.20,
+      transparent: true,
+      opacity: 0.90
+    });
+    const cascadeMat = new THREE.MeshBasicMaterial({
+      color: 0xdff8ff,
+      transparent: true,
+      opacity: 0.78
+    });
+    const trunkMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5e4630',
+      accentColor: '#9b7b59',
+      roughness: 0.84
+    });
+    const foliageMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#486e3a',
+      accentColor: '#8cb369',
+      roughness: 0.76
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b36e44',
+      accentColor: '#e2a378',
+      roughness: 0.74
+    });
+    const parchmentMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#efe1c2',
+      accentColor: '#fff6df',
+      roughness: 0.68
+    });
+
+    // Turquoise-blue stone spring pool base (#17 "the spring")
+    const poolRim = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.15, 2.38, 0.34, 24), 0.04, 3.2),
+      limestoneMat
+    );
+    poolRim.position.y = 0.17;
+    poolRim.receiveShadow = true;
+    group.add(poolRim);
+
+    const poolWater = new THREE.Mesh(new THREE.CylinderGeometry(1.85, 1.85, 0.06, 24), springWaterMat);
+    poolWater.position.y = 0.32;
+    group.add(poolWater);
+
+    // Cleft limestone crags & cascading waterfall
+    for (const [rx, ry, rz, sx, sy, sz] of [
+      [-0.68, 1.05, -0.88, 1.15, 1.85, 0.95],
+      [0.68, 1.12, -0.88, 1.18, 1.98, 0.95],
+      [0.0, 0.75, -1.12, 1.35, 1.25, 0.85]
+    ]) {
+      const crag = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(0.68, 1), 0.06, 2.8),
+        limestoneMat
+      );
+      crag.scale.set(sx, sy, sz);
+      crag.position.set(rx, ry, rz);
+      crag.castShadow = true;
+      group.add(crag);
+    }
+
+    const cascadeStream = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.34, 1.38, 16), cascadeMat);
+    cascadeStream.position.set(0, 0.92, -0.62);
+    cascadeStream.rotation.x = 0.24;
+    group.add(cascadeStream);
+
+    // Spreading fig tree bough arching above the spring ("Can a fig tree, my brothers, yield olives?")
+    const figGroup = new THREE.Group();
+    figGroup.position.set(0.88, 1.45, -0.92);
+    const trunk = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.14, 0.22, 1.65, 10), 0.025, 3.0),
+      trunkMat
+    );
+    trunk.rotation.z = 0.34;
+    trunk.position.set(-0.22, 0.65, 0.12);
+    figGroup.add(trunk);
+
+    for (const [fx, fy, fz, fr] of [
+      [-0.58, 1.35, 0.24, 0.62],
+      [-0.12, 1.52, 0.10, 0.56],
+      [-0.95, 1.22, 0.32, 0.48]
+    ]) {
+      const canopy = new THREE.Mesh(
+        this.displaceGeometry(new THREE.IcosahedronGeometry(fr, 1), 0.05, 2.6),
+        foliageMat
+      );
+      canopy.scale.set(1.25, 0.72, 1.15);
+      canopy.position.set(fx, fy, fz);
+      figGroup.add(canopy);
+    }
+    group.add(figGroup);
+
+    // Flat foreground boulder on the left with unrolled parchment scroll & clay water pitcher
+    const flatBoulder = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.96, 0.46, 0.78, 5, 3, 5), 0.03, 3.0),
+      limestoneMat
+    );
+    flatBoulder.position.set(-1.12, 0.48, 0.48);
+    flatBoulder.castShadow = true;
+    group.add(flatBoulder);
+
+    const scrollSheet = new THREE.Mesh(new THREE.BoxGeometry(0.48, 0.03, 0.36), parchmentMat);
+    scrollSheet.position.set(-1.18, 0.73, 0.48);
+    scrollSheet.rotation.y = 0.22;
+    group.add(scrollSheet);
+
+    const clayPitcher = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.11, 0.16, 0.38, 16), 0.01, 3.0),
+      clayMat
+    );
+    clayPitcher.position.set(-0.86, 0.89, 0.42);
+    clayPitcher.castShadow = true;
+    group.add(clayPitcher);
+
+    const springLight = new THREE.PointLight(0xd8f6ff, isFinalePlaza ? 3.3 : 2.9, 18);
+    springLight.position.set(0.0, 1.85, 0.25);
+    group.add(springLight);
+
+    return { group, poolWater, cascadeStream, figGroup, springLight };
+  }
+
+  createJames5PlowedBarleyFieldAndRainStaffEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const earthMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4c3828',
+      accentColor: '#7e6146',
+      roughness: 0.92,
+      map: propTex
+    });
+    const stoneWallMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#857763',
+      accentColor: '#c9ba9e',
+      roughness: 0.88,
+      map: propTex
+    });
+    const shootMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#669444',
+      accentColor: '#b5d97e',
+      roughness: 0.68
+    });
+    const staffMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e4c2e',
+      accentColor: '#b88d62',
+      roughness: 0.78
+    });
+
+    // Dark plowed earth field terrace base (#26 "the farmer")
+    const fieldBase = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.25, 2.45, 0.22, 24), 0.03, 3.0),
+      earthMat
+    );
+    fieldBase.position.y = 0.11;
+    fieldBase.receiveShadow = true;
+    group.add(fieldBase);
+
+    // Parallel plowed earth furrows with tender green barley shoots sprouting along the ridges
+    const shootsGroup = new THREE.Group();
+    for (let row = -2; row <= 2; row++) {
+      const rz = row * 0.44;
+      const ridge = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CylinderGeometry(0.14, 0.20, 3.1, 12, 8), 0.025, 3.5),
+        earthMat
+      );
+      ridge.rotation.z = Math.PI / 2;
+      ridge.position.set(0, 0.24, rz);
+      ridge.receiveShadow = true;
+      group.add(ridge);
+
+      for (let s = -4; s <= 4; s++) {
+        const blade = new THREE.Mesh(new THREE.ConeGeometry(0.045, 0.34, 6), shootMat);
+        blade.position.set(s * 0.32 + (row % 2) * 0.1, 0.44, rz);
+        blade.rotation.z = (s % 2 === 0 ? 1 : -1) * 0.14;
+        shootsGroup.add(blade);
+      }
+    }
+    group.add(shootsGroup);
+
+    // Low fieldstone boundary wall along the back edge
+    for (let b = -3; b <= 3; b++) {
+      const stone = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(0.28, 1), 0.035, 3.0),
+        stoneWallMat
+      );
+      stone.scale.set(1.25, 0.85, 0.95);
+      stone.position.set(b * 0.48, 0.38 + (Math.abs(b) % 2) * 0.08, -1.25);
+      stone.castShadow = true;
+      group.add(stone);
+    }
+
+    // Farmer's wooden walking staff planted upright among the boundary stones
+    const staffGroup = new THREE.Group();
+    staffGroup.position.set(0.68, 0.22, -0.32);
+    const staffPole = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.042, 0.052, 2.05, 12), 0.01, 3.2),
+      staffMat
+    );
+    staffPole.position.y = 1.02;
+    staffPole.rotation.z = -0.08;
+    staffPole.castShadow = true;
+    staffGroup.add(staffPole);
+    group.add(staffGroup);
+
+    const rainLight = new THREE.PointLight(0xffe6a3, isFinalePlaza ? 3.3 : 2.9, 18);
+    rainLight.position.set(0.0, 1.95, 0.25);
+    group.add(rainLight);
+
+    return { group, shootsGroup, staffGroup, rainLight };
+  }
 }

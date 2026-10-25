@@ -2602,6 +2602,53 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'doers-of-the-word') {
+      if (pData.n === 4 || pData.n === 6) {
+        const mirrorTable = this.propBuilder.createJames1BronzeMirrorAndWaterBasinTableEnsemble({
+          isFinalePlaza: false
+        });
+        if (mirrorTable.mirrorLight) mirrorTable.group.remove(mirrorTable.mirrorLight);
+        mirrorTable.group.scale.setScalar(0.74);
+        mirrorTable.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        mirrorTable.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(mirrorTable.group);
+        return;
+      }
+      if (pData.n === 13 || pData.n === 14) {
+        const rudderBoat = this.propBuilder.createJames3BoatSternAndTimberRudderEnsemble({
+          isFinalePlaza: false
+        });
+        if (rudderBoat.rudderLight) rudderBoat.group.remove(rudderBoat.rudderLight);
+        rudderBoat.group.scale.setScalar(0.72);
+        rudderBoat.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        rudderBoat.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(rudderBoat.group);
+        return;
+      }
+      if (pData.n === 17 || pData.n === 18) {
+        const springPool = this.propBuilder.createJames3RockySpringPoolAndFigBoughEnsemble({
+          isFinalePlaza: false
+        });
+        if (springPool.springLight) springPool.group.remove(springPool.springLight);
+        springPool.group.scale.setScalar(0.72);
+        springPool.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        springPool.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(springPool.group);
+        return;
+      }
+      if (pData.n === 26 || pData.n === 29) {
+        const barleyField = this.propBuilder.createJames5PlowedBarleyFieldAndRainStaffEnsemble({
+          isFinalePlaza: false
+        });
+        if (barleyField.rainLight) barleyField.group.remove(barleyField.rainLight);
+        barleyField.group.scale.setScalar(0.74);
+        barleyField.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        barleyField.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(barleyField.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2709,6 +2756,7 @@ export class GenesisDistrictBuilder {
       'children-of-the-day': 'DISTRICT XXXVIII · CHILDREN OF THE DAY — 1 & 2 THESSALONIANS',
       'grace-mercy-and-peace': 'DISTRICT XXXIX · GRACE, MERCY, AND PEACE — 1 & 2 TIMOTHY & TITUS',
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
+      'doers-of-the-word': 'DISTRICT XLI · DOERS OF THE WORD — JAMES',
       'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
       'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
       'for-such-a-time-as-this': 'DISTRICT XI · FOR SUCH A TIME AS THIS — ESTHER',
@@ -3975,6 +4023,58 @@ export class GenesisDistrictBuilder {
           height: 1.75,
           veilZ: -425.6
         }
+      ],
+      'doers-of-the-word': [
+        {
+          part: 1,
+          id: 'doers-of-the-word-light-1',
+          name: 'The Light of the Polished Mirror & Water Basin',
+          hint: 'Shining beside the bronze hand-mirror, water basin & open doorway near “every good gift” & “the mirror” (Part One)',
+          z: -48.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -62.4
+        },
+        {
+          part: 2,
+          id: 'doers-of-the-word-light-2',
+          name: 'The Light of Mercy & the Royal Law',
+          hint: 'Glowing beside the open doorstep loaf & warm cloak near “mercy triumphs” & “be warmed and filled” (Part Two)',
+          z: -112.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -128.7
+        },
+        {
+          part: 3,
+          id: 'doers-of-the-word-light-3',
+          name: 'The Light of the Small Rudder & Fresh Spring',
+          hint: 'Shining beside the harbor boat rudder & clear limestone spring near “small things steer” & “sown in peace” (Part Three)',
+          z: -178.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -195.0
+        },
+        {
+          part: 4,
+          id: 'doers-of-the-word-light-4',
+          name: 'The Light of Clean Hands & Morning Mist',
+          hint: 'Glowing beside the clay water pitcher & stone washbasin near “come close” & “a mist that appears” (Part Four)',
+          z: -244.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -261.3
+        },
+        {
+          part: 5,
+          id: 'doers-of-the-word-light-5',
+          name: 'The Light of Early & Late Rain',
+          hint: 'Shining beside the farmer’s staff & sprouting barley furrows near “the farmer” & “bring them back” before the Amen Gate (Part Five)',
+          z: -310.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -327.6
+        }
       ]
     };
 
@@ -5140,6 +5240,21 @@ export class GenesisDistrictBuilder {
       crownFinale.group.position.set(-3.4, 0.1, -4.6);
       crownFinale.group.rotation.y = 0.36;
       group.add(crownFinale.group);
+    } else if (slug === 'doers-of-the-word') {
+      const mirrorFinale = this.propBuilder.createJames1BronzeMirrorAndWaterBasinTableEnsemble({
+        isFinalePlaza: true
+      });
+      mirrorFinale.group.position.set(0, 0.1, -3.8);
+      group.add(mirrorFinale.group);
+
+      const rainFieldFinale = this.propBuilder.createJames5PlowedBarleyFieldAndRainStaffEnsemble({
+        isFinalePlaza: false
+      });
+      if (rainFieldFinale.rainLight) rainFieldFinale.group.remove(rainFieldFinale.rainLight);
+      rainFieldFinale.group.scale.setScalar(0.74);
+      rainFieldFinale.group.position.set(-3.4, 0.1, -4.6);
+      rainFieldFinale.group.rotation.y = 0.36;
+      group.add(rainFieldFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -5372,6 +5487,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · ANCHOR OF THE SOUL COMPLETED',
         epigraph: 'This hope we have as an anchor of the soul, a hope both sure and steadfast — looking to Jesus, the author and perfecter of faith.',
         epigraphRef: 'HEBREWS 6:19 & 12:2 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XLI: DOERS OF THE WORD'
+      },
+      'doers-of-the-word': {
+        title: 'AMEN GATE · DOERS OF THE WORD COMPLETED',
+        epigraph: 'Be doers of the word, and not only hearers — The fruit of righteousness is sown in peace by those who make peace.',
+        epigraphRef: 'JAMES 1:22 & 3:18 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XLII: A LIVING HOPE'
       },
       'our-eyes-are-on-you': {
         title: 'AMEN GATE · OUR EYES ARE ON YOU COMPLETED',

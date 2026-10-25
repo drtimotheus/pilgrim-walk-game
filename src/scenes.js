@@ -466,6 +466,14 @@ export class StepThroughSceneManager {
       signatureState = this.populate2Timothy28StadiumFinishStoneAndLaurelCrownScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'cloak_and_parchments') {
       signatureState = this.populate2Timothy29CloakAndParchmentsBenchScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'doers_mirror_table') {
+      signatureState = this.populateJames5BronzeMirrorAndWaterBasinScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'wooden_rudder_helm') {
+      signatureState = this.populateJames14BoatSternAndRudderScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'fresh_spring_well') {
+      signatureState = this.populateJames17RockySpringAndFigBoughScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'early_and_late_rain_field') {
+      signatureState = this.populateJames26PlowedBarleyFieldAndRainStaffScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -520,7 +528,8 @@ export class StepThroughSceneManager {
         'praetorian_scroll_chain', 'servant_towel_crown', 'finish_line_pillar', 'peace_on_guard_lantern',
         'held_together_cosmos', 'cancelled_scroll_cross', 'psalms_hymns_table', 'philemon_guest_room',
         'cradle_lamp_warmth', 'tentmaker_loom_lamp', 'children_of_the_day_dawn', 'quiet_table_loaf',
-        'pillar_of_truth', 'lois_eunice_scrolls', 'crown_of_righteousness', 'cloak_and_parchments'
+        'pillar_of_truth', 'lois_eunice_scrolls', 'crown_of_righteousness', 'cloak_and_parchments',
+        'doers_mirror_table', 'wooden_rudder_helm', 'fresh_spring_well', 'early_and_late_rain_field'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -7743,6 +7752,149 @@ export class StepThroughSceneManager {
         const val = this._tim29Latch || 0;
         rig.booksGroup.position.y = 0.86 + Math.sin(time * 2.0) * 0.012 * val;
         rig.benchLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XLI — DOERS OF THE WORD (JAMES) BESPOKE STEP-THROUGH SCENES
+  // ==========================================================================
+  populateJames5BronzeMirrorAndWaterBasinScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJames1BronzeMirrorAndWaterBasinTableEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'doers-of-the-word', 5, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe79e');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Look into the Polished Bronze Mirror & Water Basin by the Open Door',
+      signatureActivatedText:
+        '“But be doers of the word, and not only hearers, deluding your own selves… He who looks into the perfect law of freedom, and continues, not being a hearer who forgets, but a doer of the work, this man will be blessed in what he does.” (James 1:22, 25)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._james5Latch = Math.min(1.0, (this._james5Latch || 0) + dt * 0.65);
+        const val = this._james5Latch || 0;
+        rig.mirrorGroup.rotation.y = -0.28 + Math.sin(time * 1.8) * 0.05 * val;
+        rig.mirrorLight.intensity = 2.9 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJames14BoatSternAndRudderScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJames3BoatSternAndTimberRudderEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'doers-of-the-word', 14, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.94, 3.6, '#ffe29c');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Lay a Hand on the Harbor Boat’s Timber Rudder & Tiller',
+      signatureActivatedText:
+        '“Behold, the ships also, though they are so big and are driven by fierce winds, are yet guided by a very small rudder, wherever the pilot desires.” (James 3:4)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._james14Latch = Math.min(1.0, (this._james14Latch || 0) + dt * 0.65);
+        const val = this._james14Latch || 0;
+        rig.rudderGroup.rotation.y = Math.sin(time * 1.5) * 0.14 * (0.35 + val * 0.65);
+        rig.rudderLight.intensity = 2.8 + val * 3.1;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJames17RockySpringAndFigBoughScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJames3RockySpringPoolAndFigBoughEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'doers-of-the-word', 17, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#e2f7ff');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Kneel by the Fresh Limestone Spring & Fig Tree Bough',
+      signatureActivatedText:
+        '“Does a spring send out from the same opening fresh and bitter water? Can a fig tree, my brothers, yield olives, or a vine figs? Thus no spring yields both salt water and fresh water.” (James 3:11–12)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._james17Latch = Math.min(1.0, (this._james17Latch || 0) + dt * 0.65);
+        const val = this._james17Latch || 0;
+        rig.poolWater.position.y = 0.32 + Math.sin(time * 2.6) * 0.012;
+        rig.springLight.intensity = 2.9 + val * 3.3;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateJames26PlowedBarleyFieldAndRainStaffScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createJames5PlowedBarleyFieldAndRainStaffEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'doers-of-the-word', 26, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.98, 3.8, '#ffe6a0');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand Beside the Farmer’s Staff & Sprouting Barley Furrows',
+      signatureActivatedText:
+        '“Be patient therefore, brothers, until the coming of the Lord. Behold, the farmer waits for the precious fruit of the earth, being patient over it, until it receives the early and late rain.” (James 5:7)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._james26Latch = Math.min(1.0, (this._james26Latch || 0) + dt * 0.65);
+        const val = this._james26Latch || 0;
+        rig.shootsGroup.scale.y = 1.0 + val * 0.22 + Math.sin(time * 2.2) * 0.025;
+        rig.rainLight.intensity = 2.9 + val * 3.3;
         return near || val > 0.85;
       }
     };

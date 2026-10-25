@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_66';
-import { StepThroughSceneManager } from './scenes.js?v=44_66';
-import { GenesisDistrictBuilder } from './district.js?v=44_66';
+import { PainterlyPropBuilder } from './props.js?v=44_67';
+import { StepThroughSceneManager } from './scenes.js?v=44_67';
+import { GenesisDistrictBuilder } from './district.js?v=44_67';
 import { PilgrimAudio } from './audio.js?v=44_57';
 import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
@@ -1162,6 +1162,12 @@ class PilgrimWalkApp {
         { n: 18, label: '18 · “Lois and Eunice” (Family Table Lamp & Scroll)' },
         { n: 28, label: '28 · “fought, finished, kept” (Stadium Finish Stone & Laurel Crown)' },
         { n: 29, label: '29 · “the cloak and the parchments” (Troas Cloak & Rolled Parchments)' }
+      ],
+      'doers-of-the-word': [
+        { n: 5, label: '5 · “the mirror” (Bronze Mirror, Water Basin & Open Door)' },
+        { n: 14, label: '14 · “small things steer” (Harbor Boat Stern & Timber Rudder)' },
+        { n: 17, label: '17 · “the spring” (Fresh Limestone Spring & Fig Bough)' },
+        { n: 26, label: '26 · “the farmer” (Sprouting Barley Furrows & Farmer’s Staff)' }
       ]
     };
 

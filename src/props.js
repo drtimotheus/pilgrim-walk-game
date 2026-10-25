@@ -14135,4 +14135,482 @@ export class PainterlyPropBuilder {
 
     return { group, lanternGroup, lanternCore, sentryLight };
   }
+
+  // =========================================================================
+  // DISTRICT XXXVII: HELD TOGETHER (Colossians & Philemon)
+  // =========================================================================
+
+  /**
+   * Colossians 1:17 (#6 "held together"):
+   * A freestanding ancient Roman stone arch on a sunlit ridge with a warm rose-terracotta
+   * keystone wedged at the very apex ("every stone in an arch is leaning, falling toward the
+   * ground. one stone at the top keeps them all from coming down").
+   */
+  createColossians1KeystoneArchEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Colossians1KeystoneArchEnsemble';
+
+    const limestoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a89b80',
+      accentColor: '#e9ddbf',
+      roughness: 0.88,
+      map: propTex
+    });
+    const keystoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b87b64',
+      accentColor: '#f0b89e',
+      roughness: 0.72,
+      map: propTex
+    });
+
+    // Flagstone ground path & twin ashlar stone piers with impost capitals
+    const groundSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.65, 0.14, 1.55, 6, 2, 4), 0.018, 3.2),
+      limestoneMat
+    );
+    groundSlab.position.y = 0.07;
+    groundSlab.userData.keepWithGlb = true;
+    group.add(groundSlab);
+
+    for (const px of [-0.96, 0.96]) {
+      const pier = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.56, 1.38, 0.54, 3, 5, 3), 0.018, 3.8),
+        limestoneMat
+      );
+      pier.position.set(px, 0.83, 0);
+      pier.userData.keepWithGlb = true;
+
+      const impost = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.64, 0.14, 0.62, 3, 2, 3), 0.012, 4.0),
+        limestoneMat
+      );
+      impost.position.set(px, 1.56, 0);
+      impost.userData.keepWithGlb = true;
+      group.add(pier, impost);
+    }
+
+    // Semicircular ring of 9 leaning stone voussoirs + central rose-terracotta keystone at the top
+    const archGroup = new THREE.Group();
+    archGroup.position.set(0, 1.62, 0);
+    archGroup.userData.keepWithGlb = true;
+
+    const totalVoussoirs = 9;
+    const radius = 0.96;
+    let keystoneMesh = null;
+
+    for (let i = 0; i < totalVoussoirs; i++) {
+      const t = (i + 0.5) / totalVoussoirs;
+      const angle = Math.PI * (1.0 - t);
+      const isKeystone = i === 4;
+      const vw = isKeystone ? 0.44 : 0.34;
+      const vh = isKeystone ? 0.52 : 0.40;
+      const vd = isKeystone ? 0.58 : 0.52;
+
+      const voussoir = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(vw, vh, vd, 3, 3, 3), 0.014, 4.2),
+        isKeystone ? keystoneMat : limestoneMat
+      );
+      voussoir.position.set(Math.cos(angle) * radius, Math.sin(angle) * radius, 0);
+      voussoir.rotation.z = angle - Math.PI / 2;
+      archGroup.add(voussoir);
+      if (isKeystone) keystoneMesh = voussoir;
+    }
+    group.add(archGroup);
+
+    const keystoneLight = new THREE.PointLight(0xffe4a8, isFinalePlaza ? 3.2 : 2.8, 19);
+    keystoneLight.position.set(0, 2.35, 0.45);
+    group.add(keystoneLight);
+
+    return { group, archGroup, keystoneMesh, keystoneLight };
+  }
+
+  /**
+   * Colossians 2:13–14 (#12 "wiped clean"):
+   * A warm stone table holding a wood-framed golden-amber wax writing tablet smoothed completely
+   * clean ("now run your hand across the tablet. smooth.") with a turned bronze stylus resting
+   * diagonally across the wax, a small stone bowl on a folded cream linen cloth on the left,
+   * and a tall handled clay pitcher with olive branches on the right.
+   */
+  createColossians2WipedCleanWaxTabletAndStylusEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Colossians2WipedCleanWaxTabletAndStylusEnsemble';
+
+    const stoneTableMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b5a689',
+      accentColor: '#e8dcbf',
+      roughness: 0.84,
+      map: propTex
+    });
+    const woodFrameMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#755a3b',
+      accentColor: '#ab885d',
+      roughness: 0.76,
+      map: propTex
+    });
+    const smoothWaxMat = new THREE.MeshStandardMaterial({
+      color: 0xb88b28,
+      emissive: 0x3b2905,
+      emissiveIntensity: 0.25,
+      roughness: 0.26,
+      metalness: 0.08
+    });
+    const bronzeStylusMat = new THREE.MeshStandardMaterial({
+      color: 0x8f7645,
+      roughness: 0.32,
+      metalness: 0.78
+    });
+    const clayPitcherMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a38d6d',
+      accentColor: '#dbcaa9',
+      roughness: 0.78,
+      map: propTex
+    });
+    const linenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d4c8ae',
+      accentColor: '#f2e8cf',
+      roughness: 0.70,
+      map: propTex
+    });
+    const oliveLeafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c6643',
+      accentColor: '#8fa16d',
+      roughness: 0.72,
+      map: propTex
+    });
+
+    // Warm stone table slab
+    const tableSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.2, 0.72, 1.35, 6, 3, 5), 0.018, 3.2),
+      stoneTableMat
+    );
+    tableSlab.position.y = 0.36;
+    tableSlab.userData.keepWithGlb = true;
+    group.add(tableSlab);
+
+    // Wood-framed golden-amber wax tablet smoothed clean at center-front
+    const tabletGroup = new THREE.Group();
+    tabletGroup.position.set(0.04, 0.76, 0.14);
+    tabletGroup.rotation.y = -0.06;
+    tabletGroup.userData.keepWithGlb = true;
+
+    const woodFrame = new THREE.Mesh(new THREE.BoxGeometry(1.06, 0.07, 0.74), woodFrameMat);
+    const smoothWaxBed = new THREE.Mesh(new THREE.BoxGeometry(0.92, 0.03, 0.60), smoothWaxMat);
+    smoothWaxBed.position.y = 0.028;
+    tabletGroup.add(woodFrame, smoothWaxBed);
+
+    // Turned bronze stylus resting diagonally on the smooth golden wax
+    const stylusGroup = new THREE.Group();
+    stylusGroup.position.set(0.04, 0.06, 0.02);
+    stylusGroup.rotation.set(0, -0.34, Math.PI / 2);
+
+    const stylusShaft = new THREE.Mesh(new THREE.CylinderGeometry(0.018, 0.014, 0.42, 12), bronzeStylusMat);
+    const stylusTip = new THREE.Mesh(new THREE.ConeGeometry(0.014, 0.09, 12), bronzeStylusMat);
+    stylusTip.position.y = -0.255;
+    stylusTip.rotation.x = Math.PI;
+    const stylusSpatula = new THREE.Mesh(new THREE.SphereGeometry(0.028, 12, 10), bronzeStylusMat);
+    stylusSpatula.scale.set(1.2, 0.65, 1.2);
+    stylusSpatula.position.y = 0.22;
+    stylusGroup.add(stylusShaft, stylusTip, stylusSpatula);
+    tabletGroup.add(stylusGroup);
+    group.add(tabletGroup);
+
+    // Folded cream linen cloth & small stone bowl on the back-left
+    const foldedCloth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.68, 0.06, 0.52, 5, 1, 4), 0.016, 4.0),
+      linenMat
+    );
+    foldedCloth.position.set(-0.62, 0.75, -0.22);
+    foldedCloth.rotation.y = 0.22;
+    foldedCloth.userData.keepWithGlb = true;
+    group.add(foldedCloth);
+
+    const smallBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.11, 0.13, 16), clayPitcherMat);
+    smallBowl.position.set(-0.74, 0.84, -0.18);
+    smallBowl.userData.keepWithGlb = true;
+    group.add(smallBowl);
+
+    // Tall handled clay pitcher & olive sprigs on the back-right
+    const pitcherBody = new THREE.Mesh(new THREE.SphereGeometry(0.24, 16, 14), clayPitcherMat);
+    pitcherBody.scale.set(1.0, 1.32, 1.0);
+    pitcherBody.position.set(0.68, 1.02, -0.26);
+    pitcherBody.userData.keepWithGlb = true;
+    const pitcherNeck = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.16, 0.22, 14), clayPitcherMat);
+    pitcherNeck.position.set(0.68, 1.34, -0.26);
+    pitcherNeck.userData.keepWithGlb = true;
+    group.add(pitcherBody, pitcherNeck);
+
+    const oliveBranch = new THREE.Mesh(new THREE.BoxGeometry(0.56, 0.04, 0.18), oliveLeafMat);
+    oliveBranch.position.set(0.46, 0.78, -0.16);
+    oliveBranch.rotation.y = -0.38;
+    oliveBranch.userData.keepWithGlb = true;
+    group.add(oliveBranch);
+
+    const tabletLight = new THREE.PointLight(0xffdf8c, isFinalePlaza ? 3.2 : 2.8, 18);
+    tabletLight.position.set(0.05, 1.78, 0.38);
+    group.add(tabletLight);
+
+    return { group, tabletGroup, stylusGroup, tabletLight };
+  }
+
+  /**
+   * Colossians 3:16 (#19 "dwell richly"):
+   * A twilight stone courtyard portico with a square limestone pillar where a 7-string wooden
+   * lyre leans on a low stone ledge beside a burning terracotta oil lamp and striped woven shawl,
+   * accompanied by low wooden fellowship benches ("psalms and hymns, one voice starting and the
+   * others coming in").
+   */
+  createColossians3CourtyardLyreAndBenchesEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Colossians3CourtyardLyreAndBenchesEnsemble';
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a6c58',
+      accentColor: '#c9b18a',
+      roughness: 0.86,
+      map: propTex
+    });
+    const lyreWoodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c4128',
+      accentColor: '#9c734b',
+      roughness: 0.68,
+      map: propTex
+    });
+    const stringMat = new THREE.MeshStandardMaterial({
+      color: 0xe8d29c,
+      roughness: 0.30,
+      metalness: 0.65
+    });
+    const shawlMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c7d68',
+      accentColor: '#d9c8ac',
+      roughness: 0.72,
+      map: propTex
+    });
+    const flameMat = new THREE.MeshStandardMaterial({
+      color: 0xffefc2,
+      emissive: 0xe69828,
+      emissiveIntensity: 1.45,
+      roughness: 0.18
+    });
+
+    // Flagstone courtyard base, right stone ledge & square portico pillar
+    const courtyardBase = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.55, 0.12, 1.85, 6, 2, 5), 0.016, 3.2),
+      stoneMat
+    );
+    courtyardBase.position.y = 0.06;
+    courtyardBase.userData.keepWithGlb = true;
+    group.add(courtyardBase);
+
+    const rightLedge = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.05, 0.48, 1.25, 4, 3, 4), 0.018, 3.6),
+      stoneMat
+    );
+    rightLedge.position.set(0.62, 0.34, 0.05);
+    rightLedge.userData.keepWithGlb = true;
+    group.add(rightLedge);
+
+    const porticoPillar = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.46, 2.15, 0.46, 3, 6, 3), 0.018, 3.6),
+      stoneMat
+    );
+    porticoPillar.position.set(0.58, 1.45, -0.24);
+    porticoPillar.userData.keepWithGlb = true;
+    group.add(porticoPillar);
+
+    // 7-string wooden lyre (kithara) leaning against the stone pillar on the ledge
+    const lyreGroup = new THREE.Group();
+    lyreGroup.position.set(0.42, 0.92, -0.02);
+    lyreGroup.rotation.set(-0.18, -0.28, 0.06);
+    lyreGroup.userData.keepWithGlb = true;
+
+    const soundbox = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.18, 0.09, 16), lyreWoodMat);
+    soundbox.rotation.x = Math.PI / 2;
+    soundbox.position.y = -0.22;
+    lyreGroup.add(soundbox);
+
+    for (const ax of [-0.18, 0.18]) {
+      const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.024, 0.028, 0.56, 10), lyreWoodMat);
+      arm.position.set(ax, 0.08, 0);
+      arm.rotation.z = ax < 0 ? 0.12 : -0.12;
+      lyreGroup.add(arm);
+    }
+
+    const crossbar = new THREE.Mesh(new THREE.CylinderGeometry(0.022, 0.022, 0.48, 10), lyreWoodMat);
+    crossbar.rotation.z = Math.PI / 2;
+    crossbar.position.y = 0.32;
+    lyreGroup.add(crossbar);
+
+    for (let s = -3; s <= 3; s++) {
+      const str = new THREE.Mesh(new THREE.CylinderGeometry(0.004, 0.004, 0.52, 6), stringMat);
+      str.position.set(s * 0.042, 0.06, 0.02);
+      lyreGroup.add(str);
+    }
+    group.add(lyreGroup);
+
+    // Burning terracotta oil lamp & draped shawl on the front of the stone ledge
+    const oilLamp = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.07, 0.09, 14), lyreWoodMat);
+    oilLamp.position.set(0.68, 0.62, 0.42);
+    oilLamp.userData.keepWithGlb = true;
+    const lampFlame = new THREE.Mesh(new THREE.ConeGeometry(0.028, 0.10, 8), flameMat);
+    lampFlame.position.set(0.64, 0.71, 0.42);
+    lampFlame.userData.keepWithGlb = true;
+    group.add(oilLamp, lampFlame);
+
+    const drapedShawl = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.46, 0.48, 0.42, 4, 4, 4), 0.022, 3.8),
+      shawlMat
+    );
+    drapedShawl.position.set(0.88, 0.42, 0.48);
+    drapedShawl.userData.keepWithGlb = true;
+    group.add(drapedShawl);
+
+    // Two low wooden fellowship benches arranged in the courtyard on the left
+    for (const [bx, bz, rotY] of [[-0.68, 0.24, 0.38], [-0.24, -0.38, -0.18]]) {
+      const benchSeat = new THREE.Mesh(new THREE.BoxGeometry(0.68, 0.06, 0.26), lyreWoodMat);
+      benchSeat.position.set(bx, 0.36, bz);
+      benchSeat.rotation.y = rotY;
+      benchSeat.userData.keepWithGlb = true;
+      group.add(benchSeat);
+    }
+
+    const hymnLight = new THREE.PointLight(0xffcc7a, isFinalePlaza ? 3.2 : 2.8, 19);
+    hymnLight.position.set(0.45, 1.85, 0.35);
+    group.add(hymnLight);
+
+    return { group, lyreGroup, lampFlame, hymnLight };
+  }
+
+  /**
+   * Philemon 1:22–25 (#32 "the guest room"):
+   * Philemon's sunlit whitewashed guest room made ready for Paul: a low bed made with crisp
+   * cream linen, a white pillow, and a fringed lavender-purple throw blanket at the foot with
+   * Philemon's unrolled parchment letter resting on top, paired with a three-legged wooden stool
+   * holding a burning terracotta oil lamp beside a water jar.
+   */
+  createPhilemon22PreparedGuestRoomEnsemble(options = {}) {
+    const THREE = this.THREE;
+    const { isFinalePlaza = false, propTex = null } = options;
+    const group = new THREE.Group();
+    group.name = 'Philemon22PreparedGuestRoomEnsemble';
+
+    const stoneFloorMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c7e6a',
+      accentColor: '#cfc1a9',
+      roughness: 0.86,
+      map: propTex
+    });
+    const creamLinenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#dcd2be',
+      accentColor: '#f6ecd6',
+      roughness: 0.68,
+      map: propTex
+    });
+    const lavenderThrowMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6b5a6e',
+      accentColor: '#9c88a1',
+      roughness: 0.74,
+      map: propTex
+    });
+    const parchmentMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#d9c7a0',
+      accentColor: '#f5e7c6',
+      roughness: 0.62,
+      map: propTex
+    });
+    const stoolWoodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#66523a',
+      accentColor: '#9c8160',
+      roughness: 0.80,
+      map: propTex
+    });
+    const flameMat = new THREE.MeshStandardMaterial({
+      color: 0xffefc2,
+      emissive: 0xe69c24,
+      emissiveIntensity: 1.4,
+      roughness: 0.18
+    });
+
+    // Flagstone guest room floor
+    const floorSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.45, 0.12, 1.65, 6, 2, 5), 0.015, 3.2),
+      stoneFloorMat
+    );
+    floorSlab.position.y = 0.06;
+    floorSlab.userData.keepWithGlb = true;
+    group.add(floorSlab);
+
+    // Prepared guest bed with crisp cream linen mattress, pillow, and lavender throw blanket
+    const bedGroup = new THREE.Group();
+    bedGroup.position.set(-0.34, 0.12, -0.04);
+    bedGroup.userData.keepWithGlb = true;
+
+    const mattress = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.38, 0.44, 1.08, 6, 3, 5), 0.018, 3.4),
+      creamLinenMat
+    );
+    mattress.position.y = 0.22;
+
+    const pillow = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.46, 0.16, 0.68, 4, 2, 4), 0.018, 3.8),
+      creamLinenMat
+    );
+    pillow.position.set(-0.38, 0.50, 0);
+    pillow.rotation.z = -0.14;
+
+    const lavenderThrow = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.72, 0.47, 1.12, 5, 3, 5), 0.018, 3.6),
+      lavenderThrowMat
+    );
+    lavenderThrow.position.set(0.34, 0.23, 0.02);
+
+    // Unrolled parchment letter to Philemon resting on the lavender throw
+    const letterSheet = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.44, 0.025, 0.36, 4, 1, 4), 0.008, 4.2),
+      parchmentMat
+    );
+    letterSheet.position.set(0.28, 0.48, 0.04);
+    letterSheet.rotation.y = 0.24;
+    const letterRoll = new THREE.Mesh(new THREE.CylinderGeometry(0.032, 0.032, 0.36, 12), parchmentMat);
+    letterRoll.rotation.x = Math.PI / 2;
+    letterRoll.position.set(0.12, 0.50, 0.08);
+    letterRoll.rotation.z = -0.24;
+
+    bedGroup.add(mattress, pillow, lavenderThrow, letterSheet, letterRoll);
+    group.add(bedGroup);
+
+    // Round three-legged wooden stool on the right holding a burning terracotta oil lamp & clay jar
+    const stoolTop = new THREE.Mesh(new THREE.CylinderGeometry(0.26, 0.25, 0.06, 18), stoolWoodMat);
+    stoolTop.position.set(0.76, 0.52, 0.14);
+    stoolTop.userData.keepWithGlb = true;
+    group.add(stoolTop);
+
+    for (let l = 0; l < 3; l++) {
+      const a = (l / 3) * Math.PI * 2 + 0.4;
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.032, 0.028, 0.42, 8), stoolWoodMat);
+      leg.position.set(0.76 + Math.cos(a) * 0.16, 0.30, 0.14 + Math.sin(a) * 0.16);
+      leg.userData.keepWithGlb = true;
+      group.add(leg);
+    }
+
+    const oilLamp = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.07, 0.08, 14), stoolWoodMat);
+    oilLamp.position.set(0.76, 0.59, 0.14);
+    oilLamp.userData.keepWithGlb = true;
+    const lampFlame = new THREE.Mesh(new THREE.ConeGeometry(0.026, 0.09, 8), flameMat);
+    lampFlame.position.set(0.73, 0.67, 0.14);
+    lampFlame.userData.keepWithGlb = true;
+    group.add(oilLamp, lampFlame);
+
+    const guestLight = new THREE.PointLight(0xffe6ad, isFinalePlaza ? 3.2 : 2.8, 18);
+    guestLight.position.set(0.25, 1.85, 0.42);
+    group.add(guestLight);
+
+    return { group, bedGroup, lampFlame, guestLight };
+  }
 }

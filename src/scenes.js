@@ -442,6 +442,14 @@ export class StepThroughSceneManager {
       signatureState = this.populatePhilippians17FinishLinePillarScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'peace_on_guard_lantern') {
       signatureState = this.populatePhilippians21SentryGateScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'held_together_cosmos') {
+      signatureState = this.populateColossians6KeystoneArchScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'cancelled_scroll_cross') {
+      signatureState = this.populateColossians12WipedCleanWaxTabletScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'psalms_hymns_table') {
+      signatureState = this.populateColossians19CourtyardLyreScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'philemon_guest_room') {
+      signatureState = this.populatePhilemon32PreparedGuestRoomScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -493,7 +501,8 @@ export class StepThroughSceneManager {
         'grace_where_we_stand', 'spirit_of_adoption', 'nothing_can_separate_rock', 'grafted_olive_tree',
         'communion_cup_loaf', 'bronze_mirror_face', 'treasure_in_clay_jars', 'sufficient_grace_thorn',
         'fruit_of_the_spirit_grove', 'broken_dividing_wall', 'rooted_in_love_tree', 'armor_of_god_table',
-        'praetorian_scroll_chain', 'servant_towel_crown', 'finish_line_pillar', 'peace_on_guard_lantern'
+        'praetorian_scroll_chain', 'servant_towel_crown', 'finish_line_pillar', 'peace_on_guard_lantern',
+        'held_together_cosmos', 'cancelled_scroll_cross', 'psalms_hymns_table', 'philemon_guest_room'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -7289,6 +7298,145 @@ export class StepThroughSceneManager {
         if (near) this._phil21Latch = Math.min(1.0, (this._phil21Latch || 0) + dt * 0.65);
         const val = this._phil21Latch || 0;
         rig.sentryLight.intensity = 2.9 + Math.sin(time * 3.2) * 0.2 + val * 3.3;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XXXVII: Colossians & Philemon (held-together) ---
+  populateColossians6KeystoneArchScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createColossians1KeystoneArchEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'held-together', 6, { targetHeight: 3.1, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.8, '#ffe4a8');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Stand Beneath the Roman Stone Arch & Rose-Terracotta Keystone',
+      signatureActivatedText:
+        '“He is before all things, and in him all things are held together.” (Colossians 1:17)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._col6Latch = Math.min(1.0, (this._col6Latch || 0) + dt * 0.65);
+        const val = this._col6Latch || 0;
+        rig.keystoneLight.intensity = 2.8 + val * 3.3;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateColossians12WipedCleanWaxTabletScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createColossians2WipedCleanWaxTabletAndStylusEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'held-together', 12, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffdf8c');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Touch the Smoothed Golden-Amber Wax Tablet & Bronze Stylus',
+      signatureActivatedText:
+        '“…wiping out the handwriting in ordinances which was against us. He has taken it out of the way, nailing it to the cross.” (Colossians 2:14)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._col12Latch = Math.min(1.0, (this._col12Latch || 0) + dt * 0.65);
+        const val = this._col12Latch || 0;
+        rig.tabletLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateColossians19CourtyardLyreScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createColossians3CourtyardLyreAndBenchesEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'held-together', 19, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.95, 3.7, '#ffcc7a');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Gather in the Twilight Courtyard Beside the Seven-String Lyre & Oil Lamp',
+      signatureActivatedText:
+        '“Let the word of Christ dwell in you richly; in all wisdom teaching and admonishing one another with psalms, hymns, and spiritual songs, singing with grace in your heart to the Lord.” (Colossians 3:16)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._col19Latch = Math.min(1.0, (this._col19Latch || 0) + dt * 0.65);
+        const val = this._col19Latch || 0;
+        rig.lampFlame.scale.setScalar(1.0 + Math.sin(time * 4.0) * 0.1 + val * 0.2);
+        rig.hymnLight.intensity = 2.8 + val * 3.2;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populatePhilemon32PreparedGuestRoomScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createPhilemon22PreparedGuestRoomEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'held-together', 32, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe6ad');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Step Into Philemon’s Prepared Guest Room & Open Letter of Welcome',
+      signatureActivatedText:
+        '“Receive him as you would me… Also, prepare a guest room for me, for I hope that through your prayers I will be restored to you.” (Philemon 1:17, 22)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._phlm32Latch = Math.min(1.0, (this._phlm32Latch || 0) + dt * 0.65);
+        const val = this._phlm32Latch || 0;
+        rig.lampFlame.scale.setScalar(1.0 + Math.sin(time * 3.8) * 0.1 + val * 0.2);
+        rig.guestLight.intensity = 2.8 + val * 3.2;
         return near || val > 0.85;
       }
     };

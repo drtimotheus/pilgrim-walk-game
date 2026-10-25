@@ -2461,6 +2461,53 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'held-together') {
+      if (pData.n === 5 || pData.n === 7) {
+        const keystoneArch = this.propBuilder.createColossians1KeystoneArchEnsemble({
+          isFinalePlaza: false
+        });
+        if (keystoneArch.keystoneLight) keystoneArch.group.remove(keystoneArch.keystoneLight);
+        keystoneArch.group.scale.setScalar(0.72);
+        keystoneArch.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        keystoneArch.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(keystoneArch.group);
+        return;
+      }
+      if (pData.n === 11 || pData.n === 12) {
+        const waxTablet = this.propBuilder.createColossians2WipedCleanWaxTabletAndStylusEnsemble({
+          isFinalePlaza: false
+        });
+        if (waxTablet.tabletLight) waxTablet.group.remove(waxTablet.tabletLight);
+        waxTablet.group.scale.setScalar(0.74);
+        waxTablet.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        waxTablet.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(waxTablet.group);
+        return;
+      }
+      if (pData.n === 16 || pData.n === 19) {
+        const courtyardLyre = this.propBuilder.createColossians3CourtyardLyreAndBenchesEnsemble({
+          isFinalePlaza: false
+        });
+        if (courtyardLyre.hymnLight) courtyardLyre.group.remove(courtyardLyre.hymnLight);
+        courtyardLyre.group.scale.setScalar(0.72);
+        courtyardLyre.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        courtyardLyre.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(courtyardLyre.group);
+        return;
+      }
+      if (pData.n === 28 || pData.n === 32) {
+        const guestRoom = this.propBuilder.createPhilemon22PreparedGuestRoomEnsemble({
+          isFinalePlaza: false
+        });
+        if (guestRoom.guestLight) guestRoom.group.remove(guestRoom.guestLight);
+        guestRoom.group.scale.setScalar(0.74);
+        guestRoom.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        guestRoom.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(guestRoom.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2564,6 +2611,7 @@ export class GenesisDistrictBuilder {
       'treasure-in-clay-jars': 'DISTRICT XXXIV · TREASURE IN CLAY JARS — 1 & 2 CORINTHIANS',
       'rooted-and-free': 'DISTRICT XXXV · ROOTED AND FREE — GALATIANS & EPHESIANS',
       'joy-in-chains': 'DISTRICT XXXVI · JOY IN CHAINS — PHILIPPIANS',
+      'held-together': 'DISTRICT XXXVII · HELD TOGETHER — COLOSSIANS & PHILEMON',
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
       'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
       'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
@@ -3685,6 +3733,48 @@ export class GenesisDistrictBuilder {
           height: 1.75,
           veilZ: -261.5
         }
+      ],
+      'held-together': [
+        {
+          part: 1,
+          id: 'held-together-light-1',
+          name: 'The Light of the Keystone Holding All Things',
+          hint: 'Shining beside the Roman stone arch & rose-terracotta keystone near “held together” & “the hope of glory” (Part One)',
+          z: -68.0,
+          lateral: -6.0,
+          height: 1.72,
+          veilZ: -92.0
+        },
+        {
+          part: 2,
+          id: 'held-together-light-2',
+          name: 'The Light of the Wax Tablet Wiped Clean',
+          hint: 'Glowing beside the smoothed golden-amber wax tablet & bronze stylus near “wiped clean” & “hidden” (Part Two)',
+          z: -132.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -148.5
+        },
+        {
+          part: 3,
+          id: 'held-together-light-3',
+          name: 'The Light of Psalms, Hymns & Spiritual Songs',
+          hint: 'Shining in the twilight courtyard beside the seven-string lyre & oil lamp near “dwell richly” & “one of you” (Part Three)',
+          z: -214.0,
+          lateral: -6.0,
+          height: 1.75,
+          veilZ: -234.4
+        },
+        {
+          part: 4,
+          id: 'held-together-light-4',
+          name: 'The Light of the Prepared Guest Room & Beloved Brother',
+          hint: 'Glowing beside Philemon’s prepared guest bed, open letter & oil lamp near “put that to my account” & “the guest room” before the Amen Gate (Part Four)',
+          z: -328.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -340.0
+        }
       ]
     };
 
@@ -4805,6 +4895,21 @@ export class GenesisDistrictBuilder {
       basinFinale.group.position.set(-3.4, 0.1, -4.6);
       basinFinale.group.rotation.y = 0.36;
       group.add(basinFinale.group);
+    } else if (slug === 'held-together') {
+      const keystoneFinale = this.propBuilder.createColossians1KeystoneArchEnsemble({
+        isFinalePlaza: true
+      });
+      keystoneFinale.group.position.set(0, 0.1, -3.8);
+      group.add(keystoneFinale.group);
+
+      const tabletFinale = this.propBuilder.createColossians2WipedCleanWaxTabletAndStylusEnsemble({
+        isFinalePlaza: false
+      });
+      if (tabletFinale.tabletLight) tabletFinale.group.remove(tabletFinale.tabletLight);
+      tabletFinale.group.scale.setScalar(0.74);
+      tabletFinale.group.position.set(-3.4, 0.1, -4.6);
+      tabletFinale.group.rotation.y = 0.36;
+      group.add(tabletFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -5017,6 +5122,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · JOY IN CHAINS COMPLETED',
         epigraph: 'Rejoice in the Lord always! And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.',
         epigraphRef: 'PHILIPPIANS 4:4–7 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXVII: HELD TOGETHER'
+      },
+      'held-together': {
+        title: 'AMEN GATE · HELD TOGETHER COMPLETED',
+        epigraph: 'He is before all things, and in him all things are held together — no longer as a slave, but more than a slave, a beloved brother.',
+        epigraphRef: 'COLOSSIANS 1:17 & PHILEMON 1:16 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXXVIII: CHILDREN OF THE DAY'
       },
       'anchor-of-the-soul': {
         title: 'AMEN GATE · ANCHOR OF THE SOUL COMPLETED',

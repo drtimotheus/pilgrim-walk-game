@@ -2696,6 +2696,53 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'little-children') {
+      if (pData.n === 4 || pData.n === 9) {
+        const fellowshipRoad = this.propBuilder.create1John1SunlitFellowshipRoadWallAndOliveEnsemble({
+          isFinalePlaza: false
+        });
+        if (fellowshipRoad.fellowshipLight) fellowshipRoad.group.remove(fellowshipRoad.fellowshipLight);
+        fellowshipRoad.group.scale.setScalar(0.72);
+        fellowshipRoad.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        fellowshipRoad.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(fellowshipRoad.group);
+        return;
+      }
+      if (pData.n === 18 || pData.n === 19) {
+        const openDoor = this.propBuilder.create1John3OpenDoorThresholdAndCompassionLoafEnsemble({
+          isFinalePlaza: false
+        });
+        if (openDoor.doorLight) openDoor.group.remove(openDoor.doorLight);
+        openDoor.group.scale.setScalar(0.72);
+        openDoor.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        openDoor.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(openDoor.group);
+        return;
+      }
+      if (pData.n === 25 || pData.n === 26) {
+        const openShutters = this.propBuilder.create1John4OpenShuttersAndBillowingLinenEnsemble({
+          isFinalePlaza: false
+        });
+        if (openShutters.loveLight) openShutters.group.remove(openShutters.loveLight);
+        openShutters.group.scale.setScalar(0.72);
+        openShutters.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        openShutters.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(openShutters.group);
+        return;
+      }
+      if (pData.n === 32 || pData.n === 35) {
+        const inkBench = this.propBuilder.create2John12InkwellParchmentAndTravelerCloakStaffEnsemble({
+          isFinalePlaza: false
+        });
+        if (inkBench.inkLight) inkBench.group.remove(inkBench.inkLight);
+        inkBench.group.scale.setScalar(0.74);
+        inkBench.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        inkBench.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(inkBench.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2805,6 +2852,7 @@ export class GenesisDistrictBuilder {
       'anchor-of-the-soul': 'DISTRICT XL · ANCHOR OF THE SOUL — HEBREWS',
       'doers-of-the-word': 'DISTRICT XLI · DOERS OF THE WORD — JAMES',
       'a-living-hope': 'DISTRICT XLII · A LIVING HOPE — 1 & 2 PETER & JUDE',
+      'little-children': 'DISTRICT XLIII · LITTLE CHILDREN — 1–3 JOHN',
       'our-eyes-are-on-you': 'DISTRICT IX · OUR EYES ARE ON YOU — 1 & 2 CHRONICLES',
       'rise-up-and-build': 'DISTRICT X · RISE UP AND BUILD — EZRA & NEHEMIAH',
       'for-such-a-time-as-this': 'DISTRICT XI · FOR SUCH A TIME AS THIS — ESTHER',
@@ -4175,6 +4223,58 @@ export class GenesisDistrictBuilder {
           height: 1.75,
           veilZ: -425.6
         }
+      ],
+      'little-children': [
+        {
+          part: 1,
+          id: 'little-children-light-1',
+          name: 'The Light of Fellowship on the Sunlit Road',
+          hint: 'Shining beside the twin clay lamps & olive road near “no darkness at all” & “in the light, together” (Part One)',
+          z: -48.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -62.4
+        },
+        {
+          part: 2,
+          id: 'little-children-light-2',
+          name: 'The Light of the Stairway Lamp & Abiding Home',
+          hint: 'Glowing beside the stone stairway lamp & lit home window near “nothing to trip on” & “remain” (Part Two)',
+          z: -120.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -138.5
+        },
+        {
+          part: 3,
+          id: 'little-children-light-3',
+          name: 'The Light of the Open Door & Threshold Loaf',
+          hint: 'Shining beside the half-open wooden door & warm loaf on the step near “the closed door” & “in deed” (Part Three)',
+          z: -206.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -224.4
+        },
+        {
+          part: 4,
+          id: 'little-children-light-4',
+          name: 'The Light of Unshuttered Love & Almond Blossom',
+          hint: 'Glowing inside the wide-flung shutters & billowing linen curtain near “no fear in love” & “first” (Part Four)',
+          z: -282.0,
+          lateral: -6.0,
+          height: 1.65,
+          veilZ: -300.5
+        },
+        {
+          part: 5,
+          id: 'little-children-light-5',
+          name: 'The Light of Face-to-Face Joy & the Open Gate',
+          hint: 'Shining beside the set-down reed pen, inkwell & traveler’s cloak near “paper and ink” & “by name” before the Amen Gate (Part Five)',
+          z: -368.0,
+          lateral: 5.8,
+          height: 1.75,
+          veilZ: -386.4
+        }
       ]
     };
 
@@ -5370,6 +5470,21 @@ export class GenesisDistrictBuilder {
       stonesFinale.group.position.set(-3.4, 0.1, -4.6);
       stonesFinale.group.rotation.y = 0.36;
       group.add(stonesFinale.group);
+    } else if (slug === 'little-children') {
+      const inkFinale = this.propBuilder.create2John12InkwellParchmentAndTravelerCloakStaffEnsemble({
+        isFinalePlaza: true
+      });
+      inkFinale.group.position.set(0, 0.1, -3.8);
+      group.add(inkFinale.group);
+
+      const doorFinale = this.propBuilder.create1John3OpenDoorThresholdAndCompassionLoafEnsemble({
+        isFinalePlaza: false
+      });
+      if (doorFinale.doorLight) doorFinale.group.remove(doorFinale.doorLight);
+      doorFinale.group.scale.setScalar(0.74);
+      doorFinale.group.position.set(-3.4, 0.1, -4.6);
+      doorFinale.group.rotation.y = 0.36;
+      group.add(doorFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -5612,6 +5727,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · A LIVING HOPE COMPLETED',
         epigraph: 'Born again to a living hope — a lamp shining in a dark place, until the day dawns, and the morning star arises in your hearts.',
         epigraphRef: '1 PETER 1:3 & 2 PETER 1:19 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XLIII: LITTLE CHILDREN'
+      },
+      'little-children': {
+        title: 'AMEN GATE · LITTLE CHILDREN COMPLETED',
+        epigraph: 'There is no fear in love; but perfect love casts out fear — I hope to come to you, and to speak face to face, that our joy may be made full.',
+        epigraphRef: '1 JOHN 4:18 & 2 JOHN 1:12 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XLIV: ALL THINGS NEW'
       },
       'our-eyes-are-on-you': {
         title: 'AMEN GATE · OUR EYES ARE ON YOU COMPLETED',

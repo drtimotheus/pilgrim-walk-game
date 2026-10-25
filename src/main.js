@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_68';
-import { StepThroughSceneManager } from './scenes.js?v=44_68';
-import { GenesisDistrictBuilder } from './district.js?v=44_68';
+import { PainterlyPropBuilder } from './props.js?v=44_69';
+import { StepThroughSceneManager } from './scenes.js?v=44_69';
+import { GenesisDistrictBuilder } from './district.js?v=44_69';
 import { PilgrimAudio } from './audio.js?v=44_57';
 import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
@@ -1174,6 +1174,12 @@ class PilgrimWalkApp {
         { n: 10, label: '10 · “living stones” (Living Cornerstone & Rising Wall)' },
         { n: 21, label: '21 · “he cares for you” (Woven Basket of Worries & Open Window)' },
         { n: 27, label: '27 · “a lamp in a dark place” (Clay Lamp & Rising Morning Star)' }
+      ],
+      'little-children': [
+        { n: 4, label: '4 · “in the light, together” (Sunlit Fellowship Road & Twin Lamps)' },
+        { n: 18, label: '18 · “the closed door” (Half-Open Door & Loaf on the Threshold)' },
+        { n: 25, label: '25 · “no fear in love” (Wide-Flung Shutters & Billowing Linen)' },
+        { n: 32, label: '32 · “paper and ink” (Set-Down Reed Pen, Inkwell & Cloak)' }
       ]
     };
 

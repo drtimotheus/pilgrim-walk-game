@@ -16753,4 +16753,511 @@ export class PainterlyPropBuilder {
 
     return { group, lampGroup, lampFlame, morningStar, lampLight };
   }
+
+  // ==========================================================================
+  // DISTRICT XLIII — LITTLE CHILDREN (1–3 JOHN) BESPOKE ENSEMBLES
+  // ==========================================================================
+  create1John1SunlitFellowshipRoadWallAndOliveEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const roadMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a89678',
+      accentColor: '#e4d2b4',
+      roughness: 0.88,
+      map: propTex
+    });
+    const stoneWallMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8d7f68',
+      accentColor: '#d4c4a8',
+      roughness: 0.88,
+      map: propTex
+    });
+    const trunkMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c4631',
+      accentColor: '#9b7b59',
+      roughness: 0.84
+    });
+    const foliageMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#566e46',
+      accentColor: '#9eb882',
+      roughness: 0.76
+    });
+    const terracottaMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9e683c',
+      accentColor: '#dca06a',
+      roughness: 0.72
+    });
+    const flameMat = new THREE.MeshBasicMaterial({
+      color: 0xffe68c
+    });
+
+    // Sunlit country road terrace (#4 "in the light, together")
+    const roadBase = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.25, 2.48, 0.20, 24), 0.025, 3.0),
+      roadMat
+    );
+    roadBase.position.y = 0.10;
+    roadBase.receiveShadow = true;
+    group.add(roadBase);
+
+    // Low dry-stone field wall along the left side of the road
+    const wallGroup = new THREE.Group();
+    wallGroup.position.set(-1.18, 0.20, 0.0);
+    for (let i = 0; i < 10; i++) {
+      const row = Math.floor(i / 5);
+      const col = i % 5;
+      const stone = new THREE.Mesh(
+        this.displaceGeometry(new THREE.DodecahedronGeometry(0.28, 1), 0.035, 3.2),
+        stoneWallMat
+      );
+      stone.scale.set(1.15, 0.78, 1.05);
+      stone.position.set((row % 2) * 0.08, 0.18 + row * 0.34, -0.88 + col * 0.44);
+      stone.castShadow = true;
+      wallGroup.add(stone);
+    }
+    group.add(wallGroup);
+
+    // Gnarled olive tree & rocky bank on the right side of the road
+    const oliveGroup = new THREE.Group();
+    oliveGroup.position.set(1.12, 0.20, -0.25);
+
+    const trunk = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.16, 0.28, 1.75, 10, 5), 0.03, 3.0),
+      trunkMat
+    );
+    trunk.position.y = 0.85;
+    trunk.rotation.z = -0.16;
+    trunk.castShadow = true;
+    oliveGroup.add(trunk);
+
+    for (const [cx, cy, cz, cr] of [
+      [-0.18, 1.82, 0.08, 0.68],
+      [0.28, 1.95, -0.10, 0.62],
+      [-0.45, 1.65, -0.18, 0.52]
+    ]) {
+      const canopy = new THREE.Mesh(
+        this.displaceGeometry(new THREE.IcosahedronGeometry(cr, 1), 0.05, 2.6),
+        foliageMat
+      );
+      canopy.scale.set(1.22, 0.76, 1.15);
+      canopy.position.set(cx, cy, cz);
+      oliveGroup.add(canopy);
+    }
+    group.add(oliveGroup);
+
+    // Two companion clay oil lamps & walking staffs side by side on a milestone block ("side by side")
+    const milestone = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.18, 0.44, 0.72, 5, 3, 4), 0.02, 3.0),
+      stoneWallMat
+    );
+    milestone.position.set(0, 0.42, 0.18);
+    milestone.castShadow = true;
+    group.add(milestone);
+
+    const lampsGroup = new THREE.Group();
+    lampsGroup.position.set(0, 0.64, 0.18);
+    for (const lx of [-0.26, 0.26]) {
+      const lamp = new THREE.Mesh(
+        this.displaceGeometry(new THREE.SphereGeometry(0.16, 14, 10), 0.01, 3.0),
+        terracottaMat
+      );
+      lamp.scale.set(1.32, 0.55, 0.92);
+      lamp.position.set(lx, 0.08, 0);
+      const flame = new THREE.Mesh(new THREE.ConeGeometry(0.045, 0.18, 10), flameMat);
+      flame.position.set(lx - 0.14, 0.22, 0);
+      lampsGroup.add(lamp, flame);
+    }
+    group.add(lampsGroup);
+
+    const fellowshipLight = new THREE.PointLight(0xffe29c, isFinalePlaza ? 3.4 : 3.0, 18);
+    fellowshipLight.position.set(0.0, 1.85, 0.25);
+    group.add(fellowshipLight);
+
+    return { group, wallGroup, oliveGroup, lampsGroup, fellowshipLight };
+  }
+
+  create1John3OpenDoorThresholdAndCompassionLoafEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#9c9078',
+      accentColor: '#dfd2b8',
+      roughness: 0.88,
+      map: propTex
+    });
+    const doorWoodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#665138',
+      accentColor: '#a68964',
+      roughness: 0.80,
+      map: propTex
+    });
+    const crustMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#b87e3c',
+      accentColor: '#f2c87c',
+      roughness: 0.68
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8d7558',
+      accentColor: '#ccb292',
+      roughness: 0.78
+    });
+    const foliageMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c7348',
+      accentColor: '#9fb884',
+      roughness: 0.76
+    });
+    const ironMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#3f3a34',
+      accentColor: '#787066',
+      roughness: 0.55
+    });
+
+    // Raised stone doorstep threshold (#18 "the closed door" -> "so leave it open. a loaf on the step is a small thing.")
+    const stepSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.65, 0.28, 1.58, 8, 2, 6), 0.02, 3.0),
+      stoneMat
+    );
+    stepSlab.position.set(0, 0.14, 0.12);
+    stepSlab.receiveShadow = true;
+    group.add(stepSlab);
+
+    // Stone doorway frame
+    for (const sx of [-0.96, 0.96]) {
+      const jamb = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.46, 2.68, 0.48, 4, 8, 4), 0.025, 3.0),
+        stoneMat
+      );
+      jamb.position.set(sx, 1.62, -0.32);
+      jamb.castShadow = true;
+      group.add(jamb);
+    }
+    const lintel = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.48, 0.36, 0.52, 8, 2, 4), 0.025, 3.0),
+      stoneMat
+    );
+    lintel.position.set(0, 3.08, -0.32);
+    lintel.castShadow = true;
+    group.add(lintel);
+
+    // Weathered vertical-planked wooden door standing half-open with an iron ring handle
+    const doorPivot = new THREE.Group();
+    doorPivot.position.set(-0.72, 0.28, -0.32);
+    doorPivot.rotation.y = 0.56;
+
+    const doorPanel = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.18, 2.56, 0.10, 6, 8, 2), 0.015, 3.2),
+      doorWoodMat
+    );
+    doorPanel.position.set(0.59, 1.28, 0);
+    doorPanel.castShadow = true;
+
+    const crossBatten = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.16, 0.22, 0.14, 6, 2, 2), 0.01, 2.8),
+      doorWoodMat
+    );
+    crossBatten.position.set(0.59, 1.05, 0.02);
+
+    const ironRing = new THREE.Mesh(new THREE.TorusGeometry(0.085, 0.018, 8, 18), ironMat);
+    ironRing.position.set(1.02, 1.26, 0.08);
+
+    doorPivot.add(doorPanel, crossBatten, ironRing);
+    group.add(doorPivot);
+
+    // Warm crusty round loaf of bread set on the stone doorstep in the pool of light
+    const loafGroup = new THREE.Group();
+    loafGroup.position.set(0.24, 0.28, 0.16);
+    const loafMesh = new THREE.Mesh(
+      this.displaceGeometry(new THREE.SphereGeometry(0.28, 18, 14), 0.018, 3.4),
+      crustMat
+    );
+    loafMesh.scale.set(1.22, 0.66, 1.05);
+    loafMesh.position.y = 0.16;
+    loafMesh.castShadow = true;
+    loafGroup.add(loafMesh);
+    group.add(loafGroup);
+
+    // Tall clay jar with olive boughs on the left & woven basket with cloth on the right
+    const amphora = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.20, 0.26, 0.72, 18), 0.015, 3.0),
+      clayMat
+    );
+    amphora.position.set(-1.38, 0.48, 0.18);
+    amphora.castShadow = true;
+    group.add(amphora);
+
+    for (const [bx, by, bz] of [
+      [-1.44, 1.05, 0.16],
+      [-1.30, 1.15, 0.20]
+    ]) {
+      const bough = new THREE.Mesh(
+        this.displaceGeometry(new THREE.IcosahedronGeometry(0.24, 1), 0.03, 2.6),
+        foliageMat
+      );
+      bough.scale.set(0.85, 1.45, 0.85);
+      bough.position.set(bx, by, bz);
+      group.add(bough);
+    }
+
+    const stepBasket = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.32, 0.25, 0.48, 16), 0.02, 3.4),
+      clayMat
+    );
+    stepBasket.position.set(1.36, 0.36, 0.22);
+    stepBasket.castShadow = true;
+    group.add(stepBasket);
+
+    const doorLight = new THREE.PointLight(0xffe59e, isFinalePlaza ? 3.4 : 3.0, 18);
+    doorLight.position.set(0.22, 1.75, 0.15);
+    group.add(doorLight);
+
+    return { group, doorPivot, loafGroup, doorLight };
+  }
+
+  create1John4OpenShuttersAndBillowingLinenEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8e836f',
+      accentColor: '#d9cbb4',
+      roughness: 0.88,
+      map: propTex
+    });
+    const shutterWoodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#7a6246',
+      accentColor: '#ba9c78',
+      roughness: 0.78,
+      map: propTex
+    });
+    const sheerCurtainMat = new THREE.MeshStandardMaterial({
+      color: 0xf6eedc,
+      emissive: 0xffe8bd,
+      emissiveIntensity: 0.22,
+      roughness: 0.62,
+      transparent: true,
+      opacity: 0.84,
+      side: THREE.DoubleSide
+    });
+    const matStraw = this.painterly.createPainterlyMaterial({
+      baseColor: '#7c6444',
+      accentColor: '#bfa074',
+      roughness: 0.88
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8f6948',
+      accentColor: '#cc9e76',
+      roughness: 0.76
+    });
+
+    // Sunlit stone floor & woven reed mat (#25 "no fear in love" -> "fear keeps the shutters closed... love opens them")
+    const floorSlab = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.25, 2.48, 0.16, 24), 0.02, 3.0),
+      stoneMat
+    );
+    floorSlab.position.y = 0.08;
+    floorSlab.receiveShadow = true;
+    group.add(floorSlab);
+
+    const reedMat = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.75, 0.04, 1.35, 6, 1, 6), 0.01, 3.5),
+      matStraw
+    );
+    reedMat.position.set(-0.18, 0.18, 0.36);
+    group.add(reedMat);
+
+    // Tall stone doorway & wide-flung wooden shutters
+    for (const sx of [-1.05, 1.05]) {
+      const jamb = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(0.42, 2.75, 0.46, 4, 8, 4), 0.025, 3.0),
+        stoneMat
+      );
+      jamb.position.set(sx, 1.54, -0.48);
+      jamb.castShadow = true;
+      group.add(jamb);
+    }
+    const lintel = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.65, 0.34, 0.50, 8, 2, 4), 0.025, 3.0),
+      stoneMat
+    );
+    lintel.position.set(0, 3.02, -0.48);
+    group.add(lintel);
+
+    const leftShutter = new THREE.Group();
+    leftShutter.position.set(-0.84, 0.18, -0.32);
+    leftShutter.rotation.y = 1.18;
+    const leftLeaf = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.76, 2.58, 0.08, 4, 8, 2), 0.012, 3.0),
+      shutterWoodMat
+    );
+    leftLeaf.position.set(0.38, 1.29, 0);
+    leftShutter.add(leftLeaf);
+    group.add(leftShutter);
+
+    const rightShutter = new THREE.Group();
+    rightShutter.position.set(0.84, 0.18, -0.32);
+    rightShutter.rotation.y = -1.18;
+    const rightLeaf = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.76, 2.58, 0.08, 4, 8, 2), 0.012, 3.0),
+      shutterWoodMat
+    );
+    rightLeaf.position.set(-0.38, 1.29, 0);
+    rightShutter.add(rightLeaf);
+    group.add(rightShutter);
+
+    // Billowing sheer cream linen curtain catching the warm breeze on the right
+    const curtainGroup = new THREE.Group();
+    curtainGroup.position.set(0.68, 1.62, -0.10);
+    const curtainPlane = new THREE.Mesh(
+      this.displaceGeometry(new THREE.PlaneGeometry(1.18, 2.65, 12, 16), 0.12, 2.2),
+      sheerCurtainMat
+    );
+    curtainPlane.rotation.z = 0.22;
+    curtainPlane.rotation.y = -0.28;
+    curtainGroup.add(curtainPlane);
+    group.add(curtainGroup);
+
+    // Wooden stool & clay bowl on the right, clay olive jar on the left
+    const stoolTop = new THREE.Mesh(new THREE.BoxGeometry(0.68, 0.08, 0.56), shutterWoodMat);
+    stoolTop.position.set(1.15, 0.68, 0.38);
+    group.add(stoolTop);
+
+    const clayBowl = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.12, 0.16, 16), clayMat);
+    clayBowl.position.set(1.15, 0.80, 0.38);
+    group.add(clayBowl);
+
+    const oliveJar = new THREE.Mesh(new THREE.CylinderGeometry(0.20, 0.24, 0.52, 16), clayMat);
+    oliveJar.position.set(-1.28, 0.92, 0.18);
+    group.add(oliveJar);
+
+    const loveLight = new THREE.PointLight(0xffebb0, isFinalePlaza ? 3.5 : 3.1, 18);
+    loveLight.position.set(0.0, 1.95, 0.20);
+    group.add(loveLight);
+
+    return { group, leftShutter, rightShutter, curtainGroup, loveLight };
+  }
+
+  create2John12InkwellParchmentAndTravelerCloakStaffEnsemble({ isFinalePlaza = false, propTex = null } = {}) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+
+    const stoneBenchMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#908670',
+      accentColor: '#d8ccb4',
+      roughness: 0.88,
+      map: propTex
+    });
+    const parchmentMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#f0e4c8',
+      accentColor: '#fff9eb',
+      roughness: 0.66
+    });
+    const inkwellMat = new THREE.MeshStandardMaterial({
+      color: 0x242826,
+      roughness: 0.26,
+      metalness: 0.35
+    });
+    const reedPenMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#967244',
+      accentColor: '#d9b580',
+      roughness: 0.62
+    });
+    const cloakMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6d705c',
+      accentColor: '#a6a892',
+      roughness: 0.82,
+      map: propTex
+    });
+    const staffMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6e5236',
+      accentColor: '#b58e64',
+      roughness: 0.78
+    });
+
+    // Stone writing bench & courtyard wall corner (#32 "paper and ink" -> "he puts the pen down... he would rather pick up his cloak")
+    const basePlinth = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(2.15, 2.38, 0.16, 24), 0.025, 3.0),
+      stoneBenchMat
+    );
+    basePlinth.position.y = 0.08;
+    basePlinth.receiveShadow = true;
+    group.add(basePlinth);
+
+    const writingBench = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.45, 0.68, 1.38, 8, 4, 6), 0.02, 3.2),
+      stoneBenchMat
+    );
+    writingBench.position.set(0, 0.48, 0.08);
+    writingBench.castShadow = true;
+    writingBench.receiveShadow = true;
+    group.add(writingBench);
+
+    const backWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.85, 2.25, 0.32, 6, 8, 3), 0.02, 3.0),
+      stoneBenchMat
+    );
+    backWall.position.set(0.32, 1.58, -0.52);
+    backWall.castShadow = true;
+    group.add(backWall);
+
+    // Cream parchment letter sheet, dark glazed ceramic inkwell, and reed pen set down on the left
+    const writingGroup = new THREE.Group();
+    writingGroup.position.set(-0.46, 0.83, 0.24);
+
+    const letterSheet = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.76, 0.025, 0.62, 6, 1, 6), 0.008, 3.0),
+      parchmentMat
+    );
+    letterSheet.rotation.y = 0.22;
+    writingGroup.add(letterSheet);
+
+    const inkwell = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.13, 0.18, 20), inkwellMat);
+    inkwell.position.set(0.38, 0.09, -0.04);
+    inkwell.castShadow = true;
+    writingGroup.add(inkwell);
+
+    const reedPen = new THREE.Mesh(new THREE.CylinderGeometry(0.014, 0.018, 0.68, 10), reedPenMat);
+    reedPen.rotation.z = Math.PI / 2;
+    reedPen.rotation.y = -0.34;
+    reedPen.position.set(0.06, 0.03, 0.16);
+    reedPen.castShadow = true;
+    writingGroup.add(reedPen);
+    group.add(writingGroup);
+
+    // Folded sage-grey traveler's wool cloak & wooden walking staff leaning against the wall on the right
+    const cloakGroup = new THREE.Group();
+    cloakGroup.position.set(0.56, 0.84, 0.08);
+    for (const [cx, cy, cz, sx, sy, sz, ry] of [
+      [0, 0.10, 0, 0.92, 0.16, 0.78, 0.18],
+      [0.08, 0.24, -0.06, 0.78, 0.18, 0.66, -0.22],
+      [-0.04, 0.38, -0.12, 0.62, 0.16, 0.54, 0.12]
+    ]) {
+      const fold = new THREE.Mesh(
+        this.displaceGeometry(new THREE.BoxGeometry(sx, sy, sz, 6, 3, 6), 0.025, 3.0),
+        cloakMat
+      );
+      fold.position.set(cx, cy, cz);
+      fold.rotation.y = ry;
+      fold.castShadow = true;
+      cloakGroup.add(fold);
+    }
+    group.add(cloakGroup);
+
+    const staffPole = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.042, 0.048, 1.68, 12), 0.01, 3.0),
+      staffMat
+    );
+    staffPole.position.set(0.32, 1.56, -0.18);
+    staffPole.rotation.z = -0.22;
+    staffPole.rotation.x = -0.16;
+    staffPole.castShadow = true;
+    group.add(staffPole);
+
+    const inkLight = new THREE.PointLight(0xffe6a3, isFinalePlaza ? 3.3 : 2.9, 18);
+    inkLight.position.set(-0.15, 1.85, 0.30);
+    group.add(inkLight);
+
+    return { group, writingGroup, reedPen, cloakGroup, staffPole, inkLight };
+  }
 }

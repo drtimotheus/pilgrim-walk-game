@@ -482,6 +482,14 @@ export class StepThroughSceneManager {
       signatureState = this.populate1Peter21CastYourCaresBasketScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'morning_star_lamp') {
       signatureState = this.populate2Peter27MorningStarLampScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'fellowship_light_path') {
+      signatureState = this.populate1John4FellowshipLightPathScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'open_door_compassion') {
+      signatureState = this.populate1John18OpenDoorCompassionScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'perfect_love_hearth') {
+      signatureState = this.populate1John25NoFearInLoveShuttersScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'face_to_face_table') {
+      signatureState = this.populate2John32PaperAndInkCloakScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -538,7 +546,8 @@ export class StepThroughSceneManager {
         'cradle_lamp_warmth', 'tentmaker_loom_lamp', 'children_of_the_day_dawn', 'quiet_table_loaf',
         'pillar_of_truth', 'lois_eunice_scrolls', 'crown_of_righteousness', 'cloak_and_parchments',
         'doers_mirror_table', 'wooden_rudder_helm', 'fresh_spring_well', 'early_and_late_rain_field',
-        'crucible_of_gold', 'living_stones_cornerstone', 'cast_your_cares_shore', 'morning_star_lamp'
+        'crucible_of_gold', 'living_stones_cornerstone', 'cast_your_cares_shore', 'morning_star_lamp',
+        'fellowship_light_path', 'open_door_compassion', 'perfect_love_hearth', 'face_to_face_table'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -8051,6 +8060,147 @@ export class StepThroughSceneManager {
         if (skyDome && skyDome.material?.uniforms?.uStarIntensity) {
           skyDome.material.uniforms.uStarIntensity.value = Math.max(0.45, val * 0.85);
         }
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // ==========================================================================
+  // DISTRICT XLIII — LITTLE CHILDREN (1–3 JOHN) BESPOKE STEP-THROUGH SCENES
+  // ==========================================================================
+  populate1John4FellowshipLightPathScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create1John1SunlitFellowshipRoadWallAndOliveEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'little-children', 4, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe49e');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Walk Side by Side Along the Sunlit Fellowship Path & Twin Lamps',
+      signatureActivatedText:
+        '“But if we walk in the light, as he is in the light, we have fellowship with one another, and the blood of Jesus Christ, his Son, cleanses us from all sin.” (1 John 1:7)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._john4Latch = Math.min(1.0, (this._john4Latch || 0) + dt * 0.65);
+        const val = this._john4Latch || 0;
+        rig.fellowshipLight.intensity = 3.0 + val * 3.3;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populate1John18OpenDoorCompassionScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create1John3OpenDoorThresholdAndCompassionLoafEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'little-children', 18, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe59e');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Open the Wooden Door & Set the Warm Loaf on the Threshold',
+      signatureActivatedText:
+        '“But whoever has the world’s goods, and sees his brother in need, then closes his heart of compassion against him, how does God’s love remain in him? My little children, let’s not love in word only… but in deed and truth.” (1 John 3:17–18)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._john18Latch = Math.min(1.0, (this._john18Latch || 0) + dt * 0.65);
+        const val = this._john18Latch || 0;
+        rig.doorPivot.rotation.y = 0.56 + val * 0.42;
+        rig.doorLight.intensity = 3.0 + val * 3.4;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populate1John25NoFearInLoveShuttersScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create1John4OpenShuttersAndBillowingLinenEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'little-children', 25, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.98, 3.8, '#ffecb0');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Stand in the Sunlit Doorway of Unshuttered Love & Billowing Linen',
+      signatureActivatedText:
+        '“There is no fear in love; but perfect love casts out fear, because fear has punishment. He who fears is not made perfect in love. We love him, because he first loved us.” (1 John 4:18–19)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._john25Latch = Math.min(1.0, (this._john25Latch || 0) + dt * 0.65);
+        const val = this._john25Latch || 0;
+        rig.curtainGroup.rotation.z = Math.sin(time * 1.8) * 0.04 * (0.4 + val * 0.6);
+        rig.loveLight.intensity = 3.1 + val * 3.4;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populate2John32PaperAndInkCloakScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.create2John12InkwellParchmentAndTravelerCloakStaffEnsemble({
+      isFinalePlaza: false,
+      propTex: derived.propTex
+    });
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'little-children', 32, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.7, '#ffe6a3');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Set Down the Reed Pen by the Inkwell & Take Up the Traveler’s Cloak',
+      signatureActivatedText:
+        '“Having many things to write to you, I don’t want to do so with paper and ink, but I hope to come to you, and to speak face to face, that our joy may be made full.” (2 John 1:12)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._john32Latch = Math.min(1.0, (this._john32Latch || 0) + dt * 0.65);
+        const val = this._john32Latch || 0;
+        rig.inkLight.intensity = 2.9 + val * 3.3;
         return near || val > 0.85;
       }
     };

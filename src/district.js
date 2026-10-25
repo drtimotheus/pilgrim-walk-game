@@ -2250,6 +2250,45 @@ export class GenesisDistrictBuilder {
       }
     }
 
+    if (slug === 'the-day-of-small-things') {
+      if (pData.n === 3 || pData.n === 7) {
+        const figTree = this.propBuilder.createMicah4FigTreeStoolAndPitcherEnsemble(null, pal, false);
+        if (figTree.shadeLight) figTree.group.remove(figTree.shadeLight);
+        figTree.group.scale.setScalar(0.74);
+        figTree.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        figTree.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(figTree.group);
+        return;
+      }
+      if (pData.n === 12 || pData.n === 16) {
+        const watchtower = this.propBuilder.createHabakkuk2WatchtowerParapetEnsemble(null, pal, false);
+        if (watchtower.watchLight) watchtower.group.remove(watchtower.watchLight);
+        watchtower.group.scale.setScalar(0.74);
+        watchtower.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        watchtower.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(watchtower.group);
+        return;
+      }
+      if (pData.n === 24 || pData.n === 28) {
+        const menorah = this.propBuilder.createZechariah4SevenLampsAndOliveTreesEnsemble(null, pal, false);
+        if (menorah.menorahLight) menorah.group.remove(menorah.menorahLight);
+        menorah.group.scale.setScalar(0.74);
+        menorah.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        menorah.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(menorah.group);
+        return;
+      }
+      if (pData.n === 38 || pData.n === 40) {
+        const memoryBook = this.propBuilder.createMalachi3BookOfRemembranceEnsemble(null, pal, false);
+        if (memoryBook.memoryLight) memoryBook.group.remove(memoryBook.memoryLight);
+        memoryBook.group.scale.setScalar(0.74);
+        memoryBook.group.position.set(wx + side * 2.8, wy, wz - 2.2);
+        memoryBook.group.lookAt(wx - side * 2.5, wy, wz + 2.0);
+        streetGroup.add(memoryBook.group);
+        return;
+      }
+    }
+
     // 3. Biome-Matched Roadside Scenery (instead of placing the same meadow tree in every book)
     if (bCfg.biome === 'wilderness') {
       const crag = this.propBuilder.createWildernessCampAndCrag(pal, pData.n);
@@ -2343,6 +2382,7 @@ export class GenesisDistrictBuilder {
       'can-these-bones-live': 'DISTRICT XXIII · CAN THESE BONES LIVE — EZEKIEL',
       'greatly-beloved': 'DISTRICT XXIV · GREATLY BELOVED — DANIEL',
       'out-of-the-deep': 'DISTRICT XXVI · OUT OF THE DEEP — JONAH',
+      'the-day-of-small-things': 'DISTRICT XXVII · THE DAY OF SMALL THINGS — MICAH TO MALACHI',
       'good-news-of-great-joy': 'DISTRICT XXVIII · GOOD NEWS OF GREAT JOY — LUKE',
       'i-am-with-you-always': 'DISTRICT XXIX · I AM WITH YOU ALWAYS — MATTHEW',
       'peace-be-still': 'DISTRICT XXX · PEACE, BE STILL — MARK',
@@ -3216,6 +3256,58 @@ export class GenesisDistrictBuilder {
           hint: 'Shining above the threshold stone & olive hill near “the clefts of the rock” & “the kingdom” before the Amen Gate (Part Five)',
           z: -414.0,
           lateral: -5.8,
+          height: 1.75,
+          veilZ: -426.0
+        }
+      ],
+      'the-day-of-small-things': [
+        {
+          part: 1,
+          id: 'the-day-of-small-things-light-1',
+          name: 'The Light of the Fig Tree & Humble Walk',
+          hint: 'Shining beside the wooden stool & water pitcher under the fig tree near “under the fig tree” & “do justly” (Part One)',
+          z: -54.0,
+          lateral: 6.0,
+          height: 1.72,
+          veilZ: -72.0
+        },
+        {
+          part: 2,
+          id: 'the-day-of-small-things-light-2',
+          name: 'The Light of the Watchtower & Quiet Joy',
+          hint: 'Glowing beside the watchman’s rampart & barren fig tree near “the watchtower” & “though the fig tree” (Part Two)',
+          z: -146.0,
+          lateral: -6.0,
+          height: 1.72,
+          veilZ: -167.8
+        },
+        {
+          part: 3,
+          id: 'the-day-of-small-things-light-3',
+          name: 'The Light of the Foundation Stone & From Today',
+          hint: 'Shining beside the newly laid temple stone near “he will rejoice over you with singing” & “from today” (Part Three)',
+          z: -232.0,
+          lateral: 6.0,
+          height: 1.75,
+          veilZ: -253.6
+        },
+        {
+          part: 4,
+          id: 'the-day-of-small-things-light-4',
+          name: 'The Light of the Golden Lampstand & Plumb Line',
+          hint: 'Glowing beside the seven-branched golden lampstand, two olive trees & plumb line near “seven lamps” & “the day of small things” (Part Four)',
+          z: -318.0,
+          lateral: -6.0,
+          height: 1.75,
+          veilZ: -359.1
+        },
+        {
+          part: 5,
+          id: 'the-day-of-small-things-light-5',
+          name: 'The Light of the Book of Remembrance & Rising Sun',
+          hint: 'Shining beside the open scroll of memory & two clay cups near “a book of memory” & “turn the hearts” before the Amen Gate (Part Five)',
+          z: -414.0,
+          lateral: 5.8,
           height: 1.75,
           veilZ: -426.0
         }
@@ -4252,6 +4344,25 @@ export class GenesisDistrictBuilder {
       lilyFinale.group.position.set(-3.4, 0.1, -4.6);
       lilyFinale.group.rotation.y = 0.36;
       group.add(lilyFinale.group);
+    } else if (slug === 'the-day-of-small-things') {
+      const menorahFinale = this.propBuilder.createZechariah4SevenLampsAndOliveTreesEnsemble(
+        null,
+        { ground: '#817557', horizon: '#928562', accent: '#f8e6a6' },
+        true
+      );
+      menorahFinale.group.position.set(0, 0.1, -3.8);
+      group.add(menorahFinale.group);
+
+      const memoryFinale = this.propBuilder.createMalachi3BookOfRemembranceEnsemble(
+        null,
+        { ground: '#564a35', horizon: '#84785d', accent: '#dbc79d' },
+        false
+      );
+      if (memoryFinale.memoryLight) memoryFinale.group.remove(memoryFinale.memoryLight);
+      memoryFinale.group.scale.setScalar(0.74);
+      memoryFinale.group.position.set(-3.4, 0.1, -4.6);
+      memoryFinale.group.rotation.y = 0.36;
+      group.add(memoryFinale.group);
     } else if (slug !== 'genesis') {
       const finaleCenterpiece = this.propBuilder.createBookFinaleProp(slug, {
         ground: '#6e5c46',
@@ -4434,6 +4545,11 @@ export class GenesisDistrictBuilder {
         title: 'AMEN GATE · OUT OF THE DEEP COMPLETED',
         epigraph: 'Salvation belongs to Yahweh! — Shouldn’t I be concerned for Nineveh, that great city?',
         epigraphRef: 'JONAH 2:9 & 4:11 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXVII: THE DAY OF SMALL THINGS'
+      },
+      'the-day-of-small-things': {
+        title: 'AMEN GATE · THE DAY OF SMALL THINGS COMPLETED',
+        epigraph: 'Not by might, nor by power, but by my Spirit — But to you who fear my name shall the sun of righteousness arise with healing in its wings.',
+        epigraphRef: 'ZECHARIAH 4:6 & MALACHI 4:2 · APPROACH & PRESS [E] TO CONTINUE TO DISTRICT XXVIII: GOOD NEWS OF GREAT JOY'
       },
       'to-the-ends-of-the-earth': {
         title: 'AMEN GATE · TO THE ENDS OF THE EARTH COMPLETED',

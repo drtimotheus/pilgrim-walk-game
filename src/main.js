@@ -13,9 +13,9 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import { PainterlyEngine } from './painterly.js?v=44_12';
 import { PainterlyPostProcess, createPainterlySkyDome } from './postprocess.js?v=44_16';
-import { PainterlyPropBuilder } from './props.js?v=44_58';
-import { StepThroughSceneManager } from './scenes.js?v=44_58';
-import { GenesisDistrictBuilder } from './district.js?v=44_58';
+import { PainterlyPropBuilder } from './props.js?v=44_59';
+import { StepThroughSceneManager } from './scenes.js?v=44_59';
+import { GenesisDistrictBuilder } from './district.js?v=44_59';
 import { PilgrimAudio } from './audio.js?v=44_57';
 import { TripoRelicManager } from './tripo.js?v=44_55';
 import { DailyWalkManager } from './daily-walk.js?v=44_28';
@@ -1114,6 +1114,12 @@ class PilgrimWalkApp {
         { n: 16, label: '16 · “like the dew” (Dew-Covered Lily & Olive Tree)' },
         { n: 23, label: '23 · “the years the locust ate” (Restored Harvest Basket)' },
         { n: 33, label: '33 · “the plumb line” (Amos’s Plumb Line & Stone Wall)' }
+      ],
+      'the-day-of-small-things': [
+        { n: 3, label: '3 · “under the fig tree” (Stool, Pitcher & Fig Tree)' },
+        { n: 12, label: '12 · “the watchtower” (Watchman’s Rampart & Tablets)' },
+        { n: 28, label: '28 · “seven lamps” (Golden Lampstand & Olive Trees)' },
+        { n: 38, label: '38 · “a book of memory” (Scroll of Remembrance & Cups)' }
       ]
     };
 

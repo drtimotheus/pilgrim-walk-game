@@ -402,6 +402,14 @@ export class StepThroughSceneManager {
       signatureState = this.populateJoel23RestoredHarvestScene(group, derived, pal, getTerrainHeight, skyDome);
     } else if (kind === 'amos_plumb_line') {
       signatureState = this.populateAmos33PlumbLineScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'vine_and_fig_tree') {
+      signatureState = this.populateMicah3VineAndFigTreeScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'habakkuk_watchtower') {
+      signatureState = this.populateHabakkuk12WatchtowerScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'zechariah_olive_lampstand') {
+      signatureState = this.populateZechariah28OliveLampstandScene(group, derived, pal, getTerrainHeight, skyDome);
+    } else if (kind === 'book_of_remembrance') {
+      signatureState = this.populateMalachi38BookOfRemembranceScene(group, derived, pal, getTerrainHeight, skyDome);
     } else {
       signatureState = this.populateBook9To44StepThroughScene(
         kind,
@@ -446,7 +454,10 @@ export class StepThroughSceneManager {
         'chebar_rainbow_throne', 'heart_of_flesh', 'valley_of_dry_bones', 'temple_river_trees',
         'tarshish_storm_ship', 'depths_of_the_sea', 'nineveh_sackcloth_throne', 'jonah_booth_vine',
         'pentecost_upper_room', 'gate_called_beautiful', 'philippi_midnight_chains', 'malta_four_anchors',
-        'throne_of_grace', 'anchor_of_the_soul', 'opened_curtain_way', 'cloud_of_witnesses_arena'
+        'throne_of_grace', 'anchor_of_the_soul', 'opened_curtain_way', 'cloud_of_witnesses_arena',
+        'solitary_city_lantern', 'night_watch_water', 'new_every_morning_dawn', 'restored_lyre',
+        'valley_of_achor_door', 'lily_and_olive_dew', 'restored_harvest_floor', 'amos_plumb_line',
+        'vine_and_fig_tree', 'habakkuk_watchtower', 'zechariah_olive_lampstand', 'book_of_remembrance'
       ].includes(kind)
     ) {
       const customSceneGlbHolder = new THREE.Group();
@@ -6579,6 +6590,134 @@ export class StepThroughSceneManager {
         const val = this._amos33Latch || 0;
         rig.plumbGroup.rotation.z = Math.sin(time * 1.8) * (0.045 * (1.0 - val * 0.85));
         rig.plumbLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  // --- District XXVII: Micah to Malachi (the-day-of-small-things) ---
+  populateMicah3VineAndFigTreeScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createMicah4FigTreeStoolAndPitcherEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'the-day-of-small-things', 3, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.96, 3.8, '#ffeab3');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Rest Beside the Wooden Stool & Water Pitcher Under the Fig Tree',
+      signatureActivatedText:
+        '“Everyone will sit under his own vine and under his own fig tree; and no one will make them afraid; for the mouth of Yahweh of Armies has spoken.” (Micah 4:4)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._micah3Latch = Math.min(1.0, (this._micah3Latch || 0) + dt * 0.65);
+        const val = this._micah3Latch || 0;
+        rig.treeGroup.rotation.z = Math.sin(time * 1.1) * 0.015;
+        rig.shadeLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateHabakkuk12WatchtowerScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createHabakkuk2WatchtowerParapetEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'the-day-of-small-things', 12, { targetHeight: 3.0, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.94, 3.6, '#ffdfa0');
+    shaft.position.set(0, 6.4, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Take Your Stand on the Stone Watchtower Parapet & Inscribed Tablets',
+      signatureActivatedText:
+        '“I will stand at my watch, and set myself on the ramparts… Write the vision, and make it plain on tablets… Though it takes time, wait for it; because it will surely come.” (Habakkuk 2:1–3)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._hab12Latch = Math.min(1.0, (this._hab12Latch || 0) + dt * 0.65);
+        const val = this._hab12Latch || 0;
+        rig.bannerGroup.rotation.y = Math.sin(time * 2.1) * 0.08;
+        rig.watchLight.intensity = 2.6 + val * 3.0;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateZechariah28OliveLampstandScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createZechariah4SevenLampsAndOliveTreesEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'the-day-of-small-things', 28, { targetHeight: 3.1, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(18, 0.98, 3.8, '#ffe680');
+    shaft.position.set(0, 6.5, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.6,
+      signatureLabel: 'Behold the Golden Seven-Branched Lampstand Fed by Two Olive Trees',
+      signatureActivatedText:
+        '“I have seen, and behold, a lamp stand all of gold, with its bowl on the top of it, and its seven lamps on it… ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.” (Zechariah 4:2, 6)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.6;
+        if (near) this._zech28Latch = Math.min(1.0, (this._zech28Latch || 0) + dt * 0.65);
+        const val = this._zech28Latch || 0;
+        rig.flamesGroup.scale.y = 1.0 + Math.sin(time * 3.8) * 0.08 + val * 0.16;
+        rig.menorahLight.intensity = 3.0 + val * 3.5;
+        return near || val > 0.85;
+      }
+    };
+  }
+
+  populateMalachi38BookOfRemembranceScene(group, derived, pal, getTerrainHeight) {
+    const THREE = this.THREE;
+    const focalPos = new THREE.Vector3(0, 0, -5.2);
+    const rig = this.propBuilder.createMalachi3BookOfRemembranceEnsemble(derived.propTex, pal, false);
+    rig.group.position.copy(focalPos);
+    group.add(rig.group);
+
+    if (this.propBuilder && this.propBuilder.tripo) {
+      this.propBuilder.tripo.mountSceneGlbIfAvailable(rig.group, 'the-day-of-small-things', 38, { targetHeight: 2.9, yOffset: 0.22 });
+    }
+
+    const shaft = this.propBuilder.createKomorebiSunbeamShaft(17, 0.92, 3.5, '#ffe49e');
+    shaft.position.set(0, 6.3, -5.2);
+    group.add(shaft);
+
+    return {
+      signatureTarget: focalPos,
+      signatureRadius: 4.5,
+      signatureLabel: 'Read the Open Scroll of Remembrance Beside the Two Fellowship Cups & Oil Lamp',
+      signatureActivatedText:
+        '“Then those who feared Yahweh spoke one with another; and Yahweh listened, and heard, and a book of memory was written before him, for those who feared Yahweh, and who honored his name.” (Malachi 3:16)',
+      updateScene: (dt, time, distToSignature) => {
+        const near = distToSignature < 4.5;
+        if (near) this._mal38Latch = Math.min(1.0, (this._mal38Latch || 0) + dt * 0.65);
+        const val = this._mal38Latch || 0;
+        rig.memoryLight.intensity = 2.6 + val * 3.0;
         return near || val > 0.85;
       }
     };

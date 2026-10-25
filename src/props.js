@@ -11869,4 +11869,400 @@ export class PainterlyPropBuilder {
 
     return { group, plumbGroup, plumbLight };
   }
+
+  // ============================================================================
+  // DISTRICT XXVII (MICAH – MALACHI): THE DAY OF SMALL THINGS — BESPOKE ENSEMBLES
+  // ============================================================================
+
+  // 1. Micah 4:3–4 (#3 "under the fig tree") — Broad-Leaved Fig Tree, Dry-Laid Terrace Wall, Rough-Hewn Wooden Stool & Terracotta Water Pitcher
+  createMicah4FigTreeStoolAndPitcherEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#a69a83',
+      accentColor: '#e8dabb',
+      roughness: 0.88,
+      map: propTex
+    });
+    const barkMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#695845',
+      accentColor: '#c9b495',
+      roughness: 0.85,
+      map: propTex
+    });
+    const leafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4a573b',
+      accentColor: '#9fb079',
+      roughness: 0.65
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8c694a',
+      accentColor: '#deb992',
+      roughness: 0.72
+    });
+    const figGoldMat = new THREE.MeshStandardMaterial({
+      color: 0xc2cf70,
+      emissive: 0x7e8c2b,
+      emissiveIntensity: 0.65,
+      roughness: 0.38
+    });
+
+    // Dry-laid Judean terrace stone wall behind the stool
+    const terraceWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.15, 1.25, 0.48, 8, 5, 4), 0.032, 3.6),
+      stoneMat
+    );
+    terraceWall.position.set(-0.22, 0.62, -0.42);
+    terraceWall.userData.keepWithGlb = true;
+    group.add(terraceWall);
+
+    // Gnarled fig tree trunk & overarching canopy on the right
+    const treeGroup = new THREE.Group();
+    treeGroup.position.set(0.68, 0, -0.18);
+    treeGroup.userData.keepWithGlb = true;
+
+    const trunk = new THREE.Mesh(
+      this.displaceGeometry(new THREE.CylinderGeometry(0.24, 0.36, 2.25, 12, 6), 0.025, 3.4),
+      barkMat
+    );
+    trunk.position.y = 1.12;
+    treeGroup.add(trunk);
+
+    const canopyPositions = [
+      [0, 2.25, 0, 0.92],
+      [-0.65, 2.08, 0.25, 0.78],
+      [-1.18, 1.92, 0.35, 0.68],
+      [0.42, 2.15, 0.22, 0.72]
+    ];
+    for (const [cx, cy, cz, cr] of canopyPositions) {
+      const bough = new THREE.Mesh(
+        this.displaceGeometry(new THREE.SphereGeometry(cr, 12, 10), 0.04, 2.8),
+        leafMat
+      );
+      bough.scale.set(1.25, 0.68, 1.15);
+      bough.position.set(cx, cy, cz);
+      treeGroup.add(bough);
+    }
+
+    // Green-gold figs hanging under the boughs
+    for (let f = 0; f < 5; f++) {
+      const fig = new THREE.Mesh(new THREE.SphereGeometry(0.065, 8, 8), figGoldMat);
+      fig.position.set(-0.85 + f * 0.28, 1.65 + (f % 2) * 0.12, 0.28);
+      treeGroup.add(fig);
+    }
+    group.add(treeGroup);
+
+    // Four-legged rough-hewn wooden stool with stretchers in the shade
+    const stoolGroup = new THREE.Group();
+    stoolGroup.position.set(-0.28, 0, 0.16);
+    stoolGroup.userData.keepWithGlb = true;
+    const seat = new THREE.Mesh(new THREE.BoxGeometry(0.74, 0.08, 0.56), barkMat);
+    seat.position.y = 0.52;
+    stoolGroup.add(seat);
+    for (const [lx, lz] of [[-0.28, -0.20], [0.28, -0.20], [-0.28, 0.20], [0.28, 0.20]]) {
+      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.042, 0.048, 0.52, 8), barkMat);
+      leg.position.set(lx, 0.26, lz);
+      stoolGroup.add(leg);
+    }
+    group.add(stoolGroup);
+
+    // Round-bellied terracotta water pitcher beside the trunk
+    const pitcher = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.24, 0.64, 16), clayMat);
+    pitcher.position.set(0.32, 0.32, 0.24);
+    pitcher.userData.keepWithGlb = true;
+    group.add(pitcher);
+
+    const shadeLight = new THREE.PointLight(0xffeab3, isFinalePlaza ? 3.1 : 2.6, 17);
+    shadeLight.position.set(-0.15, 1.78, 0.42);
+    group.add(shadeLight);
+
+    return { group, treeGroup, stoolGroup, shadeLight };
+  }
+
+  // 2. Habakkuk 2:1–3 (#12 "the watchtower") — Creneled Stone Watchtower Parapet, Tattered Blue Pennant, Staff, Clay Tablets & Earthen Jar
+  createHabakkuk2WatchtowerParapetEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const stoneMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8d806d',
+      accentColor: '#e2d2b8',
+      roughness: 0.88,
+      map: propTex
+    });
+    const woodMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#634d36',
+      accentColor: '#c9a97c',
+      roughness: 0.82
+    });
+    const bannerMat = new THREE.MeshStandardMaterial({
+      color: 0x3b526b,
+      emissive: 0x22344a,
+      emissiveIntensity: 0.55,
+      roughness: 0.62,
+      side: THREE.DoubleSide
+    });
+    const tabletMat = new THREE.MeshStandardMaterial({
+      color: 0xf5e2b8,
+      emissive: 0xc4943d,
+      emissiveIntensity: 0.72,
+      roughness: 0.42
+    });
+
+    // Stepped stone watchtower parapet & battlements
+    const basePlatform = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(2.15, 0.44, 1.48, 6, 3, 5), 0.025, 3.4),
+      stoneMat
+    );
+    basePlatform.position.y = 0.22;
+    basePlatform.userData.keepWithGlb = true;
+    group.add(basePlatform);
+
+    const parapetWall = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.92, 1.18, 0.46, 8, 5, 4), 0.028, 3.6),
+      stoneMat
+    );
+    parapetWall.position.set(0, 0.98, -0.36);
+    parapetWall.userData.keepWithGlb = true;
+    group.add(parapetWall);
+
+    // Narrow embrasure turret on the left
+    const turret = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(0.68, 2.05, 0.62, 5, 7, 5), 0.028, 3.5),
+      stoneMat
+    );
+    turret.position.set(-0.68, 1.24, -0.34);
+    turret.userData.keepWithGlb = true;
+    group.add(turret);
+
+    // Tall lance pole & tattered indigo-blue watchman pennant
+    const bannerGroup = new THREE.Group();
+    bannerGroup.position.set(-0.56, 2.24, -0.34);
+    bannerGroup.userData.keepWithGlb = true;
+    const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.022, 0.028, 1.28, 8), woodMat);
+    pole.position.y = 0.58;
+    pole.rotation.z = -0.14;
+    const pennant = new THREE.Mesh(new THREE.PlaneGeometry(0.66, 0.36, 6, 3), bannerMat);
+    pennant.position.set(0.36, 0.96, 0);
+    bannerGroup.add(pole, pennant);
+    group.add(bannerGroup);
+
+    // Inscribed vision tablets & scroll laid on the right merlon ledge ("Write the vision, and make it plain on tablets")
+    const tablet = new THREE.Mesh(new THREE.BoxGeometry(0.46, 0.06, 0.32), tabletMat);
+    tablet.position.set(0.48, 1.60, -0.34);
+    tablet.rotation.y = 0.18;
+    tablet.userData.keepWithGlb = true;
+    group.add(tablet);
+
+    // Watchman's wooden staff & water jar resting against the inside of the parapet
+    const staff = new THREE.Mesh(new THREE.CylinderGeometry(0.024, 0.028, 1.42, 8), woodMat);
+    staff.position.set(-0.12, 1.05, -0.08);
+    staff.rotation.z = -0.16;
+    staff.userData.keepWithGlb = true;
+    group.add(staff);
+
+    const watchLight = new THREE.PointLight(0xffdfa0, isFinalePlaza ? 3.1 : 2.6, 17);
+    watchLight.position.set(0.25, 1.95, 0.35);
+    group.add(watchLight);
+
+    return { group, bannerGroup, watchLight };
+  }
+
+  // 3. Zechariah 4:1–6 (#28 "seven lamps") — Seven-Branched Golden Menorah Lampstand Flanked by Two Olive Trees Pouring Living Gold Oil
+  createZechariah4SevenLampsAndOliveTreesEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const goldMat = new THREE.MeshStandardMaterial({
+      color: 0xf7d368,
+      emissive: 0xc78d1e,
+      emissiveIntensity: 0.92,
+      roughness: 0.22,
+      metalness: 0.88
+    });
+    const flameMat = new THREE.MeshStandardMaterial({
+      color: 0xfff8cc,
+      emissive: 0xffb833,
+      emissiveIntensity: 1.75,
+      roughness: 0.15
+    });
+    const barkMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#5c523e',
+      accentColor: '#baa87c',
+      roughness: 0.86,
+      map: propTex
+    });
+    const oliveLeafMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#4d573d',
+      accentColor: '#b5ba82',
+      roughness: 0.65
+    });
+
+    // Central seven-branched golden lampstand (menorah)
+    const lampstandGroup = new THREE.Group();
+    lampstandGroup.userData.keepWithGlb = true;
+
+    // Stepped ornate golden pedestal base & central shaft
+    const base1 = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.46, 0.16, 24), goldMat);
+    base1.position.y = 0.08;
+    const base2 = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.30, 0.22, 20), goldMat);
+    base2.position.y = 0.26;
+    const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.068, 1.36, 16), goldMat);
+    shaft.position.y = 0.98;
+    lampstandGroup.add(base1, base2, shaft);
+
+    // Three concentric semicircular golden branches (6 outer + 1 center = 7 lamps)
+    for (const radius of [0.24, 0.46, 0.68]) {
+      const arc = new THREE.Mesh(new THREE.TorusGeometry(radius, 0.032, 10, 28, Math.PI), goldMat);
+      arc.rotation.z = Math.PI;
+      arc.position.y = 1.66;
+      lampstandGroup.add(arc);
+    }
+
+    const flamesGroup = new THREE.Group();
+    flamesGroup.userData.keepWithGlb = true;
+    const lampOffsets = [-0.68, -0.46, -0.24, 0, 0.24, 0.46, 0.68];
+    for (const lx of lampOffsets) {
+      const cup = new THREE.Mesh(new THREE.CylinderGeometry(0.072, 0.036, 0.09, 14), goldMat);
+      cup.position.set(lx, 1.68, 0);
+      lampstandGroup.add(cup);
+
+      const flame = new THREE.Mesh(new THREE.ConeGeometry(0.042, 0.15, 10), flameMat);
+      flame.position.set(lx, 1.80, 0);
+      flamesGroup.add(flame);
+    }
+    lampstandGroup.add(flamesGroup);
+    group.add(lampstandGroup);
+
+    // Two gnarled olive trees flanking left and right, dripping golden threads of oil without pressing
+    for (const side of [-1, 1]) {
+      const tree = new THREE.Group();
+      tree.position.set(side * 1.18, 0, -0.14);
+      tree.userData.keepWithGlb = true;
+
+      const trunk = new THREE.Mesh(
+        this.displaceGeometry(new THREE.CylinderGeometry(0.18, 0.28, 2.05, 10, 6), 0.028, 3.6),
+        barkMat
+      );
+      trunk.position.y = 1.02;
+      trunk.rotation.z = -side * 0.14;
+      tree.add(trunk);
+
+      const crown = new THREE.Mesh(
+        this.displaceGeometry(new THREE.SphereGeometry(0.68, 12, 10), 0.035, 3.0),
+        oliveLeafMat
+      );
+      crown.scale.set(1.15, 0.78, 0.95);
+      crown.position.set(-side * 0.24, 2.05, 0.05);
+      tree.add(crown);
+
+      // Golden oil stream threads pouring directly from the olive boughs toward the bowl
+      for (const streamOffset of [-0.14, 0.12]) {
+        const oilThread = new THREE.Mesh(new THREE.CylinderGeometry(0.009, 0.012, 1.18, 8), flameMat);
+        oilThread.position.set(-side * 0.34 + streamOffset, 1.32, 0.08);
+        tree.add(oilThread);
+      }
+      group.add(tree);
+    }
+
+    const menorahLight = new THREE.PointLight(0xffe680, isFinalePlaza ? 3.5 : 3.0, 18);
+    menorahLight.position.set(0, 1.95, 0.35);
+    group.add(menorahLight);
+
+    return { group, lampstandGroup, flamesGroup, menorahLight };
+  }
+
+  // 4. Malachi 3:14–17 (#38 "a book of memory") — Wooden Table with Unrolled Scroll of Remembrance, Two Clay Fellowship Cups & Lit Oil Lamp
+  createMalachi3BookOfRemembranceEnsemble(propTex = null, pal = {}, isFinalePlaza = false) {
+    const THREE = this.THREE;
+    const group = new THREE.Group();
+    group.userData.keepWithGlb = true;
+
+    const tableMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#6b5539',
+      accentColor: '#cfb182',
+      roughness: 0.84,
+      map: propTex
+    });
+    const parchmentMat = new THREE.MeshStandardMaterial({
+      color: 0xf7e7be,
+      emissive: 0xc29238,
+      emissiveIntensity: 0.72,
+      roughness: 0.42
+    });
+    const clayMat = this.painterly.createPainterlyMaterial({
+      baseColor: '#8d7a5e',
+      accentColor: '#dfd0b0',
+      roughness: 0.74
+    });
+    const flameMat = new THREE.MeshStandardMaterial({
+      color: 0xfff5bf,
+      emissive: 0xffaa2b,
+      emissiveIntensity: 1.65,
+      roughness: 0.2
+    });
+
+    // Heavy wooden table by the window ledge
+    const tableTop = new THREE.Mesh(
+      this.displaceGeometry(new THREE.BoxGeometry(1.95, 0.14, 1.12, 6, 2, 5), 0.015, 3.2),
+      tableMat
+    );
+    tableTop.position.set(0, 0.78, 0);
+    tableTop.userData.keepWithGlb = true;
+    group.add(tableTop);
+
+    for (const [lx, lz] of [[-0.78, -0.38], [0.78, -0.38], [-0.78, 0.38], [0.78, 0.38]]) {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.78, 0.12), tableMat);
+      leg.position.set(lx, 0.39, lz);
+      leg.userData.keepWithGlb = true;
+      group.add(leg);
+    }
+
+    // Unrolled double-roller parchment Book of Remembrance
+    const scrollGroup = new THREE.Group();
+    scrollGroup.position.set(-0.24, 0.88, -0.04);
+    scrollGroup.rotation.y = 0.28;
+    scrollGroup.userData.keepWithGlb = true;
+
+    const parchmentSheet = new THREE.Mesh(new THREE.BoxGeometry(0.78, 0.03, 0.62), parchmentMat);
+    scrollGroup.add(parchmentSheet);
+
+    for (const rx of [-0.40, 0.40]) {
+      const roller = new THREE.Mesh(new THREE.CylinderGeometry(0.058, 0.058, 0.76, 14), tableMat);
+      roller.rotation.x = Math.PI / 2;
+      roller.position.set(rx, 0.04, 0);
+      scrollGroup.add(roller);
+    }
+    group.add(scrollGroup);
+
+    // Two handleless clay conversation cups side by side ("those who feared Yahweh spoke one with another")
+    for (const [cx, cz] of [[0.28, 0.24], [0.54, 0.20]]) {
+      const cup = new THREE.Mesh(new THREE.CylinderGeometry(0.088, 0.068, 0.16, 14), clayMat);
+      cup.position.set(cx, 0.93, cz);
+      cup.userData.keepWithGlb = true;
+      group.add(cup);
+    }
+
+    // Small terracotta spouted oil lamp & saucer with warm living flame
+    const lampGroup = new THREE.Group();
+    lampGroup.position.set(0.62, 0.88, -0.18);
+    lampGroup.userData.keepWithGlb = true;
+    const saucer = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.10, 0.04, 16), clayMat);
+    const bowl = new THREE.Mesh(new THREE.CylinderGeometry(0.10, 0.06, 0.08, 16), clayMat);
+    bowl.position.y = 0.05;
+    const flame = new THREE.Mesh(new THREE.ConeGeometry(0.036, 0.14, 10), flameMat);
+    flame.position.set(-0.02, 0.15, 0);
+    lampGroup.add(saucer, bowl, flame);
+    group.add(lampGroup);
+
+    const memoryLight = new THREE.PointLight(0xffe49e, isFinalePlaza ? 3.1 : 2.6, 16);
+    memoryLight.position.set(0.35, 1.55, 0.25);
+    group.add(memoryLight);
+
+    return { group, scrollGroup, lampGroup, memoryLight };
+  }
 }

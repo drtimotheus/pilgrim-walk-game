@@ -516,6 +516,7 @@ class PilgrimWalkApp {
       await this.switchDistrict(initialSlug, true);
       await this.dailyWalk.init();
       this.initOneTimeIntroNarrator();
+      this.initProgressExportPromptBanner();
 
       const loadingScreen = document.getElementById('loading-screen');
       if (loadingScreen) loadingScreen.classList.add('fade-out');
@@ -1870,6 +1871,10 @@ class PilgrimWalkApp {
 
     // Top HUD & District Switcher buttons
     document.getElementById('btn-gatehouse').addEventListener('click', () => this.openModal('gatehouse-modal'));
+    const btnExportHud = document.getElementById('btn-export-progress-hud');
+    if (btnExportHud) {
+      btnExportHud.addEventListener('click', () => this.openProgressExportBridge());
+    }
     document.getElementById('btn-long-scroll').addEventListener('click', () => this.openModal('scroll-modal'));
     document.getElementById('btn-cover-shelf').addEventListener('click', () => this.openModal('shelf-modal'));
     const btnTripo = document.getElementById('btn-tripo-studio');
@@ -2096,6 +2101,29 @@ class PilgrimWalkApp {
       });
     }
 
+    // In-Game Export Your Progress Code Prompt Banner Controls
+    const btnProgCopy = document.getElementById('btn-progress-banner-copy');
+    if (btnProgCopy) {
+      btnProgCopy.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.copyProgressCode();
+      });
+    }
+    const btnProgOpen = document.getElementById('btn-progress-banner-open');
+    if (btnProgOpen) {
+      btnProgOpen.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.openProgressExportBridge();
+      });
+    }
+    const btnProgDismiss = document.getElementById('btn-progress-banner-dismiss');
+    if (btnProgDismiss) {
+      btnProgDismiss.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.dismissProgressExportPromptBanner();
+      });
+    }
+
     const btnGraphics = document.getElementById('btn-graphics-quality');
     if (btnGraphics) {
       btnGraphics.addEventListener('click', () => {
@@ -2193,6 +2221,7 @@ class PilgrimWalkApp {
     const scrollBtn = document.getElementById('btn-long-scroll');
     const shelfBtn = document.getElementById('btn-cover-shelf');
     const introBtn = document.getElementById('btn-gatehouse');
+    const exportHudBtn = document.getElementById('btn-export-progress-hud');
     const workshopBtn = document.getElementById('btn-tripo-studio');
     const postcardBtn = document.getElementById('btn-postcard-snapshot');
     const backStreetBtn = document.getElementById('back-to-street-btn');
@@ -2202,6 +2231,7 @@ class PilgrimWalkApp {
     if (scrollBtn) scrollBtn.textContent = zh ? this.zh('📜 全部 44 卷') : '📜 All 44 Books';
     if (shelfBtn) shelfBtn.textContent = zh ? this.zh('📚 44 卷书架') : '📚 44-Book Shelf';
     if (introBtn) introBtn.textContent = zh ? this.zh('📖 导言') : '📖 Intro';
+    if (exportHudBtn) exportHudBtn.textContent = zh ? this.zh('🔑 进度码 (PW1)') : '🔑 Save Code (PW1)';
     if (workshopBtn) workshopBtn.textContent = zh ? this.zh('🗿 圣物工坊') : '🗿 Relic Workshop';
     if (postcardBtn) postcardBtn.textContent = zh ? this.zh('📷 明信片') : '📷 Postcard';
     if (backStreetBtn) backStreetBtn.textContent = zh ? this.zh('← 返回主街道') : '← Back to the street';
@@ -2390,6 +2420,92 @@ class PilgrimWalkApp {
     }
     if (statusEl) {
       statusEl.textContent = customStatusMsg || this.getProgressSummaryText(this.saveData);
+    }
+    this.syncProgressExportBannerUI();
+  }
+
+  hasAnySavedProgress(save = this.saveData) {
+    if (!save || typeof save !== 'object') return false;
+    return (
+      (save.lightsKindled && save.lightsKindled.length > 0) ||
+      (save.paintingsSeen && save.paintingsSeen.length > 0) ||
+      (save.scenesVisited && save.scenesVisited.length > 0) ||
+      (save.relicsInspected && save.relicsInspected.length > 0) ||
+      (save.districtsCompleted && save.districtsCompleted.length > 0) ||
+      (save.currentDistrictSlug && save.currentDistrictSlug !== 'genesis') ||
+      (save.dailyWalk?.completedDays && save.dailyWalk.completedDays.length > 0) ||
+      (save.dailyWalk?.currentDay && save.dailyWalk.currentDay > 1) ||
+      Object.keys(save.dailyWalk?.journalNotes || {}).length > 0
+    );
+  }
+
+  initProgressExportPromptBanner() {
+    this.syncProgressExportBannerUI();
+    const banner = document.getElementById('progress-export-banner');
+    if (!banner) return;
+    let dismissed = false;
+    try {
+      dismissed = sessionStorage.getItem('pilgrim_progress_export_banner_dismissed') === '1';
+    } catch (_) {}
+    if (!dismissed) {
+      banner.classList.remove('hidden');
+    }
+  }
+
+  syncProgressExportBannerUI() {
+    const zh = this.isZh();
+    const titleEl = document.getElementById('progress-export-banner-title');
+    const descEl = document.getElementById('progress-export-banner-desc');
+    const copyBtn = document.getElementById('btn-progress-banner-copy');
+    const openBtn = document.getElementById('btn-progress-banner-open');
+    const dismissBtn = document.getElementById('btn-progress-banner-dismiss');
+    const hasProgress = this.hasAnySavedProgress();
+
+    if (titleEl) {
+      titleEl.textContent = zh
+        ? this.zh('🔑 导出您的天路进度码 (PW1) · 跨网址保存进度')
+        : '🔑 Export Your Progress Code · Carry Your Save';
+    }
+    if (descEl) {
+      descEl.innerHTML = zh
+        ? this.zh(
+            `浏览器存档不会自动跨网址同步。请复制您的 <strong>PW1 进度码</strong>（${this.getProgressSummaryText(
+              this.saveData
+            )}），以便在新网址或任何设备上粘贴恢复您的明灯、书卷与每日同行连续记录。`
+          )
+        : `Browser saves do not carry across web addresses automatically. Copy your <strong>PW1 Progress Code</strong> now${
+            hasProgress ? ` (${this.getProgressSummaryText(this.saveData)})` : ''
+          } so you can import your Lights, completed Books, and Daily Walk streak on our new address or any device.`;
+    }
+    if (copyBtn) {
+      copyBtn.textContent = zh ? this.zh('📋 复制我的 PW1 进度码') : '📋 Copy My PW1 Code';
+    }
+    if (openBtn) {
+      openBtn.textContent = zh ? this.zh('✦ 打开备份与导入窗口') : '✦ Open Backup & Import Bridge';
+    }
+    if (dismissBtn) {
+      dismissBtn.textContent = zh ? this.zh('✕ 收起') : '✕ Dismiss';
+    }
+  }
+
+  dismissProgressExportPromptBanner() {
+    try {
+      sessionStorage.setItem('pilgrim_progress_export_banner_dismissed', '1');
+    } catch (_) {}
+    const banner = document.getElementById('progress-export-banner');
+    if (banner) banner.classList.add('hidden');
+  }
+
+  openProgressExportBridge() {
+    this.openModal('gatehouse-modal');
+    this.refreshProgressCodeUI();
+    const card = document.getElementById('gatehouse-progress-transfer');
+    if (card) {
+      setTimeout(() => {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const outInput = document.getElementById('gh-progress-code-output');
+        if (outInput) outInput.select();
+      }, 60);
     }
   }
 

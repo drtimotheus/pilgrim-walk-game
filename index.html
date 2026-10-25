@@ -282,6 +282,37 @@
       font-style: italic;
     }
 
+    /* In-Game Export Your Progress Code Prompt Banner (Save Bridge Across Web Addresses) */
+    #progress-export-banner {
+      position: fixed;
+      top: 108px;
+      right: 18px;
+      z-index: 44;
+      width: min(460px, 92vw);
+      background: linear-gradient(135deg, rgba(35, 26, 17, 0.96) 0%, rgba(24, 17, 11, 0.97) 100%);
+      border: 1.5px solid #e2bc73;
+      border-radius: 14px;
+      padding: 12px 15px;
+      color: #f7eedc;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.65), 0 0 20px rgba(226, 188, 115, 0.24);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      pointer-events: auto;
+      backdrop-filter: blur(8px);
+    }
+    #progress-export-banner.hidden {
+      display: none !important;
+    }
+    @media (max-width: 820px) {
+      #progress-export-banner {
+        top: 64px;
+        right: 8px;
+        left: 8px;
+        width: auto;
+      }
+    }
+
     /* One-Time Intro Audible Narrator Floating Banner & How-to-Play Card */
     #intro-narrator-banner {
       position: fixed;
@@ -1093,6 +1124,7 @@
       <button id="btn-long-scroll" class="hud-pill hud-collapsible">📜 All 44 Books</button>
       <button id="btn-cover-shelf" class="hud-pill hud-collapsible">📚 44-Book Shelf</button>
       <button id="btn-gatehouse" class="hud-pill hud-collapsible">📖 Intro</button>
+      <button id="btn-export-progress-hud" class="hud-pill hud-collapsible dw-gold-pill" title="Export or Restore your PW1 Pilgrim Progress Code">🔑 Save Code (PW1)</button>
       <button id="btn-tripo-studio" class="hud-pill hud-collapsible">🗿 Relic Workshop</button>
       <button id="btn-postcard-snapshot" class="hud-pill hud-collapsible" title="Capture a Framed Pilgrim Postcard [P]">📷 Postcard</button>
     </div>
@@ -1156,6 +1188,29 @@
 
   <!-- Toast Message -->
   <div id="pilgrim-toast" class="hidden"></div>
+
+  <!-- In-Game Export Your Progress Code Prompt (Save Bridge Across Web Addresses) -->
+  <div id="progress-export-banner" class="hidden" role="region" aria-label="Export Your Pilgrim Progress Code">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">
+      <div id="progress-export-banner-title" style="font-size:0.76rem;text-transform:uppercase;letter-spacing:0.11em;color:#f3cf85;font-weight:bold;">
+        🔑 Export Your Progress Code · Carry Your Save
+      </div>
+      <button id="btn-progress-banner-dismiss" type="button" class="gold-btn" style="padding:3px 9px;font-size:0.74rem;opacity:0.88;">
+        ✕ Dismiss
+      </button>
+    </div>
+    <div id="progress-export-banner-desc" style="font-size:0.84rem;line-height:1.45;color:#f4ead6;">
+      Browser saves do not carry across web addresses automatically. Copy your <strong>PW1 Progress Code</strong> now so you can import your Lights, completed Books, and Daily Walk streak on our new address or any device.
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+      <button id="btn-progress-banner-copy" type="button" class="gold-btn" style="padding:6px 13px;font-size:0.8rem;">
+        📋 Copy My PW1 Code
+      </button>
+      <button id="btn-progress-banner-open" type="button" class="gold-btn" style="padding:6px 13px;font-size:0.8rem;">
+        ✦ Open Backup &amp; Import Bridge
+      </button>
+    </div>
+  </div>
 
   <!-- One-Time Intro Audible Narrator Banner (Auto-plays once on first entry, replayable anytime) -->
   <div id="intro-narrator-banner" class="hidden" role="region" aria-label="Welcome & How to Play Audio Guide">
@@ -1426,6 +1481,6 @@
     </div>
   </div>
 
-  <script type="module" src="src/main.js?v=44_70"></script>
+  <script type="module" src="src/main.js?v=44_71"></script>
 </body>
 </html>
